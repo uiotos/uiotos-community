@@ -1,0 +1,88 @@
+{
+    "modified": "Sun Mar 12 2023 18:16:20 GMT+0800 (中国标准时间)",
+    "dataBindings": [{
+            "attr": "ht.series",
+            "valueType": "Object",
+            "name": "ChartSeries"
+        },
+        {
+            "attr": "ht.xAxis",
+            "valueType": "Object",
+            "name": "ChartXAxis"
+        },
+        {
+            "attr": "ht.yAxis",
+            "valueType": "Object",
+            "name": "ChartYAxis"
+        },
+        {
+            "attr": "ht.colors",
+            "valueType": "ColorArray",
+            "name": "ChartColors"
+        },
+        {
+            "attr": "ht.background",
+            "valueType": "Color",
+            "name": "UIBackground"
+        },
+        {
+            "attr": "ht.boundaryGap",
+            "valueType": "Boolean",
+            "name": "ChartBoundaryGap"
+        },
+        {
+            "attr": "axisData",
+            "valueType": "Object"
+        },
+        {
+            "attr": "seriesData1",
+            "valueType": "Object"
+        },
+        {
+            "attr": "seriesData2",
+            "valueType": "Object"
+        },
+        {
+            "attr": "ht.tooltipFormatter",
+            "valueType": "Function",
+            "name": "提示格式化",
+            "extraInfo": {
+                "arguments": [
+                    "info",
+                    "data",
+                    "view"
+                ]
+            }
+        },
+        {
+            "attr": "seriesData3",
+            "valueType": "Object"
+        }
+    ],
+    "width": 420,
+    "height": 280,
+    "boundExtend": 10,
+    "fitSize": true,
+    "interactive": true,
+    "pixelPerfect": false,
+    "attachStyle": "close",
+    "comps": [{
+        "type": "components/develop/uiotos/base/chart.json",
+        "displayName": "chart",
+        "rect": [
+            0,
+            0,
+            420,
+            280
+        ],
+        "onClick": "__ht__function(event, data, view, point, width, height) {\nht.vector.chartInteractor.onClick.apply(this, arguments);\n}",
+        "onDown": "__ht__function(event, data, view, point, width, height) {\nht.vector.chartInteractor.onDown.apply(this, arguments);\n}",
+        "onUp": "__ht__function(event, data, view, point, width, height) {\nht.vector.chartInteractor.onUp.apply(this, arguments);\n}",
+        "onMove": "__ht__function(event, data, view, point, width, height) {\nht.vector.chartInteractor.onMove.apply(this, arguments);\n}",
+        "onEnter": "__ht__function(event, data, view, point, width, height) {\nht.vector.chartInteractor.onEnter.apply(this, arguments);\n}",
+        "onLeave": "__ht__function(event, data, view, point, width, height) {\nht.vector.chartInteractor.onLeave.apply(this, arguments);\n}",
+        "onBeginDrag": "__ht__function(event, data, view, point, width, height) {\nht.vector.chartInteractor.onBeginDrag.apply(this, arguments);\n}",
+        "onDrag": "__ht__function(event, data, view, point, width, height) {\nht.vector.chartInteractor.onDrag.apply(this, arguments);\n}",
+        "onEndDrag": "__ht__function(event, data, view, point, width, height) {\nht.vector.chartInteractor.onEndDrag.apply(this, arguments);\n}"
+    }]
+}

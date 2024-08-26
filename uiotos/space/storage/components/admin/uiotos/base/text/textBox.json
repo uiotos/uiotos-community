@@ -1,0 +1,144 @@
+{
+  "modified": "Fri Jul 29 2022 09:15:46 GMT+0800 (中国标准时间)",
+  "width": 100,
+  "height": 100,
+  "snapshotURL": "",
+  "func": "__ht__function(g, rect, comp, data, view) {\nht.vector.comp.textBox.apply(this, arguments);\n}",
+  "properties": {
+    "content": {
+      "valueType": "Multiline",
+      "defaultValue": "HT for Web\n构建先进2D和3D可视化所需要的一切",
+      "name": "editor.content"
+    },
+    "autoScale": {
+      "valueType": "Boolean",
+      "defaultValue": true,
+      "name": "UIAutoScale"
+    },
+    "wordBreak": {
+      "valueType": "Boolean",
+      "defaultValue": false,
+      "name": "UIWordBreak"
+    },
+    "font": {
+      "valueType": "Font",
+      "defaultValue": "14px sans-serif, Arial",
+      "name": "UIFont"
+    },
+    "textAlign": {
+      "valueType": "Align",
+      "defaultValue": "left",
+      "name": "editor.valuetype.align"
+    },
+    "vAlign": {
+      "valueType": "VAlign",
+      "defaultValue": "middle",
+      "name": "editor.valuetype.valign"
+    },
+    "color": {
+      "valueType": "Color",
+      "defaultValue": "rgb(0,0,0)",
+      "name": "editor.color"
+    },
+    "lineHeight": {
+      "valueType": "PositiveNumber",
+      "defaultValue": 18,
+      "name": "UILineHeight"
+    },
+    "background": {
+      "valueType": "Color",
+      "defaultValue": null,
+      "name": "UIBackground"
+    },
+    "bgGradient": {
+      "valueType": "Gradient",
+      "defaultValue": null,
+      "name": "editor.gradient"
+    },
+    "bgGradientColor": {
+      "valueType": "Color",
+      "defaultValue": "rgb(255,255,255)",
+      "name": "editor.gradientcolor"
+    },
+    "padding": {
+      "valueType": "String",
+      "defaultValue": "0",
+      "name": "UIPadding"
+    },
+    "fillContent": {
+      "valueType": "Boolean",
+      "defaultValue": false,
+      "name": "UIFillContent"
+    },
+    "underline": {
+      "valueType": "Boolean",
+      "defaultValue": false,
+      "name": "显示下划线"
+    },
+    "scrollable": {
+      "valueType": "Boolean",
+      "defaultValue": false,
+      "name": "可滚动",
+      "group": "滚动"
+    },
+    "translateX": {
+      "valueType": "Number",
+      "defaultValue": 0,
+      "name": "横向偏移值"
+    },
+    "translateY": {
+      "valueType": "Number",
+      "defaultValue": 0,
+      "name": "纵向偏移值"
+    },
+    "scrollBarWidth": {
+      "valueType": "PositiveNumber",
+      "defaultValue": 8,
+      "name": "滚动条宽"
+    },
+    "autoHideScrollBar": {
+      "valueType": "Boolean",
+      "defaultValue": false,
+      "name": "自动隐藏滚动条"
+    },
+    "scrollBarWidthAbsolute": {
+      "valueType": "Boolean",
+      "defaultValue": false,
+      "name": "滚动条绝对宽"
+    },
+    "scrollBarColor": {
+      "valueType": "Color",
+      "defaultValue": "#FEB64D",
+      "name": "滚动条颜色"
+    },
+    "borderWidth": {
+      "valueType": "PositiveNumber",
+      "defaultValue": 0,
+      "name": "UIBorderWidth",
+      "group": "editor.titleborder"
+    },
+    "borderColor": {
+      "valueType": "Color",
+      "defaultValue": "rgb(61,61,61)",
+      "name": "UIBorderColor"
+    },
+    "borderRadius": {
+      "valueType": "String",
+      "defaultValue": "0",
+      "name": "UIBorderRadius"
+    },
+    "dash": {
+      "valueType": "Boolean",
+      "defaultValue": false,
+      "name": "editor.dash"
+    },
+    "dashPattern": {
+      "valueType": "NumberArray",
+      "defaultValue": [
+        8,
+        8
+      ],
+      "name": "editor.pattern"
+    }
+  }
+}

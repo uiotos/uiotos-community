@@ -1,0 +1,94 @@
+{
+  "modified": "Mon Jun 07 2021 09:51:35 GMT+0800 (中国标准时间)",
+  "width": 300,
+  "height": 260,
+  "func": "__ht__function(g, rect, comp, data, view) {\nht.vector.comp.valueAxisChart.apply(null, arguments);\n}",
+  "properties": {
+    "series": {
+      "valueType": "Object",
+      "defaultValue": [
+        {
+          "type": "line",
+          "data": [
+            [
+              10,
+              20
+            ],
+            [
+              30,
+              20
+            ],
+            [
+              10,
+              70
+            ]
+          ]
+        }
+      ],
+      "name": "系列"
+    },
+    "xAxis": {
+      "valueType": "Object",
+      "name": "横轴"
+    },
+    "yAxis": {
+      "valueType": "Object",
+      "name": "纵轴"
+    },
+    "colors": {
+      "valueType": "ColorArray",
+      "defaultValue": [
+        "rgb(51,153,255)",
+        "rgb(93,217,174)",
+        "#FEB64D",
+        "rgb(241,125,164)",
+        "rgb(135,144,204)",
+        "rgb(124,145,155)",
+        "rgb(48,242,120)",
+        "rgb(212,0,0)",
+        "#32D3EB",
+        "#c4ccd3"
+      ],
+      "name": "颜色数组"
+    },
+    "background": {
+      "valueType": "Color",
+      "defaultValue": null,
+      "name": "背景"
+    },
+    "clipMode": {
+      "valueType": "Boolean",
+      "defaultValue": false,
+      "name": "裁切模式"
+    },
+    "tooltip": {
+      "valueType": "Boolean",
+      "defaultValue": true,
+      "name": "提示",
+      "group": "提示"
+    },
+    "tooltipFormatter": {
+      "valueType": "Function",
+      "name": "提示格式化",
+      "extraInfo": {
+        "arguments": [
+          "info",
+          "data",
+          "view"
+        ]
+      }
+    }
+  },
+  "events": {
+    "onClick": "__ht__function(event, data, view, point, width, height) {\nht.vector.valueAxisChartInteractor.onClick.apply(this, arguments);\n}",
+    "onDown": "__ht__function(event, data, view, point, width, height) {\nht.vector.valueAxisChartInteractor.onDown.apply(this, arguments);\n}",
+    "onUp": "__ht__function(event, data, view, point, width, height) {\nht.vector.valueAxisChartInteractor.onUp.apply(this, arguments);\n}",
+    "onMove": "__ht__function(event, data, view, point, width, height) {\nht.vector.valueAxisChartInteractor.onMove.apply(this, arguments);\n}",
+    "onEnter": "__ht__function(event, data, view, point, width, height) {\nht.vector.valueAxisChartInteractor.onEnter.apply(this, arguments);\n}",
+    "onLeave": "__ht__function(event, data, view, point, width, height) {\nht.vector.valueAxisChartInteractor.onLeave.apply(this, arguments);\n}",
+    "onBeginDrag": "__ht__function(event, data, view, point, width, height) {\nht.vector.valueAxisChartInteractor.onBeginDrag.apply(this, arguments);\n}",
+    "onDrag": "__ht__function(event, data, view, point, width, height) {\nht.vector.valueAxisChartInteractor.onDrag.apply(this, arguments);\n}",
+    "onEndDrag": "__ht__function(event, data, view, point, width, height) {\nht.vector.valueAxisChartInteractor.onEndDrag.apply(this, arguments);\n}",
+    "onScroll": "__ht__function(event, data, view, point, width, height) {\nht.vector.valueAxisChartInteractor.onScroll.apply(this, arguments);\n}"
+  }
+}

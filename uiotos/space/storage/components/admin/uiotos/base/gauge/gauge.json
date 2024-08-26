@@ -1,0 +1,132 @@
+{
+  "width": 200,
+  "height": 200,
+  "func": "__ht__function(g, rect, comp, data, view) {\nht.vector.comp.gauge.apply(null, arguments);\n}",
+  "properties": {
+    "startAngle": {
+      "valueType": "Angle",
+      "defaultValue": 135,
+      "name": "ChartStartAngle"
+    },
+    "endAngle": {
+      "valueType": "Angle",
+      "defaultValue": 360,
+      "name": "ChartEndAngle"
+    },
+    "pointerRadius": {
+      "valueType": "PositiveNumber",
+      "defaultValue": 0.8,
+      "name": "ChartPointerRadius"
+    },
+    "pointerColor": {
+      "valueType": "Color",
+      "defaultValue": "rgb(48,242,120)",
+      "name": "ChartPointerColor"
+    },
+    "value": {
+      "valueType": "Number",
+      "defaultValue": 0,
+      "name": "ChartValue"
+    },
+    "min": {
+      "valueType": "Number",
+      "defaultValue": 0,
+      "name": "ChartMinValue"
+    },
+    "max": {
+      "valueType": "Number",
+      "defaultValue": 100,
+      "name": "ChartMaxValue"
+    },
+    "clockwise": {
+      "valueType": "Boolean",
+      "defaultValue": true,
+      "name": "ChartClockwise"
+    },
+    "showLabel": {
+      "valueType": "Boolean",
+      "defaultValue": true,
+      "name": "ChartShowLabel"
+    },
+    "labelEvery": {
+      "valueType": "PositiveNumber",
+      "defaultValue": 10,
+      "name": "ChartLabelEvery"
+    },
+    "labelColor": {
+      "valueType": "Color",
+      "defaultValue": "#FEB64D",
+      "name": "ChartLabelColor"
+    },
+    "labelFont": {
+      "valueType": "String",
+      "defaultValue": "12px arial, sans-serif",
+      "name": "ChartLabelFont"
+    },
+    "labelRadius": {
+      "valueType": "PositiveNumber",
+      "defaultValue": 0.75,
+      "name": "ChartLabelRadius"
+    },
+    "showTick": {
+      "valueType": "Boolean",
+      "defaultValue": true,
+      "name": "ChartShowTick"
+    },
+    "tickEvery": {
+      "valueType": "PositiveNumber",
+      "defaultValue": 5,
+      "name": "ChartTickEvery"
+    },
+    "tickColor": {
+      "valueType": "Color",
+      "defaultValue": "#32D3EB",
+      "name": "ChartTickColor"
+    },
+    "tickWidth": {
+      "valueType": "PositiveNumber",
+      "defaultValue": 1,
+      "name": "ChartTickWidth"
+    },
+    "bigTickEvery": {
+      "valueType": "PositiveNumber",
+      "defaultValue": 0,
+      "name": "ChartBigTickEvery"
+    },
+    "bigTickColor": {
+      "valueType": "Color",
+      "defaultValue": "#60ACFC",
+      "name": "ChartBigTickColor"
+    },
+    "bigTickWidth": {
+      "valueType": "PositiveNumber",
+      "defaultValue": 2,
+      "name": "ChartBigTickWidth"
+    },
+    "showShadow": {
+      "valueType": "Boolean",
+      "defaultValue": false,
+      "name": "editor.shadow"
+    },
+    "shadowColor": {
+      "valueType": "Color",
+      "defaultValue": "rgb(247,247,247)",
+      "name": "editor.shadowcolor"
+    },
+    "shadowBlur": {
+      "valueType": "PositiveNumber",
+      "defaultValue": 20,
+      "name": "editor.shadowblur"
+    },
+    "shadowOffsetX": {
+      "valueType": "PositiveNumber",
+      "defaultValue": 0,
+      "name": "editor.shadowoffsetx"
+    },
+    "shadowOffsetY": {
+      "valueType": "PositiveNumber",
+      "defaultValue": 0,
+      "name": "editor.shadowoffsety"
+    }
+  }
+}

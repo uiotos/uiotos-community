@@ -1,0 +1,140 @@
+{
+    "v": "7.3.3",
+    "p": {
+        "autoAdjustIndex": true,
+        "hierarchicalRendering": true
+    },
+    "a": {
+        "rotateAsClock": false,
+        "gridBlockSize": 20,
+        "gridThickColor": "rgba(100,100,100,0.2)",
+        "gridLightColor": "rgba(127,127,127,0.1)",
+        "connectActionType": null,
+        "fitContent": false,
+        "zoomable": false,
+        "pannable": false,
+        "rectSelectable": false,
+        "onPostDeserialize": "__ht__function(json, dm, gv, datas) {}"
+    },
+    "d": [{
+            "c": "ht.Node",
+            "i": 7907,
+            "p": {
+                "position": {
+                    "x": 399.60945,
+                    "y": 187.25422
+                },
+                "width": 360.89596,
+                "height": 90
+            },
+            "s": {
+                "shape": "rect",
+                "shape.background": "rgb(255,255,255)",
+                "shape.border.color": "#979797",
+                "interactive": true,
+                "image.stretch": "uniform",
+                "fullscreen": "fill",
+                "fullscreen.gap": 0
+            }
+        },
+        {
+            "c": "ht.Node",
+            "i": 7908,
+            "p": {
+                "displayName": "input-ui",
+                "tag": "input-ui1",
+                "dataBindings": {
+                    "a": {
+                        "labelText": {
+                            "id": "iotos.form",
+                            "func": "__ht__function formParser(rawData) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}",
+                            "idinfo": "",
+                            "isTplBinded": false
+                        },
+                        "value": {
+                            "id": "iotos.form",
+                            "func": "__ht__function formParser(rawData) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}",
+                            "idinfo": "",
+                            "isTplBinded": false
+                        },
+                        "instantTrigger": {
+                            "id": "iotos.form",
+                            "idinfo": "",
+                            "isTplBinded": false,
+                            "func": "function formParser(rawData) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+                        },
+                        "onChange": {
+                            "id": "iotos.form",
+                            "idinfo": "",
+                            "isTplBinded": false,
+                            "func": "function formParser(rawData) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+                        }
+                    }
+                },
+                "image": "symbols/develop/uiotos/base/input-ui.json",
+                "host": {
+                    "__i": 7907
+                },
+                "position": {
+                    "x": 391.86533,
+                    "y": 187.25422
+                },
+                "width": 304.30605,
+                "height": 35
+            },
+            "s": {
+                "interactive": true,
+                "image.stretch": "uniform",
+                "layout.v": "center",
+                "layout.h": "leftright"
+            },
+            "a": {
+                "layoutVertical": false,
+                "gap": 15,
+                "labelText": "输入新名称：",
+                "font": "12px sans-serif, Arial",
+                "iconPath": "symbols/demo/uiotos/icons/light/search.json",
+                "value": null,
+                "color": "rgb(0,0,0)",
+                "labelEmbeded": true
+            }
+        },
+        {
+            "c": "ht.Text",
+            "i": 7909,
+            "p": {
+                "displayName": "dataBackup",
+                "tag": "dataBackup",
+                "dataBindings": {
+                    "s": {
+                        "text": {
+                            "id": "iotos.form",
+                            "func": "__ht__function formParser(rawData) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}",
+                            "idinfo": "",
+                            "isTplBinded": false
+                        }
+                    }
+                },
+                "position": {
+                    "x": 296.05695,
+                    "y": 179.02203
+                },
+                "width": 3.59318,
+                "height": 0.001
+            },
+            "s": {
+                "text": "文本",
+                "interactive": true,
+                "2d.visible": false,
+                "image.stretch": "uniform"
+            }
+        }
+    ],
+    "modified": "Mon Feb 13 2023 22:07:21 GMT+0800 (中国标准时间)",
+    "contentRect": {
+        "x": 219.16147,
+        "y": 142.25422,
+        "width": 360.89596,
+        "height": 90
+    }
+}

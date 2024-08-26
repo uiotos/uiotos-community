@@ -1,0 +1,296 @@
+{
+    "modified": "Mon Aug 22 2022 11:54:34 GMT+0800 (中国标准时间)",
+    "background": "rgb(32,37,46)",
+    "dataBindings": [{
+            "attr": "username",
+            "valueType": "String",
+            "name": "UIFormItemValue"
+        },
+        {
+            "attr": "placeholder",
+            "valueType": "String",
+            "name": "UIPlaceHolder"
+        },
+        {
+            "attr": "placeholderColor",
+            "valueType": "Color"
+        },
+        {
+            "attr": "borderColor",
+            "valueType": "Color",
+            "name": "UIBorderColor",
+            "defaultValue": "rgb(221,221,221)"
+        },
+        {
+            "attr": "focusBorderColor",
+            "valueType": "Color",
+            "name": "UIFocusBorderColor"
+        },
+        {
+            "attr": "borderRadius",
+            "valueType": "String",
+            "name": "UIBorderRadius",
+            "defaultValue": "3"
+        },
+        {
+            "attr": "padding",
+            "valueType": "String",
+            "name": "UIPadding",
+            "defaultValue": "3"
+        },
+        {
+            "attr": "background",
+            "valueType": "Color",
+            "name": "UIBackground",
+            "defaultValue": "rgb(255,255,255)"
+        },
+        {
+            "attr": "focusBackground",
+            "valueType": "Color",
+            "name": "UIFocusBackground"
+        },
+        {
+            "attr": "iconAlign",
+            "valueType": "Align",
+            "name": "UIIcoAlign",
+            "defaultValue": "right"
+        },
+        {
+            "attr": "font",
+            "valueType": "Font",
+            "name": "UIFont"
+        },
+        {
+            "attr": "textAlign",
+            "valueType": "Align",
+            "name": "UITextAlign"
+        },
+        {
+            "attr": "textColor",
+            "valueType": "Color",
+            "name": "UITextColor"
+        },
+        {
+            "attr": "maxLength",
+            "valueType": "PositiveNumber",
+            "name": "UIMaxLength"
+        },
+        {
+            "attr": "inputType",
+            "valueType": "String",
+            "name": "UIInputType",
+            "extraInfo": {
+                "enum": {
+                    "values": [
+                        "text",
+                        "password"
+                    ]
+                }
+            }
+        },
+        {
+            "attr": "enterEndInputable",
+            "valueType": "Boolean",
+            "name": "UIEnterEndInputable"
+        },
+        {
+            "attr": "selectTextOnFocus",
+            "valueType": "Boolean",
+            "name": "UISelectTextOnFocus"
+        },
+        {
+            "attr": "formatter",
+            "valueType": "Function",
+            "name": "UIFormat",
+            "extraInfo": {
+                "arguments": [
+                    "value",
+                    "data",
+                    "view"
+                ]
+            }
+        },
+        {
+            "attr": "onKeyDown",
+            "valueType": "Function",
+            "name": "UIOnKeyDown",
+            "extraInfo": {
+                "arguments": [
+                    "event",
+                    "data",
+                    "view"
+                ]
+            }
+        },
+        {
+            "attr": "onKeyUp",
+            "valueType": "Function",
+            "name": "UIOnKeyUp",
+            "extraInfo": {
+                "arguments": [
+                    "event",
+                    "data",
+                    "view"
+                ]
+            }
+        },
+        {
+            "attr": "onChange",
+            "valueType": "Function",
+            "name": "UIOnChange",
+            "extraInfo": {
+                "arguments": [
+                    "value",
+                    "data",
+                    "view"
+                ]
+            }
+        },
+        {
+            "attr": "iconColor",
+            "valueType": "Color",
+            "name": "颜色",
+            "group": "图标",
+            "defaultValue": "rgb(124,145,155)"
+        },
+        {
+            "attr": "path",
+            "valueType": "Image",
+            "name": "名称",
+            "group": "图标",
+            "defaultValue": "search"
+        },
+        {
+            "attr": "iconHeight",
+            "valueType": "PositiveNumber",
+            "name": "高度",
+            "group": "图标"
+        },
+        {
+            "attr": "iconWidth",
+            "valueType": "PositiveNumber",
+            "name": "宽度",
+            "group": "图标"
+        },
+        {
+            "attr": "iconType",
+            "valueType": "Level",
+            "defaultValue": 1,
+            "group": "图标",
+            "name": "风格"
+        }
+    ],
+    "width": 250,
+    "height": 50,
+    "fitSize": true,
+    "interactive": true,
+    "pixelPerfect": false,
+    "attachStyle": "close",
+    "comps": [{
+        "type": "components/develop/uiotos/base/input.json",
+        "displayName": "input",
+        "rect": [
+            0,
+            0,
+            250,
+            50
+        ],
+        "onDown": "__ht__function(event, data, view, point, width, height) {\nht.vector.inputInteractor.onDown.apply(this, arguments);\n}",
+        "onEnter": "__ht__function(event, data, view, point, width, height) {\nht.vector.inputInteractor.onEnter.apply(this, arguments);\n}",
+        "onLeave": "__ht__function(event, data, view, point, width, height) {\nht.vector.inputInteractor.onLeave.apply(this, arguments);\n}",
+        "value": {
+            "func": "attr@username"
+        },
+        "placeholder": {
+            "func": "attr@placeholder",
+            "value": "请输入"
+        },
+        "placeholderColor": {
+            "func": "attr@placeholderColor",
+            "value": null
+        },
+        "disabled": {
+            "func": "__ht__function(data, view) {\nreturn data.a(\"disabled\")\n}",
+            "value": false
+        },
+        "disabledLayerColor": null,
+        "borderColor": {
+            "func": "attr@borderColor",
+            "value": "rgb(221,221,221)"
+        },
+        "focusBorderColor": {
+            "func": "attr@focusBorderColor",
+            "value": null
+        },
+        "borderRadius": {
+            "func": "attr@borderRadius",
+            "value": "3"
+        },
+        "padding": {
+            "func": "attr@padding",
+            "value": "3"
+        },
+        "background": {
+            "func": "attr@background",
+            "value": "rgb(255,255,255)"
+        },
+        "focusBackground": {
+            "func": "attr@focusBackground",
+            "value": "rgba(247,247,247,0.5)"
+        },
+        "icon": {
+            "func": "__ht__function(data, view) {\nvar color = data.ca('iconColor')\r\ndata.ca('icon-background',color)\r\nvar path = data.ca('path')\r\nvar typeArr = ['light','light','regular','light']\r\nvar typetmp = typeArr[data.ca('iconType')]\r\nif(path != undefined){\r\n    if(path.indexOf('.') == -1){ //名称模式\r\n        path = 'symbols/demo/uiotos/icons/' + typetmp + '/' + path + '.json'\r\n    }else if(path.indexOf(typetmp) == -1){//类型切换了\r\n        typeArr.forEach((curType,index)=>{\r\n            if(curType != typetmp){\r\n                path = path.replace(curType,typetmp)\r\n            }\r\n        })\r\n    }\r\n}\r\ndata.ca('path',path) //回写过去\r\nreturn path\n}"
+        },
+        "iconWidth": {
+            "func": "attr@iconWidth",
+            "value": 20
+        },
+        "iconHeight": {
+            "func": "attr@iconHeight",
+            "value": "20"
+        },
+        "iconAlign": {
+            "func": "attr@iconAlign",
+            "value": "left"
+        },
+        "font": {
+            "func": "attr@font",
+            "value": "12px Microsoft YaHei"
+        },
+        "textAlign": {
+            "func": "attr@textAlign",
+            "value": "left"
+        },
+        "textColor": {
+            "func": "attr@textColor",
+            "value": "rgb(0,0,0)"
+        },
+        "maxLength": {
+            "func": "attr@maxLength"
+        },
+        "inputType": {
+            "func": "attr@inputType",
+            "value": "text"
+        },
+        "enterEndInputable": {
+            "func": "attr@enterEndInputable",
+            "value": true
+        },
+        "selectTextOnFocus": {
+            "func": "attr@selectTextOnFocus",
+            "value": false
+        },
+        "formatter": {
+            "func": "attr@formatter"
+        },
+        "onKeyDown": {
+            "func": "attr@onKeyDown"
+        },
+        "onKeyUp": {
+            "func": "attr@onKeyUp"
+        },
+        "onChange": {
+            "func": "attr@onChange"
+        }
+    }]
+}

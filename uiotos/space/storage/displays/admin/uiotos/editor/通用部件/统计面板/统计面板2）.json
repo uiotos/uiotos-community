@@ -1,0 +1,336 @@
+{
+  "v": "8.0.1",
+  "p": {
+    "autoAdjustIndex": true,
+    "hierarchicalRendering": true
+  },
+  "a": {
+    "rotateAsClock": false,
+    "gridBlockSize": 20,
+    "connectActionType": null,
+    "fitContent": false,
+    "zoomable": false,
+    "rectSelectable": false,
+    "pannable": false
+  },
+  "d": [
+    {
+      "c": "ht.Node",
+      "i": 1597198,
+      "p": {
+        "name": "阴影边框",
+        "displayName": "阴影边框（阴影边框1）",
+        "toolTip": "矩形区域的阴影边框",
+        "tag": "阴影边框1",
+        "image": "symbols/develop/uiotos/common/阴影边框.json",
+        "position": {
+          "x": 188.83134,
+          "y": -262.73514
+        },
+        "width": 203.94206,
+        "height": 134.39956
+      },
+      "s": {
+        "label.position": 14,
+        "label.offset.x": -10,
+        "label.offset.y": 0,
+        "label.color": "rgb(61,61,61)",
+        "label.opacity": 0,
+        "interactive": true,
+        "image.stretch": "uniform",
+        "fullscreen.gap": 0,
+        "fullscreen": "fill"
+      },
+      "a": {
+        "radius": 10,
+        "background": "rgb(247,247,247)"
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 1597199,
+      "p": {
+        "displayName": "Text（Text1）",
+        "toolTip": "已被布局，不允许拖动",
+        "tag": "Text1",
+        "dataBindings": {
+          "s": {
+            "text": {
+              "id": "iotos.form",
+              "alias": "",
+              "func": "__ht__function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        console.error(err);\r\n        return rawData;\r\n    }\r\n}",
+              "idinfo": "",
+              "isTplBinded": false
+            }
+          }
+        },
+        "host": {
+          "__i": 1597198
+        },
+        "position": {
+          "x": 188.83134,
+          "y": -300.15913
+        },
+        "height": 32.51899
+      },
+      "s": {
+        "text": "管理面积",
+        "label.position": 14,
+        "label.offset.x": -10,
+        "label.offset.y": 0,
+        "label.color": "rgb(61,61,61)",
+        "interactive": true,
+        "image.stretch": "uniform",
+        "text.align": "center",
+        "text.color": "rgb(61,61,61)",
+        "text.font": "14px sans-serif, Arial",
+        "2d.movable": false,
+        "layout.h": "leftright",
+        "layout.v": "top"
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 1597200,
+      "p": {
+        "displayName": "Text（Text3）",
+        "toolTip": "已被布局，不允许拖动",
+        "tag": "Text3",
+        "dataBindings": {
+          "s": {
+            "text": {
+              "id": "iotos.form",
+              "alias": "",
+              "func": "__ht__function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        console.error(err);\r\n        return rawData;\r\n    }\r\n}",
+              "idinfo": "",
+              "isTplBinded": false
+            }
+          }
+        },
+        "host": {
+          "__i": 1597198
+        },
+        "position": {
+          "x": 188.83134,
+          "y": -262.73514
+        },
+        "height": 32.51899
+      },
+      "s": {
+        "text": "170㎡",
+        "label.position": 14,
+        "label.offset.x": -10,
+        "label.offset.y": 0,
+        "label.color": "rgb(61,61,61)",
+        "interactive": true,
+        "image.stretch": "uniform",
+        "text.align": "center",
+        "text.color": "rgb(61,61,61)",
+        "text.font": "18px arial, sans-serif",
+        "2d.movable": false,
+        "layout.h": "leftright",
+        "layout.v": "topbottom"
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 1597201,
+      "p": {
+        "name": "Block",
+        "displayName": "Block（Block1）",
+        "toolTip": "已被布局，不允许拖动",
+        "tag": "Block1",
+        "host": {
+          "__i": 1597198
+        },
+        "position": {
+          "x": 159.75403,
+          "y": -225.31115
+        },
+        "anchor": {
+          "x": 0.34372,
+          "y": 0.5
+        },
+        "width": 117.0647,
+        "height": 32.51899,
+        "clickThroughEnabled": true
+      },
+      "s": {
+        "label.position": 14,
+        "label.offset.x": -10,
+        "label.offset.y": 0,
+        "label.color": "rgb(61,61,61)",
+        "label.opacity": 0,
+        "interactive": true,
+        "image.stretch": "uniform",
+        "2d.movable": false,
+        "layout.h": "center",
+        "layout.v": "bottom"
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 1597202,
+      "p": {
+        "displayName": "Text（Text2）",
+        "parent": {
+          "__i": 1597201
+        },
+        "tag": "Text2",
+        "dataBindings": {
+          "s": {
+            "text": {
+              "id": "iotos.form",
+              "alias": "",
+              "func": "__ht__function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        console.error(err);\r\n        return rawData;\r\n    }\r\n}",
+              "idinfo": "",
+              "isTplBinded": false
+            }
+          }
+        },
+        "position": {
+          "x": 153.43871,
+          "y": -225.31115
+        },
+        "width": 67.84539,
+        "height": 32.51899
+      },
+      "s": {
+        "text": "总房源",
+        "label.position": 14,
+        "label.offset.x": -10,
+        "label.offset.y": 0,
+        "label.color": "rgb(61,61,61)",
+        "interactive": true,
+        "image.stretch": "uniform",
+        "text.align": "right",
+        "text.color": "rgb(61,61,61)",
+        "text.font": "14px arial, sans-serif"
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 1597203,
+      "p": {
+        "displayName": "Text（Text4）",
+        "parent": {
+          "__i": 1597201
+        },
+        "tag": "Text4",
+        "dataBindings": {
+          "s": {
+            "text": {
+              "id": "iotos.form",
+              "alias": "",
+              "func": "__ht__function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        console.error(err);\r\n        return rawData;\r\n    }\r\n}",
+              "idinfo": "",
+              "isTplBinded": false
+            }
+          }
+        },
+        "position": {
+          "x": 194.43786,
+          "y": -225.31115
+        },
+        "width": 14.1529,
+        "height": 32.51899
+      },
+      "s": {
+        "text": "6",
+        "label.position": 14,
+        "label.offset.x": -10,
+        "label.offset.y": 0,
+        "label.color": "rgb(61,61,61)",
+        "interactive": true,
+        "image.stretch": "uniform",
+        "text.align": "center",
+        "text.color": "rgb(51,153,255)",
+        "text.font": "14px arial, sans-serif"
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 1597204,
+      "p": {
+        "displayName": "Text（Text5）",
+        "parent": {
+          "__i": 1597201
+        },
+        "tag": "Text5",
+        "dataBindings": {
+          "s": {
+            "text": {
+              "id": "iotos.form",
+              "alias": "",
+              "func": "__ht__function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        console.error(err);\r\n        return rawData;\r\n    }\r\n}",
+              "idinfo": "",
+              "isTplBinded": false
+            }
+          }
+        },
+        "position": {
+          "x": 213.67282,
+          "y": -225.31115
+        },
+        "width": 24.31703,
+        "height": 32.51899
+      },
+      "s": {
+        "text": "套",
+        "label.position": 14,
+        "label.offset.x": -10,
+        "label.offset.y": 0,
+        "label.color": "rgb(61,61,61)",
+        "interactive": true,
+        "image.stretch": "uniform",
+        "text.color": "rgb(61,61,61)",
+        "text.font": "14px arial, sans-serif"
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 1597205,
+      "p": {
+        "displayName": "Text（Text6）",
+        "parent": {
+          "__i": 1597201
+        },
+        "tag": "Text6",
+        "dataBindings": {
+          "s": {
+            "text": {
+              "id": "iotos.form",
+              "alias": "",
+              "func": "__ht__function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        console.error(err);\r\n        return rawData;\r\n    }\r\n}",
+              "idinfo": "",
+              "isTplBinded": false
+            }
+          }
+        },
+        "position": {
+          "x": 227.62677,
+          "y": -225.31115
+        },
+        "width": 17.9079,
+        "height": 32.51899
+      },
+      "s": {
+        "text": "13.67%",
+        "label.position": 14,
+        "label.offset.x": -10,
+        "label.offset.y": 0,
+        "label.color": "rgb(61,61,61)",
+        "interactive": true,
+        "image.stretch": "uniform",
+        "text.color": "rgb(61,61,61)"
+      }
+    }
+  ],
+  "modified": "Sun Jun 16 2024 22:18:46 GMT+0800 (中国标准时间)",
+  "contentRect": {
+    "x": 24.86031,
+    "y": -329.93492,
+    "width": 265.94206,
+    "height": 134.39956
+  }
+}

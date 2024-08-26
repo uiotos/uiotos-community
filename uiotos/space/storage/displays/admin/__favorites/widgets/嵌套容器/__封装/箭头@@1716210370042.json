@@ -1,0 +1,90 @@
+{
+  "v": "7.7.5",
+  "p": {
+    "autoAdjustIndex": true,
+    "hierarchicalRendering": false
+  },
+  "a": {
+    "rotateAsClock": false,
+    "gridAngle": 1.5708,
+    "connectActionType": null,
+    "fitContent": false
+  },
+  "d": [
+    {
+      "c": "ht.Node",
+      "i": 109027,
+      "p": {
+        "name": "autoBase",
+        "displayName": "自动底板（autoBase1）",
+        "tag": "autoBase1",
+        "image": null,
+        "position": {
+          "x": -5,
+          "y": -5
+        },
+        "width": 49,
+        "height": 49
+      },
+      "s": {
+        "label.position": 14,
+        "label.offset.x": -10,
+        "label.offset.y": 0,
+        "label.color": "rgb(61,61,61)",
+        "2d.movable": false,
+        "interactive": true,
+        "fullscreen": "fill"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 109028,
+      "p": {
+        "name": "reply-176",
+        "displayName": "reply-176（reply-1761）",
+        "toolTip": "<p style='color:rgb(242,83,75);margin-top:5px;margin-bottom:5px;font-weight:bold;line-height:1.5em;'>已被布局，不允许拖动（shift+回车可解除）</p>",
+        "tag": "reply-1761",
+        "dataBindings": {
+          "a": {
+            "icon-background": {
+              "id": "iotos.form",
+              "alias": "",
+              "func": "__ht__function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        console.error(err);\r\n        return rawData;\r\n    }\r\n}",
+              "idinfo": "",
+              "isTplBinded": false
+            }
+          }
+        },
+        "image": "symbols/develop/uiotos/arranged/icons/方向/reply-176.json",
+        "host": {
+          "__i": 109027
+        },
+        "position": {
+          "x": -5,
+          "y": -5
+        },
+        "width": 45,
+        "height": 45
+      },
+      "s": {
+        "label.opacity": 0,
+        "label.position": 14,
+        "label.offset.x": -10,
+        "label.offset.y": 0,
+        "label.color": "rgb(61,61,61)",
+        "2d.movable": false,
+        "interactive": true,
+        "image.stretch": "uniform",
+        "layout.h": "leftright",
+        "layout.v": "topbottom"
+      }
+    }
+  ],
+  "modified": "Mon May 20 2024 21:07:01 GMT+0800 (中国标准时间)",
+  "contentRect": {
+    "x": -94.20703,
+    "y": -29.5,
+    "width": 113.70703,
+    "height": 49
+  }
+}

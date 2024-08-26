@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>绘制多边形</title>
+    <!--  这些是leaflet。js的依赖，必须引入 -->
+    <link rel="stylesheet" type="text/css" href="./leaflet/leaflet.css">
+    <script type="text/javascript" src="./leaflet/leaflet.js"></script>
+    <script type="text/javascript" src="./leaflet-plugins/leaflet.motion.min.js"></script>
+    <!-- 引入画布js -->
+    <script type="text/javascript" src="./lib/DrawTool.js"></script>
+    <!-- 引入判断点是否在多边形内 -->
+    <script type="text/javascript" src="./lib/GeoUtils.js"></script>
+
+
+    <script type="text/javascript" src="./leaflet-plugins/leaflet-tilelayer-colorizr.js"></script>
+
+    <style type="text/css">
+        body {
+            padding: 0;
+            margin: 0;
+        }
+        
+        html,
+        body,
+        #map {
+            height: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <div id='map'></div>
+    <input id="boox" value="武汉"></input>
+    <div id='searchDiv'></div>
+    <div id='resultDiv'></div>
+    <div id='statisticsDiv'></div>
+    <div id='promptDiv'></div>
+</body>
+<script type="text/javascript">
+    //leaflet实例化
+    var map = L.map("map", {
+        center: [34.694, 113.587],
+        renderer: L.svg(),
+        zoom: 16,
+        zoomControl: false, // + -号放大缩小
+        attributionControl: false // 右下角leaflet.js图标
+    });
+
+    //地图瓦片地图图层地址
+    let url = 'http://map.geoq.cn/ArcGIS/rest/services/ChinaOnlineCommunity/MapServer/tile/{z}/{y}/{x}'; //高德
+    // let url = 'https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}';//arcgisonline
+
+    //关联地图并且背景染色样式
+    L.tileLayer.colorizr(url, {
+        maxZoom: 18,
+        minZoom: 3,
+        /*这个方法用来调整所有的图片上的rgb值，pixel是图片原有的rgb值
+        colorize: function(pixel) {
+            pixel.r += 13;
+            pixel.g += 17;
+            pixel.b += 25;
+            return pixel;
+        }*/
+    }).addTo(map);
+
+    //添加地图上的标定点
+    L.marker([34.261, 108.94235]).addTo(map); // 西安
+    L.marker([39.90609, 116.38543]).addTo(map); //北京
+    L.marker([29.55546, 106.5448]).addTo(map); // 重庆
+    L.marker([30.56781, 114.30222]).addTo(map); //湖北
+    L.marker([18.23522, 109.51085]).addTo(map); //海南
+    L.marker([50.24529, 127.50091]).addTo(map); //黑海
+    L.marker([47.84907, 88.13144]).addTo(map); //阿勒泰
+    L.marker([39.46739, 75.99394]).addTo(map); //喀什
+    L.marker([29.65541, 91.12732]).addTo(map); //拉萨
+    L.marker([36.63685, 101.74367]).addTo(map); //西宁
+    L.marker([43.89736, 125.30672]).addTo(map); //长春
+    L.marker([25.05091, 102.71344]).addTo(map); //昆明
+    L.marker([23.13177, 113.26015]).addTo(map); //广州  
+    L.marker([36.66124, 116.9878]).addTo(map); //济南
+    L.marker([31.31974, 121.62005]).addTo(map); //上海
+
+    //标定点鼠标事件点击弹出显示内容
+    function onMapClick(e) {
+        L.popup().setLatLng(e.latlng)
+            .setContent("You clicked the map at " + e.latlng.toString())
+            .openOn(map);
+    }
+    map.on('click', onMapClick);
+</script>
+
+</html>

@@ -1,0 +1,624 @@
+{
+  "v": "8.0.1",
+  "p": {
+    "background": "#20252e",
+    "autoAdjustIndex": true,
+    "hierarchicalRendering": true
+  },
+  "a": {
+    "rotateAsClock": false,
+    "gridBlockSize": 20,
+    "connectActionType": null,
+    "fitContent": false,
+    "zoomable": false,
+    "rectSelectable": false,
+    "pannable": false,
+    "_professional": false
+  },
+  "d": [
+    {
+      "c": "ht.Node",
+      "i": 95483,
+      "p": {
+        "name": "Node",
+        "displayName": "n（Node1）",
+        "tag": "Node1",
+        "position": {
+          "x": 869.42049,
+          "y": 402.1109
+        },
+        "width": 351.28946,
+        "height": 670.08449
+      },
+      "s": {
+        "shape": "rect",
+        "shape.background": null,
+        "shape.border.color": "#979797",
+        "label.position": 17,
+        "label.color": "rgb(61,61,61)",
+        "label.opacity": 0,
+        "interactive": true,
+        "image.stretch": "uniform",
+        "fullscreen": "fill",
+        "fullscreen.gap": 0,
+        "2d.selectable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 95484,
+      "p": {
+        "name": "tab",
+        "displayName": "TAB页签（tab1）",
+        "toolTip": "<p style='color:rgb(242,83,75);margin-top:5px;margin-bottom:5px;font-weight:bold;line-height:1.5em;'>已被布局，不允许拖动（shift+回车可解除）</p>已被布局，不允许拖动",
+        "tag": "tab1",
+        "dataBindings": {
+          "a": {
+            "index": {
+              "id": "iotos.formReset",
+              "alias": "",
+              "func": "__ht__function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        console.error(err);\r\n        return rawData;\r\n    }\r\n}",
+              "idinfo": "",
+              "isTplBinded": false
+            },
+            "displays": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "relativePath": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "display": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "innerLayoutMode": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "userData": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            }
+          }
+        },
+        "image": {
+          "modified": "Thu Jul 25 2024 11:41:10 GMT+0800 (中国标准时间)",
+          "dataBindings": [
+            {
+              "attr": "symbol",
+              "valueType": "Image",
+              "name": "symbol"
+            },
+            {
+              "attr": "relativePath",
+              "valueType": "URL",
+              "description": "相对路径。默认为./，通常是多个内嵌\n<br>页所在的目录。可简化多页设置。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/uta20ga5uu55wvqw#hOmdi\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+              "group": "功能",
+              "name": "relativePath"
+            },
+            {
+              "attr": "displays",
+              "valueType": "ObjectArray",
+              "description": "结合相对路径，设置多页地址。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/uta20ga5uu55wvqw#NdbDk\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+              "name": "displays"
+            },
+            {
+              "attr": "display",
+              "valueType": "URL",
+              "defaultValue": "",
+              "description": "当前显示的内嵌页地址。通常只读，\n<br>也可编辑时连续输入，以设置多页路径。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/uta20ga5uu55wvqw#C5SC9\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+              "name": "display"
+            },
+            {
+              "attr": "index",
+              "valueType": "PositiveNumber",
+              "defaultValue": 0,
+              "description": "切换显示的指定内嵌页索引。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/uta20ga5uu55wvqw#mgZ50\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+              "name": "index"
+            },
+            {
+              "attr": "innerLayoutMode",
+              "valueType": "InnerLayoutMode",
+              "defaultValue": "none",
+              "description": "",
+              "name": "innerLayoutMode"
+            },
+            {
+              "attr": "onPostDeserialize",
+              "valueType": "Function",
+              "description": "",
+              "extraInfo": {
+                "arguments": [
+                  "json",
+                  "dm",
+                  "gv",
+                  "datas"
+                ],
+                "classify": "*"
+              },
+              "name": "onPostDeserialize"
+            },
+            {
+              "attr": "useOriginSize",
+              "valueType": "Boolean",
+              "defaultValue": false,
+              "extraInfo": "★",
+              "name": "useOriginSize"
+            },
+            {
+              "attr": "useInnerEventsAll",
+              "valueType": "Boolean",
+              "description": "",
+              "extraInfo": "*",
+              "name": "useInnerEventsAll"
+            },
+            {
+              "attr": "isLoadingGet",
+              "valueType": "Boolean",
+              "defaultValue": true,
+              "description": "",
+              "extraInfo": "★",
+              "name": "isLoadingGet"
+            },
+            {
+              "attr": "enableLoading",
+              "valueType": "Boolean",
+              "defaultValue": false,
+              "extraInfo": "*",
+              "name": "enableLoading"
+            },
+            {
+              "attr": "pureFormValues",
+              "valueType": "Boolean",
+              "name": "pureFormValues"
+            },
+            {
+              "attr": "initialTrigger",
+              "valueType": "Boolean",
+              "defaultValue": false,
+              "extraInfo": "*",
+              "name": "initialTrigger"
+            },
+            {
+              "attr": "userData",
+              "valueType": "Object",
+              "defaultValue": [],
+              "name": "userData"
+            },
+            {
+              "attr": "onDisplayLoaded",
+              "valueType": "Function",
+              "description": "",
+              "extraInfo": {
+                "arguments": [
+                  "data",
+                  "gv",
+                  "cache"
+                ]
+              },
+              "name": "onDisplayLoaded"
+            },
+            {
+              "attr": "onChange",
+              "valueType": "Function",
+              "extraInfo": {
+                "arguments": [
+                  "data",
+                  "gv",
+                  "cache",
+                  "value",
+                  "extra"
+                ]
+              },
+              "description": "当前索引（index）发生变化时触发，即页面切换时。",
+              "name": "onChange"
+            },
+            {
+              "attr": "shadowBorder",
+              "valueType": "NumberArray",
+              "defaultValue": [
+                0,
+                0,
+                8
+              ],
+              "group": "外观",
+              "name": "shadowBorder"
+            },
+            {
+              "attr": "shadowColor",
+              "valueType": "Color",
+              "defaultValue": "rgba(55,125,255,0.50)",
+              "name": "shadowColor"
+            },
+            {
+              "attr": "shadowEnabled",
+              "valueType": "Boolean",
+              "defaultValue": true,
+              "name": "shadowEnabled"
+            },
+            {
+              "attr": "innerBackground",
+              "valueType": "Color",
+              "name": "innerBackground"
+            },
+            {
+              "attr": "bindControlsTag",
+              "valueType": "StringArray",
+              "group": "连线",
+              "name": "bindControlsTag"
+            },
+            {
+              "attr": "bindControlsAttr",
+              "valueType": "ObjectArray",
+              "name": "bindControlsAttr"
+            },
+            {
+              "attr": "bindControlsVal",
+              "valueType": "ObjectArray",
+              "description": "",
+              "name": "bindControlsVal"
+            },
+            {
+              "attr": "paramControlTag",
+              "valueType": "StringArray",
+              "name": "paramControlTag"
+            },
+            {
+              "attr": "paramControlAttr",
+              "valueType": "ObjectArray",
+              "name": "paramControlAttr"
+            },
+            {
+              "attr": "paramsGenerator",
+              "valueType": "Function",
+              "defaultValue": "__ht__function(data, controlVal, index, node,oldVal,form) {//绑定组索引对应的函数处理，用来动态生成复杂的参数变量传入\r\nswitch(index){\r\n    case 0:\r\n        break;\r\n    case 1:\r\n        break;\r\n    case 2:\r\n        break;\r\n    default:\r\n        break;\r\n}\r\n\r\nreturn controlVal;}",
+              "extraInfo": {
+                "arguments": [
+                  "data",
+                  "val",
+                  "index",
+                  "node",
+                  "oldVal",
+                  "form",
+                  "type",
+                  "inner"
+                ],
+                "classify": "*"
+              },
+              "name": "paramsGenerator"
+            },
+            {
+              "attr": "useAttrCORS",
+              "valueType": "Boolean",
+              "extraInfo": "*",
+              "defaultValue": false,
+              "description": "连线操作和处理回写是否一致。\n                        比如多个文本框连线传值给相同对话框，弹窗修改\n                        后是否限定只能写到最新赋值过来的文本框。详见<a href='https://www.yuque.com/liuhuo-nc809/uiotos/fgi6dd7gado51acm#fFUbp' style=\"color:rgb(96,172,252)\"target=\"_blank\">同源属性操作</a>",
+              "bindIgnored": true,
+              "name": "useAttrCORS",
+              "dynamicCreate": true
+            }
+          ],
+          "snapshotURL": "symbols\\develop\\uiotos\\arranged\\controls\\containers_icon\\TAB页签.json",
+          "renderHTML": "__ht__function(data, gv, cache) {return __tabView(data,gv,cache);}",
+          "width": 500,
+          "height": 300,
+          "fitSize": true,
+          "pixelPerfect": false,
+          "comps": [],
+          "uuid": "2DCB4695-4E0D-4F09-B6CA-CDC7D4614924"
+        },
+        "host": {
+          "__i": 95483
+        },
+        "position": {
+          "x": 869.68459,
+          "y": 402.01604
+        },
+        "width": 302.79667,
+        "height": 627.17595
+      },
+      "s": {
+        "label.opacity": 0,
+        "pixelPerfect": false,
+        "label.position": 14,
+        "label.offset.x": -10,
+        "label.offset.y": 0,
+        "label.color": "rgb(61,61,61)",
+        "interactive": true,
+        "image.stretch": "uniform",
+        "index": 0,
+        "fullscreen.gap": 0,
+        "2d.movable": false,
+        "layout.h": "leftright",
+        "layout.v": "topbottom",
+        "opacity": 1
+      },
+      "a": {
+        "displays": [
+          "3_1_温度",
+          "3_2_信息",
+          "3_3_设备",
+          "3_4_设备2",
+          "3_5_管理"
+        ],
+        "relativePath": "./",
+        "__loadingStatus": false,
+        "symbol": "symbols/develop/uiotos/base/tabView.json",
+        "index": 0,
+        "shadowEnabled": false,
+        "display": "displays/demo/3-示例/02-小示例/07-多页签模拟数据/3_1_温度.json",
+        "isLoadingGet": false,
+        "bindEvents": [
+          "*",
+          "onChange"
+        ],
+        "innerLayoutMode": "fullScreen",
+        "toolTipRaw": "<p style='color:rgb(242,83,75);margin-top:5px;margin-bottom:5px;font-weight:bold;line-height:1.5em;'>已被布局，不允许拖动（shift+回车可解除）</p>已被布局，不允许拖动",
+        "pageAbsUrls": [
+          "displays/demo/3-示例/02-小示例/07-多页签模拟数据/3_1_温度.json",
+          "displays/demo/3-示例/02-小示例/07-多页签模拟数据/3_2_信息.json",
+          "displays/demo/3-示例/02-小示例/07-多页签模拟数据/3_3_设备.json",
+          "displays/demo/3-示例/02-小示例/07-多页签模拟数据/3_4_设备2.json",
+          "displays/demo/3-示例/02-小示例/07-多页签模拟数据/3_5_管理.json"
+        ]
+      }
+    },
+    {
+      "c": "ht.Shape",
+      "i": 95485,
+      "p": {
+        "name": "Shape",
+        "displayName": "Shape（Shape1）",
+        "toolTip": "<p style='color:rgb(242,83,75);margin-top:5px;margin-bottom:5px;font-weight:bold;line-height:1.5em;'>已被布局，不允许拖动（shift+回车可解除）</p>已被布局，不允许拖动",
+        "tag": "Shape1",
+        "host": {
+          "__i": 95483
+        },
+        "rotation": -1.5708,
+        "position": {
+          "x": 886.56071,
+          "y": 402.01604
+        },
+        "width": 647.74514,
+        "height": 286.09487,
+        "segments": {
+          "__a": [
+            1,
+            2,
+            2,
+            2,
+            2,
+            2
+          ]
+        },
+        "points": {
+          "__a": [
+            {
+              "x": 562.68931,
+              "y": 258.9686
+            },
+            {
+              "x": 562.68814,
+              "y": 545.06152
+            },
+            {
+              "x": 1128.80799,
+              "y": 545.06339
+            },
+            {
+              "x": 1154.96499,
+              "y": 545.06348
+            },
+            {
+              "x": 1210.43273,
+              "y": 501.3194
+            },
+            {
+              "x": 1210.43328,
+              "y": 367.62531
+            }
+          ]
+        }
+      },
+      "s": {
+        "type": "shape",
+        "opacity": 1,
+        "shape.background": null,
+        "shape.border.width": 1,
+        "shape.border.color": "rgba(0,145,194,0.2)",
+        "shape.border.cap": "square",
+        "shape.dash.pattern": [
+          16,
+          16
+        ],
+        "label.position": 17,
+        "label.color": "rgb(61,61,61)",
+        "label.opacity": 0,
+        "interactive": true,
+        "image.stretch": "uniform",
+        "2d.movable": false,
+        "layout.h": "right",
+        "layout.v": "topbottom"
+      },
+      "a": {
+        "toolTipRaw": "<p style='color:rgb(242,83,75);margin-top:5px;margin-bottom:5px;font-weight:bold;line-height:1.5em;'>已被布局，不允许拖动（shift+回车可解除）</p>已被布局，不允许拖动"
+      }
+    },
+    {
+      "c": "ht.Shape",
+      "i": 95486,
+      "p": {
+        "name": "Shape",
+        "displayName": "Shape（Shape2）",
+        "toolTip": "<p style='color:rgb(242,83,75);margin-top:5px;margin-bottom:5px;font-weight:bold;line-height:1.5em;'>已被布局，不允许拖动（shift+回车可解除）</p>已被布局，不允许拖动",
+        "tag": "Shape2",
+        "host": {
+          "__i": 95483
+        },
+        "rotation": -1.5708,
+        "position": {
+          "x": 706.19322,
+          "y": 384.80053
+        },
+        "width": 41.58205,
+        "height": 7.23376,
+        "segments": null,
+        "points": {
+          "__a": [
+            {
+              "x": 685.40218,
+              "y": 381.18365
+            },
+            {
+              "x": 692.22249,
+              "y": 388.41741
+            },
+            {
+              "x": 718.47715,
+              "y": 388.41741
+            },
+            {
+              "x": 726.98424,
+              "y": 381.18365
+            },
+            {
+              "x": 685.40218,
+              "y": 381.18365
+            }
+          ]
+        },
+        "closePath": true
+      },
+      "s": {
+        "type": "shape",
+        "opacity": 1,
+        "shape.background": "rgba(0,16,61,0.2)",
+        "shape.border.width": 1,
+        "shape.border.color": "rgba(0,145,194,0.2)",
+        "shape.border.cap": "square",
+        "shape.dash.pattern": [
+          16,
+          16
+        ],
+        "label.position": 17,
+        "label.color": "rgb(61,61,61)",
+        "label.opacity": 0,
+        "interactive": true,
+        "image.stretch": "uniform",
+        "2d.movable": false,
+        "layout.h": "left",
+        "layout.v": "center"
+      },
+      "a": {
+        "toolTipRaw": "<p style='color:rgb(242,83,75);margin-top:5px;margin-bottom:5px;font-weight:bold;line-height:1.5em;'>已被布局，不允许拖动（shift+回车可解除）</p>已被布局，不允许拖动"
+      }
+    },
+    {
+      "c": "ht.Shape",
+      "i": 95487,
+      "p": {
+        "name": "Shape",
+        "displayName": "Shape（Shape3）",
+        "toolTip": "<p style='color:rgb(242,83,75);margin-top:5px;margin-bottom:5px;font-weight:bold;line-height:1.5em;'>已被布局，不允许拖动（shift+回车可解除）</p>已被布局，不允许拖动",
+        "tag": "Shape3",
+        "host": {
+          "__i": 95483
+        },
+        "rotation": -1.5708,
+        "position": {
+          "x": 744.10384,
+          "y": 403.85181
+        },
+        "scale": {
+          "x": -1,
+          "y": 1
+        },
+        "width": 647.95898,
+        "height": 75.81887,
+        "segments": null,
+        "points": {
+          "__a": [
+            {
+              "x": 420.12451,
+              "y": 401.47833
+            },
+            {
+              "x": 420.12436,
+              "y": 365.94519
+            },
+            {
+              "x": 700.99896,
+              "y": 365.95943
+            },
+            {
+              "x": 708.39753,
+              "y": 374.96645
+            },
+            {
+              "x": 744.60972,
+              "y": 374.96645
+            },
+            {
+              "x": 753.53358,
+              "y": 365.95943
+            },
+            {
+              "x": 1029.94557,
+              "y": 365.94237
+            },
+            {
+              "x": 1068.08316,
+              "y": 401.47579
+            },
+            {
+              "x": 1068.08333,
+              "y": 441.76124
+            }
+          ]
+        }
+      },
+      "s": {
+        "type": "shape",
+        "opacity": 1,
+        "shape.background": null,
+        "shape.border.width": 1,
+        "shape.border.color": "rgba(0,145,194,0.2)",
+        "shape.border.cap": "square",
+        "shape.dash.pattern": [
+          16,
+          16
+        ],
+        "label.position": 17,
+        "label.color": "rgb(61,61,61)",
+        "label.opacity": 0,
+        "interactive": true,
+        "image.stretch": "uniform",
+        "2d.movable": false,
+        "layout.h": "left",
+        "layout.v": "topbottom"
+      },
+      "a": {
+        "toolTipRaw": "<p style='color:rgb(242,83,75);margin-top:5px;margin-bottom:5px;font-weight:bold;line-height:1.5em;'>已被布局，不允许拖动（shift+回车可解除）</p>已被布局，不允许拖动"
+      }
+    }
+  ],
+  "modified": "Sun Aug 25 2024 18:07:54 GMT+0800 (中国标准时间)",
+  "contentRect": {
+    "x": 686.84361,
+    "y": 67.06866,
+    "width": 358.22161,
+    "height": 670.08449
+  }
+}

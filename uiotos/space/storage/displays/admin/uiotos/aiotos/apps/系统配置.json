@@ -1,0 +1,1687 @@
+{
+    "v": "7.3.3",
+    "p": {
+        "autoAdjustIndex": true,
+        "hierarchicalRendering": true
+    },
+    "a": {
+        "rotateAsClock": false,
+        "gridBlockSize": 20,
+        "gridThickColor": "rgba(100,100,100,0.2)",
+        "gridLightColor": "rgba(127,127,127,0.1)",
+        "connectActionType": null,
+        "fitContent": false,
+        "zoomable": false,
+        "rectSelectable": false,
+        "pannable": false,
+        "appName": "系统配置"
+    },
+    "d": [{
+            "c": "ht.Node",
+            "i": 10165,
+            "p": {
+                "displayName": "base",
+                "tag": "_base",
+                "position": {
+                    "x": 202.2158,
+                    "y": 455.5
+                },
+                "width": 1920,
+                "height": 1080
+            },
+            "s": {
+                "label.position": 14,
+                "label.offset.x": -10,
+                "label.offset.y": 0,
+                "label.color": "rgb(61,61,61)",
+                "shape": "rect",
+                "shape.background": "rgb(255,255,255)",
+                "fullscreen": "fill",
+                "fullscreen.gap": 0,
+                "2d.movable": false
+            }
+        },
+        {
+            "c": "ht.Node",
+            "i": 10166,
+            "p": {
+                "displayName": "tab",
+                "toolTip": "已被布局，不允许拖动",
+                "tag": "tab1",
+                "dataBindings": {
+                    "a": {
+                        "系统字典>2>bt1>a:text": {
+                            "id": "iotos.formReset",
+                            "idinfo": "",
+                            "isTplBinded": false,
+                            "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+                        },
+                        "系统字典>2>bt1>a:onFormClick": {
+                            "id": "iotos.formReset",
+                            "idinfo": "",
+                            "isTplBinded": false,
+                            "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+                        },
+                        "系统字典>2>bt1>a:userData": {
+                            "id": "iotos.formReset",
+                            "idinfo": "",
+                            "isTplBinded": false,
+                            "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+                        },
+                        "系统字典>2>dictTable>a:datas": {
+                            "id": "iotos.formReset",
+                            "idinfo": "",
+                            "isTplBinded": false,
+                            "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+                        },
+                        "系统字典>2>dictTable>a:visibleFilterInput": {
+                            "id": "iotos.formReset",
+                            "idinfo": "",
+                            "isTplBinded": false,
+                            "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+                        },
+                        "系统字典>2>dictTable>a:dataComboType": {
+                            "id": "iotos.formReset",
+                            "idinfo": "",
+                            "isTplBinded": false,
+                            "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+                        },
+                        "系统字典>2>dictTable>a:dataAdd": {
+                            "id": "iotos.formReset",
+                            "idinfo": "",
+                            "isTplBinded": false,
+                            "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+                        },
+                        "系统字典>2>dictTable>a:checkSelected": {
+                            "id": "iotos.formReset",
+                            "idinfo": "",
+                            "isTplBinded": false,
+                            "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+                        },
+                        "系统字典>2>dictTable>a:rowsExtraUserInfo": {
+                            "id": "iotos.formReset",
+                            "idinfo": "",
+                            "isTplBinded": false,
+                            "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+                        },
+                        "系统字典>2>dictTable>a:checkIndexsGet": {
+                            "id": "iotos.formReset",
+                            "idinfo": "",
+                            "isTplBinded": false,
+                            "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+                        },
+                        "系统字典>2>dictTable>a:onDatasLoaded": {
+                            "id": "iotos.formReset",
+                            "idinfo": "",
+                            "isTplBinded": false,
+                            "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+                        },
+                        "系统字典>2>dictTable>a:userData": {
+                            "id": "iotos.formReset",
+                            "idinfo": "",
+                            "isTplBinded": false,
+                            "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+                        },
+                        "系统字典>2>dictTable>a:onClick": {
+                            "id": "iotos.formReset",
+                            "idinfo": "",
+                            "isTplBinded": false,
+                            "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+                        },
+                        "系统字典>2>dictTable>a:onDoubleClick": {
+                            "id": "iotos.formReset",
+                            "idinfo": "",
+                            "isTplBinded": false,
+                            "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+                        },
+                        "系统字典>2>dictTable>a:onCheck": {
+                            "id": "iotos.formReset",
+                            "idinfo": "",
+                            "isTplBinded": false,
+                            "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+                        },
+                        "系统字典>2>dictTable>a:onLastButtonClick": {
+                            "id": "iotos.formReset",
+                            "idinfo": "",
+                            "isTplBinded": false,
+                            "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+                        },
+                        "系统字典>2>dictTable>a:onLastButtonSelected": {
+                            "id": "iotos.formReset",
+                            "idinfo": "",
+                            "isTplBinded": false,
+                            "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+                        },
+                        "系统字典>2>dialog-ui1>a:Input>0>input-ui1>a:labelText": {
+                            "id": "iotos.formReset",
+                            "idinfo": "",
+                            "isTplBinded": false,
+                            "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+                        },
+                        "系统字典>2>dialog-ui1>a:Input>0>input-ui1>a:value": {
+                            "id": "iotos.formReset",
+                            "idinfo": "",
+                            "isTplBinded": false,
+                            "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+                        },
+                        "系统字典>2>dialog-ui1>a:Input>0>dataBackup>s:text": {
+                            "id": "iotos.formReset",
+                            "idinfo": "",
+                            "isTplBinded": false,
+                            "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+                        },
+                        "系统字典>2>dialog-ui1>a:show": {
+                            "id": "iotos.formReset",
+                            "idinfo": "",
+                            "isTplBinded": false,
+                            "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+                        },
+                        "系统字典>2>dialog-ui1>a:titleText": {
+                            "id": "iotos.formReset",
+                            "idinfo": "",
+                            "isTplBinded": false,
+                            "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+                        },
+                        "系统字典>2>dialog-ui1>a:display": {
+                            "id": "iotos.formReset",
+                            "idinfo": "",
+                            "isTplBinded": false,
+                            "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+                        },
+                        "系统字典>2>dialog-ui1>a:onPageBinded": {
+                            "id": "iotos.formReset",
+                            "idinfo": "",
+                            "isTplBinded": false,
+                            "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+                        },
+                        "系统字典>2>dialog-ui1>a:Input>0>input-ui1>a:instantTrigger": {
+                            "id": "iotos.formReset",
+                            "idinfo": "",
+                            "isTplBinded": false,
+                            "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+                        },
+                        "系统字典>2>dialog-ui1>a:Input>0>input-ui1>a:onChange": {
+                            "id": "iotos.formReset",
+                            "idinfo": "",
+                            "isTplBinded": false,
+                            "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+                        },
+                        "系统字典>2>dialog-ui1>a:userData": {
+                            "id": "iotos.formReset",
+                            "idinfo": "",
+                            "isTplBinded": false,
+                            "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+                        },
+                        "系统字典>2>dialog-ui3>a:show": {
+                            "id": "iotos.formReset",
+                            "idinfo": "",
+                            "isTplBinded": false,
+                            "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+                        },
+                        "系统字典>2>dialog-ui3>a:titleText": {
+                            "id": "iotos.formReset",
+                            "idinfo": "",
+                            "isTplBinded": false,
+                            "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+                        },
+                        "系统字典>2>dialog-ui3>a:display": {
+                            "id": "iotos.formReset",
+                            "idinfo": "",
+                            "isTplBinded": false,
+                            "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+                        },
+                        "系统字典>2>dialog-ui3>a:onPageBinded": {
+                            "id": "iotos.formReset",
+                            "idinfo": "",
+                            "isTplBinded": false,
+                            "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+                        },
+                        "系统字典>2>dialog-ui3>a:ensure>0>datas>s:text": {
+                            "id": "iotos.formReset",
+                            "idinfo": "",
+                            "isTplBinded": false,
+                            "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+                        },
+                        "系统字典>2>dialog-ui3>a:ensure>0>textArea-ui1>a:value": {
+                            "id": "iotos.formReset",
+                            "idinfo": "",
+                            "isTplBinded": false,
+                            "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+                        },
+                        "系统字典>2>dialog-ui3>a:ensure>0>textArea-ui1>a:htmlContent": {
+                            "id": "iotos.formReset",
+                            "idinfo": "",
+                            "isTplBinded": false,
+                            "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+                        },
+                        "系统字典>2>dialog-ui3>a:userData": {
+                            "id": "iotos.formReset",
+                            "idinfo": "",
+                            "isTplBinded": false,
+                            "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+                        },
+                        "系统字典>2>dialog-ui3>a:ensure>0>textArea-ui1>a:instantTrigger": {
+                            "id": "iotos.formReset",
+                            "idinfo": "",
+                            "isTplBinded": false,
+                            "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+                        },
+                        "系统字典>2>dialog-ui3>a:ensure>0>textArea-ui1>a:readOnly": {
+                            "id": "iotos.formReset",
+                            "idinfo": "",
+                            "isTplBinded": false,
+                            "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+                        },
+                        "系统字典>2>dialog-ui3>a:ensure>0>textArea-ui1>a:onChange": {
+                            "id": "iotos.formReset",
+                            "idinfo": "",
+                            "isTplBinded": false,
+                            "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+                        },
+                        "系统字典>2>bus1>a:userData": {
+                            "id": "iotos.formReset",
+                            "idinfo": "",
+                            "isTplBinded": false,
+                            "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+                        },
+                        "系统字典>2>bus1>a:addrsRemote": {
+                            "id": "iotos.formReset",
+                            "idinfo": "",
+                            "isTplBinded": false,
+                            "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+                        },
+                        "系统字典>2>bus1>a:topicSend": {
+                            "id": "iotos.formReset",
+                            "idinfo": "",
+                            "isTplBinded": false,
+                            "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+                        },
+                        "系统字典>2>bus1>a:contentSend": {
+                            "id": "iotos.formReset",
+                            "idinfo": "",
+                            "isTplBinded": false,
+                            "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+                        },
+                        "系统字典>2>bus1>a:triggerSend": {
+                            "id": "iotos.formReset",
+                            "idinfo": "",
+                            "isTplBinded": false,
+                            "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+                        },
+                        "系统字典>2>bus1>a:callerRemote": {
+                            "id": "iotos.formReset",
+                            "idinfo": "",
+                            "isTplBinded": false,
+                            "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+                        },
+                        "系统字典>2>bus1>a:topicRecv": {
+                            "id": "iotos.formReset",
+                            "idinfo": "",
+                            "isTplBinded": false,
+                            "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+                        },
+                        "系统字典>2>bus1>a:contentRecv": {
+                            "id": "iotos.formReset",
+                            "idinfo": "",
+                            "isTplBinded": false,
+                            "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+                        },
+                        "系统字典>2>bus1>a:waitingRecv": {
+                            "id": "iotos.formReset",
+                            "idinfo": "",
+                            "isTplBinded": false,
+                            "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+                        },
+                        "系统字典>2>bus1>a:topicsWhiteList": {
+                            "id": "iotos.formReset",
+                            "idinfo": "",
+                            "isTplBinded": false,
+                            "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+                        },
+                        "系统字典>2>bus1>a:addrsWhiteList": {
+                            "id": "iotos.formReset",
+                            "idinfo": "",
+                            "isTplBinded": false,
+                            "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+                        },
+                        "系统字典>2>bus1>a:onEvent": {
+                            "id": "iotos.formReset",
+                            "idinfo": "",
+                            "isTplBinded": false,
+                            "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+                        },
+                        "系统字典>2>func1>a:userData": {
+                            "id": "iotos.formReset",
+                            "idinfo": "",
+                            "isTplBinded": false,
+                            "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+                        },
+                        "系统字典>2>func1>a:output": {
+                            "id": "iotos.formReset",
+                            "idinfo": "",
+                            "isTplBinded": false,
+                            "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+                        },
+                        "系统字典>2>func1>a:inputs": {
+                            "id": "iotos.formReset",
+                            "idinfo": "",
+                            "isTplBinded": false,
+                            "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+                        },
+                        "系统字典>2>func1>a:exec": {
+                            "id": "iotos.formReset",
+                            "idinfo": "",
+                            "isTplBinded": false,
+                            "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+                        },
+                        "系统字典>2>func1>a:_function": {
+                            "id": "iotos.formReset",
+                            "idinfo": "",
+                            "isTplBinded": false,
+                            "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+                        },
+                        "系统字典>2>dlg1>a:show": {
+                            "id": "iotos.formReset",
+                            "idinfo": "",
+                            "isTplBinded": false,
+                            "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+                        },
+                        "系统字典>2>dlg1>a:userData": {
+                            "id": "iotos.formReset",
+                            "idinfo": "",
+                            "isTplBinded": false,
+                            "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+                        },
+                        "系统字典>2>dlg1>a:titleText": {
+                            "id": "iotos.formReset",
+                            "idinfo": "",
+                            "isTplBinded": false,
+                            "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+                        },
+                        "系统字典>2>dlg1>a:display": {
+                            "id": "iotos.formReset",
+                            "idinfo": "",
+                            "isTplBinded": false,
+                            "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+                        },
+                        "系统字典>2>dlg1>a:onPageBinded": {
+                            "id": "iotos.formReset",
+                            "idinfo": "",
+                            "isTplBinded": false,
+                            "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+                        },
+                        "系统字典>2>dlg1>a:InputTextArea-formValue>0>dataBackup>s:text": {
+                            "id": "iotos.formReset",
+                            "idinfo": "",
+                            "isTplBinded": false,
+                            "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+                        },
+                        "系统字典>2>dlg1>a:InputTextArea-formValue>0>name>a:value": {
+                            "id": "iotos.formValue",
+                            "idinfo": "",
+                            "isTplBinded": false,
+                            "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+                        },
+                        "系统字典>2>dlg1>a:InputTextArea-formValue>0>name>a:instantTrigger": {
+                            "id": "iotos.formReset",
+                            "idinfo": "",
+                            "isTplBinded": false,
+                            "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+                        },
+                        "系统字典>2>dlg1>a:InputTextArea-formValue>0>name>a:onChange": {
+                            "id": "iotos.formReset",
+                            "idinfo": "",
+                            "isTplBinded": false,
+                            "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+                        },
+                        "系统字典>2>dlg1>a:InputTextArea-formValue>0>name>s:label": {
+                            "id": "iotos.formReset",
+                            "idinfo": "",
+                            "isTplBinded": false,
+                            "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+                        },
+                        "系统字典>2>dlg1>a:InputTextArea-formValue>0>name>p:x": {
+                            "id": "iotos.formReset",
+                            "idinfo": "",
+                            "isTplBinded": false,
+                            "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+                        },
+                        "系统字典>2>dlg1>a:InputTextArea-formValue>0>name>p:scaleX": {
+                            "id": "iotos.formReset",
+                            "idinfo": "",
+                            "isTplBinded": false,
+                            "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+                        },
+                        "系统字典>2>dlg1>a:InputTextArea-formValue>0>desc>a:value": {
+                            "id": "iotos.formValue",
+                            "idinfo": "",
+                            "isTplBinded": false,
+                            "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+                        },
+                        "系统字典>2>dlg1>a:InputTextArea-formValue>0>desc>a:instantTrigger": {
+                            "id": "iotos.formReset",
+                            "idinfo": "",
+                            "isTplBinded": false,
+                            "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+                        },
+                        "系统字典>2>dlg1>a:InputTextArea-formValue>0>desc>a:htmlContent": {
+                            "id": "iotos.formReset",
+                            "idinfo": "",
+                            "isTplBinded": false,
+                            "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+                        },
+                        "系统字典>2>dlg1>a:InputTextArea-formValue>0>desc>a:readOnly": {
+                            "id": "iotos.formReset",
+                            "idinfo": "",
+                            "isTplBinded": false,
+                            "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+                        },
+                        "系统字典>2>dlg1>a:InputTextArea-formValue>0>desc>a:onChange": {
+                            "id": "iotos.formReset",
+                            "idinfo": "",
+                            "isTplBinded": false,
+                            "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+                        },
+                        "系统字典>2>dlg1>a:InputTextArea-formValue>0>desc>s:label": {
+                            "id": "iotos.formReset",
+                            "idinfo": "",
+                            "isTplBinded": false,
+                            "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+                        },
+                        "系统字典>2>dlg1>a:InputTextArea-formValue>0>desc>p:x": {
+                            "id": "iotos.formReset",
+                            "idinfo": "",
+                            "isTplBinded": false,
+                            "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+                        },
+                        "系统字典>2>dlg1>a:InputTextArea-formValue>0>desc>p:scaleX": {
+                            "id": "iotos.formReset",
+                            "idinfo": "",
+                            "isTplBinded": false,
+                            "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+                        },
+                        "系统字典>2>func2>a:userData": {
+                            "id": "iotos.formReset",
+                            "idinfo": "",
+                            "isTplBinded": false,
+                            "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+                        },
+                        "系统字典>2>func2>a:output": {
+                            "id": "iotos.formReset",
+                            "idinfo": "",
+                            "isTplBinded": false,
+                            "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+                        },
+                        "系统字典>2>func2>a:inputs": {
+                            "id": "iotos.formReset",
+                            "idinfo": "",
+                            "isTplBinded": false,
+                            "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+                        },
+                        "系统字典>2>func2>a:exec": {
+                            "id": "iotos.formReset",
+                            "idinfo": "",
+                            "isTplBinded": false,
+                            "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+                        },
+                        "系统字典>2>func2>a:_function": {
+                            "id": "iotos.formReset",
+                            "idinfo": "",
+                            "isTplBinded": false,
+                            "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+                        },
+                        "系统字典>2>func4>a:userData": {
+                            "id": "iotos.formReset",
+                            "idinfo": "",
+                            "isTplBinded": false,
+                            "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+                        },
+                        "系统字典>2>func4>a:output": {
+                            "id": "iotos.formReset",
+                            "idinfo": "",
+                            "isTplBinded": false,
+                            "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+                        },
+                        "系统字典>2>func4>a:inputs": {
+                            "id": "iotos.formReset",
+                            "idinfo": "",
+                            "isTplBinded": false,
+                            "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+                        },
+                        "系统字典>2>func4>a:exec": {
+                            "id": "iotos.formReset",
+                            "idinfo": "",
+                            "isTplBinded": false,
+                            "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+                        },
+                        "系统字典>2>func4'>a:userData": {
+                            "id": "iotos.formReset",
+                            "idinfo": "",
+                            "isTplBinded": false,
+                            "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+                        },
+                        "系统字典>2>func4'>a:output": {
+                            "id": "iotos.formReset",
+                            "idinfo": "",
+                            "isTplBinded": false,
+                            "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+                        },
+                        "系统字典>2>func4'>a:inputs": {
+                            "id": "iotos.formReset",
+                            "idinfo": "",
+                            "isTplBinded": false,
+                            "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+                        },
+                        "系统字典>2>func4'>a:exec": {
+                            "id": "iotos.formReset",
+                            "idinfo": "",
+                            "isTplBinded": false,
+                            "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+                        }
+                    }
+                },
+                "image": {
+                    "modified": "Fri Jan 27 2023 01:19:29 GMT+0800 (中国标准时间)",
+                    "dataBindings": [{
+                            "attr": "symbol",
+                            "valueType": "Image"
+                        },
+                        {
+                            "attr": "displays",
+                            "valueType": "StringArray"
+                        },
+                        {
+                            "attr": "display",
+                            "valueType": "Image"
+                        },
+                        {
+                            "attr": "shadowBorder",
+                            "valueType": "NumberArray",
+                            "defaultValue": [
+                                0,
+                                0,
+                                8
+                            ]
+                        },
+                        {
+                            "attr": "shadowColor",
+                            "valueType": "Color",
+                            "defaultValue": "rgba(55,125,255,0.50)"
+                        },
+                        {
+                            "attr": "shadowEnabled",
+                            "valueType": "Boolean",
+                            "defaultValue": true
+                        },
+                        {
+                            "attr": "innerBackground",
+                            "valueType": "Color",
+                            "defaultValue": "rgb(255,255,255)"
+                        },
+                        {
+                            "attr": "index",
+                            "valueType": "PositiveNumber",
+                            "defaultValue": 0
+                        },
+                        {
+                            "attr": "onPostDeserialize",
+                            "valueType": "Function"
+                        },
+                        {
+                            "attr": "relativePath",
+                            "valueType": "Image"
+                        },
+                        {
+                            "attr": "bindControlsTag",
+                            "valueType": "StringArray",
+                            "group": "bindControls"
+                        },
+                        {
+                            "attr": "bindControlsAttr",
+                            "valueType": "StringArray"
+                        },
+                        {
+                            "attr": "bindControlsVal",
+                            "valueType": "StringArray"
+                        },
+                        {
+                            "attr": "paramControlTag",
+                            "valueType": "StringArray"
+                        },
+                        {
+                            "attr": "paramControlAttr",
+                            "valueType": "StringArray"
+                        },
+                        {
+                            "attr": "paramsGenerator",
+                            "valueType": "Function",
+                            "defaultValue": "__ht__function(data, controlVal, index, node,oldVal,form) {//绑定组索引对应的函数处理，用来动态生成复杂的参数变量传入\r\nswitch(index){\r\n    case 0:\r\n        break;\r\n    case 1:\r\n        break;\r\n    case 2:\r\n        break;\r\n    default:\r\n        break;\r\n}\r\n\r\nreturn controlVal;}",
+                            "extraInfo": {
+                                "arguments": [
+                                    "data",
+                                    "val",
+                                    "index",
+                                    "node",
+                                    "oldVal",
+                                    "form",
+                                    "type",
+                                    "inner"
+                                ]
+                            }
+                        },
+                        {
+                            "attr": "系统字典>2>bt1>a:text",
+                            "valueType": "String",
+                            "defaultValue": "+ 新增组",
+                            "group": "系统字典>2>bt1"
+                        },
+                        {
+                            "attr": "系统字典>2>bt1>a:onFormClick",
+                            "valueType": "Function",
+                            "extraInfo": {
+                                "arguments": [
+                                    "data",
+                                    "gv",
+                                    "cache",
+                                    "value",
+                                    "extra"
+                                ]
+                            },
+                            "group": "系统字典>2>bt1"
+                        },
+                        {
+                            "attr": "系统字典>2>bt1>a:userData",
+                            "valueType": "ObjectArray",
+                            "group": "系统字典>2>bt1"
+                        },
+                        {
+                            "attr": "系统字典>2>dictTable>a:datas",
+                            "valueType": "Object",
+                            "defaultValue": [{
+                                "rowData": [
+                                    "页面收藏"
+                                ],
+                                "children": [{
+                                        "rowData": [
+                                            "menu_0ddd",
+                                            "./develop/uiotos/ffff;displays/develop/uiotos/menu_0.json",
+                                            "2023-04-20 09:11:12"
+                                        ],
+                                        "children": [],
+                                        "id": 2
+                                    },
+                                    {
+                                        "rowData": [
+                                            "menu_233333333",
+                                            "./develop/uiotos/333333333333333;displays/develop/uiotos/menu_2.json",
+                                            "2023-04-20 09:11:24"
+                                        ],
+                                        "children": [],
+                                        "id": 3
+                                    }
+                                ],
+                                "id": 1
+                            }],
+                            "group": "系统字典>2>dictTable"
+                        },
+                        {
+                            "attr": "系统字典>2>dictTable>a:visibleFilterInput",
+                            "valueType": "String",
+                            "defaultValue": "",
+                            "group": "系统字典>2>dictTable"
+                        },
+                        {
+                            "attr": "系统字典>2>dictTable>a:dataComboType",
+                            "valueType": "Object",
+                            "defaultValue": [{
+                                "name": "页面收藏",
+                                "value": 1,
+                                "children": [{
+                                        "name": "menu_0ddd",
+                                        "value": 2,
+                                        "children": []
+                                    },
+                                    {
+                                        "name": "menu_233333333",
+                                        "value": 3,
+                                        "children": []
+                                    }
+                                ]
+                            }],
+                            "group": "系统字典>2>dictTable"
+                        },
+                        {
+                            "attr": "系统字典>2>dictTable>a:dataAdd",
+                            "valueType": "Object",
+                            "group": "系统字典>2>dictTable"
+                        },
+                        {
+                            "attr": "系统字典>2>dictTable>a:checkSelected",
+                            "valueType": "ObjectArray",
+                            "defaultValue": [],
+                            "group": "系统字典>2>dictTable"
+                        },
+                        {
+                            "attr": "系统字典>2>dictTable>a:rowsExtraUserInfo",
+                            "valueType": "ObjectArray",
+                            "group": "系统字典>2>dictTable"
+                        },
+                        {
+                            "attr": "系统字典>2>dictTable>a:checkIndexsGet",
+                            "valueType": "ObjectArray",
+                            "defaultValue": [],
+                            "group": "系统字典>2>dictTable"
+                        },
+                        {
+                            "attr": "系统字典>2>dictTable>a:onDatasLoaded",
+                            "valueType": "Function",
+                            "extraInfo": {
+                                "arguments": [
+                                    "data",
+                                    "gv",
+                                    "cache",
+                                    "value",
+                                    "extra"
+                                ]
+                            },
+                            "group": "系统字典>2>dictTable"
+                        },
+                        {
+                            "attr": "系统字典>2>dictTable>a:userData",
+                            "valueType": "ObjectArray",
+                            "group": "系统字典>2>dictTable"
+                        },
+                        {
+                            "attr": "系统字典>2>dictTable>a:onClick",
+                            "valueType": "Function",
+                            "extraInfo": {
+                                "arguments": [
+                                    "data",
+                                    "gv",
+                                    "cache",
+                                    "rowData",
+                                    "button"
+                                ]
+                            },
+                            "group": "系统字典>2>dictTable"
+                        },
+                        {
+                            "attr": "系统字典>2>dictTable>a:onDoubleClick",
+                            "valueType": "Function",
+                            "extraInfo": {
+                                "arguments": [
+                                    "data",
+                                    "gv",
+                                    "cache",
+                                    "rowData",
+                                    "button"
+                                ]
+                            },
+                            "group": "系统字典>2>dictTable"
+                        },
+                        {
+                            "attr": "系统字典>2>dictTable>a:onCheck",
+                            "valueType": "Function",
+                            "extraInfo": {
+                                "arguments": [
+                                    "data",
+                                    "gv",
+                                    "cache",
+                                    "selected"
+                                ]
+                            },
+                            "group": "系统字典>2>dictTable"
+                        },
+                        {
+                            "attr": "系统字典>2>dictTable>a:onLastButtonClick",
+                            "valueType": "Function",
+                            "extraInfo": {
+                                "arguments": [
+                                    "data",
+                                    "gv",
+                                    "cache",
+                                    "value",
+                                    "extra"
+                                ]
+                            },
+                            "group": "系统字典>2>dictTable"
+                        },
+                        {
+                            "attr": "系统字典>2>dictTable>a:onLastButtonSelected",
+                            "valueType": "Function",
+                            "extraInfo": {
+                                "arguments": [
+                                    "data",
+                                    "gv",
+                                    "cache",
+                                    "value",
+                                    "extra"
+                                ]
+                            },
+                            "group": "系统字典>2>dictTable"
+                        },
+                        {
+                            "attr": "系统字典>2>dialog-ui1>a:Input>0>input-ui1>a:labelText",
+                            "valueType": "String",
+                            "defaultValue": "输入名称：",
+                            "group": "系统字典>2>dialog-ui1"
+                        },
+                        {
+                            "attr": "系统字典>2>dialog-ui1>a:Input>0>input-ui1>a:value",
+                            "valueType": "String",
+                            "defaultValue": "2",
+                            "group": "系统字典>2>dialog-ui1"
+                        },
+                        {
+                            "attr": "系统字典>2>dialog-ui1>a:Input>0>dataBackup>s:text",
+                            "valueType": "String",
+                            "defaultValue": "null",
+                            "extraInfo": null,
+                            "group": "系统字典>2>dialog-ui1"
+                        },
+                        {
+                            "attr": "系统字典>2>dialog-ui1>a:show",
+                            "valueType": "Boolean",
+                            "defaultValue": false,
+                            "group": "系统字典>2>dialog-ui1"
+                        },
+                        {
+                            "attr": "系统字典>2>dialog-ui1>a:titleText",
+                            "valueType": "String",
+                            "defaultValue": "+ 新增组",
+                            "group": "系统字典>2>dialog-ui1"
+                        },
+                        {
+                            "attr": "系统字典>2>dialog-ui1>a:display",
+                            "valueType": "Image",
+                            "defaultValue": "displays/develop/uiotos/aiotos/apps/others/whut/子页面/Input.json",
+                            "group": "系统字典>2>dialog-ui1"
+                        },
+                        {
+                            "attr": "系统字典>2>dialog-ui1>a:onPageBinded",
+                            "valueType": "Object",
+                            "group": "系统字典>2>dialog-ui1"
+                        },
+                        {
+                            "attr": "系统字典>2>dialog-ui1>a:Input>0>input-ui1>a:instantTrigger",
+                            "valueType": "Boolean",
+                            "defaultValue": true,
+                            "group": "系统字典>2>dialog-ui1"
+                        },
+                        {
+                            "attr": "系统字典>2>dialog-ui1>a:Input>0>input-ui1>a:onChange",
+                            "valueType": "Function",
+                            "extraInfo": {
+                                "arguments": [
+                                    "data",
+                                    "gv",
+                                    "cache",
+                                    "value"
+                                ]
+                            },
+                            "group": "系统字典>2>dialog-ui1"
+                        },
+                        {
+                            "attr": "系统字典>2>dialog-ui1>a:userData",
+                            "valueType": "ObjectArray",
+                            "group": "系统字典>2>dialog-ui1"
+                        },
+                        {
+                            "attr": "系统字典>2>dialog-ui3>a:show",
+                            "valueType": "Boolean",
+                            "defaultValue": false,
+                            "group": "系统字典>2>dialog-ui3"
+                        },
+                        {
+                            "attr": "系统字典>2>dialog-ui3>a:titleText",
+                            "valueType": "String",
+                            "defaultValue": "警告",
+                            "group": "系统字典>2>dialog-ui3"
+                        },
+                        {
+                            "attr": "系统字典>2>dialog-ui3>a:display",
+                            "valueType": "Image",
+                            "defaultValue": "displays/develop/uiotos/aiotos/apps/others/whut/子页面/ensure.json",
+                            "group": "系统字典>2>dialog-ui3"
+                        },
+                        {
+                            "attr": "系统字典>2>dialog-ui3>a:onPageBinded",
+                            "valueType": "Object",
+                            "group": "系统字典>2>dialog-ui3"
+                        },
+                        {
+                            "attr": "系统字典>2>dialog-ui3>a:ensure>0>datas>s:text",
+                            "valueType": "String",
+                            "defaultValue": 4,
+                            "extraInfo": null,
+                            "group": "系统字典>2>dialog-ui3"
+                        },
+                        {
+                            "attr": "系统字典>2>dialog-ui3>a:ensure>0>textArea-ui1>a:value",
+                            "valueType": "Multiline",
+                            "defaultValue": "确定删除？",
+                            "group": "系统字典>2>dialog-ui3"
+                        },
+                        {
+                            "attr": "系统字典>2>dialog-ui3>a:ensure>0>textArea-ui1>a:htmlContent",
+                            "valueType": "Boolean",
+                            "defaultValue": false,
+                            "group": "系统字典>2>dialog-ui3"
+                        },
+                        {
+                            "attr": "系统字典>2>dialog-ui3>a:userData",
+                            "valueType": "ObjectArray",
+                            "group": "系统字典>2>dialog-ui3"
+                        },
+                        {
+                            "attr": "系统字典>2>dialog-ui3>a:ensure>0>textArea-ui1>a:instantTrigger",
+                            "valueType": "Boolean",
+                            "defaultValue": true,
+                            "group": "系统字典>2>dialog-ui3"
+                        },
+                        {
+                            "attr": "系统字典>2>dialog-ui3>a:ensure>0>textArea-ui1>a:readOnly",
+                            "valueType": "Boolean",
+                            "defaultValue": true,
+                            "group": "系统字典>2>dialog-ui3"
+                        },
+                        {
+                            "attr": "系统字典>2>dialog-ui3>a:ensure>0>textArea-ui1>a:onChange",
+                            "valueType": "Function",
+                            "extraInfo": {
+                                "arguments": [
+                                    "data",
+                                    "gv",
+                                    "cache",
+                                    "value",
+                                    "extra"
+                                ]
+                            },
+                            "group": "系统字典>2>dialog-ui3"
+                        },
+                        {
+                            "attr": "系统字典>2>bus1>a:userData",
+                            "valueType": "ObjectArray",
+                            "group": "系统字典>2>bus1"
+                        },
+                        {
+                            "attr": "系统字典>2>bus1>a:addrsRemote",
+                            "valueType": "StringArray",
+                            "defaultValue": [
+                                "*"
+                            ],
+                            "group": "系统字典>2>bus1"
+                        },
+                        {
+                            "attr": "系统字典>2>bus1>a:topicSend",
+                            "valueType": "String",
+                            "defaultValue": "null:bus1",
+                            "group": "系统字典>2>bus1"
+                        },
+                        {
+                            "attr": "系统字典>2>bus1>a:contentSend",
+                            "valueType": "Object",
+                            "group": "系统字典>2>bus1"
+                        },
+                        {
+                            "attr": "系统字典>2>bus1>a:triggerSend",
+                            "valueType": "Boolean",
+                            "defaultValue": false,
+                            "group": "系统字典>2>bus1"
+                        },
+                        {
+                            "attr": "系统字典>2>bus1>a:callerRemote",
+                            "valueType": "Object",
+                            "defaultValue": "bus1",
+                            "group": "系统字典>2>bus1"
+                        },
+                        {
+                            "attr": "系统字典>2>bus1>a:topicRecv",
+                            "valueType": "String",
+                            "defaultValue": "search",
+                            "group": "系统字典>2>bus1"
+                        },
+                        {
+                            "attr": "系统字典>2>bus1>a:contentRecv",
+                            "valueType": "Object",
+                            "defaultValue": {
+                                "a:week": "星期二",
+                                "a:time": "13:55:06",
+                                "a:date": "2023-04-18",
+                                "value": "",
+                                "a:value": ""
+                            },
+                            "group": "系统字典>2>bus1"
+                        },
+                        {
+                            "attr": "系统字典>2>bus1>a:waitingRecv",
+                            "valueType": "Boolean",
+                            "defaultValue": true,
+                            "group": "系统字典>2>bus1"
+                        },
+                        {
+                            "attr": "系统字典>2>bus1>a:topicsWhiteList",
+                            "valueType": "StringArray",
+                            "defaultValue": [
+                                "*"
+                            ],
+                            "group": "系统字典>2>bus1"
+                        },
+                        {
+                            "attr": "系统字典>2>bus1>a:addrsWhiteList",
+                            "valueType": "StringArray",
+                            "defaultValue": [
+                                "*"
+                            ],
+                            "group": "系统字典>2>bus1"
+                        },
+                        {
+                            "attr": "系统字典>2>bus1>a:onEvent",
+                            "valueType": "Function",
+                            "extraInfo": {
+                                "arguments": [
+                                    "data",
+                                    "gv",
+                                    "cache",
+                                    "form",
+                                    "extra"
+                                ]
+                            },
+                            "group": "系统字典>2>bus1"
+                        },
+                        {
+                            "attr": "系统字典>2>func1>a:userData",
+                            "valueType": "ObjectArray",
+                            "group": "系统字典>2>func1"
+                        },
+                        {
+                            "attr": "系统字典>2>func1>a:output",
+                            "valueType": "Object",
+                            "defaultValue": "",
+                            "group": "系统字典>2>func1"
+                        },
+                        {
+                            "attr": "系统字典>2>func1>a:inputs",
+                            "valueType": "ObjectArray",
+                            "defaultValue": {
+                                "a:week": "星期二",
+                                "a:time": "13:55:06",
+                                "a:date": "2023-04-18",
+                                "value": "",
+                                "a:value": ""
+                            },
+                            "group": "系统字典>2>func1"
+                        },
+                        {
+                            "attr": "系统字典>2>func1>a:exec",
+                            "valueType": "Boolean",
+                            "defaultValue": false,
+                            "group": "系统字典>2>func1"
+                        },
+                        {
+                            "attr": "系统字典>2>func1>a:_function",
+                            "valueType": "Function",
+                            "extraInfo": {
+                                "arguments": [
+                                    "data",
+                                    "gv",
+                                    "cache",
+                                    "inputs"
+                                ]
+                            },
+                            "group": "系统字典>2>func1"
+                        },
+                        {
+                            "attr": "系统字典>2>dlg1>a:show",
+                            "valueType": "Boolean",
+                            "defaultValue": false,
+                            "group": "系统字典>2>dlg1"
+                        },
+                        {
+                            "attr": "系统字典>2>dlg1>a:userData",
+                            "valueType": "ObjectArray",
+                            "defaultValue": 4,
+                            "group": "系统字典>2>dlg1"
+                        },
+                        {
+                            "attr": "系统字典>2>dlg1>a:titleText",
+                            "valueType": "String",
+                            "defaultValue": "修改",
+                            "group": "系统字典>2>dlg1"
+                        },
+                        {
+                            "attr": "系统字典>2>dlg1>a:display",
+                            "valueType": "Image",
+                            "defaultValue": "displays/develop/uiotos/editor/widgets/dialog/InputTextArea-formValue.json",
+                            "group": "系统字典>2>dlg1"
+                        },
+                        {
+                            "attr": "系统字典>2>dlg1>a:onPageBinded",
+                            "valueType": "Object",
+                            "group": "系统字典>2>dlg1"
+                        },
+                        {
+                            "attr": "系统字典>2>dlg1>a:InputTextArea-formValue>0>dataBackup>s:text",
+                            "valueType": "String",
+                            "defaultValue": "文本",
+                            "extraInfo": null,
+                            "group": "系统字典>2>dlg1"
+                        },
+                        {
+                            "attr": "系统字典>2>dlg1>a:InputTextArea-formValue>0>name>a:value",
+                            "valueType": "String",
+                            "defaultValue": "menu_0ffffff2222",
+                            "group": "系统字典>2>dlg1"
+                        },
+                        {
+                            "attr": "系统字典>2>dlg1>a:InputTextArea-formValue>0>name>a:instantTrigger",
+                            "valueType": "Boolean",
+                            "defaultValue": true,
+                            "group": "系统字典>2>dlg1"
+                        },
+                        {
+                            "attr": "系统字典>2>dlg1>a:InputTextArea-formValue>0>name>a:onChange",
+                            "valueType": "Function",
+                            "extraInfo": {
+                                "arguments": [
+                                    "data",
+                                    "gv",
+                                    "cache",
+                                    "value"
+                                ]
+                            },
+                            "group": "系统字典>2>dlg1"
+                        },
+                        {
+                            "attr": "系统字典>2>dlg1>a:InputTextArea-formValue>0>name>s:label",
+                            "valueType": "String",
+                            "defaultValue": "名称",
+                            "extraInfo": null,
+                            "group": "系统字典>2>dlg1"
+                        },
+                        {
+                            "attr": "系统字典>2>dlg1>a:InputTextArea-formValue>0>name>p:x",
+                            "valueType": "Number",
+                            "defaultValue": 414.50122,
+                            "extraInfo": null,
+                            "group": "系统字典>2>dlg1"
+                        },
+                        {
+                            "attr": "系统字典>2>dlg1>a:InputTextArea-formValue>0>name>p:scaleX",
+                            "valueType": "Number",
+                            "defaultValue": 1,
+                            "extraInfo": null,
+                            "group": "系统字典>2>dlg1"
+                        },
+                        {
+                            "attr": "系统字典>2>dlg1>a:InputTextArea-formValue>0>desc>a:value",
+                            "valueType": "Multiline",
+                            "defaultValue": "",
+                            "group": "系统字典>2>dlg1"
+                        },
+                        {
+                            "attr": "系统字典>2>dlg1>a:InputTextArea-formValue>0>desc>a:instantTrigger",
+                            "valueType": "Boolean",
+                            "defaultValue": true,
+                            "group": "系统字典>2>dlg1"
+                        },
+                        {
+                            "attr": "系统字典>2>dlg1>a:InputTextArea-formValue>0>desc>a:htmlContent",
+                            "valueType": "Boolean",
+                            "defaultValue": false,
+                            "group": "系统字典>2>dlg1"
+                        },
+                        {
+                            "attr": "系统字典>2>dlg1>a:InputTextArea-formValue>0>desc>a:readOnly",
+                            "valueType": "Boolean",
+                            "group": "系统字典>2>dlg1"
+                        },
+                        {
+                            "attr": "系统字典>2>dlg1>a:InputTextArea-formValue>0>desc>a:onChange",
+                            "valueType": "Function",
+                            "extraInfo": {
+                                "arguments": [
+                                    "data",
+                                    "gv",
+                                    "cache",
+                                    "value",
+                                    "extra"
+                                ]
+                            },
+                            "group": "系统字典>2>dlg1"
+                        },
+                        {
+                            "attr": "系统字典>2>dlg1>a:InputTextArea-formValue>0>desc>s:label",
+                            "valueType": "String",
+                            "defaultValue": "内容",
+                            "extraInfo": null,
+                            "group": "系统字典>2>dlg1"
+                        },
+                        {
+                            "attr": "系统字典>2>dlg1>a:InputTextArea-formValue>0>desc>p:x",
+                            "valueType": "Number",
+                            "defaultValue": 414.50122,
+                            "extraInfo": null,
+                            "group": "系统字典>2>dlg1"
+                        },
+                        {
+                            "attr": "系统字典>2>dlg1>a:InputTextArea-formValue>0>desc>p:scaleX",
+                            "valueType": "Number",
+                            "defaultValue": 1,
+                            "extraInfo": null,
+                            "group": "系统字典>2>dlg1"
+                        },
+                        {
+                            "attr": "系统字典>2>func2>a:userData",
+                            "valueType": "ObjectArray",
+                            "group": "系统字典>2>func2"
+                        },
+                        {
+                            "attr": "系统字典>2>func2>a:output",
+                            "valueType": "Object",
+                            "defaultValue": 4,
+                            "group": "系统字典>2>func2"
+                        },
+                        {
+                            "attr": "系统字典>2>func2>a:inputs",
+                            "valueType": "ObjectArray",
+                            "defaultValue": {
+                                "a:datas": [{
+                                    "rowData": [
+                                        "页面收藏"
+                                    ],
+                                    "children": [{
+                                            "rowData": [
+                                                "uiotosxxxxxx",
+                                                "./develop/uiotos/xxxxxxxxxx;displays/develop/uiotos/uiotos.json",
+                                                "2023-04-20 08:15:51"
+                                            ],
+                                            "children": [],
+                                            "id": 2
+                                        },
+                                        {
+                                            "rowData": [
+                                                "menu_2xxxxx",
+                                                "./develop/uiotos/xxxxxxxx;displays/develop/uiotos/menu_2.json",
+                                                "2023-04-20 08:16:15"
+                                            ],
+                                            "children": [],
+                                            "id": 3
+                                        },
+                                        {
+                                            "rowData": [
+                                                "menu_0ffffff",
+                                                "./develop/uiotos/ffffffffffff;displays/develop/uiotos/menu_0.json",
+                                                "2023-04-20 08:52:52"
+                                            ],
+                                            "children": [],
+                                            "id": 4
+                                        }
+                                    ],
+                                    "id": 1
+                                }],
+                                "a:visibleFilterInput": "",
+                                "a:dataComboType": [{
+                                    "name": "页面收藏",
+                                    "value": 1,
+                                    "children": [{
+                                            "name": "uiotosxxxxxx",
+                                            "value": 2,
+                                            "children": []
+                                        },
+                                        {
+                                            "name": "menu_2xxxxx",
+                                            "value": 3,
+                                            "children": []
+                                        },
+                                        {
+                                            "name": "menu_0ffffff",
+                                            "value": 4,
+                                            "children": []
+                                        }
+                                    ]
+                                }],
+                                "a:dataAdd": null,
+                                "a:checkSelected": [],
+                                "a:rowsExtraUserInfo": null,
+                                "a:checkIndexsGet": [],
+                                "a:userData": null,
+                                "_row": {
+                                    "rowData": [
+                                        "menu_0ffffff",
+                                        "./develop/uiotos/ffffffffffff;displays/develop/uiotos/menu_0.json",
+                                        "2023-04-20 08:52:52"
+                                    ],
+                                    "rowId": 4,
+                                    "button": {
+                                        "text": "修改",
+                                        "index": 1
+                                    }
+                                }
+                            },
+                            "group": "系统字典>2>func2"
+                        },
+                        {
+                            "attr": "系统字典>2>func2>a:exec",
+                            "valueType": "Boolean",
+                            "defaultValue": false,
+                            "group": "系统字典>2>func2"
+                        },
+                        {
+                            "attr": "系统字典>2>func2>a:_function",
+                            "valueType": "Function",
+                            "extraInfo": {
+                                "arguments": [
+                                    "data",
+                                    "gv",
+                                    "cache",
+                                    "inputs"
+                                ]
+                            },
+                            "group": "系统字典>2>func2"
+                        },
+                        {
+                            "attr": "系统字典>2>func4>a:userData",
+                            "valueType": "ObjectArray",
+                            "group": "系统字典>2>func4"
+                        },
+                        {
+                            "attr": "系统字典>2>func4>a:output",
+                            "valueType": "Object",
+                            "group": "系统字典>2>func4"
+                        },
+                        {
+                            "attr": "系统字典>2>func4>a:inputs",
+                            "valueType": "ObjectArray",
+                            "group": "系统字典>2>func4"
+                        },
+                        {
+                            "attr": "系统字典>2>func4>a:exec",
+                            "valueType": "Boolean",
+                            "defaultValue": false,
+                            "group": "系统字典>2>func4"
+                        },
+                        {
+                            "attr": "系统字典>2>func4'>a:userData",
+                            "valueType": "ObjectArray",
+                            "group": "系统字典>2>func4'"
+                        },
+                        {
+                            "attr": "系统字典>2>func4'>a:output",
+                            "valueType": "Object",
+                            "group": "系统字典>2>func4'"
+                        },
+                        {
+                            "attr": "系统字典>2>func4'>a:inputs",
+                            "valueType": "ObjectArray",
+                            "group": "系统字典>2>func4'"
+                        },
+                        {
+                            "attr": "系统字典>2>func4'>a:exec",
+                            "valueType": "Boolean",
+                            "defaultValue": false,
+                            "group": "系统字典>2>func4'"
+                        }
+                    ],
+                    "snapshotURL": "icon.base.tabView",
+                    "renderHTML": "__ht__function(data, gv, cache) {return __tabView(data,gv,cache);}",
+                    "width": 300,
+                    "height": 200,
+                    "fitSize": true,
+                    "pixelPerfect": false,
+                    "comps": [],
+                    "uuid": "FC39E83A-5CA0-4480-86E5-3D594B5CD1FF"
+                },
+                "host": {
+                    "__i": 10165
+                },
+                "position": {
+                    "x": 202.2158,
+                    "y": 478.44713
+                },
+                "width": 1920,
+                "height": 1034.10573
+            },
+            "s": {
+                "pixelPerfect": false,
+                "label.position": 14,
+                "label.offset.x": -10,
+                "label.offset.y": 0,
+                "label.color": "rgb(61,61,61)",
+                "2d.movable": false,
+                "interactive": true,
+                "image.stretch": "uniform",
+                "layout.h": "leftright",
+                "layout.v": "topbottom"
+            },
+            "a": {
+                "shadowEnabled": false,
+                "displays": [
+                    "外观风格",
+                    "资源文件",
+                    "系统字典",
+                    "服务配置"
+                ],
+                "relativePath": "displays/develop/uiotos/aiotos/apps/系统配置",
+                "__loadingStatus": false,
+                "symbol": "symbols/develop/uiotos/base/tabView.json",
+                "display": "displays/develop/uiotos/aiotos/apps/系统配置/系统字典.json",
+                "index": 2,
+                "系统字典>2>bt1>a:text": "+ 新增组",
+                "系统字典>2>bt1>a:onFormClick": null,
+                "系统字典>2>bt1>a:userData": null,
+                "系统字典>2>dictTable>a:datas": [{
+                    "rowData": [
+                        "页面收藏"
+                    ],
+                    "children": [{
+                            "rowData": [
+                                "menu_0ddd",
+                                "./develop/uiotos/ffff;displays/develop/uiotos/menu_0.json",
+                                "2023-04-20 09:11:12"
+                            ],
+                            "children": [],
+                            "id": 2
+                        },
+                        {
+                            "rowData": [
+                                "menu_233333333",
+                                "./develop/uiotos/333333333333333;displays/develop/uiotos/menu_2.json",
+                                "2023-04-20 09:11:24"
+                            ],
+                            "children": [],
+                            "id": 3
+                        }
+                    ],
+                    "id": 1
+                }],
+                "系统字典>2>dictTable>a:visibleFilterInput": "",
+                "系统字典>2>dictTable>a:dataComboType": [{
+                    "name": "页面收藏",
+                    "value": 1,
+                    "children": [{
+                            "name": "menu_0ddd",
+                            "value": 2,
+                            "children": []
+                        },
+                        {
+                            "name": "menu_233333333",
+                            "value": 3,
+                            "children": []
+                        }
+                    ]
+                }],
+                "系统字典>2>dictTable>a:dataAdd": null,
+                "系统字典>2>dictTable>a:checkSelected": [],
+                "系统字典>2>dictTable>a:rowsExtraUserInfo": null,
+                "系统字典>2>dictTable>a:checkIndexsGet": [],
+                "系统字典>2>dictTable>a:onDatasLoaded": null,
+                "系统字典>2>dictTable>a:userData": null,
+                "系统字典>2>dictTable>a:onClick": null,
+                "系统字典>2>dictTable>a:onDoubleClick": null,
+                "系统字典>2>dictTable>a:onCheck": null,
+                "系统字典>2>dictTable>a:onLastButtonClick": null,
+                "系统字典>2>dictTable>a:onLastButtonSelected": null,
+                "系统字典>2>dialog-ui1>a:Input>0>input-ui1>a:labelText": "输入名称：",
+                "系统字典>2>dialog-ui1>a:Input>0>input-ui1>a:value": "2",
+                "系统字典>2>dialog-ui1>a:Input>0>dataBackup>s:text": "null",
+                "系统字典>2>dialog-ui1>a:show": false,
+                "系统字典>2>dialog-ui1>a:titleText": "+ 新增组",
+                "系统字典>2>dialog-ui1>a:display": "displays/develop/uiotos/aiotos/apps/others/whut/子页面/Input.json",
+                "系统字典>2>dialog-ui1>a:onPageBinded": null,
+                "系统字典>2>dialog-ui1>a:Input>0>input-ui1>a:instantTrigger": true,
+                "系统字典>2>dialog-ui1>a:Input>0>input-ui1>a:onChange": null,
+                "系统字典>2>dialog-ui1>a:userData": null,
+                "系统字典>2>dialog-ui3>a:show": false,
+                "系统字典>2>dialog-ui3>a:titleText": "警告",
+                "系统字典>2>dialog-ui3>a:display": "displays/develop/uiotos/aiotos/apps/others/whut/子页面/ensure.json",
+                "系统字典>2>dialog-ui3>a:onPageBinded": null,
+                "系统字典>2>dialog-ui3>a:ensure>0>datas>s:text": 4,
+                "系统字典>2>dialog-ui3>a:ensure>0>textArea-ui1>a:value": "确定删除？",
+                "系统字典>2>dialog-ui3>a:ensure>0>textArea-ui1>a:htmlContent": false,
+                "系统字典>2>dialog-ui3>a:userData": null,
+                "系统字典>2>dialog-ui3>a:ensure>0>textArea-ui1>a:instantTrigger": true,
+                "系统字典>2>dialog-ui3>a:ensure>0>textArea-ui1>a:readOnly": true,
+                "系统字典>2>dialog-ui3>a:ensure>0>textArea-ui1>a:onChange": null,
+                "系统字典>2>bus1>a:userData": null,
+                "系统字典>2>bus1>a:addrsRemote": [
+                    "*"
+                ],
+                "系统字典>2>bus1>a:topicSend": "null:bus1",
+                "系统字典>2>bus1>a:contentSend": null,
+                "系统字典>2>bus1>a:triggerSend": false,
+                "系统字典>2>bus1>a:callerRemote": "bus1",
+                "系统字典>2>bus1>a:topicRecv": "search",
+                "系统字典>2>bus1>a:contentRecv": {
+                    "a:week": "星期二",
+                    "a:time": "13:55:06",
+                    "a:date": "2023-04-18",
+                    "value": "",
+                    "a:value": ""
+                },
+                "系统字典>2>bus1>a:waitingRecv": true,
+                "系统字典>2>bus1>a:topicsWhiteList": [
+                    "*"
+                ],
+                "系统字典>2>bus1>a:addrsWhiteList": [
+                    "*"
+                ],
+                "系统字典>2>bus1>a:onEvent": null,
+                "系统字典>2>func1>a:userData": null,
+                "系统字典>2>func1>a:exec": false,
+                "系统字典>2>func1>a:_function": null,
+                "系统字典>2>dlg1>a:show": false,
+                "系统字典>2>dlg1>a:userData": 4,
+                "系统字典>2>dlg1>a:titleText": "修改",
+                "系统字典>2>dlg1>a:display": "displays/develop/uiotos/editor/widgets/dialog/InputTextArea-formValue.json",
+                "系统字典>2>dlg1>a:onPageBinded": null,
+                "系统字典>2>dlg1>a:InputTextArea-formValue>0>dataBackup>s:text": "文本",
+                "系统字典>2>dlg1>a:InputTextArea-formValue>0>name>a:value": "menu_0ffffff2222",
+                "系统字典>2>dlg1>a:InputTextArea-formValue>0>name>a:instantTrigger": true,
+                "系统字典>2>dlg1>a:InputTextArea-formValue>0>name>a:onChange": null,
+                "系统字典>2>dlg1>a:InputTextArea-formValue>0>name>s:label": "名称",
+                "系统字典>2>dlg1>a:InputTextArea-formValue>0>name>p:x": 414.50122,
+                "系统字典>2>dlg1>a:InputTextArea-formValue>0>name>p:scaleX": 1,
+                "系统字典>2>dlg1>a:InputTextArea-formValue>0>desc>a:value": "",
+                "系统字典>2>dlg1>a:InputTextArea-formValue>0>desc>a:instantTrigger": true,
+                "系统字典>2>dlg1>a:InputTextArea-formValue>0>desc>a:htmlContent": false,
+                "系统字典>2>dlg1>a:InputTextArea-formValue>0>desc>a:readOnly": null,
+                "系统字典>2>dlg1>a:InputTextArea-formValue>0>desc>a:onChange": null,
+                "系统字典>2>dlg1>a:InputTextArea-formValue>0>desc>s:label": "内容",
+                "系统字典>2>dlg1>a:InputTextArea-formValue>0>desc>p:x": 414.50122,
+                "系统字典>2>dlg1>a:InputTextArea-formValue>0>desc>p:scaleX": 1,
+                "系统字典>2>func2>a:userData": null,
+                "系统字典>2>func2>a:exec": false,
+                "系统字典>2>func2>a:_function": null,
+                "系统字典>2>func4>a:userData": null,
+                "系统字典>2>func4>a:exec": false,
+                "系统字典>2>func4'>a:userData": null,
+                "系统字典>2>func4'>a:exec": false
+            }
+        },
+        {
+            "c": "ht.Node",
+            "i": 10167,
+            "p": {
+                "displayName": "hButtonGroup-ui",
+                "toolTip": "已被布局，不允许拖动",
+                "tag": "hButtonGroup-ui2'",
+                "dataBindings": {
+                    "a": {
+                        "select": {
+                            "id": "iotos.form",
+                            "idinfo": "",
+                            "isTplBinded": false,
+                            "func": "function formParser(rawData) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+                        },
+                        "buttons": {
+                            "id": "iotos.form",
+                            "idinfo": "",
+                            "isTplBinded": false,
+                            "func": "function formParser(rawData) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+                        }
+                    }
+                },
+                "image": "symbols/develop/uiotos/base/hButtonGroup-ui.json",
+                "host": {
+                    "__i": 10165
+                },
+                "position": {
+                    "x": 960.30777,
+                    "y": -60.75522
+                },
+                "width": 363.81605,
+                "height": 25
+            },
+            "s": {
+                "interactive": true,
+                "image.stretch": "uniform",
+                "label.position": 14,
+                "label.offset.x": -10,
+                "label.offset.y": 0,
+                "label.color": "rgb(61,61,61)",
+                "2d.movable": false,
+                "fullscreen.gap": 0,
+                "layout.h": "right",
+                "layout.v": "top"
+            },
+            "a": {
+                "buttons": [
+                    "外观风格",
+                    "资源文件",
+                    "系统字典",
+                    "服务配置"
+                ],
+                "simpleLineStyle": true,
+                "gap": 40,
+                "radius": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "textColor": [
+                    "rgb(61,61,61)",
+                    "rgb(51,153,255)"
+                ],
+                "select": 2,
+                "bindControlsTag": [],
+                "bindControlsAttr": [],
+                "bindControlsVal": [],
+                "paramControlTag": [],
+                "paramControlAttr": [],
+                "paramsGenerator": "function paramsGenerator(data, val, index, node, oldVal, form) {\r\n    //绑定组索引对应的函数处理，用来动态生成复杂的参数变量传入\r\n    switch (index) {\r\n        case 0:\r\n            break;\r\n        case 1:\r\n            break;\r\n        case 2:\r\n            break;\r\n        default:\r\n            break;\r\n    }\r\n    return val;\r\n}",
+                "bindTabview": "tab1",
+                "borderWidth": 0.5,
+                "textFont": "14px sans-serif, Arial"
+            }
+        }
+    ],
+    "modified": "Thu Apr 20 2023 09:11:40 GMT+0800 (中国标准时间)",
+    "contentRect": {
+        "x": -757.7842,
+        "y": -84.5,
+        "width": 1920,
+        "height": 1080
+    }
+}

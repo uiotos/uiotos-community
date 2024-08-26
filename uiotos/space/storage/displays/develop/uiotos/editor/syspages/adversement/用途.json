@@ -1,0 +1,312 @@
+{
+  "v": "8.0.1",
+  "p": {
+    "background": "#20252e",
+    "autoAdjustIndex": true,
+    "hierarchicalRendering": true
+  },
+  "a": {
+    "rotateAsClock": false,
+    "gridBlockSize": 20,
+    "connectActionType": null,
+    "fitContent": true,
+    "zoomable": true,
+    "rectSelectable": false,
+    "pannable": true,
+    "_professional": false
+  },
+  "d": [
+    {
+      "c": "ht.Node",
+      "i": 173321,
+      "p": {
+        "name": "Node",
+        "displayName": "n（n1'）",
+        "tag": "n1'",
+        "position": {
+          "x": -1650.53414,
+          "y": -641.15137
+        },
+        "width": 2476.96625,
+        "height": 952.66194
+      },
+      "s": {
+        "shape": "rect",
+        "shape.background": null,
+        "shape.border.color": "#979797",
+        "label.opacity": 0,
+        "label.position": 17,
+        "interactive": true,
+        "image.stretch": "uniform"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 173312,
+      "p": {
+        "name": "gv",
+        "displayName": "嵌套容器（gv1）",
+        "tag": "gv1",
+        "dataBindings": {
+          "a": {
+            "display": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "innerLayoutMode": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            }
+          }
+        },
+        "image": "displays/demo/2-模板/02-管理系统/01-宽高自适应.jpg",
+        "position": {
+          "x": -983.47371,
+          "y": -655.06927
+        },
+        "width": 1076.33052,
+        "height": 632.69704
+      },
+      "s": {
+        "label.position": 17,
+        "label.color": "rgb(61,61,61)",
+        "interactive": true,
+        "image.stretch": "uniform",
+        "label.opacity": 0
+      },
+      "a": {
+        "symbol": "symbols/develop/uiotos/arranged/controls/containers/嵌套容器.json"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 173313,
+      "p": {
+        "name": "gv",
+        "displayName": "嵌套容器（gv2）",
+        "tag": "gv2",
+        "dataBindings": {
+          "a": {
+            "display": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "innerLayoutMode": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            }
+          }
+        },
+        "image": "displays/demo/2-模板/01-大屏看板/1_典型模板.jpg",
+        "position": {
+          "x": -2235.93027,
+          "y": -655.06927
+        },
+        "width": 1240.61407,
+        "height": 632.69704
+      },
+      "s": {
+        "label.position": 17,
+        "label.color": "rgb(61,61,61)",
+        "interactive": true,
+        "image.stretch": "uniform",
+        "label.opacity": 0
+      },
+      "a": {
+        "symbol": "symbols/develop/uiotos/arranged/controls/containers/嵌套容器.json"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 173314,
+      "p": {
+        "name": "n",
+        "displayName": "n（n1）",
+        "toolTip": "矢量矩形版本",
+        "tag": "n1",
+        "position": {
+          "x": -1565.10876,
+          "y": -632.26248
+        },
+        "width": 1,
+        "height": 1080
+      },
+      "s": {
+        "shape": "rect",
+        "shape.background": "rgba(247,247,247,0)",
+        "shape.border.color": "#979797",
+        "label.position": 17,
+        "label.color": "rgb(61,61,61)",
+        "interactive": true,
+        "image.stretch": "uniform",
+        "shape.gradient": "spread.vertical",
+        "shape.gradient.color": "rgba(56,126,255,0.8)",
+        "layout.h": "right",
+        "layout.v": "topbottom",
+        "fullscreen.gap": 0,
+        "label.opacity": 0
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 173315,
+      "p": {
+        "displayName": "Text（Text1）",
+        "tag": "Text1",
+        "position": {
+          "x": -2282.38832,
+          "y": -271.6365
+        },
+        "width": 259.82986,
+        "height": 35.61639
+      },
+      "s": {
+        "text": "组态大屏可视化",
+        "label.position": 17,
+        "label.color": "rgb(61,61,61)",
+        "interactive": true,
+        "image.stretch": "uniform",
+        "text.align": "center",
+        "text.shadow.color": "rgba(51,153,255,0.5)",
+        "text.color": "rgb(124,145,155)",
+        "text.font": "bold 36px sans-serif, Arial"
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 173316,
+      "p": {
+        "displayName": "Text（Text2）",
+        "tag": "Text2",
+        "position": {
+          "x": -983.47371,
+          "y": -266.6365
+        },
+        "width": 259.82986,
+        "height": 35.61639
+      },
+      "s": {
+        "text": "GUI交互界面",
+        "label.position": 17,
+        "label.color": "rgb(61,61,61)",
+        "interactive": true,
+        "image.stretch": "uniform",
+        "text.align": "center",
+        "text.shadow.color": "rgba(51,153,255,0.5)",
+        "text.color": "rgb(124,145,155)",
+        "text.font": "bold 36px sans-serif, Arial"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 173317,
+      "p": {
+        "name": "check-circle-fill-99",
+        "displayName": "check-circle-fill-99（check-circle-fill-991）",
+        "tag": "check-circle-fill-991",
+        "image": "symbols/develop/uiotos/arranged/icons/设置/check-circle-fill-99.json",
+        "position": {
+          "x": -2105.51488,
+          "y": -274.32831
+        }
+      },
+      "s": {
+        "label.position": 14,
+        "label.offset.x": -10,
+        "label.offset.y": 0,
+        "label.color": "rgb(61,61,61)",
+        "interactive": true,
+        "image.stretch": "uniform",
+        "label.opacity": 0
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 173318,
+      "p": {
+        "name": "check-circle-fill-99",
+        "displayName": "check-circle-fill-99（check-circle-fill-992）",
+        "tag": "check-circle-fill-992",
+        "image": "symbols/develop/uiotos/arranged/icons/设置/check-circle-fill-99.json",
+        "position": {
+          "x": -826.57383,
+          "y": -272.32831
+        }
+      },
+      "s": {
+        "label.position": 14,
+        "label.offset.x": -10,
+        "label.offset.y": 0,
+        "label.color": "rgb(61,61,61)",
+        "interactive": true,
+        "image.stretch": "uniform",
+        "label.opacity": 0
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 173319,
+      "p": {
+        "name": "HOT-258",
+        "displayName": "HOT-258（HOT-2581）",
+        "tag": "HOT-2581",
+        "image": "symbols/develop/uiotos/arranged/icons/更多图标/HOT-258.json",
+        "position": {
+          "x": -640.60224,
+          "y": -261.22882
+        },
+        "width": 76.82853,
+        "height": 67.19896
+      },
+      "s": {
+        "label.position": 14,
+        "label.offset.x": -10,
+        "label.offset.y": 0,
+        "label.color": "rgb(61,61,61)",
+        "interactive": true,
+        "image.stretch": "uniform",
+        "label.opacity": 0
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 173320,
+      "p": {
+        "name": "NEW-257",
+        "displayName": "NEW-257（NEW-2571）",
+        "tag": "NEW-2571",
+        "image": "symbols/develop/uiotos/arranged/icons/更多图标/NEW-257.json",
+        "position": {
+          "x": -740.22865,
+          "y": -260.56202
+        },
+        "width": 76.42705,
+        "height": 68.53256
+      },
+      "s": {
+        "label.position": 14,
+        "label.offset.x": -10,
+        "label.offset.y": 0,
+        "label.color": "rgb(61,61,61)",
+        "interactive": true,
+        "image.stretch": "uniform",
+        "label.opacity": 0
+      }
+    }
+  ],
+  "modified": "Sat Aug 17 2024 08:32:19 GMT+0800 (中国标准时间)",
+  "contentRect": {
+    "x": -2889.01726,
+    "y": -1172.26248,
+    "width": 2476.96625,
+    "height": 1080
+  }
+}

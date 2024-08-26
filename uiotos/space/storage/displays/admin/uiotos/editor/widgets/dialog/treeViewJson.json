@@ -1,0 +1,2599 @@
+{
+  "v": "7.7.5",
+  "p": {
+    "autoAdjustIndex": true,
+    "hierarchicalRendering": true
+  },
+  "a": {
+    "rotateAsClock": false,
+    "gridBlockSize": 20,
+    "connectActionType": null,
+    "_parentTag": "dlg1",
+    "fitContent": false,
+    "rectSelectable": false,
+    "pannable": false,
+    "zoomable": false
+  },
+  "d": [
+    {
+      "c": "ht.Node",
+      "i": 33418,
+      "p": {
+        "name": "Node",
+        "displayName": "n（Node1）",
+        "tag": "Node1",
+        "position": {
+          "x": -142.30692,
+          "y": -60.45809
+        },
+        "width": 604.61384,
+        "height": 559.0838
+      },
+      "s": {
+        "shape": "rect",
+        "shape.background": "rgb(255,255,255)",
+        "shape.border.color": "#979797",
+        "interactive": true,
+        "image.stretch": "uniform",
+        "fullscreen": "fill",
+        "fullscreen.gap": 0,
+        "label.position": 14,
+        "label.offset.x": -10,
+        "label.offset.y": 0,
+        "label.color": "rgb(61,61,61)",
+        "label.opacity": 0
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 33419,
+      "p": {
+        "displayName": "treeTable-ui（treeTable-ui1）",
+        "toolTip": "<p style='color:rgb(242,83,75);margin-top:5px;margin-bottom:5px;font-weight:bold;line-height:1.5em;'>已被布局，不允许拖动（shift+回车可解除）</p><p style='color:rgb(242,83,75);margin-top:5px;margin-bottom:5px;font-weight:bold;line-height:1.5em;'>已被布局，不允许拖动</p>",
+        "tag": "treeTable-ui1",
+        "dataBindings": {
+          "a": {
+            "datas": {
+              "id": "iotos.form",
+              "func": "__ht__function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        console.error(err);\r\n        return rawData;\r\n    }\r\n}",
+              "idinfo": "",
+              "isTplBinded": false,
+              "alias": ""
+            },
+            "checkSelected": {
+              "id": "iotos.form",
+              "func": "__ht__function formParser(rawData) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}",
+              "idinfo": "",
+              "isTplBinded": false
+            },
+            "onCheck": {
+              "id": "iotos.form",
+              "func": "__ht__function formParser(rawData) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}",
+              "idinfo": "",
+              "isTplBinded": false
+            },
+            "visibleFilterInput": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "__ht__function formParser(rawData) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "queryMatched": {
+              "id": "iotos.form",
+              "func": "__ht__function formParser(rawData) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}",
+              "idinfo": "",
+              "isTplBinded": false
+            },
+            "dataAdd": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "dataComboType": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "rowsExtraUserInfo": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "userData": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "checkIndexsGet": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "onDatasLoaded": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "onClick": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "onDoubleClick": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "onLastButtonClick": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "onLastButtonSelected": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "borderWidth": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "columnFields": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "currentClicked": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "checkMode": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "columns": {
+              "id": "iotos.form",
+              "alias": "",
+              "func": "__ht__function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        console.error(err);\r\n        return rawData;\r\n    }\r\n}",
+              "idinfo": "",
+              "isTplBinded": false
+            },
+            "expandAll": {
+              "id": "iotos.form",
+              "alias": "",
+              "func": "__ht__function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        console.error(err);\r\n        return rawData;\r\n    }\r\n}",
+              "idinfo": "",
+              "isTplBinded": false
+            },
+            "useTreeLined": {
+              "id": "iotos.form",
+              "alias": "",
+              "func": "__ht__function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        console.error(err);\r\n        return rawData;\r\n    }\r\n}",
+              "idinfo": "",
+              "isTplBinded": false
+            },
+            "columnWidths": {
+              "id": "iotos.form",
+              "alias": "",
+              "func": "__ht__function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        console.error(err);\r\n        return rawData;\r\n    }\r\n}",
+              "idinfo": "",
+              "isTplBinded": false
+            },
+            "checkCountGet": {
+              "id": "iotos.form",
+              "alias": "",
+              "func": "__ht__function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        console.error(err);\r\n        return rawData;\r\n    }\r\n}",
+              "idinfo": "",
+              "isTplBinded": false
+            },
+            "allRowCountGet": {
+              "id": "iotos.form",
+              "alias": "",
+              "func": "__ht__function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        console.error(err);\r\n        return rawData;\r\n    }\r\n}",
+              "idinfo": "",
+              "isTplBinded": false
+            },
+            "checkedCountGet": {
+              "id": "iotos.form",
+              "alias": "",
+              "func": "__ht__function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        console.error(err);\r\n        return rawData;\r\n    }\r\n}",
+              "idinfo": "",
+              "isTplBinded": false
+            },
+            "treeLinedAttr2Id": {
+              "id": "iotos.form",
+              "alias": "",
+              "func": "__ht__function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        console.error(err);\r\n        return rawData;\r\n    }\r\n}",
+              "idinfo": "",
+              "isTplBinded": false
+            },
+            "display": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "pureTipText": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "popDirection": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "popBackground": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "popPadding": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "popWidth": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "popHeight": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "popBorderColor": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "popBorderWidth": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "popBorderRadius": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "popTriggerEvent": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            }
+          },
+          "s": {}
+        },
+        "image": {
+          "modified": "Fri Jun 14 2024 14:11:02 GMT+0800 (中国标准时间)",
+          "dataBindings": [
+            {
+              "attr": "symbol",
+              "valueType": "Image",
+              "name": "symbol"
+            },
+            {
+              "attr": "lastItems",
+              "valueType": "StringArray",
+              "defaultValue": [
+                "查看",
+                "添加",
+                "删除"
+              ],
+              "description": "最后一列按钮。",
+              "group": "功能",
+              "name": "lastItems"
+            },
+            {
+              "attr": "lastRootIgnored",
+              "valueType": "NumberArray",
+              "defaultValue": [
+                2
+              ],
+              "description": "根节点按钮忽略项",
+              "name": "lastRootIgnored"
+            },
+            {
+              "attr": "lastNodeIgnored",
+              "valueType": "NumberArray",
+              "defaultValue": [
+                0,
+                2
+              ],
+              "description": "子节点按钮忽略项。",
+              "name": "lastNodeIgnored"
+            },
+            {
+              "attr": "lastChildIgnored",
+              "valueType": "NumberArray",
+              "defaultValue": [
+                1
+              ],
+              "description": "末端子节点忽略项。",
+              "name": "lastChildIgnored"
+            },
+            {
+              "attr": "lastSingleIgnored",
+              "valueType": "NumberArray",
+              "description": "没有父子结构的节点忽略项。",
+              "name": "lastSingleIgnored"
+            },
+            {
+              "attr": "singleRootOrChild",
+              "valueType": "Boolean",
+              "defaultValue": false,
+              "description": "默认根节点还是子节点。\n<br>对于没有下级节点的行，是作为根节点还\n<br>是末端子节点来处理。默认是作为根节点，\n<br>这对于按钮组来说有用，比如根节点不可\n<br>删除，末端子节点可删除这种情况。",
+              "name": "singleRootOrChild"
+            },
+            {
+              "attr": "lastItemRowsText",
+              "valueType": "StringArray",
+              "description": "末尾操作按钮显示文字。\n<br>通常操作按钮显示是一样的，比如删除、添加等。\n<br>也存有差别的情况，比如默认都是“选择”，点\n<br>击后改为“取消”，这样就要求每行对应显示不\n<br>一样。\n<br>本属性就是对于末尾列只有一个操作按钮的情况，\n<br>指定显示文字。数组格式，索引与行号依次对应。\n<br>默认为空或null时，按钮显示默认设置的文字。",
+              "name": "lastItemRowsText"
+            },
+            {
+              "attr": "selectAllSet",
+              "valueType": "Boolean",
+              "defaultValue": false,
+              "description": "设置为全选。",
+              "name": "selectAllSet"
+            },
+            {
+              "attr": "expandAll",
+              "valueType": "Boolean",
+              "defaultValue": true,
+              "description": "全部展开。",
+              "name": "expandAll"
+            },
+            {
+              "attr": "reload",
+              "valueType": "Boolean",
+              "defaultValue": false,
+              "description": "重新加载。",
+              "name": "reload"
+            },
+            {
+              "attr": "rowsIdReset",
+              "valueType": "Boolean",
+              "defaultValue": false,
+              "description": "重置行Id。",
+              "name": "rowsIdReset"
+            },
+            {
+              "attr": "datas",
+              "valueType": "Object",
+              "defaultValue": [
+                {
+                  "rowData": [
+                    "23891212",
+                    "南入口出入通道模块",
+                    "南入口通道",
+                    {
+                      "type": "graphView",
+                      "display": "displays/admin/uiotos/editor/widgets/cellGraphView.json"
+                    },
+                    [
+                      {
+                        "type": "image",
+                        "icon": "symbols/demo/uiotos/icons/light/address-book.json"
+                      },
+                      {
+                        "type": "image",
+                        "icon": "symbols/demo/uiotos/icons/light/amp-guitar.json"
+                      }
+                    ],
+                    "正常通行",
+                    {
+                      "type": "graphView",
+                      "display": "displays/admin/uiotos/editor/widgets/cellGraphViewMutiple.json"
+                    }
+                  ],
+                  "children": [
+                    {
+                      "rowData": [
+                        "23891212",
+                        "北入口通道出入模块",
+                        "北入口通道",
+                        {
+                          "type": "graphView",
+                          "display": "displays/admin/uiotos/editor/widgets/cellGraphView.json"
+                        },
+                        [
+                          {
+                            "type": "image",
+                            "icon": "symbols/demo/uiotos/icons/light/ambulance.json"
+                          },
+                          {
+                            "type": "image",
+                            "icon": "symbols/demo/uiotos/icons/light/american-sign-language-interpreting.json"
+                          },
+                          {
+                            "type": "image",
+                            "icon": "symbols/demo/uiotos/icons/light/american-sign-language-interpreting.json"
+                          },
+                          {
+                            "type": "image",
+                            "icon": "symbols/demo/uiotos/icons/light/american-sign-language-interpreting.json"
+                          }
+                        ],
+                        "正常"
+                      ],
+                      "children": [
+                        [
+                          "23891212",
+                          "西门出入口",
+                          "1号门",
+                          {
+                            "type": "graphView",
+                            "display": "displays/admin/uiotos/editor/widgets/cellGraphView.json"
+                          },
+                          {
+                            "type": "image",
+                            "icon": "symbols/demo/uiotos/icons/light/address-book.json"
+                          },
+                          [
+                            {
+                              "type": "image",
+                              "icon": "assets/demo/fcj/403db210783cba7d2720ac2852122342.png"
+                            },
+                            {
+                              "type": "image",
+                              "icon": "symbols/demo/uiotos/icons/light/address-book.json"
+                            }
+                          ],
+                          "测试",
+                          {
+                            "type": "graphView",
+                            "display": "displays/admin/uiotos/editor/widgets/cellGraphViewMutiple.json"
+                          }
+                        ],
+                        [
+                          "23891212",
+                          "北入口通道出入模块",
+                          "北入口通道",
+                          {
+                            "type": "graphView",
+                            "display": "displays/admin/uiotos/editor/widgets/cellGraphView.json"
+                          },
+                          [
+                            {
+                              "type": "image",
+                              "icon": "symbols/demo/uiotos/icons/light/amp-guitar.json"
+                            },
+                            {
+                              "type": "image",
+                              "icon": "symbols/demo/uiotos/icons/light/amp-guitar.json"
+                            },
+                            {
+                              "type": "image",
+                              "icon": "symbols/demo/uiotos/icons/light/amp-guitar.json"
+                            },
+                            {
+                              "type": "image",
+                              "icon": "symbols/demo/uiotos/icons/light/amp-guitar.json"
+                            },
+                            {
+                              "type": "image",
+                              "icon": "symbols/demo/uiotos/icons/light/american-sign-language-interpreting.json"
+                            },
+                            {
+                              "type": "image",
+                              "icon": "symbols/demo/uiotos/icons/light/american-sign-language-interpreting.json"
+                            },
+                            {
+                              "type": "image",
+                              "icon": "symbols/demo/uiotos/icons/light/american-sign-language-interpreting.json"
+                            }
+                          ],
+                          "非法通行",
+                          {
+                            "type": "graphView",
+                            "display": "displays/admin/uiotos/editor/widgets/cellGraphView.json"
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                },
+                [
+                  "23891212",
+                  "西门出入口",
+                  "1号门",
+                  {
+                    "type": "graphView",
+                    "display": "displays/admin/uiotos/editor/widgets/cellGraphView.json"
+                  },
+                  {
+                    "type": "image",
+                    "icon": "symbols/demo/uiotos/icons/light/address-book.json"
+                  },
+                  [
+                    {
+                      "type": "image",
+                      "icon": "assets/demo/fcj/403db210783cba7d2720ac2852122342.png"
+                    },
+                    {
+                      "type": "image",
+                      "icon": "symbols/demo/uiotos/icons/light/address-book.json"
+                    }
+                  ],
+                  "测试",
+                  {
+                    "type": "graphView",
+                    "display": "displays/admin/uiotos/editor/widgets/cellGraphViewMutiple.json"
+                  }
+                ],
+                [
+                  "23891212",
+                  "1门出入口",
+                  "2号门",
+                  {
+                    "type": "graphView",
+                    "display": "displays/admin/uiotos/editor/widgets/cellGraphView.json"
+                  },
+                  {
+                    "type": "image",
+                    "icon": "symbols/demo/uiotos/icons/light/address-book.json"
+                  },
+                  [
+                    {
+                      "type": "image",
+                      "icon": "assets/demo/fcj/403db210783cba7d2720ac2852122342.png"
+                    },
+                    {
+                      "type": "image",
+                      "icon": "symbols/demo/uiotos/icons/light/address-book.json"
+                    }
+                  ],
+                  "测试2",
+                  {
+                    "type": "graphView",
+                    "display": "displays/admin/uiotos/editor/widgets/cellGraphViewMutiple.json"
+                  }
+                ],
+                [
+                  "23891212",
+                  "北入口通道出入模块",
+                  "北入口通道",
+                  {
+                    "type": "graphView",
+                    "display": "displays/admin/uiotos/editor/widgets/cellGraphView.json"
+                  },
+                  [
+                    {
+                      "type": "image",
+                      "icon": "symbols/demo/uiotos/icons/light/amp-guitar.json"
+                    },
+                    {
+                      "type": "image",
+                      "icon": "symbols/demo/uiotos/icons/light/amp-guitar.json"
+                    },
+                    {
+                      "type": "image",
+                      "icon": "symbols/demo/uiotos/icons/light/amp-guitar.json"
+                    },
+                    {
+                      "type": "image",
+                      "icon": "symbols/demo/uiotos/icons/light/amp-guitar.json"
+                    },
+                    {
+                      "type": "image",
+                      "icon": "symbols/demo/uiotos/icons/light/american-sign-language-interpreting.json"
+                    },
+                    {
+                      "type": "image",
+                      "icon": "symbols/demo/uiotos/icons/light/american-sign-language-interpreting.json"
+                    },
+                    {
+                      "type": "image",
+                      "icon": "symbols/demo/uiotos/icons/light/american-sign-language-interpreting.json"
+                    }
+                  ],
+                  "非法通行",
+                  {
+                    "type": "graphView",
+                    "display": "displays/admin/uiotos/editor/widgets/cellGraphView.json"
+                  }
+                ],
+                {
+                  "rowData": [
+                    "23891212",
+                    "南入口出入通道模块",
+                    "南入口通道",
+                    {
+                      "type": "graphView",
+                      "display": "displays/admin/uiotos/editor/widgets/cellGraphView.json"
+                    },
+                    [
+                      {
+                        "type": "image",
+                        "icon": "symbols/demo/uiotos/icons/light/address-book.json"
+                      },
+                      {
+                        "type": "image",
+                        "icon": "symbols/demo/uiotos/icons/light/amp-guitar.json"
+                      }
+                    ],
+                    "正常通行",
+                    {
+                      "type": "graphView",
+                      "display": "displays/admin/uiotos/editor/widgets/cellGraphViewMutiple.json"
+                    }
+                  ],
+                  "children": [
+                    {
+                      "rowData": [
+                        "23891212",
+                        "北入口通道出入模块",
+                        "北入口通道",
+                        {
+                          "type": "graphView",
+                          "display": "displays/admin/uiotos/editor/widgets/cellGraphView.json"
+                        },
+                        [
+                          {
+                            "type": "image",
+                            "icon": "symbols/demo/uiotos/icons/light/ambulance.json"
+                          },
+                          {
+                            "type": "image",
+                            "icon": "symbols/demo/uiotos/icons/light/american-sign-language-interpreting.json"
+                          },
+                          {
+                            "type": "image",
+                            "icon": "symbols/demo/uiotos/icons/light/american-sign-language-interpreting.json"
+                          },
+                          {
+                            "type": "image",
+                            "icon": "symbols/demo/uiotos/icons/light/american-sign-language-interpreting.json"
+                          }
+                        ],
+                        "正常"
+                      ],
+                      "children": []
+                    }
+                  ]
+                },
+                [
+                  "23891212",
+                  "北入口通道出入模块",
+                  "北入口通道",
+                  {
+                    "type": "graphView",
+                    "display": "displays/admin/uiotos/editor/widgets/cellGraphView.json"
+                  },
+                  [
+                    {
+                      "type": "image",
+                      "icon": "symbols/demo/uiotos/icons/light/ambulance.json"
+                    },
+                    {
+                      "type": "image",
+                      "icon": "symbols/demo/uiotos/icons/light/american-sign-language-interpreting.json"
+                    },
+                    {
+                      "type": "image",
+                      "icon": "symbols/demo/uiotos/icons/light/american-sign-language-interpreting.json"
+                    },
+                    {
+                      "type": "image",
+                      "icon": "symbols/demo/uiotos/icons/light/american-sign-language-interpreting.json"
+                    }
+                  ],
+                  "正常"
+                ]
+              ],
+              "description": "树表的数据。",
+              "group": "数据",
+              "name": "datas"
+            },
+            {
+              "attr": "dataAdd",
+              "valueType": "Object",
+              "defaultValue": null,
+              "description": "新添加的数据。",
+              "name": "dataAdd"
+            },
+            {
+              "attr": "idField",
+              "valueType": "String",
+              "defaultValue": "id",
+              "description": "行数据的ID字段。\n<br>默认为“id”，可以指定其他。“checkSelected”属性以这里确定的ID字段，\n<br>存放勾选的记录列表。",
+              "name": "idField"
+            },
+            {
+              "attr": "columns",
+              "valueType": "ObjectArray",
+              "defaultValue": [
+                {
+                  "displayName": "序号"
+                },
+                {
+                  "displayName": "人员姓名"
+                },
+                {
+                  "displayName": "所属公司",
+                  "editable": false,
+                  "editorClass": "ht.ui.editor.StringEditor"
+                },
+                {
+                  "displayName": "人员类型",
+                  "editable": true,
+                  "editorClass": "ht.ui.editor.StringEditor"
+                },
+                {
+                  "displayName": "连接状态",
+                  "drawCell": {}
+                },
+                {
+                  "displayName": "设备名称",
+                  "drawCell": {
+                    "width": 25,
+                    "height": null
+                  }
+                },
+                {
+                  "displayName": "通行照片",
+                  "editable": true,
+                  "drawCell": {
+                    "width": null,
+                    "height": null
+                  }
+                },
+                {
+                  "displayName": "运行状态",
+                  "editable": true,
+                  "drawCell": {}
+                },
+                {
+                  "displayName": "操作"
+                }
+              ],
+              "description": "表格列定义。\n<br>注意，在编辑器中，支持第一个元素以数组编辑，保存后自动展开\n<br>成数组；可以将长度调整减少成1，此时展开的数组会合并到第一个\n<br>元素以数组方式用于再次编辑调整，保存后继续展开。\n<br>其中数字数组，可以用字符串数组代替，这样数组就逗号间隔的形式\n<br>来合并成一个值在第一个元素中编辑。",
+              "name": "columns"
+            },
+            {
+              "attr": "columnWidths",
+              "valueType": "StringArray",
+              "defaultValue": [
+                75,
+                200,
+                100,
+                80,
+                100,
+                -0.65,
+                -0.35,
+                180,
+                200
+              ],
+              "description": "列宽度。\n<br>如果大于1时，表明绝对像素宽度。比如200，表示当前列宽为200px。\n如果等于1时，除去所有设置了绝对宽度之外，表格组件剩余的总宽度作为当前列宽。\n如果大于-1且小于0时，除了绝对像素宽度外，剩余总宽度以当前值作为比例对应为\n当前列宽。比如-0.2，剩余宽度总和为100时，当前列宽为20。通常值负数的列，数值\n相加要为-1。",
+              "name": "columnWidths"
+            },
+            {
+              "attr": "columnFields",
+              "valueType": "ObjectArray",
+              "defaultValue": [],
+              "description": "列的数据字段（非必需）。\n<br>等同于列定义属性columns中元素对象的name\n<br>字段，两处配置相互同。\n<br>一方面，可以实现[{key1:value1,key2:value2},\n<br>{},{}]类似格式填充表格数据。\n<br>另一方面，点击行时通过currentClick属性可对\n<br>外提供当前行key-value键值对结构的数据，便\n<br>于直接对其他页面做表单操作，实现详情展示。\n<br>此外，若有操作按钮列（lastItems属性有配置），\n<br>此时columnsFields同步到columns中name字段\n<br>的列为columnWidths列数减1。\n<br>注意，首元素对应表格的自增ID字段，通常为空\n<br>null，且对于工具函数转换查询数据到树表操作\n<br>datas属性时，并不需要操作本属性以同步字段，\n<br>会自动将字段右移一位同步给本属性，以对应树\n<br>表中除自增ID之外的各个数据字段。",
+              "name": "columnFields"
+            },
+            {
+              "attr": "fieldForCombo",
+              "valueType": "String",
+              "description": "树表数据的哪一列对应到下拉框显示，即属性dataComboType的\n<br>显示字段name就采用树表treeTable的那一列。值可以是列名称或者\n<br>列索引。其中数字会被当成索引处理，且列索引是从0开始（第0列属于ID序号列）。",
+              "defaultValue": "1",
+              "name": "fieldForCombo"
+            },
+            {
+              "attr": "dataComboType",
+              "valueType": "Object",
+              "description": "树表数据的哪一列对应到下拉框显示，即属性dataComboType的\n<br>显示字段name就采用树表treeTable的那一列。值可以是列名称或者\n<br>列索引。其中数字会被当成索引处理，且列索引是从0开始（第0列属于ID序号列）。",
+              "name": "dataComboType"
+            },
+            {
+              "attr": "innerDisplays",
+              "valueType": "ObjectArray",
+              "defaultValue": [],
+              "description": "单元格可能存在的内嵌页面。\n只读，从datas属性配置中自动提取显示出来。\n<br>格式如：\n<br>{\n<br>        cellPos: {\n<br>                rowId: 1, //行索引\n<br>                colId: 1 //列索引\n<br>        },\n<br>        display: \"displays/xxx.json\"\n<br>}",
+              "name": "innerDisplays"
+            },
+            {
+              "attr": "rowsExtraUserInfo",
+              "valueType": "ObjectArray",
+              "defaultValue": [],
+              "description": "行对应的用户数据。\n<br>数组类型，索引与行序号对应。表格行\n<br>在点击、双击、操作按钮点击时，会更\n<br>新当前属性值，并且在对外连线触发中\n<br>传出。\n<br>对行的交互操作时，会将当前事件操作\n<br>带的数据填充到当前属性对应的索引位\n<br>置，且索引与当前行索引一致。",
+              "name": "rowsExtraUserInfo"
+            },
+            {
+              "attr": "userDataSelfInit",
+              "valueType": "Boolean",
+              "description": "初始化用户数据。",
+              "name": "userDataSelfInit"
+            },
+            {
+              "attr": "userData",
+              "valueType": "ObjectArray",
+              "defaultValue": [],
+              "description": "用户数据。",
+              "name": "userData"
+            },
+            {
+              "attr": "useAttrCORS",
+              "valueType": "Boolean",
+              "defaultValue": false,
+              "description": "连线操作和处理回写是否一致。\n                        比如多个文本框连线传值给相同对话框，弹窗修改\n                        后是否限定只能写到最新赋值过来的文本框。详见<a href='https://www.yuque.com/liuhuo-nc809/uiotos/fgi6dd7gado51acm#fFUbp' style=\"color:rgb(96,172,252)\"target=\"_blank\">同源属性操作</a>",
+              "name": "useAttrCORS",
+              "dynamicCreate": true
+            },
+            {
+              "attr": "display",
+              "valueType": "Image",
+              "defaultValue": "",
+              "description": "自定义页面地址。\n                可以是编辑器中的其他页面，也可以\n                是外部网页链接地址。",
+              "group": "弹出框",
+              "name": "display",
+              "dynamicCreate": true
+            },
+            {
+              "attr": "pureTipText",
+              "valueType": "String",
+              "defaultValue": "",
+              "description": "提示文字。\n                    当专业用户属性中，提供display内嵌页属性，\n                    如果有配置，那么本属性设置无效，将以内嵌\n                    页显示为准。",
+              "name": "pureTipText",
+              "dynamicCreate": true
+            },
+            {
+              "attr": "popDirection",
+              "valueType": "SideDirection",
+              "defaultValue": "right",
+              "description": "提示显示位置。",
+              "name": "popDirection",
+              "dynamicCreate": true
+            },
+            {
+              "attr": "popBackground",
+              "valueType": "Color",
+              "defaultValue": "white",
+              "description": "箭头和背景色。",
+              "name": "popBackground",
+              "dynamicCreate": true
+            },
+            {
+              "attr": "popPadding",
+              "valueType": "NumberArray",
+              "defaultValue": [
+                2,
+                2,
+                2,
+                2
+              ],
+              "description": "内间距。",
+              "name": "popPadding",
+              "dynamicCreate": true
+            },
+            {
+              "attr": "popWidth",
+              "valueType": "Number",
+              "defaultValue": 400,
+              "description": "弹出框宽度。",
+              "name": "popWidth",
+              "dynamicCreate": true
+            },
+            {
+              "attr": "popHeight",
+              "valueType": "Number",
+              "defaultValue": 300,
+              "description": "弹出框高度。",
+              "name": "popHeight",
+              "dynamicCreate": true
+            },
+            {
+              "attr": "popBorderColor",
+              "valueType": "Color",
+              "defaultValue": "rgb(51,51,51)",
+              "description": "边框线颜色。\n                    注意，是设置了边框宽度非0后的边框颜色。\n                    默认边框宽度属性为0时，实际上是白色并\n                    带有箭头指示的边框。本属性不用于修改默\n                    认边框色。",
+              "name": "popBorderColor",
+              "dynamicCreate": true
+            },
+            {
+              "attr": "popBorderWidth",
+              "valueType": "Number",
+              "defaultValue": 0,
+              "description": "边框线宽度。\n                    默认值为0，此时边框默认为白色并且带有\n                    箭头指示。当设置宽度后，颜色将取边框颜\n                    色属性的设置，并且不再有箭头指示。",
+              "name": "popBorderWidth",
+              "dynamicCreate": true
+            },
+            {
+              "attr": "popBorderRadius",
+              "valueType": "Number",
+              "defaultValue": 0,
+              "description": "边框线圆角。\n                    设置圆角线后，如果此前默认是白色边框带有\n                    指示箭头，那么将自动不可见，只对内容区域\n                    产生圆角。",
+              "name": "popBorderRadius",
+              "dynamicCreate": true
+            },
+            {
+              "attr": "popTriggerEvent",
+              "valueType": "MouseEvent",
+              "defaultValue": "hover",
+              "description": "触发方式。\n                支持鼠标移入、点击（按钮时）\n                两种触发提示的方式。",
+              "name": "popTriggerEvent",
+              "dynamicCreate": true
+            },
+            {
+              "attr": "allRowsIdGet",
+              "valueType": "NumberArray",
+              "description": "获取所有行id。",
+              "name": "allRowsIdGet"
+            },
+            {
+              "attr": "allRowsIndexGet",
+              "valueType": "NumberArray",
+              "description": "获取所有行索引。",
+              "name": "allRowsIndexGet"
+            },
+            {
+              "attr": "colorFilterFunc",
+              "valueType": "Function",
+              "defaultValue": "__ht__function(node, rObj, cObj, cIndex, value) {//返回null则是配置的默认字体颜色\r\nreturn cIndex == 1 || cObj.getDisplayName() == '人员类型'? \r\n    contain(value,['异常','错误','故障','非法','北']) ? \r\n    'red' : 'green' : null}",
+              "extraInfo": {
+                "arguments": [
+                  "node",
+                  "rObj",
+                  "cObj",
+                  "cIndex",
+                  "value"
+                ]
+              },
+              "description": "指定行列文字的颜色。\n<br>过滤函数提供行列信息，可指定某一列，或者某一行的某一列\n<br>（单元格），根据内容判断返回指定的颜色。\n<br>入参：\n<br>        \"node\"：组件对象\n<br>        \"rObj\",：行数据\n<br>        \"cObj\",：列定义\n<br>        \"cIndex\",：列索引\n<br>        \"value\"：当前值",
+              "name": "colorFilterFunc"
+            },
+            {
+              "attr": "dataFilterFunc",
+              "valueType": "Function",
+              "defaultValue": "__ht__function(nodeData, rowObject, columnObject, colunmIndex, value) {return value; //默认不做任何转换}",
+              "description": "转换指定行列的显示内容。\n<br>过滤函数提供行列信息，可指定某一列，或者某一行的某一列\n<br>（单元格），根据内容判断返回指定的转换后的内容。\n<br>入参：\n<br>        \"node\"：组件对象\n<br>        \"rObj\",：行数据（图元对象）\n<br>        \"cObj\",：列定义\n<br>        \"cIndex\",：列索引\n<br>        \"value\"：当前值",
+              "extraInfo": {
+                "arguments": [
+                  "node",
+                  "rObj",
+                  "cObj",
+                  "cIndex",
+                  "value"
+                ]
+              },
+              "name": "dataFilterFunc"
+            },
+            {
+              "attr": "btnsFilterFunc",
+              "valueType": "Function",
+              "description": "操作按钮列过滤。\n<br>用于针对操作列中的按钮，提供当前行数据，自定义\n<br>按钮对象的操作，包括识别行数据的标记，对某个按钮进\n<br>行显示或隐藏等。\n<br> 无需返回，直接操作按钮对象即可。\n<br>入参：\n<br>        \"node\"：组件对象\n<br>        \"rObj\",：行数据\n<br>        \"bObj\",：按钮象组\n<br>        \"bIndex\",：按钮组中的索引",
+              "extraInfo": {
+                "arguments": [
+                  "node",
+                  "rObj",
+                  "bObj",
+                  "bIndex"
+                ]
+              },
+              "name": "btnsFilterFunc"
+            },
+            {
+              "attr": "showColumnIndex",
+              "valueType": "Boolean",
+              "defaultValue": false,
+              "description": "展示列索引号。",
+              "name": "showColumnIndex"
+            },
+            {
+              "attr": "centerAlign",
+              "valueType": "Boolean",
+              "defaultValue": true,
+              "description": "中心对齐。",
+              "name": "centerAlign"
+            },
+            {
+              "attr": "visibleFilterInput",
+              "valueType": "Object",
+              "defaultValue": "",
+              "description": "行数据关键词过滤。\n<br>将所有行以及行的所有列的显示文字作为内容，\n<br>将当前属性内容作为关键词，按照过滤规则进\n<br>行匹配，匹配成功的行会显示，否则不显示，\n<br>以此实现表格行数据的关键词过滤。\n<br>过滤规则如下：\n<br>1）空格隔开的字符串，被识别为多个独立的关\n<br>键词，分别进行匹配，并且所有的都匹配到整体\n<br>才算匹配成功，相当于交集。\n<br>2）英文逗号隔开的字符串，也被识别为多个独\n<br>立的关键词，分别进行匹配，并且任一关键词匹\n<br>配到，那么整体都算匹配成功，相当于并集。\n<br>3）当前属性如果是字符串数组，那么被当做情\n<br>况1）来处理，即多个关键词交集。\n<br>4）关键词末尾为空格（以空格结束）时，将严\n<br>格匹配关键词字符串，内容中有包含字符且紧接\n<br>后面还有字符时，不被认作匹配。",
+              "name": "visibleFilterInput"
+            },
+            {
+              "attr": "checkMode",
+              "valueType": "Level",
+              "defaultValue": 0,
+              "description": "勾选类型。",
+              "name": "checkMode"
+            },
+            {
+              "attr": "multiSelect",
+              "valueType": "Boolean",
+              "defaultValue": true,
+              "description": "多项选择。",
+              "name": "multiSelect"
+            },
+            {
+              "attr": "currentIdSelect",
+              "valueType": "PositiveNumber",
+              "description": "当前选择的ID。",
+              "name": "currentIdSelect"
+            },
+            {
+              "attr": "currentClicked",
+              "valueType": "Object",
+              "description": "当前点击的行。\n<br>对象格式，包含了当前行的所有信息。注意，包括、单击、\n<br>双击、勾选、去勾选，并非单指勾选时。\n<br>对象包含字段kind和rowData，分别是事件类型和行数据对象。",
+              "defaultValue": null,
+              "name": "currentClicked"
+            },
+            {
+              "attr": "checkCountGet",
+              "valueType": "PositiveNumber",
+              "description": "已勾选的行数。\n<br>只读属性，且勾选模式下生效。\n<br>注意，不包含节点，只统计没\n<br>有更下级节点的行中勾选的。",
+              "defaultValue": 0,
+              "name": "checkCountGet"
+            },
+            {
+              "attr": "allRowCountGet",
+              "valueType": "PositiveNumber",
+              "description": "所有底层行数量。\n<br>只读属性。注意，不包含节点，只统计没\n<br>有更下级节点行的总数。",
+              "defaultValue": 0,
+              "name": "allRowCountGet"
+            },
+            {
+              "attr": "checkSelected",
+              "valueType": "ObjectArray",
+              "defaultValue": [],
+              "description": "选中的行ID列表。\n<br>注意，有别于只读属性只读属性checkIndexsGet\n<br>（选中的行序号列表），当前属性是指定的行数据ID\n<br>列表，其中数据ID取决于idField属性的配置。\n<br>此外，本属性的变化，会实时同步给只读的序号ID列\n<br>表属性。默认情况下，未设置行数据ID字段时，本属\n<br>性数据ID通常与行序号相同。\n<br>本属性的变化，也会与查询匹配属性queryMatched双\n<br>同步，不过行数据ID或序号不会重复，但是查询匹配字\n<br>符串可能会重复，尤其是有子节点的树表，在不同节点\n<br>下文字显示可以存在完全相同的，详见queryMatched。",
+              "name": "checkSelected"
+            },
+            {
+              "attr": "checkIndexsGet",
+              "valueType": "ObjectArray",
+              "defaultValue": [],
+              "description": "选中的行序号列表。\n<br>只读属性，勾选的一行或多行数据，\n<br>以其行序号来填充本属性。",
+              "name": "checkIndexsGet"
+            },
+            {
+              "attr": "fieldQueryRely",
+              "valueType": "String",
+              "description": "字段查询依赖。",
+              "name": "fieldQueryRely"
+            },
+            {
+              "attr": "queryMatched",
+              "valueType": "ObjectArray",
+              "defaultValue": [],
+              "description": "查询匹配项。\n<br>本属性用于设置或显示文字匹配的行数据项，通常与勾选项checkSelected属性双向同步，\n<br>分别是显示文字和数据ID。比如数据id为124，显示文字为'uiotos'，那么不论是在checkS-\n<br>elected中配置124，还是在本属性中配置'uiotos'，两个属性会双向同步，同时也会同步给\n<br>只读属性checkIndexsGet。\n<br>注意，行数据ID或序号不会重复，但是显示文字可能会重复，尤其是有上下级节点的树表\n<br>格式的数据，在不同的节点下，显示文字完全可能有重复的。此时需遵守以下规则：\n<br>1）当checkSelected属性中有配置了指定某个数据ID，而相同数据ID的还有其他项目且未\n<br>在该属性配置时，自动同步给queryMatched属性时，会有显示文字，但是文字对应的其他\n<br>数据项ID，并不会再同步会checkSelected，只会保持已有配置。这样可以避免一旦设置某\n<br>个数据项勾选，结果相同显示文字的也被自动勾选。\n<br>2）当checkSelected属性中没有queryMatched属性中配置文字对应的所有行数据项中的任\n<br>何一项，那么这些匹配到的数据项的行数据ID，都会自动同步追加到checkSelected属性中。\n<br>注意：本属性的设置，直接影响树表格行数据的勾选（如果有设置允许单选或多勾选），并\n<br>且对于节点不起作用，即运行时勾选节点，那么节点下的所有行数据都会被勾选，但目前在\n<br>属性设置中，不论是checkSelected还是queryMatched，设置节点无效，并不会对其下面\n<br>所有项自动勾选。",
+              "name": "queryMatched"
+            },
+            {
+              "attr": "treeLinedAttr2Id",
+              "valueType": "Object",
+              "description": "行keyURL与数据ID的键值对。\n<br>主要对于有多级节点的树表结构的数据，\n<br>最底层行（无更下级行）存在一个唯一\n<br>的字符串对应：从根节点一直往下到行\n<br>节点，每级的显示文字加上'>'符号组成\n<br>的字符串（也叫行keyURL）。\n<br>本属性是行keyURL与行数据id（非序号）\n<br>的对应关系组成的对象键值对。",
+              "defaultValue": {},
+              "name": "treeLinedAttr2Id"
+            },
+            {
+              "attr": "useTreeLined",
+              "valueType": "Boolean",
+              "description": "采用节点链数据。\n<br>对于树表多级节点展开的情况，底层基础节点（无下级子节点）显示内容可以在\n<br>不同节点下重复，因此为了精准定位某行数据，用于勾选或者精确查找，提供了\n<br>本属性，当勾选后：\n<br>节点的显示文字逐层往开头加上级节点的文字，一直到根节点，默认以\">\"间隔隔\n<br>开，比如树节点如下：\n<br>行1： a -\n<br>行2：   &nbsp&nbsp&nbspb\n<br>行3：   &nbsp&nbsp&nbspc -\n<br>行4：   &nbsp&nbsp&nbsp&nbsp&nbsp&nbspd \n<br>示例中，底层子节点d的上级节点为c，再上级为a，因此实际上会将d的数据实际\n<br>以\"a>c>d\"来处理（也称作keyURL），主要对queryMatched属性和visibleFilterInput\n<br>属性有影响：\n<br>visibleFilterInput属性中，用带上节点显示keyURL形式的文字代替原本内容被检索。\n<br>queryMatched属性中，设置初始勾选，或者获取勾选的数据，此时本属性显示的不\n<br>是节点d的内容，而是其逐层带上节点后的keyURL形式的内容：“a>c>d”。",
+              "name": "useTreeLined"
+            },
+            {
+              "attr": "dragDropEnable",
+              "valueType": "Boolean",
+              "defaultValue": false,
+              "description": "启用拖放。",
+              "name": "dragDropEnable"
+            },
+            {
+              "attr": "shadowBorder",
+              "valueType": "NumberArray",
+              "defaultValue": [
+                0,
+                0,
+                8
+              ],
+              "group": "外观",
+              "name": "shadowBorder"
+            },
+            {
+              "attr": "shadowColor",
+              "valueType": "Color",
+              "defaultValue": "rgba(102,102,102,0.2)",
+              "name": "shadowColor"
+            },
+            {
+              "attr": "shadowEnabled",
+              "valueType": "Boolean",
+              "defaultValue": false,
+              "name": "shadowEnabled"
+            },
+            {
+              "attr": "lastColorsDefault",
+              "valueType": "ColorArray",
+              "defaultValue": [
+                "rgb(55,125,255)",
+                "rgb(55,125,255)",
+                "rgb(242,83,75)"
+              ],
+              "description": "按钮的默认颜色。\n<br>这里的0、1、2分别与“lastItems”设置的按钮相对应。",
+              "name": "lastColorsDefault"
+            },
+            {
+              "attr": "lastColorsHover",
+              "valueType": "ColorArray",
+              "defaultValue": [
+                "rgb(48,20,166)",
+                "rgb(48,20,166)",
+                "rgb(255,0,0)"
+              ],
+              "description": "悬停时按钮的颜色。",
+              "name": "lastColorsHover"
+            },
+            {
+              "attr": "lastColorsActive",
+              "valueType": "ColorArray",
+              "defaultValue": [
+                "rgba(48,20,166,0.8)",
+                "rgba(48,20,166,0.8)",
+                "rgab(255,0,0,0.8)"
+              ],
+              "description": "点击时按钮的颜色。",
+              "name": "lastColorsActive"
+            },
+            {
+              "attr": "lastGap",
+              "valueType": "Number",
+              "defaultValue": 10,
+              "description": "最后列按钮之间的间隙。",
+              "name": "lastGap"
+            },
+            {
+              "attr": "itemsGap",
+              "valueType": "Number",
+              "defaultValue": 10,
+              "description": "树表中，图标之间的间隙。",
+              "name": "itemsGap"
+            },
+            {
+              "attr": "dropLineColor",
+              "valueType": "Color",
+              "defaultValue": "rgb(55,125,255)",
+              "description": "落线颜色。",
+              "name": "dropLineColor"
+            },
+            {
+              "attr": "background",
+              "valueType": "Color",
+              "defaultValue": "rgb(255,255,255)",
+              "description": "表格背景色。",
+              "name": "background"
+            },
+            {
+              "attr": "headerBackground",
+              "valueType": "Color",
+              "defaultValue": "rgb(247,247,247)",
+              "description": "表格标题头背景色。",
+              "name": "headerBackground"
+            },
+            {
+              "attr": "rowBackground",
+              "valueType": "ColorArray",
+              "defaultValue": [
+                "rgb(255,255,255)",
+                "rgba(55,125,255,0.05)",
+                "rgba(55,125,255,0.1)"
+              ],
+              "description": "行背景色。\n<br>颜色层叠自下往上为：表格背景色（background） →  行背景\n<br>色（rowBackground） → 行条纹背景色（stripeColors）。\n<br>其中行背景色和条纹背景色不包括无数据行的表格区域，表格背景\n<br>色则包含。\n<br>因此，若想要表格背景色整体透明/半透明，需要将三个上述三个颜\n<br>色都调整为透明或清理掉。若未勾选条纹背景色（rowStriped）\n<br>则无需设置对应的颜色。\n<br>此外，颜色数组通常表示默认、划过等。条纹背景色数组则依次表示\n<br>间隔的两行分别背景颜色。",
+              "name": "rowBackground"
+            },
+            {
+              "attr": "rowStriped",
+              "valueType": "Boolean",
+              "defaultValue": true,
+              "description": "是否显示行条纹背景色。\n<br>勾选构，隔行显示不同的背景色，其中颜色配置在属性stripeColors，\n<br>颜色数组两个颜色分别是条纹的两种颜色。",
+              "name": "rowStriped"
+            },
+            {
+              "attr": "stripeColors",
+              "valueType": "ColorArray",
+              "defaultValue": [
+                "rgba(245,245,245,1)",
+                "rgba(255,255,255)"
+              ],
+              "description": "条纹颜色数组。\n<br>可以配置两个颜色（索引为0和1），用于条纹的两种颜色，\n<br>这样列表背景色就回有条纹颜色区别。如果没有条纹背景色\n那么显示的是行背景色（rowBackground），如果行背景色也\n没有，那么就显示表格背景色（background）。",
+              "name": "stripeColors"
+            },
+            {
+              "attr": "tableTextColor",
+              "valueType": "ColorArray",
+              "defaultValue": [
+                "black",
+                "rgb(64,64,64)"
+              ],
+              "description": "文字颜色数组。\n<br>第一个颜色（索引为0）为标题文字颜色，\n<br>第二个颜色（索引为1）为表格内容颜色。",
+              "name": "tableTextColor"
+            },
+            {
+              "attr": "treeNodeTextColor",
+              "valueType": "ColorArray",
+              "defaultValue": [
+                "black",
+                "black"
+              ],
+              "description": "树节点文字颜色。\n<br>索引0为无下级的节点文字颜色，索引1是作为父节点的文字颜色。\n<br>注意，如果本属性未配置，那么将默认采用tableTextColor属性索\n<br>引1的值。如果本属性索引1未配置，索引0有配置，那么节点颜色\n<br>将采用索引0的颜色。",
+              "name": "treeNodeTextColor"
+            },
+            {
+              "attr": "rowLineVisible",
+              "valueType": "Boolean",
+              "defaultValue": false,
+              "description": "行之间边界线是否可见。",
+              "name": "rowLineVisible"
+            },
+            {
+              "attr": "columnLineVisible",
+              "valueType": "Boolean",
+              "defaultValue": true,
+              "description": "列之间边界线是否可见。",
+              "name": "columnLineVisible"
+            },
+            {
+              "attr": "linesColor",
+              "valueType": "Color",
+              "defaultValue": "rgb(247,247,247)",
+              "description": "行列线背景色。",
+              "name": "linesColor"
+            },
+            {
+              "attr": "borderColor",
+              "valueType": "Color",
+              "defaultValue": "rgb(235,235,235)",
+              "name": "borderColor"
+            },
+            {
+              "attr": "borderWidth",
+              "valueType": "Number",
+              "defaultValue": 0,
+              "description": "表格边框线宽度。\n<br>值为0时不可见。",
+              "name": "borderWidth"
+            },
+            {
+              "attr": "borderRadius",
+              "valueType": "PositiveNumber",
+              "defaultValue": 3,
+              "name": "borderRadius"
+            },
+            {
+              "attr": "emptyDefaultIcon",
+              "valueType": "Image",
+              "defaultValue": "symbols/develop/uiotos/icons/common/empty2.json",
+              "description": "当表格数据为空时的默认图标。",
+              "name": "emptyDefaultIcon"
+            },
+            {
+              "attr": "emptyIconOpacity",
+              "valueType": "Opacity",
+              "defaultValue": 1,
+              "description": "当表格数据为空时，默认图标的透明度。",
+              "name": "emptyIconOpacity"
+            },
+            {
+              "attr": "emptyIconSizeScale",
+              "valueType": "Percentage",
+              "defaultValue": 0.6,
+              "description": "当表格数据为空时，默认图标的大小。",
+              "name": "emptyIconSizeScale"
+            },
+            {
+              "attr": "rowHeight",
+              "valueType": "PositiveNumber",
+              "defaultValue": 35,
+              "description": "行高。",
+              "name": "rowHeight"
+            },
+            {
+              "attr": "nodeExpandMode",
+              "valueType": "ExpandMode",
+              "description": "父节点的单击展开模式，分为不响应展开（noExpand）、\n<br>展开直接下一级（expandFirstLayer）、展开所有下级（expandAll）。",
+              "defaultValue": "expandFirstLayer",
+              "name": "nodeExpandMode"
+            },
+            {
+              "attr": "headerHeight",
+              "valueType": "PositiveNumber",
+              "defaultValue": 40,
+              "description": "表格头部高度。",
+              "name": "headerHeight"
+            },
+            {
+              "attr": "idColumnVisible",
+              "valueType": "Boolean",
+              "defaultValue": true,
+              "description": "是否显示id列。",
+              "name": "idColumnVisible"
+            },
+            {
+              "attr": "copyTypeTextColor",
+              "valueType": "Color",
+              "defaultValue": "rgb(13,24,97)",
+              "description": "复制类型文字颜色。",
+              "name": "copyTypeTextColor"
+            },
+            {
+              "attr": "hoverTextIcon",
+              "valueType": "Image",
+              "defaultValue": "symbols/develop/uiotos/icons/common/copy.json",
+              "description": "悬停文本图标。",
+              "name": "hoverTextIcon"
+            },
+            {
+              "attr": "hoverTextIconText",
+              "valueType": "String",
+              "defaultValue": "复制",
+              "description": "悬停文本图标文本。",
+              "name": "hoverTextIconText"
+            },
+            {
+              "attr": "hoverTextScale",
+              "valueType": "Number",
+              "defaultValue": 1,
+              "description": "悬停文本大小。",
+              "name": "hoverTextScale"
+            },
+            {
+              "attr": "hoverTextIconSize",
+              "valueType": "NumberArray",
+              "defaultValue": [
+                40,
+                18
+              ],
+              "description": "悬停文本图标的大小。\n<br>索引0的数值代表图标的宽度。\n<br>索引1的数值代表图标的高度。",
+              "name": "hoverTextIconSize"
+            },
+            {
+              "attr": "hoverTextIconColor",
+              "valueType": "Color",
+              "defaultValue": "rgb(55,125,255)",
+              "description": "悬停时文本图标的颜色。",
+              "name": "hoverTextIconColor"
+            },
+            {
+              "attr": "font",
+              "valueType": "Font",
+              "description": "字体。",
+              "name": "font"
+            },
+            {
+              "attr": "pageButtonCount",
+              "valueType": "PositiveNumber",
+              "defaultValue": 3,
+              "description": "页码按钮数。",
+              "name": "pageButtonCount"
+            },
+            {
+              "attr": "headerVisible",
+              "valueType": "Boolean",
+              "defaultValue": true,
+              "description": "是否显示头部。",
+              "name": "headerVisible"
+            },
+            {
+              "attr": "pagesBottomVisible",
+              "valueType": "Boolean",
+              "defaultValue": true,
+              "description": "是否显示页码按钮。",
+              "name": "pagesBottomVisible"
+            },
+            {
+              "attr": "disableTooltip",
+              "valueType": "Boolean",
+              "name": "disableTooltip"
+            },
+            {
+              "attr": "columnForTooltip",
+              "valueType": "PositiveNumber",
+              "defaultValue": -1,
+              "description": "鼠标提示列。\n<br>默认-1，显示当前单元格数据。\n<br>设置指定索引值后，当前行对应列的文字，\n<br>用于鼠标悬停提示。\n<br>注意，这列通常只是数据列中存在，不在\n<br>当前表格中显示。",
+              "name": "columnForTooltip"
+            },
+            {
+              "attr": "toolTipCallback",
+              "valueType": "Function",
+              "description": "自定义表格行鼠标悬停提示回调函数。\n<br>参数说明：\n<br>data：当前表格组件图元对象\n<br>rowData：当然行各列数据\n<br>colIndex：当前单元格列索引\n<br>tipIndex：设置为提示列的索引\n<br>rowNode：当前行数据图元对象\n<br>注意：返回非空内容时，以这里\n<br>设置的为准。",
+              "extraInfo": {
+                "arguments": [
+                  "data",
+                  "gv",
+                  "cache",
+                  "rowData",
+                  "colIndex",
+                  "tipIndex",
+                  "rowNode"
+                ]
+              },
+              "defaultValue": "__ht__function(data, gv, cache, rowData, colIndex, tipIndex, rowNode) {return undefined;}",
+              "name": "toolTipCallback"
+            },
+            {
+              "attr": "onClick",
+              "valueType": "Function",
+              "extraInfo": {
+                "arguments": [
+                  "data",
+                  "gv",
+                  "cache",
+                  "rowData",
+                  "button"
+                ]
+              },
+              "description": "当单击时对外触发。",
+              "group": "事件",
+              "name": "onClick"
+            },
+            {
+              "attr": "onDoubleClick",
+              "valueType": "Function",
+              "extraInfo": {
+                "arguments": [
+                  "data",
+                  "gv",
+                  "cache",
+                  "rowData",
+                  "button"
+                ]
+              },
+              "description": "当双击时对外触发。",
+              "name": "onDoubleClick"
+            },
+            {
+              "attr": "onCheck",
+              "valueType": "Function",
+              "extraInfo": {
+                "arguments": [
+                  "data",
+                  "gv",
+                  "cache",
+                  "selected"
+                ]
+              },
+              "description": "当勾选时对外触发。",
+              "name": "onCheck"
+            },
+            {
+              "attr": "onDatasLoaded",
+              "valueType": "Function",
+              "extraInfo": {
+                "arguments": [
+                  "data",
+                  "gv",
+                  "cache",
+                  "value",
+                  "extra"
+                ]
+              },
+              "description": "当数据加载时对外触发。",
+              "name": "onDatasLoaded"
+            },
+            {
+              "attr": "onLastButtonSelected",
+              "valueType": "Function",
+              "extraInfo": {
+                "arguments": [
+                  "data",
+                  "gv",
+                  "cache",
+                  "value",
+                  "extra"
+                ]
+              },
+              "description": "当选择最后按钮时对外触发。",
+              "name": "onLastButtonSelected"
+            },
+            {
+              "attr": "onLastButtonClick",
+              "valueType": "Function",
+              "extraInfo": {
+                "arguments": [
+                  "data",
+                  "gv",
+                  "cache",
+                  "value",
+                  "extra"
+                ]
+              },
+              "description": "当点击最后列按钮时对外触发。",
+              "name": "onLastButtonClick"
+            },
+            {
+              "attr": "bindControlsTag",
+              "valueType": "StringArray",
+              "group": "连线",
+              "name": "bindControlsTag"
+            },
+            {
+              "attr": "bindControlsAttr",
+              "valueType": "StringArray",
+              "name": "bindControlsAttr"
+            },
+            {
+              "attr": "bindControlsVal",
+              "valueType": "ObjectArray",
+              "description": "静态值。也用作数组索引、JSON对象解析提取值用途。\n<br>一、静态值用途：\n<br>对常规类型的属性赋值且没有反向关联属性值，传入为数值时，不\n<br>会作为数组的索引，而会当成常量值对外赋值。此外，存在特殊值：\n<br>~和undefined表示过滤、不触发；null为默认值，表示传递默认表\n<br>单数据。编辑状态下清空后保存与设置null等价。\n<br>二、数组索引用途\n<br>情况1：被操作的组件属性原先值是数组时（包括空数组），会将\n<br>待输出的值作为被操作数组指定索引的值来传入，而不是整体覆盖。\n<br>情况2：如果要被操作的组件属性原先值不是数组，而且待输出的\n<br>值为数组类型并且长度也在索引范围内，那么会按照索引取自身数\n<br>组指定元素再对外输出。（如果想要取待输出索引值，赋值给被操\n<br>纵属性的指定索引，那么需要中间组件属性连线过渡以下，无法直\n<br>接操作）\n<br>情况3：如果要被操作的组件属性是数组，而且待输出的值也是数组\n<br>类型，此时当情况1来处理。\n<br>三、数据解析用途：\n<br>待输出的值为JSON对象时，用x.y.z这种以字符.或者>为间隔的方式\n<br>实现对JSON字段层次逐层定位，当是数组时x.0.y.1这种以数字的方\n<br>式来指定数组的某个索引。以此实现对任意结果JSON对象字段的定\n<br>位，获取结构内指定字段对应的值。",
+              "name": "bindControlsVal"
+            },
+            {
+              "attr": "paramControlTag",
+              "valueType": "StringArray",
+              "name": "paramControlTag"
+            },
+            {
+              "attr": "paramControlAttr",
+              "valueType": "StringArray",
+              "name": "paramControlAttr"
+            },
+            {
+              "attr": "paramsGenerator",
+              "valueType": "Function",
+              "defaultValue": "__ht__function(data, val, index, node,oldVal,form) {//绑定组索引对应的函数处理，用来动态生成复杂的参数变量传入\r\nswitch(index){\r\n    case 0:\r\n        break;\r\n    case 1:\r\n        break;\r\n    case 2:\r\n        break;\r\n    default:\r\n        break;\r\n}\r\n\r\nreturn val;}",
+              "extraInfo": {
+                "arguments": [
+                  "data",
+                  "val",
+                  "index",
+                  "node",
+                  "oldVal",
+                  "form",
+                  "type"
+                ]
+              },
+              "name": "paramsGenerator"
+            }
+          ],
+          "snapshotURL": "symbols/develop/uiotos/arranged/controls/forms_icon/树表.json",
+          "rotateAsClock": true,
+          "renderHTML": "__ht__function(data, gv, cache) {return __treeTable_ui(data, gv, cache);}",
+          "width": 1200,
+          "height": 400,
+          "fitSize": true,
+          "interactive": true,
+          "pixelPerfect": false,
+          "comps": [],
+          "uuid": "C239C19D-B2F1-4716-9A72-65A681716470"
+        },
+        "host": {
+          "__i": 33418
+        },
+        "position": {
+          "x": -143.40676,
+          "y": -32.83819
+        },
+        "width": 582.42907,
+        "height": 503.84401
+      },
+      "s": {
+        "0": {
+          "ensure>0>textArea-ui1>a:value": "确定删除？",
+          "ensure>0>textArea-ui1>a:htmlContent": false,
+          "ensure>0>datas>s:text": 7,
+          "_parentId": null
+        },
+        "1": {
+          "ensure>0>textArea-ui1>a:value": "确定删除？",
+          "ensure>0>textArea-ui1>a:htmlContent": false,
+          "ensure>0>datas>s:text": 7
+        },
+        "2": {
+          "ensure>0>textArea-ui1>a:value": "确定删除？",
+          "ensure>0>textArea-ui1>a:htmlContent": false,
+          "ensure>0>datas>s:text": 7
+        },
+        "3": {
+          "ensure>0>textArea-ui1>a:value": "确定删除？",
+          "ensure>0>textArea-ui1>a:htmlContent": false,
+          "ensure>0>datas>s:text": 7
+        },
+        "6": {
+          "ensure>0>textArea-ui1>a:value": "确定删除？",
+          "ensure>0>textArea-ui1>a:htmlContent": false,
+          "ensure>0>datas>s:text": 7
+        },
+        "7": {
+          "ensure>0>textArea-ui1>a:value": "确定删除？",
+          "ensure>0>textArea-ui1>a:htmlContent": false,
+          "ensure>0>datas>s:text": 7
+        },
+        "interactive": true,
+        "image.stretch": "uniform",
+        "layout.h": "leftright",
+        "layout.v": "topbottom",
+        "datas": [
+          {
+            "rowData": [
+              "菏泽"
+            ],
+            "children": [
+              [
+                "火车站",
+                [
+                  {
+                    "type": "image",
+                    "icon": "http://cfg.aiotos.net/custom/uploads/1.png"
+                  },
+                  {
+                    "type": "image",
+                    "icon": "http://cfg.aiotos.net/custom/uploads/2.png"
+                  }
+                ]
+              ],
+              [
+                "汽车站"
+              ],
+              [
+                "山东临沂"
+              ]
+            ],
+            "id": 1,
+            "_parentId": null
+          },
+          {
+            "rowData": [
+              "青岛高铁"
+            ],
+            "children": [
+              [
+                "东广场",
+                [
+                  {
+                    "type": "image",
+                    "icon": "http://cfg.aiotos.net/custom/uploads/2.png"
+                  },
+                  {
+                    "type": "image",
+                    "icon": "http://cfg.aiotos.net/custom/uploads/1.png"
+                  }
+                ]
+              ]
+            ],
+            "id": 5,
+            "_parentId": null
+          },
+          {
+            "rowData": [
+              "测试"
+            ],
+            "children": [
+              [
+                "测试"
+              ]
+            ],
+            "id": 7,
+            "_parentId": null
+          }
+        ],
+        "rowsIdReset": "1",
+        "show": {
+          "ensure>0>textArea-ui1>a:value": "确定删除？",
+          "ensure>0>textArea-ui1>a:htmlContent": false,
+          "ensure>0>datas>s:text": 7
+        },
+        "label.offset.x": -10,
+        "label.rotation": null,
+        "visibleFilterInput": "",
+        "label.position": 14,
+        "label.offset.y": 0,
+        "label.color": "rgb(61,61,61)",
+        "2d.movable": false
+      },
+      "a": {
+        "0": {
+          "ensure>0>textArea-ui1>a:value": "确定删除？",
+          "ensure>0>textArea-ui1>a:htmlContent": false,
+          "ensure>0>datas>s:text": 7,
+          "_parentId": null
+        },
+        "1": {
+          "ensure>0>textArea-ui1>a:value": "确定删除？",
+          "ensure>0>textArea-ui1>a:htmlContent": false,
+          "ensure>0>datas>s:text": 7
+        },
+        "2": {
+          "ensure>0>textArea-ui1>a:value": "确定删除？",
+          "ensure>0>textArea-ui1>a:htmlContent": false,
+          "ensure>0>datas>s:text": 7
+        },
+        "3": {
+          "ensure>0>textArea-ui1>a:value": "确定删除？",
+          "ensure>0>textArea-ui1>a:htmlContent": false,
+          "ensure>0>datas>s:text": 7
+        },
+        "6": {
+          "ensure>0>textArea-ui1>a:value": "确定删除？",
+          "ensure>0>textArea-ui1>a:htmlContent": false,
+          "ensure>0>datas>s:text": 7
+        },
+        "7": {
+          "ensure>0>textArea-ui1>a:value": "确定删除？",
+          "ensure>0>textArea-ui1>a:htmlContent": false,
+          "ensure>0>datas>s:text": 7
+        },
+        "lastItems": [],
+        "columns": [
+          {
+            "displayName": "序号"
+          },
+          {
+            "displayName": "名称（文件/标签/属性）"
+          },
+          {
+            "displayName": "值（描述）"
+          }
+        ],
+        "columnWidths": [
+          "45",
+          "-0.75",
+          "-0.25"
+        ],
+        "idColumnVisible": true,
+        "centerAlign": false,
+        "pagesBottomVisible": false,
+        "headerVisible": true,
+        "columnLineVisible": true,
+        "lastIgnoredRoot": [
+          1,
+          2,
+          3
+        ],
+        "lastIgnoredNode": [],
+        "lastIgnoredChild": [
+          0
+        ],
+        "lastColorsDefault": [
+          "rgb(51,153,255)",
+          "rgb(242,83,75)",
+          "rgb(55,125,255)",
+          "#910000"
+        ],
+        "lastColorsHover": [
+          "#60ACFC",
+          "rgb(212,0,0)",
+          "#60ACFC",
+          "rgb(242,83,75)"
+        ],
+        "lastColorsActive": [
+          "rgba(96,172,252,0.8)",
+          "#FF7C7C",
+          "rgba(96,172,252,0.80)",
+          "rgba(242,83,75,0.8)"
+        ],
+        "rowHeight": 35,
+        "headerHeight": 35,
+        "font": "12px arial, sans-serif",
+        "lastGap": 0,
+        "itemsGap": 5,
+        "dataComboType": [],
+        "singleItemAsRoot": false,
+        "bindControlsTag": [],
+        "bindControlsAttr": [],
+        "bindControlsVal": [],
+        "paramControlTag": [],
+        "paramControlAttr": [],
+        "Edge3": "dialog-ui2",
+        "paramsGenerator": "__ht__function(data, val, index, node, oldVal, form) {//绑定组索引对应的函数处理，用来动态生成复杂的参数变量传入\r\nswitch(index){\r\n    case 0:\r\n        break;\r\n    case 1:\r\n        break;\r\n    case 2:\r\n        break;\r\n    case 3:\r\n        break;\r\n    default:\r\n        break;\r\n}\r\n\r\nreturn val;}",
+        "Edge4": "dialog-ui2",
+        "Edge5": "dialog-ui4",
+        "Edge6": "dialog-ui4",
+        "Edge7": null,
+        "showColumnIndex": false,
+        "Edge10": null,
+        "singleRootOrChild": false,
+        "lastSingleIgnored": [
+          0
+        ],
+        "lastRootIgnored": [
+          1
+        ],
+        "lastNodeIgnored": [],
+        "lastChildIgnored": [
+          0
+        ],
+        "Edge12": null,
+        "datas": [],
+        "rowsIdReset": false,
+        "Edge16": null,
+        "Edge17": null,
+        "Edge18": null,
+        "background": "rgb(255,255,255)",
+        "rowBackground": [
+          "rgb(255,255,255)",
+          "rgba(55,125,255,0.05)",
+          "rgba(55,125,255,0.05)"
+        ],
+        "rowStriped": false,
+        "tableTextColor": [
+          "rgb(0,0,0)",
+          "rgb(0,0,0)"
+        ],
+        "stripeColors": [
+          "rgb(247,247,247)",
+          "rgb(255,255,255)"
+        ],
+        "borderColor": "rgba(51,156,255,0.1)",
+        "borderWidth": 0,
+        "rowLineVisible": false,
+        "Edge1": "treeTable-ui5",
+        "show": {
+          "ensure>0>textArea-ui1>a:value": "确定删除？",
+          "ensure>0>textArea-ui1>a:htmlContent": false,
+          "ensure>0>datas>s:text": 7
+        },
+        "checkMode": 4,
+        "checkSelected": [],
+        "onCheck": null,
+        "visibleFilterInput": "",
+        "treeObject": null,
+        "queryMatched": [],
+        "multiSelect": true,
+        "allRowsIdGet": [],
+        "bindEvents": [
+          "*",
+          "onDatasLoaded",
+          "onClick",
+          "onDoubleClick",
+          "onCheck",
+          "onLastButtonClick",
+          "onLastButtonSelected"
+        ],
+        "symbol": "symbols/develop/uiotos/arranged/controls/forms/06-表格或列表/树表.json",
+        "oldDynamicAttrs": [
+          {
+            "attr": "_bindEvents_0",
+            "valueType": "MultiComboBox",
+            "defaultValue": "*",
+            "group": "bindEvents",
+            "description": "连线索引[0]的触发事件过滤器，默认全部通过",
+            "dynamicCreate": true
+          }
+        ],
+        "checkIndexsGet": [],
+        "innerDisplays": [],
+        "columnFields": [],
+        "expandAll": false,
+        "toolTipRaw": "<p style='color:rgb(242,83,75);margin-top:5px;margin-bottom:5px;font-weight:bold;line-height:1.5em;'>已被布局，不允许拖动（shift+回车可解除）</p><p style='color:rgb(242,83,75);margin-top:5px;margin-bottom:5px;font-weight:bold;line-height:1.5em;'>已被布局，不允许拖动</p>",
+        "colorFilterFunc": "__ht__function(node, rObj, cObj, cIndex, value) {//返回null则是配置的默认字体颜色\r\nreturn rObj.isEmpty() ? 'gray' : 'green'}",
+        "treeNodeTextColor": [
+          "rgb(124,145,155)",
+          "black"
+        ],
+        "checkCountGet": 0,
+        "allRowCountGet": 0,
+        "treeLinedAttr2Id": {},
+        "columnForTooltip": 5,
+        "toolTipCallback": "__ht__function(data, gv, cache, rowData, colIndex, tipIndex, rowNode) {if(isArrayFn(rowData[0]) || !rowData[1] || rowData[1] == '') return undefined; //对于数组分组，鼠标划过不提示！\r\nlet descRaw = rowData[5],\r\n    desctmp = descRaw === undefined ? '（未注释）' : descRaw;\r\n//240614，如果是keyURL，那么是全部的展开；如果非keyURL，那么就显示属性attr，而不是翻译名了！\r\nreturn rowData[1] + \" | \" + rowData[0] + '<br>' + '<span style=\"color:rgba(200,200,200,0.3)\">————————————————</span>' + '<br>' + desctmp;}"
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 33420,
+      "p": {
+        "displayName": "temp（temp）",
+        "tag": "temp",
+        "dataBindings": {
+          "s": {
+            "text": {
+              "id": "iotos.form",
+              "func": "__ht__function formParser(rawData) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}",
+              "idinfo": "",
+              "isTplBinded": false
+            }
+          }
+        },
+        "position": {
+          "x": -187.81656,
+          "y": 194.08381
+        }
+      },
+      "s": {
+        "text": {
+          "datas": [],
+          "checkSelected": [],
+          "onCheck": null,
+          "visibleFilterInput": " ",
+          "queryMatched": [],
+          "lastItemRowsText": [],
+          "currentIdSelect": 4,
+          "dataComboType": []
+        },
+        "interactive": true,
+        "image.stretch": "uniform",
+        "label.position": 14,
+        "label.offset.x": -10,
+        "label.offset.y": 0,
+        "label.color": "rgb(61,61,61)"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 33421,
+      "p": {
+        "displayName": "input-ui（input-ui2）",
+        "toolTip": "<p style='color:rgb(242,83,75);margin-top:5px;margin-bottom:5px;font-weight:bold;line-height:1.5em;'>已被布局，不允许拖动（shift+回车可解除）</p><p style='color:rgb(242,83,75);margin-top:5px;margin-bottom:5px;font-weight:bold;line-height:1.5em;'>已被布局，不允许拖动</p>",
+        "tag": "input-ui2",
+        "dataBindings": {
+          "a": {
+            "value": {
+              "id": "iotos.form",
+              "func": "__ht__function formParser(rawData) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}",
+              "idinfo": "",
+              "isTplBinded": false
+            },
+            "onChange": {
+              "id": "iotos.form",
+              "func": "__ht__function formParser(rawData) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}",
+              "idinfo": "",
+              "isTplBinded": false
+            },
+            "instantTrigger": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "initialTrigger": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "onClear": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "onEnter": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "readOnly": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "placeholder": {
+              "id": "iotos.form",
+              "alias": "",
+              "func": "__ht__function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        console.error(err);\r\n        return rawData;\r\n    }\r\n}",
+              "idinfo": "",
+              "isTplBinded": false
+            },
+            "display": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "pureTipText": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "popDirection": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "popBackground": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "popPadding": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "popWidth": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "popHeight": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "popBorderColor": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "popBorderWidth": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "popBorderRadius": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "popTriggerEvent": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            }
+          }
+        },
+        "image": {
+          "modified": "Fri Feb 16 2024 09:48:58 GMT+0800 (中国标准时间)",
+          "dataBindings": [
+            {
+              "attr": "symbol",
+              "valueType": "Image",
+              "group": "功能（关键）",
+              "description": "组件源（备选）。\n<br>当组件源（image）为非字符串格式，显示\n<br>[Object]时，可以通过这里备选地址，双击\n<br>打开组件配置。",
+              "name": "symbol"
+            },
+            {
+              "attr": "fixedHeight",
+              "valueType": "PositiveNumber",
+              "defaultValue": 35,
+              "description": "固定高度。\n<br>部分组件比如下拉框以及这里的输入框，拖拽或布局时，\n<br>高度默认会保持不变，只是宽度能够变化。高度可以在\n<br>当前页面全局自定义，也能通过当前属性对当个组件设\n<br>定。全局设置为页面的公共属性组中的“组件默认固定高\n<br>度”属性。",
+              "name": "fixedHeight"
+            },
+            {
+              "attr": "activeBorderColor",
+              "valueType": "Color",
+              "defaultValue": "rgb(51,153,255)",
+              "description": "激活时边框颜色。\n<br>通常是选中输入状态时的边框色。",
+              "name": "activeBorderColor"
+            },
+            {
+              "attr": "background",
+              "valueType": "Color",
+              "description": "背景颜色。",
+              "name": "background"
+            },
+            {
+              "attr": "readOnlyBackground",
+              "valueType": "Color",
+              "defaultValue": "rgb(247,247,247)",
+              "description": "只读时的背景颜色。\n<br>注意，区别于禁用（暂未开放配置）。",
+              "name": "readOnlyBackground"
+            },
+            {
+              "attr": "iconPath",
+              "valueType": "Image",
+              "defaultValue": "symbols/demo/uiotos/icons/light/search.json",
+              "description": "图标地址。\n<br>输入框默左侧为“搜索”图标。",
+              "name": "iconPath"
+            },
+            {
+              "attr": "iconColor",
+              "valueType": "Color",
+              "defaultValue": "rgb(213,213,213)",
+              "description": "输入框图标颜色。\n<br>对于内置部件中通过工具转换成的图标，\n<br>为支持动态修改背景颜色的矢量形式。",
+              "name": "iconColor"
+            },
+            {
+              "attr": "iconType",
+              "valueType": "Level",
+              "defaultValue": 1,
+              "description": "图标类型。\n<br>相同名称图标的不同风格，已弃用，\n<br>当前属性目前作为备用。",
+              "name": "iconType"
+            },
+            {
+              "attr": "iconSize",
+              "valueType": "NumberArray",
+              "defaultValue": [
+                20,
+                15
+              ],
+              "description": "图标尺寸。\n<br>数组形式，索引依次为宽度、高度值。",
+              "name": "iconSize"
+            },
+            {
+              "attr": "iconTextGap",
+              "valueType": "Number",
+              "defaultValue": 5,
+              "description": "图标文字间距。",
+              "name": "iconTextGap"
+            },
+            {
+              "attr": "hoverIcon",
+              "valueType": "Image",
+              "description": "鼠标滑过时的图标。",
+              "name": "hoverIcon"
+            },
+            {
+              "attr": "borderRadius",
+              "valueType": "Number",
+              "defaultValue": 3,
+              "description": "边框圆角。",
+              "name": "borderRadius"
+            },
+            {
+              "attr": "borderWidth",
+              "valueType": "Number",
+              "defaultValue": 1,
+              "description": "边框宽度。",
+              "name": "borderWidth"
+            },
+            {
+              "attr": "borderColor",
+              "valueType": "Color",
+              "defaultValue": "rgb(213,213,213)",
+              "description": "边框颜色。",
+              "name": "borderColor"
+            },
+            {
+              "attr": "font",
+              "valueType": "Font",
+              "description": "字体。",
+              "name": "font"
+            },
+            {
+              "attr": "readOnly",
+              "valueType": "Boolean",
+              "defaultValue": false,
+              "description": "是否只读。",
+              "name": "readOnly"
+            },
+            {
+              "attr": "placeholder",
+              "valueType": "Object",
+              "defaultValue": "请输入",
+              "description": "未输入时默认占位符文字。",
+              "name": "placeholder"
+            },
+            {
+              "attr": "color",
+              "valueType": "Color",
+              "defaultValue": "rgb(0,0,0)",
+              "description": "文字颜色。",
+              "name": "color"
+            },
+            {
+              "attr": "labelColor",
+              "valueType": "Color",
+              "defaultValue": "rgb(0,0,0)",
+              "description": "标签文字颜色。",
+              "name": "labelColor"
+            },
+            {
+              "attr": "labelText",
+              "valueType": "String",
+              "defaultValue": "标签",
+              "description": "标签文字。",
+              "name": "labelText"
+            },
+            {
+              "attr": "gap",
+              "valueType": "PositiveNumber",
+              "defaultValue": 0,
+              "description": "标签与组件的间距。\n<br>注意，仅在标签内嵌模式（layoutVertical）下，\n<br>改配置参数才有用。",
+              "name": "gap"
+            },
+            {
+              "attr": "layoutVertical",
+              "valueType": "Boolean",
+              "defaultValue": false,
+              "description": "标签与组件的布局模式。\n<br>水平左右，或者垂直上下。",
+              "name": "layoutVertical"
+            },
+            {
+              "attr": "labelEmbeded",
+              "valueType": "Boolean",
+              "defaultValue": false,
+              "description": "标签是否内嵌。\n<br>不内嵌时，组件的宽度不包含标签。\n<br>选择内嵌时，组件的宽度包含标签文字宽度。",
+              "name": "labelEmbeded"
+            },
+            {
+              "attr": "type",
+              "valueType": "FormType",
+              "defaultValue": "text",
+              "description": "输入框表单类型。\n<br>包括密码、文本等类型。",
+              "name": "type"
+            },
+            {
+              "attr": "instantTrigger",
+              "valueType": "Boolean",
+              "defaultValue": true,
+              "description": "是否即时触发。\n<br>勾选后，输入时就会对外触发onChange变化事件。",
+              "name": "instantTrigger"
+            },
+            {
+              "attr": "initialTrigger",
+              "valueType": "Boolean",
+              "defaultValue": false,
+              "description": "初始触发连线操作。\n<br>默认不勾选，勾选后初始加载值时，如果对外有连线，\n<br>并且初始值为非空时，也会触发对外的赋值连线操作。",
+              "name": "initialTrigger"
+            },
+            {
+              "attr": "emptyTrigger",
+              "valueType": "Boolean",
+              "defaultValue": false,
+              "name": "emptyTrigger"
+            },
+            {
+              "attr": "value",
+              "valueType": "Object",
+              "defaultValue": "",
+              "description": "当前值。\n<br>输入框的值。注意，运行时输入数字\n<br>默认会作为字符串。如果初始设定值\n<br>为数字类型（比如0），那么输入的字\n<br>符串形式的数字，会被转成数字。",
+              "name": "value"
+            },
+            {
+              "attr": "bindControlsTag",
+              "valueType": "StringArray",
+              "group": "bindControls",
+              "description": "操作的目标组件（标签）。\n<br>连线A → B，那么B就是目标组件。",
+              "name": "bindControlsTag"
+            },
+            {
+              "attr": "bindControlsAttr",
+              "valueType": "StringArray",
+              "description": "操作目标组件的属性。\n<br>比如A.x→B.y时，x就是当前的关联\n<br>属性，y即为操作属性，A的x属性值\n<br>通过连线赋值给B的y属性。",
+              "name": "bindControlsAttr"
+            },
+            {
+              "attr": "bindControlsVal",
+              "valueType": "ObjectArray",
+              "description": "静态值。也用作数组索引、JSON对象解析提取值用途。\n<br>一、静态值用途：\n<br>对常规类型的属性赋值且没有反向关联属性值，传入为数值时，不\n<br>会作为数组的索引，而会当成常量值对外赋值。此外，存在特殊值：\n<br>~和undefined表示过滤、不触发；null为默认值，表示传递默认表\n<br>单数据。编辑状态下清空后保存与设置null等价。\n<br>二、数组索引用途\n<br>情况1：被操作的组件属性原先值是数组时（包括空数组），会将\n<br>待输出的值作为被操作数组指定索引的值来传入，而不是整体覆盖。\n<br>情况2：如果要被操作的组件属性原先值不是数组，而且待输出的\n<br>值为数组类型并且长度也在索引范围内，那么会按照索引取自身数\n<br>组指定元素再对外输出。（如果想要取待输出索引值，赋值给被操\n<br>纵属性的指定索引，那么需要中间组件属性连线过渡以下，无法直\n<br>接操作）\n<br>情况3：如果要被操作的组件属性是数组，而且待输出的值也是数组\n<br>类型，此时当情况1来处理。\n<br>三、数据解析用途：\n<br>待输出的值为JSON对象时，用x.y.z这种以字符.或者>为间隔的方式\n<br>实现对JSON字段层次逐层定位，当是数组时x.0.y.1这种以数字的方\n<br>式来指定数组的某个索引。以此实现对任意结果JSON对象字段的定\n<br>位，获取结构内指定字段对应的值。",
+              "name": "bindControlsVal"
+            },
+            {
+              "attr": "paramControlTag",
+              "valueType": "StringArray",
+              "description": "操作关联的来源组件（标签）。\n<br>连线A → B，那么A就是来源组件。\n<br>注意，为空不用填或者填写A的标\n<br>签效果一样，也可以填入其他组件\n<br>的标签（非正常操作）。",
+              "name": "paramControlTag"
+            },
+            {
+              "attr": "paramControlAttr",
+              "valueType": "StringArray",
+              "description": "关联属性。\n<br>关联的来源组件的指定属性，比如\n<br>A.x→B.y时，x就是当前的关联属性，\n<br>y为操作属性，A的x属性值通过连线\n<br>赋值给B的y属性。",
+              "name": "paramControlAttr"
+            },
+            {
+              "attr": "paramsGenerator",
+              "valueType": "Function",
+              "defaultValue": "__ht__function(data, val, index, node,oldVal,form) {//绑定组索引对应的函数处理，用来动态生成复杂的参数变量传入\r\nswitch(index){\r\n    case 0:\r\n        break;\r\n    case 1:\r\n        break;\r\n    case 2:\r\n        break;\r\n    default:\r\n        break;\r\n}\r\n\r\nreturn val;}",
+              "extraInfo": {
+                "arguments": [
+                  "data",
+                  "val",
+                  "index",
+                  "node",
+                  "oldVal",
+                  "form"
+                ]
+              },
+              "description": "操作过滤函数。\n<br>所有连线对外操作执行之前，都会经过该函数\n<br>过滤处理，通常无需操作。可以做自定义逻辑。\n<br>其中对相应索引index下直接return返回undefined\n<br>时，将忽略掉指定索引连线的执行触发。",
+              "name": "paramsGenerator"
+            },
+            {
+              "attr": "onChange",
+              "valueType": "Function",
+              "extraInfo": {
+                "arguments": [
+                  "data",
+                  "gv",
+                  "cache",
+                  "value"
+                ]
+              },
+              "description": "变化事件函数。\n<br>默认为内容改变才触发，当勾选即时触发\n<br>（instantTrigger）时，输入时就会触发本\n<br>事件。",
+              "name": "onChange"
+            },
+            {
+              "attr": "onEnter",
+              "valueType": "Function",
+              "description": "回车事件。\n<br>输入完毕后回车触发，并且传入当前值。",
+              "extraInfo": {
+                "arguments": [
+                  "data",
+                  "gv",
+                  "cache",
+                  "value"
+                ]
+              },
+              "name": "onEnter"
+            },
+            {
+              "attr": "useAttrCORS",
+              "valueType": "Boolean",
+              "defaultValue": false,
+              "description": "连线操作和处理回写是否一致。\n                        比如多个文本框连线传值给相同对话框，弹窗修改\n                        后是否限定只能写到最新赋值过来的文本框。详见<a href='https://www.yuque.com/liuhuo-nc809/uiotos/fgi6dd7gado51acm#fFUbp' style=\"color:rgb(96,172,252)\"target=\"_blank\">同源属性操作</a>",
+              "name": "useAttrCORS",
+              "dynamicCreate": true
+            },
+            {
+              "attr": "display",
+              "valueType": "Image",
+              "defaultValue": "",
+              "description": "自定义页面地址。\n                可以是编辑器中的其他页面，也可以\n                是外部网页链接地址。",
+              "group": "弹出框",
+              "name": "display",
+              "dynamicCreate": true
+            },
+            {
+              "attr": "pureTipText",
+              "valueType": "String",
+              "defaultValue": "",
+              "description": "提示文字。\n                    当专业用户属性中，提供display内嵌页属性，\n                    如果有配置，那么本属性设置无效，将以内嵌\n                    页显示为准。",
+              "name": "pureTipText",
+              "dynamicCreate": true
+            },
+            {
+              "attr": "popDirection",
+              "valueType": "SideDirection",
+              "defaultValue": "right",
+              "description": "提示显示位置。",
+              "name": "popDirection",
+              "dynamicCreate": true
+            },
+            {
+              "attr": "popBackground",
+              "valueType": "Color",
+              "defaultValue": "white",
+              "description": "箭头和背景色。",
+              "name": "popBackground",
+              "dynamicCreate": true
+            },
+            {
+              "attr": "popPadding",
+              "valueType": "NumberArray",
+              "defaultValue": [
+                2,
+                2,
+                2,
+                2
+              ],
+              "description": "内间距。",
+              "name": "popPadding",
+              "dynamicCreate": true
+            },
+            {
+              "attr": "popWidth",
+              "valueType": "Number",
+              "defaultValue": 400,
+              "description": "弹出框宽度。",
+              "name": "popWidth",
+              "dynamicCreate": true
+            },
+            {
+              "attr": "popHeight",
+              "valueType": "Number",
+              "defaultValue": 300,
+              "description": "弹出框高度。",
+              "name": "popHeight",
+              "dynamicCreate": true
+            },
+            {
+              "attr": "popBorderColor",
+              "valueType": "Color",
+              "defaultValue": "rgb(51,51,51)",
+              "description": "边框线颜色。\n                    注意，是设置了边框宽度非0后的边框颜色。\n                    默认边框宽度属性为0时，实际上是白色并\n                    带有箭头指示的边框。本属性不用于修改默\n                    认边框色。",
+              "name": "popBorderColor",
+              "dynamicCreate": true
+            },
+            {
+              "attr": "popBorderWidth",
+              "valueType": "Number",
+              "defaultValue": 0,
+              "description": "边框线宽度。\n                    默认值为0，此时边框默认为白色并且带有\n                    箭头指示。当设置宽度后，颜色将取边框颜\n                    色属性的设置，并且不再有箭头指示。",
+              "name": "popBorderWidth",
+              "dynamicCreate": true
+            },
+            {
+              "attr": "popBorderRadius",
+              "valueType": "Number",
+              "defaultValue": 0,
+              "description": "边框线圆角。\n                    设置圆角线后，如果此前默认是白色边框带有\n                    指示箭头，那么将自动不可见，只对内容区域\n                    产生圆角。",
+              "name": "popBorderRadius",
+              "dynamicCreate": true
+            },
+            {
+              "attr": "popTriggerEvent",
+              "valueType": "MouseEvent",
+              "defaultValue": "hover",
+              "description": "触发方式。\n                支持鼠标移入、点击（按钮时）\n                两种触发提示的方式。",
+              "name": "popTriggerEvent",
+              "dynamicCreate": true
+            }
+          ],
+          "snapshotURL": "symbols/admin/uiotos/icons/snapshot/input.json",
+          "renderHTML": "__ht__function(data, gv, cache) {return __input_ui(data, gv, cache);}",
+          "width": 180,
+          "height": 35,
+          "scrollable": true,
+          "interactive": true,
+          "pixelPerfect": false,
+          "comps": [],
+          "uuid": "F2A27934-8E9A-4B39-A481-429F71F54F1E"
+        },
+        "host": {
+          "__i": 33418
+        },
+        "position": {
+          "x": -143.40676,
+          "y": -313.49999
+        },
+        "width": 582.42907,
+        "height": 35
+      },
+      "s": {
+        "interactive": true,
+        "image.stretch": "uniform",
+        "label": "",
+        "label.position": 14,
+        "label.offset.x": -10,
+        "label.offset.y": 0,
+        "label.color": "rgb(0,0,0)",
+        "2d.movable": false,
+        "layout.h": "leftright",
+        "layout.v": "top"
+      },
+      "a": {
+        "iconPath": "symbols/demo/uiotos/icons/light/search.json",
+        "gap": 0,
+        "labelColor": "rgb(0,0,0)",
+        "borderRadius": 5,
+        "instantTrigger": true,
+        "bindControlsTag": [
+          "treeTable-ui1"
+        ],
+        "onChange": null,
+        "bindControlsAttr": [
+          "visibleFilterInput"
+        ],
+        "bindControlsVal": [
+          ""
+        ],
+        "paramControlTag": [
+          null
+        ],
+        "paramControlAttr": [
+          "value"
+        ],
+        "Edge2": "treeTable-ui1",
+        "value": "",
+        "labelText": "",
+        "bindEvents": [
+          "*",
+          "onChange",
+          "onClear",
+          "onEnter"
+        ],
+        "symbol": "symbols/develop/uiotos/base/input-ui.json",
+        "oldDynamicAttrs": [
+          {
+            "attr": "_bindEvents_1",
+            "valueType": "MultiComboBox",
+            "defaultValue": "*",
+            "group": "bindEvents",
+            "description": "连线索引[1]的触发事件过滤器，默认全部通过",
+            "dynamicCreate": true
+          },
+          {
+            "attr": "useAttrCORS",
+            "valueType": "Boolean",
+            "defaultValue": false,
+            "description": "属性同源操作。\n                连线操作传递是否限定双方。比如有A/B/C/D/O五个组件，连线操作关系：\n                A→O、B→O、C→O、D→O，以及O→A、O→B、O→C、O→D，总结为\n                A、B、C、D分别与O有往返操作。\n                默认不勾选该属性时，A到D任何一个向O的连线操作，都不会影响到O自身\n                对A到D的下一步操作。勾选了该属性后，那么每次相邻的两次连线交互，\n                则会有同源选择性，比如A→O，下一步则O之会选择到A的操作即O→A。\n                同源操作通常用户多个组件共用一个配置弹窗的情况，比如上述A、B、C、D\n                相当于是四个同类型的组件，而O是公共的属性配置窗口，任何一个比如A点\n                击，可通过O弹窗显示属性，然后修改后将属性值回写到A，且并不会将值给\n                到其他几个组件，即便有连线在。\n                同源操作规则：当连线满足A/B→O.x，且有O.x→A/B时，即前一次组件A连线\n                操作O的x属性，那么，O对外触发且关联x属性值对外时，勾选了本属性同源\n                属性操作的前提下，将只会执行O.x→A，而忽略O.x→B/C等其他非A的图元组\n                件的连线操作。",
+            "dynamicCreate": true
+          }
+        ],
+        "placeholder": "关键词查找",
+        "emptyTrigger": true,
+        "toolTipRaw": "<p style='color:rgb(242,83,75);margin-top:5px;margin-bottom:5px;font-weight:bold;line-height:1.5em;'>已被布局，不允许拖动（shift+回车可解除）</p><p style='color:rgb(242,83,75);margin-top:5px;margin-bottom:5px;font-weight:bold;line-height:1.5em;'>已被布局，不允许拖动</p>"
+      }
+    },
+    {
+      "c": "ht.Edge",
+      "i": 33422,
+      "p": {
+        "displayName": "0（Edge2）",
+        "toolTip": "<div id=\"config_tooltip\" style=\"font-size:12px;line-height:1.75em;letter-spacing:1px\">\n                                                        关联绑定信息：<br>\n                                                        <li style=\"list-style-type:disc;color:rgba(255,255,255,0.5);\">索引序号：0 | 总共1条</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold;\">操作属性：visibleFilterInput@treeTable-ui1</li>\n                                                        <li style=\"list-style-type:none;color:rgba(255,255,255,0.5)\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;当前值：</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold\">关联属性：value@input-ui2</li>\n                                                        <li style=\"list-style-type:none;color:rgba(255,255,255,0.5)\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;关联值：</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold;\">解析赋值：</li>\n                                                        <li style=\"list-style-type:disc;color:rgba(255,255,255,0.5)\">触发事件：*</li>\n                                                        <li style=\"list-style-type:disc;\">注释：无</li>\n                                                    </div>",
+        "parent": {
+          "__i": 33421
+        },
+        "tag": "Edge2",
+        "source": {
+          "__i": 33421
+        },
+        "target": {
+          "__i": 33419
+        }
+      },
+      "s": {
+        "edge.color": "rgb(51,153,255)",
+        "edge.type": "flex",
+        "edge.gap": 16,
+        "edge.width.absolute": true,
+        "note.border.width": 0,
+        "note.position": 7,
+        "note.opacity": 0.85,
+        "note.background": "rgb(51,153,255)",
+        "note.offset.x": 0,
+        "note.offset.y": 0,
+        "icons": {
+          "symbols/demo/extra/basic/fromArrow2.json": {
+            "position": 15,
+            "keepOrien": true,
+            "names": [
+              "symbols/demo/extra/basic/fromArrow2.json"
+            ]
+          },
+          "symbols/demo/extra/basic/toArrow.json": {
+            "position": 19,
+            "keepOrien": true,
+            "width": 30,
+            "height": 15,
+            "names": [
+              "symbols/demo/extra/basic/toArrow.json"
+            ]
+          }
+        },
+        "note": 0,
+        "label.position": 14,
+        "label.offset.x": -10,
+        "label.offset.y": 0,
+        "label.color": "rgb(61,61,61)",
+        "edge.width": 4
+      },
+      "a": {
+        "index": 0,
+        "toolTipRaw": "<div id=\"config_tooltip\" style=\"font-size:12px;line-height:1.75em;letter-spacing:1px\">\n                                                        关联绑定信息：<br>\n                                                        <li style=\"list-style-type:disc;color:rgba(255,255,255,0.5);\">索引序号：0 | 总共1条</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold;\">操作属性：visibleFilterInput@treeTable-ui1</li>\n                                                        <li style=\"list-style-type:none;color:rgba(255,255,255,0.5)\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;当前值：</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold\">关联属性：value@input-ui2</li>\n                                                        <li style=\"list-style-type:none;color:rgba(255,255,255,0.5)\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;关联值：</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold;\">解析赋值：</li>\n                                                        <li style=\"list-style-type:disc;color:rgba(255,255,255,0.5)\">触发事件：*</li>\n                                                        <li style=\"list-style-type:disc;\">注释：无</li>\n                                                    </div>"
+      }
+    }
+  ],
+  "modified": "Sat Jun 15 2024 00:47:56 GMT+0800 (中国标准时间)",
+  "contentRect": {
+    "x": -487.30134,
+    "y": -339.99999,
+    "width": 647.30134,
+    "height": 559.0838
+  }
+}

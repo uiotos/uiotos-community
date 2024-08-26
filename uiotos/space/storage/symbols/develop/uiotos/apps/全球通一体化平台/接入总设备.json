@@ -1,0 +1,75 @@
+{
+  "modified": "Fri Aug 26 2022 09:53:42 GMT+0800 (中国标准时间)",
+  "background": "rgb(32,37,46)",
+  "dataBindings": [
+    {
+      "attr": "icon.icon-back-ground",
+      "valueType": "Color"
+    }
+  ],
+  "width": 280,
+  "height": 180,
+  "fitSize": true,
+  "comps": [
+    {
+      "type": "rect",
+      "background": "rgb(255,255,255)",
+      "borderWidth": 1,
+      "borderColor": "rgb(213,229,245)",
+      "rect": [
+        0,
+        0,
+        280,
+        180
+      ]
+    },
+    {
+      "type": "image",
+      "color": "rgb(80,135,236)",
+      "name": "symbols/demo/博通/设备定位.json",
+      "prefix": "icon",
+      "shadowColor": null,
+      "rect": [
+        15.69266,
+        15.39243,
+        30.76717,
+        29.34667
+      ]
+    },
+    {
+      "type": "text",
+      "text": "接入总设备",
+      "color": "rgb(0,0,0)",
+      "font": "14px arial, sans-serif",
+      "rect": [
+        50.75203,
+        5.06576,
+        50,
+        50
+      ]
+    },
+    {
+      "type": "text",
+      "text": "342564",
+      "color": "rgb(0,0,0)",
+      "font": "24px arial, sans-serif",
+      "rect": [
+        22.94792,
+        90,
+        71.04694,
+        61.01672
+      ]
+    },
+    {
+      "type": "text",
+      "text": "台",
+      "color": "rgb(51,153,255)",
+      "rect": [
+        105.26649,
+        99.50836,
+        50,
+        50
+      ]
+    }
+  ]
+}

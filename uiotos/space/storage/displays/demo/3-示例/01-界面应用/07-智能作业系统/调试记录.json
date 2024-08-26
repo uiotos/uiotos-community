@@ -1,0 +1,121 @@
+{
+  "v": "8.0.1",
+  "p": {
+    "background": "#20252e",
+    "autoAdjustIndex": true,
+    "hierarchicalRendering": true
+  },
+  "a": {
+    "rotateAsClock": false,
+    "gridBlockSize": 20,
+    "connectActionType": null,
+    "fitContent": false,
+    "zoomable": false,
+    "rectSelectable": false,
+    "pannable": false,
+    "_professional": false
+  },
+  "d": [
+    {
+      "c": "ht.Node",
+      "i": 27228,
+      "p": {
+        "name": "base",
+        "displayName": "底板（_base）",
+        "tag": "_base",
+        "position": {
+          "x": 739.2402,
+          "y": 413.17487
+        },
+        "width": 1843.98079,
+        "height": 882.60742
+      },
+      "s": {
+        "shape": "rect",
+        "shape.background": "rgb(6,17,35)",
+        "fullscreen": "fill",
+        "fullscreen.gap": 0,
+        "2d.movable": false,
+        "label.opacity": 0,
+        "interactive": true,
+        "label.position": 14,
+        "label.offset.x": -10,
+        "label.offset.y": 0,
+        "label.color": "rgb(61,61,61)",
+        "shape.gradient.color": "rgb(5,39,84)",
+        "shape.gradient": "radial.center",
+        "shape.border.width": 1,
+        "shape.border.color": "rgba(49,210,235,0.2)"
+      },
+      "a": {
+        "background": [
+          null,
+          null,
+          null,
+          "rgb(49,210,235)",
+          "rgb(87,228,250)",
+          "rgb(49,210,235)"
+        ]
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 27229,
+      "p": {
+        "name": "文字",
+        "displayName": "文字（文字1）",
+        "tag": "文字1",
+        "image": "symbols/develop/uiotos/arranged/controls/draws/2-规则图形/文字.json",
+        "position": {
+          "x": 763.97679,
+          "y": 349.33982
+        }
+      },
+      "s": {
+        "2d.visible": false,
+        "label.opacity": 0,
+        "label.position": 14,
+        "label.offset.x": -10,
+        "label.offset.y": 0
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 27230,
+      "p": {
+        "displayName": "Text（Text1）",
+        "toolTip": "<p style='color:rgb(242,83,75);margin-top:5px;margin-bottom:5px;font-weight:bold;line-height:1.5em;'>已被布局，不允许拖动（shift+回车可解除）</p>",
+        "tag": "Text1",
+        "host": {
+          "__i": 27228
+        },
+        "position": {
+          "x": 739.2402,
+          "y": 388.17487
+        },
+        "width": 157.53687
+      },
+      "s": {
+        "text": "调试记录",
+        "label.position": 14,
+        "label.offset.x": -10,
+        "label.offset.y": 0,
+        "interactive": true,
+        "image.stretch": "uniform",
+        "text.color": "rgba(247,247,247,0.5)",
+        "text.align": "center",
+        "text.font": "24px arial, sans-serif",
+        "2d.movable": false,
+        "layout.h": "center",
+        "layout.v": "center"
+      }
+    }
+  ],
+  "modified": "Mon Jul 22 2024 17:30:09 GMT+0800 (中国标准时间)",
+  "contentRect": {
+    "x": -222.77168,
+    "y": -29.62884,
+    "width": 1885.50227,
+    "height": 885.60742
+  }
+}

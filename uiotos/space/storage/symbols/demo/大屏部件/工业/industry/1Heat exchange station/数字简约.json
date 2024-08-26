@@ -1,0 +1,48 @@
+{
+  "modified": "Thu Nov 02 2023 16:20:47 GMT+0800 (中国标准时间)",
+  "dataBindings": [
+    {
+      "attr": "value",
+      "valueType": "String"
+    },
+    {
+      "attr": "font",
+      "valueType": "Font"
+    },
+    {
+      "attr": "color",
+      "valueType": "Color"
+    }
+  ],
+  "width": 21,
+  "height": 10,
+  "attachStyle": "close",
+  "comps": [
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@value",
+        "value": "000"
+      },
+      "align": "center",
+      "color": {
+        "func": "attr@color",
+        "value": "rgb(255,217,0)"
+      },
+      "font": {
+        "func": "attr@font",
+        "value": "12px Arial"
+      },
+      "visible": {
+        "func": "__ht__function(data, view) {\ndata.a('num', true);\n}",
+        "value": true
+      },
+      "rect": [
+        1.31898,
+        1.13286,
+        18.36205,
+        7.73427
+      ]
+    }
+  ]
+}

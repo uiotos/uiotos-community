@@ -1,0 +1,895 @@
+{
+  "v": "8.0.1",
+  "p": {
+    "background": "#20252e",
+    "autoAdjustIndex": true,
+    "hierarchicalRendering": true
+  },
+  "a": {
+    "rotateAsClock": false,
+    "gridBlockSize": 20,
+    "connectActionType": null,
+    "fitContent": false,
+    "zoomable": false,
+    "rectSelectable": false,
+    "pannable": false,
+    "_professional": false
+  },
+  "d": [
+    {
+      "c": "ht.Node",
+      "i": 344009,
+      "p": {
+        "name": "base",
+        "displayName": "底板（_base）",
+        "tag": "_base",
+        "position": {
+          "x": 748,
+          "y": 386
+        },
+        "width": 1496,
+        "height": 772
+      },
+      "s": {
+        "label.opacity": 0,
+        "label.position": 17,
+        "shape": "rect",
+        "shape.background": "rgb(247,247,247)",
+        "fullscreen": "fill",
+        "fullscreen.gap": 0,
+        "2d.movable": false,
+        "interactive": true,
+        "2d.selectable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 344010,
+      "p": {
+        "name": "dlg",
+        "displayName": "对话框（dlg1）",
+        "toolTip": "<p style='color:rgb(242,83,75);margin-top:5px;margin-bottom:5px;font-weight:bold;line-height:1.5em;'>已被布局，不允许拖动（shift+回车可解除）</p>",
+        "tag": "dlg1",
+        "dataBindings": {
+          "a": {
+            "userData": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "show": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "titleText": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "display": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "innerLayoutMode": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "onPageBinded": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "onOk": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "onCancel": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "onFinally": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "debugOccupied": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "footerButtonsText": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "textArea>0>textArea-ui1>a:value": {
+              "id": "iotos.formReset",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "textArea>0>textArea-ui1>a:placeholder": {
+              "id": "iotos.formReset",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "textArea>0>textArea-ui1>a:onChange": {
+              "id": "iotos.formReset",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "textArea>0>textArea-ui1>a:instantTrigger": {
+              "id": "iotos.formReset",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "textArea>0>textArea-ui1>a:htmlContent": {
+              "id": "iotos.formReset",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "textArea>0>textArea-ui1>a:readOnly": {
+              "id": "iotos.formReset",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "textArea>0>textArea-ui1>a:color": {
+              "id": "iotos.formReset",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "textArea>0>textArea-ui1>a:background": {
+              "id": "iotos.formReset",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "textArea>0>textArea-ui1>a:userData": {
+              "id": "iotos.formReset",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "textArea>0>textArea-ui1>a:font": {
+              "id": "iotos.formReset",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "textArea>0>datas>s:text": {
+              "id": "iotos.formReset",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            }
+          }
+        },
+        "image": {
+          "modified": "Thu Aug 15 2024 14:08:49 GMT+0800 (中国标准时间)",
+          "dataBindings": [
+            {
+              "attr": "symbol",
+              "valueType": "Image",
+              "name": "symbol"
+            },
+            {
+              "attr": "display",
+              "valueType": "Image",
+              "group": "功能",
+              "defaultValue": "displays/develop/uiotos/editor/widgets/dialog/textArea.json",
+              "description": "",
+              "name": "display"
+            },
+            {
+              "attr": "displayJson",
+              "valueType": "Multiline",
+              "extraInfo": "*",
+              "name": "displayJson"
+            },
+            {
+              "attr": "innerLayoutMode",
+              "valueType": "InnerLayoutMode",
+              "description": "",
+              "name": "innerLayoutMode"
+            },
+            {
+              "attr": "onPostDeserialize",
+              "valueType": "Function",
+              "extraInfo": {
+                "arguments": [
+                  "json",
+                  "dm",
+                  "gv",
+                  "datas"
+                ],
+                "classify": "*"
+              },
+              "name": "onPostDeserialize"
+            },
+            {
+              "attr": "useOriginSize",
+              "valueType": "Boolean",
+              "defaultValue": false,
+              "extraInfo": "★",
+              "name": "useOriginSize"
+            },
+            {
+              "attr": "useInnerEventsAll",
+              "valueType": "Boolean",
+              "description": "",
+              "extraInfo": "*",
+              "defaultValue": false,
+              "name": "useInnerEventsAll"
+            },
+            {
+              "attr": "isLoadingGet",
+              "valueType": "Boolean",
+              "defaultValue": false,
+              "description": "",
+              "extraInfo": "★",
+              "name": "isLoadingGet"
+            },
+            {
+              "attr": "enableLoading",
+              "valueType": "Boolean",
+              "defaultValue": false,
+              "extraInfo": "*",
+              "name": "enableLoading"
+            },
+            {
+              "attr": "pureFormValues",
+              "valueType": "Boolean",
+              "defaultValue": false,
+              "description": "",
+              "name": "pureFormValues"
+            },
+            {
+              "attr": "show",
+              "valueType": "Boolean",
+              "defaultValue": false,
+              "description": "弹出对话框。",
+              "name": "show"
+            },
+            {
+              "attr": "hide",
+              "valueType": "Boolean",
+              "defaultValue": false,
+              "description": "关闭对话框。通常关闭是通过点击\n<br>遮盖层或点击按钮关闭，本属性较少使用。",
+              "name": "关闭",
+              "extraInfo": "*"
+            },
+            {
+              "attr": "modal",
+              "valueType": "Boolean",
+              "defaultValue": true,
+              "description": "是否为模态弹窗。模态弹窗时，需要关闭\n<br>弹窗后才能操作其他；非模态弹窗时，可同时操作\n<br>对话框的其他区域。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/uta20ga5uu55wvqw#SwaxW\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+              "name": "modal"
+            },
+            {
+              "attr": "embedded",
+              "valueType": "Boolean",
+              "defaultValue": false,
+              "description": "是否嵌入指定区域显示，而非默认全屏\n<br>居中弹窗。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/uta20ga5uu55wvqw#th9nb\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+              "extraInfo": "★",
+              "name": "embedded"
+            },
+            {
+              "attr": "enableLoading",
+              "valueType": "Boolean",
+              "defaultValue": true,
+              "description": "加载时是否提示过渡动画。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/uta20ga5uu55wvqw#mti3r\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+              "extraInfo": "*",
+              "name": "enableLoading"
+            },
+            {
+              "attr": "debugOccupied",
+              "valueType": "Boolean",
+              "defaultValue": false,
+              "description": "仅占据位置不触发弹窗响应。通常\n<br>用于调试存留。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/uta20ga5uu55wvqw#DVR6o\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+              "extraInfo": "*",
+              "name": "debugOccupied"
+            },
+            {
+              "attr": "displaySaving",
+              "valueType": "Boolean",
+              "defaultValue": false,
+              "description": "点击确定时，页面的修改将被保存。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/uta20ga5uu55wvqw#IZMXJ\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+              "extraInfo": "*",
+              "name": "displaySaving"
+            },
+            {
+              "attr": "reloadWhenOpen",
+              "valueType": "Boolean",
+              "defaultValue": false,
+              "description": "弹窗时内嵌页面是否重新加载。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/uta20ga5uu55wvqw#ljtZb\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+              "extraInfo": "★",
+              "name": "reloadWhenOpen"
+            },
+            {
+              "attr": "onPageBinded",
+              "valueType": "ObjectArray",
+              "description": "绑定Tab页签组件，当前作为公共表\n<br>单弹窗，对多页数据读取显示和修改设置。\n<br>索引0：Tab页签标识。\n<br>索引1：Tab页签索引。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/uta20ga5uu55wvqw#T2UPK\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+              "defaultValue": [
+                "tab1",
+                0
+              ],
+              "extraInfo": "*",
+              "name": "onPageBinded"
+            },
+            {
+              "attr": "userData",
+              "valueType": "Object",
+              "defaultValue": [],
+              "name": "userData"
+            },
+            {
+              "attr": "onDisplayLoaded",
+              "valueType": "Function",
+              "extraInfo": {
+                "arguments": [
+                  "data",
+                  "gv",
+                  "cache"
+                ],
+                "classify": "*"
+              },
+              "description": "内嵌页面加载完成时触发。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/uta20ga5uu55wvqw#yP7mg\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+              "name": "onDisplayLoaded"
+            },
+            {
+              "attr": "onOk",
+              "valueType": "Function",
+              "extraInfo": {
+                "arguments": [
+                  "data",
+                  "gv",
+                  "cache",
+                  "form"
+                ]
+              },
+              "description": "当点击“确定”时对外触发。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/uta20ga5uu55wvqw#yOkmK\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+              "name": "onOk"
+            },
+            {
+              "attr": "onCancel",
+              "valueType": "Function",
+              "extraInfo": {
+                "arguments": [
+                  "data",
+                  "gv",
+                  "cache",
+                  "form"
+                ]
+              },
+              "description": "点击“取消”时对外触发。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/uta20ga5uu55wvqw#T5i4g\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+              "name": "onCancel"
+            },
+            {
+              "attr": "onFinally",
+              "valueType": "Function",
+              "extraInfo": {
+                "arguments": [
+                  "data",
+                  "gv",
+                  "cache",
+                  "form",
+                  "isOk"
+                ]
+              },
+              "description": "不论是确定还是取消，都会触发。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/uta20ga5uu55wvqw#hzcJb\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+              "name": "onFinally"
+            },
+            {
+              "attr": "boxShadow",
+              "valueType": "String",
+              "defaultValue": "0px 8px 22px rgba(0,0,0,0.1)",
+              "description": "对话框阴影设置。\n<br>数字依次代表左右偏移、上下偏移、\n<br>虚化程度、阴影颜色。",
+              "group": "外观",
+              "extraInfo": "*",
+              "name": "boxShadow"
+            },
+            {
+              "attr": "titleText",
+              "valueType": "String",
+              "defaultValue": "对话框",
+              "description": "对话框左上角标题头文字。",
+              "name": "标题头文字"
+            },
+            {
+              "attr": "titleFont",
+              "valueType": "Font",
+              "name": "标题头字体",
+              "extraInfo": "*",
+              "description": "对话框左上角标题头字体。"
+            },
+            {
+              "attr": "titleColor",
+              "valueType": "Color",
+              "description": "对话框左上角标题头文字颜色。",
+              "name": "标题头字颜色",
+              "extraInfo": "★"
+            },
+            {
+              "attr": "innerBackground",
+              "valueType": "Color",
+              "description": "",
+              "defaultValue": null,
+              "name": "innerBackground"
+            },
+            {
+              "attr": "background",
+              "valueType": "ColorArray",
+              "description": "对话框背景颜色组。\n● 索引0：头部背景色。\n● 索引1：底部（脚部）背景色\n● 索引2：背景贴图色。\n● 索引3：遮盖层颜色。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/uta20ga5uu55wvqw#AKDZu\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+              "defaultValue": [
+                "rgba(255,255,255,1)",
+                "rgba(255,255,255,1)",
+                "rgba(255,255,255,1)",
+                "rgba(0,0,0,0.2)"
+              ],
+              "name": "background"
+            },
+            {
+              "attr": "backgroundImage",
+              "valueType": "Image",
+              "defaultValue": "symbols/develop/uiotos/icons/common/borderRectange.json",
+              "description": "对话框的背景贴图。清空路径（输\n<br>入空格，回车）时，弹窗可变成透明风格。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/uta20ga5uu55wvqw#mSgCA\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+              "extraInfo": "*",
+              "name": "backgroundImage"
+            },
+            {
+              "attr": "headerHeight",
+              "valueType": "PositiveNumber",
+              "defaultValue": 35,
+              "description": "头部高度。",
+              "extraInfo": "*",
+              "name": "headerHeight"
+            },
+            {
+              "attr": "footerHeight",
+              "valueType": "PositiveNumber",
+              "defaultValue": 60,
+              "description": "角度高度。",
+              "extraInfo": "*",
+              "name": "footerHeight"
+            },
+            {
+              "attr": "headerVisible",
+              "valueType": "Boolean",
+              "defaultValue": true,
+              "description": "是否显示头部。",
+              "name": "headerVisible"
+            },
+            {
+              "attr": "footerVisible",
+              "valueType": "Boolean",
+              "defaultValue": true,
+              "description": "是否显示脚部。",
+              "name": "footerVisible"
+            },
+            {
+              "attr": "closeButtonOnly",
+              "valueType": "Boolean",
+              "defaultValue": false,
+              "description": "对话框头部只有一个关闭按钮（×）。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/uta20ga5uu55wvqw#VuiwO\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+              "name": "closeButtonOnly"
+            },
+            {
+              "attr": "oneButton",
+              "valueType": "Boolean",
+              "defaultValue": false,
+              "description": "对话框脚部只有一个操作按钮（默认为\n<br>“确定”）。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/uta20ga5uu55wvqw#Oj8IN\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+              "name": "oneButton"
+            },
+            {
+              "attr": "cancelDefault",
+              "valueType": "Boolean",
+              "defaultValue": false,
+              "description": "在勾选了单按钮（﻿oneButton﻿）时，如\n<br>果希望默认改为为“取消”，勾选本属性即可。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/uta20ga5uu55wvqw#QiLL9\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+              "name": "cancelDefault"
+            },
+            {
+              "attr": "borderRadius",
+              "valueType": "PositiveNumber",
+              "defaultValue": 10,
+              "description": "对话框边框圆角，注意：最大值为35。",
+              "name": "borderRadius"
+            },
+            {
+              "attr": "padding",
+              "valueType": "PositiveNumber",
+              "defaultValue": 0,
+              "description": "填充。\n<br>0代表100%填充边界框，数字越大，对话框显示的越小。",
+              "extraInfo": "*",
+              "name": "padding"
+            },
+            {
+              "attr": "footerButtonGap",
+              "valueType": "PositiveNumber",
+              "defaultValue": 20,
+              "description": "脚部按钮（取消、确定）之间的间距。",
+              "extraInfo": "*",
+              "name": "footerButtonGap"
+            },
+            {
+              "attr": "footerButtonsText",
+              "valueType": "StringArray",
+              "defaultValue": [
+                "取消",
+                "确定"
+              ],
+              "description": "脚部按钮的文字设置。可对应修改索引值：\n<br>索引0：默认为“取消”；\n<br>索引1：默认为“确定”。<a href=\"<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/uta20ga5uu55wvqw#QiLL9\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+              "extraInfo": "★",
+              "name": "footerButtonsText"
+            },
+            {
+              "attr": "footerButtonSize",
+              "valueType": "NumberArray",
+              "defaultValue": [
+                75,
+                35
+              ],
+              "description": "脚部按钮的宽高，索引分别对应宽度和高度。",
+              "extraInfo": "★",
+              "name": "footerButtonSize"
+            },
+            {
+              "attr": "btnBorderWidths",
+              "valueType": "NumberArray",
+              "defaultValue": [
+                1,
+                1,
+                1
+              ],
+              "description": "数组长度为3，索引依次对应默认、\n<br>悬停和按下时的宽度。",
+              "extraInfo": "*",
+              "name": "btnBorderWidths"
+            },
+            {
+              "attr": "btn0BorderRadius",
+              "valueType": "NumberArray",
+              "defaultValue": [
+                3,
+                3,
+                3,
+                3
+              ],
+              "description": "“确定”按钮的圆角，索引依次对应\n<br>左上、右上、右下、左下四个角的圆角。",
+              "extraInfo": "*",
+              "name": "btn0BorderRadius"
+            },
+            {
+              "attr": "btn1BorderRadius",
+              "valueType": "NumberArray",
+              "defaultValue": [
+                3,
+                3,
+                3,
+                3
+              ],
+              "description": "“取消”按钮的圆角，索引依次对应\n<br>左上、右上、右下、左下四个角的圆角。",
+              "extraInfo": "*",
+              "name": "btn1BorderRadius"
+            },
+            {
+              "attr": "btn0BorderColors",
+              "valueType": "ColorArray",
+              "defaultValue": [
+                "rgb(55,125,255)",
+                "rgb(55,125,255)",
+                "rgb(55,125,255)"
+              ],
+              "description": "“确定”按钮的边框颜色，索引依次为默认、悬停、按下等。",
+              "extraInfo": "*",
+              "name": "btn0BorderColors"
+            },
+            {
+              "attr": "btn1BorderColors",
+              "valueType": "ColorArray",
+              "defaultValue": [
+                "rgb(55,125,255)",
+                "rgb(51,153,255)",
+                "rgb(51,153,255)"
+              ],
+              "description": "“取消”按钮的边框颜色，索引依次为默认、悬停、按下等。",
+              "extraInfo": "*",
+              "name": "btn1BorderColors"
+            },
+            {
+              "attr": "btn0Background",
+              "valueType": "ColorArray",
+              "defaultValue": [
+                "rgb(55,125,255)",
+                "rgb(51,153,255)",
+                "rgb(55,125,255)",
+                "rgb(55,125,255)"
+              ],
+              "description": "“确定”按钮的背景颜色，索引依次为默认、悬停、按下等。",
+              "extraInfo": "*",
+              "name": "btn0Background"
+            },
+            {
+              "attr": "btn1Background",
+              "valueType": "ColorArray",
+              "defaultValue": [
+                "rgb(255,255,255)",
+                "rgb(250,250,250)",
+                "rgb(247,247,247)",
+                "rgb(247,247,247)"
+              ],
+              "description": "“取消”按钮的背景颜色，索引依次为默认、悬停、按下等。",
+              "extraInfo": "*",
+              "name": "btn1Background"
+            },
+            {
+              "attr": "bt0TextColors",
+              "valueType": "ColorArray",
+              "defaultValue": [
+                "rgb(255,255,255)",
+                "rgb(255,255,255)",
+                "rgb(255,255,255)",
+                "rgb(255,255,255)"
+              ],
+              "description": "“确定”按钮的文字颜色，索引依次为默认、悬停、按下等。",
+              "extraInfo": "*",
+              "name": "bt0TextColors"
+            },
+            {
+              "attr": "bt1TextColors",
+              "valueType": "ColorArray",
+              "defaultValue": [
+                "rgb(55,125,255)",
+                "rgb(51,153,255)",
+                "rgb(55,125,255)",
+                "rgb(55,125,255)"
+              ],
+              "description": "“取消”按钮的文字颜色，索引依次为默认、悬停、按下等。",
+              "extraInfo": "*",
+              "name": "bt1TextColors"
+            },
+            {
+              "attr": "bindControlsTag",
+              "valueType": "StringArray",
+              "group": "连线",
+              "name": "bindControlsTag"
+            },
+            {
+              "attr": "bindControlsAttr",
+              "valueType": "StringArray",
+              "name": "bindControlsAttr"
+            },
+            {
+              "attr": "bindControlsVal",
+              "valueType": "ObjectArray",
+              "description": "静态值。也用作数组索引、JSON对象解析提取值用途。\n<br>一、静态值用途：\n<br>对常规类型的属性赋值且没有反向关联属性值，传入为数值时，不\n<br>会作为数组的索引，而会当成常量值对外赋值。此外，存在特殊值：\n<br>~和undefined表示过滤、不触发；null为默认值，表示传递默认表\n<br>单数据。编辑状态下清空后保存与设置null等价。\n<br>二、数组索引用途\n<br>情况1：被操作的组件属性原先值是数组时（包括空数组），会将\n<br>待输出的值作为被操作数组指定索引的值来传入，而不是整体覆盖。\n<br>情况2：如果要被操作的组件属性原先值不是数组，而且待输出的\n<br>值为数组类型并且长度也在索引范围内，那么会按照索引取自身数\n<br>组指定元素再对外输出。（如果想要取待输出索引值，赋值给被操\n<br>纵属性的指定索引，那么需要中间组件属性连线过渡以下，无法直\n<br>接操作）\n<br>情况3：如果要被操作的组件属性是数组，而且待输出的值也是数组\n<br>类型，此时当情况1来处理。\n<br>三、数据解析用途：\n<br>待输出的值为JSON对象时，用x.y.z这种以字符.或者>为间隔的方式\n<br>实现对JSON字段层次逐层定位，当是数组时x.0.y.1这种以数字的方\n<br>式来指定数组的某个索引。以此实现对任意结果JSON对象字段的定\n<br>位，获取结构内指定字段对应的值。",
+              "name": "bindControlsVal"
+            },
+            {
+              "attr": "paramControlTag",
+              "valueType": "StringArray",
+              "name": "paramControlTag"
+            },
+            {
+              "attr": "paramControlAttr",
+              "valueType": "StringArray",
+              "name": "paramControlAttr"
+            },
+            {
+              "attr": "paramsGenerator",
+              "valueType": "Function",
+              "defaultValue": "__ht__function(data, val, index, node,oldVal,form) {//绑定组索引对应的函数处理，用来动态生成复杂的参数变量传入\r\nswitch(index){\r\n    case 0:\r\n        break;\r\n    case 1:\r\n        break;\r\n    case 2:\r\n        break;\r\n    default:\r\n        break;\r\n}\r\n\r\nreturn val;}",
+              "extraInfo": {
+                "arguments": [
+                  "data",
+                  "val",
+                  "index",
+                  "node",
+                  "oldVal",
+                  "form",
+                  "type"
+                ]
+              },
+              "name": "paramsGenerator"
+            },
+            {
+              "attr": "useAttrCORS",
+              "valueType": "Boolean",
+              "extraInfo": "*",
+              "defaultValue": false,
+              "description": "连线操作和处理回写是否一致。\n                        比如多个文本框连线传值给相同对话框，弹窗修改\n                        后是否限定只能写到最新赋值过来的文本框。详见<a href='https://www.yuque.com/liuhuo-nc809/uiotos/fgi6dd7gado51acm#fFUbp' style=\"color:rgb(96,172,252)\"target=\"_blank\">同源属性操作</a>",
+              "bindIgnored": true,
+              "name": "useAttrCORS",
+              "dynamicCreate": true
+            },
+            {
+              "attr": "textArea>0>textArea-ui1>a:value",
+              "name": ".值内容",
+              "valueType": "Object",
+              "defaultValue": "",
+              "description": "当前值。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#qa1D8\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+              "group": "textArea>0>textArea-ui1"
+            },
+            {
+              "attr": "textArea>0>textArea-ui1>a:placeholder",
+              "name": ".占位提示符",
+              "valueType": "String",
+              "defaultValue": "请输入",
+              "extraInfo": "★",
+              "description": "未输入时默认占位符文字。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#Cuiq9\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+              "group": "textArea>0>textArea-ui1"
+            },
+            {
+              "attr": "textArea>0>textArea-ui1>a:onChange",
+              "name": ".值改变事件",
+              "valueType": "Function",
+              "extraInfo": {
+                "arguments": [
+                  "data",
+                  "gv",
+                  "cache",
+                  "value",
+                  "extra"
+                ]
+              },
+              "description": "值改变事件。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#CJ4Rw\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+              "group": "textArea>0>textArea-ui1"
+            },
+            {
+              "attr": "textArea>0>textArea-ui1>a:instantTrigger",
+              "name": ".即时触发",
+              "valueType": "Boolean",
+              "defaultValue": true,
+              "extraInfo": "★",
+              "description": "输入过程即时触发连线执行。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#V1qLT\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+              "group": "textArea>0>textArea-ui1"
+            },
+            {
+              "attr": "textArea>0>textArea-ui1>a:htmlContent",
+              "name": ".网页格式",
+              "valueType": "Boolean",
+              "defaultValue": false,
+              "extraInfo": "*",
+              "description": "值内容输入html文本并加载显示。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#IvTuM\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+              "group": "textArea>0>textArea-ui1"
+            },
+            {
+              "attr": "textArea>0>textArea-ui1>a:readOnly",
+              "name": ".只读",
+              "valueType": "Boolean",
+              "defaultValue": false,
+              "extraInfo": "★",
+              "description": "是否只读。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#IvTuM\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+              "group": "textArea>0>textArea-ui1"
+            },
+            {
+              "attr": "textArea>0>textArea-ui1>a:color",
+              "name": ".字体颜色",
+              "valueType": "ColorArray",
+              "defaultValue": [
+                "rgb(61,61,61)",
+                "rgb(61,61,61)"
+              ],
+              "description": "文本颜色。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#X0992\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>\n<br>索引0：输入内容文字颜色。\n<br>索引1：标签文字颜色。",
+              "group": "textArea>0>textArea-ui1"
+            },
+            {
+              "attr": "textArea>0>textArea-ui1>a:background",
+              "name": ".背景颜色",
+              "valueType": "ColorArray",
+              "defaultValue": [
+                "rgb(247,247,247)"
+              ],
+              "description": "背景色。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#XvcST\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>\n<br>索引0为默认背景色。索引1为禁用背景色。",
+              "group": "textArea>0>textArea-ui1"
+            },
+            {
+              "attr": "textArea>0>textArea-ui1>a:userData",
+              "name": ".用户数据",
+              "valueType": "Object",
+              "defaultValue": [],
+              "group": "textArea>0>textArea-ui1"
+            },
+            {
+              "attr": "textArea>0>textArea-ui1>a:font",
+              "name": ".字体",
+              "valueType": "Font",
+              "defaultValue": "12px arial, sans-serif",
+              "description": "字体。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#BaY0c\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+              "group": "textArea>0>textArea-ui1"
+            },
+            {
+              "attr": "textArea>0>datas>s:text",
+              "name": ".文字",
+              "valueType": "String",
+              "defaultValue": "datas",
+              "extraInfo": null,
+              "group": "textArea>0>datas"
+            }
+          ],
+          "snapshotURL": "symbols/develop/uiotos/arranged/controls/containers_icon/对话框.json",
+          "renderHTML": "__ht__function(data, gv, cache) {return __dialog_ui(data,gv,cache);}",
+          "width": 600,
+          "height": 400,
+          "interactive": true,
+          "pixelPerfect": false,
+          "comps": [],
+          "uuid": "65356AA8-2DBE-4344-BF28-B4AC1C81E366"
+        },
+        "host": {
+          "__i": 344009
+        },
+        "position": {
+          "x": 748,
+          "y": 386
+        },
+        "width": 430.73229,
+        "height": 287.15486
+      },
+      "s": {
+        "label.position": 14,
+        "label.offset.x": -10,
+        "label.offset.y": 0,
+        "interactive": true,
+        "image.stretch": "uniform",
+        "label.opacity": 0,
+        "2d.movable": false,
+        "layout.h": "center",
+        "layout.v": "center"
+      },
+      "a": {
+        "isLoadingGet": false,
+        "__loadingStatus": false,
+        "show": false,
+        "symbol": "symbols/develop/uiotos/arranged/controls/containers/对话框.json",
+        "textArea>0>textArea-ui1>a:value": "",
+        "textArea>0>textArea-ui1>a:placeholder": "请输入",
+        "textArea>0>textArea-ui1>a:instantTrigger": true,
+        "textArea>0>textArea-ui1>a:htmlContent": false,
+        "textArea>0>textArea-ui1>a:readOnly": false,
+        "textArea>0>textArea-ui1>a:color": [
+          "rgb(61,61,61)",
+          "rgb(61,61,61)"
+        ],
+        "textArea>0>textArea-ui1>a:background": [
+          "rgb(247,247,247)"
+        ],
+        "textArea>0>textArea-ui1>a:userData": [],
+        "textArea>0>textArea-ui1>a:font": "12px arial, sans-serif",
+        "textArea>0>datas>s:text": "datas",
+        "innerLayoutMode": "fullScreen",
+        "innerBackground": "rgb(247,247,247)",
+        "innerBackgroundLocked": false,
+        "closeButtonOnly": false,
+        "oneButton": false
+      }
+    }
+  ],
+  "modified": "Sun Aug 25 2024 23:31:20 GMT+0800 (中国标准时间)",
+  "contentRect": {
+    "x": 0,
+    "y": 0,
+    "width": 1496,
+    "height": 772
+  }
+}

@@ -1,0 +1,144 @@
+{
+  "modified": "Mon Aug 26 2019 16:57:29 GMT+0800 (中国标准时间)",
+  "width": 300,
+  "height": 50,
+  "snapshotURL": "",
+  "func": "__ht__function(g, rect, comp, data, view) {\nht.vector.comp.pagination.apply(this, arguments);\n}",
+  "properties": {
+    "current": {
+      "valueType": "Number",
+      "defaultValue": 1
+    },
+    "pageSize": {
+      "valueType": "Number",
+      "defaultValue": 10
+    },
+    "total": {
+      "valueType": "Number",
+      "defaultValue": 20
+    },
+    "align": {
+      "valueType": "Align",
+      "defaultValue": "right"
+    },
+    "itemWidth": {
+      "valueType": "Number",
+      "defaultValue": 32
+    },
+    "itemHeight": {
+      "valueType": "Number",
+      "defaultValue": 32
+    },
+    "gap": {
+      "valueType": "Number",
+      "defaultValue": 5
+    },
+    "labelColor": {
+      "valueType": "Color",
+      "defaultValue": "rgb(61,61,61)"
+    },
+    "background": {
+      "valueType": "Color",
+      "defaultValue": "rgb(247,247,247)"
+    },
+    "borderWidth": {
+      "valueType": "Int",
+      "defaultValue": 2
+    },
+    "borderRadius": {
+      "valueType": "PositiveNumber",
+      "defaultValue": 5,
+      "name": "UIBorderRadius"
+    },
+    "borderColor": {
+      "valueType": "Color",
+      "defaultValue": "rgb(235,235,235)"
+    },
+    "font": {
+      "valueType": "Font",
+      "defaultValue": "12px sans-serif, Arial",
+      "name": "UIFont"
+    },
+    "hoverLabelColor": {
+      "valueType": "Color",
+      "defaultValue": "#60ACFC",
+      "name": "UIHoverTextColor"
+    },
+    "hoverBorderColor": {
+      "valueType": "Color",
+      "defaultValue": "#60ACFC",
+      "name": "UIHoverBorderColor"
+    },
+    "hoverBackground": {
+      "valueType": "Color",
+      "defaultValue": "rgb(235,235,235)",
+      "name": "UIHoverBackground"
+    },
+    "activeLabelColor": {
+      "valueType": "Color",
+      "defaultValue": "rgb(51,153,255)",
+      "name": "UIActiveTextColor"
+    },
+    "activeBorderColor": {
+      "valueType": "Color",
+      "defaultValue": "rgb(51,153,255)",
+      "name": "UIActiveBorderColor"
+    },
+    "activeBackground": {
+      "valueType": "Color",
+      "defaultValue": "rgb(235,235,235)",
+      "name": "UIActiveBackground"
+    },
+    "disabledLabelColor": {
+      "valueType": "Color",
+      "defaultValue": "rgb(125,122,122)",
+      "name": "UIDisabledTextColor"
+    },
+    "disabledBorderColor": {
+      "valueType": "Color",
+      "defaultValue": "rgb(194,192,192)",
+      "name": "UIDisabledBorderColor"
+    },
+    "disabledBackground": {
+      "valueType": "Color",
+      "defaultValue": "rgb(207,207,207)",
+      "name": "UIDisabledBackground"
+    },
+    "disabledActiveLabelColor": {
+      "valueType": "Color",
+      "defaultValue": "rgb(150,150,150)"
+    },
+    "disabledActiveBorderColor": {
+      "valueType": "Color",
+      "defaultValue": "rgb(150,150,150)"
+    },
+    "disabledActiveBackground": {
+      "valueType": "Color",
+      "defaultValue": "rgb(247,247,247)"
+    },
+    "showFirstAndLast": {
+      "valueType": "Boolean",
+      "defaultValue": false
+    },
+    "disabled": {
+      "valueType": "Boolean",
+      "defaultValue": false
+    },
+    "onChange": {
+      "valueType": "Function",
+      "extraInfo": {
+        "arguments": [
+          "oldValue",
+          "newValue",
+          "data",
+          "view"
+        ]
+      }
+    }
+  },
+  "events": {
+    "onDown": "__ht__function(event, data, view, point, width, height) {\nht.vector.paginationInteractor.onDown.apply(this, arguments);\n}",
+    "onMove": "__ht__function(event, data, view, point, width, height) {\nht.vector.paginationInteractor.onMove.apply(this, arguments);\n}",
+    "onLeave": "__ht__function(event, data, view, point, width, height) {\nht.vector.paginationInteractor.onLeave.apply(this, arguments);\n}"
+  }
+}

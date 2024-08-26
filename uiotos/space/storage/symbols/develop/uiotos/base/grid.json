@@ -1,0 +1,237 @@
+{
+  "modified": "Sun Jul 21 2024 11:16:06 GMT+0800 (中国标准时间)",
+  "dataBindings": [
+    {
+      "attr": "symbol",
+      "valueType": "Image",
+      "name": "组件地址",
+      "description": "显示组件地址，无需填写。通常仅当公共属性组件源值为对象类型时，组件源属性中原先存放的地址字符串会转存到当前属性上。"
+    },
+    {
+      "attr": "grid.row.count",
+      "valueType": "PositiveNumber",
+      "defaultValue": 1,
+      "description": "网格行数。\n<br>可以动态增加或减少，其中增加时，\n<br>结合自动填充（grid.auto.fill）属性\n<br>判断是否按照最后组件复制填充。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#zm9H2\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>\n",
+      "group": "功能"
+    },
+    {
+      "attr": "grid.column.count",
+      "valueType": "PositiveNumber",
+      "defaultValue": 4,
+      "description": "网格列数。\n<br>可以动态增加或减少，其中增加时，\n<br>结合自动填充（grid.auto.fill）属性\n<br>判断是否按照最后组件复制填充。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#Jrj9b\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>"
+    },
+    {
+      "attr": "rowIndex",
+      "valueType": "Number",
+      "description": "指定某行显示，其余行隐藏。\n结合显示指定列（﻿columnIndex﻿）对列\n的指定一起使用。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#jv54g\" style=\"color:rgb(96,172,252)\" target=\"_blank\">参见文档</a>",
+      "defaultValue": -1,
+      "extraInfo": "★"
+    },
+    {
+      "attr": "columnIndex",
+      "valueType": "Number",
+      "description": "指定某列显示，其余列隐藏。\n结合显示指定行（﻿rowIndex﻿）对行\n的指定一起使用。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#LVpTU\" style=\"color:rgb(96,172,252)\" target=\"_blank\">参见文档</a>",
+      "defaultValue": -1,
+      "extraInfo": "★"
+    },
+    {
+      "attr": "removeOthers",
+      "valueType": "Boolean",
+      "defaultValue": false,
+      "description": "是否移除指显示以外的项。\n<br>与显示指定行（﻿rowIndex﻿）、显示\n<br>指定列（﻿columnIndex﻿）配合使用。\n<br>当指定某个行列的项后，是否移除\n<br>网格内的所有其他项。默认不勾选。",
+      "extraInfo": "★"
+    },
+    {
+      "attr": "grid.auto.fill",
+      "valueType": "Boolean",
+      "defaultValue": true,
+      "description": "增大行或列时，多出的格子\n<br>是否自动（按照最后一个组件复制）进行填充。"
+    },
+    {
+      "attr": "userData",
+      "valueType": "Object",
+      "description": "用户数据。\n<br>用于存放任意用户自定义数据。",
+      "defaultValue": []
+    },
+    {
+      "attr": "grid.column.percents",
+      "valueType": "NumberArray",
+      "description": "组件网格布局中，从左到右每列宽度比例。\n<br><a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#rEL9I\" style=\"color:rgb(96,172,252)\" target=\"_blank\">参见文档</a>",
+      "group": "外观"
+    },
+    {
+      "attr": "grid.row.percents",
+      "valueType": "NumberArray",
+      "description": "组件网格布局中，从上到下每行高度比例。\n<br><a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#jqIG0\" style=\"color:rgb(96,172,252)\" target=\"_blank\">参见文档</a>"
+    },
+    {
+      "attr": "grid.border",
+      "valueType": "NumberArray",
+      "defaultValue": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "description": "网格内组件与四边的间距。\n<br>数组长度为4，分别对应上、右、下、左。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#le90g\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+      "extraInfo": "★"
+    },
+    {
+      "attr": "grid.gap",
+      "valueType": "Number",
+      "defaultValue": 0,
+      "description": "所有行与列之间的统一间距。\n<br><a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#d77xF\" style=\"color:rgb(96,172,252)\" target=\"_blank\">参见文档</a>",
+      "extraInfo": "★"
+    },
+    {
+      "attr": "node.margin.h",
+      "valueType": "Number",
+      "defaultValue": 15,
+      "description": "任意列左右边距。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#byn7m\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>"
+    },
+    {
+      "attr": "node.margin.v",
+      "valueType": "Number",
+      "defaultValue": 0,
+      "description": "任意行上下边距。参考\n<br>列左右边距（﻿node.margin.h﻿）。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#OUN5D\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>"
+    },
+    {
+      "attr": "borderWidth",
+      "valueType": "Number",
+      "defaultValue": 3,
+      "description": "网格组件边框宽度。\n<br>注意，边框为默认颜色、和宽度（3px）时，\n<br>运行时边框不可见。其他颜色和粗细设置，\n<br>运行时可见。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#rDd5W\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>"
+    },
+    {
+      "attr": "borderColor",
+      "valueType": "Color",
+      "defaultValue": "rgba(55,125,255,0.20)",
+      "description": "网格组件边框颜色。",
+      "extraInfo": "★"
+    },
+    {
+      "attr": "background",
+      "valueType": "Color",
+      "description": "网格组件背景颜色。",
+      "extraInfo": "★"
+    },
+    {
+      "attr": "enable",
+      "valueType": "Boolean",
+      "defaultValue": false,
+      "description": "开启网格组件的下拉级联功能。\n<br>勾选后数量设置（﻿sizeSet﻿）设置才会起作用。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#YgvpK\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+      "group": "下拉级联 *",
+      "extraInfo": "*"
+    },
+    {
+      "attr": "datas",
+      "valueType": "ObjectArray",
+      "description": "用于传入数据集。通常是接口查询\n<br>返回解析提取的数据，为固定字段构成的对象数组。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#F1kMs\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+      "defaultValue": [],
+      "extraInfo": "*"
+    },
+    {
+      "attr": "sizeSet",
+      "valueType": "PositiveNumber",
+      "defaultValue": 0,
+      "description": "下拉框数量和字段设置，\n需先勾选功能启用（﻿enable﻿）。设置会同步触发下拉框\n以及名称为“字段_X”属性的动态增减。属性用于配置下\n拉框的数据字段，X为从0开始的索引，与组件从左到右\n依次对应。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#Es7mE\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+      "extraInfo": "*"
+    },
+    {
+      "attr": "valueGet",
+      "valueType": "Object",
+      "description": "当前选择字段值。下拉框字段和当前值的键值对。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#ESuIC\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+      "extraInfo": "*"
+    },
+    {
+      "attr": "itemsGet",
+      "valueType": "Object",
+      "description": "满足条件的数据列表。下拉框对应\n<br>的字段和当前值作为条件，数据内容（﻿datas﻿）满足\n条件的所有数据项列表。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#isFy6\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+      "extraInfo": "*"
+    },
+    {
+      "attr": "onChange",
+      "valueType": "Function",
+      "extraInfo": {
+        "arguments": [
+          "data",
+          "gv",
+          "cache",
+          "value",
+          "extra"
+        ],
+        "classify": "*"
+      },
+      "description": "级联功能启用时，下拉选择\n或数据内容（datas）变化时触发当前事件。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#Y0SaL\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>"
+    },
+    {
+      "attr": "bindControlsTag",
+      "valueType": "StringArray",
+      "group": "连线"
+    },
+    {
+      "attr": "bindControlsAttr",
+      "valueType": "StringArray"
+    },
+    {
+      "attr": "bindControlsVal",
+      "valueType": "ObjectArray"
+    },
+    {
+      "attr": "paramControlTag",
+      "valueType": "StringArray"
+    },
+    {
+      "attr": "paramControlAttr",
+      "valueType": "StringArray"
+    },
+    {
+      "attr": "paramsGenerator",
+      "valueType": "Function",
+      "defaultValue": "__ht__function(data, val, index, node,oldVal,form,type,inner) {//绑定组索引对应的函数处理，用来动态生成复杂的参数变量传入\r\nswitch(index){\r\n    case 0:\r\n        break;\r\n    case 1:\r\n        break;\r\n    case 2:\r\n        break;\r\n    default:\r\n        break;\r\n}\r\n\r\nreturn val;}",
+      "extraInfo": {
+        "arguments": [
+          "data",
+          "val",
+          "index",
+          "node",
+          "oldVal",
+          "form",
+          "type",
+          "inner"
+        ]
+      }
+    }
+  ],
+  "snapshotURL": "symbols\\develop\\uiotos\\arranged\\controls\\forms_icon\\网格.json",
+  "renderHTML": "__ht__function(data, gv, cache) {return __grid(data,gv,cache);}",
+  "width": 100,
+  "height": 100,
+  "fitSize": true,
+  "scrollable": true,
+  "pixelPerfect": false,
+  "comps": [
+    {
+      "type": "rect",
+      "background": {
+        "func": "attr@background",
+        "value": null
+      },
+      "borderWidth": {
+        "func": "attr@borderWidth",
+        "value": 0
+      },
+      "borderColor": {
+        "func": "attr@borderColor",
+        "value": "rgb(55,125,255)"
+      },
+      "borderWidthAbsolute": true,
+      "displayName": "n（n1）",
+      "rect": [
+        0,
+        0,
+        100,
+        100
+      ]
+    }
+  ]
+}

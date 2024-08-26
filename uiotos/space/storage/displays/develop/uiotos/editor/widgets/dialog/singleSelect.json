@@ -1,0 +1,138 @@
+{
+    "v": "7.3.3",
+    "p": {
+        "autoAdjustIndex": true,
+        "hierarchicalRendering": true
+    },
+    "a": {
+        "rotateAsClock": false,
+        "gridBlockSize": 20,
+        "gridThickColor": "rgba(100,100,100,0.2)",
+        "gridLightColor": "rgba(127,127,127,0.1)",
+        "connectActionType": null,
+        "fitContent": false,
+        "zoomable": false,
+        "rectSelectable": false,
+        "pannable": false
+    },
+    "d": [{
+            "c": "ht.Node",
+            "i": 200496,
+            "p": {
+                "displayName": "base",
+                "tag": "_base",
+                "position": {
+                    "x": 128.13994,
+                    "y": 48.24741
+                },
+                "width": 256.27987,
+                "height": 78.82675
+            },
+            "s": {
+                "label.position": 14,
+                "label.offset.x": -10,
+                "label.offset.y": 0,
+                "label.color": "rgb(61,61,61)",
+                "shape": "rect",
+                "shape.background": "rgb(255,255,255)",
+                "fullscreen": "fill",
+                "fullscreen.gap": 0,
+                "2d.movable": false
+            }
+        },
+        {
+            "c": "ht.Node",
+            "i": 200497,
+            "p": {
+                "displayName": "radio",
+                "toolTip": "已被布局，不允许拖动",
+                "tag": "radio1",
+                "dataBindings": {
+                    "a": {
+                        "labelText": {
+                            "id": "iotos.form",
+                            "func": "__ht__function formParser(rawData, node) { //230218，入参增加图元对象\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        console.error(err);\r\n        return rawData;\r\n    }\r\n}",
+                            "idinfo": "",
+                            "isTplBinded": false
+                        },
+                        "layoutType": {
+                            "id": "iotos.form",
+                            "func": "__ht__function formParser(rawData, node) { //230218，入参增加图元对象\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        console.error(err);\r\n        return rawData;\r\n    }\r\n}",
+                            "idinfo": "",
+                            "isTplBinded": false
+                        },
+                        "indexValue": {
+                            "id": "iotos.form",
+                            "idinfo": "",
+                            "isTplBinded": false,
+                            "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+                        },
+                        "datas": {
+                            "id": "iotos.form",
+                            "idinfo": "",
+                            "isTplBinded": false,
+                            "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+                        },
+                        "onChange": {
+                            "id": "iotos.form",
+                            "idinfo": "",
+                            "isTplBinded": false,
+                            "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+                        }
+                    }
+                },
+                "image": "symbols/develop/uiotos/base/radioBox-ui.json",
+                "host": {
+                    "__i": 200496
+                },
+                "position": {
+                    "x": 128.13994,
+                    "y": 52.04125
+                },
+                "width": 195.38641,
+                "height": 67.5
+            },
+            "s": {
+                "label.position": 14,
+                "label.offset.x": -10,
+                "label.offset.y": 0,
+                "label.color": "rgb(61,61,61)",
+                "interactive": true,
+                "image.stretch": "uniform",
+                "2d.movable": false,
+                "layout.h": "leftright",
+                "layout.v": "topbottom"
+            },
+            "a": {
+                "labelEmbeded": true,
+                "gap": 15,
+                "layoutType": 2,
+                "radioColor": "rgb(61,61,61)",
+                "gapItem": 10,
+                "gapLabel": 15,
+                "bindControlsTag": [],
+                "bindControlsAttr": [],
+                "bindControlsVal": [],
+                "paramControlTag": [],
+                "paramControlAttr": [],
+                "indexValue": 0,
+                "value": "全部授权",
+                "index": 0,
+                "textValue": "全部授权",
+                "datas": [
+                    "全部授权",
+                    "全部解除授权"
+                ],
+                "labelColor": "rgb(124,145,155)",
+                "labelText": "请选择："
+            }
+        }
+    ],
+    "modified": "Tue Mar 07 2023 21:22:44 GMT+0800 (中国标准时间)",
+    "contentRect": {
+        "x": 0,
+        "y": 8.83404,
+        "width": 256.27987,
+        "height": 78.82675
+    }
+}

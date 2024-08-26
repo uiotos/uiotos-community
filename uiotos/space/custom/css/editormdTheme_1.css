@@ -1,0 +1,72 @@
+.editormd-preview-container {
+    /* background-color: rgb(47, 55, 70); */
+    background-color: rgb(40, 46, 58);
+    /* 自定义背景色 */
+    color: rgb(189, 199, 219);
+    /* 自定义文字颜色 */
+}
+
+
+/* 如果预览区内背景色 */
+
+.editormd-preview {
+    background-color: rgb(40, 46, 58);
+    /* 代码块背景颜色，可以根据需要调整 */
+}
+
+
+/* 根据需要调整其他元素样式，如代码块、链接、标题等 */
+
+.editormd-preview-container code {
+    background-color: rgba(0, 0, 0, 0.1);
+    color: #ffffff;
+}
+
+
+/*列表块的背景颜色*/
+
+
+/* .editormd-preview-container pre.prettyprint,
+.editormd-html-preview pre.prettyprint {
+    padding: 10px;
+    border: 1px solid rgb(47, 55, 70);
+    /* white-space: pre-wrap; */
+
+
+/* word-wrap: break-word; */
+
+
+/*列表内文字背景色*/
+
+
+/* .pun,
+.opn,
+.clo {
+    color: #a7a76c;
+}
+
+.editormd-preview-container ol.linenums li,
+.editormd-html-preview ol.linenums li {
+    list-style-type: decimal;
+    background: rgb(47, 55, 70);
+}
+ */
+
+
+/* 确保列表的项目符号（如圆点或数字）颜色也适应深色背景 */
+
+.editer-md-preview ul li::before,
+.editer-md-preview ol li::marker {
+    color: inherit;
+    /* 或设定具体的颜色，如 #fff */
+}
+
+
+/* 修改编辑或预览区域内的水平分割线颜色 */
+
+.editormd-preview-container hr,
+.editormd-html-preview hr {
+    border-top-color: rgba(189, 199, 219, 0.5);
+    ;
+    /* 例如：#333 为深灰色 */
+}

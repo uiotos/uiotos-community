@@ -1,0 +1,70 @@
+{
+  "modified": "Wed Jul 31 2024 17:46:21 GMT+0800 (中国标准时间)",
+  "background": "rgb(32,37,46)",
+  "dataBindings": [
+    {
+      "attr": "background",
+      "valueType": "Color",
+      "defaultValue": "rgb(255,255,255)",
+      "name": "背景色"
+    },
+    {
+      "attr": "borderColor",
+      "valueType": "Color",
+      "defaultValue": "rgb(255,255,255)",
+      "name": "边框色"
+    }
+  ],
+  "width": 50,
+  "height": 100,
+  "comps": [
+    {
+      "type": "rect",
+      "borderWidth": 1,
+      "borderColor": {
+        "func": "attr@borderColor",
+        "value": "rgb(247,247,247)"
+      },
+      "pixelPerfect": true,
+      "displayName": "n（n1）",
+      "rect": [
+        3.27618,
+        9.52595,
+        43.44764,
+        88.62719
+      ]
+    },
+    {
+      "type": "rect",
+      "background": {
+        "func": "attr@background",
+        "value": "rgb(247,247,247)"
+      },
+      "borderColor": "#60ACFC",
+      "pixelPerfect": true,
+      "displayName": "n（n2）",
+      "rect": [
+        6.95648,
+        38.03944,
+        35.81471,
+        60.11369
+      ]
+    },
+    {
+      "type": "rect",
+      "background": {
+        "func": "attr@background",
+        "value": "rgb(247,247,247)"
+      },
+      "borderColor": "#60ACFC",
+      "pixelPerfect": true,
+      "displayName": "n（n3）",
+      "rect": [
+        15.5824,
+        1.84686,
+        18.56285,
+        7.67908
+      ]
+    }
+  ]
+}

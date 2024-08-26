@@ -1,0 +1,56 @@
+{
+  "modified": "Fri Apr 19 2024 13:35:41 GMT+0800 (中国标准时间)",
+  "background": "rgb(32,37,46)",
+  "dataBindings": [
+    {
+      "attr": "background",
+      "valueType": "Color",
+      "defaultValue": "#60ACFC"
+    },
+    {
+      "attr": "hintcolor",
+      "valueType": "Color",
+      "defaultValue": "rgb(61,61,61)"
+    },
+    {
+      "attr": "num",
+      "valueType": "String",
+      "defaultValue": "580.1"
+    },
+    {
+      "attr": "unit",
+      "valueType": "String",
+      "defaultValue": "℃"
+    },
+    {
+      "attr": "textcolor",
+      "valueType": "Color",
+      "defaultValue": "rgb(247,247,247)"
+    },
+    {
+      "attr": "name",
+      "valueType": "String",
+      "defaultValue": "名称"
+    },
+    {
+      "attr": "opacity",
+      "valueType": "Opacity",
+      "defaultValue": 0.8
+    }
+  ],
+  "width": 60,
+  "height": 65,
+  "comps": [
+    {
+      "type": "image",
+      "name": "symbols/demo/大屏部件/标定/标点 2.json",
+      "displayName": "标点 2",
+      "rect": [
+        8.28537,
+        3.56852,
+        41.14719,
+        57.60606
+      ]
+    }
+  ]
+}

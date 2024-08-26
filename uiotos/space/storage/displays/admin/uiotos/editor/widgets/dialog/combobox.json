@@ -1,0 +1,211 @@
+{
+    "v": "7.3.3",
+    "p": {
+        "autoAdjustIndex": true,
+        "hierarchicalRendering": true
+    },
+    "a": {
+        "rotateAsClock": false,
+        "gridBlockSize": 20,
+        "gridThickColor": "rgba(100,100,100,0.2)",
+        "gridLightColor": "rgba(127,127,127,0.1)",
+        "connectActionType": null,
+        "fitContent": false,
+        "rectSelectable": false,
+        "pannable": false,
+        "zoomable": false
+    },
+    "d": [{
+            "c": "ht.Node",
+            "i": 19458,
+            "p": {
+                "position": {
+                    "x": 399.60945,
+                    "y": 187.25422
+                },
+                "width": 360.89596,
+                "height": 90
+            },
+            "s": {
+                "shape": "rect",
+                "shape.background": "rgb(255,255,255)",
+                "shape.border.color": "#979797",
+                "interactive": true,
+                "image.stretch": "uniform",
+                "fullscreen": "fill",
+                "fullscreen.gap": 0,
+                "label.position": 14,
+                "label.offset.x": -10,
+                "label.offset.y": 0,
+                "label.color": "rgb(61,61,61)"
+            }
+        },
+        {
+            "c": "ht.Node",
+            "i": 19459,
+            "p": {
+                "displayName": "combobox-ui",
+                "tag": "combobox-ui1",
+                "dataBindings": {
+                    "a": {
+                        "onChange": {
+                            "id": "iotos.form",
+                            "func": "__ht__function formParser(rawData) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}",
+                            "idinfo": "",
+                            "isTplBinded": false
+                        },
+                        "datas": {
+                            "id": "iotos.form",
+                            "func": "__ht__function formParser(rawData) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}",
+                            "idinfo": "",
+                            "isTplBinded": false
+                        },
+                        "value": {
+                            "id": "iotos.form",
+                            "func": "__ht__function formParser(rawData) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}",
+                            "idinfo": "",
+                            "isTplBinded": false
+                        },
+                        "labelText": {
+                            "id": "iotos.form",
+                            "func": "__ht__function formParser(rawData) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}",
+                            "idinfo": "",
+                            "isTplBinded": false
+                        },
+                        "allowChoosing": {
+                            "id": "iotos.form",
+                            "func": "__ht__function formParser(rawData) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}",
+                            "idinfo": "",
+                            "isTplBinded": false
+                        }
+                    },
+                    "s": {}
+                },
+                "image": "symbols/develop/uiotos/base/combobox-ui.json",
+                "host": {
+                    "__i": 19458
+                },
+                "position": {
+                    "x": 400.6882,
+                    "y": 187.25422
+                },
+                "width": 307.52389,
+                "height": 35
+            },
+            "s": {
+                "interactive": true,
+                "image.stretch": "uniform",
+                "layout.v": "center",
+                "layout.h": "leftright",
+                "label.position": 14,
+                "label.offset.x": -10,
+                "label.offset.y": 0,
+                "label.color": "rgb(61,61,61)"
+            },
+            "a": {
+                "layoutVertical": false,
+                "gap": 15,
+                "dataListSource": [
+                    "111",
+                    "222",
+                    "333",
+                    "444",
+                    "555"
+                ],
+                "font": "12px arial, sans-serif",
+                "labelText": "选择上级机构：",
+                "placeholder": "请选择",
+                "labelColor": "rgb(0,0,0)",
+                "color": null,
+                "datas": [{
+                        "name": "一级机构",
+                        "value": 1,
+                        "children": [{
+                                "name": "二级机构",
+                                "value": "1.1",
+                                "children": [{
+                                    "name": "三级机构",
+                                    "value": "1.1.1",
+                                    "children": [{
+                                        "name": "四级机构",
+                                        "value": "1.1.1.1",
+                                        "children": []
+                                    }]
+                                }]
+                            },
+                            {
+                                "name": "二级机构",
+                                "value": "1.2",
+                                "children": [{
+                                    "name": "三级机构",
+                                    "value": "1.2.1",
+                                    "children": [{
+                                        "name": "四级机构",
+                                        "value": "1.2.1.1",
+                                        "children": []
+                                    }]
+                                }]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "一级机构",
+                        "value": 2,
+                        "children": []
+                    }
+                ],
+                "onChange": null,
+                "nodeUsable": true,
+                "noneItem": true,
+                "hasNoneItem": true,
+                "noneInfo": [
+                    "无",
+                    "0"
+                ],
+                "value": "35",
+                "allowChoosing": "__ht__function(data, gv, cache, content, item) {//可省，因为已经移除了！\r\nif(content.value == item.value){\r\n    alert('不能选择自身或下级子节点！')\r\n    return false\r\n}}",
+                "labelEmbeded": true
+            }
+        },
+        {
+            "c": "ht.Text",
+            "i": 19460,
+            "p": {
+                "displayName": "dataBackup",
+                "tag": "dataBackup",
+                "dataBindings": {
+                    "s": {
+                        "text": {
+                            "id": "iotos.form",
+                            "func": "__ht__function formParser(rawData) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}",
+                            "idinfo": "",
+                            "isTplBinded": false
+                        }
+                    }
+                },
+                "position": {
+                    "x": 321.07609,
+                    "y": 173.90813
+                },
+                "width": 3.59318,
+                "height": 0.001
+            },
+            "s": {
+                "text": "文本",
+                "interactive": true,
+                "2d.visible": false,
+                "label.position": 14,
+                "label.offset.x": -10,
+                "label.offset.y": 0,
+                "label.color": "rgb(61,61,61)"
+            }
+        }
+    ],
+    "modified": "Mon Feb 13 2023 22:17:13 GMT+0800 (中国标准时间)",
+    "contentRect": {
+        "x": 219.16147,
+        "y": 142.25422,
+        "width": 360.89596,
+        "height": 90
+    }
+}

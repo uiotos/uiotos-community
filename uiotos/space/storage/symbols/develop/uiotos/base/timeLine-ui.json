@@ -1,0 +1,40 @@
+{
+  "modified": "Fri Oct 14 2022 23:31:36 GMT+0800 (中国标准时间)",
+  "background": "rgb(32,37,46)",
+  "dataBindings": [
+    {
+      "attr": "shadowBorder",
+      "valueType": "NumberArray",
+      "defaultValue": [
+        0,
+        0,
+        8
+      ]
+    },
+    {
+      "attr": "shadowColor",
+      "valueType": "Color",
+      "defaultValue": "rgba(102,102,102,0.2)"
+    },
+    {
+      "attr": "shadowEnabled",
+      "valueType": "Boolean",
+      "defaultValue": false
+    },
+    {
+      "attr": "fontNode",
+      "valueType": "Font",
+      "defaultValue": "12px Microsoft YaHei"
+    },
+    {
+      "attr": "fontContent",
+      "valueType": "Font",
+      "defaultValue": "12px Microsoft YaHei"
+    }
+  ],
+  "renderHTML": "__ht__function(data, gv, cache) {return __timeLine_ui(data,gv,cache);}",
+  "width": 300,
+  "height": 500,
+  "pixelPerfect": false,
+  "comps": []
+}

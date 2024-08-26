@@ -1,0 +1,137 @@
+{
+  "v": "7.7.2",
+  "p": {
+    "background": "#20252e",
+    "autoAdjustIndex": true,
+    "hierarchicalRendering": true
+  },
+  "a": {
+    "rotateAsClock": false,
+    "gridBlockSize": 20,
+    "connectActionType": null,
+    "fitContent": false,
+    "zoomable": false,
+    "rectSelectable": false,
+    "pannable": false
+  },
+  "d": [
+    {
+      "c": "ht.Node",
+      "i": 30495,
+      "p": {
+        "name": "base",
+        "displayName": "底板（_base）",
+        "tag": "_base",
+        "position": {
+          "x": 104.66362,
+          "y": 87.69114
+        },
+        "width": 209.32723,
+        "height": 175.38227
+      },
+      "s": {
+        "shape": "rect",
+        "shape.background": null,
+        "fullscreen": "fill",
+        "fullscreen.gap": 0,
+        "2d.movable": false,
+        "label.opacity": 0,
+        "label.color": "rgb(61,61,61)",
+        "label.position": 14,
+        "label.offset.x": -10,
+        "label.offset.y": 0
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 30496,
+      "p": {
+        "name": "Node",
+        "displayName": "n（Node1）",
+        "toolTip": "<p style='color:rgb(242,83,75);margin:0px;font-weight:bold'>已被布局，不允许拖动<p>",
+        "tag": "Node1",
+        "dataBindings": {
+          "s": {
+            "label": {
+              "id": "iotos.form",
+              "alias": "",
+              "func": "__ht__function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        console.error(err);\r\n        return rawData;\r\n    }\r\n}",
+              "idinfo": "",
+              "isTplBinded": false
+            }
+          }
+        },
+        "host": {
+          "__i": 30495
+        },
+        "position": {
+          "x": 104.66362,
+          "y": 102.61141
+        },
+        "width": 209.32723,
+        "height": 145.54174
+      },
+      "s": {
+        "shape": "rect",
+        "shape.background": "rgb(255,255,255)",
+        "shape.border.color": "rgb(247,247,247)",
+        "label.position": 2,
+        "label.offset.y": -8,
+        "label.color": "rgb(61,61,61)",
+        "label.opacity": 1,
+        "2d.movable": false,
+        "interactive": true,
+        "image.stretch": "uniform",
+        "label": "xxxx",
+        "label.font": "12px arial, sans-serif",
+        "label.align": "left",
+        "layout.h": "leftright",
+        "layout.v": "topbottom"
+      },
+      "a": {
+        "toolTipRaw": "<p style='color:rgb(242,83,75);margin:0px;font-weight:bold'>已被布局，不允许拖动<p>"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 30497,
+      "p": {
+        "name": "n",
+        "displayName": "普通图元（n1）",
+        "toolTip": "<p style='color:rgb(242,83,75);margin:0px;font-weight:bold'>已被布局，不允许拖动<p>",
+        "tag": "n1",
+        "image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGkAAABbCAIAAAD/UjzLAAABH0lEQVR4Ae3SsQ0AMAzDsLb/v5s96Auc5V0L4Tszp5HAo6roC2TnP8guOxfwst9l5wJe9rvsXMDLfpedC3jZ77JzAS/7XXYu4GW/y84FvOx32bmAl/0uOxfwst9l5wJe9rvsXMDLfpedC3jZ77JzAS/7XXYu4GW/y84FvOx32bmAl/0uOxfwst9l5wJe9rvsXMDLfpedC3jZ77JzAS/7XXYu4GW/y84FvOx32bmAl/0uOxfwst9l5wJe9rvsXMDLfpedC3jZ77JzAS/7XXYu4GW/y84FvOx32bmAl/0uOxfwst9l5wJe9rvsXMDLfpedC3jZ77JzAS/7XXYu4GW/y84FvOx32bmAl/0uOxfwst9l5wJe9rvsXMDLfpedC3i57tQDlVnYsYgAAAAASUVORK5CYII=",
+        "host": {
+          "__i": 30495
+        },
+        "position": {
+          "x": 104.66362,
+          "y": 102.61141
+        },
+        "width": 116.33124,
+        "height": 145.54174
+      },
+      "s": {
+        "label.opacity": 0,
+        "label.position": 14,
+        "label.offset.x": -10,
+        "label.offset.y": 0,
+        "label.color": "rgb(61,61,61)",
+        "2d.movable": false,
+        "interactive": true,
+        "layout.h": "leftright",
+        "layout.v": "topbottom"
+      },
+      "a": {
+        "toolTipRaw": "<p style='color:rgb(242,83,75);margin:0px;font-weight:bold'>已被布局，不允许拖动<p>"
+      }
+    }
+  ],
+  "modified": "Wed Nov 08 2023 07:28:17 GMT+0800 (中国标准时间)",
+  "contentRect": {
+    "x": -40.02148,
+    "y": 0.00001,
+    "width": 249.34871,
+    "height": 175.38227
+  }
+}

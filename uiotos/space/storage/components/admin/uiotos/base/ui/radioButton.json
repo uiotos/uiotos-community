@@ -1,0 +1,134 @@
+{
+  "modified": "Thu Aug 08 2019 14:51:25 GMT+0800 (中国标准时间)",
+  "width": 180,
+  "height": 32,
+  "snapshotURL": "",
+  "func": "__ht__function(g, rect, comp, data, view) {\nht.vector.comp.radioButton.apply(comp, arguments);\n}",
+  "properties": {
+    "value": {
+      "valueType": "String",
+      "defaultValue": "r",
+      "name": "UIFormItemValue"
+    },
+    "disabled": {
+      "valueType": "Boolean",
+      "defaultValue": false,
+      "name": "UIDisabled"
+    },
+    "values": {
+      "valueType": "StringArray",
+      "defaultValue": [
+        "l",
+        "r"
+      ],
+      "name": "ChartValues"
+    },
+    "labels": {
+      "valueType": "StringArray",
+      "defaultValue": [
+        "Left",
+        "Right"
+      ],
+      "name": "UILabels"
+    },
+    "borderWidth": {
+      "valueType": "PositiveNumber",
+      "defaultValue": 1,
+      "name": "editor.borderwidth"
+    },
+    "borderColor": {
+      "valueType": "Color",
+      "defaultValue": "rgb(204,204,204)",
+      "name": "UIBorderColor"
+    },
+    "borderRadius": {
+      "valueType": "PositiveNumber",
+      "defaultValue": 5,
+      "name": "UIBorderRadius"
+    },
+    "font": {
+      "valueType": "Font",
+      "defaultValue": "12px sans-serif, Arial",
+      "name": "UIFont"
+    },
+    "labelColor": {
+      "valueType": "Color",
+      "defaultValue": "rgb(61,61,61)",
+      "name": "ChartLabelColor"
+    },
+    "background": {
+      "valueType": "Color",
+      "defaultValue": "rgb(247,247,247)",
+      "name": "UIBackground"
+    },
+    "hoverLabelColor": {
+      "valueType": "Color",
+      "defaultValue": "rgb(51,153,255)",
+      "name": "UIHoverTextColor"
+    },
+    "hoverBorderColor": {
+      "valueType": "Color",
+      "defaultValue": "rgb(204,204,204)",
+      "name": "UIHoverBorderColor"
+    },
+    "hoverBackgrond": {
+      "valueType": "Color",
+      "defaultValue": "rgb(235,235,235)",
+      "name": "UIHoverBackground"
+    },
+    "activeLabelColor": {
+      "valueType": "Color",
+      "defaultValue": "rgb(51,153,255)",
+      "name": "UIActiveTextColor"
+    },
+    "activeBorderColor": {
+      "valueType": "Color",
+      "defaultValue": "rgb(51,153,255)",
+      "name": "UIActiveBorderColor"
+    },
+    "activeBackground": {
+      "valueType": "Color",
+      "defaultValue": "rgb(247,247,247)",
+      "name": "UIActiveBackground"
+    },
+    "disabledLabelColor": {
+      "valueType": "Color",
+      "defaultValue": "rgb(150,150,150)",
+      "name": "UIDisabledTextColor"
+    },
+    "disabledBorderColor": {
+      "valueType": "Color",
+      "defaultValue": "rgb(150,150,150)",
+      "name": "UIDisabledBorderColor"
+    },
+    "disabledBackground": {
+      "valueType": "Color",
+      "defaultValue": "rgb(247,247,247)",
+      "name": "UIDisabledBackground"
+    },
+    "vertical": {
+      "valueType": "Boolean",
+      "defaultValue": false,
+      "name": "editor.vertical"
+    },
+    "onChange": {
+      "valueType": "Function",
+      "name": "UIOnChange",
+      "extraInfo": {
+        "arguments": [
+          "oldValue",
+          "newValue",
+          "data",
+          "view"
+        ]
+      }
+    }
+  },
+  "events": {
+    "onClick": "__ht__function(event, data, view, point, width, height) {\nht.vector.radioButtonInteractor.onClick.apply(this, arguments);\n}",
+    "onDown": "__ht__function(event, data, view, point, width, height) {\nht.vector.radioButtonInteractor.onDown.apply(this, arguments);\n}",
+    "onMove": "__ht__function(event, data, view, point, width, height) {\nht.vector.radioButtonInteractor.onMove.apply(this, arguments);\n}",
+    "onEnter": "__ht__function(event, data, view, point, width, height) {\nht.vector.radioButtonInteractor.onEnter.apply(this, arguments);\n}",
+    "onLeave": "__ht__function(event, data, view, point, width, height) {\nht.vector.radioButtonInteractor.onLeave.apply(this, arguments);\n}"
+  }
+}

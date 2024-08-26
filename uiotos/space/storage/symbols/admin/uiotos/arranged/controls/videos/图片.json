@@ -1,0 +1,23 @@
+{
+  "modified": "Thu Aug 15 2024 14:30:46 GMT+0800 (中国标准时间)",
+  "dataBindings": [
+    {
+      "attr": "symbol",
+      "valueType": "Image"
+    },
+    {
+      "attr": "src",
+      "valueType": "Image",
+      "name": "图片路径",
+      "group": "功能",
+      "description": "支持各类图片格式，包括gif动图。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/fbc4htdr4eowgxaq#ThmKOj\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+      "defaultValue": "assets/develop/uiotos/arranged/assets/空白/加载失败.svg"
+    }
+  ],
+  "snapshotURL": "symbols/develop/uiotos/arranged/controls/videos_icon/picture-fill-80.png",
+  "renderHTML": "__ht__function(data, gv, cache) {return __image(data,gv,cache);}",
+  "width": 400,
+  "height": 300,
+  "pixelPerfect": false,
+  "comps": []
+}

@@ -1,0 +1,529 @@
+{
+  "v": "7.7.5",
+  "p": {
+    "autoAdjustIndex": true,
+    "hierarchicalRendering": true
+  },
+  "a": {
+    "rotateAsClock": false,
+    "gridBlockSize": 20,
+    "connectActionType": null,
+    "fitContent": false,
+    "zoomable": false,
+    "rectSelectable": false,
+    "pannable": false
+  },
+  "d": [
+    {
+      "c": "ht.Node",
+      "i": 77844,
+      "p": {
+        "name": "base",
+        "displayName": "底板（_base）",
+        "tag": "_base",
+        "position": {
+          "x": 1298.7784,
+          "y": 700.19413
+        },
+        "width": 1033.06998,
+        "height": 1398.38826
+      },
+      "s": {
+        "shape": "rect",
+        "shape.background": "rgb(255,255,255)",
+        "fullscreen.gap": 0,
+        "2d.movable": false,
+        "label.opacity": 0,
+        "label.position": 14,
+        "label.offset.x": -10,
+        "label.offset.y": 0,
+        "label.color": "rgb(61,61,61)",
+        "fullscreen": "fill"
+      }
+    },
+    {
+      "c": "ht.UNode",
+      "i": 77845,
+      "p": {
+        "name": "gv",
+        "displayName": "嵌套容器（gv1）",
+        "toolTip": "<p style='color:rgb(242,83,75);margin-top:5px;margin-bottom:5px;font-weight:bold;line-height:1.5em;'>已被布局，不允许拖动（shift+回车可解除）</p>",
+        "tag": "gv1",
+        "dataBindings": {
+          "a": {
+            "display": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "innerLayoutMode": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "02-极速入门（10分钟）>0>doc1>a:content": {
+              "id": "iotos.formReset",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "02-极速入门（10分钟）>0>doc1>a:readOnly": {
+              "id": "iotos.formReset",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "02-极速入门（10分钟）>0>doc1>a:onChange": {
+              "id": "iotos.formReset",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "02-极速入门（10分钟）>0>doc1>a:preview": {
+              "id": "iotos.formReset",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "02-极速入门（10分钟）>0>doc1>a:display": {
+              "id": "iotos.formReset",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "02-极速入门（10分钟）>0>doc1>a:popDirection": {
+              "id": "iotos.formReset",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "02-极速入门（10分钟）>0>doc1>a:popBackground": {
+              "id": "iotos.formReset",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "02-极速入门（10分钟）>0>doc1>a:popPadding": {
+              "id": "iotos.formReset",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "02-极速入门（10分钟）>0>doc1>a:popWidth": {
+              "id": "iotos.formReset",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "02-极速入门（10分钟）>0>doc1>a:popHeight": {
+              "id": "iotos.formReset",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "02-极速入门（10分钟）>0>doc1>a:popBorderColor": {
+              "id": "iotos.formReset",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "02-极速入门（10分钟）>0>doc1>a:popBorderWidth": {
+              "id": "iotos.formReset",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "02-极速入门（10分钟）>0>doc1>a:popBorderRadius": {
+              "id": "iotos.formReset",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "02-极速入门（10分钟）>0>doc1>a:popTriggerEvent": {
+              "id": "iotos.formReset",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            }
+          }
+        },
+        "image": {
+          "modified": "Fri Apr 26 2024 10:57:07 GMT+0800 (中国标准时间)",
+          "background": "rgb(32,37,46)",
+          "dataBindings": [
+            {
+              "attr": "symbol",
+              "valueType": "Image"
+            },
+            {
+              "attr": "display",
+              "valueType": "URL",
+              "group": "功能（关键）"
+            },
+            {
+              "attr": "innerLayoutMode",
+              "valueType": "String",
+              "defaultValue": "",
+              "description": "内嵌页面的布局模式。\n<br>页面通常分为适配内容（fitContent）\n<br>和全屏填充（fullScreen）两种模式，\n<br>前者自适应缩放以保证所有内容窗口\n<br>范围内可见，后者则是指定某个图元\n<br>组件作为底板全屏填充，其他组件直\n<br>接或简接对于底板布局。\n<br>模式无（none）表示以上两种模式都\n<br>不是，既不缩放适配也不全屏铺满。\n<br>注意，本属性为读写，可以表示当前\n<br>页面的状态，也可以进行设置。其中\n<br>设置全屏填充时，自动选择最底层图\n<br>元组件作为底板。新建页面默认为基\n<br>于有底板的全屏填充布局，而非缩放。\n",
+              "extraInfo": {
+                "enum": {
+                  "values": [
+                    "fitContent",
+                    "fullScreen",
+                    "none"
+                  ]
+                }
+              }
+            },
+            {
+              "attr": "useOriginSize",
+              "valueType": "Boolean",
+              "defaultValue": false
+            },
+            {
+              "attr": "onDisplayLoaded",
+              "valueType": "Function",
+              "description": "所有内嵌页面逐层加载完毕后回调（注意，作为顶层页面时才会触发）。",
+              "extraInfo": {
+                "arguments": [
+                  "data",
+                  "gv",
+                  "cache"
+                ]
+              }
+            },
+            {
+              "attr": "isLoadingGet",
+              "valueType": "Boolean",
+              "description": "是否正在加载。\n<br>只读，当正在通过display属性逐层加载内嵌页直到完全加载完毕前，\n<br>该属性值为1，加载完毕后，复位为0.",
+              "defaultValue": false
+            },
+            {
+              "attr": "reset",
+              "valueType": "Level2",
+              "defaultValue": 0
+            },
+            {
+              "attr": "shadowBorder",
+              "valueType": "NumberArray",
+              "defaultValue": [
+                0,
+                0,
+                8
+              ]
+            },
+            {
+              "attr": "shadowColor",
+              "valueType": "Color",
+              "defaultValue": "rgba(55,125,255,0.50)"
+            },
+            {
+              "attr": "shadowEnabled",
+              "valueType": "Boolean",
+              "defaultValue": true
+            },
+            {
+              "attr": "innerBackground",
+              "valueType": "Color",
+              "defaultValue": null
+            },
+            {
+              "attr": "displayJson",
+              "valueType": "Multiline"
+            },
+            {
+              "attr": "borderWidth",
+              "valueType": "Number"
+            },
+            {
+              "attr": "onPostDeserialize",
+              "valueType": "Function",
+              "extraInfo": {
+                "arguments": [
+                  "json",
+                  "dm",
+                  "gv",
+                  "datas"
+                ]
+              }
+            },
+            {
+              "attr": "bindControlsTag",
+              "valueType": "StringArray",
+              "group": "bindControls"
+            },
+            {
+              "attr": "bindControlsAttr",
+              "valueType": "ObjectArray"
+            },
+            {
+              "attr": "bindControlsVal",
+              "valueType": "ObjectArray",
+              "description": "静态值。也用作数组索引、JSON对象解析提取值用途。\n<br>一、静态值用途：\n<br>对常规类型的属性赋值且没有反向关联属性值，传入为数值时，不\n<br>会作为数组的索引，而会当成常量值对外赋值。此外，存在特殊值：\n<br>~和undefined表示过滤、不触发；null为默认值，表示传递默认表\n<br>单数据。编辑状态下清空后保存与设置null等价。\n<br>二、数组索引用途\n<br>情况1：被操作的组件属性原先值是数组时（包括空数组），会将\n<br>待输出的值作为被操作数组指定索引的值来传入，而不是整体覆盖。\n<br>情况2：如果要被操作的组件属性原先值不是数组，而且待输出的\n<br>值为数组类型并且长度也在索引范围内，那么会按照索引取自身数\n<br>组指定元素再对外输出。（如果想要取待输出索引值，赋值给被操\n<br>纵属性的指定索引，那么需要中间组件属性连线过渡以下，无法直\n<br>接操作）\n<br>情况3：如果要被操作的组件属性是数组，而且待输出的值也是数组\n<br>类型，此时当情况1来处理。\n<br>三、数据解析用途：\n<br>待输出的值为JSON对象时，用x.y.z这种以字符.或者>为间隔的方式\n<br>实现对JSON字段层次逐层定位，当是数组时x.0.y.1这种以数字的方\n<br>式来指定数组的某个索引。以此实现对任意结果JSON对象字段的定\n<br>位，获取结构内指定字段对应的值。"
+            },
+            {
+              "attr": "paramControlTag",
+              "valueType": "StringArray"
+            },
+            {
+              "attr": "paramControlAttr",
+              "valueType": "ObjectArray"
+            },
+            {
+              "attr": "paramsGenerator",
+              "valueType": "Function",
+              "defaultValue": "__ht__function(data, val, index, node,oldVal,form,type,inner) {//绑定组索引对应的函数处理，用来动态生成复杂的参数变量传入\r\nswitch(index){\r\n    case 0:\r\n        break;\r\n    case 1:\r\n        break;\r\n    case 2:\r\n        break;\r\n    default:\r\n        break;\r\n}\r\n\r\nreturn val;}",
+              "extraInfo": {
+                "arguments": [
+                  "data",
+                  "val",
+                  "index",
+                  "node",
+                  "oldVal",
+                  "form",
+                  "type",
+                  "inner"
+                ]
+              }
+            },
+            {
+              "attr": "useAttrCORS",
+              "valueType": "Boolean",
+              "defaultValue": false,
+              "description": "属性同源操作。\n                连线操作传递是否限定双方。比如有A/B/C/D/O五个组件，连线操作关系：\n                A→O、B→O、C→O、D→O，以及O→A、O→B、O→C、O→D，总结为\n                A、B、C、D分别与O有往返操作。\n                默认不勾选该属性时，A到D任何一个向O的连线操作，都不会影响到O自身\n                对A到D的下一步操作。勾选了该属性后，那么每次相邻的两次连线交互，\n                则会有同源选择性，比如A→O，下一步则O之会选择到A的操作即O→A。\n                同源操作通常用户多个组件共用一个配置弹窗的情况，比如上述A、B、C、D\n                相当于是四个同类型的组件，而O是公共的属性配置窗口，任何一个比如A点\n                击，可通过O弹窗显示属性，然后修改后将属性值回写到A，且并不会将值给\n                到其他几个组件，即便有连线在。\n                同源操作规则：当连线满足A/B→O.x，且有O.x→A/B时，即前一次组件A连线\n                操作O的x属性，那么，O对外触发且关联x属性值对外时，勾选了本属性同源\n                属性操作的前提下，将只会执行O.x→A，而忽略O.x→B/C等其他非A的图元组\n                件的连线操作。",
+              "dynamicCreate": true
+            },
+            {
+              "attr": "userData",
+              "valueType": "ObjectArray"
+            },
+            {
+              "attr": "useInnerEventsAll",
+              "valueType": "Boolean",
+              "description": "是否允许内嵌事件通过。\n<br>若勾选，内嵌图元表单类型的事件函数属性，都将派发到上层容器图元对外触发连线操作。\n<br>默认不勾选，上层容器图元对外连线反向关联需要指定内嵌图元的具体事件函数属性才能\n<br>触发，否则忽略内嵌图元的事件触发，不会传递给上层容器图元对外连线操作。"
+            },
+            {
+              "attr": "pureFormValues",
+              "valueType": "Boolean"
+            },
+            {
+              "attr": "02-极速入门（10分钟）>0>doc1>a:content",
+              "name": ".content",
+              "valueType": "Multiline",
+              "defaultValue": "**须知**\n\nUIOTOS不要用户有前端开发基础，思维逻辑清晰即可，熟悉以下两个概念有助于快速入门：\n\n- 关于嵌套\n\n 界面嵌套，简单来说，是在某个界面里再包含一个或多个小界面。像俄罗斯套娃一样，一个娃娃里还能找到更小的娃娃。\n 在软件或网页设计中，嵌套通常用于构建层次分明、功能模块化的界面结构。作用有：\n \n\n    组织结构清晰：通过嵌套，可以将复杂的应用程序分割成逻辑上更加独立、易于管理和维护的小部分。每个小界面专注于完成特定功能，使得整体设计更加有序。\n    导航逻辑更自然：嵌套路由允许用户在不同功能模块之间平滑过渡，模拟文件夹式的浏览体验，符合用户的认知习惯。\n    复用组件：嵌套的界面可以重复使用相同的组件或布局，减少代码重复，提高开发效率。\n    状态管理简化：嵌套界面有助于将状态管理限制在较小的范围内，降低不同功能模块之间的耦合度，使得状态变更更加可控。\n    提升用户体验：通过只展示相关联的内容，避免信息过载，使用户能够聚焦于当前任务，从而提升使用体验。\n    动态加载与性能：在某些情况下，嵌套界面可以按需加载，不必一次性加载整个应用的所有内容，有助于提升应用的初始加载速度和整体性能。\n\t总之，界面嵌套是一种重要的设计手段，它帮助开发者构建结构清晰、易于维护且用户友好的应用程序。\n\n- 关于连线\n\n蓝图节点连线是在使用蓝图可视化编程系统（尤其是游戏开发领域，如虚幻引擎Unreal Engine）时的一种核心概念。具体来说，蓝图节点连线涉及到以下几个方面：\n\n    逻辑构建：蓝图节点连线允许开发者通过图形化方式构建复杂的逻辑结构，而不需要直接编写传统的代码。这对于没有编程背景的设计师或艺术家尤其友好，他们可以利用蓝图创建游戏机制、动画序列、AI行为等。\n    快速原型设计：因为无需编译，蓝图的修改可以即时预览，大大加快了从概念到可玩原型的迭代速度。这对于快速测试游戏设计想法非常有用。\n    可视化的程序结构：连线直观地展示程序逻辑流，使得代码的逻辑结构一目了然，便于理解和维护。\n    团队协作：蓝图的视觉特性使得项目成员之间可以更容易地交流设计理念和实现细节，促进跨职能团队的合作。\n    动态调整和优化：在开发过程中，可以根据需要轻松调整节点和连线，即时反馈游戏或应用的行为变化，便于调试和性能优化。\n    复用和模块化：可以通过封装一组节点为一个可复用的蓝图类或宏，提高开发效率，减少重复工作。\n\t总之，蓝图节点连线是实现快速、灵活、直观编程的关键手段，它在简化开发流程、加速创意实现、促进团队协作等方面发挥着重要作用，尤其是在游戏开发这类需要频繁迭代和创意实验的领域。\n\t\n**典型步骤**\n \n- 1）新建页面\n\t\n\t略\n\n- 2）拖放组件\n\t\n\t略\n\n- 3）属性配置\n\t\n\t略\n\n---\n\n- 4）连线（做逻辑）\n\n\t任何两个组件的属性，都可以用连线关联起来，传递数值。\n\t比如，输入框A的内容属性，连线指向文本框B的内容属性，那么A输入时内容就会同步给B。\n\n- 5）嵌套（封装功能）\n\n\t任何一个页面，可以像画中画那样，嵌套到另一个页面中，被当成组件使用，主要用来做功能封装。\n\t比如页面X，嵌套到页面Y上，那么在Y上可以配置X页面内的组件和属性，就跟在当前页面中一样。\n---\n- 6）预览发布\n\n**注意事项**\n\n\n\t当前版（v2.0）主要用于搭建PC端企业级应用，包括WEB管理平台、上位机、大屏、组态等。\n\t组件属性通常比较多，无需畏惧，需用到时查阅了解即可（每个属性右侧都有说明提示）。这相当于组件的接口，颗粒度细，有助于嵌套和连线发挥更大作用，实现与代码定制开发等同的效果。\n\t组件属性目前存在中英文混合的情况，在下一个版本升级组件包可以解决，也可自行修改。目前为组件出了提供注释说明，也支持属性的中英文检索过滤。\n\t当前版缺乏专门针对移动端的基础组件，可以用滚动布局和嵌套封装实现基本需求，必要时需扩展开发。",
+              "group": "02-极速入门（10分钟）>0>doc1"
+            },
+            {
+              "attr": "02-极速入门（10分钟）>0>doc1>a:readOnly",
+              "name": ".readOnly",
+              "valueType": "Boolean",
+              "defaultValue": true,
+              "group": "02-极速入门（10分钟）>0>doc1"
+            },
+            {
+              "attr": "02-极速入门（10分钟）>0>doc1>a:onChange",
+              "name": ".onChange",
+              "valueType": "Function",
+              "extraInfo": {
+                "arguments": [
+                  "data",
+                  "gv",
+                  "cache",
+                  "value",
+                  "extra"
+                ]
+              },
+              "group": "02-极速入门（10分钟）>0>doc1"
+            },
+            {
+              "attr": "02-极速入门（10分钟）>0>doc1>a:preview",
+              "name": ".preview",
+              "valueType": "Boolean",
+              "defaultValue": true,
+              "description": "切换开关，预览时只显示html内容（不可被编辑）",
+              "group": "02-极速入门（10分钟）>0>doc1"
+            },
+            {
+              "attr": "02-极速入门（10分钟）>0>doc1>a:display",
+              "name": ".display",
+              "valueType": "Image",
+              "defaultValue": "",
+              "description": "自定义页面地址。\n                可以是编辑器中的其他页面，也可以\n                是外部网页链接地址。",
+              "group": "02-极速入门（10分钟）>0>doc1"
+            },
+            {
+              "attr": "02-极速入门（10分钟）>0>doc1>a:popDirection",
+              "name": ".popDirection",
+              "valueType": "SideDirection",
+              "defaultValue": "right",
+              "description": "提示显示位置。",
+              "group": "02-极速入门（10分钟）>0>doc1"
+            },
+            {
+              "attr": "02-极速入门（10分钟）>0>doc1>a:popBackground",
+              "name": ".popBackground",
+              "valueType": "Color",
+              "defaultValue": "white",
+              "description": "箭头和背景色。",
+              "group": "02-极速入门（10分钟）>0>doc1"
+            },
+            {
+              "attr": "02-极速入门（10分钟）>0>doc1>a:popPadding",
+              "name": ".popPadding",
+              "valueType": "NumberArray",
+              "defaultValue": [
+                2,
+                2,
+                2,
+                2
+              ],
+              "description": "内间距。",
+              "group": "02-极速入门（10分钟）>0>doc1"
+            },
+            {
+              "attr": "02-极速入门（10分钟）>0>doc1>a:popWidth",
+              "name": ".popWidth",
+              "valueType": "Number",
+              "defaultValue": 400,
+              "description": "弹出框宽度。",
+              "group": "02-极速入门（10分钟）>0>doc1"
+            },
+            {
+              "attr": "02-极速入门（10分钟）>0>doc1>a:popHeight",
+              "name": ".popHeight",
+              "valueType": "Number",
+              "defaultValue": 300,
+              "description": "弹出框高度。",
+              "group": "02-极速入门（10分钟）>0>doc1"
+            },
+            {
+              "attr": "02-极速入门（10分钟）>0>doc1>a:popBorderColor",
+              "name": ".popBorderColor",
+              "valueType": "Color",
+              "defaultValue": "rgb(51,51,51)",
+              "description": "边框线颜色。\n                    注意，是设置了边框宽度非0后的边框颜色。\n                    默认边框宽度属性为0时，实际上是白色并\n                    带有箭头指示的边框。本属性不用于修改默\n                    认边框色。",
+              "group": "02-极速入门（10分钟）>0>doc1"
+            },
+            {
+              "attr": "02-极速入门（10分钟）>0>doc1>a:popBorderWidth",
+              "name": ".popBorderWidth",
+              "valueType": "Number",
+              "defaultValue": 0,
+              "description": "边框线宽度。\n                    默认值为0，此时边框默认为白色并且带有\n                    箭头指示。当设置宽度后，颜色将取边框颜\n                    色属性的设置，并且不再有箭头指示。",
+              "group": "02-极速入门（10分钟）>0>doc1"
+            },
+            {
+              "attr": "02-极速入门（10分钟）>0>doc1>a:popBorderRadius",
+              "name": ".popBorderRadius",
+              "valueType": "Number",
+              "defaultValue": 0,
+              "description": "边框线圆角。\n                    设置圆角线后，如果此前默认是白色边框带有\n                    指示箭头，那么将自动不可见，只对内容区域\n                    产生圆角。",
+              "group": "02-极速入门（10分钟）>0>doc1"
+            },
+            {
+              "attr": "02-极速入门（10分钟）>0>doc1>a:popTriggerEvent",
+              "name": ".popTriggerEvent",
+              "valueType": "MouseEvent",
+              "defaultValue": "hover",
+              "description": "触发方式。\n                支持鼠标移入、点击（按钮时）\n                两种触发提示的方式。",
+              "group": "02-极速入门（10分钟）>0>doc1"
+            }
+          ],
+          "snapshotURL": "icon.base.graphView",
+          "renderHTML": "__ht__function(data, gv, cache) {return __graphView(data,gv,cache);}",
+          "width": 200,
+          "height": 120,
+          "fitSize": true,
+          "pixelPerfect": false,
+          "comps": [
+            {
+              "type": "text",
+              "text": {
+                "func": "__ht__function(data, view) {\n// return data.ca('__loadingText') && data.ca('__loadingText')[!data.ca('__loadingStatus')]\n}",
+                "value": "…"
+              },
+              "align": "center",
+              "color": {
+                "func": "attr@__loadingColor",
+                "value": "rgb(150,150,150)"
+              },
+              "font": {
+                "func": "attr@__loadingFont",
+                "value": "12px arial, sans-serif"
+              },
+              "visible": {
+                "func": "attr@__loadingVisible",
+                "value": false
+              },
+              "layoutH": "center",
+              "layoutV": "center",
+              "rect": [
+                74.69339,
+                53.1422,
+                50.61322,
+                13.7156
+              ]
+            }
+          ],
+          "uuid": "24A1C41B-F3D4-4FA8-82CE-06D2C5112199"
+        },
+        "host": {
+          "__i": 77844
+        },
+        "position": {
+          "x": 1344.78573,
+          "y": 700.19413
+        },
+        "width": 941.05532,
+        "height": 1398.38826
+      },
+      "s": {
+        "label.position": 14,
+        "label.offset.x": -10,
+        "label.offset.y": 0,
+        "label.color": "rgb(61,61,61)",
+        "interactive": true,
+        "layout.h": "center",
+        "layout.v": "topbottom",
+        "label.opacity": 0,
+        "2d.movable": false
+      },
+      "a": {
+        "symbol": "symbols/develop/uiotos/base/graphView.json",
+        "toolTipRaw": "<p style='color:rgb(242,83,75);margin-top:5px;margin-bottom:5px;font-weight:bold;line-height:1.5em;'>已被布局，不允许拖动（shift+回车可解除）</p>",
+        "display": "./内容维护/02-极速入门（10分钟）.json",
+        "__loadingStatus": false,
+        "isLoadingGet": false,
+        "02-极速入门（10分钟）>0>doc1>a:content": "**须知**\n\nUIOTOS不要用户有前端开发基础，思维逻辑清晰即可，熟悉以下两个概念有助于快速入门：\n\n- 关于嵌套\n\n 界面嵌套，简单来说，是在某个界面里再包含一个或多个小界面。像俄罗斯套娃一样，一个娃娃里还能找到更小的娃娃。\n 在软件或网页设计中，嵌套通常用于构建层次分明、功能模块化的界面结构。作用有：\n \n\n    组织结构清晰：通过嵌套，可以将复杂的应用程序分割成逻辑上更加独立、易于管理和维护的小部分。每个小界面专注于完成特定功能，使得整体设计更加有序。\n    导航逻辑更自然：嵌套路由允许用户在不同功能模块之间平滑过渡，模拟文件夹式的浏览体验，符合用户的认知习惯。\n    复用组件：嵌套的界面可以重复使用相同的组件或布局，减少代码重复，提高开发效率。\n    状态管理简化：嵌套界面有助于将状态管理限制在较小的范围内，降低不同功能模块之间的耦合度，使得状态变更更加可控。\n    提升用户体验：通过只展示相关联的内容，避免信息过载，使用户能够聚焦于当前任务，从而提升使用体验。\n    动态加载与性能：在某些情况下，嵌套界面可以按需加载，不必一次性加载整个应用的所有内容，有助于提升应用的初始加载速度和整体性能。\n\t总之，界面嵌套是一种重要的设计手段，它帮助开发者构建结构清晰、易于维护且用户友好的应用程序。\n\n- 关于连线\n\n蓝图节点连线是在使用蓝图可视化编程系统（尤其是游戏开发领域，如虚幻引擎Unreal Engine）时的一种核心概念。具体来说，蓝图节点连线涉及到以下几个方面：\n\n    逻辑构建：蓝图节点连线允许开发者通过图形化方式构建复杂的逻辑结构，而不需要直接编写传统的代码。这对于没有编程背景的设计师或艺术家尤其友好，他们可以利用蓝图创建游戏机制、动画序列、AI行为等。\n    快速原型设计：因为无需编译，蓝图的修改可以即时预览，大大加快了从概念到可玩原型的迭代速度。这对于快速测试游戏设计想法非常有用。\n    可视化的程序结构：连线直观地展示程序逻辑流，使得代码的逻辑结构一目了然，便于理解和维护。\n    团队协作：蓝图的视觉特性使得项目成员之间可以更容易地交流设计理念和实现细节，促进跨职能团队的合作。\n    动态调整和优化：在开发过程中，可以根据需要轻松调整节点和连线，即时反馈游戏或应用的行为变化，便于调试和性能优化。\n    复用和模块化：可以通过封装一组节点为一个可复用的蓝图类或宏，提高开发效率，减少重复工作。\n\t总之，蓝图节点连线是实现快速、灵活、直观编程的关键手段，它在简化开发流程、加速创意实现、促进团队协作等方面发挥着重要作用，尤其是在游戏开发这类需要频繁迭代和创意实验的领域。\n\t\n**典型步骤**\n \n- 1）新建页面\n\t\n\t略\n\n- 2）拖放组件\n\t\n\t略\n\n- 3）属性配置\n\t\n\t略\n\n---\n\n- 4）连线（做逻辑）\n\n\t任何两个组件的属性，都可以用连线关联起来，传递数值。\n\t比如，输入框A的内容属性，连线指向文本框B的内容属性，那么A输入时内容就会同步给B。\n\n- 5）嵌套（封装功能）\n\n\t任何一个页面，可以像画中画那样，嵌套到另一个页面中，被当成组件使用，主要用来做功能封装。\n\t比如页面X，嵌套到页面Y上，那么在Y上可以配置X页面内的组件和属性，就跟在当前页面中一样。\n---\n- 6）预览发布\n\n**注意事项**\n\n\n\t当前版（v2.0）主要用于搭建PC端企业级应用，包括WEB管理平台、上位机、大屏、组态等。\n\t组件属性通常比较多，无需畏惧，需用到时查阅了解即可（每个属性右侧都有说明提示）。这相当于组件的接口，颗粒度细，有助于嵌套和连线发挥更大作用，实现与代码定制开发等同的效果。\n\t组件属性目前存在中英文混合的情况，在下一个版本升级组件包可以解决，也可自行修改。目前为组件出了提供注释说明，也支持属性的中英文检索过滤。\n\t当前版缺乏专门针对移动端的基础组件，可以用滚动布局和嵌套封装实现基本需求，必要时需扩展开发。",
+        "02-极速入门（10分钟）>0>doc1>a:readOnly": true,
+        "02-极速入门（10分钟）>0>doc1>a:preview": true,
+        "02-极速入门（10分钟）>0>doc1>a:display": "",
+        "02-极速入门（10分钟）>0>doc1>a:popDirection": "right",
+        "02-极速入门（10分钟）>0>doc1>a:popBackground": "white",
+        "02-极速入门（10分钟）>0>doc1>a:popPadding": [
+          2,
+          2,
+          2,
+          2
+        ],
+        "02-极速入门（10分钟）>0>doc1>a:popWidth": 400,
+        "02-极速入门（10分钟）>0>doc1>a:popHeight": 300,
+        "02-极速入门（10分钟）>0>doc1>a:popBorderColor": "rgb(51,51,51)",
+        "02-极速入门（10分钟）>0>doc1>a:popBorderWidth": 0,
+        "02-极速入门（10分钟）>0>doc1>a:popBorderRadius": 0,
+        "02-极速入门（10分钟）>0>doc1>a:popTriggerEvent": "hover",
+        "innerLayoutMode": "fullScreen",
+        "shadowEnabled": false
+      }
+    }
+  ],
+  "modified": "Thu May 23 2024 20:19:39 GMT+0800 (中国标准时间)",
+  "contentRect": {
+    "x": 742.22193,
+    "y": 1,
+    "width": 1073.09146,
+    "height": 1398.38826
+  }
+}

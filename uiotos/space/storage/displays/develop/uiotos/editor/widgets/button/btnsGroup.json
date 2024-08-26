@@ -1,0 +1,2041 @@
+{
+  "v": "7.7.3",
+  "p": {
+    "background": "#20252e",
+    "autoAdjustIndex": true,
+    "hierarchicalRendering": true
+  },
+  "a": {
+    "rotateAsClock": false,
+    "gridBlockSize": 20,
+    "gridAngle": 1.5708,
+    "connectActionType": null,
+    "fitContent": false,
+    "zoomable": false,
+    "rectSelectable": false,
+    "pannable": false
+  },
+  "d": [
+    {
+      "c": "ht.Node",
+      "i": 151099,
+      "p": {
+        "name": "bts",
+        "displayName": "按钮组（按钮组）",
+        "tag": "按钮组",
+        "dataBindings": {
+          "a": {
+            "select": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "__ht__function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}",
+              "alias": ""
+            },
+            "buttons": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "direction": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "bindControlsVal": {
+              "id": "iotos.form",
+              "alias": "",
+              "func": "__ht__function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        console.error(err);\r\n        return rawData;\r\n    }\r\n}",
+              "idinfo": "",
+              "isTplBinded": false
+            },
+            "initialTrigger": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "onChange": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "_bindEvents_0": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "_bindEvents_1": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            }
+          }
+        },
+        "image": {
+          "modified": "Thu Nov 09 2023 09:49:01 GMT+0800 (中国标准时间)",
+          "background": "rgb(32,37,46)",
+          "dataBindings": [
+            {
+              "attr": "symbol",
+              "valueType": "Image",
+              "group": "功能（关键）"
+            },
+            {
+              "attr": "shadowBorder",
+              "valueType": "NumberArray",
+              "defaultValue": [
+                0,
+                0,
+                8
+              ]
+            },
+            {
+              "attr": "shadowColor",
+              "valueType": "Color",
+              "defaultValue": "rgba(102,102,102,0.2)"
+            },
+            {
+              "attr": "shadowEnabled",
+              "valueType": "Boolean",
+              "defaultValue": false
+            },
+            {
+              "attr": "direction",
+              "valueType": "String",
+              "defaultValue": "horizontal",
+              "description": "horizontal：水平按钮组；\nvertical：垂直按钮组。",
+              "extraInfo": {
+                "enum": {
+                  "values": [
+                    "horizontal",
+                    "vertical"
+                  ]
+                }
+              }
+            },
+            {
+              "attr": "buttons",
+              "valueType": "StringArray",
+              "defaultValue": [
+                "按钮1",
+                "按钮2",
+                "按钮3"
+              ]
+            },
+            {
+              "attr": "gap",
+              "valueType": "Number",
+              "defaultValue": -2
+            },
+            {
+              "attr": "select",
+              "valueType": "Number",
+              "defaultValue": 0
+            },
+            {
+              "attr": "initialTrigger",
+              "valueType": "Boolean",
+              "defaultValue": false
+            },
+            {
+              "attr": "background",
+              "valueType": "ColorArray",
+              "defaultValue": [
+                "rgb(255,255,255)",
+                "rgba(255,255,255,0.9)"
+              ]
+            },
+            {
+              "attr": "selectBackground",
+              "valueType": "ColorArray",
+              "defaultValue": [
+                "rgb(55,125,255)",
+                "rgba(55,125,255,0.9)"
+              ]
+            },
+            {
+              "attr": "activeBackground",
+              "valueType": "ColorArray",
+              "defaultValue": [
+                "rgb(50,99,250)",
+                "rgba(55,125,255,0.9)"
+              ]
+            },
+            {
+              "attr": "textColor",
+              "valueType": "ColorArray",
+              "defaultValue": [
+                "rgb(61,61,61)",
+                "rgb(55,125,255)"
+              ]
+            },
+            {
+              "attr": "selectTextColor",
+              "valueType": "ColorArray",
+              "defaultValue": [
+                "white",
+                "white"
+              ]
+            },
+            {
+              "attr": "activeTextColor",
+              "valueType": "ColorArray",
+              "defaultValue": [
+                "white",
+                "white"
+              ]
+            },
+            {
+              "attr": "textFont",
+              "valueType": "Font",
+              "defaultValue": "12px sans-serif, Arial"
+            },
+            {
+              "attr": "radius",
+              "valueType": "NumberArray",
+              "defaultValue": [
+                5,
+                5,
+                5,
+                5
+              ]
+            },
+            {
+              "attr": "borderWidth",
+              "valueType": "PositiveNumber",
+              "defaultValue": 1
+            },
+            {
+              "attr": "borderColor",
+              "valueType": "Color",
+              "defaultValue": "rgb(213,213,213)",
+              "description": "边框颜色。\n<br>如果不设置，那么边框颜色将自动跟随\n<br>当前选中项目的背景颜色。"
+            },
+            {
+              "attr": "bindTabview",
+              "valueType": "String",
+              "defaultValue": "tab1"
+            },
+            {
+              "attr": "simpleLineStyle",
+              "valueType": "Boolean",
+              "defaultValue": false
+            },
+            {
+              "attr": "bindControlsTag",
+              "valueType": "StringArray",
+              "group": "bindControls"
+            },
+            {
+              "attr": "bindControlsAttr",
+              "valueType": "StringArray"
+            },
+            {
+              "attr": "bindControlsVal",
+              "valueType": "ObjectArray",
+              "description": "静态值。也用作数组索引、JSON对象解析提取值用途。\n<br>一、静态值用途：\n<br>对常规类型的属性赋值且没有反向关联属性值，传入为数值时，不\n<br>会作为数组的索引，而会当成常量值对外赋值。此外，存在特殊值：\n<br>~和undefined表示过滤、不触发；null为默认值，表示传递默认表\n<br>单数据。编辑状态下清空后保存与设置null等价。\n<br>二、数组索引用途\n<br>情况1：被操作的组件属性原先值是数组时（包括空数组），会将\n<br>待输出的值作为被操作数组指定索引的值来传入，而不是整体覆盖。\n<br>情况2：如果要被操作的组件属性原先值不是数组，而且待输出的\n<br>值为数组类型并且长度也在索引范围内，那么会按照索引取自身数\n<br>组指定元素再对外输出。（如果想要取待输出索引值，赋值给被操\n<br>纵属性的指定索引，那么需要中间组件属性连线过渡以下，无法直\n<br>接操作）\n<br>情况3：如果要被操作的组件属性是数组，而且待输出的值也是数组\n<br>类型，此时当情况1来处理。\n<br>三、数据解析用途：\n<br>待输出的值为JSON对象时，用x.y.z这种以字符.或者>为间隔的方式\n<br>实现对JSON字段层次逐层定位，当是数组时x.0.y.1这种以数字的方\n<br>式来指定数组的某个索引。以此实现对任意结果JSON对象字段的定\n<br>位，获取结构内指定字段对应的值。"
+            },
+            {
+              "attr": "paramControlTag",
+              "valueType": "StringArray"
+            },
+            {
+              "attr": "paramControlAttr",
+              "valueType": "StringArray"
+            },
+            {
+              "attr": "paramsGenerator",
+              "valueType": "Function",
+              "defaultValue": "__ht__function(data, val, index, node,oldVal,form) {//绑定组索引对应的函数处理，用来动态生成复杂的参数变量传入\r\nswitch(index){\r\n    case 0:\r\n        break;\r\n    case 1:\r\n        break;\r\n    case 2:\r\n        break;\r\n    default:\r\n        break;\r\n}\r\n\r\nreturn val;}",
+              "extraInfo": {
+                "arguments": [
+                  "data",
+                  "val",
+                  "index",
+                  "node",
+                  "oldVal",
+                  "form"
+                ]
+              }
+            },
+            {
+              "attr": "useAttrCORS",
+              "valueType": "Boolean",
+              "defaultValue": false,
+              "description": "属性同源操作。\n                连线操作传递是否限定双方。比如有A/B/C/D/O五个组件，连线操作关系：\n                A→O、B→O、C→O、D→O，以及O→A、O→B、O→C、O→D，总结为\n                A、B、C、D分别与O有往返操作。\n                默认不勾选该属性时，A到D任何一个向O的连线操作，都不会影响到O自身\n                对A到D的下一步操作。勾选了该属性后，那么每次相邻的两次连线交互，\n                则会有同源选择性，比如A→O，下一步则O之会选择到A的操作即O→A。\n                同源操作通常用户多个组件共用一个配置弹窗的情况，比如上述A、B、C、D\n                相当于是四个同类型的组件，而O是公共的属性配置窗口，任何一个比如A点\n                击，可通过O弹窗显示属性，然后修改后将属性值回写到A，且并不会将值给\n                到其他几个组件，即便有连线在。\n                同源操作规则：当连线满足A/B→O.x，且有O.x→A/B时，即前一次组件A连线\n                操作O的x属性，那么，O对外触发且关联x属性值对外时，勾选了本属性同源\n                属性操作的前提下，将只会执行O.x→A，而忽略O.x→B/C等其他非A的图元组\n                件的连线操作。",
+              "dynamicCreate": true
+            },
+            {
+              "attr": "onChange",
+              "valueType": "Function",
+              "extraInfo": {
+                "arguments": [
+                  "data",
+                  "gv",
+                  "cache",
+                  "param",
+                  "extra"
+                ]
+              }
+            },
+            {
+              "attr": "_bindEvents_0",
+              "valueType": "MultiComboBox",
+              "defaultValue": "*",
+              "group": "bindEvents",
+              "description": "连线索引[0]的触发事件过滤器，默认全部通过",
+              "dynamicCreate": true
+            },
+            {
+              "attr": "_bindEvents_1",
+              "valueType": "MultiComboBox",
+              "defaultValue": "*",
+              "group": "bindEvents",
+              "description": "连线索引[1]的触发事件过滤器，默认全部通过",
+              "dynamicCreate": true
+            }
+          ],
+          "snapshotURL": "icon.base.tabs",
+          "renderHTML": "__ht__function(data, gv, cache) {return __hButtonGroup_ui(data,gv,cache);}",
+          "width": 300,
+          "height": 35,
+          "pixelPerfect": false,
+          "comps": [],
+          "uuid": "9D89EDF1-F1F7-49A7-884B-6AF2A0317285"
+        },
+        "position": {
+          "x": 203.00545,
+          "y": 455.49974
+        },
+        "width": 300,
+        "height": 35
+      },
+      "s": {
+        "label.opacity": 0,
+        "label.position": 14,
+        "label.offset.x": -10,
+        "label.offset.y": 0,
+        "label.color": "rgb(61,61,61)",
+        "interactive": true,
+        "image.stretch": "uniform",
+        "2d.movable": false,
+        "layout.h": "left",
+        "layout.v": "top",
+        "note.font": "22px arial, sans-serif",
+        "note.color": "rgb(212,0,0)",
+        "note.background": "rgb(255,235,195)",
+        "note.position": 3,
+        "note.offset.x": 0,
+        "note.offset.y": -5,
+        "note.border.width": 10,
+        "note.border.color": "rgb(255,235,195)",
+        "note.opacity": 0,
+        "note.align": "left",
+        "note": "[bts1] 组件按钮组（bts1）索引为0的连线，关联自身属\n性select操作目标组件func4的属性inputs，正在操作数 \n组类型的属性，是否忘记在当前连线的静态解析属性（bi\nndControlsVal）中设置要操作的索引值？             ",
+        "fullscreen": "fill",
+        "fullscreen.gap": 0
+      },
+      "a": {
+        "select": 0,
+        "bindEvents": [
+          "*",
+          "onChange"
+        ],
+        "shadowBorder": [
+          0,
+          0,
+          8
+        ],
+        "buttons": [
+          "本日",
+          "本月",
+          "本年"
+        ],
+        "radius": [
+          3,
+          3,
+          3,
+          3
+        ],
+        "paramControlTag": [
+          null,
+          null
+        ],
+        "paramControlAttr": [
+          "select",
+          null
+        ],
+        "bindControlsTag": [
+          "func1",
+          "输出"
+        ],
+        "bindControlsAttr": [
+          "inputs",
+          "exec"
+        ],
+        "bindControlsVal": [
+          null,
+          null
+        ],
+        "symbol": "symbols/develop/uiotos/base/hButtonGroup-ui.json",
+        "oldDynamicAttrs": [
+          {
+            "attr": "_bindEvents_0",
+            "valueType": "MultiComboBox",
+            "defaultValue": "*",
+            "group": "bindEvents",
+            "description": "连线索引[0]的触发事件过滤器，默认全部通过",
+            "dynamicCreate": true
+          },
+          {
+            "attr": "_bindEvents_0",
+            "valueType": "MultiComboBox",
+            "defaultValue": "*",
+            "group": "bindEvents",
+            "description": "连线索引[0]的触发事件过滤器，默认全部通过",
+            "dynamicCreate": true
+          },
+          {
+            "attr": "_bindEvents_1",
+            "valueType": "MultiComboBox",
+            "defaultValue": "*",
+            "group": "bindEvents",
+            "description": "连线索引[1]的触发事件过滤器，默认全部通过",
+            "dynamicCreate": true
+          }
+        ],
+        "initialTrigger": false,
+        "borderWidth": 1,
+        "paramBindEvent": [],
+        "paramsGenerator": "function paramsGenerator(data, val, index, node, oldVal, form) {\r\n    //绑定组索引对应的函数处理，用来动态生成复杂的参数变量传入\r\n    switch (index) {\r\n        case 0:\r\n            break;\r\n        case 1:\r\n            break;\r\n        case 2:\r\n            break;\r\n        default:\r\n            break;\r\n    }\r\n    return val;\r\n}",
+        "_bindEvents_0-list": [
+          "*",
+          "onChange"
+        ],
+        "_bindEvents_1-list": [
+          "*",
+          "onChange"
+        ]
+      }
+    },
+    {
+      "c": "ht.Edge",
+      "i": 151100,
+      "p": {
+        "name": "edge",
+        "displayName": "0（edge5'）",
+        "toolTip": "<div id=\"config_tooltip\" style=\"font-size:12px;line-height:1.75em;letter-spacing:1px\">\n                                                        关联绑定信息：<br>\n                                                        <li style=\"list-style-type:disc;color:rgba(255,255,255,0.5);\">索引序号：0 | 总共2条</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold;\">操作属性：inputs@func1</li>\n                                                        <li style=\"list-style-type:none;color:rgba(255,255,255,0.5)\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;当前值：0</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold\">关联属性：select@按钮组</li>\n                                                        <li style=\"list-style-type:none;color:rgba(255,255,255,0.5)\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;关联值：0</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold;\">解析赋值：null</li>\n                                                        <li style=\"list-style-type:disc;\">注释：<span style=\"color:rgb(125,195,125)\">1）传递当前按钮索引。\n<br></span></li>\n                                                    </div>",
+        "parent": {
+          "__i": 151099
+        },
+        "tag": "edge5'",
+        "source": {
+          "__i": 151099
+        },
+        "target": {
+          "__i": 151102
+        }
+      },
+      "s": {
+        "label": "",
+        "edge.color": "rgb(51,153,255)",
+        "edge.width": 4,
+        "edge.type": "h.v",
+        "edge.gap": 16,
+        "note.border.width": 0,
+        "note.position": 7,
+        "note.font": "14px arial, sans-serif",
+        "note.opacity": 0.75,
+        "label.opacity": 0,
+        "note.background": "rgb(51,153,255)",
+        "note.offset.x": 0,
+        "note.offset.y": 0,
+        "icons": {
+          "symbols/demo/extra/basic/fromArrow2.json": {
+            "position": 15,
+            "keepOrien": true,
+            "names": [
+              "symbols/demo/extra/basic/fromArrow2.json"
+            ]
+          },
+          "symbols/demo/extra/basic/toArrow.json": {
+            "position": 19,
+            "keepOrien": true,
+            "width": 50,
+            "height": 20,
+            "names": [
+              "symbols/demo/extra/basic/toArrow.json"
+            ]
+          }
+        },
+        "note": "1）传递当前按钮索引",
+        "label.position": 16,
+        "edge.ripple.size": 2,
+        "edge.ripple.length": 0,
+        "edge.ripple.elevation": 100,
+        "edge.ripple.both": true
+      },
+      "a": {
+        "index": 0,
+        "toolTipRaw": "<div id=\"config_tooltip\" style=\"font-size:12px;line-height:1.75em;letter-spacing:1px\">\n                                                        关联绑定信息：<br>\n                                                        <li style=\"list-style-type:disc;color:rgba(255,255,255,0.5);\">索引序号：0 | 总共2条</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold;\">操作属性：inputs@func1</li>\n                                                        <li style=\"list-style-type:none;color:rgba(255,255,255,0.5)\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;当前值：0</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold\">关联属性：select@按钮组</li>\n                                                        <li style=\"list-style-type:none;color:rgba(255,255,255,0.5)\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;关联值：0</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold;\">解析赋值：null</li>\n                                                        <li style=\"list-style-type:disc;\">注释：<span style=\"color:rgb(125,195,125)\">1）传递当前按钮索引。\n<br></span></li>\n                                                    </div>"
+      }
+    },
+    {
+      "c": "ht.Edge",
+      "i": 151101,
+      "p": {
+        "name": "edge",
+        "displayName": "1（edge5）",
+        "toolTip": "<div id=\"config_tooltip\" style=\"font-size:12px;line-height:1.75em;letter-spacing:1px\">\n                                                        关联绑定信息：<br>\n                                                        <li style=\"list-style-type:disc;color:rgba(255,255,255,0.5);\">索引序号：1 | 总共2条</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold;\">操作属性：exec@输出</li>\n                                                        <li style=\"list-style-type:none;color:rgba(255,255,255,0.5)\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;当前值：false</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold\">关联属性：</li>\n                                                        <li style=\"list-style-type:none;color:rgba(255,255,255,0.5)\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;关联值：</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold;\">解析赋值：null</li>\n                                                        <li style=\"list-style-type:disc;\">注释：<span style=\"color:rgb(125,195,125)\">1。\n<br></span></li>\n                                                    </div>",
+        "parent": {
+          "__i": 151099
+        },
+        "tag": "edge5",
+        "source": {
+          "__i": 151099
+        },
+        "target": {
+          "__i": 151106
+        }
+      },
+      "s": {
+        "label": "",
+        "edge.color": "#FF7C7C",
+        "edge.width": 3,
+        "edge.type": "flex",
+        "edge.gap": 16,
+        "note.border.width": 0,
+        "note.position": 7,
+        "note.font": "14px arial, sans-serif",
+        "note.opacity": 0.75,
+        "label.opacity": 0,
+        "note.background": "#FF7C7C",
+        "note.offset.x": 0,
+        "note.offset.y": 0,
+        "icons": {
+          "symbols/demo/extra/basic/fromArrow2.json": {
+            "position": 15,
+            "keepOrien": true,
+            "names": [
+              "symbols/demo/extra/basic/fromArrow2.json"
+            ]
+          },
+          "symbols/demo/extra/basic/toArrow.json": {
+            "position": 19,
+            "keepOrien": true,
+            "width": 50,
+            "height": 20,
+            "names": [
+              "symbols/demo/extra/basic/toArrow.json"
+            ]
+          }
+        },
+        "note": 1
+      },
+      "a": {
+        "index": 1,
+        "toolTipRaw": "<div id=\"config_tooltip\" style=\"font-size:12px;line-height:1.75em;letter-spacing:1px\">\n                                                        关联绑定信息：<br>\n                                                        <li style=\"list-style-type:disc;color:rgba(255,255,255,0.5);\">索引序号：1 | 总共2条</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold;\">操作属性：exec@输出</li>\n                                                        <li style=\"list-style-type:none;color:rgba(255,255,255,0.5)\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;当前值：false</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold\">关联属性：</li>\n                                                        <li style=\"list-style-type:none;color:rgba(255,255,255,0.5)\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;关联值：</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold;\">解析赋值：null</li>\n                                                        <li style=\"list-style-type:disc;\">注释：<span style=\"color:rgb(125,195,125)\">1。\n<br></span></li>\n                                                    </div>"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 151102,
+      "p": {
+        "name": "func",
+        "displayName": "工具函数（func1）",
+        "toolTip": "透明传递<br>transfer",
+        "tag": "func1",
+        "dataBindings": {
+          "a": {
+            "userData": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "output": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "inputs": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "exec": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "arrExec": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "onOutput": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            }
+          }
+        },
+        "image": {
+          "modified": "Sun Dec 03 2023 23:38:45 GMT+0800 (中国标准时间)",
+          "background": "rgb(32,37,46)",
+          "dataBindings": [
+            {
+              "attr": "symbol",
+              "valueType": "Image",
+              "name": "组件地址"
+            },
+            {
+              "attr": "color",
+              "valueType": "Color",
+              "defaultValue": "rgb(51,153,255)",
+              "description": "图标颜色。\n<br>包括显示文字。",
+              "group": "功能（关键）",
+              "name": "图标颜色"
+            },
+            {
+              "attr": "function",
+              "valueType": "ToolFunction",
+              "defaultValue": "transfer",
+              "name": "功能选项",
+              "description": "透明传递"
+            },
+            {
+              "attr": "noteTips",
+              "valueType": "Multiline",
+              "name": "函数别名注释",
+              "description": "函数别名注释。\n<br>默认为函数名称，可以修改，方便理解具体用途。\n<br>通常结合“提示”属性做详细功能注释，便于理解当\n<br>前配置下的操作。"
+            },
+            {
+              "attr": "exeWhenInput",
+              "valueType": "Boolean",
+              "defaultValue": false,
+              "name": "输入赋值时执行"
+            },
+            {
+              "attr": "resetAfterInput",
+              "valueType": "Boolean",
+              "name": "输入赋值后清空",
+              "description": "勾选后，每次输入值有更新，在触发下一步（如果有勾选输入时执行）后，同时复位清空输入属性\n的值，确保下一次再输入同样内容时也能按照变化处理触发执行。注意，再多条连线操作inputs输入\n的不同索引index时，该属性不能勾选，否则无法实现多个值连线（异步先后）赋值传入。",
+              "defaultValue": false
+            },
+            {
+              "attr": "inputsArrToObj",
+              "valueType": "Boolean",
+              "name": "输入数组转对象",
+              "description": "是否切换成对象格式。\n<br>输入组（inputs）默认为数组格式，当前属性勾选时\n<br>会将输入组切换成非数组的对象格式，再次取消勾选\n<br>时，会恢复成数组格式。\n<br>\n切换成对象，主要是为了连线操作时，能对初始的非\n<br>数组属性值进行操作，这对于数组取自身索引值对外\n<br>赋值时有用，否则会因为操作数组类型属性值，导致\n<br>被识别为操作目标数组的索引进行赋值。"
+            },
+            {
+              "attr": "stripSingleInput",
+              "valueType": "Boolean",
+              "defaultValue": true,
+              "name": "输入组单个取出",
+              "description": "输入组为数组且只有1个元素时，取出\n<br>这个元素作为实际输入值，代替原先的输入。默\n<br>认inputs为数组格式，手动输入时通常会在数组\n<br>的首元素输入，本属性保持默认勾选时，实际计\n<br>算会以首元素作为实际输入值。\n<br>也可以勾选“输入数组转对象”，此时输入组的属\n<br>性栏由数组切换为对象输入，就可以任意输入非\n<br>数组类型的值了。"
+            },
+            {
+              "attr": "exeWhenLoad",
+              "valueType": "Boolean",
+              "defaultValue": false,
+              "name": "组件加载时执行"
+            },
+            {
+              "attr": "oldValueMerge",
+              "valueType": "Boolean",
+              "defaultValue": false,
+              "name": "输出合并非覆盖",
+              "description": "对被操作的属性值做追加而不是覆盖替换。\n<br>被操作属性值作为旧值，按照值类型（数值、字符串、数组、对象等）追加分为以下\n<br>情况：\n<br>1）如果被赋值的（要操作的旧值）为数组类型，通常会将当前值追加过去而不是覆盖；\n<br>工具函数的输入组（inputs）属性例外，在旧值为空数组或者长度为1的数组时，会被当\n<br>做空值或者以唯一哪个元素的值作为当前的旧值，不当做数组类型的操作来追加。\n<br>2）被赋值的为空（注意，并非0、空字符串等\"空\"值）时，输入（组）中一个或多个输\n<br>入项，会合并成一个值输出。其中，合并取决于输入组的类型（输入组多个值中类型数\n<br>量最多的被认为是当前输入组的值类型），具体如下:\n<br>    ■ 数字：输入组各项强制转换成数值并相加，将结果输出；\n<br>    ■ 字符串：输入组各项转成字符串依次拼接形成新的字符串输出；\n<br>    ■ 布尔型：输入组的各项转换成布尔然后做并集（或）后逻辑结果输出；\n<br>    ■ 对象：输入组各项被当成对象，然后字段合并成新对象后输出；\n<br>强制转换这里需注意：\n<br>    ■ 非空字符串转数值时，除了\"true\"（大小写均可）会作为1，其他字符串会作为0；\n<br>3）被赋值的不为空，有具体类型时，比如数字、字符串、布尔、对象类型，此时输入\n<br>组各项值，不再按照类型的多数（如果存在多个输入项）来强制转换少数输入项，而是\n<br>统一按照操作赋值的旧值类型，来转换输入的各项，并且按照类型类自动选择合适的合\n<br>并方式（如上），生成结果来赋值。\n<br>    ○ 注意1：多项输入和旧值会参与一起做合并操作，并非仅仅输入组的各项之间进行。\n<br>    ○ 注意2：如果输入值并非数组，会作当成输入组且元素个数为1的情况来处理。"
+            },
+            {
+              "attr": "inputs",
+              "valueType": "ObjectArray",
+              "name": "输入（组）",
+              "defaultValue": [],
+              "description": "用于接收函数参数输入，默认为数组格式，可以设置多个入参。\n<br>外部可以多条连线操作该属性，利用数组操作特性，在各自的连线操作\n<br>中bindControlsVal中设置对应的索引值，用来指定传入输入数组中指定\n<br>值，实现多参数传入。\n<br>\n注意，对于透明传递不做任何业务逻辑处理时，默认会将输入组的值直接输\n<br>出，默认以空（undefined）对外操作赋值，通常用于对外清空值。\n<br>此外，输入组长度为1时，将去掉数组后以元素本身值对外输出，比如\n<br>[1]、['hello']、[true]，['']会被当做1、'hello'、true、''输出。长度大于1的\n<br>输入组，对外输出则是正常的数组值。"
+            },
+            {
+              "attr": "delay",
+              "valueType": "PositiveNumber",
+              "defaultValue": 0,
+              "name": "延时执行毫秒"
+            },
+            {
+              "attr": "exec",
+              "valueType": "Boolean",
+              "defaultValue": false,
+              "name": "执行"
+            },
+            {
+              "attr": "arrExec",
+              "valueType": "Boolean",
+              "defaultValue": false,
+              "name": "遍历执行",
+              "description": "数组循环遍历执行。\n<br>准输出值如果是数组时，自动拆成多\n<br>个元素，依次对外触发。相当于在连\n<br>线静态值bindControlsVal中依次填入\n<br>从0到n-1后，再点击常规“执行”。\n<br>对于透明传递而言，通常输出就等于\n<br>输入，因此也相当于将输入的多个参\n<br>数（数组元素），依次填入触发执行。"
+            },
+            {
+              "attr": "whenOutputing",
+              "valueType": "MultiComboBox",
+              "name": "whenOutputing"
+            },
+            {
+              "attr": "changeOutputTo",
+              "valueType": "MultiComboBox",
+              "extraInfo": {
+                "enum": {
+                  "values": [
+                    "不转换",
+                    "空对象（null）",
+                    "未定义（undefined）",
+                    "空字符串（\"\"）",
+                    "否（false）",
+                    "等于零（0）"
+                  ]
+                }
+              },
+              "defaultValue": "不转换",
+              "name": "changeOutputTo"
+            },
+            {
+              "attr": "output",
+              "valueType": "Object",
+              "name": "输出",
+              "description": "函数输出。\n<br>当函数执行、遍历执行或输入赋值执行时，函数输出，\n<br>如果有对外连线，则会触发将输出值传递出去。\n<br>如果函数所在页面作为内嵌，将继承到上层的输出属\n<br>性对外连线对外，那么内嵌函数的执行，同样会触发\n<br>上层对外连线传递值。\n<br>注意，不论是当前层还是嵌套层，所有对工具函数输\n<br>出属性的直接赋值，只会改变属性值本身，不会触发\n<br>连线操作对外传递，只有通过前面说的几种函数本身\n<br>的执行操作才会触发连线操作。\n<br>"
+            },
+            {
+              "attr": "bindControlsTag",
+              "valueType": "StringArray",
+              "group": "bindControls"
+            },
+            {
+              "attr": "bindControlsAttr",
+              "valueType": "StringArray"
+            },
+            {
+              "attr": "bindControlsVal",
+              "valueType": "ObjectArray",
+              "description": "静态值。也用作数组索引、JSON对象解析提取值用途。\n<br>一、静态值用途：\n<br>对常规类型的属性赋值且没有反向关联属性值，传入为数值时，不\n<br>会作为数组的索引，而会当成常量值对外赋值。此外，存在特殊值：\n<br>~和undefined表示过滤、不触发；null为默认值，表示传递默认表\n<br>单数据。编辑状态下清空后保存与设置null等价。\n<br>二、数组索引用途\n<br>情况1：被操作的组件属性原先值是数组时（包括空数组），会将\n<br>待输出的值作为被操作数组指定索引的值来传入，而不是整体覆盖。\n<br>情况2：如果要被操作的组件属性原先值不是数组，而且待输出的\n<br>值为数组类型并且长度也在索引范围内，那么会按照索引取自身数\n<br>组指定元素再对外输出。（如果想要取待输出索引值，赋值给被操\n<br>纵属性的指定索引，那么需要中间组件属性连线过渡以下，无法直\n<br>接操作）\n<br>情况3：如果要被操作的组件属性是数组，而且待输出的值也是数组\n<br>类型，此时当情况1来处理。\n<br>三、数据解析用途：\n<br>待输出的值为JSON对象时，用x.y.z这种以字符.或者>为间隔的方式\n<br>实现对JSON字段层次逐层定位，当是数组时x.0.y.1这种以数字的方\n<br>式来指定数组的某个索引。以此实现对任意结果JSON对象字段的定\n<br>位，获取结构内指定字段对应的值。"
+            },
+            {
+              "attr": "paramControlTag",
+              "valueType": "StringArray"
+            },
+            {
+              "attr": "paramControlAttr",
+              "valueType": "StringArray"
+            },
+            {
+              "attr": "paramsGenerator",
+              "valueType": "Function",
+              "defaultValue": "__ht__function(data, val, index, node, oldVal, form, type, inner) {//绑定组索引对应的函数处理，用来动态生成复杂的参数变量传入\r\nswitch(index){\r\n    case 0:\r\n        break;\r\n    case 1:\r\n        break;\r\n    case 2:\r\n        break;\r\n    default:\r\n        break;\r\n}\r\n\r\nreturn val;}",
+              "extraInfo": {
+                "arguments": [
+                  "data",
+                  "val",
+                  "index",
+                  "node",
+                  "oldVal",
+                  "form",
+                  "type",
+                  "inner"
+                ]
+              }
+            },
+            {
+              "attr": "useAttrCORS",
+              "valueType": "Boolean",
+              "defaultValue": false,
+              "description": "属性同源操作。\n                连线操作传递是否限定双方。比如有A/B/C/D/O五个组件，连线操作关系：\n                A→O、B→O、C→O、D→O，以及O→A、O→B、O→C、O→D，总结为\n                A、B、C、D分别与O有往返操作。\n                默认不勾选该属性时，A到D任何一个向O的连线操作，都不会影响到O自身\n                对A到D的下一步操作。勾选了该属性后，那么每次相邻的两次连线交互，\n                则会有同源选择性，比如A→O，下一步则O之会选择到A的操作即O→A。\n                同源操作通常用户多个组件共用一个配置弹窗的情况，比如上述A、B、C、D\n                相当于是四个同类型的组件，而O是公共的属性配置窗口，任何一个比如A点\n                击，可通过O弹窗显示属性，然后修改后将属性值回写到A，且并不会将值给\n                到其他几个组件，即便有连线在。\n                同源操作规则：当连线满足A/B→O.x，且有O.x→A/B时，即前一次组件A连线\n                操作O的x属性，那么，O对外触发且关联x属性值对外时，勾选了本属性同源\n                属性操作的前提下，将只会执行O.x→A，而忽略O.x→B/C等其他非A的图元组\n                件的连线操作。",
+              "dynamicCreate": true
+            },
+            {
+              "attr": "userData",
+              "valueType": "ObjectArray",
+              "defaultValue": [],
+              "description": "用户数据。"
+            },
+            {
+              "attr": "onOutput",
+              "valueType": "Function",
+              "description": "输出事件。",
+              "extraInfo": {
+                "arguments": [
+                  "data",
+                  "gv",
+                  "cache",
+                  "value"
+                ]
+              }
+            }
+          ],
+          "renderHTML": "__ht__function(data, gv, cache) {return __convertor(data,gv,cache);}",
+          "width": 45,
+          "height": 40,
+          "comps": [
+            {
+              "type": "image",
+              "color": {
+                "func": "__ht__function(data, view) {\nlet color = data.ca('color');\r\ndata.s('label.color',color);\r\nreturn color;\n}",
+                "value": "rgb(51,153,255)"
+              },
+              "name": "symbols/develop/uiotos/icons/editroToolBar/function.json",
+              "shadowColor": "rgb(61,61,61)",
+              "displayName": "node_image",
+              "rect": [
+                0.53882,
+                4.53779,
+                43.92236,
+                30.92443
+              ]
+            }
+          ],
+          "uuid": "D1A446F7-D685-45BE-B6AA-D87258BF1371"
+        },
+        "position": {
+          "x": 15.15461,
+          "y": 310.09005
+        },
+        "width": 45,
+        "height": 45
+      },
+      "s": {
+        "label.position": 21,
+        "label.offset.y": 0,
+        "interactive": true,
+        "image.stretch": "uniform",
+        "2d.editable": false,
+        "select.width": 0.5,
+        "select.type": "roundRect",
+        "select.color": "rgb(124,145,155)",
+        "label": "将选择索引透明传递\n让按钮组对外连线0\n赋值名称列表，以索\n引取值再给出去。",
+        "label.font": "26px Microsoft YaHei",
+        "label.color": "rgb(51,153,255)",
+        "label.align": "left",
+        "note.font": "22px arial, sans-serif",
+        "note.color": "rgb(212,0,0)",
+        "note.background": "rgb(255,235,195)",
+        "note.position": 3,
+        "note.offset.x": 0,
+        "note.offset.y": -5,
+        "note.border.width": 10,
+        "note.border.color": "rgb(255,235,195)",
+        "note.opacity": 0,
+        "note.align": "left",
+        "note": "[func4] 工具函数输入时执行时，通常需要勾选“赋值后\n清空”，否则会导致组件按钮组（bts1）的关联属性sele\nct，通过索引为0的连线传入相同值（未变化）时不会触 \n发执行。                                          ",
+        "opacity": 1
+      },
+      "a": {
+        "noteTips": "将选择索引透明传递\n让按钮组对外连线0\n赋值名称列表，以索\n引取值再给出去。",
+        "bindEvents": [
+          "*",
+          "onOutput"
+        ],
+        "输出遇到空值": "全部（*）",
+        "输出遇到空值-list": [
+          "全部（*）",
+          "空对象（null）",
+          "未定义（undefined）",
+          "空字符串（\"\"）",
+          "否（false）",
+          "等于零（0）",
+          "小于零（<0）",
+          "NaN"
+        ],
+        "arrExec": false,
+        "symbol": "symbols/develop/uiotos/base/__convertor.json",
+        "inputs": 0,
+        "paramControlTag": [
+          null
+        ],
+        "paramControlAttr": [
+          "output"
+        ],
+        "bindControlsTag": [
+          "数据组"
+        ],
+        "bindControlsAttr": [
+          "bindControlsVal"
+        ],
+        "bindControlsVal": [
+          0
+        ],
+        "oldDynamicAttrs": [
+          {
+            "attr": "_bindEvents_0",
+            "valueType": "MultiComboBox",
+            "defaultValue": "*",
+            "group": "bindEvents",
+            "description": "连线索引[0]的触发事件过滤器，默认全部通过",
+            "dynamicCreate": true
+          }
+        ],
+        "exeWhenInput": true,
+        "output": 0,
+        "exec": false,
+        "resetAfterInput": true,
+        "icon": "symbols/develop/uiotos/icons/functions/function.json",
+        "_forbidInherit": true,
+        "toolTipRaw": "透明传递<br>transfer",
+        "_bindEvents_0-list": [
+          "*",
+          "onOutput"
+        ]
+      }
+    },
+    {
+      "c": "ht.Edge",
+      "i": 151103,
+      "p": {
+        "name": "edge",
+        "displayName": "0（edge5''）",
+        "toolTip": "<div id=\"config_tooltip\" style=\"font-size:12px;line-height:1.75em;letter-spacing:1px\">\n                                                        关联绑定信息：<br>\n                                                        <li style=\"list-style-type:disc;color:rgba(255,255,255,0.5);\">索引序号：0 | 总共1条</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold;\">操作属性：bindControlsVal@数据组</li>\n                                                        <li style=\"list-style-type:none;color:rgba(255,255,255,0.5)\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;当前值：0...</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold\">关联属性：output@func1</li>\n                                                        <li style=\"list-style-type:none;color:rgba(255,255,255,0.5)\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;关联值：0</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold;\">解析赋值：0</li>\n                                                        <li style=\"list-style-type:disc;\">注释：<span style=\"color:rgb(125,195,125)\">2）按钮索引传给下拉框。\n<br>操作下拉框的赋值解析属性（bincControlsVal），\n<br>其中当前连线的赋值解析配置为0，这样指定将\n<br>按钮索引值传递给下拉框第一条连线解析赋值。</span></li>\n                                                    </div>",
+        "parent": {
+          "__i": 151102
+        },
+        "tag": "edge5''",
+        "source": {
+          "__i": 151102
+        },
+        "target": {
+          "__i": 151104
+        }
+      },
+      "s": {
+        "label": "操作下拉框的赋值解析属性（bincControlsVal），\n其中当前连线的赋值解析配置为0，这样指定将\n按钮索引值传递给下拉框第一条连线解析赋值。",
+        "edge.color": "rgb(51,153,255)",
+        "edge.width": 4,
+        "edge.type": "v.h",
+        "edge.gap": 16,
+        "note.border.width": 0,
+        "note.position": 7,
+        "note.font": "14px arial, sans-serif",
+        "note.opacity": 0.75,
+        "label.opacity": 0,
+        "note.background": "rgb(51,153,255)",
+        "note.offset.x": 0,
+        "note.offset.y": 0,
+        "icons": {
+          "symbols/demo/extra/basic/fromArrow2.json": {
+            "position": 15,
+            "keepOrien": true,
+            "names": [
+              "symbols/demo/extra/basic/fromArrow2.json"
+            ]
+          },
+          "symbols/demo/extra/basic/toArrow.json": {
+            "position": 19,
+            "keepOrien": true,
+            "width": 50,
+            "height": 20,
+            "names": [
+              "symbols/demo/extra/basic/toArrow.json"
+            ]
+          }
+        },
+        "note": "2）按钮索引传给下拉框",
+        "label.position": 33
+      },
+      "a": {
+        "index": 0,
+        "toolTipRaw": "<div id=\"config_tooltip\" style=\"font-size:12px;line-height:1.75em;letter-spacing:1px\">\n                                                        关联绑定信息：<br>\n                                                        <li style=\"list-style-type:disc;color:rgba(255,255,255,0.5);\">索引序号：0 | 总共1条</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold;\">操作属性：bindControlsVal@数据组</li>\n                                                        <li style=\"list-style-type:none;color:rgba(255,255,255,0.5)\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;当前值：0...</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold\">关联属性：output@func1</li>\n                                                        <li style=\"list-style-type:none;color:rgba(255,255,255,0.5)\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;关联值：0</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold;\">解析赋值：0</li>\n                                                        <li style=\"list-style-type:disc;\">注释：<span style=\"color:rgb(125,195,125)\">2）按钮索引传给下拉框。\n<br>操作下拉框的赋值解析属性（bincControlsVal），\n<br>其中当前连线的赋值解析配置为0，这样指定将\n<br>按钮索引值传递给下拉框第一条连线解析赋值。</span></li>\n                                                    </div>"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 151104,
+      "p": {
+        "name": "cbox",
+        "displayName": "下拉框（数据组）",
+        "toolTip": "<p style=\"color: rgb(242, 83, 75); margin-top: 5px; margin-bottom: -15px; font-weight: bold; line-height: 1.5em;\">已被布局，不允许拖动</p><span style='color:rgb(125,195,125);line-height:2em;letter-spacing:1px;'>\n<br>下拉框的datas属性用于填入自定义的数组，\n<br>对应按钮组的索引，这样按钮组的显示文字、\n<br>索引，就有了对应的自定义数据选项。</span>",
+        "tag": "数据组",
+        "dataBindings": {
+          "a": {
+            "datas": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "__ht__function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}",
+              "alias": ""
+            },
+            "value": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "onChange": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "onOpened": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "defaultIndex": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "selectedID": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "selectedText": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "open": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "readOnly": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "disabled": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "_bindEvents_0": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            }
+          }
+        },
+        "image": {
+          "modified": "Sat Oct 07 2023 07:46:34 GMT+0800 (中国标准时间)",
+          "background": "rgb(32,37,46)",
+          "dataBindings": [
+            {
+              "attr": "symbol",
+              "valueType": "Image"
+            },
+            {
+              "attr": "fixedHeight",
+              "valueType": "PositiveNumber",
+              "defaultValue": 35,
+              "group": "功能（关键）"
+            },
+            {
+              "attr": "reset",
+              "valueType": "Level2",
+              "defaultValue": 0
+            },
+            {
+              "attr": "activeBorderColor",
+              "valueType": "Color",
+              "defaultValue": "rgb(51,153,255)"
+            },
+            {
+              "attr": "background",
+              "valueType": "Color"
+            },
+            {
+              "attr": "activeReadOnlyBackground",
+              "valueType": "Color",
+              "defaultValue": "rgb(247,247,247)",
+              "description": "只读时默认背景色。"
+            },
+            {
+              "attr": "hoverReadOnlyBackground",
+              "valueType": "Color",
+              "defaultValue": "rgb(247,247,247)",
+              "description": "只读滑过时背景色。"
+            },
+            {
+              "attr": "hoverIcon",
+              "valueType": "Color"
+            },
+            {
+              "attr": "color",
+              "valueType": "Color"
+            },
+            {
+              "attr": "borderRadius",
+              "valueType": "Number",
+              "defaultValue": 3
+            },
+            {
+              "attr": "borderWidth",
+              "valueType": "Number",
+              "defaultValue": 1
+            },
+            {
+              "attr": "borderColor",
+              "valueType": "Color",
+              "defaultValue": "rgb(213,213,213)"
+            },
+            {
+              "attr": "font",
+              "valueType": "Font"
+            },
+            {
+              "attr": "datas",
+              "valueType": "Object",
+              "defaultValue": [
+                {
+                  "name": "Button",
+                  "children": [
+                    {
+                      "name": "ToggleButton",
+                      "children": [
+                        {
+                          "name": "CheckBox",
+                          "_parentId": "ToggleButton"
+                        },
+                        {
+                          "name": "RadioButton",
+                          "_parentId": "ToggleButton"
+                        }
+                      ],
+                      "_parentId": "Button"
+                    },
+                    {
+                      "name": "MenuButton",
+                      "_parentId": "Button"
+                    }
+                  ],
+                  "_parentId": null
+                },
+                {
+                  "name": "TextField",
+                  "children": [
+                    {
+                      "name": "ComboBox",
+                      "_parentId": "TextField"
+                    },
+                    {
+                      "name": "NumberInput",
+                      "_parentId": "TextField"
+                    }
+                  ],
+                  "_parentId": null
+                }
+              ],
+              "description": "数据源。\n<br>下拉列表的数据格式，可以是基本列表比如：\n<br>['星期一' , '星期二' , '星期三' ]这样的结构。\n<br>也可以是对象列表，其中需要有name、value\n<br>两个字段，分别用于作为显示名称和数据ID，\n<br>其中value字段的值可以是字符串、数字等类型：\n<br>[{\n<br>        \"name\": \"不限\",\n<br>        \"value\": \"\"\n<br>    },{\n<br>        \"name\": \"故障\",\n<br>        \"value\": \"fault\"\n<br>    },{\n<br>        \"name\": \"报警\",\n<br>        \"value\": \"alarm\"\n<br>}]"
+            },
+            {
+              "attr": "value",
+              "valueType": "Object",
+              "description": "选中值。\n<br>通常结合选中ID（selectedID）和选中名称（selectedText）\n<br>属性使用。可以是对象、ID数字、或者显示字符串，将自动\n<br>识别匹配格式。\n<br>如果是对象并且带有name、value字段时，会自动同步属性\n<br>selectedID和selectedText。\n<br>此外，下拉框数据源为普通列表比如['a','b','c','d']时，这里设\n<br>定value值需要再列表字符串中存在，或者如果设定值是数字\n<br>或数字的字符串，那么对应的列表索引需要存在，此时会自\n<br>动转成列表对应的项作为值。\n<br>下拉框数据源为对象结构的列表时，允许value设定值在列表\n<br>对象中不存在，保持显示。\n<br>注意，如果value值为undefined或null时，相当于复位，value\n<br>属性值则取决于defaultIndex属性确定的默认显示项。\n<br>如果传入空字符串\"\"，不等同于复位，会直接清空显示。如果\n<br>数据源有配置值为空字符串的\"\"，那么按照配置的name字段显\n<br>示，通常源自空信息属性noneInfo配置，索引为1的如果配置\n<br>是空字符串\"\"，那么索引为0的文字将被用于显示。",
+              "defaultValue": ""
+            },
+            {
+              "attr": "noDatasKeepVal",
+              "valueType": "Boolean",
+              "description": "value属性值是否在datas数据为空时保持。\n<br>默认勾选，当datas属性为空数组时，对value属性\n<br>任意设置值时，会被自动清空；当不勾选时，则会\n<br>保留value中非空属性值，即便此时下拉列表为空。",
+              "defaultValue": true
+            },
+            {
+              "attr": "selectedID",
+              "valueType": "PositiveNumber",
+              "description": "选中ID。\n<br>当前选中的项对应的ID值。当写入时，与在value属性中\n<br>设置ID值效果等同。注意，如果下拉框内容是文字列表，\n<br>那么这里ID就是序号。设置ID与在value属性中设置效果\n<br>等同。",
+              "defaultValue": -1
+            },
+            {
+              "attr": "selectedText",
+              "valueType": "Object",
+              "description": "选中名称。\n<br>当前选中的项对应的名称文字。注意，在树形结构中，由于\n<br>不同层级显示文字可以重复，此时会默认以一个匹配项作为\n<br>选中。简单列表结构则一般不会有重复显示。设置时与value\n<br>属性中设置的效果等同。",
+              "defaultValue": ""
+            },
+            {
+              "attr": "defaultIndex",
+              "valueType": "Int",
+              "defaultValue": 0,
+              "description": "默认显示项的索引。\n<br>整数，代表从0开始的下拉索引。同时也\n<br>支持负数索引，比如-1，为下拉列表的倒\n<br>数第一项、-3为倒数第三项。\n<br>注意，该属性配置要生效，设定默认显示\n<br>项目，需要保证value属性为清空状态，即\n<br>undefined或空字符串\"\"。一旦有设定非空\n<br>的value值，本属性设定的默认显示项无效，\n<br>将显示value属性配置的值。"
+            },
+            {
+              "attr": "nodeUsable",
+              "valueType": "Boolean",
+              "defaultValue": false
+            },
+            {
+              "attr": "hasNoneItem",
+              "valueType": "Boolean",
+              "defaultValue": false,
+              "description": "有空选项。"
+            },
+            {
+              "attr": "noneInfo",
+              "valueType": "ObjectArray",
+              "defaultValue": [
+                "无",
+                -1,
+                ""
+              ],
+              "description": "空选项配置。\n<br>当勾选了“有空选项”（hasNoneItem）时，当前属性配置生效。\n<br>- 数组索引0用于配置空选项的显示文字，为第一个下拉选项。\n<br>- 数组索引1对应选择空时，选中ID（selectedID）的属性值。\n<br>- 数组索引2则对应选中值（value）。\n<br>注意，动态配置索引1和索引2，通常用于下拉选择空时，对外\n<br>连线赋值清空，结合“清空时”（onEmpty）事件。该事件属于\n<br>\"变化时\"（onChange）事件的子集，因此也可以直接用“变化\n<br>时”（onChange）事件，结合当前属性来对外做重置清空。"
+            },
+            {
+              "attr": "readOnly",
+              "valueType": "Boolean",
+              "defaultValue": false
+            },
+            {
+              "attr": "allowChoosing",
+              "valueType": "Function",
+              "extraInfo": {
+                "arguments": [
+                  "data",
+                  "gv",
+                  "cache",
+                  "content",
+                  "item"
+                ]
+              }
+            },
+            {
+              "attr": "placeholder",
+              "valueType": "String",
+              "defaultValue": "关键词"
+            },
+            {
+              "attr": "labelColor",
+              "valueType": "Color",
+              "defaultValue": "rgb(0,0,0)"
+            },
+            {
+              "attr": "labelText",
+              "valueType": "String",
+              "defaultValue": "下拉框"
+            },
+            {
+              "attr": "gap",
+              "valueType": "PositiveNumber",
+              "defaultValue": 15
+            },
+            {
+              "attr": "layoutVertical",
+              "valueType": "Boolean",
+              "defaultValue": false
+            },
+            {
+              "attr": "labelEmbeded",
+              "valueType": "Boolean"
+            },
+            {
+              "attr": "open",
+              "valueType": "Boolean",
+              "defaultValue": false,
+              "group": "DropDown"
+            },
+            {
+              "attr": "disabled",
+              "valueType": "Boolean",
+              "defaultValue": false,
+              "description": "禁止下拉。\n<br>通常作为“只读（readOnly）”属性的补充，勾选后，会自动\n<br>强制设置为只读，并且无法下拉选择。单独只勾选只读属性\n<br>时，用户无法输入编辑，但是可以下拉选择。\n<br>对于表单页面的查看模式下，下拉框通常需要勾选该属性，\n<br>无需手动再勾选只读属性。"
+            },
+            {
+              "attr": "treeBoxShadow",
+              "valueType": "String",
+              "defaultValue": "0px 8px 22px rgba(0,0,0,0.1)"
+            },
+            {
+              "attr": "treeBackground",
+              "valueType": "Color",
+              "defaultValue": "rgb(255,255,255)"
+            },
+            {
+              "attr": "treeLabelColor",
+              "valueType": "Color",
+              "defaultValue": "rgb(61,61,61)"
+            },
+            {
+              "attr": "treeHoverLabelColor",
+              "valueType": "Color",
+              "defaultValue": "rgb(51,153,255)"
+            },
+            {
+              "attr": "treeSelectLabelColor",
+              "valueType": "Color",
+              "defaultValue": "rgb(51,153,255)"
+            },
+            {
+              "attr": "treeLabelFont",
+              "valueType": "Font",
+              "defaultValue": "12px sans-serif, Arial"
+            },
+            {
+              "attr": "treeRowHeight",
+              "valueType": "PositiveNumber",
+              "defaultValue": 25
+            },
+            {
+              "attr": "treeRowLineColor",
+              "valueType": "Color",
+              "defaultValue": "rgb(247,247,247)"
+            },
+            {
+              "attr": "treeRowBackground",
+              "valueType": "Color",
+              "defaultValue": "rgb(255,255,255)"
+            },
+            {
+              "attr": "treeSelectRowBackground",
+              "valueType": "Color",
+              "defaultValue": "rgb(247,247,247)"
+            },
+            {
+              "attr": "treeFocusRowBackground",
+              "valueType": "Color",
+              "defaultValue": "rgb(247,247,247)"
+            },
+            {
+              "attr": "treeBorderWidth",
+              "valueType": "PositiveNumber",
+              "defaultValue": 0
+            },
+            {
+              "attr": "treeBorderColor",
+              "valueType": "Color"
+            },
+            {
+              "attr": "treeBorderRadius",
+              "valueType": "NumberArray",
+              "defaultValue": [
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "attr": "treePadding",
+              "valueType": "NumberArray",
+              "defaultValue": [
+                5,
+                0,
+                5,
+                0
+              ]
+            },
+            {
+              "attr": "bindControlsTag",
+              "valueType": "StringArray",
+              "group": "bindControls"
+            },
+            {
+              "attr": "bindControlsAttr",
+              "valueType": "StringArray"
+            },
+            {
+              "attr": "bindControlsVal",
+              "valueType": "ObjectArray",
+              "description": "静态值。也用作数组索引、JSON对象解析提取值用途。\n<br>一、静态值用途：\n<br>对常规类型的属性赋值且没有反向关联属性值，传入为数值时，不\n<br>会作为数组的索引，而会当成常量值对外赋值。此外，存在特殊值：\n<br>~和undefined表示过滤、不触发；null为默认值，表示传递默认表\n<br>单数据。编辑状态下清空后保存与设置null等价。\n<br>二、数组索引用途\n<br>情况1：被操作的组件属性原先值是数组时（包括空数组），会将\n<br>待输出的值作为被操作数组指定索引的值来传入，而不是整体覆盖。\n<br>情况2：如果要被操作的组件属性原先值不是数组，而且待输出的\n<br>值为数组类型并且长度也在索引范围内，那么会按照索引取自身数\n<br>组指定元素再对外输出。（如果想要取待输出索引值，赋值给被操\n<br>纵属性的指定索引，那么需要中间组件属性连线过渡以下，无法直\n<br>接操作）\n<br>情况3：如果要被操作的组件属性是数组，而且待输出的值也是数组\n<br>类型，此时当情况1来处理。\n<br>三、数据解析用途：\n<br>待输出的值为JSON对象时，用x.y.z这种以字符.或者>为间隔的方式\n<br>实现对JSON字段层次逐层定位，当是数组时x.0.y.1这种以数字的方\n<br>式来指定数组的某个索引。以此实现对任意结果JSON对象字段的定\n<br>位，获取结构内指定字段对应的值。"
+            },
+            {
+              "attr": "paramControlTag",
+              "valueType": "StringArray"
+            },
+            {
+              "attr": "paramControlAttr",
+              "valueType": "StringArray"
+            },
+            {
+              "attr": "paramsGenerator",
+              "valueType": "Function",
+              "defaultValue": "__ht__function(data, val, index, node,oldVal,form,type,inner) {//绑定组索引对应的函数处理，用来动态生成复杂的参数变量传入\r\nswitch(index){\r\n    case 0:\r\n        break;\r\n    case 1:\r\n        break;\r\n    case 2:\r\n        break;\r\n    default:\r\n        break;\r\n}\r\n\r\nreturn val;}",
+              "extraInfo": {
+                "arguments": [
+                  "data",
+                  "val",
+                  "index",
+                  "node",
+                  "oldVal",
+                  "form",
+                  "type",
+                  "inner"
+                ]
+              }
+            },
+            {
+              "attr": "useAttrCORS",
+              "valueType": "Boolean",
+              "defaultValue": false,
+              "description": "属性同源操作。\n                连线操作传递是否限定双方。比如有A/B/C/D/O五个组件，连线操作关系：\n                A→O、B→O、C→O、D→O，以及O→A、O→B、O→C、O→D，总结为\n                A、B、C、D分别与O有往返操作。\n                默认不勾选该属性时，A到D任何一个向O的连线操作，都不会影响到O自身\n                对A到D的下一步操作。勾选了该属性后，那么每次相邻的两次连线交互，\n                则会有同源选择性，比如A→O，下一步则O之会选择到A的操作即O→A。\n                同源操作通常用户多个组件共用一个配置弹窗的情况，比如上述A、B、C、D\n                相当于是四个同类型的组件，而O是公共的属性配置窗口，任何一个比如A点\n                击，可通过O弹窗显示属性，然后修改后将属性值回写到A，且并不会将值给\n                到其他几个组件，即便有连线在。\n                同源操作规则：当连线满足A/B→O.x，且有O.x→A/B时，即前一次组件A连线\n                操作O的x属性，那么，O对外触发且关联x属性值对外时，勾选了本属性同源\n                属性操作的前提下，将只会执行O.x→A，而忽略O.x→B/C等其他非A的图元组\n                件的连线操作。",
+              "dynamicCreate": true
+            },
+            {
+              "attr": "onOpened",
+              "valueType": "Function",
+              "extraInfo": {
+                "arguments": [
+                  "data",
+                  "gv",
+                  "cache",
+                  "value",
+                  "extra"
+                ]
+              }
+            },
+            {
+              "attr": "onChange",
+              "valueType": "Function",
+              "extraInfo": {
+                "arguments": [
+                  "data",
+                  "gv",
+                  "cache",
+                  "value",
+                  "extra"
+                ]
+              }
+            },
+            {
+              "attr": "userData",
+              "valueType": "ObjectArray"
+            },
+            {
+              "attr": "_bindEvents_0",
+              "valueType": "MultiComboBox",
+              "defaultValue": "*",
+              "group": "bindEvents",
+              "description": "连线索引[0]的触发事件过滤器，默认全部通过",
+              "dynamicCreate": true
+            }
+          ],
+          "snapshotURL": "symbols/admin/uiotos/icons/snapshot/combobox.json",
+          "renderHTML": "__ht__function(data, gv, cache) {return __combobox_ui(data,gv,cache);}",
+          "width": 180,
+          "height": 35,
+          "fitSize": true,
+          "scrollable": true,
+          "interactive": true,
+          "pixelPerfect": false,
+          "comps": [],
+          "uuid": "96D1C68F-421D-478A-A412-083769DBF209"
+        },
+        "host": {
+          "__i": 151099
+        },
+        "position": {
+          "x": 203.00545,
+          "y": 197.50697
+        },
+        "width": 180,
+        "height": 35
+      },
+      "s": {
+        "label.opacity": 1,
+        "label.position": 14,
+        "label.offset.x": -10,
+        "label.offset.y": 0,
+        "label.color": "rgb(61,61,61)",
+        "interactive": true,
+        "image.stretch": "uniform",
+        "label": "下拉框",
+        "note.font": "22px arial, sans-serif",
+        "note.color": "rgb(212,0,0)",
+        "note.background": "rgb(255,235,195)",
+        "note.position": 3,
+        "note.offset.x": 0,
+        "note.offset.y": -5,
+        "note.border.width": 10,
+        "note.border.color": "rgb(255,235,195)",
+        "note.opacity": 0,
+        "note.align": "left",
+        "note": "[cbox2] 是否忘记对组件下拉框（cbox2）布局？当页面 \n存在底板时为弹性布局模式，通常所有组件都要求做布局\n。当然，如果仅作为编辑时可见时，勾选“运行时不可见\n”属性即可。                                      ",
+        "2d.movable": false,
+        "layout.h": "leftright",
+        "layout.v": "top"
+      },
+      "a": {
+        "bindEvents": [
+          "*",
+          "onClick",
+          "onChange",
+          "onOpened",
+          "onEmpty"
+        ],
+        "value": "day",
+        "selectedID": 0,
+        "selectedText": "day",
+        "datas": [
+          "day",
+          "month",
+          "year"
+        ],
+        "labelEmbeded": false,
+        "gap": 0,
+        "paramControlTag": [
+          null
+        ],
+        "paramControlAttr": [
+          "datas"
+        ],
+        "bindControlsTag": [
+          "输出"
+        ],
+        "bindControlsAttr": [
+          "inputs"
+        ],
+        "bindControlsVal": [
+          0
+        ],
+        "symbol": "symbols/develop/uiotos/base/combobox-ui.json",
+        "oldDynamicAttrs": [
+          {
+            "attr": "_bindEvents_0",
+            "valueType": "MultiComboBox",
+            "defaultValue": "*",
+            "group": "bindEvents",
+            "description": "连线索引[0]的触发事件过滤器，默认全部通过",
+            "dynamicCreate": true
+          }
+        ],
+        "_hideWhenRun": true,
+        "labelText": "下拉框",
+        "paramBindEvent": [],
+        "paramsGenerator": "function paramsGenerator(data, val, index, node, oldVal, form) {\r\n    //绑定组索引对应的函数处理，用来动态生成复杂的参数变量传入\r\n    switch (index) {\r\n        case 0:\r\n            break;\r\n        case 1:\r\n            break;\r\n        case 2:\r\n            break;\r\n        default:\r\n            break;\r\n    }\r\n    return val;\r\n}",
+        "toolTipRaw": "<p style=\"color: rgb(242, 83, 75); margin-top: 5px; margin-bottom: -15px; font-weight: bold; line-height: 1.5em;\">已被布局，不允许拖动</p><span style='color:rgb(125,195,125);line-height:2em;letter-spacing:1px;'>\n<br>下拉框的datas属性用于填入自定义的数组，\n<br>对应按钮组的索引，这样按钮组的显示文字、\n<br>索引，就有了对应的自定义数据选项。</span>",
+        "_forbidInherit": false,
+        "_bindEvents_0-list": [
+          "*",
+          "onClick",
+          "onChange",
+          "onOpened",
+          "onEmpty"
+        ]
+      }
+    },
+    {
+      "c": "ht.Edge",
+      "i": 151105,
+      "p": {
+        "name": "edge",
+        "displayName": "0（edge5'''）",
+        "toolTip": "<div id=\"config_tooltip\" style=\"font-size:12px;line-height:1.75em;letter-spacing:1px\">\n                                                        关联绑定信息：<br>\n                                                        <li style=\"list-style-type:disc;color:rgba(255,255,255,0.5);\">索引序号：0 | 总共1条</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold;\">操作属性：inputs@输出</li>\n                                                        <li style=\"list-style-type:none;color:rgba(255,255,255,0.5)\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;当前值：day</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold\">关联属性：datas@数据组</li>\n                                                        <li style=\"list-style-type:none;color:rgba(255,255,255,0.5)\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;关联值：day;month;year...</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold;\">解析赋值：0</li>\n                                                        <li style=\"list-style-type:disc;\">注释：*</li>\n                                                    </div>",
+        "parent": {
+          "__i": 151104
+        },
+        "tag": "edge5'''",
+        "source": {
+          "__i": 151104
+        },
+        "target": {
+          "__i": 151106
+        }
+      },
+      "s": {
+        "label": "第2）步连线将按钮组的当前索引传入，作为当前连线\n的解析赋值，作为获取下拉框数组内容项的索引。",
+        "edge.color": "rgba(51,153,255,0)",
+        "edge.width": 4,
+        "edge.type": "flex",
+        "edge.gap": 16,
+        "note.border.width": 0,
+        "note.position": 7,
+        "note.font": "14px arial, sans-serif",
+        "note.opacity": 0.75,
+        "label.opacity": 0,
+        "note.background": "rgb(51,153,255)",
+        "note.offset.x": 0,
+        "note.offset.y": 0,
+        "icons": {
+          "symbols/demo/extra/basic/fromArrow2.json": {
+            "position": 15,
+            "keepOrien": true,
+            "names": [
+              "symbols/demo/extra/basic/fromArrow2.json"
+            ]
+          },
+          "symbols/demo/extra/basic/toArrow.json": {
+            "position": 19,
+            "keepOrien": true,
+            "width": 50,
+            "height": 20,
+            "names": [
+              "symbols/demo/extra/basic/toArrow.json"
+            ]
+          }
+        },
+        "note": "3）取下拉框数组的指定项",
+        "edge.dash.color": "rgba(51,153,255,1)",
+        "edge.dash": true,
+        "edge.dash.pattern": [
+          8,
+          8
+        ]
+      },
+      "a": {
+        "index": 0,
+        "toolTipRaw": "<div id=\"config_tooltip\" style=\"font-size:12px;line-height:1.75em;letter-spacing:1px\">\n                                                        关联绑定信息：<br>\n                                                        <li style=\"list-style-type:disc;color:rgba(255,255,255,0.5);\">索引序号：0 | 总共1条</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold;\">操作属性：inputs@输出</li>\n                                                        <li style=\"list-style-type:none;color:rgba(255,255,255,0.5)\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;当前值：day</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold\">关联属性：datas@数据组</li>\n                                                        <li style=\"list-style-type:none;color:rgba(255,255,255,0.5)\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;关联值：day;month;year...</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold;\">解析赋值：0</li>\n                                                        <li style=\"list-style-type:disc;\">注释：*</li>\n                                                    </div>"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 151106,
+      "p": {
+        "name": "func",
+        "displayName": "工具函数（输出）",
+        "toolTip": "<p style=\"color: rgb(242, 83, 75); margin-top: 5px; margin-bottom: -15px; font-weight: bold; line-height: 1.5em;\">已被布局，不允许拖动</p><span style='color:rgb(125,195,125);line-height:2em;letter-spacing:1px;'>\n<br>注意，需要提前勾选“输入组转对象”属性，\n<br>将输入组默认的数组类型改为对象（非数\n<br>组），这样操作过来连线的静态解析赋值，\n<br>就会作为下拉框列表的取值索引，而不是\n<br>对当前数组的操作索引。</span>",
+        "tag": "输出",
+        "dataBindings": {
+          "a": {
+            "userData": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "output": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "inputs": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "__ht__function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}",
+              "alias": ""
+            },
+            "exec": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "__ht__function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}",
+              "alias": ""
+            },
+            "arrExec": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "onOutput": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "_rawForm": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "inputKeys": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "inputValues": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "convertFlatToTree": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "outputByEvent": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            }
+          }
+        },
+        "image": {
+          "modified": "Thu Dec 14 2023 10:11:29 GMT+0800 (中国标准时间)",
+          "background": "rgb(32,37,46)",
+          "dataBindings": [
+            {
+              "attr": "symbol",
+              "valueType": "Image",
+              "name": "组件地址"
+            },
+            {
+              "attr": "color",
+              "valueType": "Color",
+              "defaultValue": "rgb(51,153,255)",
+              "description": "图标颜色。\n<br>包括显示文字。",
+              "group": "功能（关键）",
+              "name": "图标颜色"
+            },
+            {
+              "attr": "function",
+              "valueType": "ToolFunction",
+              "defaultValue": "transfer",
+              "name": "功能选项",
+              "description": "获取组件属性值。\n                主动获取任意组件的任意属性值，通过连线连入操作自身的输入组（inputs）属性。\n                与常规的连线连出操作不一样，常规是通过组件自身的事件触发连线执行动作，而\n                本函数是主动查取属性值并输出，而连线操作和配置规则都一样，包括连线方向、数\n                据赋值解析等。\n                注意，连入本函数输出入组的线默认为虚线样式。此外，支持多个不同组件的不同属\n                性同时连入当前函数输入组，输出时会自动将这些值进行合并，合并规则如下：\n                1）多条连线分别输入的最终值都是数组时，将数组合并成一个大数组输出，比如三\n                条连线分别传入[1,2],[3],[4,5,6]，那么最终输出[1,2,3,4,5,6]。\n                2）多条连线分别输入的最终值都是对象时，将对象合并成一个大对象输出，比如3\n                条连线分别传入{a:1},{b:2,c:3},{d:4,e:5,f:6}，合并输出为{a:1,b:2,c:3,d:4,\n                e:5,f:6}。\n                3）其他情况下将输出对象，以各自组件的标签tag为key，传入的值为value组成对象。\n                比如4条连线分别传入值为1,{a:2},3,[4,5,6]，分别标签为tag1、tag2、tag3、tag4，\n                那么将输出对象：{tag1:1, tag2:{a:2}, tag3:3, tag4:[4,5,6]}\n                4）如果只有一条连线输入，那么输出就是这条连线的输入值，不会作任何转换处理。\n                同时，还支持对容器组件以表单操作方式连入，关联为空（不选择属性），此时默认获\n                取其formValue表单对象。如果勾选了_rawForm，那么获取完整表单对象作为输入。\n                _rawForm属性的勾选与否，仅对\n                "
+            },
+            {
+              "attr": "noteTips",
+              "valueType": "Multiline",
+              "name": "函数别名注释",
+              "description": "函数别名注释。\n<br>默认为函数名称，可以修改，方便理解具体用途。\n<br>通常结合“提示”属性做详细功能注释，便于理解当\n<br>前配置下的操作。"
+            },
+            {
+              "attr": "exeWhenInput",
+              "valueType": "Boolean",
+              "defaultValue": false,
+              "name": "输入赋值时执行"
+            },
+            {
+              "attr": "resetAfterInput",
+              "valueType": "Boolean",
+              "name": "输入赋值后清空",
+              "description": "勾选后，每次输入值有更新，在触发下一步（如果有勾选输入时执行）后，同时复位清空输入属性\n的值，确保下一次再输入同样内容时也能按照变化处理触发执行。注意，再多条连线操作inputs输入\n的不同索引index时，该属性不能勾选，否则无法实现多个值连线（异步先后）赋值传入。",
+              "defaultValue": false
+            },
+            {
+              "attr": "inputsArrToObj",
+              "valueType": "Boolean",
+              "name": "输入数组转对象",
+              "description": "是否切换成对象格式。\n<br>输入组（inputs）默认为数组格式，当前属性勾选时\n<br>会将输入组切换成非数组的对象格式，再次取消勾选\n<br>时，会恢复成数组格式。\n<br>\n切换成对象，主要是为了连线操作时，能对初始的非\n<br>数组属性值进行操作，这对于数组取自身索引值对外\n<br>赋值时有用，否则会因为操作数组类型属性值，导致\n<br>被识别为操作目标数组的索引进行赋值。",
+              "defaultValue": true
+            },
+            {
+              "attr": "stripSingleInput",
+              "valueType": "Boolean",
+              "defaultValue": true,
+              "name": "输入组单个取出",
+              "description": "输入组为数组且只有1个元素时，取出\n<br>这个元素作为实际输入值，代替原先的输入。默\n<br>认inputs为数组格式，手动输入时通常会在数组\n<br>的首元素输入，本属性保持默认勾选时，实际计\n<br>算会以首元素作为实际输入值。\n<br>也可以勾选“输入数组转对象”，此时输入组的属\n<br>性栏由数组切换为对象输入，就可以任意输入非\n<br>数组类型的值了。"
+            },
+            {
+              "attr": "exeWhenLoad",
+              "valueType": "Boolean",
+              "defaultValue": false,
+              "name": "组件加载时执行"
+            },
+            {
+              "attr": "oldValueMerge",
+              "valueType": "Boolean",
+              "defaultValue": false,
+              "name": "输出合并非覆盖",
+              "description": "对被操作的属性值做追加而不是覆盖替换。\n<br>被操作属性值作为旧值，按照值类型（数值、字符串、数组、对象等）追加分为以下\n<br>情况：\n<br>1）如果被赋值的（要操作的旧值）为数组类型，通常会将当前值追加过去而不是覆盖。\n<br>注意，如果传入的新值（支持经由解析赋值）也是数组，那么区分情况：\n<br>    ■ 旧值为常规数组，新值也为数组，则新数组元素都追加到旧数组合成一个，而非整\n<br>体数组作为一个元素追加。此外注意，如果新数组内元素都为数组，即本身是数组的数\n<br>组，那么自身数组先合并成一个数组，再进行下一步与旧数组合并操作。\n<br>    ■ 旧值为数组的数组时，新值即便也为数组，那么也会整体作为一个元素追加到旧值。\n<br>2）被赋值的为空（注意，并非0、空字符串等\"空\"值）时，输入（组）中一个或多个输\n<br>入项，会合并成一个值输出。其中，合并取决于输入组的类型（输入组多个值中类型数\n<br>量最多的被认为是当前输入组的值类型），具体如下:\n<br>    ■ 数字：输入组各项强制转换成数值并相加，将结果输出；\n<br>    ■ 字符串：输入组各项转成字符串依次拼接形成新的字符串输出；\n<br>    ■ 布尔型：输入组的各项转换成布尔然后做并集（或）后逻辑结果输出；\n<br>    ■ 对象：输入组各项被当成对象，然后字段合并成新对象后输出；\n<br>强制转换这里需注意：\n<br>    ■ 非空字符串转数值时，除了\"true\"（大小写均可）会作为1，其他字符串会作为0；\n<br>3）被赋值的不为空，有具体类型时，比如数字、字符串、布尔、对象类型，此时输入\n<br>组各项值，不再按照类型的多数（如果存在多个输入项）来强制转换少数输入项，而是\n<br>统一按照操作赋值的旧值类型，来转换输入的各项，并且按照类型类自动选择合适的合\n<br>并方式（如上），生成结果来赋值。\n<br>    ○ 注意1：多项输入和旧值会参与一起做合并操作，并非仅仅输入组的各项之间进行。\n<br>    ○ 注意2：如果输入值并非数组，会作当成输入组且元素个数为1的情况来处理。"
+            },
+            {
+              "attr": "outputByEvent",
+              "valueType": "Boolean",
+              "defaultValue": true,
+              "name": "输出经事件返回",
+              "description": "默认情况下输出事件onOutput跟常规事件一样，\n<br>会输出当前组件的表单对象，而不是具体某个属性值，\n<br>需要经过赋值解析提取（通常是属性名加上前缀'a:'）。\n<br>工具函数的输出output通常要从内嵌页面中传给上层，\n<br>为了简化操作，当勾选了本属性后，无需赋值解析，输\n<br>出onOutput事件会自动将输出属性（a:output）带出。\n<br>而无需再通过表单对象+解析，也无需两条连线前者关\n<br>联output输出、后者关联onOutput触发以省去赋值解析。\n<br>注意，不影响数据进一步的赋值解析，只是此时不再是\n<br>以表单对象为解析基础，而是以函数output的返回结果。"
+            },
+            {
+              "attr": "parseFailedNull",
+              "valueType": "Boolean",
+              "defaultValue": true,
+              "name": "输出解析默认空",
+              "description": "解析赋值输出时，如果对象\n<br>没有匹配到的解析字段，就返回未定\n<br>义的空值（undefined）。如果不勾选\n<br>本属性，未匹配到的解析赋值（非静\n<br>态赋值情况下），则返回原对象本身。\n<br>通常有反向关联属性时，参数被当成\n<br>赋值解析参数而非静态值。"
+            },
+            {
+              "attr": "inputs",
+              "valueType": "Object",
+              "name": "输入（组）",
+              "defaultValue": {},
+              "description": "用于接收函数参数输入，可默认对象或数组形式，可以设置多个入参。\n<br>外部可以多条连线操作该属性，利用数组操作特性，在各自的连线操作\n<br>中bindControlsVal中设置对应的索引值，用来指定传入输入数组中指定\n<br>值，实现多参数传入。\n<br>\n注意，对于透明传递不做任何业务逻辑处理时，默认会将输入组的值直接输\n<br>出，默认以空（undefined）对外操作赋值，通常用于对外清空值。\n<br>此外，输入组长度为1时，将去掉数组后以元素本身值对外输出，比如\n<br>[1]、['hello']、[true]，['']会被当做1、'hello'、true、''输出。长度大于1的\n<br>输入组，对外输出则是正常的数组值。"
+            },
+            {
+              "attr": "_rawForm",
+              "valueType": "Boolean",
+              "defaultValue": false,
+              "description": "原始属性表单。\n                    包含所有做了form、 formReset、 formValue绑定的属性。",
+              "dynamicCreate": true
+            },
+            {
+              "attr": "convertFlatToTree",
+              "valueType": "Boolean",
+              "name": "输入扁平结构化",
+              "defaultValue": false,
+              "description": "JSON扁平化与结构化的对应通常如\n                        {a.b.0.c:10}与{a:{b:[{c:10}]}}。\n                        勾选后，如果输入键值组是扁平化形式，那么会将\n                        输入组数据转成结构化。\n                        注意，在输入键组（inputKeys）字段固定，试图\n                        在输入值组（inputValues）指定索引插入对象或\n                        数组结构时，一定要去掉本属性勾选，否则会自动\n                        将对象或数组扁平化展开，整个输入键值组都会被\n                        扁平化。",
+              "dynamicCreate": true
+            },
+            {
+              "attr": "inputKeys",
+              "valueType": "ObjectArray",
+              "defaultValue": [],
+              "name": "输入键组",
+              "description": "输入组（inputs）扁平化后的键列表。\n<br>与数组值组配合使用，与输入组的数据实时双\n<br>向同步。",
+              "dynamicCreate": true
+            },
+            {
+              "attr": "inputValues",
+              "valueType": "ObjectArray",
+              "defaultValue": [],
+              "name": "输入值组",
+              "description": "输入组（inputs）扁平化后的值列表。\n                        与输入键组配合使用，与输入组的数据实时双\n                        向同步。\n                        注意，数组赋值给本属性指定索引时需格外小\n                        心，因为有动态扁平化展开机制，会导致重复\n                        数组值赋值到指定索引结果表现为数组嵌套。\n                        建议用工具函数接受该操作获取完整的属性值\n                        后整体操作赋值给本属性。\n                        此外，当前属性不论是整体还是索引位置赋值\n                        都会出发输入时执行（如果有勾选），效果等\n                        同于连线操作输入组（inputs）属性。",
+              "dynamicCreate": true
+            },
+            {
+              "attr": "delay",
+              "valueType": "PositiveNumber",
+              "defaultValue": 0,
+              "name": "延时执行毫秒"
+            },
+            {
+              "attr": "exec",
+              "valueType": "Boolean",
+              "defaultValue": false,
+              "name": "执行"
+            },
+            {
+              "attr": "arrExec",
+              "valueType": "Boolean",
+              "defaultValue": false,
+              "name": "遍历执行",
+              "description": "数组循环遍历执行。\n<br>准输出值如果是数组时，自动拆成多\n<br>个元素，依次对外触发。相当于在连\n<br>线静态值bindControlsVal中依次填入\n<br>从0到n-1后，再点击常规“执行”。\n<br>对于透明传递而言，通常输出就等于\n<br>输入，因此也相当于将输入的多个参\n<br>数（数组元素），依次填入触发执行。"
+            },
+            {
+              "attr": "whenOutputing",
+              "valueType": "MultiComboBox",
+              "name": "whenOutputing"
+            },
+            {
+              "attr": "changeOutputTo",
+              "valueType": "MultiComboBox",
+              "extraInfo": {
+                "enum": {
+                  "values": [
+                    "不转换",
+                    "空对象（null）",
+                    "未定义（undefined）",
+                    "空字符串（\"\"）",
+                    "否（false）",
+                    "等于零（0）"
+                  ]
+                }
+              },
+              "defaultValue": "不转换",
+              "name": "changeOutputTo"
+            },
+            {
+              "attr": "output",
+              "valueType": "Object",
+              "name": "输出",
+              "description": "函数输出。\n<br>当函数执行、遍历执行或输入赋值执行时，函数输出，\n<br>如果有对外连线，则会触发将输出值传递出去。\n<br>如果函数所在页面作为内嵌，将继承到上层的输出属\n<br>性对外连线对外，那么内嵌函数的执行，同样会触发\n<br>上层对外连线传递值。\n<br>注意，不论是当前层还是嵌套层，所有对工具函数输\n<br>出属性的直接赋值，只会改变属性值本身，不会触发\n<br>连线操作对外传递，只有通过前面说的几种函数本身\n<br>的执行操作才会触发连线操作。\n<br>"
+            },
+            {
+              "attr": "bindControlsTag",
+              "valueType": "StringArray",
+              "group": "bindControls"
+            },
+            {
+              "attr": "bindControlsAttr",
+              "valueType": "StringArray"
+            },
+            {
+              "attr": "bindControlsVal",
+              "valueType": "ObjectArray",
+              "description": "静态值。也用作数组索引、JSON对象解析提取值用途。\n<br>一、静态值用途：\n<br>对常规类型的属性赋值且没有反向关联属性值，传入为数值时，不\n<br>会作为数组的索引，而会当成常量值对外赋值。此外，存在特殊值：\n<br>~和undefined表示过滤、不触发；null为默认值，表示传递默认表\n<br>单数据。编辑状态下清空后保存与设置null等价。\n<br>二、数组索引用途\n<br>情况1：被操作的组件属性原先值是数组时（包括空数组），会将\n<br>待输出的值作为被操作数组指定索引的值来传入，而不是整体覆盖。\n<br>情况2：如果要被操作的组件属性原先值不是数组，而且待输出的\n<br>值为数组类型并且长度也在索引范围内，那么会按照索引取自身数\n<br>组指定元素再对外输出。（如果想要取待输出索引值，赋值给被操\n<br>纵属性的指定索引，那么需要中间组件属性连线过渡以下，无法直\n<br>接操作）\n<br>情况3：如果要被操作的组件属性是数组，而且待输出的值也是数组\n<br>类型，此时当情况1来处理。\n<br>三、数据解析用途：\n<br>待输出的值为JSON对象时，用x.y.z这种以字符.或者>为间隔的方式\n<br>实现对JSON字段层次逐层定位，当是数组时x.0.y.1这种以数字的方\n<br>式来指定数组的某个索引。以此实现对任意结果JSON对象字段的定\n<br>位，获取结构内指定字段对应的值。"
+            },
+            {
+              "attr": "paramControlTag",
+              "valueType": "StringArray"
+            },
+            {
+              "attr": "paramControlAttr",
+              "valueType": "StringArray"
+            },
+            {
+              "attr": "paramsGenerator",
+              "valueType": "Function",
+              "defaultValue": "__ht__function(data, val, index, node, oldVal, form, type, inner) {//绑定组索引对应的函数处理，用来动态生成复杂的参数变量传入\r\nswitch(index){\r\n    case 0:\r\n        break;\r\n    case 1:\r\n        break;\r\n    case 2:\r\n        break;\r\n    default:\r\n        break;\r\n}\r\n\r\nreturn val;}",
+              "extraInfo": {
+                "arguments": [
+                  "data",
+                  "val",
+                  "index",
+                  "node",
+                  "oldVal",
+                  "form",
+                  "type",
+                  "inner"
+                ]
+              }
+            },
+            {
+              "attr": "useAttrCORS",
+              "valueType": "Boolean",
+              "defaultValue": false,
+              "description": "属性同源操作。\n                连线操作传递是否限定双方。比如有A/B/C/D/O五个组件，连线操作关系：\n                A→O、B→O、C→O、D→O，以及O→A、O→B、O→C、O→D，总结为\n                A、B、C、D分别与O有往返操作。\n                默认不勾选该属性时，A到D任何一个向O的连线操作，都不会影响到O自身\n                对A到D的下一步操作。勾选了该属性后，那么每次相邻的两次连线交互，\n                则会有同源选择性，比如A→O，下一步则O之会选择到A的操作即O→A。\n                同源操作通常用户多个组件共用一个配置弹窗的情况，比如上述A、B、C、D\n                相当于是四个同类型的组件，而O是公共的属性配置窗口，任何一个比如A点\n                击，可通过O弹窗显示属性，然后修改后将属性值回写到A，且并不会将值给\n                到其他几个组件，即便有连线在。\n                同源操作规则：当连线满足A/B→O.x，且有O.x→A/B时，即前一次组件A连线\n                操作O的x属性，那么，O对外触发且关联x属性值对外时，勾选了本属性同源\n                属性操作的前提下，将只会执行O.x→A，而忽略O.x→B/C等其他非A的图元组\n                件的连线操作。",
+              "dynamicCreate": true
+            },
+            {
+              "attr": "userData",
+              "valueType": "ObjectArray",
+              "defaultValue": [],
+              "description": "用户数据。"
+            },
+            {
+              "attr": "onOutput",
+              "valueType": "Function",
+              "description": "输出事件。",
+              "extraInfo": {
+                "arguments": [
+                  "data",
+                  "gv",
+                  "cache",
+                  "value"
+                ]
+              }
+            }
+          ],
+          "renderHTML": "__ht__function(data, gv, cache) {return __convertor(data,gv,cache);}",
+          "width": 45,
+          "height": 40,
+          "comps": [
+            {
+              "type": "image",
+              "color": {
+                "func": "__ht__function(data, view) {\nlet color = data.ca('color');\r\ndata.s('label.color',color);\r\nreturn color;\n}",
+                "value": "rgb(51,153,255)"
+              },
+              "name": "symbols/develop/uiotos/icons/editroToolBar/function.json",
+              "shadowColor": "rgb(61,61,61)",
+              "displayName": "node_image",
+              "rect": [
+                0.53882,
+                4.53779,
+                43.92236,
+                30.92443
+              ]
+            }
+          ],
+          "uuid": "5AB68874-15D8-4506-A993-7E87D4C18C6B"
+        },
+        "host": {
+          "__i": 151099
+        },
+        "position": {
+          "x": 203.00545,
+          "y": 332.59005
+        },
+        "width": 45,
+        "height": 45
+      },
+      "s": {
+        "label.position": 25,
+        "label.offset.y": 0,
+        "interactive": true,
+        "image.stretch": "uniform",
+        "2d.editable": false,
+        "select.width": 0.5,
+        "select.type": "roundRect",
+        "select.color": "rgb(124,145,155)",
+        "label": "获取组件属性值",
+        "label.font": "26px Microsoft YaHei",
+        "label.color": "rgb(51,153,255)",
+        "label.align": "left",
+        "2d.movable": false,
+        "layout.h": "center",
+        "layout.v": "top"
+      },
+      "a": {
+        "toolTipRaw": "<p style=\"color: rgb(242, 83, 75); margin-top: 5px; margin-bottom: -15px; font-weight: bold; line-height: 1.5em;\">已被布局，不允许拖动</p><span style='color:rgb(125,195,125);line-height:2em;letter-spacing:1px;'>\n<br>注意，需要提前勾选“输入组转对象”属性，\n<br>将输入组默认的数组类型改为对象（非数\n<br>组），这样操作过来连线的静态解析赋值，\n<br>就会作为下拉框列表的取值索引，而不是\n<br>对当前数组的操作索引。</span>",
+        "noteTips": "获取组件属性值",
+        "bindEvents": [
+          "*",
+          "onOutput"
+        ],
+        "输出遇到空值": "全部（*）",
+        "输出遇到空值-list": [
+          "全部（*）",
+          "空对象（null）",
+          "未定义（undefined）",
+          "空字符串（\"\"）",
+          "否（false）",
+          "等于零（0）",
+          "小于零（<0）",
+          "NaN"
+        ],
+        "arrExec": false,
+        "function": "formValues",
+        "oldDynamicAttrs": [
+          {
+            "attr": "_bindEvents_0",
+            "valueType": "MultiComboBox",
+            "defaultValue": "*",
+            "group": "bindEvents",
+            "description": "连线索引[0]的触发事件过滤器，默认全部通过",
+            "dynamicCreate": true
+          },
+          {
+            "attr": "_bindEvents_0",
+            "valueType": "MultiComboBox",
+            "defaultValue": "*",
+            "group": "bindEvents",
+            "description": "连线索引[0]的触发事件过滤器，默认全部通过",
+            "dynamicCreate": true
+          },
+          {
+            "attr": "_rawForm",
+            "valueType": "Boolean",
+            "defaultValue": false,
+            "description": "原始属性表单。\n                    包含所有做了form、 formReset、 formValue绑定的属性。",
+            "dynamicCreate": true
+          },
+          {
+            "attr": "inputKeys",
+            "valueType": "ObjectArray",
+            "name": "输入键组",
+            "description": "输入组（inputs）扁平化后的键列表。\n<br>与数组值组配合使用，与输入组的数据实时双\n<br>向同步。",
+            "dynamicCreate": true
+          },
+          {
+            "attr": "inputValues",
+            "valueType": "ObjectArray",
+            "name": "输入值组",
+            "description": "输入组（inputs）扁平化后的值列表。\n<br>与输入键组配合使用，与输入组的数据实时双\n<br>向同步。",
+            "dynamicCreate": true
+          }
+        ],
+        "paramControlTag": [],
+        "paramControlAttr": [],
+        "bindControlsTag": [],
+        "bindControlsAttr": [],
+        "bindControlsVal": [],
+        "inputsArrToObj": true,
+        "inputs": "day",
+        "exec": false,
+        "output": "day",
+        "symbol": "symbols/develop/uiotos/base/__convertor.json",
+        "stripSingleInput": false,
+        "icon": "symbols/develop/uiotos/icons/functions/function.json",
+        "_forbidInherit": false
+      }
+    }
+  ],
+  "modified": "Tue Mar 05 2024 12:22:51 GMT+0800 (中国标准时间)",
+  "contentRect": {
+    "x": -265.57537,
+    "y": 46.12416,
+    "width": 753.58082,
+    "height": 426.87558
+  }
+}

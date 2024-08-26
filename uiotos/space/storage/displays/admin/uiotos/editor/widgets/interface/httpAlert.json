@@ -1,0 +1,2567 @@
+{
+  "v": "8.0.1",
+  "p": {
+    "background": "#20252e",
+    "autoAdjustIndex": true,
+    "hierarchicalRendering": true
+  },
+  "a": {
+    "rotateAsClock": false,
+    "gridBlockSize": 20,
+    "gridAngle": 1.5708,
+    "connectActionType": null,
+    "fitContent": true,
+    "zoomable": false,
+    "rectSelectable": false,
+    "pannable": false,
+    "_pageCompress": true,
+    "_professional": false,
+    "_i_isCompressed": true
+  },
+  "d": [
+    {
+      "c": "ht.Node",
+      "i": 42895,
+      "p": {
+        "name": "func",
+        "displayName": "工具函数（__ifEmpty）",
+        "toolTip": "透明传递<br>transfer",
+        "tag": "__ifEmpty",
+        "dataBindings": {
+          "a": {
+            "userData": {
+              "id": 1,
+              "vt": "Object"
+            },
+            "output": {
+              "id": 1,
+              "vt": "Object"
+            },
+            "inputs": {
+              "id": 1,
+              "vt": "Object"
+            },
+            "exec": {
+              "id": 1,
+              "vt": "Boolean"
+            },
+            "arrExec": {
+              "id": 1,
+              "vt": "Boolean"
+            },
+            "_logical": {
+              "id": 1,
+              "vt": "Logical"
+            },
+            "_content": {
+              "id": 1,
+              "vt": "Object"
+            },
+            "_returnContent": {
+              "id": 1,
+              "vt": "Boolean"
+            },
+            "noteTips": {
+              "id": 1,
+              "vt": "Multiline"
+            },
+            "function": {
+              "id": 1,
+              "vt": "ToolFunction"
+            },
+            "onOutput": {
+              "id": 1,
+              "vt": "Function"
+            },
+            "outputByEvent": {
+              "id": 1,
+              "vt": "Boolean"
+            },
+            "convertFlatToTree": {
+              "id": 1,
+              "vt": null
+            },
+            "inputKeys": {
+              "id": 1,
+              "vt": "ObjectArray"
+            },
+            "inputValues": {
+              "id": 1,
+              "vt": "ObjectArray"
+            }
+          }
+        },
+        "image": "symbols/develop/uiotos/base/__convertor.json",
+        "position": {
+          "x": 1981.3385,
+          "y": -243.21044
+        },
+        "width": 45,
+        "height": 45
+      },
+      "s": {
+        "label.position": 25,
+        "label.offset.y": 0,
+        "interactive": true,
+        "image.stretch": "uniform",
+        "2d.editable": false,
+        "select.width": 0.5,
+        "select.type": "roundRect",
+        "select.color": "rgb(124,145,155)",
+        "label": "如果查询0条（空的）",
+        "label.font": "26px Microsoft YaHei",
+        "label.color": "rgb(51,153,255)",
+        "label.align": "left",
+        "note.font": "22px arial, sans-serif",
+        "note.color": "rgb(212,0,0)",
+        "note.background": "rgb(255,235,195)",
+        "note.position": 3,
+        "note.offset.x": 0,
+        "note.offset.y": -5,
+        "note.border.width": 10,
+        "note.border.color": "rgb(255,235,195)",
+        "note.opacity": 0,
+        "note.align": "left",
+        "fullscreen.gap": 0,
+        "label.opacity": 1
+      },
+      "a": {
+        "toolTipRaw": "透明传递<br>transfer",
+        "输出遇到空值": "全部（*）",
+        "输出遇到空值-list": [
+          "全部（*）",
+          "空对象（null）",
+          "未定义（undefined）",
+          "空字符串（\"\"）",
+          "否（false）",
+          "等于零（0）",
+          "小于零（<0）",
+          "NaN"
+        ],
+        "function": "condition",
+        "exeWhenInput": true,
+        "paramControlTag": [
+          null,
+          null
+        ],
+        "paramControlAttr": [
+          null,
+          "output"
+        ],
+        "bindControlsTag": [
+          "func7",
+          "func8"
+        ],
+        "bindControlsAttr": [
+          "exec",
+          "exec"
+        ],
+        "bindControlsVal": [
+          null,
+          null
+        ],
+        "symbol": "symbols/develop/uiotos/base/__convertor.json",
+        "bindEvents": [
+          "*",
+          "onOutput"
+        ],
+        "_bindEvents_0-list": [
+          "*",
+          "convertor"
+        ],
+        "_logical": "allDissatisfy",
+        "resetAfterInput": true,
+        "noteTips": "如果查询0条（空的）",
+        "_bindEvents_1-list": [
+          "*",
+          "onOutput"
+        ],
+        "stripSingleInput": false,
+        "icon": "symbols/develop/uiotos/icons/functions/function.json",
+        "_forbidInherit": true,
+        "jsonStruct": 1,
+        "_emptyJudge-list": [
+          "所有空值",
+          "空字符 \"\"",
+          "无对象 null",
+          "空对象 {}",
+          "空数组 []"
+        ],
+        "arrExec": false
+      }
+    },
+    {
+      "c": "ht.Edge",
+      "i": 42896,
+      "p": {
+        "name": "edge",
+        "displayName": "0（edge10）",
+        "toolTip": "<div id=\"config_tooltip\" style=\"font-size:12px;line-height:1.75em;letter-spacing:1px\">\n                                                        关联绑定信息：<br>\n                                                        <li style=\"list-style-type:disc;color:rgba(255,255,255,0.5);\">索引序号：0 | 总共2条</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold;\">操作属性：exec@func7</li>\n                                                        <li style=\"list-style-type:none;color:rgba(255,255,255,0.5)\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;当前值：false</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold\">关联属性：</li>\n                                                        <li style=\"list-style-type:none;color:rgba(255,255,255,0.5)\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;关联值：</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold;\">解析赋值：null</li>\n                                                    </div>",
+        "parent": {
+          "__i": 42895
+        },
+        "tag": "edge10",
+        "source": {
+          "__i": 42895
+        },
+        "target": {
+          "__i": 42913
+        }
+      },
+      "s": {
+        "label": "",
+        "edge.color": "#71D07A",
+        "edge.type": "points",
+        "edge.gap": 16,
+        "edge.width.absolute": true,
+        "note.border.width": 0,
+        "note.position": 7,
+        "note.opacity": 0.85,
+        "note.background": "#71D07A",
+        "note.offset.x": 0,
+        "note.offset.y": 0,
+        "icons": {
+          "symbols/demo/extra/basic/fromArrow2.json": {
+            "position": 15,
+            "keepOrien": true,
+            "names": [
+              "symbols/demo/extra/basic/fromArrow2.json"
+            ]
+          },
+          "symbols/demo/extra/basic/toArrow.json": {
+            "position": 19,
+            "keepOrien": true,
+            "width": 50,
+            "height": 20,
+            "names": [
+              "symbols/demo/extra/basic/toArrow.json"
+            ]
+          }
+        },
+        "note": 0,
+        "label.position": 1
+      },
+      "a": {
+        "index": 0,
+        "toolTipRaw": "<div id=\"config_tooltip\" style=\"font-size:12px;line-height:1.75em;letter-spacing:1px\">\n                                                        关联绑定信息：<br>\n                                                        <li style=\"list-style-type:disc;color:rgba(255,255,255,0.5);\">索引序号：0 | 总共2条</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold;\">操作属性：exec@func7</li>\n                                                        <li style=\"list-style-type:none;color:rgba(255,255,255,0.5)\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;当前值：false</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold\">关联属性：</li>\n                                                        <li style=\"list-style-type:none;color:rgba(255,255,255,0.5)\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;关联值：</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold;\">解析赋值：null</li>\n                                                    </div>"
+      }
+    },
+    {
+      "c": "ht.Edge",
+      "i": 42897,
+      "p": {
+        "name": "edge",
+        "displayName": "1（edge15'）",
+        "toolTip": "<div id=\"config_tooltip\" style=\"font-size:12px;line-height:1.75em;letter-spacing:1px\">\n                                                        关联绑定信息：<br>\n                                                        <li style=\"list-style-type:disc;color:rgba(255,255,255,0.5);\">索引序号：1 | 总共2条</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold;\">操作属性：exec@func8</li>\n                                                        <li style=\"list-style-type:none;color:rgba(255,255,255,0.5)\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;当前值：false</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold\">关联属性：output@__ifEmpty</li>\n                                                        <li style=\"list-style-type:none;color:rgba(255,255,255,0.5)\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;关联值：true</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold;\">解析赋值：null</li>\n                                                    </div>",
+        "parent": {
+          "__i": 42895
+        },
+        "tag": "edge15'",
+        "source": {
+          "__i": 42895
+        },
+        "target": {
+          "__i": 42915
+        }
+      },
+      "s": {
+        "label": "",
+        "edge.color": "#5D6282",
+        "edge.type": "flex",
+        "edge.gap": 16,
+        "edge.width.absolute": true,
+        "note.border.width": 0,
+        "note.position": 7,
+        "note.opacity": 0.85,
+        "note.background": "#5D6282",
+        "note.offset.x": 0,
+        "note.offset.y": 0,
+        "icons": {
+          "symbols/demo/extra/basic/fromArrow2.json": {
+            "position": 15,
+            "keepOrien": true,
+            "names": [
+              "symbols/demo/extra/basic/fromArrow2.json"
+            ]
+          },
+          "symbols/demo/extra/basic/toArrow.json": {
+            "position": 19,
+            "keepOrien": true,
+            "width": 50,
+            "height": 20,
+            "names": [
+              "symbols/demo/extra/basic/toArrow.json"
+            ]
+          }
+        },
+        "note": 1
+      },
+      "a": {
+        "index": 1,
+        "toolTipRaw": "<div id=\"config_tooltip\" style=\"font-size:12px;line-height:1.75em;letter-spacing:1px\">\n                                                        关联绑定信息：<br>\n                                                        <li style=\"list-style-type:disc;color:rgba(255,255,255,0.5);\">索引序号：1 | 总共2条</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold;\">操作属性：exec@func8</li>\n                                                        <li style=\"list-style-type:none;color:rgba(255,255,255,0.5)\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;当前值：false</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold\">关联属性：output@__ifEmpty</li>\n                                                        <li style=\"list-style-type:none;color:rgba(255,255,255,0.5)\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;关联值：true</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold;\">解析赋值：null</li>\n                                                    </div>",
+        "_forbidInherit": true
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 42898,
+      "p": {
+        "name": "func",
+        "displayName": "工具函数（__queryCount）",
+        "toolTip": "透明传递<br>transfer",
+        "tag": "__queryCount",
+        "dataBindings": {
+          "a": {
+            "userData": {
+              "id": 1,
+              "vt": "Object"
+            },
+            "output": {
+              "id": 1,
+              "vt": "Object"
+            },
+            "inputs": {
+              "id": 1,
+              "vt": "Object"
+            },
+            "exec": {
+              "id": 1,
+              "vt": "Boolean"
+            },
+            "arrExec": {
+              "id": 1,
+              "vt": "Boolean"
+            },
+            "noteTips": {
+              "id": 1,
+              "vt": "Multiline"
+            },
+            "function": {
+              "id": 1,
+              "vt": "ToolFunction"
+            },
+            "onOutput": {
+              "id": 1,
+              "vt": "Function"
+            },
+            "_function": {
+              "id": 1,
+              "vt": "Function"
+            },
+            "outputByEvent": {
+              "id": 1,
+              "vt": "Boolean"
+            },
+            "convertFlatToTree": {
+              "id": 1,
+              "vt": null
+            },
+            "inputKeys": {
+              "id": 1,
+              "vt": "ObjectArray"
+            },
+            "inputValues": {
+              "id": 1,
+              "vt": "ObjectArray"
+            }
+          }
+        },
+        "image": "symbols/develop/uiotos/base/__convertor.json",
+        "position": {
+          "x": 1981.3385,
+          "y": -317.16666
+        }
+      },
+      "s": {
+        "label.position": 25,
+        "label.offset.y": 0,
+        "interactive": true,
+        "image.stretch": "uniform",
+        "2d.editable": false,
+        "select.width": 0.5,
+        "select.type": "roundRect",
+        "select.color": "rgb(124,145,155)",
+        "label": "获取返回记录的条数",
+        "label.font": "26px Microsoft YaHei",
+        "label.color": "rgb(51,153,255)",
+        "label.align": "left",
+        "note.font": "22px arial, sans-serif",
+        "note.color": "rgb(212,0,0)",
+        "note.background": "rgb(255,235,195)",
+        "note.position": 3,
+        "note.offset.x": 0,
+        "note.offset.y": -5,
+        "note.border.width": 10,
+        "note.border.color": "rgb(255,235,195)",
+        "note.opacity": 0,
+        "note.align": "left",
+        "fullscreen.gap": 0,
+        "note": "[__queryCount] 索引为0的连线无配置项！            ",
+        "label.opacity": 1
+      },
+      "a": {
+        "toolTipRaw": "透明传递<br>transfer",
+        "noteTips": "获取返回记录的条数",
+        "输出遇到空值": "全部（*）",
+        "输出遇到空值-list": [
+          "全部（*）",
+          "空对象（null）",
+          "未定义（undefined）",
+          "空字符串（\"\"）",
+          "否（false）",
+          "等于零（0）",
+          "小于零（<0）",
+          "NaN"
+        ],
+        "function": "codeBlock",
+        "paramControlTag": [
+          null
+        ],
+        "paramControlAttr": [
+          "output"
+        ],
+        "bindControlsTag": [
+          "__ifEmpty"
+        ],
+        "bindControlsAttr": [
+          "inputs"
+        ],
+        "bindControlsVal": [
+          null
+        ],
+        "symbol": "symbols/develop/uiotos/base/__convertor.json",
+        "bindEvents": [
+          "*",
+          "onOutput"
+        ],
+        "_bindEvents_0-list": [
+          "*",
+          "onOutput"
+        ],
+        "stripSingleInput": false,
+        "icon": "symbols/develop/uiotos/icons/functions/function.json",
+        "_function": "__ht__function(data, gv, cache, inputs) {if(isArrayFn(inputs)) return inputs.length;\r\nelse if(isArrayFn(inputs.records)) return inputs.records.length;\r\nelse console.assert(0);}",
+        "jsonStruct": 1,
+        "arrExec": false
+      }
+    },
+    {
+      "c": "ht.Edge",
+      "i": 42899,
+      "p": {
+        "name": "edge",
+        "displayName": "0（edge13'）",
+        "toolTip": "<div id=\"config_tooltip\" style=\"font-size:12px;line-height:1.75em;letter-spacing:1px\">\n                                                        关联绑定信息：<br>\n                                                        <li style=\"list-style-type:disc;color:rgba(255,255,255,0.5);\">索引序号：0 | 总共1条</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold;\">操作属性：inputs@__ifEmpty</li>\n                                                        <li style=\"list-style-type:none;color:rgba(255,255,255,0.5)\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;当前值：...</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold\">关联属性：output@__queryCount</li>\n                                                        <li style=\"list-style-type:none;color:rgba(255,255,255,0.5)\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;关联值：0</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold;\">解析赋值：null</li>\n                                                    </div>",
+        "parent": {
+          "__i": 42898
+        },
+        "tag": "edge13'",
+        "source": {
+          "__i": 42898
+        },
+        "target": {
+          "__i": 42895
+        }
+      },
+      "s": {
+        "label": "",
+        "edge.color": "#D069FC",
+        "edge.type": "flex",
+        "edge.gap": 16,
+        "edge.width.absolute": true,
+        "note.border.width": 0,
+        "note.position": 7,
+        "note.opacity": 0.85,
+        "note.background": "#D069FC",
+        "note.offset.x": 0,
+        "note.offset.y": 0,
+        "icons": {
+          "symbols/demo/extra/basic/fromArrow2.json": {
+            "position": 15,
+            "keepOrien": true,
+            "names": [
+              "symbols/demo/extra/basic/fromArrow2.json"
+            ]
+          },
+          "symbols/demo/extra/basic/toArrow.json": {
+            "position": 19,
+            "keepOrien": true,
+            "width": 50,
+            "height": 20,
+            "names": [
+              "symbols/demo/extra/basic/toArrow.json"
+            ]
+          }
+        },
+        "note": 0
+      },
+      "a": {
+        "index": 0,
+        "toolTipRaw": "<div id=\"config_tooltip\" style=\"font-size:12px;line-height:1.75em;letter-spacing:1px\">\n                                                        关联绑定信息：<br>\n                                                        <li style=\"list-style-type:disc;color:rgba(255,255,255,0.5);\">索引序号：0 | 总共1条</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold;\">操作属性：inputs@__ifEmpty</li>\n                                                        <li style=\"list-style-type:none;color:rgba(255,255,255,0.5)\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;当前值：...</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold\">关联属性：output@__queryCount</li>\n                                                        <li style=\"list-style-type:none;color:rgba(255,255,255,0.5)\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;关联值：0</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold;\">解析赋值：null</li>\n                                                    </div>",
+        "_forbidInherit": true
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 42900,
+      "p": {
+        "name": "api",
+        "displayName": "api接口（api1）",
+        "toolTip": "API接口组件。        <br>支持HTTP POST/GET；MQTT；WS（暂未支持）        <br>- 支持任意数量及层次结构的参数传入请求，扁平化配置输入，        <br>无需组装成手动组装成json结构。        <br>- 接口返回的数据任意字段个数和结构，支持扁平化配置方式        <br>提取，无需解析json结构，即可关联到指定的一个或多个组件        <br>的多个不同属性上进行展示。",
+        "tag": "api1",
+        "dataBindings": {
+          "a": {
+            "post": {
+              "id": 1,
+              "vt": null
+            },
+            "paramKeys": {
+              "id": 1,
+              "vt": "StringArray"
+            },
+            "paramValues": {
+              "id": 1,
+              "vt": "ObjectArray"
+            },
+            "valueJsonable": {
+              "id": 1,
+              "vt": null
+            },
+            "jsonFormat": {
+              "id": 1,
+              "vt": "Object"
+            },
+            "convertFlatToTree": {
+              "id": 1,
+              "vt": null
+            },
+            "treeMiddleType": {
+              "id": 1,
+              "vt": null
+            },
+            "dataIsJsonString": {
+              "id": 1,
+              "vt": "Boolean"
+            },
+            "contentType": {
+              "id": 1,
+              "vt": "ContentType"
+            },
+            "dataType": {
+              "id": 1,
+              "vt": "DateType"
+            },
+            "response": {
+              "id": 1,
+              "vt": "ObjectArray"
+            },
+            "requesting": {
+              "id": 1,
+              "vt": "Boolean"
+            },
+            "download": {
+              "id": 1,
+              "vt": "Boolean"
+            },
+            "onReceived": {
+              "id": 1,
+              "vt": "Function"
+            },
+            "url": {
+              "id": 1,
+              "vt": "ObjectArray"
+            },
+            "enableLoading": {
+              "id": 1,
+              "vt": "Boolean"
+            },
+            "defaultOpen": {
+              "id": 1,
+              "vt": "Boolean"
+            },
+            "comment": {
+              "id": 1,
+              "func": "__ht__function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}",
+              "vt": "Multiline"
+            },
+            "bindControlsVal": {
+              "id": 1,
+              "vt": "ObjectArray"
+            },
+            "tokenType": {
+              "id": 1,
+              "vt": "String"
+            },
+            "authToken": {
+              "id": 1,
+              "vt": "String"
+            },
+            "tokenFieldParsed": {
+              "id": 1,
+              "vt": "String"
+            },
+            "type": {
+              "id": 1,
+              "vt": "InterfaceType"
+            },
+            "fakeRecvEnabled": {
+              "id": 1,
+              "vt": "Boolean"
+            },
+            "fakeReturnDelay": {
+              "id": 1,
+              "vt": "PositiveNumber"
+            },
+            "fakeApiReceived": {
+              "id": 1,
+              "vt": "Object"
+            },
+            "userData": {
+              "id": 1,
+              "vt": "Object"
+            },
+            "httpType": {
+              "id": 1,
+              "func": "__ht__function formParser(nVal, node) {\r\n    /*参数1  nVal: 属性新值 */\r\n    /*返回 return：最终赋值 */\r\n    /********* TODO **********/\r\n\r\n\r\n\r\n    /************************/\r\n    return nVal;\r\n}",
+              "vt": "HttpType"
+            }
+          },
+          "s": {}
+        },
+        "image": "symbols/develop/uiotos/arranged/controls/interfaces/接口.json",
+        "position": {
+          "x": 1497.92038,
+          "y": -358.64789
+        },
+        "width": 404.5274,
+        "height": 597.45878
+      },
+      "s": {
+        "label.font": "bold 30px sans-serif, Arial",
+        "label.color": "rgb(96,172,252)",
+        "label.position": 2,
+        "label.offset.y": -8,
+        "interactive": true,
+        "image.stretch": "uniform",
+        "label": "接口名称",
+        "requesting": true,
+        "jsonFormat": {
+          "CoreStuffUDS:data[]": {
+            "query": 2,
+            "count": 100,
+            "page": 0,
+            "CoreStuffUDS": {
+              "is_delete": 0,
+              "user_type": 0
+            }
+          },
+          "pageInfo@": "CoreStuffUDS:data[]/info",
+          "format": true
+        },
+        "fullscreen.gap": 0,
+        "layout.h": "right",
+        "layout.v": "topbottom",
+        "note.font": "22px arial, sans-serif",
+        "note.color": "rgb(212,0,0)",
+        "note.background": "rgb(255,235,195)",
+        "note.position": 3,
+        "note.offset.x": 0,
+        "note.offset.y": -5,
+        "note.border.width": 10,
+        "note.border.color": "rgb(255,235,195)",
+        "note.opacity": 0,
+        "note.align": "left",
+        "label.opacity": 1,
+        "label.align": "left",
+        "note": "[api1] 索引为2的连线无配置项！\r                   \n索引为3的连线无配置项！                           "
+      },
+      "a": {
+        "url": [
+          "http://203.189.6.3:19999/",
+          ""
+        ],
+        "timeTo": "2024-08-16 11:13:41.952",
+        "symbol": "symbols/develop/uiotos/arranged/controls/interfaces/接口.json",
+        "paramControlTag": [
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "paramControlAttr": [
+          null,
+          null,
+          null,
+          "comment",
+          null
+        ],
+        "bindControlsTag": [
+          "__queryCount",
+          "__optAlert",
+          "__ifHasData",
+          "func7",
+          "输出"
+        ],
+        "bindControlsAttr": [
+          "inputs",
+          "inputs",
+          "inputs",
+          "inputs",
+          "inputs"
+        ],
+        "bindControlsVal": [
+          "result",
+          "message",
+          null,
+          null,
+          "result"
+        ],
+        "comment": "接口名称",
+        "enableLoading": true,
+        "toolTipRaw": "API接口组件。        <br>支持HTTP POST/GET；MQTT；WS（暂未支持）        <br>- 支持任意数量及层次结构的参数传入请求，扁平化配置输入，        <br>无需组装成手动组装成json结构。        <br>- 接口返回的数据任意字段个数和结构，支持扁平化配置方式        <br>提取，无需解析json结构，即可关联到指定的一个或多个组件        <br>的多个不同属性上进行展示。",
+        "paramBindEvent": [],
+        "paramsGenerator": "function paramsGenerator(data, val, index, node, oldVal, form) {\r\n    //绑定组索引对应的函数处理，用来动态生成复杂的参数变量传入\r\n    switch (index) {\r\n        case 0:\r\n            break;\r\n        case 1:\r\n            break;\r\n        case 2:\r\n            break;\r\n        default:\r\n            break;\r\n    }\r\n    return val;\r\n}",
+        "bindEvents": [
+          "*",
+          "onReceived"
+        ],
+        "_bindEvents_0-list": [
+          "*",
+          "onReceived"
+        ],
+        "_bindEvents_1-list": [
+          "*",
+          "onReceived"
+        ],
+        "_bindEvents_4-list": [
+          "*",
+          "onReceived"
+        ],
+        "response": [
+          "",
+          ""
+        ],
+        "httpType": 0,
+        "jsonStruct": 1,
+        "requesting": false
+      }
+    },
+    {
+      "c": "ht.Edge",
+      "i": 42901,
+      "p": {
+        "name": "edge",
+        "displayName": "0（edge4）",
+        "toolTip": "<div id=\"config_tooltip\" style=\"font-size:12px;line-height:1.75em;letter-spacing:1px\">\n                                                        关联绑定信息：<br>\n                                                        <li style=\"list-style-type:disc;color:rgba(255,255,255,0.5);\">索引序号：0 | 总共5条</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold;\">操作属性：inputs@__queryCount</li>\n                                                        <li style=\"list-style-type:none;color:rgba(255,255,255,0.5)\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;当前值：...</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold\">关联属性：</li>\n                                                        <li style=\"list-style-type:none;color:rgba(255,255,255,0.5)\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;关联值：</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold;\">解析赋值：result</li>\n                                                    </div>",
+        "parent": {
+          "__i": 42900
+        },
+        "tag": "edge4",
+        "source": {
+          "__i": 42900
+        },
+        "target": {
+          "__i": 42898
+        }
+      },
+      "s": {
+        "label": "",
+        "edge.color": "rgb(51,153,255)",
+        "edge.type": "points",
+        "edge.gap": 16,
+        "edge.width.absolute": true,
+        "note.border.width": 0,
+        "note.position": 7,
+        "note.opacity": 0.85,
+        "note.background": "rgb(51,153,255)",
+        "note.offset.x": 0,
+        "note.offset.y": 0,
+        "icons": {
+          "symbols/demo/extra/basic/fromArrow2.json": {
+            "position": 15,
+            "keepOrien": true,
+            "names": [
+              "symbols/demo/extra/basic/fromArrow2.json"
+            ]
+          },
+          "symbols/demo/extra/basic/toArrow.json": {
+            "position": 19,
+            "keepOrien": true,
+            "width": 50,
+            "height": 20,
+            "names": [
+              "symbols/demo/extra/basic/toArrow.json"
+            ]
+          }
+        },
+        "note": 0,
+        "label.position": 1,
+        "edge.width": 4
+      },
+      "a": {
+        "index": 0,
+        "toolTipRaw": "<div id=\"config_tooltip\" style=\"font-size:12px;line-height:1.75em;letter-spacing:1px\">\n                                                        关联绑定信息：<br>\n                                                        <li style=\"list-style-type:disc;color:rgba(255,255,255,0.5);\">索引序号：0 | 总共5条</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold;\">操作属性：inputs@__queryCount</li>\n                                                        <li style=\"list-style-type:none;color:rgba(255,255,255,0.5)\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;当前值：...</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold\">关联属性：</li>\n                                                        <li style=\"list-style-type:none;color:rgba(255,255,255,0.5)\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;关联值：</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold;\">解析赋值：result</li>\n                                                    </div>"
+      }
+    },
+    {
+      "c": "ht.Edge",
+      "i": 42902,
+      "p": {
+        "name": "edge",
+        "displayName": "1（edge7）",
+        "toolTip": "<div id=\"config_tooltip\" style=\"font-size:12px;line-height:1.75em;letter-spacing:1px\">\n                                                        关联绑定信息：<br>\n                                                        <li style=\"list-style-type:disc;color:rgba(255,255,255,0.5);\">索引序号：1 | 总共5条</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold;\">操作属性：inputs@__optAlert</li>\n                                                        <li style=\"list-style-type:none;color:rgba(255,255,255,0.5)\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;当前值：...</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold\">关联属性：</li>\n                                                        <li style=\"list-style-type:none;color:rgba(255,255,255,0.5)\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;关联值：</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold;\">解析赋值：message</li>\n                                                    </div>",
+        "parent": {
+          "__i": 42900
+        },
+        "tag": "edge7",
+        "source": {
+          "__i": 42900
+        },
+        "target": {
+          "__i": 42907
+        }
+      },
+      "s": {
+        "label": "",
+        "edge.color": "#FF7C7C",
+        "edge.type": "points",
+        "edge.gap": 16,
+        "edge.width.absolute": true,
+        "note.border.width": 0,
+        "note.position": 7,
+        "note.opacity": 0.85,
+        "note.background": "#FF7C7C",
+        "note.offset.x": 0,
+        "note.offset.y": 0,
+        "icons": {
+          "symbols/demo/extra/basic/fromArrow2.json": {
+            "position": 15,
+            "keepOrien": true,
+            "names": [
+              "symbols/demo/extra/basic/fromArrow2.json"
+            ]
+          },
+          "symbols/demo/extra/basic/toArrow.json": {
+            "position": 19,
+            "keepOrien": true,
+            "width": 50,
+            "height": 20,
+            "names": [
+              "symbols/demo/extra/basic/toArrow.json"
+            ]
+          }
+        },
+        "note": 1,
+        "label.position": 1,
+        "edge.width": 3
+      },
+      "a": {
+        "index": 1,
+        "toolTipRaw": "<div id=\"config_tooltip\" style=\"font-size:12px;line-height:1.75em;letter-spacing:1px\">\n                                                        关联绑定信息：<br>\n                                                        <li style=\"list-style-type:disc;color:rgba(255,255,255,0.5);\">索引序号：1 | 总共5条</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold;\">操作属性：inputs@__optAlert</li>\n                                                        <li style=\"list-style-type:none;color:rgba(255,255,255,0.5)\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;当前值：...</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold\">关联属性：</li>\n                                                        <li style=\"list-style-type:none;color:rgba(255,255,255,0.5)\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;关联值：</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold;\">解析赋值：message</li>\n                                                    </div>"
+      }
+    },
+    {
+      "c": "ht.Edge",
+      "i": 42903,
+      "p": {
+        "name": "edge",
+        "displayName": "2（edge5）",
+        "toolTip": "<div id=\"config_tooltip\" style=\"font-size:12px;line-height:1.75em;letter-spacing:1px\">\n                                                        关联绑定信息：<br>\n                                                        <li style=\"list-style-type:disc;color:rgba(255,255,255,0.5);\">索引序号：2 | 总共5条</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold;\">操作属性：inputs@__ifHasData</li>\n                                                        <li style=\"list-style-type:none;color:rgba(255,255,255,0.5)\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;当前值：[object Object]</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold\">关联属性：</li>\n                                                        <li style=\"list-style-type:none;color:rgba(255,255,255,0.5)\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;关联值：</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold;\">解析赋值：null</li>\n                                                    </div>",
+        "parent": {
+          "__i": 42900
+        },
+        "tag": "edge5",
+        "source": {
+          "__i": 42900
+        },
+        "target": {
+          "__i": 42908
+        }
+      },
+      "s": {
+        "label": "",
+        "edge.color": "rgb(0,199,7)",
+        "edge.type": "points",
+        "edge.gap": 16,
+        "edge.width.absolute": true,
+        "note.border.width": 0,
+        "note.position": 7,
+        "note.opacity": 0.85,
+        "note.background": "rgb(0,199,7)",
+        "note.offset.x": 0,
+        "note.offset.y": 0,
+        "icons": {
+          "symbols/demo/extra/basic/fromArrow2.json": {
+            "position": 15,
+            "keepOrien": true,
+            "names": [
+              "symbols/demo/extra/basic/fromArrow2.json"
+            ]
+          },
+          "symbols/demo/extra/basic/toArrow.json": {
+            "position": 19,
+            "keepOrien": true,
+            "width": 50,
+            "height": 20,
+            "names": [
+              "symbols/demo/extra/basic/toArrow.json"
+            ]
+          }
+        },
+        "note": 2,
+        "label.position": 18,
+        "edge.ripple.size": 2,
+        "edge.ripple.length": 0,
+        "edge.ripple.elevation": 100,
+        "edge.ripple.both": true
+      },
+      "a": {
+        "index": 2,
+        "toolTipRaw": "<div id=\"config_tooltip\" style=\"font-size:12px;line-height:1.75em;letter-spacing:1px\">\n                                                        关联绑定信息：<br>\n                                                        <li style=\"list-style-type:disc;color:rgba(255,255,255,0.5);\">索引序号：2 | 总共5条</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold;\">操作属性：inputs@__ifHasData</li>\n                                                        <li style=\"list-style-type:none;color:rgba(255,255,255,0.5)\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;当前值：[object Object]</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold\">关联属性：</li>\n                                                        <li style=\"list-style-type:none;color:rgba(255,255,255,0.5)\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;关联值：</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold;\">解析赋值：null</li>\n                                                    </div>"
+      }
+    },
+    {
+      "c": "ht.Edge",
+      "i": 42904,
+      "p": {
+        "name": "edge",
+        "displayName": "3（edge11）",
+        "toolTip": "<div id=\"config_tooltip\" style=\"font-size:12px;line-height:1.75em;letter-spacing:1px\">\n                                                        关联绑定信息：<br>\n                                                        <li style=\"list-style-type:disc;color:rgba(255,255,255,0.5);\">索引序号：3 | 总共5条</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold;\">操作属性：inputs@func7</li>\n                                                        <li style=\"list-style-type:none;color:rgba(255,255,255,0.5)\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;当前值：接口名称</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold\">关联属性：comment@api1</li>\n                                                        <li style=\"list-style-type:none;color:rgba(255,255,255,0.5)\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;关联值：接口名称</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold;\">解析赋值：null</li>\n                                                    </div>",
+        "parent": {
+          "__i": 42900
+        },
+        "tag": "edge11",
+        "source": {
+          "__i": 42900
+        },
+        "target": {
+          "__i": 42913
+        }
+      },
+      "s": {
+        "label": "",
+        "edge.color": "rgba(212,0,0,0)",
+        "edge.type": "points",
+        "edge.gap": 16,
+        "edge.width.absolute": true,
+        "note.border.width": 0,
+        "note.position": 7,
+        "note.opacity": 0.85,
+        "note.background": "rgb(212,0,0)",
+        "note.offset.x": 0,
+        "note.offset.y": 0,
+        "icons": {
+          "symbols/demo/extra/basic/fromArrow2.json": {
+            "position": 15,
+            "keepOrien": true,
+            "names": [
+              "symbols/demo/extra/basic/fromArrow2.json"
+            ]
+          },
+          "symbols/demo/extra/basic/toArrow.json": {
+            "position": 19,
+            "keepOrien": true,
+            "width": 50,
+            "height": 20,
+            "names": [
+              "symbols/demo/extra/basic/toArrow.json"
+            ]
+          }
+        },
+        "note": 3,
+        "label.position": 1,
+        "edge.dash.color": "rgba(212,0,0,1)",
+        "edge.dash": true,
+        "edge.dash.pattern": [
+          8,
+          8
+        ],
+        "edge.width": 1
+      },
+      "a": {
+        "index": 3,
+        "toolTipRaw": "<div id=\"config_tooltip\" style=\"font-size:12px;line-height:1.75em;letter-spacing:1px\">\n                                                        关联绑定信息：<br>\n                                                        <li style=\"list-style-type:disc;color:rgba(255,255,255,0.5);\">索引序号：3 | 总共5条</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold;\">操作属性：inputs@func7</li>\n                                                        <li style=\"list-style-type:none;color:rgba(255,255,255,0.5)\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;当前值：接口名称</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold\">关联属性：comment@api1</li>\n                                                        <li style=\"list-style-type:none;color:rgba(255,255,255,0.5)\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;关联值：接口名称</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold;\">解析赋值：null</li>\n                                                    </div>"
+      }
+    },
+    {
+      "c": "ht.Edge",
+      "i": 42905,
+      "p": {
+        "name": "edge",
+        "displayName": "4（edge14）",
+        "toolTip": "<div id=\"config_tooltip\" style=\"font-size:12px;line-height:1.75em;letter-spacing:1px\">\n                                                        关联绑定信息：<br>\n                                                        <li style=\"list-style-type:disc;color:rgba(255,255,255,0.5);\">索引序号：4 | 总共5条</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold;\">操作属性：inputs@输出</li>\n                                                        <li style=\"list-style-type:none;color:rgba(255,255,255,0.5)\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;当前值：[object Object]</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold\">关联属性：</li>\n                                                        <li style=\"list-style-type:none;color:rgba(255,255,255,0.5)\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;关联值：</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold;\">解析赋值：result</li>\n                                                    </div>",
+        "parent": {
+          "__i": 42900
+        },
+        "tag": "edge14",
+        "source": {
+          "__i": 42900
+        },
+        "target": {
+          "__i": 42917
+        }
+      },
+      "s": {
+        "label": "",
+        "edge.color": "rgb(81,91,61)",
+        "edge.type": "v.h",
+        "edge.gap": 16,
+        "edge.width.absolute": true,
+        "note.border.width": 0,
+        "note.position": 7,
+        "note.opacity": 0.85,
+        "note.background": "rgb(81,91,61)",
+        "note.offset.x": 0,
+        "note.offset.y": 0,
+        "icons": {
+          "symbols/demo/extra/basic/fromArrow2.json": {
+            "position": 15,
+            "keepOrien": true,
+            "names": [
+              "symbols/demo/extra/basic/fromArrow2.json"
+            ]
+          },
+          "symbols/demo/extra/basic/toArrow.json": {
+            "position": 19,
+            "keepOrien": true,
+            "width": 50,
+            "height": 20,
+            "names": [
+              "symbols/demo/extra/basic/toArrow.json"
+            ]
+          }
+        },
+        "note": 4,
+        "label.position": 17,
+        "edge.ripple.size": 2,
+        "edge.ripple.length": 0,
+        "edge.ripple.elevation": 100,
+        "edge.ripple.both": true
+      },
+      "a": {
+        "index": 4,
+        "toolTipRaw": "<div id=\"config_tooltip\" style=\"font-size:12px;line-height:1.75em;letter-spacing:1px\">\n                                                        关联绑定信息：<br>\n                                                        <li style=\"list-style-type:disc;color:rgba(255,255,255,0.5);\">索引序号：4 | 总共5条</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold;\">操作属性：inputs@输出</li>\n                                                        <li style=\"list-style-type:none;color:rgba(255,255,255,0.5)\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;当前值：[object Object]</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold\">关联属性：</li>\n                                                        <li style=\"list-style-type:none;color:rgba(255,255,255,0.5)\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;关联值：</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold;\">解析赋值：result</li>\n                                                    </div>"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 42906,
+      "p": {
+        "name": "func",
+        "displayName": "工具函数（__alertEmpty）",
+        "toolTip": "透明传递<br>transfer",
+        "tag": "__alertEmpty",
+        "dataBindings": {
+          "a": {
+            "userData": {
+              "id": 1,
+              "vt": "Object"
+            },
+            "output": {
+              "id": 1,
+              "vt": "Object"
+            },
+            "inputs": {
+              "id": 1,
+              "func": "__ht__function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}",
+              "vt": "Object"
+            },
+            "exec": {
+              "id": 1,
+              "vt": "Boolean"
+            },
+            "arrExec": {
+              "id": 1,
+              "vt": "Boolean"
+            },
+            "_type": {
+              "id": 1,
+              "vt": "MessageType"
+            },
+            "_title": {
+              "id": 1,
+              "vt": "String"
+            },
+            "_region": {
+              "id": 1,
+              "vt": "Region"
+            },
+            "_duration": {
+              "id": 1,
+              "vt": "PositiveNumber"
+            },
+            "_fixedWidth": {
+              "id": 1,
+              "vt": "PositiveNumber"
+            },
+            "noteTips": {
+              "id": 1,
+              "vt": "Multiline"
+            },
+            "onOutput": {
+              "id": 1,
+              "vt": "Function"
+            },
+            "_fixedHeight": {
+              "id": 1,
+              "vt": "PositiveNumber"
+            },
+            "outputByEvent": {
+              "id": 1,
+              "vt": "Boolean"
+            },
+            "convertFlatToTree": {
+              "id": 1,
+              "vt": null
+            },
+            "inputKeys": {
+              "id": 1,
+              "vt": "ObjectArray"
+            },
+            "inputValues": {
+              "id": 1,
+              "vt": "ObjectArray"
+            }
+          }
+        },
+        "image": "symbols/develop/uiotos/base/__convertor.json",
+        "position": {
+          "x": 1981.3385,
+          "y": -97.84812
+        },
+        "width": 45,
+        "height": 45
+      },
+      "s": {
+        "label.position": 25,
+        "label.offset.y": 0,
+        "interactive": true,
+        "image.stretch": "uniform",
+        "2d.editable": false,
+        "select.width": 0.5,
+        "select.type": "roundRect",
+        "select.color": "rgb(124,145,155)",
+        "label": "弹窗提示查询无",
+        "label.font": "26px Microsoft YaHei",
+        "label.color": "rgb(51,153,255)",
+        "label.align": "left",
+        "note.font": "22px arial, sans-serif",
+        "note.color": "rgb(212,0,0)",
+        "note.background": "rgb(255,235,195)",
+        "note.position": 3,
+        "note.offset.x": 0,
+        "note.offset.y": -5,
+        "note.border.width": 10,
+        "note.border.color": "rgb(255,235,195)",
+        "note.opacity": 0,
+        "note.align": "left",
+        "label.opacity": 1
+      },
+      "a": {
+        "toolTipRaw": "透明传递<br>transfer",
+        "noteTips": "弹窗提示查询无",
+        "输出遇到空值": "全部（*）",
+        "输出遇到空值-list": [
+          "全部（*）",
+          "空对象（null）",
+          "未定义（undefined）",
+          "空字符串（\"\"）",
+          "否（false）",
+          "等于零（0）",
+          "小于零（<0）",
+          "NaN"
+        ],
+        "function": "messageAlert",
+        "inputs": [
+          "查询为空！"
+        ],
+        "symbol": "symbols/develop/uiotos/base/__convertor.json",
+        "_type": "alert",
+        "_title": "提示",
+        "bindEvents": [
+          "*",
+          "onOutput"
+        ],
+        "icon": "symbols/develop/uiotos/icons/functions/function.json",
+        "_forbidInherit": true,
+        "_fixedHeight": 180,
+        "jsonStruct": 1,
+        "arrExec": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 42907,
+      "p": {
+        "name": "func",
+        "displayName": "工具函数（__optAlert）",
+        "toolTip": "透明传递<br>transfer",
+        "tag": "__optAlert",
+        "dataBindings": {
+          "a": {
+            "userData": {
+              "id": 1,
+              "vt": "Object"
+            },
+            "output": {
+              "id": 1,
+              "vt": "Object"
+            },
+            "inputs": {
+              "id": 1,
+              "func": "__ht__function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}",
+              "vt": "Object"
+            },
+            "exec": {
+              "id": 1,
+              "func": "__ht__function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}",
+              "vt": "Boolean"
+            },
+            "arrExec": {
+              "id": 1,
+              "vt": "Boolean"
+            },
+            "_type": {
+              "id": 1,
+              "vt": "MessageType"
+            },
+            "_title": {
+              "id": 1,
+              "vt": "String"
+            },
+            "_region": {
+              "id": 1,
+              "vt": "Region"
+            },
+            "_duration": {
+              "id": 1,
+              "vt": "PositiveNumber"
+            },
+            "_fixedWidth": {
+              "id": 1,
+              "vt": "PositiveNumber"
+            },
+            "noteTips": {
+              "id": 1,
+              "vt": "Multiline"
+            },
+            "onOutput": {
+              "id": 1,
+              "vt": "Function"
+            },
+            "_fixedHeight": {
+              "id": 1,
+              "vt": "PositiveNumber"
+            },
+            "outputByEvent": {
+              "id": 1,
+              "vt": "Boolean"
+            },
+            "convertFlatToTree": {
+              "id": 1,
+              "vt": null
+            },
+            "inputKeys": {
+              "id": 1,
+              "vt": "ObjectArray"
+            },
+            "inputValues": {
+              "id": 1,
+              "vt": "ObjectArray"
+            }
+          }
+        },
+        "image": "symbols/develop/uiotos/base/__convertor.json",
+        "position": {
+          "x": 1981.3385,
+          "y": -654.87728
+        }
+      },
+      "s": {
+        "label.position": 25,
+        "label.offset.y": 0,
+        "interactive": true,
+        "image.stretch": "uniform",
+        "2d.editable": false,
+        "select.width": 0.5,
+        "select.type": "roundRect",
+        "select.color": "rgb(124,145,155)",
+        "label": "弹窗提示message",
+        "label.font": "26px Microsoft YaHei",
+        "label.color": "rgb(51,153,255)",
+        "label.align": "left",
+        "note.font": "22px arial, sans-serif",
+        "note.color": "rgb(212,0,0)",
+        "note.background": "rgb(255,235,195)",
+        "note.position": 3,
+        "note.offset.x": 0,
+        "note.offset.y": -5,
+        "note.border.width": 10,
+        "note.border.color": "rgb(255,235,195)",
+        "note.opacity": 0,
+        "note.align": "left",
+        "note": "[func4] 属性“输入时执行（exeWhenInput）”已勾选，\n通常无需再连线操作执行（exec/arrExec）属性（当前有\n被组件func5:0操作）。                             ",
+        "label.opacity": 1
+      },
+      "a": {
+        "toolTipRaw": "透明传递<br>transfer",
+        "noteTips": "弹窗提示message",
+        "输出遇到空值": "全部（*）",
+        "输出遇到空值-list": [
+          "全部（*）",
+          "空对象（null）",
+          "未定义（undefined）",
+          "空字符串（\"\"）",
+          "否（false）",
+          "等于零（0）",
+          "小于零（<0）",
+          "NaN"
+        ],
+        "function": "messageAlert",
+        "inputs": [
+          ""
+        ],
+        "symbol": "symbols/develop/uiotos/base/__convertor.json",
+        "_type": "alert",
+        "_title": "操作结果",
+        "bindEvents": [
+          "*",
+          "onOutput"
+        ],
+        "icon": "symbols/develop/uiotos/icons/functions/function.json",
+        "jsonStruct": 1,
+        "arrExec": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 42908,
+      "p": {
+        "name": "func",
+        "displayName": "工具函数（__ifHasData）",
+        "toolTip": "透明传递<br>transfer",
+        "tag": "__ifHasData",
+        "dataBindings": {
+          "a": {
+            "userData": {
+              "id": 1,
+              "vt": "Object"
+            },
+            "output": {
+              "id": 1,
+              "vt": "Object"
+            },
+            "inputs": {
+              "id": 1,
+              "vt": "Object"
+            },
+            "exec": {
+              "id": 1,
+              "vt": "Boolean"
+            },
+            "arrExec": {
+              "id": 1,
+              "vt": "Boolean"
+            },
+            "noteTips": {
+              "id": 1,
+              "vt": "Multiline"
+            },
+            "function": {
+              "id": 1,
+              "vt": "ToolFunction"
+            },
+            "_function": {
+              "id": 1,
+              "vt": "Function"
+            },
+            "onOutput": {
+              "id": 1,
+              "vt": "Function"
+            },
+            "outputByEvent": {
+              "id": 1,
+              "vt": "Boolean"
+            },
+            "convertFlatToTree": {
+              "id": 1,
+              "vt": null
+            },
+            "inputKeys": {
+              "id": 1,
+              "vt": "ObjectArray"
+            },
+            "inputValues": {
+              "id": 1,
+              "vt": "ObjectArray"
+            }
+          }
+        },
+        "image": "symbols/develop/uiotos/base/__convertor.json",
+        "position": {
+          "x": 1981.3385,
+          "y": -490.79009
+        }
+      },
+      "s": {
+        "label.position": 25,
+        "label.offset.y": 0,
+        "interactive": true,
+        "image.stretch": "uniform",
+        "2d.editable": false,
+        "select.width": 0.5,
+        "select.type": "roundRect",
+        "select.color": "rgb(124,145,155)",
+        "label": "code和message存在\n且没有result.record？",
+        "label.font": "26px Microsoft YaHei",
+        "label.color": "rgb(51,153,255)",
+        "label.align": "left",
+        "note.font": "22px arial, sans-serif",
+        "note.color": "rgb(212,0,0)",
+        "note.background": "rgb(255,235,195)",
+        "note.position": 3,
+        "note.offset.x": 0,
+        "note.offset.y": -5,
+        "note.border.width": 10,
+        "note.border.color": "rgb(255,235,195)",
+        "note.opacity": 0,
+        "note.align": "left",
+        "label.opacity": 1
+      },
+      "a": {
+        "toolTipRaw": "透明传递<br>transfer",
+        "noteTips": "code和message存在\n且没有result.record？",
+        "输出遇到空值": "全部（*）",
+        "输出遇到空值-list": [
+          "全部（*）",
+          "空对象（null）",
+          "未定义（undefined）",
+          "空字符串（\"\"）",
+          "否（false）",
+          "等于零（0）",
+          "小于零（<0）",
+          "NaN"
+        ],
+        "function": "codeBlock",
+        "exeWhenInput": true,
+        "paramControlTag": [
+          null,
+          null
+        ],
+        "paramControlAttr": [
+          "output",
+          "output"
+        ],
+        "bindControlsTag": [
+          "__calcul",
+          "ifAlert"
+        ],
+        "bindControlsAttr": [
+          "inputs",
+          "exec"
+        ],
+        "bindControlsVal": [
+          null,
+          null
+        ],
+        "symbol": "symbols/develop/uiotos/base/__convertor.json",
+        "bindEvents": [
+          "*",
+          "onOutput"
+        ],
+        "resetAfterInput": true,
+        "_function": "__ht__function(data, gv, cache, inputs) {try{\r\n    let ret = false;\r\n    if(\r\n        inputs['code'] !== undefined && \r\n        inputs['message'] !== undefined && \r\n        //cmcc项目存在有的接口是result直接返回数组，而不是通过records下面放数组，而且发现有records后面数据为null。返回true是到操作失败提示、false是到记录查询0提示\r\n        (\r\n            inputs[\"result\"] == null ||  //查询失败时，会到这里，有错误提示，result为null\r\n            (\r\n                inputs[\"result\"][\"records\"] === undefined &&  //records字段没有，且result下面不是数组时，也当做是操作，而非记录查询。\r\n                !isArrayFn(inputs[\"result\"])\r\n            )\r\n        )\r\n    ){\r\n        //存在result下直接是对象，不是records数组情况的数据，这时不能被当成是操作！注意，数据侧也要注意不要认为都是数组从而提示返回空！\r\n        if(i.isObjNotEmpty(inputs['result'],true)){\r\n            ret = '~';    //两种提示都不走！！不提示了\r\n        }else{\r\n            ret = true;\r\n        }\r\n    }\r\n    return ret;\r\n}catch(e){\r\n    console.error(e);\r\n    return false;\r\n}}",
+        "_bindEvents_0-list": [
+          "*",
+          "convertor"
+        ],
+        "_bindEvents_1-list": [
+          "*",
+          "onOutput"
+        ],
+        "icon": "symbols/develop/uiotos/icons/functions/function.json",
+        "_forbidInherit": true,
+        "jsonStruct": 1,
+        "arrExec": false
+      }
+    },
+    {
+      "c": "ht.Edge",
+      "i": 42909,
+      "p": {
+        "name": "edge",
+        "displayName": "0（edge8）",
+        "toolTip": "<div id=\"config_tooltip\" style=\"font-size:12px;line-height:1.75em;letter-spacing:1px\">\n                                                        关联绑定信息：<br>\n                                                        <li style=\"list-style-type:disc;color:rgba(255,255,255,0.5);\">索引序号：0 | 总共2条</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold;\">操作属性：inputs@__calcul</li>\n                                                        <li style=\"list-style-type:none;color:rgba(255,255,255,0.5)\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;当前值：...</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold\">关联属性：output@__ifHasData</li>\n                                                        <li style=\"list-style-type:none;color:rgba(255,255,255,0.5)\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;关联值：undefined</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold;\">解析赋值：null</li>\n                                                    </div>",
+        "parent": {
+          "__i": 42908
+        },
+        "tag": "edge8",
+        "source": {
+          "__i": 42908
+        },
+        "target": {
+          "__i": 42911
+        }
+      },
+      "s": {
+        "label": "",
+        "edge.color": "#22A571",
+        "edge.type": "flex",
+        "edge.gap": 16,
+        "edge.width.absolute": true,
+        "note.border.width": 0,
+        "note.position": 7,
+        "note.opacity": 0.85,
+        "note.background": "#22A571",
+        "note.offset.x": 0,
+        "note.offset.y": 0,
+        "icons": {
+          "symbols/demo/extra/basic/fromArrow2.json": {
+            "position": 15,
+            "keepOrien": true,
+            "names": [
+              "symbols/demo/extra/basic/fromArrow2.json"
+            ]
+          },
+          "symbols/demo/extra/basic/toArrow.json": {
+            "position": 19,
+            "keepOrien": true,
+            "width": 50,
+            "height": 20,
+            "names": [
+              "symbols/demo/extra/basic/toArrow.json"
+            ]
+          }
+        },
+        "note": 0
+      },
+      "a": {
+        "index": 0,
+        "toolTipRaw": "<div id=\"config_tooltip\" style=\"font-size:12px;line-height:1.75em;letter-spacing:1px\">\n                                                        关联绑定信息：<br>\n                                                        <li style=\"list-style-type:disc;color:rgba(255,255,255,0.5);\">索引序号：0 | 总共2条</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold;\">操作属性：inputs@__calcul</li>\n                                                        <li style=\"list-style-type:none;color:rgba(255,255,255,0.5)\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;当前值：...</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold\">关联属性：output@__ifHasData</li>\n                                                        <li style=\"list-style-type:none;color:rgba(255,255,255,0.5)\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;关联值：undefined</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold;\">解析赋值：null</li>\n                                                    </div>",
+        "_forbidInherit": true
+      }
+    },
+    {
+      "c": "ht.Edge",
+      "i": 42910,
+      "p": {
+        "name": "edge",
+        "displayName": "1（edge16）",
+        "toolTip": "<div id=\"config_tooltip\" style=\"font-size:12px;line-height:1.75em;letter-spacing:1px\">\n                                                        关联绑定信息：<br>\n                                                        <li style=\"list-style-type:disc;color:rgba(255,255,255,0.5);\">索引序号：1 | 总共2条</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold;\">操作属性：exec@ifAlert</li>\n                                                        <li style=\"list-style-type:none;color:rgba(255,255,255,0.5)\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;当前值：false</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold\">关联属性：output@__ifHasData</li>\n                                                        <li style=\"list-style-type:none;color:rgba(255,255,255,0.5)\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;关联值：undefined</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold;\">解析赋值：null</li>\n                                                    </div>",
+        "parent": {
+          "__i": 42908
+        },
+        "tag": "edge16",
+        "source": {
+          "__i": 42908
+        },
+        "target": {
+          "__i": 42918
+        }
+      },
+      "s": {
+        "label": "",
+        "edge.color": "#65847A",
+        "edge.type": "flex",
+        "edge.gap": 16,
+        "edge.width.absolute": true,
+        "note.border.width": 0,
+        "note.position": 7,
+        "note.opacity": 0.85,
+        "note.background": "#65847A",
+        "note.offset.x": 0,
+        "note.offset.y": 0,
+        "icons": {
+          "symbols/demo/extra/basic/fromArrow2.json": {
+            "position": 15,
+            "keepOrien": true,
+            "names": [
+              "symbols/demo/extra/basic/fromArrow2.json"
+            ]
+          },
+          "symbols/demo/extra/basic/toArrow.json": {
+            "position": 19,
+            "keepOrien": true,
+            "width": 50,
+            "height": 20,
+            "names": [
+              "symbols/demo/extra/basic/toArrow.json"
+            ]
+          }
+        },
+        "note": 1
+      },
+      "a": {
+        "index": 1,
+        "toolTipRaw": "<div id=\"config_tooltip\" style=\"font-size:12px;line-height:1.75em;letter-spacing:1px\">\n                                                        关联绑定信息：<br>\n                                                        <li style=\"list-style-type:disc;color:rgba(255,255,255,0.5);\">索引序号：1 | 总共2条</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold;\">操作属性：exec@ifAlert</li>\n                                                        <li style=\"list-style-type:none;color:rgba(255,255,255,0.5)\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;当前值：false</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold\">关联属性：output@__ifHasData</li>\n                                                        <li style=\"list-style-type:none;color:rgba(255,255,255,0.5)\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;关联值：undefined</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold;\">解析赋值：null</li>\n                                                    </div>",
+        "_forbidInherit": true
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 42911,
+      "p": {
+        "name": "func",
+        "displayName": "工具函数（__calcul）",
+        "toolTip": "透明传递<br>transfer",
+        "tag": "__calcul",
+        "dataBindings": {
+          "a": {
+            "userData": {
+              "id": 1,
+              "vt": "Object"
+            },
+            "output": {
+              "id": 1,
+              "vt": "Object"
+            },
+            "inputs": {
+              "id": 1,
+              "vt": "Object"
+            },
+            "exec": {
+              "id": 1,
+              "vt": "Boolean"
+            },
+            "arrExec": {
+              "id": 1,
+              "vt": "Boolean"
+            },
+            "_method": {
+              "id": 1,
+              "vt": "MathMethod"
+            },
+            "_value": {
+              "id": 1,
+              "vt": "Number"
+            },
+            "_reverse": {
+              "id": 1,
+              "vt": "Boolean"
+            },
+            "onOutput": {
+              "id": 1,
+              "vt": "Function"
+            },
+            "outputByEvent": {
+              "id": 1,
+              "vt": "Boolean"
+            },
+            "convertFlatToTree": {
+              "id": 1,
+              "vt": null
+            },
+            "inputKeys": {
+              "id": 1,
+              "vt": "ObjectArray"
+            },
+            "inputValues": {
+              "id": 1,
+              "vt": "ObjectArray"
+            }
+          }
+        },
+        "image": "symbols/develop/uiotos/base/__convertor.json",
+        "position": {
+          "x": 1981.3385,
+          "y": -378.64789
+        }
+      },
+      "s": {
+        "label.position": 25,
+        "label.offset.y": 0,
+        "interactive": true,
+        "image.stretch": "uniform",
+        "2d.editable": false,
+        "select.width": 0.5,
+        "select.type": "roundRect",
+        "select.color": "rgb(124,145,155)",
+        "label": "不对，存在result.record",
+        "label.font": "26px Microsoft YaHei",
+        "label.color": "rgb(51,153,255)",
+        "label.align": "left",
+        "note.font": "22px arial, sans-serif",
+        "note.color": "rgb(212,0,0)",
+        "note.background": "rgb(255,235,195)",
+        "note.position": 3,
+        "note.offset.x": 0,
+        "note.offset.y": -5,
+        "note.border.width": 10,
+        "note.border.color": "rgb(255,235,195)",
+        "note.opacity": 0,
+        "note.align": "left",
+        "label.opacity": 1
+      },
+      "a": {
+        "toolTipRaw": "透明传递<br>transfer",
+        "noteTips": "不对，存在result.record",
+        "输出遇到空值": "全部（*）",
+        "输出遇到空值-list": [
+          "全部（*）",
+          "空对象（null）",
+          "未定义（undefined）",
+          "空字符串（\"\"）",
+          "否（false）",
+          "等于零（0）",
+          "小于零（<0）",
+          "NaN"
+        ],
+        "symbol": "symbols/develop/uiotos/base/__convertor.json",
+        "function": "calculation",
+        "exeWhenInput": true,
+        "resetAfterInput": true,
+        "_method": "SUB",
+        "_reverse": true,
+        "paramControlTag": [
+          null
+        ],
+        "paramControlAttr": [
+          "output"
+        ],
+        "bindControlsTag": [
+          "__queryCount"
+        ],
+        "bindControlsAttr": [
+          "exec"
+        ],
+        "bindControlsVal": [
+          null
+        ],
+        "bindEvents": [
+          "*",
+          "onOutput"
+        ],
+        "icon": "symbols/develop/uiotos/icons/functions/function.json",
+        "_forbidInherit": true,
+        "jsonStruct": 1,
+        "arrExec": false
+      }
+    },
+    {
+      "c": "ht.Edge",
+      "i": 42912,
+      "p": {
+        "name": "edge",
+        "displayName": "0（edge9）",
+        "toolTip": "<div id=\"config_tooltip\" style=\"font-size:12px;line-height:1.75em;letter-spacing:1px\">\n                                                        关联绑定信息：<br>\n                                                        <li style=\"list-style-type:disc;color:rgba(255,255,255,0.5);\">索引序号：0 | 总共1条</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold;\">操作属性：exec@__queryCount</li>\n                                                        <li style=\"list-style-type:none;color:rgba(255,255,255,0.5)\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;当前值：false</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold\">关联属性：output@func6</li>\n                                                        <li style=\"list-style-type:none;color:rgba(255,255,255,0.5)\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;关联值：undefined</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold;\">解析赋值：null</li>\n                                                    </div>",
+        "parent": {
+          "__i": 42911
+        },
+        "tag": "edge9",
+        "source": {
+          "__i": 42911
+        },
+        "target": {
+          "__i": 42898
+        }
+      },
+      "s": {
+        "label": "",
+        "edge.color": "#009D58",
+        "edge.type": "flex",
+        "edge.gap": 16,
+        "edge.width.absolute": true,
+        "note.border.width": 0,
+        "note.position": 7,
+        "note.opacity": 0.85,
+        "note.background": "#009D58",
+        "note.offset.x": 0,
+        "note.offset.y": 0,
+        "icons": {
+          "symbols/demo/extra/basic/fromArrow2.json": {
+            "position": 15,
+            "keepOrien": true,
+            "names": [
+              "symbols/demo/extra/basic/fromArrow2.json"
+            ]
+          },
+          "symbols/demo/extra/basic/toArrow.json": {
+            "position": 19,
+            "keepOrien": true,
+            "width": 50,
+            "height": 20,
+            "names": [
+              "symbols/demo/extra/basic/toArrow.json"
+            ]
+          }
+        },
+        "note": 0
+      },
+      "a": {
+        "index": 0,
+        "toolTipRaw": "<div id=\"config_tooltip\" style=\"font-size:12px;line-height:1.75em;letter-spacing:1px\">\n                                                        关联绑定信息：<br>\n                                                        <li style=\"list-style-type:disc;color:rgba(255,255,255,0.5);\">索引序号：0 | 总共1条</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold;\">操作属性：exec@__queryCount</li>\n                                                        <li style=\"list-style-type:none;color:rgba(255,255,255,0.5)\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;当前值：false</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold\">关联属性：output@func6</li>\n                                                        <li style=\"list-style-type:none;color:rgba(255,255,255,0.5)\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;关联值：undefined</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold;\">解析赋值：null</li>\n                                                    </div>",
+        "_forbidInherit": true
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 42913,
+      "p": {
+        "name": "func",
+        "displayName": "工具函数（func7）",
+        "toolTip": "透明传递<br>transfer",
+        "tag": "func7",
+        "dataBindings": {
+          "a": {
+            "userData": {
+              "id": 1,
+              "vt": "Object"
+            },
+            "output": {
+              "id": 1,
+              "vt": "Object"
+            },
+            "inputs": {
+              "id": 1,
+              "func": "__ht__function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}",
+              "vt": "Object"
+            },
+            "exec": {
+              "id": 1,
+              "vt": "Boolean"
+            },
+            "arrExec": {
+              "id": 1,
+              "vt": "Boolean"
+            },
+            "_rawForm": {
+              "id": 1,
+              "vt": "Boolean"
+            },
+            "onOutput": {
+              "id": 1,
+              "vt": "Function"
+            },
+            "outputByEvent": {
+              "id": 1,
+              "vt": "Boolean"
+            },
+            "convertFlatToTree": {
+              "id": 1,
+              "vt": null
+            },
+            "inputKeys": {
+              "id": 1,
+              "vt": "ObjectArray"
+            },
+            "inputValues": {
+              "id": 1,
+              "vt": "ObjectArray"
+            },
+            "_pureFormValues": {
+              "id": 1,
+              "vt": "Boolean"
+            }
+          }
+        },
+        "image": "symbols/develop/uiotos/base/__convertor.json",
+        "position": {
+          "x": 1782.92577,
+          "y": -179.69198
+        }
+      },
+      "s": {
+        "label.offset.y": 0,
+        "interactive": true,
+        "image.stretch": "uniform",
+        "2d.editable": false,
+        "select.width": 0.5,
+        "select.type": "roundRect",
+        "select.color": "rgb(124,145,155)",
+        "label": "取接口名称",
+        "label.font": "26px Microsoft YaHei",
+        "label.color": "rgb(51,153,255)",
+        "label.align": "left",
+        "note.font": "22px arial, sans-serif",
+        "note.color": "rgb(212,0,0)",
+        "note.background": "rgb(255,235,195)",
+        "note.position": 3,
+        "note.offset.x": 0,
+        "note.offset.y": -5,
+        "note.border.width": 10,
+        "note.border.color": "rgb(255,235,195)",
+        "note.opacity": 0,
+        "note.align": "left",
+        "label.opacity": 1
+      },
+      "a": {
+        "toolTipRaw": "透明传递<br>transfer",
+        "noteTips": "取接口名称",
+        "输出遇到空值": "全部（*）",
+        "输出遇到空值-list": [
+          "全部（*）",
+          "空对象（null）",
+          "未定义（undefined）",
+          "空字符串（\"\"）",
+          "否（false）",
+          "等于零（0）",
+          "小于零（<0）",
+          "NaN"
+        ],
+        "symbol": "symbols/develop/uiotos/base/__convertor.json",
+        "function": "formValues",
+        "paramControlTag": [
+          null
+        ],
+        "paramControlAttr": [
+          "output"
+        ],
+        "bindControlsTag": [
+          "__alertEmpty"
+        ],
+        "bindControlsAttr": [
+          "inputs"
+        ],
+        "bindControlsVal": [
+          1
+        ],
+        "inputs": "接口名称",
+        "bindEvents": [
+          "*",
+          "onOutput"
+        ],
+        "stripSingleInput": false,
+        "icon": "symbols/develop/uiotos/icons/functions/function.json",
+        "jsonStruct": 1,
+        "arrExec": false
+      }
+    },
+    {
+      "c": "ht.Edge",
+      "i": 42914,
+      "p": {
+        "name": "edge",
+        "displayName": "0（edge12）",
+        "toolTip": "<div id=\"config_tooltip\" style=\"font-size:12px;line-height:1.75em;letter-spacing:1px\">\n                                                        关联绑定信息：<br>\n                                                        <li style=\"list-style-type:disc;color:rgba(255,255,255,0.5);\">索引序号：0 | 总共1条</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold;\">操作属性：inputs@__alertEmpty</li>\n                                                        <li style=\"list-style-type:none;color:rgba(255,255,255,0.5)\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;当前值：查询为空！...</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold\">关联属性：output@func7</li>\n                                                        <li style=\"list-style-type:none;color:rgba(255,255,255,0.5)\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;关联值：接口名称</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold;\">解析赋值：1</li>\n                                                    </div>",
+        "parent": {
+          "__i": 42913
+        },
+        "tag": "edge12",
+        "source": {
+          "__i": 42913
+        },
+        "target": {
+          "__i": 42906
+        }
+      },
+      "s": {
+        "label": "",
+        "edge.color": "#8D49A9",
+        "edge.type": "points",
+        "edge.gap": 16,
+        "edge.width.absolute": true,
+        "note.border.width": 0,
+        "note.position": 7,
+        "note.opacity": 0.85,
+        "note.background": "#8D49A9",
+        "note.offset.x": 0,
+        "note.offset.y": 0,
+        "icons": {
+          "symbols/demo/extra/basic/fromArrow2.json": {
+            "position": 15,
+            "keepOrien": true,
+            "names": [
+              "symbols/demo/extra/basic/fromArrow2.json"
+            ]
+          },
+          "symbols/demo/extra/basic/toArrow.json": {
+            "position": 19,
+            "keepOrien": true,
+            "width": 50,
+            "height": 20,
+            "names": [
+              "symbols/demo/extra/basic/toArrow.json"
+            ]
+          }
+        },
+        "note": 0,
+        "label.position": 1
+      },
+      "a": {
+        "index": 0,
+        "toolTipRaw": "<div id=\"config_tooltip\" style=\"font-size:12px;line-height:1.75em;letter-spacing:1px\">\n                                                        关联绑定信息：<br>\n                                                        <li style=\"list-style-type:disc;color:rgba(255,255,255,0.5);\">索引序号：0 | 总共1条</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold;\">操作属性：inputs@__alertEmpty</li>\n                                                        <li style=\"list-style-type:none;color:rgba(255,255,255,0.5)\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;当前值：查询为空！...</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold\">关联属性：output@func7</li>\n                                                        <li style=\"list-style-type:none;color:rgba(255,255,255,0.5)\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;关联值：接口名称</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold;\">解析赋值：1</li>\n                                                    </div>"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 42915,
+      "p": {
+        "name": "func",
+        "displayName": "工具函数（func8）",
+        "toolTip": "透明传递<br>transfer",
+        "tag": "func8",
+        "dataBindings": {
+          "a": {
+            "userData": {
+              "id": 1,
+              "vt": "Object"
+            },
+            "output": {
+              "id": 1,
+              "vt": "Object"
+            },
+            "inputs": {
+              "id": 1,
+              "vt": "Object"
+            },
+            "exec": {
+              "id": 1,
+              "vt": "Boolean"
+            },
+            "arrExec": {
+              "id": 1,
+              "vt": "Boolean"
+            },
+            "onOutput": {
+              "id": 1,
+              "vt": "Function"
+            },
+            "outputByEvent": {
+              "id": 1,
+              "vt": "Boolean"
+            },
+            "convertFlatToTree": {
+              "id": 1,
+              "vt": null
+            },
+            "inputKeys": {
+              "id": 1,
+              "vt": "ObjectArray"
+            },
+            "inputValues": {
+              "id": 1,
+              "vt": "ObjectArray"
+            }
+          }
+        },
+        "image": "symbols/develop/uiotos/base/__convertor.json",
+        "position": {
+          "x": 1981.3385,
+          "y": -157.19198
+        }
+      },
+      "s": {
+        "label.position": 25,
+        "label.offset.y": 0,
+        "interactive": true,
+        "image.stretch": "uniform",
+        "2d.editable": false,
+        "select.width": 0.5,
+        "select.type": "roundRect",
+        "select.color": "rgb(124,145,155)",
+        "label": "透传调整时序让\nAPI名称先传递",
+        "label.font": "26px Microsoft YaHei",
+        "label.color": "rgb(51,153,255)",
+        "label.align": "left",
+        "note.font": "22px arial, sans-serif",
+        "note.color": "rgb(212,0,0)",
+        "note.background": "rgb(255,235,195)",
+        "note.position": 3,
+        "note.offset.x": 0,
+        "note.offset.y": -5,
+        "note.border.width": 10,
+        "note.border.color": "rgb(255,235,195)",
+        "note.opacity": 0,
+        "note.align": "left",
+        "label.opacity": 1
+      },
+      "a": {
+        "toolTipRaw": "透明传递<br>transfer",
+        "noteTips": "透传调整时序让\nAPI名称先传递",
+        "输出遇到空值": "全部（*）",
+        "输出遇到空值-list": [
+          "全部（*）",
+          "空对象（null）",
+          "未定义（undefined）",
+          "空字符串（\"\"）",
+          "否（false）",
+          "等于零（0）",
+          "小于零（<0）",
+          "NaN"
+        ],
+        "symbol": "symbols/develop/uiotos/base/__convertor.json",
+        "paramControlTag": [
+          null
+        ],
+        "paramControlAttr": [
+          null
+        ],
+        "bindControlsTag": [
+          "__alertEmpty"
+        ],
+        "bindControlsAttr": [
+          "exec"
+        ],
+        "bindControlsVal": [
+          null
+        ],
+        "bindEvents": [
+          "*",
+          "onOutput"
+        ],
+        "icon": "symbols/develop/uiotos/icons/functions/function.json",
+        "_forbidInherit": true,
+        "jsonStruct": 1,
+        "arrExec": false
+      }
+    },
+    {
+      "c": "ht.Edge",
+      "i": 42916,
+      "p": {
+        "name": "edge",
+        "displayName": "0（edge13）",
+        "toolTip": "<div id=\"config_tooltip\" style=\"font-size:12px;line-height:1.75em;letter-spacing:1px\">\n                                                        关联绑定信息：<br>\n                                                        <li style=\"list-style-type:disc;color:rgba(255,255,255,0.5);\">索引序号：0 | 总共1条</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold;\">操作属性：exec@__alertEmpty</li>\n                                                        <li style=\"list-style-type:none;color:rgba(255,255,255,0.5)\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;当前值：false</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold\">关联属性：</li>\n                                                        <li style=\"list-style-type:none;color:rgba(255,255,255,0.5)\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;关联值：</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold;\">解析赋值：null</li>\n                                                    </div>",
+        "parent": {
+          "__i": 42915
+        },
+        "tag": "edge13",
+        "source": {
+          "__i": 42915
+        },
+        "target": {
+          "__i": 42906
+        }
+      },
+      "s": {
+        "label": "",
+        "edge.color": "#ED765A",
+        "edge.type": "flex",
+        "edge.gap": 16,
+        "edge.width.absolute": true,
+        "note.border.width": 0,
+        "note.position": 7,
+        "note.opacity": 0.85,
+        "note.background": "#ED765A",
+        "note.offset.x": 0,
+        "note.offset.y": 0,
+        "icons": {
+          "symbols/demo/extra/basic/fromArrow2.json": {
+            "position": 15,
+            "keepOrien": true,
+            "names": [
+              "symbols/demo/extra/basic/fromArrow2.json"
+            ]
+          },
+          "symbols/demo/extra/basic/toArrow.json": {
+            "position": 19,
+            "keepOrien": true,
+            "width": 50,
+            "height": 20,
+            "names": [
+              "symbols/demo/extra/basic/toArrow.json"
+            ]
+          }
+        },
+        "note": 0
+      },
+      "a": {
+        "index": 0,
+        "toolTipRaw": "<div id=\"config_tooltip\" style=\"font-size:12px;line-height:1.75em;letter-spacing:1px\">\n                                                        关联绑定信息：<br>\n                                                        <li style=\"list-style-type:disc;color:rgba(255,255,255,0.5);\">索引序号：0 | 总共1条</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold;\">操作属性：exec@__alertEmpty</li>\n                                                        <li style=\"list-style-type:none;color:rgba(255,255,255,0.5)\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;当前值：false</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold\">关联属性：</li>\n                                                        <li style=\"list-style-type:none;color:rgba(255,255,255,0.5)\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;关联值：</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold;\">解析赋值：null</li>\n                                                    </div>",
+        "_forbidInherit": true
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 42917,
+      "p": {
+        "name": "func",
+        "displayName": "工具函数（输出）",
+        "toolTip": "<span style='font-weight:bold;color:rgb(125,195,125)'>说明：</span><span style='color:rgb(125,195,125);line-height:1.8em;letter-spacing:1px;'>\n<br>接口输出，按照CMCC项目的返回格式\n<br>兼容了各个接口的返回字段结构，只需\n<br>要从这里获取输出即可，如果返回失败\n<br>不会从接口触发输出，并且会自动弹窗\n<br>提示。\n<br>此外，对“输出经事件返回”属性做了form\n<br>绑定，支持向上暴露继承，为了兼容旧\n<br>逻辑，这里默认没有勾选，需要的时候\n<br>上层勾选并form锁定，随后连线给到上\n<br>层页面对外输出时，无需关联onOutput\n<br>即可获得返回，无需通过对output属性\n<br>做赋值解析。\n</span>",
+        "tag": "输出",
+        "dataBindings": {
+          "a": {
+            "userData": {
+              "id": 1,
+              "vt": "Object"
+            },
+            "output": {
+              "id": 1,
+              "vt": "Object"
+            },
+            "inputs": {
+              "id": 1,
+              "vt": "Object"
+            },
+            "exec": {
+              "id": 1,
+              "vt": "Boolean"
+            },
+            "arrExec": {
+              "id": 1,
+              "vt": "Boolean"
+            },
+            "onOutput": {
+              "id": 1,
+              "vt": "Function"
+            },
+            "_function": {
+              "id": 1,
+              "vt": "Function"
+            },
+            "outputByEvent": {
+              "id": 1,
+              "vt": "Boolean"
+            },
+            "convertFlatToTree": {
+              "id": 1,
+              "vt": null
+            },
+            "inputKeys": {
+              "id": 1,
+              "vt": "ObjectArray"
+            },
+            "inputValues": {
+              "id": 1,
+              "vt": "ObjectArray"
+            }
+          }
+        },
+        "image": "symbols/develop/uiotos/base/__convertor.json",
+        "position": {
+          "x": 1981.3385,
+          "y": -34.9185
+        }
+      },
+      "s": {
+        "label.position": 25,
+        "label.offset.y": 0,
+        "interactive": true,
+        "image.stretch": "uniform",
+        "2d.editable": false,
+        "select.width": 0.5,
+        "select.type": "roundRect",
+        "select.color": "rgb(124,145,155)",
+        "label": "提取记录输出",
+        "label.font": "26px Microsoft YaHei",
+        "label.color": "rgb(51,153,255)",
+        "label.align": "left",
+        "label.opacity": 1
+      },
+      "a": {
+        "toolTipRaw": "<span style='font-weight:bold;color:rgb(125,195,125)'>说明：</span><span style='color:rgb(125,195,125);line-height:1.8em;letter-spacing:1px;'>\n<br>接口输出，按照CMCC项目的返回格式\n<br>兼容了各个接口的返回字段结构，只需\n<br>要从这里获取输出即可，如果返回失败\n<br>不会从接口触发输出，并且会自动弹窗\n<br>提示。\n<br>此外，对“输出经事件返回”属性做了form\n<br>绑定，支持向上暴露继承，为了兼容旧\n<br>逻辑，这里默认没有勾选，需要的时候\n<br>上层勾选并form锁定，随后连线给到上\n<br>层页面对外输出时，无需关联onOutput\n<br>即可获得返回，无需通过对output属性\n<br>做赋值解析。\n</span>",
+        "noteTips": "提取记录输出",
+        "bindEvents": [
+          "*",
+          "onOutput"
+        ],
+        "输出遇到空值": "全部（*）",
+        "输出遇到空值-list": [
+          "全部（*）",
+          "空对象（null）",
+          "未定义（undefined）",
+          "空字符串（\"\"）",
+          "否（false）",
+          "等于零（0）",
+          "小于零（<0）",
+          "NaN"
+        ],
+        "symbol": "symbols/develop/uiotos/base/__convertor.json",
+        "resetAfterInput": true,
+        "exeWhenInput": true,
+        "paramControlTag": [],
+        "paramControlAttr": [],
+        "bindControlsTag": [],
+        "bindControlsAttr": [],
+        "bindControlsVal": [],
+        "icon": "symbols/develop/uiotos/icons/functions/function.json",
+        "function": "codeBlock",
+        "_function": "__ht__function(data, gv, cache, inputs) {if(isArrayFn(inputs)) return inputs;\r\nelse if(isArrayFn(inputs.records)) return inputs.records;\r\nelse {\r\n    return inputs;\r\n}}",
+        "_debugPointOut": false,
+        "jsonStruct": 1,
+        "arrExec": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 42918,
+      "p": {
+        "name": "func",
+        "displayName": "工具函数（ifAlert）",
+        "toolTip": "透明传递<br>transfer",
+        "tag": "ifAlert",
+        "dataBindings": {
+          "a": {
+            "userData": {
+              "id": 1,
+              "vt": "Object"
+            },
+            "output": {
+              "id": 1,
+              "vt": "Object"
+            },
+            "inputs": {
+              "id": 1,
+              "func": "__ht__function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}",
+              "vt": "Object"
+            },
+            "exec": {
+              "id": 1,
+              "func": "__ht__function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}",
+              "vt": "Boolean"
+            },
+            "arrExec": {
+              "id": 1,
+              "vt": "Boolean"
+            },
+            "noteTips": {
+              "id": 1,
+              "vt": "Multiline"
+            },
+            "onOutput": {
+              "id": 1,
+              "vt": "Function"
+            },
+            "inputKeys": {
+              "id": 1,
+              "vt": "ObjectArray"
+            },
+            "inputValues": {
+              "id": 1,
+              "vt": "ObjectArray"
+            },
+            "outputByEvent": {
+              "id": 1,
+              "vt": "Boolean"
+            },
+            "convertFlatToTree": {
+              "id": 1,
+              "vt": null
+            }
+          }
+        },
+        "image": "symbols/develop/uiotos/base/__convertor.json",
+        "position": {
+          "x": 1981.3385,
+          "y": -585.35921
+        }
+      },
+      "s": {
+        "label.position": 25,
+        "label.offset.y": 0,
+        "interactive": true,
+        "image.stretch": "uniform",
+        "2d.editable": false,
+        "select.width": 0.5,
+        "select.type": "roundRect",
+        "select.color": "rgb(124,145,155)",
+        "label": "是否弹窗？",
+        "label.font": "26px Microsoft YaHei",
+        "label.color": "rgb(51,153,255)",
+        "label.align": "left",
+        "note.font": "22px arial, sans-serif",
+        "note.color": "rgb(212,0,0)",
+        "note.background": "rgb(255,235,195)",
+        "note.position": 3,
+        "note.offset.x": 0,
+        "note.offset.y": -5,
+        "note.border.width": 10,
+        "note.border.color": "rgb(255,235,195)",
+        "note.opacity": 0,
+        "note.align": "left",
+        "note": "[func4] 属性“输入时执行（exeWhenInput）”已勾选，\n通常无需再连线操作执行（exec/arrExec）属性（当前有\n被组件func5:0操作）。                             ",
+        "label.opacity": 1
+      },
+      "a": {
+        "toolTipRaw": "透明传递<br>transfer",
+        "noteTips": "是否弹窗？",
+        "输出遇到空值": "全部（*）",
+        "输出遇到空值-list": [
+          "全部（*）",
+          "空对象（null）",
+          "未定义（undefined）",
+          "空字符串（\"\"）",
+          "否（false）",
+          "等于零（0）",
+          "小于零（<0）",
+          "NaN"
+        ],
+        "inputs": true,
+        "symbol": "symbols/develop/uiotos/base/__convertor.json",
+        "bindEvents": [
+          "*",
+          "onOutput"
+        ],
+        "paramControlTag": [
+          null
+        ],
+        "paramControlAttr": [
+          "output"
+        ],
+        "bindControlsTag": [
+          "__optAlert"
+        ],
+        "bindControlsAttr": [
+          "exec"
+        ],
+        "bindControlsVal": [
+          null
+        ],
+        "_bindEvents_0-list": [
+          "*",
+          "onOutput"
+        ],
+        "icon": "symbols/develop/uiotos/icons/functions/function.json",
+        "jsonStruct": 1,
+        "arrExec": false
+      }
+    },
+    {
+      "c": "ht.Edge",
+      "i": 42919,
+      "p": {
+        "name": "edge",
+        "displayName": "0（edge15）",
+        "toolTip": "<div id=\"config_tooltip\" style=\"font-size:12px;line-height:1.75em;letter-spacing:1px\">\n                                                        关联绑定信息：<br>\n                                                        <li style=\"list-style-type:disc;color:rgba(255,255,255,0.5);\">索引序号：0 | 总共1条</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold;\">操作属性：执行@__optAlert</li>\n                                                        <li style=\"list-style-type:none;color:rgba(255,255,255,0.5)\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;当前值：undefined</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold\">关联属性：输出@ifAlert</li>\n                                                        <li style=\"list-style-type:none;color:rgba(255,255,255,0.5)\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;关联值：undefined</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold;\">解析赋值：null</li>\n                                                    </div>",
+        "parent": {
+          "__i": 42918
+        },
+        "tag": "edge15",
+        "source": {
+          "__i": 42918
+        },
+        "target": {
+          "__i": 42907
+        }
+      },
+      "s": {
+        "label": "",
+        "edge.color": "#8405B7",
+        "edge.type": "flex",
+        "edge.gap": 16,
+        "edge.width.absolute": true,
+        "note.border.width": 0,
+        "note.position": 7,
+        "note.opacity": 0.85,
+        "note.background": "#8405B7",
+        "note.offset.x": 0,
+        "note.offset.y": 0,
+        "icons": {
+          "symbols/demo/extra/basic/fromArrow2.json": {
+            "position": 15,
+            "keepOrien": true,
+            "names": [
+              "symbols/demo/extra/basic/fromArrow2.json"
+            ]
+          },
+          "symbols/demo/extra/basic/toArrow.json": {
+            "position": 19,
+            "keepOrien": true,
+            "width": 50,
+            "height": 20,
+            "names": [
+              "symbols/demo/extra/basic/toArrow.json"
+            ]
+          }
+        },
+        "note": 0
+      },
+      "a": {
+        "index": 0,
+        "toolTipRaw": "<div id=\"config_tooltip\" style=\"font-size:12px;line-height:1.75em;letter-spacing:1px\">\n                                                        关联绑定信息：<br>\n                                                        <li style=\"list-style-type:disc;color:rgba(255,255,255,0.5);\">索引序号：0 | 总共1条</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold;\">操作属性：执行@__optAlert</li>\n                                                        <li style=\"list-style-type:none;color:rgba(255,255,255,0.5)\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;当前值：undefined</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold\">关联属性：输出@ifAlert</li>\n                                                        <li style=\"list-style-type:none;color:rgba(255,255,255,0.5)\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;关联值：undefined</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold;\">解析赋值：null</li>\n                                                    </div>",
+        "_forbidInherit": true
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 42920,
+      "p": {
+        "name": "Node",
+        "displayName": "n（n1）",
+        "toolTip": "<p style='color:rgb(242,83,75);margin:0px;font-weight:bold'>已被布局，不允许拖动<p>",
+        "tag": "n1",
+        "position": {
+          "x": 2116.12103,
+          "y": -619.63634
+        },
+        "width": 358.33506,
+        "height": 152.59848
+      },
+      "s": {
+        "shape": "rect",
+        "shape.background": "rgba(194,29,29,0)",
+        "shape.border.width": 1,
+        "shape.border.color": "rgba(51,153,255,0)",
+        "label.position": 2,
+        "label.offset.y": -8,
+        "label.color": "rgb(125,195,125)",
+        "label.opacity": 1,
+        "interactive": true,
+        "image.stretch": "uniform",
+        "layout.h": "leftright",
+        "layout.v": "top",
+        "shape.dash": true,
+        "shape.dash.color": "rgb(51,153,255)",
+        "fullscreen.gap": 0,
+        "label": "1）删除修改等操作状态失败提示",
+        "label.font": "bold 26px sans-serif, Arial",
+        "label.align": "left"
+      },
+      "a": {
+        "toolTipRaw": "<p style='color:rgb(242,83,75);margin:0px;font-weight:bold'>已被布局，不允许拖动<p>",
+        "bindControlsTag": [],
+        "bindControlsAttr": [],
+        "bindControlsVal": [],
+        "paramControlTag": [],
+        "paramControlAttr": [],
+        "paramBindEvent": [],
+        "paramsGenerator": "function paramsGenerator(data, val, index, node, oldVal, form) {\r\n    //绑定组索引对应的函数处理，用来动态生成复杂的参数变量传入\r\n    switch (index) {\r\n        case 0:\r\n            break;\r\n        case 1:\r\n            break;\r\n        case 2:\r\n            break;\r\n        default:\r\n            break;\r\n    }\r\n    return val;\r\n}",
+        "_forbidInherit": true
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 42921,
+      "p": {
+        "name": "Node",
+        "displayName": "n（n2）",
+        "toolTip": "<p style='color:rgb(242,83,75);margin:0px;font-weight:bold'>已被布局，不允许拖动<p>",
+        "tag": "n2",
+        "position": {
+          "x": 2116.12103,
+          "y": -229.2832
+        },
+        "width": 358.33506,
+        "height": 343.72939
+      },
+      "s": {
+        "shape": "rect",
+        "shape.background": "rgba(194,29,29,0)",
+        "shape.border.width": 1,
+        "shape.border.color": "rgba(51,153,255,0)",
+        "label.position": 2,
+        "label.offset.y": -8,
+        "label.color": "rgb(125,195,125)",
+        "label.opacity": 1,
+        "interactive": true,
+        "image.stretch": "uniform",
+        "layout.h": "leftright",
+        "layout.v": "top",
+        "shape.dash": true,
+        "shape.dash.color": "rgb(51,153,255)",
+        "fullscreen.gap": 0,
+        "label": "2）查询返回数据列表为空时提示",
+        "label.font": "bold 26px sans-serif, Arial",
+        "label.align": "left"
+      },
+      "a": {
+        "toolTipRaw": "<p style='color:rgb(242,83,75);margin:0px;font-weight:bold'>已被布局，不允许拖动<p>",
+        "bindControlsTag": [],
+        "bindControlsAttr": [],
+        "bindControlsVal": [],
+        "paramControlTag": [],
+        "paramControlAttr": [],
+        "paramBindEvent": [],
+        "paramsGenerator": "function paramsGenerator(data, val, index, node, oldVal, form) {\r\n    //绑定组索引对应的函数处理，用来动态生成复杂的参数变量传入\r\n    switch (index) {\r\n        case 0:\r\n            break;\r\n        case 1:\r\n            break;\r\n        case 2:\r\n            break;\r\n        default:\r\n            break;\r\n    }\r\n    return val;\r\n}"
+      }
+    }
+  ],
+  "modified": "Fri Aug 16 2024 11:14:03 GMT+0800 (中国标准时间)",
+  "contentRect": {
+    "x": 1269.71433,
+    "y": -810.28939,
+    "width": 1051.27335,
+    "height": 825.37089
+  }
+}

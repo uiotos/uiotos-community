@@ -1,0 +1,105 @@
+{
+  "modified": "Tue Mar 05 2019 15:03:53 GMT+0800 (中国标准时间)",
+  "width": 180,
+  "height": 38,
+  "snapshotURL": "symbols/ht/snapshot/colorPicker.json",
+  "func": "__ht__function(g, rect, comp, data, view) {\nht.vector.comp.colorPicker.apply(this, arguments);\n}",
+  "properties": {
+    "value": {
+      "valueType": "Color",
+      "defaultValue": null,
+      "name": "UIFormItemValue"
+    },
+    "borderWidth": {
+      "valueType": "PositiveNumber",
+      "defaultValue": 1,
+      "name": "UIBorderWidth"
+    },
+    "borderColor": {
+      "valueType": "Color",
+      "defaultValue": "#737373",
+      "name": "UIBorderColor"
+    },
+    "focusBorderColor": {
+      "valueType": "Color",
+      "name": "UIFocusBorderColor"
+    },
+    "disabledBorderColor": {
+      "valueType": "Color",
+      "defaultValue": "#ebebeb",
+      "name": "UIDisabledBorderColor"
+    },
+    "borderRadius": {
+      "valueType": "String",
+      "defaultValue": "0",
+      "name": "UIBorderRadius"
+    },
+    "disabled": {
+      "valueType": "Boolean",
+      "defaultValue": false,
+      "name": "UIDisabled"
+    },
+    "textColor": {
+      "valueType": "Color",
+      "defaultValue": "rgb(128,128,128)",
+      "name": "UITextColor"
+    },
+    "font": {
+      "valueType": "Font",
+      "defaultValue": "12px arial, sans-serif",
+      "name": "UIFont"
+    },
+    "fullMode": {
+      "valueType": "Boolean",
+      "defaultValue": false,
+      "name": "UIFullMode"
+    },
+    "showDropDownIcon": {
+      "valueType": "Boolean",
+      "defaultValue": true,
+      "name": "UIShowDropDownIcon"
+    },
+    "dropDownIcon": {
+      "valueType": "String",
+      "name": "UIDropDownIcon"
+    },
+    "dropDownIconColor": {
+      "valueType": "Color",
+      "defaultValue": "#737373",
+      "name": "UIDropDownIconColor"
+    },
+    "dropDownIconDisabledColor": {
+      "valueType": "Color",
+      "defaultValue": "#ebebeb",
+      "name": "UIDropDownIconDisabledColor"
+    },
+    "dropDownIconWidth": {
+      "valueType": "PositiveNumber",
+      "defaultValue": 20,
+      "name": "UIDropDownIconWidth"
+    },
+    "dropDownIconHeight": {
+      "valueType": "PositiveNumber",
+      "defaultValue": 20,
+      "name": "UIDropDownIconHeight"
+    },
+    "onChange": {
+      "valueType": "Function",
+      "name": "UIOnChange",
+      "extraInfo": {
+        "arguments": [
+          "oldValue",
+          "newValue",
+          "data",
+          "view"
+        ]
+      }
+    }
+  },
+  "events": {
+    "onDown": "__ht__function(event, data, view, point, width, height) {\nht.vector.colorPickerInteractor.onDown.apply(this, arguments);\n}",
+    "onUp": "__ht__function(event, data, view, point, width, height) {\nht.vector.colorPickerInteractor.onUp.apply(this, arguments);\n}",
+    "onEnter": "__ht__function(event, data, view, point, width, height) {\nht.vector.colorPickerInteractor.onEnter.apply(this, arguments);\n}",
+    "onLeave": "__ht__function(event, data, view, point, width, height) {\nht.vector.colorPickerInteractor.onLeave.apply(this, arguments);\n}"
+  }
+}

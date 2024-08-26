@@ -1,0 +1,123 @@
+{
+  "modified": "Sat May 11 2024 10:35:29 GMT+0800 (中国标准时间)",
+  "dataBindings": [
+    {
+      "attr": "icon-background",
+      "valueType": "Color"
+    },
+    {
+      "attr": "icon-borderWidth",
+      "valueType": "PositiveNumber"
+    },
+    {
+      "attr": "icon-borderColor",
+      "valueType": "Color"
+    }
+  ],
+  "width": 45,
+  "height": 45,
+  "comps": [
+    {
+      "type": "shape",
+      "background": {
+        "func": "attr@icon-background",
+        "value": "rgba(55,125,255)"
+      },
+      "borderWidth": {
+        "func": "attr@icon-borderWidth",
+        "value": 0
+      },
+      "borderColor": {
+        "func": "attr@icon-borderColor",
+        "value": null
+      },
+      "anchorX": 0,
+      "anchorY": 0,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "points": [
+        0.83313,
+        8.59625,
+        8.94875,
+        0.48125,
+        9.53812,
+        1.07,
+        1.44188,
+        9.16687,
+        10,
+        9.16687,
+        10,
+        10,
+        0,
+        10,
+        0,
+        0,
+        0.83313,
+        0,
+        0.83313,
+        8.59625,
+        3.3125,
+        2.91688,
+        3.90187,
+        3.50563,
+        1.83937,
+        5.56812,
+        1.25,
+        4.97875,
+        3.3125,
+        2.91625,
+        4.97875,
+        1.25,
+        5.56813,
+        1.83937,
+        4.68438,
+        2.72313,
+        4.095,
+        2.13375,
+        4.97875,
+        1.25,
+        7.94625,
+        5,
+        8.53562,
+        5.58937,
+        5.58937,
+        8.53562,
+        5,
+        7.94625,
+        7.94625,
+        5
+      ],
+      "segments": [
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        5,
+        1,
+        2,
+        2,
+        2,
+        2,
+        5,
+        1,
+        2,
+        2,
+        2,
+        2,
+        5,
+        1,
+        2,
+        2,
+        2,
+        2,
+        5
+      ]
+    }
+  ]
+}

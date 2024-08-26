@@ -1,0 +1,286 @@
+{
+    "modified": "Mon Oct 24 2022 05:25:38 GMT+0800 (中国标准时间)",
+    "background": "rgb(32,37,46)",
+    "dataBindings": [{
+            "attr": "shadowBorder",
+            "valueType": "NumberArray",
+            "defaultValue": [
+                0,
+                0,
+                8
+            ]
+        },
+        {
+            "attr": "shadowColor",
+            "valueType": "Color",
+            "defaultValue": "rgba(102,102,102,0.2)"
+        },
+        {
+            "attr": "shadowEnabled",
+            "valueType": "Boolean",
+            "defaultValue": false
+        },
+        {
+            "attr": "fontNode",
+            "valueType": "Font",
+            "defaultValue": "12px Microsoft YaHei"
+        },
+        {
+            "attr": "fontContent",
+            "valueType": "Font",
+            "defaultValue": "12px Microsoft YaHei"
+        },
+        {
+            "attr": "font",
+            "valueType": "Font",
+            "defaultValue": "12px sans-serif, Arial"
+        },
+        {
+            "attr": "collapsed",
+            "valueType": "Boolean",
+            "defaultValue": false
+        },
+        {
+            "attr": "toggleVisible",
+            "valueType": "Boolean",
+            "defaultValue": false
+        },
+        {
+            "attr": "datas",
+            "valueType": "Object",
+            "defaultValue": [{
+                    "icon": "symbols/demo/uiotos/icons/light/home.json",
+                    "name": "aaa",
+                    "messages": [{
+                        "text": "132.1",
+                        "background": "blue"
+                    }],
+                    "children": [{
+                            "icon": "imgs/home.png",
+                            "name": "aaa.1"
+                        },
+                        {
+                            "icon": "imgs/home.png",
+                            "name": "aaa.2",
+                            "background": "#ed6b75",
+                            "children": [{
+                                    "name": "aaa.1.1",
+                                    "messages": [{
+                                        "text": "1",
+                                        "background": "blue"
+                                    }]
+                                },
+                                {
+                                    "name": "aaa.1.2"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "icon": "symbols/demo/uiotos/icons/light/home.json",
+                    "name": "bbb",
+                    "children": [{
+                        "icon": "imgs/home.png",
+                        "name": "bbb.1",
+                        "messages": [{
+                                "text": "1",
+                                "background": "blue"
+                            },
+                            {
+                                "text": "2",
+                                "background": "blue"
+                            }
+                        ],
+                        "children": [{
+                                "name": "bbb.1.1",
+                                "children": [{
+                                    "icon": "imgs/home.png",
+                                    "name": "bbb.1.1.1",
+                                    "children": [{
+                                            "name": "bbb.1.1.1.1"
+                                        },
+                                        {
+                                            "name": "bbb.1.1.1.2"
+                                        }
+                                    ]
+                                }]
+                            },
+                            {
+                                "name": "bbb.1.2"
+                            }
+                        ]
+                    }]
+                },
+                {
+                    "icon": "symbols/demo/uiotos/icons/light/home.json",
+                    "name": "ccc",
+                    "children": [{
+                        "icon": "imgs/home.png",
+                        "name": "ccc.1",
+                        "children": [{
+                                "name": "ccc.1.1"
+                            },
+                            {
+                                "name": "ccc.1.2"
+                            }
+                        ]
+                    }]
+                }
+            ]
+        },
+        {
+            "attr": "rightSide",
+            "valueType": "Boolean",
+            "defaultValue": true
+        },
+        {
+            "attr": "widthPadding",
+            "valueType": "PositiveNumber",
+            "defaultValue": 15
+        },
+        {
+            "attr": "widthNextState",
+            "valueType": "PositiveNumber",
+            "defaultValue": 80
+        },
+        {
+            "attr": "boxShadowBorder",
+            "valueType": "NumberArray",
+            "defaultValue": [-6,
+                0,
+                10
+            ]
+        },
+        {
+            "attr": "boxShadowColor",
+            "valueType": "Color",
+            "defaultValue": "rgba(0, 0, 0, 0.3)"
+        },
+        {
+            "attr": "background",
+            "valueType": "Color",
+            "defaultValue": "white"
+        },
+        {
+            "attr": "headerBackground",
+            "valueType": "Color",
+            "defaultValue": null
+        },
+        {
+            "attr": "hoverHeaderBackground",
+            "valueType": "Color",
+            "defaultValue": "#f2f6f9"
+        },
+        {
+            "attr": "expandedHeaderBackground",
+            "valueType": "Color",
+            "defaultValue": "#f2f6f9"
+        },
+        {
+            "attr": "selectHeaderBackground",
+            "valueType": "Color",
+            "defaultValue": "#f2f6f9"
+        },
+        {
+            "attr": "headerSeparatorVisible",
+            "valueType": "boolean",
+            "defaultValue": false
+        },
+        {
+            "attr": "headerLabelColor",
+            "valueType": "Color",
+            "defaultValue": "#678098"
+        },
+        {
+            "attr": "expandedHeaderLabelColor",
+            "valueType": "Color",
+            "defaultValue": "#5b9bd1"
+        },
+        {
+            "attr": "hoverHeaderLabelColor",
+            "valueType": "Color",
+            "defaultValue": "#5b9bd1"
+        },
+        {
+            "attr": "selectHeaderLabelColor",
+            "valueType": "Color",
+            "defaultValue": "#5b9bd1"
+        },
+        {
+            "attr": "rowLabelColor",
+            "valueType": "Color",
+            "defaultValue": "#678098"
+        },
+        {
+            "attr": "expandedRowLabelColor",
+            "valueType": "Color",
+            "defaultValue": "#5b9bd1"
+        },
+        {
+            "attr": "hoverRowLabelColor",
+            "valueType": "Color",
+            "defaultValue": "#5b9bd1"
+        },
+        {
+            "attr": "selectRowLabelColor",
+            "valueType": "Color",
+            "defaultValue": "#5b9bd1"
+        },
+        {
+            "attr": "hoverRowBackground",
+            "valueType": "Color",
+            "defaultValue": "#f2f6f9"
+        },
+        {
+            "attr": "expandedRowBackground",
+            "valueType": "Color",
+            "defaultValue": "#f2f6f9"
+        },
+        {
+            "attr": "selectRowBackground",
+            "valueType": "Color",
+            "defaultValue": "#f2f6f9"
+        },
+        {
+            "attr": "selectHeaderCollapseIcon",
+            "valueType": "Image",
+            "defaultValue": "sidebar_collapse"
+        },
+        {
+            "attr": "selectHeaderExpandIcon",
+            "valueType": "Image",
+            "defaultValue": "sidebar_expand"
+        },
+        {
+            "attr": "selectRowCollapseIcon",
+            "valueType": "Image",
+            "defaultValue": "sidebar_collapse"
+        },
+        {
+            "attr": "selectRowExpandIcon",
+            "valueType": "Image",
+            "defaultValue": "sidebar_expand"
+        },
+        {
+            "attr": "borderWidth",
+            "valueType": "PositiveNumber",
+            "defaultValue": 1
+        },
+        {
+            "attr": "borderColor",
+            "valueType": "Color",
+            "defaultValue": "rgb(213,213,213)"
+        },
+        {
+            "attr": "borderRadius",
+            "valueType": "PositiveNumber",
+            "defaultValue": 3
+        }
+    ],
+    "renderHTML": "__ht__function(data, gv, cache) {return __menuSidebar_ui(data,gv,cache);}",
+    "width": 200,
+    "height": 500,
+    "pixelPerfect": false,
+    "comps": []
+}

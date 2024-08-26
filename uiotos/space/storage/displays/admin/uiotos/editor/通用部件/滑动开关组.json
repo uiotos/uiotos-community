@@ -1,0 +1,338 @@
+{
+  "v": "7.7.1",
+  "p": {
+    "background": "#20252e",
+    "autoAdjustIndex": true,
+    "hierarchicalRendering": true
+  },
+  "a": {
+    "rotateAsClock": false,
+    "gridBlockSize": 20,
+    "gridThickColor": "rgba(100,100,100,0.2)",
+    "gridLightColor": "rgba(127,127,127,0.1)",
+    "gridAngle": 1.5708,
+    "connectActionType": null,
+    "fitContent": false,
+    "zoomable": false,
+    "rectSelectable": false,
+    "pannable": false
+  },
+  "d": [
+    {
+      "c": "ht.UGrid",
+      "i": 96214,
+      "p": {
+        "name": "grid",
+        "displayName": "网格组合（grid1）",
+        "tag": "grid1",
+        "dataBindings": {
+          "a": {
+            "datas": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "grid.row.count": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "grid.column.count": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "__ht__function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}",
+              "alias": ""
+            },
+            "grid.row.percents": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "grid.column.percents": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "valueGet": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "itemsGet": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "grid.auto.fill": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            }
+          }
+        },
+        "image": "symbols/develop/uiotos/base/grid.json",
+        "position": {
+          "x": 338.42742,
+          "y": 380.25802
+        },
+        "width": 207.81218,
+        "height": 35
+      },
+      "s": {
+        "label.opacity": 0,
+        "label.position": 14,
+        "label.offset.x": -10,
+        "label.offset.y": 0,
+        "label.color": "rgb(61,61,61)",
+        "grid.gap": 0,
+        "grid.borderRadius": 10,
+        "interactive": true,
+        "grid.border": 0,
+        "fullscreen": "fill",
+        "fullscreen.gap": 0,
+        "grid.column.count": 3
+      },
+      "a": {
+        "grid.row.count": 1,
+        "grid.column.count": 3,
+        "grid.border": 0
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 96215,
+      "p": {
+        "name": "sw",
+        "displayName": "开关（sw1）",
+        "toolTip": "网格内布局的图元不允许拖动",
+        "parent": {
+          "__i": 96214
+        },
+        "tag": "sw1",
+        "dataBindings": {
+          "a": {
+            "open": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "onChange": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            }
+          }
+        },
+        "image": "symbols/develop/uiotos/base/switch-lite.json",
+        "host": {
+          "__i": 96214
+        },
+        "position": {
+          "x": 269.15669,
+          "y": 380.25802
+        },
+        "width": 39.27073,
+        "height": 35
+      },
+      "s": {
+        "label.opacity": 0,
+        "label.position": 14,
+        "label.offset.x": -10,
+        "label.offset.y": 0,
+        "label.color": "rgb(61,61,61)",
+        "2d.movable": false,
+        "interactive": true,
+        "image.stretch": "uniform",
+        "attach.padding.left": -15,
+        "attach.padding.right": -15
+      },
+      "a": {
+        "back.background": "rgb(0,199,7)",
+        "dot.background": "white",
+        "text": "开启",
+        "textColor": "white",
+        "textRect": [
+          15,
+          8.5,
+          30,
+          18
+        ],
+        "back.borderColor": "rgb(0,199,7)",
+        "dot.rect": [
+          47.5,
+          5,
+          25,
+          25
+        ],
+        "origin_width": 73.90609,
+        "origin_height": 35,
+        "open": true
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 96216,
+      "p": {
+        "name": "sw",
+        "displayName": "开关（sw2）",
+        "toolTip": "网格内布局的图元不允许拖动",
+        "parent": {
+          "__i": 96214
+        },
+        "tag": "sw2",
+        "dataBindings": {
+          "a": {
+            "open": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "onChange": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            }
+          }
+        },
+        "image": "symbols/develop/uiotos/base/switch-lite.json",
+        "host": {
+          "__i": 96214
+        },
+        "position": {
+          "x": 338.42742,
+          "y": 380.25802
+        },
+        "width": 39.27073,
+        "height": 35
+      },
+      "s": {
+        "label.opacity": 0,
+        "label.position": 14,
+        "label.offset.x": -10,
+        "label.offset.y": 0,
+        "label.color": "rgb(61,61,61)",
+        "2d.movable": false,
+        "interactive": true,
+        "image.stretch": "uniform",
+        "attach.padding.left": -15,
+        "attach.padding.right": -15,
+        "attach.column.index": 1
+      },
+      "a": {
+        "back.background": "rgb(0,199,7)",
+        "dot.background": "white",
+        "text": "开启",
+        "textColor": "white",
+        "textRect": [
+          15,
+          8.5,
+          30,
+          18
+        ],
+        "back.borderColor": "rgb(0,199,7)",
+        "dot.rect": [
+          47.5,
+          5,
+          25,
+          25
+        ],
+        "origin_width": 73.90609,
+        "origin_height": 35,
+        "open": true
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 96217,
+      "p": {
+        "name": "sw",
+        "displayName": "开关（sw3）",
+        "toolTip": "网格内布局的图元不允许拖动",
+        "parent": {
+          "__i": 96214
+        },
+        "tag": "sw3",
+        "dataBindings": {
+          "a": {
+            "open": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "onChange": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            }
+          }
+        },
+        "image": "symbols/develop/uiotos/base/switch-lite.json",
+        "host": {
+          "__i": 96214
+        },
+        "position": {
+          "x": 407.69815,
+          "y": 380.25802
+        },
+        "width": 39.27073,
+        "height": 35
+      },
+      "s": {
+        "label.opacity": 0,
+        "label.position": 14,
+        "label.offset.x": -10,
+        "label.offset.y": 0,
+        "label.color": "rgb(61,61,61)",
+        "2d.movable": false,
+        "interactive": true,
+        "image.stretch": "uniform",
+        "attach.padding.left": -15,
+        "attach.padding.right": -15,
+        "attach.column.index": 2
+      },
+      "a": {
+        "back.background": "rgb(0,199,7)",
+        "dot.background": "white",
+        "text": "开启",
+        "textColor": "white",
+        "textRect": [
+          15,
+          8.5,
+          30,
+          18
+        ],
+        "back.borderColor": "rgb(0,199,7)",
+        "dot.rect": [
+          47.5,
+          5,
+          25,
+          25
+        ],
+        "origin_width": 73.90609,
+        "origin_height": 35,
+        "open": true
+      }
+    }
+  ],
+  "modified": "Sat Jun 24 2023 10:36:44 GMT+0800 (中国标准时间)",
+  "contentRect": {
+    "x": 200.51156,
+    "y": 362.75802,
+    "width": 241.82195,
+    "height": 35
+  }
+}

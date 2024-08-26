@@ -1,0 +1,379 @@
+{
+  "v": "7.7.1",
+  "p": {
+    "autoAdjustIndex": true,
+    "hierarchicalRendering": true
+  },
+  "a": {
+    "rotateAsClock": false,
+    "gridBlockSize": 20,
+    "connectActionType": null,
+    "_parentTag": "dlg1",
+    "fitContent": false,
+    "rectSelectable": false,
+    "pannable": false,
+    "zoomable": false
+  },
+  "d": [
+    {
+      "c": "ht.Node",
+      "i": 24978,
+      "p": {
+        "name": "Node",
+        "displayName": "n（Node1）",
+        "tag": "Node1",
+        "position": {
+          "x": -41.82175,
+          "y": -238.52136
+        },
+        "width": 391.98961,
+        "height": 202.95729
+      },
+      "s": {
+        "shape": "rect",
+        "shape.background": "rgb(255,255,255)",
+        "shape.border.color": "#979797",
+        "interactive": true,
+        "image.stretch": "uniform",
+        "fullscreen": "fill",
+        "fullscreen.gap": 0,
+        "label.position": 14,
+        "label.offset.x": -10,
+        "label.offset.y": 0,
+        "label.color": "rgb(61,61,61)",
+        "label.opacity": 0
+      }
+    },
+    {
+      "c": "ht.UGrid",
+      "i": 24979,
+      "p": {
+        "name": "grid",
+        "displayName": "网格组合（grid1）",
+        "toolTip": "已被布局，不允许拖动",
+        "tag": "grid1",
+        "dataBindings": {
+          "a": {
+            "datas": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "grid.row.count": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "grid.column.count": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "grid.row.percents": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "grid.auto.fill": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "grid.column.percents": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "grid.gap": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "valueGet": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "itemsGet": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            }
+          }
+        },
+        "image": "symbols/develop/uiotos/base/grid.json",
+        "host": {
+          "__i": 24978
+        },
+        "position": {
+          "x": -41.82175,
+          "y": -238.52136
+        },
+        "width": 391.98961,
+        "height": 202.95729
+      },
+      "s": {
+        "label.opacity": 0,
+        "label.position": 14,
+        "label.offset.x": -10,
+        "label.offset.y": 0,
+        "label.color": "rgb(61,61,61)",
+        "grid.gap": 0,
+        "grid.column.count": 2,
+        "grid.borderRadius": 10,
+        "grid.border.right": -15,
+        "grid.border.left": -15,
+        "2d.movable": false,
+        "interactive": true,
+        "image.stretch": "uniform",
+        "grid.row.count": 2,
+        "layout.h": "leftright",
+        "layout.v": "topbottom"
+      },
+      "a": {
+        "valueGet": {},
+        "bindEvents": [
+          "*",
+          "onChange"
+        ],
+        "grid.row.count": 2,
+        "grid.column.count": 2,
+        "grid.auto.fill": true,
+        "enable": true,
+        "sizeSet": 3
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 24980,
+      "p": {
+        "name": "cbtn",
+        "displayName": "图片按钮（cbtn1）",
+        "toolTip": "网格内布局的图元不允许拖动",
+        "parent": {
+          "__i": 24979
+        },
+        "tag": "cbtn1",
+        "dataBindings": {
+          "a": {
+            "path": {
+              "id": "iotos.form",
+              "alias": "",
+              "func": "__ht__function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        console.error(err);\r\n        return rawData;\r\n    }\r\n}",
+              "idinfo": "",
+              "isTplBinded": false
+            }
+          }
+        },
+        "image": "symbols/develop/uiotos/base/iconClick.json",
+        "host": {
+          "__i": 24979
+        },
+        "position": {
+          "x": -139.81915,
+          "y": -289.26068
+        },
+        "width": 165.99481,
+        "height": 101.47865
+      },
+      "s": {
+        "label.opacity": 0,
+        "label.position": 14,
+        "label.offset.x": -10,
+        "label.offset.y": 0,
+        "label.color": "rgb(61,61,61)",
+        "2d.movable": false,
+        "attach.padding.left": -15,
+        "attach.padding.right": -15,
+        "interactive": true,
+        "image.stretch": "uniform",
+        "2d.selectable": false
+      },
+      "a": {
+        "origin_width": 122.70836,
+        "origin_height": 597.36535,
+        "icon-background": "rgb(55,125,255)",
+        "path": "symbols/develop/uiotos/icons/editroToolBar/edit.json"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 24981,
+      "p": {
+        "name": "cbtn",
+        "displayName": "图片按钮（cbtn2）",
+        "toolTip": "网格内布局的图元不允许拖动",
+        "parent": {
+          "__i": 24979
+        },
+        "tag": "cbtn2",
+        "dataBindings": {
+          "a": {
+            "path": {
+              "id": "iotos.form",
+              "alias": "",
+              "func": "__ht__function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        console.error(err);\r\n        return rawData;\r\n    }\r\n}",
+              "idinfo": "",
+              "isTplBinded": false
+            }
+          }
+        },
+        "image": "symbols/develop/uiotos/base/iconClick.json",
+        "host": {
+          "__i": 24979
+        },
+        "position": {
+          "x": 56.17565,
+          "y": -289.26068
+        },
+        "width": 165.99481,
+        "height": 101.47865
+      },
+      "s": {
+        "label.opacity": 0,
+        "label.position": 14,
+        "label.offset.x": -10,
+        "label.offset.y": 0,
+        "label.color": "rgb(61,61,61)",
+        "2d.movable": false,
+        "attach.column.index": 1,
+        "attach.padding.left": -15,
+        "attach.padding.right": -15,
+        "interactive": true,
+        "image.stretch": "uniform",
+        "2d.selectable": false
+      },
+      "a": {
+        "origin_width": 122.70836,
+        "origin_height": 597.36535,
+        "icon-background": "rgb(55,125,255)",
+        "path": "symbols/develop/uiotos/icons/editroToolBar/edit.json"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 24982,
+      "p": {
+        "name": "cbtn",
+        "displayName": "图片按钮（cbtn3）",
+        "toolTip": "网格内布局的图元不允许拖动",
+        "parent": {
+          "__i": 24979
+        },
+        "tag": "cbtn3",
+        "dataBindings": {
+          "a": {
+            "path": {
+              "id": "iotos.form",
+              "alias": "",
+              "func": "__ht__function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        console.error(err);\r\n        return rawData;\r\n    }\r\n}",
+              "idinfo": "",
+              "isTplBinded": false
+            }
+          }
+        },
+        "image": "symbols/develop/uiotos/base/iconClick.json",
+        "host": {
+          "__i": 24979
+        },
+        "position": {
+          "x": -139.81915,
+          "y": -187.78204
+        },
+        "width": 165.99481,
+        "height": 101.47865
+      },
+      "s": {
+        "label.opacity": 0,
+        "label.position": 14,
+        "label.offset.x": -10,
+        "label.offset.y": 0,
+        "label.color": "rgb(61,61,61)",
+        "2d.movable": false,
+        "attach.padding.left": -15,
+        "attach.padding.right": -15,
+        "interactive": true,
+        "image.stretch": "uniform",
+        "attach.row.index": 1,
+        "2d.selectable": false
+      },
+      "a": {
+        "origin_width": 122.70836,
+        "origin_height": 597.36535,
+        "icon-background": "rgb(55,125,255)",
+        "path": "symbols/develop/uiotos/icons/editroToolBar/edit.json"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 24983,
+      "p": {
+        "name": "cbtn",
+        "displayName": "图片按钮（cbtn4）",
+        "toolTip": "网格内布局的图元不允许拖动",
+        "parent": {
+          "__i": 24979
+        },
+        "tag": "cbtn4",
+        "dataBindings": {
+          "a": {
+            "path": {
+              "id": "iotos.form",
+              "alias": "",
+              "func": "__ht__function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        console.error(err);\r\n        return rawData;\r\n    }\r\n}",
+              "idinfo": "",
+              "isTplBinded": false
+            }
+          }
+        },
+        "image": "symbols/develop/uiotos/base/iconClick.json",
+        "host": {
+          "__i": 24979
+        },
+        "position": {
+          "x": 56.17565,
+          "y": -187.78204
+        },
+        "width": 165.99481,
+        "height": 101.47865
+      },
+      "s": {
+        "label.opacity": 0,
+        "label.position": 14,
+        "label.offset.x": -10,
+        "label.offset.y": 0,
+        "label.color": "rgb(61,61,61)",
+        "2d.movable": false,
+        "attach.padding.left": -15,
+        "attach.padding.right": -15,
+        "interactive": true,
+        "image.stretch": "uniform",
+        "attach.row.index": 1,
+        "attach.column.index": 1,
+        "2d.selectable": false
+      },
+      "a": {
+        "origin_width": 122.70836,
+        "origin_height": 597.36535,
+        "icon-background": "rgb(55,125,255)",
+        "path": "symbols/develop/uiotos/icons/editroToolBar/edit.json"
+      }
+    }
+  ],
+  "modified": "Fri Aug 18 2023 02:38:40 GMT+0800 (中国标准时间)",
+  "contentRect": {
+    "x": -280.50405,
+    "y": -340,
+    "width": 434.67711,
+    "height": 202.95729
+  }
+}

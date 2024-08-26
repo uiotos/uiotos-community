@@ -1,0 +1,62 @@
+{
+  "modified": "Fri Sep 27 2019 10:43:39 GMT+0800 (中国标准时间)",
+  "width": 20,
+  "height": 20,
+  "snapshotURL": "symbols/ht/snapshot/radio.json",
+  "func": "__ht__function(g, rect, comp, data, view) {\nht.vector.comp.radio2.apply(this, arguments);\n}",
+  "properties": {
+    "checked": {
+      "valueType": "Boolean",
+      "defaultValue": false,
+      "name": "UIChecked"
+    },
+    "group": {
+      "valueType": "String",
+      "name": "UIFormItemGroup"
+    },
+    "value": {
+      "valueType": "String",
+      "name": "UIFormItemValue"
+    },
+    "disabled": {
+      "valueType": "Boolean",
+      "defaultValue": false,
+      "name": "UIDisabled"
+    },
+    "normalColor": {
+      "valueType": "Color",
+      "defaultValue": "#737373",
+      "name": "UINormalColor"
+    },
+    "background": {
+      "valueType": "Color",
+      "defaultValue": "rgb(255,255,255)",
+      "name": "UIBackground"
+    },
+    "activeColor": {
+      "valueType": "Color",
+      "defaultValue": "rgb(51,153,255)",
+      "name": "UIActiveColor"
+    },
+    "disabledColor": {
+      "valueType": "Color",
+      "defaultValue": "#ebebeb",
+      "name": "UIDisabledColor"
+    },
+    "disabledBackground": {
+      "valueType": "Color",
+      "defaultValue": "#fafafa",
+      "name": "UIDisabledBackground"
+    },
+    "onChange": {
+      "valueType": "Function",
+      "name": "UIOnChange"
+    }
+  },
+  "events": {
+    "onDown": "__ht__function(event, data, view, point, width, height) {\nht.vector.radioInteractor2.onDown.apply(this, arguments);\n}",
+    "onUp": "__ht__function(event, data, view, point, width, height) {\nht.vector.radioInteractor2.onUp.apply(this, arguments);\n}",
+    "onEnter": "__ht__function(event, data, view, point, width, height) {\nht.vector.radioInteractor2.onEnter.apply(this, arguments);\n}",
+    "onLeave": "__ht__function(event, data, view, point, width, height) {\nht.vector.radioInteractor2.onLeave.apply(this, arguments);\n}"
+  }
+}

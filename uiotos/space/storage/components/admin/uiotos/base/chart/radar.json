@@ -1,0 +1,211 @@
+{
+  "modified": "Mon Jun 07 2021 11:21:36 GMT+0800 (中国标准时间)",
+  "width": 300,
+  "height": 300,
+  "func": "__ht__function(g, rect, comp, data, view) {\nht.vector.comp.radar.apply(this, arguments);\n}",
+  "properties": {
+    "series": {
+      "valueType": "Object",
+      "defaultValue": [
+        {
+          "data": [
+            10,
+            30,
+            44,
+            55,
+            48
+          ]
+        }
+      ],
+      "name": "系列"
+    },
+    "colors": {
+      "valueType": "ColorArray",
+      "defaultValue": [
+        "rgb(51,153,255)",
+        "rgb(93,217,174)",
+        "#FEB64D",
+        "rgb(241,125,164)",
+        "rgb(135,144,204)",
+        "rgb(124,145,155)",
+        "rgb(48,242,120)",
+        "rgb(212,0,0)",
+        "#32D3EB",
+        "#c4ccd3"
+      ],
+      "name": "颜色数字"
+    },
+    "isCircle": {
+      "valueType": "Boolean",
+      "defaultValue": false,
+      "name": "圆形"
+    },
+    "fillAlpha": {
+      "valueType": "Opacity",
+      "defaultValue": 0.3,
+      "name": "透明度"
+    },
+    "borderWidth": {
+      "valueType": "PositiveNumber",
+      "defaultValue": 1,
+      "name": "边框宽度"
+    },
+    "splitLineVisible": {
+      "valueType": "Boolean",
+      "defaultValue": true,
+      "name": "线显示",
+      "group": "分割"
+    },
+    "splitLineColor": {
+      "valueType": "Color",
+      "defaultValue": "rgba(201,201,201,0.65)",
+      "name": "线色"
+    },
+    "splitLineWidth": {
+      "valueType": "PositiveNumber",
+      "defaultValue": 1,
+      "name": "线宽"
+    },
+    "splitLinePattern": {
+      "valueType": "NumberArray",
+      "name": "虚线样式"
+    },
+    "splitNumber": {
+      "valueType": "Number",
+      "defaultValue": 4,
+      "name": "分割数"
+    },
+    "splitColors": {
+      "valueType": "ColorArray",
+      "defaultValue": [
+        "rgba(124,146,156,0.3)",
+        "rgba(124,146,156,0.6)"
+      ],
+      "name": "分割颜色数组"
+    },
+    "axisLineVisible": {
+      "valueType": "Boolean",
+      "defaultValue": true,
+      "name": "显示",
+      "group": "轴线"
+    },
+    "axisLineColor": {
+      "valueType": "Color",
+      "defaultValue": "rgba(201,201,201,0.65)",
+      "name": "颜色"
+    },
+    "axisLineWidth": {
+      "valueType": "PositiveNumber",
+      "defaultValue": 1,
+      "name": "线宽"
+    },
+    "axisLinePattern": {
+      "valueType": "NumberArray",
+      "name": "虚线样式"
+    },
+    "labelVisible": {
+      "valueType": "Boolean",
+      "defaultValue": false,
+      "name": "显示",
+      "group": "标签"
+    },
+    "indicator": {
+      "valueType": "Object",
+      "defaultValue": [
+        {
+          "name": "输出"
+        },
+        {
+          "name": "KDA"
+        },
+        {
+          "name": "发育"
+        },
+        {
+          "name": "团战"
+        },
+        {
+          "name": "生存"
+        }
+      ],
+      "name": "指标"
+    },
+    "labelPadding": {
+      "valueType": "PositiveNumber",
+      "defaultValue": 36,
+      "name": "内边距"
+    },
+    "labelGap": {
+      "valueType": "PositiveNumber",
+      "defaultValue": 5,
+      "name": "间距"
+    },
+    "labelFont": {
+      "valueType": "Font",
+      "defaultValue": "12px sans-serif, Arial",
+      "name": "字体"
+    },
+    "labelColor": {
+      "valueType": "Color",
+      "defaultValue": "#32D3EB",
+      "name": "颜色"
+    },
+    "labelFormatter": {
+      "valueType": "Function",
+      "name": "标签格式化",
+      "extraInfo": {
+        "arguments": [
+          "text",
+          "indicatorItem",
+          "index",
+          "data",
+          "view"
+        ]
+      }
+    },
+    "drawLabel": {
+      "valueType": "Function",
+      "name": "自定义绘制",
+      "extraInfo": {
+        "arguments": [
+          "g",
+          "label",
+          "labelRadius",
+          "angle",
+          "position",
+          "data",
+          "view"
+        ]
+      }
+    },
+    "seriesValueVisible": {
+      "valueType": "Boolean",
+      "defaultValue": false,
+      "name": "显示",
+      "group": "系列值"
+    },
+    "seriesValueFont": {
+      "valueType": "Font",
+      "defaultValue": "12px sans-serif, Arial",
+      "name": "字体"
+    },
+    "seriesValueGap": {
+      "valueType": "PositiveNumber",
+      "defaultValue": 2,
+      "name": "间距"
+    },
+    "seriesValueFormatter": {
+      "valueType": "Function",
+      "name": "值格式化",
+      "extraInfo": {
+        "arguments": [
+          "text",
+          "indicatorItem",
+          "index",
+          "data",
+          "view"
+        ]
+      }
+    }
+  }
+}

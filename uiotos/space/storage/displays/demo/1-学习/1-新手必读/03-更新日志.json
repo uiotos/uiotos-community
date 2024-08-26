@@ -1,0 +1,576 @@
+{
+  "v": "8.0.1",
+  "p": {
+    "autoAdjustIndex": true,
+    "hierarchicalRendering": true
+  },
+  "a": {
+    "rotateAsClock": false,
+    "gridBlockSize": 20,
+    "connectActionType": null,
+    "fitContent": false,
+    "zoomable": false,
+    "rectSelectable": false,
+    "pannable": false
+  },
+  "d": [
+    {
+      "c": "ht.Node",
+      "i": 32926,
+      "p": {
+        "name": "base",
+        "displayName": "底板（_base）",
+        "tag": "_base",
+        "position": {
+          "x": 1267.52317,
+          "y": 408.19689
+        },
+        "width": 686.14832,
+        "height": 814.39378
+      },
+      "s": {
+        "shape": "rect",
+        "shape.background": "rgb(255,255,255)",
+        "fullscreen.gap": 0,
+        "2d.movable": false,
+        "label.opacity": 0,
+        "label.position": 14,
+        "label.offset.x": -10,
+        "label.offset.y": 0,
+        "label.color": "rgb(61,61,61)",
+        "fullscreen": "fill"
+      }
+    },
+    {
+      "c": "ht.UNode",
+      "i": 32927,
+      "p": {
+        "name": "gv",
+        "displayName": "嵌套容器（gv1）",
+        "toolTip": "<p style='color:rgb(242,83,75);margin-top:5px;margin-bottom:5px;font-weight:bold;line-height:1.5em;'>已被布局，不允许拖动（shift+回车可解除）</p>",
+        "tag": "gv1",
+        "dataBindings": {
+          "a": {
+            "display": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "innerLayoutMode": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "03-更新日志>0>doc1>a:content": {
+              "id": "iotos.formReset",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "03-更新日志>0>doc1>a:readOnly": {
+              "id": "iotos.formReset",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "03-更新日志>0>doc1>a:onChange": {
+              "id": "iotos.formReset",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "03-更新日志>0>doc1>a:preview": {
+              "id": "iotos.formReset",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "03-更新日志>0>doc1>a:display": {
+              "id": "iotos.formReset",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "03-更新日志>0>doc1>a:popDirection": {
+              "id": "iotos.formReset",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "03-更新日志>0>doc1>a:popBackground": {
+              "id": "iotos.formReset",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "03-更新日志>0>doc1>a:popPadding": {
+              "id": "iotos.formReset",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "03-更新日志>0>doc1>a:popWidth": {
+              "id": "iotos.formReset",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "03-更新日志>0>doc1>a:popHeight": {
+              "id": "iotos.formReset",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "03-更新日志>0>doc1>a:popBorderColor": {
+              "id": "iotos.formReset",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "03-更新日志>0>doc1>a:popBorderWidth": {
+              "id": "iotos.formReset",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "03-更新日志>0>doc1>a:popBorderRadius": {
+              "id": "iotos.formReset",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "03-更新日志>0>doc1>a:popTriggerEvent": {
+              "id": "iotos.formReset",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "03-更新日志>0>doc1>s:layout.h": {
+              "id": "iotos.formReset",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            }
+          }
+        },
+        "image": {
+          "modified": "Fri Jun 07 2024 10:11:56 GMT+0800 (中国标准时间)",
+          "dataBindings": [
+            {
+              "attr": "symbol",
+              "valueType": "Image",
+              "name": "symbol"
+            },
+            {
+              "attr": "display",
+              "valueType": "URL",
+              "group": "功能",
+              "name": "display"
+            },
+            {
+              "attr": "innerLayoutMode",
+              "valueType": "String",
+              "defaultValue": "",
+              "description": "内嵌页面的布局模式。\n<br>页面通常分为适配内容（fitContent）\n<br>和全屏填充（fullScreen）两种模式，\n<br>前者自适应缩放以保证所有内容窗口\n<br>范围内可见，后者则是指定某个图元\n<br>组件作为底板全屏填充，其他组件直\n<br>接或简接对于底板布局。\n<br>模式无（none）表示以上两种模式都\n<br>不是，既不缩放适配也不全屏铺满。\n<br>注意，本属性为读写，可以表示当前\n<br>页面的状态，也可以进行设置。其中\n<br>设置全屏填充时，自动选择最底层图\n<br>元组件作为底板。新建页面默认为基\n<br>于有底板的全屏填充布局，而非缩放。\n",
+              "extraInfo": {
+                "enum": {
+                  "values": [
+                    "fitContent",
+                    "fullScreen",
+                    "none"
+                  ]
+                }
+              },
+              "name": "innerLayoutMode"
+            },
+            {
+              "attr": "useOriginSize",
+              "valueType": "Boolean",
+              "defaultValue": false,
+              "name": "useOriginSize"
+            },
+            {
+              "attr": "onDisplayLoaded",
+              "valueType": "Function",
+              "description": "所有内嵌页面逐层加载完毕后回调（注意，作为顶层页面时才会触发）。",
+              "extraInfo": {
+                "arguments": [
+                  "data",
+                  "gv",
+                  "cache"
+                ]
+              },
+              "name": "onDisplayLoaded"
+            },
+            {
+              "attr": "isLoadingGet",
+              "valueType": "Boolean",
+              "description": "是否正在加载。\n<br>只读，当正在通过display属性逐层加载内嵌页直到完全加载完毕前，\n<br>该属性值为1，加载完毕后，复位为0.",
+              "defaultValue": false,
+              "name": "isLoadingGet"
+            },
+            {
+              "attr": "reset",
+              "valueType": "Level2",
+              "defaultValue": 0,
+              "name": "reset"
+            },
+            {
+              "attr": "onPostDeserialize",
+              "valueType": "Function",
+              "extraInfo": {
+                "arguments": [
+                  "json",
+                  "dm",
+                  "gv",
+                  "datas"
+                ]
+              },
+              "description": "加载完成后初始化。",
+              "name": "onPostDeserialize"
+            },
+            {
+              "attr": "userData",
+              "valueType": "ObjectArray",
+              "group": "数据",
+              "name": "userData"
+            },
+            {
+              "attr": "useAttrCORS",
+              "valueType": "Boolean",
+              "defaultValue": false,
+              "description": "连线操作和处理回写是否一致。\n                        比如多个文本框连线传值给相同对话框，弹窗修改\n                        后是否限定只能写到最新赋值过来的文本框。详见<a href='https://www.yuque.com/liuhuo-nc809/uiotos/fgi6dd7gado51acm#fFUbp' style=\"color:rgb(96,172,252)\"target=\"_blank\">同源属性操作</a>",
+              "name": "useAttrCORS",
+              "dynamicCreate": true
+            },
+            {
+              "attr": "pureFormValues",
+              "valueType": "Boolean",
+              "description": "加载完成后初始化。",
+              "name": "pureFormValues"
+            },
+            {
+              "attr": "shadowBorder",
+              "valueType": "NumberArray",
+              "defaultValue": [
+                0,
+                0,
+                8
+              ],
+              "group": "外观",
+              "name": "shadowBorder"
+            },
+            {
+              "attr": "shadowColor",
+              "valueType": "Color",
+              "defaultValue": "rgba(55,125,255,0.50)",
+              "name": "shadowColor"
+            },
+            {
+              "attr": "shadowEnabled",
+              "valueType": "Boolean",
+              "defaultValue": true,
+              "name": "shadowEnabled"
+            },
+            {
+              "attr": "innerBackground",
+              "valueType": "Color",
+              "defaultValue": null,
+              "description": "内嵌页背景色。",
+              "name": "innerBackground"
+            },
+            {
+              "attr": "borderWidth",
+              "valueType": "Number",
+              "name": "borderWidth"
+            },
+            {
+              "attr": "displayJson",
+              "valueType": "Multiline",
+              "description": "显示Json。",
+              "name": "displayJson"
+            },
+            {
+              "attr": "useInnerEventsAll",
+              "valueType": "Boolean",
+              "description": "是否允许内嵌事件通过。\n<br>若勾选，内嵌图元表单类型的事件函数属性，都将派发到上层容器图元对外触发连线操作。\n<br>默认不勾选，上层容器图元对外连线反向关联需要指定内嵌图元的具体事件函数属性才能\n<br>触发，否则忽略内嵌图元的事件触发，不会传递给上层容器图元对外连线操作。",
+              "group": "事件",
+              "name": "useInnerEventsAll"
+            },
+            {
+              "attr": "bindControlsTag",
+              "valueType": "StringArray",
+              "group": "连线",
+              "name": "bindControlsTag"
+            },
+            {
+              "attr": "bindControlsAttr",
+              "valueType": "ObjectArray",
+              "name": "bindControlsAttr"
+            },
+            {
+              "attr": "bindControlsVal",
+              "valueType": "ObjectArray",
+              "description": "静态值。也用作数组索引、JSON对象解析提取值用途。\n<br>一、静态值用途：\n<br>对常规类型的属性赋值且没有反向关联属性值，传入为数值时，不\n<br>会作为数组的索引，而会当成常量值对外赋值。此外，存在特殊值：\n<br>~和undefined表示过滤、不触发；null为默认值，表示传递默认表\n<br>单数据。编辑状态下清空后保存与设置null等价。\n<br>二、数组索引用途\n<br>情况1：被操作的组件属性原先值是数组时（包括空数组），会将\n<br>待输出的值作为被操作数组指定索引的值来传入，而不是整体覆盖。\n<br>情况2：如果要被操作的组件属性原先值不是数组，而且待输出的\n<br>值为数组类型并且长度也在索引范围内，那么会按照索引取自身数\n<br>组指定元素再对外输出。（如果想要取待输出索引值，赋值给被操\n<br>纵属性的指定索引，那么需要中间组件属性连线过渡以下，无法直\n<br>接操作）\n<br>情况3：如果要被操作的组件属性是数组，而且待输出的值也是数组\n<br>类型，此时当情况1来处理。\n<br>三、数据解析用途：\n<br>待输出的值为JSON对象时，用x.y.z这种以字符.或者>为间隔的方式\n<br>实现对JSON字段层次逐层定位，当是数组时x.0.y.1这种以数字的方\n<br>式来指定数组的某个索引。以此实现对任意结果JSON对象字段的定\n<br>位，获取结构内指定字段对应的值。",
+              "name": "bindControlsVal"
+            },
+            {
+              "attr": "paramControlTag",
+              "valueType": "StringArray",
+              "name": "paramControlTag"
+            },
+            {
+              "attr": "paramControlAttr",
+              "valueType": "ObjectArray",
+              "name": "paramControlAttr"
+            },
+            {
+              "attr": "paramsGenerator",
+              "valueType": "Function",
+              "defaultValue": "__ht__function(data, val, index, node,oldVal,form,type,inner) {//绑定组索引对应的函数处理，用来动态生成复杂的参数变量传入\r\nswitch(index){\r\n    case 0:\r\n        break;\r\n    case 1:\r\n        break;\r\n    case 2:\r\n        break;\r\n    default:\r\n        break;\r\n}\r\n\r\nreturn val;}",
+              "extraInfo": {
+                "arguments": [
+                  "data",
+                  "val",
+                  "index",
+                  "node",
+                  "oldVal",
+                  "form",
+                  "type",
+                  "inner"
+                ]
+              },
+              "name": "paramsGenerator"
+            },
+            {
+              "attr": "03-更新日志>0>doc1>a:content",
+              "name": ".内容",
+              "valueType": "Multiline",
+              "defaultValue": "**V2.0.925: 2024-06-05**\n\n- 默认test账号，简化版上手更容易！\n\n- 精简属性、精简示例，develop开发者权限提供全量学习和测试。\n\n- 开放语雀文档（右上角帮助），上线连线、嵌套入门使用说明。\n\n- 初始登录时，空白编辑区提供快捷按钮，创建新页面、进入嵌套、连线示例。\n\n**V2.0.923: 2024-06-03**\n\n- 从iotosCommon中剥离出iotosEngines，导出部署一键引用；提供运行时初始化。\n\n- 修复收发器（addEvent/fireEvent）传参，优化代码和无代码调用的兼容性。\n\n**V2.0.922: 2024-05-31**\n\n- ctrl + 单击背景显示隐藏左右侧面板，改成弹起时触发。\n\n- 增加组件高级提示，支持简单文字直接配置。\n\n**V2.0.921: 2024-05-29**\n\n- 模板增加对话框合集。\n\n- 登录页放入在线课程入口。\n\n**V2.0.918: 2024-05-27**\n\n- 注册页未更新导致注册BUG修复。\n\n**V2.0.917: 2024-05-26**\n\n- 缓存登录，不必每次刷新后需用户密码。\n\n- 修复非develop账号组件面板不显示问题。\n\n- 专属空间右键可选择“格式化更新”，恢复初始内置页面和组件。\n\n- 更新分析诊断，可捕捉工具函数输出属性被连线的异常。\n\n- 分析诊断使用示例，加到学习-分类主题-编辑中。\n\n**V2.0.914: 2024-05-24**\n\n- 开放注册按钮功能，用连线逻辑和正则表达式代码块，加上了输入校验。\n\n- 模板加上了表格、输入框、下拉框等常见表单组件的深浅样式。\n\n- 修复提示警告组件（工具函数）问题，避免无页面打开时无法显示提示。\n\n**V2.0.909: 2024-05-23**\n\n- 组件列表增加抽屉面板，支持配置路径，自动加载示例。\n\n- UIOTOS登录页搭建了示例。\n\n**V2.0.907: 2024-05-22**\n\n- 修复tab页签组件。对于初次切换新页签时，缩放布局的内嵌页，也触发更新下适配内容。\n\n\n**V2.0.906：2024-05-21**\n - 调整示例目录，放入一个数据大屏示例。\n \n - 树表组件treeTable单元格内嵌页的地址，也调整为支持相对路径。\n\n**V2.0.905**\n- 升级文档组件（doc）,新增darkMode属性，支持深浅预览模式切换。\n\n- 修复文档组件初始加载偶尔报错的BUG，增加缓存执行机制。\n\n\n**V2.0.904：**\n\n- 调整组件抽屉面板排序。\n\n- 修复tab页签加载内嵌缩放适应布局页面时，初始加载铺满BUG。\n\n- 搭建欢迎页，更新登录背景。\n\n……",
+              "group": "03-更新日志>0>doc1"
+            },
+            {
+              "attr": "03-更新日志>0>doc1>a:readOnly",
+              "name": ".只读",
+              "valueType": "Boolean",
+              "defaultValue": true,
+              "group": "03-更新日志>0>doc1"
+            },
+            {
+              "attr": "03-更新日志>0>doc1>a:onChange",
+              "name": ".值改变事件",
+              "valueType": "Function",
+              "extraInfo": {
+                "arguments": [
+                  "data",
+                  "gv",
+                  "cache",
+                  "value",
+                  "extra"
+                ]
+              },
+              "group": "03-更新日志>0>doc1"
+            },
+            {
+              "attr": "03-更新日志>0>doc1>a:preview",
+              "name": ".预览",
+              "valueType": "Boolean",
+              "defaultValue": true,
+              "description": "切换开关，预览时只显示html内容（不可被编辑）",
+              "group": "03-更新日志>0>doc1"
+            },
+            {
+              "attr": "03-更新日志>0>doc1>a:display",
+              "name": ".页面路径",
+              "valueType": "Image",
+              "defaultValue": "",
+              "description": "自定义页面地址。\n                可以是编辑器中的其他页面，也可以\n                是外部网页链接地址。",
+              "group": "03-更新日志>0>doc1"
+            },
+            {
+              "attr": "03-更新日志>0>doc1>a:popDirection",
+              "name": ".提示方向",
+              "valueType": "SideDirection",
+              "defaultValue": "right",
+              "description": "提示显示位置。",
+              "group": "03-更新日志>0>doc1"
+            },
+            {
+              "attr": "03-更新日志>0>doc1>a:popBackground",
+              "name": ".提示背景色",
+              "valueType": "Color",
+              "defaultValue": "white",
+              "description": "箭头和背景色。",
+              "group": "03-更新日志>0>doc1"
+            },
+            {
+              "attr": "03-更新日志>0>doc1>a:popPadding",
+              "name": ".四周边距",
+              "valueType": "NumberArray",
+              "defaultValue": [
+                2,
+                2,
+                2,
+                2
+              ],
+              "description": "内间距。",
+              "group": "03-更新日志>0>doc1"
+            },
+            {
+              "attr": "03-更新日志>0>doc1>a:popWidth",
+              "name": ".提示区宽度",
+              "valueType": "Number",
+              "defaultValue": 400,
+              "description": "弹出框宽度。",
+              "group": "03-更新日志>0>doc1"
+            },
+            {
+              "attr": "03-更新日志>0>doc1>a:popHeight",
+              "name": ".提示区高度",
+              "valueType": "Number",
+              "defaultValue": 300,
+              "description": "弹出框高度。",
+              "group": "03-更新日志>0>doc1"
+            },
+            {
+              "attr": "03-更新日志>0>doc1>a:popBorderColor",
+              "name": ".提示边框色",
+              "valueType": "Color",
+              "defaultValue": "rgb(51,51,51)",
+              "description": "边框线颜色。\n                    注意，是设置了边框宽度非0后的边框颜色。\n                    默认边框宽度属性为0时，实际上是白色并\n                    带有箭头指示的边框。本属性不用于修改默\n                    认边框色。",
+              "group": "03-更新日志>0>doc1"
+            },
+            {
+              "attr": "03-更新日志>0>doc1>a:popBorderWidth",
+              "name": ".提示边框宽",
+              "valueType": "Number",
+              "defaultValue": 0,
+              "description": "边框线宽度。\n                    默认值为0，此时边框默认为白色并且带有\n                    箭头指示。当设置宽度后，颜色将取边框颜\n                    色属性的设置，并且不再有箭头指示。",
+              "group": "03-更新日志>0>doc1"
+            },
+            {
+              "attr": "03-更新日志>0>doc1>a:popBorderRadius",
+              "name": ".提示圆角",
+              "valueType": "Number",
+              "defaultValue": 0,
+              "description": "边框线圆角。\n                    设置圆角线后，如果此前默认是白色边框带有\n                    指示箭头，那么将自动不可见，只对内容区域\n                    产生圆角。",
+              "group": "03-更新日志>0>doc1"
+            },
+            {
+              "attr": "03-更新日志>0>doc1>a:popTriggerEvent",
+              "name": ".提示触发事件",
+              "valueType": "MouseEvent",
+              "defaultValue": "hover",
+              "description": "触发方式。\n                支持鼠标移入、点击（按钮时）\n                两种触发提示的方式。",
+              "group": "03-更新日志>0>doc1"
+            },
+            {
+              "attr": "03-更新日志>0>doc1>s:layout.h",
+              "name": ".layout.h",
+              "valueType": "String",
+              "defaultValue": "center",
+              "extraInfo": null,
+              "group": "03-更新日志>0>doc1"
+            }
+          ],
+          "snapshotURL": "symbols/develop/uiotos/arranged/controls/containers_icon/嵌套容器.json",
+          "renderHTML": "__ht__function(data, gv, cache) {return __graphView(data,gv,cache);}",
+          "width": 200,
+          "height": 120,
+          "fitSize": true,
+          "pixelPerfect": false,
+          "comps": [
+            {
+              "type": "text",
+              "text": {
+                "func": "__ht__function(data, view) {\n// return data.ca('__loadingText') && data.ca('__loadingText')[!data.ca('__loadingStatus')]\n}",
+                "value": "…"
+              },
+              "align": "center",
+              "color": {
+                "func": "attr@__loadingColor",
+                "value": "rgb(150,150,150)"
+              },
+              "font": {
+                "func": "attr@__loadingFont",
+                "value": "12px arial, sans-serif"
+              },
+              "visible": {
+                "func": "attr@__loadingVisible",
+                "value": false
+              },
+              "layoutH": "center",
+              "layoutV": "center",
+              "displayName": "Text（Text1）",
+              "rect": [
+                74.69339,
+                53.1422,
+                50.61322,
+                13.7156
+              ]
+            }
+          ],
+          "uuid": "9E8162DE-BA98-47A1-9569-DD95F78182C8"
+        },
+        "host": {
+          "__i": 32926
+        },
+        "position": {
+          "x": 1267.52317,
+          "y": 408.19689
+        },
+        "width": 686.14832,
+        "height": 814.39378
+      },
+      "s": {
+        "label.position": 14,
+        "label.offset.x": -10,
+        "label.offset.y": 0,
+        "label.color": "rgb(61,61,61)",
+        "interactive": true,
+        "layout.h": "center",
+        "layout.v": "topbottom",
+        "label.opacity": 0,
+        "2d.movable": false
+      },
+      "a": {
+        "symbol": "symbols/develop/uiotos/base/graphView.json",
+        "toolTipRaw": "<p style='color:rgb(242,83,75);margin-top:5px;margin-bottom:5px;font-weight:bold;line-height:1.5em;'>已被布局，不允许拖动（shift+回车可解除）</p>",
+        "display": "./内容维护/03-更新日志.json",
+        "__loadingStatus": false,
+        "isLoadingGet": false,
+        "03-更新日志>0>doc1>a:content": "**V2.0.925: 2024-06-05**\n\n- 默认test账号，简化版上手更容易！\n\n- 精简属性、精简示例，develop开发者权限提供全量学习和测试。\n\n- 开放语雀文档（右上角帮助），上线连线、嵌套入门使用说明。\n\n- 初始登录时，空白编辑区提供快捷按钮，创建新页面、进入嵌套、连线示例。\n\n**V2.0.923: 2024-06-03**\n\n- 从iotosCommon中剥离出iotosEngines，导出部署一键引用；提供运行时初始化。\n\n- 修复收发器（addEvent/fireEvent）传参，优化代码和无代码调用的兼容性。\n\n**V2.0.922: 2024-05-31**\n\n- ctrl + 单击背景显示隐藏左右侧面板，改成弹起时触发。\n\n- 增加组件高级提示，支持简单文字直接配置。\n\n**V2.0.921: 2024-05-29**\n\n- 模板增加对话框合集。\n\n- 登录页放入在线课程入口。\n\n**V2.0.918: 2024-05-27**\n\n- 注册页未更新导致注册BUG修复。\n\n**V2.0.917: 2024-05-26**\n\n- 缓存登录，不必每次刷新后需用户密码。\n\n- 修复非develop账号组件面板不显示问题。\n\n- 专属空间右键可选择“格式化更新”，恢复初始内置页面和组件。\n\n- 更新分析诊断，可捕捉工具函数输出属性被连线的异常。\n\n- 分析诊断使用示例，加到学习-分类主题-编辑中。\n\n**V2.0.914: 2024-05-24**\n\n- 开放注册按钮功能，用连线逻辑和正则表达式代码块，加上了输入校验。\n\n- 模板加上了表格、输入框、下拉框等常见表单组件的深浅样式。\n\n- 修复提示警告组件（工具函数）问题，避免无页面打开时无法显示提示。\n\n**V2.0.909: 2024-05-23**\n\n- 组件列表增加抽屉面板，支持配置路径，自动加载示例。\n\n- UIOTOS登录页搭建了示例。\n\n**V2.0.907: 2024-05-22**\n\n- 修复tab页签组件。对于初次切换新页签时，缩放布局的内嵌页，也触发更新下适配内容。\n\n\n**V2.0.906：2024-05-21**\n - 调整示例目录，放入一个数据大屏示例。\n \n - 树表组件treeTable单元格内嵌页的地址，也调整为支持相对路径。\n\n**V2.0.905**\n- 升级文档组件（doc）,新增darkMode属性，支持深浅预览模式切换。\n\n- 修复文档组件初始加载偶尔报错的BUG，增加缓存执行机制。\n\n\n**V2.0.904：**\n\n- 调整组件抽屉面板排序。\n\n- 修复tab页签加载内嵌缩放适应布局页面时，初始加载铺满BUG。\n\n- 搭建欢迎页，更新登录背景。\n\n……",
+        "03-更新日志>0>doc1>a:readOnly": true,
+        "03-更新日志>0>doc1>a:preview": true,
+        "03-更新日志>0>doc1>a:display": "",
+        "03-更新日志>0>doc1>a:popDirection": "right",
+        "03-更新日志>0>doc1>a:popBackground": "white",
+        "03-更新日志>0>doc1>a:popPadding": [
+          2,
+          2,
+          2,
+          2
+        ],
+        "03-更新日志>0>doc1>a:popWidth": 400,
+        "03-更新日志>0>doc1>a:popHeight": 300,
+        "03-更新日志>0>doc1>a:popBorderColor": "rgb(51,51,51)",
+        "03-更新日志>0>doc1>a:popBorderWidth": 0,
+        "03-更新日志>0>doc1>a:popBorderRadius": 0,
+        "03-更新日志>0>doc1>a:popTriggerEvent": "hover",
+        "03-更新日志>0>doc1>s:layout.h": "center",
+        "innerLayoutMode": "fullScreen",
+        "shadowEnabled": false,
+        "innerBackground": "rgb(255,255,255)"
+      }
+    }
+  ],
+  "modified": "Mon Jun 17 2024 15:43:07 GMT+0800 (中国标准时间)",
+  "contentRect": {
+    "x": 884.42753,
+    "y": 1,
+    "width": 726.1698,
+    "height": 814.39378
+  }
+}

@@ -1,0 +1,3683 @@
+{
+  "v": "7.7.2",
+  "p": {
+    "background": "#20252e",
+    "autoAdjustIndex": true,
+    "hierarchicalRendering": true
+  },
+  "a": {
+    "rotateAsClock": false,
+    "gridBlockSize": 20,
+    "connectActionType": null,
+    "fitContent": true,
+    "zoomable": false,
+    "rectSelectable": false,
+    "pannable": false
+  },
+  "d": [
+    {
+      "c": "ht.Node",
+      "i": 26841,
+      "p": {
+        "name": "api",
+        "displayName": "api接口（api1）",
+        "toolTip": "API接口组件。        <br>支持HTTP POST/GET；MQTT；WS（暂未支持）        <br>- 支持任意数量及层次结构的参数传入请求，扁平化配置输入，        <br>无需组装成手动组装成json结构。        <br>- 接口返回的数据任意字段个数和结构，支持扁平化配置方式        <br>提取，无需解析json结构，即可关联到指定的一个或多个组件        <br>的多个不同属性上进行展示。",
+        "tag": "api1",
+        "dataBindings": {
+          "a": {
+            "post": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "paramKeys": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "paramValues": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "valueJsonable": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "jsonFormat": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "JWT Token": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "convertFlatToTree": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "treeMiddleType": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "dataIsJsonString": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "contentType": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "dataType": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "response": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "requesting": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "__ht__function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}",
+              "alias": ""
+            },
+            "download": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "_bindEvents_0": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "onReceived": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "_bindEvents_1": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "comment": {
+              "id": "iotos.form",
+              "alias": "",
+              "func": "__ht__function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        console.error(err);\r\n        return rawData;\r\n    }\r\n}",
+              "idinfo": "",
+              "isTplBinded": false
+            },
+            "defaultOpen": {
+              "id": "iotos.form",
+              "alias": "",
+              "func": "__ht__function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        console.error(err);\r\n        return rawData;\r\n    }\r\n}",
+              "idinfo": "",
+              "isTplBinded": false
+            },
+            "url": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "enableLoading": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "_bindEvents_2": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            }
+          }
+        },
+        "image": {
+          "modified": "Sun Oct 01 2023 13:23:51 GMT+0800 (中国标准时间)",
+          "background": "rgb(32,37,46)",
+          "dataBindings": [
+            {
+              "attr": "symbol",
+              "valueType": "Image",
+              "group": "功能（关键）"
+            },
+            {
+              "attr": "reset",
+              "valueType": "Level2",
+              "defaultValue": 0,
+              "description": "复位还原属性初始设置。"
+            },
+            {
+              "attr": "shadowBorder",
+              "valueType": "NumberArray",
+              "defaultValue": [
+                0,
+                0,
+                8
+              ]
+            },
+            {
+              "attr": "shadowColor",
+              "valueType": "Color",
+              "defaultValue": "rgba(55,125,255,0.50)"
+            },
+            {
+              "attr": "shadowEnabled",
+              "valueType": "Boolean",
+              "defaultValue": true
+            },
+            {
+              "attr": "type",
+              "valueType": "InterfaceType",
+              "defaultValue": "http",
+              "description": "接口类型。\n<br>HTTP、MQTT、Websocket可选。"
+            },
+            {
+              "attr": "url",
+              "valueType": "ObjectArray",
+              "description": "链接URL。\n<br>字符串数组形式，自动会将输入在数组中的多个字符串\n<br>片段按照顺序合并追加成一个完整的URL给到接口使用。"
+            },
+            {
+              "attr": "post",
+              "valueType": "Boolean",
+              "defaultValue": true,
+              "description": "POST/GET。<br>默认勾选为POST请求，不勾选则为GET请求。",
+              "dynamicCreate": true
+            },
+            {
+              "attr": "paramKeys",
+              "valueType": "StringArray",
+              "defaultValue": [],
+              "description": "参数的键列表。                    <br>对应JSON格式参数（jsonFormat）内容扁平化后的key列表。                    <br>注意，数组赋值给本属性指定索引时需格外小心，因为有动态                    <br>扁平化展开机制，会导致重复数组值赋值到指定索引结果表现                    <br>为数组嵌套。建议用工具函数接受该操作获取完整的属性值后                    <br>整体操作赋值给本属性。",
+              "dynamicCreate": true
+            },
+            {
+              "attr": "paramValues",
+              "valueType": "ObjectArray",
+              "defaultValue": [],
+              "description": "参数的值列表。                    <br>对应JSON格式参数（jsonFormat）内容扁平化后的value列表。                    <br>注意，数组赋值给本属性指定索引时需格外小心，因为有动态                    <br>扁平化展开机制，会导致重复数组值赋值到指定索引结果表现                    <br>为数组嵌套。建议用工具函数接受该操作获取完整的属性值后                    <br>整体操作赋值给本属性。",
+              "dynamicCreate": true
+            },
+            {
+              "attr": "valueJsonable",
+              "valueType": "Boolean",
+              "defaultValue": false,
+              "dynamicCreate": true
+            },
+            {
+              "attr": "jsonFormat",
+              "valueType": "Object",
+              "defaultValue": {},
+              "description": "参数的json格式。<br>对应POST请求的data参数。注意，如果是GET请求，那么会自动<br>将JSON转成GET请求的a=1&b=2这种格式追加到url中。",
+              "dynamicCreate": true
+            },
+            {
+              "attr": "JWT Token",
+              "valueType": "String",
+              "defaultValue": "",
+              "dynamicCreate": true
+            },
+            {
+              "attr": "convertFlatToTree",
+              "valueType": "Boolean",
+              "defaultValue": true,
+              "description": "JSON扁平化转成结构化。<br>可以讲a.b.0.c:xxx这样的扁平化结构，转换成{a:{b:[{c:xxx}]}}，注意，空字符串会转成空对象{}",
+              "dynamicCreate": true
+            },
+            {
+              "attr": "treeMiddleType",
+              "valueType": "Boolean",
+              "defaultValue": false,
+              "dynamicCreate": true
+            },
+            {
+              "attr": "dataIsJsonString",
+              "valueType": "Boolean",
+              "defaultValue": true,
+              "dynamicCreate": true
+            },
+            {
+              "attr": "contentType",
+              "valueType": "ContentType",
+              "defaultValue": "application/json",
+              "dynamicCreate": true
+            },
+            {
+              "attr": "dataType",
+              "valueType": "DateType",
+              "defaultValue": "JSON",
+              "dynamicCreate": true
+            },
+            {
+              "attr": "callback",
+              "valueType": "Function",
+              "extraInfo": {
+                "arguments": [
+                  "data",
+                  "gv",
+                  "cache",
+                  "params",
+                  "res",
+                  "span"
+                ]
+              },
+              "defaultValue": "__ht__function(data, gv, cache, params, res, span) {// console.log('[response]' + JSON.stringify(res,undefined,2));\r\n// console.warn('[for bindControlsVal]' + JSON.stringify(convertToFlatJson(res,'.'),undefined,2))}",
+              "description": "接口返回通知函数。"
+            },
+            {
+              "attr": "response",
+              "valueType": "ObjectArray",
+              "defaultValue": [
+                "",
+                ""
+              ],
+              "dynamicCreate": true
+            },
+            {
+              "attr": "echoAppend",
+              "valueType": "Boolean",
+              "defaultValue": true,
+              "description": "显示日志是否追加。\n<br>不勾选时，新的日志会覆盖之前的日志，始终显示\n<br>最新的日志输出。\n<br>勾选时，日志会追加形式输出显示。"
+            },
+            {
+              "attr": "echoClear",
+              "valueType": "Boolean",
+              "defaultValue": false,
+              "description": "清空日志。"
+            },
+            {
+              "attr": "resMsgField",
+              "valueType": "String",
+              "defaultValue": "message",
+              "description": "信息字段。\n<br>接口返回结构的提示信息字段。\n<br>默认“message”。通常与属性\n<br>“enableErrDlg”属性配合使用，\n<br>当接口返回错误时，提取返回\n<br>结构本字段对应的内容作为弹\n<br>窗的提示信息。"
+            },
+            {
+              "attr": "enableErrDlg",
+              "valueType": "Boolean",
+              "defaultValue": true,
+              "description": "是否错误弹窗。\n<br>接口返回报错时是否弹窗提示。\n<br>通常与属性“resMsgField”配合\n<br>使用，当接口返回错误时，提\n<br>取错误信息弹窗提示。"
+            },
+            {
+              "attr": "responseLog",
+              "valueType": "Boolean",
+              "defaultValue": false
+            },
+            {
+              "attr": "repeatInterval",
+              "valueType": "PositiveNumber",
+              "defaultValue": 1500,
+              "description": "周期请求时间间隔。\n<br>一旦勾选重复请求（enableRepeat）属性后，会按照本属性\n<br>设置的时间间隔（毫秒）周期进行调用。"
+            },
+            {
+              "attr": "enableRepeat",
+              "valueType": "Boolean",
+              "defaultValue": false,
+              "description": "开启重复请求。\n<br>勾选后，会按照周期请求时间间隔（enableRepeat）属性\n<br>作为重复请求间隔。"
+            },
+            {
+              "attr": "enableLoading",
+              "valueType": "Boolean",
+              "defaultValue": false,
+              "description": "请求过程动画提示。\n<br>勾选后，请求时会提示转动小圆圈，提示正在请求。\n<br>请求完毕或者出错，会自动关闭提示。"
+            },
+            {
+              "attr": "requesting",
+              "valueType": "Boolean",
+              "defaultValue": false,
+              "dynamicCreate": true
+            },
+            {
+              "attr": "download",
+              "valueType": "Boolean",
+              "defaultValue": false,
+              "dynamicCreate": true
+            },
+            {
+              "attr": "defaultOpen",
+              "valueType": "Boolean",
+              "defaultValue": false,
+              "description": "默认启动。\n<br>勾选后，初始运行就会启动加载。"
+            },
+            {
+              "attr": "waitingHint",
+              "valueType": "String"
+            },
+            {
+              "attr": "waitingAnim",
+              "valueType": "NumberArray",
+              "defaultValue": [
+                0.75,
+                500
+              ]
+            },
+            {
+              "attr": "animDuration",
+              "valueType": "PositiveNumber",
+              "defaultValue": 300
+            },
+            {
+              "attr": "noAnim",
+              "valueType": "Boolean",
+              "defaultValue": true
+            },
+            {
+              "attr": "comment",
+              "valueType": "String",
+              "defaultValue": "API数据接口"
+            },
+            {
+              "attr": "bindControlsTag",
+              "valueType": "StringArray",
+              "group": "bindControls"
+            },
+            {
+              "attr": "bindControlsAttr",
+              "valueType": "StringArray"
+            },
+            {
+              "attr": "bindControlsVal",
+              "valueType": "ObjectArray"
+            },
+            {
+              "attr": "paramControlTag",
+              "valueType": "StringArray"
+            },
+            {
+              "attr": "paramControlAttr",
+              "valueType": "StringArray"
+            },
+            {
+              "attr": "paramsGenerator",
+              "valueType": "Function",
+              "defaultValue": "__ht__function(data, val, index, node,oldVal,form) {//绑定组索引对应的函数处理，用来动态生成复杂的参数变量传入\r\nswitch(index){\r\n    case 0:\r\n        break;\r\n    case 1:\r\n        break;\r\n    case 2:\r\n        break;\r\n    default:\r\n        break;\r\n}\r\n\r\nreturn val;}",
+              "extraInfo": {
+                "arguments": [
+                  "data",
+                  "val",
+                  "index",
+                  "node",
+                  "oldVal",
+                  "form"
+                ]
+              }
+            },
+            {
+              "attr": "onReceived",
+              "valueType": "Function",
+              "extraInfo": {
+                "arguments": [
+                  "data",
+                  "gv",
+                  "cache",
+                  "value",
+                  "extra"
+                ]
+              },
+              "defaultValue": "__ht__function(data, gv, cache, value, extra) {//230913反向关联该函数时，事件触发能得到这里返回的值，而非原始表单\r\nreturn data.ca('response')[1];}"
+            },
+            {
+              "attr": "userData",
+              "valueType": "ObjectArray"
+            },
+            {
+              "attr": "start",
+              "valueType": "Boolean",
+              "defaultValue": false,
+              "group": "priodRequest"
+            },
+            {
+              "attr": "defaultStart",
+              "valueType": "Boolean",
+              "defaultValue": false
+            },
+            {
+              "attr": "toCurrent",
+              "valueType": "Boolean",
+              "defaultValue": true
+            },
+            {
+              "attr": "timeFreq",
+              "valueType": "PositiveNumber",
+              "defaultValue": 3
+            },
+            {
+              "attr": "timeSpan",
+              "valueType": "PositiveNumber",
+              "defaultValue": 30
+            },
+            {
+              "attr": "timeType",
+              "valueType": "TimeType",
+              "defaultValue": "s"
+            },
+            {
+              "attr": "timeTo",
+              "valueType": "String"
+            },
+            {
+              "attr": "msCicleDelay",
+              "valueType": "PositiveNumber",
+              "defaultValue": 200
+            },
+            {
+              "attr": "beforeRequest",
+              "valueType": "Function",
+              "extraInfo": {
+                "arguments": [
+                  "data",
+                  "gv",
+                  "cache",
+                  "period",
+                  "index"
+                ]
+              }
+            },
+            {
+              "attr": "fakeDatas",
+              "valueType": "ObjectArray",
+              "defaultValue": [
+                9.35679,
+                6.10576,
+                8.26694,
+                6.5345,
+                1.50893,
+                5.0947,
+                0.5196,
+                6.24415,
+                6.71604,
+                1.53714,
+                6.01866,
+                0.38029,
+                9.06919,
+                7.44079,
+                5.33475,
+                8.5739,
+                5.52103,
+                8.58823,
+                6.24023,
+                8.45178,
+                7.14736,
+                1.10788,
+                8.21665,
+                3.28782
+              ]
+            },
+            {
+              "attr": "forceToStringSet",
+              "valueType": "Boolean",
+              "defaultValue": false
+            },
+            {
+              "attr": "fakeEnable",
+              "valueType": "Boolean",
+              "defaultValue": true
+            },
+            {
+              "attr": "_bindEvents_0",
+              "valueType": "MultiComboBox",
+              "defaultValue": "*",
+              "group": "bindEvents",
+              "description": "连线索引[0]的触发事件过滤器，默认全部通过",
+              "dynamicCreate": true
+            }
+          ],
+          "renderHTML": "__ht__function(data, gv, cache) {return __interface(data,gv,cache);}",
+          "width": 250,
+          "height": 300,
+          "fitSize": true,
+          "pixelPerfect": false,
+          "comps": [],
+          "uuid": "644DD082-DBD2-4E2D-AD7D-647882F56894"
+        },
+        "position": {
+          "x": 1820.45388,
+          "y": 49.55862
+        },
+        "width": 404.5274,
+        "height": 597.45878
+      },
+      "s": {
+        "label.font": "bold 30px sans-serif, Arial",
+        "label.color": "rgb(96,172,252)",
+        "label.position": 2,
+        "label.offset.y": -8,
+        "interactive": true,
+        "image.stretch": "uniform",
+        "label": "查询人脸设备列表",
+        "requesting": true,
+        "jsonFormat": {
+          "CoreStuffUDS:data[]": {
+            "query": 2,
+            "count": 100,
+            "page": 0,
+            "CoreStuffUDS": {
+              "is_delete": 0,
+              "user_type": 0
+            }
+          },
+          "pageInfo@": "CoreStuffUDS:data[]/info",
+          "format": true
+        },
+        "fullscreen.gap": 0,
+        "layout.h": "right",
+        "layout.v": "topbottom",
+        "note.font": "22px arial, sans-serif",
+        "note.color": "rgb(212,0,0)",
+        "note.background": "rgb(255,235,195)",
+        "note.position": 3,
+        "note.offset.x": 0,
+        "note.offset.y": -5,
+        "note.border.width": 10,
+        "note.border.color": "rgb(255,235,195)",
+        "note.opacity": 0,
+        "note.align": "left",
+        "label.opacity": 1,
+        "label.align": "left"
+      },
+      "a": {
+        "url": [
+          "http://203.189.6.3:19999/",
+          "property/FacialAuthManage/list"
+        ],
+        "timeTo": "2023-11-06 21:44:00.407",
+        "symbol": "symbols/develop/uiotos/interface/interface.json",
+        "paramControlTag": [
+          null,
+          null
+        ],
+        "paramControlAttr": [
+          null,
+          null
+        ],
+        "bindControlsTag": [
+          "datas",
+          "func3"
+        ],
+        "bindControlsAttr": [
+          "inputs",
+          "inputs"
+        ],
+        "bindControlsVal": [
+          "result.records",
+          "result.records"
+        ],
+        "defaultOpen": false,
+        "comment": "查询人脸设备列表",
+        "enableLoading": true,
+        "paramKeys": [
+          "facialAccessName",
+          "state",
+          "pageNo",
+          "pageSize"
+        ],
+        "response": [
+          "success",
+          {
+            "success": true,
+            "message": "",
+            "code": 200,
+            "result": {
+              "records": [
+                {
+                  "id": "1720440699208912898",
+                  "facialAccessId": "e5cc204fbb8e4c95948c8d761b4788b4",
+                  "facialAccessName": "1F-G",
+                  "facialAccessPosition": "1F",
+                  "authPersonnel": "2332",
+                  "generalPersonnel": "0",
+                  "state": "故障"
+                },
+                {
+                  "id": "1720440699213107202",
+                  "facialAccessId": "463ec017615140a3aeeae8160bf6e9d5",
+                  "facialAccessName": "1F-V",
+                  "facialAccessPosition": "1F",
+                  "authPersonnel": "4169",
+                  "generalPersonnel": "0",
+                  "state": "故障"
+                },
+                {
+                  "id": "1720440699213107203",
+                  "facialAccessId": "c94fa99f2a3e497a805ead66aeaf418b",
+                  "facialAccessName": "-3F-C",
+                  "facialAccessPosition": "-3F",
+                  "authPersonnel": "2333",
+                  "generalPersonnel": "119",
+                  "state": "正常"
+                },
+                {
+                  "id": "1720440699213107204",
+                  "facialAccessId": "11f6de4004ee4d7db481f5e45f77027e",
+                  "facialAccessName": "-3F-D",
+                  "facialAccessPosition": "-3F",
+                  "authPersonnel": "2333",
+                  "generalPersonnel": "82",
+                  "state": "正常"
+                },
+                {
+                  "id": "1720440699213107205",
+                  "facialAccessId": "d3059afbef03438abe36562a07a8ebd2",
+                  "facialAccessName": "-3F-B",
+                  "facialAccessPosition": "-3F",
+                  "authPersonnel": "2333",
+                  "generalPersonnel": "107",
+                  "state": "正常"
+                },
+                {
+                  "id": "1720440699213107206",
+                  "facialAccessId": "0c561602690f47b1b67b0294cfc15252",
+                  "facialAccessName": "-3F-A",
+                  "facialAccessPosition": "-3F",
+                  "authPersonnel": "2334",
+                  "generalPersonnel": "171",
+                  "state": "正常"
+                },
+                {
+                  "id": "1720440699213107207",
+                  "facialAccessId": "29ad82418725470f929569ecf5a33d4e",
+                  "facialAccessName": "1F-R",
+                  "facialAccessPosition": "1F",
+                  "authPersonnel": "2332",
+                  "generalPersonnel": "135",
+                  "state": "正常"
+                },
+                {
+                  "id": "1720440699213107208",
+                  "facialAccessId": "5e6088663b5e451d9f8bb30703b17875",
+                  "facialAccessName": "1F-Q",
+                  "facialAccessPosition": "1F",
+                  "authPersonnel": "2332",
+                  "generalPersonnel": "174",
+                  "state": "正常"
+                },
+                {
+                  "id": "1720440699213107209",
+                  "facialAccessId": "c9bd481569a7409eaa5540669f5a1bd6",
+                  "facialAccessName": "1F-S",
+                  "facialAccessPosition": "1F",
+                  "authPersonnel": "4176",
+                  "generalPersonnel": "371",
+                  "state": "正常"
+                },
+                {
+                  "id": "1720440699213107210",
+                  "facialAccessId": "bf1312c9aa204d4aaff9043bf33c5890",
+                  "facialAccessName": "1F-T",
+                  "facialAccessPosition": "1F",
+                  "authPersonnel": "4176",
+                  "generalPersonnel": "369",
+                  "state": "正常"
+                },
+                {
+                  "id": "1720440699213107211",
+                  "facialAccessId": "db45c7d36f8b49bdab7769ce72b958b5",
+                  "facialAccessName": "1F-U",
+                  "facialAccessPosition": "1F",
+                  "authPersonnel": "4159",
+                  "generalPersonnel": "1150",
+                  "state": "正常"
+                },
+                {
+                  "id": "1720440699213107212",
+                  "facialAccessId": "a1641abaf80f490aae2c62a77f0ef119",
+                  "facialAccessName": "1F-P",
+                  "facialAccessPosition": "1F",
+                  "authPersonnel": "4159",
+                  "generalPersonnel": "708",
+                  "state": "正常"
+                },
+                {
+                  "id": "1720440699213107213",
+                  "facialAccessId": "13876d5c730646f887ebc25224188d4a",
+                  "facialAccessName": "1F-J",
+                  "facialAccessPosition": "1F",
+                  "authPersonnel": "4176",
+                  "generalPersonnel": "595",
+                  "state": "正常"
+                },
+                {
+                  "id": "1720440699213107214",
+                  "facialAccessId": "840e450eb25c4afc8bd1bed3da842b36",
+                  "facialAccessName": "3F-A",
+                  "facialAccessPosition": "3F",
+                  "authPersonnel": "4167",
+                  "generalPersonnel": "722",
+                  "state": "正常"
+                },
+                {
+                  "id": "1720440699213107215",
+                  "facialAccessId": "b5abe417941b48f9a4f2fcb9d95b9410",
+                  "facialAccessName": "1F-H",
+                  "facialAccessPosition": "1F",
+                  "authPersonnel": "2332",
+                  "generalPersonnel": "205",
+                  "state": "正常"
+                },
+                {
+                  "id": "1720440699213107216",
+                  "facialAccessId": "a03f886629de4b0bbe5806e95f8203dd",
+                  "facialAccessName": "1F-C",
+                  "facialAccessPosition": "1F",
+                  "authPersonnel": "2332",
+                  "generalPersonnel": "542",
+                  "state": "正常"
+                },
+                {
+                  "id": "1720440699213107217",
+                  "facialAccessId": "da8e326a5cca40d0a0025a5b209d8d68",
+                  "facialAccessName": "1F-B",
+                  "facialAccessPosition": "1F",
+                  "authPersonnel": "2332",
+                  "generalPersonnel": "578",
+                  "state": "正常"
+                },
+                {
+                  "id": "1720440699213107218",
+                  "facialAccessId": "df8e6562852f41da85251f7cfb987347",
+                  "facialAccessName": "1F-I",
+                  "facialAccessPosition": "1F",
+                  "authPersonnel": "4176",
+                  "generalPersonnel": "554",
+                  "state": "正常"
+                },
+                {
+                  "id": "1720440699213107219",
+                  "facialAccessId": "e1a69280cb794817a29af9c487943871",
+                  "facialAccessName": "3F-B",
+                  "facialAccessPosition": "3F",
+                  "authPersonnel": "4162",
+                  "generalPersonnel": "648",
+                  "state": "正常"
+                },
+                {
+                  "id": "1720440699213107220",
+                  "facialAccessId": "fba9cc734ddd4cdea12d3a185d920614",
+                  "facialAccessName": "1F-K",
+                  "facialAccessPosition": "1F",
+                  "authPersonnel": "4176",
+                  "generalPersonnel": "592",
+                  "state": "正常"
+                },
+                {
+                  "id": "1720440699213107221",
+                  "facialAccessId": "fd0b9de5d38948c6b161095b8489af64",
+                  "facialAccessName": "4F-A",
+                  "facialAccessPosition": "4F",
+                  "authPersonnel": "4165",
+                  "generalPersonnel": "272",
+                  "state": "正常"
+                },
+                {
+                  "id": "1720440699213107222",
+                  "facialAccessId": "2b91d4ee5be441bd9ea9783b3e4dc180",
+                  "facialAccessName": "4F-B",
+                  "facialAccessPosition": "4F",
+                  "authPersonnel": "4161",
+                  "generalPersonnel": "410",
+                  "state": "正常"
+                },
+                {
+                  "id": "1720440699213107223",
+                  "facialAccessId": "7e59728da08e4175a02c7a5d5f151dfd",
+                  "facialAccessName": "1F-M",
+                  "facialAccessPosition": "1F",
+                  "authPersonnel": "4202",
+                  "generalPersonnel": "400",
+                  "state": "正常"
+                },
+                {
+                  "id": "1720440699213107224",
+                  "facialAccessId": "0f7274635b434af69fe92484a2480fb4",
+                  "facialAccessName": "1F-A",
+                  "facialAccessPosition": "1F",
+                  "authPersonnel": "2332",
+                  "generalPersonnel": "233",
+                  "state": "正常"
+                },
+                {
+                  "id": "1720440699217301506",
+                  "facialAccessId": "57c067a6a32641cda52f398638986e3e",
+                  "facialAccessName": "1F-N",
+                  "facialAccessPosition": "1F",
+                  "authPersonnel": "4176",
+                  "generalPersonnel": "654",
+                  "state": "正常"
+                },
+                {
+                  "id": "1720440699217301507",
+                  "facialAccessId": "58cf2572d0a24a9da490c3103c60e528",
+                  "facialAccessName": "1F-E",
+                  "facialAccessPosition": "1F",
+                  "authPersonnel": "2332",
+                  "generalPersonnel": "343",
+                  "state": "正常"
+                },
+                {
+                  "id": "1720440699217301508",
+                  "facialAccessId": "5c4183ab13684807a2966dff08fa603c",
+                  "facialAccessName": "1F-L",
+                  "facialAccessPosition": "1F",
+                  "authPersonnel": "4176",
+                  "generalPersonnel": "761",
+                  "state": "正常"
+                },
+                {
+                  "id": "1720440699217301509",
+                  "facialAccessId": "fc09608648024669a7f32eb4369a8175",
+                  "facialAccessName": "1F-F",
+                  "facialAccessPosition": "1F",
+                  "authPersonnel": "2332",
+                  "generalPersonnel": "240",
+                  "state": "正常"
+                },
+                {
+                  "id": "1720440699217301510",
+                  "facialAccessId": "fd0458ec6b5c4d7697b886c5bf810117",
+                  "facialAccessName": "1F-D",
+                  "facialAccessPosition": "1F",
+                  "authPersonnel": "2332",
+                  "generalPersonnel": "359",
+                  "state": "正常"
+                },
+                {
+                  "id": "1720440699217301511",
+                  "facialAccessId": "f5cc9d26b2b949caa1da79fd53022a5b",
+                  "facialAccessName": "-2F-C",
+                  "facialAccessPosition": "-2F",
+                  "authPersonnel": "2335",
+                  "generalPersonnel": "121",
+                  "state": "正常"
+                },
+                {
+                  "id": "1720440699217301512",
+                  "facialAccessId": "d6ef4f84913a4bf589d395facec0c529",
+                  "facialAccessName": "-2F-D",
+                  "facialAccessPosition": "-2F",
+                  "authPersonnel": "2332",
+                  "generalPersonnel": "119",
+                  "state": "正常"
+                },
+                {
+                  "id": "1720440699217301513",
+                  "facialAccessId": "9e9a581cec5a420da7703c3ac8d3cf06",
+                  "facialAccessName": "-1F-B",
+                  "facialAccessPosition": "-1F",
+                  "authPersonnel": "2332",
+                  "generalPersonnel": "36",
+                  "state": "正常"
+                },
+                {
+                  "id": "1720440699217301514",
+                  "facialAccessId": "9f9b64824b9e40b895e848f2101ff80e",
+                  "facialAccessName": "-2F-B",
+                  "facialAccessPosition": "-2F",
+                  "authPersonnel": "2333",
+                  "generalPersonnel": "81",
+                  "state": "正常"
+                },
+                {
+                  "id": "1720440699217301515",
+                  "facialAccessId": "6240f130fd394382a5d8b3a329774253",
+                  "facialAccessName": "-1F-A",
+                  "facialAccessPosition": "-1F",
+                  "authPersonnel": "2332",
+                  "generalPersonnel": "66",
+                  "state": "正常"
+                },
+                {
+                  "id": "1720440699217301516",
+                  "facialAccessId": "982d1907d65a4a67a1726b09e39b267b",
+                  "facialAccessName": "-2F-A",
+                  "facialAccessPosition": "-2F",
+                  "authPersonnel": "2332",
+                  "generalPersonnel": "142",
+                  "state": "正常"
+                }
+              ],
+              "total": 35,
+              "size": 100,
+              "current": 1,
+              "orders": [],
+              "optimizeCountSql": true,
+              "searchCount": true,
+              "countId": null,
+              "maxLimit": null,
+              "pages": 1
+            },
+            "timestamp": 1699021385333,
+            "_requestParams": {
+              "type": "get",
+              "url": "http://203.189.6.3:19999/property/FacialAuthManage/list",
+              "contentType": "application/json",
+              "data": "facialAccessName=&state=&pageNo=1&pageSize=100",
+              "dataType": "JSON",
+              "headers": {}
+            }
+          }
+        ],
+        "toolTipRaw": "API接口组件。        <br>支持HTTP POST/GET；MQTT；WS（暂未支持）        <br>- 支持任意数量及层次结构的参数传入请求，扁平化配置输入，        <br>无需组装成手动组装成json结构。        <br>- 接口返回的数据任意字段个数和结构，支持扁平化配置方式        <br>提取，无需解析json结构，即可关联到指定的一个或多个组件        <br>的多个不同属性上进行展示。",
+        "post": false,
+        "jsonFormat": {
+          "facialAccessName": "",
+          "state": "",
+          "pageNo": 1,
+          "pageSize": 100
+        },
+        "oldDynamicAttrs": [
+          {
+            "attr": "post",
+            "valueType": "Boolean",
+            "defaultValue": true,
+            "description": "POST/GET。<br>默认勾选为POST请求，不勾选则为GET请求。",
+            "dynamicCreate": true
+          },
+          {
+            "attr": "paramKeys",
+            "valueType": "StringArray",
+            "defaultValue": [],
+            "description": "参数的键列表。                    <br>对应JSON格式参数（jsonFormat）内容扁平化后的key列表。                    <br>注意，数组赋值给本属性指定索引时需格外小心，因为有动态                    <br>扁平化展开机制，会导致重复数组值赋值到指定索引结果表现                    <br>为数组嵌套。建议用工具函数接受该操作获取完整的属性值后                    <br>整体操作赋值给本属性。",
+            "dynamicCreate": true
+          },
+          {
+            "attr": "paramValues",
+            "valueType": "ObjectArray",
+            "defaultValue": [],
+            "description": "参数的值列表。                    <br>对应JSON格式参数（jsonFormat）内容扁平化后的value列表。                    <br>注意，数组赋值给本属性指定索引时需格外小心，因为有动态                    <br>扁平化展开机制，会导致重复数组值赋值到指定索引结果表现                    <br>为数组嵌套。建议用工具函数接受该操作获取完整的属性值后                    <br>整体操作赋值给本属性。",
+            "dynamicCreate": true
+          },
+          {
+            "attr": "valueJsonable",
+            "valueType": "Boolean",
+            "defaultValue": false,
+            "dynamicCreate": true
+          },
+          {
+            "attr": "jsonFormat",
+            "valueType": "Object",
+            "defaultValue": {},
+            "description": "参数的json格式。<br>对应POST请求的data参数。注意，如果是GET请求，那么会自动<br>将JSON转成GET请求的a=1&b=2这种格式追加到url中。",
+            "dynamicCreate": true
+          },
+          {
+            "attr": "JWT Token",
+            "valueType": "String",
+            "defaultValue": "",
+            "dynamicCreate": true
+          },
+          {
+            "attr": "convertFlatToTree",
+            "valueType": "Boolean",
+            "defaultValue": true,
+            "description": "JSON扁平化转成结构化。<br>可以讲a.b.0.c:xxx这样的扁平化结构，转换成{a:{b:[{c:xxx}]}}，注意，空字符串会转成空对象{}",
+            "dynamicCreate": true
+          },
+          {
+            "attr": "treeMiddleType",
+            "valueType": "Boolean",
+            "defaultValue": false,
+            "dynamicCreate": true
+          },
+          {
+            "attr": "dataIsJsonString",
+            "valueType": "Boolean",
+            "defaultValue": true,
+            "dynamicCreate": true
+          },
+          {
+            "attr": "contentType",
+            "valueType": "ContentType",
+            "defaultValue": "application/json",
+            "dynamicCreate": true
+          },
+          {
+            "attr": "dataType",
+            "valueType": "DateType",
+            "defaultValue": "JSON",
+            "dynamicCreate": true
+          },
+          {
+            "attr": "response",
+            "valueType": "ObjectArray",
+            "defaultValue": [
+              "",
+              ""
+            ],
+            "dynamicCreate": true
+          },
+          {
+            "attr": "requesting",
+            "valueType": "Boolean",
+            "defaultValue": false,
+            "dynamicCreate": true
+          },
+          {
+            "attr": "download",
+            "valueType": "Boolean",
+            "defaultValue": false,
+            "dynamicCreate": true
+          }
+        ],
+        "paramBindEvent": [],
+        "paramsGenerator": "function paramsGenerator(data, val, index, node, oldVal, form) {\r\n    //绑定组索引对应的函数处理，用来动态生成复杂的参数变量传入\r\n    switch (index) {\r\n        case 0:\r\n            break;\r\n        case 1:\r\n            break;\r\n        case 2:\r\n            break;\r\n        default:\r\n            break;\r\n    }\r\n    return val;\r\n}",
+        "bindEvents": [
+          "*",
+          "onReceived"
+        ],
+        "_bindEvents_0-list": [
+          "*",
+          "onReceived"
+        ],
+        "_bindEvents_1-list": [
+          "*",
+          "onReceived"
+        ],
+        "convertFlatToTree": false,
+        "paramValues": [
+          "",
+          "",
+          1,
+          100
+        ],
+        "requesting": false
+      }
+    },
+    {
+      "c": "ht.Edge",
+      "i": 26842,
+      "p": {
+        "name": "edge",
+        "displayName": "0（edge1）",
+        "toolTip": "<div id=\"config_tooltip\" style=\"font-size:12px;line-height:1.75em;letter-spacing:1px\">\n                                                        关联绑定信息：<br>\n                                                        <li style=\"list-style-type:disc;color:rgba(255,255,255,0.5);\">索引序号：0 | 总共2条</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold;\">操作属性：inputs@func3</li>\n                                                        <li style=\"list-style-type:none;color:rgba(255,255,255,0.5)\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;当前值：[object Object],[object Object],[object Object],...</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold\">关联属性：</li>\n                                                        <li style=\"list-style-type:none;color:rgba(255,255,255,0.5)\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;关联值：</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold;\">解析赋值：result.records</li>\n                                                    </div>",
+        "parent": {
+          "__i": 26841
+        },
+        "tag": "edge1",
+        "source": {
+          "__i": 26841
+        },
+        "target": {
+          "__i": 26844
+        }
+      },
+      "s": {
+        "label": "",
+        "edge.color": "#B919D3",
+        "edge.type": "flex",
+        "edge.gap": 16,
+        "edge.width.absolute": true,
+        "note.border.width": 0,
+        "note.position": 7,
+        "note.opacity": 0.85,
+        "note.background": "#B919D3",
+        "note.offset.x": 0,
+        "note.offset.y": 0,
+        "icons": {
+          "symbols/demo/extra/basic/fromArrow2.json": {
+            "position": 15,
+            "keepOrien": true,
+            "names": [
+              "symbols/demo/extra/basic/fromArrow2.json"
+            ]
+          },
+          "symbols/demo/extra/basic/toArrow.json": {
+            "position": 19,
+            "keepOrien": true,
+            "width": 50,
+            "height": 20,
+            "names": [
+              "symbols/demo/extra/basic/toArrow.json"
+            ]
+          }
+        },
+        "note": 0,
+        "interactive": true,
+        "image.stretch": "uniform"
+      },
+      "a": {
+        "index": 0,
+        "toolTipRaw": "<div id=\"config_tooltip\" style=\"font-size:12px;line-height:1.75em;letter-spacing:1px\">\n                                                        关联绑定信息：<br>\n                                                        <li style=\"list-style-type:disc;color:rgba(255,255,255,0.5);\">索引序号：0 | 总共2条</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold;\">操作属性：inputs@func3</li>\n                                                        <li style=\"list-style-type:none;color:rgba(255,255,255,0.5)\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;当前值：[object Object],[object Object],[object Object],...</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold\">关联属性：</li>\n                                                        <li style=\"list-style-type:none;color:rgba(255,255,255,0.5)\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;关联值：</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold;\">解析赋值：result.records</li>\n                                                    </div>"
+      }
+    },
+    {
+      "c": "ht.Edge",
+      "i": 26843,
+      "p": {
+        "name": "edge",
+        "displayName": "1（edge2）",
+        "toolTip": "<div id=\"config_tooltip\" style=\"font-size:12px;line-height:1.75em;letter-spacing:1px\">\n                                                        关联绑定信息：<br>\n                                                        <li style=\"list-style-type:disc;color:rgba(255,255,255,0.5);\">索引序号：1 | 总共2条</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold;\">操作属性：inputs@func7'</li>\n                                                        <li style=\"list-style-type:none;color:rgba(255,255,255,0.5)\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;当前值：</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold\">关联属性：</li>\n                                                        <li style=\"list-style-type:none;color:rgba(255,255,255,0.5)\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;关联值：</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold;\">解析赋值：result.records</li>\n                                                    </div>",
+        "parent": {
+          "__i": 26841
+        },
+        "tag": "edge2",
+        "source": {
+          "__i": 26841
+        },
+        "target": {
+          "__i": 26847
+        }
+      },
+      "s": {
+        "label": "",
+        "edge.color": "#6C2C8A",
+        "edge.type": "flex",
+        "edge.gap": 16,
+        "edge.width.absolute": true,
+        "note.border.width": 0,
+        "note.position": 7,
+        "note.opacity": 0.85,
+        "note.background": "#6C2C8A",
+        "note.offset.x": 0,
+        "note.offset.y": 0,
+        "icons": {
+          "symbols/demo/extra/basic/fromArrow2.json": {
+            "position": 15,
+            "keepOrien": true,
+            "names": [
+              "symbols/demo/extra/basic/fromArrow2.json"
+            ]
+          },
+          "symbols/demo/extra/basic/toArrow.json": {
+            "position": 19,
+            "keepOrien": true,
+            "width": 50,
+            "height": 20,
+            "names": [
+              "symbols/demo/extra/basic/toArrow.json"
+            ]
+          }
+        },
+        "note": 1,
+        "interactive": true,
+        "image.stretch": "uniform"
+      },
+      "a": {
+        "index": 1,
+        "toolTipRaw": "<div id=\"config_tooltip\" style=\"font-size:12px;line-height:1.75em;letter-spacing:1px\">\n                                                        关联绑定信息：<br>\n                                                        <li style=\"list-style-type:disc;color:rgba(255,255,255,0.5);\">索引序号：1 | 总共2条</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold;\">操作属性：inputs@func7'</li>\n                                                        <li style=\"list-style-type:none;color:rgba(255,255,255,0.5)\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;当前值：</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold\">关联属性：</li>\n                                                        <li style=\"list-style-type:none;color:rgba(255,255,255,0.5)\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;关联值：</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold;\">解析赋值：result.records</li>\n                                                    </div>"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 26844,
+      "p": {
+        "name": "func",
+        "displayName": "工具函数（datas）",
+        "toolTip": "查询返回转换成树表<br>dbQueryToTreeTable",
+        "tag": "datas",
+        "dataBindings": {
+          "a": {
+            "userData": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "output": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "inputs": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "__ht__function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}",
+              "alias": ""
+            },
+            "exec": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "fields": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "__ht__function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}",
+              "alias": ""
+            },
+            "key": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "keyId": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "keyParent": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "keyChildren": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "appendTo": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "arrExec": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "_bindEvents_0": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            }
+          }
+        },
+        "image": {
+          "modified": "Tue Sep 26 2023 16:47:49 GMT+0800 (中国标准时间)",
+          "background": "rgb(32,37,46)",
+          "dataBindings": [
+            {
+              "attr": "symbol",
+              "valueType": "Image",
+              "name": "组件地址"
+            },
+            {
+              "attr": "color",
+              "valueType": "Color",
+              "defaultValue": "rgb(51,153,255)",
+              "description": "图标颜色。\n<br>包括显示文字。",
+              "group": "功能（关键）",
+              "name": "图标颜色"
+            },
+            {
+              "attr": "function",
+              "valueType": "ToolFunction",
+              "defaultValue": "transfer",
+              "name": "功能选项",
+              "description": "无"
+            },
+            {
+              "attr": "noteTips",
+              "valueType": "Multiline",
+              "name": "文字显示注释",
+              "description": "简短文字注释。\n<br>默认为函数名称，可以修改，方便理解具体用途。\n<br>通常结合“提示”属性，整体来注释当前的操作。"
+            },
+            {
+              "attr": "exeWhenInput",
+              "valueType": "Boolean",
+              "defaultValue": false,
+              "name": "输入赋值时执行"
+            },
+            {
+              "attr": "resetAfterInput",
+              "valueType": "Boolean",
+              "name": "输入赋值后清空",
+              "description": "勾选后，每次输入值有更新，在触发下一步（如果有勾选输入时执行）后，同时复位清空输入属性\n的值，确保下一次再输入同样内容时也能按照变化处理触发执行。注意，再多条连线操作inputs输入\n的不同索引index时，该属性不能勾选，否则无法实现多个值连线（异步先后）赋值传入。",
+              "defaultValue": false
+            },
+            {
+              "attr": "inputsArrToObj",
+              "valueType": "Boolean",
+              "name": "输入数组转对象",
+              "description": "是否切换成对象格式。\n<br>输入组（inputs）默认为数组格式，当前属性勾选时\n<br>会将输入组切换成非数组的对象格式，再次取消勾选\n<br>时，会恢复成数组格式。\n<br>\n切换成对象，主要是为了连线操作时，能对初始的非\n<br>数组属性值进行操作，这对于数组取自身索引值对外\n<br>赋值时有用，否则会因为操作数组类型属性值，导致\n<br>被识别为操作目标数组的索引进行赋值。"
+            },
+            {
+              "attr": "exeWhenLoad",
+              "valueType": "Boolean",
+              "defaultValue": false,
+              "name": "组件加载时执行"
+            },
+            {
+              "attr": "oldValueMerge",
+              "valueType": "Boolean",
+              "defaultValue": false,
+              "name": "输出合并非覆盖",
+              "description": "对被操作的属性值做追加而不是覆盖替换。\n<br>被操作属性值作为旧值，按照值类型（数值、字符串、数组、对象等）追加分为以下\n<br>情况：\n<br>1）如果被赋值的（要操作的旧值）为数组类型，通常会将当前值追加过去而不是覆盖；\n<br>工具函数的输入组（inputs）属性例外，在旧值为空数组或者长度为1的数组时，会被当\n<br>做空值或者以唯一哪个元素的值作为当前的旧值，不当做数组类型的操作来追加。\n<br>2）被赋值的为空（注意，并非0、空字符串等\"空\"值）时，输入（组）中一个或多个输\n<br>入项，会合并成一个值输出。其中，合并取决于输入组的类型（输入组多个值中类型数\n<br>量最多的被认为是当前输入组的值类型），具体如下:\n<br>    ■ 数字：输入组各项强制转换成数值并相加，将结果输出；\n<br>    ■ 字符串：输入组各项转成字符串依次拼接形成新的字符串输出；\n<br>    ■ 布尔型：输入组的各项转换成布尔然后做并集（或）后逻辑结果输出；\n<br>    ■ 对象：输入组各项被当成对象，然后字段合并成新对象后输出；\n<br>强制转换这里需注意：\n<br>    ■ 非空字符串转数值时，除了\"true\"（大小写均可）会作为1，其他字符串会作为0；\n<br>3）被赋值的不为空，有具体类型时，比如数字、字符串、布尔、对象类型，此时输入\n<br>组各项值，不再按照类型的多数（如果存在多个输入项）来强制转换少数输入项，而是\n<br>统一按照操作赋值的旧值类型，来转换输入的各项，并且按照类型类自动选择合适的合\n<br>并方式（如上），生成结果来赋值。\n<br>    ○ 注意1：多项输入和旧值会参与一起做合并操作，并非仅仅输入组的各项之间进行。\n<br>    ○ 注意2：如果输入值并非数组，会作当成输入组且元素个数为1的情况来处理。"
+            },
+            {
+              "attr": "inputs",
+              "valueType": "ObjectArray",
+              "name": "输入（组）",
+              "defaultValue": [],
+              "description": "用于接收函数参数输入，默认为数组格式，可以设置多个入参。\n<br>外部可以多条连线操作该属性，利用数组操作特性，在各自的连线操作\n<br>中bindControlsVal中设置对应的索引值，用来指定传入输入数组中指定\n<br>值，实现多参数传入。\n<br>\n注意，对于透明传递不做任何业务逻辑处理时，默认会将输入组的值直接输\n<br>出，默认以空（undefined）对外操作赋值，通常用于对外清空值。\n<br>此外，输入组长度为1时，将去掉数组后以元素本身值对外输出，比如\n<br>[1]、['hello']、[true]，['']会被当做1、'hello'、true、''输出。长度大于1的\n<br>输入组，对外输出则是正常的数组值。"
+            },
+            {
+              "attr": "fields",
+              "valueType": "ObjectArray",
+              "defaultValue": [
+                "name"
+              ],
+              "description": "数据字段。\n                    <br>选择返回数组数据（结构为[{},{}]）元素中的指\n                    <br>定字段，用于下拉框展示或对应表格字段。\n                    <br>注意，因为查询返回转树表和查询返回转下拉组框\n                    <br>复用了相同动态属性配置，而对于fields字段前者\n                    <br>要求数组、后者要求字符串即可，但为了兼容，因\n                    <br>此统一用数组。因此，下拉框的fields属性保持数\n                    <br>组格式，通常只需要一个元数、指定一个字段的列\n                    <br>表给组合框即可。\n                    <br>注意，当直接操作树表格的datas属性时，当下会\n                    <br>自动将本属性fields的值经过右移一位后传递给树\n                    <br>表的columnFields属性，比如[\"name\",\"gender\",\n                    <br>\"phone\"] → [null,\"name\",\"gender\",\"phone\"]，\n                    <br>无需连线操作，为了获取行数据时有字段对应，方便\n                    <br>直接对表单初始化。该机制对于嵌套暴露到上层的属\n                    <br>性操作也同样适用。",
+              "dynamicCreate": true
+            },
+            {
+              "attr": "keyId",
+              "valueType": "String",
+              "defaultValue": "id",
+              "description": "下拉框显示对应的value值或树表的ID字段，对应返回数据的字段，默认为字段名称为\"id\"。",
+              "dynamicCreate": true
+            },
+            {
+              "attr": "keyParent",
+              "valueType": "String",
+              "defaultValue": "parent",
+              "description": "父节点（以ID字段的值关联）字段，对应返回数据的字段，默认为字段名称为\"parent\"。",
+              "dynamicCreate": true
+            },
+            {
+              "attr": "keyChildren",
+              "valueType": "String",
+              "defaultValue": "children",
+              "description": "子节点（以ID字段的值关联）字段，对应返回数据的字段，默认为字段名称为\"children\"。",
+              "dynamicCreate": true
+            },
+            {
+              "attr": "appendTo",
+              "valueType": "String",
+              "defaultValue": "",
+              "description": "追加到指定节点（ID值）\r\n。如果有指定ID，并且在被操作的属性原数据中存在，那么就会将传入\r\n的数据动态插入到指定节点下，作为子节点数据，并且保持原始数据其他部分不变，不会被覆盖。\r\n注意，目前只对树表实现，对下拉框组件暂未支持。",
+              "dynamicCreate": true
+            },
+            {
+              "attr": "delay",
+              "valueType": "PositiveNumber",
+              "defaultValue": 0,
+              "name": "延时执行毫秒"
+            },
+            {
+              "attr": "exec",
+              "valueType": "Boolean",
+              "defaultValue": false,
+              "name": "执行"
+            },
+            {
+              "attr": "arrExec",
+              "valueType": "Boolean",
+              "defaultValue": false,
+              "name": "遍历执行",
+              "description": "准输出值如果是数组时，自动拆成多个元素，依次对外触发。\n<br>相当于在连线静态值bindControlsVal中依次填入从0到n-1后，\n<br>再点击常规“执行”。\n<br>对于透明传递而言，通常输出就等于输入，因此也相当于将\n<br>输入的多个参数（数组元素），依次填入再触发执行。\n<br>"
+            },
+            {
+              "attr": "whenOutputing",
+              "valueType": "MultiComboBox",
+              "name": "whenOutputing"
+            },
+            {
+              "attr": "changeOutputTo",
+              "valueType": "MultiComboBox",
+              "extraInfo": {
+                "enum": {
+                  "values": [
+                    "不转换",
+                    "空对象（null）",
+                    "未定义（undefined）",
+                    "空字符串（\"\"）",
+                    "否（false）",
+                    "等于零（0）"
+                  ]
+                }
+              },
+              "defaultValue": "不转换",
+              "name": "changeOutputTo"
+            },
+            {
+              "attr": "output",
+              "valueType": "Object",
+              "name": "输出"
+            },
+            {
+              "attr": "bindControlsTag",
+              "valueType": "StringArray",
+              "group": "bindControls"
+            },
+            {
+              "attr": "bindControlsAttr",
+              "valueType": "StringArray"
+            },
+            {
+              "attr": "bindControlsVal",
+              "valueType": "ObjectArray",
+              "description": "静态值。也用作数组索引、JSON对象解析提取值用途。\n<br>一、静态值用途：\n<br>对常规类型的属性赋值且没有反向关联属性值，传入为数值时，不\n<br>会作为数组的索引，而会当成常量值对外赋值。此外，存在特殊值：\n<br>~和undefined表示过滤、不触发；null为默认值，表示传递默认表\n<br>单数据。编辑状态下清空后保存与设置null等价。\n<br>二、数组索引用途\n<br>情况1：被操作的组件属性原先值是数组时（包括空数组），会将\n<br>待输出的值作为被操作数组指定索引的值来传入，而不是整体覆盖。\n<br>情况2：如果要被操作的组件属性原先值不是数组，而且待输出的\n<br>值为数组类型并且长度也在索引范围内，那么会按照索引取自身数\n<br>组指定元素再对外输出。（如果想要取待输出索引值，赋值给被操\n<br>纵属性的指定索引，那么需要中间组件属性连线过渡以下，无法直\n<br>接操作）\n<br>情况3：如果要被操作的组件属性是数组，而且待输出的值也是数组\n<br>类型，此时当情况1来处理。\n<br>三、数据解析用途：\n<br>待输出的值为JSON对象时，用x.y.z这种以字符.或者>为间隔的方式\n<br>实现对JSON字段层次逐层定位，当是数组时x.0.y.1这种以数字的方\n<br>式来指定数组的某个索引。以此实现对任意结果JSON对象字段的定\n<br>位，获取结构内指定字段对应的值。"
+            },
+            {
+              "attr": "paramControlTag",
+              "valueType": "StringArray"
+            },
+            {
+              "attr": "paramControlAttr",
+              "valueType": "StringArray"
+            },
+            {
+              "attr": "paramsGenerator",
+              "valueType": "Function",
+              "defaultValue": "__ht__function(data, val, index, node, oldVal, form, type, inner) {//绑定组索引对应的函数处理，用来动态生成复杂的参数变量传入\r\nswitch(index){\r\n    case 0:\r\n        break;\r\n    case 1:\r\n        break;\r\n    case 2:\r\n        break;\r\n    default:\r\n        break;\r\n}\r\n\r\nreturn val;}",
+              "extraInfo": {
+                "arguments": [
+                  "data",
+                  "val",
+                  "index",
+                  "node",
+                  "oldVal",
+                  "form",
+                  "type",
+                  "inner"
+                ]
+              }
+            },
+            {
+              "attr": "userData",
+              "valueType": "ObjectArray",
+              "defaultValue": [],
+              "description": "用户数据。"
+            }
+          ],
+          "renderHTML": "__ht__function(data, gv, cache) {return __convertor(data,gv,cache);}",
+          "width": 45,
+          "height": 45,
+          "comps": [
+            {
+              "type": "image",
+              "color": {
+                "func": "__ht__function(data, view) {\nlet color = data.ca('color');\r\ndata.s('label.color',color);\r\nreturn color;\n}",
+                "value": "rgb(51,153,255)"
+              },
+              "name": "symbols/develop/uiotos/icons/editroToolBar/function.json",
+              "shadowColor": "rgb(61,61,61)",
+              "displayName": "node_image",
+              "rect": [
+                0.53882,
+                1.04528,
+                43.92236,
+                42.90945
+              ]
+            }
+          ],
+          "uuid": "94973D77-15F0-4BD9-92EE-79A7B7E0EF25"
+        },
+        "position": {
+          "x": 1820.45388,
+          "y": 509.22035
+        }
+      },
+      "s": {
+        "label.offset.y": 0,
+        "interactive": true,
+        "image.stretch": "uniform",
+        "2d.editable": false,
+        "select.width": 0.5,
+        "select.type": "roundRect",
+        "select.color": "rgb(124,145,155)",
+        "label": "查询返回转换成树表，其中按照顺序规定好字段，\n可以有多出的字段用于点击交互接口传参，不用\n于表格显示。",
+        "label.font": "26px Microsoft YaHei",
+        "label.color": "rgb(51,153,255)",
+        "inputs": {
+          "a:inputs": [
+            {
+              "readyState": 4,
+              "getResponseHeader": "__ht__function(e) {\r\n                        var t;\r\n                        if (h) {\r\n                            if (!n) { n = {}; while (t = Wt.exec(p)) n[t[1].toLowerCase() + \" \"] = (n[t[1].toLowerCase() + \" \"] || []).concat(t[2]) }\r\n                            t = n[e.toLowerCase() + \" \"]\r\n                        }\r\n                        return null == t ? null : t.join(\", \")\r\n                    }",
+              "getAllResponseHeaders": "__ht__function() { return h ? p : null }",
+              "setRequestHeader": "__ht__function(e, t) { return null == h && (e = s[e.toLowerCase()] = s[e.toLowerCase()] || e, a[e] = t), this }",
+              "overrideMimeType": "__ht__function(e) { return null == h && (v.mimeType = e), this }",
+              "statusCode": "__ht__function(e) {\r\n                        var t;\r\n                        if (e)\r\n                            if (h) T.always(e[T.status]);\r\n                            else\r\n                                for (t in e) w[t] = [w[t], e[t]];\r\n                        return this\r\n                    }",
+              "abort": "__ht__function(e) { var t = e || u; return c && c.abort(t), l(0, t), this }",
+              "state": "__ht__function() { return i }",
+              "always": "__ht__function() { return s.done(arguments).fail(arguments), this }",
+              "catch": "__ht__function(e) { return a.then(null, e) }",
+              "pipe": "__ht__function() {\r\n                        var i = arguments;\r\n                        return ce.Deferred(function(r) {\r\n                            ce.each(o, function(e, t) {\r\n                                var n = v(i[t[4]]) && i[t[4]];\r\n                                s[t[1]](function() {\r\n                                    var e = n && n.apply(this, arguments);\r\n                                    e && v(e.promise) ? e.promise().progress(r.notify).done(r.resolve).fail(r.reject) : r[t[0] + \"With\"](this, n ? [e] : arguments)\r\n                                })\r\n                            }), i = null\r\n                        }).promise()\r\n                    }",
+              "then": "__ht__function(t, n, r) {\r\n                        var u = 0;\r\n\r\n                        function l(i, o, a, s) {\r\n                            return function() {\r\n                                var n = this,\r\n                                    r = arguments,\r\n                                    e = function() {\r\n                                        var e, t;\r\n                                        if (!(i < u)) {\r\n                                            if ((e = a.apply(n, r)) === o.promise()) throw new TypeError(\"Thenable self-resolution\");\r\n                                            t = e && (\"object\" == typeof e || \"function\" == typeof e) && e.then, v(t) ? s ? t.call(e, l(u, o, N, s), l(u, o, q, s)) : (u++, t.call(e, l(u, o, N, s), l(u, o, q, s), l(u, o, N, o.notifyWith))) : (a !== N && (n = void 0, r = [e]), (s || o.resolveWith)(n, r))\r\n                                        }\r\n                                    },\r\n                                    t = s ? e : function() { try { e() } catch (e) { ce.Deferred.exceptionHook && ce.Deferred.exceptionHook(e, t.error), u <= i + 1 && (a !== q && (n = void 0, r = [e]), o.rejectWith(n, r)) } };\r\n                                i ? t() : (ce.Deferred.getErrorHook ? t.error = ce.Deferred.getErrorHook() : ce.Deferred.getStackHook && (t.error = ce.Deferred.getStackHook()), ie.setTimeout(t))\r\n                            }\r\n                        }\r\n                        return ce.Deferred(function(e) { o[0][3].add(l(0, e, v(r) ? r : N, e.notifyWith)), o[1][3].add(l(0, e, v(t) ? t : N)), o[2][3].add(l(0, e, v(n) ? n : q)) }).promise()\r\n                    }",
+              "promise": "__ht__function(e) { return null != e ? ce.extend(e, a) : a }",
+              "progress": "__ht__function() { return s && (t && !i && (l = s.length - 1, u.push(t)), function n(e) { ce.each(e, function(e, t) { v(t) ? r.unique && f.has(t) || s.push(t) : t && t.length && \"string\" !== x(t) && n(t) }) }(arguments), t && !i && c()), this }",
+              "done": "__ht__function() { return s && (t && !i && (l = s.length - 1, u.push(t)), function n(e) { ce.each(e, function(e, t) { v(t) ? r.unique && f.has(t) || s.push(t) : t && t.length && \"string\" !== x(t) && n(t) }) }(arguments), t && !i && c()), this }",
+              "fail": "__ht__function() { return s && (t && !i && (l = s.length - 1, u.push(t)), function n(e) { ce.each(e, function(e, t) { v(t) ? r.unique && f.has(t) || s.push(t) : t && t.length && \"string\" !== x(t) && n(t) }) }(arguments), t && !i && c()), this }",
+              "responseText": "{\"timestamp\":\"2023-08-11T21:55:25.946+00:00\",\"status\":400,\"error\":\"Bad Request\",\"path\":\"/get\"}",
+              "responseJSON": {
+                "timestamp": "2023-08-11T21:55:25.946+00:00",
+                "status": 400,
+                "error": "Bad Request",
+                "path": "/get"
+              },
+              "status": 400,
+              "statusText": "error"
+            },
+            0
+          ],
+          "a:exec": false
+        },
+        "fields": [
+          "job_number",
+          "name",
+          "phone",
+          "account_name",
+          "job_title",
+          "account_state",
+          "user_role"
+        ],
+        "note.font": "22px arial, sans-serif",
+        "note.color": "rgb(212,0,0)",
+        "note.background": "rgb(255,235,195)",
+        "note.position": 3,
+        "note.offset.x": 0,
+        "note.offset.y": -5,
+        "note.border.width": 10,
+        "note.border.color": "rgb(255,235,195)",
+        "note.opacity": 0,
+        "note.align": "left",
+        "label.position": 13,
+        "label.align": "left",
+        "note": "[func1] 函数组件通常关联\"输出（output）\"属性对外操\n作，而索引为0的连线关联了fields                   "
+      },
+      "a": {
+        "function": "dbQueryToTreeTable",
+        "symbol": "symbols/develop/uiotos/base/__convertor.json",
+        "exeWhenInput": true,
+        "paramControlTag": [
+          null
+        ],
+        "paramControlAttr": [
+          "output"
+        ],
+        "bindControlsTag": [
+          "输出"
+        ],
+        "bindControlsAttr": [
+          "datas"
+        ],
+        "bindControlsVal": [
+          null
+        ],
+        "exec": false,
+        "fields": [
+          "facialAccessId",
+          "facialAccessName",
+          "facialAccessPosition",
+          "authPersonnel",
+          "generalPersonnel"
+        ],
+        "oldDynamicAttrs": [
+          {
+            "attr": "key",
+            "valueType": "String",
+            "defaultValue": "id",
+            "description": "下拉框显示对应的value值，对应返回数据的字段，默认为字段名称为\"id。\"",
+            "dynamicCreate": true
+          },
+          {
+            "attr": "_bindEvents_0",
+            "valueType": "MultiComboBox",
+            "defaultValue": "*",
+            "group": "bindEvents",
+            "description": "连线索引[0]的触发事件过滤器，默认全部通过",
+            "dynamicCreate": true
+          },
+          {
+            "attr": "fields",
+            "valueType": "ObjectArray",
+            "defaultValue": [
+              "name"
+            ],
+            "description": "数据字段。\n                    <br>选择返回数组数据（结构为[{},{}]）元素中的指\n                    <br>定字段，用于下拉框展示或对应表格字段。\n                    <br>注意，因为查询返回转树表和查询返回转下拉组框\n                    <br>复用了相同动态属性配置，而对于fields字段前者\n                    <br>要求数组、后者要求字符串即可，但为了兼容，因\n                    <br>此统一用数组。因此，下拉框的fields属性保持数\n                    <br>组格式，通常只需要一个元数、指定一个字段的列\n                    <br>表给组合框即可。\n                    <br>注意，当直接操作树表格的datas属性时，当下会\n                    <br>自动将本属性fields的值经过右移一位后传递给树\n                    <br>表的columnFields属性，比如[\"name\",\"gender\",\n                    <br>\"phone\"] → [null,\"name\",\"gender\",\"phone\"]，\n                    <br>无需连线操作，为了获取行数据时有字段对应，方便\n                    <br>直接对表单初始化。该机制对于嵌套暴露到上层的属\n                    <br>性操作也同样适用。",
+            "dynamicCreate": true
+          },
+          {
+            "attr": "keyId",
+            "valueType": "String",
+            "defaultValue": "id",
+            "description": "下拉框显示对应的value值或树表的ID字段，对应返回数据的字段，默认为字段名称为\"id\"。",
+            "dynamicCreate": true
+          },
+          {
+            "attr": "keyParent",
+            "valueType": "String",
+            "defaultValue": "parent",
+            "description": "父节点（以ID字段的值关联）字段，对应返回数据的字段，默认为字段名称为\"parent\"。",
+            "dynamicCreate": true
+          },
+          {
+            "attr": "keyChildren",
+            "valueType": "String",
+            "defaultValue": "children",
+            "description": "子节点（以ID字段的值关联）字段，对应返回数据的字段，默认为字段名称为\"children\"。",
+            "dynamicCreate": true
+          },
+          {
+            "attr": "appendTo",
+            "valueType": "String",
+            "defaultValue": "",
+            "description": "追加到指定节点（ID值）\r\n。如果有指定ID，并且在被操作的属性原数据中存在，那么就会将传入\r\n的数据动态插入到指定节点下，作为子节点数据，并且保持原始数据其他部分不变，不会被覆盖。\r\n注意，目前只对树表实现，对下拉框组件暂未支持。",
+            "dynamicCreate": true
+          }
+        ],
+        "bindEvents": [
+          "*",
+          "convertor",
+          "paramsGenerator"
+        ],
+        "输出遇到空值": "全部（*）",
+        "输出遇到空值-list": [
+          "全部（*）",
+          "空对象（null）",
+          "未定义（undefined）",
+          "空字符串（\"\"）",
+          "否（false）",
+          "等于零（0）",
+          "小于零（<0）",
+          "NaN"
+        ],
+        "output": [],
+        "arrExec": false,
+        "inputs": [],
+        "paramBindEvent": [],
+        "noteTips": "查询返回转换成树表，其中按照顺序规定好字段，\n可以有多出的字段用于点击交互接口传参，不用\n于表格显示。",
+        "resetAfterInput": true,
+        "_bindEvents_0-list": [
+          "*",
+          "convertor",
+          "paramsGenerator"
+        ]
+      }
+    },
+    {
+      "c": "ht.Edge",
+      "i": 26845,
+      "p": {
+        "name": "edge",
+        "displayName": "0（edge8）",
+        "toolTip": "<div id=\"config_tooltip\" style=\"font-size:12px;line-height:1.75em;letter-spacing:1px\">\n                                                        关联绑定信息：<br>\n                                                        <li style=\"list-style-type:disc;color:rgba(255,255,255,0.5);\">索引序号：0 | 总共1条</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold;\">操作属性：datas@cbox1</li>\n                                                        <li style=\"list-style-type:none;color:rgba(255,255,255,0.5)\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;当前值：[object Object],[object Object]</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold\">关联属性：output@func1</li>\n                                                        <li style=\"list-style-type:none;color:rgba(255,255,255,0.5)\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;关联值：</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold;\">解析赋值：null</li>\n                                                    </div>",
+        "parent": {
+          "__i": 26844
+        },
+        "tag": "edge8",
+        "source": {
+          "__i": 26844
+        },
+        "target": {
+          "__i": 26854
+        }
+      },
+      "s": {
+        "label": "",
+        "edge.color": "#068346",
+        "edge.type": "flex",
+        "edge.gap": 16,
+        "edge.width.absolute": true,
+        "note.border.width": 0,
+        "note.position": 7,
+        "note.opacity": 0.85,
+        "note.background": "#068346",
+        "note.offset.x": 0,
+        "note.offset.y": 0,
+        "icons": {
+          "symbols/demo/extra/basic/fromArrow2.json": {
+            "position": 15,
+            "keepOrien": true,
+            "names": [
+              "symbols/demo/extra/basic/fromArrow2.json"
+            ]
+          },
+          "symbols/demo/extra/basic/toArrow.json": {
+            "position": 19,
+            "keepOrien": true,
+            "width": 50,
+            "height": 20,
+            "names": [
+              "symbols/demo/extra/basic/toArrow.json"
+            ]
+          }
+        },
+        "note": 0
+      },
+      "a": {
+        "index": 0,
+        "toolTipRaw": "<div id=\"config_tooltip\" style=\"font-size:12px;line-height:1.75em;letter-spacing:1px\">\n                                                        关联绑定信息：<br>\n                                                        <li style=\"list-style-type:disc;color:rgba(255,255,255,0.5);\">索引序号：0 | 总共1条</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold;\">操作属性：datas@cbox1</li>\n                                                        <li style=\"list-style-type:none;color:rgba(255,255,255,0.5)\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;当前值：[object Object],[object Object]</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold\">关联属性：output@func1</li>\n                                                        <li style=\"list-style-type:none;color:rgba(255,255,255,0.5)\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;关联值：</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold;\">解析赋值：null</li>\n                                                    </div>"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 26846,
+      "p": {
+        "name": "func",
+        "displayName": "工具函数（func2）",
+        "toolTip": "透明传递<br>transfer",
+        "tag": "func2",
+        "dataBindings": {
+          "a": {
+            "userData": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "output": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "inputs": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "exec": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "arrExec": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "_type": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "_title": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "_region": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "_duration": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "_fixedWidth": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            }
+          }
+        },
+        "image": {
+          "modified": "Tue Sep 26 2023 16:47:49 GMT+0800 (中国标准时间)",
+          "background": "rgb(32,37,46)",
+          "dataBindings": [
+            {
+              "attr": "symbol",
+              "valueType": "Image",
+              "name": "组件地址"
+            },
+            {
+              "attr": "color",
+              "valueType": "Color",
+              "defaultValue": "rgb(51,153,255)",
+              "description": "图标颜色。\n<br>包括显示文字。",
+              "group": "功能（关键）",
+              "name": "图标颜色"
+            },
+            {
+              "attr": "function",
+              "valueType": "ToolFunction",
+              "defaultValue": "transfer",
+              "name": "功能选项",
+              "description": "无"
+            },
+            {
+              "attr": "noteTips",
+              "valueType": "Multiline",
+              "name": "文字显示注释",
+              "description": "简短文字注释。\n<br>默认为函数名称，可以修改，方便理解具体用途。\n<br>通常结合“提示”属性，整体来注释当前的操作。"
+            },
+            {
+              "attr": "exeWhenInput",
+              "valueType": "Boolean",
+              "defaultValue": false,
+              "name": "输入赋值时执行"
+            },
+            {
+              "attr": "resetAfterInput",
+              "valueType": "Boolean",
+              "name": "输入赋值后清空",
+              "description": "勾选后，每次输入值有更新，在触发下一步（如果有勾选输入时执行）后，同时复位清空输入属性\n的值，确保下一次再输入同样内容时也能按照变化处理触发执行。注意，再多条连线操作inputs输入\n的不同索引index时，该属性不能勾选，否则无法实现多个值连线（异步先后）赋值传入。",
+              "defaultValue": false
+            },
+            {
+              "attr": "inputsArrToObj",
+              "valueType": "Boolean",
+              "name": "输入数组转对象",
+              "description": "是否切换成对象格式。\n<br>输入组（inputs）默认为数组格式，当前属性勾选时\n<br>会将输入组切换成非数组的对象格式，再次取消勾选\n<br>时，会恢复成数组格式。\n<br>\n切换成对象，主要是为了连线操作时，能对初始的非\n<br>数组属性值进行操作，这对于数组取自身索引值对外\n<br>赋值时有用，否则会因为操作数组类型属性值，导致\n<br>被识别为操作目标数组的索引进行赋值。"
+            },
+            {
+              "attr": "exeWhenLoad",
+              "valueType": "Boolean",
+              "defaultValue": false,
+              "name": "组件加载时执行"
+            },
+            {
+              "attr": "oldValueMerge",
+              "valueType": "Boolean",
+              "defaultValue": false,
+              "name": "输出合并非覆盖",
+              "description": "对被操作的属性值做追加而不是覆盖替换。\n<br>被操作属性值作为旧值，按照值类型（数值、字符串、数组、对象等）追加分为以下\n<br>情况：\n<br>1）如果被赋值的（要操作的旧值）为数组类型，通常会将当前值追加过去而不是覆盖；\n<br>工具函数的输入组（inputs）属性例外，在旧值为空数组或者长度为1的数组时，会被当\n<br>做空值或者以唯一哪个元素的值作为当前的旧值，不当做数组类型的操作来追加。\n<br>2）被赋值的为空（注意，并非0、空字符串等\"空\"值）时，输入（组）中一个或多个输\n<br>入项，会合并成一个值输出。其中，合并取决于输入组的类型（输入组多个值中类型数\n<br>量最多的被认为是当前输入组的值类型），具体如下:\n<br>    ■ 数字：输入组各项强制转换成数值并相加，将结果输出；\n<br>    ■ 字符串：输入组各项转成字符串依次拼接形成新的字符串输出；\n<br>    ■ 布尔型：输入组的各项转换成布尔然后做并集（或）后逻辑结果输出；\n<br>    ■ 对象：输入组各项被当成对象，然后字段合并成新对象后输出；\n<br>强制转换这里需注意：\n<br>    ■ 非空字符串转数值时，除了\"true\"（大小写均可）会作为1，其他字符串会作为0；\n<br>3）被赋值的不为空，有具体类型时，比如数字、字符串、布尔、对象类型，此时输入\n<br>组各项值，不再按照类型的多数（如果存在多个输入项）来强制转换少数输入项，而是\n<br>统一按照操作赋值的旧值类型，来转换输入的各项，并且按照类型类自动选择合适的合\n<br>并方式（如上），生成结果来赋值。\n<br>    ○ 注意1：多项输入和旧值会参与一起做合并操作，并非仅仅输入组的各项之间进行。\n<br>    ○ 注意2：如果输入值并非数组，会作当成输入组且元素个数为1的情况来处理。"
+            },
+            {
+              "attr": "inputs",
+              "valueType": "ObjectArray",
+              "name": "输入（组）",
+              "defaultValue": [],
+              "description": "用于接收函数参数输入，默认为数组格式，可以设置多个入参。\n<br>外部可以多条连线操作该属性，利用数组操作特性，在各自的连线操作\n<br>中bindControlsVal中设置对应的索引值，用来指定传入输入数组中指定\n<br>值，实现多参数传入。\n<br>\n注意，对于透明传递不做任何业务逻辑处理时，默认会将输入组的值直接输\n<br>出，默认以空（undefined）对外操作赋值，通常用于对外清空值。\n<br>此外，输入组长度为1时，将去掉数组后以元素本身值对外输出，比如\n<br>[1]、['hello']、[true]，['']会被当做1、'hello'、true、''输出。长度大于1的\n<br>输入组，对外输出则是正常的数组值。"
+            },
+            {
+              "attr": "_type",
+              "valueType": "MessageType",
+              "defaultValue": "warn",
+              "dynamicCreate": true
+            },
+            {
+              "attr": "_title",
+              "valueType": "String",
+              "defaultValue": "弹窗确认",
+              "dynamicCreate": true
+            },
+            {
+              "attr": "_region",
+              "valueType": "Region",
+              "defaultValue": "top",
+              "dynamicCreate": true
+            },
+            {
+              "attr": "_duration",
+              "valueType": "PositiveNumber",
+              "defaultValue": 1000,
+              "dynamicCreate": true
+            },
+            {
+              "attr": "_fixedWidth",
+              "valueType": "PositiveNumber",
+              "defaultValue": 0,
+              "dynamicCreate": true
+            },
+            {
+              "attr": "delay",
+              "valueType": "PositiveNumber",
+              "defaultValue": 0,
+              "name": "延时执行毫秒"
+            },
+            {
+              "attr": "exec",
+              "valueType": "Boolean",
+              "defaultValue": false,
+              "name": "执行"
+            },
+            {
+              "attr": "arrExec",
+              "valueType": "Boolean",
+              "defaultValue": false,
+              "name": "遍历执行",
+              "description": "准输出值如果是数组时，自动拆成多个元素，依次对外触发。\n<br>相当于在连线静态值bindControlsVal中依次填入从0到n-1后，\n<br>再点击常规“执行”。\n<br>对于透明传递而言，通常输出就等于输入，因此也相当于将\n<br>输入的多个参数（数组元素），依次填入再触发执行。\n<br>"
+            },
+            {
+              "attr": "whenOutputing",
+              "valueType": "MultiComboBox",
+              "name": "whenOutputing"
+            },
+            {
+              "attr": "changeOutputTo",
+              "valueType": "MultiComboBox",
+              "extraInfo": {
+                "enum": {
+                  "values": [
+                    "不转换",
+                    "空对象（null）",
+                    "未定义（undefined）",
+                    "空字符串（\"\"）",
+                    "否（false）",
+                    "等于零（0）"
+                  ]
+                }
+              },
+              "defaultValue": "不转换",
+              "name": "changeOutputTo"
+            },
+            {
+              "attr": "output",
+              "valueType": "Object",
+              "name": "输出"
+            },
+            {
+              "attr": "bindControlsTag",
+              "valueType": "StringArray",
+              "group": "bindControls"
+            },
+            {
+              "attr": "bindControlsAttr",
+              "valueType": "StringArray"
+            },
+            {
+              "attr": "bindControlsVal",
+              "valueType": "ObjectArray",
+              "description": "静态值。也用作数组索引、JSON对象解析提取值用途。\n<br>一、静态值用途：\n<br>对常规类型的属性赋值且没有反向关联属性值，传入为数值时，不\n<br>会作为数组的索引，而会当成常量值对外赋值。此外，存在特殊值：\n<br>~和undefined表示过滤、不触发；null为默认值，表示传递默认表\n<br>单数据。编辑状态下清空后保存与设置null等价。\n<br>二、数组索引用途\n<br>情况1：被操作的组件属性原先值是数组时（包括空数组），会将\n<br>待输出的值作为被操作数组指定索引的值来传入，而不是整体覆盖。\n<br>情况2：如果要被操作的组件属性原先值不是数组，而且待输出的\n<br>值为数组类型并且长度也在索引范围内，那么会按照索引取自身数\n<br>组指定元素再对外输出。（如果想要取待输出索引值，赋值给被操\n<br>纵属性的指定索引，那么需要中间组件属性连线过渡以下，无法直\n<br>接操作）\n<br>情况3：如果要被操作的组件属性是数组，而且待输出的值也是数组\n<br>类型，此时当情况1来处理。\n<br>三、数据解析用途：\n<br>待输出的值为JSON对象时，用x.y.z这种以字符.或者>为间隔的方式\n<br>实现对JSON字段层次逐层定位，当是数组时x.0.y.1这种以数字的方\n<br>式来指定数组的某个索引。以此实现对任意结果JSON对象字段的定\n<br>位，获取结构内指定字段对应的值。"
+            },
+            {
+              "attr": "paramControlTag",
+              "valueType": "StringArray"
+            },
+            {
+              "attr": "paramControlAttr",
+              "valueType": "StringArray"
+            },
+            {
+              "attr": "paramsGenerator",
+              "valueType": "Function",
+              "defaultValue": "__ht__function(data, val, index, node, oldVal, form, type, inner) {//绑定组索引对应的函数处理，用来动态生成复杂的参数变量传入\r\nswitch(index){\r\n    case 0:\r\n        break;\r\n    case 1:\r\n        break;\r\n    case 2:\r\n        break;\r\n    default:\r\n        break;\r\n}\r\n\r\nreturn val;}",
+              "extraInfo": {
+                "arguments": [
+                  "data",
+                  "val",
+                  "index",
+                  "node",
+                  "oldVal",
+                  "form",
+                  "type",
+                  "inner"
+                ]
+              }
+            },
+            {
+              "attr": "userData",
+              "valueType": "ObjectArray",
+              "defaultValue": [],
+              "description": "用户数据。"
+            }
+          ],
+          "renderHTML": "__ht__function(data, gv, cache) {return __convertor(data,gv,cache);}",
+          "width": 45,
+          "height": 45,
+          "comps": [
+            {
+              "type": "image",
+              "color": {
+                "func": "__ht__function(data, view) {\nlet color = data.ca('color');\r\ndata.s('label.color',color);\r\nreturn color;\n}",
+                "value": "rgb(51,153,255)"
+              },
+              "name": "symbols/develop/uiotos/icons/editroToolBar/function.json",
+              "shadowColor": "rgb(61,61,61)",
+              "displayName": "node_image",
+              "rect": [
+                0.53882,
+                1.04528,
+                43.92236,
+                42.90945
+              ]
+            }
+          ],
+          "uuid": "C0D702F6-842C-45B8-B5FF-8BF4042323CE"
+        },
+        "position": {
+          "x": 2188.18422,
+          "y": 182.2859
+        }
+      },
+      "s": {
+        "label.position": 25,
+        "label.offset.y": 0,
+        "interactive": true,
+        "image.stretch": "uniform",
+        "2d.editable": false,
+        "select.width": 0.5,
+        "select.type": "roundRect",
+        "select.color": "rgb(124,145,155)",
+        "label": "弹窗提示查询无",
+        "label.font": "26px Microsoft YaHei",
+        "label.color": "rgb(51,153,255)",
+        "label.align": "left",
+        "note.font": "22px arial, sans-serif",
+        "note.color": "rgb(212,0,0)",
+        "note.background": "rgb(255,235,195)",
+        "note.position": 3,
+        "note.offset.x": 0,
+        "note.offset.y": -5,
+        "note.border.width": 10,
+        "note.border.color": "rgb(255,235,195)",
+        "note.opacity": 0,
+        "note.align": "left"
+      },
+      "a": {
+        "toolTipRaw": "透明传递<br>transfer",
+        "noteTips": "弹窗提示查询无",
+        "输出遇到空值": "全部（*）",
+        "输出遇到空值-list": [
+          "全部（*）",
+          "空对象（null）",
+          "未定义（undefined）",
+          "空字符串（\"\"）",
+          "否（false）",
+          "等于零（0）",
+          "小于零（<0）",
+          "NaN"
+        ],
+        "arrExec": false,
+        "function": "messageAlert",
+        "inputs": [
+          "查询为空！"
+        ],
+        "symbol": "symbols/develop/uiotos/base/__convertor.json",
+        "oldDynamicAttrs": [
+          {
+            "attr": "_type",
+            "valueType": "MessageType",
+            "defaultValue": "warn",
+            "dynamicCreate": true
+          },
+          {
+            "attr": "_title",
+            "valueType": "String",
+            "defaultValue": "弹窗确认",
+            "dynamicCreate": true
+          },
+          {
+            "attr": "_region",
+            "valueType": "Region",
+            "defaultValue": "top",
+            "dynamicCreate": true
+          },
+          {
+            "attr": "_duration",
+            "valueType": "PositiveNumber",
+            "defaultValue": 1000,
+            "dynamicCreate": true
+          },
+          {
+            "attr": "_fixedWidth",
+            "valueType": "PositiveNumber",
+            "defaultValue": 0,
+            "dynamicCreate": true
+          }
+        ],
+        "_type": "alert",
+        "_title": "提示",
+        "exec": false,
+        "output": false,
+        "bindEvents": [
+          "*",
+          "convertor"
+        ]
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 26847,
+      "p": {
+        "name": "func",
+        "displayName": "工具函数（func3）",
+        "toolTip": "透明传递<br>transfer",
+        "tag": "func3",
+        "dataBindings": {
+          "a": {
+            "userData": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "output": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "inputs": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "exec": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "arrExec": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "_method": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "_value": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "_reverse": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "_bindEvents_0": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            }
+          }
+        },
+        "image": {
+          "modified": "Tue Sep 26 2023 16:47:49 GMT+0800 (中国标准时间)",
+          "background": "rgb(32,37,46)",
+          "dataBindings": [
+            {
+              "attr": "symbol",
+              "valueType": "Image",
+              "name": "组件地址"
+            },
+            {
+              "attr": "color",
+              "valueType": "Color",
+              "defaultValue": "rgb(51,153,255)",
+              "description": "图标颜色。\n<br>包括显示文字。",
+              "group": "功能（关键）",
+              "name": "图标颜色"
+            },
+            {
+              "attr": "function",
+              "valueType": "ToolFunction",
+              "defaultValue": "transfer",
+              "name": "功能选项",
+              "description": "无"
+            },
+            {
+              "attr": "noteTips",
+              "valueType": "Multiline",
+              "name": "文字显示注释",
+              "description": "简短文字注释。\n<br>默认为函数名称，可以修改，方便理解具体用途。\n<br>通常结合“提示”属性，整体来注释当前的操作。"
+            },
+            {
+              "attr": "exeWhenInput",
+              "valueType": "Boolean",
+              "defaultValue": false,
+              "name": "输入赋值时执行"
+            },
+            {
+              "attr": "resetAfterInput",
+              "valueType": "Boolean",
+              "name": "输入赋值后清空",
+              "description": "勾选后，每次输入值有更新，在触发下一步（如果有勾选输入时执行）后，同时复位清空输入属性\n的值，确保下一次再输入同样内容时也能按照变化处理触发执行。注意，再多条连线操作inputs输入\n的不同索引index时，该属性不能勾选，否则无法实现多个值连线（异步先后）赋值传入。",
+              "defaultValue": false
+            },
+            {
+              "attr": "inputsArrToObj",
+              "valueType": "Boolean",
+              "name": "输入数组转对象",
+              "description": "是否切换成对象格式。\n<br>输入组（inputs）默认为数组格式，当前属性勾选时\n<br>会将输入组切换成非数组的对象格式，再次取消勾选\n<br>时，会恢复成数组格式。\n<br>\n切换成对象，主要是为了连线操作时，能对初始的非\n<br>数组属性值进行操作，这对于数组取自身索引值对外\n<br>赋值时有用，否则会因为操作数组类型属性值，导致\n<br>被识别为操作目标数组的索引进行赋值。"
+            },
+            {
+              "attr": "exeWhenLoad",
+              "valueType": "Boolean",
+              "defaultValue": false,
+              "name": "组件加载时执行"
+            },
+            {
+              "attr": "oldValueMerge",
+              "valueType": "Boolean",
+              "defaultValue": false,
+              "name": "输出合并非覆盖",
+              "description": "对被操作的属性值做追加而不是覆盖替换。\n<br>被操作属性值作为旧值，按照值类型（数值、字符串、数组、对象等）追加分为以下\n<br>情况：\n<br>1）如果被赋值的（要操作的旧值）为数组类型，通常会将当前值追加过去而不是覆盖；\n<br>工具函数的输入组（inputs）属性例外，在旧值为空数组或者长度为1的数组时，会被当\n<br>做空值或者以唯一哪个元素的值作为当前的旧值，不当做数组类型的操作来追加。\n<br>2）被赋值的为空（注意，并非0、空字符串等\"空\"值）时，输入（组）中一个或多个输\n<br>入项，会合并成一个值输出。其中，合并取决于输入组的类型（输入组多个值中类型数\n<br>量最多的被认为是当前输入组的值类型），具体如下:\n<br>    ■ 数字：输入组各项强制转换成数值并相加，将结果输出；\n<br>    ■ 字符串：输入组各项转成字符串依次拼接形成新的字符串输出；\n<br>    ■ 布尔型：输入组的各项转换成布尔然后做并集（或）后逻辑结果输出；\n<br>    ■ 对象：输入组各项被当成对象，然后字段合并成新对象后输出；\n<br>强制转换这里需注意：\n<br>    ■ 非空字符串转数值时，除了\"true\"（大小写均可）会作为1，其他字符串会作为0；\n<br>3）被赋值的不为空，有具体类型时，比如数字、字符串、布尔、对象类型，此时输入\n<br>组各项值，不再按照类型的多数（如果存在多个输入项）来强制转换少数输入项，而是\n<br>统一按照操作赋值的旧值类型，来转换输入的各项，并且按照类型类自动选择合适的合\n<br>并方式（如上），生成结果来赋值。\n<br>    ○ 注意1：多项输入和旧值会参与一起做合并操作，并非仅仅输入组的各项之间进行。\n<br>    ○ 注意2：如果输入值并非数组，会作当成输入组且元素个数为1的情况来处理。"
+            },
+            {
+              "attr": "inputs",
+              "valueType": "ObjectArray",
+              "name": "输入（组）",
+              "defaultValue": [],
+              "description": "用于接收函数参数输入，默认为数组格式，可以设置多个入参。\n<br>外部可以多条连线操作该属性，利用数组操作特性，在各自的连线操作\n<br>中bindControlsVal中设置对应的索引值，用来指定传入输入数组中指定\n<br>值，实现多参数传入。\n<br>\n注意，对于透明传递不做任何业务逻辑处理时，默认会将输入组的值直接输\n<br>出，默认以空（undefined）对外操作赋值，通常用于对外清空值。\n<br>此外，输入组长度为1时，将去掉数组后以元素本身值对外输出，比如\n<br>[1]、['hello']、[true]，['']会被当做1、'hello'、true、''输出。长度大于1的\n<br>输入组，对外输出则是正常的数组值。"
+            },
+            {
+              "attr": "_logical",
+              "name": "判断逻辑",
+              "valueType": "Logical",
+              "defaultValue": "allSatisfy",
+              "dynamicCreate": true
+            },
+            {
+              "attr": "_content",
+              "name": "内容",
+              "valueType": "Object",
+              "defaultValue": {},
+              "dynamicCreate": true
+            },
+            {
+              "attr": "_returnContent",
+              "name": "条件输出内容",
+              "valueType": "Boolean",
+              "defaultValue": false,
+              "description": "勾选时，如果条件逻辑判断成功，将_content的属性值传递出去；不勾选（默认）时，_content属性值不会对外传递。",
+              "dynamicCreate": true
+            },
+            {
+              "attr": "delay",
+              "valueType": "PositiveNumber",
+              "defaultValue": 0,
+              "name": "延时执行毫秒"
+            },
+            {
+              "attr": "exec",
+              "valueType": "Boolean",
+              "defaultValue": false,
+              "name": "执行"
+            },
+            {
+              "attr": "arrExec",
+              "valueType": "Boolean",
+              "defaultValue": false,
+              "name": "遍历执行",
+              "description": "准输出值如果是数组时，自动拆成多个元素，依次对外触发。\n<br>相当于在连线静态值bindControlsVal中依次填入从0到n-1后，\n<br>再点击常规“执行”。\n<br>对于透明传递而言，通常输出就等于输入，因此也相当于将\n<br>输入的多个参数（数组元素），依次填入再触发执行。\n<br>"
+            },
+            {
+              "attr": "whenOutputing",
+              "valueType": "MultiComboBox",
+              "name": "whenOutputing"
+            },
+            {
+              "attr": "changeOutputTo",
+              "valueType": "MultiComboBox",
+              "extraInfo": {
+                "enum": {
+                  "values": [
+                    "不转换",
+                    "空对象（null）",
+                    "未定义（undefined）",
+                    "空字符串（\"\"）",
+                    "否（false）",
+                    "等于零（0）"
+                  ]
+                }
+              },
+              "defaultValue": "不转换",
+              "name": "changeOutputTo"
+            },
+            {
+              "attr": "output",
+              "valueType": "Object",
+              "name": "输出"
+            },
+            {
+              "attr": "bindControlsTag",
+              "valueType": "StringArray",
+              "group": "bindControls"
+            },
+            {
+              "attr": "bindControlsAttr",
+              "valueType": "StringArray"
+            },
+            {
+              "attr": "bindControlsVal",
+              "valueType": "ObjectArray",
+              "description": "静态值。也用作数组索引、JSON对象解析提取值用途。\n<br>一、静态值用途：\n<br>对常规类型的属性赋值且没有反向关联属性值，传入为数值时，不\n<br>会作为数组的索引，而会当成常量值对外赋值。此外，存在特殊值：\n<br>~和undefined表示过滤、不触发；null为默认值，表示传递默认表\n<br>单数据。编辑状态下清空后保存与设置null等价。\n<br>二、数组索引用途\n<br>情况1：被操作的组件属性原先值是数组时（包括空数组），会将\n<br>待输出的值作为被操作数组指定索引的值来传入，而不是整体覆盖。\n<br>情况2：如果要被操作的组件属性原先值不是数组，而且待输出的\n<br>值为数组类型并且长度也在索引范围内，那么会按照索引取自身数\n<br>组指定元素再对外输出。（如果想要取待输出索引值，赋值给被操\n<br>纵属性的指定索引，那么需要中间组件属性连线过渡以下，无法直\n<br>接操作）\n<br>情况3：如果要被操作的组件属性是数组，而且待输出的值也是数组\n<br>类型，此时当情况1来处理。\n<br>三、数据解析用途：\n<br>待输出的值为JSON对象时，用x.y.z这种以字符.或者>为间隔的方式\n<br>实现对JSON字段层次逐层定位，当是数组时x.0.y.1这种以数字的方\n<br>式来指定数组的某个索引。以此实现对任意结果JSON对象字段的定\n<br>位，获取结构内指定字段对应的值。"
+            },
+            {
+              "attr": "paramControlTag",
+              "valueType": "StringArray"
+            },
+            {
+              "attr": "paramControlAttr",
+              "valueType": "StringArray"
+            },
+            {
+              "attr": "paramsGenerator",
+              "valueType": "Function",
+              "defaultValue": "__ht__function(data, val, index, node, oldVal, form, type, inner) {//绑定组索引对应的函数处理，用来动态生成复杂的参数变量传入\r\nswitch(index){\r\n    case 0:\r\n        break;\r\n    case 1:\r\n        break;\r\n    case 2:\r\n        break;\r\n    default:\r\n        break;\r\n}\r\n\r\nreturn val;}",
+              "extraInfo": {
+                "arguments": [
+                  "data",
+                  "val",
+                  "index",
+                  "node",
+                  "oldVal",
+                  "form",
+                  "type",
+                  "inner"
+                ]
+              }
+            },
+            {
+              "attr": "userData",
+              "valueType": "ObjectArray",
+              "defaultValue": [],
+              "description": "用户数据。"
+            }
+          ],
+          "renderHTML": "__ht__function(data, gv, cache) {return __convertor(data,gv,cache);}",
+          "width": 45,
+          "height": 45,
+          "comps": [
+            {
+              "type": "image",
+              "color": {
+                "func": "__ht__function(data, view) {\nlet color = data.ca('color');\r\ndata.s('label.color',color);\r\nreturn color;\n}",
+                "value": "rgb(51,153,255)"
+              },
+              "name": "symbols/develop/uiotos/icons/editroToolBar/function.json",
+              "shadowColor": "rgb(61,61,61)",
+              "displayName": "node_image",
+              "rect": [
+                0.53882,
+                1.04528,
+                43.92236,
+                42.90945
+              ]
+            }
+          ],
+          "uuid": "C0D702F6-842C-45B8-B5FF-8BF4042323CE"
+        },
+        "position": {
+          "x": 2188.18422,
+          "y": 49.55862
+        }
+      },
+      "s": {
+        "label.position": 25,
+        "label.offset.y": 0,
+        "interactive": true,
+        "image.stretch": "uniform",
+        "2d.editable": false,
+        "select.width": 0.5,
+        "select.type": "roundRect",
+        "select.color": "rgb(124,145,155)",
+        "label": "获取查询返回的条数",
+        "label.font": "26px Microsoft YaHei",
+        "label.color": "rgb(51,153,255)",
+        "label.align": "left",
+        "note.font": "22px arial, sans-serif",
+        "note.color": "rgb(212,0,0)",
+        "note.background": "rgb(255,235,195)",
+        "note.position": 3,
+        "note.offset.x": 0,
+        "note.offset.y": -5,
+        "note.border.width": 10,
+        "note.border.color": "rgb(255,235,195)",
+        "note.opacity": 0,
+        "note.align": "left"
+      },
+      "a": {
+        "toolTipRaw": "透明传递<br>transfer",
+        "noteTips": "获取查询返回的条数",
+        "输出遇到空值": "全部（*）",
+        "输出遇到空值-list": [
+          "全部（*）",
+          "空对象（null）",
+          "未定义（undefined）",
+          "空字符串（\"\"）",
+          "否（false）",
+          "等于零（0）",
+          "小于零（<0）",
+          "NaN"
+        ],
+        "arrExec": false,
+        "function": "arrLen",
+        "exeWhenInput": true,
+        "paramControlTag": [
+          null
+        ],
+        "paramControlAttr": [
+          "output"
+        ],
+        "bindControlsTag": [
+          "func4"
+        ],
+        "bindControlsAttr": [
+          "inputs"
+        ],
+        "bindControlsVal": [
+          null
+        ],
+        "symbol": "symbols/develop/uiotos/base/__convertor.json",
+        "oldDynamicAttrs": [
+          {
+            "attr": "_method",
+            "valueType": "MathMethod",
+            "defaultValue": "SUM",
+            "dynamicCreate": true
+          },
+          {
+            "attr": "_reverse",
+            "valueType": "Boolean",
+            "defaultValue": false,
+            "description": "勾选后，公式运算的两个数字互换位置，或者取反。比如A-B换乘B-A，sin(A)变成arcsinx(A)",
+            "dynamicCreate": true
+          },
+          {
+            "attr": "_value",
+            "valueType": "Number",
+            "defaultValue": 1,
+            "description": "参与运算的数字，比如输入是A，计算方法是-，这里是B，那么表达式就是A-B。<br>注意，_reverse属性默认不勾选，一旦勾选，那么A和B位置互换，成为B-A",
+            "dynamicCreate": true
+          },
+          {
+            "attr": "_bindEvents_0",
+            "valueType": "MultiComboBox",
+            "defaultValue": "*",
+            "group": "bindEvents",
+            "description": "连线索引[0]的触发事件过滤器，默认全部通过",
+            "dynamicCreate": true
+          }
+        ],
+        "inputs": [],
+        "exec": false,
+        "output": 35,
+        "bindEvents": [
+          "*",
+          "convertor"
+        ],
+        "_bindEvents_0-list": [
+          "*",
+          "convertor"
+        ],
+        "resetAfterInput": true
+      }
+    },
+    {
+      "c": "ht.Edge",
+      "i": 26848,
+      "p": {
+        "name": "edge",
+        "displayName": "0（edge3）",
+        "toolTip": "<div id=\"config_tooltip\" style=\"font-size:12px;line-height:1.75em;letter-spacing:1px\">\n                                                        关联绑定信息：<br>\n                                                        <li style=\"list-style-type:disc;color:rgba(255,255,255,0.5);\">索引序号：0 | 总共1条</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold;\">操作属性：inputs@func8'</li>\n                                                        <li style=\"list-style-type:none;color:rgba(255,255,255,0.5)\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;当前值：[object Object],[object Object],[object Object],...</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold\">关联属性：output@func7'</li>\n                                                        <li style=\"list-style-type:none;color:rgba(255,255,255,0.5)\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;关联值：10</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold;\">解析赋值：null</li>\n                                                    </div>",
+        "parent": {
+          "__i": 26847
+        },
+        "tag": "edge3",
+        "source": {
+          "__i": 26847
+        },
+        "target": {
+          "__i": 26849
+        }
+      },
+      "s": {
+        "label": "",
+        "edge.color": "#C59A1B",
+        "edge.type": "flex",
+        "edge.gap": 16,
+        "edge.width.absolute": true,
+        "note.border.width": 0,
+        "note.position": 7,
+        "note.opacity": 0.85,
+        "note.background": "#C59A1B",
+        "note.offset.x": 0,
+        "note.offset.y": 0,
+        "icons": {
+          "symbols/demo/extra/basic/fromArrow2.json": {
+            "position": 15,
+            "keepOrien": true,
+            "names": [
+              "symbols/demo/extra/basic/fromArrow2.json"
+            ]
+          },
+          "symbols/demo/extra/basic/toArrow.json": {
+            "position": 19,
+            "keepOrien": true,
+            "width": 50,
+            "height": 20,
+            "names": [
+              "symbols/demo/extra/basic/toArrow.json"
+            ]
+          }
+        },
+        "note": 0,
+        "interactive": true,
+        "image.stretch": "uniform"
+      },
+      "a": {
+        "index": 0,
+        "toolTipRaw": "<div id=\"config_tooltip\" style=\"font-size:12px;line-height:1.75em;letter-spacing:1px\">\n                                                        关联绑定信息：<br>\n                                                        <li style=\"list-style-type:disc;color:rgba(255,255,255,0.5);\">索引序号：0 | 总共1条</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold;\">操作属性：inputs@func8'</li>\n                                                        <li style=\"list-style-type:none;color:rgba(255,255,255,0.5)\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;当前值：[object Object],[object Object],[object Object],...</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold\">关联属性：output@func7'</li>\n                                                        <li style=\"list-style-type:none;color:rgba(255,255,255,0.5)\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;关联值：10</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold;\">解析赋值：null</li>\n                                                    </div>"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 26849,
+      "p": {
+        "name": "func",
+        "displayName": "工具函数（func4）",
+        "toolTip": "透明传递<br>transfer",
+        "tag": "func4",
+        "dataBindings": {
+          "a": {
+            "userData": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "output": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "inputs": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "__ht__function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}",
+              "alias": ""
+            },
+            "exec": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "arrExec": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "_method": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "_value": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "_reverse": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "_logical": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "_content": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "_returnContent": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            }
+          }
+        },
+        "image": {
+          "modified": "Tue Sep 26 2023 16:47:49 GMT+0800 (中国标准时间)",
+          "background": "rgb(32,37,46)",
+          "dataBindings": [
+            {
+              "attr": "symbol",
+              "valueType": "Image",
+              "name": "组件地址"
+            },
+            {
+              "attr": "color",
+              "valueType": "Color",
+              "defaultValue": "rgb(51,153,255)",
+              "description": "图标颜色。\n<br>包括显示文字。",
+              "group": "功能（关键）",
+              "name": "图标颜色"
+            },
+            {
+              "attr": "function",
+              "valueType": "ToolFunction",
+              "defaultValue": "transfer",
+              "name": "功能选项",
+              "description": "无"
+            },
+            {
+              "attr": "noteTips",
+              "valueType": "Multiline",
+              "name": "文字显示注释",
+              "description": "简短文字注释。\n<br>默认为函数名称，可以修改，方便理解具体用途。\n<br>通常结合“提示”属性，整体来注释当前的操作。"
+            },
+            {
+              "attr": "exeWhenInput",
+              "valueType": "Boolean",
+              "defaultValue": false,
+              "name": "输入赋值时执行"
+            },
+            {
+              "attr": "resetAfterInput",
+              "valueType": "Boolean",
+              "name": "输入赋值后清空",
+              "description": "勾选后，每次输入值有更新，在触发下一步（如果有勾选输入时执行）后，同时复位清空输入属性\n的值，确保下一次再输入同样内容时也能按照变化处理触发执行。注意，再多条连线操作inputs输入\n的不同索引index时，该属性不能勾选，否则无法实现多个值连线（异步先后）赋值传入。",
+              "defaultValue": false
+            },
+            {
+              "attr": "inputsArrToObj",
+              "valueType": "Boolean",
+              "name": "输入数组转对象",
+              "description": "是否切换成对象格式。\n<br>输入组（inputs）默认为数组格式，当前属性勾选时\n<br>会将输入组切换成非数组的对象格式，再次取消勾选\n<br>时，会恢复成数组格式。\n<br>\n切换成对象，主要是为了连线操作时，能对初始的非\n<br>数组属性值进行操作，这对于数组取自身索引值对外\n<br>赋值时有用，否则会因为操作数组类型属性值，导致\n<br>被识别为操作目标数组的索引进行赋值。"
+            },
+            {
+              "attr": "exeWhenLoad",
+              "valueType": "Boolean",
+              "defaultValue": false,
+              "name": "组件加载时执行"
+            },
+            {
+              "attr": "oldValueMerge",
+              "valueType": "Boolean",
+              "defaultValue": false,
+              "name": "输出合并非覆盖",
+              "description": "对被操作的属性值做追加而不是覆盖替换。\n<br>被操作属性值作为旧值，按照值类型（数值、字符串、数组、对象等）追加分为以下\n<br>情况：\n<br>1）如果被赋值的（要操作的旧值）为数组类型，通常会将当前值追加过去而不是覆盖；\n<br>工具函数的输入组（inputs）属性例外，在旧值为空数组或者长度为1的数组时，会被当\n<br>做空值或者以唯一哪个元素的值作为当前的旧值，不当做数组类型的操作来追加。\n<br>2）被赋值的为空（注意，并非0、空字符串等\"空\"值）时，输入（组）中一个或多个输\n<br>入项，会合并成一个值输出。其中，合并取决于输入组的类型（输入组多个值中类型数\n<br>量最多的被认为是当前输入组的值类型），具体如下:\n<br>    ■ 数字：输入组各项强制转换成数值并相加，将结果输出；\n<br>    ■ 字符串：输入组各项转成字符串依次拼接形成新的字符串输出；\n<br>    ■ 布尔型：输入组的各项转换成布尔然后做并集（或）后逻辑结果输出；\n<br>    ■ 对象：输入组各项被当成对象，然后字段合并成新对象后输出；\n<br>强制转换这里需注意：\n<br>    ■ 非空字符串转数值时，除了\"true\"（大小写均可）会作为1，其他字符串会作为0；\n<br>3）被赋值的不为空，有具体类型时，比如数字、字符串、布尔、对象类型，此时输入\n<br>组各项值，不再按照类型的多数（如果存在多个输入项）来强制转换少数输入项，而是\n<br>统一按照操作赋值的旧值类型，来转换输入的各项，并且按照类型类自动选择合适的合\n<br>并方式（如上），生成结果来赋值。\n<br>    ○ 注意1：多项输入和旧值会参与一起做合并操作，并非仅仅输入组的各项之间进行。\n<br>    ○ 注意2：如果输入值并非数组，会作当成输入组且元素个数为1的情况来处理。"
+            },
+            {
+              "attr": "inputs",
+              "valueType": "ObjectArray",
+              "name": "输入（组）",
+              "defaultValue": [],
+              "description": "用于接收函数参数输入，默认为数组格式，可以设置多个入参。\n<br>外部可以多条连线操作该属性，利用数组操作特性，在各自的连线操作\n<br>中bindControlsVal中设置对应的索引值，用来指定传入输入数组中指定\n<br>值，实现多参数传入。\n<br>\n注意，对于透明传递不做任何业务逻辑处理时，默认会将输入组的值直接输\n<br>出，默认以空（undefined）对外操作赋值，通常用于对外清空值。\n<br>此外，输入组长度为1时，将去掉数组后以元素本身值对外输出，比如\n<br>[1]、['hello']、[true]，['']会被当做1、'hello'、true、''输出。长度大于1的\n<br>输入组，对外输出则是正常的数组值。"
+            },
+            {
+              "attr": "_logical",
+              "name": "判断逻辑",
+              "valueType": "Logical",
+              "defaultValue": "allSatisfy",
+              "dynamicCreate": true
+            },
+            {
+              "attr": "_content",
+              "name": "内容",
+              "valueType": "Object",
+              "defaultValue": {},
+              "dynamicCreate": true
+            },
+            {
+              "attr": "_returnContent",
+              "name": "条件输出内容",
+              "valueType": "Boolean",
+              "defaultValue": false,
+              "description": "勾选时，如果条件逻辑判断成功，将_content的属性值传递出去；不勾选（默认）时，_content属性值不会对外传递。",
+              "dynamicCreate": true
+            },
+            {
+              "attr": "delay",
+              "valueType": "PositiveNumber",
+              "defaultValue": 0,
+              "name": "延时执行毫秒"
+            },
+            {
+              "attr": "exec",
+              "valueType": "Boolean",
+              "defaultValue": false,
+              "name": "执行"
+            },
+            {
+              "attr": "arrExec",
+              "valueType": "Boolean",
+              "defaultValue": false,
+              "name": "遍历执行",
+              "description": "准输出值如果是数组时，自动拆成多个元素，依次对外触发。\n<br>相当于在连线静态值bindControlsVal中依次填入从0到n-1后，\n<br>再点击常规“执行”。\n<br>对于透明传递而言，通常输出就等于输入，因此也相当于将\n<br>输入的多个参数（数组元素），依次填入再触发执行。\n<br>"
+            },
+            {
+              "attr": "whenOutputing",
+              "valueType": "MultiComboBox",
+              "name": "whenOutputing"
+            },
+            {
+              "attr": "changeOutputTo",
+              "valueType": "MultiComboBox",
+              "extraInfo": {
+                "enum": {
+                  "values": [
+                    "不转换",
+                    "空对象（null）",
+                    "未定义（undefined）",
+                    "空字符串（\"\"）",
+                    "否（false）",
+                    "等于零（0）"
+                  ]
+                }
+              },
+              "defaultValue": "不转换",
+              "name": "changeOutputTo"
+            },
+            {
+              "attr": "output",
+              "valueType": "Object",
+              "name": "输出"
+            },
+            {
+              "attr": "bindControlsTag",
+              "valueType": "StringArray",
+              "group": "bindControls"
+            },
+            {
+              "attr": "bindControlsAttr",
+              "valueType": "StringArray"
+            },
+            {
+              "attr": "bindControlsVal",
+              "valueType": "ObjectArray",
+              "description": "静态值。也用作数组索引、JSON对象解析提取值用途。\n<br>一、静态值用途：\n<br>对常规类型的属性赋值且没有反向关联属性值，传入为数值时，不\n<br>会作为数组的索引，而会当成常量值对外赋值。此外，存在特殊值：\n<br>~和undefined表示过滤、不触发；null为默认值，表示传递默认表\n<br>单数据。编辑状态下清空后保存与设置null等价。\n<br>二、数组索引用途\n<br>情况1：被操作的组件属性原先值是数组时（包括空数组），会将\n<br>待输出的值作为被操作数组指定索引的值来传入，而不是整体覆盖。\n<br>情况2：如果要被操作的组件属性原先值不是数组，而且待输出的\n<br>值为数组类型并且长度也在索引范围内，那么会按照索引取自身数\n<br>组指定元素再对外输出。（如果想要取待输出索引值，赋值给被操\n<br>纵属性的指定索引，那么需要中间组件属性连线过渡以下，无法直\n<br>接操作）\n<br>情况3：如果要被操作的组件属性是数组，而且待输出的值也是数组\n<br>类型，此时当情况1来处理。\n<br>三、数据解析用途：\n<br>待输出的值为JSON对象时，用x.y.z这种以字符.或者>为间隔的方式\n<br>实现对JSON字段层次逐层定位，当是数组时x.0.y.1这种以数字的方\n<br>式来指定数组的某个索引。以此实现对任意结果JSON对象字段的定\n<br>位，获取结构内指定字段对应的值。"
+            },
+            {
+              "attr": "paramControlTag",
+              "valueType": "StringArray"
+            },
+            {
+              "attr": "paramControlAttr",
+              "valueType": "StringArray"
+            },
+            {
+              "attr": "paramsGenerator",
+              "valueType": "Function",
+              "defaultValue": "__ht__function(data, val, index, node, oldVal, form, type, inner) {//绑定组索引对应的函数处理，用来动态生成复杂的参数变量传入\r\nswitch(index){\r\n    case 0:\r\n        break;\r\n    case 1:\r\n        break;\r\n    case 2:\r\n        break;\r\n    default:\r\n        break;\r\n}\r\n\r\nreturn val;}",
+              "extraInfo": {
+                "arguments": [
+                  "data",
+                  "val",
+                  "index",
+                  "node",
+                  "oldVal",
+                  "form",
+                  "type",
+                  "inner"
+                ]
+              }
+            },
+            {
+              "attr": "userData",
+              "valueType": "ObjectArray",
+              "defaultValue": [],
+              "description": "用户数据。"
+            }
+          ],
+          "renderHTML": "__ht__function(data, gv, cache) {return __convertor(data,gv,cache);}",
+          "width": 45,
+          "height": 45,
+          "comps": [
+            {
+              "type": "image",
+              "color": {
+                "func": "__ht__function(data, view) {\nlet color = data.ca('color');\r\ndata.s('label.color',color);\r\nreturn color;\n}",
+                "value": "rgb(51,153,255)"
+              },
+              "name": "symbols/develop/uiotos/icons/editroToolBar/function.json",
+              "shadowColor": "rgb(61,61,61)",
+              "displayName": "node_image",
+              "rect": [
+                0.53882,
+                1.04528,
+                43.92236,
+                42.90945
+              ]
+            }
+          ],
+          "uuid": "C0D702F6-842C-45B8-B5FF-8BF4042323CE"
+        },
+        "position": {
+          "x": 2188.18422,
+          "y": 114.78615
+        }
+      },
+      "s": {
+        "label.position": 25,
+        "label.offset.y": 0,
+        "interactive": true,
+        "image.stretch": "uniform",
+        "2d.editable": false,
+        "select.width": 0.5,
+        "select.type": "roundRect",
+        "select.color": "rgb(124,145,155)",
+        "label": "如果查询0条（空的）",
+        "label.font": "26px Microsoft YaHei",
+        "label.color": "rgb(51,153,255)",
+        "label.align": "left",
+        "note.font": "22px arial, sans-serif",
+        "note.color": "rgb(212,0,0)",
+        "note.background": "rgb(255,235,195)",
+        "note.position": 3,
+        "note.offset.x": 0,
+        "note.offset.y": -5,
+        "note.border.width": 10,
+        "note.border.color": "rgb(255,235,195)",
+        "note.opacity": 0,
+        "note.align": "left"
+      },
+      "a": {
+        "toolTipRaw": "透明传递<br>transfer",
+        "输出遇到空值": "全部（*）",
+        "输出遇到空值-list": [
+          "全部（*）",
+          "空对象（null）",
+          "未定义（undefined）",
+          "空字符串（\"\"）",
+          "否（false）",
+          "等于零（0）",
+          "小于零（<0）",
+          "NaN"
+        ],
+        "arrExec": false,
+        "function": "condition",
+        "exeWhenInput": true,
+        "paramControlTag": [
+          null
+        ],
+        "paramControlAttr": [
+          "output"
+        ],
+        "bindControlsTag": [
+          "func2"
+        ],
+        "bindControlsAttr": [
+          "exec"
+        ],
+        "bindControlsVal": [
+          null
+        ],
+        "symbol": "symbols/develop/uiotos/base/__convertor.json",
+        "oldDynamicAttrs": [
+          {
+            "attr": "_method",
+            "valueType": "MathMethod",
+            "defaultValue": "SUM",
+            "dynamicCreate": true
+          },
+          {
+            "attr": "_reverse",
+            "valueType": "Boolean",
+            "defaultValue": false,
+            "description": "勾选后，公式运算的两个数字互换位置，或者取反。比如A-B换乘B-A，sin(A)变成arcsinx(A)",
+            "dynamicCreate": true
+          },
+          {
+            "attr": "_value",
+            "valueType": "Number",
+            "defaultValue": 1,
+            "description": "参与运算的数字，比如输入是A，计算方法是-，这里是B，那么表达式就是A-B。<br>注意，_reverse属性默认不勾选，一旦勾选，那么A和B位置互换，成为B-A",
+            "dynamicCreate": true
+          },
+          {
+            "attr": "_bindEvents_0",
+            "valueType": "MultiComboBox",
+            "defaultValue": "*",
+            "group": "bindEvents",
+            "description": "连线索引[0]的触发事件过滤器，默认全部通过",
+            "dynamicCreate": true
+          },
+          {
+            "attr": "_logical",
+            "name": "判断逻辑",
+            "valueType": "Logical",
+            "defaultValue": "allSatisfy",
+            "dynamicCreate": true
+          },
+          {
+            "attr": "_content",
+            "name": "内容",
+            "valueType": "Object",
+            "defaultValue": {},
+            "dynamicCreate": true
+          },
+          {
+            "attr": "_returnContent",
+            "name": "条件输出内容",
+            "valueType": "Boolean",
+            "defaultValue": false,
+            "description": "勾选时，如果条件逻辑判断成功，将_content的属性值传递出去；不勾选（默认）时，_content属性值不会对外传递。",
+            "dynamicCreate": true
+          }
+        ],
+        "inputs": [],
+        "exec": false,
+        "output": false,
+        "bindEvents": [
+          "*",
+          "convertor"
+        ],
+        "_bindEvents_0-list": [
+          "*",
+          "convertor"
+        ],
+        "_logical": "allDissatisfy",
+        "resetAfterInput": true,
+        "noteTips": "如果查询0条（空的）"
+      }
+    },
+    {
+      "c": "ht.Edge",
+      "i": 26850,
+      "p": {
+        "name": "edge",
+        "displayName": "0（edge4）",
+        "toolTip": "<div id=\"config_tooltip\" style=\"font-size:12px;line-height:1.75em;letter-spacing:1px\">\n                                                        关联绑定信息：<br>\n                                                        <li style=\"list-style-type:disc;color:rgba(255,255,255,0.5);\">索引序号：0 | 总共1条</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold;\">操作属性：exec@func6</li>\n                                                        <li style=\"list-style-type:none;color:rgba(255,255,255,0.5)\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;当前值：false</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold\">关联属性：output@func8'</li>\n                                                        <li style=\"list-style-type:none;color:rgba(255,255,255,0.5)\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;关联值：10</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold;\">解析赋值：null</li>\n                                                    </div>",
+        "parent": {
+          "__i": 26849
+        },
+        "tag": "edge4",
+        "source": {
+          "__i": 26849
+        },
+        "target": {
+          "__i": 26846
+        }
+      },
+      "s": {
+        "label": "",
+        "edge.color": "#43966A",
+        "edge.type": "flex",
+        "edge.gap": 16,
+        "edge.width.absolute": true,
+        "note.border.width": 0,
+        "note.position": 7,
+        "note.opacity": 0.85,
+        "note.background": "#43966A",
+        "note.offset.x": 0,
+        "note.offset.y": 0,
+        "icons": {
+          "symbols/demo/extra/basic/fromArrow2.json": {
+            "position": 15,
+            "keepOrien": true,
+            "names": [
+              "symbols/demo/extra/basic/fromArrow2.json"
+            ]
+          },
+          "symbols/demo/extra/basic/toArrow.json": {
+            "position": 19,
+            "keepOrien": true,
+            "width": 50,
+            "height": 20,
+            "names": [
+              "symbols/demo/extra/basic/toArrow.json"
+            ]
+          }
+        },
+        "note": 0,
+        "interactive": true,
+        "image.stretch": "uniform"
+      },
+      "a": {
+        "index": 0,
+        "toolTipRaw": "<div id=\"config_tooltip\" style=\"font-size:12px;line-height:1.75em;letter-spacing:1px\">\n                                                        关联绑定信息：<br>\n                                                        <li style=\"list-style-type:disc;color:rgba(255,255,255,0.5);\">索引序号：0 | 总共1条</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold;\">操作属性：exec@func6</li>\n                                                        <li style=\"list-style-type:none;color:rgba(255,255,255,0.5)\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;当前值：false</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold\">关联属性：output@func8'</li>\n                                                        <li style=\"list-style-type:none;color:rgba(255,255,255,0.5)\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;关联值：10</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold;\">解析赋值：null</li>\n                                                    </div>"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 26851,
+      "p": {
+        "name": "func",
+        "displayName": "工具函数（paramValues）",
+        "toolTip": "获取组件属性值<br>formValues",
+        "tag": "paramValues",
+        "dataBindings": {
+          "a": {
+            "userData": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "output": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "inputs": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "__ht__function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}",
+              "alias": ""
+            },
+            "exec": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "arrExec": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "_rawForm": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "_bindEvents_0": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "_bindEvents_1": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            }
+          }
+        },
+        "image": {
+          "modified": "Tue Sep 26 2023 16:47:49 GMT+0800 (中国标准时间)",
+          "background": "rgb(32,37,46)",
+          "dataBindings": [
+            {
+              "attr": "symbol",
+              "valueType": "Image",
+              "name": "组件地址"
+            },
+            {
+              "attr": "color",
+              "valueType": "Color",
+              "defaultValue": "rgb(51,153,255)",
+              "description": "图标颜色。\n<br>包括显示文字。",
+              "group": "功能（关键）",
+              "name": "图标颜色"
+            },
+            {
+              "attr": "function",
+              "valueType": "ToolFunction",
+              "defaultValue": "transfer",
+              "name": "功能选项",
+              "description": "函数选择 → 获取组件表单属性（formValue）。                                                            <br>通过连线操作，可以获取其他一个或多个组件的指定属性值。                                                            <br>连线方式跟常规的没有任何区别：反向关联属性时，是获取                                                            <br>指定属性的值；没有选择反向关联是获取表单对象；有设置                                                            <br>数组索引时，是获取到属性值填充到数组指定索引位置。                                                            <br>主要用于多层嵌套或者不带事件连线的图形组件（比如矩形、                                                            <br>不规则图形等），对嵌套的容器获取其暴露过来的属性值。"
+            },
+            {
+              "attr": "noteTips",
+              "valueType": "Multiline",
+              "name": "文字显示注释",
+              "description": "简短文字注释。\n<br>默认为函数名称，可以修改，方便理解具体用途。\n<br>通常结合“提示”属性，整体来注释当前的操作。"
+            },
+            {
+              "attr": "exeWhenInput",
+              "valueType": "Boolean",
+              "defaultValue": false,
+              "name": "输入赋值时执行"
+            },
+            {
+              "attr": "resetAfterInput",
+              "valueType": "Boolean",
+              "name": "输入赋值后清空",
+              "description": "勾选后，每次输入值有更新，在触发下一步（如果有勾选输入时执行）后，同时复位清空输入属性\n的值，确保下一次再输入同样内容时也能按照变化处理触发执行。注意，再多条连线操作inputs输入\n的不同索引index时，该属性不能勾选，否则无法实现多个值连线（异步先后）赋值传入。",
+              "defaultValue": false
+            },
+            {
+              "attr": "inputsArrToObj",
+              "valueType": "Boolean",
+              "name": "输入数组转对象",
+              "description": "是否切换成对象格式。\n<br>输入组（inputs）默认为数组格式，当前属性勾选时\n<br>会将输入组切换成非数组的对象格式，再次取消勾选\n<br>时，会恢复成数组格式。\n<br>\n切换成对象，主要是为了连线操作时，能对初始的非\n<br>数组属性值进行操作，这对于数组取自身索引值对外\n<br>赋值时有用，否则会因为操作数组类型属性值，导致\n<br>被识别为操作目标数组的索引进行赋值。"
+            },
+            {
+              "attr": "exeWhenLoad",
+              "valueType": "Boolean",
+              "defaultValue": false,
+              "name": "组件加载时执行"
+            },
+            {
+              "attr": "oldValueMerge",
+              "valueType": "Boolean",
+              "defaultValue": false,
+              "name": "输出合并非覆盖",
+              "description": "对被操作的属性值做追加而不是覆盖替换。\n<br>被操作属性值作为旧值，按照值类型（数值、字符串、数组、对象等）追加分为以下\n<br>情况：\n<br>1）如果被赋值的（要操作的旧值）为数组类型，通常会将当前值追加过去而不是覆盖；\n<br>工具函数的输入组（inputs）属性例外，在旧值为空数组或者长度为1的数组时，会被当\n<br>做空值或者以唯一哪个元素的值作为当前的旧值，不当做数组类型的操作来追加。\n<br>2）被赋值的为空（注意，并非0、空字符串等\"空\"值）时，输入（组）中一个或多个输\n<br>入项，会合并成一个值输出。其中，合并取决于输入组的类型（输入组多个值中类型数\n<br>量最多的被认为是当前输入组的值类型），具体如下:\n<br>    ■ 数字：输入组各项强制转换成数值并相加，将结果输出；\n<br>    ■ 字符串：输入组各项转成字符串依次拼接形成新的字符串输出；\n<br>    ■ 布尔型：输入组的各项转换成布尔然后做并集（或）后逻辑结果输出；\n<br>    ■ 对象：输入组各项被当成对象，然后字段合并成新对象后输出；\n<br>强制转换这里需注意：\n<br>    ■ 非空字符串转数值时，除了\"true\"（大小写均可）会作为1，其他字符串会作为0；\n<br>3）被赋值的不为空，有具体类型时，比如数字、字符串、布尔、对象类型，此时输入\n<br>组各项值，不再按照类型的多数（如果存在多个输入项）来强制转换少数输入项，而是\n<br>统一按照操作赋值的旧值类型，来转换输入的各项，并且按照类型类自动选择合适的合\n<br>并方式（如上），生成结果来赋值。\n<br>    ○ 注意1：多项输入和旧值会参与一起做合并操作，并非仅仅输入组的各项之间进行。\n<br>    ○ 注意2：如果输入值并非数组，会作当成输入组且元素个数为1的情况来处理。"
+            },
+            {
+              "attr": "inputs",
+              "valueType": "ObjectArray",
+              "name": "输入（组）",
+              "defaultValue": [],
+              "description": "用于接收函数参数输入，默认为数组格式，可以设置多个入参。\n<br>外部可以多条连线操作该属性，利用数组操作特性，在各自的连线操作\n<br>中bindControlsVal中设置对应的索引值，用来指定传入输入数组中指定\n<br>值，实现多参数传入。\n<br>\n注意，对于透明传递不做任何业务逻辑处理时，默认会将输入组的值直接输\n<br>出，默认以空（undefined）对外操作赋值，通常用于对外清空值。\n<br>此外，输入组长度为1时，将去掉数组后以元素本身值对外输出，比如\n<br>[1]、['hello']、[true]，['']会被当做1、'hello'、true、''输出。长度大于1的\n<br>输入组，对外输出则是正常的数组值。"
+            },
+            {
+              "attr": "_rawForm",
+              "valueType": "Boolean",
+              "defaultValue": false,
+              "description": "原始属性表单。                    <br>包含所有做了form、formReset、formValue绑定的属性。",
+              "dynamicCreate": true
+            },
+            {
+              "attr": "delay",
+              "valueType": "PositiveNumber",
+              "defaultValue": 0,
+              "name": "延时执行毫秒"
+            },
+            {
+              "attr": "exec",
+              "valueType": "Boolean",
+              "defaultValue": false,
+              "name": "执行"
+            },
+            {
+              "attr": "arrExec",
+              "valueType": "Boolean",
+              "defaultValue": false,
+              "name": "遍历执行",
+              "description": "准输出值如果是数组时，自动拆成多个元素，依次对外触发。\n<br>相当于在连线静态值bindControlsVal中依次填入从0到n-1后，\n<br>再点击常规“执行”。\n<br>对于透明传递而言，通常输出就等于输入，因此也相当于将\n<br>输入的多个参数（数组元素），依次填入再触发执行。\n<br>"
+            },
+            {
+              "attr": "whenOutputing",
+              "valueType": "MultiComboBox",
+              "name": "whenOutputing"
+            },
+            {
+              "attr": "changeOutputTo",
+              "valueType": "MultiComboBox",
+              "extraInfo": {
+                "enum": {
+                  "values": [
+                    "不转换",
+                    "空对象（null）",
+                    "未定义（undefined）",
+                    "空字符串（\"\"）",
+                    "否（false）",
+                    "等于零（0）"
+                  ]
+                }
+              },
+              "defaultValue": "不转换",
+              "name": "changeOutputTo"
+            },
+            {
+              "attr": "output",
+              "valueType": "Object",
+              "name": "输出"
+            },
+            {
+              "attr": "bindControlsTag",
+              "valueType": "StringArray",
+              "group": "bindControls"
+            },
+            {
+              "attr": "bindControlsAttr",
+              "valueType": "StringArray"
+            },
+            {
+              "attr": "bindControlsVal",
+              "valueType": "ObjectArray",
+              "description": "静态值。也用作数组索引、JSON对象解析提取值用途。\n<br>一、静态值用途：\n<br>对常规类型的属性赋值且没有反向关联属性值，传入为数值时，不\n<br>会作为数组的索引，而会当成常量值对外赋值。此外，存在特殊值：\n<br>~和undefined表示过滤、不触发；null为默认值，表示传递默认表\n<br>单数据。编辑状态下清空后保存与设置null等价。\n<br>二、数组索引用途\n<br>情况1：被操作的组件属性原先值是数组时（包括空数组），会将\n<br>待输出的值作为被操作数组指定索引的值来传入，而不是整体覆盖。\n<br>情况2：如果要被操作的组件属性原先值不是数组，而且待输出的\n<br>值为数组类型并且长度也在索引范围内，那么会按照索引取自身数\n<br>组指定元素再对外输出。（如果想要取待输出索引值，赋值给被操\n<br>纵属性的指定索引，那么需要中间组件属性连线过渡以下，无法直\n<br>接操作）\n<br>情况3：如果要被操作的组件属性是数组，而且待输出的值也是数组\n<br>类型，此时当情况1来处理。\n<br>三、数据解析用途：\n<br>待输出的值为JSON对象时，用x.y.z这种以字符.或者>为间隔的方式\n<br>实现对JSON字段层次逐层定位，当是数组时x.0.y.1这种以数字的方\n<br>式来指定数组的某个索引。以此实现对任意结果JSON对象字段的定\n<br>位，获取结构内指定字段对应的值。"
+            },
+            {
+              "attr": "paramControlTag",
+              "valueType": "StringArray"
+            },
+            {
+              "attr": "paramControlAttr",
+              "valueType": "StringArray"
+            },
+            {
+              "attr": "paramsGenerator",
+              "valueType": "Function",
+              "defaultValue": "__ht__function(data, val, index, node, oldVal, form, type, inner) {//绑定组索引对应的函数处理，用来动态生成复杂的参数变量传入\r\nswitch(index){\r\n    case 0:\r\n        break;\r\n    case 1:\r\n        break;\r\n    case 2:\r\n        break;\r\n    default:\r\n        break;\r\n}\r\n\r\nreturn val;}",
+              "extraInfo": {
+                "arguments": [
+                  "data",
+                  "val",
+                  "index",
+                  "node",
+                  "oldVal",
+                  "form",
+                  "type",
+                  "inner"
+                ]
+              }
+            },
+            {
+              "attr": "userData",
+              "valueType": "ObjectArray",
+              "defaultValue": [],
+              "description": "用户数据。"
+            }
+          ],
+          "renderHTML": "__ht__function(data, gv, cache) {return __convertor(data,gv,cache);}",
+          "width": 45,
+          "height": 45,
+          "comps": [
+            {
+              "type": "image",
+              "color": {
+                "func": "__ht__function(data, view) {\nlet color = data.ca('color');\r\ndata.s('label.color',color);\r\nreturn color;\n}",
+                "value": "rgb(51,153,255)"
+              },
+              "name": "symbols/develop/uiotos/icons/editroToolBar/function.json",
+              "shadowColor": "rgb(61,61,61)",
+              "displayName": "node_image",
+              "rect": [
+                0.53882,
+                1.04528,
+                43.92236,
+                42.90945
+              ]
+            }
+          ],
+          "uuid": "C1DA0921-451D-4FA2-8A23-88664E6AE4E3"
+        },
+        "position": {
+          "x": 1409.81459,
+          "y": 49.55862
+        }
+      },
+      "s": {
+        "label.position": 2,
+        "label.offset.y": 0,
+        "interactive": true,
+        "image.stretch": "uniform",
+        "2d.editable": false,
+        "select.width": 0.5,
+        "select.type": "roundRect",
+        "select.color": "rgb(124,145,155)",
+        "label": "获取组件属性值。",
+        "label.font": "26px Microsoft YaHei",
+        "label.color": "rgb(51,153,255)",
+        "fullscreen.gap": 0,
+        "note.font": "22px arial, sans-serif",
+        "note.color": "rgb(212,0,0)",
+        "note.background": "rgb(255,235,195)",
+        "note.position": 3,
+        "note.offset.x": 0,
+        "note.offset.y": -5,
+        "note.border.width": 10,
+        "note.border.color": "rgb(255,235,195)",
+        "note.opacity": 0,
+        "note.align": "left",
+        "note": "[func8] 您是否忘记勾选“输入时执行（exeWhenInput）\n”属性，或者需要连线操作执行属性，避免函数无法触发\n执行。                                            ",
+        "label.align": "left"
+      },
+      "a": {
+        "toolTipRaw": "获取组件属性值<br>formValues",
+        "输出遇到空值": "全部（*）",
+        "输出遇到空值-list": [
+          "全部（*）",
+          "空对象（null）",
+          "未定义（undefined）",
+          "空字符串（\"\"）",
+          "否（false）",
+          "等于零（0）",
+          "小于零（<0）",
+          "NaN"
+        ],
+        "arrExec": false,
+        "function": "formValues",
+        "symbol": "symbols/develop/uiotos/base/__convertor.json",
+        "oldDynamicAttrs": [
+          {
+            "attr": "_bindEvents_0",
+            "valueType": "MultiComboBox",
+            "defaultValue": "*",
+            "group": "bindEvents",
+            "description": "连线索引[0]的触发事件过滤器，默认全部通过",
+            "dynamicCreate": true
+          },
+          {
+            "attr": "_bindEvents_1",
+            "valueType": "MultiComboBox",
+            "defaultValue": "*",
+            "group": "bindEvents",
+            "description": "连线索引[1]的触发事件过滤器，默认全部通过",
+            "dynamicCreate": true
+          },
+          {
+            "attr": "_bindEvents_2",
+            "valueType": "MultiComboBox",
+            "defaultValue": "*",
+            "group": "bindEvents",
+            "description": "连线索引[2]的触发事件过滤器，默认全部通过",
+            "dynamicCreate": true
+          },
+          {
+            "attr": "_rawForm",
+            "valueType": "Boolean",
+            "defaultValue": false,
+            "description": "原始属性表单。                    <br>包含所有做了form、formReset、formValue绑定的属性。",
+            "dynamicCreate": true
+          }
+        ],
+        "paramControlTag": [
+          null,
+          null
+        ],
+        "paramControlAttr": [
+          "output",
+          "output"
+        ],
+        "bindControlsTag": [
+          "api1",
+          "api1"
+        ],
+        "bindControlsAttr": [
+          "paramValues",
+          "requesting"
+        ],
+        "bindControlsVal": [
+          null,
+          null
+        ],
+        "paramBindEvent": [],
+        "bindEvents": [
+          "*",
+          "paramsGenerator",
+          "convertor"
+        ],
+        "exec": false,
+        "output": [
+          "",
+          "",
+          1,
+          1,
+          10
+        ],
+        "noteTips": "获取组件属性值。",
+        "exeWhenInput": false,
+        "oldValueMerge": false,
+        "inputs": [
+          "",
+          "",
+          1,
+          100
+        ],
+        "_bindEvents_0-list": [
+          "*",
+          "paramsGenerator",
+          "convertor"
+        ],
+        "_bindEvents_1-list": [
+          "*",
+          "paramsGenerator",
+          "convertor"
+        ]
+      }
+    },
+    {
+      "c": "ht.Edge",
+      "i": 26852,
+      "p": {
+        "name": "edge",
+        "displayName": "0（edge5）",
+        "toolTip": "<div id=\"config_tooltip\" style=\"font-size:12px;line-height:1.75em;letter-spacing:1px\">\n                                                        关联绑定信息：<br>\n                                                        <li style=\"list-style-type:disc;color:rgba(255,255,255,0.5);\">索引序号：0 | 总共2条</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold;\">操作属性：paramValues@api1</li>\n                                                        <li style=\"list-style-type:none;color:rgba(255,255,255,0.5)\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;当前值：,,1,100</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold\">关联属性：output@func5</li>\n                                                        <li style=\"list-style-type:none;color:rgba(255,255,255,0.5)\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;关联值：,,1,...</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold;\">解析赋值：null</li>\n                                                    </div>",
+        "parent": {
+          "__i": 26851
+        },
+        "tag": "edge5",
+        "source": {
+          "__i": 26851
+        },
+        "target": {
+          "__i": 26841
+        }
+      },
+      "s": {
+        "label": "",
+        "edge.color": "#9FBBDA",
+        "edge.type": "ortho",
+        "edge.gap": 16,
+        "edge.width.absolute": true,
+        "note.border.width": 0,
+        "note.position": 7,
+        "note.opacity": 0.85,
+        "note.background": "#9FBBDA",
+        "note.offset.x": 0,
+        "note.offset.y": 0,
+        "icons": {
+          "symbols/demo/extra/basic/fromArrow2.json": {
+            "position": 15,
+            "keepOrien": true,
+            "names": [
+              "symbols/demo/extra/basic/fromArrow2.json"
+            ]
+          },
+          "symbols/demo/extra/basic/toArrow.json": {
+            "position": 19,
+            "keepOrien": true,
+            "width": 50,
+            "height": 20,
+            "names": [
+              "symbols/demo/extra/basic/toArrow.json"
+            ]
+          }
+        },
+        "note": 0,
+        "label.position": 3,
+        "interactive": true,
+        "image.stretch": "uniform",
+        "edge.ripple.size": 2,
+        "edge.ripple.length": 0,
+        "edge.ripple.elevation": 100,
+        "edge.ripple.both": true
+      },
+      "a": {
+        "index": 0,
+        "toolTipRaw": "<div id=\"config_tooltip\" style=\"font-size:12px;line-height:1.75em;letter-spacing:1px\">\n                                                        关联绑定信息：<br>\n                                                        <li style=\"list-style-type:disc;color:rgba(255,255,255,0.5);\">索引序号：0 | 总共2条</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold;\">操作属性：paramValues@api1</li>\n                                                        <li style=\"list-style-type:none;color:rgba(255,255,255,0.5)\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;当前值：,,1,100</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold\">关联属性：output@func5</li>\n                                                        <li style=\"list-style-type:none;color:rgba(255,255,255,0.5)\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;关联值：,,1,...</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold;\">解析赋值：null</li>\n                                                    </div>"
+      }
+    },
+    {
+      "c": "ht.Edge",
+      "i": 26853,
+      "p": {
+        "name": "edge",
+        "displayName": "1（edge6）",
+        "toolTip": "<div id=\"config_tooltip\" style=\"font-size:12px;line-height:1.75em;letter-spacing:1px\">\n                                                        关联绑定信息：<br>\n                                                        <li style=\"list-style-type:disc;color:rgba(255,255,255,0.5);\">索引序号：1 | 总共2条</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold;\">操作属性：requesting@api1</li>\n                                                        <li style=\"list-style-type:none;color:rgba(255,255,255,0.5)\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;当前值：false</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold\">关联属性：output@func5</li>\n                                                        <li style=\"list-style-type:none;color:rgba(255,255,255,0.5)\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;关联值：,,1,...</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold;\">解析赋值：null</li>\n                                                    </div>",
+        "parent": {
+          "__i": 26851
+        },
+        "tag": "edge6",
+        "source": {
+          "__i": 26851
+        },
+        "target": {
+          "__i": 26841
+        }
+      },
+      "s": {
+        "label": "",
+        "edge.color": "#664B23",
+        "edge.type": "ortho",
+        "edge.gap": 16,
+        "edge.width.absolute": true,
+        "note.border.width": 0,
+        "note.position": 7,
+        "note.opacity": 0.85,
+        "note.background": "#664B23",
+        "note.offset.x": 0,
+        "note.offset.y": 0,
+        "icons": {
+          "symbols/demo/extra/basic/fromArrow2.json": {
+            "position": 15,
+            "keepOrien": true,
+            "names": [
+              "symbols/demo/extra/basic/fromArrow2.json"
+            ]
+          },
+          "symbols/demo/extra/basic/toArrow.json": {
+            "position": 19,
+            "keepOrien": true,
+            "width": 50,
+            "height": 20,
+            "names": [
+              "symbols/demo/extra/basic/toArrow.json"
+            ]
+          }
+        },
+        "note": 1,
+        "label.position": 21,
+        "interactive": true,
+        "image.stretch": "uniform",
+        "edge.ripple.size": 2,
+        "edge.ripple.length": 0,
+        "edge.ripple.elevation": 100,
+        "edge.ripple.both": true,
+        "edge.independent": true
+      },
+      "a": {
+        "index": 1,
+        "toolTipRaw": "<div id=\"config_tooltip\" style=\"font-size:12px;line-height:1.75em;letter-spacing:1px\">\n                                                        关联绑定信息：<br>\n                                                        <li style=\"list-style-type:disc;color:rgba(255,255,255,0.5);\">索引序号：1 | 总共2条</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold;\">操作属性：requesting@api1</li>\n                                                        <li style=\"list-style-type:none;color:rgba(255,255,255,0.5)\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;当前值：false</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold\">关联属性：output@func5</li>\n                                                        <li style=\"list-style-type:none;color:rgba(255,255,255,0.5)\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;关联值：,,1,...</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold;\">解析赋值：null</li>\n                                                    </div>"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 26854,
+      "p": {
+        "name": "cbox",
+        "displayName": "下拉框（输出）",
+        "tag": "输出",
+        "dataBindings": {
+          "a": {
+            "datas": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "value": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "onChange": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "onOpened": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "defaultIndex": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "selectedID": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "selectedText": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "open": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "readOnly": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "disabled": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            }
+          }
+        },
+        "image": "symbols/develop/uiotos/base/combobox-ui.json",
+        "position": {
+          "x": 1820.45388,
+          "y": 637.82673
+        },
+        "height": 35
+      },
+      "s": {
+        "label.opacity": 0,
+        "label": "下拉框",
+        "label.position": 14,
+        "label.offset.x": -10,
+        "label.offset.y": 0,
+        "label.color": "rgb(61,61,61)",
+        "interactive": true,
+        "image.stretch": "uniform"
+      },
+      "a": {
+        "bindEvents": [
+          "*",
+          "onClick",
+          "onChange",
+          "onOpened",
+          "onEmpty"
+        ],
+        "value": "",
+        "selectedID": "Button",
+        "selectedText": "Button",
+        "gap": 0,
+        "datas": []
+      }
+    }
+  ],
+  "modified": "Mon Nov 06 2023 21:52:22 GMT+0800 (中国标准时间)",
+  "contentRect": {
+    "x": 1132.1515,
+    "y": -296.09265,
+    "width": 1331.77979,
+    "height": 951.41938
+  }
+}

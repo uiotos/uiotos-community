@@ -1,0 +1,140 @@
+{
+  "modified": "Tue Mar 05 2019 14:48:32 GMT+0800 (中国标准时间)",
+  "width": 100,
+  "height": 38,
+  "snapshotURL": "symbols/ht/snapshot/button.json",
+  "func": "__ht__function(g, rect, comp, data, view) {\nht.vector.comp.button(g, rect, comp, data, view);\n}",
+  "properties": {
+    "text": {
+      "valueType": "String",
+      "name": "UIText"
+    },
+    "disabled": {
+      "valueType": "Boolean",
+      "defaultValue": false,
+      "name": "UIDisabled"
+    },
+    "font": {
+      "valueType": "Font",
+      "defaultValue": "12px arial, sans-serif",
+      "name": "UIFont"
+    },
+    "icon": {
+      "valueType": "String",
+      "name": "UIIcon"
+    },
+    "iconPosition": {
+      "valueType": "Orientation",
+      "defaultValue": "left",
+      "name": "UIIconPosition"
+    },
+    "iconWidth": {
+      "valueType": "PositiveNumber",
+      "defaultValue": 20,
+      "name": "UIIconWidth"
+    },
+    "iconHeight": {
+      "valueType": "PositiveNumber",
+      "defaultValue": 20,
+      "name": "UIIconHeight"
+    },
+    "iconGap": {
+      "valueType": "PositiveNumber",
+      "defaultValue": 0,
+      "name": "UIIconGap"
+    },
+    "iconColor": {
+      "valueType": "Color",
+      "name": "UIIconColor"
+    },
+    "hoverIconColor": {
+      "valueType": "Color",
+      "name": "UIHoverIconColor"
+    },
+    "activeIconColor": {
+      "valueType": "Color",
+      "name": "UIActiveIconColor"
+    },
+    "textColor": {
+      "valueType": "Color",
+      "defaultValue": "rgb(61,61,61)",
+      "name": "UITextColor"
+    },
+    "hoverTextColor": {
+      "valueType": "Color",
+      "name": "UIHoverTextColor"
+    },
+    "activeTextColor": {
+      "valueType": "Color",
+      "name": "UIActiveTextColor"
+    },
+    "disabledTextColor": {
+      "valueType": "Color",
+      "defaultValue": "#ebebeb",
+      "name": "UIDisabledTextColor"
+    },
+    "borderWidth": {
+      "valueType": "PositiveNumber",
+      "defaultValue": 0,
+      "name": "UIBorderWidth"
+    },
+    "borderColor": {
+      "valueType": "Color",
+      "defaultValue": "#737373",
+      "name": "UIBorderColor"
+    },
+    "hoverBorderColor": {
+      "valueType": "Color",
+      "name": "UIHoverBorderColor"
+    },
+    "activeBorderColor": {
+      "valueType": "Color",
+      "name": "UIActiveBorderColor"
+    },
+    "disabledBorderColor": {
+      "valueType": "Color",
+      "defaultValue": "#ebebeb",
+      "name": "UIDisabledBorderColor"
+    },
+    "background": {
+      "valueType": "Color",
+      "defaultValue": "rgb(51,153,255)",
+      "name": "UIBackground"
+    },
+    "hoverBackground": {
+      "valueType": "Color",
+      "name": "UIHoverBackground"
+    },
+    "activeBackground": {
+      "valueType": "Color",
+      "name": "UIActiveBackground"
+    },
+    "disabledBackground": {
+      "valueType": "Color",
+      "defaultValue": "#fafafa",
+      "name": "UIDisabledBackground"
+    },
+    "borderRadius": {
+      "valueType": "String",
+      "defaultValue": "0",
+      "name": "UIBorderRadius"
+    },
+    "handleClick": {
+      "valueType": "Function",
+      "name": "UIOnClick",
+      "extraInfo": {
+        "arguments": [
+          "event",
+          "data",
+          "view"
+        ]
+      }
+    }
+  },
+  "events": {
+    "onDown": "__ht__function(event, data, view, point, width, height) {\nht.vector.buttonInteractor.onDown.apply(this, arguments);\n}",
+    "onUp": "__ht__function(event, data, view, point, width, height) {\nht.vector.buttonInteractor.onUp.apply(this, arguments);\n}",
+    "onEnter": "__ht__function(event, data, view, point, width, height) {\nht.vector.buttonInteractor.onEnter.apply(this, arguments);\n}",
+    "onLeave": "__ht__function(event, data, view, point, width, height) {\nht.vector.buttonInteractor.onLeave.apply(this, arguments);\n}"
+  }
+}

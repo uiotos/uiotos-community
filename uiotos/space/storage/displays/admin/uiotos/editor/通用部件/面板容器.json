@@ -1,0 +1,120 @@
+{
+  "v": "7.7.2",
+  "p": {
+    "background": "#20252e",
+    "autoAdjustIndex": true,
+    "hierarchicalRendering": true
+  },
+  "a": {
+    "rotateAsClock": false,
+    "gridBlockSize": 20,
+    "connectActionType": null,
+    "fitContent": false,
+    "zoomable": false,
+    "rectSelectable": false,
+    "pannable": false
+  },
+  "d": [
+    {
+      "c": "ht.Node",
+      "i": 25255,
+      "p": {
+        "name": "投影",
+        "displayName": "投影（投影1）",
+        "tag": "投影1",
+        "dataBindings": {
+          "a": {
+            "background": {
+              "id": "iotos.form",
+              "alias": "",
+              "func": "__ht__function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        console.error(err);\r\n        return rawData;\r\n    }\r\n}",
+              "idinfo": "",
+              "isTplBinded": false
+            }
+          }
+        },
+        "image": "symbols/admin/uiotos/icons/common/投影.json",
+        "position": {
+          "x": 105.45045,
+          "y": 65.82219
+        },
+        "width": 230,
+        "height": 123.13173
+      },
+      "s": {
+        "interactive": true,
+        "image.stretch": "uniform",
+        "label.position": 14,
+        "label.offset.x": -10,
+        "label.offset.y": 0,
+        "label.color": "rgb(61,61,61)",
+        "label.opacity": 0,
+        "fullscreen": "fill",
+        "fullscreen.gap": 0
+      },
+      "a": {
+        "shadowblur": 5,
+        "scale": 0.98,
+        "shadowOffsetYs": 5,
+        "shadowColor": "rgba(0,0,0,0.10)",
+        "background": "rgb(247,247,247)"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 25256,
+      "p": {
+        "name": "gv",
+        "displayName": "嵌套容器（gv1）",
+        "toolTip": "<p style='color:rgb(242,83,75);margin:0px;font-weight:bold'>已被布局，不允许拖动<p>",
+        "tag": "gv1",
+        "dataBindings": {
+          "a": {
+            "display": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "__ht__function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        console.error(err);\r\n        return rawData;\r\n    }\r\n}",
+              "alias": ""
+            }
+          }
+        },
+        "image": "symbols/develop/uiotos/base/graphView.json",
+        "host": {
+          "__i": 25255
+        },
+        "position": {
+          "x": 108.71586,
+          "y": 64.88744
+        },
+        "width": 188.25991,
+        "height": 86.2343
+      },
+      "s": {
+        "label.opacity": 0,
+        "label.position": 14,
+        "label.offset.x": -10,
+        "label.offset.y": 0,
+        "label.color": "rgb(61,61,61)",
+        "interactive": true,
+        "image.stretch": "uniform",
+        "2d.movable": false,
+        "layout.h": "leftright",
+        "layout.v": "topbottom"
+      },
+      "a": {
+        "shadowEnabled": false,
+        "innerBackground": "rgb(255,255,255)",
+        "display": "",
+        "toolTipRaw": "<p style='color:rgb(242,83,75);margin:0px;font-weight:bold'>已被布局，不允许拖动<p>"
+      }
+    }
+  ],
+  "modified": "Sun Oct 08 2023 19:37:48 GMT+0800 (中国标准时间)",
+  "contentRect": {
+    "x": -47.54955,
+    "y": 4.25633,
+    "width": 268,
+    "height": 123.13173
+  }
+}

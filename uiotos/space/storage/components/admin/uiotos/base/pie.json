@@ -1,0 +1,92 @@
+{
+  "modified": "Tue Jan 15 2019 10:42:17 GMT+0800 (中国标准时间)",
+  "width": 300,
+  "height": 300,
+  "snapshotURL": "",
+  "func": "__ht__function(g, rect, comp, data, view) {\nht.vector.comp.pie.apply(null, arguments);\n}",
+  "properties": {
+    "pieData": {
+      "valueType": "ObjectArray",
+      "defaultValue": [
+        {
+          "name": "pie",
+          "value": 1
+        }
+      ],
+      "name": "饼图数据"
+    },
+    "radius": {
+      "valueType": "StringArray",
+      "defaultValue": [
+        0,
+        "25%"
+      ],
+      "name": "饼图半径"
+    },
+    "center": {
+      "valueType": "StringArray",
+      "defaultValue": [
+        "50%",
+        "50%"
+      ],
+      "name": "饼图圆心"
+    },
+    "startAngle": {
+      "valueType": "PositiveNumber",
+      "defaultValue": 90,
+      "name": "起始角度"
+    },
+    "labelLine": {
+      "valueType": "Object",
+      "defaultValue": {
+        "normal": {
+          "show": true
+        },
+        "emphasis": {
+          "show": false
+        }
+      },
+      "name": "视觉引导线"
+    },
+    "roseType": {
+      "valueType": "Boolean",
+      "defaultValue": false,
+      "name": "南丁格尔图"
+    },
+    "label": {
+      "valueType": "Object",
+      "defaultValue": {
+        "normal": {
+          "show": true
+        },
+        "emphasis": {
+          "show": false
+        }
+      },
+      "name": "文本标签"
+    },
+    "seriesName": {
+      "valueType": "String",
+      "defaultValue": "饼图系列名",
+      "name": "饼图系列名"
+    },
+    "hoverOffset": {
+      "valueType": "PositiveNumber",
+      "defaultValue": 4,
+      "name": "高亮扇区偏移距离"
+    },
+    "tooltip": {
+      "valueType": "Object",
+      "defaultValue": {
+        "show": true,
+        "formatter": ""
+      },
+      "name": "提示框组件"
+    },
+    "avoidLabelOverlap": {
+      "valueType": "Boolean",
+      "defaultValue": false,
+      "name": "标签防重叠"
+    }
+  }
+}

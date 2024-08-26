@@ -1,0 +1,48 @@
+{
+    "v": "7.3.3",
+    "p": {
+        "autoAdjustIndex": true,
+        "hierarchicalRendering": false
+    },
+    "d": [{
+        "c": "ht.Node",
+        "i": 7137,
+        "p": {
+            "displayName": "title",
+            "toolTip": "浅灰色，线宽1",
+            "tag": "title1",
+            "image": "symbols/develop/uiotos/base/label_ui.json",
+            "position": {
+                "x": 180.30783,
+                "y": -394.73485
+            },
+            "width": 7.70167,
+            "height": 393.87338
+        },
+        "s": {
+            "label.position": 14,
+            "label.offset.x": -10,
+            "label.offset.y": 0,
+            "label.color": "rgb(61,61,61)",
+            "interactive": true,
+            "image.stretch": "uniform",
+            "fullscreen.gap": 0,
+            "fullscreen": "fill"
+        },
+        "a": {
+            "borderLeft": true,
+            "borderDown": false,
+            "borderWidth": 1,
+            "text": "",
+            "borderColor": "rgb(213,213,213)",
+            "borderTop": false,
+            "borderRight": false,
+            "bindControlsTag": [],
+            "bindControlsAttr": [],
+            "bindControlsVal": [],
+            "paramControlTag": [],
+            "paramControlAttr": [],
+            "paramsGenerator": "function paramsGenerator(data, val, index, node, oldVal, form) {\r\n    //绑定组索引对应的函数处理，用来动态生成复杂的参数变量传入\r\n    switch (index) {\r\n        case 0:\r\n            break;\r\n        case 1:\r\n            break;\r\n        case 2:\r\n            break;\r\n        default:\r\n            break;\r\n    }\r\n    return val;\r\n}"
+        }
+    }]
+}

@@ -1,0 +1,27 @@
+{
+  "modified": "Tue Jul 18 2023 08:55:53 GMT+0800 (中国标准时间)",
+  "background": "rgb(226,250,87)",
+  "dataBindings": [
+    {
+      "attr": "datas",
+      "valueType": "Object"
+    }
+  ],
+  "renderHTML": "__ht__function(data, gv, cache) {// if (!cache.control) {\r\n//     function init() {\r\n//         var control = new ht.ui.LinkButton();\r\n//         return control;\r\n//     }\r\n\r\n//     data.dm().md(e => {\r\n//         if (e.data == data) {\r\n//             // //event格式：\r\n//             // {\r\n//             //     property: 'name',//发生变化的属性\r\n//             //     oldValue: 'oldValue',//旧值\r\n//             //     newValue: 'newValue',''新值\r\n//             //     data: data//发生变化的data\r\n//             // }\r\n//             switch (e.property) {\r\n//                 case 'a:test':\r\n//                     alert(123)\r\n//                     console.error(6666666,e.newValue)\r\n//                     break;\r\n//             }\r\n//         }\r\n//     })\r\n\r\n//     var control = cache.control = init()\r\n//     i.layoutHTML(control, data, gv, cache);\r\n// }\r\n// return cache.control;\r\n\r\n\r\n\r\n    // if (!cache.obj) {\r\n    //     function init() {\r\n    //         var dataModel = new ht.DataModel(),\r\n    //             nodeGv = gv,\r\n    //             sidebar = cache.sidebar = new ht.ui.Sidebar(dataModel);\r\n\r\n    //         alert(0)\r\n    //         data.dm().md(e => {\r\n    //             if (e.data == data) {\r\n    //                 switch (e.property) {\r\n    //                     case 'a:datas':\r\n    //                         alert(123)\r\n    //                         console.error(e.newValue)\r\n    //                         break;\r\n    //                 }\r\n    //             }\r\n    //         })\r\n\r\n    //         return sidebar;\r\n    //     }\r\n\r\n    //     var obj = cache.obj = init()\r\n    //     i.layoutHTML(obj, data, gv, cache);\r\n    // }\r\n\r\n    // return cache.obj;\r\n\r\n    return __menuSidebar_center_ui(data,gv,cache);}",
+  "width": 100,
+  "height": 100,
+  "comps": [
+    {
+      "type": "rect",
+      "background": "#D8D8D8",
+      "borderWidth": 1,
+      "borderColor": "#979797",
+      "rect": [
+        0,
+        0,
+        100,
+        100
+      ]
+    }
+  ]
+}

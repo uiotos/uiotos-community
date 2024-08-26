@@ -1,0 +1,52 @@
+{
+  "v": "7.7.1",
+  "p": {
+    "autoAdjustIndex": true,
+    "hierarchicalRendering": false
+  },
+  "d": [
+    {
+      "c": "ht.Node",
+      "i": 133406,
+      "p": {
+        "name": "n",
+        "displayName": "n（n1）",
+        "toolTip": "水平方向",
+        "tag": "n1",
+        "rotation": 1.5708,
+        "position": {
+          "x": 154.60924,
+          "y": 209.80615
+        },
+        "width": 1,
+        "height": 161.81691
+      },
+      "s": {
+        "shape": "rect",
+        "shape.background": "rgba(247,247,247,0)",
+        "shape.border.color": "#979797",
+        "label.position": 16,
+        "label.offset.x": -10,
+        "label.offset.y": 0,
+        "label.color": "rgb(61,61,61)",
+        "interactive": true,
+        "image.stretch": "uniform",
+        "shape.gradient": "spread.vertical",
+        "shape.gradient.color": "rgb(55,125,255)",
+        "fullscreen.gap": 0,
+        "label.opacity": 0,
+        "fullscreen": "fill"
+      },
+      "a": {
+        "toolTipRaw": "矢量矩形版本",
+        "bindControlsTag": [],
+        "bindControlsAttr": [],
+        "bindControlsVal": [],
+        "paramControlTag": [],
+        "paramControlAttr": [],
+        "paramBindEvent": [],
+        "paramsGenerator": "function paramsGenerator(data, val, index, node, oldVal, form) {\r\n    //绑定组索引对应的函数处理，用来动态生成复杂的参数变量传入\r\n    switch (index) {\r\n        case 0:\r\n            break;\r\n        case 1:\r\n            break;\r\n        case 2:\r\n            break;\r\n        default:\r\n            break;\r\n    }\r\n    return val;\r\n}"
+      }
+    }
+  ]
+}

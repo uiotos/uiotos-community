@@ -1,0 +1,2483 @@
+{
+  "v": "8.0.1",
+  "p": {
+    "autoAdjustIndex": true,
+    "hierarchicalRendering": true
+  },
+  "a": {
+    "rotateAsClock": false,
+    "gridBlockSize": 20,
+    "connectActionType": null,
+    "fitContent": false,
+    "zoomable": false,
+    "rectSelectable": false,
+    "pannable": false,
+    "_professional": false
+  },
+  "d": [
+    {
+      "c": "ht.Node",
+      "i": 699573,
+      "p": {
+        "name": "base",
+        "displayName": "底板（_base）",
+        "tag": "_base",
+        "position": {
+          "x": -171.38381,
+          "y": 110.70151
+        },
+        "width": 1610.61299,
+        "height": 847.48655
+      },
+      "s": {
+        "shape": "rect",
+        "shape.background": "white",
+        "fullscreen.gap": 0,
+        "2d.movable": false,
+        "label.opacity": 0,
+        "label.position": 17,
+        "label.color": "rgb(61,61,61)",
+        "fullscreen": "fill"
+      }
+    },
+    {
+      "c": "ht.UNode",
+      "i": 699574,
+      "p": {
+        "name": "bt",
+        "displayName": "普通按钮 v2（bt1）",
+        "toolTip": "<p style='color:rgb(242,83,75);margin-top:5px;margin-bottom:5px;font-weight:bold;line-height:1.5em;'>已被布局，不允许拖动（shift+回车可解除）</p><p style='color:rgb(242,83,75);margin-top:5px;margin-bottom:5px;font-weight:bold;line-height:1.5em;'>已被布局，不允许拖动</p>",
+        "tag": "bt1",
+        "dataBindings": {
+          "a": {
+            "text": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "onFormClick": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "userData": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "display": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "popDirection": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "popBackground": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "popPadding": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "popWidth": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "popHeight": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "popBorderColor": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "popBorderWidth": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "popBorderRadius": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "popTriggerEvent": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "_bindEvents_0": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "_bindEvents_1": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            }
+          }
+        },
+        "image": {
+          "modified": "Sat Aug 24 2024 09:55:19 GMT+0800 (中国标准时间)",
+          "dataBindings": [
+            {
+              "attr": "symbol",
+              "valueType": "Image",
+              "name": "symbol"
+            },
+            {
+              "attr": "disabled",
+              "valueType": "Boolean",
+              "group": "功能",
+              "description": "禁用。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#qa1D8\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+              "extraInfo": "★",
+              "name": "disabled"
+            },
+            {
+              "attr": "bindTabview",
+              "valueType": "StringArray",
+              "defaultValue": [
+                "tab1",
+                0
+              ],
+              "description": "指定关联Tab页签索引。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#KU5sZ\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+              "extraInfo": "★",
+              "name": "bindTabview"
+            },
+            {
+              "attr": "userData",
+              "valueType": "Object",
+              "defaultValue": [],
+              "description": "",
+              "name": "userData"
+            },
+            {
+              "attr": "onFormClick",
+              "valueType": "Function",
+              "extraInfo": {
+                "arguments": [
+                  "data",
+                  "gv",
+                  "cache",
+                  "value",
+                  "extra"
+                ]
+              },
+              "description": "当点击时触发。",
+              "name": "onFormClick"
+            },
+            {
+              "attr": "shadowBorder",
+              "valueType": "NumberArray",
+              "defaultValue": [
+                0,
+                0,
+                8
+              ],
+              "description": "",
+              "extraInfo": "*",
+              "group": "外观",
+              "name": "shadowBorder"
+            },
+            {
+              "attr": "shadowColor",
+              "valueType": "Color",
+              "defaultValue": "rgba(102,102,102,0.2)",
+              "extraInfo": "*",
+              "name": "shadowColor"
+            },
+            {
+              "attr": "shadowEnabled",
+              "valueType": "Boolean",
+              "defaultValue": false,
+              "extraInfo": "*",
+              "name": "shadowEnabled"
+            },
+            {
+              "attr": "fixedHeight",
+              "valueType": "PositiveNumber",
+              "defaultValue": 35,
+              "name": "fixedHeight"
+            },
+            {
+              "attr": "text",
+              "valueType": "Multiline",
+              "defaultValue": "按钮",
+              "description": "按钮上的显示文字。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#pYHyV\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+              "name": "text"
+            },
+            {
+              "attr": "textFont",
+              "valueType": "Font",
+              "defaultValue": "12px sans-serif, Arial",
+              "description": "字体。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#xWX1e\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+              "name": "textFont"
+            },
+            {
+              "attr": "textColor",
+              "valueType": "ColorArray",
+              "defaultValue": [
+                "rgb(255,255,255)",
+                "rgb(255,255,255)",
+                "rgb(255,255,255)",
+                "rgb(200,200,200)"
+              ],
+              "description": "文本颜色。\n<br>索引0、1、2、3分别对应默认、\n<br>悬停/按下/禁用时文字颜色。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#OrIaC\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+              "name": "textColor"
+            },
+            {
+              "attr": "borderWidth",
+              "valueType": "PositiveNumber",
+              "defaultValue": 0,
+              "description": "边框宽度。注意，深色模式时，\n<br>建议边框宽度保持为0。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#qKwAO\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+              "name": "borderWidth"
+            },
+            {
+              "attr": "borderRadius",
+              "valueType": "NumberArray",
+              "defaultValue": [
+                3,
+                3,
+                3,
+                3
+              ],
+              "description": "圆角半径设置。\n<br>索引0、1、2、3的值分别对应按钮组的\n<br>左上角、右上角、右下角、左下角。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#ULolM\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+              "name": "borderRadius"
+            },
+            {
+              "attr": "borderColor",
+              "valueType": "ColorArray",
+              "defaultValue": [
+                "rgb(255,255,255)",
+                "rgb(255,255,255)",
+                "rgb(255,255,255)",
+                "rgb(200,200,200)"
+              ],
+              "description": "边框颜色。\n<br>索引0、1、2、3分别对应默认、悬停、\n<br>按下、禁用时边框颜色。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#c9qog\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+              "name": "borderColor"
+            },
+            {
+              "attr": "background",
+              "valueType": "ColorArray",
+              "defaultValue": [
+                "rgb(55,125,255)",
+                "rgba(55,125,255,0.9)",
+                "rgba(55,125,255,0.8)",
+                "rgb(200,200,200)"
+              ],
+              "description": "背景颜色。\n<br>索引与背景色对应如下：\n<br>0：默认背景色\n<br>1：悬停/划过背景色\n<br>2：按下背景色\n<br>3：禁用背景色。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#D0Nw8\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+              "name": "background"
+            },
+            {
+              "attr": "darkStyle",
+              "valueType": "Boolean",
+              "defaultValue": true,
+              "description": "深色风格。",
+              "name": "darkStyle"
+            },
+            {
+              "attr": "iconPath",
+              "valueType": "Image",
+              "description": "图标路径。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#ZZUHF\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+              "extraInfo": "*",
+              "name": "iconPath"
+            },
+            {
+              "attr": "iconPosition",
+              "valueType": "Orientation",
+              "defaultValue": "left",
+              "description": "图标位置。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#mo7nq\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+              "extraInfo": "*",
+              "name": "iconPosition"
+            },
+            {
+              "attr": "iconSize",
+              "valueType": "NumberArray",
+              "defaultValue": [
+                20,
+                20
+              ],
+              "description": "图标尺寸。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#VwPX7\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+              "extraInfo": "*",
+              "name": "iconSize"
+            },
+            {
+              "attr": "iconGap",
+              "valueType": "PositiveNumber",
+              "defaultValue": 5,
+              "description": "图标与文字间隙。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#fWm2z\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+              "extraInfo": "*",
+              "name": "iconGap"
+            },
+            {
+              "attr": "icon-background",
+              "valueType": "Color",
+              "defaultValue": "rgb(255,255,255)",
+              "description": "图标背景色。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#FgPJe\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+              "extraInfo": "*",
+              "name": "icon-background"
+            },
+            {
+              "attr": "bindControlsTag",
+              "valueType": "StringArray",
+              "group": "连线",
+              "name": "bindControlsTag"
+            },
+            {
+              "attr": "bindControlsAttr",
+              "valueType": "StringArray",
+              "name": "bindControlsAttr"
+            },
+            {
+              "attr": "bindControlsVal",
+              "valueType": "ObjectArray",
+              "description": "",
+              "name": "bindControlsVal"
+            },
+            {
+              "attr": "paramControlTag",
+              "valueType": "StringArray",
+              "name": "paramControlTag"
+            },
+            {
+              "attr": "paramControlAttr",
+              "valueType": "StringArray",
+              "name": "paramControlAttr"
+            },
+            {
+              "attr": "paramsGenerator",
+              "valueType": "Function",
+              "defaultValue": "__ht__function(data, val, index, node,oldVal,form) {//绑定组索引对应的函数处理，用来动态生成复杂的参数变量传入\r\nswitch(index){\r\n    case 0:\r\n        break;\r\n    case 1:\r\n        break;\r\n    case 2:\r\n        break;\r\n    default:\r\n        break;\r\n}\r\n\r\nreturn val;}",
+              "extraInfo": {
+                "arguments": [
+                  "data",
+                  "val",
+                  "index",
+                  "node",
+                  "oldVal",
+                  "form"
+                ]
+              },
+              "name": "paramsGenerator"
+            },
+            {
+              "attr": "useAttrCORS",
+              "valueType": "Boolean",
+              "extraInfo": "*",
+              "defaultValue": false,
+              "description": "连线操作和处理回写是否一致。\n                        比如多个文本框连线传值给相同对话框，弹窗修改\n                        后是否限定只能写到最新赋值过来的文本框。详见<a href='https://www.yuque.com/liuhuo-nc809/uiotos/fgi6dd7gado51acm#fFUbp' style=\"color:rgb(96,172,252)\"target=\"_blank\">同源属性操作</a>",
+              "bindIgnored": true,
+              "name": "useAttrCORS",
+              "dynamicCreate": true
+            },
+            {
+              "attr": "display",
+              "valueType": "Image",
+              "defaultValue": "",
+              "description": "自定义页面地址。\n                可以是编辑器中的其他页面，也可以\n                是外部网页链接地址。",
+              "group": "弹出框 *",
+              "bindIgnored": true,
+              "name": "display",
+              "dynamicCreate": true
+            },
+            {
+              "attr": "pureTipText",
+              "valueType": "String",
+              "defaultValue": "",
+              "description": "提示文字。\n                    当专业用户属性中，提供display内嵌页属性，\n                    如果有配置，那么本属性设置无效，将以内嵌\n                    页显示为准。",
+              "group": "弹出框 *",
+              "bindIgnored": true,
+              "name": "pureTipText",
+              "dynamicCreate": true
+            },
+            {
+              "attr": "popDirection",
+              "valueType": "SideDirection",
+              "defaultValue": "right",
+              "description": "提示显示位置。",
+              "group": "弹出框 *",
+              "bindIgnored": true,
+              "name": "popDirection",
+              "dynamicCreate": true
+            },
+            {
+              "attr": "popBackground",
+              "valueType": "Color",
+              "defaultValue": "white",
+              "description": "箭头和背景色。",
+              "group": "弹出框 *",
+              "bindIgnored": true,
+              "name": "popBackground",
+              "dynamicCreate": true
+            },
+            {
+              "attr": "popPadding",
+              "valueType": "NumberArray",
+              "defaultValue": [
+                2,
+                2,
+                2,
+                2
+              ],
+              "description": "内间距。",
+              "group": "弹出框 *",
+              "bindIgnored": true,
+              "name": "popPadding",
+              "dynamicCreate": true
+            },
+            {
+              "attr": "popWidth",
+              "valueType": "Number",
+              "defaultValue": 400,
+              "description": "弹出框宽度。",
+              "group": "弹出框 *",
+              "bindIgnored": true,
+              "name": "popWidth",
+              "dynamicCreate": true
+            },
+            {
+              "attr": "popHeight",
+              "valueType": "Number",
+              "defaultValue": 300,
+              "description": "弹出框高度。",
+              "group": "弹出框 *",
+              "bindIgnored": true,
+              "name": "popHeight",
+              "dynamicCreate": true
+            },
+            {
+              "attr": "popBorderColor",
+              "valueType": "Color",
+              "defaultValue": "rgb(51,51,51)",
+              "description": "边框线颜色。\n                    注意，是设置了边框宽度非0后的边框颜色。\n                    默认边框宽度属性为0时，实际上是白色并\n                    带有箭头指示的边框。本属性不用于修改默\n                    认边框色。",
+              "group": "弹出框 *",
+              "bindIgnored": true,
+              "name": "popBorderColor",
+              "dynamicCreate": true
+            },
+            {
+              "attr": "popBorderWidth",
+              "valueType": "Number",
+              "defaultValue": 0,
+              "description": "边框线宽度。\n                    默认值为0，此时边框默认为白色并且带有\n                    箭头指示。当设置宽度后，颜色将取边框颜\n                    色属性的设置，并且不再有箭头指示。",
+              "group": "弹出框 *",
+              "bindIgnored": true,
+              "name": "popBorderWidth",
+              "dynamicCreate": true
+            },
+            {
+              "attr": "popBorderRadius",
+              "valueType": "Number",
+              "defaultValue": 0,
+              "description": "边框线圆角。\n                    设置圆角线后，如果此前默认是白色边框带有\n                    指示箭头，那么将自动不可见，只对内容区域\n                    产生圆角。",
+              "group": "弹出框 *",
+              "bindIgnored": true,
+              "name": "popBorderRadius",
+              "dynamicCreate": true
+            },
+            {
+              "attr": "popTriggerEvent",
+              "valueType": "MouseEvent",
+              "defaultValue": "hover",
+              "description": "触发方式。\n                支持鼠标移入、点击（按钮时）\n                两种触发提示的方式。",
+              "group": "弹出框 *",
+              "bindIgnored": true,
+              "name": "popTriggerEvent",
+              "dynamicCreate": true
+            }
+          ],
+          "snapshotURL": "symbols/develop/uiotos/arranged/controls/forms_icon/普通按钮V2.json",
+          "renderHTML": "__ht__function(data, gv, cache) {return __button_ui(data,gv,cache);}",
+          "width": 75,
+          "height": 35,
+          "interactive": true,
+          "pixelPerfect": false,
+          "comps": [],
+          "uuid": "AA1A2B37-7893-466F-8675-7AFB870027D7"
+        },
+        "host": {
+          "__i": 699573
+        },
+        "position": {
+          "x": -171.38381,
+          "y": 256.54886
+        },
+        "width": 148.4511,
+        "height": 35
+      },
+      "s": {
+        "label.opacity": 0,
+        "label.position": 14,
+        "label.offset.x": -10,
+        "label.offset.y": 0,
+        "label.color": "rgb(61,61,61)",
+        "2d.movable": false,
+        "interactive": true,
+        "image.stretch": "uniform",
+        "layout.h": "center",
+        "layout.v": "center"
+      },
+      "a": {
+        "icon-background": "rgb(255,255,255)",
+        "symbol": "symbols/develop/uiotos/base/button-ui.json",
+        "paramControlTag": [
+          null,
+          null
+        ],
+        "paramControlAttr": [
+          null,
+          "a:userData"
+        ],
+        "bindControlsTag": [
+          "dlg1",
+          "dlg1"
+        ],
+        "bindControlsAttr": [
+          "a:show",
+          "a:典型示例_内嵌页>0>Text1>s:text"
+        ],
+        "bindControlsVal": [
+          null,
+          null
+        ],
+        "text": "按钮",
+        "toolTipRaw": "<p style='color:rgb(242,83,75);margin-top:5px;margin-bottom:5px;font-weight:bold;line-height:1.5em;'>已被布局，不允许拖动（shift+回车可解除）</p><p style='color:rgb(242,83,75);margin-top:5px;margin-bottom:5px;font-weight:bold;line-height:1.5em;'>已被布局，不允许拖动</p>",
+        "bindEvents": [
+          "*",
+          "onFormClick"
+        ],
+        "iconSize": [
+          20,
+          20
+        ],
+        "_bindEvents_0-list": [
+          "*",
+          "onFormClick"
+        ],
+        "_bindEvents_1-list": [
+          "*",
+          "onFormClick"
+        ],
+        "_bindEvents_2": "*",
+        "_bindEvents_3": "*"
+      }
+    },
+    {
+      "c": "ht.Edge",
+      "i": 699575,
+      "p": {
+        "name": "edge",
+        "displayName": "0（edge5'）",
+        "toolTip": "<div id=\"config_tooltip\" style=\"font-size:12px;line-height:1.75em;letter-spacing:1px\">\n                                                        连线配置信息：<br>\n                                                        <li style=\"list-style-type:disc;color:rgba(255,255,255,0.5);\">索引序号：0 | 总共2条</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold;\">操作属性：弹窗@dlg1</li> \n                                                        <li style=\"list-style-type:none;color:rgba(255,255,255,0.5)\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;当前值：undefined</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold\">关联属性：</li> \n                                                        <li style=\"list-style-type:none;color:rgba(255,255,255,0.5)\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;关联值：undefined</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold;\">解析赋值：null</li>\n                                                        <li style=\"list-style-type:disc;color:rgba(255,255,255,0.5)\">触发事件：*</li>\n                                                        <li style=\"list-style-type:disc;\">注释：<span style=\"color:rgb(125,195,125)\">0。\n<br></span></li>\n                                                    </div>",
+        "parent": {
+          "__i": 699574
+        },
+        "tag": "edge5'",
+        "source": {
+          "__i": 699574
+        },
+        "target": {
+          "__i": 699582
+        }
+      },
+      "s": {
+        "label": "",
+        "edge.color": "rgb(51,153,255)",
+        "edge.width": 4,
+        "edge.type": "flex",
+        "edge.flex": 50,
+        "edge.corner.radius": 30,
+        "edge.gap": 16,
+        "note.border.width": 0,
+        "note.position": 7,
+        "note.font": "14px arial, sans-serif",
+        "note.opacity": 0.75,
+        "label.opacity": 0,
+        "note.background": "rgb(51,153,255)",
+        "note.offset.x": 0,
+        "note.offset.y": 0,
+        "icons": {
+          "symbols/demo/extra/basic/fromArrow2.json": {
+            "position": 15,
+            "keepOrien": true,
+            "names": [
+              "symbols/demo/extra/basic/fromArrow2.json"
+            ]
+          },
+          "symbols/demo/extra/basic/toArrow.json": {
+            "position": 19,
+            "keepOrien": true,
+            "width": 50,
+            "height": 20,
+            "names": [
+              "symbols/demo/extra/basic/toArrow.json"
+            ]
+          }
+        },
+        "note": 0
+      },
+      "a": {
+        "index": 0,
+        "toolTipRaw": "<div id=\"config_tooltip\" style=\"font-size:12px;line-height:1.75em;letter-spacing:1px\">\n                                                        连线配置信息：<br>\n                                                        <li style=\"list-style-type:disc;color:rgba(255,255,255,0.5);\">索引序号：0 | 总共2条</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold;\">操作属性：弹窗@dlg1</li> \n                                                        <li style=\"list-style-type:none;color:rgba(255,255,255,0.5)\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;当前值：undefined</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold\">关联属性：</li> \n                                                        <li style=\"list-style-type:none;color:rgba(255,255,255,0.5)\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;关联值：undefined</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold;\">解析赋值：null</li>\n                                                        <li style=\"list-style-type:disc;color:rgba(255,255,255,0.5)\">触发事件：*</li>\n                                                        <li style=\"list-style-type:disc;\">注释：<span style=\"color:rgb(125,195,125)\">0。\n<br></span></li>\n                                                    </div>"
+      }
+    },
+    {
+      "c": "ht.Edge",
+      "i": 699576,
+      "p": {
+        "name": "edge",
+        "displayName": "1（edge6）",
+        "toolTip": "<div id=\"config_tooltip\" style=\"font-size:12px;line-height:1.75em;letter-spacing:1px\">\n                                                        连线配置信息：<br>\n                                                        <li style=\"list-style-type:disc;color:rgba(255,255,255,0.5);\">索引序号：1 | 总共2条</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold;\">操作属性：a:典型示例_内嵌页&gt;0&gt;Text1&gt;文字@dlg1</li> \n                                                        <li style=\"list-style-type:none;color:rgba(255,255,255,0.5)\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;当前值：undefined</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold\">关联属性：用户数据@bt1</li> \n                                                        <li style=\"list-style-type:none;color:rgba(255,255,255,0.5)\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;关联值：undefined</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold;\">解析赋值：null</li>\n                                                        <li style=\"list-style-type:disc;color:rgba(255,255,255,0.5)\">触发事件：undefined</li>\n                                                        <li style=\"list-style-type:disc;\">注释：<span style=\"color:rgb(125,195,125)\">1。\n<br></span></li>\n                                                    </div>",
+        "parent": {
+          "__i": 699574
+        },
+        "tag": "edge6",
+        "source": {
+          "__i": 699574
+        },
+        "target": {
+          "__i": 699582
+        }
+      },
+      "s": {
+        "label": "",
+        "edge.color": "#FF7C7C",
+        "edge.width": 3,
+        "edge.type": "flex",
+        "edge.flex": 50,
+        "edge.corner.radius": 30,
+        "edge.gap": 16,
+        "note.border.width": 0,
+        "note.position": 7,
+        "note.font": "14px arial, sans-serif",
+        "note.opacity": 0.75,
+        "label.opacity": 0,
+        "note.background": "#FF7C7C",
+        "note.offset.x": 0,
+        "note.offset.y": 0,
+        "icons": {
+          "symbols/demo/extra/basic/fromArrow2.json": {
+            "position": 15,
+            "keepOrien": true,
+            "names": [
+              "symbols/demo/extra/basic/fromArrow2.json"
+            ]
+          },
+          "symbols/demo/extra/basic/toArrow.json": {
+            "position": 19,
+            "keepOrien": true,
+            "width": 50,
+            "height": 20,
+            "names": [
+              "symbols/demo/extra/basic/toArrow.json"
+            ]
+          }
+        },
+        "note": 1
+      },
+      "a": {
+        "index": 1,
+        "toolTipRaw": "<div id=\"config_tooltip\" style=\"font-size:12px;line-height:1.75em;letter-spacing:1px\">\n                                                        连线配置信息：<br>\n                                                        <li style=\"list-style-type:disc;color:rgba(255,255,255,0.5);\">索引序号：1 | 总共2条</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold;\">操作属性：a:典型示例_内嵌页&gt;0&gt;Text1&gt;文字@dlg1</li> \n                                                        <li style=\"list-style-type:none;color:rgba(255,255,255,0.5)\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;当前值：undefined</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold\">关联属性：用户数据@bt1</li> \n                                                        <li style=\"list-style-type:none;color:rgba(255,255,255,0.5)\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;关联值：undefined</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold;\">解析赋值：null</li>\n                                                        <li style=\"list-style-type:disc;color:rgba(255,255,255,0.5)\">触发事件：undefined</li>\n                                                        <li style=\"list-style-type:disc;\">注释：<span style=\"color:rgb(125,195,125)\">1。\n<br></span></li>\n                                                    </div>"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 699577,
+      "p": {
+        "name": "Q3G$422MIU7H8YPYKO(Y8JS",
+        "displayName": "Q3G$422MIU7H8YPYKO（Q3G$422MIU7H8YPYKO(Y8JS1）",
+        "toolTip": "<p style='color:rgb(242,83,75);margin-top:5px;margin-bottom:5px;font-weight:bold;line-height:1.5em;'>已被布局，不允许拖动（shift+回车可解除）</p><p style='color:rgb(242,83,75);margin-top:5px;margin-bottom:5px;font-weight:bold;line-height:1.5em;'>已被布局，不允许拖动</p>",
+        "tag": "Q3G$422MIU7H8YPYKO(Y8JS1",
+        "image": "data:image/png;base64,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",
+        "host": {
+          "__i": 699573
+        },
+        "position": {
+          "x": 942.22181,
+          "y": 99.40023
+        },
+        "width": 286.20762,
+        "height": 328.9089
+      },
+      "s": {
+        "label.position": 2,
+        "label.offset.y": -8,
+        "label.color": "rgb(125,195,125)",
+        "label.opacity": 1,
+        "interactive": true,
+        "image.stretch": "uniform",
+        "layout.h": "right",
+        "layout.v": "topbottom",
+        "label": "空白处右键，选择运行预\n览即可打开页面！",
+        "label.font": "26px arial, sans-serif",
+        "label.align": "left",
+        "2d.movable": false
+      },
+      "a": {
+        "_hideWhenRun": true,
+        "toolTipRaw": "<p style='color:rgb(242,83,75);margin-top:5px;margin-bottom:5px;font-weight:bold;line-height:1.5em;'>已被布局，不允许拖动（shift+回车可解除）</p><p style='color:rgb(242,83,75);margin-top:5px;margin-bottom:5px;font-weight:bold;line-height:1.5em;'>已被布局，不允许拖动</p>",
+        "hostLayerLine": {
+          "__i": 699578
+        }
+      }
+    },
+    {
+      "c": "ht.Edge",
+      "i": 699578,
+      "p": {
+        "name": "吸附布局",
+        "displayName": "edge（吸附布局1）",
+        "toolTip": "吸附布局：<p style=color:lightgreen>Q3G$422MIU7H8YPYKO（Q3G$422MIU7H8YPYKO(Y8JS1） → 底板（_base）</p>吸附参数：right topbottom",
+        "parent": {
+          "__i": 699577
+        },
+        "tag": "吸附布局1",
+        "source": {
+          "__i": 699577
+        },
+        "target": {
+          "__i": 699573
+        }
+      },
+      "s": {
+        "edge.color": "rgba(53,153,219,0)",
+        "edge.width": 1,
+        "label.opacity": 0,
+        "label.position": 14,
+        "label.offset.x": -10,
+        "label.offset.y": 0,
+        "label.color": "rgb(61,61,61)",
+        "label": "",
+        "edge.type": "boundary",
+        "edge.gap": 16,
+        "edge.width.absolute": true,
+        "note.border.width": 0,
+        "edge.dash": true,
+        "edge.dash.pattern": [
+          4,
+          4
+        ],
+        "edge.dash.color": "rgb(244,109,103)",
+        "note.position": 7,
+        "note.opacity": 0.85,
+        "note.background": "rgb(244,109,103)",
+        "note.offset.x": 0,
+        "note.offset.y": 0,
+        "icons": {
+          "symbols/demo/extra/basic/fromArrow2.json": {
+            "position": 15,
+            "width": 5,
+            "height": 5,
+            "keepOrien": true,
+            "names": [
+              "symbols/demo/extra/basic/fromArrow2.json"
+            ]
+          },
+          "symbols/demo/extra/basic/toArrow.json": {
+            "position": 19,
+            "keepOrien": true,
+            "width": 20,
+            "height": 10,
+            "names": [
+              "symbols/demo/extra/basic/toArrow.json"
+            ]
+          }
+        },
+        "interactive": true,
+        "image.stretch": "uniform"
+      },
+      "a": {
+        "hostLayerFrom": {
+          "__i": 699577
+        },
+        "toolTipRaw": "吸附布局：<p style=color:lightgreen>Q3G$422MIU7H8YPYKO（Q3G$422MIU7H8YPYKO(Y8JS1） → 底板（_base）</p>吸附参数：right topbottom"
+      }
+    },
+    {
+      "c": "ht.UNode",
+      "i": 699579,
+      "p": {
+        "name": "txt",
+        "displayName": "文本框（txt1）",
+        "toolTip": "<p style='color:rgb(242,83,75);margin-top:5px;margin-bottom:5px;font-weight:bold;line-height:1.5em;'>已被布局，不允许拖动（shift+回车可解除）</p><p style='color:rgb(242,83,75);margin-top:5px;margin-bottom:5px;font-weight:bold;line-height:1.5em;'>已被布局，不允许拖动</p>",
+        "tag": "txt1",
+        "dataBindings": {
+          "a": {
+            "value": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "instantTrigger": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "htmlContent": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "readOnly": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "onChange": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "_bindEvents_0": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "display": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "popDirection": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "popBackground": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "popPadding": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "popWidth": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "popHeight": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "popBorderColor": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "popBorderWidth": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "popBorderRadius": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "popTriggerEvent": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "userData": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            }
+          }
+        },
+        "image": {
+          "modified": "Sat Aug 24 2024 20:49:51 GMT+0800 (中国标准时间)",
+          "dataBindings": [
+            {
+              "attr": "symbol",
+              "valueType": "Image",
+              "name": "symbol"
+            },
+            {
+              "attr": "value",
+              "valueType": "Object",
+              "description": "当前值。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#qa1D8\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+              "group": "功能",
+              "defaultValue": "",
+              "name": "value"
+            },
+            {
+              "attr": "htmlContent",
+              "valueType": "Boolean",
+              "defaultValue": false,
+              "description": "值内容输入html文本并加载显示。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#IvTuM\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+              "extraInfo": "*",
+              "name": "htmlContent"
+            },
+            {
+              "attr": "readOnly",
+              "valueType": "Boolean",
+              "description": "是否只读。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#IvTuM\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+              "extraInfo": "★",
+              "name": "readOnly"
+            },
+            {
+              "attr": "initialTrigger",
+              "valueType": "Boolean",
+              "defaultValue": false,
+              "description": "加载时触发连线执行。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#md2dN\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+              "extraInfo": "*",
+              "name": "initialTrigger"
+            },
+            {
+              "attr": "instantTrigger",
+              "valueType": "Boolean",
+              "defaultValue": true,
+              "extraInfo": "★",
+              "description": "输入过程即时触发连线执行。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#V1qLT\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+              "name": "instantTrigger"
+            },
+            {
+              "attr": "userData",
+              "valueType": "Object",
+              "defaultValue": [],
+              "name": "userData"
+            },
+            {
+              "attr": "onChange",
+              "valueType": "Function",
+              "extraInfo": {
+                "arguments": [
+                  "data",
+                  "gv",
+                  "cache",
+                  "value",
+                  "extra"
+                ]
+              },
+              "description": "值改变事件。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#CJ4Rw\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+              "name": "onChange"
+            },
+            {
+              "attr": "shadowBorder",
+              "valueType": "NumberArray",
+              "defaultValue": [
+                0,
+                0,
+                8
+              ],
+              "description": "",
+              "group": "外观",
+              "extraInfo": "*",
+              "name": "shadowBorder"
+            },
+            {
+              "attr": "shadowColor",
+              "valueType": "Color",
+              "defaultValue": "rgba(55,125,255,0.50)",
+              "extraInfo": "*",
+              "name": "shadowColor"
+            },
+            {
+              "attr": "shadowEnabled",
+              "valueType": "Boolean",
+              "defaultValue": true,
+              "extraInfo": "*",
+              "name": "shadowEnabled"
+            },
+            {
+              "attr": "borderRadius",
+              "valueType": "Number",
+              "defaultValue": 3,
+              "description": "边框圆角半径。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#bMgX5\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+              "name": "borderRadius"
+            },
+            {
+              "attr": "borderWidth",
+              "valueType": "Number",
+              "defaultValue": 1,
+              "description": "边框宽度。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#ACuGo\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+              "name": "borderWidth"
+            },
+            {
+              "attr": "padding",
+              "valueType": "NumberArray",
+              "defaultValue": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "description": "内容与四周的间距。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#PbK6C\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+              "extraInfo": "★",
+              "name": "padding"
+            },
+            {
+              "attr": "borderColor",
+              "valueType": "ColorArray",
+              "defaultValue": [
+                "rgb(213,213,213)",
+                "rgb(55,125,255)"
+              ],
+              "description": "边框线颜色。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#jP6N2\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>\n<br>索引0：默认边框颜色；\n<br>索引1：输入时边框颜色。",
+              "name": "borderColor"
+            },
+            {
+              "attr": "background",
+              "valueType": "ColorArray",
+              "defaultValue": [
+                "rgb(255,255,255)",
+                "rgb(247,247,247)"
+              ],
+              "description": "背景色。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#XvcST\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>\n<br>索引0为默认背景色。索引1为禁用背景色。",
+              "name": "background"
+            },
+            {
+              "attr": "color",
+              "valueType": "ColorArray",
+              "description": "文本颜色。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#X0992\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>\n<br>索引0：输入内容文字颜色。\n<br>索引1：标签文字颜色。",
+              "defaultValue": [
+                "rgb(0,0,0)",
+                "rgb(61,61,61)"
+              ],
+              "name": "color"
+            },
+            {
+              "attr": "font",
+              "valueType": "Font",
+              "description": "字体。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#BaY0c\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+              "name": "font"
+            },
+            {
+              "attr": "placeholder",
+              "valueType": "String",
+              "defaultValue": "请输入",
+              "description": "未输入时默认占位符文字。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#Cuiq9\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+              "extraInfo": "★",
+              "name": "placeholder"
+            },
+            {
+              "attr": "labelText",
+              "valueType": "String",
+              "defaultValue": "标签",
+              "description": "",
+              "name": "labelText"
+            },
+            {
+              "attr": "labelEmbeded",
+              "valueType": "Boolean",
+              "extraInfo": "★",
+              "name": "labelEmbeded"
+            },
+            {
+              "attr": "layoutVertical",
+              "valueType": "Boolean",
+              "defaultValue": false,
+              "description": "",
+              "extraInfo": "★",
+              "name": "layoutVertical"
+            },
+            {
+              "attr": "gap",
+              "valueType": "PositiveNumber",
+              "defaultValue": 10,
+              "description": "",
+              "extraInfo": "★",
+              "name": "gap"
+            },
+            {
+              "attr": "bindControlsTag",
+              "valueType": "StringArray",
+              "group": "连线",
+              "name": "bindControlsTag"
+            },
+            {
+              "attr": "bindControlsAttr",
+              "valueType": "StringArray",
+              "name": "bindControlsAttr"
+            },
+            {
+              "attr": "bindControlsVal",
+              "valueType": "ObjectArray",
+              "name": "bindControlsVal"
+            },
+            {
+              "attr": "paramControlTag",
+              "valueType": "StringArray",
+              "name": "paramControlTag"
+            },
+            {
+              "attr": "paramControlAttr",
+              "valueType": "StringArray",
+              "name": "paramControlAttr"
+            },
+            {
+              "attr": "paramsGenerator",
+              "valueType": "Function",
+              "defaultValue": "__ht__function(data, val, index, node,oldVal,form,type,inner) {//绑定组索引对应的函数处理，用来动态生成复杂的参数变量传入\r\nswitch(index){\r\n    case 0:\r\n        break;\r\n    case 1:\r\n        break;\r\n    case 2:\r\n        break;\r\n    default:\r\n        break;\r\n}\r\n\r\nreturn val;}",
+              "extraInfo": {
+                "arguments": [
+                  "data",
+                  "val",
+                  "index",
+                  "node",
+                  "oldVal",
+                  "form",
+                  "type",
+                  "inner"
+                ],
+                "classify": "*"
+              },
+              "name": "paramsGenerator"
+            },
+            {
+              "attr": "useAttrCORS",
+              "valueType": "Boolean",
+              "extraInfo": "*",
+              "defaultValue": false,
+              "description": "连线操作和处理回写是否一致。\n                        比如多个文本框连线传值给相同对话框，弹窗修改\n                        后是否限定只能写到最新赋值过来的文本框。详见<a href='https://www.yuque.com/liuhuo-nc809/uiotos/fgi6dd7gado51acm#fFUbp' style=\"color:rgb(96,172,252)\"target=\"_blank\">同源属性操作</a>",
+              "bindIgnored": true,
+              "name": "useAttrCORS",
+              "dynamicCreate": true
+            },
+            {
+              "attr": "display",
+              "valueType": "Image",
+              "defaultValue": "",
+              "description": "自定义页面地址。\n                可以是编辑器中的其他页面，也可以\n                是外部网页链接地址。",
+              "group": "弹出框 *",
+              "bindIgnored": true,
+              "name": "display",
+              "dynamicCreate": true
+            },
+            {
+              "attr": "pureTipText",
+              "valueType": "String",
+              "defaultValue": "",
+              "description": "提示文字。\n                    当专业用户属性中，提供display内嵌页属性，\n                    如果有配置，那么本属性设置无效，将以内嵌\n                    页显示为准。",
+              "group": "弹出框 *",
+              "bindIgnored": true,
+              "name": "pureTipText",
+              "dynamicCreate": true
+            },
+            {
+              "attr": "popDirection",
+              "valueType": "SideDirection",
+              "defaultValue": "right",
+              "description": "提示显示位置。",
+              "group": "弹出框 *",
+              "bindIgnored": true,
+              "name": "popDirection",
+              "dynamicCreate": true
+            },
+            {
+              "attr": "popBackground",
+              "valueType": "Color",
+              "defaultValue": "white",
+              "description": "箭头和背景色。",
+              "group": "弹出框 *",
+              "bindIgnored": true,
+              "name": "popBackground",
+              "dynamicCreate": true
+            },
+            {
+              "attr": "popPadding",
+              "valueType": "NumberArray",
+              "defaultValue": [
+                2,
+                2,
+                2,
+                2
+              ],
+              "description": "内间距。",
+              "group": "弹出框 *",
+              "bindIgnored": true,
+              "name": "popPadding",
+              "dynamicCreate": true
+            },
+            {
+              "attr": "popWidth",
+              "valueType": "Number",
+              "defaultValue": 400,
+              "description": "弹出框宽度。",
+              "group": "弹出框 *",
+              "bindIgnored": true,
+              "name": "popWidth",
+              "dynamicCreate": true
+            },
+            {
+              "attr": "popHeight",
+              "valueType": "Number",
+              "defaultValue": 300,
+              "description": "弹出框高度。",
+              "group": "弹出框 *",
+              "bindIgnored": true,
+              "name": "popHeight",
+              "dynamicCreate": true
+            },
+            {
+              "attr": "popBorderColor",
+              "valueType": "Color",
+              "defaultValue": "rgb(51,51,51)",
+              "description": "边框线颜色。\n                    注意，是设置了边框宽度非0后的边框颜色。\n                    默认边框宽度属性为0时，实际上是白色并\n                    带有箭头指示的边框。本属性不用于修改默\n                    认边框色。",
+              "group": "弹出框 *",
+              "bindIgnored": true,
+              "name": "popBorderColor",
+              "dynamicCreate": true
+            },
+            {
+              "attr": "popBorderWidth",
+              "valueType": "Number",
+              "defaultValue": 0,
+              "description": "边框线宽度。\n                    默认值为0，此时边框默认为白色并且带有\n                    箭头指示。当设置宽度后，颜色将取边框颜\n                    色属性的设置，并且不再有箭头指示。",
+              "group": "弹出框 *",
+              "bindIgnored": true,
+              "name": "popBorderWidth",
+              "dynamicCreate": true
+            },
+            {
+              "attr": "popBorderRadius",
+              "valueType": "Number",
+              "defaultValue": 0,
+              "description": "边框线圆角。\n                    设置圆角线后，如果此前默认是白色边框带有\n                    指示箭头，那么将自动不可见，只对内容区域\n                    产生圆角。",
+              "group": "弹出框 *",
+              "bindIgnored": true,
+              "name": "popBorderRadius",
+              "dynamicCreate": true
+            },
+            {
+              "attr": "popTriggerEvent",
+              "valueType": "MouseEvent",
+              "defaultValue": "hover",
+              "description": "触发方式。\n                支持鼠标移入、点击（按钮时）\n                两种触发提示的方式。",
+              "group": "弹出框 *",
+              "bindIgnored": true,
+              "name": "popTriggerEvent",
+              "dynamicCreate": true
+            }
+          ],
+          "snapshotURL": "symbols/develop/uiotos/arranged/controls/forms_icon/文本框.json",
+          "renderHTML": "__ht__function(data, gv, cache) {return __textArea_ui(data,gv,cache);}",
+          "width": 300,
+          "height": 100,
+          "scrollable": true,
+          "interactive": true,
+          "pixelPerfect": false,
+          "comps": [],
+          "uuid": "C872C6E3-378F-44FD-939A-A977BB398357"
+        },
+        "host": {
+          "__i": 699573
+        },
+        "position": {
+          "x": 230.00808,
+          "y": 256.54886
+        },
+        "width": 295.04485,
+        "height": 111.03838
+      },
+      "s": {
+        "label.opacity": 1,
+        "label": "标签",
+        "label.position": 9,
+        "label.offset.x": -10,
+        "label.offset.y": 0,
+        "label.color": "rgb(61,61,61)",
+        "2d.movable": false,
+        "interactive": true,
+        "image.stretch": "uniform",
+        "layout.h": "center",
+        "layout.v": "center"
+      },
+      "a": {
+        "symbol": "symbols/develop/uiotos/base/textArea-ui.json",
+        "labelText": "标签",
+        "gap": 0,
+        "paramControlTag": [
+          null
+        ],
+        "paramControlAttr": [
+          "value"
+        ],
+        "bindControlsTag": [
+          "bt1"
+        ],
+        "bindControlsAttr": [
+          "userData"
+        ],
+        "bindControlsVal": [
+          null
+        ],
+        "_bindEvents_0": "*",
+        "toolTipRaw": "<p style='color:rgb(242,83,75);margin-top:5px;margin-bottom:5px;font-weight:bold;line-height:1.5em;'>已被布局，不允许拖动（shift+回车可解除）</p><p style='color:rgb(242,83,75);margin-top:5px;margin-bottom:5px;font-weight:bold;line-height:1.5em;'>已被布局，不允许拖动</p>",
+        "color": [
+          null,
+          "rgb(61,61,61)"
+        ],
+        "borderColor": [
+          "rgb(213,213,213)",
+          "rgb(51,153,255)"
+        ],
+        "background": [
+          "rgb(255,255,255)"
+        ]
+      }
+    },
+    {
+      "c": "ht.Edge",
+      "i": 699580,
+      "p": {
+        "name": "edge",
+        "displayName": "0（edge4）",
+        "toolTip": "<div id=\"config_tooltip\" style=\"font-size:12px;line-height:1.75em;letter-spacing:1px\">\n                                                        关联绑定信息：<br>\n                                                        <li style=\"list-style-type:disc;color:rgba(255,255,255,0.5);\">索引序号：0 | 总共1条</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold;\">操作属性：用户数据@bt1</li>\n                                                        <li style=\"list-style-type:none;color:rgba(255,255,255,0.5)\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;当前值：undefined</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold\">关联属性：值内容@txt1</li>\n                                                        <li style=\"list-style-type:none;color:rgba(255,255,255,0.5)\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;关联值：undefined</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold;\">解析赋值：null</li>\n                                                        <li style=\"list-style-type:disc;color:rgba(255,255,255,0.5)\">触发事件：*</li>\n                                                        <li style=\"list-style-type:disc;\">注释：<span style=\"color:rgb(125,195,125)\">0。\n<br></span></li>\n                                                    </div>",
+        "parent": {
+          "__i": 699579
+        },
+        "tag": "edge4",
+        "source": {
+          "__i": 699579
+        },
+        "target": {
+          "__i": 699574
+        }
+      },
+      "s": {
+        "label": "",
+        "edge.color": "rgb(51,153,255)",
+        "edge.width": 4,
+        "edge.type": "flex",
+        "edge.gap": 16,
+        "note.border.width": 0,
+        "note.position": 7,
+        "note.font": "14px arial, sans-serif",
+        "note.opacity": 0.75,
+        "label.opacity": 0,
+        "note.background": "rgb(51,153,255)",
+        "note.offset.x": 0,
+        "note.offset.y": 0,
+        "icons": {
+          "symbols/demo/extra/basic/fromArrow2.json": {
+            "position": 15,
+            "keepOrien": true,
+            "names": [
+              "symbols/demo/extra/basic/fromArrow2.json"
+            ]
+          },
+          "symbols/demo/extra/basic/toArrow.json": {
+            "position": 19,
+            "keepOrien": true,
+            "width": 50,
+            "height": 20,
+            "names": [
+              "symbols/demo/extra/basic/toArrow.json"
+            ]
+          }
+        },
+        "note": 0
+      },
+      "a": {
+        "index": 0,
+        "toolTipRaw": "<div id=\"config_tooltip\" style=\"font-size:12px;line-height:1.75em;letter-spacing:1px\">\n                                                        关联绑定信息：<br>\n                                                        <li style=\"list-style-type:disc;color:rgba(255,255,255,0.5);\">索引序号：0 | 总共1条</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold;\">操作属性：用户数据@bt1</li>\n                                                        <li style=\"list-style-type:none;color:rgba(255,255,255,0.5)\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;当前值：undefined</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold\">关联属性：值内容@txt1</li>\n                                                        <li style=\"list-style-type:none;color:rgba(255,255,255,0.5)\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;关联值：undefined</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold;\">解析赋值：null</li>\n                                                        <li style=\"list-style-type:disc;color:rgba(255,255,255,0.5)\">触发事件：*</li>\n                                                        <li style=\"list-style-type:disc;\">注释：<span style=\"color:rgb(125,195,125)\">0。\n<br></span></li>\n                                                    </div>"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 699581,
+      "p": {
+        "name": "gv",
+        "displayName": "嵌套容器（gv1）",
+        "toolTip": "<p style='color:rgb(242,83,75);margin-top:5px;margin-bottom:5px;font-weight:bold;line-height:1.5em;'>已被布局，不允许拖动（shift+回车可解除）</p><p style='color:rgb(242,83,75);margin-top:5px;margin-bottom:5px;font-weight:bold;line-height:1.5em;'>已被布局，不允许拖动</p><span style='font-weight:bold;color:rgb(125,195,125)'>说明：</span><span style='color:rgb(125,195,125);line-height:1.8em;letter-spacing:1px;'>\n<br><p style='color:rgb(242,83,75);margin:0px;font-weight:bold'><p></span>",
+        "tag": "gv1",
+        "dataBindings": {
+          "a": {
+            "display": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "innerLayoutMode": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "openURL>0>按钮>a:text": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "__ht__function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        console.error(err);\r\n        return rawData;\r\n    }\r\n}",
+              "alias": ""
+            },
+            "openURL>0>链接>a:inputs": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "__ht__function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        console.error(err);\r\n        return rawData;\r\n    }\r\n}",
+              "alias": ""
+            },
+            "userData": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            }
+          }
+        },
+        "image": {
+          "modified": "Fri Apr 26 2024 10:57:07 GMT+0800 (中国标准时间)",
+          "background": "rgb(32,37,46)",
+          "dataBindings": [
+            {
+              "attr": "symbol",
+              "valueType": "Image",
+              "name": "symbol"
+            },
+            {
+              "attr": "display",
+              "valueType": "URL",
+              "group": "功能",
+              "name": "display"
+            },
+            {
+              "attr": "displayJson",
+              "valueType": "Multiline",
+              "description": "",
+              "extraInfo": "*",
+              "name": "displayJson"
+            },
+            {
+              "attr": "innerLayoutMode",
+              "valueType": "InnerLayoutMode",
+              "defaultValue": "none",
+              "description": "",
+              "name": "innerLayoutMode"
+            },
+            {
+              "attr": "onPostDeserialize",
+              "valueType": "Function",
+              "extraInfo": {
+                "arguments": [
+                  "json",
+                  "dm",
+                  "gv",
+                  "datas"
+                ],
+                "classify": "*"
+              },
+              "description": "",
+              "name": "onPostDeserialize"
+            },
+            {
+              "attr": "useOriginSize",
+              "valueType": "Boolean",
+              "defaultValue": false,
+              "extraInfo": "★",
+              "description": "",
+              "name": "useOriginSize"
+            },
+            {
+              "attr": "useInnerEventsAll",
+              "valueType": "Boolean",
+              "description": "",
+              "extraInfo": "*",
+              "name": "useInnerEventsAll"
+            },
+            {
+              "attr": "isLoadingGet",
+              "valueType": "Boolean",
+              "description": "",
+              "defaultValue": false,
+              "extraInfo": "★",
+              "name": "isLoadingGet"
+            },
+            {
+              "attr": "enableLoading",
+              "valueType": "Boolean",
+              "extraInfo": "*",
+              "name": "enableLoading"
+            },
+            {
+              "attr": "pureFormValues",
+              "valueType": "Boolean",
+              "description": "",
+              "name": "pureFormValues"
+            },
+            {
+              "attr": "userData",
+              "valueType": "Object",
+              "defaultValue": [],
+              "name": "userData"
+            },
+            {
+              "attr": "onDisplayLoaded",
+              "valueType": "Function",
+              "description": "",
+              "extraInfo": {
+                "arguments": [
+                  "data",
+                  "gv",
+                  "cache"
+                ]
+              },
+              "name": "onDisplayLoaded"
+            },
+            {
+              "attr": "shadowBorder",
+              "valueType": "NumberArray",
+              "defaultValue": [
+                0,
+                0,
+                8
+              ],
+              "group": "外观",
+              "extraInfo": "*",
+              "name": "shadowBorder"
+            },
+            {
+              "attr": "shadowColor",
+              "valueType": "Color",
+              "defaultValue": "rgba(55,125,255,0.50)",
+              "extraInfo": "*",
+              "name": "shadowColor"
+            },
+            {
+              "attr": "shadowEnabled",
+              "valueType": "Boolean",
+              "defaultValue": true,
+              "name": "shadowEnabled"
+            },
+            {
+              "attr": "borderWidth",
+              "valueType": "Number",
+              "name": "borderWidth"
+            },
+            {
+              "attr": "innerBackground",
+              "valueType": "Color",
+              "defaultValue": null,
+              "description": "",
+              "name": "innerBackground"
+            },
+            {
+              "attr": "bindControlsTag",
+              "valueType": "StringArray",
+              "group": "连线",
+              "name": "bindControlsTag"
+            },
+            {
+              "attr": "bindControlsAttr",
+              "valueType": "ObjectArray",
+              "name": "bindControlsAttr"
+            },
+            {
+              "attr": "bindControlsVal",
+              "valueType": "ObjectArray",
+              "description": "",
+              "name": "bindControlsVal"
+            },
+            {
+              "attr": "paramControlTag",
+              "valueType": "StringArray",
+              "name": "paramControlTag"
+            },
+            {
+              "attr": "paramControlAttr",
+              "valueType": "ObjectArray",
+              "name": "paramControlAttr"
+            },
+            {
+              "attr": "paramsGenerator",
+              "valueType": "Function",
+              "defaultValue": "__ht__function(data, val, index, node,oldVal,form,type,inner) {//绑定组索引对应的函数处理，用来动态生成复杂的参数变量传入\r\nswitch(index){\r\n    case 0:\r\n        break;\r\n    case 1:\r\n        break;\r\n    case 2:\r\n        break;\r\n    default:\r\n        break;\r\n}\r\n\r\nreturn val;}",
+              "extraInfo": {
+                "arguments": [
+                  "data",
+                  "val",
+                  "index",
+                  "node",
+                  "oldVal",
+                  "form",
+                  "type",
+                  "inner"
+                ],
+                "classify": "*"
+              },
+              "name": "paramsGenerator"
+            },
+            {
+              "attr": "useAttrCORS",
+              "valueType": "Boolean",
+              "extraInfo": "*",
+              "defaultValue": false,
+              "description": "连线操作和处理回写是否一致。\n                        比如多个文本框连线传值给相同对话框，弹窗修改\n                        后是否限定只能写到最新赋值过来的文本框。详见<a href='https://www.yuque.com/liuhuo-nc809/uiotos/fgi6dd7gado51acm#fFUbp' style=\"color:rgb(96,172,252)\"target=\"_blank\">同源属性操作</a>",
+              "bindIgnored": true,
+              "name": "useAttrCORS",
+              "dynamicCreate": true
+            },
+            {
+              "attr": "openURL>0>按钮>a:text",
+              "name": ".文字",
+              "valueType": "Multiline",
+              "defaultValue": "Button",
+              "description": "文本。",
+              "group": "openURL>0>按钮"
+            },
+            {
+              "attr": "openURL>0>链接>a:inputs",
+              "name": ".输入（组）",
+              "valueType": "Object",
+              "description": "工具函数的输入。<a href='https://www.yuque.com/liuhuo-nc809/uiotos/fgi6dd7gado51acm#aTR5v' style=\"color:rgb(96,172,252)\" target='_blank'>详情</a>\n用于输入链接地址路径。点击查阅<a href=https://www.yuque.com/liuhuo-nc809/uiotos/bb6hr2sdhaz8gz8m#xG65H style=\"color:rgb(96,172,252)\" target='_blank'>组件文档</a>",
+              "group": "openURL>0>链接"
+            }
+          ],
+          "snapshotURL": "icon.base.graphView",
+          "renderHTML": "__ht__function(data, gv, cache) {return __graphView(data,gv,cache);}",
+          "width": 200,
+          "height": 120,
+          "fitSize": true,
+          "pixelPerfect": false,
+          "comps": [
+            {
+              "type": "text",
+              "text": {
+                "func": "__ht__function(data, view) {\n// return data.ca('__loadingText') && data.ca('__loadingText')[!data.ca('__loadingStatus')]\n}",
+                "value": "…"
+              },
+              "align": "center",
+              "color": {
+                "func": "attr@__loadingColor",
+                "value": "rgb(150,150,150)"
+              },
+              "font": {
+                "func": "attr@__loadingFont",
+                "value": "12px arial, sans-serif"
+              },
+              "visible": {
+                "func": "attr@__loadingVisible",
+                "value": false
+              },
+              "layoutH": "center",
+              "layoutV": "center",
+              "rect": [
+                74.69339,
+                53.1422,
+                50.61322,
+                13.7156
+              ]
+            }
+          ],
+          "uuid": "E87D3D8D-2486-4113-90F4-9DD624CA3FD7"
+        },
+        "host": {
+          "__i": 699573
+        },
+        "position": {
+          "x": 571.45897,
+          "y": -230.00808
+        },
+        "width": 124.92744,
+        "height": 108.79691
+      },
+      "s": {
+        "label.opacity": 0,
+        "label.position": 14,
+        "label.offset.x": -10,
+        "label.offset.y": 0,
+        "label.color": "rgb(61,61,61)",
+        "2d.movable": false,
+        "interactive": true,
+        "image.stretch": "uniform",
+        "layout.h": "right",
+        "layout.v": "top"
+      },
+      "a": {
+        "display": "displays/develop/uiotos/editor/widgets/button/openURL.json",
+        "__loadingStatus": false,
+        "isLoadingGet": false,
+        "symbol": "symbols/develop/uiotos/base/graphView.json",
+        "openURL>0>按钮>a:text": "演示效果",
+        "shadowEnabled": false,
+        "toolTipRaw": "<p style='color:rgb(242,83,75);margin-top:5px;margin-bottom:5px;font-weight:bold;line-height:1.5em;'>已被布局，不允许拖动（shift+回车可解除）</p><p style='color:rgb(242,83,75);margin-top:5px;margin-bottom:5px;font-weight:bold;line-height:1.5em;'>已被布局，不允许拖动</p><span style='font-weight:bold;color:rgb(125,195,125)'>说明：</span><span style='color:rgb(125,195,125);line-height:1.8em;letter-spacing:1px;'>\n<br><p style='color:rgb(242,83,75);margin:0px;font-weight:bold'><p></span>",
+        "openURL>0>链接>a:inputs": "assets-part2/20240519223715_rec_.mp4",
+        "innerLayoutMode": "fullScreen",
+        "innerBackground": "rgb(226,250,87)"
+      }
+    },
+    {
+      "c": "ht.UNode",
+      "i": 699582,
+      "p": {
+        "name": "dlg",
+        "displayName": "对话框（dlg1）",
+        "tag": "dlg1",
+        "dataBindings": {
+          "a": {
+            "show": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "userData": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "titleText": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "display": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "innerLayoutMode": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "onPageBinded": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "onOk": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "onCancel": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "onFinally": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "debugOccupied": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "footerButtonsText": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "典型示例_内嵌页>0>_base>s:shape.background": {
+              "id": "iotos.formReset",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "典型示例_内嵌页>0>Text1>s:text": {
+              "id": "iotos.formReset",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "典型示例_内嵌页>0>Text1>s:text.color": {
+              "id": "iotos.formReset",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            }
+          }
+        },
+        "image": {
+          "modified": "Thu Aug 15 2024 14:08:49 GMT+0800 (中国标准时间)",
+          "dataBindings": [
+            {
+              "attr": "symbol",
+              "valueType": "Image",
+              "name": "symbol"
+            },
+            {
+              "attr": "display",
+              "valueType": "Image",
+              "group": "功能",
+              "defaultValue": "displays/develop/uiotos/editor/widgets/dialog/textArea.json",
+              "description": "",
+              "name": "display"
+            },
+            {
+              "attr": "displayJson",
+              "valueType": "Multiline",
+              "extraInfo": "*",
+              "name": "displayJson"
+            },
+            {
+              "attr": "innerLayoutMode",
+              "valueType": "InnerLayoutMode",
+              "description": "",
+              "name": "innerLayoutMode"
+            },
+            {
+              "attr": "onPostDeserialize",
+              "valueType": "Function",
+              "extraInfo": {
+                "arguments": [
+                  "json",
+                  "dm",
+                  "gv",
+                  "datas"
+                ],
+                "classify": "*"
+              },
+              "name": "onPostDeserialize"
+            },
+            {
+              "attr": "useOriginSize",
+              "valueType": "Boolean",
+              "defaultValue": false,
+              "extraInfo": "★",
+              "name": "useOriginSize"
+            },
+            {
+              "attr": "useInnerEventsAll",
+              "valueType": "Boolean",
+              "description": "",
+              "extraInfo": "*",
+              "defaultValue": false,
+              "name": "useInnerEventsAll"
+            },
+            {
+              "attr": "isLoadingGet",
+              "valueType": "Boolean",
+              "defaultValue": false,
+              "description": "",
+              "extraInfo": "★",
+              "name": "isLoadingGet"
+            },
+            {
+              "attr": "enableLoading",
+              "valueType": "Boolean",
+              "defaultValue": false,
+              "extraInfo": "*",
+              "name": "enableLoading"
+            },
+            {
+              "attr": "pureFormValues",
+              "valueType": "Boolean",
+              "defaultValue": false,
+              "description": "",
+              "name": "pureFormValues"
+            },
+            {
+              "attr": "show",
+              "valueType": "Boolean",
+              "defaultValue": false,
+              "description": "弹出对话框。",
+              "name": "show"
+            },
+            {
+              "attr": "hide",
+              "valueType": "Boolean",
+              "defaultValue": false,
+              "description": "关闭对话框。通常关闭是通过点击\n<br>遮盖层或点击按钮关闭，本属性较少使用。",
+              "name": "关闭",
+              "extraInfo": "*"
+            },
+            {
+              "attr": "modal",
+              "valueType": "Boolean",
+              "defaultValue": true,
+              "description": "是否为模态弹窗。模态弹窗时，需要关闭\n<br>弹窗后才能操作其他；非模态弹窗时，可同时操作\n<br>对话框的其他区域。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/uta20ga5uu55wvqw#SwaxW\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+              "name": "modal"
+            },
+            {
+              "attr": "embedded",
+              "valueType": "Boolean",
+              "defaultValue": false,
+              "description": "是否嵌入指定区域显示，而非默认全屏\n<br>居中弹窗。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/uta20ga5uu55wvqw#th9nb\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+              "extraInfo": "★",
+              "name": "embedded"
+            },
+            {
+              "attr": "enableLoading",
+              "valueType": "Boolean",
+              "defaultValue": true,
+              "description": "加载时是否提示过渡动画。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/uta20ga5uu55wvqw#mti3r\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+              "extraInfo": "*",
+              "name": "enableLoading"
+            },
+            {
+              "attr": "debugOccupied",
+              "valueType": "Boolean",
+              "defaultValue": false,
+              "description": "仅占据位置不触发弹窗响应。通常\n<br>用于调试存留。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/uta20ga5uu55wvqw#DVR6o\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+              "extraInfo": "*",
+              "name": "debugOccupied"
+            },
+            {
+              "attr": "displaySaving",
+              "valueType": "Boolean",
+              "defaultValue": false,
+              "description": "点击确定时，页面的修改将被保存。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/uta20ga5uu55wvqw#IZMXJ\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+              "extraInfo": "*",
+              "name": "displaySaving"
+            },
+            {
+              "attr": "reloadWhenOpen",
+              "valueType": "Boolean",
+              "defaultValue": false,
+              "description": "弹窗时内嵌页面是否重新加载。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/uta20ga5uu55wvqw#ljtZb\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+              "extraInfo": "★",
+              "name": "reloadWhenOpen"
+            },
+            {
+              "attr": "onPageBinded",
+              "valueType": "ObjectArray",
+              "description": "绑定Tab页签组件，当前作为公共表\n<br>单弹窗，对多页数据读取显示和修改设置。\n<br>索引0：Tab页签标识。\n<br>索引1：Tab页签索引。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/uta20ga5uu55wvqw#T2UPK\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+              "defaultValue": [
+                "tab1",
+                0
+              ],
+              "extraInfo": "*",
+              "name": "onPageBinded"
+            },
+            {
+              "attr": "userData",
+              "valueType": "Object",
+              "defaultValue": [],
+              "name": "userData"
+            },
+            {
+              "attr": "onDisplayLoaded",
+              "valueType": "Function",
+              "extraInfo": {
+                "arguments": [
+                  "data",
+                  "gv",
+                  "cache"
+                ],
+                "classify": "*"
+              },
+              "description": "内嵌页面加载完成时触发。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/uta20ga5uu55wvqw#yP7mg\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+              "name": "onDisplayLoaded"
+            },
+            {
+              "attr": "onOk",
+              "valueType": "Function",
+              "extraInfo": {
+                "arguments": [
+                  "data",
+                  "gv",
+                  "cache",
+                  "form"
+                ]
+              },
+              "description": "当点击“确定”时对外触发。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/uta20ga5uu55wvqw#yOkmK\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+              "name": "onOk"
+            },
+            {
+              "attr": "onCancel",
+              "valueType": "Function",
+              "extraInfo": {
+                "arguments": [
+                  "data",
+                  "gv",
+                  "cache",
+                  "form"
+                ]
+              },
+              "description": "点击“取消”时对外触发。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/uta20ga5uu55wvqw#T5i4g\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+              "name": "onCancel"
+            },
+            {
+              "attr": "onFinally",
+              "valueType": "Function",
+              "extraInfo": {
+                "arguments": [
+                  "data",
+                  "gv",
+                  "cache",
+                  "form",
+                  "isOk"
+                ]
+              },
+              "description": "不论是确定还是取消，都会触发。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/uta20ga5uu55wvqw#hzcJb\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+              "name": "onFinally"
+            },
+            {
+              "attr": "boxShadow",
+              "valueType": "String",
+              "defaultValue": "0px 8px 22px rgba(0,0,0,0.1)",
+              "description": "对话框阴影设置。\n<br>数字依次代表左右偏移、上下偏移、\n<br>虚化程度、阴影颜色。",
+              "group": "外观",
+              "extraInfo": "*",
+              "name": "boxShadow"
+            },
+            {
+              "attr": "titleText",
+              "valueType": "String",
+              "defaultValue": "对话框",
+              "description": "对话框左上角标题头文字。",
+              "name": "标题头文字"
+            },
+            {
+              "attr": "titleFont",
+              "valueType": "Font",
+              "name": "标题头字体",
+              "extraInfo": "*",
+              "description": "对话框左上角标题头字体。"
+            },
+            {
+              "attr": "titleColor",
+              "valueType": "Color",
+              "description": "对话框左上角标题头文字颜色。",
+              "name": "标题头字颜色",
+              "extraInfo": "★"
+            },
+            {
+              "attr": "innerBackground",
+              "valueType": "Color",
+              "description": "",
+              "defaultValue": null,
+              "name": "innerBackground"
+            },
+            {
+              "attr": "background",
+              "valueType": "ColorArray",
+              "description": "对话框背景颜色组。\n● 索引0：头部背景色。\n● 索引1：底部（脚部）背景色\n● 索引2：背景贴图色。\n● 索引3：遮盖层颜色。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/uta20ga5uu55wvqw#AKDZu\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+              "defaultValue": [
+                "rgba(255,255,255,1)",
+                "rgba(255,255,255,1)",
+                "rgba(255,255,255,1)",
+                "rgba(0,0,0,0.2)"
+              ],
+              "name": "background"
+            },
+            {
+              "attr": "backgroundImage",
+              "valueType": "Image",
+              "defaultValue": "symbols/develop/uiotos/icons/common/borderRectange.json",
+              "description": "对话框的背景贴图。清空路径（输\n<br>入空格，回车）时，弹窗可变成透明风格。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/uta20ga5uu55wvqw#mSgCA\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+              "extraInfo": "*",
+              "name": "backgroundImage"
+            },
+            {
+              "attr": "headerHeight",
+              "valueType": "PositiveNumber",
+              "defaultValue": 35,
+              "description": "头部高度。",
+              "extraInfo": "*",
+              "name": "headerHeight"
+            },
+            {
+              "attr": "footerHeight",
+              "valueType": "PositiveNumber",
+              "defaultValue": 60,
+              "description": "角度高度。",
+              "extraInfo": "*",
+              "name": "footerHeight"
+            },
+            {
+              "attr": "headerVisible",
+              "valueType": "Boolean",
+              "defaultValue": true,
+              "description": "是否显示头部。",
+              "name": "headerVisible"
+            },
+            {
+              "attr": "footerVisible",
+              "valueType": "Boolean",
+              "defaultValue": true,
+              "description": "是否显示脚部。",
+              "name": "footerVisible"
+            },
+            {
+              "attr": "closeButtonOnly",
+              "valueType": "Boolean",
+              "defaultValue": false,
+              "description": "对话框头部只有一个关闭按钮（×）。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/uta20ga5uu55wvqw#VuiwO\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+              "name": "closeButtonOnly"
+            },
+            {
+              "attr": "oneButton",
+              "valueType": "Boolean",
+              "defaultValue": false,
+              "description": "对话框脚部只有一个操作按钮（默认为\n<br>“确定”）。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/uta20ga5uu55wvqw#Oj8IN\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+              "name": "oneButton"
+            },
+            {
+              "attr": "cancelDefault",
+              "valueType": "Boolean",
+              "defaultValue": false,
+              "description": "在勾选了单按钮（﻿oneButton﻿）时，如\n<br>果希望默认改为为“取消”，勾选本属性即可。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/uta20ga5uu55wvqw#QiLL9\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+              "name": "cancelDefault"
+            },
+            {
+              "attr": "borderRadius",
+              "valueType": "PositiveNumber",
+              "defaultValue": 10,
+              "description": "对话框边框圆角，注意：最大值为35。",
+              "name": "borderRadius"
+            },
+            {
+              "attr": "padding",
+              "valueType": "PositiveNumber",
+              "defaultValue": 0,
+              "description": "填充。\n<br>0代表100%填充边界框，数字越大，对话框显示的越小。",
+              "extraInfo": "*",
+              "name": "padding"
+            },
+            {
+              "attr": "footerButtonGap",
+              "valueType": "PositiveNumber",
+              "defaultValue": 20,
+              "description": "脚部按钮（取消、确定）之间的间距。",
+              "extraInfo": "*",
+              "name": "footerButtonGap"
+            },
+            {
+              "attr": "footerButtonsText",
+              "valueType": "StringArray",
+              "defaultValue": [
+                "取消",
+                "确定"
+              ],
+              "description": "脚部按钮的文字设置。可对应修改索引值：\n<br>索引0：默认为“取消”；\n<br>索引1：默认为“确定”。<a href=\"<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/uta20ga5uu55wvqw#QiLL9\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+              "extraInfo": "★",
+              "name": "footerButtonsText"
+            },
+            {
+              "attr": "footerButtonSize",
+              "valueType": "NumberArray",
+              "defaultValue": [
+                75,
+                35
+              ],
+              "description": "脚部按钮的宽高，索引分别对应宽度和高度。",
+              "extraInfo": "★",
+              "name": "footerButtonSize"
+            },
+            {
+              "attr": "btnBorderWidths",
+              "valueType": "NumberArray",
+              "defaultValue": [
+                1,
+                1,
+                1
+              ],
+              "description": "数组长度为3，索引依次对应默认、\n<br>悬停和按下时的宽度。",
+              "extraInfo": "*",
+              "name": "btnBorderWidths"
+            },
+            {
+              "attr": "btn0BorderRadius",
+              "valueType": "NumberArray",
+              "defaultValue": [
+                3,
+                3,
+                3,
+                3
+              ],
+              "description": "“确定”按钮的圆角，索引依次对应\n<br>左上、右上、右下、左下四个角的圆角。",
+              "extraInfo": "*",
+              "name": "btn0BorderRadius"
+            },
+            {
+              "attr": "btn1BorderRadius",
+              "valueType": "NumberArray",
+              "defaultValue": [
+                3,
+                3,
+                3,
+                3
+              ],
+              "description": "“取消”按钮的圆角，索引依次对应\n<br>左上、右上、右下、左下四个角的圆角。",
+              "extraInfo": "*",
+              "name": "btn1BorderRadius"
+            },
+            {
+              "attr": "btn0BorderColors",
+              "valueType": "ColorArray",
+              "defaultValue": [
+                "rgb(55,125,255)",
+                "rgb(55,125,255)",
+                "rgb(55,125,255)"
+              ],
+              "description": "“确定”按钮的边框颜色，索引依次为默认、悬停、按下等。",
+              "extraInfo": "*",
+              "name": "btn0BorderColors"
+            },
+            {
+              "attr": "btn1BorderColors",
+              "valueType": "ColorArray",
+              "defaultValue": [
+                "rgb(55,125,255)",
+                "rgb(51,153,255)",
+                "rgb(51,153,255)"
+              ],
+              "description": "“取消”按钮的边框颜色，索引依次为默认、悬停、按下等。",
+              "extraInfo": "*",
+              "name": "btn1BorderColors"
+            },
+            {
+              "attr": "btn0Background",
+              "valueType": "ColorArray",
+              "defaultValue": [
+                "rgb(55,125,255)",
+                "rgb(51,153,255)",
+                "rgb(55,125,255)",
+                "rgb(55,125,255)"
+              ],
+              "description": "“确定”按钮的背景颜色，索引依次为默认、悬停、按下等。",
+              "extraInfo": "*",
+              "name": "btn0Background"
+            },
+            {
+              "attr": "btn1Background",
+              "valueType": "ColorArray",
+              "defaultValue": [
+                "rgb(255,255,255)",
+                "rgb(250,250,250)",
+                "rgb(247,247,247)",
+                "rgb(247,247,247)"
+              ],
+              "description": "“取消”按钮的背景颜色，索引依次为默认、悬停、按下等。",
+              "extraInfo": "*",
+              "name": "btn1Background"
+            },
+            {
+              "attr": "bt0TextColors",
+              "valueType": "ColorArray",
+              "defaultValue": [
+                "rgb(255,255,255)",
+                "rgb(255,255,255)",
+                "rgb(255,255,255)",
+                "rgb(255,255,255)"
+              ],
+              "description": "“确定”按钮的文字颜色，索引依次为默认、悬停、按下等。",
+              "extraInfo": "*",
+              "name": "bt0TextColors"
+            },
+            {
+              "attr": "bt1TextColors",
+              "valueType": "ColorArray",
+              "defaultValue": [
+                "rgb(55,125,255)",
+                "rgb(51,153,255)",
+                "rgb(55,125,255)",
+                "rgb(55,125,255)"
+              ],
+              "description": "“取消”按钮的文字颜色，索引依次为默认、悬停、按下等。",
+              "extraInfo": "*",
+              "name": "bt1TextColors"
+            },
+            {
+              "attr": "bindControlsTag",
+              "valueType": "StringArray",
+              "group": "连线",
+              "name": "bindControlsTag"
+            },
+            {
+              "attr": "bindControlsAttr",
+              "valueType": "StringArray",
+              "name": "bindControlsAttr"
+            },
+            {
+              "attr": "bindControlsVal",
+              "valueType": "ObjectArray",
+              "description": "静态值。也用作数组索引、JSON对象解析提取值用途。\n<br>一、静态值用途：\n<br>对常规类型的属性赋值且没有反向关联属性值，传入为数值时，不\n<br>会作为数组的索引，而会当成常量值对外赋值。此外，存在特殊值：\n<br>~和undefined表示过滤、不触发；null为默认值，表示传递默认表\n<br>单数据。编辑状态下清空后保存与设置null等价。\n<br>二、数组索引用途\n<br>情况1：被操作的组件属性原先值是数组时（包括空数组），会将\n<br>待输出的值作为被操作数组指定索引的值来传入，而不是整体覆盖。\n<br>情况2：如果要被操作的组件属性原先值不是数组，而且待输出的\n<br>值为数组类型并且长度也在索引范围内，那么会按照索引取自身数\n<br>组指定元素再对外输出。（如果想要取待输出索引值，赋值给被操\n<br>纵属性的指定索引，那么需要中间组件属性连线过渡以下，无法直\n<br>接操作）\n<br>情况3：如果要被操作的组件属性是数组，而且待输出的值也是数组\n<br>类型，此时当情况1来处理。\n<br>三、数据解析用途：\n<br>待输出的值为JSON对象时，用x.y.z这种以字符.或者>为间隔的方式\n<br>实现对JSON字段层次逐层定位，当是数组时x.0.y.1这种以数字的方\n<br>式来指定数组的某个索引。以此实现对任意结果JSON对象字段的定\n<br>位，获取结构内指定字段对应的值。",
+              "name": "bindControlsVal"
+            },
+            {
+              "attr": "paramControlTag",
+              "valueType": "StringArray",
+              "name": "paramControlTag"
+            },
+            {
+              "attr": "paramControlAttr",
+              "valueType": "StringArray",
+              "name": "paramControlAttr"
+            },
+            {
+              "attr": "paramsGenerator",
+              "valueType": "Function",
+              "defaultValue": "__ht__function(data, val, index, node,oldVal,form) {//绑定组索引对应的函数处理，用来动态生成复杂的参数变量传入\r\nswitch(index){\r\n    case 0:\r\n        break;\r\n    case 1:\r\n        break;\r\n    case 2:\r\n        break;\r\n    default:\r\n        break;\r\n}\r\n\r\nreturn val;}",
+              "extraInfo": {
+                "arguments": [
+                  "data",
+                  "val",
+                  "index",
+                  "node",
+                  "oldVal",
+                  "form",
+                  "type"
+                ]
+              },
+              "name": "paramsGenerator"
+            },
+            {
+              "attr": "useAttrCORS",
+              "valueType": "Boolean",
+              "extraInfo": "*",
+              "defaultValue": false,
+              "description": "连线操作和处理回写是否一致。\n                        比如多个文本框连线传值给相同对话框，弹窗修改\n                        后是否限定只能写到最新赋值过来的文本框。详见<a href='https://www.yuque.com/liuhuo-nc809/uiotos/fgi6dd7gado51acm#fFUbp' style=\"color:rgb(96,172,252)\"target=\"_blank\">同源属性操作</a>",
+              "bindIgnored": true,
+              "name": "useAttrCORS",
+              "dynamicCreate": true
+            },
+            {
+              "attr": "典型示例_内嵌页>0>_base>s:shape.background",
+              "name": ".shape.background",
+              "valueType": "Color",
+              "defaultValue": "rgb(247,247,247)",
+              "extraInfo": null,
+              "group": "典型示例_内嵌页>0>_base"
+            },
+            {
+              "attr": "典型示例_内嵌页>0>Text1>s:text",
+              "name": ".文字",
+              "valueType": "String",
+              "defaultValue": "文字",
+              "extraInfo": null,
+              "group": "典型示例_内嵌页>0>Text1"
+            },
+            {
+              "attr": "典型示例_内嵌页>0>Text1>s:text.color",
+              "name": ".text.color",
+              "valueType": "Color",
+              "defaultValue": "rgb(124,145,155)",
+              "extraInfo": null,
+              "group": "典型示例_内嵌页>0>Text1"
+            }
+          ],
+          "snapshotURL": "symbols/develop/uiotos/arranged/controls/containers_icon/对话框.json",
+          "renderHTML": "__ht__function(data, gv, cache) {return __dialog_ui(data,gv,cache);}",
+          "width": 600,
+          "height": 400,
+          "interactive": true,
+          "pixelPerfect": false,
+          "comps": [],
+          "uuid": "5678BE1E-BD95-4EA2-B225-3A25DC9A01E9"
+        },
+        "position": {
+          "x": -171.38381,
+          "y": -1.07857
+        },
+        "width": 453.36932,
+        "height": 282.17936
+      },
+      "s": {
+        "label.position": 14,
+        "label.offset.x": -10,
+        "label.offset.y": 0,
+        "label.color": "rgb(61,61,61)",
+        "interactive": true,
+        "image.stretch": "uniform",
+        "label.opacity": 0
+      },
+      "a": {
+        "isLoadingGet": false,
+        "__loadingStatus": false,
+        "show": false,
+        "symbol": "symbols/develop/uiotos/base/dialog-ui.json",
+        "innerLayoutMode": "fullScreen",
+        "display": "./典型示例/典型示例_内嵌页.json",
+        "background": [
+          "rgba(255,255,255,1)",
+          "rgba(255,255,255,1)",
+          "rgba(255,255,255,1)",
+          "rgba(0,0,0,0.2)"
+        ],
+        "典型示例_内嵌页>0>_base>s:shape.background": "rgb(247,247,247)",
+        "典型示例_内嵌页>0>Text1>s:text": "文字",
+        "典型示例_内嵌页>0>Text1>s:text.color": "rgb(124,145,155)",
+        "innerBackground": "rgb(247,247,247)"
+      }
+    },
+    {
+      "c": "ht.Edge",
+      "i": 699583,
+      "p": {
+        "name": "edge",
+        "displayName": "edge（edge2）",
+        "tag": "edge2",
+        "source": {
+          "__i": 699573
+        },
+        "target": {
+          "__i": 699582
+        }
+      },
+      "s": {
+        "edge.color": "#009687",
+        "edge.width": 1,
+        "label.opacity": 0,
+        "label.position": 14,
+        "label.offset.x": -10,
+        "label.offset.y": 0,
+        "label.color": "rgb(61,61,61)",
+        "interactive": true,
+        "image.stretch": "uniform"
+      }
+    }
+  ],
+  "modified": "Sat Aug 24 2024 21:37:46 GMT+0800 (中国标准时间)",
+  "contentRect": {
+    "x": -976.69031,
+    "y": -313.04176,
+    "width": 2065.80831,
+    "height": 847.48655
+  }
+}

@@ -1,0 +1,269 @@
+{
+  "modified": "Sun Apr 28 2024 17:45:03 GMT+0800 (中国标准时间)",
+  "dataBindings": [
+    {
+      "attr": "ht.name",
+      "valueType": "String",
+      "name": "UIFormItemName"
+    },
+    {
+      "attr": "ht.value",
+      "valueType": "String",
+      "name": "UIFormItemValue"
+    },
+    {
+      "attr": "ht.placeholder",
+      "valueType": "String",
+      "name": "UIPlaceHolder"
+    },
+    {
+      "attr": "ht.disabled",
+      "valueType": "Boolean",
+      "name": "UIDisabled"
+    },
+    {
+      "attr": "ht.maxLength",
+      "valueType": "PositiveNumber",
+      "name": "UIMaxLength"
+    },
+    {
+      "attr": "ht.textColor",
+      "valueType": "Color",
+      "name": "UITextColor",
+      "defaultValue": "rgb(61,61,61)"
+    },
+    {
+      "attr": "ht.textAlign",
+      "valueType": "Align",
+      "name": "UITextAlign"
+    },
+    {
+      "attr": "ht.font",
+      "valueType": "Font",
+      "name": "UIFont"
+    },
+    {
+      "attr": "ht.padding",
+      "valueType": "String",
+      "name": "UIPadding"
+    },
+    {
+      "attr": "ht.borderRadius",
+      "valueType": "String",
+      "name": "UIBorderRadius"
+    },
+    {
+      "attr": "ht.borderColor",
+      "valueType": "Color",
+      "name": "UIBorderColor"
+    },
+    {
+      "attr": "ht.focusBorderColor",
+      "valueType": "Color",
+      "name": "UIFocusBorderColor"
+    },
+    {
+      "attr": "ht.borderWidth",
+      "valueType": "PositiveNumber",
+      "name": "UIBorderWidth"
+    },
+    {
+      "attr": "ht.background",
+      "valueType": "Color",
+      "name": "UIBackground"
+    },
+    {
+      "attr": "ht.icon",
+      "valueType": "Image",
+      "name": "UIIcon"
+    },
+    {
+      "attr": "ht.iconAlign",
+      "valueType": "Align",
+      "name": "UIIcoAlign"
+    },
+    {
+      "attr": "ht.iconWidth",
+      "valueType": "PositiveNumber",
+      "name": "UIIconWidth"
+    },
+    {
+      "attr": "ht.iconHeight",
+      "valueType": "PositiveNumber",
+      "name": "UIIconHeight"
+    },
+    {
+      "attr": "ht.inputType",
+      "valueType": "String",
+      "name": "UIInputType",
+      "defaultValue": "text",
+      "extraInfo": {
+        "enum": {
+          "values": [
+            "text",
+            "password"
+          ]
+        }
+      }
+    },
+    {
+      "attr": "ht.onKeyDown",
+      "valueType": "Function",
+      "name": "UIOnKeyDown",
+      "extraInfo": {
+        "arguments": [
+          "event",
+          "data",
+          "view"
+        ]
+      }
+    },
+    {
+      "attr": "ht.onKeyUp",
+      "valueType": "Function",
+      "name": "UIOnKeyUp",
+      "extraInfo": {
+        "arguments": [
+          "event",
+          "data",
+          "view"
+        ]
+      }
+    },
+    {
+      "attr": "ht.onChange",
+      "valueType": "Function",
+      "name": "UIOnChange",
+      "extraInfo": {
+        "arguments": [
+          "value",
+          "data",
+          "view"
+        ]
+      }
+    },
+    {
+      "attr": "ht.placeholderColor",
+      "valueType": "Color",
+      "description": "占位符颜色"
+    }
+  ],
+  "snapshotURL": "symbols/demo/大屏部件/canvas/snapshot/input.json",
+  "width": 100,
+  "height": 100,
+  "boundExtend": 2,
+  "fitSize": true,
+  "interactive": true,
+  "disableSelectedBorder": true,
+  "pixelPerfect": false,
+  "attachStyle": "close",
+  "comps": [
+    {
+      "type": "components/demo/canvas/ui/input.json",
+      "displayName": "input",
+      "rect": [
+        0,
+        34,
+        95.53191,
+        32
+      ],
+      "onDown": "__ht__function(event, data, view, point, width, height) {\nht.vector.inputInteractor.onDown.apply(this, arguments);\n}",
+      "onUp": "__ht__function(event, data, view, point, width, height) {\nht.vector.inputInteractor.onUp.apply(this, arguments);\n}",
+      "onEnter": "__ht__function(event, data, view, point, width, height) {\nht.vector.inputInteractor.onEnter.apply(this, arguments);\n}",
+      "onLeave": "__ht__function(event, data, view, point, width, height) {\nht.vector.inputInteractor.onLeave.apply(this, arguments);\n}",
+      "onDrag": "__ht__function(event, data, view, point, width, height) {\nht.vector.inputInteractor.onDrag.apply(this, arguments);\n}",
+      "value": {
+        "func": "attr@ht.value"
+      },
+      "placeholder": {
+        "func": "attr@ht.placeholder"
+      },
+      "placeholderColor": {
+        "func": "attr@ht.placeholderColor",
+        "value": "#737373"
+      },
+      "disabled": {
+        "func": "attr@ht.disabled",
+        "value": false
+      },
+      "borderWidth": {
+        "func": "attr@ht.borderWidth",
+        "value": 6
+      },
+      "borderColor": {
+        "func": "attr@ht.borderColor",
+        "value": "rgb(255,255,255)"
+      },
+      "borderPattern": [],
+      "focusBorderColor": {
+        "func": "attr@ht.focusBorderColor",
+        "value": null
+      },
+      "borderRadius": {
+        "func": "attr@ht.borderRadius",
+        "value": "0"
+      },
+      "padding": {
+        "func": "attr@ht.padding",
+        "value": "0"
+      },
+      "background": {
+        "func": "attr@ht.background"
+      },
+      "icon": {
+        "func": "attr@ht.icon"
+      },
+      "iconWidth": {
+        "func": "attr@ht.iconWidth",
+        "value": 20
+      },
+      "iconHeight": {
+        "func": "attr@ht.iconHeight",
+        "value": "20"
+      },
+      "iconAlign": {
+        "func": "attr@ht.iconAlign",
+        "value": "left"
+      },
+      "font": {
+        "func": "attr@ht.font",
+        "value": "12px arial, sans-serif"
+      },
+      "textAlign": {
+        "func": "attr@ht.textAlign",
+        "value": "left"
+      },
+      "textColor": {
+        "func": "attr@ht.textColor",
+        "value": "#737373"
+      },
+      "maxLength": {
+        "func": "attr@ht.maxLength"
+      },
+      "inputType": {
+        "func": "attr@ht.inputType",
+        "value": "text"
+      },
+      "onKeyDown": {
+        "func": "attr@ht.onKeyDown"
+      },
+      "onKeyUp": {
+        "func": "attr@ht.onKeyUp"
+      },
+      "onChange": {
+        "func": "attr@ht.onChange"
+      }
+    },
+    {
+      "type": "shape",
+      "borderWidth": 6,
+      "borderColor": "rgb(255,255,255)",
+      "points": [
+        15.77926,
+        36.90869,
+        15.50423,
+        63.09131
+      ]
+    }
+  ]
+}

@@ -1,0 +1,378 @@
+{
+  "modified": "Thu Dec 07 2023 12:55:37 GMT+0800 (中国标准时间)",
+  "background": "rgb(32,37,46)",
+  "dataBindings": [
+    {
+      "attr": "symbol",
+      "valueType": "Image"
+    },
+    {
+      "attr": "fixedHeight",
+      "valueType": "PositiveNumber",
+      "defaultValue": 35,
+      "group": "功能（关键）"
+    },
+    {
+      "attr": "reset",
+      "valueType": "Level2",
+      "defaultValue": 0
+    },
+    {
+      "attr": "activeBorderColor",
+      "valueType": "Color",
+      "defaultValue": "rgb(51,153,255)"
+    },
+    {
+      "attr": "background",
+      "valueType": "Color"
+    },
+    {
+      "attr": "activeReadOnlyBackground",
+      "valueType": "Color",
+      "defaultValue": "rgb(247,247,247)",
+      "description": "只读时默认背景色。"
+    },
+    {
+      "attr": "hoverReadOnlyBackground",
+      "valueType": "Color",
+      "defaultValue": "rgb(247,247,247)",
+      "description": "只读滑过时背景色。"
+    },
+    {
+      "attr": "hoverIcon",
+      "valueType": "Color"
+    },
+    {
+      "attr": "color",
+      "valueType": "Color"
+    },
+    {
+      "attr": "borderRadius",
+      "valueType": "Number",
+      "defaultValue": 3
+    },
+    {
+      "attr": "borderWidth",
+      "valueType": "Number",
+      "defaultValue": 1
+    },
+    {
+      "attr": "borderColor",
+      "valueType": "Color",
+      "defaultValue": "rgb(213,213,213)"
+    },
+    {
+      "attr": "font",
+      "valueType": "Font"
+    },
+    {
+      "attr": "datas",
+      "valueType": "Object",
+      "defaultValue": [
+        {
+          "name": "Button",
+          "children": [
+            {
+              "name": "ToggleButton",
+              "children": [
+                {
+                  "name": "CheckBox"
+                },
+                {
+                  "name": "RadioButton"
+                }
+              ]
+            },
+            {
+              "name": "MenuButton"
+            }
+          ]
+        },
+        {
+          "name": "TextField",
+          "children": [
+            {
+              "name": "ComboBox"
+            },
+            {
+              "name": "NumberInput"
+            }
+          ]
+        }
+      ],
+      "description": "数据源。\n<br>下拉列表的数据格式，可以是基本列表比如：\n<br>['星期一' , '星期二' , '星期三' ]这样的结构。\n<br>也可以是对象列表，其中需要有name、value\n<br>两个字段，分别用于作为显示名称和数据ID，\n<br>其中value字段的值可以是字符串、数字等类型：\n<br>[{\n<br>        \"name\": \"不限\",\n<br>        \"value\": \"\"\n<br>    },{\n<br>        \"name\": \"故障\",\n<br>        \"value\": \"fault\"\n<br>    },{\n<br>        \"name\": \"报警\",\n<br>        \"value\": \"alarm\"\n<br>}]"
+    },
+    {
+      "attr": "value",
+      "valueType": "Object",
+      "description": "选中值。\n<br>通常结合选中ID（selectedID）和选中名称（selectedText）\n<br>属性使用。可以是对象、ID数字、或者显示字符串，将自动\n<br>识别匹配格式。\n<br>如果是对象并且带有name、value字段时，会自动同步属性\n<br>selectedID和selectedText。\n<br>此外，下拉框数据源为普通列表比如['a','b','c','d']时，这里设\n<br>定value值需要再列表字符串中存在，或者如果设定值是数字\n<br>或数字的字符串，那么对应的列表索引需要存在，此时会自\n<br>动转成列表对应的项作为值。\n<br>下拉框数据源为对象结构的列表时，允许value设定值在列表\n<br>对象中不存在，保持显示。\n<br>注意，如果value值为undefined或null时，相当于复位，value\n<br>属性值则取决于defaultIndex属性确定的默认显示项。\n<br>如果传入空字符串\"\"，不等同于复位，会直接清空显示。如果\n<br>数据源有配置值为空字符串的\"\"，那么按照配置的name字段显\n<br>示，通常源自空信息属性noneInfo配置，索引为1的如果配置\n<br>是空字符串\"\"，那么索引为0的文字将被用于显示。",
+      "defaultValue": ""
+    },
+    {
+      "attr": "noDatasKeepVal",
+      "valueType": "Boolean",
+      "description": "value属性值是否在datas数据为空时保持。\n<br>默认勾选，当datas属性为空数组时，对value属性\n<br>任意设置值时，会被自动清空；当不勾选时，则会\n<br>保留value中非空属性值，即便此时下拉列表为空。",
+      "defaultValue": true
+    },
+    {
+      "attr": "selectedID",
+      "valueType": "Object",
+      "description": "选中ID。\n<br>当前选中的项对应的ID值。当写入时，与在value属性中\n<br>设置ID值效果等同。注意，如果下拉框内容是文字列表，\n<br>那么这里ID就是序号。设置ID与在value属性中设置效果\n<br>等同。",
+      "defaultValue": -1
+    },
+    {
+      "attr": "selectedText",
+      "valueType": "Object",
+      "description": "选中名称。\n<br>当前选中的项对应的名称文字。注意，在树形结构中，由于\n<br>不同层级显示文字可以重复，此时会默认以一个匹配项作为\n<br>选中。简单列表结构则一般不会有重复显示。设置时与value\n<br>属性中设置的效果等同。",
+      "defaultValue": ""
+    },
+    {
+      "attr": "defaultIndex",
+      "valueType": "Int",
+      "defaultValue": 0,
+      "description": "默认显示项的索引。\n<br>整数，代表从0开始的下拉索引。同时也\n<br>支持负数索引，比如-1，为下拉列表的倒\n<br>数第一项、-3为倒数第三项。\n<br>注意，该属性配置要生效，设定默认显示\n<br>项目，需要保证value属性为清空状态，即\n<br>undefined或空字符串\"\"。一旦有设定非空\n<br>的value值，本属性设定的默认显示项无效，\n<br>将显示value属性配置的值。"
+    },
+    {
+      "attr": "nodeUsable",
+      "valueType": "Boolean",
+      "defaultValue": false
+    },
+    {
+      "attr": "hasNoneItem",
+      "valueType": "Boolean",
+      "defaultValue": false,
+      "description": "有空选项。"
+    },
+    {
+      "attr": "noneInfo",
+      "valueType": "ObjectArray",
+      "defaultValue": [
+        "无",
+        -1,
+        ""
+      ],
+      "description": "空选项配置。\n<br>当勾选了“有空选项”（hasNoneItem）时，当前属性配置生效。\n<br>- 数组索引0用于配置空选项的显示文字，为第一个下拉选项。\n<br>- 数组索引1对应选择空时，选中ID（selectedID）的属性值。\n<br>- 数组索引2则对应选中值（value）。\n<br>注意，动态配置索引1和索引2，通常用于下拉选择空时，对外\n<br>连线赋值清空，结合“清空时”（onEmpty）事件。该事件属于\n<br>\"变化时\"（onChange）事件的子集，因此也可以直接用“变化\n<br>时”（onChange）事件，结合当前属性来对外做重置清空。"
+    },
+    {
+      "attr": "readOnly",
+      "valueType": "Boolean",
+      "defaultValue": false
+    },
+    {
+      "attr": "allowChoosing",
+      "valueType": "Function",
+      "extraInfo": {
+        "arguments": [
+          "data",
+          "gv",
+          "cache",
+          "content",
+          "item"
+        ]
+      }
+    },
+    {
+      "attr": "placeholder",
+      "valueType": "String",
+      "defaultValue": "关键词"
+    },
+    {
+      "attr": "labelColor",
+      "valueType": "Color",
+      "defaultValue": "rgb(0,0,0)"
+    },
+    {
+      "attr": "labelText",
+      "valueType": "String",
+      "defaultValue": "下拉框"
+    },
+    {
+      "attr": "gap",
+      "valueType": "PositiveNumber",
+      "defaultValue": 15
+    },
+    {
+      "attr": "layoutVertical",
+      "valueType": "Boolean",
+      "defaultValue": false
+    },
+    {
+      "attr": "labelEmbeded",
+      "valueType": "Boolean"
+    },
+    {
+      "attr": "open",
+      "valueType": "Boolean",
+      "defaultValue": false,
+      "group": "DropDown"
+    },
+    {
+      "attr": "disabled",
+      "valueType": "Boolean",
+      "defaultValue": false,
+      "description": "禁止下拉。\n<br>通常作为“只读（readOnly）”属性的补充，勾选后，会自动\n<br>强制设置为只读，并且无法下拉选择。单独只勾选只读属性\n<br>时，用户无法输入编辑，但是可以下拉选择。\n<br>对于表单页面的查看模式下，下拉框通常需要勾选该属性，\n<br>无需手动再勾选只读属性。"
+    },
+    {
+      "attr": "treeBoxShadow",
+      "valueType": "String",
+      "defaultValue": "0px 8px 22px rgba(0,0,0,0.1)"
+    },
+    {
+      "attr": "treeBackground",
+      "valueType": "Color",
+      "defaultValue": "rgb(255,255,255)"
+    },
+    {
+      "attr": "treeLabelColor",
+      "valueType": "Color",
+      "defaultValue": "rgb(61,61,61)"
+    },
+    {
+      "attr": "treeHoverLabelColor",
+      "valueType": "Color",
+      "defaultValue": "rgb(51,153,255)"
+    },
+    {
+      "attr": "treeSelectLabelColor",
+      "valueType": "Color",
+      "defaultValue": "rgb(51,153,255)"
+    },
+    {
+      "attr": "treeLabelFont",
+      "valueType": "Font",
+      "defaultValue": "12px sans-serif, Arial"
+    },
+    {
+      "attr": "treeRowHeight",
+      "valueType": "PositiveNumber",
+      "defaultValue": 25
+    },
+    {
+      "attr": "treeRowLineColor",
+      "valueType": "Color",
+      "defaultValue": "rgb(247,247,247)"
+    },
+    {
+      "attr": "treeRowBackground",
+      "valueType": "Color",
+      "defaultValue": "rgb(255,255,255)"
+    },
+    {
+      "attr": "treeSelectRowBackground",
+      "valueType": "Color",
+      "defaultValue": "rgb(247,247,247)"
+    },
+    {
+      "attr": "treeFocusRowBackground",
+      "valueType": "Color",
+      "defaultValue": "rgb(247,247,247)"
+    },
+    {
+      "attr": "treeBorderWidth",
+      "valueType": "PositiveNumber",
+      "defaultValue": 0
+    },
+    {
+      "attr": "treeBorderColor",
+      "valueType": "Color"
+    },
+    {
+      "attr": "treeBorderRadius",
+      "valueType": "NumberArray",
+      "defaultValue": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "attr": "treePadding",
+      "valueType": "NumberArray",
+      "defaultValue": [
+        5,
+        0,
+        5,
+        0
+      ]
+    },
+    {
+      "attr": "bindControlsTag",
+      "valueType": "StringArray",
+      "group": "bindControls"
+    },
+    {
+      "attr": "bindControlsAttr",
+      "valueType": "StringArray"
+    },
+    {
+      "attr": "bindControlsVal",
+      "valueType": "ObjectArray",
+      "description": "静态值。也用作数组索引、JSON对象解析提取值用途。\n<br>一、静态值用途：\n<br>对常规类型的属性赋值且没有反向关联属性值，传入为数值时，不\n<br>会作为数组的索引，而会当成常量值对外赋值。此外，存在特殊值：\n<br>~和undefined表示过滤、不触发；null为默认值，表示传递默认表\n<br>单数据。编辑状态下清空后保存与设置null等价。\n<br>二、数组索引用途\n<br>情况1：被操作的组件属性原先值是数组时（包括空数组），会将\n<br>待输出的值作为被操作数组指定索引的值来传入，而不是整体覆盖。\n<br>情况2：如果要被操作的组件属性原先值不是数组，而且待输出的\n<br>值为数组类型并且长度也在索引范围内，那么会按照索引取自身数\n<br>组指定元素再对外输出。（如果想要取待输出索引值，赋值给被操\n<br>纵属性的指定索引，那么需要中间组件属性连线过渡以下，无法直\n<br>接操作）\n<br>情况3：如果要被操作的组件属性是数组，而且待输出的值也是数组\n<br>类型，此时当情况1来处理。\n<br>三、数据解析用途：\n<br>待输出的值为JSON对象时，用x.y.z这种以字符.或者>为间隔的方式\n<br>实现对JSON字段层次逐层定位，当是数组时x.0.y.1这种以数字的方\n<br>式来指定数组的某个索引。以此实现对任意结果JSON对象字段的定\n<br>位，获取结构内指定字段对应的值。"
+    },
+    {
+      "attr": "paramControlTag",
+      "valueType": "StringArray"
+    },
+    {
+      "attr": "paramControlAttr",
+      "valueType": "StringArray"
+    },
+    {
+      "attr": "paramsGenerator",
+      "valueType": "Function",
+      "defaultValue": "__ht__function(data, val, index, node,oldVal,form,type,inner) {//绑定组索引对应的函数处理，用来动态生成复杂的参数变量传入\r\nswitch(index){\r\n    case 0:\r\n        break;\r\n    case 1:\r\n        break;\r\n    case 2:\r\n        break;\r\n    default:\r\n        break;\r\n}\r\n\r\nreturn val;}",
+      "extraInfo": {
+        "arguments": [
+          "data",
+          "val",
+          "index",
+          "node",
+          "oldVal",
+          "form",
+          "type",
+          "inner"
+        ]
+      }
+    },
+    {
+      "attr": "onOpened",
+      "valueType": "Function",
+      "extraInfo": {
+        "arguments": [
+          "data",
+          "gv",
+          "cache",
+          "value",
+          "extra"
+        ]
+      }
+    },
+    {
+      "attr": "onChange",
+      "valueType": "Function",
+      "extraInfo": {
+        "arguments": [
+          "data",
+          "gv",
+          "cache",
+          "value",
+          "extra"
+        ]
+      }
+    },
+    {
+      "attr": "userData",
+      "valueType": "ObjectArray"
+    }
+  ],
+  "snapshotURL": "symbols/admin/uiotos/icons/snapshot/combobox.json",
+  "renderHTML": "__ht__function(data, gv, cache) {return __combobox_ui(data,gv,cache);}",
+  "width": 180,
+  "height": 35,
+  "fitSize": true,
+  "scrollable": true,
+  "interactive": true,
+  "pixelPerfect": false,
+  "comps": []
+}

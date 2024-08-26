@@ -1,0 +1,149 @@
+{
+  "modified": "Fri Jul 16 2021 15:04:35 GMT+0800 (中国标准时间)",
+  "width": 200,
+  "height": 30,
+  "snapshotURL": "",
+  "func": "__ht__function(g, rect, comp, data, view) {\nht.vector.comp.slider.apply(ht.vector.comp.slider,arguments);\n}",
+  "properties": {
+    "min": {
+      "valueType": "Number",
+      "defaultValue": -10,
+      "name": "ChartMinValue"
+    },
+    "max": {
+      "valueType": "Number",
+      "defaultValue": 10,
+      "name": "ChartMaxValue"
+    },
+    "value": {
+      "valueType": "Number",
+      "defaultValue": 0,
+      "name": "ChartValue"
+    },
+    "disabled": {
+      "valueType": "Boolean",
+      "defaultValue": false,
+      "name": "UIDisabled"
+    },
+    "disabledLayerColor": {
+      "valueType": "Color",
+      "defaultValue": "rgba(255,255,255,0.35)",
+      "name": "UIDisabledLayerColor"
+    },
+    "barBackground": {
+      "valueType": "Color",
+      "defaultValue": "rgb(237,237,237)",
+      "name": "UIBackground"
+    },
+    "barValueBackground": {
+      "valueType": "Color",
+      "defaultValue": "#32D3EB",
+      "name": "SliderValueBackground"
+    },
+    "barGradient": {
+      "valueType": "Gradient",
+      "defaultValue": null,
+      "name": "editor.gradient"
+    },
+    "barGradientColor": {
+      "valueType": "Color",
+      "defaultValue": "rgb(255,255,255)",
+      "name": "editor.gradientcolor"
+    },
+    "barWidth": {
+      "valueType": "PositiveNumber",
+      "defaultValue": 3,
+      "name": "SliderBarWidth"
+    },
+    "barBorderRadius": {
+      "valueType": "PositiveNumber",
+      "defaultValue": 0.5,
+      "name": "SliderBarBorderRadius"
+    },
+    "sliderImage": {
+      "valueType": "Image",
+      "name": "SliderImage"
+    },
+    "sliderBorderWidth": {
+      "valueType": "PositiveNumber",
+      "defaultValue": 2,
+      "name": "SliderBorderWidth"
+    },
+    "sliderBorderRadius": {
+      "valueType": "PositiveNumber",
+      "defaultValue": 0.5,
+      "name": "SliderBorderRadius"
+    },
+    "sliderBorderColor": {
+      "valueType": "Color",
+      "defaultValue": "rgb(51,153,255)",
+      "name": "SliderBorderColor"
+    },
+    "sliderBackground": {
+      "valueType": "Color",
+      "defaultValue": "rgb(247,247,247)",
+      "name": "SliderBackground"
+    },
+    "sliderWidth": {
+      "valueType": "PositiveNumber",
+      "defaultValue": 10,
+      "name": "SliderWidth"
+    },
+    "sliderHeight": {
+      "valueType": "PositiveNumber",
+      "defaultValue": 10,
+      "name": "SliderHeight"
+    },
+    "sliderOffsetX": {
+      "valueType": "Int",
+      "defaultValue": 0,
+      "name": "SliderOffsetX"
+    },
+    "sliderOffsetY": {
+      "valueType": "Int",
+      "defaultValue": 0,
+      "name": "SliderOffsetY"
+    },
+    "padding": {
+      "valueType": "PositiveNumber",
+      "defaultValue": 5,
+      "name": "editor.padding"
+    },
+    "showToolTip": {
+      "valueType": "Boolean",
+      "defaultValue": true,
+      "name": "UIShowToolTip"
+    },
+    "toolTipFormat": {
+      "valueType": "Function",
+      "name": "UIToolTipFormat"
+    },
+    "step": {
+      "valueType": "PositiveNumber",
+      "defaultValue": 0,
+      "name": "SliderStep"
+    },
+    "onChange": {
+      "valueType": "Function",
+      "name": "UIOnChange",
+      "extraInfo": {
+        "arguments": [
+          "oldValue",
+          "newValue",
+          "data",
+          "view"
+        ]
+      }
+    }
+  },
+  "events": {
+    "onDown": "__ht__function(event, data, view, point, width, height) {\nht.vector.sliderInteractor.onDown.apply(this, arguments);\n}",
+    "onUp": "__ht__function(event, data, view, point, width, height) {\nht.vector.sliderInteractor.onUp.apply(this, arguments);\n}",
+    "onMove": "__ht__function(event, data, view, point, width, height) {\nht.vector.sliderInteractor.onMove.apply(this, arguments);\n}",
+    "onEnter": "__ht__function(event, data, view, point, width, height) {\nht.vector.sliderInteractor.onEnter.apply(this, arguments);\n}",
+    "onLeave": "__ht__function(event, data, view, point, width, height) {\nht.vector.sliderInteractor.onLeave.apply(this, arguments);\n}",
+    "onBeginDrag": "__ht__function(event, data, view, point, width, height) {\nht.vector.sliderInteractor.onBeginDrag.apply(this, arguments);\n}",
+    "onDrag": "__ht__function(event, data, view, point, width, height) {\nht.vector.sliderInteractor.onDrag.apply(this, arguments);\n}",
+    "onEndDrag": "__ht__function(event, data, view, point, width, height) {\nht.vector.sliderInteractor.onEndDrag.apply(this, arguments);\n}"
+  }
+}

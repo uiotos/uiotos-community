@@ -1,0 +1,48 @@
+{
+  "modified": "Fri Sep 23 2022 21:20:30 GMT+0800 (中国标准时间)",
+  "background": "rgb(32,37,46)",
+  "dataBindings": [
+    {
+      "attr": "text",
+      "valueType": "String"
+    },
+    {
+      "attr": "textColor",
+      "valueType": "Color"
+    },
+    {
+      "attr": "textScale",
+      "valueType": "Number"
+    }
+  ],
+  "width": 32,
+  "height": 15,
+  "comps": [
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@text",
+        "value": "文本"
+      },
+      "align": "center",
+      "color": {
+        "func": "attr@textColor",
+        "value": "#ddd"
+      },
+      "scaleX": {
+        "func": "attr@textScale",
+        "value": 1
+      },
+      "scaleY": {
+        "func": "attr@textScale",
+        "value": 1
+      },
+      "rect": [
+        0,
+        1.14324,
+        32,
+        12.71351
+      ]
+    }
+  ]
+}

@@ -1,0 +1,2572 @@
+{
+    "v": "7.3.2",
+    "p": {
+        "autoAdjustIndex": true,
+        "hierarchicalRendering": true
+    },
+    "a": {
+        "rotateAsClock": false,
+        "gridBlockSize": 20,
+        "gridThickColor": "rgba(100,100,100,0.2)",
+        "gridLightColor": "rgba(127,127,127,0.1)",
+        "connectActionType": null,
+        "fitContent": false,
+        "pannable": false,
+        "zoomable": false,
+        "satellite": true,
+        "rectSelectable": false,
+        "tzoom": false
+    },
+    "d": [{
+            "c": "ht.Node",
+            "i": 233623,
+            "p": {
+                "position": {
+                    "x": 367.18615,
+                    "y": -502.6595
+                },
+                "width": 1920,
+                "height": 1080
+            },
+            "s": {
+                "shape": "rect",
+                "shape.background": "rgb(255,255,255)",
+                "shape.border.color": "#979797",
+                "interactive": true,
+                "image.stretch": "uniform",
+                "fullscreen.gap": 0,
+                "fullscreen": "fill",
+                "text.font": "16px arial, sans-serif"
+            },
+            "a": {
+                "linearOuter": [
+                    "rgb(51,153,255)",
+                    "rgb(247,247,247)"
+                ]
+            }
+        },
+        {
+            "c": "ht.Block",
+            "i": 233624,
+            "p": {
+                "host": {
+                    "__i": 233623
+                },
+                "position": {
+                    "x": -309.30275,
+                    "y": -1022.26604
+                },
+                "anchor": {
+                    "x": 0.13349,
+                    "y": 0.00269
+                },
+                "width": 1874.38066,
+                "height": 1029.36814
+            },
+            "s": {
+                "interactive": true,
+                "image.stretch": "uniform",
+                "layout.v": "topbottom",
+                "layout.h": "leftright",
+                "2d.selectable": false
+            }
+        },
+        {
+            "c": "ht.Node",
+            "i": 233625,
+            "p": {
+                "displayName": "combobox-ui",
+                "parent": {
+                    "__i": 233624
+                },
+                "image": "symbols/admin/uiotos/base/combobox-ui.json",
+                "position": {
+                    "x": -309.30275,
+                    "y": -1003.14049
+                },
+                "width": 500.43839,
+                "height": 35
+            },
+            "s": {
+                "interactive": true,
+                "image.stretch": "uniform",
+                "layout.v": "top",
+                "layout.h": "left"
+            },
+            "a": {
+                "borderRadius": 3,
+                "labelColor": "rgb(61,61,61)",
+                "labelText": "设备名称",
+                "gap": 15,
+                "font": "12px arial, sans-serif",
+                "borderColor": "rgb(213,213,213)",
+                "placeholder": "请输入"
+            }
+        },
+        {
+            "c": "ht.Node",
+            "i": 233626,
+            "p": {
+                "displayName": "combobox-ui",
+                "parent": {
+                    "__i": 233624
+                },
+                "image": "symbols/admin/uiotos/base/combobox-ui.json",
+                "position": {
+                    "x": 268.00147,
+                    "y": -1003.14049
+                },
+                "width": 500.43839,
+                "height": 35
+            },
+            "s": {
+                "interactive": true,
+                "image.stretch": "uniform",
+                "layout.v": "top",
+                "layout.h": "left"
+            },
+            "a": {
+                "borderRadius": 3,
+                "labelColor": "rgb(61,61,61)",
+                "labelText": "设备状态",
+                "gap": 15,
+                "font": "12px arial, sans-serif",
+                "borderColor": "rgb(213,213,213)",
+                "placeholder": "请输入"
+            }
+        },
+        {
+            "c": "ht.Node",
+            "i": 233627,
+            "p": {
+                "displayName": "button",
+                "parent": {
+                    "__i": 233624
+                },
+                "tag": "button2222",
+                "image": "symbols/admin/uiotos/base/button.json",
+                "position": {
+                    "x": 683.19552,
+                    "y": -1004.39133
+                },
+                "width": 128.27373,
+                "height": 35
+            },
+            "s": {
+                "interactive": true,
+                "image.stretch": "uniform"
+            },
+            "a": {
+                "icon-background": "rgb(255,255,255)",
+                "ht.borderColor": "rgb(255,255,255)",
+                "ht.background": "rgb(55,125,255)",
+                "ht.textColor": "rgb(255,255,255)",
+                "darkStyle": true,
+                "ht.text": "查询",
+                "bindControlsTag": [
+                    "dialog-ui"
+                ],
+                "bindControlsAttr": [
+                    "show"
+                ],
+                "ht.onClick": "__ht__function(event, data, view) {setBindTabviewIndex(data,data.ca('bindTabview'));\r\nsetBindControls(data,data.ca('bindControlsTag'),data.ca('bindControlsAttr'))}"
+            }
+        },
+        {
+            "c": "ht.Node",
+            "i": 233628,
+            "p": {
+                "displayName": "button",
+                "parent": {
+                    "__i": 233624
+                },
+                "image": "symbols/admin/uiotos/base/button.json",
+                "position": {
+                    "x": -497.49835,
+                    "y": -935.26721
+                },
+                "width": 124.04718,
+                "height": 35
+            },
+            "s": {
+                "interactive": true,
+                "image.stretch": "uniform"
+            },
+            "a": {
+                "icon-background": "rgb(255,255,255)",
+                "ht.borderColor": "rgb(255,255,255)",
+                "ht.background": "rgb(55,125,255)",
+                "ht.textColor": "rgb(255,255,255)",
+                "darkStyle": true,
+                "ht.text": "添加设备"
+            }
+        },
+        {
+            "c": "ht.Node",
+            "i": 233629,
+            "p": {
+                "displayName": "combobox-ui",
+                "parent": {
+                    "__i": 233624
+                },
+                "image": "symbols/admin/uiotos/base/combobox-ui.json",
+                "position": {
+                    "x": -384.42955,
+                    "y": -96.25051
+                },
+                "width": 350.18477,
+                "height": 63
+            },
+            "s": {
+                "interactive": true,
+                "image.stretch": "uniform"
+            },
+            "a": {
+                "layoutVertical": true,
+                "gap": 10,
+                "dataListSource": [
+                    "111",
+                    "222",
+                    "333",
+                    "444",
+                    "555"
+                ]
+            }
+        },
+        {
+            "c": "ht.Node",
+            "i": 233630,
+            "p": {
+                "displayName": "radioBox-ui",
+                "parent": {
+                    "__i": 233624
+                },
+                "image": "symbols/admin/uiotos/base/radioBox-ui.json",
+                "position": {
+                    "x": -472.4533,
+                    "y": -813.31786
+                },
+                "width": 174.1373,
+                "height": 135
+            },
+            "s": {
+                "interactive": true,
+                "image.stretch": "uniform"
+            },
+            "a": {
+                "gapItem": 15,
+                "gapLabel": 10,
+                "labelFont": "12px arial, sans-serif",
+                "labelColor": "rgb(212,0,0)",
+                "radioColor": "rgb(124,145,155)",
+                "radioFont": "12px arial, sans-serif",
+                "layoutType": 1
+            }
+        },
+        {
+            "c": "ht.Node",
+            "i": 233631,
+            "p": {
+                "displayName": "radioBox-ui",
+                "parent": {
+                    "__i": 233624
+                },
+                "image": "symbols/admin/uiotos/base/radioBox-ui.json",
+                "position": {
+                    "x": -384.42954,
+                    "y": -13.1623
+                },
+                "width": 350.18476,
+                "height": 35
+            },
+            "s": {
+                "interactive": true,
+                "image.stretch": "uniform"
+            },
+            "a": {
+                "layoutVertical": false,
+                "labelIcon": "symbols/admin/uiotos/icons/common/verticalBar.json",
+                "layoutType": 0
+            }
+        },
+        {
+            "c": "ht.Node",
+            "i": 233632,
+            "p": {
+                "displayName": "radioBox-ui",
+                "parent": {
+                    "__i": 233624
+                },
+                "image": "symbols/admin/uiotos/base/radioBox-ui.json",
+                "position": {
+                    "x": -479.35087,
+                    "y": -709.72323
+                },
+                "width": 160.34215,
+                "height": 57.5
+            },
+            "s": {
+                "interactive": true,
+                "image.stretch": "uniform"
+            },
+            "a": {
+                "layoutType": 2,
+                "gapLabel": 5
+            }
+        },
+        {
+            "c": "ht.Node",
+            "i": 233633,
+            "p": {
+                "displayName": "combobox-ui",
+                "parent": {
+                    "__i": 233624
+                },
+                "image": "symbols/develop/uiotos/base/combobox-ui.json",
+                "position": {
+                    "x": -384.42955,
+                    "y": -320.60639
+                },
+                "width": 350.18477,
+                "height": 35
+            },
+            "s": {
+                "interactive": true,
+                "image.stretch": "uniform"
+            },
+            "a": {
+                "borderRadius": 3,
+                "treeDropDown": true,
+                "dataTreeSource": [{
+                        "name": "Button",
+                        "children": [{
+                                "name": "ToggleButton",
+                                "children": [{
+                                        "name": "CheckBox"
+                                    },
+                                    {
+                                        "name": "RadioButton"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "MenuButton"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "TextField",
+                        "children": [{
+                                "name": "ComboBox"
+                            },
+                            {
+                                "name": "NumberInput"
+                            }
+                        ]
+                    }
+                ],
+                "toggle": true,
+                "keepOpen": false,
+                "hoverReadOnlyBackground": "rgb(110,75,75)",
+                "readOnly": false,
+                "activeReadOnlyBackground": "#60ACFC",
+                "hoverIcon": "rgb(59,39,39)",
+                "borderColor": "rgb(231,231,231)",
+                "color": "rgb(51,13,13)",
+                "treeBackground": "rgb(255,255,255)",
+                "treeLabelColor": "rgb(61,61,61)",
+                "treeRowBackground": "rgb(255,255,255)",
+                "open": true,
+                "treeBoxShadow": "0px 8px 22px rgba(0,0,0,0.2)",
+                "treeRowHeight": 25,
+                "treeBorderColor": "rgba(51,153,255,0.5)",
+                "treeBorderWidth": 0,
+                "treePadding": [
+                    5,
+                    5,
+                    5,
+                    5
+                ],
+                "datas": [{
+                        "icon": "assets/demo/extra/desktop/我的设备/驱动.png",
+                        "name": "Button",
+                        "value": "id1",
+                        "children": [{
+                                "icon": "assets/demo/extra/desktop/我的设备/驱动.png",
+                                "name": "ToggleButton",
+                                "value": "id1.1",
+                                "children": [{
+                                        "icon": "assets/demo/extra/desktop/我的设备/驱动.png",
+                                        "name": "CheckBox",
+                                        "value": "id1.1.1"
+                                    },
+                                    {
+                                        "icon": "assets/demo/extra/desktop/我的设备/驱动.png",
+                                        "name": "RadioButton",
+                                        "value": "id1.1.2"
+                                    }
+                                ]
+                            },
+                            {
+                                "icon": "assets/demo/extra/desktop/我的设备/驱动.png",
+                                "name": "MenuButton",
+                                "value": "id1.2"
+                            }
+                        ]
+                    },
+                    {
+                        "icon": "assets/demo/extra/desktop/我的设备/驱动.png",
+                        "name": "TextField",
+                        "value": "id2",
+                        "children": [{
+                                "icon": "assets/demo/extra/desktop/我的设备/驱动.png",
+                                "name": "ComboBox",
+                                "value": "id2.1"
+                            },
+                            {
+                                "icon": "assets/demo/extra/desktop/我的设备/驱动.png",
+                                "name": "NumberInput",
+                                "value": "id2.2"
+                            }
+                        ]
+                    }
+                ],
+                "placeholder": "关键词",
+                "value": "id1.1.1",
+                "onChange": "__ht__function(data, gv, cache, value) {console.error(value)}"
+            }
+        },
+        {
+            "c": "ht.Node",
+            "i": 233634,
+            "p": {
+                "displayName": "input-ui",
+                "parent": {
+                    "__i": 233624
+                },
+                "image": "symbols/admin/uiotos/base/input-ui.json",
+                "position": {
+                    "x": -384.42955,
+                    "y": -178.64942
+                },
+                "width": 350.18477,
+                "height": 63
+            },
+            "s": {
+                "interactive": true,
+                "image.stretch": "uniform"
+            },
+            "a": {
+                "layoutVertical": true,
+                "gap": 10,
+                "labelText": "姓名："
+            }
+        },
+        {
+            "c": "ht.Node",
+            "i": 233635,
+            "p": {
+                "displayName": "radioBox-ui",
+                "parent": {
+                    "__i": 233624
+                },
+                "image": "symbols/admin/uiotos/base/radioBox-ui.json",
+                "position": {
+                    "x": -399.17979,
+                    "y": -649.56786
+                },
+                "width": 320.68431,
+                "height": 35
+            },
+            "s": {
+                "interactive": true,
+                "image.stretch": "uniform"
+            },
+            "a": {
+                "layoutType": 0
+            }
+        },
+        {
+            "c": "ht.Node",
+            "i": 233636,
+            "p": {
+                "displayName": "radioBox-ui",
+                "parent": {
+                    "__i": 233624
+                },
+                "image": "symbols/admin/uiotos/base/radioBox-ui.json",
+                "position": {
+                    "x": -515.4036,
+                    "y": -607.06786
+                },
+                "width": 88.23664,
+                "height": 35
+            },
+            "s": {
+                "interactive": true,
+                "image.stretch": "uniform"
+            },
+            "a": {
+                "dataList": [
+                    "启用"
+                ],
+                "labelColor": "rgb(55,125,255)",
+                "radioColor": "rgb(55,125,255)",
+                "gapLabel": 5
+            }
+        },
+        {
+            "c": "ht.Node",
+            "i": 233637,
+            "p": {
+                "displayName": "button",
+                "parent": {
+                    "__i": 233624
+                },
+                "image": "symbols/admin/uiotos/base/button.json",
+                "position": {
+                    "x": 868.79103,
+                    "y": -1004.39133
+                },
+                "width": 128.27373,
+                "height": 35
+            },
+            "s": {
+                "interactive": true,
+                "image.stretch": "uniform"
+            },
+            "a": {
+                "icon-background": "rgb(255,255,255)",
+                "ht.borderColor": "rgb(255,255,255)",
+                "ht.background": "#FF7C7C",
+                "ht.textColor": "rgb(255,255,255)",
+                "darkStyle": true,
+                "ht.text": "重置"
+            }
+        },
+        {
+            "c": "ht.Node",
+            "i": 233638,
+            "p": {
+                "displayName": "checkBox-ui",
+                "parent": {
+                    "__i": 233624
+                },
+                "image": "symbols/admin/uiotos/base/checkBox-ui.json",
+                "position": {
+                    "x": -435.47476,
+                    "y": -823.31786
+                },
+                "width": 102.09045,
+                "height": 115
+            },
+            "s": {
+                "interactive": true,
+                "image.stretch": "uniform"
+            },
+            "a": {
+                "layoutType": 1
+            }
+        },
+        {
+            "c": "ht.Node",
+            "i": 233639,
+            "p": {
+                "displayName": "textArea-ui",
+                "parent": {
+                    "__i": 233624
+                },
+                "image": "symbols/admin/uiotos/base/textArea-ui.json",
+                "position": {
+                    "x": -384.42955,
+                    "y": -502.55805
+                },
+                "width": 350.18477,
+                "height": 121.20217
+            },
+            "s": {
+                "interactive": true,
+                "image.stretch": "uniform"
+            },
+            "a": {
+                "layoutVertical": true,
+                "gap": 10,
+                "borderRadius": 3,
+                "color": "rgb(0,0,0)",
+                "labelColor": "rgb(0,0,0)"
+            }
+        },
+        {
+            "c": "ht.Node",
+            "i": 233640,
+            "p": {
+                "displayName": "numberInput-ui",
+                "parent": {
+                    "__i": 233624
+                },
+                "image": "symbols/develop/uiotos/base/numberInput-ui.json",
+                "position": {
+                    "x": -304.25848,
+                    "y": -863.31786
+                },
+                "width": 189.84263,
+                "height": 35
+            },
+            "s": {
+                "interactive": true,
+                "image.stretch": "uniform"
+            }
+        },
+        {
+            "c": "ht.Node",
+            "i": 233641,
+            "p": {
+                "displayName": "dateRagePicker-ui",
+                "parent": {
+                    "__i": 233624
+                },
+                "image": "symbols/develop/uiotos/base/dateRangePicker-ui.json",
+                "position": {
+                    "x": -384.42954,
+                    "y": -253.17931
+                },
+                "width": 350.18476,
+                "height": 35
+            },
+            "s": {
+                "interactive": true,
+                "image.stretch": "uniform"
+            },
+            "a": {
+                "layoutVertical": false,
+                "createContorl": "__ht__function createContorl(data){\r\n    return new ht.ui.DateRangePicker()\r\n}"
+            }
+        },
+        {
+            "c": "ht.Node",
+            "i": 233642,
+            "p": {
+                "displayName": "cascadeComboBox-ui",
+                "parent": {
+                    "__i": 233624
+                },
+                "image": "symbols/develop/uiotos/base/cascadeComboBox-ui.json",
+                "position": {
+                    "x": -384.42954,
+                    "y": -391.76255
+                },
+                "width": 350.18476,
+                "height": 35
+            },
+            "s": {
+                "interactive": true,
+                "image.stretch": "uniform"
+            },
+            "a": {
+                "isCities": true,
+                "readOnly": false,
+                "gap": 15,
+                "layoutVertical": false,
+                "shadowEnabled": true,
+                "placeholder": " ",
+                "labelText": "级联选择"
+            }
+        },
+        {
+            "c": "ht.Node",
+            "i": 233643,
+            "p": {
+                "displayName": "processCurve",
+                "parent": {
+                    "__i": 233624
+                },
+                "image": "symbols/admin/uiotos/base/processCurve.json",
+                "position": {
+                    "x": -409.42955,
+                    "y": -599.56786
+                },
+                "width": 50,
+                "height": 50
+            },
+            "s": {
+                "interactive": true,
+                "image.stretch": "uniform"
+            },
+            "a": {
+                "font": "12px arial, sans-serif",
+                "borderWidth": 3,
+                "shadow": false,
+                "borderColor": "rgba(245,51,51,0.5)"
+            }
+        },
+        {
+            "c": "ht.Node",
+            "i": 233644,
+            "p": {
+                "displayName": "processCircle",
+                "parent": {
+                    "__i": 233624
+                },
+                "image": "symbols/admin/uiotos/base/processCircle.json",
+                "position": {
+                    "x": -329.25848,
+                    "y": -599.56786
+                },
+                "width": 50,
+                "height": 50
+            },
+            "s": {
+                "interactive": true,
+                "image.stretch": "uniform"
+            },
+            "a": {
+                "outerDefaultColor": "rgba(59,59,59,0.05)"
+            }
+        },
+        {
+            "c": "ht.Node",
+            "i": 233645,
+            "p": {
+                "displayName": "timeLine-ui",
+                "parent": {
+                    "__i": 233624
+                },
+                "image": "symbols/admin/uiotos/base/timeLine-ui.json",
+                "position": {
+                    "x": 752.94662,
+                    "y": -685.90415
+                },
+                "width": 231.68883,
+                "height": 508.86089
+            },
+            "s": {
+                "interactive": true,
+                "image.stretch": "uniform"
+            },
+            "a": {
+                "shadowEnabled": true,
+                "shadowColor": "rgba(97,97,97,0.2)"
+            }
+        },
+        {
+            "c": "ht.Node",
+            "i": 233646,
+            "p": {
+                "displayName": "sidebar",
+                "parent": {
+                    "__i": 233624
+                },
+                "image": "symbols/admin/uiotos/base/menuSidebar-ui.json",
+                "position": {
+                    "x": 1133.99557,
+                    "y": -868.70123
+                },
+                "width": 361.72627,
+                "height": 143.26674
+            },
+            "s": {
+                "interactive": true,
+                "image.stretch": "uniform"
+            },
+            "a": {
+                "rightSide": true,
+                "collapsed": false,
+                "loadStyle": true,
+                "boxShadowColor": "rgba(107,44,44,0.30)",
+                "boxShadowBorder": [-3,
+                    0,
+                    5
+                ],
+                "background": "rgb(255,255,255)",
+                "hidedWidth": 50,
+                "widthPadding": 15,
+                "widthNextState": 80,
+                "origin_width": 324.06375,
+                "origin_height": 487.89436,
+                "border-radius": 30,
+                "borderWidth": 1,
+                "borderColor": "rgb(247,247,247)",
+                "fontContent": "12px Microsoft YaHei",
+                "borderRadius": 10,
+                "shadowBorder": [
+                    0,
+                    0,
+                    8
+                ],
+                "fontNode": "12px Microsoft YaHei",
+                "shadowEnabled": true,
+                "shadowColor": "rgba(97,97,97,0.2)"
+            }
+        },
+        {
+            "c": "ht.Node",
+            "i": 233647,
+            "p": {
+                "displayName": "button",
+                "parent": {
+                    "__i": 233624
+                },
+                "image": "symbols/admin/uiotos/base/button.json",
+                "position": {
+                    "x": 1073.08607,
+                    "y": -1007.53019
+                },
+                "width": 128.27373,
+                "height": 35
+            },
+            "s": {
+                "interactive": true,
+                "image.stretch": "uniform"
+            },
+            "a": {
+                "icon-background": "rgb(255,255,255)",
+                "ht.borderColor": "rgb(51,153,255)",
+                "ht.background": "rgb(255,255,255)",
+                "ht.textColor": "rgb(51,153,255)",
+                "darkStyle": false,
+                "ht.text": "重置"
+            }
+        },
+        {
+            "c": "ht.Node",
+            "i": 233648,
+            "p": {
+                "displayName": "button",
+                "parent": {
+                    "__i": 233624
+                },
+                "image": "symbols/admin/uiotos/base/button.json",
+                "position": {
+                    "x": 1206.51917,
+                    "y": -1007.53019
+                },
+                "width": 128.27373,
+                "height": 35
+            },
+            "s": {
+                "interactive": true,
+                "image.stretch": "uniform"
+            },
+            "a": {
+                "icon-background": "rgb(255,255,255)",
+                "ht.borderColor": "rgb(51,153,255)",
+                "ht.background": "rgb(255,255,255)",
+                "ht.textColor": "rgb(51,153,255)",
+                "darkStyle": false,
+                "ht.text": "重置"
+            }
+        },
+        {
+            "c": "ht.Node",
+            "i": 233649,
+            "p": {
+                "displayName": "coordgis-ui",
+                "parent": {
+                    "__i": 233624
+                },
+                "image": "symbols/admin/uiotos/base/coordgis-ui.json",
+                "position": {
+                    "x": 279.98755,
+                    "y": -683.37046
+                },
+                "width": 678.14221,
+                "height": 503.7935
+            },
+            "s": {
+                "interactive": true,
+                "image.stretch": "uniform"
+            },
+            "a": {
+                "mapurl": "http://map.geoq.cn/ArcGIS/rest/services/ChinaOnlineCommunity/MapServer/tile/{z}/{y}/{x}",
+                "zoom": 8,
+                "inputControl": "gisInput",
+                "coord": "22.566146029183443,114.05663262302326"
+            }
+        },
+        {
+            "c": "ht.Node",
+            "i": 233650,
+            "p": {
+                "displayName": "input-ui",
+                "parent": {
+                    "__i": 233624
+                },
+                "tag": "gisInput",
+                "dataBindings": {
+                    "a": {
+                        "value": {
+                            "id": "gisdemo.coord",
+                            "func": "__ht__function transformFilter(rawData) {\r\n    try {\r\n        var t = rawData.dev_info,\r\n            dev = t.split(\"——\");\r\n        var name = rawData.name,\r\n            id = rawData.data_id,\r\n            pk = rawData.data_pk,\r\n            devName = dev[0],\r\n            devId = dev[1],\r\n            rw = rawData.rw,\r\n            tm = rawData.tm,\r\n            ts = rawData.ts,\r\n            _type = rawData.val_type,\r\n            _value = rawData.val;\r\n        return _value;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}",
+                            "idinfo": "f689ea86-298.4547-6129",
+                            "isTplBinded": false
+                        }
+                    }
+                },
+                "image": "symbols/admin/uiotos/base/input-ui.json",
+                "position": {
+                    "x": 276.28375,
+                    "y": -397.36248
+                },
+                "width": 700,
+                "height": 35
+            },
+            "s": {
+                "interactive": true,
+                "image.stretch": "uniform"
+            },
+            "a": {
+                "background": null,
+                "labelText": "设备位置",
+                "iconPath": "symbols/demo/uiotos/icons/light/search.json",
+                "iconColor": "rgb(124,145,155)",
+                "placeholder": "请输入",
+                "onChange": "__ht__function(data,text){\r\n//     window.appNotifier.fire({\r\n//         kind: 'viewData',\r\n//         para: {\r\n//             type: 'ui',\r\n//             data: text,\r\n//             info:{\r\n//                 tag:'listHeader'\r\n//             }\r\n//         }\r\n//     })\r\n// }",
+                "value": "22.566146029183443,114.05663262302326",
+                "font": "12px arial, sans-serif",
+                "layoutVertical": false
+            }
+        },
+        {
+            "c": "ht.Node",
+            "i": 233651,
+            "p": {
+                "displayName": "pieChart",
+                "parent": {
+                    "__i": 233624
+                },
+                "image": "symbols/admin/uiotos/base/pieChartSide.json",
+                "position": {
+                    "x": 1123.8933,
+                    "y": -414.86248
+                },
+                "width": 367.44383,
+                "height": 155.31798
+            },
+            "s": {
+                "interactive": true,
+                "image.stretch": "uniform"
+            },
+            "a": {
+                "chart.values": [
+                    10,
+                    15,
+                    20,
+                    2,
+                    29
+                ],
+                "pieColor0.chart.sideVisible": true,
+                "pieText0.chart.sideVisible": true,
+                "pieColor1.chart.sideVisible": true,
+                "pieText1.chart.sideVisible": true,
+                "pieColor2.chart.sideVisible": true,
+                "pieText2.chart.sideVisible": true,
+                "pieColor3.chart.sideVisible": true,
+                "pieText3.chart.sideVisible": true,
+                "pieColor4.chart.sideVisible": true,
+                "pieText4.chart.sideVisible": true,
+                "pieColor5.chart.sideVisible": false,
+                "pieText5.chart.sideVisible": false,
+                "pieColor6.chart.sideVisible": false,
+                "pieText6.chart.sideVisible": false,
+                "chart.colors": [
+                    "rgb(51,153,255)",
+                    "#60ACFC",
+                    "#32D3EB",
+                    "rgb(93,217,174)",
+                    "rgb(125,195,125)"
+                ],
+                "pieColor0.chart.sideColors": "rgb(51,153,255)",
+                "pieText0.chart.sideColors": "rgb(51,153,255)",
+                "pieColor1.chart.sideColors": "#60ACFC",
+                "pieText1.chart.sideColors": "#60ACFC",
+                "pieColor2.chart.sideColors": "#32D3EB",
+                "pieText2.chart.sideColors": "#32D3EB",
+                "pieColor3.chart.sideColors": "rgb(93,217,174)",
+                "pieText3.chart.sideColors": "rgb(93,217,174)",
+                "pieColor4.chart.sideColors": "rgb(125,195,125)",
+                "pieText4.chart.sideColors": "rgb(125,195,125)"
+            }
+        },
+        {
+            "c": "ht.Text",
+            "i": 233652,
+            "p": {
+                "parent": {
+                    "__i": 233624
+                },
+                "position": {
+                    "x": 1111.90395,
+                    "y": -308.18672
+                },
+                "width": 157.96194,
+                "height": 26.16066
+            },
+            "s": {
+                "text": "自带文字配置的控件",
+                "text.align": "center",
+                "text.color": "rgb(124,145,155)",
+                "interactive": true,
+                "image.stretch": "uniform",
+                "text.font": "16px arial, sans-serif"
+            }
+        },
+        {
+            "c": "ht.Block",
+            "i": 233653,
+            "p": {
+                "parent": {
+                    "__i": 233624
+                },
+                "position": {
+                    "x": 1131.50766,
+                    "y": -637.00738
+                },
+                "width": 360.15528,
+                "height": 248.93282,
+                "clickThroughEnabled": true,
+                "syncSize": false
+            },
+            "s": {
+                "interactive": true,
+                "image.stretch": "uniform",
+                "pixelPerfect": false
+            }
+        },
+        {
+            "c": "ht.Node",
+            "i": 233654,
+            "p": {
+                "displayName": "pieChart",
+                "parent": {
+                    "__i": 233653
+                },
+                "image": "symbols/admin/uiotos/base/pieChartPure.json",
+                "position": {
+                    "x": 1042.38231,
+                    "y": -664.25776
+                },
+                "width": 200,
+                "height": 163.1202
+            },
+            "s": {
+                "interactive": true,
+                "image.stretch": "uniform"
+            },
+            "a": {
+                "chart.values": [
+                    14,
+                    3,
+                    5,
+                    18,
+                    4,
+                    1,
+                    10
+                ],
+                "chart.colors": [
+                    "rgb(51,153,255)",
+                    "#60ACFC",
+                    "#32D3EB",
+                    "rgb(93,217,174)",
+                    "rgb(125,195,125)",
+                    "rgb(255,235,195)",
+                    "#FEB64D"
+                ],
+                "chart.hollow": true,
+                "chart.label.visible": true,
+                "chart.label.font": "9px arial, sans-serif",
+                "chart.label.color": "rgb(247,247,247)"
+            }
+        },
+        {
+            "c": "ht.Text",
+            "i": 233655,
+            "p": {
+                "parent": {
+                    "__i": 233653
+                },
+                "position": {
+                    "x": 1121.36327,
+                    "y": -553.48753
+                },
+                "width": 157.96194,
+                "height": 26.16066
+            },
+            "s": {
+                "text": "基础控件+文字控件组合",
+                "text.align": "center",
+                "text.color": "rgb(124,145,155)",
+                "interactive": true,
+                "image.stretch": "uniform",
+                "text.font": "16px arial, sans-serif"
+            }
+        },
+        {
+            "c": "ht.Block",
+            "i": 233656,
+            "p": {
+                "parent": {
+                    "__i": 233653
+                },
+                "position": {
+                    "x": 1251.95765,
+                    "y": -743.90673
+                },
+                "width": 1,
+                "height": 1
+            },
+            "s": {
+                "interactive": true,
+                "image.stretch": "uniform"
+            }
+        },
+        {
+            "c": "ht.Node",
+            "i": 233657,
+            "p": {
+                "parent": {
+                    "__i": 233656
+                },
+                "position": {
+                    "x": 1199.43256,
+                    "y": -743.90673
+                },
+                "width": 10,
+                "height": 10
+            },
+            "s": {
+                "shape": "oval",
+                "shape.background": "rgb(51,153,255)",
+                "shape.border.color": "#979797",
+                "interactive": true,
+                "image.stretch": "uniform"
+            }
+        },
+        {
+            "c": "ht.Text",
+            "i": 233658,
+            "p": {
+                "parent": {
+                    "__i": 233656
+                },
+                "position": {
+                    "x": 1262.51953,
+                    "y": -743.90673
+                },
+                "width": 93.92643,
+                "height": 19.36784
+            },
+            "s": {
+                "text": "Ariane 5",
+                "text.color": "rgb(124,145,155)",
+                "interactive": true,
+                "image.stretch": "uniform"
+            }
+        },
+        {
+            "c": "ht.Block",
+            "i": 233659,
+            "p": {
+                "parent": {
+                    "__i": 233653
+                },
+                "position": {
+                    "x": 1251.95765,
+                    "y": -719.53855
+                },
+                "width": 1,
+                "height": 1
+            },
+            "s": {
+                "interactive": true,
+                "image.stretch": "uniform"
+            }
+        },
+        {
+            "c": "ht.Node",
+            "i": 233660,
+            "p": {
+                "parent": {
+                    "__i": 233659
+                },
+                "position": {
+                    "x": 1199.43256,
+                    "y": -719.53855
+                },
+                "width": 10,
+                "height": 10
+            },
+            "s": {
+                "shape": "oval",
+                "shape.background": "#60ACFC",
+                "shape.border.color": "#979797",
+                "interactive": true,
+                "image.stretch": "uniform"
+            }
+        },
+        {
+            "c": "ht.Text",
+            "i": 233661,
+            "p": {
+                "parent": {
+                    "__i": 233659
+                },
+                "position": {
+                    "x": 1262.51953,
+                    "y": -719.53855
+                },
+                "width": 93.92643,
+                "height": 19.36784
+            },
+            "s": {
+                "text": "Proton-M",
+                "text.color": "rgb(124,145,155)",
+                "interactive": true,
+                "image.stretch": "uniform"
+            }
+        },
+        {
+            "c": "ht.Block",
+            "i": 233662,
+            "p": {
+                "parent": {
+                    "__i": 233653
+                },
+                "position": {
+                    "x": 1251.95765,
+                    "y": -695.17038
+                },
+                "width": 1,
+                "height": 1
+            },
+            "s": {
+                "interactive": true,
+                "image.stretch": "uniform"
+            }
+        },
+        {
+            "c": "ht.Node",
+            "i": 233663,
+            "p": {
+                "parent": {
+                    "__i": 233662
+                },
+                "position": {
+                    "x": 1199.43256,
+                    "y": -695.17038
+                },
+                "width": 10,
+                "height": 10
+            },
+            "s": {
+                "shape": "oval",
+                "shape.background": "#32D3EB",
+                "shape.border.color": "#979797",
+                "interactive": true,
+                "image.stretch": "uniform"
+            }
+        },
+        {
+            "c": "ht.Text",
+            "i": 233664,
+            "p": {
+                "parent": {
+                    "__i": 233662
+                },
+                "position": {
+                    "x": 1262.51953,
+                    "y": -695.17038
+                },
+                "width": 93.92643,
+                "height": 19.36784
+            },
+            "s": {
+                "text": "Soyuz-2",
+                "text.color": "rgb(124,145,155)",
+                "interactive": true,
+                "image.stretch": "uniform"
+            }
+        },
+        {
+            "c": "ht.Block",
+            "i": 233665,
+            "p": {
+                "parent": {
+                    "__i": 233653
+                },
+                "position": {
+                    "x": 1251.95765,
+                    "y": -670.8022
+                },
+                "width": 1,
+                "height": 1
+            },
+            "s": {
+                "interactive": true,
+                "image.stretch": "uniform"
+            }
+        },
+        {
+            "c": "ht.Node",
+            "i": 233666,
+            "p": {
+                "parent": {
+                    "__i": 233665
+                },
+                "position": {
+                    "x": 1199.43256,
+                    "y": -670.8022
+                },
+                "width": 10,
+                "height": 10
+            },
+            "s": {
+                "shape": "oval",
+                "shape.background": "rgb(93,217,174)",
+                "shape.border.color": "#979797",
+                "interactive": true,
+                "image.stretch": "uniform"
+            }
+        },
+        {
+            "c": "ht.Text",
+            "i": 233667,
+            "p": {
+                "parent": {
+                    "__i": 233665
+                },
+                "position": {
+                    "x": 1262.51953,
+                    "y": -670.8022
+                },
+                "width": 93.92643,
+                "height": 19.36784
+            },
+            "s": {
+                "text": "Falcon 9",
+                "text.color": "rgb(124,145,155)",
+                "interactive": true,
+                "image.stretch": "uniform"
+            }
+        },
+        {
+            "c": "ht.Block",
+            "i": 233668,
+            "p": {
+                "parent": {
+                    "__i": 233653
+                },
+                "position": {
+                    "x": 1251.95765,
+                    "y": -646.43402
+                },
+                "width": 1,
+                "height": 1
+            },
+            "s": {
+                "interactive": true,
+                "image.stretch": "uniform"
+            }
+        },
+        {
+            "c": "ht.Node",
+            "i": 233669,
+            "p": {
+                "parent": {
+                    "__i": 233668
+                },
+                "position": {
+                    "x": 1199.43256,
+                    "y": -646.43402
+                },
+                "width": 10,
+                "height": 10
+            },
+            "s": {
+                "shape": "oval",
+                "shape.background": "rgb(125,195,125)",
+                "shape.border.color": "#979797",
+                "interactive": true,
+                "image.stretch": "uniform"
+            }
+        },
+        {
+            "c": "ht.Text",
+            "i": 233670,
+            "p": {
+                "parent": {
+                    "__i": 233668
+                },
+                "position": {
+                    "x": 1262.51953,
+                    "y": -646.43402
+                },
+                "width": 93.92643,
+                "height": 19.36784
+            },
+            "s": {
+                "text": "Vega",
+                "text.color": "rgb(124,145,155)",
+                "interactive": true,
+                "image.stretch": "uniform"
+            }
+        },
+        {
+            "c": "ht.Block",
+            "i": 233671,
+            "p": {
+                "parent": {
+                    "__i": 233653
+                },
+                "position": {
+                    "x": 1251.95765,
+                    "y": -622.06584
+                },
+                "width": 1,
+                "height": 1
+            },
+            "s": {
+                "interactive": true,
+                "image.stretch": "uniform"
+            }
+        },
+        {
+            "c": "ht.Node",
+            "i": 233672,
+            "p": {
+                "parent": {
+                    "__i": 233671
+                },
+                "position": {
+                    "x": 1199.43256,
+                    "y": -622.06584
+                },
+                "width": 10,
+                "height": 10
+            },
+            "s": {
+                "shape": "oval",
+                "shape.background": "rgb(255,235,195)",
+                "shape.border.color": "#979797",
+                "interactive": true,
+                "image.stretch": "uniform"
+            }
+        },
+        {
+            "c": "ht.Text",
+            "i": 233673,
+            "p": {
+                "parent": {
+                    "__i": 233671
+                },
+                "position": {
+                    "x": 1262.51953,
+                    "y": -622.06584
+                },
+                "width": 93.92643,
+                "height": 19.36784
+            },
+            "s": {
+                "text": "Antares",
+                "text.color": "rgb(124,145,155)",
+                "interactive": true,
+                "image.stretch": "uniform"
+            }
+        },
+        {
+            "c": "ht.Block",
+            "i": 233674,
+            "p": {
+                "parent": {
+                    "__i": 233653
+                },
+                "position": {
+                    "x": 1251.95765,
+                    "y": -597.69766
+                },
+                "width": 1,
+                "height": 1
+            },
+            "s": {
+                "interactive": true,
+                "image.stretch": "uniform"
+            }
+        },
+        {
+            "c": "ht.Node",
+            "i": 233675,
+            "p": {
+                "parent": {
+                    "__i": 233674
+                },
+                "position": {
+                    "x": 1199.43256,
+                    "y": -597.69766
+                },
+                "width": 10,
+                "height": 10
+            },
+            "s": {
+                "shape": "oval",
+                "shape.background": "#FEB64D",
+                "shape.border.color": "#979797",
+                "interactive": true,
+                "image.stretch": "uniform"
+            }
+        },
+        {
+            "c": "ht.Text",
+            "i": 233676,
+            "p": {
+                "parent": {
+                    "__i": 233674
+                },
+                "position": {
+                    "x": 1262.51953,
+                    "y": -597.69766
+                },
+                "width": 93.92643,
+                "height": 19.36784
+            },
+            "s": {
+                "text": "Others",
+                "text.color": "rgb(124,145,155)",
+                "interactive": true,
+                "image.stretch": "uniform"
+            }
+        },
+        {
+            "c": "ht.Block",
+            "i": 233677,
+            "p": {
+                "parent": {
+                    "__i": 233624
+                },
+                "position": {
+                    "x": 1123.8933,
+                    "y": -115.67068
+                },
+                "width": 381.93081,
+                "height": 240.01726,
+                "clickThroughEnabled": true,
+                "syncSize": false
+            },
+            "s": {
+                "interactive": true,
+                "image.stretch": "uniform",
+                "pixelPerfect": false
+            }
+        },
+        {
+            "c": "ht.Node",
+            "i": 233678,
+            "p": {
+                "displayName": "columnChart",
+                "parent": {
+                    "__i": 233677
+                },
+                "image": "symbols/admin/uiotos/base/columnChart.json",
+                "position": {
+                    "x": 1053.13243,
+                    "y": -149.96549
+                },
+                "width": 200,
+                "height": 165.57691
+            },
+            "s": {
+                "interactive": true,
+                "image.stretch": "uniform"
+            },
+            "a": {
+                "chart.values": [
+                    14,
+                    3,
+                    5,
+                    18,
+                    4,
+                    1,
+                    10
+                ],
+                "chart.colors": [
+                    "#FF7C7C",
+                    "rgb(241,125,164)",
+                    "rgb(204,104,166)",
+                    "rgb(135,144,204)",
+                    "rgb(145,115,205)",
+                    "rgb(242,83,75)",
+                    "rgb(124,145,155)"
+                ],
+                "chart.label.visible": true,
+                "chart.label.font": "9px arial, sans-serif",
+                "chart.label.color": "rgb(124,145,155)"
+            }
+        },
+        {
+            "c": "ht.Text",
+            "i": 233679,
+            "p": {
+                "parent": {
+                    "__i": 233677
+                },
+                "position": {
+                    "x": 1123.8933,
+                    "y": -35.74263
+                },
+                "width": 231.87522,
+                "height": 26.16066
+            },
+            "s": {
+                "text": "基础组件组合（柱状图）",
+                "text.align": "center",
+                "text.color": "rgb(124,145,155)",
+                "interactive": true,
+                "image.stretch": "uniform",
+                "text.font": "16px arial, sans-serif"
+            }
+        },
+        {
+            "c": "ht.Block",
+            "i": 233680,
+            "p": {
+                "parent": {
+                    "__i": 233677
+                },
+                "position": {
+                    "x": 1244.34329,
+                    "y": -223.07003
+                }
+            },
+            "s": {
+                "interactive": true,
+                "image.stretch": "uniform"
+            }
+        },
+        {
+            "c": "ht.Node",
+            "i": 233681,
+            "p": {
+                "parent": {
+                    "__i": 233680
+                },
+                "position": {
+                    "x": 1191.8182,
+                    "y": -223.07003
+                },
+                "width": 10,
+                "height": 10
+            },
+            "s": {
+                "shape": "rect",
+                "shape.background": "#FF7C7C",
+                "shape.border.color": "#979797",
+                "interactive": true,
+                "image.stretch": "uniform"
+            }
+        },
+        {
+            "c": "ht.Text",
+            "i": 233682,
+            "p": {
+                "parent": {
+                    "__i": 233680
+                },
+                "position": {
+                    "x": 1254.90517,
+                    "y": -223.07003
+                },
+                "width": 93.92643,
+                "height": 19.36784
+            },
+            "s": {
+                "text": "Ariane 5",
+                "text.color": "rgb(124,145,155)",
+                "interactive": true,
+                "image.stretch": "uniform"
+            }
+        },
+        {
+            "c": "ht.Block",
+            "i": 233683,
+            "p": {
+                "parent": {
+                    "__i": 233677
+                },
+                "position": {
+                    "x": 1244.34329,
+                    "y": -198.70185
+                }
+            },
+            "s": {
+                "interactive": true,
+                "image.stretch": "uniform"
+            }
+        },
+        {
+            "c": "ht.Node",
+            "i": 233684,
+            "p": {
+                "parent": {
+                    "__i": 233683
+                },
+                "position": {
+                    "x": 1191.8182,
+                    "y": -198.70185
+                },
+                "width": 10,
+                "height": 10
+            },
+            "s": {
+                "shape": "rect",
+                "shape.background": "rgb(241,125,164)",
+                "shape.border.color": "#979797",
+                "interactive": true,
+                "image.stretch": "uniform"
+            }
+        },
+        {
+            "c": "ht.Text",
+            "i": 233685,
+            "p": {
+                "parent": {
+                    "__i": 233683
+                },
+                "position": {
+                    "x": 1254.90517,
+                    "y": -198.70185
+                },
+                "width": 93.92643,
+                "height": 19.36784
+            },
+            "s": {
+                "text": "Proton-M",
+                "text.color": "rgb(124,145,155)",
+                "interactive": true,
+                "image.stretch": "uniform"
+            }
+        },
+        {
+            "c": "ht.Block",
+            "i": 233686,
+            "p": {
+                "parent": {
+                    "__i": 233677
+                },
+                "position": {
+                    "x": 1244.34329,
+                    "y": -174.33368
+                }
+            },
+            "s": {
+                "interactive": true,
+                "image.stretch": "uniform"
+            }
+        },
+        {
+            "c": "ht.Node",
+            "i": 233687,
+            "p": {
+                "parent": {
+                    "__i": 233686
+                },
+                "position": {
+                    "x": 1191.8182,
+                    "y": -174.33368
+                },
+                "width": 10,
+                "height": 10
+            },
+            "s": {
+                "shape": "rect",
+                "shape.background": "rgb(204,104,166)",
+                "shape.border.color": "#979797",
+                "interactive": true,
+                "image.stretch": "uniform"
+            }
+        },
+        {
+            "c": "ht.Text",
+            "i": 233688,
+            "p": {
+                "parent": {
+                    "__i": 233686
+                },
+                "position": {
+                    "x": 1254.90517,
+                    "y": -174.33368
+                },
+                "width": 93.92643,
+                "height": 19.36784
+            },
+            "s": {
+                "text": "Soyuz-2",
+                "text.color": "rgb(124,145,155)",
+                "interactive": true,
+                "image.stretch": "uniform"
+            }
+        },
+        {
+            "c": "ht.Block",
+            "i": 233689,
+            "p": {
+                "parent": {
+                    "__i": 233677
+                },
+                "position": {
+                    "x": 1244.34329,
+                    "y": -149.9655
+                }
+            },
+            "s": {
+                "interactive": true,
+                "image.stretch": "uniform"
+            }
+        },
+        {
+            "c": "ht.Node",
+            "i": 233690,
+            "p": {
+                "parent": {
+                    "__i": 233689
+                },
+                "position": {
+                    "x": 1191.8182,
+                    "y": -149.9655
+                },
+                "width": 10,
+                "height": 10
+            },
+            "s": {
+                "shape": "rect",
+                "shape.background": "rgb(135,144,204)",
+                "shape.border.color": "#979797",
+                "interactive": true,
+                "image.stretch": "uniform"
+            }
+        },
+        {
+            "c": "ht.Text",
+            "i": 233691,
+            "p": {
+                "parent": {
+                    "__i": 233689
+                },
+                "position": {
+                    "x": 1254.90517,
+                    "y": -149.9655
+                },
+                "width": 93.92643,
+                "height": 19.36784
+            },
+            "s": {
+                "text": "Falcon 9",
+                "text.color": "rgb(124,145,155)",
+                "interactive": true,
+                "image.stretch": "uniform"
+            }
+        },
+        {
+            "c": "ht.Block",
+            "i": 233692,
+            "p": {
+                "parent": {
+                    "__i": 233677
+                },
+                "position": {
+                    "x": 1244.34329,
+                    "y": -125.59732
+                }
+            },
+            "s": {
+                "interactive": true,
+                "image.stretch": "uniform"
+            }
+        },
+        {
+            "c": "ht.Node",
+            "i": 233693,
+            "p": {
+                "parent": {
+                    "__i": 233692
+                },
+                "position": {
+                    "x": 1191.8182,
+                    "y": -125.59732
+                },
+                "width": 10,
+                "height": 10
+            },
+            "s": {
+                "shape": "rect",
+                "shape.background": "rgb(145,115,205)",
+                "shape.border.color": "#979797",
+                "interactive": true,
+                "image.stretch": "uniform"
+            }
+        },
+        {
+            "c": "ht.Text",
+            "i": 233694,
+            "p": {
+                "parent": {
+                    "__i": 233692
+                },
+                "position": {
+                    "x": 1254.90517,
+                    "y": -125.59732
+                },
+                "width": 93.92643,
+                "height": 19.36784
+            },
+            "s": {
+                "text": "Vega",
+                "text.color": "rgb(124,145,155)",
+                "interactive": true,
+                "image.stretch": "uniform"
+            }
+        },
+        {
+            "c": "ht.Block",
+            "i": 233695,
+            "p": {
+                "parent": {
+                    "__i": 233677
+                },
+                "position": {
+                    "x": 1244.34329,
+                    "y": -101.22914
+                }
+            },
+            "s": {
+                "interactive": true,
+                "image.stretch": "uniform"
+            }
+        },
+        {
+            "c": "ht.Node",
+            "i": 233696,
+            "p": {
+                "parent": {
+                    "__i": 233695
+                },
+                "position": {
+                    "x": 1191.8182,
+                    "y": -101.22914
+                },
+                "width": 10,
+                "height": 10
+            },
+            "s": {
+                "shape": "rect",
+                "shape.background": "rgb(242,83,75)",
+                "shape.border.color": "#979797",
+                "interactive": true,
+                "image.stretch": "uniform"
+            }
+        },
+        {
+            "c": "ht.Text",
+            "i": 233697,
+            "p": {
+                "parent": {
+                    "__i": 233695
+                },
+                "position": {
+                    "x": 1254.90517,
+                    "y": -101.22914
+                },
+                "width": 93.92643,
+                "height": 19.36784
+            },
+            "s": {
+                "text": "Antares",
+                "text.color": "rgb(124,145,155)",
+                "interactive": true,
+                "image.stretch": "uniform"
+            }
+        },
+        {
+            "c": "ht.Block",
+            "i": 233698,
+            "p": {
+                "parent": {
+                    "__i": 233677
+                },
+                "position": {
+                    "x": 1244.34329,
+                    "y": -76.86096
+                }
+            },
+            "s": {
+                "interactive": true,
+                "image.stretch": "uniform"
+            }
+        },
+        {
+            "c": "ht.Node",
+            "i": 233699,
+            "p": {
+                "parent": {
+                    "__i": 233698
+                },
+                "position": {
+                    "x": 1191.8182,
+                    "y": -76.86096
+                },
+                "width": 10,
+                "height": 10
+            },
+            "s": {
+                "shape": "rect",
+                "shape.background": "rgb(124,145,155)",
+                "shape.border.color": "#979797",
+                "interactive": true,
+                "image.stretch": "uniform"
+            }
+        },
+        {
+            "c": "ht.Text",
+            "i": 233700,
+            "p": {
+                "parent": {
+                    "__i": 233698
+                },
+                "position": {
+                    "x": 1254.90517,
+                    "y": -76.86096
+                },
+                "width": 93.92643,
+                "height": 19.36784
+            },
+            "s": {
+                "text": "Others",
+                "text.color": "rgb(124,145,155)",
+                "interactive": true,
+                "image.stretch": "uniform"
+            }
+        },
+        {
+            "c": "ht.Node",
+            "i": 233701,
+            "p": {
+                "displayName": "sidebar",
+                "parent": {
+                    "__i": 233624
+                },
+                "image": "symbols/admin/uiotos/base/menuSidebar-ui.json",
+                "position": {
+                    "x": -147.6906,
+                    "y": -680.83676
+                },
+                "width": 80,
+                "height": 508.86089
+            },
+            "s": {
+                "interactive": true,
+                "image.stretch": "uniform"
+            },
+            "a": {
+                "rightSide": false,
+                "collapsed": true,
+                "loadStyle": true,
+                "boxShadowColor": "rgba(107,44,44,0.30)",
+                "boxShadowBorder": [
+                    3,
+                    0,
+                    5
+                ],
+                "background": "rgb(255,255,255)",
+                "hidedWidth": 50,
+                "widthPadding": 15,
+                "widthNextState": 200,
+                "origin_width": 324.06375,
+                "origin_height": 487.89436,
+                "border-radius": 30,
+                "borderWidth": 1,
+                "borderColor": "rgb(247,247,247)",
+                "fontContent": "12px Microsoft YaHei",
+                "borderRadius": 10,
+                "shadowBorder": [
+                    0,
+                    0,
+                    8
+                ],
+                "fontNode": "12px Microsoft YaHei",
+                "shadowEnabled": true,
+                "shadowColor": "rgba(97,97,97,0.2)"
+            }
+        },
+        {
+            "c": "ht.Node",
+            "i": 233702,
+            "p": {
+                "parent": {
+                    "__i": 233624
+                },
+                "position": {
+                    "x": -352.75848,
+                    "y": -927.76721
+                },
+                "width": 3,
+                "height": 15
+            },
+            "s": {
+                "shape": "roundRect",
+                "shape.background": "rgb(55,125,255)",
+                "shape.corner.radius": 2,
+                "label": "基础组件",
+                "label.color": "rgb(61,61,61)",
+                "label.position": 20,
+                "label.offset.x": 5,
+                "label.offset.y": 0,
+                "interactive": true,
+                "image.stretch": "uniform"
+            }
+        },
+        {
+            "c": "ht.Node",
+            "i": 233703,
+            "p": {
+                "displayName": "iconClick",
+                "toolTip": "<div style=\"font-size:12px;line-height:1.5em;letter-spacing:1px\">     等同于驱动引擎软件的运行实例，向上通过内部接口协议连接中台服务，<br> 向下加载驱动接入设备子系统，支持跨平台（windows/linux、x86/arm） </div>",
+                "parent": {
+                    "__i": 233624
+                },
+                "image": "symbols/admin/uiotos/base/iconClick.json",
+                "position": {
+                    "x": -274.14502,
+                    "y": -928.27724
+                },
+                "width": 16.11494,
+                "height": 16.02006
+            },
+            "s": {
+                "interactive": true,
+                "image.stretch": "uniform"
+            },
+            "a": {
+                "icon-background": "rgb(124,145,155)",
+                "path": "symbols/demo/uiotos/icons/light/question-circle.json",
+                "iconType": 3,
+                "default-background": "rgb(124,145,155)",
+                "hover-background": "rgb(51,153,255)"
+            }
+        },
+        {
+            "c": "ht.Node",
+            "i": 233704,
+            "p": {
+                "displayName": "table-ui",
+                "parent": {
+                    "__i": 233624
+                },
+                "tag": "table-ui48",
+                "image": "symbols/develop/uiotos/base/table-ui.json",
+                "position": {
+                    "x": 338.55005,
+                    "y": -176.74016
+                },
+                "width": 1056.48197,
+                "height": 362.15622
+            },
+            "s": {
+                "interactive": true,
+                "image.stretch": "uniform",
+                "layout.h": "leftright",
+                "layout.v": "topbottom",
+                "opacity": 1
+            },
+            "a": {
+                "shadowColor": "rgba(92,92,92,0.2)",
+                "shadowBorder": [
+                    0,
+                    0,
+                    8
+                ],
+                "shadowEnabled": false,
+                "lastItems": [
+                    "查看",
+                    "添加",
+                    "删除"
+                ],
+                "lastColors": [
+                    "rgb(55,125,255)",
+                    "rgb(55,125,255)",
+                    "rgb(242,83,75)"
+                ],
+                "datas": [
+                    [
+                        "测试网关",
+                        "9f01eb",
+                        false,
+                        "2022-09-12 12:22:34",
+                        "12个",
+                        "云网关"
+                    ],
+                    [
+                        "测试网关2",
+                        "9ffc252",
+                        true,
+                        "2022-09-12 12:22:34",
+                        "0个",
+                        "边缘网关"
+                    ],
+                    [
+                        "测试网关3",
+                        "9f01ec232",
+                        false,
+                        "2022-09-12 12:22:34",
+                        "1个",
+                        "边缘"
+                    ],
+                    [
+                        "测试网关4",
+                        "925400f42",
+                        false,
+                        "2022-09-12 12:22:34",
+                        "6个",
+                        "云网关"
+                    ]
+                ],
+                "columnWidths": [
+                    75, -0.6,
+                    50,
+                    80,
+                    150,
+                    100, -0.4,
+                    200
+                ],
+                "idColumnVisible": false,
+                "columnDataFunc": "__ht__function textColor(nodeData,rowObject, columnObject,colunmIndex, value){\r\n    // //返回null则是配置的默认字体颜色\r\n    // return colunmIndex == 1 || columnObject.getDisplayName() == '人员类型'? \r\n    // contain(value,['异常','错误','故障','非法','北入']) ? \r\n    // 'red' : 'green' : null\r\n}",
+                "font": "12px arial, sans-serif",
+                "rowLineVisible": true,
+                "columnLineVisible": false,
+                "rowStriped": false,
+                "background": "rgb(255,255,255)",
+                "borderWidth": 1,
+                "borderColor": "rgb(231,231,231)",
+                "columns": [{
+                        "displayName": "序号"
+                    },
+                    {
+                        "displayName": "网关名称"
+                    },
+                    {
+                        "displayName": "唯一标识",
+                        "editable": false,
+                        "editorClass": "ht.ui.editor.StringEditor"
+                    },
+                    {
+                        "displayName": "在线状态",
+                        "valueType": "boolean",
+                        "editable": true
+                    },
+                    {
+                        "displayName": "最后在线时间",
+                        "editable": false,
+                        "editorClass": "ht.ui.editor.StringEditor"
+                    },
+                    {
+                        "displayName": "子系统",
+                        "editable": false,
+                        "editorClass": "ht.ui.editor.StringEditor"
+                    },
+                    {
+                        "displayName": "内置运行",
+                        "editable": false,
+                        "editorClass": "ht.ui.editor.StringEditor"
+                    },
+                    {
+                        "displayName": "操作"
+                    }
+                ],
+                "showColumnIndex": false
+            }
+        },
+        {
+            "c": "ht.Grid",
+            "i": 233705,
+            "p": {
+                "displayName": "grid",
+                "parent": {
+                    "__i": 233624
+                },
+                "image": "symbols/admin/uiotos/base/grid.json",
+                "position": {
+                    "x": -302.01155,
+                    "y": -781.59289
+                },
+                "width": 194.33648,
+                "height": 104.74084
+            },
+            "s": {
+                "grid.gap": 10,
+                "grid.row.count": 2,
+                "grid.column.count": 2,
+                "grid.border": 0,
+                "interactive": true,
+                "image.stretch": "uniform"
+            },
+            "a": {
+                "grid.row.count": 2,
+                "grid.column.count": 2,
+                "grid.border": 0,
+                "grid.gap": 10
+            }
+        },
+        {
+            "c": "ht.Node",
+            "i": 233706,
+            "p": {
+                "displayName": "switch-lite",
+                "parent": {
+                    "__i": 233705
+                },
+                "image": "symbols/admin/uiotos/base/switch-lite.json",
+                "host": {
+                    "__i": 233705
+                },
+                "position": {
+                    "x": -350.59567,
+                    "y": -807.7781
+                },
+                "width": 77.16824,
+                "height": 32.37042
+            },
+            "s": {
+                "interactive": true,
+                "image.stretch": "uniform"
+            },
+            "a": {
+                "textVisible": true,
+                "visible": true,
+                "back.background": "rgb(0,199,7)",
+                "dot.background": "white",
+                "text": "打开",
+                "textColor": "white",
+                "textRect": [
+                    15,
+                    8.5,
+                    30,
+                    18
+                ],
+                "back.borderColor": "rgb(0,199,7)",
+                "dot.rect": [
+                    47.50012,
+                    5,
+                    25,
+                    25
+                ],
+                "open": true,
+                "origin_width": 80,
+                "origin_height": 35
+            }
+        },
+        {
+            "c": "ht.Node",
+            "i": 233707,
+            "p": {
+                "displayName": "switch-lite",
+                "parent": {
+                    "__i": 233705
+                },
+                "image": "symbols/admin/uiotos/base/switch-lite.json",
+                "host": {
+                    "__i": 233705
+                },
+                "position": {
+                    "x": -253.42743,
+                    "y": -807.7781
+                },
+                "width": 77.16824,
+                "height": 32.37042
+            },
+            "s": {
+                "interactive": true,
+                "image.stretch": "uniform",
+                "attach.column.index": 1
+            },
+            "a": {
+                "open": false,
+                "back.background": "rgb(124,145,155)",
+                "dot.background": "white",
+                "text": "关闭",
+                "textColor": "white",
+                "textRect": [
+                    36,
+                    8.5,
+                    30,
+                    18
+                ],
+                "back.borderColor": "rgb(124,145,155)",
+                "dot.rect": [
+                    7.5,
+                    5,
+                    25,
+                    25
+                ],
+                "closedColor": "rgb(124,145,155)",
+                "visible": true,
+                "textScale": 1,
+                "gapAdjust": 0,
+                "origin_width": 80,
+                "origin_height": 35
+            }
+        },
+        {
+            "c": "ht.Node",
+            "i": 233708,
+            "p": {
+                "displayName": "switch-lite",
+                "parent": {
+                    "__i": 233705
+                },
+                "image": "symbols/admin/uiotos/base/switch-lite.json",
+                "host": {
+                    "__i": 233705
+                },
+                "position": {
+                    "x": -350.59567,
+                    "y": -755.40768
+                },
+                "width": 77.16824,
+                "height": 32.37042
+            },
+            "s": {
+                "interactive": true,
+                "image.stretch": "uniform",
+                "attach.row.index": 1
+            },
+            "a": {
+                "textVisible": true,
+                "visible": true,
+                "back.background": "rgb(0,199,7)",
+                "dot.background": "white",
+                "text": "已启动",
+                "textColor": "white",
+                "textRect": [
+                    17,
+                    8.5,
+                    30,
+                    18
+                ],
+                "back.borderColor": "rgb(0,199,7)",
+                "dot.rect": [
+                    55.50088,
+                    5,
+                    25,
+                    25
+                ],
+                "open": true,
+                "textOpen": "已启动",
+                "textClose": "已停止",
+                "gapsAdjust": [-2,
+                    8
+                ],
+                "textScale": 1.3,
+                "dot.dotScale": 0.6,
+                "origin_width": 80,
+                "origin_height": 35
+            }
+        },
+        {
+            "c": "ht.Node",
+            "i": 233709,
+            "p": {
+                "displayName": "switch-lite",
+                "parent": {
+                    "__i": 233705
+                },
+                "image": "symbols/admin/uiotos/base/switch-lite.json",
+                "host": {
+                    "__i": 233705
+                },
+                "position": {
+                    "x": -253.42743,
+                    "y": -755.40768
+                },
+                "width": 77.16824,
+                "height": 32.37042
+            },
+            "s": {
+                "interactive": true,
+                "image.stretch": "uniform",
+                "attach.row.index": 1,
+                "attach.column.index": 1
+            },
+            "a": {
+                "textVisible": true,
+                "visible": true,
+                "back.background": "white",
+                "dot.background": "rgb(0,199,7)",
+                "text": "已停止",
+                "textColor": "rgb(0,199,7)",
+                "textRect": [
+                    33,
+                    8.5,
+                    30,
+                    18
+                ],
+                "back.borderColor": "rgb(0,199,7)",
+                "dot.rect": [-0.5,
+                    5,
+                    25,
+                    25
+                ],
+                "open": false,
+                "textOpen": "已启动",
+                "textClose": "已停止",
+                "gapsAdjust": [-2,
+                    8
+                ],
+                "textScale": 1.3,
+                "dot.dotScale": 0.6,
+                "origin_width": 80,
+                "origin_height": 35
+            }
+        },
+        {
+            "c": "ht.Node",
+            "i": 233710,
+            "p": {
+                "displayName": "dialog-ui",
+                "tag": "dialog-ui",
+                "image": "symbols/develop/uiotos/base/dialog-ui.json",
+                "host": {
+                    "__i": 233623
+                },
+                "position": {
+                    "x": 338.55005,
+                    "y": -499.29062
+                },
+                "width": 771.04863,
+                "height": 469.86438
+            },
+            "s": {
+                "interactive": true,
+                "image.stretch": "uniform",
+                "layout.v": "center",
+                "layout.h": "center"
+            },
+            "a": {
+                "display": "displays/develop/uiotos/editor/widgets/对话框外框.json",
+                "originSize": [
+                    1000,
+                    600
+                ],
+                "headerVisible": false,
+                "footerVisible": false,
+                "borderRadius": 25,
+                "backgroundImage": "symbols/develop/uiotos/icons/common/borderRectange.json",
+                "backgroundColor": "rgba(255,255,255,0)",
+                "padding": 0,
+                "symbol": "symbols/develop/uiotos/base/dialog-ui.json"
+            }
+        }
+    ],
+    "modified": "Sat Nov 26 2022 10:12:22 GMT+0800 (中国标准时间)",
+    "contentRect": {
+        "x": -592.81385,
+        "y": -1042.6595,
+        "width": 1920,
+        "height": 1080
+    }
+}

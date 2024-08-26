@@ -1,0 +1,118 @@
+{
+  "modified": "Fri Jun 07 2024 11:07:45 GMT+0800 (中国标准时间)",
+  "dataBindings": [
+    {
+      "attr": "symbol",
+      "valueType": "Image",
+      "description": "组件地址字符串",
+      "defaultValue": "symbols/develop/uiotos/arranged/controls/charts/条形堆叠图.json"
+    },
+    {
+      "attr": "yAxis.datas",
+      "valueType": "StringArray",
+      "defaultValue": [
+        "类别0",
+        "类别1"
+      ],
+      "group": "数据",
+      "description": "条状图在纵轴y上的数据，用来分类。注意，动态增减该数组大小，\n会对应自动增加或减少名称为\"_xDatas[index].[类别index]\"的属性，\n该属性为指定类别的数据条。"
+    },
+    {
+      "attr": "xAxis.names",
+      "valueType": "StringArray",
+      "description": "条形图各类数据在横轴x方向，各个段的数据名称，体现在标签提示上。\n注意，增加或减少数组长度时，会对各条状图的数据以及颜色属性自动\n增加或减少，保持数组相同的长度，保证索引逐一对应。",
+      "defaultValue": [
+        "数据0",
+        "数据1",
+        "数据2"
+      ]
+    },
+    {
+      "attr": "margins",
+      "valueType": "StringArray",
+      "defaultValue": [
+        "50",
+        "5%",
+        "30",
+        "60"
+      ],
+      "description": "条状图相对四周的间距，依次是上、右、下、左。值可以是百分比，作为相对间距；\n也可以是大于1的数值，作为绝对像素间距。"
+    },
+    {
+      "attr": "legendBase",
+      "valueType": "NumberArray",
+      "defaultValue": [
+        20,
+        10,
+        20,
+        14
+      ],
+      "description": "默认上方居中的颜色图例，数组索引值依次对应：\n0：图例内边距，单位px，默认各方向内边距为5；\n1：各个item之间的间隔，单位px，默认为10；\n2：图例图形宽度；\n3：图例图形高度。"
+    },
+    {
+      "attr": "colors",
+      "valueType": "ColorArray",
+      "defaultValue": [
+        "#A9BE6D",
+        "#ABDCD3",
+        "#FAB845"
+      ],
+      "description": "条形图各类数据在横轴x方向，各个段数据的颜色。注意，增加或减少数组长度时，\n会对各条状图的数据以及颜色属性自动增加或减少，保持数组相同的长度，保证索\n引逐一对应。",
+      "group": "外观"
+    },
+    {
+      "attr": "chart.text",
+      "valueType": "String",
+      "defaultValue": "堆叠条形图",
+      "description": "主标题文字。"
+    },
+    {
+      "attr": "chart.subtext",
+      "valueType": "String",
+      "defaultValue": "一个简单的堆叠条形图",
+      "description": "副标题文字。"
+    },
+    {
+      "attr": "chart.backgroundColor",
+      "valueType": "Color",
+      "defaultValue": "#fff",
+      "description": "背景颜色。"
+    },
+    {
+      "attr": "axisLabel.color",
+      "valueType": "Color",
+      "defaultValue": "rgb(61,61,61)",
+      "description": "横纵坐标轴上文字的颜色。"
+    },
+    {
+      "attr": "axisTick.show",
+      "valueType": "Boolean",
+      "defaultValue": true,
+      "description": "横纵坐标轴上的刻度标记是否可见。"
+    },
+    {
+      "attr": "axisLine.color",
+      "valueType": "Color",
+      "defaultValue": "rgb(124,145,155)",
+      "description": "横纵坐标轴颜色。"
+    },
+    {
+      "attr": "splitLine.show",
+      "valueType": "Boolean",
+      "description": "条形图坐标轴内线（即横轴刻度对应在垂直方向的竖线）是否可见。",
+      "defaultValue": true
+    },
+    {
+      "attr": "splitLine.color",
+      "valueType": "Color",
+      "defaultValue": "rgba(128,128,128,0.3)",
+      "description": "条形图坐标轴内线的颜色。"
+    }
+  ],
+  "snapshotURL": "symbols/develop/uiotos/arranged/controls/charts_icon/条形堆叠图.json",
+  "renderHTML": "__ht__function(data, gv, cache) {return __bar_stack(data,gv,cache);}",
+  "width": 400,
+  "height": 200,
+  "pixelPerfect": false,
+  "comps": []
+}

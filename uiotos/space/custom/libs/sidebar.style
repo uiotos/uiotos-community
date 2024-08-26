@@ -1,0 +1,32 @@
+({
+	'&light': {
+		background: 'white',
+		headerBackground: null,
+		hoverHeaderBackground: '#f2f6f9',
+		expandedHeaderBackground: '#f2f6f9',
+		selectHeaderBackground: '#f2f6f9',
+		headerSeparatorVisible: false,
+
+		headerLabelColor: '#678098',
+		expandedHeaderLabelColor: '#5b9bd1',
+		hoverHeaderLabelColor: '#5b9bd1',
+		selectHeaderLabelColor: '#5b9bd1',
+
+		rowLabelColor: '#678098',
+		expandedRowLabelColor: '#5b9bd1',
+		hoverRowLabelColor: '#5b9bd1',
+		selectRowLabelColor: '#5b9bd1',
+
+		hoverRowBackground: '#f2f6f9',
+		expandedRowBackground: '#f2f6f9',
+		selectRowBackground: '#f2f6f9',
+
+		selectHeaderCollapseIcon: 'sidebar_collapse',
+		selectHeaderExpandIcon: 'sidebar_expand',
+		selectRowCollapseIcon: 'sidebar_collapse',
+		selectRowExpandIcon: 'sidebar_expand'
+	},
+	'&rightPopupTree': {
+		boxShadow: '-6px 0 10px rgba(0, 0, 0, 0.3)'
+	}
+})

@@ -1,0 +1,118 @@
+{
+  "modified": "Mon Aug 19 2019 21:18:32 GMT+0800 (中国标准时间)",
+  "background": "rgb(32,37,46)",
+  "dataBindings": [
+    {
+      "attr": "gauge.bScaleNum",
+      "valueType": "Number",
+      "name": "大刻度数量"
+    },
+    {
+      "attr": "gauge.sScaleNum",
+      "valueType": "Number",
+      "name": "小刻度数量"
+    },
+    {
+      "attr": "gauge.startAngle",
+      "valueType": "Number",
+      "name": "起始角度"
+    },
+    {
+      "attr": "gauge.endAngle",
+      "valueType": "Number",
+      "name": "结束角度"
+    },
+    {
+      "attr": "gauge.maxValue",
+      "valueType": "Number",
+      "name": "最大值"
+    },
+    {
+      "attr": "gauge.activeValue",
+      "valueType": "Number",
+      "name": "实际值"
+    },
+    {
+      "attr": "gauge.colors",
+      "valueType": "ColorArray",
+      "name": "颜色数组"
+    },
+    {
+      "attr": "gauge.borders",
+      "valueType": "NumberArray",
+      "name": "边界数组"
+    },
+    {
+      "attr": "gauge.fontColor",
+      "valueType": "Color",
+      "name": "刻度颜色"
+    },
+    {
+      "attr": "gauge.pinColor",
+      "valueType": "Color",
+      "name": "指针颜色"
+    }
+  ],
+  "width": 100,
+  "height": 100,
+  "comps": [
+    {
+      "type": "components/demo/jiji/仪表.json",
+      "displayName": "新仪表",
+      "rect": [
+        0,
+        3,
+        100,
+        100
+      ],
+      "bScaleNum": {
+        "func": "attr@gauge.bScaleNum",
+        "value": 11
+      },
+      "sScaleNum": {
+        "func": "attr@gauge.sScaleNum",
+        "value": 4
+      },
+      "startAngle": {
+        "func": "attr@gauge.startAngle",
+        "value": 0.75
+      },
+      "endAngle": {
+        "func": "attr@gauge.endAngle",
+        "value": 2.25
+      },
+      "maxValue": {
+        "func": "attr@gauge.maxValue",
+        "value": 100
+      },
+      "activeValue": {
+        "func": "attr@gauge.activeValue",
+        "value": 20
+      },
+      "colorList": {
+        "func": "attr@gauge.colors",
+        "value": [
+          "#56C160",
+          "#4083CA",
+          "#CD5D3A"
+        ]
+      },
+      "borderList": {
+        "func": "attr@gauge.borders",
+        "value": [
+          0.2,
+          0.8,
+          1
+        ]
+      },
+      "fontColor": {
+        "func": "attr@gauge.fontColor",
+        "value": "#AAAFBB"
+      },
+      "pinColor": {
+        "func": "attr@gauge.pinColor",
+        "value": "#1B88F3"
+      }
+    }
+  ]
+}

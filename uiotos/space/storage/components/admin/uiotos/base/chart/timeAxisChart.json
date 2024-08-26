@@ -1,0 +1,169 @@
+{
+  "modified": "Mon Jun 07 2021 09:56:13 GMT+0800 (中国标准时间)",
+  "width": 300,
+  "height": 200,
+  "func": "__ht__function(g, rect, comp, data, view) {\nht.vector.comp.timeAxisChart.apply(null, arguments);\n}",
+  "properties": {
+    "series": {
+      "valueType": "Object",
+      "defaultValue": [
+        {
+          "type": "line",
+          "name": "温度",
+          "data": [
+            [
+              1566291297491,
+              466
+            ],
+            [
+              1566291657491,
+              443
+            ],
+            [
+              1566292017491,
+              439
+            ],
+            [
+              1566292377491,
+              346
+            ],
+            [
+              1566292737491,
+              260
+            ],
+            [
+              1566293097491,
+              216
+            ],
+            [
+              1566293457491,
+              202
+            ],
+            [
+              1566293817491,
+              148
+            ],
+            [
+              1566294177491,
+              81
+            ],
+            [
+              1566294537491,
+              2
+            ]
+          ]
+        }
+      ],
+      "name": "系列"
+    },
+    "xAxis": {
+      "valueType": "Object",
+      "name": "横轴"
+    },
+    "yAxis": {
+      "valueType": "Object",
+      "name": "纵轴"
+    },
+    "colors": {
+      "valueType": "ColorArray",
+      "defaultValue": [
+        "rgb(51,153,255)",
+        "rgb(93,217,174)",
+        "#FEB64D",
+        "rgb(241,125,164)",
+        "rgb(135,144,204)",
+        "rgb(124,145,155)",
+        "rgb(48,242,120)",
+        "rgb(212,0,0)",
+        "#32D3EB",
+        "#c4ccd3"
+      ],
+      "name": "颜色数组"
+    },
+    "background": {
+      "valueType": "Color",
+      "name": "背景"
+    },
+    "maxVisiblePoint": {
+      "valueType": "PositiveNumber",
+      "defaultValue": 500,
+      "name": "最大可见点数"
+    },
+    "endProtectPoint": {
+      "valueType": "PositiveNumber",
+      "defaultValue": 50,
+      "name": "末尾保护点数"
+    },
+    "rectSelectBorderColor": {
+      "valueType": "Color",
+      "defaultValue": "rgba(61,61,61,0.50)",
+      "name": "框选边框色",
+      "group": "选择"
+    },
+    "rectSelectBackground": {
+      "valueType": "Color",
+      "defaultValue": "rgba(61,61,61,0.30)",
+      "name": "框选背景色"
+    },
+    "onRectSelected": {
+      "valueType": "Function",
+      "name": "框选事件",
+      "extraInfo": {
+        "arguments": [
+          "ranges",
+          "data",
+          "view"
+        ]
+      }
+    },
+    "tooltip": {
+      "valueType": "Boolean",
+      "defaultValue": true,
+      "name": "提示",
+      "group": "提示"
+    },
+    "tooltipLineColor": {
+      "valueType": "Color",
+      "defaultValue": "rgb(124,145,155)",
+      "name": "线颜色"
+    },
+    "tooltipLineWidth": {
+      "valueType": "PositiveNumber",
+      "defaultValue": 1,
+      "name": "线宽"
+    },
+    "tooltipLinePattern": {
+      "valueType": "NumberArray",
+      "name": "线虚线样式"
+    },
+    "tooltipPointerType": {
+      "valueType": "String",
+      "defaultValue": "line",
+      "name": "提示类型"
+    },
+    "tooltipFormatter": {
+      "valueType": "Function",
+      "name": "提示格式化",
+      "extraInfo": {
+        "arguments": [
+          "info",
+          "time",
+          "data",
+          "view"
+        ]
+      }
+    }
+  },
+  "events": {
+    "onClick": "__ht__function(event, data, view, point, width, height) {\nht.vector.timeAxisChartInteractor.onClick.apply(this, arguments);\n}",
+    "onDown": "__ht__function(event, data, view, point, width, height) {\nht.vector.timeAxisChartInteractor.onDown.apply(this, arguments);\n}",
+    "onUp": "__ht__function(event, data, view, point, width, height) {\nht.vector.timeAxisChartInteractor.onUp.apply(this, arguments);\n}",
+    "onMove": "__ht__function(event, data, view, point, width, height) {\nht.vector.timeAxisChartInteractor.onMove.apply(this, arguments);\n}",
+    "onEnter": "__ht__function(event, data, view, point, width, height) {\nht.vector.timeAxisChartInteractor.onEnter.apply(this, arguments);\n}",
+    "onLeave": "__ht__function(event, data, view, point, width, height) {\nht.vector.timeAxisChartInteractor.onLeave.apply(this, arguments);\n}",
+    "onBeginDrag": "__ht__function(event, data, view, point, width, height) {\nht.vector.timeAxisChartInteractor.onBeginDrag.apply(this, arguments);\n}",
+    "onDrag": "__ht__function(event, data, view, point, width, height) {\nht.vector.timeAxisChartInteractor.onDrag.apply(this, arguments);\n}",
+    "onEndDrag": "__ht__function(event, data, view, point, width, height) {\nht.vector.timeAxisChartInteractor.onEndDrag.apply(this, arguments);\n}",
+    "onScroll": "__ht__function(event, data, view, point, width, height) {\nht.vector.timeAxisChartInteractor.onScroll.apply(this, arguments);\n}"
+  }
+}

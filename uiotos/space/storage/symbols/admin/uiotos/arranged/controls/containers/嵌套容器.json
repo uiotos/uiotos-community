@@ -1,0 +1,196 @@
+{
+  "modified": "Wed Jul 24 2024 21:32:02 GMT+0800 (中国标准时间)",
+  "dataBindings": [
+    {
+      "attr": "symbol",
+      "valueType": "Image"
+    },
+    {
+      "attr": "display",
+      "valueType": "URL",
+      "group": "功能"
+    },
+    {
+      "attr": "displayJson",
+      "valueType": "Multiline",
+      "description": "",
+      "extraInfo": "*"
+    },
+    {
+      "attr": "innerLayoutMode",
+      "valueType": "InnerLayoutMode",
+      "defaultValue": "none",
+      "description": ""
+    },
+    {
+      "attr": "onPostDeserialize",
+      "valueType": "Function",
+      "extraInfo": {
+        "arguments": [
+          "json",
+          "dm",
+          "gv",
+          "datas"
+        ],
+        "classify": "*"
+      },
+      "description": ""
+    },
+    {
+      "attr": "useOriginSize",
+      "valueType": "Boolean",
+      "defaultValue": false,
+      "extraInfo": "★",
+      "description": ""
+    },
+    {
+      "attr": "useInnerEventsAll",
+      "valueType": "Boolean",
+      "description": "",
+      "extraInfo": "*"
+    },
+    {
+      "attr": "isLoadingGet",
+      "valueType": "Boolean",
+      "description": "",
+      "defaultValue": false,
+      "extraInfo": "★"
+    },
+    {
+      "attr": "enableLoading",
+      "valueType": "Boolean",
+      "extraInfo": "*"
+    },
+    {
+      "attr": "pureFormValues",
+      "valueType": "Boolean",
+      "description": ""
+    },
+    {
+      "attr": "userData",
+      "valueType": "Object",
+      "defaultValue": []
+    },
+    {
+      "attr": "onDisplayLoaded",
+      "valueType": "Function",
+      "description": "",
+      "extraInfo": {
+        "arguments": [
+          "data",
+          "gv",
+          "cache"
+        ]
+      }
+    },
+    {
+      "attr": "shadowBorder",
+      "valueType": "NumberArray",
+      "defaultValue": [
+        0,
+        0,
+        8
+      ],
+      "group": "外观",
+      "extraInfo": "*"
+    },
+    {
+      "attr": "shadowColor",
+      "valueType": "Color",
+      "defaultValue": "rgba(55,125,255,0.50)",
+      "extraInfo": "*"
+    },
+    {
+      "attr": "shadowEnabled",
+      "valueType": "Boolean",
+      "defaultValue": true
+    },
+    {
+      "attr": "borderWidth",
+      "valueType": "Number"
+    },
+    {
+      "attr": "innerBackground",
+      "valueType": "Color",
+      "defaultValue": null,
+      "description": ""
+    },
+    {
+      "attr": "bindControlsTag",
+      "valueType": "StringArray",
+      "group": "连线"
+    },
+    {
+      "attr": "bindControlsAttr",
+      "valueType": "ObjectArray"
+    },
+    {
+      "attr": "bindControlsVal",
+      "valueType": "ObjectArray",
+      "description": ""
+    },
+    {
+      "attr": "paramControlTag",
+      "valueType": "StringArray"
+    },
+    {
+      "attr": "paramControlAttr",
+      "valueType": "ObjectArray"
+    },
+    {
+      "attr": "paramsGenerator",
+      "valueType": "Function",
+      "defaultValue": "__ht__function(data, val, index, node,oldVal,form,type,inner) {//绑定组索引对应的函数处理，用来动态生成复杂的参数变量传入\r\nswitch(index){\r\n    case 0:\r\n        break;\r\n    case 1:\r\n        break;\r\n    case 2:\r\n        break;\r\n    default:\r\n        break;\r\n}\r\n\r\nreturn val;}",
+      "extraInfo": {
+        "arguments": [
+          "data",
+          "val",
+          "index",
+          "node",
+          "oldVal",
+          "form",
+          "type",
+          "inner"
+        ],
+        "classify": "*"
+      }
+    }
+  ],
+  "snapshotURL": "symbols/develop/uiotos/arranged/controls/containers_icon/嵌套容器.json",
+  "renderHTML": "__ht__function(data, gv, cache) {return __graphView(data,gv,cache);}",
+  "width": 500,
+  "height": 300,
+  "fitSize": true,
+  "pixelPerfect": false,
+  "comps": [
+    {
+      "type": "text",
+      "text": {
+        "func": "__ht__function(data, view) {\n// return data.ca('__loadingText') && data.ca('__loadingText')[!data.ca('__loadingStatus')]\n}",
+        "value": "…"
+      },
+      "align": "center",
+      "color": {
+        "func": "attr@__loadingColor",
+        "value": "rgb(150,150,150)"
+      },
+      "font": {
+        "func": "attr@__loadingFont",
+        "value": "12px arial, sans-serif"
+      },
+      "visible": {
+        "func": "attr@__loadingVisible",
+        "value": false
+      },
+      "layoutH": "center",
+      "layoutV": "center",
+      "displayName": "Text（Text1）",
+      "rect": [
+        74.69339,
+        53.1422,
+        50.61322,
+        13.7156
+      ]
+    }
+  ]
+}

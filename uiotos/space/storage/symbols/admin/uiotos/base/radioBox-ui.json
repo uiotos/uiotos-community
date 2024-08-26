@@ -1,0 +1,164 @@
+{
+  "modified": "Sat Aug 24 2024 16:22:48 GMT+0800 (中国标准时间)",
+  "background": "rgb(32,37,46)",
+  "dataBindings": [
+    {
+      "attr": "symbol",
+      "valueType": "Image"
+    },
+    {
+      "attr": "disabled",
+      "valueType": "Boolean",
+      "defaultValue": false,
+      "description": "是否禁用。\n<br>勾选后用户无法操作，相当于只读。",
+      "group": "功能",
+      "extraInfo": "★"
+    },
+    {
+      "attr": "datas",
+      "valueType": "StringArray",
+      "defaultValue": [
+        "aaa",
+        "bbb",
+        "ccc"
+      ],
+      "description": "单选框的数据。\n<br>可以是单纯的数组，如： [\"aaa\",\"bbb\",\"ccc\"]；\n<br>也可以是带字段的对象的数组， 如： [\"姓名\":\"张三\",\"姓名\":\"李四\"]\n<br>"
+    },
+    {
+      "attr": "indexValue",
+      "valueType": "PositiveNumber",
+      "defaultValue": 0,
+      "description": "所选项对应的索引序号。"
+    },
+    {
+      "attr": "textValue",
+      "valueType": "String",
+      "defaultValue": "\"\"",
+      "description": "所选项对应的字段。"
+    },
+    {
+      "attr": "userData",
+      "valueType": "Object",
+      "defaultValue": []
+    },
+    {
+      "attr": "onChange",
+      "valueType": "Function",
+      "extraInfo": {
+        "arguments": [
+          "data",
+          "gv",
+          "cache",
+          "value",
+          "extra"
+        ]
+      }
+    },
+    {
+      "attr": "labelIcon",
+      "valueType": "Image",
+      "group": "外观",
+      "description": "标签图标。",
+      "extraInfo": "~"
+    },
+    {
+      "attr": "labelText",
+      "valueType": "String",
+      "defaultValue": "请选择"
+    },
+    {
+      "attr": "labelFont",
+      "valueType": "Font",
+      "extraInfo": "★"
+    },
+    {
+      "attr": "labelColor",
+      "valueType": "Color",
+      "defaultValue": "rgb(0,0,0)"
+    },
+    {
+      "attr": "radioFont",
+      "valueType": "Font",
+      "extraInfo": "★"
+    },
+    {
+      "attr": "radioColor",
+      "valueType": "Color",
+      "defaultValue": "rgb(124,145,155)",
+      "description": "文本颜色。",
+      "extraInfo": "★"
+    },
+    {
+      "attr": "layoutType",
+      "valueType": "LableLayout",
+      "defaultValue": 0,
+      "description": "布局类型。"
+    },
+    {
+      "attr": "labelEmbeded",
+      "valueType": "Boolean",
+      "defaultValue": true
+    },
+    {
+      "attr": "gapLabel",
+      "valueType": "PositiveNumber",
+      "defaultValue": 10,
+      "description": "标签与组件之间的间隙。",
+      "extraInfo": "★"
+    },
+    {
+      "attr": "gapItem",
+      "valueType": "PositiveNumber",
+      "defaultValue": "5",
+      "description": "单选项之间的间隙",
+      "extraInfo": "★"
+    },
+    {
+      "attr": "bindControlsTag",
+      "valueType": "StringArray",
+      "group": "连线"
+    },
+    {
+      "attr": "bindControlsAttr",
+      "valueType": "StringArray"
+    },
+    {
+      "attr": "bindControlsVal",
+      "valueType": "ObjectArray"
+    },
+    {
+      "attr": "paramControlTag",
+      "valueType": "StringArray"
+    },
+    {
+      "attr": "paramControlAttr",
+      "valueType": "StringArray"
+    },
+    {
+      "attr": "paramsGenerator",
+      "valueType": "Function",
+      "defaultValue": "__ht__function(data, val, index, node,oldVal,form,type,inner) {//绑定组索引对应的函数处理，用来动态生成复杂的参数变量传入\r\nswitch(index){\r\n    case 0:\r\n        break;\r\n    case 1:\r\n        break;\r\n    case 2:\r\n        break;\r\n    default:\r\n        break;\r\n}\r\n\r\nreturn val;}",
+      "extraInfo": {
+        "arguments": [
+          "data",
+          "val",
+          "index",
+          "node",
+          "oldVal",
+          "form",
+          "type",
+          "inner"
+        ],
+        "classify": "*"
+      }
+    }
+  ],
+  "snapshotURL": "symbols/develop/uiotos/arranged/controls/forms_icon/单选框.json",
+  "renderHTML": "__ht__function(data, gv, cache) {return __radioBox_ui(data,gv,cache);}",
+  "width": 200,
+  "height": 35,
+  "scrollable": true,
+  "interactive": true,
+  "pixelPerfect": false,
+  "comps": []
+}

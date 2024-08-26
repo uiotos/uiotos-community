@@ -1,0 +1,144 @@
+{
+  "modified": "Fri Jun 07 2024 10:24:33 GMT+0800 (中国标准时间)",
+  "dataBindings": [
+    {
+      "attr": "symbol",
+      "valueType": "Image"
+    },
+    {
+      "attr": "coord",
+      "valueType": "String",
+      "defaultValue": "114.0289878845215,22.609098421236595",
+      "group": "功能"
+    },
+    {
+      "attr": "latLonAlign",
+      "valueType": "Boolean",
+      "defaultValue": false
+    },
+    {
+      "attr": "zoom",
+      "valueType": "PositiveNumber",
+      "defaultValue": 12
+    },
+    {
+      "attr": "server",
+      "valueType": "String",
+      "defaultValue": "http://wprd04.is.autonavi.com/appmaptile?lang=zh_cn&size=1&style=7&x={x}&y={y}&z={z}"
+    },
+    {
+      "attr": "keys",
+      "valueType": "StringArray",
+      "defaultValue": [
+        "55f4a92e2e43f807ae4e6ea1ae1b014c"
+      ]
+    },
+    {
+      "attr": "default",
+      "valueType": "GismapTileType",
+      "defaultValue": 3
+    },
+    {
+      "attr": "radius",
+      "valueType": "PositiveNumber",
+      "defaultValue": 1000,
+      "group": "搜索",
+      "description": "搜索周边半径。\n<br>高德API，不推荐使用，建议用API组件结合天地图接口实现。"
+    },
+    {
+      "attr": "search",
+      "valueType": "String",
+      "description": "搜索关键词。\n<br>高德API，不推荐使用，建议用API组件结合天地图接口实现。"
+    },
+    {
+      "attr": "trigger",
+      "valueType": "Boolean",
+      "defaultValue": false,
+      "description": "执行搜索。\n<br>高德API，不推荐使用，建议用API组件结合天地图接口实现。"
+    },
+    {
+      "attr": "results",
+      "valueType": "ObjectArray",
+      "extraInfo": {
+        "arguments": [
+          "data",
+          "gv",
+          "cache",
+          "value"
+        ]
+      },
+      "description": "周边搜索结果。\n<br>高德API，不推荐使用，建议用API组件结合天地图接口实现。"
+    },
+    {
+      "attr": "error",
+      "valueType": "Object",
+      "description": "搜索错误信息。\n<br>高德API，不推荐使用，建议用API组件结合天地图接口实现。"
+    },
+    {
+      "attr": "markerSet",
+      "valueType": "Boolean",
+      "defaultValue": false,
+      "description": "设定地图标定点。\n<br>根据results属性来设定，只写触发，触发后会自动复位。"
+    },
+    {
+      "attr": "onClick",
+      "valueType": "Function",
+      "extraInfo": {
+        "arguments": [
+          "data",
+          "gv",
+          "cache",
+          "param"
+        ]
+      },
+      "defaultValue": "__ht__function(data, gv, cache, param) {}",
+      "group": "事件"
+    },
+    {
+      "attr": "bindControlsTag",
+      "valueType": "StringArray",
+      "group": "连线"
+    },
+    {
+      "attr": "bindControlsAttr",
+      "valueType": "StringArray"
+    },
+    {
+      "attr": "bindControlsVal",
+      "valueType": "ObjectArray",
+      "description": "静态值。也用作数组索引、JSON对象解析提取值用途。\n<br>一、静态值用途：\n<br>对常规类型的属性赋值且没有反向关联属性值，传入为数值时，不\n<br>会作为数组的索引，而会当成常量值对外赋值。此外，存在特殊值：\n<br>~和undefined表示过滤、不触发；null为默认值，表示传递默认表\n<br>单数据。编辑状态下清空后保存与设置null等价。\n<br>二、数组索引用途\n<br>情况1：被操作的组件属性原先值是数组时（包括空数组），会将\n<br>待输出的值作为被操作数组指定索引的值来传入，而不是整体覆盖。\n<br>情况2：如果要被操作的组件属性原先值不是数组，而且待输出的\n<br>值为数组类型并且长度也在索引范围内，那么会按照索引取自身数\n<br>组指定元素再对外输出。（如果想要取待输出索引值，赋值给被操\n<br>纵属性的指定索引，那么需要中间组件属性连线过渡以下，无法直\n<br>接操作）\n<br>情况3：如果要被操作的组件属性是数组，而且待输出的值也是数组\n<br>类型，此时当情况1来处理。\n<br>三、数据解析用途：\n<br>待输出的值为JSON对象时，用x.y.z这种以字符.或者>为间隔的方式\n<br>实现对JSON字段层次逐层定位，当是数组时x.0.y.1这种以数字的方\n<br>式来指定数组的某个索引。以此实现对任意结果JSON对象字段的定\n<br>位，获取结构内指定字段对应的值。"
+    },
+    {
+      "attr": "paramControlTag",
+      "valueType": "StringArray"
+    },
+    {
+      "attr": "paramControlAttr",
+      "valueType": "StringArray"
+    },
+    {
+      "attr": "paramsGenerator",
+      "valueType": "Function",
+      "defaultValue": "__ht__function(data, val, index, node,oldVal,form,type,inner) {//绑定组索引对应的函数处理，用来动态生成复杂的参数变量传入\r\nswitch(index){\r\n    case 0:\r\n        break;\r\n    case 1:\r\n        break;\r\n    case 2:\r\n        break;\r\n    default:\r\n        break;\r\n}\r\n\r\nreturn val;}",
+      "extraInfo": {
+        "arguments": [
+          "data",
+          "val",
+          "index",
+          "node",
+          "oldVal",
+          "form",
+          "type",
+          "inner"
+        ]
+      }
+    }
+  ],
+  "snapshotURL": "symbols/develop/uiotos/arranged/controls/maps_icon/地图.json",
+  "renderHTML": "__ht__function(data, gv, cache) {return __coordgis_ui(data, gv, cache);}",
+  "width": 640,
+  "height": 480,
+  "scrollable": true,
+  "pixelPerfect": false,
+  "comps": []
+}

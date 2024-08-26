@@ -1,0 +1,147 @@
+{
+  "modified": "Mon Jun 07 2021 10:59:07 GMT+0800 (中国标准时间)",
+  "width": 300,
+  "height": 100,
+  "func": "__ht__function(g, rect, comp, data, view) {\nht.vector.comp.chartLegend.apply(this, arguments);\n}",
+  "properties": {
+    "dataSource": {
+      "valueType": "Object",
+      "defaultValue": [
+        {
+          "name": "上海2"
+        },
+        {
+          "name": "厦门34"
+        },
+        {
+          "name": "天津14"
+        },
+        {
+          "name": "大连37"
+        },
+        {
+          "name": "青岛5"
+        }
+      ],
+      "name": "数据"
+    },
+    "colors": {
+      "valueType": "ColorArray",
+      "defaultValue": [
+        "rgb(51,153,255)",
+        "rgb(93,217,174)",
+        "#FEB64D",
+        "rgb(241,125,164)",
+        "rgb(135,144,204)",
+        "rgb(124,145,155)",
+        "rgb(48,242,120)",
+        "rgb(212,0,0)",
+        "#32D3EB",
+        "#c4ccd3"
+      ],
+      "name": "颜色数组"
+    },
+    "align": {
+      "valueType": "Align",
+      "defaultValue": "left",
+      "name": "水平对齐"
+    },
+    "vAlign": {
+      "valueType": "VAlign",
+      "defaultValue": "top",
+      "name": "垂直对齐"
+    },
+    "vertical": {
+      "valueType": "Boolean",
+      "defaultValue": false,
+      "name": "垂直显示"
+    },
+    "hGap": {
+      "valueType": "Number",
+      "defaultValue": 8,
+      "name": "横间距"
+    },
+    "vGap": {
+      "valueType": "Number",
+      "defaultValue": 8,
+      "name": "纵间距"
+    },
+    "vPadding": {
+      "valueType": "Number",
+      "defaultValue": 16,
+      "name": "横边距"
+    },
+    "hPadding": {
+      "valueType": "Number",
+      "defaultValue": 16,
+      "name": "纵边距"
+    },
+    "orientation": {
+      "valueType": "Orientation",
+      "defaultValue": "left",
+      "name": "朝向",
+      "group": "图标"
+    },
+    "disabledIconColor": {
+      "valueType": "Color",
+      "defaultValue": "rgb(217,217,217)",
+      "name": "禁用颜色"
+    },
+    "iconWidth": {
+      "valueType": "Number",
+      "defaultValue": 22,
+      "name": "宽度"
+    },
+    "iconHeight": {
+      "valueType": "Number",
+      "defaultValue": 12,
+      "name": "高度"
+    },
+    "drawIcon": {
+      "valueType": "Function",
+      "name": "自定义绘制",
+      "extraInfo": {
+        "arguments": [
+          "g",
+          "rect",
+          "item",
+          "itemIndex",
+          "color",
+          "data",
+          "view"
+        ]
+      }
+    },
+    "textGap": {
+      "valueType": "Number",
+      "defaultValue": 5,
+      "name": "文字图标间距",
+      "group": "标签"
+    },
+    "useItemColorOnLabel": {
+      "valueType": "Boolean",
+      "defaultValue": true,
+      "name": "使用图标颜色"
+    },
+    "font": {
+      "valueType": "Font",
+      "defaultValue": "12px sans-serif, Arial",
+      "name": "字体"
+    },
+    "labelColor": {
+      "valueType": "Color",
+      "defaultValue": "rgb(61,61,61)",
+      "name": "颜色"
+    },
+    "disabledLabelColor": {
+      "valueType": "Color",
+      "defaultValue": "rgb(217,217,217)",
+      "name": "禁用颜色"
+    }
+  },
+  "events": {
+    "onDown": "__ht__function(event, data, view, point, width, height) {\nht.vector.chartLegendInteractor.onDown.apply(this, arguments);\n}",
+    "onMove": "__ht__function(event, data, view, point, width, height) {\nht.vector.chartLegendInteractor.onMove.apply(this, arguments);\n}",
+    "onLeave": "__ht__function(event, data, view, point, width, height) {\nht.vector.chartLegendInteractor.onLeave.apply(this, arguments);\n}"
+  }
+}

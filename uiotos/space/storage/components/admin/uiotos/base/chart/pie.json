@@ -1,0 +1,356 @@
+{
+  "modified": "Mon Jun 07 2021 09:48:30 GMT+0800 (中国标准时间)",
+  "width": 300,
+  "height": 300,
+  "func": "__ht__function(g, rect, comp, data, view) {\nht.vector.comp.pie.apply(null, arguments);\n}",
+  "properties": {
+    "dataSource": {
+      "valueType": "Object",
+      "defaultValue": [
+        {
+          "name": "pie",
+          "value": 1
+        }
+      ],
+      "name": "数据"
+    },
+    "radius": {
+      "valueType": "NumberArray",
+      "defaultValue": [
+        0,
+        0.5
+      ],
+      "name": "半径"
+    },
+    "center": {
+      "valueType": "NumberArray",
+      "defaultValue": [
+        0.5,
+        0.5
+      ],
+      "name": "圆心"
+    },
+    "color": {
+      "valueType": "ColorArray",
+      "defaultValue": [
+        "rgb(51, 153, 255)",
+        "rgb(96, 172, 252)",
+        "rgb(49, 210, 235)",
+        "rgb(93, 217, 174)",
+        "rgb(125, 195, 125)",
+        "rgb(255, 235, 195)",
+        "rgb(226, 250, 87)",
+        "rgb(255, 184, 77)",
+        "rgb(255, 125, 125)",
+        "rgb(241, 125, 164)",
+        "rgb(204, 104, 166)",
+        "rgb(135, 144, 204)",
+        "rgb(145, 115, 205)",
+        "rgb(124, 145, 155)",
+        "rgb(48, 242, 120)",
+        "rgb(0, 199, 7)",
+        "rgb(242, 83, 75)",
+        "rgb(212, 0, 0)",
+        "rgb(240, 225, 19)",
+        "rgb(61, 61, 61)"
+      ],
+      "name": "取色板"
+    },
+    "startAngle": {
+      "valueType": "PositiveNumber",
+      "defaultValue": 0,
+      "name": "起始角度"
+    },
+    "endAngle": {
+      "valueType": "PositiveNumber",
+      "defaultValue": 360,
+      "name": "结束角度"
+    },
+    "minAngle": {
+      "valueType": "PositiveNumber",
+      "defaultValue": 0,
+      "name": "最小扇区角度"
+    },
+    "gapAngle": {
+      "valueType": "PositiveNumber",
+      "defaultValue": 0,
+      "name": "扇区间距角度"
+    },
+    "hoverOffset": {
+      "valueType": "PositiveNumber",
+      "defaultValue": 4,
+      "name": "高亮扇区偏移距离"
+    },
+    "minRoseRadius": {
+      "valueType": "PositiveNumber",
+      "defaultValue": 0,
+      "name": "南丁格尔图最小半径"
+    },
+    "seriesName": {
+      "valueType": "String",
+      "name": "系列名"
+    },
+    "roseType": {
+      "valueType": "String",
+      "defaultValue": false,
+      "name": "南丁格尔图",
+      "extraInfo": {
+        "enum": {
+          "values": [
+            "false",
+            "radius",
+            "area"
+          ]
+        }
+      }
+    },
+    "avoidLabelOverlap": {
+      "valueType": "Boolean",
+      "defaultValue": false,
+      "name": "标签防重叠"
+    },
+    "onSelected": {
+      "valueType": "Function",
+      "name": "选中事件",
+      "extraInfo": {
+        "arguments": [
+          "name",
+          "value",
+          "percent",
+          "data",
+          "view"
+        ]
+      }
+    },
+    "tooltip.show": {
+      "valueType": "Boolean",
+      "defaultValue": {
+        "show": true,
+        "formatter": ""
+      },
+      "name": "是否显示",
+      "group": "提示"
+    },
+    "tooltip.formatter": {
+      "valueType": "Function",
+      "name": "格式",
+      "extraInfo": {
+        "arguments": [
+          "info",
+          "data",
+          "view"
+        ]
+      }
+    },
+    "tooltip.font": {
+      "valueType": "Font",
+      "defaultValue": "14px sans-serif, Arial",
+      "name": "字体"
+    },
+    "label.normal.show": {
+      "valueType": "Boolean",
+      "defaultValue": true,
+      "name": "是否显示",
+      "group": "文本-全局-正常态"
+    },
+    "label.normal.position": {
+      "valueType": "String",
+      "defaultValue": "center",
+      "name": "位置",
+      "extraInfo": {
+        "enum": {
+          "values": [
+            "center",
+            "inside"
+          ]
+        }
+      }
+    },
+    "label.normal.formatter": {
+      "valueType": "Function",
+      "name": "格式",
+      "extraInfo": {
+        "arguments": [
+          "info",
+          "data",
+          "view"
+        ]
+      }
+    },
+    "label.normal.color": {
+      "valueType": "Color",
+      "defaultValue": null,
+      "name": "颜色"
+    },
+    "label.normal.font": {
+      "valueType": "Font",
+      "defaultValue": "12px serif",
+      "name": "字体"
+    },
+    "label.emphasis.show": {
+      "valueType": "Boolean",
+      "defaultValue": true,
+      "name": "是否显示",
+      "group": "文本-全局-高亮态"
+    },
+    "label.emphasis.position": {
+      "valueType": "String",
+      "defaultValue": "center",
+      "name": "位置",
+      "extraInfo": {
+        "enum": {
+          "values": [
+            "center",
+            "inside"
+          ]
+        }
+      }
+    },
+    "label.emphasis.formatter": {
+      "valueType": "Function",
+      "name": "格式",
+      "extraInfo": {
+        "arguments": [
+          "info",
+          "data",
+          "view"
+        ]
+      }
+    },
+    "label.emphasis.color": {
+      "valueType": "Color",
+      "defaultValue": null,
+      "name": "颜色"
+    },
+    "label.emphasis.font": {
+      "valueType": "Font",
+      "defaultValue": "13px serif",
+      "name": "字体"
+    },
+    "labelLine.normal.show": {
+      "valueType": "Boolean",
+      "defaultValue": true,
+      "name": "是否显示",
+      "group": "引导线-全局-正常态"
+    },
+    "labelLine.normal.length": {
+      "valueType": "PositiveNumber",
+      "defaultValue": 15,
+      "name": "第一段长度"
+    },
+    "labelLine.normal.length2": {
+      "valueType": "PositiveNumber",
+      "defaultValue": 10,
+      "name": "第二段长度"
+    },
+    "labelLine.normal.formatter": {
+      "valueType": "Function",
+      "name": "格式",
+      "extraInfo": {
+        "arguments": [
+          "info",
+          "data",
+          "view"
+        ]
+      }
+    },
+    "labelLine.normal.width": {
+      "valueType": "PositiveNumber",
+      "defaultValue": 1,
+      "name": "线宽度"
+    },
+    "labelLine.normal.type": {
+      "valueType": "String",
+      "defaultValue": "dashed",
+      "name": "线类型",
+      "extraInfo": {
+        "enum": {
+          "values": [
+            "dashed",
+            "solid"
+          ]
+        }
+      }
+    },
+    "labelLine.normal.font": {
+      "valueType": "Font",
+      "defaultValue": "12px serif",
+      "name": "字体"
+    },
+    "labelLine.normal.lineColor": {
+      "valueType": "Color",
+      "defaultValue": null,
+      "name": "线颜色"
+    },
+    "labelLine.normal.textColor": {
+      "valueType": "Color",
+      "defaultValue": null,
+      "name": "文本颜色"
+    },
+    "labelLine.emphasis.show": {
+      "valueType": "Boolean",
+      "defaultValue": true,
+      "name": "是否显示",
+      "group": "引导线-全局-高亮态"
+    },
+    "labelLine.emphasis.length": {
+      "valueType": "PositiveNumber",
+      "defaultValue": 15,
+      "name": "第一段长度"
+    },
+    "labelLine.emphasis.length2": {
+      "valueType": "PositiveNumber",
+      "defaultValue": 10,
+      "name": "第二段长度"
+    },
+    "labelLine.emphasis.formatter": {
+      "valueType": "Function",
+      "name": "格式",
+      "extraInfo": {
+        "arguments": [
+          "info",
+          "data",
+          "view"
+        ]
+      }
+    },
+    "labelLine.emphasis.width": {
+      "valueType": "PositiveNumber",
+      "defaultValue": 2,
+      "name": "线宽度"
+    },
+    "labelLine.emphasis.type": {
+      "valueType": "String",
+      "defaultValue": "dashed",
+      "name": "线类型",
+      "extraInfo": {
+        "enum": {
+          "values": [
+            "dashed",
+            "solid"
+          ]
+        }
+      }
+    },
+    "labelLine.emphasis.font": {
+      "valueType": "Font",
+      "defaultValue": "13px serif",
+      "name": "字体"
+    },
+    "labelLine.emphasis.lineColor": {
+      "valueType": "Color",
+      "defaultValue": null,
+      "name": "线颜色"
+    },
+    "labelLine.emphasis.textColor": {
+      "valueType": "Color",
+      "defaultValue": null,
+      "name": "文本颜色"
+    }
+  },
+  "events": {
+    "onUp": "__ht__function(event, data, view, point, width, height) {\nht.vector.pieInteractor.onUp.apply(this, arguments);\n}",
+    "onMove": "__ht__function(event, data, view, point, width, height) {\nht.vector.pieInteractor.onMove.apply(this, arguments);\n}",
+    "onLeave": "__ht__function(event, data, view, point, width, height) {\nht.vector.pieInteractor.onLeave.apply(this, arguments);\n}"
+  }
+}

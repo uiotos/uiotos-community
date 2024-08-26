@@ -1,0 +1,173 @@
+{
+  "modified": "Mon Aug 19 2024 16:30:58 GMT+0800 (中国标准时间)",
+  "dataBindings": [
+    {
+      "attr": "progressPercentage",
+      "valueType": "Percentage",
+      "name": "百分比",
+      "description": "进度",
+      "group": "功能"
+    },
+    {
+      "attr": "curValue",
+      "valueType": "Object",
+      "defaultValue": null,
+      "name": "当前值"
+    },
+    {
+      "attr": "minValue",
+      "valueType": "Number",
+      "defaultValue": 0,
+      "name": "最小值"
+    },
+    {
+      "attr": "maxValue",
+      "valueType": "Number",
+      "defaultValue": 100,
+      "name": "最大值"
+    },
+    {
+      "attr": "unit",
+      "valueType": "String",
+      "name": "单位"
+    },
+    {
+      "attr": "showOrigin",
+      "valueType": "Boolean",
+      "name": "原始值",
+      "description": "false为百分比显示，true为原始值显示"
+    },
+    {
+      "attr": "linearOuter",
+      "valueType": "ColorArray",
+      "name": "圆环渐变色",
+      "description": "圆环渐变色",
+      "group": "外观"
+    },
+    {
+      "attr": "linearInner",
+      "valueType": "ColorArray",
+      "name": "内圆渐变色",
+      "description": "内圆渐变色"
+    },
+    {
+      "attr": "innerBackground",
+      "valueType": "Color",
+      "name": "背景颜色"
+    },
+    {
+      "attr": "outerDefaultColor",
+      "valueType": "Color",
+      "name": "外环颜色"
+    },
+    {
+      "attr": "innerGapWidth",
+      "valueType": "Number",
+      "name": "内环间隙",
+      "defaultValue": 2
+    },
+    {
+      "attr": "innerGapColor",
+      "valueType": "Color",
+      "name": "间隙颜色",
+      "defaultValue": "rgba(247,247,247,0)"
+    },
+    {
+      "attr": "textColor",
+      "valueType": "Color",
+      "name": "文字颜色"
+    },
+    {
+      "attr": "fontScale",
+      "valueType": "Number",
+      "name": "字体缩放",
+      "description": "默认为1倍"
+    },
+    {
+      "attr": "progressLineCap",
+      "valueType": "CapStyle",
+      "name": "末端样式",
+      "description": "分为平直/圆形/方形",
+      "defaultValue": "round"
+    }
+  ],
+  "width": 100,
+  "height": 100,
+  "pixelPerfect": false,
+  "comps": [
+    {
+      "type": "components/develop/uiotos/base/circleProgressBar.json",
+      "pixelPerfect": true,
+      "displayName": "circleProgressBarSymbol（circleProgressBarSymbol1）",
+      "rect": [
+        0,
+        0,
+        100,
+        100
+      ],
+      "progressPercentage": {
+        "func": "attr@progressPercentage",
+        "value": 0.6
+      },
+      "linearOuter": {
+        "func": "attr@linearOuter",
+        "value": [
+          "rgb(51,153,255)",
+          "rgb(247,247,247)"
+        ]
+      },
+      "linearInner": {
+        "func": "attr@linearInner",
+        "value": [
+          "rgba(0,78,145,0)",
+          "rgba(0,0,0,0)"
+        ]
+      },
+      "fontScale": {
+        "func": "attr@fontScale",
+        "value": 1
+      },
+      "showOrigin": {
+        "func": "attr@showOrigin",
+        "value": false
+      },
+      "progressLineCap": {
+        "func": "attr@progressLineCap",
+        "value": "round"
+      },
+      "innerBackground": {
+        "func": "attr@innerBackground",
+        "value": "rgba(61,61,61,0)"
+      },
+      "outerDefaultColor": {
+        "func": "attr@outerDefaultColor",
+        "value": "rgba(59,59,59,0.05)"
+      },
+      "innerGapWidth": {
+        "func": "attr@innerGapWidth",
+        "value": 0
+      },
+      "innerGapColor": {
+        "func": "attr@innerGapColor",
+        "value": "#0A2E44"
+      },
+      "textColor": {
+        "func": "attr@textColor",
+        "value": "#32D3EB"
+      },
+      "fontSize": 26,
+      "minValue": {
+        "func": "attr@minValue",
+        "value": 0
+      },
+      "maxValue": {
+        "func": "attr@maxValue",
+        "value": 100
+      },
+      "curValue": {
+        "func": "attr@curValue",
+        "value": null
+      }
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "modified": "Fri Aug 19 2022 08:36:43 GMT+0800 (中国标准时间)",
+  "background": "rgb(32,37,46)",
+  "dataBindings": [
+    {
+      "attr": "shadowColor",
+      "valueType": "Color"
+    },
+    {
+      "attr": "shadowblur",
+      "valueType": "PositiveNumber"
+    },
+    {
+      "attr": "shadowOffsetX",
+      "valueType": "PositiveNumber"
+    },
+    {
+      "attr": "shadowOffsetYs",
+      "valueType": "PositiveNumber"
+    },
+    {
+      "attr": "scaleX",
+      "valueType": "Number"
+    },
+    {
+      "attr": "scaleY",
+      "valueType": "Number"
+    }
+  ],
+  "width": 398,
+  "height": 207,
+  "fitSize": true,
+  "clip": true,
+  "comps": [
+    {
+      "type": "roundRect",
+      "background": "rgb(255,255,255)",
+      "borderColor": "rgb(138,138,138)",
+      "cornerRadius": 8,
+      "shadow": true,
+      "shadowColor": {
+        "func": "attr@shadowColor",
+        "value": "rgba(0,0,0,0.2)"
+      },
+      "shadowBlur": {
+        "func": "attr@shadowblur",
+        "value": 44
+      },
+      "shadowOffsetX": {
+        "func": "attr@shadowOffsetX",
+        "value": 0
+      },
+      "shadowOffsetY": {
+        "func": "attr@shadowOffsetYs",
+        "value": 16
+      },
+      "displayName": "节点",
+      "scaleX": {
+        "func": "attr@scaleX",
+        "value": 0.9
+      },
+      "scaleY": {
+        "func": "attr@scaleY",
+        "value": 0.9
+      },
+      "rect": [
+        0,
+        0,
+        398,
+        207
+      ]
+    }
+  ]
+}

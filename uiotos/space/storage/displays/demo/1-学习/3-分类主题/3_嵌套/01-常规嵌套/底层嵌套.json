@@ -1,0 +1,117 @@
+{
+  "v": "8.0.1",
+  "p": {
+    "background": "#20252e",
+    "autoAdjustIndex": true,
+    "hierarchicalRendering": true
+  },
+  "a": {
+    "rotateAsClock": false,
+    "gridBlockSize": 20,
+    "connectActionType": null,
+    "fitContent": false,
+    "zoomable": false,
+    "rectSelectable": false,
+    "pannable": false
+  },
+  "d": [
+    {
+      "c": "ht.Node",
+      "i": 570263,
+      "p": {
+        "name": "base",
+        "displayName": "底板（_base）",
+        "tag": "_base",
+        "position": {
+          "x": 1167.33105,
+          "y": 42.30526
+        },
+        "width": 147.24639,
+        "height": 84.61051
+      },
+      "s": {
+        "shape": "rect",
+        "shape.background": "white",
+        "fullscreen": "fill",
+        "fullscreen.gap": 0,
+        "2d.movable": false,
+        "label.opacity": 0,
+        "interactive": true,
+        "label.position": 17,
+        "label.offset.y": 0,
+        "label.color": "rgb(61,61,61)",
+        "label.font": "12px arial, sans-serif",
+        "label": ""
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 570264,
+      "p": {
+        "displayName": "Text（Text1）",
+        "toolTip": "<p style='color:rgb(242,83,75);margin-top:5px;margin-bottom:5px;font-weight:bold;line-height:1.5em;'>已被布局，不允许拖动（shift+回车可解除）</p>",
+        "tag": "Text1",
+        "host": {
+          "__i": 570263
+        },
+        "position": {
+          "x": 1167.33105,
+          "y": 42.30526
+        },
+        "width": 44.91838,
+        "height": 14.15237
+      },
+      "s": {
+        "text": "底层页面",
+        "label.position": 14,
+        "label.offset.x": -10,
+        "label.offset.y": 0,
+        "label.color": "rgb(61,61,61)",
+        "2d.movable": false,
+        "interactive": true,
+        "image.stretch": "uniform",
+        "text.color": "rgb(61,61,61)",
+        "layout.h": "center",
+        "layout.v": "center"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 570265,
+      "p": {
+        "name": "reply-176",
+        "displayName": "reply-176（reply-1761）",
+        "tag": "reply-1761",
+        "image": "symbols/develop/uiotos/arranged/icons/方向/reply-176.json",
+        "rotation": 4.86756,
+        "position": {
+          "x": 1030.30723,
+          "y": -49.84813
+        },
+        "width": 45,
+        "height": 45
+      },
+      "s": {
+        "label.position": 13,
+        "label.offset.y": -8,
+        "label.color": "rgb(125,195,125)",
+        "interactive": true,
+        "image.stretch": "uniform",
+        "label.opacity": 1,
+        "label": "双击空位置，跳到上层页面",
+        "label.font": "26px arial, sans-serif",
+        "label.align": "left"
+      },
+      "a": {
+        "_hideWhenRun": true
+      }
+    }
+  ],
+  "modified": "Thu Jun 20 2024 17:38:46 GMT+0800 (中国标准时间)",
+  "contentRect": {
+    "x": 1004.60021,
+    "y": -83.55515,
+    "width": 367.41404,
+    "height": 168.16566
+  }
+}
