@@ -1,5 +1,5 @@
 {
-  "modified": "Sat Aug 24 2024 17:33:27 GMT+0800 (中国标准时间)",
+  "modified": "Mon Aug 26 2024 14:50:03 GMT+0800 (中国标准时间)",
   "dataBindings": [
     {
       "attr": "symbol",
@@ -108,7 +108,7 @@
       "valueType": "ColorArray",
       "description": "背景颜色。\n背景色。\n<br>索引0：默认背景颜色。\n<br>索引1：只读时悬停背景色、禁用时默认背景色。\n<br>索引2：只读或禁用时按下背景色。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#O1qbN\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
       "defaultValue": [
-        null,
+        "rgb(255,255,255)",
         "rgb(247,247,247)",
         "rgb(247,247,247)"
       ]
