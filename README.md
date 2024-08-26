@@ -22,15 +22,20 @@ A frontend no-code tool supporting **page nesting**, ready-to-use, where users d
 - **Containers support unlimited nesting levels, with no JSON configuration or code required.**
 
     Pages are nested through container components and support property inheritance, where properties of lower-level page components can be appended to the configuration of higher-level components.
+
     ![20240818090511_rec_.gif](https://cdn.nlark.com/yuque/0/2024/gif/534201/1723943130131-26df2006-dda3-4765-b0f1-178c746b6b4a.gif#averageHue=%23254f77&clientId=u45b29602-a075-4&from=paste&height=700&id=ud99f4398&originHeight=700&originWidth=1284&originalType=binary&ratio=1&rotation=0&showTitle=false&size=633055&status=done&style=none&taskId=uccd3a0a3-41af-4c79-a0d5-6117cb06740&title=&width=1284)
+
 - **Any complex JSON data can be set or parsed without code.**
 
     Wiring, configured with [parse string](https://www.yuque.com/liuhuo-nc809/uiotos/zl6xhi59n2xww3oq#KfdCR), can extract specific fields from arbitrarily complex structured JSON data.
+
     ![](https://cdn.nlark.com/yuque/0/2024/gif/39161281/1723174280678-4a385b23-234e-4a2e-8256-2ec8e9aff652.gif#averageHue=%23dbdce8&from=url&id=pAOsb&originHeight=1032&originWidth=2010&originalType=binary&ratio=1&rotation=0&showTitle=false&status=done&style=none&title=)<br />See [Example 8: Data Parsing and Extraction.](https://www.yuque.com/liuhuo-nc809/uiotos/yg8bvqzv5fw2kkty)
+
 - **Existing web resources (like jQuery-based markdown) can be encapsulated as built-in components, eliminating the need to reinvent the wheel.**
 
     Components from frameworks like Element UI, amis, etc., can also be encapsulated for use with UIOTOS, for nesting and wiring.
     Configurations for nesting and wiring created with UIOTOS can be output in JSON format for use with other frameworks, enabling bidirectional compatibility.
+    
     ![image.png](https://cdn.nlark.com/yuque/0/2024/png/534201/1723943543193-e9bb22ed-ee38-4421-9d52-f51a295c03f6.png#averageHue=%23839f91&clientId=u45b29602-a075-4&from=paste&height=962&id=RrGED&originHeight=962&originWidth=1920&originalType=binary&ratio=1&rotation=0&showTitle=false&size=214392&status=done&style=none&taskId=u70c25ddb-6ee6-4ea0-a896-392d636cba8&title=&width=1920)
 <a name="dXcPx"></a>
 ### Where is it applicable?
@@ -79,7 +84,7 @@ UIOTOS is not a "silver bullet" and has both suitable and less suitable scenario
         To understand the implementation principles in-depth, some familiarity with ht.js is beneficial. For secondary development of components, this is not necessary. Components can be developed using other frameworks like jQuery or Vue based on the UIOTOS template.
 - **Version Comparison**
 
-    | Version | **Community Edition**<br />(Current) | **Commercial Edition** | | |
+    | Version | **Community Edition**<br />(Current) | **Commercial Edition** | **...**| **...**|
     | --- | --- | --- | --- | --- |
     | | | **Advanced Edition** | **Professional Edition** | **SaaS Edition** |
     | Features | Basic components and wiring, nesting, small examples | Advanced components and materials, complete practical examples, editor customization, debugging diagnostics... | | |
@@ -111,6 +116,7 @@ UIOTOS is not a "silver bullet" and has both suitable and less suitable scenario
     http://localhost:8999
     ```
     > Note: It is recommended to use Google Chrome only.
+    
     ![QQ_1724643190065.png](https://cdn.nlark.com/yuque/0/2024/png/534201/1724643199068-586f6e9b-84ba-4313-be24-17b10432e10d.png#averageHue=%23313843&clientId=u85ea386b-53e0-4&from=paste&height=1050&id=ucab9e6ba&originHeight=1050&originWidth=1920&originalType=binary&ratio=1&rotation=0&showTitle=false&size=294822&status=done&style=none&taskId=u968ff92a-5b11-4656-9e75-39e9fca4906&title=&width=1920)
 <a name="dMCwf"></a>
 ## Usage
