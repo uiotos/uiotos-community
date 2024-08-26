@@ -90,11 +90,10 @@ UIOTOS is not a "silver bullet" and has both suitable and less suitable scenario
         To understand the implementation principles in-depth, some familiarity with ht.js is beneficial. For secondary development of components, this is not necessary. Components can be developed using other frameworks like jQuery or Vue based on the UIOTOS template.
 - **Version Comparison**
 
-    | Version | **Community Edition**<br />(Current) | **Commercial Edition** | **...**| **...**|
-    | --- | --- | --- | --- | --- |
-    | | | **Advanced Edition** | **Professional Edition** | **SaaS Edition** |
-    | Features | Basic components and wiring, nesting, small examples | Advanced components and materials, complete practical examples, editor customization, debugging diagnostics... | | |
-    | Commercial Use | Open-source and free under Apache 2.0 license | VIP membership, commercial licensing, full source code. | | |
+    | Version | **Community Edition**<br />(Current) | **Commercial Edition** |
+    | --- | --- | --- |
+    | Features | Basic components and wiring, nesting, small examples | Advanced components and materials, complete practical examples, editor customization, debugging diagnostics... |
+    | Commercial Use | Open-source and free under Apache 2.0 license | VIP membership, commercial licensing, advanced feature source code. |
 
 <a name="yHLpL"></a>
 ## Getting Started
