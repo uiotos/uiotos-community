@@ -1,9 +1,7 @@
-# UIOTOS Community Edition 
-
 ## Release Notes
 - **v1.0.301143** 
       
-      initial
+    initial
 
 ## Introduction
 ### What is UIOTOS?
@@ -29,20 +27,21 @@ A frontend no-code tool supporting **page nesting**, ready-to-use, where users d
 
     Pages are nested through container components and support property inheritance, where properties of lower-level page components can be appended to the configuration of higher-level components.
 
-    ![20240818090511_rec_.gif](https://cdn.nlark.com/yuque/0/2024/gif/534201/1723943130131-26df2006-dda3-4765-b0f1-178c746b6b4a.gif#averageHue=%23254f77&clientId=u45b29602-a075-4&from=paste&height=700&id=ud99f4398&originHeight=700&originWidth=1284&originalType=binary&ratio=1&rotation=0&showTitle=false&size=633055&status=done&style=none&taskId=uccd3a0a3-41af-4c79-a0d5-6117cb06740&title=&width=1284)
+    ![](images/页面嵌套.gif)
 
 - **Any complex JSON data can be set or parsed without code.**
 
     Wiring, configured with [parse string](https://www.yuque.com/liuhuo-nc809/uiotos/zl6xhi59n2xww3oq#KfdCR), can extract specific fields from arbitrarily complex structured JSON data.
 
-    ![](https://cdn.nlark.com/yuque/0/2024/gif/39161281/1723174280678-4a385b23-234e-4a2e-8256-2ec8e9aff652.gif#averageHue=%23dbdce8&from=url&id=pAOsb&originHeight=1032&originWidth=2010&originalType=binary&ratio=1&rotation=0&showTitle=false&status=done&style=none&title=)<br />See [Example 8: Data Parsing and Extraction.](https://www.yuque.com/liuhuo-nc809/uiotos/yg8bvqzv5fw2kkty)
+    ![](images/数据无代码解析.gif)
 
 - **Existing web resources (like jQuery-based markdown) can be encapsulated as built-in components, eliminating the need to reinvent the wheel.**
 
     Components from frameworks like Element UI, amis, etc., can also be encapsulated for use with UIOTOS, for nesting and wiring.
     Configurations for nesting and wiring created with UIOTOS can be output in JSON format for use with other frameworks, enabling bidirectional compatibility.
     
-    ![image.png](https://cdn.nlark.com/yuque/0/2024/png/534201/1723943543193-e9bb22ed-ee38-4421-9d52-f51a295c03f6.png#averageHue=%23839f91&clientId=u45b29602-a075-4&from=paste&height=962&id=RrGED&originHeight=962&originWidth=1920&originalType=binary&ratio=1&rotation=0&showTitle=false&size=214392&status=done&style=none&taskId=u70c25ddb-6ee6-4ea0-a896-392d636cba8&title=&width=1920)
+    ![](images/markdown组件.png)
+
 <a name="dXcPx"></a>
 ### Where is it applicable?
 
@@ -53,7 +52,8 @@ UIOTOS is not a "silver bullet" and has both suitable and less suitable scenario
 - **Less Suitable (but can be extended through custom development)**
 
     3D digital twins, mobile mini-apps, backend business logic, and specialized tools like documentation.
-## About
+    
+## About Community Edition 
 - **Purpose of Open Source**
 
     The technology of **page nesting** (and **logical wiring**) has wide-ranging applications, such as flowcharts, prototyping, "PowerPoint," rule chains, interface development, and visual programming. UIOTOS is implemented using JavaScript and ht.js, and involves the following details about page nesting:
@@ -90,10 +90,10 @@ UIOTOS is not a "silver bullet" and has both suitable and less suitable scenario
         To understand the implementation principles in-depth, some familiarity with ht.js is beneficial. For secondary development of components, this is not necessary. Components can be developed using other frameworks like jQuery or Vue based on the UIOTOS template.
 - **Version Comparison**
 
-    | Version | **Community Edition**<br />(Current) | **Commercial Edition** |
+    | Version | **Community Edition(Current) **| **Commercial Edition** |
     | --- | --- | --- |
     | Features | Basic components and wiring, nesting, small examples | Advanced components and materials, complete practical examples, editor customization, debugging diagnostics... |
-    | Commercial Use | Open-source and free under Apache 2.0 license | VIP membership, commercial licensing, advanced feature source code. |
+    | Commercial Use | Open-source and free under Apache 2.0 license | VIP membership, commercial licensing, advanced Feature source code. |
 
 <a name="yHLpL"></a>
 ## Getting Started
@@ -112,7 +112,8 @@ UIOTOS is not a "silver bullet" and has both suitable and less suitable scenario
     node .\uiotos\server\server.js
     ```
     > Note: The file `.\uiotos\server\config.ini` can be used to change the server port.
-    ![QQ_1724642731270.png](https://cdn.nlark.com/yuque/0/2024/png/534201/1724642735280-13a61a1c-9ff3-4e7e-b8a4-938b42bdf850.png#averageHue=%231a1a1a&clientId=u85ea386b-53e0-4&from=paste&height=103&id=cyHkC&originHeight=103&originWidth=539&originalType=binary&ratio=1&rotation=0&showTitle=false&size=7295&status=done&style=none&taskId=u308daf2a-df88-4119-a89b-e568a61f165&title=&width=539)
+
+    ![](images/无代码平台启动.png)
 
 - **Step 4: Open the Webpage**
 
@@ -122,8 +123,12 @@ UIOTOS is not a "silver bullet" and has both suitable and less suitable scenario
     ```
     > Note: It is recommended to use Google Chrome only.
     
-    ![QQ_1724643190065.png](https://cdn.nlark.com/yuque/0/2024/png/534201/1724643199068-586f6e9b-84ba-4313-be24-17b10432e10d.png#averageHue=%23313843&clientId=u85ea386b-53e0-4&from=paste&height=1050&id=ucab9e6ba&originHeight=1050&originWidth=1920&originalType=binary&ratio=1&rotation=0&showTitle=false&size=294822&status=done&style=none&taskId=u968ff92a-5b11-4656-9e75-39e9fca4906&title=&width=1920)
+    ![](images/UIOTOS首页.png)
+        
 <a name="dMCwf"></a>
 ## Usage
 
-Refer to the [UIOTOS User Manual](https://www.yuque.com/liuhuo-nc809/uiotos)
+
+Demo: [203.189.6.3:18999](http://203.189.6.3:18999/)
+
+Document: [UIOTOS User Manual](https://www.yuque.com/liuhuo-nc809/uiotos)

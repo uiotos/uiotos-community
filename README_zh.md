@@ -1,10 +1,9 @@
-# UIOTOS 社区版
 
-## 更新日志
+## 更新
 
 - **v1.0.301143** 
       
-      初始发布。
+    初始发布。
 
 ## 简介
 
@@ -38,20 +37,22 @@
 
     页面之间通过容器组件嵌套，并支持属性继承，即将下层页面组件的属性，追加到上层去配置使用。
 
-    ![20240818090511_rec_.gif](https://cdn.nlark.com/yuque/0/2024/gif/534201/1723943130131-26df2006-dda3-4765-b0f1-178c746b6b4a.gif#averageHue=%23254f77&clientId=u45b29602-a075-4&from=paste&height=700&id=ud99f4398&originHeight=700&originWidth=1284&originalType=binary&ratio=1&rotation=0&showTitle=false&size=633055&status=done&style=none&taskId=uccd3a0a3-41af-4c79-a0d5-6117cb06740&title=&width=1284)
+   ![输入图片说明](images/%E9%A1%B5%E9%9D%A2%E5%B5%8C%E5%A5%97.gif)
 
 - **任意复杂的JSON数据，不论是设置值，还是解析提取值，都无需代码。**
 
-    连线，配置上[解析字符串](https://www.yuque.com/liuhuo-nc809/uiotos/zl6xhi59n2xww3oq#KfdCR)，就能提取任意复杂结构JSON数据的指定字段值。
+    连线配置上[解析字符串](https://www.yuque.com/liuhuo-nc809/uiotos/zl6xhi59n2xww3oq#KfdCR)，就能提取任意复杂结构JSON数据的指定字段值。
 
-    ![](https://cdn.nlark.com/yuque/0/2024/gif/39161281/1723174280678-4a385b23-234e-4a2e-8256-2ec8e9aff652.gif#averageHue=%23dbdce8&from=url&id=pAOsb&originHeight=1032&originWidth=2010&originalType=binary&ratio=1&rotation=0&showTitle=false&status=done&style=none&title=)<br />参见[示例8：数据的解析提取。](https://www.yuque.com/liuhuo-nc809/uiotos/yg8bvqzv5fw2kkty)
+    ![输入图片说明](images/%E6%95%B0%E6%8D%AE%E6%97%A0%E4%BB%A3%E7%A0%81%E8%A7%A3%E6%9E%90.gif)
+
+     参见[示例8：数据的解析提取。](https://www.yuque.com/liuhuo-nc809/uiotos/yg8bvqzv5fw2kkty)
 
 - **现有的WEB资源（比如基于jquery的markdown），都能封装成内置组件，无需造轮子。**
  
     element-ui、amis等代码或低代码框架，组件也能封装给UIOTOS用，用于嵌套、连线。
 UIOTOS编辑的嵌套、连线配置，也能以JSON形式输出，给其他框架使用，双向配合。
 
-    ![image.png](https://cdn.nlark.com/yuque/0/2024/png/534201/1723943543193-e9bb22ed-ee38-4421-9d52-f51a295c03f6.png#averageHue=%23839f91&clientId=u45b29602-a075-4&from=paste&height=962&id=RrGED&originHeight=962&originWidth=1920&originalType=binary&ratio=1&rotation=0&showTitle=false&size=214392&status=done&style=none&taskId=u70c25ddb-6ee6-4ea0-a896-392d636cba8&title=&width=1920)
+    ![输入图片说明](images/markdown%E7%BB%84%E4%BB%B6.png)
     
 <a name="dXcPx"></a>
 ### 适用在哪？
@@ -65,10 +66,10 @@ UIOTOS不是`“银弹”`，有适用的和暂不适用的场景。分别如下
 
     3D数字孪生、移动端小程序、后端业务逻辑、文档等专业工具。
 
-## 关于
+## 关于社区版
 - **开源目的**
 
-    `**页面嵌套**`技术（以及`**逻辑连线**`）用途十分广泛，可用于流程图、原型设计、“PPT”、规则链，以及界面开发、可视化编程等。UIOTOS基于JavaScript和ht.js实现，涉及页面嵌套的各方面细节，列举如下：
+    **页面嵌套**技术（以及**逻辑连线**）用途十分广泛，可用于流程图、原型设计、“PPT”、规则链，以及界面开发、可视化编程等。UIOTOS基于JavaScript和ht.js实现，涉及页面嵌套的各方面细节，列举如下：
     > - 纵向：支持无限层任意页面嵌套。
     > - 横向：每一层页面，可以并存多个嵌套容器。
     > - 合纵：一个组件可以嵌套多个页面（各自分别可以有任意层嵌套）。比如tab页签、treeTable表格。
@@ -97,10 +98,10 @@ UIOTOS不是`“银弹”`，有适用的和暂不适用的场景。分别如下
 
 - **版本对照**
 
-    | 版本 | **社区版**<br />（当前） | **商业版** |
+    | 版本 | **社区版（当前）** | **商业版** |
     | --- | --- | --- |
     | 功能 | 基础组件和连线、嵌套、小示例 | 高级组件和素材、完整实践示例、编辑自定义、调试诊断... |
-    | 商用 | 开源免费遵循Apache2.0协议 | VIP会员、商用授权、高级功能源码。 |
+    | 商用 | 开源免费遵循Apache2.0协议 | VIP会员、商用授权、高级功能源码等。 | 
 
 <a name="yHLpL"></a>
 ## 启动
@@ -122,7 +123,8 @@ UIOTOS不是`“银弹”`，有适用的和暂不适用的场景。分别如下
     ```
     > 注意：文件`.\uiotos\server\config.ini`，可修改服务端口 。
 
-    ![QQ_1724642731270.png](https://cdn.nlark.com/yuque/0/2024/png/534201/1724642735280-13a61a1c-9ff3-4e7e-b8a4-938b42bdf850.png#averageHue=%231a1a1a&clientId=u85ea386b-53e0-4&from=paste&height=103&id=cyHkC&originHeight=103&originWidth=539&originalType=binary&ratio=1&rotation=0&showTitle=false&size=7295&status=done&style=none&taskId=u308daf2a-df88-4119-a89b-e568a61f165&title=&width=539)
+    
+    ![输入图片说明](images/%E6%97%A0%E4%BB%A3%E7%A0%81%E5%B9%B3%E5%8F%B0%E5%90%AF%E5%8A%A8.png)
 
 - **步骤四：打开网页**
 
@@ -132,9 +134,12 @@ UIOTOS不是`“银弹”`，有适用的和暂不适用的场景。分别如下
     ```
     > 注意：建议仅使用谷歌Chrome浏览器。	
 
-    ![QQ_1724643190065.png](https://cdn.nlark.com/yuque/0/2024/png/534201/1724643199068-586f6e9b-84ba-4313-be24-17b10432e10d.png#averageHue=%23313843&clientId=u85ea386b-53e0-4&from=paste&height=1050&id=ucab9e6ba&originHeight=1050&originWidth=1920&originalType=binary&ratio=1&rotation=0&showTitle=false&size=294822&status=done&style=none&taskId=u968ff92a-5b11-4656-9e75-39e9fca4906&title=&width=1920)
+    ![输入图片说明](images/UIOTOS%E9%A6%96%E9%A1%B5.png)
+
 <a name="dMCwf"></a>
 ## 使用
 
-参见[UIOTOS帮助手册](https://www.yuque.com/liuhuo-nc809/uiotos?#%20%E3%80%8AUIOTOS%E3%80%8B)。
 
+演示地址：[203.189.6.3:18999](http://203.189.6.3:18999/)
+
+参见文档：[UIOTOS帮助手册](https://www.yuque.com/liuhuo-nc809/uiotos?#%20%E3%80%8AUIOTOS%E3%80%8B)
