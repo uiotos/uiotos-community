@@ -1,3 +1,5 @@
+![](https://gitee.com/uiotos/uiotos-community/raw/master/images/%E5%B7%A5%E5%85%B7%E5%A4%96%E8%A7%82.jpg)
+
 ## Release Notes
 - **v1.0.301143** 
       
@@ -10,6 +12,8 @@ A frontend no-code tool supporting **page nesting**, ready-to-use, where users d
 <a name="Y8OBl"></a>
 ### Why was it created?
 - **Even low-code requires some knowledge**
+
+![](https://gitee.com/uiotos/uiotos-community/raw/master/images/%E8%BF%9E%E7%BA%BF%E7%A4%BA%E4%BE%8B.gif)
 
     Low-code tools still require basic development skills and minimal coding, which can be a barrier for users with backgrounds in backend development, algorithms, hardware, electrical engineering, product design, UI design, etc. With UIOTOS, you don't need to write a single line of code for common applications.
     > UIOTOS significantly lowers the user threshold so that even those without front-end coding experience can use it.
@@ -27,20 +31,20 @@ A frontend no-code tool supporting **page nesting**, ready-to-use, where users d
 
     Pages are nested through container components and support property inheritance, where properties of lower-level page components can be appended to the configuration of higher-level components.
 
-    ![](images/页面嵌套.gif)
+    ![](https://gitee.com/uiotos/uiotos-community/raw/master/images/%E9%A1%B5%E9%9D%A2%E5%B5%8C%E5%A5%97.gif)
 
 - **Any complex JSON data can be set or parsed without code.**
 
     Wiring, configured with [parse string](https://www.yuque.com/liuhuo-nc809/uiotos/zl6xhi59n2xww3oq#KfdCR), can extract specific fields from arbitrarily complex structured JSON data.
 
-    ![](images/数据无代码解析.gif)
+    ![](https://gitee.com/uiotos/uiotos-community/raw/master/images/%E6%95%B0%E6%8D%AE%E6%97%A0%E4%BB%A3%E7%A0%81%E8
 
 - **Existing web resources (like jQuery-based markdown) can be encapsulated as built-in components, eliminating the need to reinvent the wheel.**
 
     Components from frameworks like Element UI, amis, etc., can also be encapsulated for use with UIOTOS, for nesting and wiring.
     Configurations for nesting and wiring created with UIOTOS can be output in JSON format for use with other frameworks, enabling bidirectional compatibility.
     
-    ![](images/markdown组件.png)
+    ![](https://gitee.com/uiotos/uiotos-community/raw/master/images/markdown%E7%BB%84%E4%BB%B6.png)
 
 <a name="dXcPx"></a>
 ### Where is it applicable?
@@ -113,7 +117,7 @@ UIOTOS is not a "silver bullet" and has both suitable and less suitable scenario
     ```
     > Note: The file `.\uiotos\server\config.ini` can be used to change the server port.
 
-    ![](images/无代码平台启动.png)
+   ![输入图片说明](https://gitee.com/uiotos/uiotos-community/raw/master/images/%E6%97%A0%E4%BB%A3%E7%A0%81%E5%B9%B3%E5%8F%B0%E5%90%AF%E5%8A%A8.png)
 
 - **Step 4: Open the Webpage**
 
@@ -123,7 +127,7 @@ UIOTOS is not a "silver bullet" and has both suitable and less suitable scenario
     ```
     > Note: It is recommended to use Google Chrome only.
     
-    ![](images/UIOTOS首页.png)
+    ![](https://gitee.com/uiotos/uiotos-community/raw/master/images/UIOTOS%E9%A6%96%E9%A1%B5.png)
         
 <a name="dMCwf"></a>
 ## Usage

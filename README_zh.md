@@ -1,3 +1,4 @@
+![](https://gitee.com/uiotos/uiotos-community/raw/master/images/%E5%B7%A5%E5%85%B7%E5%A4%96%E8%A7%82.jpg)
 
 ## 更新
 
@@ -12,6 +13,8 @@
 一款支持**页面嵌套**的前端零代码工具，开箱即用，用户无需了解代码开发以及环境搭建，0基础可以搭建IoT、中后台管理、上位机、组态HMI等多类GUI界面应用，不止于可视化。
     
 >前端开发语言JavaScript、C#、Qt等，UIOTOS用户不需要有任何基础。
+
+![](https://gitee.com/uiotos/uiotos-community/raw/master/images/%E8%BF%9E%E7%BA%BF%E7%A4%BA%E4%BE%8B.gif)
 
 <a name="Y8OBl"></a>
 ### 为什么要做？
@@ -37,13 +40,13 @@
 
     页面之间通过容器组件嵌套，并支持属性继承，即将下层页面组件的属性，追加到上层去配置使用。
 
-   ![输入图片说明](images/%E9%A1%B5%E9%9D%A2%E5%B5%8C%E5%A5%97.gif)
+    ![](https://gitee.com/uiotos/uiotos-community/raw/master/images/%E9%A1%B5%E9%9D%A2%E5%B5%8C%E5%A5%97.gif)
 
 - **任意复杂的JSON数据，不论是设置值，还是解析提取值，都无需代码。**
 
     连线配置上[解析字符串](https://www.yuque.com/liuhuo-nc809/uiotos/zl6xhi59n2xww3oq#KfdCR)，就能提取任意复杂结构JSON数据的指定字段值。
 
-    ![输入图片说明](images/%E6%95%B0%E6%8D%AE%E6%97%A0%E4%BB%A3%E7%A0%81%E8%A7%A3%E6%9E%90.gif)
+    ![](https://gitee.com/uiotos/uiotos-community/raw/master/images/%E6%95%B0%E6%8D%AE%E6%97%A0%E4%BB%A3%E7%A0%81%E8
 
      参见[示例8：数据的解析提取。](https://www.yuque.com/liuhuo-nc809/uiotos/yg8bvqzv5fw2kkty)
 
@@ -52,7 +55,7 @@
     element-ui、amis等代码或低代码框架，组件也能封装给UIOTOS用，用于嵌套、连线。
 UIOTOS编辑的嵌套、连线配置，也能以JSON形式输出，给其他框架使用，双向配合。
 
-    ![输入图片说明](images/markdown%E7%BB%84%E4%BB%B6.png)
+    ![](https://gitee.com/uiotos/uiotos-community/raw/master/images/markdown%E7%BB%84%E4%BB%B6.png)
     
 <a name="dXcPx"></a>
 ### 适用在哪？
@@ -124,7 +127,7 @@ UIOTOS不是`“银弹”`，有适用的和暂不适用的场景。分别如下
     > 注意：文件`.\uiotos\server\config.ini`，可修改服务端口 。
 
     
-    ![输入图片说明](images/%E6%97%A0%E4%BB%A3%E7%A0%81%E5%B9%B3%E5%8F%B0%E5%90%AF%E5%8A%A8.png)
+    ![输入图片说明](https://gitee.com/uiotos/uiotos-community/raw/master/images/%E6%97%A0%E4%BB%A3%E7%A0%81%E5%B9%B3%E5%8F%B0%E5%90%AF%E5%8A%A8.png)
 
 - **步骤四：打开网页**
 
@@ -134,7 +137,7 @@ UIOTOS不是`“银弹”`，有适用的和暂不适用的场景。分别如下
     ```
     > 注意：建议仅使用谷歌Chrome浏览器。	
 
-    ![输入图片说明](images/UIOTOS%E9%A6%96%E9%A1%B5.png)
+    ![](https://gitee.com/uiotos/uiotos-community/raw/master/images/UIOTOS%E9%A6%96%E9%A1%B5.png)
 
 <a name="dMCwf"></a>
 ## 使用
