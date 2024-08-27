@@ -18,7 +18,7 @@
   "d": [
     {
       "c": "ht.Node",
-      "i": 64943,
+      "i": 22924,
       "p": {
         "name": "btn",
         "displayName": "普通按钮（btn2）",
@@ -433,8 +433,7 @@
         "2d.movable": false,
         "layout.h": "leftright",
         "layout.v": "topbottom",
-        "fullscreen": "fill",
-        "2d.selectable": false
+        "fullscreen": "fill"
       },
       "a": {
         "icon-background": "rgb(255,255,255)",
@@ -474,20 +473,20 @@
     },
     {
       "c": "ht.Edge",
-      "i": 64944,
+      "i": 22925,
       "p": {
         "name": "edge",
         "displayName": "0（edge2）",
         "toolTip": "<div id=\"config_tooltip\" style=\"font-size:12px;line-height:1.75em;letter-spacing:1px\">\n                                                        连线配置信息：<br>\n                                                        <li style=\"list-style-type:disc;color:rgba(255,255,255,0.5);\">索引序号：0 | 总共1条</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold;\">操作属性：执行@func1</li> \n                                                        <li style=\"list-style-type:none;color:rgba(255,255,255,0.5)\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;当前值：undefined</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold\">关联属性：</li> \n                                                        <li style=\"list-style-type:none;color:rgba(255,255,255,0.5)\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;关联值：undefined</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold;\">解析赋值：null</li>\n                                                        <li style=\"list-style-type:disc;color:rgba(255,255,255,0.5)\">触发事件：*</li>\n                                                        <li style=\"list-style-type:disc;\">注释：<span style=\"color:rgb(125,195,125)\">0。\n<br></span></li>\n                                                    </div>",
         "parent": {
-          "__i": 64943
+          "__i": 22924
         },
         "tag": "edge2",
         "source": {
-          "__i": 64943
+          "__i": 22924
         },
         "target": {
-          "__i": 64945
+          "__i": 22926
         }
       },
       "s": {
@@ -534,7 +533,7 @@
     },
     {
       "c": "ht.Node",
-      "i": 64945,
+      "i": 22926,
       "p": {
         "name": "func",
         "displayName": "工具函数（func1）",
@@ -1090,7 +1089,7 @@
       }
     }
   ],
-  "modified": "Thu Aug 22 2024 00:06:54 GMT+0800 (中国标准时间)",
+  "modified": "Tue Aug 27 2024 10:14:48 GMT+0800 (中国标准时间)",
   "contentRect": {
     "x": -17.38977,
     "y": -90.98319,

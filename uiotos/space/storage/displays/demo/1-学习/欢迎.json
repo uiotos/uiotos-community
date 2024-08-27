@@ -17,7 +17,7 @@
   "d": [
     {
       "c": "ht.Node",
-      "i": 6919,
+      "i": 48834,
       "p": {
         "name": "base",
         "displayName": "底板（_base）",
@@ -42,19 +42,20 @@
         "2d.movable": false,
         "interactive": true,
         "label": " ",
-        "label.rotation": 0
+        "label.rotation": 0,
+        "2d.selectable": false
       }
     },
     {
       "c": "ht.Node",
-      "i": 6920,
+      "i": 48835,
       "p": {
         "name": "n",
         "displayName": "n（n1）",
         "toolTip": "<p style='color:rgb(242,83,75);margin-top:5px;margin-bottom:5px;font-weight:bold;line-height:1.5em;'>已被布局，不允许拖动（shift+回车可解除）</p><span style='font-weight:bold;color:rgb(125,195,125)'>说明：</span><span style='color:rgb(125,195,125);line-height:1.8em;letter-spacing:1px;'>\n<br>矢量矩形版本</span>",
         "tag": "n1",
         "host": {
-          "__i": 6919
+          "__i": 48834
         },
         "rotation": 1.5708,
         "position": {
@@ -93,7 +94,7 @@
     },
     {
       "c": "ht.UGrid",
-      "i": 6921,
+      "i": 48836,
       "p": {
         "name": "grid",
         "displayName": "网格组合（grid2）",
@@ -633,7 +634,7 @@
           "uuid": "1FCD5854-C8DA-45A3-B6E8-64AC37912B93"
         },
         "host": {
-          "__i": 6919
+          "__i": 48834
         },
         "position": {
           "x": 173.3039,
@@ -678,13 +679,13 @@
     },
     {
       "c": "ht.UGrid",
-      "i": 6922,
+      "i": 48837,
       "p": {
         "name": "grid",
         "displayName": "网格组合（grid1）",
         "toolTip": "<span style='font-weight:bold;color:rgb(125,195,125)'>说明：</span><span style='color:rgb(125,195,125);line-height:1.8em;letter-spacing:1px;'>\n<br>网格内布局的图元不允许拖动</span>",
         "parent": {
-          "__i": 6921
+          "__i": 48836
         },
         "tag": "grid1",
         "dataBindings": {
@@ -1221,7 +1222,7 @@
           "uuid": "1FCD5854-C8DA-45A3-B6E8-64AC37912B93"
         },
         "host": {
-          "__i": 6921
+          "__i": 48836
         },
         "position": {
           "x": -74.75162,
@@ -1245,8 +1246,7 @@
           38.7,
           0
         ],
-        "2d.movable": false,
-        "2d.selectable": false
+        "2d.movable": false
       },
       "a": {
         "grid.row.count": 2,
@@ -1266,13 +1266,13 @@
     },
     {
       "c": "ht.Node",
-      "i": 6923,
+      "i": 48838,
       "p": {
         "name": "bts",
         "displayName": "按钮组（bts2）",
         "toolTip": "<p style='color:rgb(242,83,75);margin-top:5px;margin-bottom:5px;font-weight:bold;line-height:1.5em;'>已被布局，不允许拖动（shift+回车可解除）</p><span style='font-weight:bold;color:rgb(125,195,125)'>说明：</span><span style='color:rgb(125,195,125);line-height:1.8em;letter-spacing:1px;'>\n<br>网格内布局的图元不允许拖动</span>",
         "parent": {
-          "__i": 6922
+          "__i": 48837
         },
         "tag": "bts2",
         "dataBindings": {
@@ -1764,7 +1764,7 @@
           "uuid": "78708BA1-E3A4-4595-92EF-659D3D2D7C97"
         },
         "host": {
-          "__i": 6922
+          "__i": 48837
         },
         "position": {
           "x": -74.75162,
@@ -1889,20 +1889,20 @@
     },
     {
       "c": "ht.Edge",
-      "i": 6924,
+      "i": 48839,
       "p": {
         "name": "edge",
         "displayName": "0（edge2）",
         "toolTip": "<div id=\"config_tooltip\" style=\"font-size:12px;line-height:1.75em;letter-spacing:1px\">\n                                                        关联绑定信息：<br>\n                                                        <li style=\"list-style-type:disc;color:rgba(255,255,255,0.5);\">索引序号：0 | 总共2条</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold;\">操作属性：当前索引@tab2</li>\n                                                        <li style=\"list-style-type:none;color:rgba(255,255,255,0.5)\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;当前值：undefined</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold\">关联属性：当前索引@bts2</li>\n                                                        <li style=\"list-style-type:none;color:rgba(255,255,255,0.5)\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;关联值：undefined</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold;\">解析赋值：null</li>\n                                                        <li style=\"list-style-type:disc;color:rgba(255,255,255,0.5)\">触发事件：*</li>\n                                                        <li style=\"list-style-type:disc;\">注释：<span style=\"color:rgb(125,195,125)\">0。\n<br></span></li>\n                                                    </div>",
         "parent": {
-          "__i": 6923
+          "__i": 48838
         },
         "tag": "edge2",
         "source": {
-          "__i": 6923
+          "__i": 48838
         },
         "target": {
-          "__i": 6927
+          "__i": 48842
         }
       },
       "s": {
@@ -1953,20 +1953,20 @@
     },
     {
       "c": "ht.Edge",
-      "i": 6925,
+      "i": 48840,
       "p": {
         "name": "edge",
         "displayName": "1（edge6）",
         "toolTip": "<div id=\"config_tooltip\" style=\"font-size:12px;line-height:1.75em;letter-spacing:1px\">\n                                                        关联绑定信息：<br>\n                                                        <li style=\"list-style-type:disc;color:rgba(255,255,255,0.5);\">索引序号：1 | 总共2条</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold;\">操作属性：输入（组）@func1</li>\n                                                        <li style=\"list-style-type:none;color:rgba(255,255,255,0.5)\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;当前值：undefined</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold\">关联属性：当前数据@bts2</li>\n                                                        <li style=\"list-style-type:none;color:rgba(255,255,255,0.5)\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;关联值：undefined</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold;\">解析赋值：null</li>\n                                                        <li style=\"list-style-type:disc;color:rgba(255,255,255,0.5)\">触发事件：*</li>\n                                                        <li style=\"list-style-type:disc;\">注释：<span style=\"color:rgb(125,195,125)\">1。\n<br></span></li>\n                                                    </div>",
         "parent": {
-          "__i": 6923
+          "__i": 48838
         },
         "tag": "edge6",
         "source": {
-          "__i": 6923
+          "__i": 48838
         },
         "target": {
-          "__i": 6929
+          "__i": 48844
         }
       },
       "s": {
@@ -2012,13 +2012,13 @@
     },
     {
       "c": "ht.Node",
-      "i": 6926,
+      "i": 48841,
       "p": {
         "name": "tab",
         "displayName": "TAB页签（tab1）",
         "toolTip": "<p style='color:rgb(242,83,75);margin-top:5px;margin-bottom:5px;font-weight:bold;line-height:1.5em;'>已被布局，不允许拖动（shift+回车可解除）</p><span style='font-weight:bold;color:rgb(125,195,125)'>说明：</span><span style='color:rgb(125,195,125);line-height:1.8em;letter-spacing:1px;'>\n<br>网格内布局的图元不允许拖动</span>",
         "parent": {
-          "__i": 6922
+          "__i": 48837
         },
         "tag": "tab1",
         "dataBindings": {
@@ -2288,7 +2288,7 @@
           "uuid": "A9F32247-8394-4A9B-8151-227D05B43CE5"
         },
         "host": {
-          "__i": 6922
+          "__i": 48837
         },
         "position": {
           "x": -74.75162,
@@ -2348,13 +2348,13 @@
     },
     {
       "c": "ht.UNode",
-      "i": 6927,
+      "i": 48842,
       "p": {
         "name": "tab",
         "displayName": "TAB页签（tab2）",
         "toolTip": "<p style='color:rgb(242,83,75);margin-top:5px;margin-bottom:5px;font-weight:bold;line-height:1.5em;'>已被布局，不允许拖动（shift+回车可解除）</p><span style='font-weight:bold;color:rgb(125,195,125)'>说明：</span><span style='color:rgb(125,195,125);line-height:1.8em;letter-spacing:1px;'>\n<br>网格内布局的图元不允许拖动</span>",
         "parent": {
-          "__i": 6921
+          "__i": 48836
         },
         "tag": "tab2",
         "dataBindings": {
@@ -2648,7 +2648,7 @@
           "uuid": "E61D7514-5318-4388-AFE6-17C4836ED10D"
         },
         "host": {
-          "__i": 6921
+          "__i": 48836
         },
         "position": {
           "x": 348.3039,
@@ -2725,20 +2725,20 @@
     },
     {
       "c": "ht.Edge",
-      "i": 6928,
+      "i": 48843,
       "p": {
         "name": "edge",
         "displayName": "0（edge6'）",
         "toolTip": "<div id=\"config_tooltip\" style=\"font-size:12px;line-height:1.75em;letter-spacing:1px\">\n                                                        关联绑定信息：<br>\n                                                        <li style=\"list-style-type:disc;color:rgba(255,255,255,0.5);\">索引序号：0 | 总共1条</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold;\">操作属性：执行@func2</li>\n                                                        <li style=\"list-style-type:none;color:rgba(255,255,255,0.5)\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;当前值：undefined</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold\">关联属性：示例&gt;0&gt;cbtn1&gt;点击事件@tab2</li>\n                                                        <li style=\"list-style-type:none;color:rgba(255,255,255,0.5)\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;关联值：undefined</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold;\">解析赋值：null</li>\n                                                        <li style=\"list-style-type:disc;color:rgba(255,255,255,0.5)\">触发事件：*</li>\n                                                        <li style=\"list-style-type:disc;\">注释：<span style=\"color:rgb(125,195,125)\">0。\n<br></span></li>\n                                                    </div>",
         "parent": {
-          "__i": 6927
+          "__i": 48842
         },
         "tag": "edge6'",
         "source": {
-          "__i": 6927
+          "__i": 48842
         },
         "target": {
-          "__i": 6931
+          "__i": 48846
         }
       },
       "s": {
@@ -2783,7 +2783,7 @@
     },
     {
       "c": "ht.Node",
-      "i": 6929,
+      "i": 48844,
       "p": {
         "name": "func",
         "displayName": "工具函数（func1）",
@@ -3417,7 +3417,7 @@
           "uuid": "BA8B846A-5D7F-4EB8-AE81-CB65ED42E3AA"
         },
         "host": {
-          "__i": 6919
+          "__i": 48834
         },
         "position": {
           "x": -375.77203,
@@ -3519,20 +3519,20 @@
     },
     {
       "c": "ht.Edge",
-      "i": 6930,
+      "i": 48845,
       "p": {
         "name": "edge",
         "displayName": "0（edge8）",
         "toolTip": "<div id=\"config_tooltip\" style=\"font-size:12px;line-height:1.75em;letter-spacing:1px\">\n                                                        关联绑定信息：<br>\n                                                        <li style=\"list-style-type:disc;color:rgba(255,255,255,0.5);\">索引序号：0 | 总共1条</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold;\">操作属性：各列宽比例@grid2</li>\n                                                        <li style=\"list-style-type:none;color:rgba(255,255,255,0.5)\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;当前值：undefined</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold\">关联属性：输出@func1</li>\n                                                        <li style=\"list-style-type:none;color:rgba(255,255,255,0.5)\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;关联值：undefined</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold;\">解析赋值：null</li>\n                                                        <li style=\"list-style-type:disc;color:rgba(255,255,255,0.5)\">触发事件：*</li>\n                                                        <li style=\"list-style-type:disc;\">注释：<span style=\"color:rgb(125,195,125)\">0。\n<br></span></li>\n                                                    </div>",
         "parent": {
-          "__i": 6929
+          "__i": 48844
         },
         "tag": "edge8",
         "source": {
-          "__i": 6929
+          "__i": 48844
         },
         "target": {
-          "__i": 6921
+          "__i": 48836
         }
       },
       "s": {
@@ -3582,7 +3582,7 @@
     },
     {
       "c": "ht.Node",
-      "i": 6931,
+      "i": 48846,
       "p": {
         "name": "func",
         "displayName": "工具函数（func2）",
@@ -4053,7 +4053,7 @@
           "uuid": "DD5D4AE5-A1F6-4ED4-884F-17B5619BA28D"
         },
         "host": {
-          "__i": 6919
+          "__i": 48834
         },
         "position": {
           "x": 32.2405,
@@ -4141,20 +4141,20 @@
     },
     {
       "c": "ht.Edge",
-      "i": 6932,
+      "i": 48847,
       "p": {
         "name": "edge",
         "displayName": "0（edge8'）",
         "toolTip": "<div id=\"config_tooltip\" style=\"font-size:12px;line-height:1.75em;letter-spacing:1px\">\n                                                        关联绑定信息：<br>\n                                                        <li style=\"list-style-type:disc;color:rgba(255,255,255,0.5);\">索引序号：0 | 总共1条</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold;\">操作属性：当前索引@bts2</li>\n                                                        <li style=\"list-style-type:none;color:rgba(255,255,255,0.5)\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;当前值：undefined</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold\">关联属性：输出@func2</li>\n                                                        <li style=\"list-style-type:none;color:rgba(255,255,255,0.5)\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;关联值：undefined</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold;\">解析赋值：null</li>\n                                                        <li style=\"list-style-type:disc;color:rgba(255,255,255,0.5)\">触发事件：*</li>\n                                                        <li style=\"list-style-type:disc;\">注释：<span style=\"color:rgb(125,195,125)\">0。\n<br></span></li>\n                                                    </div>",
         "parent": {
-          "__i": 6931
+          "__i": 48846
         },
         "tag": "edge8'",
         "source": {
-          "__i": 6931
+          "__i": 48846
         },
         "target": {
-          "__i": 6923
+          "__i": 48838
         }
       },
       "s": {
@@ -4203,7 +4203,7 @@
     },
     {
       "c": "ht.Node",
-      "i": 6933,
+      "i": 48848,
       "p": {
         "name": "title",
         "displayName": "标签文字（title1）",
@@ -4521,7 +4521,7 @@
           "uuid": "1F19EBDE-F4DF-4D65-8B26-98FDEAC402ED"
         },
         "host": {
-          "__i": 6919
+          "__i": 48834
         },
         "position": {
           "x": 476.60116,
@@ -4553,7 +4553,7 @@
     },
     {
       "c": "ht.Node",
-      "i": 6934,
+      "i": 48849,
       "p": {
         "name": "title",
         "displayName": "标签文字（title2）",
@@ -4871,7 +4871,7 @@
           "uuid": "1F19EBDE-F4DF-4D65-8B26-98FDEAC402ED"
         },
         "host": {
-          "__i": 6919
+          "__i": 48834
         },
         "position": {
           "x": 477.9226,
@@ -4902,7 +4902,7 @@
       }
     }
   ],
-  "modified": "Mon Aug 26 2024 11:00:13 GMT+0800 (中国标准时间)",
+  "modified": "Tue Aug 27 2024 17:08:56 GMT+0800 (中国标准时间)",
   "contentRect": {
     "x": -589.77203,
     "y": -149.81938,

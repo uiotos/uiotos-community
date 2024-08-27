@@ -18,7 +18,7 @@
   "d": [
     {
       "c": "ht.Node",
-      "i": 183348,
+      "i": 4086,
       "p": {
         "name": "base",
         "displayName": "底板（_base）",
@@ -45,13 +45,12 @@
         "shape.gradient.color": "rgb(5,39,84)",
         "shape.gradient": "radial.center",
         "label.font": "12px arial, sans-serif",
-        "label": "",
-        "2d.selectable": false
+        "label": ""
       }
     },
     {
       "c": "ht.Node",
-      "i": 183349,
+      "i": 4087,
       "p": {
         "name": "gv",
         "displayName": "嵌套容器（gv2）",
@@ -338,7 +337,7 @@
           "uuid": "5A56F253-F883-4E58-88C5-608F2739CB44"
         },
         "host": {
-          "__i": 183348
+          "__i": 4086
         },
         "position": {
           "x": 948.97554,
@@ -388,20 +387,20 @@
     },
     {
       "c": "ht.Edge",
-      "i": 183350,
+      "i": 4088,
       "p": {
         "name": "edge",
         "displayName": "0（edge2）",
         "toolTip": "<div id=\"config_tooltip\" style=\"font-size:12px;line-height:1.75em;letter-spacing:1px\">\n                                                        连线配置信息：<br>\n                                                        <li style=\"list-style-type:disc;color:rgba(255,255,255,0.5);\">索引序号：0 | 总共1条</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold;\">操作属性：弹窗@dlg1</li> \n                                                        <li style=\"list-style-type:none;color:rgba(255,255,255,0.5)\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;当前值：undefined</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold\">关联属性：a:右边框架&gt;0&gt;gv5&gt;a:按钮模版&gt;0&gt;btn2&gt;点击事件@gv2</li> \n                                                        <li style=\"list-style-type:none;color:rgba(255,255,255,0.5)\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;关联值：undefined</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold;\">解析赋值：null</li>\n                                                        <li style=\"list-style-type:disc;color:rgba(255,255,255,0.5)\">触发事件：*</li>\n                                                        <li style=\"list-style-type:disc;\">注释：<span style=\"color:rgb(125,195,125)\">0。\n<br></span></li>\n                                                    </div>",
         "parent": {
-          "__i": 183349
+          "__i": 4087
         },
         "tag": "edge2",
         "source": {
-          "__i": 183349
+          "__i": 4087
         },
         "target": {
-          "__i": 183373
+          "__i": 4111
         }
       },
       "s": {
@@ -447,7 +446,7 @@
     },
     {
       "c": "ht.Node",
-      "i": 183351,
+      "i": 4089,
       "p": {
         "name": "gv",
         "displayName": "嵌套容器（gv3）",
@@ -706,7 +705,7 @@
           "uuid": "5A56F253-F883-4E58-88C5-608F2739CB44"
         },
         "host": {
-          "__i": 183348
+          "__i": 4086
         },
         "position": {
           "x": -8.77804,
@@ -738,14 +737,14 @@
     },
     {
       "c": "ht.Block",
-      "i": 183352,
+      "i": 4090,
       "p": {
         "name": "Block",
         "displayName": "Block（Block1）",
         "toolTip": "<p style='color:rgb(242,83,75);margin-top:5px;margin-bottom:5px;font-weight:bold;line-height:1.5em;'>已被布局，不允许拖动（shift+回车可解除）</p>",
         "tag": "Block1",
         "host": {
-          "__i": 183348
+          "__i": 4086
         },
         "position": {
           "x": -41.58532,
@@ -772,12 +771,12 @@
     },
     {
       "c": "ht.Shape",
-      "i": 183353,
+      "i": 4091,
       "p": {
         "name": "Shape",
         "displayName": "Shape（Shape2）",
         "parent": {
-          "__i": 183352
+          "__i": 4090
         },
         "tag": "Shape2",
         "position": {
@@ -833,12 +832,12 @@
     },
     {
       "c": "ht.Shape",
-      "i": 183354,
+      "i": 4092,
       "p": {
         "name": "Shape",
         "displayName": "Shape（Shape1）",
         "parent": {
-          "__i": 183352
+          "__i": 4090
         },
         "tag": "Shape1",
         "position": {
@@ -911,12 +910,12 @@
     },
     {
       "c": "ht.Node",
-      "i": 183355,
+      "i": 4093,
       "p": {
         "name": "Node",
         "displayName": "n（Node1）",
         "parent": {
-          "__i": 183352
+          "__i": 4090
         },
         "tag": "Node1",
         "position": {
@@ -939,12 +938,12 @@
     },
     {
       "c": "ht.Node",
-      "i": 183356,
+      "i": 4094,
       "p": {
         "name": "Node",
         "displayName": "n（n2）",
         "parent": {
-          "__i": 183352
+          "__i": 4090
         },
         "tag": "n2",
         "position": {
@@ -967,12 +966,12 @@
     },
     {
       "c": "ht.Node",
-      "i": 183357,
+      "i": 4095,
       "p": {
         "name": "Node",
         "displayName": "n（n3）",
         "parent": {
-          "__i": 183352
+          "__i": 4090
         },
         "tag": "n3",
         "position": {
@@ -995,12 +994,12 @@
     },
     {
       "c": "ht.Node",
-      "i": 183358,
+      "i": 4096,
       "p": {
         "name": "Node",
         "displayName": "n（n4）",
         "parent": {
-          "__i": 183352
+          "__i": 4090
         },
         "tag": "n4",
         "position": {
@@ -1023,12 +1022,12 @@
     },
     {
       "c": "ht.Node",
-      "i": 183359,
+      "i": 4097,
       "p": {
         "name": "Node",
         "displayName": "n（n5）",
         "parent": {
-          "__i": 183352
+          "__i": 4090
         },
         "tag": "n5",
         "position": {
@@ -1051,12 +1050,12 @@
     },
     {
       "c": "ht.Node",
-      "i": 183360,
+      "i": 4098,
       "p": {
         "name": "Node",
         "displayName": "n（n6）",
         "parent": {
-          "__i": 183352
+          "__i": 4090
         },
         "tag": "n6",
         "rotation": 6.28319,
@@ -1080,12 +1079,12 @@
     },
     {
       "c": "ht.Node",
-      "i": 183361,
+      "i": 4099,
       "p": {
         "name": "Node",
         "displayName": "n（n7）",
         "parent": {
-          "__i": 183352
+          "__i": 4090
         },
         "tag": "n7",
         "position": {
@@ -1108,12 +1107,12 @@
     },
     {
       "c": "ht.Node",
-      "i": 183362,
+      "i": 4100,
       "p": {
         "name": "Node",
         "displayName": "n（n8）",
         "parent": {
-          "__i": 183352
+          "__i": 4090
         },
         "tag": "n8",
         "position": {
@@ -1136,12 +1135,12 @@
     },
     {
       "c": "ht.Shape",
-      "i": 183363,
+      "i": 4101,
       "p": {
         "name": "Shape",
         "displayName": "Shape（Shape3）",
         "parent": {
-          "__i": 183352
+          "__i": 4090
         },
         "tag": "Shape3",
         "position": {
@@ -1192,12 +1191,12 @@
     },
     {
       "c": "ht.Shape",
-      "i": 183364,
+      "i": 4102,
       "p": {
         "name": "Shape",
         "displayName": "Shape（Shape4）",
         "parent": {
-          "__i": 183352
+          "__i": 4090
         },
         "tag": "Shape4",
         "position": {
@@ -1248,12 +1247,12 @@
     },
     {
       "c": "ht.Shape",
-      "i": 183365,
+      "i": 4103,
       "p": {
         "name": "Shape",
         "displayName": "Shape（Shape5）",
         "parent": {
-          "__i": 183352
+          "__i": 4090
         },
         "tag": "Shape5",
         "position": {
@@ -1304,11 +1303,11 @@
     },
     {
       "c": "ht.Text",
-      "i": 183366,
+      "i": 4104,
       "p": {
         "displayName": "Text（Text1）",
         "parent": {
-          "__i": 183352
+          "__i": 4090
         },
         "tag": "Text1",
         "position": {
@@ -1329,12 +1328,12 @@
     },
     {
       "c": "ht.Shape",
-      "i": 183367,
+      "i": 4105,
       "p": {
         "name": "Shape",
         "displayName": "Shape（Shape7）",
         "parent": {
-          "__i": 183352
+          "__i": 4090
         },
         "tag": "Shape7",
         "position": {
@@ -1389,12 +1388,12 @@
     },
     {
       "c": "ht.Shape",
-      "i": 183368,
+      "i": 4106,
       "p": {
         "name": "Shape",
         "displayName": "Shape（Shape8）",
         "parent": {
-          "__i": 183352
+          "__i": 4090
         },
         "tag": "Shape8",
         "position": {
@@ -1449,12 +1448,12 @@
     },
     {
       "c": "ht.Shape",
-      "i": 183369,
+      "i": 4107,
       "p": {
         "name": "Shape",
         "displayName": "Shape（Shape9）",
         "parent": {
-          "__i": 183352
+          "__i": 4090
         },
         "tag": "Shape9",
         "position": {
@@ -1509,11 +1508,11 @@
     },
     {
       "c": "ht.Text",
-      "i": 183370,
+      "i": 4108,
       "p": {
         "displayName": "Text（Text2）",
         "parent": {
-          "__i": 183352
+          "__i": 4090
         },
         "tag": "Text2",
         "position": {
@@ -1534,11 +1533,11 @@
     },
     {
       "c": "ht.Text",
-      "i": 183371,
+      "i": 4109,
       "p": {
         "displayName": "Text（Text3）",
         "parent": {
-          "__i": 183352
+          "__i": 4090
         },
         "tag": "Text3",
         "position": {
@@ -1561,12 +1560,12 @@
     },
     {
       "c": "ht.Shape",
-      "i": 183372,
+      "i": 4110,
       "p": {
         "name": "Shape",
         "displayName": "Shape（Shape10）",
         "parent": {
-          "__i": 183352
+          "__i": 4090
         },
         "tag": "Shape10",
         "position": {
@@ -1626,7 +1625,7 @@
     },
     {
       "c": "ht.Node",
-      "i": 183373,
+      "i": 4111,
       "p": {
         "name": "dlg",
         "displayName": "对话框（dlg1）",
@@ -2249,7 +2248,7 @@
           "uuid": "879DD17D-7F88-4239-993D-EAE96889B064"
         },
         "host": {
-          "__i": 183348
+          "__i": 4086
         },
         "position": {
           "x": 749.0889,
@@ -2286,7 +2285,7 @@
     },
     {
       "c": "ht.Node",
-      "i": 183374,
+      "i": 4112,
       "p": {
         "name": "不规则图形",
         "displayName": "不规则图形（不规则图形1）",
@@ -2307,7 +2306,7 @@
     },
     {
       "c": "ht.Node",
-      "i": 183375,
+      "i": 4113,
       "p": {
         "name": "文字",
         "displayName": "文字（文字1）",
@@ -2328,7 +2327,7 @@
     },
     {
       "c": "ht.Node",
-      "i": 183376,
+      "i": 4114,
       "p": {
         "name": "gv",
         "displayName": "嵌套容器（gv3'）",
@@ -3012,7 +3011,7 @@
           "uuid": "F5A9A1AF-E433-4691-BE8E-B0412CB821C6"
         },
         "host": {
-          "__i": 183348
+          "__i": 4086
         },
         "position": {
           "x": 1656.48497,
@@ -3095,11 +3094,11 @@
       }
     }
   ],
-  "modified": "Sun Aug 25 2024 09:43:51 GMT+0800 (中国标准时间)",
+  "modified": "Tue Aug 27 2024 16:03:22 GMT+0800 (中国标准时间)",
   "contentRect": {
     "x": -240.92477,
-    "y": -175.03684,
+    "y": -175.36277,
     "width": 1950.01367,
-    "height": 2231.6084
+    "height": 2231.93433
   }
 }

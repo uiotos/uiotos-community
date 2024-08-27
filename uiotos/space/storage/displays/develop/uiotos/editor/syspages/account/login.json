@@ -11,12 +11,13 @@
     "fitContent": false,
     "zoomable": false,
     "rectSelectable": false,
-    "pannable": false
+    "pannable": false,
+    "_professional": true
   },
   "d": [
     {
       "c": "ht.Node",
-      "i": 94262,
+      "i": 29446,
       "p": {
         "displayName": "base（_base）",
         "tag": "_base",
@@ -28,27 +29,24 @@
         "height": 157.35122
       },
       "s": {
-        "label.position": 14,
-        "label.offset.x": -10,
-        "label.offset.y": 0,
+        "label.position": 17,
         "label.color": "rgb(61,61,61)",
         "shape": "rect",
         "shape.background": "white",
         "fullscreen": "fill",
         "fullscreen.gap": 0,
-        "2d.movable": false,
-        "2d.selectable": false
+        "2d.movable": false
       }
     },
     {
       "c": "ht.Block",
-      "i": 94263,
+      "i": 29447,
       "p": {
         "displayName": "Block1（Block1）",
         "toolTip": "<p style='color:rgb(242,83,75);margin-top:5px;margin-bottom:5px;font-weight:bold;line-height:1.5em;'>已被布局，不允许拖动（shift+回车可解除）</p>已被布局，不允许拖动",
         "tag": "Block1",
         "host": {
-          "__i": 94262
+          "__i": 29446
         },
         "position": {
           "x": 209.89226,
@@ -63,9 +61,7 @@
         "clickThroughEnabled": true
       },
       "s": {
-        "label.position": 14,
-        "label.offset.x": -10,
-        "label.offset.y": 0,
+        "label.position": 17,
         "label.color": "rgb(61,61,61)",
         "2d.movable": false,
         "interactive": true,
@@ -79,11 +75,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 94264,
+      "i": 29448,
       "p": {
         "displayName": "input（username）",
         "parent": {
-          "__i": 94263
+          "__i": 29447
         },
         "tag": "username",
         "dataBindings": {
@@ -184,89 +180,112 @@
               "idinfo": "",
               "isTplBinded": false,
               "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "userData": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
             }
           }
         },
         "image": {
-          "modified": "Mon Apr 15 2024 05:22:25 GMT+0800 (中国标准时间)",
+          "modified": "Sat Aug 24 2024 15:55:41 GMT+0800 (中国标准时间)",
           "dataBindings": [
             {
               "attr": "symbol",
               "valueType": "Image",
-              "group": "功能（关键）",
               "description": "组件源（备选）。\n<br>当组件源（image）为非字符串格式，显示\n<br>[Object]时，可以通过这里备选地址，双击\n<br>打开组件配置。",
               "name": "symbol"
+            },
+            {
+              "attr": "value",
+              "valueType": "Object",
+              "description": "当前值。\n<br>输入框的值。注意，运行时输入数字\n<br>默认会作为字符串。如果初始设定值\n<br>为数字类型（比如0），那么输入的字\n<br>符串形式的数字，会被转成数字。",
+              "group": "功能",
+              "defaultValue": "",
+              "name": "value"
+            },
+            {
+              "attr": "type",
+              "valueType": "FormType",
+              "defaultValue": "text",
+              "description": "输入框表单类型。\n<br>包括密码、文本等类型。",
+              "name": "type"
+            },
+            {
+              "attr": "readOnly",
+              "valueType": "Boolean",
+              "defaultValue": false,
+              "description": "是否只读。",
+              "extraInfo": "★",
+              "name": "readOnly"
+            },
+            {
+              "attr": "initialTrigger",
+              "valueType": "Boolean",
+              "defaultValue": false,
+              "description": "初始触发连线操作。\n<br>默认不勾选，勾选后初始加载值时，如果对外有连线，\n<br>并且初始值为非空时，也会触发对外的赋值连线操作。",
+              "extraInfo": "*",
+              "name": "initialTrigger"
+            },
+            {
+              "attr": "instantTrigger",
+              "valueType": "Boolean",
+              "defaultValue": true,
+              "description": "是否即时触发。\n<br>勾选后，输入时就会对外触发onChange变化事件。",
+              "extraInfo": "★",
+              "name": "instantTrigger"
+            },
+            {
+              "attr": "emptyTrigger",
+              "valueType": "Boolean",
+              "defaultValue": false,
+              "extraInfo": "*",
+              "name": "emptyTrigger"
+            },
+            {
+              "attr": "userData",
+              "valueType": "Object",
+              "defaultValue": [],
+              "name": "userData"
+            },
+            {
+              "attr": "onChange",
+              "valueType": "Function",
+              "extraInfo": {
+                "arguments": [
+                  "data",
+                  "gv",
+                  "cache",
+                  "value"
+                ]
+              },
+              "description": "变化事件函数。\n<br>默认为内容改变才触发，当勾选即时触发\n<br>（instantTrigger）时，输入时就会触发本\n<br>事件。",
+              "name": "onChange"
+            },
+            {
+              "attr": "onEnter",
+              "valueType": "Function",
+              "description": "回车事件。\n<br>输入完毕后回车触发，并且传入当前值。",
+              "extraInfo": {
+                "arguments": [
+                  "data",
+                  "gv",
+                  "cache",
+                  "value"
+                ]
+              },
+              "name": "onEnter"
             },
             {
               "attr": "fixedHeight",
               "valueType": "PositiveNumber",
               "defaultValue": 35,
               "description": "固定高度。\n<br>部分组件比如下拉框以及这里的输入框，拖拽或布局时，\n<br>高度默认会保持不变，只是宽度能够变化。高度可以在\n<br>当前页面全局自定义，也能通过当前属性对当个组件设\n<br>定。全局设置为页面的公共属性组中的“组件默认固定高\n<br>度”属性。",
+              "group": "外观",
+              "extraInfo": "★",
               "name": "fixedHeight"
-            },
-            {
-              "attr": "activeBorderColor",
-              "valueType": "Color",
-              "defaultValue": "rgb(51,153,255)",
-              "description": "激活时边框颜色。\n<br>通常是选中输入状态时的边框色。",
-              "name": "activeBorderColor"
-            },
-            {
-              "attr": "background",
-              "valueType": "Color",
-              "description": "背景颜色。",
-              "name": "background"
-            },
-            {
-              "attr": "readOnlyBackground",
-              "valueType": "Color",
-              "defaultValue": "rgb(247,247,247)",
-              "description": "只读时的背景颜色。\n<br>注意，区别于禁用（暂未开放配置）。",
-              "name": "readOnlyBackground"
-            },
-            {
-              "attr": "iconPath",
-              "valueType": "Image",
-              "defaultValue": "symbols/demo/uiotos/icons/light/search.json",
-              "description": "图标地址。\n<br>输入框默左侧为“搜索”图标。",
-              "name": "iconPath"
-            },
-            {
-              "attr": "iconColor",
-              "valueType": "Color",
-              "defaultValue": "rgb(213,213,213)",
-              "description": "输入框图标颜色。\n<br>对于内置部件中通过工具转换成的图标，\n<br>为支持动态修改背景颜色的矢量形式。",
-              "name": "iconColor"
-            },
-            {
-              "attr": "iconType",
-              "valueType": "Level",
-              "defaultValue": 1,
-              "description": "图标类型。\n<br>相同名称图标的不同风格，已弃用，\n<br>当前属性目前作为备用。",
-              "name": "iconType"
-            },
-            {
-              "attr": "iconSize",
-              "valueType": "NumberArray",
-              "defaultValue": [
-                20,
-                15
-              ],
-              "description": "图标尺寸。\n<br>数组形式，索引依次为宽度、高度值。",
-              "name": "iconSize"
-            },
-            {
-              "attr": "iconTextGap",
-              "valueType": "Number",
-              "defaultValue": 5,
-              "description": "图标文字间距。",
-              "name": "iconTextGap"
-            },
-            {
-              "attr": "hoverIcon",
-              "valueType": "Image",
-              "description": "鼠标滑过时的图标。",
-              "name": "hoverIcon"
             },
             {
               "attr": "borderRadius",
@@ -284,10 +303,68 @@
             },
             {
               "attr": "borderColor",
+              "valueType": "ColorArray",
+              "defaultValue": [
+                "rgb(213,213,213)",
+                "rgb(55,125,255)"
+              ],
+              "description": "边框颜色。\n<br>索引0：默认边框颜色；\n<br>索引1：输入时边框颜色。",
+              "name": "borderColor"
+            },
+            {
+              "attr": "background",
+              "valueType": "ColorArray",
+              "description": "背景颜色。\n<br>索引0为默认背景色。索引1为禁用背景色。",
+              "defaultValue": [
+                "rgb(255,255,255)",
+                "rgb(247,247,247)"
+              ],
+              "name": "background"
+            },
+            {
+              "attr": "iconPath",
+              "valueType": "Image",
+              "defaultValue": "symbols/demo/uiotos/icons/light/search.json",
+              "description": "图标地址。\n<br>输入框默左侧为“搜索”图标。",
+              "extraInfo": "*",
+              "name": "iconPath"
+            },
+            {
+              "attr": "iconColor",
               "valueType": "Color",
               "defaultValue": "rgb(213,213,213)",
-              "description": "边框颜色。",
-              "name": "borderColor"
+              "description": "输入框图标颜色。\n<br>对于内置部件中通过工具转换成的图标，\n<br>为支持动态修改背景颜色的矢量形式。",
+              "extraInfo": "*",
+              "name": "iconColor"
+            },
+            {
+              "attr": "iconSize",
+              "valueType": "NumberArray",
+              "defaultValue": [
+                20,
+                15
+              ],
+              "description": "图标尺寸。\n<br>数组形式，索引依次为宽度、高度值。",
+              "extraInfo": "*",
+              "name": "iconSize"
+            },
+            {
+              "attr": "iconTextGap",
+              "valueType": "Number",
+              "defaultValue": 5,
+              "description": "图标文字间距。",
+              "extraInfo": "*",
+              "name": "iconTextGap"
+            },
+            {
+              "attr": "color",
+              "valueType": "ColorArray",
+              "defaultValue": [
+                "rgb(0,0,0)",
+                "rgb(61,61,61)"
+              ],
+              "description": "文字颜色。\n<br>索引0：输入内容文字颜色。\n<br>索引1：标签文字颜色。\n<br>",
+              "name": "color"
             },
             {
               "attr": "font",
@@ -296,32 +373,12 @@
               "name": "font"
             },
             {
-              "attr": "readOnly",
-              "valueType": "Boolean",
-              "defaultValue": false,
-              "description": "是否只读。",
-              "name": "readOnly"
-            },
-            {
               "attr": "placeholder",
               "valueType": "Object",
               "defaultValue": "请输入",
               "description": "未输入时默认占位符文字。",
+              "extraInfo": "★",
               "name": "placeholder"
-            },
-            {
-              "attr": "color",
-              "valueType": "Color",
-              "defaultValue": "rgb(0,0,0)",
-              "description": "文字颜色。",
-              "name": "color"
-            },
-            {
-              "attr": "labelColor",
-              "valueType": "Color",
-              "defaultValue": "rgb(0,0,0)",
-              "description": "标签文字颜色。",
-              "name": "labelColor"
             },
             {
               "attr": "labelText",
@@ -331,64 +388,33 @@
               "name": "labelText"
             },
             {
-              "attr": "gap",
-              "valueType": "PositiveNumber",
-              "defaultValue": 0,
-              "description": "标签与组件的间距。\n<br>注意，仅在标签内嵌模式（layoutVertical）下，\n<br>改配置参数才有用。",
-              "name": "gap"
+              "attr": "labelEmbeded",
+              "valueType": "Boolean",
+              "defaultValue": false,
+              "description": "标签是否内嵌。\n<br>不内嵌时，组件的宽度不包含标签。\n<br>选择内嵌时，组件的宽度包含标签文字宽度。",
+              "extraInfo": "★",
+              "name": "labelEmbeded"
             },
             {
               "attr": "layoutVertical",
               "valueType": "Boolean",
               "defaultValue": false,
               "description": "标签与组件的布局模式。\n<br>水平左右，或者垂直上下。",
+              "extraInfo": "★",
               "name": "layoutVertical"
             },
             {
-              "attr": "labelEmbeded",
-              "valueType": "Boolean",
-              "defaultValue": false,
-              "description": "标签是否内嵌。\n<br>不内嵌时，组件的宽度不包含标签。\n<br>选择内嵌时，组件的宽度包含标签文字宽度。",
-              "name": "labelEmbeded"
-            },
-            {
-              "attr": "type",
-              "valueType": "FormType",
-              "defaultValue": "text",
-              "description": "输入框表单类型。\n<br>包括密码、文本等类型。",
-              "name": "type"
-            },
-            {
-              "attr": "instantTrigger",
-              "valueType": "Boolean",
-              "defaultValue": true,
-              "description": "是否即时触发。\n<br>勾选后，输入时就会对外触发onChange变化事件。",
-              "name": "instantTrigger"
-            },
-            {
-              "attr": "initialTrigger",
-              "valueType": "Boolean",
-              "defaultValue": false,
-              "description": "初始触发连线操作。\n<br>默认不勾选，勾选后初始加载值时，如果对外有连线，\n<br>并且初始值为非空时，也会触发对外的赋值连线操作。",
-              "name": "initialTrigger"
-            },
-            {
-              "attr": "emptyTrigger",
-              "valueType": "Boolean",
-              "defaultValue": false,
-              "name": "emptyTrigger"
-            },
-            {
-              "attr": "value",
-              "valueType": "Object",
-              "defaultValue": "",
-              "description": "当前值。\n<br>输入框的值。注意，运行时输入数字\n<br>默认会作为字符串。如果初始设定值\n<br>为数字类型（比如0），那么输入的字\n<br>符串形式的数字，会被转成数字。",
-              "name": "value"
+              "attr": "gap",
+              "valueType": "PositiveNumber",
+              "defaultValue": 0,
+              "description": "标签与组件的间距。\n<br>注意，仅在标签内嵌模式（layoutVertical）下，\n<br>改配置参数才有用。",
+              "extraInfo": "★",
+              "name": "gap"
             },
             {
               "attr": "bindControlsTag",
               "valueType": "StringArray",
-              "group": "bindControls",
+              "group": "连线",
               "description": "操作的目标组件（标签）。\n<br>连线A → B，那么B就是目标组件。",
               "name": "bindControlsTag"
             },
@@ -428,7 +454,8 @@
                   "node",
                   "oldVal",
                   "form"
-                ]
+                ],
+                "classify": "*"
               },
               "description": "操作过滤函数。\n<br>所有连线对外操作执行之前，都会经过该函数\n<br>过滤处理，通常无需操作。可以做自定义逻辑。\n<br>其中对相应索引index下直接return返回undefined\n<br>时，将忽略掉指定索引连线的执行触发。",
               "name": "paramsGenerator"
@@ -436,72 +463,55 @@
             {
               "attr": "useAttrCORS",
               "valueType": "Boolean",
+              "extraInfo": "*",
               "defaultValue": false,
               "description": "连线操作和处理回写是否一致。\n                        比如多个文本框连线传值给相同对话框，弹窗修改\n                        后是否限定只能写到最新赋值过来的文本框。详见<a href='https://www.yuque.com/liuhuo-nc809/uiotos/fgi6dd7gado51acm#fFUbp' style=\"color:rgb(96,172,252)\"target=\"_blank\">同源属性操作</a>",
+              "bindIgnored": true,
               "name": "useAttrCORS",
               "dynamicCreate": true
             },
             {
-              "attr": "onChange",
-              "valueType": "Function",
-              "extraInfo": {
-                "arguments": [
-                  "data",
-                  "gv",
-                  "cache",
-                  "value"
-                ]
-              },
-              "description": "变化事件函数。\n<br>默认为内容改变才触发，当勾选即时触发\n<br>（instantTrigger）时，输入时就会触发本\n<br>事件。",
-              "name": "onChange"
-            },
-            {
-              "attr": "onEnter",
-              "valueType": "Function",
-              "description": "回车事件。\n<br>输入完毕后回车触发，并且传入当前值。",
-              "extraInfo": {
-                "arguments": [
-                  "data",
-                  "gv",
-                  "cache",
-                  "value"
-                ]
-              },
-              "name": "onEnter"
-            },
-            {
-              "attr": "userData",
-              "valueType": "Object",
-              "name": "userData"
-            },
-            {
               "attr": "display",
-              "name": "display",
               "valueType": "Image",
               "defaultValue": "",
               "description": "自定义页面地址。\n                可以是编辑器中的其他页面，也可以\n                是外部网页链接地址。",
-              "group": "弹出框",
+              "group": "弹出框 *",
+              "bindIgnored": true,
+              "name": "display",
+              "dynamicCreate": true
+            },
+            {
+              "attr": "pureTipText",
+              "valueType": "String",
+              "defaultValue": "",
+              "description": "提示文字。\n                    当专业用户属性中，提供display内嵌页属性，\n                    如果有配置，那么本属性设置无效，将以内嵌\n                    页显示为准。",
+              "group": "弹出框 *",
+              "bindIgnored": true,
+              "name": "pureTipText",
               "dynamicCreate": true
             },
             {
               "attr": "popDirection",
-              "name": "popDirection",
               "valueType": "SideDirection",
               "defaultValue": "right",
               "description": "提示显示位置。",
+              "group": "弹出框 *",
+              "bindIgnored": true,
+              "name": "popDirection",
               "dynamicCreate": true
             },
             {
               "attr": "popBackground",
-              "name": "popBackground",
               "valueType": "Color",
               "defaultValue": "white",
               "description": "箭头和背景色。",
+              "group": "弹出框 *",
+              "bindIgnored": true,
+              "name": "popBackground",
               "dynamicCreate": true
             },
             {
               "attr": "popPadding",
-              "name": "padding",
               "valueType": "NumberArray",
               "defaultValue": [
                 2,
@@ -510,58 +520,73 @@
                 2
               ],
               "description": "内间距。",
+              "group": "弹出框 *",
+              "bindIgnored": true,
+              "name": "popPadding",
               "dynamicCreate": true
             },
             {
               "attr": "popWidth",
-              "name": "popWidth",
               "valueType": "Number",
               "defaultValue": 400,
               "description": "弹出框宽度。",
+              "group": "弹出框 *",
+              "bindIgnored": true,
+              "name": "popWidth",
               "dynamicCreate": true
             },
             {
               "attr": "popHeight",
-              "name": "popHeight",
               "valueType": "Number",
               "defaultValue": 300,
               "description": "弹出框高度。",
+              "group": "弹出框 *",
+              "bindIgnored": true,
+              "name": "popHeight",
               "dynamicCreate": true
             },
             {
               "attr": "popBorderColor",
-              "name": "popBorderColor",
               "valueType": "Color",
               "defaultValue": "rgb(51,51,51)",
               "description": "边框线颜色。\n                    注意，是设置了边框宽度非0后的边框颜色。\n                    默认边框宽度属性为0时，实际上是白色并\n                    带有箭头指示的边框。本属性不用于修改默\n                    认边框色。",
+              "group": "弹出框 *",
+              "bindIgnored": true,
+              "name": "popBorderColor",
               "dynamicCreate": true
             },
             {
               "attr": "popBorderWidth",
-              "name": "popBorderWidth",
               "valueType": "Number",
               "defaultValue": 0,
               "description": "边框线宽度。\n                    默认值为0，此时边框默认为白色并且带有\n                    箭头指示。当设置宽度后，颜色将取边框颜\n                    色属性的设置，并且不再有箭头指示。",
+              "group": "弹出框 *",
+              "bindIgnored": true,
+              "name": "popBorderWidth",
               "dynamicCreate": true
             },
             {
               "attr": "popBorderRadius",
-              "name": "popBorderRadius",
               "valueType": "Number",
               "defaultValue": 0,
               "description": "边框线圆角。\n                    设置圆角线后，如果此前默认是白色边框带有\n                    指示箭头，那么将自动不可见，只对内容区域\n                    产生圆角。",
+              "group": "弹出框 *",
+              "bindIgnored": true,
+              "name": "popBorderRadius",
               "dynamicCreate": true
             },
             {
               "attr": "popTriggerEvent",
-              "name": "popTriggerEvent",
               "valueType": "MouseEvent",
               "defaultValue": "hover",
               "description": "触发方式。\n                支持鼠标移入、点击（按钮时）\n                两种触发提示的方式。",
+              "group": "弹出框 *",
+              "bindIgnored": true,
+              "name": "popTriggerEvent",
               "dynamicCreate": true
             }
           ],
-          "snapshotURL": "symbols/admin/uiotos/icons/snapshot/input.json",
+          "snapshotURL": "symbols/develop/uiotos/arranged/controls/forms_icon/输入框.json",
           "renderHTML": "__ht__function(data, gv, cache) {return __input_ui(data, gv, cache);}",
           "width": 180,
           "height": 35,
@@ -569,7 +594,7 @@
           "interactive": true,
           "pixelPerfect": false,
           "comps": [],
-          "uuid": "6A5D6C24-75BA-4279-8FA5-FEB5FBE493B1"
+          "uuid": "D0B5A2FE-2770-4EFB-85BA-4E46D61202D6"
         },
         "position": {
           "x": 209.89226,
@@ -583,7 +608,7 @@
         "label.position": 14,
         "label.offset.x": -10,
         "label.offset.y": 0,
-        "label.color": "rgb(0,0,0)",
+        "label.color": "rgb(61,61,61)",
         "interactive": true,
         "image.stretch": "uniform"
       },
@@ -592,23 +617,35 @@
         "labelText": "标签",
         "gap": 0,
         "iconType": 1,
-        "value": "test",
         "bindEvents": [
           "*",
           "onChange",
           "onClear",
           "onEnter"
         ],
-        "symbol": "symbols/develop/uiotos/base/input-ui.json"
+        "symbol": "symbols/develop/uiotos/base/input-ui.json",
+        "background": [
+          null,
+          "rgb(247,247,247)"
+        ],
+        "color": [
+          "rgb(0,0,0)",
+          "rgb(61,61,61)"
+        ],
+        "colors": [
+          "rgb(0,0,0)",
+          "rgb(61,61,61)"
+        ],
+        "value": "develop"
       }
     },
     {
       "c": "ht.Node",
-      "i": 94265,
+      "i": 29449,
       "p": {
         "displayName": "input（psw）",
         "parent": {
-          "__i": 94263
+          "__i": 29447
         },
         "tag": "psw",
         "dataBindings": {
@@ -709,89 +746,112 @@
               "idinfo": "",
               "isTplBinded": false,
               "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "userData": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
             }
           }
         },
         "image": {
-          "modified": "Mon Apr 15 2024 05:22:25 GMT+0800 (中国标准时间)",
+          "modified": "Sat Aug 24 2024 15:55:41 GMT+0800 (中国标准时间)",
           "dataBindings": [
             {
               "attr": "symbol",
               "valueType": "Image",
-              "group": "功能（关键）",
               "description": "组件源（备选）。\n<br>当组件源（image）为非字符串格式，显示\n<br>[Object]时，可以通过这里备选地址，双击\n<br>打开组件配置。",
               "name": "symbol"
+            },
+            {
+              "attr": "value",
+              "valueType": "Object",
+              "description": "当前值。\n<br>输入框的值。注意，运行时输入数字\n<br>默认会作为字符串。如果初始设定值\n<br>为数字类型（比如0），那么输入的字\n<br>符串形式的数字，会被转成数字。",
+              "group": "功能",
+              "defaultValue": "",
+              "name": "value"
+            },
+            {
+              "attr": "type",
+              "valueType": "FormType",
+              "defaultValue": "text",
+              "description": "输入框表单类型。\n<br>包括密码、文本等类型。",
+              "name": "type"
+            },
+            {
+              "attr": "readOnly",
+              "valueType": "Boolean",
+              "defaultValue": false,
+              "description": "是否只读。",
+              "extraInfo": "★",
+              "name": "readOnly"
+            },
+            {
+              "attr": "initialTrigger",
+              "valueType": "Boolean",
+              "defaultValue": false,
+              "description": "初始触发连线操作。\n<br>默认不勾选，勾选后初始加载值时，如果对外有连线，\n<br>并且初始值为非空时，也会触发对外的赋值连线操作。",
+              "extraInfo": "*",
+              "name": "initialTrigger"
+            },
+            {
+              "attr": "instantTrigger",
+              "valueType": "Boolean",
+              "defaultValue": true,
+              "description": "是否即时触发。\n<br>勾选后，输入时就会对外触发onChange变化事件。",
+              "extraInfo": "★",
+              "name": "instantTrigger"
+            },
+            {
+              "attr": "emptyTrigger",
+              "valueType": "Boolean",
+              "defaultValue": false,
+              "extraInfo": "*",
+              "name": "emptyTrigger"
+            },
+            {
+              "attr": "userData",
+              "valueType": "Object",
+              "defaultValue": [],
+              "name": "userData"
+            },
+            {
+              "attr": "onChange",
+              "valueType": "Function",
+              "extraInfo": {
+                "arguments": [
+                  "data",
+                  "gv",
+                  "cache",
+                  "value"
+                ]
+              },
+              "description": "变化事件函数。\n<br>默认为内容改变才触发，当勾选即时触发\n<br>（instantTrigger）时，输入时就会触发本\n<br>事件。",
+              "name": "onChange"
+            },
+            {
+              "attr": "onEnter",
+              "valueType": "Function",
+              "description": "回车事件。\n<br>输入完毕后回车触发，并且传入当前值。",
+              "extraInfo": {
+                "arguments": [
+                  "data",
+                  "gv",
+                  "cache",
+                  "value"
+                ]
+              },
+              "name": "onEnter"
             },
             {
               "attr": "fixedHeight",
               "valueType": "PositiveNumber",
               "defaultValue": 35,
               "description": "固定高度。\n<br>部分组件比如下拉框以及这里的输入框，拖拽或布局时，\n<br>高度默认会保持不变，只是宽度能够变化。高度可以在\n<br>当前页面全局自定义，也能通过当前属性对当个组件设\n<br>定。全局设置为页面的公共属性组中的“组件默认固定高\n<br>度”属性。",
+              "group": "外观",
+              "extraInfo": "★",
               "name": "fixedHeight"
-            },
-            {
-              "attr": "activeBorderColor",
-              "valueType": "Color",
-              "defaultValue": "rgb(51,153,255)",
-              "description": "激活时边框颜色。\n<br>通常是选中输入状态时的边框色。",
-              "name": "activeBorderColor"
-            },
-            {
-              "attr": "background",
-              "valueType": "Color",
-              "description": "背景颜色。",
-              "name": "background"
-            },
-            {
-              "attr": "readOnlyBackground",
-              "valueType": "Color",
-              "defaultValue": "rgb(247,247,247)",
-              "description": "只读时的背景颜色。\n<br>注意，区别于禁用（暂未开放配置）。",
-              "name": "readOnlyBackground"
-            },
-            {
-              "attr": "iconPath",
-              "valueType": "Image",
-              "defaultValue": "symbols/demo/uiotos/icons/light/search.json",
-              "description": "图标地址。\n<br>输入框默左侧为“搜索”图标。",
-              "name": "iconPath"
-            },
-            {
-              "attr": "iconColor",
-              "valueType": "Color",
-              "defaultValue": "rgb(213,213,213)",
-              "description": "输入框图标颜色。\n<br>对于内置部件中通过工具转换成的图标，\n<br>为支持动态修改背景颜色的矢量形式。",
-              "name": "iconColor"
-            },
-            {
-              "attr": "iconType",
-              "valueType": "Level",
-              "defaultValue": 1,
-              "description": "图标类型。\n<br>相同名称图标的不同风格，已弃用，\n<br>当前属性目前作为备用。",
-              "name": "iconType"
-            },
-            {
-              "attr": "iconSize",
-              "valueType": "NumberArray",
-              "defaultValue": [
-                20,
-                15
-              ],
-              "description": "图标尺寸。\n<br>数组形式，索引依次为宽度、高度值。",
-              "name": "iconSize"
-            },
-            {
-              "attr": "iconTextGap",
-              "valueType": "Number",
-              "defaultValue": 5,
-              "description": "图标文字间距。",
-              "name": "iconTextGap"
-            },
-            {
-              "attr": "hoverIcon",
-              "valueType": "Image",
-              "description": "鼠标滑过时的图标。",
-              "name": "hoverIcon"
             },
             {
               "attr": "borderRadius",
@@ -809,10 +869,68 @@
             },
             {
               "attr": "borderColor",
+              "valueType": "ColorArray",
+              "defaultValue": [
+                "rgb(213,213,213)",
+                "rgb(55,125,255)"
+              ],
+              "description": "边框颜色。\n<br>索引0：默认边框颜色；\n<br>索引1：输入时边框颜色。",
+              "name": "borderColor"
+            },
+            {
+              "attr": "background",
+              "valueType": "ColorArray",
+              "description": "背景颜色。\n<br>索引0为默认背景色。索引1为禁用背景色。",
+              "defaultValue": [
+                "rgb(255,255,255)",
+                "rgb(247,247,247)"
+              ],
+              "name": "background"
+            },
+            {
+              "attr": "iconPath",
+              "valueType": "Image",
+              "defaultValue": "symbols/demo/uiotos/icons/light/search.json",
+              "description": "图标地址。\n<br>输入框默左侧为“搜索”图标。",
+              "extraInfo": "*",
+              "name": "iconPath"
+            },
+            {
+              "attr": "iconColor",
               "valueType": "Color",
               "defaultValue": "rgb(213,213,213)",
-              "description": "边框颜色。",
-              "name": "borderColor"
+              "description": "输入框图标颜色。\n<br>对于内置部件中通过工具转换成的图标，\n<br>为支持动态修改背景颜色的矢量形式。",
+              "extraInfo": "*",
+              "name": "iconColor"
+            },
+            {
+              "attr": "iconSize",
+              "valueType": "NumberArray",
+              "defaultValue": [
+                20,
+                15
+              ],
+              "description": "图标尺寸。\n<br>数组形式，索引依次为宽度、高度值。",
+              "extraInfo": "*",
+              "name": "iconSize"
+            },
+            {
+              "attr": "iconTextGap",
+              "valueType": "Number",
+              "defaultValue": 5,
+              "description": "图标文字间距。",
+              "extraInfo": "*",
+              "name": "iconTextGap"
+            },
+            {
+              "attr": "color",
+              "valueType": "ColorArray",
+              "defaultValue": [
+                "rgb(0,0,0)",
+                "rgb(61,61,61)"
+              ],
+              "description": "文字颜色。\n<br>索引0：输入内容文字颜色。\n<br>索引1：标签文字颜色。\n<br>",
+              "name": "color"
             },
             {
               "attr": "font",
@@ -821,32 +939,12 @@
               "name": "font"
             },
             {
-              "attr": "readOnly",
-              "valueType": "Boolean",
-              "defaultValue": false,
-              "description": "是否只读。",
-              "name": "readOnly"
-            },
-            {
               "attr": "placeholder",
               "valueType": "Object",
               "defaultValue": "请输入",
               "description": "未输入时默认占位符文字。",
+              "extraInfo": "★",
               "name": "placeholder"
-            },
-            {
-              "attr": "color",
-              "valueType": "Color",
-              "defaultValue": "rgb(0,0,0)",
-              "description": "文字颜色。",
-              "name": "color"
-            },
-            {
-              "attr": "labelColor",
-              "valueType": "Color",
-              "defaultValue": "rgb(0,0,0)",
-              "description": "标签文字颜色。",
-              "name": "labelColor"
             },
             {
               "attr": "labelText",
@@ -856,64 +954,33 @@
               "name": "labelText"
             },
             {
-              "attr": "gap",
-              "valueType": "PositiveNumber",
-              "defaultValue": 0,
-              "description": "标签与组件的间距。\n<br>注意，仅在标签内嵌模式（layoutVertical）下，\n<br>改配置参数才有用。",
-              "name": "gap"
+              "attr": "labelEmbeded",
+              "valueType": "Boolean",
+              "defaultValue": false,
+              "description": "标签是否内嵌。\n<br>不内嵌时，组件的宽度不包含标签。\n<br>选择内嵌时，组件的宽度包含标签文字宽度。",
+              "extraInfo": "★",
+              "name": "labelEmbeded"
             },
             {
               "attr": "layoutVertical",
               "valueType": "Boolean",
               "defaultValue": false,
               "description": "标签与组件的布局模式。\n<br>水平左右，或者垂直上下。",
+              "extraInfo": "★",
               "name": "layoutVertical"
             },
             {
-              "attr": "labelEmbeded",
-              "valueType": "Boolean",
-              "defaultValue": false,
-              "description": "标签是否内嵌。\n<br>不内嵌时，组件的宽度不包含标签。\n<br>选择内嵌时，组件的宽度包含标签文字宽度。",
-              "name": "labelEmbeded"
-            },
-            {
-              "attr": "type",
-              "valueType": "FormType",
-              "defaultValue": "text",
-              "description": "输入框表单类型。\n<br>包括密码、文本等类型。",
-              "name": "type"
-            },
-            {
-              "attr": "instantTrigger",
-              "valueType": "Boolean",
-              "defaultValue": true,
-              "description": "是否即时触发。\n<br>勾选后，输入时就会对外触发onChange变化事件。",
-              "name": "instantTrigger"
-            },
-            {
-              "attr": "initialTrigger",
-              "valueType": "Boolean",
-              "defaultValue": false,
-              "description": "初始触发连线操作。\n<br>默认不勾选，勾选后初始加载值时，如果对外有连线，\n<br>并且初始值为非空时，也会触发对外的赋值连线操作。",
-              "name": "initialTrigger"
-            },
-            {
-              "attr": "emptyTrigger",
-              "valueType": "Boolean",
-              "defaultValue": false,
-              "name": "emptyTrigger"
-            },
-            {
-              "attr": "value",
-              "valueType": "Object",
-              "defaultValue": "",
-              "description": "当前值。\n<br>输入框的值。注意，运行时输入数字\n<br>默认会作为字符串。如果初始设定值\n<br>为数字类型（比如0），那么输入的字\n<br>符串形式的数字，会被转成数字。",
-              "name": "value"
+              "attr": "gap",
+              "valueType": "PositiveNumber",
+              "defaultValue": 0,
+              "description": "标签与组件的间距。\n<br>注意，仅在标签内嵌模式（layoutVertical）下，\n<br>改配置参数才有用。",
+              "extraInfo": "★",
+              "name": "gap"
             },
             {
               "attr": "bindControlsTag",
               "valueType": "StringArray",
-              "group": "bindControls",
+              "group": "连线",
               "description": "操作的目标组件（标签）。\n<br>连线A → B，那么B就是目标组件。",
               "name": "bindControlsTag"
             },
@@ -953,7 +1020,8 @@
                   "node",
                   "oldVal",
                   "form"
-                ]
+                ],
+                "classify": "*"
               },
               "description": "操作过滤函数。\n<br>所有连线对外操作执行之前，都会经过该函数\n<br>过滤处理，通常无需操作。可以做自定义逻辑。\n<br>其中对相应索引index下直接return返回undefined\n<br>时，将忽略掉指定索引连线的执行触发。",
               "name": "paramsGenerator"
@@ -961,72 +1029,55 @@
             {
               "attr": "useAttrCORS",
               "valueType": "Boolean",
+              "extraInfo": "*",
               "defaultValue": false,
               "description": "连线操作和处理回写是否一致。\n                        比如多个文本框连线传值给相同对话框，弹窗修改\n                        后是否限定只能写到最新赋值过来的文本框。详见<a href='https://www.yuque.com/liuhuo-nc809/uiotos/fgi6dd7gado51acm#fFUbp' style=\"color:rgb(96,172,252)\"target=\"_blank\">同源属性操作</a>",
+              "bindIgnored": true,
               "name": "useAttrCORS",
               "dynamicCreate": true
             },
             {
-              "attr": "onChange",
-              "valueType": "Function",
-              "extraInfo": {
-                "arguments": [
-                  "data",
-                  "gv",
-                  "cache",
-                  "value"
-                ]
-              },
-              "description": "变化事件函数。\n<br>默认为内容改变才触发，当勾选即时触发\n<br>（instantTrigger）时，输入时就会触发本\n<br>事件。",
-              "name": "onChange"
-            },
-            {
-              "attr": "onEnter",
-              "valueType": "Function",
-              "description": "回车事件。\n<br>输入完毕后回车触发，并且传入当前值。",
-              "extraInfo": {
-                "arguments": [
-                  "data",
-                  "gv",
-                  "cache",
-                  "value"
-                ]
-              },
-              "name": "onEnter"
-            },
-            {
-              "attr": "userData",
-              "valueType": "Object",
-              "name": "userData"
-            },
-            {
               "attr": "display",
-              "name": "display",
               "valueType": "Image",
               "defaultValue": "",
               "description": "自定义页面地址。\n                可以是编辑器中的其他页面，也可以\n                是外部网页链接地址。",
-              "group": "弹出框",
+              "group": "弹出框 *",
+              "bindIgnored": true,
+              "name": "display",
+              "dynamicCreate": true
+            },
+            {
+              "attr": "pureTipText",
+              "valueType": "String",
+              "defaultValue": "",
+              "description": "提示文字。\n                    当专业用户属性中，提供display内嵌页属性，\n                    如果有配置，那么本属性设置无效，将以内嵌\n                    页显示为准。",
+              "group": "弹出框 *",
+              "bindIgnored": true,
+              "name": "pureTipText",
               "dynamicCreate": true
             },
             {
               "attr": "popDirection",
-              "name": "popDirection",
               "valueType": "SideDirection",
               "defaultValue": "right",
               "description": "提示显示位置。",
+              "group": "弹出框 *",
+              "bindIgnored": true,
+              "name": "popDirection",
               "dynamicCreate": true
             },
             {
               "attr": "popBackground",
-              "name": "popBackground",
               "valueType": "Color",
               "defaultValue": "white",
               "description": "箭头和背景色。",
+              "group": "弹出框 *",
+              "bindIgnored": true,
+              "name": "popBackground",
               "dynamicCreate": true
             },
             {
               "attr": "popPadding",
-              "name": "padding",
               "valueType": "NumberArray",
               "defaultValue": [
                 2,
@@ -1035,58 +1086,73 @@
                 2
               ],
               "description": "内间距。",
+              "group": "弹出框 *",
+              "bindIgnored": true,
+              "name": "popPadding",
               "dynamicCreate": true
             },
             {
               "attr": "popWidth",
-              "name": "popWidth",
               "valueType": "Number",
               "defaultValue": 400,
               "description": "弹出框宽度。",
+              "group": "弹出框 *",
+              "bindIgnored": true,
+              "name": "popWidth",
               "dynamicCreate": true
             },
             {
               "attr": "popHeight",
-              "name": "popHeight",
               "valueType": "Number",
               "defaultValue": 300,
               "description": "弹出框高度。",
+              "group": "弹出框 *",
+              "bindIgnored": true,
+              "name": "popHeight",
               "dynamicCreate": true
             },
             {
               "attr": "popBorderColor",
-              "name": "popBorderColor",
               "valueType": "Color",
               "defaultValue": "rgb(51,51,51)",
               "description": "边框线颜色。\n                    注意，是设置了边框宽度非0后的边框颜色。\n                    默认边框宽度属性为0时，实际上是白色并\n                    带有箭头指示的边框。本属性不用于修改默\n                    认边框色。",
+              "group": "弹出框 *",
+              "bindIgnored": true,
+              "name": "popBorderColor",
               "dynamicCreate": true
             },
             {
               "attr": "popBorderWidth",
-              "name": "popBorderWidth",
               "valueType": "Number",
               "defaultValue": 0,
               "description": "边框线宽度。\n                    默认值为0，此时边框默认为白色并且带有\n                    箭头指示。当设置宽度后，颜色将取边框颜\n                    色属性的设置，并且不再有箭头指示。",
+              "group": "弹出框 *",
+              "bindIgnored": true,
+              "name": "popBorderWidth",
               "dynamicCreate": true
             },
             {
               "attr": "popBorderRadius",
-              "name": "popBorderRadius",
               "valueType": "Number",
               "defaultValue": 0,
               "description": "边框线圆角。\n                    设置圆角线后，如果此前默认是白色边框带有\n                    指示箭头，那么将自动不可见，只对内容区域\n                    产生圆角。",
+              "group": "弹出框 *",
+              "bindIgnored": true,
+              "name": "popBorderRadius",
               "dynamicCreate": true
             },
             {
               "attr": "popTriggerEvent",
-              "name": "popTriggerEvent",
               "valueType": "MouseEvent",
               "defaultValue": "hover",
               "description": "触发方式。\n                支持鼠标移入、点击（按钮时）\n                两种触发提示的方式。",
+              "group": "弹出框 *",
+              "bindIgnored": true,
+              "name": "popTriggerEvent",
               "dynamicCreate": true
             }
           ],
-          "snapshotURL": "symbols/admin/uiotos/icons/snapshot/input.json",
+          "snapshotURL": "symbols/develop/uiotos/arranged/controls/forms_icon/输入框.json",
           "renderHTML": "__ht__function(data, gv, cache) {return __input_ui(data, gv, cache);}",
           "width": 180,
           "height": 35,
@@ -1094,7 +1160,7 @@
           "interactive": true,
           "pixelPerfect": false,
           "comps": [],
-          "uuid": "6A5D6C24-75BA-4279-8FA5-FEB5FBE493B1"
+          "uuid": "D0B5A2FE-2770-4EFB-85BA-4E46D61202D6"
         },
         "position": {
           "x": 209.89226,
@@ -1108,7 +1174,7 @@
         "label.position": 14,
         "label.offset.x": -10,
         "label.offset.y": 0,
-        "label.color": "rgb(0,0,0)",
+        "label.color": "rgb(61,61,61)",
         "interactive": true,
         "image.stretch": "uniform"
       },
@@ -1118,18 +1184,30 @@
         "gap": 0,
         "iconType": 1,
         "type": "password",
-        "value": "123456",
         "bindEvents": [
           "*",
           "onChange",
           "onClear",
           "onEnter"
         ],
-        "symbol": "symbols/develop/uiotos/base/input-ui.json"
+        "symbol": "symbols/develop/uiotos/base/input-ui.json",
+        "background": [
+          null,
+          "rgb(247,247,247)"
+        ],
+        "color": [
+          "rgb(0,0,0)",
+          "rgb(61,61,61)"
+        ],
+        "colors": [
+          "rgb(0,0,0)",
+          "rgb(61,61,61)"
+        ],
+        "value": "iotos123456"
       }
     }
   ],
-  "modified": "Sun Jun 23 2024 10:20:03 GMT+0800 (中国标准时间)",
+  "modified": "Tue Aug 27 2024 17:07:40 GMT+0800 (中国标准时间)",
   "contentRect": {
     "x": 0,
     "y": 0,
