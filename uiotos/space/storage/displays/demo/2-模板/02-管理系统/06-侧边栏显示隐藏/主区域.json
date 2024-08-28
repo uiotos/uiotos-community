@@ -1,5 +1,5 @@
 {
-  "v": "7.7.5",
+  "v": "8.0.1",
   "p": {
     "background": "#20252e",
     "autoAdjustIndex": true,
@@ -12,12 +12,13 @@
     "fitContent": false,
     "zoomable": false,
     "rectSelectable": false,
-    "pannable": false
+    "pannable": false,
+    "_professional": false
   },
   "d": [
     {
       "c": "ht.Node",
-      "i": 106269,
+      "i": 6974714,
       "p": {
         "name": "base",
         "displayName": "底板（_base）",
@@ -49,7 +50,7 @@
     },
     {
       "c": "ht.Node",
-      "i": 106270,
+      "i": 6974715,
       "p": {
         "name": "BW3",
         "displayName": "BW3（BW31）",
@@ -57,7 +58,7 @@
         "tag": "BW31",
         "image": "assets/develop/uiotos/arranged/assets/光伏/BW3.png",
         "host": {
-          "__i": 106269
+          "__i": 6974714
         },
         "position": {
           "x": 1577.40866,
@@ -68,9 +69,7 @@
       },
       "s": {
         "label.opacity": 0,
-        "label.position": 14,
-        "label.offset.x": -10,
-        "label.offset.y": 0,
+        "label.position": 17,
         "label.color": "rgb(61,61,61)",
         "2d.movable": false,
         "interactive": true,
@@ -80,7 +79,7 @@
       }
     }
   ],
-  "modified": "Fri May 17 2024 10:26:30 GMT+0800 (中国标准时间)",
+  "modified": "Mon Aug 26 2024 13:25:15 GMT+0800 (中国标准时间)",
   "contentRect": {
     "x": 1393.78616,
     "y": -1.49999,

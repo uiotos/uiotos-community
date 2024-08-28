@@ -1,5 +1,5 @@
 {
-  "v": "7.7.5",
+  "v": "8.0.1",
   "p": {
     "background": "#20252e",
     "autoAdjustIndex": true,
@@ -12,12 +12,13 @@
     "fitContent": false,
     "zoomable": false,
     "rectSelectable": false,
-    "pannable": false
+    "pannable": false,
+    "_professional": false
   },
   "d": [
     {
       "c": "ht.Node",
-      "i": 29388,
+      "i": 5628618,
       "p": {
         "name": "base",
         "displayName": "底板（_base）",
@@ -37,18 +38,19 @@
         "2d.movable": false,
         "label.opacity": 0,
         "interactive": true,
-        "2d.selectable": false
+        "2d.selectable": false,
+        "label.position": 17
       }
     },
     {
       "c": "ht.Text",
-      "i": 29389,
+      "i": 5628619,
       "p": {
         "displayName": "Text（Text1）",
         "toolTip": "<p style='color:rgb(242,83,75);margin-top:5px;margin-bottom:5px;font-weight:bold;line-height:1.5em;'>已被布局，不允许拖动（shift+回车可解除）</p>",
         "tag": "Text1",
         "host": {
-          "__i": 29388
+          "__i": 5628618
         },
         "position": {
           "x": 44.52371,
@@ -59,9 +61,7 @@
       },
       "s": {
         "text": "卡片2",
-        "label.position": 14,
-        "label.offset.x": -10,
-        "label.offset.y": 0,
+        "label.position": 17,
         "label.color": "rgb(61,61,61)",
         "2d.movable": false,
         "interactive": true,
@@ -74,11 +74,11 @@
       }
     }
   ],
-  "modified": "Fri May 17 2024 23:33:16 GMT+0800 (中国标准时间)",
+  "modified": "Mon Aug 26 2024 13:22:12 GMT+0800 (中国标准时间)",
   "contentRect": {
     "x": 0,
     "y": 0.00001,
     "width": 89.04742,
-    "height": 73.37642
+    "height": 54.02876
   }
 }

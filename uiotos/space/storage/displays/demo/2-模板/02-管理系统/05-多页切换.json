@@ -1,5 +1,5 @@
 {
-  "v": "7.7.5",
+  "v": "8.0.1",
   "p": {
     "autoAdjustIndex": true,
     "hierarchicalRendering": true
@@ -11,12 +11,13 @@
     "fitContent": false,
     "zoomable": false,
     "rectSelectable": false,
-    "pannable": false
+    "pannable": false,
+    "_professional": false
   },
   "d": [
     {
       "c": "ht.Node",
-      "i": 2783810,
+      "i": 416477,
       "p": {
         "name": "base",
         "displayName": "底板（_base）",
@@ -36,16 +37,14 @@
         "2d.movable": false,
         "label.opacity": 0,
         "interactive": true,
-        "label.position": 14,
-        "label.offset.x": -10,
-        "label.offset.y": 0,
+        "label.position": 17,
         "label.color": "rgb(61,61,61)",
         "2d.selectable": false
       }
     },
     {
       "c": "ht.Node",
-      "i": 2783811,
+      "i": 416478,
       "p": {
         "name": "scroll",
         "displayName": "滚动页（scroll4）",
@@ -98,70 +97,136 @@
           }
         },
         "image": {
-          "modified": "Fri May 17 2024 15:38:11 GMT+0800 (中国标准时间)",
+          "modified": "Wed Jul 24 2024 12:53:36 GMT+0800 (中国标准时间)",
           "dataBindings": [
             {
               "attr": "symbol",
-              "valueType": "Image"
+              "valueType": "Image",
+              "name": "symbol"
             },
             {
               "attr": "display",
               "valueType": "URL",
               "defaultValue": "",
-              "group": "功能（关键）"
+              "group": "功能",
+              "name": "display"
+            },
+            {
+              "attr": "displayJson",
+              "valueType": "Multiline",
+              "extraInfo": "*",
+              "name": "displayJson"
             },
             {
               "attr": "innerLayoutMode",
-              "valueType": "String",
-              "description": "内嵌页面的布局模式。\n<br>页面通常分为适配内容（fitContent）\n<br>和全屏填充（fullScreen）两种模式，\n<br>前者自适应缩放以保证所有内容窗口\n<br>范围内可见，后者则是指定某个图元\n<br>组件作为底板全屏填充，其他组件直\n<br>接或简接对于底板布局。\n<br>模式无（none）表示以上两种模式都\n<br>不是，既不缩放适配也不全屏铺满。\n<br>注意，本属性为读写，可以表示当前\n<br>页面的状态，也可以进行设置。其中\n<br>设置全屏填充时，自动选择最底层图\n<br>元组件作为底板。新建页面默认为基\n<br>于有底板的全屏填充布局，而非缩放。\n",
+              "valueType": "InnerLayoutMode",
+              "description": "",
+              "defaultValue": "none",
+              "name": "innerLayoutMode"
+            },
+            {
+              "attr": "onPostDeserialize",
+              "valueType": "Function",
               "extraInfo": {
-                "enum": {
-                  "values": [
-                    "fitContent",
-                    "fullScreen",
-                    "none"
-                  ]
-                }
-              }
+                "arguments": [
+                  "json",
+                  "dm",
+                  "gv",
+                  "datas"
+                ],
+                "classify": "*"
+              },
+              "name": "onPostDeserialize"
+            },
+            {
+              "attr": "useInnerEventsAll",
+              "valueType": "Boolean",
+              "description": "",
+              "extraInfo": "*",
+              "name": "useInnerEventsAll"
+            },
+            {
+              "attr": "isLoadingGet",
+              "valueType": "Boolean",
+              "description": "",
+              "extraInfo": "★",
+              "name": "isLoadingGet"
+            },
+            {
+              "attr": "enableLoading",
+              "valueType": "Boolean",
+              "defaultValue": false,
+              "description": "",
+              "extraInfo": "*",
+              "name": "enableLoading"
+            },
+            {
+              "attr": "pureFormValues",
+              "valueType": "Boolean",
+              "defaultValue": false,
+              "name": "pureFormValues"
+            },
+            {
+              "attr": "contentMinWidth",
+              "valueType": "PositiveNumber",
+              "defaultValue": 0,
+              "extraInfo": "★",
+              "description": "当容器显示尺寸的宽度小于本属性设置\n<br>的最小宽度，内嵌页内容就会出现水平滚动条。<a href='https://www.yuque.com/liuhuo-nc809/uiotos/uta20ga5uu55wvqw#bDLBW' style=\"color:rgb(96,172,252)\" target='_blank'>详情</a>",
+              "name": "contentMinWidth"
+            },
+            {
+              "attr": "autoFillMinWidth",
+              "valueType": "Boolean",
+              "defaultValue": true,
+              "extraInfo": "★",
+              "name": "autoFillMinWidth"
+            },
+            {
+              "attr": "initCallback",
+              "valueType": "Function",
+              "description": "页面文件加载初始化完毕后回调。<a href='https://www.yuque.com/liuhuo-nc809/uiotos/uta20ga5uu55wvqw#cJxYM' style=\"color:rgb(96,172,252)\" target='_blank'>详情</a>",
+              "extraInfo": {
+                "arguments": [
+                  "data",
+                  "innerGv"
+                ],
+                "classify": "*"
+              },
+              "name": "initCallback"
+            },
+            {
+              "attr": "userData",
+              "valueType": "Object",
+              "defaultValue": [],
+              "name": "userData"
             },
             {
               "attr": "onDisplayLoaded",
               "valueType": "Function",
-              "description": "所有内嵌页面逐层加载完毕后回调（注意，作为顶层页面时才会触发）。",
+              "description": "",
               "extraInfo": {
                 "arguments": [
                   "data",
                   "gv",
                   "cache"
                 ]
-              }
+              },
+              "name": "onDisplayLoaded"
             },
             {
-              "attr": "initCallback",
+              "attr": "onScrollEnded",
               "valueType": "Function",
-              "description": "页面文件加载初始化完毕后的回调，\n<br>注意，不包括渲染元素、内嵌页面\n<br>的加载（参见onDisplayLoaded）。\n<br>参数innerGv为内嵌页面的graphView。",
               "extraInfo": {
                 "arguments": [
                   "data",
-                  "innerGv"
+                  "gv",
+                  "cache",
+                  "value",
+                  "extra"
                 ]
-              }
-            },
-            {
-              "attr": "reset",
-              "valueType": "Level2",
-              "defaultValue": 0
-            },
-            {
-              "attr": "isLoadingGet",
-              "valueType": "Boolean",
-              "description": "是否正在加载。\n<br>正常加载完成后，该属性为false，\n<br>加载未完成时为true。"
-            },
-            {
-              "attr": "enableLoading",
-              "valueType": "Boolean",
-              "defaultValue": false,
-              "description": "是否启动加载过渡动画。注意，勾选后，如果资源不存在，可能会导致卡死，过渡动画一直存在。"
+              },
+              "description": "当滚动结束时对外触发。",
+              "name": "onScrollEnded"
             },
             {
               "attr": "shadowBorder",
@@ -170,49 +235,55 @@
                 0,
                 0,
                 8
-              ]
+              ],
+              "group": "外观",
+              "extraInfo": "*",
+              "name": "shadowBorder"
             },
             {
               "attr": "shadowColor",
               "valueType": "Color",
-              "defaultValue": "rgba(55,125,255,0.50)"
+              "defaultValue": "rgba(55,125,255,0.50)",
+              "extraInfo": "*",
+              "name": "shadowColor"
             },
             {
               "attr": "shadowEnabled",
               "valueType": "Boolean",
-              "defaultValue": true
+              "defaultValue": true,
+              "name": "shadowEnabled"
             },
             {
-              "attr": "contentMinWidth",
-              "valueType": "PositiveNumber",
-              "defaultValue": 0
-            },
-            {
-              "attr": "autoFillMinWidth",
-              "valueType": "Boolean",
-              "defaultValue": true
+              "attr": "innerBackground",
+              "valueType": "Color",
+              "name": "innerBackground"
             },
             {
               "attr": "bindControlsTag",
               "valueType": "StringArray",
-              "group": "bindControls"
+              "group": "连线",
+              "name": "bindControlsTag"
             },
             {
               "attr": "bindControlsAttr",
-              "valueType": "StringArray"
+              "valueType": "StringArray",
+              "name": "bindControlsAttr"
             },
             {
               "attr": "bindControlsVal",
               "valueType": "ObjectArray",
-              "description": "静态值。也用作数组索引、JSON对象解析提取值用途。\n<br>一、静态值用途：\n<br>对常规类型的属性赋值且没有反向关联属性值，传入为数值时，不\n<br>会作为数组的索引，而会当成常量值对外赋值。此外，存在特殊值：\n<br>~和undefined表示过滤、不触发；null为默认值，表示传递默认表\n<br>单数据。编辑状态下清空后保存与设置null等价。\n<br>二、数组索引用途\n<br>情况1：被操作的组件属性原先值是数组时（包括空数组），会将\n<br>待输出的值作为被操作数组指定索引的值来传入，而不是整体覆盖。\n<br>情况2：如果要被操作的组件属性原先值不是数组，而且待输出的\n<br>值为数组类型并且长度也在索引范围内，那么会按照索引取自身数\n<br>组指定元素再对外输出。（如果想要取待输出索引值，赋值给被操\n<br>纵属性的指定索引，那么需要中间组件属性连线过渡以下，无法直\n<br>接操作）\n<br>情况3：如果要被操作的组件属性是数组，而且待输出的值也是数组\n<br>类型，此时当情况1来处理。\n<br>三、数据解析用途：\n<br>待输出的值为JSON对象时，用x.y.z这种以字符.或者>为间隔的方式\n<br>实现对JSON字段层次逐层定位，当是数组时x.0.y.1这种以数字的方\n<br>式来指定数组的某个索引。以此实现对任意结果JSON对象字段的定\n<br>位，获取结构内指定字段对应的值。"
+              "description": "",
+              "name": "bindControlsVal"
             },
             {
               "attr": "paramControlTag",
-              "valueType": "StringArray"
+              "valueType": "StringArray",
+              "name": "paramControlTag"
             },
             {
               "attr": "paramControlAttr",
-              "valueType": "StringArray"
+              "valueType": "StringArray",
+              "name": "paramControlAttr"
             },
             {
               "attr": "paramsGenerator",
@@ -228,37 +299,20 @@
                   "form",
                   "type",
                   "inner"
-                ]
-              }
+                ],
+                "classify": "*"
+              },
+              "name": "paramsGenerator"
             },
             {
               "attr": "useAttrCORS",
               "valueType": "Boolean",
+              "extraInfo": "*",
               "defaultValue": false,
-              "description": "属性同源操作。\n                连线操作传递是否限定双方。比如有A/B/C/D/O五个组件，连线操作关系：\n                A→O、B→O、C→O、D→O，以及O→A、O→B、O→C、O→D，总结为\n                A、B、C、D分别与O有往返操作。\n                默认不勾选该属性时，A到D任何一个向O的连线操作，都不会影响到O自身\n                对A到D的下一步操作。勾选了该属性后，那么每次相邻的两次连线交互，\n                则会有同源选择性，比如A→O，下一步则O之会选择到A的操作即O→A。\n                同源操作通常用户多个组件共用一个配置弹窗的情况，比如上述A、B、C、D\n                相当于是四个同类型的组件，而O是公共的属性配置窗口，任何一个比如A点\n                击，可通过O弹窗显示属性，然后修改后将属性值回写到A，且并不会将值给\n                到其他几个组件，即便有连线在。\n                同源操作规则：当连线满足A/B→O.x，且有O.x→A/B时，即前一次组件A连线\n                操作O的x属性，那么，O对外触发且关联x属性值对外时，勾选了本属性同源\n                属性操作的前提下，将只会执行O.x→A，而忽略O.x→B/C等其他非A的图元组\n                件的连线操作。",
+              "description": "连线操作和处理回写是否一致。\n                        比如多个文本框连线传值给相同对话框，弹窗修改\n                        后是否限定只能写到最新赋值过来的文本框。详见<a href='https://www.yuque.com/liuhuo-nc809/uiotos/fgi6dd7gado51acm#fFUbp' style=\"color:rgb(96,172,252)\"target=\"_blank\">同源属性操作</a>",
+              "bindIgnored": true,
+              "name": "useAttrCORS",
               "dynamicCreate": true
-            },
-            {
-              "attr": "useInnerEventsAll",
-              "valueType": "Boolean",
-              "description": "是否放行内嵌页面的全部事件。\n<br>若勾选，内嵌图元表单类型的事件函数属性，都将派发到\n<br>上层容器图元对外触发连线操作。默认不勾选，上层容器\n<br>图元对外连线反向关联需要指定内嵌图元的具体事件函数\n<br>属性才能触发，否则忽略内嵌图元的事件触发，不会传递\n<br>给上层容器图元对外连线操作。"
-            },
-            {
-              "attr": "onScrollEnded",
-              "valueType": "Function",
-              "extraInfo": {
-                "arguments": [
-                  "data",
-                  "gv",
-                  "cache",
-                  "value",
-                  "extra"
-                ]
-              }
-            },
-            {
-              "attr": "userData",
-              "valueType": "ObjectArray"
             },
             {
               "attr": "左上角>0>_base>s:label",
@@ -275,10 +329,10 @@
           "height": 600,
           "pixelPerfect": false,
           "comps": [],
-          "uuid": "5AD700B2-2993-4E48-AD9A-548C3A066DD9"
+          "uuid": "731F8B8F-9179-45DA-8366-F534A28C1ABF"
         },
         "host": {
-          "__i": 2783810
+          "__i": 416477
         },
         "position": {
           "x": -717.25514,
@@ -302,7 +356,7 @@
         "layout.v": "top"
       },
       "a": {
-        "symbol": "symbols/develop/uiotos/base/scrollAreaView-ui.json",
+        "symbol": "symbols/develop/uiotos/arranged/controls/containers/滚动页.json",
         "display": "./01-宽高自适应/左上角.json",
         "__loadingStatus": false,
         "isLoadingGet": false,
@@ -314,12 +368,13 @@
         "bindControlsAttr": [],
         "bindControlsVal": [],
         "shadowEnabled": false,
-        "左上角>0>_base>s:label": "LOGO区域"
+        "左上角>0>_base>s:label": "LOGO区域",
+        "innerBackground": "rgb(0,33,64)"
       }
     },
     {
       "c": "ht.Node",
-      "i": 2783812,
+      "i": 416479,
       "p": {
         "name": "scroll",
         "displayName": "滚动页（scroll5）",
@@ -366,70 +421,136 @@
           }
         },
         "image": {
-          "modified": "Fri May 17 2024 15:38:11 GMT+0800 (中国标准时间)",
+          "modified": "Wed Jul 24 2024 12:53:36 GMT+0800 (中国标准时间)",
           "dataBindings": [
             {
               "attr": "symbol",
-              "valueType": "Image"
+              "valueType": "Image",
+              "name": "symbol"
             },
             {
               "attr": "display",
               "valueType": "URL",
               "defaultValue": "",
-              "group": "功能（关键）"
+              "group": "功能",
+              "name": "display"
+            },
+            {
+              "attr": "displayJson",
+              "valueType": "Multiline",
+              "extraInfo": "*",
+              "name": "displayJson"
             },
             {
               "attr": "innerLayoutMode",
-              "valueType": "String",
-              "description": "内嵌页面的布局模式。\n<br>页面通常分为适配内容（fitContent）\n<br>和全屏填充（fullScreen）两种模式，\n<br>前者自适应缩放以保证所有内容窗口\n<br>范围内可见，后者则是指定某个图元\n<br>组件作为底板全屏填充，其他组件直\n<br>接或简接对于底板布局。\n<br>模式无（none）表示以上两种模式都\n<br>不是，既不缩放适配也不全屏铺满。\n<br>注意，本属性为读写，可以表示当前\n<br>页面的状态，也可以进行设置。其中\n<br>设置全屏填充时，自动选择最底层图\n<br>元组件作为底板。新建页面默认为基\n<br>于有底板的全屏填充布局，而非缩放。\n",
+              "valueType": "InnerLayoutMode",
+              "description": "",
+              "defaultValue": "none",
+              "name": "innerLayoutMode"
+            },
+            {
+              "attr": "onPostDeserialize",
+              "valueType": "Function",
               "extraInfo": {
-                "enum": {
-                  "values": [
-                    "fitContent",
-                    "fullScreen",
-                    "none"
-                  ]
-                }
-              }
+                "arguments": [
+                  "json",
+                  "dm",
+                  "gv",
+                  "datas"
+                ],
+                "classify": "*"
+              },
+              "name": "onPostDeserialize"
+            },
+            {
+              "attr": "useInnerEventsAll",
+              "valueType": "Boolean",
+              "description": "",
+              "extraInfo": "*",
+              "name": "useInnerEventsAll"
+            },
+            {
+              "attr": "isLoadingGet",
+              "valueType": "Boolean",
+              "description": "",
+              "extraInfo": "★",
+              "name": "isLoadingGet"
+            },
+            {
+              "attr": "enableLoading",
+              "valueType": "Boolean",
+              "defaultValue": false,
+              "description": "",
+              "extraInfo": "*",
+              "name": "enableLoading"
+            },
+            {
+              "attr": "pureFormValues",
+              "valueType": "Boolean",
+              "defaultValue": false,
+              "name": "pureFormValues"
+            },
+            {
+              "attr": "contentMinWidth",
+              "valueType": "PositiveNumber",
+              "defaultValue": 0,
+              "extraInfo": "★",
+              "description": "当容器显示尺寸的宽度小于本属性设置\n<br>的最小宽度，内嵌页内容就会出现水平滚动条。<a href='https://www.yuque.com/liuhuo-nc809/uiotos/uta20ga5uu55wvqw#bDLBW' style=\"color:rgb(96,172,252)\" target='_blank'>详情</a>",
+              "name": "contentMinWidth"
+            },
+            {
+              "attr": "autoFillMinWidth",
+              "valueType": "Boolean",
+              "defaultValue": true,
+              "extraInfo": "★",
+              "name": "autoFillMinWidth"
+            },
+            {
+              "attr": "initCallback",
+              "valueType": "Function",
+              "description": "页面文件加载初始化完毕后回调。<a href='https://www.yuque.com/liuhuo-nc809/uiotos/uta20ga5uu55wvqw#cJxYM' style=\"color:rgb(96,172,252)\" target='_blank'>详情</a>",
+              "extraInfo": {
+                "arguments": [
+                  "data",
+                  "innerGv"
+                ],
+                "classify": "*"
+              },
+              "name": "initCallback"
+            },
+            {
+              "attr": "userData",
+              "valueType": "Object",
+              "defaultValue": [],
+              "name": "userData"
             },
             {
               "attr": "onDisplayLoaded",
               "valueType": "Function",
-              "description": "所有内嵌页面逐层加载完毕后回调（注意，作为顶层页面时才会触发）。",
+              "description": "",
               "extraInfo": {
                 "arguments": [
                   "data",
                   "gv",
                   "cache"
                 ]
-              }
+              },
+              "name": "onDisplayLoaded"
             },
             {
-              "attr": "initCallback",
+              "attr": "onScrollEnded",
               "valueType": "Function",
-              "description": "页面文件加载初始化完毕后的回调，\n<br>注意，不包括渲染元素、内嵌页面\n<br>的加载（参见onDisplayLoaded）。\n<br>参数innerGv为内嵌页面的graphView。",
               "extraInfo": {
                 "arguments": [
                   "data",
-                  "innerGv"
+                  "gv",
+                  "cache",
+                  "value",
+                  "extra"
                 ]
-              }
-            },
-            {
-              "attr": "reset",
-              "valueType": "Level2",
-              "defaultValue": 0
-            },
-            {
-              "attr": "isLoadingGet",
-              "valueType": "Boolean",
-              "description": "是否正在加载。\n<br>正常加载完成后，该属性为false，\n<br>加载未完成时为true。"
-            },
-            {
-              "attr": "enableLoading",
-              "valueType": "Boolean",
-              "defaultValue": false,
-              "description": "是否启动加载过渡动画。注意，勾选后，如果资源不存在，可能会导致卡死，过渡动画一直存在。"
+              },
+              "description": "当滚动结束时对外触发。",
+              "name": "onScrollEnded"
             },
             {
               "attr": "shadowBorder",
@@ -438,49 +559,55 @@
                 0,
                 0,
                 8
-              ]
+              ],
+              "group": "外观",
+              "extraInfo": "*",
+              "name": "shadowBorder"
             },
             {
               "attr": "shadowColor",
               "valueType": "Color",
-              "defaultValue": "rgba(55,125,255,0.50)"
+              "defaultValue": "rgba(55,125,255,0.50)",
+              "extraInfo": "*",
+              "name": "shadowColor"
             },
             {
               "attr": "shadowEnabled",
               "valueType": "Boolean",
-              "defaultValue": true
+              "defaultValue": true,
+              "name": "shadowEnabled"
             },
             {
-              "attr": "contentMinWidth",
-              "valueType": "PositiveNumber",
-              "defaultValue": 0
-            },
-            {
-              "attr": "autoFillMinWidth",
-              "valueType": "Boolean",
-              "defaultValue": true
+              "attr": "innerBackground",
+              "valueType": "Color",
+              "name": "innerBackground"
             },
             {
               "attr": "bindControlsTag",
               "valueType": "StringArray",
-              "group": "bindControls"
+              "group": "连线",
+              "name": "bindControlsTag"
             },
             {
               "attr": "bindControlsAttr",
-              "valueType": "StringArray"
+              "valueType": "StringArray",
+              "name": "bindControlsAttr"
             },
             {
               "attr": "bindControlsVal",
               "valueType": "ObjectArray",
-              "description": "静态值。也用作数组索引、JSON对象解析提取值用途。\n<br>一、静态值用途：\n<br>对常规类型的属性赋值且没有反向关联属性值，传入为数值时，不\n<br>会作为数组的索引，而会当成常量值对外赋值。此外，存在特殊值：\n<br>~和undefined表示过滤、不触发；null为默认值，表示传递默认表\n<br>单数据。编辑状态下清空后保存与设置null等价。\n<br>二、数组索引用途\n<br>情况1：被操作的组件属性原先值是数组时（包括空数组），会将\n<br>待输出的值作为被操作数组指定索引的值来传入，而不是整体覆盖。\n<br>情况2：如果要被操作的组件属性原先值不是数组，而且待输出的\n<br>值为数组类型并且长度也在索引范围内，那么会按照索引取自身数\n<br>组指定元素再对外输出。（如果想要取待输出索引值，赋值给被操\n<br>纵属性的指定索引，那么需要中间组件属性连线过渡以下，无法直\n<br>接操作）\n<br>情况3：如果要被操作的组件属性是数组，而且待输出的值也是数组\n<br>类型，此时当情况1来处理。\n<br>三、数据解析用途：\n<br>待输出的值为JSON对象时，用x.y.z这种以字符.或者>为间隔的方式\n<br>实现对JSON字段层次逐层定位，当是数组时x.0.y.1这种以数字的方\n<br>式来指定数组的某个索引。以此实现对任意结果JSON对象字段的定\n<br>位，获取结构内指定字段对应的值。"
+              "description": "",
+              "name": "bindControlsVal"
             },
             {
               "attr": "paramControlTag",
-              "valueType": "StringArray"
+              "valueType": "StringArray",
+              "name": "paramControlTag"
             },
             {
               "attr": "paramControlAttr",
-              "valueType": "StringArray"
+              "valueType": "StringArray",
+              "name": "paramControlAttr"
             },
             {
               "attr": "paramsGenerator",
@@ -496,37 +623,20 @@
                   "form",
                   "type",
                   "inner"
-                ]
-              }
+                ],
+                "classify": "*"
+              },
+              "name": "paramsGenerator"
             },
             {
               "attr": "useAttrCORS",
               "valueType": "Boolean",
+              "extraInfo": "*",
               "defaultValue": false,
-              "description": "属性同源操作。\n                连线操作传递是否限定双方。比如有A/B/C/D/O五个组件，连线操作关系：\n                A→O、B→O、C→O、D→O，以及O→A、O→B、O→C、O→D，总结为\n                A、B、C、D分别与O有往返操作。\n                默认不勾选该属性时，A到D任何一个向O的连线操作，都不会影响到O自身\n                对A到D的下一步操作。勾选了该属性后，那么每次相邻的两次连线交互，\n                则会有同源选择性，比如A→O，下一步则O之会选择到A的操作即O→A。\n                同源操作通常用户多个组件共用一个配置弹窗的情况，比如上述A、B、C、D\n                相当于是四个同类型的组件，而O是公共的属性配置窗口，任何一个比如A点\n                击，可通过O弹窗显示属性，然后修改后将属性值回写到A，且并不会将值给\n                到其他几个组件，即便有连线在。\n                同源操作规则：当连线满足A/B→O.x，且有O.x→A/B时，即前一次组件A连线\n                操作O的x属性，那么，O对外触发且关联x属性值对外时，勾选了本属性同源\n                属性操作的前提下，将只会执行O.x→A，而忽略O.x→B/C等其他非A的图元组\n                件的连线操作。",
+              "description": "连线操作和处理回写是否一致。\n                        比如多个文本框连线传值给相同对话框，弹窗修改\n                        后是否限定只能写到最新赋值过来的文本框。详见<a href='https://www.yuque.com/liuhuo-nc809/uiotos/fgi6dd7gado51acm#fFUbp' style=\"color:rgb(96,172,252)\"target=\"_blank\">同源属性操作</a>",
+              "bindIgnored": true,
+              "name": "useAttrCORS",
               "dynamicCreate": true
-            },
-            {
-              "attr": "useInnerEventsAll",
-              "valueType": "Boolean",
-              "description": "是否放行内嵌页面的全部事件。\n<br>若勾选，内嵌图元表单类型的事件函数属性，都将派发到\n<br>上层容器图元对外触发连线操作。默认不勾选，上层容器\n<br>图元对外连线反向关联需要指定内嵌图元的具体事件函数\n<br>属性才能触发，否则忽略内嵌图元的事件触发，不会传递\n<br>给上层容器图元对外连线操作。"
-            },
-            {
-              "attr": "onScrollEnded",
-              "valueType": "Function",
-              "extraInfo": {
-                "arguments": [
-                  "data",
-                  "gv",
-                  "cache",
-                  "value",
-                  "extra"
-                ]
-              }
-            },
-            {
-              "attr": "userData",
-              "valueType": "ObjectArray"
             }
           ],
           "snapshotURL": "symbols/develop/uiotos/arranged/controls/containers_icon/滚动页.json",
@@ -535,10 +645,10 @@
           "height": 600,
           "pixelPerfect": false,
           "comps": [],
-          "uuid": "5AD700B2-2993-4E48-AD9A-548C3A066DD9"
+          "uuid": "731F8B8F-9179-45DA-8366-F534A28C1ABF"
         },
         "host": {
-          "__i": 2783810
+          "__i": 416477
         },
         "position": {
           "x": 149.36888,
@@ -562,7 +672,7 @@
         "layout.v": "top"
       },
       "a": {
-        "symbol": "symbols/develop/uiotos/base/scrollAreaView-ui.json",
+        "symbol": "symbols/develop/uiotos/arranged/controls/containers/滚动页.json",
         "display": "./01-宽高自适应/右上角.json",
         "__loadingStatus": false,
         "isLoadingGet": false,
@@ -573,12 +683,13 @@
         "bindControlsTag": [],
         "bindControlsAttr": [],
         "bindControlsVal": [],
-        "shadowEnabled": false
+        "shadowEnabled": false,
+        "innerBackground": "rgb(0,21,41)"
       }
     },
     {
       "c": "ht.Node",
-      "i": 2783813,
+      "i": 416480,
       "p": {
         "name": "tab",
         "displayName": "TAB页签（tab1）",
@@ -1047,64 +1158,146 @@
               "idinfo": "",
               "isTplBinded": false,
               "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "userData": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
             }
           }
         },
         "image": {
-          "modified": "Tue May 14 2024 22:29:18 GMT+0800 (中国标准时间)",
+          "modified": "Thu Jul 25 2024 11:41:10 GMT+0800 (中国标准时间)",
           "dataBindings": [
             {
               "attr": "symbol",
               "valueType": "Image",
-              "group": "功能（关键）"
+              "name": "symbol"
+            },
+            {
+              "attr": "relativePath",
+              "valueType": "URL",
+              "description": "相对路径。默认为./，通常是多个内嵌\n<br>页所在的目录。可简化多页设置。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/uta20ga5uu55wvqw#hOmdi\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+              "group": "功能",
+              "name": "relativePath"
             },
             {
               "attr": "displays",
               "valueType": "ObjectArray",
-              "description": "多页地址。\n<br>tab页签按照顺序多页。注意，参考相对路径\n<br>（relativePath），并且可以省去.json后缀。\n<br>因此，当相对路径指向多页共同所在目录后，\n<br>当前属性只需要依次填入各个内嵌页面的名\n<br>称即可。"
+              "description": "结合相对路径，设置多页地址。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/uta20ga5uu55wvqw#NdbDk\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+              "name": "displays"
             },
             {
               "attr": "display",
               "valueType": "URL",
               "defaultValue": "",
-              "description": "当前Tab页签内嵌页。\n<br>绝对路径（URL），通常是只读，具体各个页签\n<br>配置由相对路径属性（relativePath）和多页地址\n<br>属性（displays）来配置。\n<br>确定当前索引（index）时，当前页属性（display）\n<br>会动态展示页面的绝对路径。\n<br>在编辑配置时，页可以设置页面的绝对路径，回车\n<br>时会自动添加到多页地址属性（displays）中。"
+              "description": "当前显示的内嵌页地址。通常只读，\n<br>也可编辑时连续输入，以设置多页路径。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/uta20ga5uu55wvqw#C5SC9\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+              "name": "display"
+            },
+            {
+              "attr": "index",
+              "valueType": "PositiveNumber",
+              "defaultValue": 0,
+              "description": "切换显示的指定内嵌页索引。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/uta20ga5uu55wvqw#mgZ50\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+              "name": "index"
             },
             {
               "attr": "innerLayoutMode",
-              "valueType": "String",
-              "defaultValue": "",
-              "description": "内嵌页面的布局模式。\n<br>页面通常分为适配内容（fitContent）\n<br>和全屏填充（fullScreen）两种模式，\n<br>前者自适应缩放以保证所有内容窗口\n<br>范围内可见，后者则是指定某个图元\n<br>组件作为底板全屏填充，其他组件直\n<br>接或简接对于底板布局。模式none\n<br>表示未设定，取决于内嵌的布局模式，\n<br>并且将内嵌模式回写设置过来，相当\n<br>于只读。\n<br>注意，本属性起到读写作用，可以表\n<br>示当前页面的状态，也可以进行设置。\n<br>none为只读，fullScreen/fitContent\n<br>为可读写。\n<br>其中设置全屏填充fullScreen时，自动\n<br>选择最底层图元组件作为底板。新建页\n<br>面默认为基于有底板的全屏填充布局，\n<br>而非缩放。\n",
-              "extraInfo": {
-                "enum": {
-                  "values": [
-                    "fitContent",
-                    "fullScreen",
-                    "none"
-                  ]
-                }
-              }
+              "valueType": "InnerLayoutMode",
+              "defaultValue": "none",
+              "description": "",
+              "name": "innerLayoutMode"
             },
             {
               "attr": "onPostDeserialize",
-              "valueType": "Function"
+              "valueType": "Function",
+              "description": "",
+              "extraInfo": {
+                "arguments": [
+                  "json",
+                  "dm",
+                  "gv",
+                  "datas"
+                ],
+                "classify": "*"
+              },
+              "name": "onPostDeserialize"
+            },
+            {
+              "attr": "useOriginSize",
+              "valueType": "Boolean",
+              "defaultValue": false,
+              "extraInfo": "★",
+              "name": "useOriginSize"
+            },
+            {
+              "attr": "useInnerEventsAll",
+              "valueType": "Boolean",
+              "description": "",
+              "extraInfo": "*",
+              "name": "useInnerEventsAll"
+            },
+            {
+              "attr": "isLoadingGet",
+              "valueType": "Boolean",
+              "defaultValue": true,
+              "description": "",
+              "extraInfo": "★",
+              "name": "isLoadingGet"
+            },
+            {
+              "attr": "enableLoading",
+              "valueType": "Boolean",
+              "defaultValue": false,
+              "extraInfo": "*",
+              "name": "enableLoading"
+            },
+            {
+              "attr": "pureFormValues",
+              "valueType": "Boolean",
+              "name": "pureFormValues"
+            },
+            {
+              "attr": "initialTrigger",
+              "valueType": "Boolean",
+              "defaultValue": false,
+              "extraInfo": "*",
+              "name": "initialTrigger"
+            },
+            {
+              "attr": "userData",
+              "valueType": "Object",
+              "defaultValue": [],
+              "name": "userData"
             },
             {
               "attr": "onDisplayLoaded",
               "valueType": "Function",
-              "description": "所有内嵌页面逐层加载完毕后回调（注意，作为顶层页面时才会触发）。",
+              "description": "",
               "extraInfo": {
                 "arguments": [
                   "data",
                   "gv",
                   "cache"
                 ]
-              }
+              },
+              "name": "onDisplayLoaded"
             },
             {
-              "attr": "isLoadingGet",
-              "valueType": "Boolean",
-              "defaultValue": false,
-              "description": "是否正在加载。\n<br>只读，当正在通过display属性逐层加载内嵌页直到完全加载完毕前，\n<br>该属性值为1，加载完毕后，复位为0."
+              "attr": "onChange",
+              "valueType": "Function",
+              "extraInfo": {
+                "arguments": [
+                  "data",
+                  "gv",
+                  "cache",
+                  "value",
+                  "extra"
+                ]
+              },
+              "description": "当前索引（index）发生变化时触发，即页面切换时。",
+              "name": "onChange"
             },
             {
               "attr": "shadowBorder",
@@ -1113,63 +1306,53 @@
                 0,
                 0,
                 8
-              ]
+              ],
+              "group": "外观",
+              "name": "shadowBorder"
             },
             {
               "attr": "shadowColor",
               "valueType": "Color",
-              "defaultValue": "rgba(55,125,255,0.50)"
+              "defaultValue": "rgba(55,125,255,0.50)",
+              "name": "shadowColor"
             },
             {
               "attr": "shadowEnabled",
               "valueType": "Boolean",
-              "defaultValue": true
+              "defaultValue": true,
+              "name": "shadowEnabled"
             },
             {
               "attr": "innerBackground",
               "valueType": "Color",
-              "defaultValue": "rgb(255,255,255)"
-            },
-            {
-              "attr": "index",
-              "valueType": "PositiveNumber",
-              "defaultValue": 0
-            },
-            {
-              "attr": "useOriginSize",
-              "valueType": "Boolean",
-              "defaultValue": false
-            },
-            {
-              "attr": "initialTrigger",
-              "valueType": "Boolean",
-              "defaultValue": false
-            },
-            {
-              "attr": "relativePath",
-              "valueType": "URL"
+              "name": "innerBackground"
             },
             {
               "attr": "bindControlsTag",
               "valueType": "StringArray",
-              "group": "bindControls"
+              "group": "连线",
+              "name": "bindControlsTag"
             },
             {
               "attr": "bindControlsAttr",
-              "valueType": "ObjectArray"
+              "valueType": "ObjectArray",
+              "name": "bindControlsAttr"
             },
             {
               "attr": "bindControlsVal",
               "valueType": "ObjectArray",
-              "description": "静态值。也用作数组索引、JSON对象解析提取值用途。\n<br>一、静态值用途：\n<br>对常规类型的属性赋值且没有反向关联属性值，传入为数值时，不\n<br>会作为数组的索引，而会当成常量值对外赋值。此外，存在特殊值：\n<br>~和undefined表示过滤、不触发；null为默认值，表示传递默认表\n<br>单数据。编辑状态下清空后保存与设置null等价。\n<br>二、数组索引用途\n<br>情况1：被操作的组件属性原先值是数组时（包括空数组），会将\n<br>待输出的值作为被操作数组指定索引的值来传入，而不是整体覆盖。\n<br>情况2：如果要被操作的组件属性原先值不是数组，而且待输出的\n<br>值为数组类型并且长度也在索引范围内，那么会按照索引取自身数\n<br>组指定元素再对外输出。（如果想要取待输出索引值，赋值给被操\n<br>纵属性的指定索引，那么需要中间组件属性连线过渡以下，无法直\n<br>接操作）\n<br>情况3：如果要被操作的组件属性是数组，而且待输出的值也是数组\n<br>类型，此时当情况1来处理。\n<br>三、数据解析用途：\n<br>待输出的值为JSON对象时，用x.y.z这种以字符.或者>为间隔的方式\n<br>实现对JSON字段层次逐层定位，当是数组时x.0.y.1这种以数字的方\n<br>式来指定数组的某个索引。以此实现对任意结果JSON对象字段的定\n<br>位，获取结构内指定字段对应的值。"
+              "description": "",
+              "name": "bindControlsVal"
             },
             {
               "attr": "paramControlTag",
-              "valueType": "StringArray"
+              "valueType": "StringArray",
+              "name": "paramControlTag"
             },
             {
               "attr": "paramControlAttr",
-              "valueType": "ObjectArray"
+              "valueType": "ObjectArray",
+              "name": "paramControlAttr"
             },
             {
               "attr": "paramsGenerator",
@@ -1185,33 +1368,20 @@
                   "form",
                   "type",
                   "inner"
-                ]
-              }
+                ],
+                "classify": "*"
+              },
+              "name": "paramsGenerator"
             },
             {
               "attr": "useAttrCORS",
               "valueType": "Boolean",
+              "extraInfo": "*",
               "defaultValue": false,
-              "description": "属性同源操作。\n                连线操作传递是否限定双方。比如有A/B/C/D/O五个组件，连线操作关系：\n                A→O、B→O、C→O、D→O，以及O→A、O→B、O→C、O→D，总结为\n                A、B、C、D分别与O有往返操作。\n                默认不勾选该属性时，A到D任何一个向O的连线操作，都不会影响到O自身\n                对A到D的下一步操作。勾选了该属性后，那么每次相邻的两次连线交互，\n                则会有同源选择性，比如A→O，下一步则O之会选择到A的操作即O→A。\n                同源操作通常用户多个组件共用一个配置弹窗的情况，比如上述A、B、C、D\n                相当于是四个同类型的组件，而O是公共的属性配置窗口，任何一个比如A点\n                击，可通过O弹窗显示属性，然后修改后将属性值回写到A，且并不会将值给\n                到其他几个组件，即便有连线在。\n                同源操作规则：当连线满足A/B→O.x，且有O.x→A/B时，即前一次组件A连线\n                操作O的x属性，那么，O对外触发且关联x属性值对外时，勾选了本属性同源\n                属性操作的前提下，将只会执行O.x→A，而忽略O.x→B/C等其他非A的图元组\n                件的连线操作。",
+              "description": "连线操作和处理回写是否一致。\n                        比如多个文本框连线传值给相同对话框，弹窗修改\n                        后是否限定只能写到最新赋值过来的文本框。详见<a href='https://www.yuque.com/liuhuo-nc809/uiotos/fgi6dd7gado51acm#fFUbp' style=\"color:rgb(96,172,252)\"target=\"_blank\">同源属性操作</a>",
+              "bindIgnored": true,
+              "name": "useAttrCORS",
               "dynamicCreate": true
-            },
-            {
-              "attr": "useInnerEventsAll",
-              "valueType": "Boolean",
-              "description": "是否允许内嵌事件通过。\n<br>若勾选，内嵌图元表单类型的事件函数属性，都将派发到上层容器图元对外触发连线操作。\n<br>默认不勾选，上层容器图元对外连线反向关联需要指定内嵌图元的具体事件函数属性才能\n<br>触发，否则忽略内嵌图元的事件触发，不会传递给上层容器图元对外连线操作。"
-            },
-            {
-              "attr": "onChange",
-              "valueType": "String",
-              "extraInfo": {
-                "arguments": [
-                  "data",
-                  "gv",
-                  "cache",
-                  "value",
-                  "extra"
-                ]
-              }
             },
             {
               "attr": "页面4>0>_base>s:shape.border.width",
@@ -1239,35 +1409,42 @@
             },
             {
               "attr": "页面4>0>txt1>a:value",
-              "name": ".value",
+              "name": ".值内容",
               "valueType": "Object",
               "defaultValue": "编辑时，双击页签组件，可打开内嵌页面列表，双击选择后可进入到内嵌页分别设计！",
+              "description": "当前值。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#qa1D8\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
               "group": "页面4>0>txt1"
             },
             {
               "attr": "页面4>0>txt1>a:instantTrigger",
-              "name": ".instantTrigger",
+              "name": ".即时触发",
               "valueType": "Boolean",
               "defaultValue": true,
+              "extraInfo": "★",
+              "description": "输入过程即时触发连线执行。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#V1qLT\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
               "group": "页面4>0>txt1"
             },
             {
               "attr": "页面4>0>txt1>a:htmlContent",
-              "name": ".htmlContent",
+              "name": ".网页格式",
               "valueType": "Boolean",
               "defaultValue": false,
+              "extraInfo": "*",
+              "description": "值内容输入html文本并加载显示。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#IvTuM\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
               "group": "页面4>0>txt1"
             },
             {
               "attr": "页面4>0>txt1>a:readOnly",
-              "name": ".readOnly",
+              "name": ".只读",
               "valueType": "Boolean",
               "defaultValue": true,
+              "extraInfo": "★",
+              "description": "是否只读。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#IvTuM\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
               "group": "页面4>0>txt1"
             },
             {
               "attr": "页面4>0>txt1>a:onChange",
-              "name": ".onChange",
+              "name": ".值改变事件",
               "valueType": "Function",
               "extraInfo": {
                 "arguments": [
@@ -1278,11 +1455,12 @@
                   "extra"
                 ]
               },
+              "description": "值改变事件。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#CJ4Rw\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
               "group": "页面4>0>txt1"
             },
             {
               "attr": "页面4>0>txt1>a:display",
-              "name": ".display",
+              "name": ".页面路径",
               "valueType": "Image",
               "defaultValue": "",
               "description": "自定义页面地址。\n                可以是编辑器中的其他页面，也可以\n                是外部网页链接地址。",
@@ -1290,7 +1468,7 @@
             },
             {
               "attr": "页面4>0>txt1>a:popDirection",
-              "name": ".popDirection",
+              "name": ".提示方向",
               "valueType": "SideDirection",
               "defaultValue": "right",
               "description": "提示显示位置。",
@@ -1298,7 +1476,7 @@
             },
             {
               "attr": "页面4>0>txt1>a:popBackground",
-              "name": ".popBackground",
+              "name": ".提示背景色",
               "valueType": "Color",
               "defaultValue": "white",
               "description": "箭头和背景色。",
@@ -1306,7 +1484,7 @@
             },
             {
               "attr": "页面4>0>txt1>a:popPadding",
-              "name": ".popPadding",
+              "name": ".提示边距",
               "valueType": "NumberArray",
               "defaultValue": [
                 2,
@@ -1319,7 +1497,7 @@
             },
             {
               "attr": "页面4>0>txt1>a:popWidth",
-              "name": ".popWidth",
+              "name": ".提示区宽度",
               "valueType": "Number",
               "defaultValue": 400,
               "description": "弹出框宽度。",
@@ -1327,7 +1505,7 @@
             },
             {
               "attr": "页面4>0>txt1>a:popHeight",
-              "name": ".popHeight",
+              "name": ".提示区高度",
               "valueType": "Number",
               "defaultValue": 300,
               "description": "弹出框高度。",
@@ -1335,7 +1513,7 @@
             },
             {
               "attr": "页面4>0>txt1>a:popBorderColor",
-              "name": ".popBorderColor",
+              "name": ".提示边框色",
               "valueType": "Color",
               "defaultValue": "rgb(51,51,51)",
               "description": "边框线颜色。\n                    注意，是设置了边框宽度非0后的边框颜色。\n                    默认边框宽度属性为0时，实际上是白色并\n                    带有箭头指示的边框。本属性不用于修改默\n                    认边框色。",
@@ -1343,7 +1521,7 @@
             },
             {
               "attr": "页面4>0>txt1>a:popBorderWidth",
-              "name": ".popBorderWidth",
+              "name": ".提示边框宽",
               "valueType": "Number",
               "defaultValue": 0,
               "description": "边框线宽度。\n                    默认值为0，此时边框默认为白色并且带有\n                    箭头指示。当设置宽度后，颜色将取边框颜\n                    色属性的设置，并且不再有箭头指示。",
@@ -1351,7 +1529,7 @@
             },
             {
               "attr": "页面4>0>txt1>a:popBorderRadius",
-              "name": ".popBorderRadius",
+              "name": ".提示圆角",
               "valueType": "Number",
               "defaultValue": 0,
               "description": "边框线圆角。\n                    设置圆角线后，如果此前默认是白色边框带有\n                    指示箭头，那么将自动不可见，只对内容区域\n                    产生圆角。",
@@ -1359,7 +1537,7 @@
             },
             {
               "attr": "页面4>0>txt1>a:popTriggerEvent",
-              "name": ".popTriggerEvent",
+              "name": ".提示触发事件",
               "valueType": "MouseEvent",
               "defaultValue": "hover",
               "description": "触发方式。\n                支持鼠标移入、点击（按钮时）\n                两种触发提示的方式。",
@@ -1391,35 +1569,35 @@
             },
             {
               "attr": "页面1>0>txt1>a:value",
-              "name": ".value",
+              "name": ".值内容",
               "valueType": "Object",
               "defaultValue": "欢迎使用Tab页签组件！",
               "group": "页面1>0>txt1"
             },
             {
               "attr": "页面1>0>txt1>a:instantTrigger",
-              "name": ".instantTrigger",
+              "name": ".即时触发",
               "valueType": "Boolean",
               "defaultValue": true,
               "group": "页面1>0>txt1"
             },
             {
               "attr": "页面1>0>txt1>a:htmlContent",
-              "name": ".htmlContent",
+              "name": ".网页格式",
               "valueType": "Boolean",
               "defaultValue": false,
               "group": "页面1>0>txt1"
             },
             {
               "attr": "页面1>0>txt1>a:readOnly",
-              "name": ".readOnly",
+              "name": ".只读",
               "valueType": "Boolean",
               "defaultValue": true,
               "group": "页面1>0>txt1"
             },
             {
               "attr": "页面1>0>txt1>a:onChange",
-              "name": ".onChange",
+              "name": ".值改变事件",
               "valueType": "Function",
               "extraInfo": {
                 "arguments": [
@@ -1434,7 +1612,7 @@
             },
             {
               "attr": "页面1>0>txt1>a:display",
-              "name": ".display",
+              "name": ".页面路径",
               "valueType": "Image",
               "defaultValue": "",
               "description": "自定义页面地址。\n                可以是编辑器中的其他页面，也可以\n                是外部网页链接地址。",
@@ -1442,7 +1620,7 @@
             },
             {
               "attr": "页面1>0>txt1>a:popDirection",
-              "name": ".popDirection",
+              "name": ".提示方向",
               "valueType": "SideDirection",
               "defaultValue": "right",
               "description": "提示显示位置。",
@@ -1450,7 +1628,7 @@
             },
             {
               "attr": "页面1>0>txt1>a:popBackground",
-              "name": ".popBackground",
+              "name": ".提示背景色",
               "valueType": "Color",
               "defaultValue": "white",
               "description": "箭头和背景色。",
@@ -1458,7 +1636,7 @@
             },
             {
               "attr": "页面1>0>txt1>a:popPadding",
-              "name": ".popPadding",
+              "name": ".四周边距",
               "valueType": "NumberArray",
               "defaultValue": [
                 2,
@@ -1471,7 +1649,7 @@
             },
             {
               "attr": "页面1>0>txt1>a:popWidth",
-              "name": ".popWidth",
+              "name": ".提示区宽度",
               "valueType": "Number",
               "defaultValue": 400,
               "description": "弹出框宽度。",
@@ -1479,7 +1657,7 @@
             },
             {
               "attr": "页面1>0>txt1>a:popHeight",
-              "name": ".popHeight",
+              "name": ".提示区高度",
               "valueType": "Number",
               "defaultValue": 300,
               "description": "弹出框高度。",
@@ -1487,7 +1665,7 @@
             },
             {
               "attr": "页面1>0>txt1>a:popBorderColor",
-              "name": ".popBorderColor",
+              "name": ".提示边框色",
               "valueType": "Color",
               "defaultValue": "rgb(51,51,51)",
               "description": "边框线颜色。\n                    注意，是设置了边框宽度非0后的边框颜色。\n                    默认边框宽度属性为0时，实际上是白色并\n                    带有箭头指示的边框。本属性不用于修改默\n                    认边框色。",
@@ -1495,7 +1673,7 @@
             },
             {
               "attr": "页面1>0>txt1>a:popBorderWidth",
-              "name": ".popBorderWidth",
+              "name": ".提示边框宽",
               "valueType": "Number",
               "defaultValue": 0,
               "description": "边框线宽度。\n                    默认值为0，此时边框默认为白色并且带有\n                    箭头指示。当设置宽度后，颜色将取边框颜\n                    色属性的设置，并且不再有箭头指示。",
@@ -1503,7 +1681,7 @@
             },
             {
               "attr": "页面1>0>txt1>a:popBorderRadius",
-              "name": ".popBorderRadius",
+              "name": ".提示圆角",
               "valueType": "Number",
               "defaultValue": 0,
               "description": "边框线圆角。\n                    设置圆角线后，如果此前默认是白色边框带有\n                    指示箭头，那么将自动不可见，只对内容区域\n                    产生圆角。",
@@ -1511,7 +1689,7 @@
             },
             {
               "attr": "页面1>0>txt1>a:popTriggerEvent",
-              "name": ".popTriggerEvent",
+              "name": ".提示触发事件",
               "valueType": "MouseEvent",
               "defaultValue": "hover",
               "description": "触发方式。\n                支持鼠标移入、点击（按钮时）\n                两种触发提示的方式。",
@@ -1543,35 +1721,42 @@
             },
             {
               "attr": "页面2>0>txt1>a:value",
-              "name": ".value",
+              "name": ".值内容",
               "valueType": "Object",
               "defaultValue": "通常配合按钮组使用：\n\n按钮组可以设置与页签数量相等的项，默认会操作同一个页面的标签为tab1的页签组件，不需要做任何关联配置。实现按钮切换，tab页签也相应切换。",
+              "description": "当前值。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#qa1D8\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
               "group": "页面2>0>txt1"
             },
             {
               "attr": "页面2>0>txt1>a:instantTrigger",
-              "name": ".instantTrigger",
+              "name": ".即时触发",
               "valueType": "Boolean",
               "defaultValue": true,
+              "extraInfo": "★",
+              "description": "输入过程即时触发连线执行。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#V1qLT\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
               "group": "页面2>0>txt1"
             },
             {
               "attr": "页面2>0>txt1>a:htmlContent",
-              "name": ".htmlContent",
+              "name": ".网页格式",
               "valueType": "Boolean",
               "defaultValue": false,
+              "extraInfo": "*",
+              "description": "值内容输入html文本并加载显示。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#IvTuM\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
               "group": "页面2>0>txt1"
             },
             {
               "attr": "页面2>0>txt1>a:readOnly",
-              "name": ".readOnly",
+              "name": ".只读",
               "valueType": "Boolean",
               "defaultValue": true,
+              "extraInfo": "★",
+              "description": "是否只读。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#IvTuM\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
               "group": "页面2>0>txt1"
             },
             {
               "attr": "页面2>0>txt1>a:onChange",
-              "name": ".onChange",
+              "name": ".值改变事件",
               "valueType": "Function",
               "extraInfo": {
                 "arguments": [
@@ -1582,11 +1767,12 @@
                   "extra"
                 ]
               },
+              "description": "值改变事件。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#CJ4Rw\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
               "group": "页面2>0>txt1"
             },
             {
               "attr": "页面2>0>txt1>a:display",
-              "name": ".display",
+              "name": ".页面路径",
               "valueType": "Image",
               "defaultValue": "",
               "description": "自定义页面地址。\n                可以是编辑器中的其他页面，也可以\n                是外部网页链接地址。",
@@ -1594,7 +1780,7 @@
             },
             {
               "attr": "页面2>0>txt1>a:popDirection",
-              "name": ".popDirection",
+              "name": ".提示方向",
               "valueType": "SideDirection",
               "defaultValue": "right",
               "description": "提示显示位置。",
@@ -1602,7 +1788,7 @@
             },
             {
               "attr": "页面2>0>txt1>a:popBackground",
-              "name": ".popBackground",
+              "name": ".提示背景色",
               "valueType": "Color",
               "defaultValue": "white",
               "description": "箭头和背景色。",
@@ -1610,7 +1796,7 @@
             },
             {
               "attr": "页面2>0>txt1>a:popPadding",
-              "name": ".popPadding",
+              "name": ".提示边距",
               "valueType": "NumberArray",
               "defaultValue": [
                 2,
@@ -1623,7 +1809,7 @@
             },
             {
               "attr": "页面2>0>txt1>a:popWidth",
-              "name": ".popWidth",
+              "name": ".提示区宽度",
               "valueType": "Number",
               "defaultValue": 400,
               "description": "弹出框宽度。",
@@ -1631,7 +1817,7 @@
             },
             {
               "attr": "页面2>0>txt1>a:popHeight",
-              "name": ".popHeight",
+              "name": ".提示区高度",
               "valueType": "Number",
               "defaultValue": 300,
               "description": "弹出框高度。",
@@ -1639,7 +1825,7 @@
             },
             {
               "attr": "页面2>0>txt1>a:popBorderColor",
-              "name": ".popBorderColor",
+              "name": ".提示边框色",
               "valueType": "Color",
               "defaultValue": "rgb(51,51,51)",
               "description": "边框线颜色。\n                    注意，是设置了边框宽度非0后的边框颜色。\n                    默认边框宽度属性为0时，实际上是白色并\n                    带有箭头指示的边框。本属性不用于修改默\n                    认边框色。",
@@ -1647,7 +1833,7 @@
             },
             {
               "attr": "页面2>0>txt1>a:popBorderWidth",
-              "name": ".popBorderWidth",
+              "name": ".提示边框宽",
               "valueType": "Number",
               "defaultValue": 0,
               "description": "边框线宽度。\n                    默认值为0，此时边框默认为白色并且带有\n                    箭头指示。当设置宽度后，颜色将取边框颜\n                    色属性的设置，并且不再有箭头指示。",
@@ -1655,7 +1841,7 @@
             },
             {
               "attr": "页面2>0>txt1>a:popBorderRadius",
-              "name": ".popBorderRadius",
+              "name": ".提示圆角",
               "valueType": "Number",
               "defaultValue": 0,
               "description": "边框线圆角。\n                    设置圆角线后，如果此前默认是白色边框带有\n                    指示箭头，那么将自动不可见，只对内容区域\n                    产生圆角。",
@@ -1663,7 +1849,7 @@
             },
             {
               "attr": "页面2>0>txt1>a:popTriggerEvent",
-              "name": ".popTriggerEvent",
+              "name": ".提示触发事件",
               "valueType": "MouseEvent",
               "defaultValue": "hover",
               "description": "触发方式。\n                支持鼠标移入、点击（按钮时）\n                两种触发提示的方式。",
@@ -1695,35 +1881,42 @@
             },
             {
               "attr": "页面3>0>txt1>a:value",
-              "name": ".value",
+              "name": ".值内容",
               "valueType": "Object",
               "defaultValue": "tab页签可以在多页（displays）属性中设置多个内嵌页地址。\n\n如果相对路径（relativePath）属性有设置公共目录，那么前面多页地址只需要设置文件名即可。",
+              "description": "当前值。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#qa1D8\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
               "group": "页面3>0>txt1"
             },
             {
               "attr": "页面3>0>txt1>a:instantTrigger",
-              "name": ".instantTrigger",
+              "name": ".即时触发",
               "valueType": "Boolean",
               "defaultValue": true,
+              "extraInfo": "★",
+              "description": "输入过程即时触发连线执行。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#V1qLT\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
               "group": "页面3>0>txt1"
             },
             {
               "attr": "页面3>0>txt1>a:htmlContent",
-              "name": ".htmlContent",
+              "name": ".网页格式",
               "valueType": "Boolean",
               "defaultValue": false,
+              "extraInfo": "*",
+              "description": "值内容输入html文本并加载显示。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#IvTuM\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
               "group": "页面3>0>txt1"
             },
             {
               "attr": "页面3>0>txt1>a:readOnly",
-              "name": ".readOnly",
+              "name": ".只读",
               "valueType": "Boolean",
               "defaultValue": true,
+              "extraInfo": "★",
+              "description": "是否只读。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#IvTuM\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
               "group": "页面3>0>txt1"
             },
             {
               "attr": "页面3>0>txt1>a:onChange",
-              "name": ".onChange",
+              "name": ".值改变事件",
               "valueType": "Function",
               "extraInfo": {
                 "arguments": [
@@ -1734,11 +1927,12 @@
                   "extra"
                 ]
               },
+              "description": "值改变事件。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#CJ4Rw\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
               "group": "页面3>0>txt1"
             },
             {
               "attr": "页面3>0>txt1>a:display",
-              "name": ".display",
+              "name": ".页面路径",
               "valueType": "Image",
               "defaultValue": "",
               "description": "自定义页面地址。\n                可以是编辑器中的其他页面，也可以\n                是外部网页链接地址。",
@@ -1746,7 +1940,7 @@
             },
             {
               "attr": "页面3>0>txt1>a:popDirection",
-              "name": ".popDirection",
+              "name": ".提示方向",
               "valueType": "SideDirection",
               "defaultValue": "right",
               "description": "提示显示位置。",
@@ -1754,7 +1948,7 @@
             },
             {
               "attr": "页面3>0>txt1>a:popBackground",
-              "name": ".popBackground",
+              "name": ".提示背景色",
               "valueType": "Color",
               "defaultValue": "white",
               "description": "箭头和背景色。",
@@ -1762,7 +1956,7 @@
             },
             {
               "attr": "页面3>0>txt1>a:popPadding",
-              "name": ".popPadding",
+              "name": ".提示边距",
               "valueType": "NumberArray",
               "defaultValue": [
                 2,
@@ -1775,7 +1969,7 @@
             },
             {
               "attr": "页面3>0>txt1>a:popWidth",
-              "name": ".popWidth",
+              "name": ".提示区宽度",
               "valueType": "Number",
               "defaultValue": 400,
               "description": "弹出框宽度。",
@@ -1783,7 +1977,7 @@
             },
             {
               "attr": "页面3>0>txt1>a:popHeight",
-              "name": ".popHeight",
+              "name": ".提示区高度",
               "valueType": "Number",
               "defaultValue": 300,
               "description": "弹出框高度。",
@@ -1791,7 +1985,7 @@
             },
             {
               "attr": "页面3>0>txt1>a:popBorderColor",
-              "name": ".popBorderColor",
+              "name": ".提示边框色",
               "valueType": "Color",
               "defaultValue": "rgb(51,51,51)",
               "description": "边框线颜色。\n                    注意，是设置了边框宽度非0后的边框颜色。\n                    默认边框宽度属性为0时，实际上是白色并\n                    带有箭头指示的边框。本属性不用于修改默\n                    认边框色。",
@@ -1799,7 +1993,7 @@
             },
             {
               "attr": "页面3>0>txt1>a:popBorderWidth",
-              "name": ".popBorderWidth",
+              "name": ".提示边框宽",
               "valueType": "Number",
               "defaultValue": 0,
               "description": "边框线宽度。\n                    默认值为0，此时边框默认为白色并且带有\n                    箭头指示。当设置宽度后，颜色将取边框颜\n                    色属性的设置，并且不再有箭头指示。",
@@ -1807,7 +2001,7 @@
             },
             {
               "attr": "页面3>0>txt1>a:popBorderRadius",
-              "name": ".popBorderRadius",
+              "name": ".提示圆角",
               "valueType": "Number",
               "defaultValue": 0,
               "description": "边框线圆角。\n                    设置圆角线后，如果此前默认是白色边框带有\n                    指示箭头，那么将自动不可见，只对内容区域\n                    产生圆角。",
@@ -1815,24 +2009,24 @@
             },
             {
               "attr": "页面3>0>txt1>a:popTriggerEvent",
-              "name": ".popTriggerEvent",
+              "name": ".提示触发事件",
               "valueType": "MouseEvent",
               "defaultValue": "hover",
               "description": "触发方式。\n                支持鼠标移入、点击（按钮时）\n                两种触发提示的方式。",
               "group": "页面3>0>txt1"
             }
           ],
-          "snapshotURL": "symbols/develop/uiotos/arranged/controls/containers _icon/TAB页签.json",
+          "snapshotURL": "symbols\\develop\\uiotos\\arranged\\controls\\containers_icon\\TAB页签.json",
           "renderHTML": "__ht__function(data, gv, cache) {return __tabView(data,gv,cache);}",
-          "width": 300,
-          "height": 200,
+          "width": 500,
+          "height": 300,
           "fitSize": true,
           "pixelPerfect": false,
           "comps": [],
-          "uuid": "C04FA4CE-3656-4D5A-BF15-4474F1539CD7"
+          "uuid": "24686680-7F63-4E7E-872E-DFFA30DF551C"
         },
         "host": {
-          "__i": 2783810
+          "__i": 416477
         },
         "position": {
           "x": -290.414,
@@ -1960,12 +2154,19 @@
         "bindEvents": [
           "*",
           "onChange"
-        ]
+        ],
+        "pageAbsUrls": [
+          "displays/demo/2-模板/02-管理系统/05-多页切换/页面1.json",
+          "displays/demo/2-模板/02-管理系统/05-多页切换/页面2.json",
+          "displays/demo/2-模板/02-管理系统/05-多页切换/页面3.json",
+          "displays/demo/2-模板/02-管理系统/05-多页切换/页面4.json"
+        ],
+        "innerBackground": "rgb(247,247,247)"
       }
     },
     {
       "c": "ht.Node",
-      "i": 2783814,
+      "i": 416481,
       "p": {
         "name": "bts",
         "displayName": "按钮组（bts1）",
@@ -2062,55 +2263,38 @@
               "idinfo": "",
               "isTplBinded": false,
               "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "userData": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
             }
           }
         },
         "image": {
-          "modified": "Wed May 08 2024 14:33:43 GMT+0800 (中国标准时间)",
-          "background": "rgb(32,37,46)",
+          "modified": "Sat Aug 24 2024 13:37:12 GMT+0800 (中国标准时间)",
           "dataBindings": [
             {
               "attr": "symbol",
-              "valueType": "Image"
+              "valueType": "Image",
+              "name": "symbol"
             },
             {
-              "attr": "shadowBorder",
-              "valueType": "NumberArray",
-              "defaultValue": [
-                0,
-                0,
-                8
-              ],
-              "group": "功能（关键）"
-            },
-            {
-              "attr": "shadowColor",
-              "valueType": "Color",
-              "defaultValue": "rgba(102,102,102,0.2)"
-            },
-            {
-              "attr": "shadowEnabled",
-              "valueType": "Boolean",
-              "defaultValue": false
+              "attr": "bindTabview",
+              "valueType": "String",
+              "defaultValue": "tab1",
+              "description": "默认关联Tab1页签（此时无需连线）。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#x8tmx\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+              "group": "功能",
+              "name": "bindTabview"
             },
             {
               "attr": "direction",
-              "valueType": "String",
+              "valueType": "HorOrVer",
               "defaultValue": "horizontal",
-              "description": "horizontal：水平按钮组；\nvertical：垂直按钮组。",
-              "extraInfo": {
-                "enum": {
-                  "values": [
-                    "horizontal",
-                    "vertical"
-                  ]
-                }
-              }
-            },
-            {
-              "attr": "gap",
-              "valueType": "Number",
-              "defaultValue": -2
+              "description": "水平或垂直模式。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#LH9O3\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+              "extraInfo": "★",
+              "name": "direction"
             },
             {
               "attr": "buttons",
@@ -2120,86 +2304,133 @@
                 "按钮2",
                 "按钮3"
               ],
-              "description": "按钮显示文字。"
+              "description": "按钮显示文字。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#SsNN4\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+              "name": "buttons"
             },
             {
               "attr": "btnDatas",
               "valueType": "ObjectArray",
-              "description": "按钮对应的数据。\n<br>显示文字（buttons）用于界面展示，\n<br>这里用于对应按钮的数据。"
+              "description": "各按钮对应的数据项。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#AUaeb\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+              "extraInfo": "*",
+              "name": "btnDatas"
+            },
+            {
+              "attr": "btnData",
+              "valueType": "Object",
+              "description": "当前选中按钮对应的数据。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#MxZ7Z\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+              "extraInfo": "*",
+              "name": "btnData"
             },
             {
               "attr": "select",
               "valueType": "Number",
               "defaultValue": 0,
-              "description": "当前选中的索引。\n<br>可读写。从0开始，第几个按钮当前选中，\n<br>或者设置第几个按钮选中。-1表示都不选中。"
-            },
-            {
-              "attr": "btnData",
-              "valueType": "Object",
-              "description": "当前选中的内容。\n<br>可读写。匹配按钮数据属性（btnDatas），\n<br>当前属性值是对应按钮数据的第几个，则\n<br>第几个按钮选中。\n<br>如果按钮数据没有对应的，则从按钮显示\n<br>文字去匹配。注意，与当前选中索引（sel-\n<br>ected）属性自动保持同步。"
+              "description": "当前选中的索引。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#NMTbe\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+              "name": "select"
             },
             {
               "attr": "hoverTrigger",
-              "valueType": "Boolean"
+              "valueType": "Boolean",
+              "description": "鼠标悬停即触发点击。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#XvQ1C\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+              "extraInfo": "★",
+              "name": "hoverTrigger"
             },
             {
               "attr": "initialTrigger",
               "valueType": "Boolean",
               "defaultValue": false,
-              "description": "划过时即点击。\n<br>默认需要点击才能切换，勾选本属性后，\n<br>鼠标划过即切换，省去鼠标点击操作。"
+              "description": "加载时就触发连线执行。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#XvQ1C\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+              "extraInfo": "★",
+              "name": "initialTrigger"
+            },
+            {
+              "attr": "userData",
+              "valueType": "Object",
+              "defaultValue": [],
+              "name": "userData"
+            },
+            {
+              "attr": "onChange",
+              "valueType": "Function",
+              "extraInfo": {
+                "arguments": [
+                  "data",
+                  "gv",
+                  "cache",
+                  "param",
+                  "extra"
+                ]
+              },
+              "name": "onChange"
+            },
+            {
+              "attr": "shadowBorder",
+              "valueType": "NumberArray",
+              "defaultValue": [
+                0,
+                0,
+                8
+              ],
+              "group": "外观",
+              "extraInfo": "~",
+              "name": "shadowBorder"
+            },
+            {
+              "attr": "shadowColor",
+              "valueType": "Color",
+              "defaultValue": "rgba(102,102,102,0.2)",
+              "extraInfo": "~",
+              "name": "shadowColor"
+            },
+            {
+              "attr": "shadowEnabled",
+              "valueType": "Boolean",
+              "defaultValue": false,
+              "extraInfo": "~",
+              "name": "shadowEnabled"
+            },
+            {
+              "attr": "gap",
+              "valueType": "Number",
+              "defaultValue": -2,
+              "description": "按钮与按钮之间的间隙。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#eB36g\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+              "extraInfo": "★",
+              "name": "gap"
             },
             {
               "attr": "background",
               "valueType": "ColorArray",
               "defaultValue": [
                 "rgb(255,255,255)",
-                "rgba(255,255,255,0.9)"
-              ]
-            },
-            {
-              "attr": "selectBackground",
-              "valueType": "ColorArray",
-              "defaultValue": [
+                "rgba(255,255,255,0.9)",
+                "rgba(255,255,255,0.8)",
                 "rgb(55,125,255)",
-                "rgba(55,125,255,0.9)"
-              ]
-            },
-            {
-              "attr": "activeBackground",
-              "valueType": "ColorArray",
-              "defaultValue": [
-                "rgb(50,99,250)",
-                "rgba(55,125,255,0.9)"
-              ]
+                "rgba(55,125,255,0.9)",
+                "rgba(55,125,255,0.8)"
+              ],
+              "description": "背景颜色。索引依次为：\n<br>0：未选中按钮的默认背景色。\n<br>1：未选中按钮的悬停背景色。\n<br>2：未选中按钮的按下背景色。\n<br>3：选中按钮的默认背景色。\n<br>4：选中按钮的悬停背景色。\n<br>5：选中按钮的按下背景色。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#GLkLa\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+              "name": "background"
             },
             {
               "attr": "textColor",
               "valueType": "ColorArray",
               "defaultValue": [
                 "rgb(61,61,61)",
-                "rgb(55,125,255)"
-              ]
-            },
-            {
-              "attr": "selectTextColor",
-              "valueType": "ColorArray",
-              "defaultValue": [
-                "white",
-                "white"
-              ]
-            },
-            {
-              "attr": "activeTextColor",
-              "valueType": "ColorArray",
-              "defaultValue": [
-                "white",
-                "white"
-              ]
+                "rgb(55,125,255)",
+                "rgb(96,172,252)",
+                "rgb(255,255,255)",
+                "rgb(255,255,255)",
+                "rgb(255,255,255)"
+              ],
+              "description": "文字颜色。索引依次为：\n<br>0：未选中按钮的默认文字色。\n<br>1：未选中按钮的悬停文字色。\n<br>2：未选中按钮的按下文字色。\n<br>3：选中按钮的默认文字色。\n<br>4：选中按钮的悬停文字色。\n<br>5：选中按钮的按下文字色。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#wNfmX\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+              "name": "textColor"
             },
             {
               "attr": "textFont",
               "valueType": "Font",
-              "defaultValue": "12px sans-serif, Arial"
+              "defaultValue": "12px sans-serif, Arial",
+              "description": "字体大小设置。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#Ciyrx\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+              "name": "textFont"
             },
             {
               "attr": "radius",
@@ -2209,50 +2440,56 @@
                 5,
                 5,
                 5
-              ]
-            },
-            {
-              "attr": "borderWidth",
-              "valueType": "PositiveNumber",
-              "defaultValue": 1
+              ],
+              "description": "圆角半径设置\n<br>索引0、1、2、3的值分别对应按钮组的\n<br>左上角、右上角、右下角、左下角。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#audJR\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+              "name": "radius"
             },
             {
               "attr": "borderColor",
               "valueType": "Color",
               "defaultValue": "rgb(213,213,213)",
-              "description": "边框颜色。\n<br>如果不设置，那么边框颜色将自动跟随\n<br>当前选中项目的背景颜色。"
+              "description": "边框颜色。\n<br>如果不设置，那么边框颜色将自动跟随\n<br>当前选中项目的背景颜色。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#zZHSi\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+              "name": "borderColor"
             },
             {
-              "attr": "bindTabview",
-              "valueType": "String",
-              "defaultValue": "tab1"
+              "attr": "borderWidth",
+              "valueType": "PositiveNumber",
+              "defaultValue": 1,
+              "description": "边框宽度。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#zZHSi\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+              "name": "borderWidth"
             },
             {
               "attr": "simpleLineStyle",
               "valueType": "Boolean",
-              "defaultValue": false
+              "defaultValue": false,
+              "description": "简单线条风格。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#T87VD\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+              "name": "simpleLineStyle"
             },
             {
               "attr": "bindControlsTag",
               "valueType": "StringArray",
-              "group": "bindControls"
+              "group": "连线",
+              "name": "bindControlsTag"
             },
             {
               "attr": "bindControlsAttr",
-              "valueType": "StringArray"
+              "valueType": "StringArray",
+              "name": "bindControlsAttr"
             },
             {
               "attr": "bindControlsVal",
               "valueType": "ObjectArray",
-              "description": "静态值。也用作数组索引、JSON对象解析提取值用途。\n<br>一、静态值用途：\n<br>对常规类型的属性赋值且没有反向关联属性值，传入为数值时，不\n<br>会作为数组的索引，而会当成常量值对外赋值。此外，存在特殊值：\n<br>~和undefined表示过滤、不触发；null为默认值，表示传递默认表\n<br>单数据。编辑状态下清空后保存与设置null等价。\n<br>二、数组索引用途\n<br>情况1：被操作的组件属性原先值是数组时（包括空数组），会将\n<br>待输出的值作为被操作数组指定索引的值来传入，而不是整体覆盖。\n<br>情况2：如果要被操作的组件属性原先值不是数组，而且待输出的\n<br>值为数组类型并且长度也在索引范围内，那么会按照索引取自身数\n<br>组指定元素再对外输出。（如果想要取待输出索引值，赋值给被操\n<br>纵属性的指定索引，那么需要中间组件属性连线过渡以下，无法直\n<br>接操作）\n<br>情况3：如果要被操作的组件属性是数组，而且待输出的值也是数组\n<br>类型，此时当情况1来处理。\n<br>三、数据解析用途：\n<br>待输出的值为JSON对象时，用x.y.z这种以字符.或者>为间隔的方式\n<br>实现对JSON字段层次逐层定位，当是数组时x.0.y.1这种以数字的方\n<br>式来指定数组的某个索引。以此实现对任意结果JSON对象字段的定\n<br>位，获取结构内指定字段对应的值。"
+              "name": "bindControlsVal"
             },
             {
               "attr": "paramControlTag",
-              "valueType": "StringArray"
+              "valueType": "StringArray",
+              "name": "paramControlTag"
             },
             {
               "attr": "paramControlAttr",
-              "valueType": "StringArray"
+              "valueType": "StringArray",
+              "name": "paramControlAttr"
             },
             {
               "attr": "paramsGenerator",
@@ -2267,56 +2504,61 @@
                   "oldVal",
                   "form"
                 ]
-              }
+              },
+              "name": "paramsGenerator"
             },
             {
               "attr": "useAttrCORS",
               "valueType": "Boolean",
+              "extraInfo": "*",
               "defaultValue": false,
-              "description": "属性同源操作。\n                连线操作传递是否限定双方。比如有A/B/C/D/O五个组件，连线操作关系：\n                A→O、B→O、C→O、D→O，以及O→A、O→B、O→C、O→D，总结为\n                A、B、C、D分别与O有往返操作。\n                默认不勾选该属性时，A到D任何一个向O的连线操作，都不会影响到O自身\n                对A到D的下一步操作。勾选了该属性后，那么每次相邻的两次连线交互，\n                则会有同源选择性，比如A→O，下一步则O之会选择到A的操作即O→A。\n                同源操作通常用户多个组件共用一个配置弹窗的情况，比如上述A、B、C、D\n                相当于是四个同类型的组件，而O是公共的属性配置窗口，任何一个比如A点\n                击，可通过O弹窗显示属性，然后修改后将属性值回写到A，且并不会将值给\n                到其他几个组件，即便有连线在。\n                同源操作规则：当连线满足A/B→O.x，且有O.x→A/B时，即前一次组件A连线\n                操作O的x属性，那么，O对外触发且关联x属性值对外时，勾选了本属性同源\n                属性操作的前提下，将只会执行O.x→A，而忽略O.x→B/C等其他非A的图元组\n                件的连线操作。",
+              "description": "连线操作和处理回写是否一致。\n                        比如多个文本框连线传值给相同对话框，弹窗修改\n                        后是否限定只能写到最新赋值过来的文本框。详见<a href='https://www.yuque.com/liuhuo-nc809/uiotos/fgi6dd7gado51acm#fFUbp' style=\"color:rgb(96,172,252)\"target=\"_blank\">同源属性操作</a>",
+              "bindIgnored": true,
+              "name": "useAttrCORS",
               "dynamicCreate": true
             },
             {
-              "attr": "onChange",
-              "valueType": "Function",
-              "extraInfo": {
-                "arguments": [
-                  "data",
-                  "gv",
-                  "cache",
-                  "param",
-                  "extra"
-                ]
-              }
-            },
-            {
               "attr": "display",
-              "name": "display",
               "valueType": "Image",
               "defaultValue": "",
               "description": "自定义页面地址。\n                可以是编辑器中的其他页面，也可以\n                是外部网页链接地址。",
-              "group": "弹出框",
+              "group": "弹出框 *",
+              "bindIgnored": true,
+              "name": "display",
+              "dynamicCreate": true
+            },
+            {
+              "attr": "pureTipText",
+              "valueType": "String",
+              "defaultValue": "",
+              "description": "提示文字。\n                    当专业用户属性中，提供display内嵌页属性，\n                    如果有配置，那么本属性设置无效，将以内嵌\n                    页显示为准。",
+              "group": "弹出框 *",
+              "bindIgnored": true,
+              "name": "pureTipText",
               "dynamicCreate": true
             },
             {
               "attr": "popDirection",
-              "name": "popDirection",
               "valueType": "SideDirection",
               "defaultValue": "right",
               "description": "提示显示位置。",
+              "group": "弹出框 *",
+              "bindIgnored": true,
+              "name": "popDirection",
               "dynamicCreate": true
             },
             {
               "attr": "popBackground",
-              "name": "popBackground",
               "valueType": "Color",
               "defaultValue": "white",
               "description": "箭头和背景色。",
+              "group": "弹出框 *",
+              "bindIgnored": true,
+              "name": "popBackground",
               "dynamicCreate": true
             },
             {
               "attr": "popPadding",
-              "name": "padding",
               "valueType": "NumberArray",
               "defaultValue": [
                 2,
@@ -2325,67 +2567,82 @@
                 2
               ],
               "description": "内间距。",
+              "group": "弹出框 *",
+              "bindIgnored": true,
+              "name": "popPadding",
               "dynamicCreate": true
             },
             {
               "attr": "popWidth",
-              "name": "popWidth",
               "valueType": "Number",
               "defaultValue": 400,
               "description": "弹出框宽度。",
+              "group": "弹出框 *",
+              "bindIgnored": true,
+              "name": "popWidth",
               "dynamicCreate": true
             },
             {
               "attr": "popHeight",
-              "name": "popHeight",
               "valueType": "Number",
               "defaultValue": 300,
               "description": "弹出框高度。",
+              "group": "弹出框 *",
+              "bindIgnored": true,
+              "name": "popHeight",
               "dynamicCreate": true
             },
             {
               "attr": "popBorderColor",
-              "name": "popBorderColor",
               "valueType": "Color",
               "defaultValue": "rgb(51,51,51)",
               "description": "边框线颜色。\n                    注意，是设置了边框宽度非0后的边框颜色。\n                    默认边框宽度属性为0时，实际上是白色并\n                    带有箭头指示的边框。本属性不用于修改默\n                    认边框色。",
+              "group": "弹出框 *",
+              "bindIgnored": true,
+              "name": "popBorderColor",
               "dynamicCreate": true
             },
             {
               "attr": "popBorderWidth",
-              "name": "popBorderWidth",
               "valueType": "Number",
               "defaultValue": 0,
               "description": "边框线宽度。\n                    默认值为0，此时边框默认为白色并且带有\n                    箭头指示。当设置宽度后，颜色将取边框颜\n                    色属性的设置，并且不再有箭头指示。",
+              "group": "弹出框 *",
+              "bindIgnored": true,
+              "name": "popBorderWidth",
               "dynamicCreate": true
             },
             {
               "attr": "popBorderRadius",
-              "name": "popBorderRadius",
               "valueType": "Number",
               "defaultValue": 0,
               "description": "边框线圆角。\n                    设置圆角线后，如果此前默认是白色边框带有\n                    指示箭头，那么将自动不可见，只对内容区域\n                    产生圆角。",
+              "group": "弹出框 *",
+              "bindIgnored": true,
+              "name": "popBorderRadius",
               "dynamicCreate": true
             },
             {
               "attr": "popTriggerEvent",
-              "name": "popTriggerEvent",
               "valueType": "MouseEvent",
               "defaultValue": "hover",
               "description": "触发方式。\n                支持鼠标移入、点击（按钮时）\n                两种触发提示的方式。",
+              "group": "弹出框 *",
+              "bindIgnored": true,
+              "name": "popTriggerEvent",
               "dynamicCreate": true
             }
           ],
-          "snapshotURL": "icon.base.tabs",
+          "snapshotURL": "symbols/develop/uiotos/arranged/controls/forms_icon/按钮组.json",
           "renderHTML": "__ht__function(data, gv, cache) {return __hButtonGroup_ui(data,gv,cache);}",
           "width": 300,
           "height": 35,
           "pixelPerfect": false,
           "comps": [],
-          "uuid": "1C2ED94B-0CC2-4AD5-BDB9-3F20AA268CA0"
+          "uuid": "86BD5E08-63A0-49A9-95A9-1D4B2A57CC77"
         },
         "host": {
-          "__i": 2783810
+          "__i": 416477
         },
         "position": {
           "x": -290.414,
@@ -2444,7 +2701,7 @@
           "rgb(54,114,255)"
         ],
         "textFont": "14px sans-serif, Arial",
-        "symbol": "symbols/develop/uiotos/base/hButtonGroup-ui.json",
+        "symbol": "symbols/develop/uiotos/arranged/controls/forms/01-按钮点击/按钮组.json",
         "oldDynamicAttrs": [
           {
             "attr": "useAttrCORS",
@@ -2466,7 +2723,7 @@
       }
     }
   ],
-  "modified": "Wed May 22 2024 15:37:42 GMT+0800 (中国标准时间)",
+  "modified": "Mon Aug 26 2024 17:38:18 GMT+0800 (中国标准时间)",
   "contentRect": {
     "x": -878.0849,
     "y": -447.68318,

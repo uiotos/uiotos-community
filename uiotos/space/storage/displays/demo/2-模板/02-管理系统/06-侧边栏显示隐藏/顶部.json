@@ -1,5 +1,5 @@
 {
-  "v": "7.7.5",
+  "v": "8.0.1",
   "p": {
     "autoAdjustIndex": true,
     "hierarchicalRendering": true
@@ -11,12 +11,13 @@
     "fitContent": false,
     "zoomable": false,
     "rectSelectable": false,
-    "pannable": false
+    "pannable": false,
+    "_professional": false
   },
   "d": [
     {
       "c": "ht.Node",
-      "i": 2899092,
+      "i": 731070,
       "p": {
         "name": "base",
         "displayName": "底板（_base）",
@@ -56,7 +57,7 @@
     },
     {
       "c": "ht.Node",
-      "i": 2899093,
+      "i": 731071,
       "p": {
         "name": "sw",
         "displayName": "开关（sw1）",
@@ -147,71 +148,158 @@
               "idinfo": "",
               "isTplBinded": false,
               "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "userData": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
             }
           }
         },
         "image": {
-          "modified": "Wed May 22 2024 13:42:50 GMT+0800 (中国标准时间)",
+          "modified": "Sat Aug 24 2024 13:33:13 GMT+0800 (中国标准时间)",
           "dataBindings": [
             {
               "attr": "symbol",
-              "valueType": "Image"
+              "valueType": "Image",
+              "name": "symbol"
             },
             {
               "attr": "open",
               "valueType": "Boolean",
               "defaultValue": true,
-              "group": "功能（关键）"
-            },
-            {
-              "attr": "background",
-              "valueType": "Color",
-              "defaultValue": "rgb(0,199,7)"
-            },
-            {
-              "attr": "closedColor",
-              "valueType": "Color",
-              "defaultValue": null
-            },
-            {
-              "attr": "back.borderWidth",
-              "valueType": "Number",
-              "defaultValue": 1
-            },
-            {
-              "attr": "back.radius",
-              "valueType": "Number",
-              "defaultValue": 18
-            },
-            {
-              "attr": "dot.dotScale",
-              "valueType": "Number",
-              "defaultValue": 1
-            },
-            {
-              "attr": "textScale",
-              "valueType": "Number",
-              "defaultValue": 1
+              "group": "功能",
+              "description": "是否开启。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#zTGOK\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+              "name": "open"
             },
             {
               "attr": "textOpen",
               "valueType": "String",
-              "defaultValue": "开启"
+              "defaultValue": "开启",
+              "description": "开启状态下的文本。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#Xug5s\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+              "name": "textOpen"
             },
             {
               "attr": "textClose",
               "valueType": "String",
-              "defaultValue": "关闭"
+              "defaultValue": "关闭",
+              "description": "关闭状态下的文本。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#soWVP\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+              "name": "textClose"
             },
             {
               "attr": "textVisible",
               "valueType": "Boolean",
-              "defaultValue": true
+              "defaultValue": true,
+              "description": "是否显示文本。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#abjNe\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+              "extraInfo": "★",
+              "name": "textVisible"
+            },
+            {
+              "attr": "userData",
+              "valueType": "Object",
+              "description": "",
+              "defaultValue": [],
+              "name": "userData"
+            },
+            {
+              "attr": "onOpen",
+              "valueType": "Function",
+              "description": "打开时触发。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#DpmVm\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+              "extraInfo": {
+                "arguments": [
+                  "data",
+                  "gv",
+                  "cache",
+                  "value",
+                  "extra"
+                ]
+              },
+              "name": "onOpen"
+            },
+            {
+              "attr": "onClose",
+              "valueType": "Function",
+              "description": "关闭时触发。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#zEJsm\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+              "extraInfo": {
+                "arguments": [
+                  "data",
+                  "gv",
+                  "cache",
+                  "value",
+                  "extra"
+                ],
+                "classify": "★"
+              },
+              "name": "onClose"
+            },
+            {
+              "attr": "onChange",
+              "valueType": "Function",
+              "extraInfo": {
+                "arguments": [
+                  "data",
+                  "gv",
+                  "cache",
+                  "value",
+                  "extra"
+                ]
+              },
+              "description": "变化时触发。\n<br>初始加载会发生。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#oybrJ\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+              "name": "onChange"
+            },
+            {
+              "attr": "background",
+              "valueType": "Color",
+              "defaultValue": "rgb(0,199,7)",
+              "description": "背景颜色。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#Q7vzO\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+              "group": "外观",
+              "name": "background"
+            },
+            {
+              "attr": "closedColor",
+              "valueType": "Color",
+              "defaultValue": null,
+              "description": "关闭状态下的颜色。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#w8HwI\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+              "name": "closedColor"
+            },
+            {
+              "attr": "back.borderWidth",
+              "valueType": "Number",
+              "defaultValue": 1,
+              "description": "边框宽度。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#QnYc9\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+              "extraInfo": "★",
+              "name": "back.borderWidth"
+            },
+            {
+              "attr": "back.radius",
+              "valueType": "Number",
+              "defaultValue": 18,
+              "description": "圆角半径。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#LvorN\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+              "name": "back.radius"
+            },
+            {
+              "attr": "dot.dotScale",
+              "valueType": "Number",
+              "defaultValue": 1,
+              "description": "圆点缩放比例。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#AlwbN\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+              "extraInfo": "★",
+              "name": "dot.dotScale"
+            },
+            {
+              "attr": "textScale",
+              "valueType": "Number",
+              "defaultValue": 1,
+              "description": "文本缩放比例。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#AlwbN\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+              "extraInfo": "★",
+              "name": "textScale"
             },
             {
               "attr": "font",
               "valueType": "Font",
-              "defaultValue": "12px sans-serif, Arial"
+              "defaultValue": "12px sans-serif, Arial",
+              "description": "字体大小设置。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#odwUM\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+              "name": "font"
             },
             {
               "attr": "gapsAdjust",
@@ -219,29 +307,37 @@
               "defaultValue": [
                 0,
                 0
-              ]
+              ],
+              "description": "间隙调整，数组类型。\n<br>索引0代表文字与圆点之间的间隙。\n<br>索引1功能暂未开放。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#MjEq4\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+              "extraInfo": "★",
+              "name": "gapsAdjust"
             },
             {
               "attr": "bindControlsTag",
               "valueType": "StringArray",
-              "group": "bindControls"
+              "group": "连线",
+              "name": "bindControlsTag"
             },
             {
               "attr": "bindControlsAttr",
-              "valueType": "StringArray"
+              "valueType": "StringArray",
+              "name": "bindControlsAttr"
             },
             {
               "attr": "bindControlsVal",
               "valueType": "ObjectArray",
-              "description": "静态值。也用作数组索引、JSON对象解析提取值用途。\n<br>\n一、静态值用途：\n<br>对常规类型的属性赋值且没有反向关联属性值，传入为数值时，\n<br>不会作为数组的索引，而会当成常量值对外赋值。\n<br>\n二、数组索引用途\n<br>情况1：被操作的组件属性原先值是数组时（包括空数组），会\n<br>将待输出的值作为被操作数组指定索引的值来传入，而不是整体\n<br>覆盖。\n<br>\n情况2：如果要被操作的组件属性原先值不是数组，而且待输出的\n<br>值为数组类型并且长度也在索引范围内，那么会按照索引取自身数\n<br>组指定元素再对外输出。（如果想要取待输出索引值，赋值给被操\n<br>纵属性的指定索引，那么需要中间组件属性连线过渡以下，无法直\n<br>接操作）\n<br>\n情况3：如果要被操作的组件属性是数组，而且待输出的值也是数组\n<br>类型，此时当情况1来处理。\n<br>\n三、数据解析用途：\n<br>待输出的值为JSON对象时，用x.y.z这种以字符.或者>为间隔的方式\n<br>实现对JSON字段层次逐层定位，当是数组时x.0.y.1这种以数字的方\n<br>式来指定数组的某个索引。以此实现对任意结果JSON对象字段的定\n<br>位，获取结构内指定字段对应的值。"
+              "description": "",
+              "name": "bindControlsVal"
             },
             {
               "attr": "paramControlTag",
-              "valueType": "StringArray"
+              "valueType": "StringArray",
+              "name": "paramControlTag"
             },
             {
               "attr": "paramControlAttr",
-              "valueType": "StringArray"
+              "valueType": "StringArray",
+              "name": "paramControlAttr"
             },
             {
               "attr": "paramsGenerator",
@@ -258,147 +354,18 @@
                   "type",
                   "inner"
                 ]
-              }
+              },
+              "name": "paramsGenerator"
             },
             {
               "attr": "useAttrCORS",
               "valueType": "Boolean",
+              "extraInfo": "*",
               "defaultValue": false,
-              "description": "属性同源操作。\n                连线操作传递是否限定双方。比如有A/B/C/D/O五个组件，连线操作关系：\n                A→O、B→O、C→O、D→O，以及O→A、O→B、O→C、O→D，总结为\n                A、B、C、D分别与O有往返操作。\n                默认不勾选该属性时，A到D任何一个向O的连线操作，都不会影响到O自身\n                对A到D的下一步操作。勾选了该属性后，那么每次相邻的两次连线交互，\n                则会有同源选择性，比如A→O，下一步则O之会选择到A的操作即O→A。\n                同源操作通常用户多个组件共用一个配置弹窗的情况，比如上述A、B、C、D\n                相当于是四个同类型的组件，而O是公共的属性配置窗口，任何一个比如A点\n                击，可通过O弹窗显示属性，然后修改后将属性值回写到A，且并不会将值给\n                到其他几个组件，即便有连线在。\n                同源操作规则：当连线满足A/B→O.x，且有O.x→A/B时，即前一次组件A连线\n                操作O的x属性，那么，O对外触发且关联x属性值对外时，勾选了本属性同源\n                属性操作的前提下，将只会执行O.x→A，而忽略O.x→B/C等其他非A的图元组\n                件的连线操作。",
+              "description": "连线操作和处理回写是否一致。\n                        比如多个文本框连线传值给相同对话框，弹窗修改\n                        后是否限定只能写到最新赋值过来的文本框。详见<a href='https://www.yuque.com/liuhuo-nc809/uiotos/fgi6dd7gado51acm#fFUbp' style=\"color:rgb(96,172,252)\"target=\"_blank\">同源属性操作</a>",
+              "bindIgnored": true,
+              "name": "useAttrCORS",
               "dynamicCreate": true
-            },
-            {
-              "attr": "userData",
-              "valueType": "ObjectArray"
-            },
-            {
-              "attr": "display",
-              "name": "display",
-              "valueType": "Image",
-              "defaultValue": "",
-              "description": "自定义页面地址。\n                可以是编辑器中的其他页面，也可以\n                是外部网页链接地址。",
-              "group": "弹出框",
-              "dynamicCreate": true
-            },
-            {
-              "attr": "popDirection",
-              "name": "popDirection",
-              "valueType": "SideDirection",
-              "defaultValue": "right",
-              "description": "提示显示位置。",
-              "dynamicCreate": true
-            },
-            {
-              "attr": "popBackground",
-              "name": "popBackground",
-              "valueType": "Color",
-              "defaultValue": "white",
-              "description": "箭头和背景色。",
-              "dynamicCreate": true
-            },
-            {
-              "attr": "popPadding",
-              "name": "padding",
-              "valueType": "NumberArray",
-              "defaultValue": [
-                2,
-                2,
-                2,
-                2
-              ],
-              "description": "内间距。",
-              "dynamicCreate": true
-            },
-            {
-              "attr": "popWidth",
-              "name": "popWidth",
-              "valueType": "Number",
-              "defaultValue": 400,
-              "description": "弹出框宽度。",
-              "dynamicCreate": true
-            },
-            {
-              "attr": "popHeight",
-              "name": "popHeight",
-              "valueType": "Number",
-              "defaultValue": 300,
-              "description": "弹出框高度。",
-              "dynamicCreate": true
-            },
-            {
-              "attr": "popBorderColor",
-              "name": "popBorderColor",
-              "valueType": "Color",
-              "defaultValue": "rgb(51,51,51)",
-              "description": "边框线颜色。\n                    注意，是设置了边框宽度非0后的边框颜色。\n                    默认边框宽度属性为0时，实际上是白色并\n                    带有箭头指示的边框。本属性不用于修改默\n                    认边框色。",
-              "dynamicCreate": true
-            },
-            {
-              "attr": "popBorderWidth",
-              "name": "popBorderWidth",
-              "valueType": "Number",
-              "defaultValue": 0,
-              "description": "边框线宽度。\n                    默认值为0，此时边框默认为白色并且带有\n                    箭头指示。当设置宽度后，颜色将取边框颜\n                    色属性的设置，并且不再有箭头指示。",
-              "dynamicCreate": true
-            },
-            {
-              "attr": "popBorderRadius",
-              "name": "popBorderRadius",
-              "valueType": "Number",
-              "defaultValue": 0,
-              "description": "边框线圆角。\n                    设置圆角线后，如果此前默认是白色边框带有\n                    指示箭头，那么将自动不可见，只对内容区域\n                    产生圆角。",
-              "dynamicCreate": true
-            },
-            {
-              "attr": "popTriggerEvent",
-              "name": "popTriggerEvent",
-              "valueType": "MouseEvent",
-              "defaultValue": "hover",
-              "description": "触发方式。\n                支持鼠标移入、点击（按钮时）\n                两种触发提示的方式。",
-              "dynamicCreate": true
-            },
-            {
-              "attr": "onChange",
-              "valueType": "Function",
-              "extraInfo": {
-                "arguments": [
-                  "data",
-                  "gv",
-                  "cache",
-                  "value",
-                  "extra"
-                ]
-              },
-              "defaultValue": "__ht__function(data, gv, cache, value, extra) {}",
-              "description": "变化时触发。\n<br>初始加载会发生。"
-            },
-            {
-              "attr": "onOpen",
-              "valueType": "Function",
-              "description": "打开时触发。",
-              "extraInfo": {
-                "arguments": [
-                  "data",
-                  "gv",
-                  "cache",
-                  "value",
-                  "extra"
-                ]
-              }
-            },
-            {
-              "attr": "onClose",
-              "valueType": "Function",
-              "description": "关闭时触发。",
-              "extraInfo": {
-                "arguments": [
-                  "data",
-                  "gv",
-                  "cache",
-                  "value",
-                  "extra"
-                ]
-              }
             }
           ],
           "snapshotURL": "symbols/develop/uiotos/arranged/controls/forms_icon/开关.json",
@@ -408,6 +375,7 @@
           "renderHTML": "__ht__function(data, gv, cache) {__switch_lite(data,gv,cache);}",
           "width": 82,
           "height": 35,
+          "pixelPerfect": false,
           "comps": [
             {
               "type": "roundRect",
@@ -431,7 +399,7 @@
               "layoutH": "center",
               "layoutV": "center",
               "prefix": "back",
-              "displayName": "n（Node1）",
+              "displayName": "n（n1）",
               "rect": [
                 2.59922,
                 1,
@@ -508,10 +476,10 @@
               }
             }
           ],
-          "uuid": "86D1C3B0-4F69-4FBA-A1DF-22DAEB3CDB15"
+          "uuid": "9D0ECA41-2E10-412C-AEC0-C95AA72DF6A2"
         },
         "host": {
-          "__i": 2899092
+          "__i": 731070
         },
         "position": {
           "x": 652.8815,
@@ -570,7 +538,7 @@
     },
     {
       "c": "ht.Node",
-      "i": 2899094,
+      "i": 731072,
       "p": {
         "name": "sw",
         "displayName": "开关（sw2）",
@@ -661,71 +629,158 @@
               "idinfo": "",
               "isTplBinded": false,
               "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "userData": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
             }
           }
         },
         "image": {
-          "modified": "Thu May 16 2024 11:42:59 GMT+0800 (中国标准时间)",
+          "modified": "Sat Aug 24 2024 13:33:13 GMT+0800 (中国标准时间)",
           "dataBindings": [
             {
               "attr": "symbol",
-              "valueType": "Image"
+              "valueType": "Image",
+              "name": "symbol"
             },
             {
               "attr": "open",
               "valueType": "Boolean",
               "defaultValue": true,
-              "group": "功能（关键）"
-            },
-            {
-              "attr": "background",
-              "valueType": "Color",
-              "defaultValue": "rgb(0,199,7)"
-            },
-            {
-              "attr": "closedColor",
-              "valueType": "Color",
-              "defaultValue": null
-            },
-            {
-              "attr": "back.borderWidth",
-              "valueType": "Number",
-              "defaultValue": 1
-            },
-            {
-              "attr": "back.radius",
-              "valueType": "Number",
-              "defaultValue": 18
-            },
-            {
-              "attr": "dot.dotScale",
-              "valueType": "Number",
-              "defaultValue": 1
-            },
-            {
-              "attr": "textScale",
-              "valueType": "Number",
-              "defaultValue": 1
+              "group": "功能",
+              "description": "是否开启。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#zTGOK\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+              "name": "open"
             },
             {
               "attr": "textOpen",
               "valueType": "String",
-              "defaultValue": "开启"
+              "defaultValue": "开启",
+              "description": "开启状态下的文本。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#Xug5s\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+              "name": "textOpen"
             },
             {
               "attr": "textClose",
               "valueType": "String",
-              "defaultValue": "关闭"
+              "defaultValue": "关闭",
+              "description": "关闭状态下的文本。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#soWVP\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+              "name": "textClose"
             },
             {
               "attr": "textVisible",
               "valueType": "Boolean",
-              "defaultValue": true
+              "defaultValue": true,
+              "description": "是否显示文本。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#abjNe\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+              "extraInfo": "★",
+              "name": "textVisible"
+            },
+            {
+              "attr": "userData",
+              "valueType": "Object",
+              "description": "",
+              "defaultValue": [],
+              "name": "userData"
+            },
+            {
+              "attr": "onOpen",
+              "valueType": "Function",
+              "description": "打开时触发。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#DpmVm\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+              "extraInfo": {
+                "arguments": [
+                  "data",
+                  "gv",
+                  "cache",
+                  "value",
+                  "extra"
+                ]
+              },
+              "name": "onOpen"
+            },
+            {
+              "attr": "onClose",
+              "valueType": "Function",
+              "description": "关闭时触发。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#zEJsm\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+              "extraInfo": {
+                "arguments": [
+                  "data",
+                  "gv",
+                  "cache",
+                  "value",
+                  "extra"
+                ],
+                "classify": "★"
+              },
+              "name": "onClose"
+            },
+            {
+              "attr": "onChange",
+              "valueType": "Function",
+              "extraInfo": {
+                "arguments": [
+                  "data",
+                  "gv",
+                  "cache",
+                  "value",
+                  "extra"
+                ]
+              },
+              "description": "变化时触发。\n<br>初始加载会发生。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#oybrJ\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+              "name": "onChange"
+            },
+            {
+              "attr": "background",
+              "valueType": "Color",
+              "defaultValue": "rgb(0,199,7)",
+              "description": "背景颜色。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#Q7vzO\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+              "group": "外观",
+              "name": "background"
+            },
+            {
+              "attr": "closedColor",
+              "valueType": "Color",
+              "defaultValue": null,
+              "description": "关闭状态下的颜色。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#w8HwI\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+              "name": "closedColor"
+            },
+            {
+              "attr": "back.borderWidth",
+              "valueType": "Number",
+              "defaultValue": 1,
+              "description": "边框宽度。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#QnYc9\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+              "extraInfo": "★",
+              "name": "back.borderWidth"
+            },
+            {
+              "attr": "back.radius",
+              "valueType": "Number",
+              "defaultValue": 18,
+              "description": "圆角半径。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#LvorN\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+              "name": "back.radius"
+            },
+            {
+              "attr": "dot.dotScale",
+              "valueType": "Number",
+              "defaultValue": 1,
+              "description": "圆点缩放比例。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#AlwbN\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+              "extraInfo": "★",
+              "name": "dot.dotScale"
+            },
+            {
+              "attr": "textScale",
+              "valueType": "Number",
+              "defaultValue": 1,
+              "description": "文本缩放比例。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#AlwbN\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+              "extraInfo": "★",
+              "name": "textScale"
             },
             {
               "attr": "font",
               "valueType": "Font",
-              "defaultValue": "12px sans-serif, Arial"
+              "defaultValue": "12px sans-serif, Arial",
+              "description": "字体大小设置。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#odwUM\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+              "name": "font"
             },
             {
               "attr": "gapsAdjust",
@@ -733,29 +788,37 @@
               "defaultValue": [
                 0,
                 0
-              ]
+              ],
+              "description": "间隙调整，数组类型。\n<br>索引0代表文字与圆点之间的间隙。\n<br>索引1功能暂未开放。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#MjEq4\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+              "extraInfo": "★",
+              "name": "gapsAdjust"
             },
             {
               "attr": "bindControlsTag",
               "valueType": "StringArray",
-              "group": "bindControls"
+              "group": "连线",
+              "name": "bindControlsTag"
             },
             {
               "attr": "bindControlsAttr",
-              "valueType": "StringArray"
+              "valueType": "StringArray",
+              "name": "bindControlsAttr"
             },
             {
               "attr": "bindControlsVal",
               "valueType": "ObjectArray",
-              "description": "静态值。也用作数组索引、JSON对象解析提取值用途。\n<br>\n一、静态值用途：\n<br>对常规类型的属性赋值且没有反向关联属性值，传入为数值时，\n<br>不会作为数组的索引，而会当成常量值对外赋值。\n<br>\n二、数组索引用途\n<br>情况1：被操作的组件属性原先值是数组时（包括空数组），会\n<br>将待输出的值作为被操作数组指定索引的值来传入，而不是整体\n<br>覆盖。\n<br>\n情况2：如果要被操作的组件属性原先值不是数组，而且待输出的\n<br>值为数组类型并且长度也在索引范围内，那么会按照索引取自身数\n<br>组指定元素再对外输出。（如果想要取待输出索引值，赋值给被操\n<br>纵属性的指定索引，那么需要中间组件属性连线过渡以下，无法直\n<br>接操作）\n<br>\n情况3：如果要被操作的组件属性是数组，而且待输出的值也是数组\n<br>类型，此时当情况1来处理。\n<br>\n三、数据解析用途：\n<br>待输出的值为JSON对象时，用x.y.z这种以字符.或者>为间隔的方式\n<br>实现对JSON字段层次逐层定位，当是数组时x.0.y.1这种以数字的方\n<br>式来指定数组的某个索引。以此实现对任意结果JSON对象字段的定\n<br>位，获取结构内指定字段对应的值。"
+              "description": "",
+              "name": "bindControlsVal"
             },
             {
               "attr": "paramControlTag",
-              "valueType": "StringArray"
+              "valueType": "StringArray",
+              "name": "paramControlTag"
             },
             {
               "attr": "paramControlAttr",
-              "valueType": "StringArray"
+              "valueType": "StringArray",
+              "name": "paramControlAttr"
             },
             {
               "attr": "paramsGenerator",
@@ -772,118 +835,18 @@
                   "type",
                   "inner"
                 ]
-              }
+              },
+              "name": "paramsGenerator"
             },
             {
               "attr": "useAttrCORS",
               "valueType": "Boolean",
+              "extraInfo": "*",
               "defaultValue": false,
-              "description": "属性同源操作。\n                连线操作传递是否限定双方。比如有A/B/C/D/O五个组件，连线操作关系：\n                A→O、B→O、C→O、D→O，以及O→A、O→B、O→C、O→D，总结为\n                A、B、C、D分别与O有往返操作。\n                默认不勾选该属性时，A到D任何一个向O的连线操作，都不会影响到O自身\n                对A到D的下一步操作。勾选了该属性后，那么每次相邻的两次连线交互，\n                则会有同源选择性，比如A→O，下一步则O之会选择到A的操作即O→A。\n                同源操作通常用户多个组件共用一个配置弹窗的情况，比如上述A、B、C、D\n                相当于是四个同类型的组件，而O是公共的属性配置窗口，任何一个比如A点\n                击，可通过O弹窗显示属性，然后修改后将属性值回写到A，且并不会将值给\n                到其他几个组件，即便有连线在。\n                同源操作规则：当连线满足A/B→O.x，且有O.x→A/B时，即前一次组件A连线\n                操作O的x属性，那么，O对外触发且关联x属性值对外时，勾选了本属性同源\n                属性操作的前提下，将只会执行O.x→A，而忽略O.x→B/C等其他非A的图元组\n                件的连线操作。",
+              "description": "连线操作和处理回写是否一致。\n                        比如多个文本框连线传值给相同对话框，弹窗修改\n                        后是否限定只能写到最新赋值过来的文本框。详见<a href='https://www.yuque.com/liuhuo-nc809/uiotos/fgi6dd7gado51acm#fFUbp' style=\"color:rgb(96,172,252)\"target=\"_blank\">同源属性操作</a>",
+              "bindIgnored": true,
+              "name": "useAttrCORS",
               "dynamicCreate": true
-            },
-            {
-              "attr": "userData",
-              "valueType": "ObjectArray"
-            },
-            {
-              "attr": "display",
-              "name": "display",
-              "valueType": "Image",
-              "defaultValue": "",
-              "description": "自定义页面地址。\n                可以是编辑器中的其他页面，也可以\n                是外部网页链接地址。",
-              "group": "弹出框",
-              "dynamicCreate": true
-            },
-            {
-              "attr": "popDirection",
-              "name": "popDirection",
-              "valueType": "SideDirection",
-              "defaultValue": "right",
-              "description": "提示显示位置。",
-              "dynamicCreate": true
-            },
-            {
-              "attr": "popBackground",
-              "name": "popBackground",
-              "valueType": "Color",
-              "defaultValue": "white",
-              "description": "箭头和背景色。",
-              "dynamicCreate": true
-            },
-            {
-              "attr": "popPadding",
-              "name": "padding",
-              "valueType": "NumberArray",
-              "defaultValue": [
-                2,
-                2,
-                2,
-                2
-              ],
-              "description": "内间距。",
-              "dynamicCreate": true
-            },
-            {
-              "attr": "popWidth",
-              "name": "popWidth",
-              "valueType": "Number",
-              "defaultValue": 400,
-              "description": "弹出框宽度。",
-              "dynamicCreate": true
-            },
-            {
-              "attr": "popHeight",
-              "name": "popHeight",
-              "valueType": "Number",
-              "defaultValue": 300,
-              "description": "弹出框高度。",
-              "dynamicCreate": true
-            },
-            {
-              "attr": "popBorderColor",
-              "name": "popBorderColor",
-              "valueType": "Color",
-              "defaultValue": "rgb(51,51,51)",
-              "description": "边框线颜色。\n                    注意，是设置了边框宽度非0后的边框颜色。\n                    默认边框宽度属性为0时，实际上是白色并\n                    带有箭头指示的边框。本属性不用于修改默\n                    认边框色。",
-              "dynamicCreate": true
-            },
-            {
-              "attr": "popBorderWidth",
-              "name": "popBorderWidth",
-              "valueType": "Number",
-              "defaultValue": 0,
-              "description": "边框线宽度。\n                    默认值为0，此时边框默认为白色并且带有\n                    箭头指示。当设置宽度后，颜色将取边框颜\n                    色属性的设置，并且不再有箭头指示。",
-              "dynamicCreate": true
-            },
-            {
-              "attr": "popBorderRadius",
-              "name": "popBorderRadius",
-              "valueType": "Number",
-              "defaultValue": 0,
-              "description": "边框线圆角。\n                    设置圆角线后，如果此前默认是白色边框带有\n                    指示箭头，那么将自动不可见，只对内容区域\n                    产生圆角。",
-              "dynamicCreate": true
-            },
-            {
-              "attr": "popTriggerEvent",
-              "name": "popTriggerEvent",
-              "valueType": "MouseEvent",
-              "defaultValue": "hover",
-              "description": "触发方式。\n                支持鼠标移入、点击（按钮时）\n                两种触发提示的方式。",
-              "dynamicCreate": true
-            },
-            {
-              "attr": "onChange",
-              "valueType": "Function",
-              "extraInfo": {
-                "arguments": [
-                  "data",
-                  "gv",
-                  "cache",
-                  "value",
-                  "extra"
-                ]
-              },
-              "defaultValue": "__ht__function(data, gv, cache, value, extra) {}"
             }
           ],
           "snapshotURL": "symbols/develop/uiotos/arranged/controls/forms_icon/开关.json",
@@ -893,6 +856,7 @@
           "renderHTML": "__ht__function(data, gv, cache) {__switch_lite(data,gv,cache);}",
           "width": 82,
           "height": 35,
+          "pixelPerfect": false,
           "comps": [
             {
               "type": "roundRect",
@@ -916,6 +880,7 @@
               "layoutH": "center",
               "layoutV": "center",
               "prefix": "back",
+              "displayName": "n（n1）",
               "rect": [
                 2.59922,
                 1,
@@ -992,10 +957,10 @@
               }
             }
           ],
-          "uuid": "F46FE2E3-099C-4CE9-A318-F71B86568AB1"
+          "uuid": "9D0ECA41-2E10-412C-AEC0-C95AA72DF6A2"
         },
         "host": {
-          "__i": 2899092
+          "__i": 731070
         },
         "position": {
           "x": 1001.87224,
@@ -1052,7 +1017,7 @@
       }
     }
   ],
-  "modified": "Wed May 22 2024 15:46:00 GMT+0800 (中国标准时间)",
+  "modified": "Mon Aug 26 2024 17:51:40 GMT+0800 (中国标准时间)",
   "contentRect": {
     "x": 589.29108,
     "y": -0.00001,
