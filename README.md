@@ -9,14 +9,16 @@
 ### What is UIOTOS?
 A frontend no-code tool supporting **page nesting**, ready-to-use, where users do not need to understand code development or environment setup and can build IoT, back-end management, SCADA, HMI, and other GUI applications without any prior knowledge, going beyond mere visualization.
 > Front-end development languages like JavaScript, C#, Qt, etc., UIOTOS users don't need any background in these.
+
+![](https://gitee.com/uiotos/uiotos-community/raw/master/images/%E8%BF%9E%E7%BA%BF%E7%A4%BA%E4%BE%8B.gif)
+
 <a name="Y8OBl"></a>
 ### Why was it created?
 - **Even low-code requires some knowledge**
 
-![](https://gitee.com/uiotos/uiotos-community/raw/master/images/%E8%BF%9E%E7%BA%BF%E7%A4%BA%E4%BE%8B.gif)
-
     Low-code tools still require basic development skills and minimal coding, which can be a barrier for users with backgrounds in backend development, algorithms, hardware, electrical engineering, product design, UI design, etc. With UIOTOS, you don't need to write a single line of code for common applications.
     > UIOTOS significantly lowers the user threshold so that even those without front-end coding experience can use it.
+
 - **Limited functionality means upgrading components**
 
     Conventional tools heavily rely on built-in components and require frequent upgrades to meet various needs. UIOTOS supports page nesting, allowing users to combine and nest existing components to extend functionality. With the same number of components, UIOTOS can achieve an order of magnitude more uses compared to conventional tools.
@@ -37,7 +39,7 @@ A frontend no-code tool supporting **page nesting**, ready-to-use, where users d
 
     Wiring, configured with [parse string](https://www.yuque.com/liuhuo-nc809/uiotos/zl6xhi59n2xww3oq#KfdCR), can extract specific fields from arbitrarily complex structured JSON data.
 
-    ![](https://gitee.com/uiotos/uiotos-community/raw/master/images/%E6%95%B0%E6%8D%AE%E6%97%A0%E4%BB%A3%E7%A0%81%E8
+    ![](https://gitee.com/uiotos/uiotos-community/raw/master/images/%E6%95%B0%E6%8D%AE%E6%97%A0%E4%BB%A3%E7%A0%81%E8%A7%A3%E6%9E%90.gif)
 
 - **Existing web resources (like jQuery-based markdown) can be encapsulated as built-in components, eliminating the need to reinvent the wheel.**
 
