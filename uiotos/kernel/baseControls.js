@@ -6031,6 +6031,7 @@ function __interface(data, gv, cache) {
             if (data.ca('url') && isArrayFn(data.ca('url'))) {
                 urlIsArr = true,
                 data.ca('url').forEach((item, index) => {
+                    if(item !== 0 && !item) return; //240828，存在url数组有空的情况！
                     item = String(item);
                     //240301，前后两段中，前者末尾或者后者开头都没有/，那么就自动加，否则就不加斜杠！
                     if(urltmp && urltmp.slice(-1) == '/') urltmp = urltmp.slice(0,-1);
@@ -6044,6 +6045,7 @@ function __interface(data, gv, cache) {
                 secondtmp = urltmp && urltmp.split('/')[2]; //对于https://files/list中，判断files，注意对于有http://时，索引1的为空字符串！
             firsttmp = firsttmp && firsttmp.trim().toLowerCase();
             secondtmp = secondtmp && secondtmp && secondtmp.trim().toLowerCase();
+            let hostURL = data.dm()._url == 'displays/develop/uiotos/editor/home.json' && urltmp.slice(-9) == 'api/login' ? iotos_host : window.top.origin;
             if( 
                 urltmp &&(                                   
                 urltmp.trim().toLowerCase().slice(0,7) == 'http://' || 
@@ -6055,17 +6057,17 @@ function __interface(data, gv, cache) {
                 if (secondtmp && (secondtmp.indexOf('.') == -1 && secondtmp !== "localhost")) { 
                     let splited = urltmp.split('/');
                     //240811，window.top.origin.split('/')[2]相当于从http://localhost:8999中，取localhost:8999
-                    splited[2] = window.top.origin.split('/')[2] + '/' + splited[2];
+                    splited[2] = hostURL.split('/')[2] + '/' + splited[2];
                     urltmp = splited.join('/');   //splited.slice(2).join('/'); //因为window.origin带有了http://或https://，那么要去掉原先配置或自动加上的http头！
                 }
             }else if(urltmp){
                 if(urltmp.slice(0,1) == '/'){
-                    urltmp = window.top.origin + urltmp;
+                    urltmp = hostURL + urltmp;
                 }else{
                     if(firsttmp.indexOf('.') != -1){
                         urltmp = (data.ca('type') == 'http' ?  'http://' : 'ws://') + urltmp;
                     }else{
-                        urltmp = window.top.origin + '/' + urltmp;
+                        urltmp = hostURL + '/' + urltmp;
                     }
                 }
             }
