@@ -142,6 +142,7 @@ UIOTOS不是`“银弹”`，有适用的和暂不适用的场景。分别如下
 <a name="dMCwf"></a>
 ## 使用
 
+![](https://gitee.com/uiotos/uiotos-community/raw/master/images/%E7%A4%BA%E4%BE%8B.jpg)
 
 演示地址：[203.189.6.3:18999](http://203.189.6.3:18999/)
 
