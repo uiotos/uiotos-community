@@ -5350,7 +5350,7 @@
                         let objtmp = ht.Default.getImage(symbolObjTmp);
                         if (objtmp == undefined) {
                             //240703，tips，异步加载之前先清理复位hasLoaded。在异步接着执行时，通过onImageLoaded内回调传入第二个参数isAsync为true来跟.hasLoaded结合在一起来判断！
-                            if (!runningMode() && editor.displayView) editor.displayView.hasLoaded = undefined;
+                            if (!runningMode() && typeof(editor) !== 'undefined' && editor.displayView) editor.displayView.hasLoaded = undefined;
                             i.onImageLoaded(symbolObjTmp, function(img) {
                                 symbolObjTmp = img;
                                 retCallback && retCallback(__judged(), true); //240702，第二个参数为true时，标明是异步加载资源后回调进来的！
