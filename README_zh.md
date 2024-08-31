@@ -14,6 +14,7 @@
     
 >前端开发语言JavaScript、C#、Qt等，UIOTOS用户不需要有任何基础。
 
+![](https://gitee.com/uiotos/uiotos-community/raw/master/images/aaa.gif)
 ![](https://gitee.com/uiotos/uiotos-community/raw/master/images/%E8%BF%9E%E7%BA%BF%E7%A4%BA%E4%BE%8B.gif)
 
 <a name="Y8OBl"></a>

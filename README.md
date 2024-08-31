@@ -10,6 +10,7 @@
 A frontend no-code tool supporting **page nesting**, ready-to-use, where users do not need to understand code development or environment setup and can build IoT, back-end management, SCADA, HMI, and other GUI applications without any prior knowledge, going beyond mere visualization.
 > Front-end development languages like JavaScript, C#, Qt, etc., UIOTOS users don't need any background in these.
 
+![](https://gitee.com/uiotos/uiotos-community/raw/master/images/aaa.gif)
 ![](https://gitee.com/uiotos/uiotos-community/raw/master/images/%E8%BF%9E%E7%BA%BF%E7%A4%BA%E4%BE%8B.gif)
 
 <a name="Y8OBl"></a>
