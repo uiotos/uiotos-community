@@ -10351,7 +10351,7 @@
                 target && console.error('WARN: node choosed as base in page', dm._url, ',node', target.getDisplayName(), 'auto selected!', 'object is:', target);
 
                 //是否有一个图元，区域本身就包含了其他图元
-                let groupRectTmp = i.groupRect(tobeTargets);
+                let groupRectTmp = i.groupRect(tobeTargets,null,true);
                 tobeTargets.forEach(item => {
                     let curRect = item.getRect && item.getRect();
                     if (
@@ -10368,7 +10368,7 @@
                 if (hasMulti && isArrayFn(dm)) {
                     let basetmp = new ht.Node(),
                         dmtmp = tobeTargets[0].dm(),
-                        groupRectTmp = i.groupRect(tobeTargets);
+                        groupRectTmp = i.groupRect(tobeTargets,null,true);
 
                     //231126，四周留下间隙
                     let gaps = [];
@@ -10574,8 +10574,8 @@
             hasNoRect: function(data) {
                 return !data.getPosition || !data.getWidth || !data.getHeight;
             },
-            averageGaps: function(nodeArr) {
-                let recttmp = i.groupRect(nodeArr);
+            averageGaps: function(nodeArr,centerPos = true) {
+                let recttmp = i.groupRect(nodeArr,null, centerPos);
 
                 //返回的中心坐标转换成左上顶点坐标：
                 recttmp.x = recttmp.x - recttmp.width / 2;
