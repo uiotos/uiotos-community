@@ -9288,14 +9288,26 @@ function __convertor(data, gv, cache) {
             },
             //231205，新增工具函数inputs输入组对应的扁平化输入键、值组，类似api组件的jsonFormat和paramKeys/paramValues，双向编辑同步，方便操作对象的值！可以根据这个特性实现数组转换成对象，并且指定key对应！
             'a:inputKeys|a:inputValues|a:jsonStruct': e => {
-                if(!data._i_updateObjectToKeyValues && !i.isHtNodeData(data.ca('inputs')) && isObject(data.ca('inputs')) && !isArrayFn(data.ca('inputs'))){
+                let firstInitKeyValues = e.property == 'a:inputValues' && (e.oldValue === undefined || e.oldValue.length == 0) && data.ca('inputs') === undefined;
+                if(firstInitKeyValues) {
+                    data._i_inputInitial = true;
+                    let objtmp = {},
+                        keystmp = data.ca('inputKeys');
+                    isArrayFn(keystmp) && keystmp.forEach(key=>{
+                        objtmp[key] = null;
+                    });
+                    i.update(data,'a:inputs', objtmp);
+                    data._i_inputInitial = undefined;
+                }
+                if(data._i_inputInitial) return;
+
+                if(firstInitKeyValues || (!data._i_updateObjectToKeyValues && !i.isHtNodeData(data.ca('inputs')) && isObject(data.ca('inputs')) && !isArrayFn(data.ca('inputs')))){
                     let isObjInputing = false;
                     if(e.property == 'a:jsonStruct' && (e.oldValue === 0 || e.oldValue === 1) && e.newValue >= 2){
                         i.arrClear(data.ca('inputKeys'),[]);
                         i.arrClear(data.ca('inputValues'),[]);
                         isObjInputing = true;
                     }
-                    //240809，如果是jsonStruct修改，那么以inputs为准，同步inputKeys、inputsValues。否则是用inputsKeys/inputsValues来同步inputs。
                     i.objectToKeyValues(data.ca('inputs'), data.ca('inputKeys'), data.ca('inputValues'), isObjInputing , data.ca('jsonStruct'));
                     data._i_updateObjectToKeyValues = true;
                     i.backWriteAttrs(data, {
