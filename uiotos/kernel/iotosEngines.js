@@ -1046,7 +1046,7 @@
                             oldValCloned1.push(valFieldTmp);
                         }
                         valFieldTmp = oldValCloned1;
-                    } else if (valFieldTmp !== undefined && valFieldTmp !== ignoreFlag) { //230809，对于连线操作过滤掉的，那也不进行对外操作了。
+                    } else if ((valFieldTmp !== undefined || isParamCtrlIsFunc) && valFieldTmp !== ignoreFlag) { //230809，对于连线操作过滤掉的，那也不进行对外操作了。
                         let newValTmp = valFieldTmp, //后面涉及对于数组类型输出，可能涉及数组各元素合并的情况，因此将设定值和旧值分别赋值存放。
                             typetmp = '', //如果是数组，那么获取数组元素统一类型（元素数量最多的类型）；非数组则是自身的值类型。
                             newValIsArrType = false; //231205，当前传入的就是数组类型
@@ -2800,7 +2800,7 @@
         //强制进入
         if (forceEnter) {
             __pureLoadEditor();
-            return;
+            return true;
         } else if (
             runningMode() &&
             i.getItemWithExpiration('_i_user', false) && //240525，这里第二个参数应该传入false貌似，否则应该会导致重复刷新死循环吧！
@@ -2809,7 +2809,7 @@
             window._i_reEnteringWithSessionStorage = true;
             i.showMessage('自动登录' + i.user() + '...', 'info', null, 'center', 180, 0);
             __pureLoadEditor();
-            return;
+            return true;
         }
 
         //正常登录后进入
@@ -2833,6 +2833,7 @@
                     'username': username
                 };
                 __pureLoadEditor();
+                return true;
             } else {
                 uid = {
                     user_id: null
@@ -3890,6 +3891,16 @@
             },
             //240123，相对于updateForce机制较为复杂，这里很纯粹，相当于子集，仅仅是代替data.ca/s/p，自动识别前缀的方式赋值！
             setValue: function(node, attr, value) {
+                /*240904，对于s:2d.visible，和值为false的不能进来！因为组件默认隐藏时，渲染元素是不会执行的。如果在继承的上层也有出事form绑定赋值为false，初始再来一次不可见，
+                在这里被缓存了，那么后面再对其设置可见，就会出现闪一下又自动隐藏的情况！！就是因为缓存了导致的！！*/
+                if (!node._cache && i.isSymbolType(node) && attr.slice(-10) !== '2d.visible' && value == false) {
+                    if(!node._i_setValueBeforeInits) node._i_setValueBeforeInits = [];  //240903，之前是单个函数，但是会存在覆盖！因此需要换成数组！！
+                    node._i_setValueBeforeInits.push(() => {
+                        i.setValue(node, attr, value);
+                    });
+                    return;
+                }
+
                 let attrWithPrefixed = i.autoPrefixed(attr, node),
                     prefixed = attrWithPrefixed.slice(0, 1),
                     pureAttr = attrWithPrefixed.slice(2);
@@ -3903,12 +3914,6 @@
                     case 'p':
                         p(node, pureAttr, value);
                         break;
-                }
-                if (!node._cache) {
-                    node._i_setValueBeforeInit = () => {
-                        i.setValue(node, attr, value);
-                        node._i_setValueBeforeInit = undefined;
-                    }
                 }
             },
             /*240206，带自动缓存的属性赋值*/
@@ -7089,7 +7094,8 @@
                             attr: controlsAttr[index],
                         };
                         let passtmp = true;
-                        let paramCtrlAttrIsFunc = paramAttrFieldTmp && i.lower(i.getBindedAttrValueType(data, paramAttrFieldTmp)) == 'function' && paramTagFieldTmp == data.getTag();
+                        let paramCtrlAttrIsFunc = paramAttrFieldTmp && i.lower(i.getBindedAttrValueType(data, paramAttrFieldTmp)) == 'function' && paramTagFieldTmp == data.getTag(),
+                            isParamCtrlIsFunc = i.isFuncTypeControl(d(data.dm(), paramTagFieldTmp));    //240905，关联组件是否是函数组件，函数组件的undefined可以直接输出！
                         //230217,提取出来的公共函数（内容实现未变），通过paramAttr绑定的回调函数执行的值，如果有就回写更新到valFieldTmp中
                         function __updateValFieldByParamAttrCb() {
                             if (cb) {
@@ -7268,7 +7274,7 @@
                                     valArrIndex != null && //如果原先配置的静态值为非负整数（或对应的字符串）
                                     isArrayFn(oldValTmp) && //且被操纵的属性是数组类型（包含空数组）
                                     //230818，加上了&& valFieldTmp == ignoreFlag，貌似本应该就是首先判断ignoreFlag的
-                                    (valFieldTmp !== undefined && valFieldTmp != ignoreFlag) //230810，加上条件，因为上面经过了过滤函数，只要上面过来的有undefined的，那么就过滤不触发！何况事件过滤也是通过undefined在上面设置过滤的！
+                                    ((valFieldTmp !== undefined || isParamCtrlIsFunc) && valFieldTmp != ignoreFlag) //230810，加上条件，因为上面经过了过滤函数，只要上面过来的有undefined的，那么就过滤不触发！何况事件过滤也是通过undefined在上面设置过滤的！
                                 ) { //此时，操作值将变为对原属性数组值指定索引操作后的新数组！
                                     if (
                                         !isvalueOnOutput &&
@@ -7302,7 +7308,7 @@
                                     valFieldTmp[valArrIndex] !== undefined && //且尝试按照索引给反向关联属性值取元素，值存在
 
                                     //230818，加上了&& valFieldTmp == ignoreFlag，貌似本应该就是首先判断ignoreFlag的
-                                    (valFieldTmp !== undefined && valFieldTmp != ignoreFlag) //230810，加上条件，因为上面经过了过滤函数，只要上面过来的有undefined的，那么就过滤不触发！何况事件过滤也是通过undefined在上面设置过滤的！
+                                    ((valFieldTmp !== undefined || isParamCtrlIsFunc) && valFieldTmp != ignoreFlag) //230810，加上条件，因为上面经过了过滤函数，只要上面过来的有undefined的，那么就过滤不触发！何况事件过滤也是通过undefined在上面设置过滤的！
 
                                 ) { //此时，操作值将变为反向关联属性数组按照索引取元素后的值！
                                     valFieldTmp = valFieldTmp[valArrIndex];
@@ -10161,7 +10167,13 @@
                     attrsInit.push('a:userData'); //230325，默认加上userData也参与初始化
                     __attrsInitOnCondition(true);
                 }
-                if (data._i_setValueBeforeInit) data._i_setValueBeforeInit();
+
+                if (data._i_setValueBeforeInits) {
+                    data._i_setValueBeforeInits.forEach(func=>{
+                        func();
+                    });
+                    data._i_setValueBeforeInits = undefined;
+                }
             },
             //编辑器打开的当前图纸url
             currentUrl: function() {
@@ -11443,6 +11455,19 @@
                     console.error(error, data);
                     return true;
                 }
+            },
+            //240903，带有渲染元素、i.md的类型的组件！
+            isSymbolType: function(data){
+                let imgtmp = data.getImage && data.getImage();
+                if(imgtmp){
+                    if(typeof(imgtmp) == 'string'){
+                        if(imgtmp.slice(0,8) == 'symbols/' && imgtmp.slice(-5) == '.json') return true;
+                    }else if(typeof(imgtmp) == 'object'){
+                        imgtmp = data.ca('symbol');
+                        if(imgtmp.slice(0,8) == 'symbols/' && imgtmp.slice(-5) == '.json') return true;
+                    }else console.assert(0);
+                }
+                return false;
             },
             //判断是否是只有一层的json对象或者数组
             isJsonWithOneLayer: function(jsonObj) { //可传入json对象或者数组

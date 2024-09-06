@@ -728,8 +728,8 @@ function __combobox_ui(data, gv, cache) {
             },
             //230626，将背景颜色放到这里
             'a:background': e => {
-                //240711，合并背景属性到数组，兼容此前单独的配置方式。
-                combobox.setBackground(isArrayFn(e.newValue) ? e.newValue[0] : e.newValue);
+                //240905，需要考虑只读模式，在多层嵌套后，上层对readOnly设置只读，那么颜色需要同步显示只读的！
+                combobox.setBackground(i.valArrCompatiable(e.newValue, Number(data.ca('disabled'))));
             },
             'a:selectedID': e => { //2300920，将selectedIDGet改成selectedID，为了让表单能提交同时能读取初始化加载显示！
                 data.ca('value', e.newValue); //相当于value中写入，毕竟编辑时就支持value中传入，那么让其兼容该功能即可！
@@ -1466,7 +1466,9 @@ function __dateRangePicker_ui(data, gv, cache) {
             //231003，将背景颜色放到这里
             'a:background': e => {
                 //240711，合并边框色，并且兼容此前分开的配置。
-                cache.control.setBackground(isArrayFn(e.newValue) ? e.newValue[0] : e.newValue);
+                // cache.control.setBackground(isArrayFn(e.newValue) ? e.newValue[0] : e.newValue);
+                //240905，需要考虑只读模式，在多层嵌套后，上层对readOnly设置只读，那么颜色需要同步显示只读的！
+                cache.control.setBackground(i.valArrCompatiable(e.newValue, Number(data.ca('disabled'))));
             },
             'a:mode': e => {
                 /*240225，如果e.oldValue是__init__初始化加载，那么就不清理数据绑定data.getDatabindings的设置值attrObject，因为可能下面紧接着初始动态增加insertTempAttr，否则会出现
@@ -2197,13 +2199,6 @@ function __dialog_ui(data, gv, cache) {
                     data.ca('show', false); //复位
                     cache.current.hide();
                     __changeContentTo('edit');
-
-                    if (data.ca('reloadWhenOpen')) {
-                        //tips 231219，会不会对内嵌页初始加载反弹有影响？？有待进一步观察和测试！
-                        _i.setTimeout(() => {
-                            runningMode() && _i.clearDeep(data, true);
-                        }, 0);
-                    }
                 }
             },
             'a:hide': e => { //代码来做对话框主动关闭（非手动关闭时），比如处理中/加载中的过渡对话框，成功完成后，自动关闭当前、触发新的弹窗
@@ -2511,7 +2506,7 @@ function __input_ui(data, gv, cache) {
                     textField.setBackground(e.newValue ? readOnlyBkgColor : i.valArrCompatiable(data.ca('background')));
                 },
                 'a:background': e => {
-                    textField.setBackground(i.valArrCompatiable(e.newValue));
+                    textField.setBackground(i.valArrCompatiable(e.newValue, Number(data.ca('readOnly'))));
                 },
                 'a:placeholder': e => {
                     textField.setPlaceholder(e.newValue);
@@ -3861,10 +3856,13 @@ function __textArea_ui(data, gv, cache) {
                         textArea.setVisible(false);
                         htmlView.setVisible(true);
                         cache.control = htmlView;
+                        cache.control.setPadding(data.ca('padding'));
+                        data.fp('a:padding',undefined,data.ca('padding'));
                     } else {
                         textArea.setVisible(true);
                         htmlView.setVisible(false);
                         cache.control = textArea;
+                        data.fp('a:padding',undefined,data.ca('padding'));
                     }
                 } else {
                     let upperDlg = i.upperData(data);
@@ -3880,7 +3878,7 @@ function __textArea_ui(data, gv, cache) {
                 data.ca('htmlContent') ? htmlView.setContent(contenttmp) : textArea.setValue(contenttmp);
             },
             'a:background': e => {
-                textArea.setBackground(isArrayFn(e.newValue) ? e.newValue[0] : e.newValue);
+                textArea.setBackground(i.valArrCompatiable(e.newValue, Number(data.ca('readOnly'))));
             },
             'a:readOnly': e => {
                 textArea.setReadOnly && textArea.setReadOnly(e.newValue);
@@ -3908,7 +3906,7 @@ function __textArea_ui(data, gv, cache) {
                 let bdInfoTmp = __borderInfo();
                 cache.control.setBorder && cache.control.setBorder(new ht.ui.border.CSSBorder(bdInfoTmp[0], bdInfoTmp[1]));
             }
-        }, ['a:value', 'a:background', 'a:readOnly','a:padding'], null, cache.control, e => {
+        }, ['a:value', 'a:background', 'a:readOnly'], null, cache.control, e => {
             //label与组件水平、垂直对齐布局
             i._labelLayout(data, gv, cache, e);
         });
@@ -5953,14 +5951,16 @@ function __interface(data, gv, cache) {
             data.ca('post',undefined);
         }
 
-        //240811，参考下面工具函数的兼容操作！
-        let curJsonStructType = data.ca('convertFlatToTree');
-        if(data.ca('convertFlatToTree') === undefined) curJsonStructType = 0; //此前convertFlatToTree定义时默认值为false。因此如果此前未配置，也是相当于配置了1。
-        curJsonStructType = Number(curJsonStructType);
-        if(curJsonStructType == 0) curJsonStructType = 1;//240810，必须默认模式为1，否则对参数对象的任意输入，结果字段受限制了！！
-        i.update(data,'jsonStruct', curJsonStructType);
-        data.ca('convertFlatToTree',undefined); 
-
+        //240904，只有在jsonStruct没有配置时，才考虑此前旧属性convertFlatToTree的兼容！
+        if(data.ca('jsonStruct') === undefined){
+            //240811，参考下面工具函数的兼容操作！
+            let curJsonStructType = data.ca('convertFlatToTree');
+            if(data.ca('convertFlatToTree') === undefined) curJsonStructType = 0; //此前convertFlatToTree定义时默认值为false。因此如果此前未配置，也是相当于配置了1。
+            curJsonStructType = Number(curJsonStructType);
+            if(curJsonStructType == 0) curJsonStructType = 1;//240810，必须默认模式为1，否则对参数对象的任意输入，结果字段受限制了！！
+            i.update(data,'jsonStruct', curJsonStructType);
+            data.ca('convertFlatToTree',undefined); 
+        }
 
         let obj = cache.obj = new ht.ui.HtmlView(); //new ht.ui.TextArea()，230323，日志输出有多行文本切换成html，方便样式设置！
         obj.setBackground('white');
@@ -8436,13 +8436,16 @@ function __convertor(data, gv, cache) {
             }
         }
 
-        //240809，兼容此前的convertFlatToTree属性配置，现在用新的枚举类型jsonStruct代替！之前默认不勾选convertFlatToTree时，貌似输入inputs，也会是保持对象结构 ，而不是新规则这种，只要是模式0，就会扁平化！
-        let curJsonStructType = data.ca('convertFlatToTree');
-        if(data.ca('convertFlatToTree') === undefined) curJsonStructType = 0; //此前convertFlatToTree定义时默认值为false。因此如果此前未配置，也是相当于配置了1。
-        curJsonStructType = Number(curJsonStructType);
-        if(curJsonStructType == 0) curJsonStructType = 1;//240810，必须默认模式为1，否则对参数对象的任意输入，结果字段受限制了！！
-        i.update(data,'jsonStruct', curJsonStructType);
-        data.ca('convertFlatToTree',undefined); 
+        //240904，只有在jsonStruct没有配置时，才考虑此前旧属性convertFlatToTree的兼容！
+        if(data.ca('jsonStruct') === undefined){
+            //240809，兼容此前的convertFlatToTree属性配置，现在用新的枚举类型jsonStruct代替！之前默认不勾选convertFlatToTree时，貌似输入inputs，也会是保持对象结构 ，而不是新规则这种，只要是模式0，就会扁平化！
+            let curJsonStructType = data.ca('convertFlatToTree');
+            if(data.ca('convertFlatToTree') === undefined) curJsonStructType = 0; //此前convertFlatToTree定义时默认值为false。因此如果此前未配置，也是相当于配置了1。
+            curJsonStructType = Number(curJsonStructType);
+            if(curJsonStructType == 0) curJsonStructType = 1;//240810，必须默认模式为1，否则对参数对象的任意输入，结果字段受限制了！！
+            i.update(data,'jsonStruct', curJsonStructType);
+            data.ca('convertFlatToTree',undefined); 
+        }
 
         //240730，多个属性在分散的函数中，公共的配置，避免每个渲染元素json都要来一次！
         attrsCommonTmp = i.insertTempAttrs(data, [{
@@ -9571,7 +9574,7 @@ function __convertor(data, gv, cache) {
                                         id: idFieldTmp,
                                         parent: data.ca('keyParent') ? data.ca('keyParent') : 'parent',
                                         children: data.ca('keyChildren') ? data.ca('keyChildren') : 'children'
-                                    },true), data.ca('fields'), idFieldTmp,true));
+                                    },true), data.ca('fields'), idFieldTmp,false));
                                     break;
                                 case 'isEqual':
                                     let val1 = i.__realInputs(data, inputs),
