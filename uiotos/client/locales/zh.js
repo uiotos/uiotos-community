@@ -905,7 +905,7 @@ hteditor.strings = {
     textColor: '文字颜色',
     textFont: '字体',
     labelColor: '标签颜色',
-    radius: '圆角/半径',
+    radius: '圆角半径',
     darkStyle: '深色风格',
     gap: '间隙',
     labelEmbeded: '标签内嵌',
@@ -1025,7 +1025,7 @@ hteditor.strings = {
     'axisLine.color': '坐标轴颜色',
     areaColorAlpha: '颜色区透明度',
     onChange: '值改变事件',
-    hoverTrigger: '划过时触发',
+    hoverTrigger: '悬停时触发',
     direction: '方向',
     buttons: '各按钮文字',
     btnDatas: '各按钮数据',
@@ -1062,6 +1062,14 @@ hteditor.strings = {
     vAlign: '垂直对齐',
     selected: '选中',
     datas: '数据内容',
+    treeBoxShadow: '下拉树框阴影',
+    treeBackground: '下拉树背景色',
+    treeLabelColor: '下拉树文字色',
+    treeLabelFont: '下拉树字体',
+    treeRowHeight: '下拉树行高',
+    treeBorderWidth: '下拉树边框宽度',
+    treeBorderRadius: '下拉树边框圆角',
+    treePadding: '下拉树四周间距',
     indexValues: '勾选项值',
     idValues: '勾选项ID',
     textValues: '勾选项文字',
@@ -1746,3 +1754,4 @@ hteditor.attrsDBCommonInfo = [{
         <br>就会显示内嵌页颜色。${i.attrNoteLinkedStyle('https://www.yuque.com/liuhuo-nc809/uiotos/fgi6dd7gado51acm#oWmmh')}`
     }
 ]
+hteditor.strings_raw = i.clone(hteditor.strings);

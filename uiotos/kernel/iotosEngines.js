@@ -10547,7 +10547,7 @@
                 return ht.Default.containsRect(baseRect, curRect);
             },
             /*返回的x、y属于组合形成的外框并集的矩形区域的中心点坐标，注意，并非左上顶点！！*/
-            groupRect: function(nodeArr, groupNode = null) {
+            groupRect: function(nodeArr, groupNode = null, centerPos = false) {
                 let top = null,
                     left = null,
                     right = null,
@@ -10576,8 +10576,8 @@
                 }
                 return {
                     //240721，这里此前存在BUG，要知道get/setPositon的x、y是中心点，但get/setRect的x、y是左上顶点！！！两者是不一样的！
-                    x: left/* + (right - left) / 2*/,
-                    y: top/* + (bottom - top) / 2*/,
+                    x: centerPos ? (left + (right - left) / 2) : left,
+                    y: centerPos ? (top + (bottom - top) / 2) : top,
                     width: right - left,
                     height: bottom - top
                 }
@@ -10664,6 +10664,7 @@
                             }
 
                             if (event.kind == 'set') {
+                                hteditor.strings = i.clone(hteditor.strings_raw);
                                 //240615，加上条件&&ht.Default.isCtrlDown()，按下ctrl时，点击选中或取消，都不能有面板显示隐藏切换！
                                 if (smtmp.getLastData() && !smtmp.getLastData().ca('_editDebug') && !ht.Default.isCtrlDown()) { //240523，对于勾选了编辑时双击执行的，就不要点击展开属性面板了，因为可能是免登录模式侧边栏隐藏并且允许用户双击编辑时组件来体验的情况！
                                     editor.mainSplitView.setStatus("normal"); //显示右边侧边栏
