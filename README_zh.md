@@ -156,3 +156,5 @@ UIOTOS不是`“银弹”`，有适用的和暂不适用的场景。分别如下
 演示地址：[203.189.6.3:18999](http://203.189.6.3:18999/)
 
 参见文档：[UIOTOS帮助手册](https://www.yuque.com/liuhuo-nc809/uiotos?#%20%E3%80%8AUIOTOS%E3%80%8B)
+
+微信联系：![微信联系](https://gitee.com/uiotos/uiotos-community/raw/master/images/%E5%BE%AE%E4%BF%A1.png)

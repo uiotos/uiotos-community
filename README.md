@@ -142,3 +142,5 @@ UIOTOS is not a "silver bullet" and has both suitable and less suitable scenario
 Demo: [203.189.6.3:18999](http://203.189.6.3:18999/)
 
 Document: [UIOTOS User Manual](https://www.yuque.com/liuhuo-nc809/uiotos)
+
+Contact：![微信联系](https://gitee.com/uiotos/uiotos-community/raw/master/images/%E5%BE%AE%E4%BF%A1.png)
