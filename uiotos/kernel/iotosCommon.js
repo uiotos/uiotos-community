@@ -2070,6 +2070,9 @@ var pathAbs = function(folder = null, type = 'displays', isCommonDemo = false) {
 };
 
 function registerHtCommonImage() {
+    //240907，运行状态貌似没必要注册。尤其是导出部署的情况！会导致下面大量资源加载失败。有待进一步观察。
+    if(runningMode()) return;
+
     ht.Default.clickDelay = 10; 
     //230419，初始自动加载注册系统字典图纸，用于系统配置文件用途！首先在图纸收藏中用到！初始为用户未登录时，加载develop账号的！
     i.initConfigure('develop');

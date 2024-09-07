@@ -77,7 +77,6 @@
             'custom/libs/json-cycle.js',
             'custom/libs/md5.js',
             'custom/libs/handlebars.js',
-            'custom/libs/heatmap.js',
             'custom/libs/easing.js',
             'custom/js/zkys.js',
             'custom/json/color.js',
@@ -104,7 +103,8 @@
             let url = scriptUrls.shift();
             if (url) {
                 url = getUrlOverIpParam(url, true);
-                loadScript(url.indexOf('http') != -1 ? url : (srctmp + '/../../..' + (url[0] == '/' ? '' : '/') + url), function() {
+                //240907，相对路径修改为'/../..'，这样kernel目录与custom目录平级
+                loadScript(url.indexOf('http') != -1 ? url : (srctmp + /*'/../../..'*/'/../..' + (url[0] == '/' ? '' : '/') + url), function() {
                     // 所有依赖脚本都已经加载完成，可以执行代码了
                     __loadJs(); // 递归加载下一个脚本
                 });
