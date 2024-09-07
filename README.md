@@ -139,7 +139,7 @@ UIOTOS is not a "silver bullet" and has both suitable and less suitable scenario
 
 ![](https://gitee.com/uiotos/uiotos-community/raw/master/images/%E7%A4%BA%E4%BE%8B.jpg)
 
-Demo: [203.189.6.3:18999](http://203.189.6.3:18999/)
+Demo: [203.189.6.3:8999（Fully）](http://203.189.6.3:8999/)  / [203.189.6.3:18999](http://203.189.6.3:18999/)
 
 Document: [UIOTOS User Manual](https://www.yuque.com/liuhuo-nc809/uiotos)
 
