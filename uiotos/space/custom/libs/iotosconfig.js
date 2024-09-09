@@ -1,4 +1,4 @@
-hostname = "sys.aiotos.net"
+hostname = "203.189.6.3:8081"
 
 iotos_host = "http://" + hostname;
 

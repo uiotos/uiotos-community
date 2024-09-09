@@ -108,7 +108,7 @@ UIOTOS is not a "silver bullet" and has both suitable and less suitable scenario
 ## Getting Started
 - **Step 1: Prepare the Environment**
 
-    On Linux or Windows, install Node.js (the latest version).
+    On Linux or Windows, <a href='https://url.nodejs.cn/download/'>install Node.js</a> (the latest version).
 - **Step 2: Clone the Repository**
 
     ```

@@ -120,7 +120,7 @@ UIOTOS不是`“银弹”`，有适用的和暂不适用的场景。分别如下
 
 - **步骤一：环境准备**
 
-    Linux或Windows下，安装Node.js（最新版即可）。
+    Linux或Windows下，<a href='https://url.nodejs.cn/download/'>安装Node.js</a>（最新版即可）。
 
 - **步骤二：拉取代码**
     ```

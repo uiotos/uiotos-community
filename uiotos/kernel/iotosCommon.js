@@ -2070,52 +2070,54 @@ var pathAbs = function(folder = null, type = 'displays', isCommonDemo = false) {
 };
 
 function registerHtCommonImage() {
-    //240907，运行状态貌似没必要注册。尤其是导出部署的情况！会导致下面大量资源加载失败。有待进一步观察。
-    if(runningMode()) return;
-
     ht.Default.clickDelay = 10; 
     //230419，初始自动加载注册系统字典图纸，用于系统配置文件用途！首先在图纸收藏中用到！初始为用户未登录时，加载develop账号的！
     i.initConfigure('develop');
-    i.setImage('icon.none', 'symbols/develop/uiotos/desk/none.json');
-    // i.setImage('icon.iotos', 'symbols/develop/uiotos/icons/IOTOS.json');
-    i.setImage('icon.menu', 'symbols/develop/uiotos/icons/editroToolBar/Table-1.json');
-    i.setImage('icon.button', 'symbols/develop/uiotos/icons/editroToolBar/anniu.json');
-    i.setImage('icon.switch', 'symbols/develop/uiotos/icons/editroToolBar/switchButton.json');
-    //1.1、若要把2中的功能图标放到工具栏，还需要额外对应的快捷图标！
-    i.setImage('icon.base.grid', 'symbols/develop/uiotos/icons/editroToolBar/border-middle-horizontal.json');
-    i.setImage('icon.base.graphView', 'symbols/develop/uiotos/icons/editroToolBar/layoutForm.json');
-    i.setImage('icon.base.tabView', 'symbols/develop/uiotos/icons/editroToolBar/danchuang.json');
-    i.setImage('icon.base.iconClick', 'symbols/develop/uiotos/icons/editroToolBar/tupian.json');
-    i.setImage('icon.desk.icon', 'symbols/develop/uiotos/icons/editroToolBar/zuhe.json');
-    i.setImage('icon.base.dialog-ui', 'symbols/develop/uiotos/icons/editroToolBar/dialog.json');
-    i.setImage('icon.base.tabs', 'symbols/develop/uiotos/icons/editroToolBar/Tabs.json');
-    // i.setImage('icon.base.edit', 'symbols/develop/uiotos/icons/editroToolBar/edit.json');
-    i.setImage('icon.base.checkbox', 'symbols/develop/uiotos/icons/editroToolBar/tick-square.json');
-    i.setImage('icon.base.combobox', 'symbols/develop/uiotos/icons/editroToolBar/xialaliebiao.json');
-    i.setImage('icon.base.ichart', 'symbols/develop/uiotos/icons/editroToolBar/chart-bar.json');
-    i.setImage('icon.base.checkbox2', 'symbols/develop/uiotos/icons/editroToolBar/check-square.json');
-    i.setImage('icon.base.scroll', 'symbols/develop/uiotos/icons/editroToolBar/scroll.json');
-    i.setImage('icon.base.phone', 'symbols/develop/uiotos/base/__eventbus.json');
-    i.setImage('icon.base.sharp', "symbols/develop/uiotos/icons/editroToolBar/hashtag.json");
-    i.setImage('icon.base.function', "symbols/develop/uiotos/icons/editroToolBar/function.json");
-    i.setImage('icon.base.textarea', 'symbols/develop/uiotos/icons/editroToolBar/textEdit.json');
-    i.setImage('icon.base.date', 'symbols/develop/uiotos/icons/editroToolBar/timeSelector.json');
-    i.setImage('icon.base.time', 'symbols/develop/uiotos/icons/editroToolBar/TimePicker.json');
-    i.setImage('icon.base.page', 'symbols/develop/uiotos/icons/editroToolBar/file-alt.json');
-    i.setImage('icon.base.bracket', 'symbols/develop/uiotos/icons/editroToolBar/brackets.json');
-    i.setImage('icon.base.radiobox', 'symbols/develop/uiotos/icons/editroToolBar/radioBox.json');
-    i.setImage('icon.base.camera', 'symbols/develop/uiotos/desk/icons/editroToolBar/camera-home.json');
-    i.setImage('icon.base.video', 'symbols/develop/uiotos/desk/icons/editroToolBar/video.json');
-    i.setImage('icon.base.gismap', 'symbols/develop/uiotos/icons/editroToolBar/gis.json');
-    i.setImage('icon.base.document', 'symbols/develop/uiotos/icons/editroToolBar/file-fill-72.json');
-    i.setImage('icon.base.linkage', 'symbols/develop/uiotos/icons/editroToolBar/breadCrumb.json');
-    i.setImage('icon.base.gauge', 'symbols/demo/uiotos/工具栏图标/仪表-37.json');
-    i.setImage('icon.base.sideMenu', 'symbols/develop/uiotos/icons/editroToolBar/隐藏菜单-15.json');
-    i.setImage('icon.base.pie', 'symbols/demo/uiotos/工具栏图标/chart-pie-alt-15.json');
-    i.setImage('icon.base.bar', 'symbols/demo/uiotos/工具栏图标/chart-bar-20.json');
-    i.setImage('icon.base.inputGroup', 'symbols/develop/uiotos/icons/editroToolBar/inputGroup.json');
-    i.setImage('icon.base.timer', 'symbols/demo/uiotos/工具栏图标/倒计时-0.json');
-    i.setImage('icon.base.popover', 'symbols/develop/uiotos/icons/editroToolBar/popover.json');
+
+    //240907，运行状态貌似没必要注册。尤其是导出部署的情况！会导致下面大量资源加载失败。有待进一步观察。
+    if(!runningMode()){
+        i.setImage('icon.none', 'symbols/develop/uiotos/desk/none.json');
+        // i.setImage('icon.iotos', 'symbols/develop/uiotos/icons/IOTOS.json');
+        i.setImage('icon.menu', 'symbols/develop/uiotos/icons/editroToolBar/Table-1.json');
+        i.setImage('icon.button', 'symbols/develop/uiotos/icons/editroToolBar/anniu.json');
+        i.setImage('icon.switch', 'symbols/develop/uiotos/icons/editroToolBar/switchButton.json');
+        //1.1、若要把2中的功能图标放到工具栏，还需要额外对应的快捷图标！
+        i.setImage('icon.base.grid', 'symbols/develop/uiotos/icons/editroToolBar/border-middle-horizontal.json');
+        i.setImage('icon.base.graphView', 'symbols/develop/uiotos/icons/editroToolBar/layoutForm.json');
+        i.setImage('icon.base.tabView', 'symbols/develop/uiotos/icons/editroToolBar/danchuang.json');
+        i.setImage('icon.base.iconClick', 'symbols/develop/uiotos/icons/editroToolBar/tupian.json');
+        i.setImage('icon.desk.icon', 'symbols/develop/uiotos/icons/editroToolBar/zuhe.json');
+        i.setImage('icon.base.dialog-ui', 'symbols/develop/uiotos/icons/editroToolBar/dialog.json');
+        i.setImage('icon.base.tabs', 'symbols/develop/uiotos/icons/editroToolBar/Tabs.json');
+        // i.setImage('icon.base.edit', 'symbols/develop/uiotos/icons/editroToolBar/edit.json');
+        i.setImage('icon.base.checkbox', 'symbols/develop/uiotos/icons/editroToolBar/tick-square.json');
+        i.setImage('icon.base.combobox', 'symbols/develop/uiotos/icons/editroToolBar/xialaliebiao.json');
+        i.setImage('icon.base.ichart', 'symbols/develop/uiotos/icons/editroToolBar/chart-bar.json');
+        i.setImage('icon.base.checkbox2', 'symbols/develop/uiotos/icons/editroToolBar/check-square.json');
+        i.setImage('icon.base.scroll', 'symbols/develop/uiotos/icons/editroToolBar/scroll.json');
+        i.setImage('icon.base.phone', 'symbols/develop/uiotos/base/__eventbus.json');
+        i.setImage('icon.base.sharp', "symbols/develop/uiotos/icons/editroToolBar/hashtag.json");
+        i.setImage('icon.base.function', "symbols/develop/uiotos/icons/editroToolBar/function.json");
+        i.setImage('icon.base.textarea', 'symbols/develop/uiotos/icons/editroToolBar/textEdit.json');
+        i.setImage('icon.base.date', 'symbols/develop/uiotos/icons/editroToolBar/timeSelector.json');
+        i.setImage('icon.base.time', 'symbols/develop/uiotos/icons/editroToolBar/TimePicker.json');
+        i.setImage('icon.base.page', 'symbols/develop/uiotos/icons/editroToolBar/file-alt.json');
+        i.setImage('icon.base.bracket', 'symbols/develop/uiotos/icons/editroToolBar/brackets.json');
+        i.setImage('icon.base.radiobox', 'symbols/develop/uiotos/icons/editroToolBar/radioBox.json');
+        i.setImage('icon.base.camera', 'symbols/develop/uiotos/desk/icons/editroToolBar/camera-home.json');
+        i.setImage('icon.base.video', 'symbols/develop/uiotos/desk/icons/editroToolBar/video.json');
+        i.setImage('icon.base.gismap', 'symbols/develop/uiotos/icons/editroToolBar/gis.json');
+        i.setImage('icon.base.document', 'symbols/develop/uiotos/icons/editroToolBar/file-fill-72.json');
+        i.setImage('icon.base.linkage', 'symbols/develop/uiotos/icons/editroToolBar/breadCrumb.json');
+        i.setImage('icon.base.gauge', 'symbols/demo/uiotos/工具栏图标/仪表-37.json');
+        i.setImage('icon.base.sideMenu', 'symbols/develop/uiotos/icons/editroToolBar/隐藏菜单-15.json');
+        i.setImage('icon.base.pie', 'symbols/demo/uiotos/工具栏图标/chart-pie-alt-15.json');
+        i.setImage('icon.base.bar', 'symbols/demo/uiotos/工具栏图标/chart-bar-20.json');
+        i.setImage('icon.base.inputGroup', 'symbols/develop/uiotos/icons/editroToolBar/inputGroup.json');
+        i.setImage('icon.base.timer', 'symbols/demo/uiotos/工具栏图标/倒计时-0.json');
+        i.setImage('icon.base.popover', 'symbols/develop/uiotos/icons/editroToolBar/popover.json');
+    }
+
     let preLoadList = ['graphView', 'tabView', 'scrollAreaView-ui', 'dialog-ui', '__convertor', 'input-ui', 'button'];
     preLoadList.forEach(item => {
         function __symbolURL(user) {
