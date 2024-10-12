@@ -3647,6 +3647,9 @@ function __tabView(data, gv, cache) {
                             tabView.add('tab' + index, graphView);
                             tabView.setTabHeight(0);
                             i.addChildDataModel(data, graphView, 'ui' + index); //230401，传入从dm改成gv
+
+                            //240917，复位清理_i_innerGV，否则比如对话框reloadWhenOpen，每次打开，会重复追加！！
+ 			                      if(data._gv && data._gv._i_innerGV) data._gv._i_innerGV = []
                             loadDisplay(graphView, url, cache, function(json, dm, gv, datas) {
                                 //231126，存放各个tab页签内嵌页底板的原始尺寸，用来支持切换页签，组件尺寸各自按照内嵌页变化！
                                 let basetmp = i.baseNode(dm);
@@ -3737,7 +3740,8 @@ function __tabView(data, gv, cache) {
                     }
 
                     //231126，增加事件
-                    (!data._i_initial || data.ca('initialTrigger')) && i.formEventBubblingUpper(data, gv, cache, 'onChange', {
+                    //240923，加上|| e.oldValue != '__init__'，否则发现正常切换索引，都不触发事件了！
+                    (data.ca('initialTrigger') || e.oldValue != '__init__') && i.formEventBubblingUpper(data, gv, cache, 'onChange', {
                         'index': e.newValue
                     }); //最后一个参数true（默认即可）
 

@@ -81,6 +81,7 @@
             'custom/js/zkys.js',
             'custom/json/color.js',
             'custom/libs/htiotos.js',
+            "custom/libs/advanceControls.js",
             'kernel/iotosCommon.js',
             'kernel/baseControls.js',
             'custom/libs/aiotos.js',
@@ -907,7 +908,7 @@
 
             //240622，主要是连线关联属性为对象object时，赋值解析的字符串，就会用来解析这个对象，而不是仅仅被关联属性值覆盖掉！
             //240622，加上条件&& rawControlVal != ''，因为存在值为空字符串的情况''，比如连线属性弹窗的搜索框就是如此，如果进入到下面处理，会发现搜索过滤功能失效！
-            if (typeof(rawControlVal) == 'string' && rawControlVal != '') {
+            if (typeof(rawControlVal) == 'string' /*&& rawControlVal != ''*/) {
                 if (isFuncData && rawControlVal == ignoreFlag) {
                     //240622，工具函数过滤的情况（~会默认强制转换成undefined输出，而!~应该是不会到这里的！！）
                 } else if (isObject(valtmp)) {
@@ -3166,7 +3167,7 @@
                 //230401，与dm链表不一样，gv链表简化些，上下层仅以数组对象关联，如果要获取更详细的信息，可以通过gv.dm()走dm链表去找，没必要太冗余
                 _i.setTimeout(() => { //【千万注意】渲染元素代码中对data._gv的赋值通常是在初始化末尾，而对addChildDataModel的调用通常在开头，所以这里需要到下一个循环才能取到变量，通过setTimeout(,0)！
                     if (data._gv && child.dm != undefined) {
-                        if (data._gv._i_innerGV == undefined) data._gv._i_innerGV = [];
+                        if (data._gv._i_innerGV == undefined || !i.isControlTyped(data,'tab')) data._gv._i_innerGV = [];
                         data._gv._i_innerGV.push(child);
                         //231011，容器内的内嵌dm对应的gv，记录上下层gv关系，并且为内嵌gv增加属性_i_belongToNode。
                         child._i_belongToNode = data;
@@ -5858,7 +5859,8 @@
                     result = false;
 
                 //240224，对于非编辑界面的i.openDialog动态弹窗，需要无条件向上继承到顶层，因为i.attr()根据keyURL片段获取属性完整keyURL再去从对话框data.ca()获取到属性值！
-                if (i.topData(data)._i_isEditConfigDlg) return true;
+                let toptmp = i.topData(data);
+                if (toptmp && toptmp._i_isEditConfigDlg) return true;
 
                 let dbtmp = innerData.getDataBindings(),
                     dbObj = dbtmp.a && dbtmp.a[i.np(attr)];
@@ -9858,14 +9860,15 @@
                                 let modetmp = 'none';
                                 let innerDm = i.innerDataModel(data, -1),
                                     inners = [];
-                                if (!isArrayFn(innerDm)) inners.push(innerDm);
+                                if (innerDm && !isArrayFn(innerDm)) inners.push(innerDm);
                                 else inners = innerDm;
                                 let baseNodeTmp = i.baseNode(inners[0], false);
                                 if (baseNodeTmp) modetmp = 'fullScreen';
                                 else if (inners[0] && inners[0].a('fitContent')) {
                                     modetmp = 'fitContent';
                                     _i.setTimeout(() => {
-                                        i.innerGV(data).fitContent();
+                                        let innerGVtmp = i.innerGV(data);   //240920，发现有undefined的情况！
+                                        innerGVtmp && innerGVtmp.fitContent();
                                     }, 10);
                                 }
                                 if(data.ca('innerLayoutModeLocked')){
@@ -11459,6 +11462,7 @@
             },
             //240903，带有渲染元素、i.md的类型的组件！
             isSymbolType: function(data){
+                if(!i.hasAttrObjectKey(data,'symbols')) return false; //240918，没有symbol属性的，都不认为有渲染元素和i.md，比如进度环等矢量图表！
                 let imgtmp = data.getImage && data.getImage();
                 if(imgtmp){
                     if(typeof(imgtmp) == 'string'){
