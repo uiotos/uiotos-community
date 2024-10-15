@@ -117,20 +117,22 @@
     }
 
     //所有图纸初始加载的统一处理
-    function commonInitDisplayLoaded(dm, url = null, gv = null) { //240709，增加参数传入gv，为了让编辑、运行时，所以图元组件都能直到自己的gv是什么！！
+    function commonInitDisplayLoaded(dm, url = null, gv = null, autoLayoutCenter = false) { //240709，增加参数传入gv，为了让编辑、运行时，所以图元组件都能直到自己的gv是什么！！
         //存放每个图纸加载时dm对应的url
         if (url) dm._url = url;
 
         //对于连线统一处理，没有TAG标签的，编辑运行都显示，有TAG标签的，运行时不显示！
         let fillCount = 0,
             fillTags = [],
-            topDataTmp = !runningMode() && i.topData(dm), //240614，顶层图元，看是否是编辑时的运行对话框！
+            runModeTmp = runningMode(),
+            baseNodeTmp = i.baseNode(dm),
+            topDataTmp = !runModeTmp && i.topData(dm), //240614，顶层图元，看是否是编辑时的运行对话框！
             isTopDlgEditorRunning = topDataTmp && i.isDialogEditorRunning(topDataTmp);
         dm.each((item) => {
             item._i_gv = gv; //240709，增加参数传入gv，为了让编辑、运行时，所以图元组件都能直到自己的gv是什么！！
 
             //240710，对于运行状态下，需要对非渲染元素的初始化监听！
-            if (runningMode()) {
+            if (runModeTmp) {
                 //240710，需要加上这段，这样加载时，也能响应！
                 if (
                     item.ca('trackPathPercent') !== undefined &&
@@ -148,7 +150,7 @@
                     });
                 }
             }
-            if ((runningMode() || (i.upperData(item) && !i.upperData(item).s('2d.editable'))) && item.getClassName() == 'ht.Edge' && item.getTag() && !dm.a('runningVisible')) { //231116，添加条件 && !dm.a('runningVisible')，页面勾选后，运行时不再不可见！
+            if ((runModeTmp || (i.upperData(item) && !i.upperData(item).s('2d.editable'))) && item.getClassName() == 'ht.Edge' && item.getTag() && !dm.a('runningVisible')) { //231116，添加条件 && !dm.a('runningVisible')，页面勾选后，运行时不再不可见！
                 //230318，增加条件，通过toolTip中固定的提示格式，以及或者连线的箭头图标中包含fromArrow，判断时交互操作连线这类才运行不可见！
                 //240410，架上条件if (!(item.getClassName() == 'ht.Edge' && item.ca('topoLine'))) {，这样让“拓扑连线”在运行时保持继续可见！
                 if (!(item.getClassName() == 'ht.Edge' && item.ca('topoLine') && item.getSource() && !i.hasAttrInLocalObj(item.getSource(), 'trackPathPercent'))) {
@@ -179,7 +181,7 @@
 
             /*230204，因为现在编辑状态对于布局，都会影响到文字提示，为了避免仅仅在编辑状态下用的提示在运行状态下也被看到，也为了差异显示，不是通过gv全局打开或关闭，
             这里在图纸遍历找fill图元的遍历中，做整个图元都需要的一些公共属性设置，比如这里的提示。*/
-            if (runningMode() && !dm.a('runningVisible')) { //如果需要图元能够运行时展示toolTip，那么增加a属性下toolTip，并且设置true即可！
+            if (runModeTmp && !dm.a('runningVisible')) { //如果需要图元能够运行时展示toolTip，那么增加a属性下toolTip，并且设置true即可！
                 if (item.getName() == 'tip') {
                     let oldToolTips = item.ca('toolTipRaw') ? item.ca('toolTipRaw') : item.getToolTip();
                     oldToolTips = oldToolTips ? _i.replaceAll(oldToolTips, window.constLayoutedHintString, '') : '';
@@ -208,6 +210,10 @@
                 //231108，如果是注释文字，运行状态下不可见！
                 if (item && item.s && item.s('label') && item.s('label.opacity') != 0 && item.s('label.font') && item.s('label.font').indexOf('26px') != -1) {
                     i.addAttrRunningInit(item, 's:label.opacity', 0);
+                }else if(
+                    runModeTmp && item && item.s && item.s('label') == undefined && item.getName() != undefined
+                ){
+                    i.addAttrRunningInit(item, 's:label.opacity', 0);
                 }
             }
             let data = item,
@@ -224,7 +230,7 @@
                 data.setWidth(1);
                 data.setHeight(1);
             }
-            if (runningMode() && !dm.a('runningVisible')) {
+            if (runModeTmp && !dm.a('runningVisible')) {
                 let classType = (item.getClassName() == 'ht.UGrid' || item.getClassName() == 'ht.Grid' || i.typeMatched(item, 'grid'));
                 if (i.isSimpleData(item) || classType) i.addAttrRunningInit(item, 's:2d.selectable', false);
                 if (classType) {
@@ -245,12 +251,24 @@
                         i.addAttrRunningInit(item, 's:opacity', 0);
                         if (item.getHost() && i.isControlTyped(item.getHost(), 'grid')) item.setHost(null);
                         //240315，还存在底板上做了布局的图元组件，可能导致运行时布局改变原始设定的固定宽高，导致又变得可见，因此判断如果底板区域内有部剧的就移出布局配置！
-                        if (i.isContainsInRect(item, i.baseNode(dm))) {
+                        if (i.isContainsInRect(item, baseNodeTmp)) {
                             i.addAttrRunningInit(item, 's:layout.h', undefined);
                             i.addAttrRunningInit(item, 's:layout.v', undefined);
                         }
                     }
                 });
+            }
+            //     let popover = new ht.ui.Popover();
+            //     popover.setContentView(htmlView);
+            //     item._i_control && item._i_control.setPopover && item._i_control.setPopover(popover, 'click');
+            // }
+
+            /*241014，运行状态下，底板布局的页面，如果没有任何组件做布局，那么运行时全部默认居中布局（不影响编辑状态），这样页面窗口尺寸变化，都会相对编辑时相对位置居中，对于底板尺寸跟浏
+            览器屏幕尺寸比例不统一时，方便看效果，也避免手动去布局（感觉有点复杂），对初学者更友好！*/
+            if(runModeTmp && data.s('2d.visible') && autoLayoutCenter){
+                data.setHost(baseNodeTmp);
+                data.s('layout.h','center');
+                data.s('layout.v','center');
             }
         });
 
@@ -284,7 +302,12 @@
         g2dView.style.top = '0';
         g2dView.style.bottom = '0';
 
-        commonInitDisplayLoaded(gv.dm(), url, gv); //240709，增加参数传入gv，为了让编辑、运行时，所以图元组件都能直到自己的gv是什么！！
+        //240927，url可能是完整url，比如'http://localhost:8999/displays/demo/3-示例/02-小示例/03B-视频选择播放暂停.json'，在示例中点击示例图标打开URL时是这样！因此去掉头给到url，否则dm._url也是http开头了！
+        url = url && url.replace(window.origin + '/','');
+
+        //241014，底板布局模式下，所有组件都没有做布局。那么都自动居中布局！这样运行时，页面尺寸变化，都能默认居中，更友好！
+        let baseWithoutLayout = !gv.dm().a('fitContent') && JSON.stringify(gv.dm().toJSON()).indexOf('"host"') == -1
+        commonInitDisplayLoaded(gv.dm(), url, gv,baseWithoutLayout); //240709，增加参数传入gv，为了让编辑、运行时，所以图元组件都能直到自己的gv是什么！！
 
         /*240815，对于内嵌页是底板布局，上层容器设置了适配内容，结果因为先底板已经布局了，加载完成后再改适配，导致缩放比例跟原始适配内容不一样，不美观！
         因此加载时就判断，如果上层已经设置了适配内容，那么不论如何，当前作为内嵌页，设置为适配内容，不要底板！！这样就不会加载时还来一下底板布局！*/
@@ -2460,7 +2483,6 @@
                                 curSymbolObj = data._symbolObject;
                                 dm.handleCurrentSymbol();
                             }, true);
-                            data.setImage(symbolUrl); //tips 240219，只是将url字符串放上去，实际测试发现运行时并没触发网络请求，后面那句才触发请求！
                             ht.Default.getImage(symbolUrl); //240219，触发网络加载请求，通过前面onImageLoaded接收加载完成！
                         }
 
@@ -3167,7 +3189,7 @@
                 //230401，与dm链表不一样，gv链表简化些，上下层仅以数组对象关联，如果要获取更详细的信息，可以通过gv.dm()走dm链表去找，没必要太冗余
                 _i.setTimeout(() => { //【千万注意】渲染元素代码中对data._gv的赋值通常是在初始化末尾，而对addChildDataModel的调用通常在开头，所以这里需要到下一个循环才能取到变量，通过setTimeout(,0)！
                     if (data._gv && child.dm != undefined) {
-                        if (data._gv._i_innerGV == undefined || !i.isControlTyped(data,'tab')) data._gv._i_innerGV = [];
+                        if (data._gv._i_innerGV == undefined && !i.isControlTyped(data,'tab')) data._gv._i_innerGV = [];
                         data._gv._i_innerGV.push(child);
                         //231011，容器内的内嵌dm对应的gv，记录上下层gv关系，并且为内嵌gv增加属性_i_belongToNode。
                         child._i_belongToNode = data;
@@ -9899,6 +9921,9 @@
 
                                 //240206，非容器组件这里直接追加，容器组件动态新增属性，需要在onDisplayLoaded属性的响应监听内才行！
                                 __addCommonAttrsDynamic();
+
+                                //240925，复制粘贴的图元组件做上标记，避免初始化时候isEditing，以为是手动在编辑！这里复位！
+                                data._i_isContainerCoppied = undefined;
                                 break;
                             case 'a:innerBackground':
                                 if(data._i_isUpdatingLayoutModeFromInner) break;
@@ -10801,7 +10826,8 @@
                     //如果对图纸有全局设置统一固定高度（非零），那么就用全局的设置，否则就组件自身的fixedHeight属性！
                     if (fixedHeight) data.setHeight((data.ca('layoutVertical') ? data.ca('gap') + cache.label.getHeight() : 0) + (fixedHeightGlobal ? fixedHeightGlobal : fixedHeight));
                     if (data.getWidth() < 1) data.setHeight(data.getWidth());
-                    if(topDataTmp && !i.isControlTyped(data,'dlg')){
+                    //240925，加上条件&& data.ca("innerLayoutMode") != 'fitContent'，否则会出现多个适配内容的嵌套，中间层的内嵌内容，无法随着整体尺寸变化而自适应缩放。
+                    if(topDataTmp && !i.isControlTyped(data,'dlg') && data.ca("innerLayoutMode") != 'fitContent'){
                          if(topDataTmp !== data) fixedMode = true;
                         else{
                             fixedMode = false;
@@ -13949,7 +13975,8 @@
             },
             //240213，属性编辑状态，通常用于md响应处理中判断，比如i.enableAttrEditByFirstItem()显然只会发生在属性编辑时，通过isEditing()判断，可以用上！
             isEditing: function(data) {
-                return !runningMode() && data.dm() && data.dm().sm().co(data) && i.topData(data) === data; //240214，编辑时，
+                //240925，加上标记&& !data._i_isContainerCoppied。即复制粘贴的图元组件的标记，此时不算正在编辑。
+                return !runningMode() && !data._i_isContainerCoppied && data.dm() && data.dm().sm().co(data) && i.topData(data) === data; //240214，编辑时，
             },
             /*240213，先后提供两个数组，A相当于弹窗重新勾选的，B表示弹窗原有的，通过本函数对比，返回告知通过重新勾选，哪些是新增的，哪些是被移除的！
             // 示例使用  
