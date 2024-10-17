@@ -2827,7 +2827,10 @@
         } else if (
             runningMode() &&
             i.getItemWithExpiration('_i_user', false) && //240525，这里第二个参数应该传入false貌似，否则应该会导致重复刷新死循环吧！
-            window.parent === window.top
+            (
+                window.parent === window.top ||
+                (window.parent.parent === window.top && window.top.name == 'display.html?tag=displays/develop/uiotos/aiotos.json')
+            )
         ) {
             window._i_reEnteringWithSessionStorage = true;
             i.showMessage('自动登录' + i.user() + '...', 'info', null, 'center', 180, 0);
@@ -2856,15 +2859,15 @@
                     'username': username
                 };
                 __pureLoadEditor();
+                var user_id = JSON.stringify(uid);
+                window._i_user = i.window()._i_user = username
+                window.sessionStorage.setItem("user_id",user_id);
                 return true;
             } else {
                 uid = {
                     user_id: null
                 };
             }
-            var user_id = JSON.stringify(uid);
-            window._i_user = i.window()._i_user = username
-            window.sessionStorage["user_id"] = user_id;
         } catch (error) {
             console.error(error);
         }
