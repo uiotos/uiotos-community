@@ -117,9 +117,6 @@ function paramsGenerator(data, val, index, node, oldVal, form) {
 
     // 定义依赖的脚本URL列表
     var scriptUrls = [
-        //240718，markdown相关的js，在editormd.js实例化md对象时，就已经根据配置的path路径且按照先后依赖顺序进行加载了，不需要手动都平均这里去加载一遍！因此可以删除了！
-        /*240715，发现这里markdown相关的几个js，需要放到前面，而不是追加到末尾，否则发现对于拖放一个树表格，直接运行，发现表头会动一下！！往下动一下回弹！非常难以排查！！对比
-        不同版本文件后，发现这就是几句位置引起的！！！放到这里前面，就没那个问题了！！*/
         "custom/libs/mqtt.min.js",
         "custom/libs/config.js",
         'libs/htiotos.js',

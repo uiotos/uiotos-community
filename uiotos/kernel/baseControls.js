@@ -3630,6 +3630,11 @@ function __tabView(data, gv, cache) {
                         data._i_pageSizes = [];
                         data._i_pageAbsUrls = []; //240131，displays属性对应的url全局路径。通常用于内嵌页面中根据自己地址，判断自己所属上层
                         data.ca('pageAbsUrls', []); //240603，专门存放一个编辑不可见的页面组件属性，方便导出部署时，能够识别到是路径，并且递归下去，包含到导出的压缩包内！
+
+                        //240917，复位清理_i_innerGV，否则比如对话框reloadWhenOpen，每次打开，会重复追加！！
+                        if(!data._gv) data._gv = gv;  
+                        data._gv._i_innerGV = []; 
+
                         displaystmp.forEach((url, index) => {
                             //240507，之前是对于空的索引url，直接忽略掉，现在是用默认404页填充，否则会造成tab页签整体索引错位！！
                             if (!(url && url.trim() != '' && url != undefined)) url = 'displays/develop/uiotos/editor/syspages/404_lite.json';
@@ -8198,6 +8203,11 @@ function __grid(data, gv, cache) {
 
         //监听编辑状态交互
         _i.md(data, gv, cache, {
+            's:2d.visible': e=>{//240927，网格显示隐藏，对应内部组件也显示隐藏
+                data.getChildren().forEach(child=>{
+                    child.s('2d.visible',e.newValue);
+                });
+            },
             'a:grid.row.count|a:grid.column.count': e => {
                 let autoFillTmp = data.ca('grid.auto.fill'), //230613
                     isInitial = e.oldValue === '__init__', //是否是初始化加载
@@ -8383,7 +8393,9 @@ function __grid(data, gv, cache) {
                 //初始赋值
                 __formEventBubblingUpper();
             } 
-        }, ['a:sizeSet', 'a:grid.border', 'a:grid.row.count', 'a:grid.column.count', 'a:rowIndex', 'a:columnIndex'], null, data, e => {}, e => {
+        }, ['a:sizeSet', 'a:grid.border', 'a:grid.row.count', 'a:grid.column.count', 'a:rowIndex', 'a:columnIndex', {
+            's:2d.visible':'__init__' //240928，如果网格初始为隐藏状态，那么需要加上这里，确保初次显示网格时，能触发md的响应，让内部组件也能显示！
+        }], null, data, e => {}, e => {
             //tips 230613，最后一个回调为children的事件，因此下面a:value是处理子节点的事件，默认为cbox下拉框的value事件，并非grid网格本身的属性
             //231006，增加条件data.ca('enable') &&，否则常规用gird布局的查询表单，结果默认让后一个的数据受到前面一个下拉框数据选的影响了！！
             if (data.ca('enable') && _i.typeMatched(e.data, 'cbox') && e.property == 'a:value' && e.newValue != undefined) { //230613，加上了条件，限定grid网格子节点是下拉组合框且值不为undefined时

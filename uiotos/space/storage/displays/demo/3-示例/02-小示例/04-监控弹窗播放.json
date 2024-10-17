@@ -1,5 +1,5 @@
 {
-  "v": "8.0.1",
+  "v": "8.0.2",
   "p": {
     "background": "rgba(32,37,46,0.8)",
     "autoAdjustIndex": true,
@@ -13,15 +13,12 @@
     "zoomable": false,
     "rectSelectable": false,
     "pannable": false,
-    "_professional": false,
-    "lastBase": {
-      "__i": 26980
-    }
+    "_professional": false
   },
   "d": [
     {
       "c": "ht.Node",
-      "i": 26980,
+      "i": 3771,
       "p": {
         "displayName": "base（_base）",
         "tag": "_base",
@@ -44,7 +41,7 @@
     },
     {
       "c": "ht.Node",
-      "i": 26981,
+      "i": 3772,
       "p": {
         "displayName": "input（input1）",
         "toolTip": "<p style='color:rgb(242,83,75);margin-top:5px;margin-bottom:5px;font-weight:bold;line-height:1.5em;'>已被布局，不允许拖动（shift+回车可解除）</p><span style='font-weight:bold;color:rgb(125,195,125)'>说明：</span><span style='color:rgb(125,195,125);line-height:1.8em;letter-spacing:1px;'>\n<br>已被布局，不允许拖动</span>",
@@ -569,7 +566,7 @@
           "uuid": "A7AB1B65-D083-4494-B852-3CCDAD18F70D"
         },
         "host": {
-          "__i": 26980
+          "__i": 3771
         },
         "position": {
           "x": 1226.9088,
@@ -639,19 +636,19 @@
     },
     {
       "c": "ht.Edge",
-      "i": 26982,
+      "i": 3773,
       "p": {
         "displayName": "0（Edge1'）",
         "toolTip": "<div id=\"config_tooltip\" style=\"font-size:12px;line-height:1.75em;letter-spacing:1px\">\n                                            关联绑定信息：<br>\n                                            <li style=\"list-style-type:disc;color:rgba(255,255,255,0.5);\">索引序号：0 | 总共2条</li>\n                                            <li style=\"list-style-type:disc;font-weight:bold;\">操作属性：用户数据@bt1</li>\n                                            <li style=\"list-style-type:none;color:rgba(255,255,255,0.5)\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;当前值：undefined</li>\n                                            <li style=\"list-style-type:disc;font-weight:bold\">关联属性：值内容@input1</li>\n                                            <li style=\"list-style-type:none;color:rgba(255,255,255,0.5)\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;关联值：undefined</li>\n                                            </div>",
         "parent": {
-          "__i": 26981
+          "__i": 3772
         },
         "tag": "Edge1'",
         "source": {
-          "__i": 26981
+          "__i": 3772
         },
         "target": {
-          "__i": 26984
+          "__i": 3775
         }
       },
       "s": {
@@ -697,20 +694,20 @@
     },
     {
       "c": "ht.Edge",
-      "i": 26983,
+      "i": 3774,
       "p": {
         "name": "edge",
         "displayName": "1（edge2）",
         "toolTip": "<div id=\"config_tooltip\" style=\"font-size:12px;line-height:1.75em;letter-spacing:1px\">\n                                                        关联绑定信息：<br>\n                                                        <li style=\"list-style-type:disc;color:rgba(255,255,255,0.5);\">索引序号：1 | 总共2条</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold;\">操作属性：视频页&gt;0&gt;flv1&gt;视频流@dlg1</li>\n                                                        <li style=\"list-style-type:none;color:rgba(255,255,255,0.5)\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;当前值：undefined</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold\">关联属性：值内容@input1</li>\n                                                        <li style=\"list-style-type:none;color:rgba(255,255,255,0.5)\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;关联值：undefined</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold;\">解析赋值：null</li>\n                                                        <li style=\"list-style-type:disc;color:rgba(255,255,255,0.5)\">触发事件：*</li>\n                                                        <li style=\"list-style-type:disc;\">注释：<span style=\"color:rgb(125,195,125)\">1。\n<br></span></li>\n                                                    </div>",
         "parent": {
-          "__i": 26981
+          "__i": 3772
         },
         "tag": "edge2",
         "source": {
-          "__i": 26981
+          "__i": 3772
         },
         "target": {
-          "__i": 26987
+          "__i": 3778
         }
       },
       "s": {
@@ -754,7 +751,7 @@
     },
     {
       "c": "ht.Node",
-      "i": 26984,
+      "i": 3775,
       "p": {
         "displayName": "bt（bt1）",
         "toolTip": "<p style='color:rgb(242,83,75);margin-top:5px;margin-bottom:5px;font-weight:bold;line-height:1.5em;'>已被布局，不允许拖动（shift+回车可解除）</p><span style='font-weight:bold;color:rgb(125,195,125)'>说明：</span><span style='color:rgb(125,195,125);line-height:1.8em;letter-spacing:1px;'>\n<br>已被布局，不允许拖动</span>",
@@ -1220,7 +1217,7 @@
           "uuid": "0A3054BD-E7BF-4029-A397-05459D69E6A3"
         },
         "host": {
-          "__i": 26980
+          "__i": 3771
         },
         "position": {
           "x": 1614.05224,
@@ -1278,19 +1275,19 @@
     },
     {
       "c": "ht.Edge",
-      "i": 26985,
+      "i": 3776,
       "p": {
         "displayName": "0（Edge1''）",
         "toolTip": "<div id=\"config_tooltip\" style=\"font-size:12px;line-height:1.75em;letter-spacing:1px\">\n                                            关联绑定信息：<br>\n                                            <li style=\"list-style-type:disc;color:rgba(255,255,255,0.5);\">索引序号：0 | 总共2条</li>\n                                            <li style=\"list-style-type:disc;font-weight:bold;\">操作属性：弹窗@dlg1</li>\n                                            <li style=\"list-style-type:none;color:rgba(255,255,255,0.5)\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;当前值：undefined</li>\n                                            <li style=\"list-style-type:disc;font-weight:bold\">关联属性：</li>\n                                            <li style=\"list-style-type:none;color:rgba(255,255,255,0.5)\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;关联值：undefined</li>\n                                            </div>",
         "parent": {
-          "__i": 26984
+          "__i": 3775
         },
         "tag": "Edge1''",
         "source": {
-          "__i": 26984
+          "__i": 3775
         },
         "target": {
-          "__i": 26987
+          "__i": 3778
         }
       },
       "s": {
@@ -1336,19 +1333,19 @@
     },
     {
       "c": "ht.Edge",
-      "i": 26986,
+      "i": 3777,
       "p": {
         "displayName": "1（Edge1''''）",
         "toolTip": "<div id=\"config_tooltip\" style=\"font-size:12px;line-height:1.75em;letter-spacing:1px\">\n                                            关联绑定信息：<br>\n                                            <li style=\"list-style-type:disc;color:rgba(255,255,255,0.5);\">索引序号：1 | 总共2条</li>\n                                            <li style=\"list-style-type:disc;font-weight:bold;\">操作属性：视频页&gt;0&gt;flv1&gt;预览@dlg1</li>\n                                            <li style=\"list-style-type:none;color:rgba(255,255,255,0.5)\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;当前值：undefined</li>\n                                            <li style=\"list-style-type:disc;font-weight:bold\">关联属性：</li>\n                                            <li style=\"list-style-type:none;color:rgba(255,255,255,0.5)\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;关联值：undefined</li>\n                                            </div>",
         "parent": {
-          "__i": 26984
+          "__i": 3775
         },
         "tag": "Edge1''''",
         "source": {
-          "__i": 26984
+          "__i": 3775
         },
         "target": {
-          "__i": 26987
+          "__i": 3778
         }
       },
       "s": {
@@ -1394,7 +1391,7 @@
     },
     {
       "c": "ht.Node",
-      "i": 26987,
+      "i": 3778,
       "p": {
         "displayName": "dlg（dlg1）",
         "tag": "dlg1",
@@ -2084,7 +2081,7 @@
     },
     {
       "c": "ht.Node",
-      "i": 45291,
+      "i": 3779,
       "p": {
         "name": "img",
         "displayName": "图片（img1）",
@@ -2241,7 +2238,7 @@
           "uuid": "DEF26685-7779-4869-A923-B75973FB7B8A"
         },
         "host": {
-          "__i": 26980
+          "__i": 3771
         },
         "position": {
           "x": 1274.75839,
@@ -2269,26 +2266,26 @@
         "symbol": "symbols/develop/uiotos/arranged/controls/videos/图片.json",
         "videoURL": "",
         "hostLayerLine": {
-          "__i": 54329
+          "__i": 3780
         }
       }
     },
     {
       "c": "ht.Edge",
-      "i": 54329,
+      "i": 3780,
       "p": {
         "name": "吸附布局",
         "displayName": "吸附布局（吸附布局1）",
         "toolTip": "吸附布局：<p style=color:lightgreen>图片（img1） → base（_base）</p>吸附参数：leftright bottom",
         "parent": {
-          "__i": 45291
+          "__i": 3779
         },
         "tag": "吸附布局1",
         "source": {
-          "__i": 45291
+          "__i": 3779
         },
         "target": {
-          "__i": 26980
+          "__i": 3771
         }
       },
       "s": {
@@ -2338,17 +2335,17 @@
       "a": {
         "old.label.position": 31,
         "hostLayerFrom": {
-          "__i": 45291
+          "__i": 3779
         },
         "toolTipRaw": "吸附布局：<p style=color:lightgreen>图片（img1） → base（_base）</p>吸附参数：leftright bottom"
       }
     }
   ],
-  "modified": "Sun Aug 25 2024 13:47:26 GMT+0800 (中国标准时间)",
+  "modified": "Thu Oct 17 2024 15:08:59 GMT+0800 (中国标准时间)",
   "contentRect": {
     "x": 818.07912,
     "y": 0,
     "width": 913.35853,
-    "height": 1206.3992
+    "height": 1206.39919
   }
 }

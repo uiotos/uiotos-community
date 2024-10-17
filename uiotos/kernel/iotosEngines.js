@@ -1251,7 +1251,6 @@
                 var json = ht.Default.parse(text);
                 if (json.title) document.title = json.title;
                 htmlDM.deserialize(json);
-                htmlGV.fitContent(true);
                 initGVLoadedRunning(htmlGV, false, false, url);
             });
             return;
