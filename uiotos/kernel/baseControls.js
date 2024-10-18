@@ -6063,7 +6063,7 @@ function __interface(data, gv, cache) {
                 urltmp.trim().toLowerCase().slice(0,6) == 'wss://')
             ){
                 //传入了"http://files/list?path=xxx"这种情况！（中间缺少主域名比如“sys.aiotos.net/”或者“localhost:8999/”）
-                if (secondtmp && (secondtmp.indexOf('.') == -1 && secondtmp !== "localhost")) { 
+                if (secondtmp && (secondtmp.indexOf('.') == -1 && secondtmp.slice(0,9) !== "localhost")) { 
                     let splited = urltmp.split('/');
                     //240811，window.top.origin.split('/')[2]相当于从http://localhost:8999中，取localhost:8999
                     splited[2] = hostURL.split('/')[2] + '/' + splited[2];
