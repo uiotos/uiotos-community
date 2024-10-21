@@ -6215,6 +6215,9 @@ function __interface(data, gv, cache) {
                         let ajaxParam = {
                             type: ['get','post','put','delete'][nodeData.ca("httpType")], //240809，修改！nodeData.ca('post') ? 'post' : 'get',
                             url: cache.requestParam.url,
+                            xhrFields: { 
+                                withCredentials: data.ca('withCredential')
+                            }, 
                             contentType: nodeData.ca('contentType'), //application/x-www-form-urlencoded、application/json、text/xml、text/plain
                             //230803，条件需要加上|| cache.requestParam.params == '{}'，否则get请求对于空data参数结果带入了data:"{}"，将?{}加入到http get的url，会报错跨域cors诡异问题！！
                             data: cache.requestParam.params == {} || cache.requestParam.params == '{}' || cache.requestParam.params == null ? undefined : (() => {
@@ -6424,6 +6427,14 @@ function __interface(data, gv, cache) {
                     defaultValue: true, //240811，很重要，默认值不能是false，否则发现UIOTOS登录都进不去！！
                     extraInfo: '*',
                     description: `勾选时，参数对象将为文本传参。<a href='https://www.yuque.com/liuhuo-nc809/uiotos/hf6hq3949mqpg32u#N8jdC' style="color:rgb(96,172,252)" target='_blank'>详情</a>`,
+                    bindIgnored: true
+                },{
+                    attr: 'withCredential',
+                    valueType: 'Boolean',
+                    name: '包含凭证',
+                    defaultValue: true, //240811，很重要，默认值不能是false，否则发现UIOTOS登录都进不去！！241021，但是注意，某些时候跨域接口，需要这里值为false，js ajax才能调用成功！
+                    extraInfo: '★',
+                    description: `启用跨域请求发送凭据。<a href='https://www.yuque.com/liuhuo-nc809/uiotos/hf6hq3949mqpg32u#NqCOs' style="color:rgb(96,172,252)" target='_blank'>详情</a>`,
                     bindIgnored: true
                 },{
                     attr: 'jsonStruct',

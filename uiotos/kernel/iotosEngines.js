@@ -11864,8 +11864,10 @@
                 return s;
             },
             calculation: function(method, value1, value2 = 1, reverseOpation = false) { //加、减、乘、除、自增/自减（第二个参数为幅度）、取整数
-                value1 = Number(value1);
-                value2 = Number(value2);
+                if (method != 'SUM' && method != 'SUB'){
+                    value1 = Number(value1);
+                    value2 = Number(value2);
+                }
                 let needValueFields = ['SUM', 'SUB', 'MUL', 'DIV', 'decimal', 'power']; //230813，需要用到_value字段的函数，列到这里，需要A和B参与运行，而不是单纯转换！
                 if (reverseOpation && needValueFields.indexOf(method) != -1) {
                     let tmp = value1;
@@ -11874,9 +11876,15 @@
                 }
                 if (method == 'SUM')
                     return value1 + value2;
-                else if (method == 'SUB')
-                    return value1 - value2;
-                else if (method == 'MUL')
+                else if (method == 'SUB'){
+                    if(typeof(value1) == 'number' && typeof(value2) == 'number'){  //241021，两个都是数字时
+                        return value1 - value2;
+                    }else{//2410221，其他情况下，字符串1移除里面的字符串2
+                        value1 = String(value1);
+                        value2 = String(value2);
+                        return i.replaceAll(value1, value2, '');
+                    }
+                }else if (method == 'MUL')
                     return value1 * value2;
                 else if (method == 'DIV')
                     return value1 / value2;
