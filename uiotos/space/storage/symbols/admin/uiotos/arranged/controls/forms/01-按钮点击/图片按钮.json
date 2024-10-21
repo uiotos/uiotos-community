@@ -1,5 +1,5 @@
 {
-  "modified": "Fri Aug 23 2024 17:43:38 GMT+0800 (中国标准时间)",
+  "modified": "Mon Oct 21 2024 16:52:00 GMT+0800 (中国标准时间)",
   "dataBindings": [
     {
       "attr": "symbol",
@@ -146,7 +146,7 @@
       "type": "image",
       "color": null,
       "name": {
-        "func": "__ht__function(data, view) {\nfunction func(data,view){\r\n    if((typeof(runningMode) != 'undefined' && !runningMode()) || view.getView().style.cursor != 'pointer'){//最好不用 == 'default'，因为存在代码初始赋值\r\n        data.ca('icon-background',data.ca('default-background'))\r\n    }\r\n    var typeArr = ['light','light','regular','light'] //枚举下拉选择\r\n    var typetmp = typeArr[data.ca('iconType')] //类型选择\r\n    var path = data.ca('path')                 //图标路径\r\n    if(path != undefined && path.trim() !== ''){\r\n        if(path.indexOf('.') == -1){           //传入图标文件名称时\r\n            path = 'symbols/demo/uiotos/icons/' + typetmp + '/' + path + '.json'\r\n        }else if(path.indexOf(typetmp) == -1){ //图标类型发生变化时\r\n            typeArr.forEach((curType,index)=>{\r\n                if(curType != typetmp){        //路径中先前的类型名称换成新的\r\n                    path = path.replace(curType,typetmp)               \r\n                }\r\n            })\r\n        }\r\n    }\r\n    data.ca('path',path)                      //回写过去\r\n    return path\r\n}\r\n\r\n//整体复制的话需要带上这句，因为属性func外层已经是函数体\r\nreturn func(data,view)\n}",
+        "func": "__ht__function(data, view) {\nfunction func(data,view){\r\n    if((typeof(runningMode) != 'undefined' && !runningMode()) || view.getView().style.cursor != 'pointer'){//最好不用 == 'default'，因为存在代码初始赋值\r\n        data.ca('icon-background',data.ca('default-background'))\r\n    }\r\n    var typeArr = ['light','light','regular','light'] //枚举下拉选择\r\n    var typetmp = typeArr[data.ca('iconType')] //类型选择\r\n    var path = data.ca('path')                 //图标路径\r\n    if(path != undefined && path.trim() !== ''){\r\n        if(path.indexOf('.') == -1){           //传入图标文件名称时\r\n            console.error(2222222)\r\n            if(!i.isBase64(path)){\r\n                path = 'symbols/demo/uiotos/icons/' + typetmp + '/' + path + '.json'\r\n            }\r\n        }else if(path.indexOf(typetmp) == -1){ //图标类型发生变化时\r\n            typeArr.forEach((curType,index)=>{\r\n                if(curType != typetmp){        //路径中先前的类型名称换成新的\r\n                    path = path.replace(curType,typetmp)               \r\n                }\r\n            })\r\n        }\r\n    }\r\n    data.ca('path',path)                      //回写过去\r\n    return path\r\n}\r\n\r\n//整体复制的话需要带上这句，因为属性func外层已经是函数体\r\nreturn func(data,view)\n}",
         "value": "symbols/demo/uiotos/icons/light/square-full.json"
       },
       "displayName": "democrat（democrat1）",
