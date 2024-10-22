@@ -11864,7 +11864,13 @@
                 return s;
             },
             calculation: function(method, value1, value2 = 1, reverseOpation = false) { //加、减、乘、除、自增/自减（第二个参数为幅度）、取整数
-                if (method != 'SUM' && method != 'SUB'){
+                if (
+                    (method != 'SUM' && method != 'SUB') ||
+                    (   //241022，存在true/false和0、1参与加减运算的情况！
+                        (typeof(value1) == 'number' || typeof(value1) == 'boolean') &&
+                        (typeof(value2) == 'number' || typeof(value2) == 'boolean')
+                    )
+                ){
                     value1 = Number(value1);
                     value2 = Number(value2);
                 }
