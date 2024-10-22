@@ -6054,7 +6054,7 @@ function __interface(data, gv, cache) {
                 secondtmp = urltmp && urltmp.split('/')[2]; //对于https://files/list中，判断files，注意对于有http://时，索引1的为空字符串！
             firsttmp = firsttmp && firsttmp.trim().toLowerCase();
             secondtmp = secondtmp && secondtmp && secondtmp.trim().toLowerCase();
-            let hostURL = data.dm()._url == 'displays/develop/uiotos/editor/home.json' && urltmp.slice(-9) == 'api/login' ? iotos_host : window.top.origin;
+            let hostURL = data.dm()._url == 'displays/develop/uiotos/editor/home.json' && urltmp.slice(-9) == 'api/login' ? iotos_host : (api_host ? api_host : window.top.origin);
             if( 
                 urltmp &&(                                   
                 urltmp.trim().toLowerCase().slice(0,7) == 'http://' || 
@@ -6065,8 +6065,7 @@ function __interface(data, gv, cache) {
                 //传入了"http://files/list?path=xxx"这种情况！（中间缺少主域名比如“sys.aiotos.net/”或者“localhost:8999/”）
                 if (secondtmp && (secondtmp.indexOf('.') == -1 && secondtmp.slice(0,9) !== "localhost")) { 
                     let splited = urltmp.split('/');
-                    //240811，window.top.origin.split('/')[2]相当于从http://localhost:8999中，取localhost:8999
-                    splited[2] = hostURL.split('/')[2] + '/' + splited[2];
+                    splited[2] = (hostURL.slice(0,4).toLowerCase() == 'http' ? hostURL.split('/')[2] : hostURL) + '/' + splited[2];
                     urltmp = splited.join('/');   //splited.slice(2).join('/'); //因为window.origin带有了http://或https://，那么要去掉原先配置或自动加上的http头！
                 }
             }else if(urltmp){

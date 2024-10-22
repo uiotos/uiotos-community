@@ -1,8 +1,13 @@
+//中台后端
 hostname = "203.189.6.3:8081"
-
 iotos_host = "http://" + hostname;
-
 ws_host = "ws://" + hostname;
+
+//业务后端
+/*默认为前端地址，可以修改任意指定IP:PORT
+示例1："sys.aiotos.net"
+示例2："203.189.6.3:9004" */
+api_host = window.top.origin
 
 //240815，为了避免显得一堆代码好复杂，这里对没绑定的，用空函数。有绑定iot变量的用封装了的函数作为默认调用！
 //组态变量绑定时的变量数据转换函数
