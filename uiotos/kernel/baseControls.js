@@ -5948,6 +5948,10 @@ function __interface(data, gv, cache) {
     //组件默认form绑定的属性
     i.setAttrsFormBinded(data, ['paramKeys', 'paramValues', 'requesting', 'jsonFormat', 'onReceived', 'url', 'enableLoading', 'defaultOpen', 'comment']);
     if (!cache.obj) {
+        //241022，初始化默认边框样式。
+        data.ca('shadowBorder',[0,0,8]);
+        data.ca('shadowColor','rgba(55,125,255,0.50)');
+
         let urltmp = data.ca('url');
         if (urltmp == undefined || urltmp == []) {
             data.ca('url', ['http://','sys.aiotos.net','api/v1/token']);
@@ -6726,6 +6730,9 @@ function __interface(data, gv, cache) {
                 i.update(data,'_subscribe',false);
                 data.i_statusReporting = false;
                 showContent('reconnecting...', false, 1);
+                //241022，连接状态，体现在接口组件的外观边框颜色上！
+                data.ca('shadowBorder',[0,0,12]);
+                data.ca('shadowColor','rgba(226,250,87)');
             });
 
             //连接断开后触发的回调
@@ -6735,6 +6742,9 @@ function __interface(data, gv, cache) {
                 data.i_statusReporting = false;
 
                 showContent('connection closed!', false, 2);
+                //241022，连接状态，体现在接口组件的外观边框颜色上！
+                data.ca('shadowBorder',[0,0,12]);
+                data.ca('shadowColor','rgba(255,125,125)');
             });
 
             //从broker接收到断开连接的数据包后发出。MQTT 5.0特性
@@ -6744,6 +6754,9 @@ function __interface(data, gv, cache) {
                 data.i_statusReporting = false;
 
                 showContent('disconnected! pachage: ' + i.ify(packet), false, 2);
+                //241022，连接状态，体现在接口组件的外观边框颜色上！
+                data.ca('shadowBorder',[0,0,12]);
+                data.ca('shadowColor','rgba(255,125,125)');
             });
 
             //客户端脱机下线触发回调
@@ -6753,6 +6766,9 @@ function __interface(data, gv, cache) {
                 data.i_statusReporting = false;
 
                 showContent('client offline!', false, 2);
+                //241022，连接状态，体现在接口组件的外观边框颜色上！
+                data.ca('shadowBorder',[0,0,12]);
+                data.ca('shadowColor','rgba(255,125,125)');
             });
 
             //当客户端无法连接或出现错误时触发回调
@@ -6762,6 +6778,9 @@ function __interface(data, gv, cache) {
                 data.i_statusReporting = false;
 
                 showContent('client error!' + error, false, 1);
+                //241022，连接状态，体现在接口组件的外观边框颜色上！
+                data.ca('shadowBorder',[0,0,12]);
+                data.ca('shadowColor','rgba(255,125,125)');
             });
 
             //当客户端发送任何数据包时发出。这包括published()包以及MQTT用于管理订阅和连接的包
@@ -6783,6 +6802,9 @@ function __interface(data, gv, cache) {
                 data.i_statusReporting = false;
 
                 showContent('connected!', false, 2);
+                //241022，连接状态，体现在接口组件的外观边框颜色上！
+                data.ca('shadowBorder',[0,0,12]);
+                data.ca('shadowColor','rgba(226,250,87)');
             });
         }
 
