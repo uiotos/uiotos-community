@@ -1310,6 +1310,7 @@ function __coordgis_ui(data, gv, cache) {
         }
 
         var obj = cache.obj = init()
+        obj.style['z-index'] = 0;  
         i.layoutHTML(obj, data, gv, cache);
     }
 
