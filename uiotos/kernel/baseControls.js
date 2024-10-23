@@ -9273,17 +9273,37 @@ function __convertor(data, gv, cache) {
             'a:inputs': e => { //对于透传模式，可以省去exec的触发调用！直接连一根线就好
                 if(data._i_updateObjectToKeyValues) return;
 
+                //241017，配置时的初始空值，用于输入赋值后清空的空值！不能取决于最近一次类型是数组还是对象来给空数组或空对象，因为可能是关联组件，通过数组提取解析赋值过来的！
+                if(i.isEditing(data) && (i.isObjEmpty(e.newValue) || (e.newValue.length && e.newValue.length == 0))){
+                    data.ca('emptyValue',e.newValue);
+                }
+                
+                //241003，默认“键组固定且保持结构”时，如果当前已有key-value，即输入组为非空对象，那么往输入组再赋值为对象，且对象的字段key跟当前已存在的不一致时，就报错并自动转成模式“全部结构化”
+                if(
+                    i.isObjNotEmpty(e.newValue) && 
+                    i.isObjNotEmpty(e.oldValue) && 
+                    !data.ca('resetAfterInput') &&
+                    data.ca('jsonStruct') == 2 &&
+                    !data._i_hasConvertFlatToTree &&
+                    !i.isEqual(i.keys(e.oldValue),i.keys(e.newValue))
+                ){
+                    let errorInfo = '输入组存在对象值，且未勾选赋值后清空，此时转换模式不能为默认，将自动转为“全部结构化”，避免传入的对象字段被截断！';
+                    i.alertError(errorInfo,'错误',null,[400,260],data);
+                    data.ca('jsonStruct',1);
+                }
+
                 /*231112，从exec的监听处理中定义放到这里全局，主要是有演示执行setTimeout时再进入exec时，获取到的inputs为复位后的了！这里用于备份设置的值，
                 注意，要确保复位的值通过i.backWriteOnly()不会重新写到这里，否则起不到备份的作用了！*/
                 inputs = inputsBak = e.newValue;
                 //231214，这里备份下，因为下面马上要复位了！而且真正exec执行时，获取的是data.ca('inputs')而不是inputs，避免获取到复位的值了！
                 data._i_hasInputing = true; //注意不能备份e.newValue，因为传入的可能就是undefined 
+
+                //没有新增的属性时，一旦给inputs赋值，就开始触发函数调用，不需要再次连线到exec，除非有新增的除了inputs之外的入参需要手动调用exec
+                //230221-20:48，存在有的新增参数是固定配置传参，因此触发还是决定于inputs，因此只要勾选了，就不管自动触发调用exec
                 if ( /*!hasAdded &&*/ data.ca('exeWhenInput')) {
                     data.fp('a:exec', null, true);
                     if (data.ca('resetAfterInput')) {
-                        /*231221，尝试去掉下面对inputs的赋值，直接将复位值给到下面回写，而不复位inputs，否则在delay延时操作输出结果时，就把复位的{}或[]给出去了，而实际要给此前赋值备份的输入值inputs！
-                        实际测试发现有副作用！！这里不清空inputs，会导致错误i.alert弹窗提示！因此专门做了个全局变量inputsBak，用来代替inputs缓存，在延时赋值输出时用！*/
-                        inputs = data.ca('inputsArrToObj') ? {} : [];
+                        inputs = data.ca('emptyValue')  !== undefined ? data.ca('emptyValue') : (isArrayFn(data.ca('inputs')) ? [] : {}); //data.ca('inputsArrToObj') ? {} : [];
                         i.backWriteOnly(data, 'a:inputs', inputs); //data.ca('inputs',undefined); //230525，对于输入时触发的情况，需要随后复位，避免第二次继续同样的值触发不了！
                     } else {
                         inputs = data.ca('inputs'); //240618，如果没有勾选输入后清空，那么每次进来这里要更新inputs输入值！！否则可能存在BUG！！

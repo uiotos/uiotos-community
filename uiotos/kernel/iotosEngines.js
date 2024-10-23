@@ -3873,7 +3873,8 @@
                     if(jsonObj !== null && jsonObj !== undefined && typeof(dictOnly) == 'object' && i.keys(jsonObj).length === 0) return true; //240801，单独判断{}
                     else return false;
                 }else{
-                    return jsonObj == undefined ? true : i.keys(jsonObj).length === 0;
+                    //241022，加上isObject判断，避免因为传入1、2、56这种，也返回true
+                    return jsonObj == undefined ? true : (isObject(jsonObj) && i.keys(jsonObj).length === 0 ? true : false);
                 }
             },
             //231109，判断是否是空对象，默认包括数组，传入true则仅识别{key:value}且不包含{}的为true
