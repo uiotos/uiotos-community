@@ -6170,7 +6170,7 @@ function __interface(data, gv, cache) {
             i.update(data, 'requesting', false);
         }
 
-        function requesting(enable, asyncIndexForResponse = null) { //asyncIndexForResponse是当异步请求时，做请求和返回的关联
+        async function requesting(enable, asyncIndexForResponse = null) { //asyncIndexForResponse是当异步请求时，做请求和返回的关联
             if (enable) {
                 //240204，模拟数据，填写固定数据结构，模拟数据返回！
                 if (data.ca('fakeRecvEnabled')) {
@@ -6205,7 +6205,7 @@ function __interface(data, gv, cache) {
                     asyncIndexForResponse == null && data.ca('waitingHint') != undefined && i.updateBindControls(data, data.ca('waitingHint'), data.ca('noAnim') ? [] : data.ca("waitingAnim"), !data.ca("enableRepeat") && !data.ca('noAnim'));
                     $.ajaxSetup({
                         xhrFields: {
-                            withCredentials: true
+                            withCredentials: data.ca('withCredential')
                         }
                     });
 
@@ -6219,9 +6219,6 @@ function __interface(data, gv, cache) {
                         let ajaxParam = {
                             type: ['get','post','put','delete'][nodeData.ca("httpType")], //240809，修改！nodeData.ca('post') ? 'post' : 'get',
                             url: cache.requestParam.url,
-                            xhrFields: { 
-                                withCredentials: data.ca('withCredential')
-                            }, 
                             contentType: nodeData.ca('contentType'), //application/x-www-form-urlencoded、application/json、text/xml、text/plain
                             //230803，条件需要加上|| cache.requestParam.params == '{}'，否则get请求对于空data参数结果带入了data:"{}"，将?{}加入到http get的url，会报错跨域cors诡异问题！！
                             data: cache.requestParam.params == {} || cache.requestParam.params == '{}' || cache.requestParam.params == null ? undefined : (() => {
@@ -6261,14 +6258,17 @@ function __interface(data, gv, cache) {
                                 }
 
                                 //对于异步请求特别是for循环连续多个请求时，结果为了能跟请求对应上，这里结果带上请求参数！尤其在组态连线bindControls的情况，都是异步触发。
-                                data._requestParams = i.clone(ajaxParam); //230925，去掉函数的，只保留请求参数放到返回结构中。
-                                delete data._requestParams.success;
-                                delete data._requestParams.error;
+                                if(data){
+                                  data._requestParams = i.clone(ajaxParam); //230925，去掉函数的，只保留请求参数放到返回结构中。
+                                  delete data._requestParams.success;
+                                  delete data._requestParams.error;
+                                }
 
                                 reponseFunc(data, status, false, asyncIndexForResponse);
                                 nodeData.ca('responseLog') && console.log('[recv]', data, status);
                                 //230310，加上data.router_config属性判断，对于物联中台的返回，code 0为成功！这跟apijson的返回的http状态码不一样，只是字段名冲突！
                                 if (
+                                    data &&
                                     data.code != undefined &&
                                     (
                                         data.code != 200 &&
@@ -6728,7 +6728,7 @@ function __interface(data, gv, cache) {
             //当重新连接启动触发回调
             cache.mqttClient.on('reconnect', () => {
                 data.i_statusReporting = true;
-                i.update(data,'_subscribe',false);
+                // i.update(data,'_subscribe',false);
                 data.i_statusReporting = false;
                 showContent('reconnecting...', false, 1);
                 //241022，连接状态，体现在接口组件的外观边框颜色上！
@@ -6737,9 +6737,9 @@ function __interface(data, gv, cache) {
             });
 
             //连接断开后触发的回调
-            cache.mqttClient.on("close", function() {
+            cache.mqttClient.on("close", function(info) {
                 data.i_statusReporting = true;
-                i.update(data,'_subscribe',false);
+                // i.update(data,'_subscribe',false);   //240921，发现不能加上这个，否则每次勾选订阅，很大概率在connect事件后，也会有这里close响应！！暂未深究，先屏蔽掉！毕竟还有disconnected、offline。
                 data.i_statusReporting = false;
 
                 showContent('connection closed!', false, 2);
@@ -6751,7 +6751,7 @@ function __interface(data, gv, cache) {
             //从broker接收到断开连接的数据包后发出。MQTT 5.0特性
             cache.mqttClient.on("disconnect", function(packet) {
                 data.i_statusReporting = true;
-                i.update(data,'_subscribe',false);
+                // i.update(data,'_subscribe',false);
                 data.i_statusReporting = false;
 
                 showContent('disconnected! pachage: ' + i.ify(packet), false, 2);
@@ -6763,7 +6763,7 @@ function __interface(data, gv, cache) {
             //客户端脱机下线触发回调
             cache.mqttClient.on("offline", function() {
                 data.i_statusReporting = true;
-                i.update(data,'_subscribe',false);
+                // i.update(data,'_subscribe',false);
                 data.i_statusReporting = false;
 
                 showContent('client offline!', false, 2);
@@ -6775,7 +6775,7 @@ function __interface(data, gv, cache) {
             //当客户端无法连接或出现错误时触发回调
             cache.mqttClient.on("error", (error) => {
                 data.i_statusReporting = true;
-                i.update(data,'_subscribe',false);
+                // i.update(data,'_subscribe',false);
                 data.i_statusReporting = false;
 
                 showContent('client error!' + error, false, 1);
@@ -6799,13 +6799,13 @@ function __interface(data, gv, cache) {
             //成功连接后触发的回调
             cache.mqttClient.on("connect", function(connack) {
                 data.i_statusReporting = true;
-                i.update(data,'_subscribe',true);
+                // i.update(data,'_subscribe',true);
                 data.i_statusReporting = false;
 
                 showContent('connected!', false, 2);
                 //241022，连接状态，体现在接口组件的外观边框颜色上！
-                data.ca('shadowBorder',[0,0,12]);
-                data.ca('shadowColor','rgba(226,250,87)');
+                data.ca('shadowBorder',[0,0,8]);
+                data.ca('shadowColor','rgb(0,199,7)');
             });
         }
 
@@ -6817,6 +6817,7 @@ function __interface(data, gv, cache) {
             i.addKeysAction(type, funcAttrs, e);
             if (data.s('label') == undefined) data.s('label', i.getValueTypeName('InterfaceType', data.ca('type')));
         }
+        if(data.ca('_sendSet')) i.update(data,'a:_sendSet', false);
 
         //230219，更新为i.md
         i.md(data, gv, cache, {
@@ -6980,16 +6981,18 @@ function __interface(data, gv, cache) {
             },
             'a:_sendSet': e => {
                 if (e.newValue) {
+                    try {
                     if (!cache.mqttClient) initMQTT();
                     let currentTopicTmp = data.ca('_topics'); //240425，兼容topics为单个字符串而不是数组的情况！
                     let topictmp = isArrayFn(currentTopicTmp) ? (data.ca('_topicIndexSend') < 0 ? currentTopicTmp : currentTopicTmp.at(data.ca('_topicIndexSend'))) : currentTopicTmp, //$IOTOS/event/data/changed/2/2/2
                         payloadtmp = data.ca('_payloadSend');
-                    if(payloadtmp != undefined){
+                        if(payloadtmp !== undefined){
                         if(!isArrayFn(topictmp)) topictmp = [topictmp];
-                        let contenttmp = JSON.stringify({
-                            from: data.ca('_clientId'), //在payload中固定加一层结构，from为客户端id，value才是payload的值！
-                            value: payloadtmp.toString()
-                        });
+                            contenttmp = typeof(payloadtmp) == 'object' ? JSON.stringify(payloadtmp) : payloadtmp.toString();
+                            // let contenttmp = JSON.stringify({
+                            //     from: data.ca('_clientId'), //在payload中固定加一层结构，from为客户端id，value才是payload的值！
+                            //     value: payloadtmp.toString()
+    
                         topictmp.forEach(topic=>{
                             cache.mqttClient.publish(topic, contenttmp, {
                                 qos: data.ca('_qos'),
@@ -6998,6 +7001,7 @@ function __interface(data, gv, cache) {
                         });
                     }
                     showContent('TOPIC:<br>' + topictmp + '<br><br>' + 'PAYLOAD:<br>' + payloadtmp, false, 1);
+                    } catch (error) {}
                     data.ca('_sendSet', false);
                 }
             },
