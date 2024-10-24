@@ -129,18 +129,18 @@ if(!window._i_runningTime){
             不同版本文件后，发现这就是几句位置引起的！！！放到这里前面，就没那个问题了！！*/
             "custom/libs/mqtt.min.js",
 
-            "config.js",
+            "custom/libs/config.js",
             'libs/htiotos.js',
-            "custom/libs/iotosCommon.min.js",
-            "custom/libs/iotosEngines.min.js",
-            "custom/libs/baseControls.min.js",
+            "kernel/iotosCommon.js",
+            "kernel/iotosEngines.js",
+            "kernel/baseControls.js",
             "custom/libs/AccordionTree.js",
+            "custom/libs/advanceControls.js",
             "custom/libs/TreeDropDown.js",
             "custom/js/zkys.js",
             "custom/libs/stacktrace-2.0.2.js",
             "custom/libs/eruda.min.js",
             "custom/libs/StackManager.js",
-            "custom/libs/heatmap.js",
             "custom/libs/easing.js",
             "custom/js/jumpMap/geomUtil.js",
             "custom/js/jumpMap/nameMap.js",
@@ -162,7 +162,7 @@ if(!window._i_runningTime){
             加载指定ip和端口复位下的iotosCommon.min copy 11.js版本代替默认的iotosCommon.min.js版本！！注意，ip后面的端口可省！*/
             let ver = urlParams.get('ver'),
                 urlBak = url, //备份一下
-                fileName = url.split('/').slice(-1)[0].slice(0, -3); //从"custom/libs/iotosCommon.min.js",获取"iotosCommon.min",
+                fileName = url.split('/').slice(-1)[0].slice(0, -3); //从"custom/libs/iotosCommon.js",获取"iotosCommon.min",
             if (ver && ver.indexOf(fileName) == 0) { //如果名称为"iotosCommon.min copy 13.js"这种传过来的开头部分包含了文件名称。
                 url = urlBak.replace(fileName + '.js', ver);
                 console.error('============ WARN：version for debugging', url, '============');
