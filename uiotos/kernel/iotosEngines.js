@@ -65,6 +65,7 @@
                 break;
             }
         }
+        window._i_runningTime = true; //241023，运行环境标记
         const scriptUrls = [
             'custom/configs/htconfig.js',
             'custom/libs/jquery.js',
@@ -81,6 +82,7 @@
             'custom/js/zkys.js',
             'custom/json/color.js',
             'custom/libs/htiotos.js',
+            'custom/libs/iotosconfig.js',
             "custom/libs/advanceControls.js",
             'kernel/iotosCommon.js',
             'kernel/baseControls.js',
