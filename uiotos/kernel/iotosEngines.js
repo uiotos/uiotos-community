@@ -65,7 +65,6 @@
                 break;
             }
         }
-        window._i_runningTime = true; //241023，运行环境标记
         const scriptUrls = [
             'custom/configs/htconfig.js',
             'custom/libs/jquery.js',
@@ -82,7 +81,6 @@
             'custom/js/zkys.js',
             'custom/json/color.js',
             'custom/libs/htiotos.js',
-            'custom/libs/iotosconfig.js',
             "custom/libs/advanceControls.js",
             'kernel/iotosCommon.js',
             'kernel/baseControls.js',
@@ -11495,7 +11493,7 @@
             isSymbolType: function(data){
                 if(!i.hasAttrObjectKey(data,'symbols')) return false; //240918，没有symbol属性的，都不认为有渲染元素和i.md，比如进度环等矢量图表！
                 let imgtmp = data.getImage && data.getImage();
-                if(imgtmp){
+                if(imgtmp && !data.ca('hasNoSymbolOrigin')){
                     if(typeof(imgtmp) == 'string'){
                         if(imgtmp.slice(0,8) == 'symbols/' && imgtmp.slice(-5) == '.json') return true;
                     }else if(typeof(imgtmp) == 'object'){
