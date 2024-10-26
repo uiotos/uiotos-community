@@ -1,0 +1,103 @@
+{
+  "width": 512,
+  "height": 512,
+    "modified": "Mon Aug 01 2022 23:33:01 GMT+0800 (中国标准时间)",
+  "background": "rgb(32,37,46)",
+  "dataBindings": [
+    {
+      "attr": "icon-background",
+      "valueType": "Color"
+    },
+    {
+      "attr": "icon-borderWidth",
+      "valueType": "PositiveNumber"
+    },
+    {
+      "attr": "icon-borderColor",
+      "valueType": "Color"
+    }
+  ],
+"comps": [
+    {
+      "type": "shape",
+      "points": [
+        477.7,
+        127.9,
+        477.7,
+        384,
+        414.3,
+        420.5,
+        414.3,
+        164.7,
+        255.8,
+        73.1,
+        97.2,
+        164.7,
+        97.6,
+        420.6,
+        34.3,
+        384,
+        34.3,
+        128.1,
+        256.2,
+        0,
+        477.7,
+        127.9,
+        287.6,
+        420.5,
+        256,
+        438.9,
+        224.2,
+        420.7,
+        224.2,
+        164.7,
+        160.9,
+        201.3,
+        161,
+        457.2,
+        255.9,
+        512.1,
+        351,
+        457.2,
+        351,
+        201.2,
+        287.6,
+        164.6,
+        287.6,
+        420.5
+      ],
+      "segments": [
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        5,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        5
+      ],
+      "borderColor": null,
+      "borderWidth": 0,
+            "background": {
+        "func": "attr@icon-background",
+        "value": "#000000"
+      }
+    }
+  ]
+}
