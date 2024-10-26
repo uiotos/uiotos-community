@@ -487,11 +487,6 @@
                     //240125，将下面valFlat = value改成valFlat = i.clone(value)，避免把原始的value值通过引用修改了！因为同一个value可能连线操作到多处，如果引用修改，必然导致不同连线的操作，先后用到的传入value不同了！！
                     let valFlat = i.clone(value), //convertToFlatJson(value, '#'),   
                         formValue2KeyURL = node._i_keyURL2FormValueTag ? i.reverseJson(node._i_keyURL2FormValueTag) : {};
-                    //231003，对于数据没有，但是表单字段有的，也需要加入到遍历中，并且值按照默认值，主要用于对通用的readOnly、disabled等统一处理！否则如果某个输入框没数据过来，查看模式竟然能输入，肯定不行！
-                    //240131，试图提高性能
-                    i.forEach(formLackedFields, formField => {
-                        valFlat[formField] = formValuestmp[formField];
-                    });
 
                     /* 231030，对于结构化表单和数据，相对路径别名的情况，单独先处理！：
                     appCoreFacialRecord/company: "人员出入记录-详情>0>company>a:value"
