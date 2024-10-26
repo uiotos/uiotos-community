@@ -170,10 +170,11 @@ function __checkBox_ui(data, gv, cache) {
                     }
                 });
                 //回写方式1：依赖于前面用了i.update来做的对textValue赋值
-                // i.backWriteAttrs(data, { 'a:indexValues': indexs });
+                i.backWriteAttrs(data, { 'a:indexValues': indexs });
+
                 //回写方式2：不依赖于任何其他地方的调用，直接回写赋值即可！
-                i.backWriteOnly(data, 'a:indexValues', indexs);
-                i.backWriteOnly(data, 'a:textValues', texts);
+                // i.backWriteOnly(data, 'a:indexValues', indexs);
+                // i.backWriteOnly(data, 'a:textValues', texts);
                 // 回写方式3：引用
                 // i.arrOverwrite(data.ca('indexValues'), indexs);
             },
