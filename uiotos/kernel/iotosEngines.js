@@ -4,7 +4,7 @@
         var ip = urlParams.get('debug') || urlParams.get('ip');
         let ver = urlParams.get('ver'),
             urlBak = url, //备份一下
-            fileName = url.split('/').slice(-1)[0].slice(0, -3);
+            fileName = url.split('/').slice(-1)[0].slice(0, -3); //从"custom/libs/iotosCommon.min.js",获取"iotosCommon.min",
         if (ver && ver.indexOf(fileName) == 0) {
             url = urlBak.replace(fileName + '.js', ver);
             console.error('============ WARN：version for debugging', url, '============');
@@ -65,6 +65,7 @@
                 break;
             }
         }
+        window._i_runningTime = true; //241023，运行环境标记
         const scriptUrls = [
             'custom/configs/htconfig.js',
             'custom/libs/jquery.js',
@@ -117,7 +118,7 @@
     }
 
     //所有图纸初始加载的统一处理
-    function commonInitDisplayLoaded(dm, url = null, gv = null, autoLayoutCenter = false) { //240709，增加参数传入gv，为了让编辑、运行时，所以图元组件都能直到自己的gv是什么！！
+    function commonInitDisplayLoaded(dm, url = null, gv = null) { //240709，增加参数传入gv，为了让编辑、运行时，所以图元组件都能直到自己的gv是什么！！
         //存放每个图纸加载时dm对应的url
         if (url) dm._url = url;
 
@@ -126,6 +127,7 @@
             fillTags = [],
             runModeTmp = runningMode(),
             baseNodeTmp = i.baseNode(dm),
+            isBaseLayMode = baseNodeTmp && !dm.a('fitContent'), //241015，底板布局模式！
             topDataTmp = !runModeTmp && i.topData(dm), //240614，顶层图元，看是否是编辑时的运行对话框！
             isTopDlgEditorRunning = topDataTmp && i.isDialogEditorRunning(topDataTmp);
         dm.each((item) => {
@@ -211,7 +213,7 @@
                 if (item && item.s && item.s('label') && item.s('label.opacity') != 0 && item.s('label.font') && item.s('label.font').indexOf('26px') != -1) {
                     i.addAttrRunningInit(item, 's:label.opacity', 0);
                 }else if(
-                    runModeTmp && item && item.s && item.s('label') == undefined && item.getName() != undefined
+                    item && item.s && item.s('label') == undefined && item.getName() != undefined
                 ){
                     i.addAttrRunningInit(item, 's:label.opacity', 0);
                 }
@@ -255,6 +257,7 @@
                             i.addAttrRunningInit(item, 's:layout.h', undefined);
                             i.addAttrRunningInit(item, 's:layout.v', undefined);
                         }
+                        item._i_dataNotUI = true;
                     }
                 });
             }
@@ -265,10 +268,13 @@
 
             /*241014，运行状态下，底板布局的页面，如果没有任何组件做布局，那么运行时全部默认居中布局（不影响编辑状态），这样页面窗口尺寸变化，都会相对编辑时相对位置居中，对于底板尺寸跟浏
             览器屏幕尺寸比例不统一时，方便看效果，也避免手动去布局（感觉有点复杂），对初学者更友好！*/
-            if(runModeTmp && data.s('2d.visible') && autoLayoutCenter){
+            //241017，加上条件!item._i_dataNotUI，否则发现新建页面背景等场景，运行时连线竟然可见！
+            if(runModeTmp && data.getHost && data !== baseNodeTmp && !i.isControlTyped(data,'dlg') && !item._i_dataNotUI && data.s('2d.visible') && isBaseLayMode && !data.getParent()){    //241015，加上!data.getParent()，主要是因为block这种存在，组合做布局，组合内的没且无需布局，存在这种情况！
+                if(!data.getHost()) {
                 data.setHost(baseNodeTmp);
                 data.s('layout.h','center');
                 data.s('layout.v','center');
+                }
             }
         });
 
@@ -304,10 +310,7 @@
 
         //240927，url可能是完整url，比如'http://localhost:8999/displays/demo/3-示例/02-小示例/03B-视频选择播放暂停.json'，在示例中点击示例图标打开URL时是这样！因此去掉头给到url，否则dm._url也是http开头了！
         url = url && url.replace(window.origin + '/','');
-
-        //241014，底板布局模式下，所有组件都没有做布局。那么都自动居中布局！这样运行时，页面尺寸变化，都能默认居中，更友好！
-        let baseWithoutLayout = !gv.dm().a('fitContent') && JSON.stringify(gv.dm().toJSON()).indexOf('"host"') == -1
-        commonInitDisplayLoaded(gv.dm(), url, gv,baseWithoutLayout); //240709，增加参数传入gv，为了让编辑、运行时，所以图元组件都能直到自己的gv是什么！！
+        commonInitDisplayLoaded(gv.dm(), url, gv); 
 
         /*240815，对于内嵌页是底板布局，上层容器设置了适配内容，结果因为先底板已经布局了，加载完成后再改适配，导致缩放比例跟原始适配内容不一样，不美观！
         因此加载时就判断，如果上层已经设置了适配内容，那么不论如何，当前作为内嵌页，设置为适配内容，不要底板！！这样就不会加载时还来一下底板布局！*/
@@ -541,17 +544,29 @@
                         里的key加到末尾，作为底层图元的某个公共属性来处理，发现如果属性存在，那么用value对其赋值。*/
                         function __attrsCommonAccess(keyURL, valueFroced = undefined) {
                             if (!keyURL) return;
+                            if(node.ca('formReadOnly') &&　!value._i_attrsCommonAccess){
+                                value._i_attrsCommonAccess = {
+                                    'readOnly': true,
+                                    'disabled': false
+                                }
+                            }
                             for (let commonKey in value._i_attrsCommonAccess) {
                                 if (commonKey == '__upper') continue;
                                 //tips 230926，提取formValue表单属性的keyURL，将末尾属性换成_i_attrsCommonAccess里的，相当于对表单组件数值属性之外的其他属性按照配置赋值。
                                 let keytmp = keyURL.split('>').slice(0, -1).join('>') + '>' + i.autoPrefixed(commonKey),
                                     //230926，有传入指定值时用指定值，没有传入时，用_i_attrsCommonAccess里key对应的value
                                     valtmp = valueFroced === undefined ? value._i_attrsCommonAccess[commonKey] : valueFroced;
-                                i.hasAttrObjectKey(node, keytmp) && _i.setTimeout(() => {
-                                    /*230927，如果配置的值为undefined，那么相当于默认表单初始配置的读写方式，不会强制成只读尤其是可读写，避免原本是只读下拉列表，通过编辑状态打开
-                                    反而成了可编辑的了！要保持原来默认的读写方式，只要限制updateForce不把当前的表单key-value向下赋值即可！*/
-                                    valtmp !== undefined && updateForce(node, keytmp, valtmp);
+
+                                /*230927，如果配置的值为undefined，那么相当于默认表单初始配置的读写方式，不会强制成只读尤其是可读写，避免原本是只读下拉列表，通过编辑状态打开*/
+                                let bottomNodeTmp = i.bottomData(node,keytmp),
+                                    bottomAttrTmp = i.bottomKeyURL(keytmp);
+                                if((i.isControlTyped(bottomNodeTmp,'cbox') || i.isControlTyped(bottomNodeTmp,'range')) && commonKey == 'disabled') valtmp = true;
+                                _i.setTimeout(() => {
+                                    valtmp !== undefined && updateForce(bottomNodeTmp, bottomAttrTmp, valtmp);
                                 }, 0);
+                                // i.hasAttrObjectKey(node, keytmp) && _i.setTimeout(() => {
+                                //     /*230927，如果配置的值为undefined，那么相当于默认表单初始配置的读写方式，不会强制成只读尤其是可读写，避免原本是只读下拉列表，通过编辑状态打开
+                                //     反而成了可编辑的了！要保持原来默认的读写方式，只要限制updateForce不把当前的表单key-value向下赋值即可！*/
                             }
                         }
 
@@ -559,9 +574,14 @@
                             targetKey = Object.values(formValue2KeyURL)[keyIndex]; //直接匹配到时
                             if (isArrayFn(targetKey)) {
                                 targetKey.forEach(attrSingle => {
+
+                                    __attrsCommonAccess(attrSingle);    
+
                                     updateForce(node, attrSingle, valFlat[key], 'all', false, true); //231222，加上末尾参数setUbcQueued为true，让连线逻辑放到执行之后，让连线逻辑放到属性赋值的下一个队列去
                                 });
                                 continue; //对于这种，单个赋值处理即可，跳过循环后半部分的处理，continue，直接进行下一个
+                            }else{
+                                __attrsCommonAccess(targetKey);    
                             }
                         } else { //没有直接匹配到时，通常是因为只有一个属性做了formValue绑定，此时不体现属性名或别名，只有tag，中间以#隔开！
                             let fieldMatchedIndex = [], //比如从field1#AAA中提取field1
@@ -1736,13 +1756,19 @@
                                     basetmp._i_originWidth = basetmp.getWidth();
                                     basetmp._i_originHeight = basetmp.getHeight();
                                 }
+                                if(data){
+                                    let curBase = i.baseNode(data.dm(),false);  //231003，注意，得是data容器，对于所在页面的底板位置！而不是内嵌底板！
+                                    let postmp = data.getPosition(),
+                                        needVisualTriggered = data.s('2d.visible') && !data.getHost() && !i.isContainsInRect(data, curBase);
+                                    curBase && needVisualTriggered && data.setPosition(curBase.getPosition());
                                 _i.setTimeout(() => {
+                                        needVisualTriggered && data.setPosition(postmp);
                                     //240303，末尾追加参数传入hasInnerDisplayTmp，避免再次重复计算hasInnerDisplay()，徒增耗时！
                                     dm.handleCurrentSymbol(forceEnable, setImageOnly, innerDataBubbling, true, hasInnerDisplayTmp);
                                 }, 0);
+                                }
                                 return;
                             }
-
 
                             if (forceEnable == false && hasInnerDisplayTmp) {
                                 console.warn('WARNNING:', i.autoTag(data), 'has container typed innerData,and will be paused to tranves inner display,waiting for the bottom to bounce back', url);
@@ -1756,6 +1782,15 @@
                                     item.data._i_isDisplayInheritUpperFormUsed = true;
                                 });
                                 if (!i.isControlTyped(data, 'tab') || data.ca('index') == extra.multiDistinctIndex) {
+                                    if(data){
+                                        let basetmp = i.baseNode(data.dm(),false);//231003，注意，得是data容器，对于所在页面的底板位置！而不是内嵌底板！
+                                        let postmp = data.getPosition(),
+                                            needVisualTriggered = data.s('2d.visible') && !data.getHost() && !i.isContainsInRect(data, basetmp);
+                                        basetmp && needVisualTriggered && data.setPosition(basetmp.getPosition());
+                                        _i.setTimeout(() => {
+                                            needVisualTriggered && data.setPosition(postmp);
+                                        }, 0);
+                                    }
                                     return; //230921，就统一切换成这个，实现兼容！
                                 } else if (i.isControlTyped(data, 'tab')) { //231101，对于tab页签的非当前页的初始化加载，做上标记！
                                     isTabOtherPagesIniting = true;
@@ -1961,7 +1996,7 @@
                                                             //240224，传入新增的图元对象参数，可以利用_i_symbolDatabindings避免重复循环遍历！//tips 240224.2，用data.innerDatabingdings，弃用_i_symbolDatabindings
                                                             dbItem = i.getDataBindingItem(innerImgObjTmp, attrKey, innerData);
 
-                                                            if (dbItem == undefined) {
+                                                            if (dbItem == undefined && !innerData.dm().a('_pageCompress')) {
                                                                 /*230321，对应上面data._multiRequestingLeft = 1的处理，对于反弹到上层图元进行内嵌图元遍历时，碰到内嵌容器图元此时_multiRequestingLeft
                                                                   属性不是0或undefined时，就过滤掉不处理，自然也不会触发其自动清理数据绑定和属性变量！*/
                                                                 if (innerData._multiRequestingLeft) { //注意，这里不能return掉，否则会影响form绑定值。加上attrIndex，避免同一个图元所有属性都要打印输出针对图元的日志！
@@ -2066,6 +2101,8 @@
                                                     valueType: dbItem == undefined ? (
                                                         dataDbObjTmp.vt ? dataDbObjTmp.vt :
                                                         (function() {
+                                                            let symbolItemTmp = i.getDataBindingItem(innerData, attrKey, innerData);
+                                                            if(symbolItemTmp && symbolItemTmp.valueType) return symbolItemTmp.valueType;
                                                             switch (typeof(innerDataValue)) {
                                                                 case 'string':
                                                                     //逐层暴露时，不同类型，配置属性框类型保持一致！
@@ -2083,7 +2120,7 @@
                                                                     return isArrayFn(innerDataValue) ? 'ObjectArray' : 'Object'
                                                                 default:
                                                                     console.warn('unrecogniced type:', typeof(innerDataValue), innerDataValue, attrKey, innerData);
-                                                                    return 'String';
+                                                                    return 'Object';    //241004，之前默认是string类型，现在默认用object，只有这样，才能设置任意数值！尤其是对于tab这种其他页切换时才加载的情况！
                                                             }
                                                         })()
                                                     ) : dbItem.valueType,
@@ -3285,6 +3322,7 @@
                     return dm.a("_from") == undefined ? dm : __parentDataModel(dm.a("_from"));
                 }
                 let isUppersDataMatched = false; //230216
+                if(data.getTag() == undefined && data.getDisplayName() == undefined) console.assert(0);
                 let tagtmp = i.autoTag(data); //默认就是当前图元本身，没有上层图纸内嵌时，i.rootData(data)获取返回的是data本身
                 let dmtmp = __parentDataModel(data.dm());
                 if (dmtmp === data.dm()) return data;
@@ -3767,6 +3805,7 @@
             },
             //240618，代替JSON.parse()，因为发现如果传入比如：["1762769560734908417"]（对象，非字符串），那么输出竟然是：1762769560734908400
             jsonParse: function(jsonString) {
+                try {
                 if (isObject(jsonString)) {
                     console.assert(typeof(jsonString) != 'string');
                     console.error('WARN: expecting a string type, but actually receiving an object:', jsonString);
@@ -3774,6 +3813,9 @@
                 } else if (typeof(jsonString) != 'string') {
                     return JSON.parse(jsonString);
                 } else return JSON.parse(jsonString);
+                } catch (err) {
+                    return jsonString;
+                }  
             },
             //230612，兼容编辑状态和运行状态，在当前页面复制图元对象，注意，不是序列化保存和加载还原，而是复制深拷贝。
             copyNode: function(node) {
@@ -3914,10 +3956,16 @@
             setValue: function(node, attr, value) {
                 /*240904，对于s:2d.visible，和值为false的不能进来！因为组件默认隐藏时，渲染元素是不会执行的。如果在继承的上层也有出事form绑定赋值为false，初始再来一次不可见，
                 在这里被缓存了，那么后面再对其设置可见，就会出现闪一下又自动隐藏的情况！！就是因为缓存了导致的！！*/
-                if (!node._cache && i.isSymbolType(node) && attr.slice(-10) !== '2d.visible' && value == false) {
+                if (!node._cache && i.isSymbolType(node) && attr.slice(-10) != '2d.visible') {
                     if(!node._i_setValueBeforeInits) node._i_setValueBeforeInits = [];  //240903，之前是单个函数，但是会存在覆盖！因此需要换成数组！！
                     node._i_setValueBeforeInits.push(() => {
+                        if(i.autoPrefixed(attr).slice(0,1) != 'a'){
                         i.setValue(node, attr, value);
+                        }else{
+                            _i.setTimeout(()=>{
+                                i.setValue(node, attr, value);
+                            },0);
+                        }
                     });
                     return;
                 }
@@ -4631,11 +4679,9 @@
                             curnode.name = nametmp;
 
                             //240804，可以带上剩余完整多个同行其他列的数据，但是children没必要带上！否则大量冗余数据！而且列数量大于1时，才加上itemData，否则也是多余的！！
-                            if(item.rowData && item.rowData.length > 1){
                                 let extraTmp = i.clone(item);
                                 delete extraTmp.children;
                                 curnode.itemData = extraTmp; //231205，当前数据，比如接口查询记录集，除了name、value指定字段，还需要当前行数据都在里面，避免选中了下拉框选项，但是没有完整信息！
-                            }else delete curnode.itemData;
 
                             //如果从列表list到树tree到下拉combobox都保留有id下来，那么下拉框的tree对应value就用这个id，便于提交数据保存数据库记录需要用的参数！
                             curnode.value = item[idField] != undefined ? item[idField] : parent ? parent.value + '.' + (index + 1) : (index + 1);
@@ -5380,7 +5426,7 @@
                             i.onImageLoaded(symbolObjTmp, function(img) {
                                 symbolObjTmp = img;
                                 retCallback && retCallback(__judged(), true); //240702，第二个参数为true时，标明是异步加载资源后回调进来的！
-                                if (!runningMode() && editor.displayView) editor.displayView.hasLoaded = true;
+                                if (!runningMode() && typeof(editor) !== 'undefined' && editor.displayView) editor.displayView.hasLoaded = true;
                             });
                             return undefined; //如果直接返回的不是true/false，而是undefined,那么最终结果得异步通过retCallback返回！
                         } else {
@@ -5544,7 +5590,8 @@
                 } else if (displayBindings[type] == undefined) { //初始的数据绑定可能是s或p类型，所以还要进一步判断a类型是否存在！不存在就初始化下，否则后面直接用会报错！
                     displayBindings[type] = {}
                 }
-                data._i_autoFormBinds = attrs; //231208，记录下
+                //241027，可能存在多次反复调用本函数，比如容器组件渲染元素初始调用，以及加载内嵌页面，自动继承属性时调用，当前都是合并处理的，因此这里的也要合并处理！否则会导致编辑时无法清理绑定，试图不想对更上层自动继承！
+                data._i_autoFormBinds = data._i_autoFormBinds ? _i.mergeArrays([data._i_autoFormBinds, attrs],true) : attrs; //231208，记录下
                 attrs.forEach(function(attr) {
                     attr = i.np(attr);
                     let bindedtmp = displayBindings[type][attr];
@@ -5667,6 +5714,7 @@
             },
             //图标symbol image json的数据绑定变量定义，根据变量名称获取对象
             getBindedAttrValueType: function(data, attrName) {
+                if(!attrName || attrName.trim() == '') return null;
                 if (data == undefined || attrName == undefined) {
                     console.warn('WARNING: node object or attr name is null!', data, attrName);
                     return;
@@ -6335,8 +6383,9 @@
                     ];
                     //240304，所有收发器，通过层层嵌套后的各自信息记录，
                     let topInfo = i.topKeyURL(data, 'p:tag', true, true),
-                        curFormed = {},
-                        absTag = topInfo.data.dm()._url + '>0>' + topInfo.data.getTag() + '>' + topInfo.attr;
+                        curFormed = {};
+                    if(!topInfo.data || !topInfo.data.dm()) return;
+                    let absTag = topInfo.data.dm()._url + '>0>' + topInfo.data.getTag() + '>' + topInfo.attr;
                     absTag = absTag.split('>').slice(0, -1).join('>');
                     if (!_i.window()._i_eventBusLayersInfo) _i.window()._i_eventBusLayersInfo = {};
                     _i.window()._i_eventBusLayersInfo[absTag] = {}; //240304，去掉末尾都有的'>p:tag'，key截至到bus的tag值即可！
@@ -7261,6 +7310,12 @@
                                     let bottomData = i.bottomData(data, paramAttrFieldTmp);
                                     if (bottomData.ca('outputByEvent')) {
                                         console.error(`WARN: outputByEvent attr of inner func data ${_innerData.getDisplayName()} has been checked，and will use output value directly instead of form object!`);
+                                        let keyUrlTmp = data._i_rawControlVals[index]
+                                        if(typeof(keyUrlTmp) === 'string' && keyUrlTmp.indexOf('a:output') !=  -1 && i.bottomData(data,keyUrlTmp) ===  bottomData){
+                                            let attrtmp = i.bottomKeyURL(keyUrlTmp);
+                                            data._i_rawControlVals[index] = attrtmp.length >= 9 ?  attrtmp.slice(9) : null;
+                                            console.error('WARN:When outputByEvent checked, onOutput association does not need parsing. Current is output keyURL, maybe old version or error and has been automatically ignored.',keyUrlTmp,data);
+                                        }
                                         valFieldTmp = bottomData.ca('output');
                                         //240305，标记置位
                                         isvalueOnOutput = true;
@@ -7322,7 +7377,7 @@
                                     }else{
                                         valFieldTmp = i.setArrayIndexValue(oldValCloned2, valArrIndex, valFieldTmp);
                                     }
-                                    extraCached.isOldValueArrIndexSetted = true; //240227，通常用于工具函数获取组件属性值时，多条连线索引方式操作输入数组，那么这里返回就知道赋值是操作了索引位置填充值！
+                                    if(extraCached.indexRefered === index) extraCached.isOldValueArrIndexSetted = true; //240227，通常用于工具函数获取组件属性值时，多条连线索引方式操作输入数组，那么这里返回就知道赋值是操作了索引位置填充值！
                                 } else if ( //230903，数组取值。同样在bindControlsVal中以0、1、2、3这样数值，如果要操作的是非数组类型，并且数据本身是数组，那么就是获取当前数组的索引取元素对外赋值！
                                     valArrIndex != null && //如果原先配置的静态值为非负整数（或对应的字符串）
                                     !isArrayFn(oldValTmp) && //且被操纵的属性不是数组类型
@@ -7330,7 +7385,7 @@
                                     valFieldTmp[valArrIndex] !== undefined && //且尝试按照索引给反向关联属性值取元素，值存在
 
                                     //230818，加上了&& valFieldTmp == ignoreFlag，貌似本应该就是首先判断ignoreFlag的
-                                    ((valFieldTmp !== undefined || isParamCtrlIsFunc) && valFieldTmp != ignoreFlag) //230810，加上条件，因为上面经过了过滤函数，只要上面过来的有undefined的，那么就过滤不触发！何况事件过滤也是通过undefined在上面设置过滤的！
+                                    ((valFieldTmp !== undefined || !isParamCtrlIsFunc) && valFieldTmp != ignoreFlag) //230810，加上条件，因为上面经过了过滤函数，只要上面过来的有undefined的，那么就过滤不触发！何况事件过滤也是通过undefined在上面设置过滤的！
 
                                 ) { //此时，操作值将变为反向关联属性数组按照索引取元素后的值！
                                     valFieldTmp = valFieldTmp[valArrIndex];
@@ -7400,9 +7455,10 @@
                         !upperDataTmp ||
                         i.isControlTyped(data, 'cbtn') //对于特殊组件，比如图片按钮，里面直接调用了i.updateBindControls()并非是走常规途径，排除在异常提示之外！
                     );
+                    let pureFormValuesTmp = upperDataTmp.ca('pureFormValues');
                     return i.updateBindControls(
                         upperDataTmp, //其他传参不变，就这里data，切换成上层图元对象i.upperData(data)即可！！在updateBindControls函数内判断首个参数为null就return掉
-                        upperDataTmp ? i.getFormValues(upperDataTmp, -1, !upperDataTmp.ca('pureFormValues')) /*i.getFormDatas(upperDataTmp)*/ : response,
+                        upperDataTmp ? i.getFormValues(upperDataTmp, pureFormValuesTmp ? 3 : -1, !pureFormValuesTmp) /*i.getFormDatas(upperDataTmp)*/ : response,
                         animationParam,
                         alwaysAnimHint,
                         ignoreFlag,
@@ -8120,7 +8176,7 @@
                 //240131，用i.forEach代替arr.forEach试图提高性能：
                 i.forEach(attrs, attr => {
                     let attrKey = returnWithFormType ? attr.attrKey : attr; //240215，获取到的是对象，带有formType、attrKey字段
-                    if(!uppertmp && formType == 3 && (!data._i_keyURL2FormValueTag || data._i_keyURL2FormValueTag[i.np(attrKey)] === undefined)){ 
+                    if(/*!uppertmp && */formType == 3 && (!data._i_keyURL2FormValueTag || data._i_keyURL2FormValueTag[i.np(attrKey)] === undefined)){ 
                         if(!data._i_keyURL2FormValueTag) data._i_keyURL2FormValueTag = {};
                         let dbItemTmp = i.getDisplayBindingItem(data,attr),
                             aliasTmp = dbItemTmp && dbItemTmp.alias;
@@ -8404,7 +8460,8 @@
             i.alert('内嵌图xxxxx销售的房屋', '提示', () => {
                 i.editorOpen(data.ca('display'));
             })*/
-            alert: function(msg, title = '警告', hasCancel = false, cb = null, gv = null, size = [300, 150]) {
+            alert: function(msg, title = '警告', hasCancel = false, cb = null, gv = null, size = [300, 150], overWriteOld = false) {
+                if(!size || size.length == 0) size = [300,150];
                 _i.setTimeout(() => { //240608，好像得放到下一个时序，才能避免初始打开偶尔弹窗内容显示问题！
                     if (!gv && window.editor && !window.editor.gv) {
                         //240524，当编辑器没有打开任何页面时，存在退出登录等操作需要提示，此时提示依赖的gv，就要换一个已经有的，避免return掉！
@@ -8428,10 +8485,12 @@
 
                     let oldContent = '';
                     if (i.window()._i_alertDlg) { //230917，多个连续弹窗（因为不是阻塞的），内容会合并而不是对话框窗口多个叠加！有待进一步测试！！
-                        oldContent = i.window()._i_alertDlg.ca('ensure>0>textArea-ui1>a:value');
+                        oldContent = i.window()._i_alertDlg._i_msg;//i.window()._i_alertDlg.ca('ensure>0>textArea-ui1>a:value');
                         oldContent += '\r\n\r\n-----------\r\n\r\n';
                         oldContent += title + '：\r\n';
                         oldContent += msg;
+                        if(overWriteOld) oldContent = msg;
+                        i.window()._i_alertDlg._i_msg = oldContent;
                         i.window()._i_alertDlg.ca('ensure>0>textArea-ui1>a:value', oldContent);
                         i.window()._i_alertDlg.setWidth(size[0]);
                         i.window()._i_alertDlg.setHeight(size[1]);
@@ -8442,6 +8501,7 @@
                         if (i.getImage(urltmp)) {
                             i.window()._i_alertDlg = i.openDialog(urltmp, gv ? gv : runningMode() ? window._i_rootDM : editor.gv, {
                                 onInit: function(data, gv, cache, formAttrs) {
+                                    let msg = i.window()._i_alertDlg._i_msg;
                                     //231108，如果文字内有html标记的，那么切换成html格式！
                                     data.ca(i.np(i.attr(formAttrs, 'a:htmlContent')), i.isHtmlTypedText(msg));
 
@@ -8453,6 +8513,7 @@
                                     delete i.window()._i_alertDlg;
                                 }
                             }, title, size);
+                            i.window()._i_alertDlg._i_msg = msg;
                         } else {
                             //230926，存在url资源未加载的情况，这里需要触发下，否则无处触发加载，那么显示就会出问题！存在urltmp还未加载的情况，发现此时对话框显示异常，只有底部按钮，没有窗体内容！
                             i.setImage(urltmp, urltmp);
@@ -8855,6 +8916,7 @@
             },
             //是否是base64编码后的，注意，对于常规字符串比如"hello world"，也会通过，因为可能是另一个字符串经过base64编码过来猜的到这个的，并不是你以为的作为待编码且编码后都是乱七八糟字符的情况！
             isBase64: function(str) {
+                if(str && str.slice && str.slice(0,11) == 'data:image/' && str.indexOf && str.indexOf('base64') != -1) return true;
                 //方式一：
                 if (str === '' || str.trim() === '') {
                     return false;
@@ -8867,6 +8929,7 @@
             },
             //231206，更新！补充图元属性的前缀
             autoPrefixed: function(attr, node = null) {
+                if(!attr) return attr;
                 if (attr.slice(1, 2) == ':') {
                     return attr;
                 }
@@ -8959,8 +9022,18 @@
                 eventType = null,
                 fpForce = false, //230213，增加强制更新，对于值未变化的，也强行触发
                 extraInfo = null,
-                formDatas = null //230913，支持用户传入formDatas，如果不传，默认就是组件的表单数据。可以用于api组件这种传入接口返回的response作为表单而不是自动生成！
+                formDatas = null, //230913，支持用户传入formDatas，如果不传，默认就是组件的表单数据。可以用于api组件这种传入接口返回的response作为表单而不是自动生成！
+                onEventTriggerFunc = null
             ) {
+                if (typeof(formEvents) == 'string') formEvents = [formEvents];
+                if (formEvents && isArrayFn(formEvents)) {
+                    if (formEvents.length == 1 && eventType == null) eventType = formEvents[0];//230216，当传入的事件只有一个字符串或者数组只有一个且eventType为null时，eventType就自动以formEvents的第一个（字符串）赋值！
+                }
+                if(onEventTriggerFunc && eventType){
+                    if(!data._i_typeToEvents) data._i_typeToEvents = {};
+                    data._i_typeToEvents[i.np(eventType)] = onEventTriggerFunc;
+                }
+                if(data._i_onEventByEventTypeInit) return; //241002，仅仅是初始化时，不需要实际上做对外连线动作！
                 let /*formDatas = null,*/ //230913，支持用户传入formDatas，如果不传，默认就是组件的表单数据。可以用于api组件这种传入接口返回的response作为表单而不是自动生成！
                     formType = -1,
                     attrFull = null;
@@ -9179,16 +9252,18 @@
                 //230924，非字符串，直接返回false，即便本身就是数字！
                 if (stringOnly && typeof(str) != 'string') return false;
                 if(typeof str == 'boolean' && !excludeBoolean) return true;
-                let ret = typeof str == 'number' || !isNaN(parseFloat(str)) && isFinite(str) && typeof str == 'string';
+                let ret = typeof str == 'number' || (typeof str == 'string' && isFinite(str) && !isNaN(parseFloat(str)));
                 if (ret && i.isNumberStringTooLong(String(str))) ret = false;
                 return ret;
             },
             //240304，判断数字字符串是否太长，导致Number()转换会失真！主要是给i.isStringNumber用，避免转换成数字结果变样了！
             isNumberStringTooLong: function(numberString) {
                 // 移除可能的负号  
-                const trimmedString = numberString.replace(/^-/, '');
+                if (numberString[0] === '-') { 
+                    numberString = numberString.slice(1);  
+                } 
                 // 检查长度是否大于16  
-                return trimmedString.length > 16;
+                return numberString.length > 16;
             },
             //230306，为了便于编辑器中字符串配置兼容bool/int类型变量
             getTypedValue: function(strVal) {
@@ -9235,11 +9310,16 @@
             },
             //230226,清空，但是保持引用
             arrClear: function(arr) {
+                let isArrTmp = isArrayFn(arr);
+                console.assert(isArrTmp);
+                if(!isArrTmp) arr = []; 
                 arr.length = 0;
                 return arr;
             },
             //230305,清空，但是保持引用
             objClear: function(obj) {
+                console.assert(typeof(obj) == 'object');
+                if(typeof(obj) != 'object') obj = {};
                 for (let key in obj) {
                     if (obj.hasOwnProperty(key)) { //240208，by gtp，增加这个条件。
                         delete obj[key];
@@ -9377,6 +9457,21 @@
                     console.error('data has been removed??', data);
                     return false;
                 };
+                let bAttrs = data.ca("bindControlsAttr");
+                bAttrs && bAttrs.forEach((bAttr,idx)=>{
+                    if(bAttr && bAttr.slice(1,2) != ':'){
+                        let toNode = d(data.dm(), data.ca("bindControlsTag")[idx]);
+                        console.assert(toNode);
+                        bAttrs[idx] = i.autoPrefixed(bAttr,toNode);
+                    }
+                    let pAttr = data.ca("paramControlAttr")[idx];
+                    if(pAttr && pAttr.slice(1,2) != ':'){
+                        let pTag = data.ca("paramControlTag")[idx],
+                            fromNode = d(data.dm(), pTag ? pTag : data.getTag());
+                        console.assert(fromNode);
+                        data.ca("paramControlAttr")[idx] = i.autoPrefixed(pAttr,fromNode);
+                    }
+                });
                 let titlePopupGroupName = '弹出框 *'; //注意，不能用i.trans()因为运行状态下没这个貌似！！！
                 if (control && control.getView && control.getView()) control.getView().id = data.dm()._url + '@' + i.autoTag(data);
                 /*240427，动态插入pop弹出框属性，放到函数内，因为在切换内嵌display页时，需要清理上一次继承过来的，因为发现切换继承页面，没有动态清理掉！所以就通过setImage
@@ -9553,6 +9648,8 @@
 
                 let attrsSyncInitNeeded = []; //240225，如果属性初始化设置的是对象，且value为“__init__”，那么该属性就当下同步立即执行初始化！
                 if (data._i_hasPopDisplay) attrsInit = [...attrsInit, 'a:display']; //240427，默认需要初始化的！
+                if(attrsInit.indexOf('a:disabled') == -1 && attrsInit.indexOf('disabled') == -1) attrsInit.push('a:disabled');
+                if(attrsInit.indexOf('a:readOnly') == -1 && attrsInit.indexOf('readOnly') == -1) attrsInit.push('a:readOnly');
                 attrsInit.forEach((attr, index) => {
                     function __fpInit(attr, val) {
                         if (__isAttrTypeForSyncFp(attr, true)) { //240123，是display属性，而且上层没有做form绑定
@@ -9566,11 +9663,12 @@
                     }
                     if (isObject(attr)) { //支持初始化的属性列表中，有对象key-value的形式存在，给出指定的固定初始值；如果只给属性名，则通过data.ca()从组态配置去取；
                         for (let key in attr) {
-                            if (attr[key] === '__init__') {
+                            let valtmp = attr[key];
+                            if (valtmp === '__init__') {
                                 attrsSyncInitNeeded.push(key);
                             }
                             //tips 240225，注意，这里并未在上面if()基础上else，而是顺次执行！因此前面机制，是完全兼容过往逻辑！
-                            __fpInit(key, attr[key]);
+                            __fpInit(key, valtmp);
                         }
                     } else if (attr != undefined) {
                         console.assert(typeof attr == 'string');
@@ -10057,6 +10155,12 @@
                                             innerGv = bottomData && bottomData._gv;
                                             innerCache = bottomData._cache;
                                         }
+                                        let targetNode = bottomData ? bottomData : data,
+                                            eventTypeTmp = bottomData ? i.np(i.bottomKeyURL(e.property)) : i.np(e.property),
+                                            onEventFunc = eventTypeTmp && targetNode._i_typeToEvents && targetNode._i_typeToEvents[eventTypeTmp];
+                                        if(targetNode._i_typeToEvents && onEventFunc){
+                                            onEventFunc();
+                                        }else{
                                         //240314，将此前参数data、gv、cache，改成如果操作的是内嵌属性，那么就改成用内嵌底层的图元对象和属性来触发事件，这样还可以兼容逐层向上触发！
                                         i.formEventBubblingUpper(
                                             bottomData ? bottomData : data,
@@ -10071,6 +10175,7 @@
                                             e.newValue //外部操作（可以是函数）过来的，传递的值给到extraInfo字段里！
                                         );
                                     }
+                                }
                                 }
                                 break;
                         }
@@ -10105,6 +10210,10 @@
                             }
                         }
                         data._i_initSyncForcing = initDisplayOnly; //240126，做上标记，用于当传入initDisplayOnly为true时，md响应处理前的统一处理中，是否加上延时队列！
+                        if(valtmp === undefined){
+                            valtmp = i.getValue(data,attr);
+                            valtmp && console.error('WARN: attr init will use new value',i.commonTip(data,attr));
+                        }
                         attrValueTobeFpSync && attrValueTobeFpSync[typeFlag] && data.fp(attr, '__init__', valtmp);
                         data._i_initSyncForcing = undefined;
                     };
@@ -10153,10 +10262,10 @@
                 }
 
                 function __onImageLoaded(url) {
-                    i.setImage(url, url); //230704，在用i.onImageLoaded之前，或之后，一定要确保有setImage()来做url的加载，否则无法触发加载的响应！因此这句就是为了避免初始简单场景下，费嵌套的直接加载或初始运行，都会无法触发i.onImageLoaded进入到loadedInit里
                     i.onImageLoaded(url, obj => {
                         __asyncInit();
                     });
+                    i.setImage(url, url); //230704，在用i.onImageLoaded之前，或之后，一定要确保有setImage()来做url的加载，否则无法触发加载的响应！因此这句就是为了避免初始简单场景下，费嵌套的直接加载或初始运行，都会无法触发i.onImageLoaded进入到loadedInit里
                 }
                 if (imageType == 'object') symbolUrl = data.ca('symbol');
                 else if (imageType == 'string') symbolUrl = data.getImage(); //不一定都有symbol属性
@@ -10824,9 +10933,10 @@
                     //如果对图纸有全局设置统一固定高度（非零），那么就用全局的设置，否则就组件自身的fixedHeight属性！
                     if (fixedHeight) data.setHeight((data.ca('layoutVertical') ? data.ca('gap') + cache.label.getHeight() : 0) + (fixedHeightGlobal ? fixedHeightGlobal : fixedHeight));
                     if (data.getWidth() < 1) data.setHeight(data.getWidth());
+                    if(topDataTmp && !i.isControlTyped(data,'dlg')){
                     //240925，加上条件&& data.ca("innerLayoutMode") != 'fitContent'，否则会出现多个适配内容的嵌套，中间层的内嵌内容，无法随着整体尺寸变化而自适应缩放。
-                    if(topDataTmp && !i.isControlTyped(data,'dlg') && data.ca("innerLayoutMode") != 'fitContent'){
-                         if(topDataTmp !== data) fixedMode = true;
+                         if(topDataTmp !== data && data.ca("innerLayoutMode") != 'fitContent') fixedMode = true;
+                        //240804，暂未解决拖放到页面时，字体模糊的问题，比如树表格的显示！缩小、放大模糊没问题，但是缩放到差不多尺寸的时候应该显示清晰一下才对的啊！！暂未实现！
                         else{
                             fixedMode = false;
                         }
@@ -11486,7 +11596,7 @@
             },
             //240903，带有渲染元素、i.md的类型的组件！
             isSymbolType: function(data){
-                if(!i.hasAttrObjectKey(data,'symbols')) return false; //240918，没有symbol属性的，都不认为有渲染元素和i.md，比如进度环等矢量图表！
+                if(!i.hasAttrObjectKey(data,'symbol')) return false; //240918，没有symbol属性的，都不认为有渲染元素和i.md，比如进度环等矢量图表！
                 let imgtmp = data.getImage && data.getImage();
                 if(imgtmp && !data.ca('hasNoSymbolOrigin')){
                     if(typeof(imgtmp) == 'string'){
@@ -12020,7 +12130,8 @@
             var arrays = [[1, 2],[3] [4, 5, 6], [7, 8, 9]];  
             console.log(mergeArrays(arrays)); // 输出: [1, 2, 3, 4, 5, 6, 7, 8, 9]
             */
-            mergeArrays: function(arrays) {
+            //241027，增加参数removeDuplicate，为true时对于重复的，自动移除，比如[[1,3,5],[3,5,6],[7]] → [1,3,5,6,7]，而不是默认重复3,5
+            mergeArrays: function(arrays, removeDuplicate = false) {
                 // 辅助函数，用于递归地合并数组  
                 function mergeHelper(remainingArrays) {
                     if (!remainingArrays.length) {
@@ -12032,7 +12143,14 @@
                     result = result.concat(mergeHelper(remainingArraysAfterFirst)); // 递归地合并剩余数组  
                     return result;
                 }
-                return mergeHelper(arrays);
+                let ret = mergeHelper(arrays),
+                    out = [];
+                if(removeDuplicate){
+                    ret.forEach(item=>{
+                        if(out.indexOf(item) == -1) out.push(item);
+                    });
+                }else out = ret;
+                return out;
             },
             mergeArrValByIndex: function(arrParentObj, emptyAutoFill = null, childObjKeys = []) {
                 //231128，加上条件|| isArrayFn(arrParentObj)，当现在就剩下数组时，不处理！
@@ -12410,10 +12528,12 @@
 
                 i.setImage(dictFlag, dictURL);
                 i.onImageLoaded(dictFlag, img => {
+                    if(img){
                     let dictDisplayDm = new ht.DataModel();
                     dictDisplayDm._url = dictURL; //需要存放，用于i.upload保存
                     img && dictDisplayDm.deserialize(img);
                     i.window()._i_systemDictDm = dictDisplayDm; //存放全局配置。注意，有多个iframe嵌套时，会有重复加载覆盖的情况！暂不做特殊处理！
+                    }
                     callback && callback(img); //初始化加载完毕后回调返回
                 });
             },
@@ -13873,7 +13993,9 @@
             },
             //240715，判断数组元素都是基本类型，没有对象和下级数组
             isArrSubBaseAll: function(arr){
-                console.assert(isArrayFn(arr));
+                let isArrTmp = isArrayFn(arr);
+                console.assert(isArrTmp);
+                if(!isArrTmp) return false;
                 let allBaseType = true;
                 arr.forEach(item=>{
                     if(isObject(item) && item !== null) allBaseType = false;
@@ -13986,9 +14108,10 @@
                 return rettmp;
             },
             //240213，属性编辑状态，通常用于md响应处理中判断，比如i.enableAttrEditByFirstItem()显然只会发生在属性编辑时，通过isEditing()判断，可以用上！
-            isEditing: function(data) {
-                //240925，加上标记&& !data._i_isContainerCoppied。即复制粘贴的图元组件的标记，此时不算正在编辑。
-                return !runningMode() && !data._i_isContainerCoppied && data.dm() && data.dm().sm().co(data) && i.topData(data) === data; //240214，编辑时，
+            isEditing: function(node) {
+                if(runningMode()) return false;
+                let data = typeof(editor) !== "undefined" && editor._i_dragEntering ? node : i.topData(node); //241004，千万注意！需要以最上层来判断，因为有表格a:columns这种作为内嵌页，在上层来设置放到索引1对象方式配置时，就需要以当前treeTable的顶层图元来判断！
+                return !data._i_isContainerCoppied && data.dm() && data.dm().sm().co(data); //240214，编辑时
             },
             /*240213，先后提供两个数组，A相当于弹窗重新勾选的，B表示弹窗原有的，通过本函数对比，返回告知通过重新勾选，哪些是新增的，哪些是被移除的！
             // 示例使用  
@@ -14499,6 +14622,7 @@
             2）isObjInputing为false时，则时keys或values输入，obj需要动态修改保持与其同步！
             3）isObjInputing为默认null时，通常按照obj、keys/value当前传入值，或者默认空值，自动判断是哪个传入状态！*/
             objectToKeyValues: function(obj = {},keys = [],values = [],isObjInputing = null,mode = 0){
+                try{
                 //240813，对于非常规对象的，尤其是图元对象（有些工具函数会给inputs传入），此时不做任何处理，直接退出！也不改变！
                 if(i.isHtNodeData(obj)) return;
                 console.assert(!isArrayFn(obj));
@@ -14619,6 +14743,9 @@
                         break;
                     default:
                         break;    
+                }
+                }catch(e){
+                    console.error(e);
                 }
             },
         }

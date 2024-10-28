@@ -7873,8 +7873,6 @@ function __image(data,gv,cache){
     src = __fullSrc(src);
 
     if (!cache.img) {
-        //组件默认form绑定的属性
-        i.setAttrsFormBinded(data, ['src']);
         var imgObj = cache.img = document.createElement('img');
         i.layoutHTML(imgObj, data, gv, cache);
 
@@ -8077,6 +8075,7 @@ function __grid(data, gv, cache) {
         cache.initOnce = true;
         _i.setAttrsFormBinded(data, ['datas', 'grid.row.count', 'grid.column.count', 'rowIndex', 'columnIndex', 'removeOthers', 'grid.row.percents', 'grid.auto.fill', 'grid.column.percents', 'grid.gap', 'valueGet', 'itemsGet']);
 
+        if(runningMode() && data.ca('borderWidth') == 3) data.ca('borderWidth',0);
         _i.onChildRemoved(data, (child, index) => {
             child.setHost(null);
             child.s('2d.movable', true);
@@ -8243,7 +8242,7 @@ function __grid(data, gv, cache) {
         _i.md(data, gv, cache, {
             's:2d.visible': e=>{//240927，网格显示隐藏，对应内部组件也显示隐藏
                 data.getChildren().forEach(child=>{
-                    child.s('2d.visible',e.newValue);
+                    child.getClassName() != 'ht.Edge' && child.s('2d.visible',e.newValue);
                 });
             },
             'a:grid.row.count|a:grid.column.count': e => {
@@ -8491,7 +8490,12 @@ function __convertor(data, gv, cache) {
         }
 
         //240904，只有在jsonStruct没有配置时，才考虑此前旧属性convertFlatToTree的兼容！
-        if(data.ca('jsonStruct') === undefined){
+        if(i.hasAttrObjectKey(data,'convertFlatToTree')){
+            console.error('WARN: func has convertFlatToTree and will force jsonStruct be auto converted',i.commonTip(data)); //241004，提示一下！
+            data.ca('jsonStruct', data.ca('convertFlatToTree') ? 1 : 2);
+            data._i_hasConvertFlatToTree = true;
+        }else if(data.ca('jsonStruct') === undefined){
+            data._i_hasConvertFlatToTree = undefined;
             //240809，兼容此前的convertFlatToTree属性配置，现在用新的枚举类型jsonStruct代替！之前默认不勾选convertFlatToTree时，貌似输入inputs，也会是保持对象结构 ，而不是新规则这种，只要是模式0，就会扁平化！
             let curJsonStructType = data.ca('convertFlatToTree');
             if(data.ca('convertFlatToTree') === undefined) curJsonStructType = 0; //此前convertFlatToTree定义时默认值为false。因此如果此前未配置，也是相当于配置了1。
@@ -8499,6 +8503,9 @@ function __convertor(data, gv, cache) {
             if(curJsonStructType == 0) curJsonStructType = 1;//240810，必须默认模式为1，否则对参数对象的任意输入，结果字段受限制了！！
             i.update(data,'jsonStruct', curJsonStructType);
             data.ca('convertFlatToTree',undefined); 
+        }
+        if(i.hasAttrObjectKey(data,'convertFlatToTree') && data.ca('outputByEvent') === undefined){
+            i.update(data,'outputByEvent', false);
         }
 
         //240730，多个属性在分散的函数中，公共的配置，避免每个渲染元素json都要来一次！
@@ -9561,7 +9568,9 @@ function __convertor(data, gv, cache) {
                                             return; //需要操作当前的inputs属性的才行！
                                         }
                                         validLinesCount += 1; //240805，对inputs操作的连线计数，不能用sources.length
-                                        let extraCached = {}, //240227，主要是为了获取当前连线操作，是否是将值整体给到输入组的某个索引位置！避免多个这样的操作形成的数组返回，结果被合并成大数组：[1],[null,2],[null,null,3] => [1,null,2,null,null,3]，实际上要获取到[1,2,3]而已！
+                                        let extraCached = {
+                                                indexRefered: source.index  
+                                            }, //240227，主要是为了获取当前连线操作，是否是将值整体给到输入组的某个索引位置！避免多个这样的操作形成的数组返回，结果被合并成大数组：[1],[null,2],[null,null,3] => [1,null,2,null,null,3]，实际上要获取到[1,2,3]而已！
                                             valuestmp = i.updateBindControls(source.data, data.ca('_rawForm') ? i.getFormDatas(source.data) : i.getFormValues(source.data), [], false, '~', null, null, true, extraCached),
                                             valtmp = valuestmp[source.index];
                                         if (extraCached.isOldValueArrIndexSetted) i.backWriteOnly(data, 'inputs', valtmp);
@@ -9690,11 +9699,15 @@ function __convertor(data, gv, cache) {
                                     //兼容输入单数组的情况，此时转对象输出！
                                     let isObjOnly = isObject(objsToArrsInputs) && !isArrayFn(objsToArrsInputs);
                                     if (isObjOnly) objsToArrsInputs = [objsToArrsInputs];
+                                    let isSimpleArrayInputs = i.isArrSubBaseAll(objsToArrsInputs); 
+                                        targetObjectTmp = {};
+                                    console.assert(objsToArrsInputs.forEach);
+                                    if(!objsToArrsInputs.forEach)  return [];
                                     objsToArrsInputs.forEach((item, idx) => {
                                         let currentItem = [],
                                             defaultValTmp = data.ca('_defaultValue');
                                         if (isObject(item)) {
-                                            if (isArrayFn(item) && data.ca('_autoReverse')) currentItem = {}; //如果输入列表元素是数组且勾选了自动反转换，则默认接收输出的类型改成对象！
+                                            if (/*isArrayFn(item) && */data.ca('_autoReverse')) currentItem = {}; //如果输入列表元素是数组且勾选了自动反转换，则默认接收输出的类型改成对象！
                                             data.ca('_keys').forEach((key, index) => {
                                                 if (isArrayFn(item)) {
                                                     if (data.ca('_autoReverse')) { //数组元素转对象元素
@@ -9703,15 +9716,25 @@ function __convertor(data, gv, cache) {
                                                         currentItem.push(item[index] === undefined ? defaultValTmp : item[index]);
                                                     }
                                                 } else { //对象元素转数组元素
+                                                    if(data.ca('_autoReverse')){
+                                                        currentItem[key] = item[key] === undefined ? defaultValTmp : item[key]; 
+                                                    }else{
                                                     currentItem.push(item[key] === undefined ? defaultValTmp : item[key]);
+                                                    }
                                                 }
                                             });
+                                        }else if(isSimpleArrayInputs && data.ca('_autoReverse')){
+                                            let keytmp = data.ca('_keys') && data.ca('_keys')[idx];
+                                            if(keytmp !== undefined){
+                                                targetObjectTmp[keytmp] = item;
+                                            }
                                         } else {
                                             currentItem = item;
                                         }
                                         objsToArrsInputs[idx] = currentItem;
                                     });
-                                    __return(isObjOnly ? objsToArrsInputs[0] : objsToArrsInputs);
+                                    //240929，如果输入空数组，输出也为空数组，这种情况之前是输出空对象！当输出给到表格要求数组类型时，会导致如果传入空数组，结果变成对象类型，就会出问题！（表格的数据内容，只能是数组类型！）
+                                    __return(isSimpleArrayInputs ? ((isArrayFn(objsToArrsInputs) && objsToArrsInputs.length == 0) ? [] : targetObjectTmp) : (isObjOnly ? objsToArrsInputs[0] : objsToArrsInputs));
                                     break;
                                 case 'mergeArrValByIndex':
                                     //231128，加上i.toTreeJson()，这样便于将数组的对象格式转换成真正数组格式，以弥补i.xxxOverwrite()无法引用切换对象和数组类型的天然缺陷！

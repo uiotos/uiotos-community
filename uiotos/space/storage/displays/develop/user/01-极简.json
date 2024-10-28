@@ -18,7 +18,7 @@
   "d": [
     {
       "c": "ht.Node",
-      "i": 14031,
+      "i": 3981,
       "p": {
         "name": "base",
         "displayName": "底板（_base）",
@@ -44,7 +44,7 @@
     },
     {
       "c": "ht.Node",
-      "i": 14032,
+      "i": 3982,
       "p": {
         "name": "txt",
         "displayName": "文本框（txt1）",
@@ -467,7 +467,7 @@
           "uuid": "3CCB619E-1178-45F7-813F-3D89BE4718A1"
         },
         "host": {
-          "__i": 14031
+          "__i": 3981
         },
         "position": {
           "x": 281.06712,
@@ -500,7 +500,7 @@
     },
     {
       "c": "ht.Node",
-      "i": 14033,
+      "i": 3983,
       "p": {
         "name": "bt",
         "displayName": "普通按钮 v2（bt1）",
@@ -913,7 +913,7 @@
           "uuid": "86CB9706-63CF-4180-BE1D-FB5958B36675"
         },
         "host": {
-          "__i": 14031
+          "__i": 3981
         },
         "position": {
           "x": 281.06712,
@@ -965,20 +965,20 @@
     },
     {
       "c": "ht.Edge",
-      "i": 14034,
+      "i": 3984,
       "p": {
         "name": "edge",
         "displayName": "0（edge2）",
         "toolTip": "<div id=\"config_tooltip\" style=\"font-size:12px;line-height:1.75em;letter-spacing:1px\">\n                                                        连线配置信息：<br>\n                                                        <li style=\"list-style-type:disc;color:rgba(255,255,255,0.5);\">索引序号：0 | 总共1条</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold;\">操作属性：值内容@txt1</li> \n                                                        <li style=\"list-style-type:none;color:rgba(255,255,255,0.5)\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;当前值：undefined</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold\">关联属性：文字@bt1</li> \n                                                        <li style=\"list-style-type:none;color:rgba(255,255,255,0.5)\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;关联值：undefined</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold;\">解析赋值：null</li>\n                                                        <li style=\"list-style-type:disc;color:rgba(255,255,255,0.5)\">触发事件：*</li>\n                                                        <li style=\"list-style-type:disc;\">注释：<span style=\"color:rgb(125,195,125)\">0。\n<br></span></li>\n                                                    </div>",
         "parent": {
-          "__i": 14033
+          "__i": 3983
         },
         "tag": "edge2",
         "source": {
-          "__i": 14033
+          "__i": 3983
         },
         "target": {
-          "__i": 14032
+          "__i": 3982
         }
       },
       "s": {
@@ -1024,7 +1024,7 @@
     },
     {
       "c": "ht.Node",
-      "i": 14035,
+      "i": 3985,
       "p": {
         "name": "img",
         "displayName": "图片（img1）",
@@ -1181,7 +1181,7 @@
           "uuid": "32FB75F0-1950-410A-8406-5ED8B3E8008B"
         },
         "host": {
-          "__i": 14031
+          "__i": 3981
         },
         "position": {
           "x": -366.72313,
@@ -1209,26 +1209,26 @@
         "symbol": "symbols/develop/uiotos/arranged/controls/videos/图片.json",
         "videoURL": "",
         "hostLayerLine": {
-          "__i": 14036
+          "__i": 3986
         }
       }
     },
     {
       "c": "ht.Edge",
-      "i": 14036,
+      "i": 3986,
       "p": {
         "name": "吸附布局",
         "displayName": "吸附布局（吸附布局1）",
         "toolTip": "吸附布局：<p style=color:lightgreen>图片（img1） → 底板（_base）</p>吸附参数：left topbottom",
         "parent": {
-          "__i": 14035
+          "__i": 3985
         },
         "tag": "吸附布局1",
         "source": {
-          "__i": 14035
+          "__i": 3985
         },
         "target": {
-          "__i": 14031
+          "__i": 3981
         }
       },
       "s": {
@@ -1278,13 +1278,13 @@
       "a": {
         "old.label.position": 31,
         "hostLayerFrom": {
-          "__i": 14035
+          "__i": 3985
         },
         "toolTipRaw": "吸附布局：<p style=color:lightgreen>图片（img1） → 底板（_base）</p>吸附参数：left topbottom"
       }
     }
   ],
-  "modified": "Thu Oct 17 2024 16:23:37 GMT+0800 (中国标准时间)",
+  "modified": "Tue Oct 22 2024 15:03:26 GMT+0800 (中国标准时间)",
   "contentRect": {
     "x": -685.64968,
     "y": 93.89652,
