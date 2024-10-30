@@ -6039,6 +6039,11 @@
             },
             //全局回调函数，修改成不覆盖且支持上下文时序回调的版本！
             onImageLoaded: function(url, callback, imgCloned = false, node = null) {
+                if(i.getImage(url) === null) {
+                    callback(null);
+                    return;
+                }
+                
                 let func = ht.Default.handleImageLoaded,
                     funcNotFound = ht.Default.handleUnfoundImage; //231201，存在资源请求不存在的情况，此时也重写，并回调传入undefined
                 if (!i.window()._i_handleImageLoaded) i.window()._i_handleImageLoaded = func;
