@@ -18,7 +18,7 @@
   "d": [
     {
       "c": "ht.Node",
-      "i": 14079,
+      "i": 33968,
       "p": {
         "name": "base",
         "displayName": "底板（_base）",
@@ -43,7 +43,7 @@
     },
     {
       "c": "ht.Node",
-      "i": 14080,
+      "i": 33969,
       "p": {
         "name": "dlg",
         "displayName": "对话框（dlg1）",
@@ -702,10 +702,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 14081,
+      "i": 33970,
       "p": {
         "name": "bt",
         "displayName": "普通按钮 v2（bt1）",
+        "toolTip": "<p style='color:rgb(242,83,75);margin-top:5px;margin-bottom:5px;font-weight:bold;line-height:1.5em;'>已被布局，不允许拖动（shift+回车可解除）</p>",
         "tag": "bt1",
         "dataBindings": {
           "a": {
@@ -1122,10 +1123,14 @@
           "comps": [],
           "uuid": "363D8FE8-DBC2-4AFA-8690-1571737D5C32"
         },
-        "position": {
-          "x": 902.5,
-          "y": 79.8142
+        "host": {
+          "__i": 33968
         },
+        "position": {
+          "x": 1824.90621,
+          "y": 29.13182
+        },
+        "width": 75,
         "height": 35
       },
       "s": {
@@ -1133,7 +1138,10 @@
         "label.position": 14,
         "label.offset.x": -10,
         "label.offset.y": 0,
-        "interactive": true
+        "interactive": true,
+        "2d.movable": false,
+        "layout.h": "right",
+        "layout.v": "top"
       },
       "a": {
         "icon-background": "rgb(255,255,255)",
@@ -1161,34 +1169,35 @@
         "_bindEvents_0-list": [
           "*",
           "onFormClick"
-        ]
+        ],
+        "text": "操作演示"
       }
     },
     {
       "c": "ht.Edge",
-      "i": 14517,
+      "i": 33971,
       "p": {
         "name": "edge",
-        "displayName": "0",
-        "toolTip": "<div id=\"config_tooltip\" style=\"font-size:12px;line-height:1.75em;letter-spacing:1px\">\n                                                        连线配置信息：<br>\n                                                        <li style=\"list-style-type:disc;color:rgba(255,255,255,0.5);\">索引序号：0 | 总共1条</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold;\">操作属性：弹窗@dlg1</li> \n                                                        <li style=\"list-style-type:none;color:rgba(255,255,255,0.5)\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;当前值：false</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold\">关联属性：</li> \n                                                        <li style=\"list-style-type:none;color:rgba(255,255,255,0.5)\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;关联值：</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold;\">解析赋值：null</li>\n                                                        <li style=\"list-style-type:disc;color:rgba(255,255,255,0.5)\">触发事件：*</li>\n                                                        <li style=\"list-style-type:disc;\">注释：无</li>\n                                                    </div>",
+        "displayName": "0（edge2）",
+        "toolTip": "<div id=\"config_tooltip\" style=\"font-size:12px;line-height:1.75em;letter-spacing:1px\">\n                                                        连线配置信息：<br>\n                                                        <li style=\"list-style-type:disc;color:rgba(255,255,255,0.5);\">索引序号：0 | 总共1条</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold;\">操作属性：弹窗@dlg1</li> \n                                                        <li style=\"list-style-type:none;color:rgba(255,255,255,0.5)\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;当前值：undefined</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold\">关联属性：</li> \n                                                        <li style=\"list-style-type:none;color:rgba(255,255,255,0.5)\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;关联值：undefined</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold;\">解析赋值：null</li>\n                                                        <li style=\"list-style-type:disc;color:rgba(255,255,255,0.5)\">触发事件：*</li>\n                                                        <li style=\"list-style-type:disc;\">注释：<span style=\"color:rgb(125,195,125)\">0。\n<br></span></li>\n                                                    </div>",
         "parent": {
-          "__i": 14081
+          "__i": 33970
         },
         "tag": "edge2",
         "source": {
-          "__i": 14081
+          "__i": 33970
         },
         "target": {
-          "__i": 14080
+          "__i": 33969
         }
       },
       "s": {
         "label": "",
         "edge.color": "rgb(51,153,255)",
         "edge.width": 4,
-        "edge.type": "flex",
+        "edge.type": "extend.east",
         "edge.flex": 50,
-        "edge.corner.radius": 30,
+        "edge.corner.radius": 10,
         "edge.gap": 16,
         "note.border.width": 0,
         "note.position": 7,
@@ -1216,19 +1225,922 @@
             ]
           }
         },
-        "note": 0
+        "note": 0,
+        "label.position": 4,
+        "edge.ripple.size": 2,
+        "edge.ripple.length": 0,
+        "edge.ripple.elevation": 100,
+        "edge.ripple.both": true,
+        "edge.extend": 30
       },
       "a": {
         "index": 0,
-        "toolTipRaw": "<div id=\"config_tooltip\" style=\"font-size:12px;line-height:1.75em;letter-spacing:1px\">\n                                                        连线配置信息：<br>\n                                                        <li style=\"list-style-type:disc;color:rgba(255,255,255,0.5);\">索引序号：0 | 总共1条</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold;\">操作属性：弹窗@dlg1</li> \n                                                        <li style=\"list-style-type:none;color:rgba(255,255,255,0.5)\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;当前值：false</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold\">关联属性：</li> \n                                                        <li style=\"list-style-type:none;color:rgba(255,255,255,0.5)\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;关联值：</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold;\">解析赋值：null</li>\n                                                        <li style=\"list-style-type:disc;color:rgba(255,255,255,0.5)\">触发事件：*</li>\n                                                        <li style=\"list-style-type:disc;\">注释：无</li>\n                                                    </div>"
+        "toolTipRaw": "<div id=\"config_tooltip\" style=\"font-size:12px;line-height:1.75em;letter-spacing:1px\">\n                                                        连线配置信息：<br>\n                                                        <li style=\"list-style-type:disc;color:rgba(255,255,255,0.5);\">索引序号：0 | 总共1条</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold;\">操作属性：弹窗@dlg1</li> \n                                                        <li style=\"list-style-type:none;color:rgba(255,255,255,0.5)\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;当前值：undefined</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold\">关联属性：</li> \n                                                        <li style=\"list-style-type:none;color:rgba(255,255,255,0.5)\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;关联值：undefined</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold;\">解析赋值：null</li>\n                                                        <li style=\"list-style-type:disc;color:rgba(255,255,255,0.5)\">触发事件：*</li>\n                                                        <li style=\"list-style-type:disc;\">注释：<span style=\"color:rgb(125,195,125)\">0。\n<br></span></li>\n                                                    </div>"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 33972,
+      "p": {
+        "name": "gv",
+        "displayName": "嵌套容器（gv1）",
+        "tag": "gv1",
+        "dataBindings": {
+          "a": {
+            "userData": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "display": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "innerLayoutMode": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "信息面板>0>n1>s:label": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "__ht__function formParser(nVal, node) {\r\n        /*参数1  nVal: 属性新值 */\r\n        /*返回 return：最终赋值 */\r\n        /********* TODO **********/\r\n\r\n\r\n\r\n        /************************/\r\n        return nVal;\r\n    }",
+              "alias": ""
+            }
+          }
+        },
+        "image": {
+          "modified": "Wed Jul 24 2024 21:32:02 GMT+0800 (中国标准时间)",
+          "dataBindings": [
+            {
+              "attr": "symbol",
+              "valueType": "Image",
+              "name": "symbol"
+            },
+            {
+              "attr": "display",
+              "valueType": "URL",
+              "group": "功能",
+              "name": "display"
+            },
+            {
+              "attr": "displayJson",
+              "valueType": "Multiline",
+              "description": "",
+              "extraInfo": "*",
+              "name": "displayJson"
+            },
+            {
+              "attr": "innerLayoutMode",
+              "valueType": "InnerLayoutMode",
+              "defaultValue": "none",
+              "description": "",
+              "name": "innerLayoutMode"
+            },
+            {
+              "attr": "onPostDeserialize",
+              "valueType": "Function",
+              "extraInfo": {
+                "arguments": [
+                  "json",
+                  "dm",
+                  "gv",
+                  "datas"
+                ],
+                "classify": "*"
+              },
+              "description": "",
+              "name": "onPostDeserialize"
+            },
+            {
+              "attr": "useOriginSize",
+              "valueType": "Boolean",
+              "defaultValue": false,
+              "extraInfo": "★",
+              "description": "",
+              "name": "useOriginSize"
+            },
+            {
+              "attr": "useInnerEventsAll",
+              "valueType": "Boolean",
+              "description": "",
+              "extraInfo": "*",
+              "name": "useInnerEventsAll"
+            },
+            {
+              "attr": "isLoadingGet",
+              "valueType": "Boolean",
+              "description": "",
+              "defaultValue": false,
+              "extraInfo": "★",
+              "name": "isLoadingGet"
+            },
+            {
+              "attr": "enableLoading",
+              "valueType": "Boolean",
+              "extraInfo": "*",
+              "name": "enableLoading"
+            },
+            {
+              "attr": "pureFormValues",
+              "valueType": "Boolean",
+              "description": "",
+              "name": "pureFormValues"
+            },
+            {
+              "attr": "userData",
+              "valueType": "Object",
+              "defaultValue": [],
+              "name": "userData"
+            },
+            {
+              "attr": "onDisplayLoaded",
+              "valueType": "Function",
+              "description": "",
+              "extraInfo": {
+                "arguments": [
+                  "data",
+                  "gv",
+                  "cache"
+                ]
+              },
+              "name": "onDisplayLoaded"
+            },
+            {
+              "attr": "shadowBorder",
+              "valueType": "NumberArray",
+              "defaultValue": [
+                0,
+                0,
+                8
+              ],
+              "group": "外观",
+              "extraInfo": "*",
+              "name": "shadowBorder"
+            },
+            {
+              "attr": "shadowColor",
+              "valueType": "Color",
+              "defaultValue": "rgba(55,125,255,0.50)",
+              "extraInfo": "*",
+              "name": "shadowColor"
+            },
+            {
+              "attr": "shadowEnabled",
+              "valueType": "Boolean",
+              "defaultValue": true,
+              "name": "shadowEnabled"
+            },
+            {
+              "attr": "borderWidth",
+              "valueType": "Number",
+              "name": "borderWidth"
+            },
+            {
+              "attr": "innerBackground",
+              "valueType": "Color",
+              "defaultValue": null,
+              "description": "",
+              "name": "innerBackground"
+            },
+            {
+              "attr": "bindControlsTag",
+              "valueType": "StringArray",
+              "group": "连线",
+              "name": "bindControlsTag"
+            },
+            {
+              "attr": "bindControlsAttr",
+              "valueType": "ObjectArray",
+              "name": "bindControlsAttr"
+            },
+            {
+              "attr": "bindControlsVal",
+              "valueType": "ObjectArray",
+              "description": "",
+              "name": "bindControlsVal"
+            },
+            {
+              "attr": "paramControlTag",
+              "valueType": "StringArray",
+              "name": "paramControlTag"
+            },
+            {
+              "attr": "paramControlAttr",
+              "valueType": "ObjectArray",
+              "name": "paramControlAttr"
+            },
+            {
+              "attr": "paramsGenerator",
+              "valueType": "Function",
+              "defaultValue": "__ht__function(data, val, index, node,oldVal,form,type,inner) {//绑定组索引对应的函数处理，用来动态生成复杂的参数变量传入\r\nswitch(index){\r\n    case 0:\r\n        break;\r\n    case 1:\r\n        break;\r\n    case 2:\r\n        break;\r\n    default:\r\n        break;\r\n}\r\n\r\nreturn val;}",
+              "extraInfo": {
+                "arguments": [
+                  "data",
+                  "val",
+                  "index",
+                  "node",
+                  "oldVal",
+                  "form",
+                  "type",
+                  "inner"
+                ],
+                "classify": "*"
+              },
+              "name": "paramsGenerator"
+            },
+            {
+              "attr": "useAttrCORS",
+              "valueType": "Boolean",
+              "extraInfo": "*",
+              "defaultValue": false,
+              "description": "连线操作和处理回写是否一致。\n                        比如多个文本框连线传值给相同对话框，弹窗修改\n                        后是否限定只能写到最新赋值过来的文本框。详见<a href='https://www.yuque.com/liuhuo-nc809/uiotos/fgi6dd7gado51acm#fFUbp' style=\"color:rgb(96,172,252)\"target=\"_blank\">同源属性操作</a>",
+              "bindIgnored": true,
+              "name": "useAttrCORS",
+              "dynamicCreate": true
+            },
+            {
+              "attr": "信息面板>0>n1>s:label",
+              "name": ".label",
+              "valueType": "String",
+              "defaultValue": "步骤一：登录",
+              "extraInfo": null,
+              "group": "信息面板>0>n1"
+            }
+          ],
+          "snapshotURL": "symbols/develop/uiotos/arranged/controls/containers_icon/嵌套容器.json",
+          "renderHTML": "__ht__function(data, gv, cache) {return __graphView(data,gv,cache);}",
+          "width": 500,
+          "height": 300,
+          "fitSize": true,
+          "pixelPerfect": false,
+          "comps": [
+            {
+              "type": "text",
+              "text": {
+                "func": "__ht__function(data, view) {\n// return data.ca('__loadingText') && data.ca('__loadingText')[!data.ca('__loadingStatus')]\n}",
+                "value": "…"
+              },
+              "align": "center",
+              "color": {
+                "func": "attr@__loadingColor",
+                "value": "rgb(150,150,150)"
+              },
+              "font": {
+                "func": "attr@__loadingFont",
+                "value": "12px arial, sans-serif"
+              },
+              "visible": {
+                "func": "attr@__loadingVisible",
+                "value": false
+              },
+              "layoutH": "center",
+              "layoutV": "center",
+              "displayName": "Text（Text1）",
+              "rect": [
+                74.69339,
+                53.1422,
+                50.61322,
+                13.7156
+              ]
+            }
+          ],
+          "uuid": "1D12BDC4-8B58-4981-85F5-33C693233F32"
+        },
+        "position": {
+          "x": 324.02366,
+          "y": 211.81789
+        },
+        "width": 352.71851,
+        "height": 229.27026
+      },
+      "s": {
+        "label.position": 14,
+        "label.offset.x": -10,
+        "label.offset.y": 0,
+        "interactive": true,
+        "image.stretch": "uniform",
+        "label.opacity": 0
+      },
+      "a": {
+        "symbol": "symbols/develop/uiotos/arranged/controls/containers/嵌套容器.json",
+        "display": "./01-如何登录使用/信息面板.json",
+        "__loadingStatus": false,
+        "isLoadingGet": false,
+        "innerLayoutMode": "fullScreen",
+        "innerBackground": "rgb(247,247,247)",
+        "shadowEnabled": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 33973,
+      "p": {
+        "name": "gv",
+        "displayName": "嵌套容器（gv2）",
+        "tag": "gv2",
+        "dataBindings": {
+          "a": {
+            "userData": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "display": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "innerLayoutMode": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "信息面板>0>n1>s:label": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "__ht__function formParser(nVal, node) {\r\n        /*参数1  nVal: 属性新值 */\r\n        /*返回 return：最终赋值 */\r\n        /********* TODO **********/\r\n\r\n\r\n\r\n        /************************/\r\n        return nVal;\r\n    }",
+              "alias": ""
+            }
+          }
+        },
+        "image": {
+          "modified": "Wed Jul 24 2024 21:32:02 GMT+0800 (中国标准时间)",
+          "dataBindings": [
+            {
+              "attr": "symbol",
+              "valueType": "Image",
+              "name": "symbol"
+            },
+            {
+              "attr": "display",
+              "valueType": "URL",
+              "group": "功能",
+              "name": "display"
+            },
+            {
+              "attr": "displayJson",
+              "valueType": "Multiline",
+              "description": "",
+              "extraInfo": "*",
+              "name": "displayJson"
+            },
+            {
+              "attr": "innerLayoutMode",
+              "valueType": "InnerLayoutMode",
+              "defaultValue": "none",
+              "description": "",
+              "name": "innerLayoutMode"
+            },
+            {
+              "attr": "onPostDeserialize",
+              "valueType": "Function",
+              "extraInfo": {
+                "arguments": [
+                  "json",
+                  "dm",
+                  "gv",
+                  "datas"
+                ],
+                "classify": "*"
+              },
+              "description": "",
+              "name": "onPostDeserialize"
+            },
+            {
+              "attr": "useOriginSize",
+              "valueType": "Boolean",
+              "defaultValue": false,
+              "extraInfo": "★",
+              "description": "",
+              "name": "useOriginSize"
+            },
+            {
+              "attr": "useInnerEventsAll",
+              "valueType": "Boolean",
+              "description": "",
+              "extraInfo": "*",
+              "name": "useInnerEventsAll"
+            },
+            {
+              "attr": "isLoadingGet",
+              "valueType": "Boolean",
+              "description": "",
+              "defaultValue": false,
+              "extraInfo": "★",
+              "name": "isLoadingGet"
+            },
+            {
+              "attr": "enableLoading",
+              "valueType": "Boolean",
+              "extraInfo": "*",
+              "name": "enableLoading"
+            },
+            {
+              "attr": "pureFormValues",
+              "valueType": "Boolean",
+              "description": "",
+              "name": "pureFormValues"
+            },
+            {
+              "attr": "userData",
+              "valueType": "Object",
+              "defaultValue": [],
+              "name": "userData"
+            },
+            {
+              "attr": "onDisplayLoaded",
+              "valueType": "Function",
+              "description": "",
+              "extraInfo": {
+                "arguments": [
+                  "data",
+                  "gv",
+                  "cache"
+                ]
+              },
+              "name": "onDisplayLoaded"
+            },
+            {
+              "attr": "shadowBorder",
+              "valueType": "NumberArray",
+              "defaultValue": [
+                0,
+                0,
+                8
+              ],
+              "group": "外观",
+              "extraInfo": "*",
+              "name": "shadowBorder"
+            },
+            {
+              "attr": "shadowColor",
+              "valueType": "Color",
+              "defaultValue": "rgba(55,125,255,0.50)",
+              "extraInfo": "*",
+              "name": "shadowColor"
+            },
+            {
+              "attr": "shadowEnabled",
+              "valueType": "Boolean",
+              "defaultValue": true,
+              "name": "shadowEnabled"
+            },
+            {
+              "attr": "borderWidth",
+              "valueType": "Number",
+              "name": "borderWidth"
+            },
+            {
+              "attr": "innerBackground",
+              "valueType": "Color",
+              "defaultValue": null,
+              "description": "",
+              "name": "innerBackground"
+            },
+            {
+              "attr": "bindControlsTag",
+              "valueType": "StringArray",
+              "group": "连线",
+              "name": "bindControlsTag"
+            },
+            {
+              "attr": "bindControlsAttr",
+              "valueType": "ObjectArray",
+              "name": "bindControlsAttr"
+            },
+            {
+              "attr": "bindControlsVal",
+              "valueType": "ObjectArray",
+              "description": "",
+              "name": "bindControlsVal"
+            },
+            {
+              "attr": "paramControlTag",
+              "valueType": "StringArray",
+              "name": "paramControlTag"
+            },
+            {
+              "attr": "paramControlAttr",
+              "valueType": "ObjectArray",
+              "name": "paramControlAttr"
+            },
+            {
+              "attr": "paramsGenerator",
+              "valueType": "Function",
+              "defaultValue": "__ht__function(data, val, index, node,oldVal,form,type,inner) {//绑定组索引对应的函数处理，用来动态生成复杂的参数变量传入\r\nswitch(index){\r\n    case 0:\r\n        break;\r\n    case 1:\r\n        break;\r\n    case 2:\r\n        break;\r\n    default:\r\n        break;\r\n}\r\n\r\nreturn val;}",
+              "extraInfo": {
+                "arguments": [
+                  "data",
+                  "val",
+                  "index",
+                  "node",
+                  "oldVal",
+                  "form",
+                  "type",
+                  "inner"
+                ],
+                "classify": "*"
+              },
+              "name": "paramsGenerator"
+            },
+            {
+              "attr": "useAttrCORS",
+              "valueType": "Boolean",
+              "extraInfo": "*",
+              "defaultValue": false,
+              "description": "连线操作和处理回写是否一致。\n                        比如多个文本框连线传值给相同对话框，弹窗修改\n                        后是否限定只能写到最新赋值过来的文本框。详见<a href='https://www.yuque.com/liuhuo-nc809/uiotos/fgi6dd7gado51acm#fFUbp' style=\"color:rgb(96,172,252)\"target=\"_blank\">同源属性操作</a>",
+              "bindIgnored": true,
+              "name": "useAttrCORS",
+              "dynamicCreate": true
+            },
+            {
+              "attr": "信息面板>0>n1>s:label",
+              "name": ".label",
+              "valueType": "String",
+              "defaultValue": "步骤一：登录",
+              "extraInfo": null,
+              "group": "信息面板>0>n1"
+            }
+          ],
+          "snapshotURL": "symbols/develop/uiotos/arranged/controls/containers_icon/嵌套容器.json",
+          "renderHTML": "__ht__function(data, gv, cache) {return __graphView(data,gv,cache);}",
+          "width": 500,
+          "height": 300,
+          "fitSize": true,
+          "pixelPerfect": false,
+          "comps": [
+            {
+              "type": "text",
+              "text": {
+                "func": "__ht__function(data, view) {\n// return data.ca('__loadingText') && data.ca('__loadingText')[!data.ca('__loadingStatus')]\n}",
+                "value": "…"
+              },
+              "align": "center",
+              "color": {
+                "func": "attr@__loadingColor",
+                "value": "rgb(150,150,150)"
+              },
+              "font": {
+                "func": "attr@__loadingFont",
+                "value": "12px arial, sans-serif"
+              },
+              "visible": {
+                "func": "attr@__loadingVisible",
+                "value": false
+              },
+              "layoutH": "center",
+              "layoutV": "center",
+              "displayName": "Text（Text1）",
+              "rect": [
+                74.69339,
+                53.1422,
+                50.61322,
+                13.7156
+              ]
+            }
+          ],
+          "uuid": "1D12BDC4-8B58-4981-85F5-33C693233F32"
+        },
+        "position": {
+          "x": 917.39597,
+          "y": 211.81789
+        },
+        "width": 352.71851,
+        "height": 229.27026
+      },
+      "s": {
+        "label.position": 14,
+        "label.offset.x": -10,
+        "label.offset.y": 0,
+        "interactive": true,
+        "image.stretch": "uniform",
+        "label.opacity": 0
+      },
+      "a": {
+        "symbol": "symbols/develop/uiotos/arranged/controls/containers/嵌套容器.json",
+        "display": "./01-如何登录使用/信息面板.json",
+        "__loadingStatus": false,
+        "isLoadingGet": false,
+        "innerLayoutMode": "fullScreen",
+        "innerBackground": "rgb(247,247,247)",
+        "shadowEnabled": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 33974,
+      "p": {
+        "name": "gv",
+        "displayName": "嵌套容器（gv3）",
+        "tag": "gv3",
+        "dataBindings": {
+          "a": {
+            "userData": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "display": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "innerLayoutMode": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "信息面板>0>n1>s:label": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "__ht__function formParser(nVal, node) {\r\n        /*参数1  nVal: 属性新值 */\r\n        /*返回 return：最终赋值 */\r\n        /********* TODO **********/\r\n\r\n\r\n\r\n        /************************/\r\n        return nVal;\r\n    }",
+              "alias": ""
+            }
+          }
+        },
+        "image": {
+          "modified": "Wed Jul 24 2024 21:32:02 GMT+0800 (中国标准时间)",
+          "dataBindings": [
+            {
+              "attr": "symbol",
+              "valueType": "Image",
+              "name": "symbol"
+            },
+            {
+              "attr": "display",
+              "valueType": "URL",
+              "group": "功能",
+              "name": "display"
+            },
+            {
+              "attr": "displayJson",
+              "valueType": "Multiline",
+              "description": "",
+              "extraInfo": "*",
+              "name": "displayJson"
+            },
+            {
+              "attr": "innerLayoutMode",
+              "valueType": "InnerLayoutMode",
+              "defaultValue": "none",
+              "description": "",
+              "name": "innerLayoutMode"
+            },
+            {
+              "attr": "onPostDeserialize",
+              "valueType": "Function",
+              "extraInfo": {
+                "arguments": [
+                  "json",
+                  "dm",
+                  "gv",
+                  "datas"
+                ],
+                "classify": "*"
+              },
+              "description": "",
+              "name": "onPostDeserialize"
+            },
+            {
+              "attr": "useOriginSize",
+              "valueType": "Boolean",
+              "defaultValue": false,
+              "extraInfo": "★",
+              "description": "",
+              "name": "useOriginSize"
+            },
+            {
+              "attr": "useInnerEventsAll",
+              "valueType": "Boolean",
+              "description": "",
+              "extraInfo": "*",
+              "name": "useInnerEventsAll"
+            },
+            {
+              "attr": "isLoadingGet",
+              "valueType": "Boolean",
+              "description": "",
+              "defaultValue": false,
+              "extraInfo": "★",
+              "name": "isLoadingGet"
+            },
+            {
+              "attr": "enableLoading",
+              "valueType": "Boolean",
+              "extraInfo": "*",
+              "name": "enableLoading"
+            },
+            {
+              "attr": "pureFormValues",
+              "valueType": "Boolean",
+              "description": "",
+              "name": "pureFormValues"
+            },
+            {
+              "attr": "userData",
+              "valueType": "Object",
+              "defaultValue": [],
+              "name": "userData"
+            },
+            {
+              "attr": "onDisplayLoaded",
+              "valueType": "Function",
+              "description": "",
+              "extraInfo": {
+                "arguments": [
+                  "data",
+                  "gv",
+                  "cache"
+                ]
+              },
+              "name": "onDisplayLoaded"
+            },
+            {
+              "attr": "shadowBorder",
+              "valueType": "NumberArray",
+              "defaultValue": [
+                0,
+                0,
+                8
+              ],
+              "group": "外观",
+              "extraInfo": "*",
+              "name": "shadowBorder"
+            },
+            {
+              "attr": "shadowColor",
+              "valueType": "Color",
+              "defaultValue": "rgba(55,125,255,0.50)",
+              "extraInfo": "*",
+              "name": "shadowColor"
+            },
+            {
+              "attr": "shadowEnabled",
+              "valueType": "Boolean",
+              "defaultValue": true,
+              "name": "shadowEnabled"
+            },
+            {
+              "attr": "borderWidth",
+              "valueType": "Number",
+              "name": "borderWidth"
+            },
+            {
+              "attr": "innerBackground",
+              "valueType": "Color",
+              "defaultValue": null,
+              "description": "",
+              "name": "innerBackground"
+            },
+            {
+              "attr": "bindControlsTag",
+              "valueType": "StringArray",
+              "group": "连线",
+              "name": "bindControlsTag"
+            },
+            {
+              "attr": "bindControlsAttr",
+              "valueType": "ObjectArray",
+              "name": "bindControlsAttr"
+            },
+            {
+              "attr": "bindControlsVal",
+              "valueType": "ObjectArray",
+              "description": "",
+              "name": "bindControlsVal"
+            },
+            {
+              "attr": "paramControlTag",
+              "valueType": "StringArray",
+              "name": "paramControlTag"
+            },
+            {
+              "attr": "paramControlAttr",
+              "valueType": "ObjectArray",
+              "name": "paramControlAttr"
+            },
+            {
+              "attr": "paramsGenerator",
+              "valueType": "Function",
+              "defaultValue": "__ht__function(data, val, index, node,oldVal,form,type,inner) {//绑定组索引对应的函数处理，用来动态生成复杂的参数变量传入\r\nswitch(index){\r\n    case 0:\r\n        break;\r\n    case 1:\r\n        break;\r\n    case 2:\r\n        break;\r\n    default:\r\n        break;\r\n}\r\n\r\nreturn val;}",
+              "extraInfo": {
+                "arguments": [
+                  "data",
+                  "val",
+                  "index",
+                  "node",
+                  "oldVal",
+                  "form",
+                  "type",
+                  "inner"
+                ],
+                "classify": "*"
+              },
+              "name": "paramsGenerator"
+            },
+            {
+              "attr": "useAttrCORS",
+              "valueType": "Boolean",
+              "extraInfo": "*",
+              "defaultValue": false,
+              "description": "连线操作和处理回写是否一致。\n                        比如多个文本框连线传值给相同对话框，弹窗修改\n                        后是否限定只能写到最新赋值过来的文本框。详见<a href='https://www.yuque.com/liuhuo-nc809/uiotos/fgi6dd7gado51acm#fFUbp' style=\"color:rgb(96,172,252)\"target=\"_blank\">同源属性操作</a>",
+              "bindIgnored": true,
+              "name": "useAttrCORS",
+              "dynamicCreate": true
+            },
+            {
+              "attr": "信息面板>0>n1>s:label",
+              "name": ".label",
+              "valueType": "String",
+              "defaultValue": "步骤一：登录",
+              "extraInfo": null,
+              "group": "信息面板>0>n1"
+            }
+          ],
+          "snapshotURL": "symbols/develop/uiotos/arranged/controls/containers_icon/嵌套容器.json",
+          "renderHTML": "__ht__function(data, gv, cache) {return __graphView(data,gv,cache);}",
+          "width": 500,
+          "height": 300,
+          "fitSize": true,
+          "pixelPerfect": false,
+          "comps": [
+            {
+              "type": "text",
+              "text": {
+                "func": "__ht__function(data, view) {\n// return data.ca('__loadingText') && data.ca('__loadingText')[!data.ca('__loadingStatus')]\n}",
+                "value": "…"
+              },
+              "align": "center",
+              "color": {
+                "func": "attr@__loadingColor",
+                "value": "rgb(150,150,150)"
+              },
+              "font": {
+                "func": "attr@__loadingFont",
+                "value": "12px arial, sans-serif"
+              },
+              "visible": {
+                "func": "attr@__loadingVisible",
+                "value": false
+              },
+              "layoutH": "center",
+              "layoutV": "center",
+              "displayName": "Text（Text1）",
+              "rect": [
+                74.69339,
+                53.1422,
+                50.61322,
+                13.7156
+              ]
+            }
+          ],
+          "uuid": "1D12BDC4-8B58-4981-85F5-33C693233F32"
+        },
+        "position": {
+          "x": 1481.94734,
+          "y": 211.81789
+        },
+        "width": 352.71851,
+        "height": 229.27026
+      },
+      "s": {
+        "label.position": 14,
+        "label.offset.x": -10,
+        "label.offset.y": 0,
+        "interactive": true,
+        "image.stretch": "uniform",
+        "label.opacity": 0
+      },
+      "a": {
+        "symbol": "symbols/develop/uiotos/arranged/controls/containers/嵌套容器.json",
+        "display": "./01-如何登录使用/信息面板.json",
+        "__loadingStatus": false,
+        "isLoadingGet": false,
+        "innerLayoutMode": "fullScreen",
+        "innerBackground": "rgb(247,247,247)",
+        "shadowEnabled": false
       }
     }
   ],
-  "modified": "Sun Oct 27 2024 09:52:55 GMT+0800 (中国标准时间)",
+  "modified": "Wed Oct 30 2024 10:56:50 GMT+0800 (中国标准时间)",
   "contentRect": {
     "x": 0,
     "y": 0,
-    "width": 1880,
+    "width": 1918.89307,
     "height": 1932.51549
   }
 }

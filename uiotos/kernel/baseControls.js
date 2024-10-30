@@ -3889,7 +3889,7 @@ function __textArea_ui(data, gv, cache) {
                 data.ca('htmlContent') ? htmlView.setContent(contenttmp) : textArea.setValue(contenttmp);
             },
             'a:background': e => {
-                textArea.setBackground(i.valArrCompatiable(e.newValue, Number(data.ca('readOnly'))));
+                cache.control.setBackground(i.valArrCompatiable(e.newValue, Number(data.ca('readOnly'))));
             },
             'a:readOnly': e => {
                 textArea.setReadOnly && textArea.setReadOnly(e.newValue);

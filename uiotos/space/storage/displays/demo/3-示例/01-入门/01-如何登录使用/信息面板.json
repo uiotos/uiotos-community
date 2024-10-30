@@ -1,0 +1,136 @@
+{
+  "v": "8.0.2",
+  "p": {
+    "background": "#20252e",
+    "autoAdjustIndex": true,
+    "hierarchicalRendering": true
+  },
+  "a": {
+    "rotateAsClock": false,
+    "gridBlockSize": 20,
+    "connectActionType": null,
+    "fitContent": false,
+    "zoomable": false,
+    "rectSelectable": false,
+    "pannable": false,
+    "_professional": false
+  },
+  "d": [
+    {
+      "c": "ht.Node",
+      "i": 449451,
+      "p": {
+        "name": "Node",
+        "displayName": "n（n2）",
+        "tag": "n2",
+        "position": {
+          "x": 186.8436,
+          "y": 121.78485
+        },
+        "width": 373.6872,
+        "height": 243.56971
+      },
+      "s": {
+        "shape": "rect",
+        "shape.background": "rgb(247,247,247)",
+        "shape.border.width": 1,
+        "shape.border.color": "rgb(247,247,247)",
+        "label.opacity": 0,
+        "label.position": 17,
+        "2d.movable": false,
+        "interactive": true,
+        "image.stretch": "uniform",
+        "fullscreen": "fill",
+        "2d.selectable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 449452,
+      "p": {
+        "name": "Node",
+        "displayName": "n（n1）",
+        "toolTip": "<p style='color:rgb(242,83,75);margin-top:5px;margin-bottom:5px;font-weight:bold;line-height:1.5em;'>已被布局，不允许拖动（shift+回车可解除）</p>",
+        "tag": "n1",
+        "dataBindings": {
+          "s": {
+            "label": {
+              "id": "iotos.form",
+              "alias": "",
+              "func": "__ht__function formParser(nVal, node) {\r\n        /*参数1  nVal: 属性新值 */\r\n        /*返回 return：最终赋值 */\r\n        /********* TODO **********/\r\n\r\n\r\n\r\n        /************************/\r\n        return nVal;\r\n    }",
+              "idinfo": "",
+              "isTplBinded": false
+            }
+          }
+        },
+        "host": {
+          "__i": 449451
+        },
+        "position": {
+          "x": 186.8436,
+          "y": 21.55628
+        },
+        "width": 373.6872,
+        "height": 43.11256
+      },
+      "s": {
+        "shape": "rect",
+        "shape.background": "rgb(247,247,247)",
+        "shape.border.width": 1,
+        "shape.border.color": "rgb(247,247,247)",
+        "label.opacity": 1,
+        "label.position": 17,
+        "2d.movable": false,
+        "interactive": true,
+        "image.stretch": "uniform",
+        "label.offset.y": 0,
+        "label.color": "rgb(61,61,61)",
+        "label.font": "bold 14px sans-serif, Arial",
+        "label": "步骤一：登录",
+        "layout.h": "leftright",
+        "layout.v": "top"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 449453,
+      "p": {
+        "name": "ifm",
+        "displayName": "网页内嵌（ifm1）",
+        "toolTip": "<p style='color:rgb(242,83,75);margin-top:5px;margin-bottom:5px;font-weight:bold;line-height:1.5em;'>已被布局，不允许拖动（shift+回车可解除）</p>",
+        "tag": "ifm1",
+        "image": "symbols/develop/uiotos/arranged/controls/containers/网页内嵌.json",
+        "host": {
+          "__i": 449451
+        },
+        "position": {
+          "x": 186.8436,
+          "y": 142.44786
+        },
+        "width": 370.25478,
+        "height": 198.6706
+      },
+      "s": {
+        "label.position": 14,
+        "label.offset.x": -10,
+        "label.offset.y": 0,
+        "2d.movable": false,
+        "interactive": true,
+        "image.stretch": "uniform",
+        "label.opacity": 0,
+        "layout.h": "leftright",
+        "layout.v": "topbottom"
+      },
+      "a": {
+        "src": "displays/demo/3-示例/01-入门/01-如何登录使用/md-for-multi-inst.json"
+      }
+    }
+  ],
+  "modified": "Tue Oct 29 2024 23:59:38 GMT+0800 (中国标准时间)",
+  "contentRect": {
+    "x": -28.27988,
+    "y": -1.5,
+    "width": 403.46708,
+    "height": 246.56971
+  }
+}
