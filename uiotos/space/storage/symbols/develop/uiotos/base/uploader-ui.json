@@ -1,0 +1,95 @@
+{
+    "modified": "Tue Feb 14 2023 12:44:21 GMT+0800 (中国标准时间)",
+    "background": "rgb(32,37,46)",
+    "dataBindings": [{
+            "attr": "fileSizeMax",
+            "valueType": "Number",
+            "defaultValue": 1024,
+            "group": "Uploader"
+        },
+        {
+            "attr": "iconPath",
+            "valueType": "Image",
+            "defaultValue": "symbols/demo/uiotos/icons/tools/upload1.json"
+        },
+        {
+            "attr": "iconSize",
+            "valueType": "PositiveNumber",
+            "defaultValue": 50
+        },
+        {
+            "attr": "activeBorderColor",
+            "valueType": "Color",
+            "defaultValue": "rgb(51,153,255)"
+        },
+        {
+            "attr": "background",
+            "valueType": "Color"
+        },
+        {
+            "attr": "hoverIcon",
+            "valueType": "Color"
+        },
+        {
+            "attr": "color",
+            "valueType": "Color"
+        },
+        {
+            "attr": "borderRadius",
+            "valueType": "Number",
+            "defaultValue": 3
+        },
+        {
+            "attr": "borderWidth",
+            "valueType": "Number",
+            "defaultValue": 1
+        },
+        {
+            "attr": "borderColor",
+            "valueType": "Color",
+            "defaultValue": "rgb(213,213,213)"
+        },
+        {
+            "attr": "font",
+            "valueType": "Font"
+        },
+        {
+            "attr": "onChange",
+            "valueType": "Function",
+            "defaultValue": "__ht__function(data,text){\r\n    window.appNotifier.fire({\r\n        kind: 'viewData',\r\n        para: {\r\n            type: 'ui',\r\n            data: text,\r\n            info:{\r\n                tag:'listHeader'\r\n            }\r\n        }\r\n    })\r\n}"
+        },
+        {
+            "attr": "labelColor",
+            "valueType": "Color",
+            "defaultValue": "rgb(61,61,61)"
+        },
+        {
+            "attr": "labelText",
+            "valueType": "String",
+            "defaultValue": "文件选择"
+        },
+        {
+            "attr": "gap",
+            "valueType": "PositiveNumber",
+            "defaultValue": 10
+        },
+        {
+            "attr": "layoutVertical",
+            "valueType": "Boolean",
+            "defaultValue": true
+        },
+        {
+            "attr": "labelEmbeded",
+            "valueType": "Boolean",
+            "defaultValue": true
+        }
+    ],
+    "renderHTML": "__ht__function(data, gv, cache) {return __uploader_ui(data,gv,cache);}",
+    "width": 50,
+    "height": 60,
+    "fitSize": true,
+    "scrollable": true,
+    "interactive": true,
+    "pixelPerfect": false,
+    "comps": []
+}

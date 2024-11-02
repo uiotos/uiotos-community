@@ -1,0 +1,39 @@
+{
+  "modified": "Tue Aug 08 2023 00:08:48 GMT+0800 (中国标准时间)",
+  "background": "rgb(32,37,46)",
+  "dataBindings": [
+    {
+      "attr": "percent",
+      "valueType": "Number",
+      "defaultValue": 0.8,
+      "name": "值",
+      "group": "进度值"
+    },
+    {
+      "attr": "labelText",
+      "valueType": "String"
+    }
+  ],
+  "width": 155,
+  "height": 33,
+  "comps": [
+    {
+      "type": "components/demo/progressBar/进度条.json",
+      "displayName": "进度条",
+      "rect": [
+        0,
+        0,
+        150,
+        30
+      ],
+      "labelText": {
+        "func": "attr@labelText",
+        "value": "80%"
+      },
+      "percentValue": {
+        "func": "attr@percent",
+        "value": 0.8
+      }
+    }
+  ]
+}

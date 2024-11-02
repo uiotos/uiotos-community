@@ -1,0 +1,481 @@
+{
+  "modified": "Thu Aug 15 2024 14:08:49 GMT+0800 (中国标准时间)",
+  "dataBindings": [
+    {
+      "attr": "symbol",
+      "valueType": "Image"
+    },
+    {
+      "attr": "display",
+      "valueType": "Image",
+      "group": "功能",
+      "defaultValue": "displays/develop/uiotos/editor/widgets/dialog/textArea.json",
+      "description": ""
+    },
+    {
+      "attr": "displayJson",
+      "valueType": "Multiline",
+      "extraInfo": "*"
+    },
+    {
+      "attr": "innerLayoutMode",
+      "valueType": "InnerLayoutMode",
+      "description": ""
+    },
+    {
+      "attr": "onPostDeserialize",
+      "valueType": "Function",
+      "extraInfo": {
+        "arguments": [
+          "json",
+          "dm",
+          "gv",
+          "datas"
+        ],
+        "classify": "*"
+      }
+    },
+    {
+      "attr": "useOriginSize",
+      "valueType": "Boolean",
+      "defaultValue": false,
+      "extraInfo": "★"
+    },
+    {
+      "attr": "useInnerEventsAll",
+      "valueType": "Boolean",
+      "description": "",
+      "extraInfo": "*",
+      "defaultValue": false
+    },
+    {
+      "attr": "isLoadingGet",
+      "valueType": "Boolean",
+      "defaultValue": false,
+      "description": "",
+      "extraInfo": "★"
+    },
+    {
+      "attr": "enableLoading",
+      "valueType": "Boolean",
+      "defaultValue": false,
+      "extraInfo": "*"
+    },
+    {
+      "attr": "pureFormValues",
+      "valueType": "Boolean",
+      "defaultValue": false,
+      "description": ""
+    },
+    {
+      "attr": "show",
+      "valueType": "Boolean",
+      "defaultValue": false,
+      "description": "弹出对话框。"
+    },
+    {
+      "attr": "hide",
+      "valueType": "Boolean",
+      "defaultValue": false,
+      "description": "关闭对话框。通常关闭是通过点击\n<br>遮盖层或点击按钮关闭，本属性较少使用。",
+      "name": "关闭",
+      "extraInfo": "*"
+    },
+    {
+      "attr": "modal",
+      "valueType": "Boolean",
+      "defaultValue": true,
+      "description": "是否为模态弹窗。模态弹窗时，需要关闭\n<br>弹窗后才能操作其他；非模态弹窗时，可同时操作\n<br>对话框的其他区域。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/uta20ga5uu55wvqw#SwaxW\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>"
+    },
+    {
+      "attr": "embedded",
+      "valueType": "Boolean",
+      "defaultValue": false,
+      "description": "是否嵌入指定区域显示，而非默认全屏\n<br>居中弹窗。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/uta20ga5uu55wvqw#th9nb\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+      "extraInfo": "★"
+    },
+    {
+      "attr": "enableLoading",
+      "valueType": "Boolean",
+      "defaultValue": true,
+      "description": "加载时是否提示过渡动画。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/uta20ga5uu55wvqw#mti3r\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+      "extraInfo": "*"
+    },
+    {
+      "attr": "debugOccupied",
+      "valueType": "Boolean",
+      "defaultValue": false,
+      "description": "仅占据位置不触发弹窗响应。通常\n<br>用于调试存留。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/uta20ga5uu55wvqw#DVR6o\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+      "extraInfo": "*"
+    },
+    {
+      "attr": "displaySaving",
+      "valueType": "Boolean",
+      "defaultValue": false,
+      "description": "点击确定时，页面的修改将被保存。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/uta20ga5uu55wvqw#IZMXJ\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+      "extraInfo": "*"
+    },
+    {
+      "attr": "reloadWhenOpen",
+      "valueType": "Boolean",
+      "defaultValue": false,
+      "description": "弹窗时内嵌页面是否重新加载。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/uta20ga5uu55wvqw#ljtZb\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+      "extraInfo": "★"
+    },
+    {
+      "attr": "onPageBinded",
+      "valueType": "ObjectArray",
+      "description": "绑定Tab页签组件，当前作为公共表\n<br>单弹窗，对多页数据读取显示和修改设置。\n<br>索引0：Tab页签标识。\n<br>索引1：Tab页签索引。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/uta20ga5uu55wvqw#T2UPK\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+      "defaultValue": [
+        "tab1",
+        0
+      ],
+      "extraInfo": "*"
+    },
+    {
+      "attr": "userData",
+      "valueType": "Object",
+      "defaultValue": []
+    },
+    {
+      "attr": "onDisplayLoaded",
+      "valueType": "Function",
+      "extraInfo": {
+        "arguments": [
+          "data",
+          "gv",
+          "cache"
+        ],
+        "classify": "*"
+      },
+      "description": "内嵌页面加载完成时触发。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/uta20ga5uu55wvqw#yP7mg\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>"
+    },
+    {
+      "attr": "onOk",
+      "valueType": "Function",
+      "extraInfo": {
+        "arguments": [
+          "data",
+          "gv",
+          "cache",
+          "form"
+        ]
+      },
+      "description": "当点击“确定”时对外触发。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/uta20ga5uu55wvqw#yOkmK\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>"
+    },
+    {
+      "attr": "onCancel",
+      "valueType": "Function",
+      "extraInfo": {
+        "arguments": [
+          "data",
+          "gv",
+          "cache",
+          "form"
+        ]
+      },
+      "description": "点击“取消”时对外触发。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/uta20ga5uu55wvqw#T5i4g\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>"
+    },
+    {
+      "attr": "onFinally",
+      "valueType": "Function",
+      "extraInfo": {
+        "arguments": [
+          "data",
+          "gv",
+          "cache",
+          "form",
+          "isOk"
+        ]
+      },
+      "description": "不论是确定还是取消，都会触发。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/uta20ga5uu55wvqw#hzcJb\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>"
+    },
+    {
+      "attr": "boxShadow",
+      "valueType": "String",
+      "defaultValue": "0px 8px 22px rgba(0,0,0,0.1)",
+      "description": "对话框阴影设置。\n<br>数字依次代表左右偏移、上下偏移、\n<br>虚化程度、阴影颜色。",
+      "group": "外观",
+      "extraInfo": "*"
+    },
+    {
+      "attr": "titleText",
+      "valueType": "String",
+      "defaultValue": "对话框",
+      "description": "对话框左上角标题头文字。",
+      "name": "标题头文字"
+    },
+    {
+      "attr": "titleFont",
+      "valueType": "Font",
+      "name": "标题头字体",
+      "extraInfo": "*",
+      "description": "对话框左上角标题头字体。"
+    },
+    {
+      "attr": "titleColor",
+      "valueType": "Color",
+      "description": "对话框左上角标题头文字颜色。",
+      "name": "标题头字颜色",
+      "extraInfo": "★"
+    },
+    {
+      "attr": "innerBackground",
+      "valueType": "Color",
+      "description": "",
+      "defaultValue": null
+    },
+    {
+      "attr": "background",
+      "valueType": "ColorArray",
+      "description": "对话框背景颜色组。\n● 索引0：头部背景色。\n● 索引1：底部（脚部）背景色\n● 索引2：背景贴图色。\n● 索引3：遮盖层颜色。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/uta20ga5uu55wvqw#AKDZu\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+      "defaultValue": [
+        "rgba(255,255,255,1)",
+        "rgba(255,255,255,1)",
+        "rgba(255,255,255,1)",
+        "rgba(0,0,0,0.2)"
+      ]
+    },
+    {
+      "attr": "backgroundImage",
+      "valueType": "Image",
+      "defaultValue": "symbols/develop/uiotos/icons/common/borderRectange.json",
+      "description": "对话框的背景贴图。清空路径（输\n<br>入空格，回车）时，弹窗可变成透明风格。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/uta20ga5uu55wvqw#mSgCA\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+      "extraInfo": "*"
+    },
+    {
+      "attr": "headerHeight",
+      "valueType": "PositiveNumber",
+      "defaultValue": 35,
+      "description": "头部高度。",
+      "extraInfo": "*"
+    },
+    {
+      "attr": "footerHeight",
+      "valueType": "PositiveNumber",
+      "defaultValue": 60,
+      "description": "角度高度。",
+      "extraInfo": "*"
+    },
+    {
+      "attr": "headerVisible",
+      "valueType": "Boolean",
+      "defaultValue": true,
+      "description": "是否显示头部。"
+    },
+    {
+      "attr": "footerVisible",
+      "valueType": "Boolean",
+      "defaultValue": true,
+      "description": "是否显示脚部。"
+    },
+    {
+      "attr": "closeButtonOnly",
+      "valueType": "Boolean",
+      "defaultValue": false,
+      "description": "对话框头部只有一个关闭按钮（×）。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/uta20ga5uu55wvqw#VuiwO\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>"
+    },
+    {
+      "attr": "oneButton",
+      "valueType": "Boolean",
+      "defaultValue": false,
+      "description": "对话框脚部只有一个操作按钮（默认为\n<br>“确定”）。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/uta20ga5uu55wvqw#Oj8IN\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>"
+    },
+    {
+      "attr": "cancelDefault",
+      "valueType": "Boolean",
+      "defaultValue": false,
+      "description": "在勾选了单按钮（﻿oneButton﻿）时，如\n<br>果希望默认改为为“取消”，勾选本属性即可。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/uta20ga5uu55wvqw#QiLL9\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>"
+    },
+    {
+      "attr": "borderRadius",
+      "valueType": "PositiveNumber",
+      "defaultValue": 10,
+      "description": "对话框边框圆角，注意：最大值为35。"
+    },
+    {
+      "attr": "padding",
+      "valueType": "PositiveNumber",
+      "defaultValue": 0,
+      "description": "填充。\n<br>0代表100%填充边界框，数字越大，对话框显示的越小。",
+      "extraInfo": "*"
+    },
+    {
+      "attr": "footerButtonGap",
+      "valueType": "PositiveNumber",
+      "defaultValue": 20,
+      "description": "脚部按钮（取消、确定）之间的间距。",
+      "extraInfo": "*"
+    },
+    {
+      "attr": "footerButtonsText",
+      "valueType": "StringArray",
+      "defaultValue": [
+        "取消",
+        "确定"
+      ],
+      "description": "脚部按钮的文字设置。可对应修改索引值：\n<br>索引0：默认为“取消”；\n<br>索引1：默认为“确定”。<a href=\"<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/uta20ga5uu55wvqw#QiLL9\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+      "extraInfo": "★"
+    },
+    {
+      "attr": "footerButtonSize",
+      "valueType": "NumberArray",
+      "defaultValue": [
+        75,
+        35
+      ],
+      "description": "脚部按钮的宽高，索引分别对应宽度和高度。",
+      "extraInfo": "★"
+    },
+    {
+      "attr": "btnBorderWidths",
+      "valueType": "NumberArray",
+      "defaultValue": [
+        1,
+        1,
+        1
+      ],
+      "description": "数组长度为3，索引依次对应默认、\n<br>悬停和按下时的宽度。",
+      "extraInfo": "*"
+    },
+    {
+      "attr": "btn0BorderRadius",
+      "valueType": "NumberArray",
+      "defaultValue": [
+        3,
+        3,
+        3,
+        3
+      ],
+      "description": "“确定”按钮的圆角，索引依次对应\n<br>左上、右上、右下、左下四个角的圆角。",
+      "extraInfo": "*"
+    },
+    {
+      "attr": "btn1BorderRadius",
+      "valueType": "NumberArray",
+      "defaultValue": [
+        3,
+        3,
+        3,
+        3
+      ],
+      "description": "“取消”按钮的圆角，索引依次对应\n<br>左上、右上、右下、左下四个角的圆角。",
+      "extraInfo": "*"
+    },
+    {
+      "attr": "btn0BorderColors",
+      "valueType": "ColorArray",
+      "defaultValue": [
+        "rgb(55,125,255)",
+        "rgb(55,125,255)",
+        "rgb(55,125,255)"
+      ],
+      "description": "“确定”按钮的边框颜色，索引依次为默认、悬停、按下等。",
+      "extraInfo": "*"
+    },
+    {
+      "attr": "btn1BorderColors",
+      "valueType": "ColorArray",
+      "defaultValue": [
+        "rgb(55,125,255)",
+        "rgb(51,153,255)",
+        "rgb(51,153,255)"
+      ],
+      "description": "“取消”按钮的边框颜色，索引依次为默认、悬停、按下等。",
+      "extraInfo": "*"
+    },
+    {
+      "attr": "btn0Background",
+      "valueType": "ColorArray",
+      "defaultValue": [
+        "rgb(55,125,255)",
+        "rgb(51,153,255)",
+        "rgb(55,125,255)",
+        "rgb(55,125,255)"
+      ],
+      "description": "“确定”按钮的背景颜色，索引依次为默认、悬停、按下等。",
+      "extraInfo": "*"
+    },
+    {
+      "attr": "btn1Background",
+      "valueType": "ColorArray",
+      "defaultValue": [
+        "rgb(255,255,255)",
+        "rgb(250,250,250)",
+        "rgb(247,247,247)",
+        "rgb(247,247,247)"
+      ],
+      "description": "“取消”按钮的背景颜色，索引依次为默认、悬停、按下等。",
+      "extraInfo": "*"
+    },
+    {
+      "attr": "bt0TextColors",
+      "valueType": "ColorArray",
+      "defaultValue": [
+        "rgb(255,255,255)",
+        "rgb(255,255,255)",
+        "rgb(255,255,255)",
+        "rgb(255,255,255)"
+      ],
+      "description": "“确定”按钮的文字颜色，索引依次为默认、悬停、按下等。",
+      "extraInfo": "*"
+    },
+    {
+      "attr": "bt1TextColors",
+      "valueType": "ColorArray",
+      "defaultValue": [
+        "rgb(55,125,255)",
+        "rgb(51,153,255)",
+        "rgb(55,125,255)",
+        "rgb(55,125,255)"
+      ],
+      "description": "“取消”按钮的文字颜色，索引依次为默认、悬停、按下等。",
+      "extraInfo": "*"
+    },
+    {
+      "attr": "bindControlsTag",
+      "valueType": "StringArray",
+      "group": "连线"
+    },
+    {
+      "attr": "bindControlsAttr",
+      "valueType": "StringArray"
+    },
+    {
+      "attr": "bindControlsVal",
+      "valueType": "ObjectArray",
+      "description": "静态值。也用作数组索引、JSON对象解析提取值用途。\n<br>一、静态值用途：\n<br>对常规类型的属性赋值且没有反向关联属性值，传入为数值时，不\n<br>会作为数组的索引，而会当成常量值对外赋值。此外，存在特殊值：\n<br>~和undefined表示过滤、不触发；null为默认值，表示传递默认表\n<br>单数据。编辑状态下清空后保存与设置null等价。\n<br>二、数组索引用途\n<br>情况1：被操作的组件属性原先值是数组时（包括空数组），会将\n<br>待输出的值作为被操作数组指定索引的值来传入，而不是整体覆盖。\n<br>情况2：如果要被操作的组件属性原先值不是数组，而且待输出的\n<br>值为数组类型并且长度也在索引范围内，那么会按照索引取自身数\n<br>组指定元素再对外输出。（如果想要取待输出索引值，赋值给被操\n<br>纵属性的指定索引，那么需要中间组件属性连线过渡以下，无法直\n<br>接操作）\n<br>情况3：如果要被操作的组件属性是数组，而且待输出的值也是数组\n<br>类型，此时当情况1来处理。\n<br>三、数据解析用途：\n<br>待输出的值为JSON对象时，用x.y.z这种以字符.或者>为间隔的方式\n<br>实现对JSON字段层次逐层定位，当是数组时x.0.y.1这种以数字的方\n<br>式来指定数组的某个索引。以此实现对任意结果JSON对象字段的定\n<br>位，获取结构内指定字段对应的值。"
+    },
+    {
+      "attr": "paramControlTag",
+      "valueType": "StringArray"
+    },
+    {
+      "attr": "paramControlAttr",
+      "valueType": "StringArray"
+    },
+    {
+      "attr": "paramsGenerator",
+      "valueType": "Function",
+      "defaultValue": "__ht__function(data, val, index, node,oldVal,form) {//绑定组索引对应的函数处理，用来动态生成复杂的参数变量传入\r\nswitch(index){\r\n    case 0:\r\n        break;\r\n    case 1:\r\n        break;\r\n    case 2:\r\n        break;\r\n    default:\r\n        break;\r\n}\r\n\r\nreturn val;}",
+      "extraInfo": {
+        "arguments": [
+          "data",
+          "val",
+          "index",
+          "node",
+          "oldVal",
+          "form",
+          "type"
+        ]
+      }
+    }
+  ],
+  "snapshotURL": "symbols/develop/uiotos/arranged/controls/containers_icon/对话框.json",
+  "renderHTML": "__ht__function(data, gv, cache) {return __dialog_ui(data,gv,cache);}",
+  "width": 600,
+  "height": 400,
+  "interactive": true,
+  "pixelPerfect": false,
+  "comps": []
+}

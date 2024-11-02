@@ -1,0 +1,292 @@
+{
+    "modified": "Fri Aug 26 2022 05:11:49 GMT+0800 (中国标准时间)",
+    "background": "rgb(32,37,46)",
+    "dataBindings": [{
+            "attr": "background",
+            "valueType": "Color"
+        },
+        {
+            "attr": "borderWidth",
+            "valueType": "PositiveNumber"
+        },
+        {
+            "attr": "borderColor",
+            "valueType": "Color"
+        },
+        {
+            "attr": "cornerRadius",
+            "valueType": "PositiveNumber"
+        },
+        {
+            "attr": "text0",
+            "valueType": "String"
+        },
+        {
+            "attr": "color0",
+            "valueType": "Color"
+        },
+        {
+            "attr": "text0.value",
+            "valueType": "String"
+        },
+        {
+            "attr": "color0.value",
+            "valueType": "Color"
+        },
+        {
+            "attr": "text1",
+            "valueType": "String"
+        },
+        {
+            "attr": "text1.color",
+            "valueType": "Color"
+        },
+        {
+            "attr": "text2",
+            "valueType": "String"
+        },
+        {
+            "attr": "text2.color",
+            "valueType": "Color"
+        },
+        {
+            "attr": "text3",
+            "valueType": "String"
+        },
+        {
+            "attr": "text3.color",
+            "valueType": "Color"
+        },
+        {
+            "attr": "text4",
+            "valueType": "String"
+        },
+        {
+            "attr": "text4.color",
+            "valueType": "Color"
+        },
+        {
+            "attr": "icon.icon-background",
+            "valueType": "Color",
+            "defaultValue": "rgb(247,247,247)"
+        }
+    ],
+    "width": 280,
+    "height": 200,
+    "fitSize": true,
+    "comps": [{
+            "type": "roundRect",
+            "background": {
+                "func": "attr@background",
+                "value": "rgb(21,31,51)"
+            },
+            "borderWidth": {
+                "func": "attr@borderWidth",
+                "value": 0
+            },
+            "borderColor": {
+                "func": "attr@borderColor",
+                "value": "#979797"
+            },
+            "borderWidthAbsolute": true,
+            "cornerRadius": {
+                "func": "attr@cornerRadius",
+                "value": 5
+            },
+            "rect": [
+                0,
+                0,
+                280,
+                200
+            ]
+        },
+        {
+            "type": "text",
+            "text": {
+                "func": "attr@text0",
+                "value": "设备总数(台)"
+            },
+            "color": {
+                "func": "attr@color0",
+                "value": "rgb(247,247,247)"
+            },
+            "font": "16px arial, sans-serif",
+            "rect": [
+                18.44327, -4.36532,
+                82.30046,
+                50
+            ]
+        },
+        {
+            "type": "text",
+            "text": {
+                "func": "attr@text0.value",
+                "value": "2303"
+            },
+            "align": "center",
+            "color": {
+                "func": "attr@color0.value",
+                "value": "rgb(247,247,247)"
+            },
+            "font": "36px arial, sans-serif",
+            "rect": [
+                0,
+                54.0367,
+                106.41315,
+                50
+            ]
+        },
+        {
+            "type": "text",
+            "text": {
+                "func": "attr@text1",
+                "value": "运行中"
+            },
+            "align": "center",
+            "color": {
+                "func": "attr@text1.color",
+                "value": "rgb(247,247,247)"
+            },
+            "font": "14px arial, sans-serif",
+            "rect": [
+                0,
+                135,
+                82.30046,
+                30
+            ]
+        },
+        {
+            "type": "text",
+            "text": {
+                "func": "attr@text2",
+                "value": "故障"
+            },
+            "align": "center",
+            "color": {
+                "func": "attr@text2.color",
+                "value": "rgb(247,247,247)"
+            },
+            "font": "14px arial, sans-serif",
+            "rect": [
+                53.20657,
+                135,
+                82.30046,
+                30
+            ]
+        },
+        {
+            "type": "text",
+            "text": {
+                "func": "attr@text3",
+                "value": "报警"
+            },
+            "align": "center",
+            "color": {
+                "func": "attr@text3.color",
+                "value": "rgb(247,247,247)"
+            },
+            "font": "14px arial, sans-serif",
+            "rect": [
+                106.41315,
+                135,
+                82.30046,
+                30
+            ]
+        },
+        {
+            "type": "text",
+            "text": {
+                "func": "attr@text4",
+                "value": "离线"
+            },
+            "align": "center",
+            "color": {
+                "func": "attr@text4.color",
+                "value": "rgb(247,247,247)"
+            },
+            "font": "14px arial, sans-serif",
+            "rect": [
+                159.61972,
+                135,
+                82.30046,
+                30
+            ]
+        },
+        {
+            "type": "text",
+            "text": "2303",
+            "align": "center",
+            "color": "rgb(247,247,247)",
+            "font": "14px arial, sans-serif",
+            "rect": [
+                0,
+                150,
+                82.30046,
+                50
+            ]
+        },
+        {
+            "type": "text",
+            "text": "2303",
+            "align": "center",
+            "color": "rgb(247,247,247)",
+            "font": "14px arial, sans-serif",
+            "rect": [
+                53.20657,
+                150,
+                82.30046,
+                50
+            ]
+        },
+        {
+            "type": "text",
+            "text": "2303",
+            "align": "center",
+            "color": "rgb(247,247,247)",
+            "font": "14px arial, sans-serif",
+            "rect": [
+                106.41315,
+                150,
+                82.30046,
+                50
+            ]
+        },
+        {
+            "type": "text",
+            "text": "2303",
+            "align": "center",
+            "color": "rgb(247,247,247)",
+            "font": "14px arial, sans-serif",
+            "rect": [
+                159.61972,
+                150,
+                82.30046,
+                50
+            ]
+        },
+        {
+            "type": "image",
+            "name": "symbols/demo/uiotos/icons/tools/zuhe.json",
+            "layoutH": "right",
+            "layoutV": "top",
+            "prefix": "icon",
+            "rect": [
+                196.68318,
+                22.18305,
+                51.79736,
+                46.90326
+            ]
+        },
+        {
+            "type": "rect",
+            "background": "rgb(0,87,228)",
+            "borderColor": "#979797",
+            "rect": [
+                11.23377,
+                10.9379,
+                2.85576,
+                17.56542
+            ]
+        }
+    ]
+}

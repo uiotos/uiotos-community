@@ -1,0 +1,413 @@
+{
+  "modified": "Mon Mar 04 2024 19:24:48 GMT+0800 (中国标准时间)",
+  "background": "rgb(61,61,61)",
+  "dataBindings": [
+    {
+      "attr": "bkg.background",
+      "valueType": "Color"
+    },
+    {
+      "attr": "text.text",
+      "valueType": "String"
+    },
+    {
+      "attr": "text.color",
+      "valueType": "Color"
+    },
+    {
+      "attr": "text.font",
+      "valueType": "Font"
+    },
+    {
+      "attr": "desc.visible",
+      "valueType": "Boolean",
+      "defaultValue": false
+    },
+    {
+      "attr": "desc.text",
+      "valueType": "String"
+    },
+    {
+      "attr": "desc.color",
+      "valueType": "Color"
+    },
+    {
+      "attr": "desc.font",
+      "valueType": "Font"
+    },
+    {
+      "attr": "toolTip",
+      "valueType": "Multiline"
+    },
+    {
+      "attr": "scale",
+      "valueType": "PositiveNumber",
+      "defaultValue": 1
+    },
+    {
+      "attr": "border.visible",
+      "valueType": "Boolean",
+      "defaultValue": false
+    },
+    {
+      "attr": "clicked",
+      "valueType": "Function",
+      "defaultValue": "__ht__function onClick(data,text){\r\n    if(data.ca('locked')){\r\n        alert('对不起，账号暂无权限')\r\n        return\r\n    }\r\n    //多个图标按钮在同一个node节点下时默认是互斥的tab模式！\r\n    if(data.getParent()){\r\n        let indextmp = null\r\n        data.getParent().getChildren().forEach((child,index)=>{\r\n            if(child.getId() != data.getId()){\r\n                child.a('back.forceVisible',false);\r\n                child.a('back.visible',false);\r\n            }else{\r\n                indextmp = index;\r\n            }\r\n            child.iv()\r\n        })\r\n        \r\n        if(data.a('bindTabview') != undefined){\r\n            let tabViewTag = data.a('bindTabview')[0],     //关联tabView的Tag标签名\r\n                tabIndexAttr = data.a('bindTabview')[1],   //选择当前页index的属性名\r\n                tabViewObj = data.dm().getDataByTag(tabViewTag);\r\n            if(tabViewObj){\r\n                tabViewObj.a(tabIndexAttr,indextmp);\r\n                //只有共同父节点存在、且绑定的tabView对象存在时，才会自动作为tab模式，点击会切换固定状态\r\n                data.a('back.forceVisible',true);\r\n            }\r\n        }\r\n    }\r\n}"
+    },
+    {
+      "attr": "htmlUrl",
+      "valueType": "String"
+    },
+    {
+      "attr": "displayUrl",
+      "valueType": "String"
+    },
+    {
+      "attr": "previewURL",
+      "valueType": "String"
+    },
+    {
+      "attr": "locked",
+      "valueType": "Boolean"
+    },
+    {
+      "attr": "iconColor",
+      "valueType": "Color",
+      "name": "颜色",
+      "group": "图标"
+    },
+    {
+      "attr": "path",
+      "valueType": "Image",
+      "name": "名称",
+      "group": "图标"
+    },
+    {
+      "attr": "iconHeight",
+      "valueType": "PositiveNumber",
+      "name": "高度",
+      "group": "图标"
+    },
+    {
+      "attr": "iconWidth",
+      "valueType": "PositiveNumber",
+      "name": "宽度",
+      "group": "图标"
+    },
+    {
+      "attr": "iconType",
+      "valueType": "Level",
+      "defaultValue": 1,
+      "group": "图标",
+      "name": "风格"
+    },
+    {
+      "attr": "noEvent",
+      "valueType": "Boolean",
+      "defaultValue": false
+    },
+    {
+      "attr": "back.visible",
+      "valueType": "Boolean",
+      "defaultValue": false
+    },
+    {
+      "attr": "back.forceVisible",
+      "valueType": "Boolean",
+      "defaultValue": false
+    },
+    {
+      "attr": "bindTabview",
+      "valueType": "StringArray",
+      "defaultValue": [
+        "tabView",
+        "index"
+      ]
+    }
+  ],
+  "onUp": "__ht__function(event, data, view, point, width, height) {\nif(data.ca('noEvent')) return;\r\nlet cb = new Function('return ' + data.ca('clicked'))()\r\nreturn cb && cb(data,data.ca('text.text'))\n}",
+  "onEnter": "__ht__function(event, data, view, point, width, height) {\nif(data.ca('noEvent')) return;\r\ndata.ca('back.visible',true)\r\nview.getView().style.cursor = 'pointer'\n}",
+  "onLeave": "__ht__function(event, data, view, point, width, height) {\nif(data.ca('noEvent')) return;\r\nlet forceVisible = data.ca('back.forceVisible');\r\nif(forceVisible == undefined || forceVisible == false){\r\n    data.ca('back.visible',false)\r\n}\r\nview.getView().style.cursor = 'default'\n}",
+  "renderHTML": "__ht__function(data, gv, cache) {if(!cache.init){\r\n    cache.init = 'done'\r\n    data.setToolTip(data.ca('toolTip'));\r\n\r\n    /*240304，所以渲染元素最简，都需要加上这句调用，否则连线赋值时，判断\r\n    i.hasInnerSymbolInited()识别渲染元素是否初始化就极可能识别判断失误！*/\r\n    cache = _i.innerRecoveredDataCache(data, cache); \r\n}}",
+  "width": 160,
+  "height": 190,
+  "interactive": true,
+  "pixelPerfect": false,
+  "comps": [
+    {
+      "type": "roundRect",
+      "background": "rgba(51,156,255,0.3)",
+      "borderColor": "#979797",
+      "gradient": "radial.center",
+      "gradientColor": "rgba(61,61,61,0)",
+      "visible": {
+        "func": "__ht__function(data, view) {\nlet visible = data.ca('visible')\r\n// if(data.a('locked')) visible = true\r\nlet forceVisible = data.ca('forceVisible') == true;\r\nreturn forceVisible ? true : visible\n}",
+        "value": false
+      },
+      "prefix": "back",
+      "rect": [
+        26.06732,
+        29.10189,
+        107.86536,
+        131.79622
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@text",
+        "value": "描述"
+      },
+      "align": "center",
+      "color": {
+        "func": "attr@color",
+        "value": "#ddd"
+      },
+      "font": {
+        "func": "attr@font",
+        "value": "18px Microsoft YaHei"
+      },
+      "visible": {
+        "func": "attr@visible",
+        "value": true
+      },
+      "layoutH": "leftright",
+      "layoutV": "topbottom",
+      "prefix": "desc",
+      "displayName": "desc",
+      "scaleX": {
+        "func": "attr@scale",
+        "value": 1
+      },
+      "scaleY": {
+        "func": "attr@scale",
+        "value": 1
+      },
+      "rect": [
+        45.83537,
+        162.88464,
+        68.32927,
+        19.29532
+      ]
+    },
+    {
+      "type": "image",
+      "name": {
+        "func": "__ht__function(data, view) {\nvar color = data.ca('iconColor')\r\n    data.ca('icon-background',color) //除了背景颜色、图标边框及颜色等可以类似扩展添加\r\n    var path = data.ca('path')\r\n    var typeArr = ['light','light','regular','light'] //枚举下拉选择\r\n    var typetmp = typeArr[data.ca('iconType')]\r\n    if(path != undefined){\r\n        if(path.indexOf('.') == -1){ //名称模式\r\n            path = 'symbols/demo/uiotos/icons/' + typetmp + '/' + path + '.json'\r\n        }else if(path.indexOf(typetmp) == -1){//类型切换了\r\n            typeArr.forEach((curType,index)=>{\r\n                if(curType != typetmp){\r\n                    path = path.replace(curType,typetmp)\r\n                }\r\n            })\r\n        }\r\n    }\r\n    data.ca('path',path) //回写过去\r\n    return path\n}",
+        "value": "assets/demo/extra/desktop/logo_min.jpg"
+      },
+      "displayName": "icon",
+      "scaleX": {
+        "func": "attr@scale",
+        "value": 1
+      },
+      "scaleY": {
+        "func": "attr@scale",
+        "value": 1
+      },
+      "rect": [
+        56.49765,
+        59.83863,
+        47.0047,
+        49.88901
+      ]
+    },
+    {
+      "type": "shape",
+      "background": "rgb(230,220,17)",
+      "gradientColor": "rgb(230,220,17)",
+      "visible": {
+        "func": "attr@locked",
+        "value": true
+      },
+      "pixelPerfect": true,
+      "points": [
+        108.43973,
+        57.74849,
+        106.5273,
+        57.74849,
+        106.5273,
+        53.43819,
+        106.5273,
+        49.82851,
+        103.50034,
+        46.89309,
+        99.7762,
+        46.89309,
+        96.05175,
+        46.89309,
+        93.02134,
+        49.82851,
+        93.02134,
+        53.43845,
+        93.02134,
+        57.74843,
+        91.11095,
+        57.74843,
+        90.18969,
+        57.74843,
+        89.44274,
+        58.47183,
+        89.44274,
+        59.36478,
+        89.44274,
+        71.16584,
+        89.44274,
+        72.06018,
+        90.18969,
+        72.78417,
+        91.11095,
+        72.78417,
+        108.44144,
+        72.78417,
+        109.36269,
+        72.78417,
+        110.10765,
+        72.06024,
+        110.10765,
+        71.16584,
+        110.10765,
+        59.36478,
+        110.10765,
+        58.47179,
+        109.36098,
+        57.74843,
+        108.43943,
+        57.74843,
+        100.71272,
+        65.57291,
+        100.71272,
+        68.14971,
+        100.71225,
+        68.26557,
+        100.614,
+        68.36094,
+        100.49395,
+        68.36207,
+        99.06003,
+        68.36207,
+        98.93954,
+        68.36146,
+        98.84054,
+        68.26607,
+        98.83971,
+        68.14979,
+        98.83971,
+        65.57295,
+        98.16611,
+        65.23902,
+        97.69958,
+        64.56977,
+        97.69958,
+        63.78534,
+        97.69958,
+        62.67529,
+        98.62918,
+        61.77258,
+        99.77448,
+        61.77258,
+        100.92153,
+        61.77258,
+        101.85144,
+        62.67527,
+        101.85144,
+        63.78505,
+        101.85315,
+        64.56977,
+        101.38662,
+        65.23905,
+        100.71275,
+        65.57265,
+        103.93641,
+        57.74849,
+        95.61547,
+        57.74849,
+        95.61547,
+        53.54509,
+        95.61547,
+        51.32167,
+        97.48388,
+        49.51099,
+        99.77767,
+        49.51099,
+        102.07176,
+        49.51099,
+        103.93671,
+        51.32165,
+        103.93671,
+        53.54509,
+        103.93671,
+        57.74849
+      ],
+      "segments": [
+        1,
+        2,
+        2,
+        4,
+        4,
+        2,
+        2,
+        4,
+        2,
+        4,
+        2,
+        4,
+        2,
+        4,
+        5,
+        1,
+        2,
+        4,
+        2,
+        4,
+        2,
+        4,
+        4,
+        4,
+        4,
+        5,
+        1,
+        2,
+        2,
+        4,
+        4,
+        2,
+        5
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@text",
+        "value": "系统设置"
+      },
+      "align": "center",
+      "color": {
+        "func": "attr@color",
+        "value": "#ddd"
+      },
+      "font": {
+        "func": "attr@font",
+        "value": "18px Microsoft YaHei"
+      },
+      "layoutH": "leftright",
+      "layoutV": "topbottom",
+      "prefix": "text",
+      "displayName": "text",
+      "scaleX": {
+        "func": "attr@scale",
+        "value": 1
+      },
+      "scaleY": {
+        "func": "attr@scale",
+        "value": 1
+      },
+      "rect": [
+        45.83536,
+        128.87514,
+        68.32927,
+        19.29532
+      ]
+    }
+  ]
+}

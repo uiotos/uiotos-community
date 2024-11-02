@@ -1,0 +1,166 @@
+{
+  "modified": "Sun Nov 26 2023 18:11:40 GMT+0800 (中国标准时间)",
+  "background": "rgb(32,37,46)",
+  "dataBindings": [
+    {
+      "attr": "symbol",
+      "valueType": "Image",
+      "group": "功能（关键）"
+    },
+    {
+      "attr": "fixedHeight",
+      "valueType": "PositiveNumber",
+      "defaultValue": 35
+    },
+    {
+      "attr": "shadowBorder",
+      "valueType": "NumberArray",
+      "defaultValue": [
+        0,
+        0,
+        8
+      ],
+      "description": ""
+    },
+    {
+      "attr": "shadowColor",
+      "valueType": "Color",
+      "defaultValue": "rgba(102,102,102,0.2)"
+    },
+    {
+      "attr": "shadowEnabled",
+      "valueType": "Boolean",
+      "defaultValue": false
+    },
+    {
+      "attr": "text",
+      "valueType": "Multiline",
+      "defaultValue": "Button"
+    },
+    {
+      "attr": "background",
+      "valueType": "ColorArray",
+      "defaultValue": [
+        "rgb(55,125,255)",
+        "rgba(55,125,255,0.9)"
+      ]
+    },
+    {
+      "attr": "activeBackground",
+      "valueType": "ColorArray",
+      "defaultValue": [
+        "rgb(50,99,250)",
+        "rgba(55,125,255,0.9)"
+      ]
+    },
+    {
+      "attr": "textColor",
+      "valueType": "ColorArray",
+      "defaultValue": [
+        "rgb(255,255,255)",
+        "rgb(255,255,255)"
+      ]
+    },
+    {
+      "attr": "activeTextColor",
+      "valueType": "ColorArray",
+      "defaultValue": [
+        "white",
+        "white"
+      ]
+    },
+    {
+      "attr": "textFont",
+      "valueType": "Font",
+      "defaultValue": "12px sans-serif, Arial"
+    },
+    {
+      "attr": "radius",
+      "valueType": "NumberArray",
+      "defaultValue": [
+        3,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "attr": "borderWidth",
+      "valueType": "PositiveNumber",
+      "defaultValue": 1
+    },
+    {
+      "attr": "bindTabview",
+      "valueType": "String",
+      "defaultValue": "tab1"
+    },
+    {
+      "attr": "darkStyle",
+      "valueType": "Boolean",
+      "defaultValue": true
+    },
+    {
+      "attr": "bindControlsTag",
+      "valueType": "StringArray",
+      "group": "bindControls"
+    },
+    {
+      "attr": "bindControlsAttr",
+      "valueType": "StringArray"
+    },
+    {
+      "attr": "bindControlsVal",
+      "valueType": "ObjectArray",
+      "description": "静态值。也用作数组索引、JSON对象解析提取值用途。\n<br>一、静态值用途：\n<br>对常规类型的属性赋值且没有反向关联属性值，传入为数值时，不\n<br>会作为数组的索引，而会当成常量值对外赋值。此外，存在特殊值：\n<br>~和undefined表示过滤、不触发；null为默认值，表示传递默认表\n<br>单数据。编辑状态下清空后保存与设置null等价。\n<br>二、数组索引用途\n<br>情况1：被操作的组件属性原先值是数组时（包括空数组），会将\n<br>待输出的值作为被操作数组指定索引的值来传入，而不是整体覆盖。\n<br>情况2：如果要被操作的组件属性原先值不是数组，而且待输出的\n<br>值为数组类型并且长度也在索引范围内，那么会按照索引取自身数\n<br>组指定元素再对外输出。（如果想要取待输出索引值，赋值给被操\n<br>纵属性的指定索引，那么需要中间组件属性连线过渡以下，无法直\n<br>接操作）\n<br>情况3：如果要被操作的组件属性是数组，而且待输出的值也是数组\n<br>类型，此时当情况1来处理。\n<br>三、数据解析用途：\n<br>待输出的值为JSON对象时，用x.y.z这种以字符.或者>为间隔的方式\n<br>实现对JSON字段层次逐层定位，当是数组时x.0.y.1这种以数字的方\n<br>式来指定数组的某个索引。以此实现对任意结果JSON对象字段的定\n<br>位，获取结构内指定字段对应的值。"
+    },
+    {
+      "attr": "paramControlTag",
+      "valueType": "StringArray"
+    },
+    {
+      "attr": "paramControlAttr",
+      "valueType": "StringArray"
+    },
+    {
+      "attr": "paramsGenerator",
+      "valueType": "Function",
+      "defaultValue": "__ht__function(data, val, index, node,oldVal,form) {//绑定组索引对应的函数处理，用来动态生成复杂的参数变量传入\r\nswitch(index){\r\n    case 0:\r\n        break;\r\n    case 1:\r\n        break;\r\n    case 2:\r\n        break;\r\n    default:\r\n        break;\r\n}\r\n\r\nreturn val;}",
+      "extraInfo": {
+        "arguments": [
+          "data",
+          "val",
+          "index",
+          "node",
+          "oldVal",
+          "form"
+        ]
+      }
+    },
+    {
+      "attr": "userData",
+      "valueType": "ObjectArray",
+      "defaultValue": [],
+      "description": "用户数据。"
+    },
+    {
+      "attr": "onFormClick",
+      "valueType": "Function",
+      "extraInfo": {
+        "arguments": [
+          "data",
+          "gv",
+          "cache",
+          "value",
+          "extra"
+        ]
+      }
+    }
+  ],
+  "snapshotURL": "symbols/develop/uiotos/base/button.png",
+  "renderHTML": "__ht__function(data, gv, cache) {// return __button_ui(data,gv,cache);\r\n\r\nfunction __button_vue(data, gv, cache) {\r\n    cache = _i.innerRecoveredDataCache(data, cache);\r\n    if (!cache.htmlView) {\r\n        if (getProperty(data, 'height') > 0) { //初始高度为0不显示，后面显示需要动画来调整高度来显示！\r\n\r\n            var iframe = cache.htmlView = $(`<div id='xxx'><el-button>xxxx</el-button></div>`)[0];\r\n            // iframe.id = '#' + data.dm()._url + ':' + data.getTag();\r\n            setTimeout(()=>{\r\n                new Vue({  \r\n                    el: '#xxx'//iframe.id,  \r\n                }); \r\n                data.iv();\r\n            },0);\r\n\r\n            // iframe.setAttribute(\"scrolling\", \"auto\");\r\n            // iframe.setAttribute(\"frameborder\", 0);\r\n            // iframe.setAttribute(\"width\", '100%');\r\n            // iframe.setAttribute(\"height\", '100%');\r\n            // iframe.setAttribute(\"allowtransparency\", false); //这样可以全透明\r\n            // //230316，非常重要的一句，否则html页面dom变化（比如弹窗新增其他div），会导致页面内的iframe都被自动刷新重新加载内容！\r\n            // iframe.autoAdjustIndex = false;\r\n\r\n            // //230422，加上i.md，为了让src走多用户逻辑，当路径为displays/[user]/这种，user跟当前用户不匹配时，自动转换成当前用户的\r\n            // i.md(data, gv, cache, {\r\n            //     'a:src': e => {\r\n            //         iframe.src = e.newValue;\r\n            //     },\r\n            // }, ['a:src'], null, iframe, null);\r\n\r\n            i.layoutHTML(iframe, data, gv, cache);\r\n        }\r\n    }\r\n\r\n    // if (cache.htmlView) {\r\n    //     if (getProperty(data, 'height') == 0) {\r\n    //         cache.htmlView = null;\r\n    //         cache.src = null;\r\n    //         return null;\r\n    //     }\r\n    //     cache.htmlView.setAttribute(\"style\", 'background:' + backgroundColor); //当前面设置allowtransparency为true后，就是全透明了，这里半透明设置就没效果了！\r\n    //     if (cache.src !== src) {\r\n    //         cache.htmlView.src = src;\r\n    //         cache.src = src;\r\n    //     }\r\n    // }\r\n    return cache.htmlView;\r\n}\r\n\r\nreturn __button_vue(data,gv,cache);}",
+  "width": 75,
+  "height": 35,
+  "interactive": true,
+  "pixelPerfect": false,
+  "comps": []
+}

@@ -1,0 +1,191 @@
+{
+  "modified": "Wed Jul 24 2024 12:53:36 GMT+0800 (中国标准时间)",
+  "dataBindings": [
+    {
+      "attr": "symbol",
+      "valueType": "Image"
+    },
+    {
+      "attr": "display",
+      "valueType": "URL",
+      "defaultValue": "",
+      "group": "功能"
+    },
+    {
+      "attr": "displayJson",
+      "valueType": "Multiline",
+      "extraInfo": "*"
+    },
+    {
+      "attr": "innerLayoutMode",
+      "valueType": "InnerLayoutMode",
+      "description": "",
+      "defaultValue": "none"
+    },
+    {
+      "attr": "onPostDeserialize",
+      "valueType": "Function",
+      "extraInfo": {
+        "arguments": [
+          "json",
+          "dm",
+          "gv",
+          "datas"
+        ],
+        "classify": "*"
+      }
+    },
+    {
+      "attr": "useInnerEventsAll",
+      "valueType": "Boolean",
+      "description": "",
+      "extraInfo": "*"
+    },
+    {
+      "attr": "isLoadingGet",
+      "valueType": "Boolean",
+      "description": "",
+      "extraInfo": "★"
+    },
+    {
+      "attr": "enableLoading",
+      "valueType": "Boolean",
+      "defaultValue": false,
+      "description": "",
+      "extraInfo": "*"
+    },
+    {
+      "attr": "pureFormValues",
+      "valueType": "Boolean",
+      "defaultValue": false
+    },
+    {
+      "attr": "contentMinWidth",
+      "valueType": "PositiveNumber",
+      "defaultValue": 0,
+      "extraInfo": "★",
+      "description": "当容器显示尺寸的宽度小于本属性设置\n<br>的最小宽度，内嵌页内容就会出现水平滚动条。<a href='https://www.yuque.com/liuhuo-nc809/uiotos/uta20ga5uu55wvqw#bDLBW' style=\"color:rgb(96,172,252)\" target='_blank'>详情</a>"
+    },
+    {
+      "attr": "autoFillMinWidth",
+      "valueType": "Boolean",
+      "defaultValue": true,
+      "extraInfo": "★"
+    },
+    {
+      "attr": "initCallback",
+      "valueType": "Function",
+      "description": "页面文件加载初始化完毕后回调。<a href='https://www.yuque.com/liuhuo-nc809/uiotos/uta20ga5uu55wvqw#cJxYM' style=\"color:rgb(96,172,252)\" target='_blank'>详情</a>",
+      "extraInfo": {
+        "arguments": [
+          "data",
+          "innerGv"
+        ],
+        "classify": "*"
+      }
+    },
+    {
+      "attr": "userData",
+      "valueType": "Object",
+      "defaultValue": []
+    },
+    {
+      "attr": "onDisplayLoaded",
+      "valueType": "Function",
+      "description": "",
+      "extraInfo": {
+        "arguments": [
+          "data",
+          "gv",
+          "cache"
+        ]
+      }
+    },
+    {
+      "attr": "onScrollEnded",
+      "valueType": "Function",
+      "extraInfo": {
+        "arguments": [
+          "data",
+          "gv",
+          "cache",
+          "value",
+          "extra"
+        ]
+      },
+      "description": "当滚动结束时对外触发。"
+    },
+    {
+      "attr": "shadowBorder",
+      "valueType": "NumberArray",
+      "defaultValue": [
+        0,
+        0,
+        8
+      ],
+      "group": "外观",
+      "extraInfo": "*"
+    },
+    {
+      "attr": "shadowColor",
+      "valueType": "Color",
+      "defaultValue": "rgba(55,125,255,0.50)",
+      "extraInfo": "*"
+    },
+    {
+      "attr": "shadowEnabled",
+      "valueType": "Boolean",
+      "defaultValue": true
+    },
+    {
+      "attr": "innerBackground",
+      "valueType": "Color"
+    },
+    {
+      "attr": "bindControlsTag",
+      "valueType": "StringArray",
+      "group": "连线"
+    },
+    {
+      "attr": "bindControlsAttr",
+      "valueType": "StringArray"
+    },
+    {
+      "attr": "bindControlsVal",
+      "valueType": "ObjectArray",
+      "description": ""
+    },
+    {
+      "attr": "paramControlTag",
+      "valueType": "StringArray"
+    },
+    {
+      "attr": "paramControlAttr",
+      "valueType": "StringArray"
+    },
+    {
+      "attr": "paramsGenerator",
+      "valueType": "Function",
+      "defaultValue": "__ht__function(data, val, index, node, oldVal, form, type, inner) {//绑定组索引对应的函数处理，用来动态生成复杂的参数变量传入\r\nswitch(index){\r\n    case 0:\r\n        break;\r\n    case 1:\r\n        break;\r\n    case 2:\r\n        break;\r\n    default:\r\n        break;\r\n}\r\n\r\nreturn val;}",
+      "extraInfo": {
+        "arguments": [
+          "data",
+          "val",
+          "index",
+          "node",
+          "oldVal",
+          "form",
+          "type",
+          "inner"
+        ],
+        "classify": "*"
+      }
+    }
+  ],
+  "snapshotURL": "symbols/develop/uiotos/arranged/controls/containers_icon/滚动页.json",
+  "renderHTML": "__ht__function(data, gv, cache) {return __scrollAreaView_ui(data,gv,cache);}",
+  "width": 819,
+  "height": 600,
+  "pixelPerfect": false,
+  "comps": []
+}

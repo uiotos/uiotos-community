@@ -1,0 +1,866 @@
+{
+  "modified": "Sat Aug 24 2024 18:16:49 GMT+0800 (中国标准时间)",
+  "dataBindings": [
+    {
+      "attr": "symbol",
+      "valueType": "Image"
+    },
+    {
+      "attr": "reload",
+      "valueType": "Boolean",
+      "defaultValue": false,
+      "description": "重新加载。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#JxL6p\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>\n",
+      "group": "功能",
+      "extraInfo": "*"
+    },
+    {
+      "attr": "rowsIdReset",
+      "valueType": "Boolean",
+      "defaultValue": false,
+      "description": "<br>重新加载数据并自动重置行ID。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#QWdEZ\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+      "extraInfo": "*"
+    },
+    {
+      "attr": "checkMode",
+      "valueType": "checkMode",
+      "defaultValue": 0,
+      "description": "勾选类型。\n<br>高级属性，用于设置表格行是否可以勾选，\n以及勾选模式，<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#DOlqy\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>\n",
+      "extraInfo": "★"
+    },
+    {
+      "attr": "selectAllSet",
+      "valueType": "Boolean",
+      "defaultValue": false,
+      "description": "设置为全选。\n<br>要求行选择模式为勾选模式。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#NVcMx\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>\n",
+      "extraInfo": "*"
+    },
+    {
+      "attr": "expandAll",
+      "valueType": "Boolean",
+      "defaultValue": true,
+      "description": "全部展开。\n<br>对于有父子节点类型的表格起作用，\n<br>对没有父子节点的表格设置无效。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#LMuJu\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+      "extraInfo": "★"
+    },
+    {
+      "attr": "dragDropEnable",
+      "valueType": "Boolean",
+      "defaultValue": false,
+      "description": "启用拖放。\n<br>专业属性，行可以拖放位置。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#biVFV\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+      "extraInfo": "*"
+    },
+    {
+      "attr": "visibleFilterInput",
+      "valueType": "Object",
+      "defaultValue": "",
+      "description": "行数据关键词过滤。\n将所有行列文字作为内容，按照过滤规则进\n行关键词匹配，以此实现表格行数据搜索。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#x3zEX\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>"
+    },
+    {
+      "attr": "disableTooltip",
+      "valueType": "Boolean",
+      "defaultValue": true,
+      "description": "禁用鼠标悬停提示。\n<br>专业属性。开启后，当前单元格的数据，\n<br>悬停时能鼠标提示完整内容。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#zC386\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+      "extraInfo": "*"
+    },
+    {
+      "attr": "columnForTooltip",
+      "valueType": "PositiveNumber",
+      "defaultValue": -1,
+      "description": "鼠标提示列。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#Wihj5\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+      "extraInfo": "*"
+    },
+    {
+      "attr": "toolTipCallback",
+      "valueType": "Function",
+      "description": "自定义鼠标悬停提示回调函数。\n<br>专业属性。注意：返回非空内\n<br>容时，以这里设置的为准。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#bcPzP\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+      "extraInfo": {
+        "arguments": [
+          "data",
+          "gv",
+          "cache",
+          "rowData",
+          "colIndex",
+          "tipIndex",
+          "rowNode"
+        ],
+        "classify": "*"
+      },
+      "defaultValue": "__ht__function(data, gv, cache, rowData, colIndex, tipIndex, rowNode) {return undefined;}"
+    },
+    {
+      "attr": "colorFilterFunc",
+      "valueType": "Function",
+      "defaultValue": "__ht__function(node, rObj, cObj, cIndex, value) {//返回null则是配置的默认字体颜色\r\nreturn cIndex == 1 || cObj.getDisplayName() == '人员类型'? \r\n    contain(value,['异常','错误','故障','非法','北']) ? \r\n    'red' : 'green' : null}",
+      "extraInfo": {
+        "arguments": [
+          "node",
+          "rObj",
+          "cObj",
+          "cIndex",
+          "value"
+        ],
+        "classify": "*"
+      },
+      "description": "指定行列文字的颜色。\n<br>过滤函数提供行列信息，可指定某一列，\n<br>或者某一行的某一列（单元格），根据\n<br>内容判断返回指定的颜色。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#smLpL\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>"
+    },
+    {
+      "attr": "dataFilterFunc",
+      "valueType": "Function",
+      "defaultValue": "__ht__function(nodeData, rowObject, columnObject, colunmIndex, value) {return value; //默认不做任何转换}",
+      "description": "转换指定行列的显示内容。\n过滤函数提供行列信息，可指定某一列，\n或者某一行的某一列（单元格），根据\n内容判断返回指定的转换后的内容。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#oTfuk\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+      "extraInfo": {
+        "arguments": [
+          "node",
+          "rObj",
+          "cObj",
+          "cIndex",
+          "value"
+        ],
+        "classify": "*"
+      }
+    },
+    {
+      "attr": "btnsFilterFunc",
+      "valueType": "Function",
+      "description": "操作按钮列过滤。\n<br>用于针对操作列中的按钮，提供当前\n<br>行数据，自定义按钮对象的操作，包\n<br>括识别行数据的标记，对某个按钮进\n<br>行显示或隐藏等。无需返回，直接操\n<br>作按钮对象即可。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#HVpkX\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+      "extraInfo": {
+        "arguments": [
+          "node",
+          "rObj",
+          "bObj",
+          "bIndex"
+        ],
+        "classify": "*"
+      }
+    },
+    {
+      "attr": "userDataSelfInit",
+      "valueType": "Boolean",
+      "description": "初始化用户数据。\n<br>专业属性，勾选后，默认以当\n<br>前组件对象，作为用户数据值。",
+      "extraInfo": "*"
+    },
+    {
+      "attr": "userData",
+      "valueType": "Object",
+      "defaultValue": [],
+      "description": "用户数据。"
+    },
+    {
+      "attr": "onClick",
+      "valueType": "Function",
+      "extraInfo": {
+        "arguments": [
+          "data",
+          "gv",
+          "cache",
+          "rowData",
+          "button"
+        ]
+      },
+      "description": "当单击行时对外触发。",
+      "name": "行点击事件"
+    },
+    {
+      "attr": "onDoubleClick",
+      "valueType": "Function",
+      "extraInfo": {
+        "arguments": [
+          "data",
+          "gv",
+          "cache",
+          "rowData",
+          "button"
+        ],
+        "classify": "★"
+      },
+      "description": "当双击行时对外触发。",
+      "name": "行双击事件"
+    },
+    {
+      "attr": "onCheck",
+      "valueType": "Function",
+      "extraInfo": {
+        "arguments": [
+          "data",
+          "gv",
+          "cache",
+          "selected"
+        ]
+      },
+      "description": "当勾选时对外触发。",
+      "name": "行勾选事件"
+    },
+    {
+      "attr": "onDatasLoaded",
+      "valueType": "Function",
+      "extraInfo": {
+        "arguments": [
+          "data",
+          "gv",
+          "cache",
+          "value",
+          "extra"
+        ],
+        "classify": "*"
+      },
+      "description": "当表格数据加载完成时触发。"
+    },
+    {
+      "attr": "onLastButtonClick",
+      "valueType": "Function",
+      "extraInfo": {
+        "arguments": [
+          "data",
+          "gv",
+          "cache",
+          "value",
+          "extra"
+        ]
+      },
+      "description": "操作按钮点击时触发。"
+    },
+    {
+      "attr": "onLastButtonSelected",
+      "valueType": "Function",
+      "extraInfo": {
+        "arguments": [
+          "data",
+          "gv",
+          "cache",
+          "value",
+          "extra"
+        ],
+        "classify": "★"
+      },
+      "description": "操作按钮切换选择时触发。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#Zu2Ce\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>"
+    },
+    {
+      "attr": "datas",
+      "valueType": "Object",
+      "defaultValue": [
+        {
+          "rowData": [
+            "设备1",
+            "南入口出入通道模块",
+            "正常通行"
+          ],
+          "children": [
+            {
+              "rowData": [
+                "子设备M",
+                "北入口通道出入模块",
+                "正常"
+              ],
+              "children": [
+                [
+                  "子设备A",
+                  "西门出入口",
+                  "非法通行"
+                ]
+              ],
+              "id": 2
+            }
+          ],
+          "id": 1
+        },
+        [
+          "设备3",
+          "西门出入口",
+          "测试"
+        ],
+        [
+          "设备4",
+          "1门出入口",
+          "测试2"
+        ],
+        [
+          "设备5",
+          "北入口通道出入模块",
+          "非法通行"
+        ],
+        {
+          "rowData": [
+            "设备6",
+            "南入口出入通道模块",
+            "正常通行"
+          ],
+          "children": [
+            {
+              "rowData": [
+                "子设备X",
+                "北入口通道出入模块",
+                "正常"
+              ],
+              "children": [],
+              "id": 9
+            }
+          ],
+          "id": 8
+        },
+        [
+          "设备7",
+          "北入口通道出入模块",
+          "正常"
+        ]
+      ],
+      "description": "树表的数据。\n支持以下三种数据格式，为别为：\n[[]]、[{},{}]和[{rowData,children:[]}]。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#g8dcs\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+      "group": "数据"
+    },
+    {
+      "attr": "idField",
+      "valueType": "String",
+      "defaultValue": "id",
+      "description": "行数据的ID字段。\n<br>默认为“id”，可以指定其他。勾选行ID属性存\n<br>放勾选的ID列表，以这里确定的字段为准。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#KfNrl\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+      "extraInfo": "★"
+    },
+    {
+      "attr": "dataAdd",
+      "valueType": "Object",
+      "defaultValue": null,
+      "description": "添加数据。\n<br>在已有数据内容基础上，追加一行或多行。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#yyzK2\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+      "extraInfo": "★"
+    },
+    {
+      "attr": "columns",
+      "valueType": "ObjectArray",
+      "defaultValue": [
+        {
+          "displayName": "序号"
+        },
+        {
+          "displayName": "门禁名称"
+        },
+        {
+          "displayName": "安装位置"
+        },
+        {
+          "displayName": "运行状态"
+        }
+      ],
+      "description": "表格列定义。\n<br>定义表格的列数量、数据字段，以及列的\n<br>自定义相关参数等。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#AV5L1\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>"
+    },
+    {
+      "attr": "columnWidths",
+      "valueType": "StringArray",
+      "defaultValue": [
+        80,
+        180,
+        0,
+        200
+      ],
+      "description": "定义各列宽度。\n<br>包括固定宽度，比例宽度，隐藏等。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#B0woq\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>"
+    },
+    {
+      "attr": "columnFields",
+      "valueType": "ObjectArray",
+      "defaultValue": [],
+      "description": "列的数据字段。\n<br>用于快速定义，表格列定义也能实现，\n<br>但是这里更方便设置，通常与特定工\n<br>具函数结合使用。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#jj2Ck\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+      "extraInfo": "*"
+    },
+    {
+      "attr": "fieldForCombo",
+      "valueType": "String",
+      "description": "取指定索引列的数据.\n<br>生成下拉框所需的格式，输出给\n<br>取下拉框数据属性。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#WhEDQ\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+      "defaultValue": "1",
+      "extraInfo": "*"
+    },
+    {
+      "attr": "dataComboType",
+      "valueType": "Object",
+      "description": "取指定索引列的数据.\n<br>生成下拉框所需的格式，输出给\n<br>取下拉框数据属性。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#AV5L1\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+      "extraInfo": "*"
+    },
+    {
+      "attr": "innerDisplays",
+      "valueType": "ObjectArray",
+      "defaultValue": [],
+      "description": "单元格可能存在的内嵌页面。只读，从数据内容\n<br>属性配置中自动提取过来。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#PneUp\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+      "name": "取表格内嵌页",
+      "extraInfo": "*"
+    },
+    {
+      "attr": "allRowsIdGet",
+      "valueType": "StringArray",
+      "description": "获取所有行id。\n<br>其中，id取决于ID字段属性。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#weXk3\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+      "extraInfo": "*"
+    },
+    {
+      "attr": "currentIdSelect",
+      "valueType": "Object",
+      "description": "当前选择的ID。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#GKEp2\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+      "extraInfo": "*"
+    },
+    {
+      "attr": "currentClicked",
+      "valueType": "Object",
+      "description": "当前点击的行。\n<br>对象格式，包含了当前行的所有信息。\n<br>注意，单击、双击、勾选、取消勾选\n<br>等都会触发当前属性更新。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#uIMBI\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+      "defaultValue": null
+    },
+    {
+      "attr": "checkCountGet",
+      "valueType": "PositiveNumber",
+      "description": "已勾选的行数。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#bwbWF\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+      "defaultValue": 0,
+      "extraInfo": "*"
+    },
+    {
+      "attr": "allRowCountGet",
+      "valueType": "PositiveNumber",
+      "description": "所有末端行数量。\n<br>只读属性。注意，不包含节点，只统计没\n<br>有更下级节点行的总数。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#SwWw7\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+      "defaultValue": 0,
+      "extraInfo": "*"
+    },
+    {
+      "attr": "useTreeLined",
+      "valueType": "Boolean",
+      "description": "采用节点链数据。\n树表多级节点展开时，末端节点（无更下级节点）的\n文字显示，在不同节点下会重复。本属性就是为了精\n准定位某行，用于精确查找以及勾选设置等。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#A5PTR\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+      "extraInfo": "*"
+    },
+    {
+      "attr": "treeLinedAttr2Id",
+      "valueType": "Object",
+      "description": "行keyURL与数据ID的键值对。\n<br>主要对于有多级节点的树表结构的数据。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#vl8aW\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+      "defaultValue": {},
+      "extraInfo": "*"
+    },
+    {
+      "attr": "fieldQueryRely",
+      "valueType": "String",
+      "description": "字段查询依赖。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#shcXZ\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+      "extraInfo": "*"
+    },
+    {
+      "attr": "queryMatched",
+      "valueType": "ObjectArray",
+      "defaultValue": [],
+      "description": "查询匹配项。\n<br>与勾选行序号属性双向同步，用来\n<br>设置或显示与匹配到的行。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#HOYNP\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>"
+    },
+    {
+      "attr": "checkSelected",
+      "valueType": "ObjectArray",
+      "defaultValue": [],
+      "description": "选中的行ID列表。\n<br>其中ID取决于ID字段（idField）\n<br>属性配置。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#plFb1\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详见文档</a>"
+    },
+    {
+      "attr": "checkIndexsGet",
+      "valueType": "ObjectArray",
+      "defaultValue": [],
+      "description": "选中的行序号列表。\n<br>只读属性，勾选的一行或多行数据，\n<br>以其行序号来填充本属性。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#SbPPf\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+      "extraInfo": "★"
+    },
+    {
+      "attr": "lastItems",
+      "valueType": "StringArray",
+      "defaultValue": [
+        "添加",
+        "查看",
+        "编辑",
+        "删除"
+      ],
+      "description": "操作列按钮。\n通常在最后一行。比如查看、编辑、\n删除等。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#GG35z\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>"
+    },
+    {
+      "attr": "lastRootIgnored",
+      "valueType": "NumberArray",
+      "defaultValue": [
+        0,
+        3
+      ],
+      "description": "根节点按钮忽略项。\n<br>对于根节点行（无父节点，通常有子节点），\n<br>操作按钮项（﻿lastItems﻿）定义中哪些按钮不\n<br>可见，填入对应的索引列表。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#khl7t\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+      "extraInfo": "*"
+    },
+    {
+      "attr": "lastNodeIgnored",
+      "valueType": "NumberArray",
+      "defaultValue": [
+        3
+      ],
+      "description": "子节点按钮忽略项。\n<br>对于子节点行（有父节点），操作\n<br>按钮项（﻿lastItems﻿）定义中哪些按\n<br>钮不可见，填入对应的索引列表。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#ZmBdE\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+      "extraInfo": "*"
+    },
+    {
+      "attr": "lastChildIgnored",
+      "valueType": "NumberArray",
+      "defaultValue": [],
+      "description": "末端子节点忽略项。\n<br>对于末端节点行（无子节点，通常有父节点），\n<br>操作按钮项（﻿lastItems﻿）定义中哪些按钮不可\n<br>见，填入对应的索引列表。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#ucFrz\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+      "extraInfo": "*"
+    },
+    {
+      "attr": "lastSingleIgnored",
+      "valueType": "NumberArray",
+      "description": "没有父子结构的节点忽略项。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#ti2sx\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+      "extraInfo": "*",
+      "defaultValue": [
+        1
+      ]
+    },
+    {
+      "attr": "singleRootOrChild",
+      "valueType": "Boolean",
+      "defaultValue": true,
+      "description": "默认根节点还是子节点。\n<br>勾选时，将独节点忽略项（﻿lastSingleIgnored﻿）\n<br>视作根节点。不勾选时，视作末端节点。对应\n<br>某些场景，比如根节点不可删除，末端子节点\n<br>可删除时。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#kRXDa\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+      "extraInfo": "*"
+    },
+    {
+      "attr": "rowsExtraUserInfo",
+      "valueType": "ObjectArray",
+      "defaultValue": [],
+      "description": "行对应的用户数据。\n<br>数组类型，索引与行序号对应。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#gRSLt\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+      "extraInfo": "*"
+    },
+    {
+      "attr": "lastItemRowsText",
+      "valueType": "StringArray",
+      "description": "操作按钮绑定文字。\n<br>比如操作按钮默认为查看、编辑，\n<br>现可指定某行的查看，显示为已\n<br>读（还是同一个按钮，只是显示\n<br>文字变化）。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#fiYz0\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+      "extraInfo": "*"
+    },
+    {
+      "attr": "shadowBorder",
+      "valueType": "NumberArray",
+      "defaultValue": [
+        0,
+        0,
+        8
+      ],
+      "group": "外观",
+      "extraInfo": "*"
+    },
+    {
+      "attr": "shadowColor",
+      "valueType": "Color",
+      "defaultValue": "rgba(102,102,102,0.2)",
+      "extraInfo": "*"
+    },
+    {
+      "attr": "shadowEnabled",
+      "valueType": "Boolean",
+      "defaultValue": false
+    },
+    {
+      "attr": "lastColorsDefault",
+      "valueType": "ColorArray",
+      "defaultValue": [
+        "rgb(55,125,255)",
+        "rgb(55,125,255)",
+        "rgb(55,125,255)",
+        "rgb(242,83,75)"
+      ],
+      "description": "操作按钮分别默认下的背颜色，\n<br>与操作按钮项（lastItems）保持索引对应。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#tPJys\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+      "extraInfo": "*"
+    },
+    {
+      "attr": "lastColorsHover",
+      "valueType": "ColorArray",
+      "defaultValue": [
+        "rgb(51,153,255)",
+        "rgb(51,153,255)",
+        "rgb(51,153,255)",
+        "#FF7C7C"
+      ],
+      "description": "操作按钮分别悬停时的背景色，\n<br>与操作按钮项（lastItems）保持索引对应。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#HIE46\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+      "extraInfo": "*"
+    },
+    {
+      "attr": "lastColorsActive",
+      "valueType": "ColorArray",
+      "defaultValue": [
+        "#60ACFC",
+        "#60ACFC",
+        "#60ACFC",
+        "rgb(241,125,164)"
+      ],
+      "description": "操作按钮分别按下时的背景色，\n<br>与操作按钮项（lastItems）保持索引对应。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#ve6BN\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+      "extraInfo": "*"
+    },
+    {
+      "attr": "lastGap",
+      "valueType": "Number",
+      "defaultValue": 10,
+      "description": "操作按钮项中按钮之间的间距。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#OgGUs\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+      "extraInfo": "*"
+    },
+    {
+      "attr": "itemsGap",
+      "valueType": "Number",
+      "defaultValue": 10,
+      "description": "用于在列单元格填充多个\n<br>图片或图标时，设置图片之间的间距。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#en3nZ\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+      "extraInfo": "*"
+    },
+    {
+      "attr": "dropLineColor",
+      "valueType": "Color",
+      "defaultValue": "rgb(55,125,255)",
+      "description": "落线颜色。",
+      "extraInfo": "~"
+    },
+    {
+      "attr": "background",
+      "valueType": "ColorArray",
+      "defaultValue": [
+        "rgb(255,255,255)",
+        "rgb(255,255,255)"
+      ],
+      "description": "表格背景色。\n<br>索引0：表格内容区背景色。\n<br>索引1：表格头背景色。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#hurgq\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+      "extraInfo": "★"
+    },
+    {
+      "attr": "rowBackground",
+      "valueType": "ColorArray",
+      "defaultValue": [
+        "rgb(255,255,255)",
+        "rgba(55,125,255,0.05)",
+        "rgba(55,125,255,0.1)"
+      ],
+      "description": "表格行背景颜色。\n<br>索引0、1、2，分别代表行的默认、\n<br>悬停和选中背景色。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#TPuaL\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>"
+    },
+    {
+      "attr": "stripeColors",
+      "valueType": "ColorArray",
+      "defaultValue": [
+        "rgba(255,255,255)",
+        "rgba(245,245,245,1)"
+      ],
+      "description": "条纹颜色数组。\n<br>索引0和1对应配置条纹间隔颜色。\n<br>注意，本属性需勾选启用行条纹\n<br> （rowStriped）才生效。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#TQWQp\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+      "extraInfo": "★"
+    },
+    {
+      "attr": "rowStriped",
+      "valueType": "Boolean",
+      "defaultValue": false,
+      "description": "是否启用行条纹颜色配置。\n<br>启用后，会代替行背景色（﻿rowBackground﻿）\n<br>索引0配置的行默认背景色，采用行条纹色\n<br>（﻿stripeColors﻿）的配置。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#yHNse\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+      "extraInfo": "★"
+    },
+    {
+      "attr": "tableTextColor",
+      "valueType": "ColorArray",
+      "defaultValue": [
+        "black",
+        "rgb(64,64,64)"
+      ],
+      "description": "文字颜色数组。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#xZBu6\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>\n<br>索引0：表格内容文字颜色，\n<br>索引1：表格标题文字颜色。"
+    },
+    {
+      "attr": "treeNodeTextColor",
+      "valueType": "ColorArray",
+      "defaultValue": [
+        "black",
+        "black"
+      ],
+      "description": "树节点文字颜色。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#Pdr22\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>\n<br>● 索引0：末端节点（无下级）文字颜色。未\n<br>配置时，采用表格文字色（﻿tableTextColor﻿）\n<br>索引0颜色（即内容文字色）。\n<br>● 索引1：父节点文字颜色。未配置时，保持\n<br>跟索引0一致（即跟末端节点文字颜色相同）。",
+      "extraInfo": "*"
+    },
+    {
+      "attr": "linesColor",
+      "valueType": "Color",
+      "defaultValue": "rgb(247,247,247)",
+      "description": "行列线背景色。",
+      "extraInfo": "~"
+    },
+    {
+      "attr": "borderColor",
+      "valueType": "ColorArray",
+      "defaultValue": [
+        "rgb(235,235,235)",
+        "rgb(235,235,235)",
+        "rgb(235,235,235)"
+      ],
+      "description": "表格边框线、行列线等颜色。\n<br>索引0：表格外边框颜色（需边框属性大于0才可见）\n<br>索引1：表格头下划线颜色。\n<br>索引2：表格行列线颜色。\n<br>索引3：表格头列线颜色（如果未配置或者清空，\n<br>则采用索引2即行列线颜色）。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#LQixp\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+      "name": "线条颜色"
+    },
+    {
+      "attr": "borderWidth",
+      "valueType": "Number",
+      "defaultValue": 1,
+      "description": "表格边框线宽度。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#yMjWZ\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>"
+    },
+    {
+      "attr": "borderRadius",
+      "valueType": "PositiveNumber",
+      "defaultValue": 3,
+      "extraInfo": "★",
+      "description": "边框圆角。需要边框宽度大于0，\n<br>且边框颜色可见时，本属性设置才有效果。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#XLihT\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>"
+    },
+    {
+      "attr": "rowLineVisible",
+      "valueType": "Boolean",
+      "defaultValue": true,
+      "description": "行之间边界线是否可见。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#NCgPE\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>"
+    },
+    {
+      "attr": "columnLineVisible",
+      "valueType": "Boolean",
+      "defaultValue": true,
+      "description": "列之间边界线是否可见。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#wS2Zz\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>"
+    },
+    {
+      "attr": "headerVisible",
+      "valueType": "Boolean",
+      "defaultValue": true,
+      "description": "是否显示表格头。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#oXVVM\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>"
+    },
+    {
+      "attr": "pagesBottomVisible",
+      "valueType": "Boolean",
+      "defaultValue": false,
+      "description": "是否底部显示表格分页。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#Jg6CS\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>"
+    },
+    {
+      "attr": "pageButtonCount",
+      "valueType": "PositiveNumber",
+      "defaultValue": 3,
+      "description": "页码按钮数。\n<br>高级属性，底部分页按钮数量。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#TNhX3\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+      "extraInfo": "★"
+    },
+    {
+      "attr": "emptyDefaultIcon",
+      "valueType": "Image",
+      "defaultValue": "symbols/develop/uiotos/icons/common/empty2.json",
+      "description": "表格数据为空时，\n<br>内容区域默认显示的图标。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#DlX9d\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+      "extraInfo": "*"
+    },
+    {
+      "attr": "emptyIconOpacity",
+      "valueType": "Opacity",
+      "defaultValue": 1,
+      "description": "空图标的透明度（0~1）。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#vBTub\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+      "extraInfo": "*"
+    },
+    {
+      "attr": "emptyIconSizeScale",
+      "valueType": "Percentage",
+      "defaultValue": 0.6,
+      "description": "空图标放大、缩小比例。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#T0UOk\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+      "extraInfo": "*"
+    },
+    {
+      "attr": "headerHeight",
+      "valueType": "PositiveNumber",
+      "defaultValue": 35,
+      "description": "表格头部高度。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#wTapR\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>"
+    },
+    {
+      "attr": "rowHeight",
+      "valueType": "PositiveNumber",
+      "defaultValue": 35,
+      "description": "行高。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#zU9ji\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>"
+    },
+    {
+      "attr": "showColumnIndex",
+      "valueType": "Boolean",
+      "defaultValue": false,
+      "description": "展示列索引号。\n<br>勾选时，表头名称前面加上当前\n<br>列的索引数字，主要方便编辑时\n<br>配置。配置完毕后取消勾选。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#y0KMI\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+      "extraInfo": "★"
+    },
+    {
+      "attr": "centerAlign",
+      "valueType": "Boolean",
+      "defaultValue": true,
+      "description": "中心对齐。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#xAvAd\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+      "extraInfo": "★"
+    },
+    {
+      "attr": "font",
+      "valueType": "Font",
+      "description": "字体。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#dwesC\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+      "extraInfo": "★"
+    },
+    {
+      "attr": "nodeExpandMode",
+      "valueType": "ExpandMode",
+      "description": "父节点的单击展开模式：\n<br>- 不响应展开（noExpand）、\n<br>- 展开直接下一级（expandFirstLayer）\n<br>- 展开所有下级（expandAll）。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#Ifi3F\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+      "defaultValue": "expandFirstLayer",
+      "extraInfo": "*"
+    },
+    {
+      "attr": "copyTypeTextColor",
+      "valueType": "Color",
+      "defaultValue": "rgb(13,24,97)",
+      "description": "复制类型文字颜色。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#erRfb\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+      "extraInfo": "*"
+    },
+    {
+      "attr": "hoverTextIcon",
+      "valueType": "Image",
+      "defaultValue": "symbols/develop/uiotos/icons/common/copy.json",
+      "description": "悬停复制提示图标的设置路径。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#hOs2M\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+      "extraInfo": "*"
+    },
+    {
+      "attr": "hoverTextIconSize",
+      "valueType": "NumberArray",
+      "defaultValue": [
+        40,
+        18
+      ],
+      "description": "悬停复制提示图标尺寸。\n<br>索引0、1分别为宽度和高度。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#PqU6f\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+      "extraInfo": "*"
+    },
+    {
+      "attr": "hoverTextIconColor",
+      "valueType": "Color",
+      "defaultValue": "rgb(55,125,255)",
+      "description": "悬停复制提示图标的颜色。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#n3q5k\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+      "extraInfo": "*"
+    },
+    {
+      "attr": "hoverTextIconText",
+      "valueType": "String",
+      "defaultValue": "复制",
+      "description": "悬停复制提示按钮文字。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#V0Dbm\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+      "extraInfo": "*"
+    },
+    {
+      "attr": "hoverTextScale",
+      "valueType": "Number",
+      "defaultValue": 1,
+      "description": "悬停复制提示按钮文字缩放。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#rQxUy\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+      "extraInfo": "*"
+    },
+    {
+      "attr": "bindControlsTag",
+      "valueType": "StringArray",
+      "group": "连线"
+    },
+    {
+      "attr": "bindControlsAttr",
+      "valueType": "StringArray"
+    },
+    {
+      "attr": "bindControlsVal",
+      "valueType": "ObjectArray"
+    },
+    {
+      "attr": "paramControlTag",
+      "valueType": "StringArray"
+    },
+    {
+      "attr": "paramControlAttr",
+      "valueType": "StringArray"
+    },
+    {
+      "attr": "paramsGenerator",
+      "valueType": "Function",
+      "defaultValue": "__ht__function(data, val, index, node,oldVal,form) {//绑定组索引对应的函数处理，用来动态生成复杂的参数变量传入\r\nswitch(index){\r\n    case 0:\r\n        break;\r\n    case 1:\r\n        break;\r\n    case 2:\r\n        break;\r\n    default:\r\n        break;\r\n}\r\n\r\nreturn val;}",
+      "extraInfo": {
+        "arguments": [
+          "data",
+          "val",
+          "index",
+          "node",
+          "oldVal",
+          "form",
+          "type"
+        ],
+        "classify": "*"
+      }
+    }
+  ],
+  "snapshotURL": "symbols/develop/uiotos/arranged/controls/forms_icon/树表.json",
+  "rotateAsClock": true,
+  "renderHTML": "__ht__function(data, gv, cache) {return __treeTable_ui(data, gv, cache);}",
+  "width": 775,
+  "height": 347,
+  "fitSize": true,
+  "interactive": true,
+  "pixelPerfect": false,
+  "comps": []
+}

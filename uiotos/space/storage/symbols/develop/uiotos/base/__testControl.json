@@ -1,0 +1,33 @@
+{
+    "modified": "Sat Sep 03 2022 09:36:44 GMT+0800 (中国标准时间)",
+    "background": "rgb(32,37,46)",
+    "dataBindings": [{
+            "attr": "icon",
+            "valueType": "Image"
+        },
+        {
+            "attr": "text",
+            "valueType": "String",
+            "defaultValue": "button"
+        },
+        {
+            "attr": "iconColor",
+            "valueType": "Color"
+        },
+        {
+            "attr": "iconType",
+            "valueType": "Level",
+            "defaultValue": 1
+        },
+        {
+            "attr": "iconPath",
+            "valueType": "Image"
+        }
+    ],
+    "renderHTML": "__ht__function(data, gv, cache) {let nodeData = data;\r\nif (!cache.obj) {\r\n    function init() {\r\n        var myview = new ht.ui.Button(); \r\n        myview.setIconHeight(250)\r\n        myview.setIconWidth(400) \r\n\r\n        // function MyDrawable(url){//构造函数调用基类需传入this，同时注意实例化时是否有构造参数的传入！\r\n        //     MyDrawable.superClass.constructor.call(this,url);    \r\n        // }\r\n\r\n        // ht.Default.def(MyDrawable, ht.ui.drawable.ImageDrawable , {\r\n        //     draw: function(x, y, width, height, data, view, dom) {\r\n        //         let self = this;//成员函数调用基类方法，也需传入this\r\n        //         let mydata = new ht.Node()\r\n        //         mydata.setImage(self.getImage())\r\n        //         mydata.a('text','hi iotos!')\r\n        //         mydata.a('borderColor','green')\r\n        //         MyDrawable.superClass.draw.call(self,x ,y, width, height, mydata, view, dom);\r\n        //     }\r\n        // });\r\n        // //注意这里实例化构造传入了参数，ImageDrawable(image, stretch, colorTint, rect)原本有4个可以传参！\r\n        // myview.setIconDrawable(new MyDrawable('symbols/admin/uiotos/base/processCurve.json'));\r\n\r\n        \r\n        return myview;\r\n    }\r\n\r\n    var obj = cache.obj = init()\r\n    obj.layoutHTML = function () {\r\n        gv.layoutHTML(data, obj, false);\r\n    }\r\n}\r\n\r\n\r\n\r\nreturn cache.obj;}",
+    "width": 200,
+    "height": 100,
+    "interactive": true,
+    "pixelPerfect": false,
+    "comps": []
+}

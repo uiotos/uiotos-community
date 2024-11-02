@@ -1,0 +1,40 @@
+{
+  "modified": "Wed Sep 11 2024 13:23:35 GMT+0800 (中国标准时间)",
+  "background": "rgb(32,37,46)",
+  "dataBindings": [
+    {
+      "attr": "background",
+      "valueType": "Color",
+      "defaultValue": "#D8D8D8",
+      "name": "背景色"
+    },
+    {
+      "attr": "cornerRadius",
+      "valueType": "Number",
+      "defaultValue": 0,
+      "name": "圆角半径"
+    }
+  ],
+  "width": 100,
+  "height": 100,
+  "comps": [
+    {
+      "type": "roundRect",
+      "background": {
+        "func": "attr@icon-background",
+        "value": "#D8D8D8"
+      },
+      "borderColor": "#979797",
+      "cornerRadius": {
+        "func": "attr@cornerRadius"
+      },
+      "displayName": "n（n1）",
+      "rect": [
+        0,
+        0,
+        100,
+        100
+      ]
+    }
+  ]
+}

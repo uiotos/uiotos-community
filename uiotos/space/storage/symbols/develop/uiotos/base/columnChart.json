@@ -1,0 +1,78 @@
+{
+  "modified": "Thu Sep 08 2022 09:57:01 GMT+0800 (中国标准时间)",
+  "background": "rgb(32,37,46)",
+  "dataBindings": [
+    {
+      "attr": "chart.label.visible",
+      "valueType": "Boolean",
+      "name": "ChartLabelVisible"
+    },
+    {
+      "attr": "chart.label.color",
+      "valueType": "Color",
+      "name": "ChartLabelColor"
+    },
+    {
+      "attr": "chart.label.font",
+      "valueType": "String",
+      "name": "ChartLabelFont"
+    },
+    {
+      "attr": "chart.values",
+      "valueType": "NumberArray",
+      "name": "ChartValues"
+    },
+    {
+      "attr": "chart.colors",
+      "valueType": "ColorArray",
+      "name": "ChartColors"
+    }
+  ],
+  "width": 100,
+  "height": 100,
+  "boundExtend": 100,
+  "fitSize": true,
+  "comps": [
+    {
+      "type": "columnChart",
+      "label": {
+        "func": "attr@chart.label.visible",
+        "value": false
+      },
+      "labelColor": {
+        "func": "attr@chart.label.color",
+        "value": "#000"
+      },
+      "labelFont": {
+        "func": "attr@chart.label.font",
+        "value": "12px arial, sans-serif"
+      },
+      "series": [
+        {
+          "values": {
+            "value": [
+              15,
+              20,
+              25
+            ],
+            "func": "attr@chart.values"
+          },
+          "colors": {
+            "value": [
+              "#32D3EB",
+              "rgb(226,250,87)",
+              "rgb(48,242,120)"
+            ],
+            "func": "attr@chart.colors"
+          }
+        }
+      ],
+      "rect": [
+        0,
+        0,
+        100,
+        100
+      ]
+    }
+  ]
+}

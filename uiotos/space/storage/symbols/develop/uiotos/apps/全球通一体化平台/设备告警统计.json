@@ -1,0 +1,291 @@
+{
+    "modified": "Mon Aug 22 2022 21:25:29 GMT+0800 (中国标准时间)",
+    "background": "rgb(32,37,46)",
+    "dataBindings": [{
+            "attr": "color1",
+            "valueType": "Color"
+        },
+        {
+            "attr": "icon.icon-background",
+            "valueType": "Color",
+            "defaultValue": "rgb(247,247,247)"
+        }
+    ],
+    "width": 400,
+    "height": 200,
+    "fitSize": true,
+    "comps": [{
+            "type": "roundRect",
+            "background": "rgb(21,31,51)",
+            "borderColor": "#979797",
+            "cornerRadius": 5,
+            "rect": [-0.92691,
+                0.25505,
+                400.92691,
+                199.74495
+            ]
+        },
+        {
+            "type": "rect",
+            "background": "rgb(47,87,228)",
+            "borderColor": "#979797",
+            "rect": [
+                18.14374,
+                10,
+                2,
+                18
+            ]
+        },
+        {
+            "type": "text",
+            "text": "设备告警统计",
+            "font": "16px arial, sans-serif",
+            "rect": [
+                25.19465, -4.55839,
+                50,
+                50
+            ]
+        },
+        {
+            "type": "text",
+            "text": "689次",
+            "font": "14px arial, sans-serif",
+            "anchorX": 0.83413,
+            "anchorY": 0.47601,
+            "rect": [
+                67.08809,
+                41.27803,
+                49,
+                55
+            ]
+        },
+        {
+            "type": "text",
+            "text": "总报警数",
+            "font": "14px arial, sans-serif",
+            "rect": [
+                65.08809,
+                66,
+                50,
+                50
+            ]
+        },
+        {
+            "type": "text",
+            "text": "689次",
+            "font": "14px arial, sans-serif",
+            "rect": [
+                199,
+                42,
+                50,
+                50
+            ]
+        },
+        {
+            "type": "text",
+            "text": "689次",
+            "font": "14px arial, sans-serif",
+            "rect": [
+                325,
+                42.27803,
+                50,
+                50
+            ]
+        },
+        {
+            "type": "text",
+            "text": "门禁设备",
+            "font": "14px arial, sans-serif",
+            "rect": [
+                197,
+                64,
+                50,
+                50
+            ]
+        },
+        {
+            "type": "text",
+            "text": "视频设备",
+            "font": "14px arial, sans-serif",
+            "rect": [
+                325,
+                65,
+                50,
+                50
+            ]
+        },
+        {
+            "type": "text",
+            "text": "689次",
+            "font": "14px arial, sans-serif",
+            "rect": [
+                67,
+                129,
+                50,
+                50
+            ]
+        },
+        {
+            "type": "text",
+            "text": "689次",
+            "font": "14px arial, sans-serif",
+            "rect": [
+                199.53655,
+                130,
+                50,
+                50
+            ]
+        },
+        {
+            "type": "text",
+            "text": "689次",
+            "font": "14px arial, sans-serif",
+            "rect": [
+                330,
+                129,
+                50,
+                50
+            ]
+        },
+        {
+            "type": "text",
+            "text": "消防设备",
+            "font": "14px arial, sans-serif",
+            "rect": [
+                67,
+                151,
+                50,
+                50
+            ]
+        },
+        {
+            "type": "text",
+            "text": "能耗监测",
+            "font": "14px arial, sans-serif",
+            "rect": [
+                197,
+                151,
+                50,
+                50
+            ]
+        },
+        {
+            "type": "text",
+            "text": "空调系统",
+            "font": "14px arial, sans-serif",
+            "rect": [
+                329,
+                151,
+                50,
+                50
+            ]
+        },
+        {
+            "type": "image",
+            "color": "rgb(247,247,247)",
+            "stretch": "uniform",
+            "name": "symbols/demo/uiotos/icons/common/VideoSecurity-1.json",
+            "prefix": "icon",
+            "displayName": "AccessTime-1",
+            "anchorX": 0.31345,
+            "anchorY": 0.55607,
+            "rect": [
+                283,
+                49,
+                37,
+                46
+            ]
+        },
+        {
+            "type": "rect",
+            "background": "rgb(56,64,83)",
+            "borderColor": "#979797",
+            "rect": [
+                16.52139,
+                36.04799,
+                351.47861,
+                1
+            ]
+        },
+        {
+            "type": "image",
+            "color": "rgb(247,247,247)",
+            "stretch": "uniform",
+            "name": "symbols/demo/extra/building/入侵报警.json",
+            "prefix": "icon",
+            "displayName": "AccessTime-1",
+            "anchorX": 0.31345,
+            "anchorY": 0.55607,
+            "rect": [
+                25.19465,
+                61,
+                34.80535,
+                35
+            ]
+        },
+        {
+            "type": "image",
+            "color": "rgb(247,247,247)",
+            "stretch": "uniform",
+            "name": "symbols/demo/extra/building/左导航/消防报警.json",
+            "prefix": "icon",
+            "displayName": "AccessTime-1",
+            "anchorX": 0.31345,
+            "anchorY": 0.55607,
+            "rect": [
+                21,
+                142,
+                37,
+                36
+            ]
+        },
+        {
+            "type": "image",
+            "color": "rgb(247,247,247)",
+            "stretch": "uniform",
+            "name": "symbols/demo/uiotos/icons/extra/能源能耗管理.json",
+            "prefix": "icon",
+            "displayName": "AccessTime-1",
+            "anchorX": 0.31345,
+            "anchorY": 0.55607,
+            "rect": [
+                158,
+                142,
+                37,
+                35
+            ]
+        },
+        {
+            "type": "image",
+            "color": "rgb(247,247,247)",
+            "stretch": "uniform",
+            "name": "symbols/demo/uiotos/icons/extra/门禁 (1).json",
+            "prefix": "icon",
+            "displayName": "AccessTime-1",
+            "anchorX": 0.31345,
+            "anchorY": 0.55607,
+            "rect": [
+                159,
+                62,
+                33,
+                34
+            ]
+        },
+        {
+            "type": "image",
+            "color": "rgb(247,247,247)",
+            "stretch": "uniform",
+            "name": "symbols/demo/uiotos/icons/extra/暖通空调.json",
+            "prefix": "icon",
+            "displayName": "AccessTime-1",
+            "anchorX": 0.31345,
+            "anchorY": 0.55607,
+            "rect": [
+                284,
+                144,
+                35,
+                35
+            ]
+        }
+    ]
+}

@@ -1,0 +1,72 @@
+{
+    "modified": "Fri Aug 26 2022 09:55:24 GMT+0800 (中国标准时间)",
+    "background": "rgb(32,37,46)",
+    "dataBindings": [{
+        "attr": "icon.icon-back-ground",
+        "valueType": "Color"
+    }],
+    "width": 250,
+    "height": 150,
+    "fitSize": true,
+    "comps": [{
+            "type": "rect",
+            "background": "rgb(255,255,255)",
+            "borderWidth": 1,
+            "borderColor": "rgb(213,229,245)",
+            "shadowColor": null,
+            "rect": [
+                0, -0.49164,
+                250,
+                150
+            ]
+        },
+        {
+            "type": "image",
+            "color": "rgb(80,135,236)",
+            "name": "symbols/demo/uiotos/icons/extra/总览.json",
+            "prefix": "icon",
+            "shadowColor": null,
+            "rect": [
+                21,
+                15,
+                28,
+                29
+            ]
+        },
+        {
+            "type": "text",
+            "text": "已巡检总数",
+            "color": "rgb(0,0,0)",
+            "font": "14px arial, sans-serif",
+            "rect": [
+                55.13845,
+                5,
+                50,
+                50
+            ]
+        },
+        {
+            "type": "text",
+            "text": "3434",
+            "color": "rgb(0,0,0)",
+            "font": "24px arial, sans-serif",
+            "rect": [
+                19.61498,
+                74.50836,
+                71.04694,
+                61.01672
+            ]
+        },
+        {
+            "type": "text",
+            "text": "次",
+            "color": "rgb(51,153,255)",
+            "rect": [
+                77,
+                87,
+                50,
+                50
+            ]
+        }
+    ]
+}

@@ -1,0 +1,159 @@
+{
+  "modified": "Wed Mar 29 2023 09:49:01 GMT+0800 (中国标准时间)",
+  "dataBindings": [
+    {
+      "attr": "data",
+      "valueType": "Number",
+      "defaultValue": 98,
+      "name": "数据值"
+    },
+    {
+      "attr": "min",
+      "valueType": "Number",
+      "defaultValue": 0,
+      "name": "最小值"
+    },
+    {
+      "attr": "max",
+      "valueType": "Number",
+      "defaultValue": 100,
+      "name": "最大值"
+    },
+    {
+      "attr": "color",
+      "valueType": "Color"
+    }
+  ],
+  "width": 132,
+  "height": 132,
+  "comps": [
+    {
+      "type": "circle",
+      "background": "rgba(6,13,36,0.80)",
+      "borderColor": "rgba(5,5,41,0.20)",
+      "borderJoin": "bevel",
+      "rect": [
+        0.7589,
+        -3.19432,
+        130.48219,
+        137.84043
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "__ht__function(data, view) {\nreturn data.a('data');\n}",
+        "value": "98"
+      },
+      "align": "center",
+      "color": {
+        "func": "attr@color",
+        "value": "rgb(76,205,252)"
+      },
+      "scaleX": 2,
+      "scaleY": 2,
+      "rect": [
+        52.05773,
+        98.1722,
+        27.87977,
+        12.77431
+      ]
+    },
+    {
+      "type": "arc",
+      "borderWidth": 17,
+      "borderColor": "rgb(12,104,135)",
+      "arcFrom": 1.0472,
+      "arcTo": -1.0472,
+      "arcClose": false,
+      "rotation": 1.5708,
+      "rect": [
+        19.51329,
+        17.52307,
+        91.99597,
+        94.60411
+      ]
+    },
+    {
+      "type": "arc",
+      "borderWidth": 22,
+      "borderColor": "rgb(36,145,181)",
+      "arcFrom": 3.9619,
+      "arcTo": -0.90757,
+      "arcClose": false,
+      "rect": [
+        19.75646,
+        17.76624,
+        91.99597,
+        94.60411
+      ]
+    },
+    {
+      "type": "arc",
+      "borderWidth": 1,
+      "borderColor": "rgb(124,145,155)",
+      "arcFrom": -1.0472,
+      "arcTo": -2.07694,
+      "arcClose": false,
+      "rect": [
+        4.49205,
+        -19.56751,
+        122.5248,
+        168.48186
+      ]
+    },
+    {
+      "type": "arc",
+      "borderWidth": 18,
+      "borderColor": "rgba(20,42,122,0.45)",
+      "arcFrom": 1.0472,
+      "arcTo": -1.0472,
+      "arcClose": false,
+      "rotation": 1.5708,
+      "rect": [
+        21.9697,
+        17.8311,
+        88.05583,
+        94.60411
+      ]
+    },
+    {
+      "type": "oval",
+      "background": "rgb(124,145,155)",
+      "borderColor": "#979797",
+      "rect": [
+        33.03876,
+        9.89954,
+        3.8509,
+        3.8509
+      ]
+    },
+    {
+      "type": "oval",
+      "background": "rgb(124,145,155)",
+      "borderColor": "#979797",
+      "rect": [
+        94.64138,
+        9.89954,
+        3.8509,
+        3.8509
+      ]
+    },
+    {
+      "type": "components\\demo\\extra\\gauge\\gauge.json",
+      "shadowColor": "rgb(176,215,255)",
+      "shadowBlur": 15,
+      "displayName": "gauge",
+      "anchorX": 0.15,
+      "anchorY": 0.15,
+      "scaleX": 0.5,
+      "scaleY": 0.5,
+      "rect": [
+        1,
+        -1,
+        200,
+        200
+      ]
+    }
+  ]
+}

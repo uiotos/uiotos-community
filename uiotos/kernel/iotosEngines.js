@@ -2505,7 +2505,9 @@
                             console.info('load upper data-symbol json: ' + symbolUrl);
                             data.__cache = cache; //这里的data.setImage前也得加上这句，避免资源加载完毕后重入！
                             data._gv = extra.renderGv; //备用！注意，变量是短下划线，函数是长下划线，上面__cache长下划线是历史遗留问题！
+                            data._i_containerImageGetting = true; //241102，下面存在异步，为了避免过程中内嵌组件渲染元素提前初始化，加上标记！
                             i.onImageLoaded(symbolUrl, function(img) {
+                                data._i_containerImageGetting = undefined;
                                 if (data == null) {
                                     console.error('data has been removed？?symbol url resource loaded', symbolUrl, 'and will be discard!', data);
                                     return;
@@ -6120,6 +6122,7 @@
             },
             //240515，公共要有的初始化！
             innerRecoveredDataCache: function(data, cache, commonRefresh = false, name = null, displayName = null, extraFuncCallback = null) {
+                if(data._i_containerImageGetting) return undefined;
                 if (data && !data.dm()) {
                     data = null;
                     return undefined;

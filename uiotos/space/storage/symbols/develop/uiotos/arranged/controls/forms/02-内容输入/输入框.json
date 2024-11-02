@@ -1,0 +1,249 @@
+{
+  "modified": "Thu Sep 12 2024 10:04:12 GMT+0800 (中国标准时间)",
+  "dataBindings": [
+    {
+      "attr": "symbol",
+      "valueType": "Image",
+      "description": "组件源（备选）。\n<br>当组件源（image）为非字符串格式，显示\n<br>[Object]时，可以通过这里备选地址，双击\n<br>打开组件配置。"
+    },
+    {
+      "attr": "value",
+      "valueType": "Object",
+      "description": "当前值。\n<br>输入框的值。注意，运行时输入数字\n<br>默认会作为字符串。如果初始设定值\n<br>为数字类型（比如0），那么输入的字\n<br>符串形式的数字，会被转成数字。",
+      "group": "功能",
+      "defaultValue": ""
+    },
+    {
+      "attr": "type",
+      "valueType": "FormType",
+      "defaultValue": "text",
+      "description": "输入框表单类型。\n<br>包括密码、文本等类型。"
+    },
+    {
+      "attr": "readOnly",
+      "valueType": "Boolean",
+      "defaultValue": false,
+      "description": "是否只读。",
+      "extraInfo": "★"
+    },
+    {
+      "attr": "initialTrigger",
+      "valueType": "Boolean",
+      "defaultValue": false,
+      "description": "初始触发连线操作。\n<br>默认不勾选，勾选后初始加载值时，如果对外有连线，\n<br>并且初始值为非空时，也会触发对外的赋值连线操作。",
+      "extraInfo": "*"
+    },
+    {
+      "attr": "instantTrigger",
+      "valueType": "Boolean",
+      "defaultValue": true,
+      "description": "是否即时触发。\n<br>勾选后，输入时就会对外触发onChange变化事件。",
+      "extraInfo": "★"
+    },
+    {
+      "attr": "emptyTrigger",
+      "valueType": "Boolean",
+      "defaultValue": false,
+      "extraInfo": "*"
+    },
+    {
+      "attr": "userData",
+      "valueType": "Object",
+      "defaultValue": []
+    },
+    {
+      "attr": "onChange",
+      "valueType": "Function",
+      "extraInfo": {
+        "arguments": [
+          "data",
+          "gv",
+          "cache",
+          "value"
+        ]
+      },
+      "description": "变化事件函数。\n<br>默认为内容改变才触发，当勾选即时触发\n<br>（instantTrigger）时，输入时就会触发本\n<br>事件。"
+    },
+    {
+      "attr": "onEnter",
+      "valueType": "Function",
+      "description": "回车事件。\n<br>输入完毕后回车触发，并且传入当前值。",
+      "extraInfo": {
+        "arguments": [
+          "data",
+          "gv",
+          "cache",
+          "value"
+        ]
+      }
+    },
+    {
+      "attr": "fixedHeight",
+      "valueType": "PositiveNumber",
+      "defaultValue": 35,
+      "description": "固定高度。\n<br>部分组件比如下拉框以及这里的输入框，拖拽或布局时，\n<br>高度默认会保持不变，只是宽度能够变化。高度可以在\n<br>当前页面全局自定义，也能通过当前属性对当个组件设\n<br>定。全局设置为页面的公共属性组中的“组件默认固定高\n<br>度”属性。",
+      "group": "外观",
+      "extraInfo": "★"
+    },
+    {
+      "attr": "borderRadius",
+      "valueType": "Number",
+      "defaultValue": 3,
+      "description": "边框圆角。"
+    },
+    {
+      "attr": "borderWidth",
+      "valueType": "Number",
+      "defaultValue": 1,
+      "description": "边框宽度。"
+    },
+    {
+      "attr": "borderColor",
+      "valueType": "ColorArray",
+      "defaultValue": [
+        "rgb(213,213,213)",
+        "rgb(55,125,255)"
+      ],
+      "description": "边框颜色。\n<br>索引0：默认边框颜色；\n<br>索引1：输入时边框颜色。"
+    },
+    {
+      "attr": "background",
+      "valueType": "ColorArray",
+      "description": "背景颜色。\n<br>索引0为默认背景色。索引1为禁用背景色。",
+      "defaultValue": [
+        "rgb(255,255,255)",
+        "rgb(247,247,247)"
+      ]
+    },
+    {
+      "attr": "iconPath",
+      "valueType": "Image",
+      "defaultValue": "symbols/demo/uiotos/icons/light/search.json",
+      "description": "图标地址。\n<br>输入框默左侧为“搜索”图标。",
+      "extraInfo": "*"
+    },
+    {
+      "attr": "iconColor",
+      "valueType": "Color",
+      "defaultValue": "rgb(213,213,213)",
+      "description": "输入框图标颜色。\n<br>对于内置部件中通过工具转换成的图标，\n<br>为支持动态修改背景颜色的矢量形式。",
+      "extraInfo": "*"
+    },
+    {
+      "attr": "iconSize",
+      "valueType": "NumberArray",
+      "defaultValue": [
+        20,
+        15
+      ],
+      "description": "图标尺寸。\n<br>数组形式，索引依次为宽度、高度值。",
+      "extraInfo": "*"
+    },
+    {
+      "attr": "iconTextGap",
+      "valueType": "Number",
+      "defaultValue": 5,
+      "description": "图标文字间距。",
+      "extraInfo": "*"
+    },
+    {
+      "attr": "color",
+      "valueType": "ColorArray",
+      "defaultValue": [
+        "rgb(0,0,0)",
+        "rgb(61,61,61)"
+      ],
+      "description": "文字颜色。\n<br>索引0：输入内容文字颜色。\n<br>索引1：标签文字颜色。\n<br>"
+    },
+    {
+      "attr": "font",
+      "valueType": "Font",
+      "description": "字体。"
+    },
+    {
+      "attr": "placeholder",
+      "valueType": "Object",
+      "defaultValue": "请输入",
+      "description": "未输入时默认占位符文字。",
+      "extraInfo": "★"
+    },
+    {
+      "attr": "labelText",
+      "valueType": "String",
+      "defaultValue": "标签",
+      "description": "标签文字。"
+    },
+    {
+      "attr": "labelEmbeded",
+      "valueType": "Boolean",
+      "defaultValue": false,
+      "description": "标签是否内嵌。\n<br>不内嵌时，组件的宽度不包含标签。\n<br>选择内嵌时，组件的宽度包含标签文字宽度。",
+      "extraInfo": "★"
+    },
+    {
+      "attr": "layoutVertical",
+      "valueType": "Boolean",
+      "defaultValue": false,
+      "description": "标签与组件的布局模式。\n<br>水平左右，或者垂直上下。",
+      "extraInfo": "★"
+    },
+    {
+      "attr": "gap",
+      "valueType": "PositiveNumber",
+      "defaultValue": 0,
+      "description": "标签与组件的间距。\n<br>注意，仅在标签内嵌模式（layoutVertical）下，\n<br>改配置参数才有用。",
+      "extraInfo": "★"
+    },
+    {
+      "attr": "bindControlsTag",
+      "valueType": "StringArray",
+      "group": "连线",
+      "description": "操作的目标组件（标签）。\n<br>连线A → B，那么B就是目标组件。"
+    },
+    {
+      "attr": "bindControlsAttr",
+      "valueType": "StringArray",
+      "description": "操作目标组件的属性。\n<br>比如A.x→B.y时，x就是当前的关联\n<br>属性，y即为操作属性，A的x属性值\n<br>通过连线赋值给B的y属性。"
+    },
+    {
+      "attr": "bindControlsVal",
+      "valueType": "ObjectArray",
+      "description": ""
+    },
+    {
+      "attr": "paramControlTag",
+      "valueType": "StringArray",
+      "description": "操作关联的来源组件（标签）。\n<br>连线A → B，那么A就是来源组件。\n<br>注意，为空不用填或者填写A的标\n<br>签效果一样，也可以填入其他组件\n<br>的标签（非正常操作）。"
+    },
+    {
+      "attr": "paramControlAttr",
+      "valueType": "StringArray",
+      "description": "关联属性。\n<br>关联的来源组件的指定属性，比如\n<br>A.x→B.y时，x就是当前的关联属性，\n<br>y为操作属性，A的x属性值通过连线\n<br>赋值给B的y属性。"
+    },
+    {
+      "attr": "paramsGenerator",
+      "valueType": "Function",
+      "defaultValue": "__ht__function(data, val, index, node,oldVal,form) {//绑定组索引对应的函数处理，用来动态生成复杂的参数变量传入\r\nswitch(index){\r\n    case 0:\r\n        break;\r\n    case 1:\r\n        break;\r\n    case 2:\r\n        break;\r\n    default:\r\n        break;\r\n}\r\n\r\nreturn val;}",
+      "extraInfo": {
+        "arguments": [
+          "data",
+          "val",
+          "index",
+          "node",
+          "oldVal",
+          "form"
+        ],
+        "classify": "*"
+      },
+      "description": "操作过滤函数。\n<br>所有连线对外操作执行之前，都会经过该函数\n<br>过滤处理，通常无需操作。可以做自定义逻辑。\n<br>其中对相应索引index下直接return返回undefined\n<br>时，将忽略掉指定索引连线的执行触发。"
+    }
+  ],
+  "snapshotURL": "symbols/develop/uiotos/arranged/controls/forms_icon/输入框.json",
+  "renderHTML": "__ht__function(data, gv, cache) {return __input_ui(data, gv, cache);}",
+  "width": 180,
+  "height": 35,
+  "scrollable": true,
+  "interactive": true,
+  "pixelPerfect": false,
+  "comps": []
+}

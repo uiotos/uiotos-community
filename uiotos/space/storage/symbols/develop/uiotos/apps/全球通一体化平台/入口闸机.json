@@ -1,0 +1,235 @@
+{
+  "modified": "Thu Sep 22 2022 21:20:01 GMT+0800 (中国标准时间)",
+  "background": "rgb(32,37,46)",
+  "dataBindings": [
+    {
+      "attr": "icon.icon-background",
+      "valueType": "Color"
+    }
+  ],
+  "width": 330,
+  "height": 255,
+  "fitSize": true,
+  "comps": [
+    {
+      "type": "rect",
+      "background": "rgb(255,255,255)",
+      "borderColor": "#979797",
+      "rect": [
+        0.48425,
+        -0.9685,
+        328.80523,
+        253.26235
+      ]
+    },
+    {
+      "type": "rect",
+      "background": "rgb(255,250,250)",
+      "borderColor": "#979797",
+      "rect": [
+        0.48425,
+        -1.937,
+        328.80523,
+        48.05312
+      ]
+    },
+    {
+      "type": {
+        "func": 1,
+        "value": "image"
+      },
+      "color": "rgb(89,165,93)",
+      "name": "symbols/demo/应用平台/门禁管理/门1.json",
+      "prefix": "icon",
+      "rect": [
+        17.32667,
+        8.93262,
+        16.67707,
+        18.24467
+      ]
+    },
+    {
+      "type": "text",
+      "text": "运行中",
+      "color": "rgb(89,165,93)",
+      "rect": [
+        7.22044,
+        22.05495,
+        40.88953,
+        34.12233
+      ]
+    },
+    {
+      "type": "text",
+      "text": "入口闸机01",
+      "color": "rgb(0,0,0)",
+      "font": "14px arial, sans-serif",
+      "rect": [
+        51.15763,
+        -5.94505,
+        50,
+        50
+      ]
+    },
+    {
+      "type": "text",
+      "text": "今日通行总数",
+      "color": "rgb(185,189,187)",
+      "font": "14px arial, sans-serif",
+      "rect": [
+        8.98814,
+        54.05495,
+        50,
+        50
+      ]
+    },
+    {
+      "type": "text",
+      "text": "4,345",
+      "color": "rgb(0,0,0)",
+      "font": "24px arial, sans-serif",
+      "rect": [
+        20,
+        83,
+        50,
+        50
+      ]
+    },
+    {
+      "type": "rect",
+      "background": "#D8D8D8",
+      "borderColor": "#979797",
+      "rect": [
+        107.08278,
+        76.05495,
+        1.937,
+        26.14946
+      ]
+    },
+    {
+      "type": "text",
+      "text": "刷脸进入",
+      "color": "rgb(183,189,186)",
+      "rect": [
+        116.49544,
+        64.12968,
+        50,
+        50
+      ]
+    },
+    {
+      "type": "text",
+      "text": "NFC进入",
+      "color": "rgb(183,189,186)",
+      "rect": [
+        188.7634,
+        64.12956,
+        50,
+        50
+      ]
+    },
+    {
+      "type": "text",
+      "text": "刷卡进入",
+      "color": "rgb(183,189,186)",
+      "anchorX": 0.70079,
+      "anchorY": 0.4749,
+      "rect": [
+        261.08338,
+        63.17729,
+        50,
+        50
+      ]
+    },
+    {
+      "type": "text",
+      "text": "2,325",
+      "color": "rgb(0,0,0)",
+      "rect": [
+        125.7901,
+        83.99416,
+        50,
+        50
+      ]
+    },
+    {
+      "type": "text",
+      "text": "2,325",
+      "color": "rgb(0,0,0)",
+      "rotation": 6.28319,
+      "rect": [
+        197.32717,
+        83.99404,
+        50,
+        50
+      ]
+    },
+    {
+      "type": "text",
+      "text": "2,325",
+      "color": "rgb(0,0,0)",
+      "rect": [
+        269.03133,
+        83.99416,
+        50,
+        50
+      ]
+    },
+    {
+      "type": "text",
+      "text": "人脸授权：5,234",
+      "color": "rgb(183,189,186)",
+      "rect": [
+        9.08339,
+        141.58174,
+        50,
+        50
+      ]
+    },
+    {
+      "type": "text",
+      "text": "卡证授权：5,234",
+      "color": "rgb(183,189,186)",
+      "rect": [
+        112.97342,
+        141.58174,
+        50,
+        50
+      ]
+    },
+    {
+      "type": "text",
+      "text": "梯控授权：5,234",
+      "color": "rgb(183,189,186)",
+      "rect": [
+        222.32729,
+        141.58174,
+        50,
+        50
+      ]
+    },
+    {
+      "type": "rect",
+      "background": "rgb(247,247,247)",
+      "borderColor": "#979797",
+      "rect": [
+        0.48425,
+        214.63395,
+        328.80523,
+        37.65991
+      ]
+    },
+    {
+      "type": "text",
+      "text": "门禁授权",
+      "color": "rgb(0,0,0)",
+      "font": "14px arial, sans-serif",
+      "rect": [
+        125.7901,
+        209,
+        50,
+        50
+      ]
+    }
+  ]
+}

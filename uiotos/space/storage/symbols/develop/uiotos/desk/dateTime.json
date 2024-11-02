@@ -1,0 +1,99 @@
+{
+  "modified": "Sat Aug 13 2022 16:41:04 GMT+0800 (中国标准时间)",
+  "background": "rgb(32,37,46)",
+  "dataBindings": [
+    {
+      "attr": "time",
+      "valueType": "String"
+    },
+    {
+      "attr": "week",
+      "valueType": "String"
+    },
+    {
+      "attr": "date",
+      "valueType": "String"
+    },
+    {
+      "attr": "color",
+      "valueType": "Color",
+      "defaultValue": "rgb(255,255,255)"
+    }
+  ],
+  "width": 185,
+  "height": 50,
+  "attachStyle": "close",
+  "comps": [
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@time",
+        "value": "09:00:00"
+      },
+      "align": "center",
+      "color": {
+        "func": "attr@color",
+        "value": "rgb(255,255,255)"
+      },
+      "font": "27px Arial",
+      "shadowColor": "rgb(26,162,189)",
+      "shadowBlur": 9,
+      "shadowOffsetX": 0,
+      "shadowOffsetY": 0,
+      "rect": [
+        45.01196,
+        17.88468,
+        27.83121,
+        13.88421
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@week",
+        "value": "星期三"
+      },
+      "align": "center",
+      "color": {
+        "func": "attr@color",
+        "value": "rgb(255,255,255)"
+      },
+      "font": "20px Arial",
+      "shadowColor": "rgb(26,162,189)",
+      "shadowBlur": 9,
+      "shadowOffsetX": 0,
+      "shadowOffsetY": 0,
+      "displayName": "星期三",
+      "rotation": 6.28319,
+      "rect": [
+        131.8305,
+        11.42097,
+        31.14562,
+        13.88421
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@date",
+        "value": "2018.12.19"
+      },
+      "align": "center",
+      "color": {
+        "func": "attr@color",
+        "value": "rgb(255,255,255)"
+      },
+      "font": "12px Arial",
+      "shadowColor": "rgb(26,162,189)",
+      "shadowBlur": 9,
+      "shadowOffsetX": 0,
+      "shadowOffsetY": 0,
+      "rect": [
+        135.14491,
+        29.99073,
+        27.83121,
+        13.88421
+      ]
+    }
+  ]
+}

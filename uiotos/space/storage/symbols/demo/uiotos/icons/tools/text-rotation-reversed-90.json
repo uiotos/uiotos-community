@@ -1,0 +1,98 @@
+{
+    "width": 512,
+    "height": 512,
+    "modified": "Mon Aug 01 2022 23:33:01 GMT+0800 (中国标准时间)",
+    "background": "rgb(32,37,46)",
+    "dataBindings": [{
+            "attr": "icon-background",
+            "valueType": "Color"
+        },
+        {
+            "attr": "icon-borderWidth",
+            "valueType": "PositiveNumber"
+        },
+        {
+            "attr": "icon-borderColor",
+            "valueType": "Color"
+        }
+    ],
+    "comps": [{
+        "type": "shape",
+        "points": [
+            128,
+            512,
+            128,
+            213.33333,
+            64,
+            213.33333,
+            149.33333,
+            128,
+            234.66667,
+            213.33333,
+            170.66667,
+            213.33333,
+            170.66667,
+            512,
+            128,
+            512,
+            259.41333,
+            328.10667,
+            213.33333,
+            315.73333,
+            213.33333,
+            256,
+            448,
+            330.24,
+            448,
+            395.73333,
+            213.33333,
+            477.44,
+            213.33333,
+            420.26667,
+            260.26667,
+            405.33333,
+            302.08,
+            339.62667,
+            302.08,
+            392.53333,
+            393.38667,
+            364.16
+        ],
+        "segments": [
+            1,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            5,
+            1,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            5,
+            1,
+            2,
+            2,
+            5
+        ],
+        "borderColor": {
+            "func": "attr@icon-borderColor",
+            "value": "#000000"
+        },
+        "borderWidth": {
+            "func": "attr@icon-borderWidth",
+            "value": 0
+        },
+        "background": {
+            "func": "attr@icon-background",
+            "value": "#000000"
+        }
+    }]
+}

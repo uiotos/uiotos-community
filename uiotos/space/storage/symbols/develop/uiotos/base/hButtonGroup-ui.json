@@ -1,0 +1,215 @@
+{
+  "modified": "Sat Aug 24 2024 13:37:12 GMT+0800 (中国标准时间)",
+  "dataBindings": [
+    {
+      "attr": "symbol",
+      "valueType": "Image"
+    },
+    {
+      "attr": "bindTabview",
+      "valueType": "String",
+      "defaultValue": "tab1",
+      "description": "默认关联Tab1页签（此时无需连线）。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#x8tmx\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+      "group": "功能"
+    },
+    {
+      "attr": "direction",
+      "valueType": "HorOrVer",
+      "defaultValue": "horizontal",
+      "description": "水平或垂直模式。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#LH9O3\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+      "extraInfo": "★"
+    },
+    {
+      "attr": "buttons",
+      "valueType": "ObjectArray",
+      "defaultValue": [
+        "按钮1",
+        "按钮2",
+        "按钮3"
+      ],
+      "description": "按钮显示文字。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#SsNN4\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>"
+    },
+    {
+      "attr": "btnDatas",
+      "valueType": "ObjectArray",
+      "description": "各按钮对应的数据项。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#AUaeb\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+      "extraInfo": "*"
+    },
+    {
+      "attr": "btnData",
+      "valueType": "Object",
+      "description": "当前选中按钮对应的数据。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#MxZ7Z\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+      "extraInfo": "*"
+    },
+    {
+      "attr": "select",
+      "valueType": "Number",
+      "defaultValue": 0,
+      "description": "当前选中的索引。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#NMTbe\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>"
+    },
+    {
+      "attr": "hoverTrigger",
+      "valueType": "Boolean",
+      "description": "鼠标悬停即触发点击。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#XvQ1C\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+      "extraInfo": "★"
+    },
+    {
+      "attr": "initialTrigger",
+      "valueType": "Boolean",
+      "defaultValue": false,
+      "description": "加载时就触发连线执行。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#XvQ1C\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+      "extraInfo": "★"
+    },
+    {
+      "attr": "userData",
+      "valueType": "Object",
+      "defaultValue": []
+    },
+    {
+      "attr": "onChange",
+      "valueType": "Function",
+      "extraInfo": {
+        "arguments": [
+          "data",
+          "gv",
+          "cache",
+          "param",
+          "extra"
+        ]
+      }
+    },
+    {
+      "attr": "shadowBorder",
+      "valueType": "NumberArray",
+      "defaultValue": [
+        0,
+        0,
+        8
+      ],
+      "group": "外观",
+      "extraInfo": "~"
+    },
+    {
+      "attr": "shadowColor",
+      "valueType": "Color",
+      "defaultValue": "rgba(102,102,102,0.2)",
+      "extraInfo": "~"
+    },
+    {
+      "attr": "shadowEnabled",
+      "valueType": "Boolean",
+      "defaultValue": false,
+      "extraInfo": "~"
+    },
+    {
+      "attr": "gap",
+      "valueType": "Number",
+      "defaultValue": -2,
+      "description": "按钮与按钮之间的间隙。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#eB36g\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+      "extraInfo": "★"
+    },
+    {
+      "attr": "background",
+      "valueType": "ColorArray",
+      "defaultValue": [
+        "rgb(255,255,255)",
+        "rgba(255,255,255,0.9)",
+        "rgba(255,255,255,0.8)",
+        "rgb(55,125,255)",
+        "rgba(55,125,255,0.9)",
+        "rgba(55,125,255,0.8)"
+      ],
+      "description": "背景颜色。索引依次为：\n<br>0：未选中按钮的默认背景色。\n<br>1：未选中按钮的悬停背景色。\n<br>2：未选中按钮的按下背景色。\n<br>3：选中按钮的默认背景色。\n<br>4：选中按钮的悬停背景色。\n<br>5：选中按钮的按下背景色。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#GLkLa\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>"
+    },
+    {
+      "attr": "textColor",
+      "valueType": "ColorArray",
+      "defaultValue": [
+        "rgb(61,61,61)",
+        "rgb(55,125,255)",
+        "rgb(96,172,252)",
+        "rgb(255,255,255)",
+        "rgb(255,255,255)",
+        "rgb(255,255,255)"
+      ],
+      "description": "文字颜色。索引依次为：\n<br>0：未选中按钮的默认文字色。\n<br>1：未选中按钮的悬停文字色。\n<br>2：未选中按钮的按下文字色。\n<br>3：选中按钮的默认文字色。\n<br>4：选中按钮的悬停文字色。\n<br>5：选中按钮的按下文字色。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#wNfmX\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>"
+    },
+    {
+      "attr": "textFont",
+      "valueType": "Font",
+      "defaultValue": "12px sans-serif, Arial",
+      "description": "字体大小设置。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#Ciyrx\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>"
+    },
+    {
+      "attr": "radius",
+      "valueType": "NumberArray",
+      "defaultValue": [
+        5,
+        5,
+        5,
+        5
+      ],
+      "description": "圆角半径设置\n<br>索引0、1、2、3的值分别对应按钮组的\n<br>左上角、右上角、右下角、左下角。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#audJR\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>"
+    },
+    {
+      "attr": "borderColor",
+      "valueType": "Color",
+      "defaultValue": "rgb(213,213,213)",
+      "description": "边框颜色。\n<br>如果不设置，那么边框颜色将自动跟随\n<br>当前选中项目的背景颜色。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#zZHSi\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>"
+    },
+    {
+      "attr": "borderWidth",
+      "valueType": "PositiveNumber",
+      "defaultValue": 1,
+      "description": "边框宽度。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#zZHSi\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>"
+    },
+    {
+      "attr": "simpleLineStyle",
+      "valueType": "Boolean",
+      "defaultValue": false,
+      "description": "简单线条风格。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#T87VD\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>"
+    },
+    {
+      "attr": "bindControlsTag",
+      "valueType": "StringArray",
+      "group": "连线"
+    },
+    {
+      "attr": "bindControlsAttr",
+      "valueType": "StringArray"
+    },
+    {
+      "attr": "bindControlsVal",
+      "valueType": "ObjectArray"
+    },
+    {
+      "attr": "paramControlTag",
+      "valueType": "StringArray"
+    },
+    {
+      "attr": "paramControlAttr",
+      "valueType": "StringArray"
+    },
+    {
+      "attr": "paramsGenerator",
+      "valueType": "Function",
+      "defaultValue": "__ht__function(data, val, index, node,oldVal,form) {//绑定组索引对应的函数处理，用来动态生成复杂的参数变量传入\r\nswitch(index){\r\n    case 0:\r\n        break;\r\n    case 1:\r\n        break;\r\n    case 2:\r\n        break;\r\n    default:\r\n        break;\r\n}\r\n\r\nreturn val;}",
+      "extraInfo": {
+        "arguments": [
+          "data",
+          "val",
+          "index",
+          "node",
+          "oldVal",
+          "form"
+        ]
+      }
+    }
+  ],
+  "snapshotURL": "symbols/develop/uiotos/arranged/controls/forms_icon/按钮组.json",
+  "renderHTML": "__ht__function(data, gv, cache) {return __hButtonGroup_ui(data,gv,cache);}",
+  "width": 300,
+  "height": 35,
+  "pixelPerfect": false,
+  "comps": []
+}

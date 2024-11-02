@@ -1,0 +1,112 @@
+{
+  "modified": "Fri Jun 07 2024 10:41:23 GMT+0800 (中国标准时间)",
+  "background": "rgb(32,37,46)",
+  "dataBindings": [
+    {
+      "attr": "symbol",
+      "valueType": "Image"
+    },
+    {
+      "attr": "ht.startAngle",
+      "valueType": "Angle",
+      "name": "起始角度",
+      "group": "外观"
+    },
+    {
+      "attr": "ht.endAngle",
+      "valueType": "Angle",
+      "name": "结束角度"
+    },
+    {
+      "attr": "ht.PoinertRadius",
+      "valueType": "PositiveNumber",
+      "name": "指针长度"
+    },
+    {
+      "attr": "ht.pointerColor",
+      "valueType": "Color",
+      "name": "指针颜色"
+    },
+    {
+      "attr": "ht.value",
+      "valueType": "Number",
+      "name": "值"
+    },
+    {
+      "attr": "ht.min",
+      "valueType": "Number",
+      "name": "最小值"
+    },
+    {
+      "attr": "ht.max",
+      "valueType": "Number",
+      "name": "最大值"
+    },
+    {
+      "attr": "ht.clockwise",
+      "valueType": "Boolean",
+      "name": "顺时针"
+    },
+    {
+      "attr": "ht.showLabel",
+      "valueType": "Boolean",
+      "name": "显示标签"
+    },
+    {
+      "attr": "ht.labelEvery",
+      "valueType": "PositiveNumber",
+      "name": "标签每隔"
+    },
+    {
+      "attr": "ht.labelColor",
+      "valueType": "Color",
+      "name": "标签颜色"
+    },
+    {
+      "attr": "ht.showTick",
+      "valueType": "Boolean",
+      "name": "显示刻度"
+    },
+    {
+      "attr": "ht.tickEvery",
+      "valueType": "PositiveNumber",
+      "name": "刻度每隔"
+    },
+    {
+      "attr": "ht.tickColor",
+      "valueType": "Color",
+      "name": "刻度颜色"
+    },
+    {
+      "attr": "ht.bigTickEvery",
+      "valueType": "PositiveNumber",
+      "name": "大刻度每隔"
+    },
+    {
+      "attr": "ht.bigTickColor",
+      "valueType": "Color",
+      "name": "大刻度颜色"
+    }
+  ],
+  "snapshotURL": "symbols\\develop\\uiotos\\arranged\\controls\\charts_icon\\仪表.json",
+  "cacheRule": true,
+  "renderHTML": "__ht__function(data, gv, cache) {cache = _i.innerRecoveredDataCache(data, cache, false, 'gauge', '仪表');}",
+  "width": 200,
+  "height": 200,
+  "fitSize": true,
+  "pixelPerfect": false,
+  "comps": [
+    {
+      "type": "components\\demo\\extra\\gauge\\gauge.json",
+      "shadowColor": "rgb(176,215,255)",
+      "shadowBlur": 15,
+      "displayName": "gauge（gauge1）",
+      "rect": [
+        0,
+        0,
+        200,
+        200
+      ]
+    }
+  ]
+}
