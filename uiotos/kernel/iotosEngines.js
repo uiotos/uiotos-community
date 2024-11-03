@@ -130,7 +130,8 @@
             isBaseLayMode = baseNodeTmp && !dm.a('fitContent'), //241015，底板布局模式！
             topDataTmp = !runModeTmp && i.topData(dm), //240614，顶层图元，看是否是编辑时的运行对话框！
             isTopDlgEditorRunning = topDataTmp && i.isDialogEditorRunning(topDataTmp);
-        dm.each((item) => {
+        let datastmp = dm.toDatas().toArray();
+        datastmp.forEach((item, idx) => {
             item._i_gv = gv; //240709，增加参数传入gv，为了让编辑、运行时，所以图元组件都能直到自己的gv是什么！！
 
             //240710，对于运行状态下，需要对非渲染元素的初始化监听！
