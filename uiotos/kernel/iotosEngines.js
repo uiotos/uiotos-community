@@ -269,11 +269,12 @@
             /*241014，运行状态下，底板布局的页面，如果没有任何组件做布局，那么运行时全部默认居中布局（不影响编辑状态），这样页面窗口尺寸变化，都会相对编辑时相对位置居中，对于底板尺寸跟浏
             览器屏幕尺寸比例不统一时，方便看效果，也避免手动去布局（感觉有点复杂），对初学者更友好！*/
             //241017，加上条件!item._i_dataNotUI，否则发现新建页面背景等场景，运行时连线竟然可见！
-            if(runModeTmp && data.getHost && data !== baseNodeTmp && !i.isControlTyped(data,'dlg') && !item._i_dataNotUI && data.s('2d.visible') && isBaseLayMode && !data.getParent()){    //241015，加上!data.getParent()，主要是因为block这种存在，组合做布局，组合内的没且无需布局，存在这种情况！
-                if(!data.getHost()) {
-                data.setHost(baseNodeTmp);
-                data.s('layout.h','center');
-                data.s('layout.v','center');
+            if(data.getHost && data !== baseNodeTmp && !item._i_dataNotUI && data.s('2d.visible') && isBaseLayMode && !data.getParent()){    //241015，加上!data.getParent()，主要是因为block这种存在，组合做布局，组合内的没且无需布局，存在这种情况！
+                //241102，不是对话框，运行、编辑都默认自动布局；对话框时，运行模式下，不作自动布局，但是编辑状态下还是做，这样方便上层容器尺寸缩放嵌套能看到效果，避免初学者懵逼！
+                if(!i.isControlTyped(data,'dlg') || !runModeTmp){
+                    if(!data.getHost()) {
+                        i.setDataAutoLayout(data,baseNodeTmp);
+                    }
                 }
             }
         });
@@ -14754,6 +14755,53 @@
                 }
                 }catch(e){
                     console.error(e);
+                }
+            },
+            //241102，对某个图元组件自动布局
+            setDataAutoLayout: function(data, baseNode = null){
+                let nodeLaying = data,
+                    basetmp = baseNode ? baseNode : i.baseNode(nodeLaying,false);
+                //吸附布局下，不再允许独立移动（好不容易调整尺寸位置再做了相对位置的自动布局，编辑时怎么又能轻易游离拖动呢？）
+                nodeLaying.s('2d.movable', false);
+                nodeLaying.setHost && nodeLaying.setHost(basetmp);
+                //按矩形内部来考虑，计算离base底层图元的四个边距
+                let w = basetmp.getWidth(),
+                    h = basetmp.getHeight();
+                let leftSpace = _i.getPos(nodeLaying).x - _i.getPos(basetmp).x,
+                    rightSpace = _i.getPos(basetmp).x + w - _i.getPos(nodeLaying).x - nodeLaying.getWidth(),
+                    topSpace = _i.getPos(nodeLaying).y - _i.getPos(basetmp).y,
+                    bottomSpace = _i.getPos(basetmp).y + h - _i.getPos(nodeLaying).y - nodeLaying.getHeight(),
+                    centerRatio = 1.5;//3。241102，优先居中而不是左右、上下
+
+                /*230203，自动布局规则，需要进一步细化以及拖放交互动画过渡自动完成，需要结合这里进一步完善！*/
+                if (rightSpace > w / 2 && bottomSpace > h / 2) { //1) 左上吸附
+                    nodeLaying.s('layout.h', 'left');
+                    nodeLaying.s('layout.v', 'top');
+                } else if (rightSpace > w / 2 && topSpace > h / 2) { //2) 左下吸附
+                    nodeLaying.s('layout.h', 'left');
+                    nodeLaying.s('layout.v', 'bottom');
+                } else if (leftSpace > w / 2 && bottomSpace > h / 2) { //3) 右上吸附
+                    nodeLaying.s('layout.h', 'right');
+                    nodeLaying.s('layout.v', 'top');
+                } else if (leftSpace > w / 2 && topSpace > h / 2) { //4) 右下吸附
+                    nodeLaying.s('layout.h', 'right');
+                    nodeLaying.s('layout.v', 'bottom');
+                } else if (leftSpace <= w / 2 && rightSpace <= w / 2 && bottomSpace > h / 2) { //5) 左&右，上
+                    //230814，在上&下、左&右的地方，判断图元宽高
+                    nodeLaying.s('layout.h', nodeLaying.getWidth() < w / centerRatio && Math.abs(nodeLaying.getPosition().x - basetmp.getPosition().x) <= 10 ? 'center' : 'leftright');
+                    nodeLaying.s('layout.v', 'top');
+                } else if (leftSpace <= w / 2 && rightSpace <= w / 2 && topSpace > h / 2) { //6) 左&右，下
+                    nodeLaying.s('layout.h', nodeLaying.getWidth() < w / centerRatio && Math.abs(nodeLaying.getPosition().x - basetmp.getPosition().x) <= 10 ? 'center' : 'leftright');
+                    nodeLaying.s('layout.v', 'bottom');
+                } else if (rightSpace > w / 2 && topSpace <= h / 2 && bottomSpace <= h / 2) { //7) 左，上&下
+                    nodeLaying.s('layout.h', 'left');
+                    nodeLaying.s('layout.v', _i.hasFixedHeight(nodeLaying) ? 'top' : (nodeLaying.getHeight() < h / 2 && Math.abs(nodeLaying.getPosition().y - basetmp.getPosition().y) <= 10 ? 'center' : 'topbottom'));
+                } else if (leftSpace > w / 2 && topSpace <= h / 2 && bottomSpace <= h / 2) { //8) 右，上&下
+                    nodeLaying.s('layout.h', 'right');
+                    nodeLaying.s('layout.v', (nodeLaying.getHeight() < h / centerRatio ? 'center' : 'topbottom'));
+                } else if (leftSpace <= w / 2 && rightSpace <= w / 2 && topSpace <= h / 2 && bottomSpace <= h / 2) { //9) 左&右，上&下
+                    nodeLaying.s('layout.h', nodeLaying.getWidth() < w / centerRatio && Math.abs(nodeLaying.getPosition().x - basetmp.getPosition().x) <= 10 ? 'center' : 'leftright');
+                    nodeLaying.s('layout.v', _i.hasFixedHeight(nodeLaying) ? 'top' : (nodeLaying.getHeight() < h / centerRatio && Math.abs(nodeLaying.getPosition().y - basetmp.getPosition().y) <= 10 ? 'center' : 'topbottom'));
                 }
             },
         }
