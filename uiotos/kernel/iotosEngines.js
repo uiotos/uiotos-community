@@ -67,6 +67,7 @@
         }
         window._i_runningTime = true; //241023，运行环境标记
         const scriptUrls = [
+            'custom/libs/iotosconfig.js',
             'custom/configs/htconfig.js',
             'custom/libs/jquery.js',
             'custom/libs/layui/layui.js',
