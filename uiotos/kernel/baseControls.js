@@ -1581,7 +1581,8 @@ function __dialog_ui(data, gv, cache) {
                 'a:hide': false,
                 //230301，固定识别formType字段
                 "formType": data.ca('pureFormValues') ? 3 : -1 //230301，新增的formType参数放到这里，就不再从函数入参新增了，太多了。本参决定默认表单属性大类
-            }, 2); //230320-22:03，原先传入true，改成2，因为1/true是回写但不触发md监听的函数执行，而2回写当前并触发执行，相当于直接调用data.ca()
+
+            }, 2,true,null,false,false,null,()=>__commitProcess()); //230320-22:03，原先传入true，改成2，因为1/true是回写但不触发md监听的函数执行，而2回写当前并触发执行，相当于直接调用data.ca()
         } else {
             console.error('dialog node has been removed??', data);
         }
@@ -1665,7 +1666,8 @@ function __dialog_ui(data, gv, cache) {
             i.formEventBubblingUpper(data, gv, cache, 'onCancel', {
                 'a:show': false,
                 'a:hide': false
-            }, 2, true); /*最后一个参数false，不触发bindControls表单提交；*/
+
+            }, 2, true,null,false,false,null,()=>this.onClick(button,e)); /*最后一个参数false，不触发bindControls表单提交；*/
 
             //230918，还原原先的解析赋值配置！
             _i.setTimeout(() => {
@@ -2160,6 +2162,7 @@ function __dialog_ui(data, gv, cache) {
                 //240814，避免编辑时清空，偶尔出现高频闪动的BUG！这里就暂不支持对话框内容清空了，否则无意义。需要指定页面来替换才行，而不是清空嵌套！
                 if(e.newValue === undefined) return;
 
+                if(runningMode() && e.oldValue == '__init__' && e.newValue && e.newValue.indexOf('__操作演示.json') !== -1) return;
                 let targetURL = i.autoDisplayURL(e,'display',true);
                 if (targetURL === undefined) return;
                 initInnerDisplay(cache.control.graphView, targetURL);
@@ -2184,7 +2187,7 @@ function __dialog_ui(data, gv, cache) {
                     cache.current == cache.control ? cache.current.setVisible(true) : !data.ca('debugOccupied') && cache.current.show(center.x, center.y);
                     !data.ca('debugOccupied') && __changeContentTo('run');
                     if (data.ca('debugOccupied')) {
-                        console.error('WARN: debugOccupied attr has been checked, if you want to open dialg,please uncheck this attr!');
+                        console.error('WARN: debugOccupied attr has been checked, if you want to open dialog,please uncheck this attr!');
                         _i.setTimeout(() => {
                             i.update(data, 'show', false);
                         }, 100);
@@ -2201,6 +2204,11 @@ function __dialog_ui(data, gv, cache) {
                     data.ca('show', false); //复位
                     cache.current.hide();
                     __changeContentTo('edit');
+                    if (data.ca('reloadWhenOpen') && e.oldValue !== '__init__') {
+                        _i.setTimeout(() => {
+                            runningMode() && _i.clearDeep(data, true);
+                        }, 0);
+                    }
                 }
             },
             'a:hide': e => { //代码来做对话框主动关闭（非手动关闭时），比如处理中/加载中的过渡对话框，成功完成后，自动关闭当前、触发新的弹窗
@@ -2321,6 +2329,10 @@ function __dialog_ui(data, gv, cache) {
             __updateAppearance();
         });
         data._uiView = cache.current;
+        data._i_onEventByEventTypeInit = true;
+        try {__closeDialog();}catch(e){};   //241002，注意，分开try-catch，避免前一个因为cache.current等未初始化而异常，结果第二个函数执行不到，无法初始化到！
+        try {__commitProcess();}catch(e){}
+        data._i_onEventByEventTypeInit = undefined;
     }
     return cache.control;
 }

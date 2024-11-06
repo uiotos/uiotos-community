@@ -12538,7 +12538,7 @@
                 ht.Default.setImage(dictFlag, null);
 
                 i.setImage(dictFlag, dictURL);
-                i.onImageLoaded(dictFlag, img => {
+                i.onImageLoaded(dictURL, img => {
                     if(img){
                     let dictDisplayDm = new ht.DataModel();
                     dictDisplayDm._url = dictURL; //需要存放，用于i.upload保存
@@ -12547,6 +12547,7 @@
                     }
                     callback && callback(img); //初始化加载完毕后回调返回
                 });
+                ht.Default.getImage(dictURL);
             },
             //存放key-value，可选的分组group
             setConfigDict: function(key, value, group = null, callback = null) {
