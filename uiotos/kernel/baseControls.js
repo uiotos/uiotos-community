@@ -6702,8 +6702,8 @@ function __interface(data, gv, cache) {
                 clean: true,
                 connectTimeout: data.ca('_connectTimeout'),
                 clientId: data.ca('_clientId') + (runningMode() ? '@' + data.getId() : ''), //240426，运行预览时，客户端id自动加上后缀-run，避免预览的和编辑的id冲突，导致预览是反复自动备份踢下线、重连！
-                username: data.ca('username'),
-                password: data.ca('password'),
+                username: data.ca('_username'),
+                password: data.ca('_password'),
             }
             showContent('url: ' + data.ca('url').join('') + '\r\n' + 'connecting...', false, 1);
             cache.mqttClient = mqtt.connect(url, options); // you add a ws:// url here
