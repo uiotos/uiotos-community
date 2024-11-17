@@ -2443,6 +2443,8 @@ function __input_ui(data, gv, cache) {
         //230806，全部事件注册到bindEvents属性中，新连线操作下拉，会成为统一下拉列表的选项
         data.ca('bindEvents', ['*', 'onChange', 'onClear', 'onEnter']);
         textField.on('p:value', v => {
+            //241110，如果下拉选择类型为数字，运行时输入只能是数字，当然值也要转换成数字。实测发现此时进来还是字符串，因此，强制转换！
+            if(data.ca('type') == 'number') v.newValue = Number(v.newValue);
 
             //231126，如果初始值时数字，而输入值是数字的字符串，那么会自动将数字的字符串自动转换成数字，否则不转换！
             let forbidEventOpt = false;
