@@ -9769,7 +9769,7 @@
                                             break;
                                         }
                                         //demo账号的资源作为共享的可以打开，不过已经不允许编辑了，因此放行！
-                                        if (i.user() && urlfield[1] != 'demo' && urlfield[1] != i.user()) {
+                                        if (!runningMode() && i.user() && urlfield[1] != 'demo' && urlfield[1] != i.user()) {
                                             urlfield[1] = i.user();
                                             let newURL = urlfield.join('/'),
                                                 msgtmp = '内嵌图纸不匹配当前用户' + i.user() + '，将被自动转换成' + newURL;
