@@ -1,12 +1,12 @@
 //中台后端
-hostname = "203.189.6.3:8081"
+hostname = "14.22.85.37:8081"
 iotos_host = "http://" + hostname;
 ws_host = "ws://" + hostname;
 
 //业务后端
 /*默认为前端地址，可以修改任意指定IP:PORT
 示例1："sys.aiotos.net"
-示例2："203.189.6.3:9004" */
+示例2："14.22.85.37:9004" */
 api_host = window.top.origin
 
 //编辑模式用

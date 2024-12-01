@@ -9961,7 +9961,7 @@ function __convertor(data, gv, cache) {
                                             _i.urlExistChecking(urlTobeOpened,status=>{
                                                 if(!status){
                                                     console.error('WARN: asset not found in local, online version will be used!',urlTobeOpened);
-                                                    window.open(/*'http://203.189.6.3:8999/'*/'http://ui.aiotos.net/' + urlTobeOpened);
+                                                    window.open(/*'http://14.22.85.37:8999/'*/'http://ui.aiotos.net/' + urlTobeOpened);
                                                 }else{
                                                     window.open(urlTobeOpened);
                                                 }

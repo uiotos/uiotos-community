@@ -762,7 +762,7 @@
       "a": {
         "toolTipRaw": "API接口组件。        <br>支持HTTP POST/GET；MQTT；WS（暂未支持）        <br>- 支持任意数量及层次结构的参数传入请求，扁平化配置输入，        <br>无需组装成手动组装成json结构。        <br>- 接口返回的数据任意字段个数和结构，支持扁平化配置方式        <br>提取，无需解析json结构，即可关联到指定的一个或多个组件        <br>的多个不同属性上进行展示。",
         "url": [
-          "http://203.189.6.3:19999/",
+          "http://14.22.85.37:19999/",
           "property/FacialRecord/humanDecencyDataScreening"
         ],
         "timeTo": "2024-08-25 00:30:06.131",
@@ -876,7 +876,7 @@
             "timestamp": 1719455707194,
             "_requestParams": {
               "type": "get",
-              "url": "http://203.189.6.3:19999/property/FacialRecord/humanDecencyDataScreening",
+              "url": "http://14.22.85.37:19999/property/FacialRecord/humanDecencyDataScreening",
               "contentType": "application/json",
               "data": "time=2024-03-14",
               "dataType": "JSON",
@@ -1005,7 +1005,7 @@
           "timestamp": 1719455707194,
           "_requestParams": {
             "type": "get",
-            "url": "http://203.189.6.3:19999/property/FacialRecord/humanDecencyDataScreening",
+            "url": "http://14.22.85.37:19999/property/FacialRecord/humanDecencyDataScreening",
             "contentType": "application/json",
             "data": "time=2024-03-14",
             "dataType": "JSON",

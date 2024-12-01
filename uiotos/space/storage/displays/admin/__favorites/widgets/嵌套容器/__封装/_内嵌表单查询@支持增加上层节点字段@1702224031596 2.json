@@ -1125,7 +1125,7 @@
               "attr": "httpQuery_v2>0>gv1>a:httpAlert>0>api1>a:url",
               "valueType": "ObjectArray",
               "defaultValue": [
-                "http://203.189.6.3:19999/",
+                "http://14.22.85.37:19999/",
                 ""
               ],
               "description": "链接URL。\n<br>字符串数组形式，自动会将输入在数组中的多个字符串\n<br>片段按照顺序合并追加成一个完整的URL给到接口使用。",
@@ -1913,7 +1913,7 @@
         "httpQuery_v2>0>gv1>a:httpAlert>0>api1>a:download": false,
         "httpQuery_v2>0>gv1>a:httpAlert>0>api1>a:onReceived": null,
         "httpQuery_v2>0>gv1>a:httpAlert>0>api1>a:url": [
-          "http://203.189.6.3:19999/",
+          "http://14.22.85.37:19999/",
           "order/maintenanceUds/list"
         ],
         "httpQuery_v2>0>gv1>a:httpAlert>0>api1>a:enableLoading": true,
