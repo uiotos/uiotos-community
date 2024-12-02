@@ -1,0 +1,60 @@
+{
+  "modified": "Thu Aug 15 2024 08:17:18 GMT+0800 (中国标准时间)",
+  "dataBindings": [
+    {
+      "attr": "symbol",
+      "valueType": "Image"
+    },
+    {
+      "attr": "src",
+      "valueType": "String",
+      "name": "src",
+      "group": "功能",
+      "defaultValue": "www.uiotos.net"
+    },
+    {
+      "attr": "borderWidth1",
+      "valueType": "PositiveNumber",
+      "defaultValue": 0,
+      "name": "边框宽度",
+      "group": "外观"
+    },
+    {
+      "attr": "borderColor1",
+      "valueType": "Color",
+      "defaultValue": null,
+      "name": "边框颜色"
+    },
+    {
+      "attr": "backgroundColor",
+      "valueType": "Color",
+      "defaultValue": "rgb(247,247,247)",
+      "name": "背景颜色"
+    },
+    {
+      "attr": "marginTop",
+      "valueType": "Number",
+      "defaultValue": 100,
+      "name": "上边距"
+    },
+    {
+      "attr": "marginRight",
+      "valueType": "Number",
+      "defaultValue": "10",
+      "name": "右边距"
+    },
+    {
+      "attr": "opacity",
+      "valueType": "Opacity",
+      "description": "透明度。"
+    }
+  ],
+  "snapshotURL": "symbols/develop/uiotos/arranged/controls/containers_icon/网页内嵌.json",
+  "renderHTML": "__ht__function(data, gv, cache) {return __iframe(data,gv,cache);}",
+  "width": 1150,
+  "height": 650,
+  "fitSize": true,
+  "interactive": true,
+  "pixelPerfect": false,
+  "comps": []
+}

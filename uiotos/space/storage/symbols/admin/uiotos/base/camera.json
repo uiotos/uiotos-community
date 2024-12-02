@@ -1,0 +1,50 @@
+{
+  "modified": "Thu Aug 15 2024 11:54:04 GMT+0800 (中国标准时间)",
+  "dataBindings": [
+    {
+      "attr": "symbol",
+      "valueType": "Image"
+    },
+    {
+      "attr": "backgroundColor",
+      "valueType": "Color",
+      "name": "背景色",
+      "defaultValue": "rgb(0,0,0)",
+      "group": "功能",
+      "description": "视频播放之前，组件默认的背景颜色。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/fbc4htdr4eowgxaq#mD8q6\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>"
+    },
+    {
+      "attr": "baseURL",
+      "valueType": "URL",
+      "defaultValue": "/custom/libs/video/index.html",
+      "name": "组件地址",
+      "extraInfo": "*",
+      "description": ""
+    },
+    {
+      "attr": "videoURL",
+      "valueType": "String",
+      "name": "视频流",
+      "defaultValue": "https://ks3-cn-beijing.ksyun.com/ksplayer/h265/outside_demo/v1.1.3/720P2M30fpsh265-wasmtest.flv",
+      "description": "rtmp、flv等实时视频流URL地址。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/fbc4htdr4eowgxaq#JSEGl\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>"
+    },
+    {
+      "attr": "play",
+      "valueType": "Boolean",
+      "name": "预览",
+      "description": "打开实时监控画面。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/fbc4htdr4eowgxaq#KgtCj\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>"
+    },
+    {
+      "attr": "margin",
+      "valueType": "String",
+      "defaultValue": "0",
+      "extraInfo": "~"
+    }
+  ],
+  "snapshotURL": "symbols/develop/uiotos/arranged/controls/videos_icon/监控.json",
+  "renderHTML": "__ht__function(data, gv, cache) {return __video_flv(data,gv,cache);}",
+  "width": 360,
+  "height": 220,
+  "pixelPerfect": false,
+  "comps": []
+}

@@ -1,0 +1,192 @@
+{
+  "modified": "Thu Oct 24 2024 20:05:29 GMT+0800 (中国标准时间)",
+  "dataBindings": [
+    {
+      "attr": "symbol",
+      "valueType": "Image"
+    },
+    {
+      "attr": "openUrl",
+      "valueType": "String",
+      "description": "链接地址。运行模式下\n<br>点击，会在浏览器新页签打开地址。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#fwbjd\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+      "group": "功能"
+    },
+    {
+      "attr": "toolTip",
+      "valueType": "Boolean",
+      "description": "运行时提示是否可见。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#t0jA8\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+      "defaultValue": true
+    },
+    {
+      "attr": "disabled",
+      "valueType": "Boolean",
+      "description": "禁用。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#nmCQm\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>"
+    },
+    {
+      "attr": "enableMoveEvent",
+      "valueType": "Boolean",
+      "defaultValue": false,
+      "description": "启用鼠标移入、移出事件。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#qM9sv\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+      "name": "移入事件启用"
+    },
+    {
+      "attr": "bindTabview",
+      "valueType": "StringArray",
+      "defaultValue": [
+        "tab1",
+        -1
+      ],
+      "description": ""
+    },
+    {
+      "attr": "userData",
+      "valueType": "Object",
+      "description": "",
+      "defaultValue": []
+    },
+    {
+      "attr": "clicked",
+      "valueType": "Function",
+      "name": "点击事件",
+      "extraInfo": {
+        "arguments": [
+          "data",
+          "param"
+        ]
+      },
+      "description": "点击时触发。"
+    },
+    {
+      "attr": "onEnter",
+      "valueType": "Function",
+      "name": "移入事件",
+      "description": "鼠标移入时触发（需勾选“移入事件启用”才生效）。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#MuYaT\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+      "extraInfo": {
+        "arguments": [
+          "data",
+          "param"
+        ]
+      }
+    },
+    {
+      "attr": "onLeave",
+      "valueType": "Function",
+      "name": "移出事件",
+      "description": "鼠标移出时触发（需勾选“移入事件启用”才生效）。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#ATdMA\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+      "extraInfo": {
+        "arguments": [
+          "data",
+          "param"
+        ]
+      }
+    },
+    {
+      "attr": "param",
+      "valueType": "Function",
+      "name": "数据参数",
+      "extraInfo": {
+        "arguments": [
+          "data",
+          "gv"
+        ],
+        "classify": "*"
+      },
+      "defaultValue": "__ht__function(data, gv) {return null;}",
+      "description": "自定义传入参数。\n<br>用来点击事件clicked触发时传入。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#ta2kN\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>"
+    },
+    {
+      "attr": "path",
+      "valueType": "Image",
+      "defaultValue": "symbols/develop/uiotos/icons/editroToolBar/edit.json",
+      "name": "图标路径",
+      "description": "图标/图片地址，可以是绘制的，也能为空。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#sPqOO\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+      "group": "外观"
+    },
+    {
+      "attr": "default-background",
+      "valueType": "Color",
+      "defaultValue": "rgb(55,125,255)",
+      "name": "默认颜色",
+      "description": "默认背景色。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#R3jS0\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>"
+    },
+    {
+      "attr": "hover-background",
+      "valueType": "Color",
+      "defaultValue": "rgb(51,153,255)",
+      "name": "悬停颜色",
+      "description": "悬停颜色。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#Q4Hru\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>"
+    },
+    {
+      "attr": "click-background",
+      "valueType": "Color",
+      "defaultValue": "#60ACFC",
+      "name": "按下颜色",
+      "description": "按下颜色。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#Nselr\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>"
+    },
+    {
+      "attr": "bindControlsTag",
+      "valueType": "ObjectArray",
+      "group": "连线",
+      "description": ""
+    },
+    {
+      "attr": "bindControlsAttr",
+      "valueType": "ObjectArray",
+      "description": ""
+    },
+    {
+      "attr": "bindControlsVal",
+      "valueType": "ObjectArray",
+      "description": ""
+    },
+    {
+      "attr": "paramControlTag",
+      "valueType": "StringArray"
+    },
+    {
+      "attr": "paramControlAttr",
+      "valueType": "ObjectArray"
+    },
+    {
+      "attr": "paramsGenerator",
+      "valueType": "Function",
+      "defaultValue": "__ht__function(data, val, index, node,oldVal,form) {//绑定组索引对应的函数处理，用来动态生成复杂的参数变量传入\r\nswitch(index){\r\n    case 0:\r\n        break;\r\n    case 1:\r\n        break;\r\n    case 2:\r\n        break;\r\n    default:\r\n        break;\r\n}\r\n\r\nreturn val;}",
+      "extraInfo": {
+        "arguments": [
+          "data",
+          "val",
+          "index",
+          "node",
+          "oldVal",
+          "form"
+        ]
+      }
+    }
+  ],
+  "snapshotURL": "symbols/develop/uiotos/arranged/controls/forms_icon/图片按钮.json",
+  "onDown": "__ht__function(event, data, view, point, width, height) {\n!data.ca('disabled') && data.ca('icon-background',data.ca('click-background'))\n}",
+  "onUp": "__ht__function(event, data, view, point, width, height) {\nif(!data.ca('disabled')){\r\n    data.ca('icon-background',data.ca('hover-background'));\r\n    let cb = new Function('return ' + data.ca('clicked'))(),\r\n        cb2 = new Function('return ' + data.ca('onClick'))();//240523，兼容onClick命名\r\n    typeof(setBindTabviewIndex) != 'undefined' && setBindTabviewIndex(data,data.ca('bindTabview'));\r\n    let paramCb = new Function('return ' + data.ca('param'))();\r\n    let param = paramCb ? paramCb(data,view) : null;\r\n    if(typeof(i) != 'undefined' && typeof(i.updateBindControls) != 'undefined'){\r\n        //240304，需要改成i.formEventBubblingUpper，否则执行操作可能会出问题！比如tab页签索引切换，切换不了！\r\n        // i.updateBindControls(data,param,[],false,'~','clicked');//params是response的位置，所以得是对象类型\\\r\n        //触发事件连线操作\r\n        i.formEventBubblingUpper(\r\n            data,\r\n            data._gv,\r\n            data._cache,\r\n            'clicked',\r\n            null,\r\n            false\r\n        );\r\n    }\r\n    //230819，支持传入url，点击浏览器新窗口打开。\r\n    let urltmp = data.ca('openUrl');\r\n    if(urltmp && urltmp.indexOf('http') == -1) urltmp = 'http://' + urltmp;\r\n    urltmp && window.open(urltmp,'_blank');\r\n    \r\n    if(cb2) return cb2(data,param);\r\n    else return cb && cb(data,param)\r\n}\n}",
+  "onEnter": "__ht__function(event, data, view, point, width, height) {\nif(data.ca('disabled')){\r\n    view.getView().style.cursor = 'not-allowed'\r\n}else{\r\n    data.ca('icon-background',data.ca('hover-background'))\r\n    data.iv();\r\n    view.getView().style.cursor = 'pointer'\r\n    //241023，鼠标移入事件\r\n    if(data.ca('enableMoveEvent')){\r\n        i.formEventBubblingUpper(\r\n            data,\r\n            data._gv,\r\n            data._cache,\r\n            'onEnter',\r\n            null,\r\n            false\r\n        );\r\n    }\r\n}\n}",
+  "onLeave": "__ht__function(event, data, view, point, width, height) {\ndata.ca('icon-background',data.ca('default-background'))\r\nview.getView().style.cursor = 'default'\r\nif(!data.ca('disabled')){\r\n    //241023，鼠标移出事件\r\n    if(data.ca('enableMoveEvent')){\r\n        i.formEventBubblingUpper(\r\n            data,\r\n            data._gv,\r\n            data._cache,\r\n            'onLeave',\r\n            null,\r\n            false\r\n        );\r\n    }\r\n}\n}",
+  "renderHTML": "__ht__function(data, gv, cache) {return __iconClick(data,gv,cache);}",
+  "width": 100,
+  "height": 100,
+  "pixelPerfect": false,
+  "comps": [
+    {
+      "type": "image",
+      "color": null,
+      "name": {
+        "func": "__ht__function(data, view) {\nfunction func(data,view){\r\n    if((typeof(runningMode) != 'undefined' && !runningMode()) || view.getView().style.cursor != 'pointer'){//最好不用 == 'default'，因为存在代码初始赋值\r\n        data.ca('icon-background',data.ca('default-background'))\r\n    }\r\n    var typeArr = ['light','light','regular','light'] //枚举下拉选择\r\n    var typetmp = typeArr[data.ca('iconType')] //类型选择\r\n    var path = data.ca('path')                 //图标路径\r\n    if(path != undefined && path.trim() !== ''){\r\n        if(path.indexOf('.') == -1){           //传入图标文件名称时\r\n            console.error(2222222)\r\n            if(!i.isBase64(path)){\r\n                path = 'symbols/demo/uiotos/icons/' + typetmp + '/' + path + '.json'\r\n            }\r\n        }else if(path.indexOf(typetmp) == -1){ //图标类型发生变化时\r\n            typeArr.forEach((curType,index)=>{\r\n                if(curType != typetmp){        //路径中先前的类型名称换成新的\r\n                    path = path.replace(curType,typetmp)               \r\n                }\r\n            })\r\n        }\r\n    }\r\n    data.ca('path',path)                      //回写过去\r\n    return path\r\n}\r\n\r\n//整体复制的话需要带上这句，因为属性func外层已经是函数体\r\nreturn func(data,view)\n}",
+        "value": "symbols/demo/uiotos/icons/light/square-full.json"
+      },
+      "displayName": "democrat（democrat1）",
+      "rect": [
+        0,
+        0,
+        100,
+        100
+      ]
+    }
+  ]
+}

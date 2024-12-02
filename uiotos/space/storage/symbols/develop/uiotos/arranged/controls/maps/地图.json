@@ -1,0 +1,150 @@
+{
+  "modified": "Thu Aug 15 2024 14:39:37 GMT+0800 (中国标准时间)",
+  "dataBindings": [
+    {
+      "attr": "symbol",
+      "valueType": "Image"
+    },
+    {
+      "attr": "coord",
+      "valueType": "String",
+      "defaultValue": "114.0289878845215,22.609098421236595",
+      "group": "功能"
+    },
+    {
+      "attr": "latLonAlign",
+      "valueType": "Boolean",
+      "defaultValue": false
+    },
+    {
+      "attr": "zoom",
+      "valueType": "PositiveNumber",
+      "defaultValue": 12
+    },
+    {
+      "attr": "server",
+      "valueType": "String",
+      "defaultValue": "http://wprd04.is.autonavi.com/appmaptile?lang=zh_cn&size=1&style=7&x={x}&y={y}&z={z}"
+    },
+    {
+      "attr": "keys",
+      "valueType": "StringArray",
+      "defaultValue": [
+        "55f4a92e2e43f807ae4e6ea1ae1b014c"
+      ]
+    },
+    {
+      "attr": "default",
+      "valueType": "GismapTileType",
+      "defaultValue": 6
+    },
+    {
+      "attr": "userData",
+      "valueType": "Object",
+      "defaultValue": []
+    },
+    {
+      "attr": "onClick",
+      "valueType": "Function",
+      "extraInfo": {
+        "arguments": [
+          "data",
+          "gv",
+          "cache",
+          "param"
+        ]
+      },
+      "defaultValue": "__ht__function(data, gv, cache, param) {}"
+    },
+    {
+      "attr": "radius",
+      "valueType": "PositiveNumber",
+      "defaultValue": 1000,
+      "group": "搜索",
+      "description": "搜索周边半径。\n<br>高德API，不推荐使用，建议用API组件结合天地图接口实现。",
+      "name": "搜索半径"
+    },
+    {
+      "attr": "search",
+      "valueType": "String",
+      "description": "搜索关键词。\n<br>高德API，不推荐使用，建议用API组件结合天地图接口实现。"
+    },
+    {
+      "attr": "trigger",
+      "valueType": "Boolean",
+      "defaultValue": false,
+      "description": "执行搜索。\n<br>高德API，不推荐使用，建议用API组件结合天地图接口实现。"
+    },
+    {
+      "attr": "results",
+      "valueType": "ObjectArray",
+      "extraInfo": {
+        "arguments": [
+          "data",
+          "gv",
+          "cache",
+          "value"
+        ]
+      },
+      "description": "周边搜索结果。\n<br>高德API，不推荐使用，建议用API组件结合天地图接口实现。"
+    },
+    {
+      "attr": "error",
+      "valueType": "Object",
+      "description": "搜索错误信息。\n<br>高德API，不推荐使用，建议用API组件结合天地图接口实现。"
+    },
+    {
+      "attr": "markerSet",
+      "valueType": "Boolean",
+      "defaultValue": false,
+      "description": "设定地图标定点。\n<br>根据results属性来设定，只写触发，触发后会自动复位。"
+    },
+    {
+      "attr": "bindControlsTag",
+      "valueType": "StringArray",
+      "group": "连线"
+    },
+    {
+      "attr": "bindControlsAttr",
+      "valueType": "StringArray"
+    },
+    {
+      "attr": "bindControlsVal",
+      "valueType": "ObjectArray",
+      "description": ""
+    },
+    {
+      "attr": "paramControlTag",
+      "valueType": "StringArray"
+    },
+    {
+      "attr": "paramControlAttr",
+      "valueType": "StringArray"
+    },
+    {
+      "attr": "paramsGenerator",
+      "valueType": "Function",
+      "defaultValue": "__ht__function(data, val, index, node,oldVal,form,type,inner) {//绑定组索引对应的函数处理，用来动态生成复杂的参数变量传入\r\nswitch(index){\r\n    case 0:\r\n        break;\r\n    case 1:\r\n        break;\r\n    case 2:\r\n        break;\r\n    default:\r\n        break;\r\n}\r\n\r\nreturn val;}",
+      "extraInfo": {
+        "arguments": [
+          "data",
+          "val",
+          "index",
+          "node",
+          "oldVal",
+          "form",
+          "type",
+          "inner"
+        ],
+        "classify": "*"
+      }
+    }
+  ],
+  "snapshotURL": "symbols/develop/uiotos/arranged/controls/maps_icon/地图.json",
+  "renderHTML": "__ht__function(data, gv, cache) {return __coordgis_ui(data, gv, cache);}",
+  "width": 640,
+  "height": 480,
+  "scrollable": true,
+  "pixelPerfect": false,
+  "comps": []
+}

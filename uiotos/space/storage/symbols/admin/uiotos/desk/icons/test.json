@@ -1,0 +1,16 @@
+{
+  "modified": "Sat Sep 03 2022 10:13:31 GMT+0800 (中国标准时间)",
+  "background": "rgb(32,37,46)",
+  "dataBindings": [
+    {
+      "attr": "text",
+      "valueType": "String"
+    }
+  ],
+  "renderHTML": "__ht__function(data, gv, cache) {console.log(data)\r\n\r\nif (!cache.obj) {\r\n    function init() {\r\n        alert('hello')\r\n        var myview = new ht.ui.Label(); \r\n        myview.setText('121212')\r\n        \r\n        return myview;\r\n    }\r\n\r\n    var obj = cache.obj = init()\r\n    obj.layoutHTML = function () {\r\n        gv.layoutHTML(data, obj, false);\r\n    }\r\n}\r\n\r\ncache.obj.setText(data.ca('text'))\r\n\r\n\r\nreturn cache.obj;}",
+  "width": 100,
+  "height": 100,
+  "fitSize": true,
+  "pixelPerfect": false,
+  "comps": []
+}

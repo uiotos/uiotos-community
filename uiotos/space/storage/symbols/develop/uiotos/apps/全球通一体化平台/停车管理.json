@@ -1,0 +1,351 @@
+{
+    "modified": "Fri Aug 26 2022 05:00:03 GMT+0800 (中国标准时间)",
+    "background": "rgb(32,37,46)",
+    "dataBindings": [{
+            "attr": "ht.text",
+            "valueType": "String",
+            "name": "UIText"
+        },
+        {
+            "attr": "ht.disabled",
+            "valueType": "Boolean",
+            "name": "UIDisabled",
+            "defaultValue": false
+        },
+        {
+            "attr": "ht.font",
+            "valueType": "Font",
+            "name": "UIFont"
+        },
+        {
+            "attr": "ht.iconPosition",
+            "valueType": "Orientation",
+            "name": "UIIconPosition"
+        },
+        {
+            "attr": "ht.iconWidth",
+            "valueType": "PositiveNumber",
+            "name": "UIIconWidth"
+        },
+        {
+            "attr": "ht.iconHeight",
+            "valueType": "PositiveNumber",
+            "name": "UIIconHeight"
+        },
+        {
+            "attr": "ht.textColor",
+            "valueType": "Color",
+            "name": "UITextColor"
+        },
+        {
+            "attr": "ht.borderWidth",
+            "valueType": "PositiveNumber",
+            "defaultValue": 0,
+            "name": "UIBorderWidth"
+        },
+        {
+            "attr": "ht.borderColor",
+            "valueType": "Color",
+            "defaultValue": "rgba(61,61,61,0)",
+            "name": "UIBorderColor"
+        },
+        {
+            "attr": "ht.background",
+            "valueType": "Color",
+            "defaultValue": null,
+            "name": "UIBackground"
+        },
+        {
+            "attr": "ht.hoverBackground",
+            "valueType": "Color",
+            "name": "UIHoverBackground"
+        },
+        {
+            "attr": "ht.disabledBackground",
+            "valueType": "Color",
+            "name": "UIDisabledBackground"
+        },
+        {
+            "attr": "ht.borderRadius",
+            "valueType": "String",
+            "name": "UIBorderRadius"
+        },
+        {
+            "attr": "ht.onClick",
+            "valueType": "Function",
+            "name": "UIOnClick",
+            "extraInfo": {
+                "arguments": [
+                    "event",
+                    "data",
+                    "view"
+                ]
+            }
+        },
+        {
+            "attr": "iconColor",
+            "valueType": "Color",
+            "defaultValue": "rgb(255,255,255)"
+        },
+        {
+            "attr": "iconPath",
+            "valueType": "Image"
+        },
+        {
+            "attr": "iconType",
+            "valueType": "Level",
+            "defaultValue": 1
+        }
+    ],
+    "width": 400,
+    "height": 280,
+    "fitSize": true,
+    "comps": [{
+            "type": "roundRect",
+            "background": "rgb(21,31,51)",
+            "borderColor": "#979797",
+            "rect": [
+                0,
+                0,
+                400,
+                280
+            ]
+        },
+        {
+            "type": "text",
+            "text": "地库",
+            "align": "center",
+            "font": "14px arial, sans-serif",
+            "rect": [
+                21.29263,
+                60.52205,
+                50,
+                50
+            ]
+        },
+        {
+            "type": "text",
+            "text": "已使用",
+            "align": "center",
+            "font": "14px arial, sans-serif",
+            "rect": [
+                94.79263,
+                60.52205,
+                50,
+                50
+            ]
+        },
+        {
+            "type": "text",
+            "text": "剩余",
+            "align": "center",
+            "font": "14px arial, sans-serif",
+            "rect": [
+                168.29263,
+                59.93362,
+                50,
+                50
+            ]
+        },
+        {
+            "type": "text",
+            "text": "利用率",
+            "align": "center",
+            "font": "14px arial, sans-serif",
+            "rect": [
+                288.50088,
+                90,
+                50,
+                50
+            ]
+        },
+        {
+            "type": "text",
+            "text": "停车管理",
+            "color": "rgb(247,247,247)",
+            "font": "16px arial, sans-serif",
+            "shadowBlur": 1,
+            "shadowOffsetX": 1,
+            "rect": [
+                21.29263,
+                1.11557,
+                50,
+                50
+            ]
+        },
+        {
+            "type": "image",
+            "name": "symbols/admin/uiotos/base/button.json",
+            "rect": [
+                313.50088,
+                12.33448,
+                70.74056,
+                27.56217
+            ]
+        },
+        {
+            "type": "rect",
+            "background": "rgb(58,68,81)",
+            "borderColor": "#979797",
+            "rect": [
+                14.58525,
+                119.89722,
+                215.89775,
+                31.27478
+            ]
+        },
+        {
+            "type": "rect",
+            "background": "rgb(58,68,81)",
+            "borderColor": "#979797",
+            "rect": [
+                14.58525,
+                175.21083,
+                215.89775,
+                31.27478
+            ]
+        },
+        {
+            "type": "rect",
+            "background": "rgb(58,68,81)",
+            "borderColor": "#979797",
+            "rect": [
+                14.58525,
+                225.21083,
+                215.89775,
+                31.27478
+            ]
+        },
+        {
+            "type": "text",
+            "text": "A区域",
+            "align": "center",
+            "font": "14px arial, sans-serif",
+            "rect": [
+                21.29263,
+                109.93362,
+                50,
+                50
+            ]
+        },
+        {
+            "type": "text",
+            "text": "108",
+            "align": "center",
+            "font": "14px arial, sans-serif",
+            "rect": [
+                94.79263,
+                110.52205,
+                50,
+                50
+            ]
+        },
+        {
+            "type": "text",
+            "text": "256",
+            "align": "center",
+            "font": "14px arial, sans-serif",
+            "rect": [
+                168.29263,
+                110.53461,
+                50,
+                50
+            ]
+        },
+        {
+            "type": "text",
+            "text": "A区域",
+            "align": "center",
+            "font": "14px arial, sans-serif",
+            "rect": [
+                21.29263,
+                165.54772,
+                50,
+                50
+            ]
+        },
+        {
+            "type": "text",
+            "text": "108",
+            "align": "center",
+            "font": "14px arial, sans-serif",
+            "rect": [
+                94.79263,
+                166.13615,
+                50,
+                50
+            ]
+        },
+        {
+            "type": "text",
+            "text": "256",
+            "align": "center",
+            "font": "14px arial, sans-serif",
+            "rect": [
+                168.29263,
+                166.14871,
+                50,
+                50
+            ]
+        },
+        {
+            "type": "text",
+            "text": "A区域",
+            "align": "center",
+            "font": "14px arial, sans-serif",
+            "rect": [
+                21.29263,
+                215.54772,
+                50,
+                50
+            ]
+        },
+        {
+            "type": "text",
+            "text": "108",
+            "align": "center",
+            "font": "14px arial, sans-serif",
+            "rect": [
+                94.79263,
+                216.13615,
+                50,
+                50
+            ]
+        },
+        {
+            "type": "text",
+            "text": "256",
+            "align": "center",
+            "font": "14px arial, sans-serif",
+            "rect": [
+                168.29263,
+                216.14871,
+                50,
+                50
+            ]
+        },
+        {
+            "type": "image",
+            "stretch": "uniform",
+            "name": "symbols/admin/uiotos/base/processCircle.json",
+            "displayName": "processCircle",
+            "rect": [
+                263.50088,
+                151.172,
+                100,
+                100
+            ]
+        },
+        {
+            "type": "rect",
+            "background": "rgb(0,87,228)",
+            "borderColor": "#979797",
+            "rect": [
+                14.58525,
+                17.33286,
+                2.85576,
+                17.56542
+            ]
+        }
+    ]
+}

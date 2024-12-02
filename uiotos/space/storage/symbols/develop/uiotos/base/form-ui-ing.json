@@ -1,0 +1,34 @@
+{
+  "modified": "Sun Nov 06 2022 19:27:31 GMT+0800 (中国标准时间)",
+  "background": "rgb(32,37,46)",
+  "dataBindings": [
+    {
+      "attr": "icon",
+      "valueType": "Image"
+    },
+    {
+      "attr": "text",
+      "valueType": "String",
+      "defaultValue": "button"
+    },
+    {
+      "attr": "iconColor",
+      "valueType": "Color"
+    },
+    {
+      "attr": "iconType",
+      "valueType": "Level",
+      "defaultValue": 1
+    },
+    {
+      "attr": "iconPath",
+      "valueType": "Image"
+    }
+  ],
+  "renderHTML": "__ht__function(data, gv, cache) {if (!cache.obj) {\r\n\r\n    function init() {\r\n        layer = new ht.ui.HBoxLayout();\r\n\r\n \r\n\r\n        var textField = new ht.ui.TextField();\r\n        textField.setFormDataName('name');\r\n        layer.addView(textField);\r\n\r\n\r\n        var numberInput = new ht.ui.NumberInput();\r\n        numberInput.setFormDataName('age');\r\n        layer.addView(numberInput);\r\n\r\n        var hBox = new ht.ui.HBoxLayout();\r\n        ['read', 'movie', 'dance'].forEach(function (ele) {\r\n            var checkBox = new ht.ui.CheckBox();\r\n            checkBox.setText(ele);\r\n            checkBox.setValue(ele);\r\n            checkBox.setFormDataName('hobby');\r\n            hBox.addView(checkBox, {\r\n                height: 'match_parent',\r\n                marginRight: 6\r\n            });\r\n        });\r\n        layer.addView(hBox);\r\n\r\n        var hBox = new ht.ui.HBoxLayout();\r\n        var radios = new ht.ui.Radios();\r\n        ['1', '2', '3'].forEach(function (ele) {\r\n            var radioButton = new ht.ui.RadioButton();\r\n            radioButton.setRadios(radios);\r\n            radioButton.setText(ele);\r\n            radioButton.setValue(ele);\r\n            radioButton.setFormDataName('radio');\r\n            hBox.addView(radioButton, {\r\n                height: 'match_parent',\r\n                marginRight: 6\r\n            });\r\n        });\r\n        layer.addView(hBox);\r\n\r\n        var comboBox = new ht.ui.ComboBox();\r\n        comboBox.setReadOnly(true);\r\n        comboBox.setDatas([\r\n            {\r\n                id: undefined,\r\n                label: \"\"\r\n            },\r\n            {\r\n                id: '0',\r\n                label: 'Female'\r\n            },\r\n            {\r\n                id: '1',\r\n                label: 'Male'\r\n            }\r\n        ]);\r\n        comboBox.setFormDataName('gender');\r\n        layer.addView(comboBox);\r\n\r\n        var colorPicker = new ht.ui.ColorPicker();\r\n        colorPicker.setFormDataName('color');\r\n        layer.addView(colorPicker);\r\n\r\n        var toggleButton = new ht.ui.ToggleButton();\r\n        toggleButton.setFormDataName('toggle');\r\n        layer.addView(toggleButton, {\r\n            width: 'wrap_content',\r\n            height: 'wrap_content'\r\n        });\r\n\r\n        var slider = new ht.ui.Slider();\r\n        slider.setFormDataName('slider');\r\n        layer.addView(slider, {\r\n            width: 'wrap_content',\r\n            height: 'wrap_content'\r\n        });\r\n\r\n        var textField = window.fileList = new ht.ui.TextField();\r\n        textField.setFormDataName('myfile');\r\n        textField.setType('file');\r\n        layer.addView(textField);\r\n\r\n        var textArea = new ht.ui.TextArea();\r\n        textArea.setFormDataName('remark');\r\n        layer.addView(textArea);\r\n\r\n        var hBox = new ht.ui.HBoxLayout();\r\n        var submitButton = new ht.ui.Button();\r\n        hBox.setAlign('center');\r\n        submitButton.setText('Submit');\r\n        submitButton.setStyle('button-obvious');\r\n        hBox.addView(submitButton, {\r\n            height: 'match_parent',\r\n            marginRight: 20\r\n        });\r\n\r\n        var resetButton = new ht.ui.Button();\r\n        resetButton.setText('Reset');\r\n        resetButton.setStyle('button-minor');\r\n        hBox.addView(resetButton, {\r\n            height: 'match_parent',\r\n            marginRight: 20\r\n        });\r\n\r\n        var loadButton = new ht.ui.Button();\r\n        loadButton.setText('Load');\r\n        loadButton.setStyle('button-minor');\r\n        hBox.addView(loadButton, {\r\n            height: 'match_parent'\r\n        });\r\n\r\n        layer.addView(hBox, {\r\n            colspan: 2\r\n        });\r\n\r\n        // create Form\r\n        form = new ht.ui.Form(layer);\r\n\r\n        submitButton.on('click', function (e) {\r\n            console.error(JSON.stringify(form.getJSON(), null, 4))\r\n            textArea.setValue(JSON.stringify(form.getJSON(), null, 4));\r\n        });\r\n\r\n        resetButton.on('click', function (e) {\r\n            form.setJSON({});\r\n        });\r\n\r\n        loadButton.on('click', function (e) {\r\n            form.setJSON(textArea.getValue());\r\n        });\r\n\r\n        return layer;\r\n    }\r\n\r\n    // function init() {\r\n    //     var myview = new ht.ui.Form();\r\n        \r\n    //     return myview;\r\n    // }\r\n\r\n    var obj = cache.obj = init()\r\n    obj.layoutHTML = function () {\r\n        gv.layoutHTML(data, obj, runningMode());\r\n    }\r\n}\r\n\r\nreturn cache.obj;}",
+  "width": 200,
+  "height": 100,
+  "interactive": true,
+  "pixelPerfect": false,
+  "comps": []
+}

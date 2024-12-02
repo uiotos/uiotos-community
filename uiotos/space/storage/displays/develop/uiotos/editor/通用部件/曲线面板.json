@@ -1,0 +1,1238 @@
+{
+    "v": "7.7.5",
+    "p": {
+        "background": "#20252e",
+        "autoAdjustIndex": true,
+        "hierarchicalRendering": true
+    },
+    "a": {
+        "rotateAsClock": false,
+        "gridBlockSize": 20,
+        "connectActionType": null,
+        "fitContent": false,
+        "zoomable": false,
+        "rectSelectable": false,
+        "pannable": false
+    },
+    "d": [{
+            "c": "ht.Node",
+            "i": 28961,
+            "p": {
+                "name": "阴影边框",
+                "displayName": "阴影边框（阴影边框1）",
+                "tag": "阴影边框1",
+                "image": "symbols/develop/uiotos/common/阴影边框.json",
+                "position": {
+                    "x": -29.36154,
+                    "y": 163.26617
+                },
+                "width": 734.93522,
+                "height": 458.34461
+            },
+            "s": {
+                "label.position": 14,
+                "label.offset.x": -10,
+                "label.offset.y": 0,
+                "label.color": "rgb(61,61,61)",
+                "label.opacity": 0,
+                "interactive": true,
+                "image.stretch": "uniform",
+                "fullscreen": "fill",
+                "fullscreen.gap": 0,
+                "2d.selectable": false
+            },
+            "a": {
+                "background": "rgb(255,255,255)",
+                "radius": 10
+            }
+        },
+        {
+            "c": "ht.Node",
+            "i": 28962,
+            "p": {
+                "name": "title",
+                "displayName": "标签文字（title1）",
+                "toolTip": "<p style='color:rgb(242,83,75);margin-top:5px;margin-bottom:5px;font-weight:bold;line-height:1.5em;'>已被布局，不允许拖动（shift+回车可解除）</p>已被布局，不允许拖动",
+                "tag": "title1",
+                "dataBindings": {
+                    "a": {
+                        "labelColor": {
+                            "id": "iotos.form",
+                            "alias": "",
+                            "func": "__ht__function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        console.error(err);\r\n        return rawData;\r\n    }\r\n}",
+                            "idinfo": "",
+                            "isTplBinded": false
+                        },
+                        "borderColor": {
+                            "id": "iotos.form",
+                            "alias": "",
+                            "func": "__ht__function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        console.error(err);\r\n        return rawData;\r\n    }\r\n}",
+                            "idinfo": "",
+                            "isTplBinded": false
+                        },
+                        "text": {
+                            "id": "iotos.form",
+                            "alias": "",
+                            "func": "__ht__function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        console.error(err);\r\n        return rawData;\r\n    }\r\n}",
+                            "idinfo": "",
+                            "isTplBinded": false
+                        },
+                        "display": {
+                            "id": "iotos.form",
+                            "idinfo": "",
+                            "isTplBinded": false,
+                            "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+                        },
+                        "popDirection": {
+                            "id": "iotos.form",
+                            "idinfo": "",
+                            "isTplBinded": false,
+                            "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+                        },
+                        "popBackground": {
+                            "id": "iotos.form",
+                            "idinfo": "",
+                            "isTplBinded": false,
+                            "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+                        },
+                        "popPadding": {
+                            "id": "iotos.form",
+                            "idinfo": "",
+                            "isTplBinded": false,
+                            "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+                        },
+                        "popWidth": {
+                            "id": "iotos.form",
+                            "idinfo": "",
+                            "isTplBinded": false,
+                            "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+                        },
+                        "popHeight": {
+                            "id": "iotos.form",
+                            "idinfo": "",
+                            "isTplBinded": false,
+                            "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+                        },
+                        "popBorderColor": {
+                            "id": "iotos.form",
+                            "idinfo": "",
+                            "isTplBinded": false,
+                            "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+                        },
+                        "popBorderWidth": {
+                            "id": "iotos.form",
+                            "idinfo": "",
+                            "isTplBinded": false,
+                            "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+                        },
+                        "popBorderRadius": {
+                            "id": "iotos.form",
+                            "idinfo": "",
+                            "isTplBinded": false,
+                            "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+                        },
+                        "popTriggerEvent": {
+                            "id": "iotos.form",
+                            "idinfo": "",
+                            "isTplBinded": false,
+                            "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+                        }
+                    }
+                },
+                "image": {
+                    "modified": "Mon Apr 15 2024 07:11:41 GMT+0800 (中国标准时间)",
+                    "background": "rgb(32,37,46)",
+                    "dataBindings": [{
+                            "attr": "symbol",
+                            "valueType": "Image"
+                        },
+                        {
+                            "attr": "shadowBorder",
+                            "valueType": "NumberArray",
+                            "defaultValue": [
+                                0,
+                                0,
+                                8
+                            ],
+                            "group": "功能（关键）",
+                            "description": "阴影边框。\n<br>数组类型，比如0、0、8，作为边框\n<br>阴影显示的三个参数，可以分别调整。"
+                        },
+                        {
+                            "attr": "shadowColor",
+                            "valueType": "Color",
+                            "defaultValue": "rgba(55,125,255,0.50)",
+                            "description": "阴影边框色。"
+                        },
+                        {
+                            "attr": "shadowEnabled",
+                            "valueType": "Boolean",
+                            "defaultValue": false,
+                            "description": "阴影边框是否可见。"
+                        },
+                        {
+                            "attr": "text",
+                            "valueType": "String",
+                            "defaultValue": "文字",
+                            "description": "标签文字。\n<br>可以为空，当勾选四周任何一边时，则为线条，折线、\n<br>框线，可用于显示在非绘图组件上层。比如文本框、\n<br>容器等组件，始终会遮盖绘图组件包括矩形、连线。"
+                        },
+                        {
+                            "attr": "hAlign",
+                            "valueType": "HAlignType",
+                            "defaultValue": "left",
+                            "description": "文字水平对齐方式。"
+                        },
+                        {
+                            "attr": "vAlign",
+                            "valueType": "VAlignType",
+                            "defaultValue": "middle",
+                            "description": "文字垂直对齐方式。"
+                        },
+                        {
+                            "attr": "font",
+                            "valueType": "Font",
+                            "description": "文字字体。"
+                        },
+                        {
+                            "attr": "labelColor",
+                            "valueType": "Color",
+                            "defaultValue": "rgb(124,145,155)",
+                            "description": "文字颜色。"
+                        },
+                        {
+                            "attr": "background",
+                            "valueType": "Color",
+                            "defaultValue": null,
+                            "description": "背景颜色。"
+                        },
+                        {
+                            "attr": "borderColor",
+                            "valueType": "Color",
+                            "defaultValue": "rgb(124,145,155)",
+                            "description": "边框线颜色。"
+                        },
+                        {
+                            "attr": "borderWidth",
+                            "valueType": "PositiveNumber",
+                            "defaultValue": 3,
+                            "description": "边框线宽度。"
+                        },
+                        {
+                            "attr": "borderRadius",
+                            "valueType": "NumberArray",
+                            "defaultValue": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ],
+                            "description": "边框圆角半径。"
+                        },
+                        {
+                            "attr": "padding",
+                            "valueType": "NumberArray",
+                            "defaultValue": [
+                                2,
+                                2,
+                                2,
+                                5
+                            ],
+                            "description": "四周间距。\n<br>数组类型，上、右、下、左，表示文字与\n<br>四周边框的距离。"
+                        },
+                        {
+                            "attr": "borderLeft",
+                            "valueType": "Boolean",
+                            "defaultValue": true,
+                            "description": "是否显示左边框。"
+                        },
+                        {
+                            "attr": "borderTop",
+                            "valueType": "Boolean",
+                            "description": "是否显示上边框。"
+                        },
+                        {
+                            "attr": "borderRight",
+                            "valueType": "Boolean",
+                            "description": "是否显示右边框。"
+                        },
+                        {
+                            "attr": "borderDown",
+                            "valueType": "Boolean",
+                            "description": "是否显示下边框。"
+                        },
+                        {
+                            "attr": "display",
+                            "name": "display",
+                            "valueType": "Image",
+                            "defaultValue": "",
+                            "description": "自定义页面地址。\n                可以是编辑器中的其他页面，也可以\n                是外部网页链接地址。",
+                            "group": "弹出框",
+                            "dynamicCreate": true
+                        },
+                        {
+                            "attr": "popDirection",
+                            "name": "popDirection",
+                            "valueType": "SideDirection",
+                            "defaultValue": "right",
+                            "description": "提示显示位置。",
+                            "dynamicCreate": true
+                        },
+                        {
+                            "attr": "popBackground",
+                            "name": "popBackground",
+                            "valueType": "Color",
+                            "defaultValue": "white",
+                            "description": "箭头和背景色。",
+                            "dynamicCreate": true
+                        },
+                        {
+                            "attr": "popPadding",
+                            "name": "padding",
+                            "valueType": "NumberArray",
+                            "defaultValue": [
+                                2,
+                                2,
+                                2,
+                                2
+                            ],
+                            "description": "内间距。",
+                            "dynamicCreate": true
+                        },
+                        {
+                            "attr": "popWidth",
+                            "name": "popWidth",
+                            "valueType": "Number",
+                            "defaultValue": 400,
+                            "description": "弹出框宽度。",
+                            "dynamicCreate": true
+                        },
+                        {
+                            "attr": "popHeight",
+                            "name": "popHeight",
+                            "valueType": "Number",
+                            "defaultValue": 300,
+                            "description": "弹出框高度。",
+                            "dynamicCreate": true
+                        },
+                        {
+                            "attr": "popBorderColor",
+                            "name": "popBorderColor",
+                            "valueType": "Color",
+                            "defaultValue": "rgb(51,51,51)",
+                            "description": "边框线颜色。\n                    注意，是设置了边框宽度非0后的边框颜色。\n                    默认边框宽度属性为0时，实际上是白色并\n                    带有箭头指示的边框。本属性不用于修改默\n                    认边框色。",
+                            "dynamicCreate": true
+                        },
+                        {
+                            "attr": "popBorderWidth",
+                            "name": "popBorderWidth",
+                            "valueType": "Number",
+                            "defaultValue": 0,
+                            "description": "边框线宽度。\n                    默认值为0，此时边框默认为白色并且带有\n                    箭头指示。当设置宽度后，颜色将取边框颜\n                    色属性的设置，并且不再有箭头指示。",
+                            "dynamicCreate": true
+                        },
+                        {
+                            "attr": "popBorderRadius",
+                            "name": "popBorderRadius",
+                            "valueType": "Number",
+                            "defaultValue": 0,
+                            "description": "边框线圆角。\n                    设置圆角线后，如果此前默认是白色边框带有\n                    指示箭头，那么将自动不可见，只对内容区域\n                    产生圆角。",
+                            "dynamicCreate": true
+                        },
+                        {
+                            "attr": "popTriggerEvent",
+                            "name": "popTriggerEvent",
+                            "valueType": "MouseEvent",
+                            "defaultValue": "hover",
+                            "description": "触发方式。\n                支持鼠标移入、点击（按钮时）\n                两种触发提示的方式。",
+                            "dynamicCreate": true
+                        },
+                        {
+                            "attr": "useAttrCORS",
+                            "valueType": "Boolean",
+                            "defaultValue": false,
+                            "description": "属性同源操作。\n                连线操作传递是否限定双方。比如有A/B/C/D/O五个组件，连线操作关系：\n                A→O、B→O、C→O、D→O，以及O→A、O→B、O→C、O→D，总结为\n                A、B、C、D分别与O有往返操作。\n                默认不勾选该属性时，A到D任何一个向O的连线操作，都不会影响到O自身\n                对A到D的下一步操作。勾选了该属性后，那么每次相邻的两次连线交互，\n                则会有同源选择性，比如A→O，下一步则O之会选择到A的操作即O→A。\n                同源操作通常用户多个组件共用一个配置弹窗的情况，比如上述A、B、C、D\n                相当于是四个同类型的组件，而O是公共的属性配置窗口，任何一个比如A点\n                击，可通过O弹窗显示属性，然后修改后将属性值回写到A，且并不会将值给\n                到其他几个组件，即便有连线在。\n                同源操作规则：当连线满足A/B→O.x，且有O.x→A/B时，即前一次组件A连线\n                操作O的x属性，那么，O对外触发且关联x属性值对外时，勾选了本属性同源\n                属性操作的前提下，将只会执行O.x→A，而忽略O.x→B/C等其他非A的图元组\n                件的连线操作。",
+                            "dynamicCreate": true
+                        }
+                    ],
+                    "renderHTML": "__ht__function(data, gv, cache) {return __label_ui(data,gv,cache);}",
+                    "width": 50,
+                    "height": 20,
+                    "pixelPerfect": false,
+                    "comps": [],
+                    "uuid": "57107BE9-E147-4223-9EDD-9765E8F71BB2"
+                },
+                "host": {
+                    "__i": 28961
+                },
+                "position": {
+                    "x": -29.36154,
+                    "y": -31.49875
+                },
+                "scale": {
+                    "x": 0.95,
+                    "y": 0.93
+                },
+                "width": 734.93522,
+                "height": 39.49533
+            },
+            "s": {
+                "label.opacity": 0,
+                "label.position": 14,
+                "label.offset.x": -10,
+                "label.offset.y": 0,
+                "label.color": "rgb(61,61,61)",
+                "interactive": true,
+                "image.stretch": "uniform",
+                "2d.movable": false,
+                "layout.h": "leftright",
+                "layout.v": "top"
+            },
+            "a": {
+                "text": "文字",
+                "borderLeft": false,
+                "borderDown": true,
+                "borderWidth": 1,
+                "labelColor": "rgb(61,61,61)",
+                "borderColor": "rgba(124,146,156,0.5)",
+                "symbol": "symbols/develop/uiotos/base/label_ui.json",
+                "toolTipRaw": "<p style='color:rgb(242,83,75);margin-top:5px;margin-bottom:5px;font-weight:bold;line-height:1.5em;'>已被布局，不允许拖动（shift+回车可解除）</p>已被布局，不允许拖动"
+            }
+        },
+        {
+            "c": "ht.Node",
+            "i": 29250,
+            "p": {
+                "name": "chart",
+                "displayName": "统计曲线（chart1）",
+                "toolTip": "<p style='color:rgb(242,83,75);margin-top:5px;margin-bottom:5px;font-weight:bold;line-height:1.5em;'>已被布局，不允许拖动（shift+回车可解除）</p>",
+                "tag": "chart1",
+                "dataBindings": {
+                    "a": {
+                        "names": {
+                            "id": "iotos.form",
+                            "idinfo": "",
+                            "isTplBinded": false,
+                            "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+                        },
+                        "widths": {
+                            "id": "iotos.form",
+                            "idinfo": "",
+                            "isTplBinded": false,
+                            "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+                        },
+                        "xAxis.data": {
+                            "id": "iotos.form",
+                            "idinfo": "",
+                            "isTplBinded": false,
+                            "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+                        },
+                        "colors": {
+                            "id": "iotos.form",
+                            "idinfo": "",
+                            "isTplBinded": false,
+                            "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+                        },
+                        "colorStops": {
+                            "id": "iotos.form",
+                            "idinfo": "",
+                            "isTplBinded": false,
+                            "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+                        },
+                        "lineDots": {
+                            "id": "iotos.form",
+                            "idinfo": "",
+                            "isTplBinded": false,
+                            "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+                        },
+                        "itemSize": {
+                            "id": "iotos.form",
+                            "idinfo": "",
+                            "isTplBinded": false,
+                            "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+                        },
+                        "colorItems": {
+                            "id": "iotos.form",
+                            "idinfo": "",
+                            "isTplBinded": false,
+                            "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+                        },
+                        "markValues": {
+                            "id": "iotos.form",
+                            "idinfo": "",
+                            "isTplBinded": false,
+                            "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+                        },
+                        "markColors": {
+                            "id": "iotos.form",
+                            "idinfo": "",
+                            "isTplBinded": false,
+                            "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+                        },
+                        "display": {
+                            "id": "iotos.form",
+                            "idinfo": "",
+                            "isTplBinded": false,
+                            "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+                        },
+                        "popDirection": {
+                            "id": "iotos.form",
+                            "idinfo": "",
+                            "isTplBinded": false,
+                            "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+                        },
+                        "popBackground": {
+                            "id": "iotos.form",
+                            "idinfo": "",
+                            "isTplBinded": false,
+                            "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+                        },
+                        "popPadding": {
+                            "id": "iotos.form",
+                            "idinfo": "",
+                            "isTplBinded": false,
+                            "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+                        },
+                        "popWidth": {
+                            "id": "iotos.form",
+                            "idinfo": "",
+                            "isTplBinded": false,
+                            "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+                        },
+                        "popHeight": {
+                            "id": "iotos.form",
+                            "idinfo": "",
+                            "isTplBinded": false,
+                            "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+                        },
+                        "popBorderColor": {
+                            "id": "iotos.form",
+                            "idinfo": "",
+                            "isTplBinded": false,
+                            "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+                        },
+                        "popBorderWidth": {
+                            "id": "iotos.form",
+                            "idinfo": "",
+                            "isTplBinded": false,
+                            "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+                        },
+                        "popBorderRadius": {
+                            "id": "iotos.form",
+                            "idinfo": "",
+                            "isTplBinded": false,
+                            "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+                        },
+                        "popTriggerEvent": {
+                            "id": "iotos.form",
+                            "idinfo": "",
+                            "isTplBinded": false,
+                            "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+                        },
+                        "_chart_0": {
+                            "id": "iotos.form",
+                            "idinfo": "",
+                            "isTplBinded": false,
+                            "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+                        },
+                        "_yAxis_data_0": {
+                            "id": "iotos.form",
+                            "idinfo": "",
+                            "isTplBinded": false,
+                            "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+                        },
+                        "_chart_1": {
+                            "id": "iotos.form",
+                            "idinfo": "",
+                            "isTplBinded": false,
+                            "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+                        },
+                        "_yAxis_data_1": {
+                            "id": "iotos.form",
+                            "idinfo": "",
+                            "isTplBinded": false,
+                            "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+                        },
+                        "_chart_2": {
+                            "id": "iotos.form",
+                            "idinfo": "",
+                            "isTplBinded": false,
+                            "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+                        },
+                        "_yAxis_data_2": {
+                            "id": "iotos.form",
+                            "idinfo": "",
+                            "isTplBinded": false,
+                            "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+                        }
+                    }
+                },
+                "image": {
+                    "modified": "Thu May 16 2024 08:10:50 GMT+0800 (中国标准时间)",
+                    "background": "rgb(32,37,46)",
+                    "dataBindings": [{
+                            "attr": "symbol",
+                            "valueType": "Image",
+                            "defaultValue": "symbols/develop/uiotos/base/chart.json",
+                            "description": "组件地址字符串"
+                        },
+                        {
+                            "valueType": "PositiveNumber",
+                            "group": "功能（关键）",
+                            "attr": "sizeSet",
+                            "defaultValue": "3",
+                            "description": "设置当前图表中曲线（平滑曲线、柱状图）的数量。支持动态增加或减少，\n相应的_chart_[索引]、_yAxis_data_[索引]也会动态增加或减少，其中索引\n从0开始，最大值为sizeSet设定的值减去1。"
+                        },
+                        {
+                            "attr": "_chart_2",
+                            "valueType": "ChartType",
+                            "defaultValue": "line",
+                            "description": "图表曲线类型，包括平滑曲线、柱状图。其中属性名称末尾的数字为图表曲线的索引。",
+                            "dynamicCreate": true
+                        },
+                        {
+                            "attr": "_chart_1",
+                            "valueType": "ChartType",
+                            "defaultValue": "line",
+                            "description": "图表曲线类型，包括平滑曲线、柱状图。其中属性名称末尾的数字为图表曲线的索引。",
+                            "dynamicCreate": true
+                        },
+                        {
+                            "attr": "_chart_0",
+                            "valueType": "ChartType",
+                            "defaultValue": "line",
+                            "description": "图表曲线类型，包括平滑曲线、柱状图。其中属性名称末尾的数字为图表曲线的索引。",
+                            "dynamicCreate": true
+                        },
+                        {
+                            "attr": "names",
+                            "valueType": "StringArray",
+                            "description": "多条曲线分别对应的名称。"
+                        },
+                        {
+                            "attr": "widths",
+                            "valueType": "NumberArray",
+                            "description": "对于“柱状图”，值为0~1时，为比例，默认值为0.4。大于或等于1则作为像素宽度。\n其中柱状图的像素宽度需要大于10，否则会默认被恢复成0.4的比例宽度。\n同样，对于“平滑曲线”，宽度值为大于等于1的像素值，默认为1。当对曲线设置小\n于1的宽度，值会自动被恢复成1。"
+                        },
+                        {
+                            "attr": "lineDots",
+                            "valueType": "NumberArray",
+                            "description": "当相应索引的值大于0时，对应索引的曲线就会为虚线，以值作为曲线的线段长度。\n默认值为0，此时曲线为实线。"
+                        },
+                        {
+                            "attr": "itemSize",
+                            "valueType": "NumberArray",
+                            "description": "数据点在曲线中的小圆点显示的大小。"
+                        },
+                        {
+                            "attr": "colors",
+                            "valueType": "ColorArray",
+                            "description": "数组中相应索引的颜色对应相应索引的曲线或柱状图的颜色。其中如果colorStops\n对应索引的颜色值存在且透明度不为0，此时与colors对应索引的颜色一起，组成了\n曲线与横轴围成的阴影区域的渐变色。"
+                        },
+                        {
+                            "attr": "colorStops",
+                            "valueType": "ColorArray",
+                            "description": "用于平滑曲线的面积阴影。当对应索引位置有透明度非0的颜色时，\n平滑曲线的面积阴影区域将以colorStops和colors颜色的渐变进行填充。\n当colorStops的索引位置颜色为undefined或者透明度为0时，曲线将\n无阴影面积颜色填充，只有曲线颜色按照colors对应索引位置的颜色进行\n显示。"
+                        },
+                        {
+                            "attr": "colorItems",
+                            "valueType": "ColorArray",
+                            "description": "曲线中数据小圆点的背景颜色。默认为曲线自身的颜色。"
+                        },
+                        {
+                            "attr": "markValues",
+                            "valueType": "NumberArray",
+                            "defaultValue": [],
+                            "description": "水平标记刻度线在纵轴对应的值，可以有多条，通常数量为2。"
+                        },
+                        {
+                            "attr": "markColors",
+                            "valueType": "ColorArray",
+                            "defaultValue": [
+                                "rgb(255,0,0,1)",
+                                "rgb(255,165,0,1)"
+                            ],
+                            "description": "水平标记刻度线对应的颜色，可以有多条。"
+                        },
+                        {
+                            "attr": "xAxis.data",
+                            "valueType": "StringArray",
+                            "defaultValue": [
+                                "2013",
+                                "2014",
+                                "2015",
+                                "2016",
+                                "2017",
+                                "2018",
+                                "2019",
+                                "2020",
+                                "2021"
+                            ],
+                            "description": "横轴（x轴）的数据列表，数组形式，比如[2019,2020,2021,2022]。注意，横轴是任意具体显示文字，\n可以是数字或文字，并非时间滚动曲线。横轴的数据，平分整个组件在横轴上的空间。"
+                        },
+                        {
+                            "attr": "_yAxis_data_2",
+                            "valueType": "NumberArray",
+                            "defaultValue": 0,
+                            "description": "图表曲线的数据（y轴），其中名称末尾的数字为索引，表明指定曲线的y轴数据。",
+                            "dynamicCreate": true
+                        },
+                        {
+                            "attr": "_yAxis_data_1",
+                            "valueType": "NumberArray",
+                            "defaultValue": 0,
+                            "description": "图表曲线的数据（y轴），其中名称末尾的数字为索引，表明指定曲线的y轴数据。",
+                            "dynamicCreate": true
+                        },
+                        {
+                            "attr": "_yAxis_data_0",
+                            "valueType": "NumberArray",
+                            "defaultValue": 0,
+                            "description": "图表曲线的数据（y轴），其中名称末尾的数字为索引，表明指定曲线的y轴数据。",
+                            "dynamicCreate": true
+                        },
+                        {
+                            "attr": "rollingSize",
+                            "valueType": "PositiveNumber",
+                            "description": "曲线滚动时，数据数组滚动时最大数量rollingSize，即超过该值再追加数据时，\n会挤掉开头一个数据，以此类推形成曲线滚动。当值为空或小于等于0时，不会\n自动滚动，按照追加后的完整数据进行曲线展示。"
+                        },
+                        {
+                            "attr": "background",
+                            "valueType": "Color",
+                            "description": "图表组件的背景颜色。"
+                        },
+                        {
+                            "attr": "boundaryGap",
+                            "valueType": "Boolean",
+                            "defaultValue": true,
+                            "description": "坐标轴是否留白。不勾选时，横向坐标轴的数据从原点（横纵坐标轴交叉点）开始，\n这样会跟纵轴的起始值在数值标记上重叠。当勾选后，坐标轴留白，会让横轴内容\n留出空间，避免数值跟原点重叠。"
+                        },
+                        {
+                            "attr": "tooltipFormat",
+                            "valueType": "Function",
+                            "extraInfo": {
+                                "arguments": [
+                                    "label",
+                                    "datas",
+                                    "info",
+                                    "node",
+                                    "view"
+                                ]
+                            },
+                            "defaultValue": "__ht__function(label, datas, info, node, view) {/*\r\n参数说明：\r\nlabel：提示标题文字，默认为x轴当前值\r\ndatas：按照曲线索引顺序，指定x轴值对应在y轴各曲线的当前值\r\ninfo/node/view：原始显示信息的对象、图元对象、视图对象\r\n返回格式为：\r\n[label,data0,data1,data2]。\r\n示例：\r\n['提示：' + label,datas[0] + '%',datas[1] + '℃',datas[2] + 'mmp']\r\n\r\n注意，返回数组的第一个为label标题文字，剩下的依次是按照索引的曲线值。\r\n*/\r\nreturn [label,...datas]}",
+                            "description": "参数说明：\nlabel：提示标题文字，默认为x轴当前值\ndatas：按照曲线索引顺序，指定x轴值对应在y轴各曲线的当前值\ninfo/node/view：原始显示信息的对象、图元对象、视图对象\n返回格式为：\n[label,data0,data1,data2]。\n\n| 注意，返回数组的第一个为label标题文字，剩下的依次是按照索引的曲线值。"
+                        },
+                        {
+                            "attr": "axisLabel.color",
+                            "valueType": "Color",
+                            "defaultValue": "rgb(61,61,61)",
+                            "description": "横纵坐标轴上文字的颜色。"
+                        },
+                        {
+                            "attr": "axisLine.color",
+                            "valueType": "Color",
+                            "defaultValue": "rgb(61,61,61)",
+                            "description": "横纵坐标轴颜色。"
+                        },
+                        {
+                            "attr": "axisTick.show",
+                            "valueType": "Boolean",
+                            "defaultValue": true,
+                            "description": "横纵坐标轴上的刻度标记是否可见。"
+                        },
+                        {
+                            "attr": "splitLineY.show",
+                            "valueType": "Boolean",
+                            "defaultValue": false,
+                            "description": "纵轴刻度对应在水平方向的横线是否可见。"
+                        },
+                        {
+                            "attr": "splitLineX.show",
+                            "valueType": "Boolean",
+                            "description": "横轴刻度对应在垂直方向的竖线是否可见。"
+                        },
+                        {
+                            "attr": "splitLine.color",
+                            "valueType": "Color",
+                            "defaultValue": "rgba(128,128,128,0.3)",
+                            "description": "图表在横轴或纵轴根据刻度的等分分隔线颜色。"
+                        },
+                        {
+                            "attr": "barCategoryGap",
+                            "valueType": "Number",
+                            "defaultValue": 20,
+                            "description": "如果多组数据是按照柱状图类型展示，本属性就用于设置多组柱状图之间的间距，\n体现出柱状图在横轴上分组展示。"
+                        },
+                        {
+                            "attr": "display",
+                            "name": "display",
+                            "valueType": "Image",
+                            "defaultValue": "",
+                            "description": "自定义页面地址。\n                可以是编辑器中的其他页面，也可以\n                是外部网页链接地址。",
+                            "group": "弹出框",
+                            "dynamicCreate": true
+                        },
+                        {
+                            "attr": "popDirection",
+                            "name": "popDirection",
+                            "valueType": "SideDirection",
+                            "defaultValue": "right",
+                            "description": "提示显示位置。",
+                            "dynamicCreate": true
+                        },
+                        {
+                            "attr": "popBackground",
+                            "name": "popBackground",
+                            "valueType": "Color",
+                            "defaultValue": "white",
+                            "description": "箭头和背景色。",
+                            "dynamicCreate": true
+                        },
+                        {
+                            "attr": "popPadding",
+                            "name": "padding",
+                            "valueType": "NumberArray",
+                            "defaultValue": [
+                                2,
+                                2,
+                                2,
+                                2
+                            ],
+                            "description": "内间距。",
+                            "dynamicCreate": true
+                        },
+                        {
+                            "attr": "popWidth",
+                            "name": "popWidth",
+                            "valueType": "Number",
+                            "defaultValue": 400,
+                            "description": "弹出框宽度。",
+                            "dynamicCreate": true
+                        },
+                        {
+                            "attr": "popHeight",
+                            "name": "popHeight",
+                            "valueType": "Number",
+                            "defaultValue": 300,
+                            "description": "弹出框高度。",
+                            "dynamicCreate": true
+                        },
+                        {
+                            "attr": "popBorderColor",
+                            "name": "popBorderColor",
+                            "valueType": "Color",
+                            "defaultValue": "rgb(51,51,51)",
+                            "description": "边框线颜色。\n                    注意，是设置了边框宽度非0后的边框颜色。\n                    默认边框宽度属性为0时，实际上是白色并\n                    带有箭头指示的边框。本属性不用于修改默\n                    认边框色。",
+                            "dynamicCreate": true
+                        },
+                        {
+                            "attr": "popBorderWidth",
+                            "name": "popBorderWidth",
+                            "valueType": "Number",
+                            "defaultValue": 0,
+                            "description": "边框线宽度。\n                    默认值为0，此时边框默认为白色并且带有\n                    箭头指示。当设置宽度后，颜色将取边框颜\n                    色属性的设置，并且不再有箭头指示。",
+                            "dynamicCreate": true
+                        },
+                        {
+                            "attr": "popBorderRadius",
+                            "name": "popBorderRadius",
+                            "valueType": "Number",
+                            "defaultValue": 0,
+                            "description": "边框线圆角。\n                    设置圆角线后，如果此前默认是白色边框带有\n                    指示箭头，那么将自动不可见，只对内容区域\n                    产生圆角。",
+                            "dynamicCreate": true
+                        },
+                        {
+                            "attr": "popTriggerEvent",
+                            "name": "popTriggerEvent",
+                            "valueType": "MouseEvent",
+                            "defaultValue": "hover",
+                            "description": "触发方式。\n                支持鼠标移入、点击（按钮时）\n                两种触发提示的方式。",
+                            "dynamicCreate": true
+                        },
+                        {
+                            "attr": "useAttrCORS",
+                            "valueType": "Boolean",
+                            "defaultValue": false,
+                            "description": "属性同源操作。\n                连线操作传递是否限定双方。比如有A/B/C/D/O五个组件，连线操作关系：\n                A→O、B→O、C→O、D→O，以及O→A、O→B、O→C、O→D，总结为\n                A、B、C、D分别与O有往返操作。\n                默认不勾选该属性时，A到D任何一个向O的连线操作，都不会影响到O自身\n                对A到D的下一步操作。勾选了该属性后，那么每次相邻的两次连线交互，\n                则会有同源选择性，比如A→O，下一步则O之会选择到A的操作即O→A。\n                同源操作通常用户多个组件共用一个配置弹窗的情况，比如上述A、B、C、D\n                相当于是四个同类型的组件，而O是公共的属性配置窗口，任何一个比如A点\n                击，可通过O弹窗显示属性，然后修改后将属性值回写到A，且并不会将值给\n                到其他几个组件，即便有连线在。\n                同源操作规则：当连线满足A/B→O.x，且有O.x→A/B时，即前一次组件A连线\n                操作O的x属性，那么，O对外触发且关联x属性值对外时，勾选了本属性同源\n                属性操作的前提下，将只会执行O.x→A，而忽略O.x→B/C等其他非A的图元组\n                件的连线操作。",
+                            "dynamicCreate": true
+                        }
+                    ],
+                    "snapshotURL": "symbols/develop/uiotos/arranged/controls/charts_icon/统计曲线.json",
+                    "renderHTML": "__ht__function(data, gv, cache) {return __chartInterval(data, gv, cache,'chart','统计曲线');}",
+                    "width": 420,
+                    "height": 280,
+                    "boundExtend": 10,
+                    "fitSize": true,
+                    "interactive": true,
+                    "pixelPerfect": false,
+                    "attachStyle": "close",
+                    "comps": [{
+                        "type": "components/develop/uiotos/base/chart.json",
+                        "displayName": "chart",
+                        "rect": [
+                            0,
+                            0,
+                            420,
+                            280
+                        ],
+                        "onClick": "__ht__function(event, data, view, point, width, height) {\nht.vector.chartInteractor.onClick.apply(this, arguments);\n}",
+                        "onDown": "__ht__function(event, data, view, point, width, height) {\nht.vector.chartInteractor.onDown.apply(this, arguments);\n}",
+                        "onUp": "__ht__function(event, data, view, point, width, height) {\nht.vector.chartInteractor.onUp.apply(this, arguments);\n}",
+                        "onMove": "__ht__function(event, data, view, point, width, height) {\nht.vector.chartInteractor.onMove.apply(this, arguments);\n}",
+                        "onEnter": "__ht__function(event, data, view, point, width, height) {\nht.vector.chartInteractor.onEnter.apply(this, arguments);\n}",
+                        "onLeave": "__ht__function(event, data, view, point, width, height) {\nht.vector.chartInteractor.onLeave.apply(this, arguments);\n}",
+                        "onBeginDrag": "__ht__function(event, data, view, point, width, height) {\nht.vector.chartInteractor.onBeginDrag.apply(this, arguments);\n}",
+                        "onDrag": "__ht__function(event, data, view, point, width, height) {\nht.vector.chartInteractor.onDrag.apply(this, arguments);\n}",
+                        "onEndDrag": "__ht__function(event, data, view, point, width, height) {\nht.vector.chartInteractor.onEndDrag.apply(this, arguments);\n}",
+                        "series": {
+                            "func": "attr@series",
+                            "value": [{
+                                    "type": "bar",
+                                    "barWidth": 0.4,
+                                    "data": [
+                                        10,
+                                        14,
+                                        6,
+                                        12,
+                                        19,
+                                        12,
+                                        16,
+                                        8,
+                                        13
+                                    ]
+                                },
+                                {
+                                    "type": "line",
+                                    "smooth": true,
+                                    "lineWidth": 0.4,
+                                    "data": [
+                                        10,
+                                        14,
+                                        6,
+                                        12,
+                                        19,
+                                        12,
+                                        16,
+                                        8,
+                                        13
+                                    ]
+                                },
+                                {
+                                    "type": "line",
+                                    "smooth": true,
+                                    "lineWidth": 0.4,
+                                    "data": [
+                                        5,
+                                        17,
+                                        20,
+                                        18,
+                                        12,
+                                        25,
+                                        19,
+                                        30,
+                                        6
+                                    ]
+                                }
+                            ]
+                        },
+                        "xAxis": {
+                            "func": "__ht__function(data, view) {\nreturn [\r\n    {\r\n        \"axisLabel\": {\r\n            \"color\": data.ca('axisLabel.color')\r\n        },\r\n        \"axisTick\": {\r\n            \"show\": data.ca('axisTick.show'),\r\n            \"color\": data.ca('axisLine.color')\r\n        },\r\n        \"axisLine\": {\r\n            \"show\": true,\r\n            \"color\": data.ca('axisLine.color')\r\n        },\r\n        \"splitLine\": {\r\n            \"show\": data.ca('splitLineX.show'),\r\n            \"color\": data.ca('splitLine.color')\r\n        },\r\n        \"data\": data.ca('xAxis.data')\r\n    }\r\n]\n}",
+                            "value": [{
+                                "axisLabel": {
+                                    "color": "rgb(51,153,255)"
+                                },
+                                "axisTick": {
+                                    "show": true,
+                                    "color": "rgba(51,153,255,0.2)"
+                                },
+                                "axisLine": {
+                                    "show": true,
+                                    "color": "rgb(51,153,255)"
+                                },
+                                "splitLine": {
+                                    "show": false,
+                                    "color": "rgba(51,153,255,0.1)"
+                                },
+                                "data": [
+                                    "2011",
+                                    "2012",
+                                    "2013",
+                                    "2014",
+                                    "2015",
+                                    "2016",
+                                    "2017",
+                                    "2018",
+                                    "2019"
+                                ]
+                            }]
+                        },
+                        "yAxis": {
+                            "func": "__ht__function(data, view) {\nlet param = {\r\n    \"axisLabel\": {\r\n        \"color\": data.ca('axisLabel.color')\r\n    },\r\n    \"axisLine\": {\r\n        \"color\": data.ca('axisLine.color')\r\n    },\r\n    \"axisTick\": {\r\n        \"show\": data.ca('axisTick.show'),\r\n        \"color\": data.ca('axisLine.color')\r\n    },\r\n    \"splitLine\": {\r\n        \"show\": data.ca('splitLineY.show'),\r\n        \"color\": data.ca('splitLine.color')\r\n    },\r\n    \"markLines\": [\r\n        {\r\n            \"value\": data.ca('markValues') ? (data.ca('markValues')[0] ? data.ca('markValues')[0] : 0) : 0,\r\n            \"color\": data.ca('markColors') ? (data.ca('markColors')[0] ? data.ca('markColors')[0] : undefined) : undefined,\r\n        },\r\n        {\r\n            \"value\": data.ca('markValues') ? (data.ca('markValues')[1] ? data.ca('markValues')[1] : 0) : 0,\r\n            \"color\": data.ca('markColors') ? (data.ca('markColors')[1] ? data.ca('markColors')[1] : undefined) : undefined,\r\n        },\r\n    ]\r\n}\r\nif(data.ca('markValues') == undefined || data.ca('markValues').length == 0) delete param.markLines;\r\nreturn param;\n}",
+                            "value": {
+                                "axisLabel": {
+                                    "color": "rgb(51,153,255)"
+                                },
+                                "axisLine": {
+                                    "show": true,
+                                    "color": "rgb(51,153,255)"
+                                },
+                                "axisTick": {
+                                    "show": true,
+                                    "color": "rgba(51,153,255,0.2)"
+                                },
+                                "splitLine": {
+                                    "show": false,
+                                    "color": "rgba(51,153,255,0.1)"
+                                }
+                            }
+                        },
+                        "colors": {
+                            "func": "attr@colors",
+                            "value": [
+                                "rgb(96,172,252)",
+                                "rgb(50,211,235)",
+                                "rgb(93,217,174)"
+                            ]
+                        },
+                        "background": {
+                            "func": "attr@background",
+                            "value": null
+                        },
+                        "boundaryGap": {
+                            "func": "attr@boundaryGap",
+                            "value": true
+                        },
+                        "tooltipLineColor": {
+                            "func": "attr@tooltipLineColor",
+                            "value": "rgb(124,145,155)"
+                        },
+                        "getValue": "__ht__function(o){var _=a(x,o);return _===hl&&T.properties&&(o=T.properties[o])?o.defaultValue:_}",
+                        "getColor": "__ht__function(o,_){return IN(!0===_?o:x.getValue(o))}"
+                    }],
+                    "uuid": "AB3F60C8-C86A-4395-A118-212C00B8B1B9"
+                },
+                "host": {
+                    "__i": 28961
+                },
+                "position": {
+                    "x": -24.9571,
+                    "y": 181.33414
+                },
+                "width": 689.37959,
+                "height": 354.24424
+            },
+            "s": {
+                "label.position": 14,
+                "label.offset.x": -10,
+                "label.offset.y": 0,
+                "label.color": "rgb(61,61,61)",
+                "2d.movable": false,
+                "interactive": true,
+                "image.stretch": "uniform",
+                "label.opacity": 0,
+                "layout.h": "leftright",
+                "layout.v": "topbottom"
+            },
+            "a": {
+                "symbol": "symbols/develop/uiotos/arranged/controls/charts/统计曲线.json",
+                "names": [
+                    "曲线0",
+                    "曲线1",
+                    "曲线2"
+                ],
+                "itemSize": [
+                    3,
+                    3,
+                    3
+                ],
+                "widths": [
+                    1,
+                    1,
+                    1
+                ],
+                "lineDots": [
+                    3,
+                    3,
+                    3
+                ],
+                "colors": [
+                    "#88C159",
+                    "#9CA64D",
+                    "#AF7439"
+                ],
+                "colorStops": [
+                    "rgba(136,193,89,0.05)",
+                    "rgba(156,166,77,0.05)",
+                    "rgba(175,116,57,0.05)"
+                ],
+                "colorItems": [
+                    "#88C159",
+                    "#9CA64D",
+                    "#AF7439"
+                ],
+                "_yAxis_data_0": [
+                    5,
+                    3,
+                    9,
+                    10,
+                    1,
+                    9,
+                    1,
+                    0,
+                    2
+                ],
+                "_yAxis_data_1": [
+                    10,
+                    11,
+                    19,
+                    0,
+                    1,
+                    9,
+                    5,
+                    12,
+                    13
+                ],
+                "_yAxis_data_2": [
+                    2,
+                    8,
+                    15,
+                    26,
+                    21,
+                    14,
+                    30,
+                    20,
+                    9
+                ],
+                "series": [{
+                        "type": "line",
+                        "name": "曲线0",
+                        "data": [
+                            5,
+                            3,
+                            9,
+                            10,
+                            1,
+                            9,
+                            1,
+                            0,
+                            2
+                        ],
+                        "lineStyle": {
+                            "width": 1,
+                            "pattern": [
+                                3,
+                                3
+                            ]
+                        },
+                        "smooth": true,
+                        "itemStyle": {
+                            "size": 3,
+                            "background": "#88C159"
+                        },
+                        "areaStyle": {
+                            "color": {
+                                "type": "linear",
+                                "colorStops": [{
+                                        "offset": 0,
+                                        "color": "#88C159"
+                                    },
+                                    {
+                                        "offset": 1,
+                                        "color": "rgba(136,193,89,0.05)"
+                                    }
+                                ]
+                            }
+                        }
+                    },
+                    {
+                        "type": "line",
+                        "name": "曲线1",
+                        "data": [
+                            10,
+                            11,
+                            19,
+                            0,
+                            1,
+                            9,
+                            5,
+                            12,
+                            13
+                        ],
+                        "lineStyle": {
+                            "width": 1,
+                            "pattern": [
+                                3,
+                                3
+                            ]
+                        },
+                        "smooth": true,
+                        "itemStyle": {
+                            "size": 3,
+                            "background": "#9CA64D"
+                        },
+                        "areaStyle": {
+                            "color": {
+                                "type": "linear",
+                                "colorStops": [{
+                                        "offset": 0,
+                                        "color": "#9CA64D"
+                                    },
+                                    {
+                                        "offset": 1,
+                                        "color": "rgba(156,166,77,0.05)"
+                                    }
+                                ]
+                            }
+                        }
+                    },
+                    {
+                        "type": "line",
+                        "name": "曲线2",
+                        "data": [
+                            2,
+                            8,
+                            15,
+                            26,
+                            21,
+                            14,
+                            30,
+                            20,
+                            9
+                        ],
+                        "lineStyle": {
+                            "width": 1,
+                            "pattern": [
+                                3,
+                                3
+                            ]
+                        },
+                        "smooth": true,
+                        "itemStyle": {
+                            "size": 3,
+                            "background": "#AF7439"
+                        },
+                        "areaStyle": {
+                            "color": {
+                                "type": "linear",
+                                "colorStops": [{
+                                        "offset": 0,
+                                        "color": "#AF7439"
+                                    },
+                                    {
+                                        "offset": 1,
+                                        "color": "rgba(175,116,57,0.05)"
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    ],
+    "modified": "Sat May 18 2024 14:00:57 GMT+0800 (中国标准时间)",
+    "contentRect": {
+        "x": -458.82915,
+        "y": -65.90614,
+        "width": 796.93522,
+        "height": 458.34461
+    }
+}

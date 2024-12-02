@@ -1,0 +1,54 @@
+{
+    "modified": "Mon Sep 26 2022 07:43:12 GMT+0800 (中国标准时间)",
+    "background": "rgb(32,37,46)",
+    "dataBindings": [{
+            "attr": "text",
+            "valueType": "String",
+            "defaultValue": "复制"
+        },
+        {
+            "attr": "icon-background",
+            "valueType": "Color",
+            "defaultValue": "rgb(55,125,255)"
+        },
+        {
+            "attr": "font",
+            "valueType": "Font"
+        }
+    ],
+    "width": 60,
+    "height": 35,
+    "fitSize": true,
+    "comps": [{
+            "type": "image",
+            "name": "symbols/demo/uiotos/icons/tools/fuzhi.json",
+            "rect": [
+                0,
+                0,
+                22.73008,
+                35
+            ]
+        },
+        {
+            "type": "text",
+            "text": {
+                "func": "attr@text",
+                "value": "复制"
+            },
+            "color": {
+                "func": "attr@icon-background",
+                "value": "rgb(61,61,61)"
+            },
+            "font": {
+                "func": "attr@font",
+                "value": "12px arial, sans-serif"
+            },
+            "rect": [
+                25.25565,
+                7.77812,
+                30.30678,
+                19.44376
+            ]
+        }
+    ]
+}

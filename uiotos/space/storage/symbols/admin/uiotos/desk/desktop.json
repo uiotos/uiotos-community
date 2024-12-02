@@ -1,0 +1,115 @@
+{
+  "modified": "Thu Nov 23 2023 08:27:50 GMT+0800 (中国标准时间)",
+  "background": "rgb(32,37,46)",
+  "dataBindings": [
+    {
+      "attr": "displays",
+      "valueType": "StringArray",
+      "defaultValue": [],
+      "name": "菜单",
+      "group": "功能（关键）",
+      "description": "轮播（多）页地址。\n<br>可以填入页面完整路径，或者不带后缀的名称。\n<br>对于后者，获取路径，首先在当前所在目录查\n<br>找，如果有跟名称相同的文件则加载；\n<br>如果没有，那么自动跳到当前文件同名的平级\n<br>目录下，指定“desktop”（桌面菜单）目录下，\n<br>以名称和.json作为后缀去匹配，作为实际的页\n<br>面路径。\n<br>注意，如果编辑状态下首先打开同名目录下的\n<br>desktop目录，然后再清空当前属性（数组长度\n<br>设置为0），那么会自动提取desktop目录下的\n<br>文件名称填充上来（不包括更下级子目录文件）。"
+    },
+    {
+      "attr": "symbols",
+      "valueType": "StringArray",
+      "defaultValue": []
+    },
+    {
+      "attr": "div.opacity",
+      "valueType": "Opacity",
+      "defaultValue": 1
+    },
+    {
+      "attr": "play",
+      "valueType": "Boolean",
+      "defaultValue": false
+    },
+    {
+      "attr": "onClick",
+      "valueType": "Function",
+      "defaultValue": "__ht__function onClick(dm,text){\r\n    let urltmp = 'displays/demo/uiotos/' + text + '.json'\r\n    let nodetmp = dm.getDataByTag('iconMenu')\r\n    let displaystmp = nodetmp.a('displays')\r\n    let indextmp = $.inArray(urltmp, displaystmp)\r\n    if (indextmp == -1) {\r\n        displaystmp.push(urltmp)\r\n        nodetmp.a('displays', displaystmp)\r\n    }    \r\n    else{\r\n        nodetmp.a('index',indextmp)\r\n    }\r\n}"
+    },
+    {
+      "attr": "onChange",
+      "valueType": "Function",
+      "defaultValue": "__ht__function onChange(data,cache,oldName,newName){\r\n    /*传入iconMenu图元对象、当前display应用页索引以及将要切换\r\n    到的索引，交由desktop框架去重写，处理应用切换前的处理逻辑*/\r\n    window.appNotifier.fire({\r\n        kind: 'app',\r\n        para: {\r\n            type: 'changing',\r\n            data: {\r\n                oldApp: oldName,\r\n                newApp: newName\r\n            }\r\n        }\r\n    })\r\n}"
+    },
+    {
+      "attr": "index",
+      "valueType": "PositiveNumber",
+      "defaultValue": 0,
+      "description": "当前轮播页索引。\n<br>用于指定菜单页（displays）中哪个\n<br>用于当前显示，设定轮播页切换。\n<br>注意，编辑时的初始设定也用于登录\n<br>后默认显示的菜单页。\n<br>\n"
+    },
+    {
+      "attr": "interval",
+      "valueType": "PositiveNumber",
+      "defaultValue": 1000
+    },
+    {
+      "attr": "initCounts",
+      "valueType": "PositiveNumber",
+      "defaultValue": 0,
+      "description": "菜单页数。\n<br>只读，无法修改设置。编辑状态下实时同步\n<br>菜单displays数组属性的长度。运行后应用\n<br>打开，displays属性会被动态追加页面，长\n<br>度动态改变。因此当前属性用来记录初始的\n<br>作为菜单页的数量。"
+    },
+    {
+      "attr": "alertText",
+      "valueType": "String"
+    },
+    {
+      "attr": "arrowDisabled",
+      "valueType": "Boolean",
+      "defaultValue": true
+    }
+  ],
+  "snapshotURL": "symbols/demo/extra/basic/snapshot_obj.json",
+  "renderHTML": "__ht__function(data, gv, cache) {return __iconAppCarousel(data,gv,cache)}",
+  "width": 200,
+  "height": 120,
+  "fitSize": true,
+  "scrollable": true,
+  "interactive": true,
+  "comps": [
+    {
+      "type": "rect",
+      "background": "rgba(51,153,255,0.5)",
+      "borderColor": "rgb(51,153,255)",
+      "gradient": "linear.west",
+      "gradientColor": "rgba(142,67,222,0)",
+      "visible": {
+        "func": "__ht__function(data, view) {\nreturn !data.a('arrowDisabled')\n}",
+        "value": true
+      },
+      "layoutH": "right",
+      "layoutV": "center",
+      "prefix": "right",
+      "rect": [
+        159.90826,
+        20.9,
+        40.09174,
+        77
+      ]
+    },
+    {
+      "type": "rect",
+      "background": "rgba(51,153,255,0.5)",
+      "borderColor": "rgb(51,153,255)",
+      "gradient": "linear.west",
+      "gradientColor": "rgba(142,67,222,0)",
+      "visible": {
+        "func": "__ht__function(data, view) {\nreturn !data.a('arrowDisabled')\n}",
+        "value": true
+      },
+      "layoutH": "left",
+      "layoutV": "center",
+      "prefix": "right",
+      "rotation": 3.14159,
+      "rect": [
+        0,
+        20.9,
+        40.09174,
+        77
+      ]
+    }
+  ]
+}

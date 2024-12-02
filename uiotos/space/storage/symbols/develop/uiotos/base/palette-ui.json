@@ -1,0 +1,235 @@
+{
+  "modified": "Thu Jul 11 2024 13:31:28 GMT+0800 (中国标准时间)",
+  "dataBindings": [
+    {
+      "attr": "symbol",
+      "valueType": "Image"
+    },
+    {
+      "attr": "datas",
+      "valueType": "Object",
+      "defaultValue": [
+        {
+          "title": "海陆空交通",
+          "children": [
+            {
+              "icon": "symbols/develop/uiotos/arranged/icons/设备设施/轮船-77.json",
+              "text": "轮船"
+            },
+            {
+              "icon": "symbols/develop/uiotos/arranged/icons/设备设施/轿车 汽车-76.json",
+              "text": "汽车"
+            },
+            {
+              "icon": "symbols/develop/uiotos/arranged/icons/设备设施/飞行 旅游 出差 飞机 800-73.json",
+              "text": "飞机"
+            }
+          ]
+        },
+        {
+          "title": "其它",
+          "children": [
+            {
+              "icon": "symbols/develop/uiotos/arranged/icons/设备设施/高铁 动车-74.json",
+              "text": "高铁"
+            },
+            {
+              "icon": "symbols/develop/uiotos/arranged/icons/设备设施/公交 客车-75.json",
+              "text": "公交车"
+            }
+          ]
+        }
+      ],
+      "description": "数据源。\n<br>数组格式，数组中对象元素字段和说明如下：\n<br>icon: 显示图标\n<br>iconDrawable: 拖放后实际创建的图标\n<br>text: 图标文字",
+      "group": "功能"
+    },
+    {
+      "attr": "folderPath",
+      "valueType": "Image",
+      "description": "文件目录URL。\n<br>比如'displays/demo/3-示例''\n<br>如果有配置这个服务器地址，将自动从这里获取，\n<br>将覆盖datas中手动固定配置（如果有）！\n<br>给定目录遍历子目录作为分组标题，目录内的jpg\n<br>文件作为图标。"
+    },
+    {
+      "attr": "userData",
+      "valueType": "Object",
+      "defaultValue": []
+    },
+    {
+      "attr": "onChange",
+      "valueType": "Function",
+      "extraInfo": {
+        "arguments": [
+          "data",
+          "gv",
+          "cache",
+          "value",
+          "extra"
+        ]
+      }
+    },
+    {
+      "attr": "titleFont",
+      "valueType": "Font",
+      "defaultValue": "12px sans-serif, Arial",
+      "description": "抽屉标题字体。",
+      "group": "外观"
+    },
+    {
+      "attr": "titleColor",
+      "valueType": "ColorArray",
+      "defaultValue": [
+        "rgb(55,125,255)",
+        "rgba(55,125,255)",
+        "rgba(55,125,255)"
+      ],
+      "description": "标题文字颜色组。\n<br>3个颜色，索引0、1、2分别为\n<br>默认、划过、按下，三种情况\n<br>下的标题文字颜色。"
+    },
+    {
+      "attr": "textFont",
+      "valueType": "Font",
+      "defaultValue": "12px sans-serif, Arial",
+      "description": "图标文字字体。"
+    },
+    {
+      "attr": "textColor",
+      "valueType": "ColorArray",
+      "defaultValue": [
+        "rgb(90,122,138)",
+        "rgba(55,125,255,1)",
+        "rgba(55,125,255,1)"
+      ],
+      "description": "图标文字颜色组。\n<br>3个颜色，索引0、1、2分别为\n<br>默认、划过、按下，三种情况\n<br>下的图标文字颜色。"
+    },
+    {
+      "attr": "renderColor",
+      "valueType": "Color",
+      "defaultValue": "rgba(240,245,255)",
+      "description": "图标染色。\n<br>可以让整体图片/图标带有统一的色调。"
+    },
+    {
+      "attr": "headerBackground",
+      "valueType": "ColorArray",
+      "defaultValue": [
+        "rgba(47,55,70,0)",
+        "rgba(255,255,255,0.1)",
+        "rgba(255,255,255,0.1)"
+      ],
+      "description": "标题背景颜色组。\n<br>3个颜色，索引0、1、2分别为\n<br>默认、划过、按下，三种情况\n<br>下的标题背景颜色。"
+    },
+    {
+      "attr": "background",
+      "valueType": "ColorArray",
+      "defaultValue": [
+        "rgba(47,55,70)",
+        "rgba(255,255,255,0.1)",
+        "rgba(255,255,255,0.2)"
+      ],
+      "description": "图标背景颜色组。\n<br>3个颜色，索引0、1、2分别为\n<br>默认、划过、按下，三种情况\n<br>下的图标背景颜色。"
+    },
+    {
+      "attr": "selectBackground",
+      "valueType": "ColorArray",
+      "defaultValue": [
+        "rgba(55,125,255,0.1)",
+        "rgba(55,125,255,0.1)",
+        "rgba(55,125,255,0.1)"
+      ],
+      "description": "选中图标的背景颜色组。\n<br>3个颜色，索引0、1、2分别为\n<br>默认、划过、按下，三种情况\n<br>下的选中图标背景颜色。"
+    },
+    {
+      "attr": "borderRadius",
+      "valueType": "PositiveNumber",
+      "defaultValue": 8,
+      "description": "图标边框圆角。"
+    },
+    {
+      "attr": "preferredSize",
+      "valueType": "NumberArray",
+      "defaultValue": [
+        65,
+        80
+      ],
+      "description": "图标按钮的宽高。\n<br>数组索引0为宽度、1为高度。"
+    },
+    {
+      "attr": "iconSize",
+      "valueType": "NumberArray",
+      "defaultValue": [
+        50,
+        50
+      ],
+      "description": "图标宽高。\n<br>索引0为宽度，索引1为高度。"
+    },
+    {
+      "attr": "gap",
+      "valueType": "String",
+      "defaultValue": "10",
+      "description": "面板抽屉间距。"
+    },
+    {
+      "attr": "padding",
+      "valueType": "NumberArray",
+      "defaultValue": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "description": "面板整体离四周边距。\n<br>索引0、1、2、3分别表示\n<br>上、右、下、左边距！"
+    },
+    {
+      "attr": "margin",
+      "valueType": "NumberArray",
+      "defaultValue": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "description": "图标面板四周间距。\n<br>数组长度为4，分别为上、右\n<br>下、左边距。"
+    },
+    {
+      "attr": "bindControlsTag",
+      "valueType": "StringArray",
+      "group": "连线"
+    },
+    {
+      "attr": "bindControlsAttr",
+      "valueType": "StringArray"
+    },
+    {
+      "attr": "bindControlsVal",
+      "valueType": "ObjectArray"
+    },
+    {
+      "attr": "paramControlTag",
+      "valueType": "StringArray"
+    },
+    {
+      "attr": "paramControlAttr",
+      "valueType": "StringArray"
+    },
+    {
+      "attr": "paramsGenerator",
+      "valueType": "Function",
+      "defaultValue": "__ht__function(data, val, index, node,oldVal,form,type,inner) {//绑定组索引对应的函数处理，用来动态生成复杂的参数变量传入\r\nswitch(index){\r\n    case 0:\r\n        break;\r\n    case 1:\r\n        break;\r\n    case 2:\r\n        break;\r\n    default:\r\n        break;\r\n}\r\n\r\nreturn val;}",
+      "extraInfo": {
+        "arguments": [
+          "data",
+          "val",
+          "index",
+          "node",
+          "oldVal",
+          "form",
+          "type",
+          "inner"
+        ]
+      }
+    }
+  ],
+  "snapshotURL": "symbols/develop/uiotos/arranged/controls/forms_icon/面板列表-17.json",
+  "renderHTML": "__ht__function(data, gv, cache) {return __palette_ui(data,gv,cache);}",
+  "width": 200,
+  "height": 400,
+  "pixelPerfect": false,
+  "comps": []
+}

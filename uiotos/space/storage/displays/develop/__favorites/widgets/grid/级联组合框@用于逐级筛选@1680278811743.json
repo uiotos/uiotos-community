@@ -1,0 +1,254 @@
+{
+    "v": "7.3.3",
+    "p": {
+        "autoAdjustIndex": true,
+        "hierarchicalRendering": false
+    },
+    "d": [{
+        "c": "ht.Grid",
+        "i": 6282,
+        "p": {
+            "displayName": "grid",
+            "toolTip": "用于逐级筛选",
+            "tag": "grid1",
+            "dataBindings": {
+                "a": {
+                    "datas": {
+                        "id": "iotos.form",
+                        "idinfo": "",
+                        "isTplBinded": false,
+                        "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+                    },
+                    "grid.row.count": {
+                        "id": "iotos.form",
+                        "idinfo": "",
+                        "isTplBinded": false,
+                        "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+                    },
+                    "grid.column.count": {
+                        "id": "iotos.form",
+                        "idinfo": "",
+                        "isTplBinded": false,
+                        "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+                    },
+                    "valueGet": {
+                        "id": "iotos.form",
+                        "idinfo": "",
+                        "isTplBinded": false,
+                        "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+                    },
+                    "_field_0": {
+                        "id": "iotos.form",
+                        "idinfo": "",
+                        "isTplBinded": false,
+                        "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+                    },
+                    "_field_1": {
+                        "id": "iotos.form",
+                        "idinfo": "",
+                        "isTplBinded": false,
+                        "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+                    },
+                    "_field_2": {
+                        "id": "iotos.form",
+                        "idinfo": "",
+                        "isTplBinded": false,
+                        "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+                    },
+                    "_field_3": {
+                        "id": "iotos.form",
+                        "idinfo": "",
+                        "isTplBinded": false,
+                        "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+                    },
+                    "itemsGet": {
+                        "id": "iotos.form",
+                        "idinfo": "",
+                        "isTplBinded": false,
+                        "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+                    }
+                }
+            },
+            "image": "symbols/develop/uiotos/base/grid.json",
+            "position": {
+                "x": 444.09428,
+                "y": 1252.03026
+            },
+            "width": 900.94575,
+            "height": 51.56695
+        },
+        "s": {
+            "label.position": 14,
+            "label.offset.x": -10,
+            "label.offset.y": 0,
+            "label.color": "rgb(61,61,61)",
+            "layout.h": "leftright",
+            "layout.v": "top",
+            "grid.gap": 0,
+            "grid.column.count": 4,
+            "grid.borderRadius": 10,
+            "grid.border.right": -15,
+            "grid.border.left": -15,
+            "datas": [{
+                    "id": 1,
+                    "is_delete": 0,
+                    "datetime": "2023-02-25T07:28:45",
+                    "name": "人脸机车库001",
+                    "type": "消防设备",
+                    "device_id": "AF001",
+                    "position": "地下室停车场东南角",
+                    "floor": "B1"
+                },
+                {
+                    "id": 2,
+                    "is_delete": 0,
+                    "datetime": "2023-02-19T11:31:14",
+                    "name": "人脸机设备002",
+                    "type": "安防设备",
+                    "device_id": "AF002",
+                    "position": "2楼东门",
+                    "floor": "2"
+                },
+                {
+                    "id": 3,
+                    "is_delete": 0,
+                    "datetime": "2023-02-19T11:31:58",
+                    "name": "人脸机设备003",
+                    "type": "安防设备",
+                    "device_id": "AF003",
+                    "position": "2楼东门",
+                    "floor": "2"
+                },
+                {
+                    "id": 4,
+                    "is_delete": 0,
+                    "datetime": "2023-02-19T11:32:15",
+                    "name": "人脸机设备004",
+                    "type": "安防设备",
+                    "device_id": "AF004",
+                    "position": "3楼",
+                    "floor": "3"
+                },
+                {
+                    "id": 5,
+                    "is_delete": 0,
+                    "datetime": "2023-02-24T21:31:03",
+                    "name": "人脸机设备005",
+                    "type": "安防设备",
+                    "device_id": "AF005",
+                    "position": "3楼正门",
+                    "floor": "3"
+                },
+                {
+                    "id": 6,
+                    "is_delete": 0,
+                    "datetime": "2023-02-24T21:31:16",
+                    "name": "人脸机设备006",
+                    "type": "消防设备",
+                    "device_id": "XF001",
+                    "position": "4楼东北角",
+                    "floor": "4"
+                }
+            ],
+            "fullscreen": "fill",
+            "fullscreen.gap": 0
+        },
+        "a": {
+            "enable": true,
+            "sizeSet": 4,
+            "grid.column.count": 4,
+            "grid.row.count": 1,
+            "symbol": "symbols/develop/uiotos/base/grid.json",
+            "_field_0": "type",
+            "_field_1": "floor",
+            "_field_2": "position",
+            "_field_3": "name",
+            "datas": [{
+                    "id": 1,
+                    "is_delete": 0,
+                    "datetime": "2023-02-25T07:28:45",
+                    "name": "人脸机车库001",
+                    "type": "消防设备",
+                    "device_id": "AF001",
+                    "position": "地下室停车场东南角",
+                    "floor": "B1"
+                },
+                {
+                    "id": 2,
+                    "is_delete": 0,
+                    "datetime": "2023-02-19T11:31:14",
+                    "name": "人脸机设备002",
+                    "type": "安防设备",
+                    "device_id": "AF002",
+                    "position": "2楼东门",
+                    "floor": "2"
+                },
+                {
+                    "id": 3,
+                    "is_delete": 0,
+                    "datetime": "2023-02-19T11:31:58",
+                    "name": "人脸机设备003",
+                    "type": "安防设备",
+                    "device_id": "AF003",
+                    "position": "2楼东门",
+                    "floor": "2"
+                },
+                {
+                    "id": 4,
+                    "is_delete": 0,
+                    "datetime": "2023-02-19T11:32:15",
+                    "name": "人脸机设备004",
+                    "type": "安防设备",
+                    "device_id": "AF004",
+                    "position": "3楼",
+                    "floor": "3"
+                },
+                {
+                    "id": 5,
+                    "is_delete": 0,
+                    "datetime": "2023-02-24T21:31:03",
+                    "name": "人脸机设备005",
+                    "type": "安防设备",
+                    "device_id": "AF005",
+                    "position": "3楼正门",
+                    "floor": "3"
+                },
+                {
+                    "id": 6,
+                    "is_delete": 0,
+                    "datetime": "2023-02-24T21:31:16",
+                    "name": "人脸机设备006",
+                    "type": "消防设备",
+                    "device_id": "XF001",
+                    "position": "4楼东北角",
+                    "floor": "4"
+                }
+            ],
+            "valueGet": {
+                "type": "消防设备",
+                "floor": "B1",
+                "position": "地下室停车场东南角",
+                "name": "人脸机车库001"
+            },
+            "bindControlsTag": [],
+            "bindControlsAttr": [],
+            "bindControlsVal": [],
+            "paramControlTag": [],
+            "paramControlAttr": [],
+            "itemsGet": [{
+                "id": 1,
+                "is_delete": 0,
+                "datetime": "2023-02-25T07:28:45",
+                "name": "人脸机车库001",
+                "type": "消防设备",
+                "device_id": "AF001",
+                "position": "地下室停车场东南角",
+                "floor": "B1"
+            }],
+            "userData": {
+                "__i": 6282
+            },
+            "paramsGenerator": "function paramsGenerator(data, val, index, node, oldVal, form) {\r\n    //绑定组索引对应的函数处理，用来动态生成复杂的参数变量传入\r\n    switch (index) {\r\n        case 0:\r\n            break;\r\n        case 1:\r\n            break;\r\n        case 2:\r\n            break;\r\n        default:\r\n            break;\r\n    }\r\n    return val;\r\n}"
+        }
+    }]
+}

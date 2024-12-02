@@ -1,0 +1,1186 @@
+{
+  "v": "8.0.1",
+  "p": {
+    "autoAdjustIndex": true,
+    "hierarchicalRendering": true
+  },
+  "a": {
+    "rotateAsClock": false,
+    "gridBlockSize": 20,
+    "connectActionType": null,
+    "fitContent": false,
+    "zoomable": false,
+    "rectSelectable": false,
+    "pannable": false,
+    "_professional": false
+  },
+  "d": [
+    {
+      "c": "ht.Node",
+      "i": 1281977,
+      "p": {
+        "name": "base",
+        "displayName": "底板（_base）",
+        "tag": "_base",
+        "position": {
+          "x": 821.26452,
+          "y": 369.75484
+        },
+        "width": 1244.90323,
+        "height": 657.75484
+      },
+      "s": {
+        "label.opacity": 0,
+        "label.position": 17,
+        "shape": "rect",
+        "shape.background": "white",
+        "fullscreen": "fill",
+        "fullscreen.gap": 0,
+        "2d.movable": false,
+        "interactive": true,
+        "2d.selectable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1281978,
+      "p": {
+        "name": "矩形",
+        "displayName": "矩形（矩形1）",
+        "tag": "矩形1",
+        "image": "symbols/develop/uiotos/arranged/controls/draws/2-规则图形/矩形.json",
+        "position": {
+          "x": 525.84254,
+          "y": 327.57404
+        }
+      },
+      "s": {
+        "2d.visible": false,
+        "label.opacity": 0,
+        "label.position": 14,
+        "label.offset.x": -10,
+        "label.offset.y": 0
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1281979,
+      "p": {
+        "name": "btn",
+        "displayName": "普通按钮（btn1）",
+        "toolTip": "<p style='color:rgb(242,83,75);margin-top:5px;margin-bottom:5px;font-weight:bold;line-height:1.5em;'>已被布局，不允许拖动（shift+回车可解除）</p>",
+        "tag": "btn1",
+        "dataBindings": {
+          "a": {
+            "userData": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "onFormClick": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "_bindEvents_0": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            }
+          }
+        },
+        "image": {
+          "modified": "Sun Aug 25 2024 14:23:13 GMT+0800 (中国标准时间)",
+          "dataBindings": [
+            {
+              "attr": "symbol",
+              "valueType": "Image",
+              "name": "symbol"
+            },
+            {
+              "attr": "ht.disabled",
+              "valueType": "Boolean",
+              "name": "禁用",
+              "defaultValue": false,
+              "description": "禁用。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#qa1D8\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+              "group": "功能",
+              "extraInfo": "★"
+            },
+            {
+              "attr": "bindTabview",
+              "valueType": "StringArray",
+              "defaultValue": [
+                "tab1",
+                "0"
+              ],
+              "description": "指定关联Tab页签索引。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#KU5sZ\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+              "extraInfo": "★",
+              "name": "bindTabview"
+            },
+            {
+              "attr": "userData",
+              "valueType": "Object",
+              "defaultValue": [],
+              "name": "userData"
+            },
+            {
+              "attr": "onFormClick",
+              "valueType": "Function",
+              "extraInfo": {
+                "arguments": [
+                  "data",
+                  "gv",
+                  "cache",
+                  "value",
+                  "extra"
+                ]
+              },
+              "description": "当点击时对外触发。",
+              "name": "onFormClick"
+            },
+            {
+              "attr": "clicked",
+              "valueType": "Function",
+              "extraInfo": {
+                "arguments": [
+                  "event",
+                  "data",
+                  "view"
+                ],
+                "classify": "*"
+              },
+              "defaultValue": "__ht__function(event, data, view) {setBindTabviewIndex(data,data.ca('bindTabview'));\r\ni.formEventBubblingUpper(\r\n    data,\r\n    view,\r\n    null,\r\n    'onFormClick',\r\n    null,\r\n    false\r\n);}",
+              "description": "鼠标点击时触发。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#KU5sZ\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+              "name": "clicked"
+            },
+            {
+              "attr": "fixedHeight",
+              "valueType": "PositiveNumber",
+              "group": "外观",
+              "name": "fixedHeight"
+            },
+            {
+              "attr": "ht.text",
+              "valueType": "Multiline",
+              "defaultValue": "按钮",
+              "description": "按钮上的显示文字。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#pYHyV\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+              "name": "ht.text"
+            },
+            {
+              "attr": "ht.font",
+              "valueType": "Font",
+              "name": "字体",
+              "description": "字体。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#xWX1e\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>"
+            },
+            {
+              "attr": "ht.textColor",
+              "valueType": "ColorArray",
+              "defaultValue": [
+                "rgb(255,255,255)",
+                "rgb(255,255,255)",
+                "rgb(255,255,255)",
+                "rgb(127,127,127)"
+              ],
+              "description": "文本颜色。\n<br>索引0、1、2、3分别对应默认、\n<br>悬停/按下/禁用时文字颜色。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#OrIaC\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+              "name": "ht.textColor"
+            },
+            {
+              "attr": "background",
+              "valueType": "ColorArray",
+              "defaultValue": [
+                "rgb(55,125,255)",
+                "rgba(55,125,255,0.9)",
+                "rgba(55,125,255,0.8)",
+                "rgb(200,200,200)"
+              ],
+              "description": "背景颜色。\n<br>索引与背景色对应如下：\n<br>0：默认背景色\n<br>1：悬停/划过背景色\n<br>2：按下背景色\n<br>3：禁用背景色。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#D0Nw8\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+              "name": "background"
+            },
+            {
+              "attr": "ht.borderColor",
+              "valueType": "ColorArray",
+              "defaultValue": [
+                "rgb(255,255,255)",
+                "rgb(255,255,255)",
+                "rgb(255,255,255)",
+                "rgb(200,200,200)"
+              ],
+              "name": "边框颜色",
+              "description": "边框颜色。\n<br>索引0、1、2、3分别对应默认、悬停、\n<br>按下、禁用时边框颜色。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#c9qog\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>"
+            },
+            {
+              "attr": "ht.borderWidth",
+              "valueType": "PositiveNumber",
+              "defaultValue": 1,
+              "name": "边框宽度",
+              "description": "边框宽度。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#qKwAO\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>"
+            },
+            {
+              "attr": "ht.borderRadius",
+              "valueType": "Number",
+              "name": "边框圆角",
+              "defaultValue": 3,
+              "description": "圆角半径。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#qKwAO\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>"
+            },
+            {
+              "attr": "darkStyle",
+              "valueType": "Boolean",
+              "defaultValue": true,
+              "description": "深色风格。",
+              "name": "darkStyle"
+            },
+            {
+              "attr": "iconPath",
+              "valueType": "Image",
+              "description": "图标路径。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#ZZUHF\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+              "name": "图标路径",
+              "extraInfo": "*"
+            },
+            {
+              "attr": "ht.iconPosition",
+              "valueType": "Orientation",
+              "name": "图标位置",
+              "description": "图标位置。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#mo7nq\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+              "extraInfo": "*"
+            },
+            {
+              "attr": "iconSize",
+              "valueType": "NumberArray",
+              "defaultValue": [
+                20,
+                20
+              ],
+              "name": "图标尺寸",
+              "description": "图标尺寸。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#VwPX7\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+              "extraInfo": "*"
+            },
+            {
+              "attr": "iconGap",
+              "valueType": "PositiveNumber",
+              "defaultValue": 5,
+              "description": "图标与文字间隙。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#fWm2z\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+              "extraInfo": "*",
+              "name": "iconGap"
+            },
+            {
+              "attr": "icon-background",
+              "valueType": "Color",
+              "defaultValue": "rgb(255,255,255)",
+              "name": "图标背景",
+              "description": "图标背景色。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#FgPJe\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+              "extraInfo": "*"
+            },
+            {
+              "attr": "bindControlsTag",
+              "valueType": "ObjectArray",
+              "defaultValue": [],
+              "group": "连线",
+              "name": "bindControlsTag"
+            },
+            {
+              "attr": "bindControlsAttr",
+              "valueType": "ObjectArray",
+              "defaultValue": [],
+              "name": "bindControlsAttr"
+            },
+            {
+              "attr": "bindControlsVal",
+              "valueType": "ObjectArray",
+              "defaultValue": [],
+              "description": "",
+              "name": "bindControlsVal"
+            },
+            {
+              "attr": "paramControlTag",
+              "valueType": "ObjectArray",
+              "name": "paramControlTag"
+            },
+            {
+              "attr": "paramControlAttr",
+              "valueType": "ObjectArray",
+              "name": "paramControlAttr"
+            },
+            {
+              "attr": "paramsGenerator",
+              "valueType": "Function",
+              "defaultValue": "__ht__function(data, val, index, node,oldVal,form) {//绑定组索引对应的函数处理，用来动态生成复杂的参数变量传入\r\nswitch(index){\r\n    case 0:\r\n        break;\r\n    case 1:\r\n        break;\r\n    case 2:\r\n        break;\r\n    default:\r\n        break;\r\n}\r\n\r\nreturn val;}",
+              "extraInfo": {
+                "arguments": [
+                  "data",
+                  "val",
+                  "index",
+                  "node",
+                  "oldVal",
+                  "form",
+                  "type"
+                ]
+              },
+              "name": "paramsGenerator"
+            },
+            {
+              "attr": "useAttrCORS",
+              "valueType": "Boolean",
+              "extraInfo": "*",
+              "defaultValue": false,
+              "description": "连线操作和处理回写是否一致。\n                        比如多个文本框连线传值给相同对话框，弹窗修改\n                        后是否限定只能写到最新赋值过来的文本框。详见<a href='https://www.yuque.com/liuhuo-nc809/uiotos/fgi6dd7gado51acm#fFUbp' style=\"color:rgb(96,172,252)\"target=\"_blank\">同源属性操作</a>",
+              "bindIgnored": true,
+              "name": "useAttrCORS",
+              "dynamicCreate": true
+            }
+          ],
+          "snapshotURL": "symbols/develop/uiotos/arranged/controls/forms_icon/普通按钮.json",
+          "renderHTML": "__ht__function(data, gv, cache) {return __button(data,gv,cache);}",
+          "width": 80,
+          "height": 35,
+          "boundExtend": 2,
+          "fitSize": true,
+          "interactive": true,
+          "pixelPerfect": false,
+          "attachStyle": "close",
+          "comps": [
+            {
+              "type": "components/develop/uiotos/base/button.json",
+              "displayName": "button（button1）",
+              "rect": [
+                0,
+                0,
+                80,
+                35
+              ],
+              "onDown": "__ht__function(event, data, view, point, width, height) {\nht.vector.buttonInteractor.onDown.apply(this, arguments);\n}",
+              "onUp": "__ht__function(event, data, view, point, width, height) {\nht.vector.buttonInteractor.onUp.apply(this, arguments);\n}",
+              "onEnter": "__ht__function(event, data, view, point, width, height) {\nht.vector.buttonInteractor.onEnter.apply(this, arguments);\n}",
+              "onLeave": "__ht__function(event, data, view, point, width, height) {\nht.vector.buttonInteractor.onLeave.apply(this, arguments);\n}",
+              "text": {
+                "func": "attr@ht.text",
+                "value": "BUTTON"
+              },
+              "disabled": {
+                "func": "attr@ht.disabled",
+                "value": false
+              },
+              "font": {
+                "func": "attr@ht.font",
+                "value": "12px arial, sans-serif"
+              },
+              "icon": {
+                "func": "attr@iconPath"
+              },
+              "iconPosition": {
+                "func": "attr@ht.iconPosition",
+                "value": "left"
+              },
+              "iconWidth": {
+                "func": "__ht__function(data, view) {\nlet wtmp = data.ca('ht.iconWidth'),\r\n    stmp = data.ca('iconSize');\r\nreturn wtmp ? wtmp : (stmp && stmp[0] ? stmp[0] : 20);\n}",
+                "value": 20
+              },
+              "iconHeight": {
+                "func": "__ht__function(data, view) {\nlet wtmp = data.ca('ht.iconHeight'),\r\nstmp = data.ca('iconSize');\r\nreturn wtmp ? wtmp : (stmp && stmp[1] ? stmp[1] : 20);\n}",
+                "value": 20
+              },
+              "iconGap": {
+                "func": "attr@iconGap",
+                "value": 5
+              },
+              "textColor": {
+                "func": "__ht__function(data, view) {\nlet color = data.ca('ht.textColor')\r\nif(!color) color = [];\r\nelse if(!isArrayFn(color)) color = [color];\r\nreturn color[0];\n}",
+                "value": "rgb(255,255,255)"
+              },
+              "hoverTextColor": {
+                "func": "__ht__function(data, view) {\nlet color = data.ca('ht.textColor')\r\nif(!color) color = [];\r\nelse if(!isArrayFn(color)) color = [color];\r\nreturn color[1];\n}"
+              },
+              "activeTextColor": {
+                "func": "__ht__function(data, view) {\nlet color = data.ca('ht.textColor')\r\nif(!color) color = [];\r\nelse if(!isArrayFn(color)) color = [color];\r\nreturn color[2];\n}"
+              },
+              "disabledTextColor": {
+                "func": "__ht__function(data, view) {\nlet color = data.ca('ht.textColor')\r\nif(!color) color = [];\r\nelse if(!isArrayFn(color)) color = [color];\r\nreturn color[3];\n}",
+                "value": "#ebebeb"
+              },
+              "borderWidth": {
+                "func": "attr@ht.borderWidth",
+                "value": 0
+              },
+              "borderColor": {
+                "func": "__ht__function(data, view) {\nlet color = data.ca('ht.borderColor')\r\nif(!color) color = [];\r\nelse if(!isArrayFn(color)) color = [color];\r\nreturn color[0];\n}",
+                "value": null
+              },
+              "hoverBorderColor": {
+                "func": "__ht__function(data, view) {\nlet color = data.ca('ht.borderColor')\r\nif(!color) color = [];\r\nelse if(!isArrayFn(color)) color = [color];\r\nreturn color[1];\n}"
+              },
+              "activeBorderColor": {
+                "func": "__ht__function(data, view) {\nlet color = data.ca('ht.borderColor')\r\nif(!color) color = [];\r\nelse if(!isArrayFn(color)) color = [color];\r\nreturn color[2];\n}"
+              },
+              "disabledBorderColor": {
+                "func": "__ht__function(data, view) {\nlet color = data.ca('ht.borderColor')\r\nif(!color) color = [];\r\nelse if(!isArrayFn(color)) color = [color];\r\nreturn color[3];\n}",
+                "value": "rgba(235,235,235,0)"
+              },
+              "background": {
+                "func": "__ht__function(data, view) {\nlet bkg = data.ca('ht.background'),\r\n    bkgs = data.ca('background');\r\n    ret = bkg ? bkg : bkgs && bkgs[0];\r\n//240804，null，undefined设置无效，会显示默认蓝色！\r\nreturn ret ? ret : 'rgba(0,0,0,0)'\n}",
+                "value": "rgb(55,125,255)"
+              },
+              "hoverBackground": {
+                "func": "__ht__function(data, view) {\nlet bkg = data.ca('ht.hoverBackground'),\r\n    bkgs = data.ca('background');\r\nreturn bkg ? bkg : bkgs && bkgs[1];\n}"
+              },
+              "activeBackground": {
+                "func": "__ht__function(data, view) {\nlet bkg = data.ca('ht.activeBackground'),\r\n    bkgs = data.ca('background');\r\nreturn bkg ? bkg : bkgs && bkgs[2];\n}"
+              },
+              "disabledBackground": {
+                "func": "__ht__function(data, view) {\nlet bkg = data.ca('ht.disabledBackground'),\r\n    bkgs = data.ca('background');\r\nreturn bkg ? bkg : bkgs && bkgs[3];\n}",
+                "value": "#fafafa"
+              },
+              "borderRadius": {
+                "func": "attr@ht.borderRadius",
+                "value": "0"
+              },
+              "handleClick": {
+                "func": "attr@clicked"
+              },
+              "getValue": "__ht__function(V){var R=T(Q,V);return R===N8&&X.properties&&(V=X.properties[V])?V.defaultValue:R}",
+              "getColor": "__ht__function(V,R){return wm(!0===R?V:Q.getValue(V))}"
+            }
+          ],
+          "uuid": "AEB388D2-7E0F-4543-9AAB-885CFE0A5C60"
+        },
+        "host": {
+          "__i": 1281977
+        },
+        "position": {
+          "x": 1401.71613,
+          "y": 85.41576
+        },
+        "width": 80,
+        "height": 35
+      },
+      "s": {
+        "label.opacity": 0,
+        "label.position": 14,
+        "label.offset.x": -10,
+        "label.offset.y": 0,
+        "interactive": true,
+        "2d.movable": false,
+        "layout.h": "right",
+        "layout.v": "top"
+      },
+      "a": {
+        "icon-background": "rgb(55,125,255)",
+        "symbol": "symbols/develop/uiotos/base/button.json",
+        "darkStyle": false,
+        "background": [
+          "rgb(255,255,255)",
+          "rgb(255,255,255)",
+          "rgb(255,255,255)",
+          "rgb(127,127,127)"
+        ],
+        "ht.borderColor": [
+          "rgb(55,125,255)",
+          "rgba(55,125,255,0.9)",
+          "rgba(55,125,255,0.8)",
+          "rgb(200,200,200)"
+        ],
+        "ht.textColor": [
+          "rgb(55,125,255)",
+          "rgba(55,125,255,0.9)",
+          "rgba(55,125,255,0.8)",
+          "rgb(200,200,200)"
+        ],
+        "ht.text": "清空",
+        "paramControlTag": [
+          null
+        ],
+        "paramControlAttr": [
+          null
+        ],
+        "bindControlsTag": [
+          "chart1"
+        ],
+        "bindControlsAttr": [
+          "a:_yAxis_data_0"
+        ],
+        "bindControlsVal": [
+          []
+        ],
+        "_bindEvents_0": "*",
+        "fixedHeight": 35
+      }
+    },
+    {
+      "c": "ht.Edge",
+      "i": 1281980,
+      "p": {
+        "name": "edge",
+        "displayName": "0（edge2）",
+        "toolTip": "<div id=\"config_tooltip\" style=\"font-size:12px;line-height:1.75em;letter-spacing:1px\">\n                                                        连线配置信息：<br>\n                                                        <li style=\"list-style-type:disc;color:rgba(255,255,255,0.5);\">索引序号：0 | 总共1条</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold;\">操作属性：Y 轴数据_0@chart1</li> \n                                                        <li style=\"list-style-type:none;color:rgba(255,255,255,0.5)\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;当前值：undefined</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold\">关联属性：</li> \n                                                        <li style=\"list-style-type:none;color:rgba(255,255,255,0.5)\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;关联值：undefined</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold;\">解析赋值：</li>\n                                                        <li style=\"list-style-type:disc;color:rgba(255,255,255,0.5)\">触发事件：*</li>\n                                                        <li style=\"list-style-type:disc;\">注释：<span style=\"color:rgb(125,195,125)\">0。\n<br></span></li>\n                                                    </div>",
+        "parent": {
+          "__i": 1281979
+        },
+        "tag": "edge2",
+        "source": {
+          "__i": 1281979
+        },
+        "target": {
+          "__i": 1281981
+        }
+      },
+      "s": {
+        "label": "",
+        "edge.color": "rgb(51,153,255)",
+        "edge.width": 4,
+        "edge.type": "flex",
+        "edge.flex": 50,
+        "edge.corner.radius": 30,
+        "edge.gap": 16,
+        "note.border.width": 0,
+        "note.position": 7,
+        "note.font": "14px arial, sans-serif",
+        "note.opacity": 0.75,
+        "label.opacity": 0,
+        "note.background": "rgb(51,153,255)",
+        "note.offset.x": 0,
+        "note.offset.y": 0,
+        "icons": {
+          "symbols/demo/extra/basic/fromArrow2.json": {
+            "position": 15,
+            "keepOrien": true,
+            "names": [
+              "symbols/demo/extra/basic/fromArrow2.json"
+            ]
+          },
+          "symbols/demo/extra/basic/toArrow.json": {
+            "position": 19,
+            "keepOrien": true,
+            "width": 50,
+            "height": 20,
+            "names": [
+              "symbols/demo/extra/basic/toArrow.json"
+            ]
+          }
+        },
+        "note": 0
+      },
+      "a": {
+        "index": 0,
+        "toolTipRaw": "<div id=\"config_tooltip\" style=\"font-size:12px;line-height:1.75em;letter-spacing:1px\">\n                                                        连线配置信息：<br>\n                                                        <li style=\"list-style-type:disc;color:rgba(255,255,255,0.5);\">索引序号：0 | 总共1条</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold;\">操作属性：Y 轴数据_0@chart1</li> \n                                                        <li style=\"list-style-type:none;color:rgba(255,255,255,0.5)\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;当前值：undefined</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold\">关联属性：</li> \n                                                        <li style=\"list-style-type:none;color:rgba(255,255,255,0.5)\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;关联值：undefined</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold;\">解析赋值：</li>\n                                                        <li style=\"list-style-type:disc;color:rgba(255,255,255,0.5)\">触发事件：*</li>\n                                                        <li style=\"list-style-type:disc;\">注释：<span style=\"color:rgb(125,195,125)\">0。\n<br></span></li>\n                                                    </div>"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1281981,
+      "p": {
+        "name": "chart",
+        "displayName": "统计曲线（chart1）",
+        "toolTip": "<p style='color:rgb(242,83,75);margin-top:5px;margin-bottom:5px;font-weight:bold;line-height:1.5em;'>已被布局，不允许拖动（shift+回车可解除）</p>",
+        "tag": "chart1",
+        "dataBindings": {
+          "a": {
+            "names": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "widths": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "xAxis.data": {
+              "id": "iotos.formValue",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "__ht__function formParser(nVal, node) {\r\n    /*参数1  nVal: 属性新值 */\r\n    /*返回 return：最终赋值 */\r\n    /********* TODO **********/\r\n\r\n\r\n\r\n    /************************/\r\n    return nVal;\r\n}",
+              "alias": "../xdate"
+            },
+            "colors": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "colorStops": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "lineDots": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "itemSize": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "colorItems": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "markValues": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "markColors": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "_chart_2": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "_yAxis_data_2": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "_chart_1": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "_yAxis_data_1": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "_chart_0": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "_yAxis_data_0": {
+              "id": "iotos.formValue",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "__ht__function formParser(nVal, node) {\r\n    /*参数1  nVal: 属性新值 */\r\n    /*返回 return：最终赋值 */\r\n    /********* TODO **********/\r\n\r\n\r\n\r\n    /************************/\r\n    return nVal;\r\n}",
+              "alias": "../yvalue/chart"
+            }
+          }
+        },
+        "image": {
+          "modified": "Fri Aug 16 2024 12:21:46 GMT+0800 (中国标准时间)",
+          "background": "rgb(32,37,46)",
+          "dataBindings": [
+            {
+              "attr": "symbol",
+              "valueType": "Image",
+              "defaultValue": "symbols/develop/uiotos/arranged/controls/charts/统计曲线.json",
+              "description": "组件地址字符串",
+              "name": "symbol"
+            },
+            {
+              "valueType": "PositiveNumber",
+              "group": "功能",
+              "attr": "sizeSet",
+              "defaultValue": "3",
+              "description": "动态设置可叠加曲线的数量。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/nxkc9fku1gdkfz5t#Lh2De\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+              "name": "sizeSet"
+            },
+            {
+              "attr": "_chart_0",
+              "name": "曲线类型_0 ★",
+              "valueType": "ChartType",
+              "extraInfo": "★",
+              "defaultValue": "line",
+              "description": "当前是以平滑曲线还是柱状图展示。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/nxkc9fku1gdkfz5t#fJIDS\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+              "dynamicCreate": true
+            },
+            {
+              "attr": "names",
+              "valueType": "Object",
+              "description": "各曲线分别对应的名称。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/nxkc9fku1gdkfz5t#nyzQ9\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+              "name": "名称设置"
+            },
+            {
+              "attr": "xAxis.data",
+              "valueType": "Object",
+              "defaultValue": [
+                "2013",
+                "2014",
+                "2015",
+                "2016",
+                "2017",
+                "2018",
+                "2019",
+                "2020",
+                "2021"
+              ],
+              "description": "所有曲线统一对应的横轴数据。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/nxkc9fku1gdkfz5t#kkd2h\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+              "name": "xAxis.data"
+            },
+            {
+              "attr": "_yAxis_data_0",
+              "name": "Y 轴数据_0",
+              "valueType": "Object",
+              "defaultValue": 0,
+              "description": "当前曲线与X轴对应的Y轴数据列表。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/nxkc9fku1gdkfz5t#BPix3\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+              "dynamicCreate": true
+            },
+            {
+              "attr": "rollingSize",
+              "valueType": "PositiveNumber",
+              "description": "限定横轴最大的数据个数，超出会滚动。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/nxkc9fku1gdkfz5t#DTlfG\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+              "extraInfo": "★",
+              "name": "rollingSize"
+            },
+            {
+              "attr": "widths",
+              "valueType": "Object",
+              "description": "柱状图宽度设置（对平滑曲线无效）。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/nxkc9fku1gdkfz5t#GzeP3\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+              "group": "外观",
+              "extraInfo": "★",
+              "name": "widths"
+            },
+            {
+              "attr": "lineDots",
+              "valueType": "Object",
+              "description": "设置曲线的实线或曲线，以及虚线样式。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/nxkc9fku1gdkfz5t#fVOSE\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+              "extraInfo": "★",
+              "name": "lineDots"
+            },
+            {
+              "attr": "itemSize",
+              "valueType": "Object",
+              "description": "设置平滑曲线上数据小圆点的大小。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/nxkc9fku1gdkfz5t#Zx0Lc\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+              "extraInfo": "★",
+              "name": "itemSize"
+            },
+            {
+              "attr": "background",
+              "valueType": "Color",
+              "description": "设置曲线整体背景颜色，默认为透明。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/nxkc9fku1gdkfz5t#Q8N6L\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+              "extraInfo": "*",
+              "name": "background"
+            },
+            {
+              "attr": "axisLine.color",
+              "valueType": "Color",
+              "defaultValue": "rgba(61,61,61,0.5)",
+              "description": "曲线的X轴和Y轴线条颜色。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/nxkc9fku1gdkfz5t#bVoN5\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+              "extraInfo": "*",
+              "name": "axisLine.color"
+            },
+            {
+              "attr": "axisLabel.color",
+              "valueType": "Color",
+              "defaultValue": "rgb(61,61,61)",
+              "description": "曲线的X轴和Y轴线的文字颜色。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/nxkc9fku1gdkfz5t#jtWuA\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+              "extraInfo": "*",
+              "name": "axisLabel.color"
+            },
+            {
+              "attr": "splitLine.color",
+              "valueType": "Color",
+              "defaultValue": "rgba(128,128,128,0.3)",
+              "description": "曲线水平或垂直分割线颜色。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/nxkc9fku1gdkfz5t#OASQo\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+              "extraInfo": "*",
+              "name": "splitLine.color"
+            },
+            {
+              "attr": "colors",
+              "valueType": "ColorArray",
+              "description": "各线条颜色，按索引依次对应。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/nxkc9fku1gdkfz5t#AaYxP\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+              "name": "colors"
+            },
+            {
+              "attr": "colorItems",
+              "valueType": "ColorArray",
+              "description": "各平滑曲线上数据小圆点的颜色。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/nxkc9fku1gdkfz5t#Dj7GY\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+              "name": "colorItems"
+            },
+            {
+              "attr": "colorStops",
+              "valueType": "ColorArray",
+              "description": "与曲线颜色，组成曲线的渐变色面积阴影。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/nxkc9fku1gdkfz5t#CvszE\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+              "name": "colorStops"
+            },
+            {
+              "attr": "markColors",
+              "valueType": "ColorArray",
+              "defaultValue": [
+                "rgb(255,0,0,1)",
+                "rgb(255,165,0,1)"
+              ],
+              "description": "与曲线颜色，组成曲线的渐变色面积阴影。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/nxkc9fku1gdkfz5t#BUtL6\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+              "extraInfo": "*",
+              "name": "markColors"
+            },
+            {
+              "attr": "markValues",
+              "valueType": "NumberArray",
+              "defaultValue": [],
+              "description": "设置水平刻度值，用于警戒线。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/nxkc9fku1gdkfz5t#kUddF\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+              "extraInfo": "*",
+              "name": "markValues"
+            },
+            {
+              "attr": "boundaryGap",
+              "valueType": "Boolean",
+              "defaultValue": false,
+              "description": "坐标轴左右是否留白。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/nxkc9fku1gdkfz5t#Zf1CQ\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+              "extraInfo": "*",
+              "name": "boundaryGap"
+            },
+            {
+              "attr": "axisTick.show",
+              "valueType": "Boolean",
+              "defaultValue": true,
+              "description": "坐标轴上的刻度标记是否可见。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/nxkc9fku1gdkfz5t#RtY5N\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+              "extraInfo": "*",
+              "name": "axisTick.show"
+            },
+            {
+              "attr": "splitLineY.show",
+              "valueType": "Boolean",
+              "defaultValue": false,
+              "description": "Y轴在水平方向的分割线是否可见。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/nxkc9fku1gdkfz5t#Yy8yo\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+              "extraInfo": "*",
+              "name": "splitLineY.show"
+            },
+            {
+              "attr": "splitLineX.show",
+              "valueType": "Boolean",
+              "description": "X轴在垂直方向的分割线是否可见。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/nxkc9fku1gdkfz5t#wwYE2\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+              "defaultValue": false,
+              "extraInfo": "*",
+              "name": "splitLineX.show"
+            },
+            {
+              "attr": "barCategoryGap",
+              "valueType": "Number",
+              "defaultValue": 10,
+              "description": "柱状图组之间的间隙，用以区分。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/nxkc9fku1gdkfz5t#dyXlZ\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+              "extraInfo": "★",
+              "name": "barCategoryGap"
+            },
+            {
+              "attr": "tooltipFormat",
+              "valueType": "Function",
+              "extraInfo": {
+                "arguments": [
+                  "label",
+                  "datas",
+                  "info",
+                  "node",
+                  "view"
+                ],
+                "classify": "*"
+              },
+              "defaultValue": "__ht__function(label, datas, info, node, view) {/*\r\n参数说明：\r\nlabel：提示标题文字，默认为x轴当前值\r\ndatas：按照曲线索引顺序，指定x轴值对应在y轴各曲线的当前值\r\ninfo/node/view：原始显示信息的对象、图元对象、视图对象\r\n返回格式为：\r\n[label,data0,data1,data2]。\r\n示例：\r\n['提示：' + label,datas[0] + '%',datas[1] + '℃',datas[2] + 'mmp']\r\n\r\n注意，返回数组的第一个为label标题文字，剩下的依次是按照索引的曲线值。\r\n*/\r\nreturn [label,...datas]}",
+              "description": "",
+              "name": "tooltipFormat"
+            }
+          ],
+          "snapshotURL": "symbols/develop/uiotos/arranged/controls/charts_icon/统计曲线.json",
+          "renderHTML": "__ht__function(data, gv, cache) {return __chartInterval(data, gv, cache,'chart','统计曲线');}",
+          "width": 420,
+          "height": 280,
+          "boundExtend": 10,
+          "fitSize": true,
+          "interactive": true,
+          "pixelPerfect": false,
+          "attachStyle": "close",
+          "comps": [
+            {
+              "type": "components/develop/uiotos/base/chart.json",
+              "displayName": "chart（chart1）",
+              "rect": [
+                0,
+                0,
+                420,
+                280
+              ],
+              "onClick": "__ht__function(event, data, view, point, width, height) {\nht.vector.chartInteractor.onClick.apply(this, arguments);\n}",
+              "onDown": "__ht__function(event, data, view, point, width, height) {\nht.vector.chartInteractor.onDown.apply(this, arguments);\n}",
+              "onUp": "__ht__function(event, data, view, point, width, height) {\nht.vector.chartInteractor.onUp.apply(this, arguments);\n}",
+              "onMove": "__ht__function(event, data, view, point, width, height) {\nht.vector.chartInteractor.onMove.apply(this, arguments);\n}",
+              "onEnter": "__ht__function(event, data, view, point, width, height) {\nht.vector.chartInteractor.onEnter.apply(this, arguments);\n}",
+              "onLeave": "__ht__function(event, data, view, point, width, height) {\nht.vector.chartInteractor.onLeave.apply(this, arguments);\n}",
+              "onBeginDrag": "__ht__function(event, data, view, point, width, height) {\nht.vector.chartInteractor.onBeginDrag.apply(this, arguments);\n}",
+              "onDrag": "__ht__function(event, data, view, point, width, height) {\nht.vector.chartInteractor.onDrag.apply(this, arguments);\n}",
+              "onEndDrag": "__ht__function(event, data, view, point, width, height) {\nht.vector.chartInteractor.onEndDrag.apply(this, arguments);\n}",
+              "series": {
+                "func": "attr@series",
+                "value": [
+                  {
+                    "type": "bar",
+                    "barWidth": 0.4,
+                    "data": [
+                      10,
+                      14,
+                      6,
+                      12,
+                      19,
+                      12,
+                      16,
+                      8,
+                      13
+                    ]
+                  },
+                  {
+                    "type": "line",
+                    "smooth": true,
+                    "lineWidth": 0.4,
+                    "data": [
+                      10,
+                      14,
+                      6,
+                      12,
+                      19,
+                      12,
+                      16,
+                      8,
+                      13
+                    ]
+                  },
+                  {
+                    "type": "line",
+                    "smooth": true,
+                    "lineWidth": 0.4,
+                    "data": [
+                      5,
+                      17,
+                      20,
+                      18,
+                      12,
+                      25,
+                      19,
+                      30,
+                      6
+                    ]
+                  }
+                ]
+              },
+              "xAxis": {
+                "func": "__ht__function(data, view) {\nreturn [\r\n    {\r\n        \"axisLabel\": {\r\n            \"color\": data.ca('axisLabel.color')\r\n        },\r\n        \"axisTick\": {\r\n            \"show\": data.ca('axisTick.show'),\r\n            \"color\": data.ca('axisLine.color')\r\n        },\r\n        \"axisLine\": {\r\n            \"show\": true,\r\n            \"color\": data.ca('axisLine.color')\r\n        },\r\n        \"splitLine\": {\r\n            \"show\": data.ca('splitLineX.show'),\r\n            \"color\": data.ca('splitLine.color')\r\n        },\r\n        \"data\": data.ca('xAxis.data')\r\n    }\r\n]\n}",
+                "value": [
+                  {
+                    "axisLabel": {
+                      "color": "rgb(51,153,255)"
+                    },
+                    "axisTick": {
+                      "show": true,
+                      "color": "rgba(51,153,255,0.2)"
+                    },
+                    "axisLine": {
+                      "show": true,
+                      "color": "rgb(51,153,255)"
+                    },
+                    "splitLine": {
+                      "show": false,
+                      "color": "rgba(51,153,255,0.1)"
+                    },
+                    "data": [
+                      "2011",
+                      "2012",
+                      "2013",
+                      "2014",
+                      "2015",
+                      "2016",
+                      "2017",
+                      "2018",
+                      "2019"
+                    ]
+                  }
+                ]
+              },
+              "yAxis": {
+                "func": "__ht__function(data, view) {\nlet param = {\r\n    \"axisLabel\": {\r\n        \"color\": data.ca('axisLabel.color')\r\n    },\r\n    \"axisLine\": {\r\n        \"color\": data.ca('axisLine.color')\r\n    },\r\n    \"axisTick\": {\r\n        \"show\": data.ca('axisTick.show'),\r\n        \"color\": data.ca('axisLine.color')\r\n    },\r\n    \"splitLine\": {\r\n        \"show\": data.ca('splitLineY.show'),\r\n        \"color\": data.ca('splitLine.color')\r\n    },\r\n    \"markLines\": [\r\n        {\r\n            \"value\": data.ca('markValues') ? (data.ca('markValues')[0] ? data.ca('markValues')[0] : 0) : 0,\r\n            \"color\": data.ca('markColors') ? (data.ca('markColors')[0] ? data.ca('markColors')[0] : undefined) : undefined,\r\n        },\r\n        {\r\n            \"value\": data.ca('markValues') ? (data.ca('markValues')[1] ? data.ca('markValues')[1] : 0) : 0,\r\n            \"color\": data.ca('markColors') ? (data.ca('markColors')[1] ? data.ca('markColors')[1] : undefined) : undefined,\r\n        },\r\n    ]\r\n}\r\nif(data.ca('markValues') == undefined || data.ca('markValues').length == 0) delete param.markLines;\r\nreturn param;\n}",
+                "value": {
+                  "axisLabel": {
+                    "color": "rgb(51,153,255)"
+                  },
+                  "axisLine": {
+                    "show": true,
+                    "color": "rgb(51,153,255)"
+                  },
+                  "axisTick": {
+                    "show": true,
+                    "color": "rgba(51,153,255,0.2)"
+                  },
+                  "splitLine": {
+                    "show": false,
+                    "color": "rgba(51,153,255,0.1)"
+                  }
+                }
+              },
+              "colors": {
+                "func": "attr@colors",
+                "value": [
+                  "rgb(96,172,252)",
+                  "rgb(50,211,235)",
+                  "rgb(93,217,174)"
+                ]
+              },
+              "background": {
+                "func": "attr@background",
+                "value": null
+              },
+              "boundaryGap": {
+                "func": "attr@boundaryGap",
+                "value": true
+              },
+              "tooltipLineColor": {
+                "func": "attr@tooltipLineColor",
+                "value": "rgb(124,145,155)"
+              },
+              "tooltipFormatter": {
+                "func": "attr@tooltipFormatter"
+              },
+              "getValue": "__ht__function(V){var R=T(Q,V);return R===N8&&X.properties&&(V=X.properties[V])?V.defaultValue:R}",
+              "getColor": "__ht__function(V,R){return wm(!0===R?V:Q.getValue(V))}"
+            }
+          ],
+          "uuid": "79640513-5A46-4509-AEE9-0A20116FE8A0"
+        },
+        "host": {
+          "__i": 1281977
+        },
+        "position": {
+          "x": 821.26452,
+          "y": 414.94991
+        },
+        "width": 1244.90323,
+        "height": 486.50581
+      },
+      "s": {
+        "label.position": 14,
+        "label.offset.x": -10,
+        "label.offset.y": 0,
+        "interactive": true,
+        "image.stretch": "uniform",
+        "label.opacity": 0,
+        "2d.movable": false,
+        "layout.h": "leftright",
+        "layout.v": "topbottom"
+      },
+      "a": {
+        "symbol": "symbols/develop/uiotos/arranged/controls/charts/统计曲线.json",
+        "names": [
+          "曲线0"
+        ],
+        "itemSize": [
+          3
+        ],
+        "widths": [
+          1
+        ],
+        "lineDots": [
+          3
+        ],
+        "colors": [
+          "rgb(51,153,255)"
+        ],
+        "colorStops": [
+          "rgba(96,172,252,0.05)"
+        ],
+        "colorItems": [
+          "#60ACFC"
+        ],
+        "_yAxis_data_0": [
+          0,
+          1,
+          1,
+          10,
+          5,
+          1,
+          3,
+          10,
+          6
+        ],
+        "_yAxis_data_1": [
+          0,
+          6,
+          20,
+          9,
+          1,
+          18,
+          11,
+          14,
+          3
+        ],
+        "_yAxis_data_2": [
+          1,
+          8,
+          9,
+          18,
+          1,
+          4,
+          17,
+          27,
+          5
+        ],
+        "series": [
+          {
+            "type": "line",
+            "name": "曲线0",
+            "data": [
+              0,
+              1,
+              1,
+              10,
+              5,
+              1,
+              3,
+              10,
+              6
+            ],
+            "lineStyle": {
+              "width": 1,
+              "pattern": [
+                3,
+                3
+              ]
+            },
+            "smooth": true,
+            "itemStyle": {
+              "size": 3,
+              "background": "#60ACFC"
+            },
+            "areaStyle": {
+              "color": {
+                "type": "linear",
+                "colorStops": [
+                  {
+                    "offset": 0,
+                    "color": "rgb(51,153,255)"
+                  },
+                  {
+                    "offset": 1,
+                    "color": "rgba(96,172,252,0.05)"
+                  }
+                ]
+              }
+            }
+          }
+        ],
+        "sizeSet": 1
+      }
+    }
+  ],
+  "modified": "Sun Aug 25 2024 21:36:21 GMT+0800 (中国标准时间)",
+  "contentRect": {
+    "x": 158.13517,
+    "y": 40.87742,
+    "width": 1338.58096,
+    "height": 657.75484
+  }
+}

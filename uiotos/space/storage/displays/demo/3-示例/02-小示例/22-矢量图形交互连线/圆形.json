@@ -1,0 +1,335 @@
+{
+  "v": "8.0.1",
+  "p": {
+    "background": "#20252e",
+    "autoAdjustIndex": true,
+    "hierarchicalRendering": true
+  },
+  "a": {
+    "rotateAsClock": false,
+    "gridBlockSize": 20,
+    "connectActionType": null,
+    "fitContent": false,
+    "zoomable": false,
+    "rectSelectable": false,
+    "pannable": false,
+    "_professional": false
+  },
+  "d": [
+    {
+      "c": "ht.Node",
+      "i": 795499,
+      "p": {
+        "name": "base",
+        "displayName": "底板（_base）",
+        "tag": "_base",
+        "position": {
+          "x": 406.29091,
+          "y": 236.0921
+        },
+        "width": 412.56338,
+        "height": 414.2558
+      },
+      "s": {
+        "shape": "rect",
+        "shape.background": "white",
+        "fullscreen.gap": 0,
+        "2d.movable": false,
+        "label.opacity": 0,
+        "interactive": true,
+        "label.position": 17,
+        "label.color": "rgb(61,61,61)",
+        "fullscreen": "fill"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 795500,
+      "p": {
+        "name": "Node",
+        "displayName": "n（Node2）",
+        "toolTip": "<p style='color:rgb(242,83,75);margin-top:5px;margin-bottom:5px;font-weight:bold;line-height:1.5em;'>已被布局，不允许拖动（shift+回车可解除）</p>",
+        "tag": "Node2",
+        "dataBindings": {
+          "s": {
+            "shape.background": {
+              "id": "iotos.form",
+              "alias": "",
+              "func": "__ht__function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        console.error(err);\r\n        return rawData;\r\n    }\r\n}",
+              "idinfo": "",
+              "isTplBinded": false
+            }
+          }
+        },
+        "host": {
+          "__i": 795499
+        },
+        "position": {
+          "x": 406.29091,
+          "y": 236.0921
+        },
+        "width": 350,
+        "height": 350
+      },
+      "s": {
+        "shape": "oval",
+        "shape.background": "#D8D8D8",
+        "shape.border.color": "#979797",
+        "label.opacity": 0,
+        "label.position": 17,
+        "label.color": "rgb(61,61,61)",
+        "interactive": true,
+        "image.stretch": "uniform",
+        "2d.movable": false,
+        "layout.h": "leftright",
+        "layout.v": "topbottom"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 795501,
+      "p": {
+        "name": "cbtn",
+        "displayName": "图片按钮（cbtn1）",
+        "toolTip": "<p style='color:rgb(242,83,75);margin-top:5px;margin-bottom:5px;font-weight:bold;line-height:1.5em;'>已被布局，不允许拖动（shift+回车可解除）</p>",
+        "tag": "cbtn1",
+        "dataBindings": {
+          "a": {
+            "clicked": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "userData": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "bindControlsVal": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            }
+          }
+        },
+        "image": {
+          "modified": "Mon Jun 24 2024 07:37:14 GMT+0800 (中国标准时间)",
+          "dataBindings": [
+            {
+              "attr": "symbol",
+              "valueType": "Image",
+              "name": "symbol"
+            },
+            {
+              "attr": "openUrl",
+              "valueType": "String",
+              "description": "浏览器地址。\n<br>运行模式下点击，会在浏览器新页签打开地址。",
+              "group": "功能",
+              "name": "openUrl"
+            },
+            {
+              "attr": "toolTip",
+              "valueType": "Boolean",
+              "description": "运行时提示是否可见。\n<br>默认编辑状态下非空内容的提示鼠标放在上面都可见，\n<br>需要勾选该属性运行模式下才可见。",
+              "defaultValue": true,
+              "name": "toolTip"
+            },
+            {
+              "attr": "disabled",
+              "valueType": "Boolean",
+              "description": "禁用。",
+              "name": "disabled"
+            },
+            {
+              "attr": "bindTabview",
+              "valueType": "StringArray",
+              "defaultValue": [
+                "tab1",
+                -1
+              ],
+              "description": "",
+              "name": "bindTabview"
+            },
+            {
+              "attr": "userData",
+              "valueType": "Object",
+              "description": "",
+              "defaultValue": [],
+              "name": "userData"
+            },
+            {
+              "attr": "clicked",
+              "valueType": "Function",
+              "name": "点击事件",
+              "extraInfo": {
+                "arguments": [
+                  "data",
+                  "param"
+                ]
+              },
+              "description": "当点击时触发。"
+            },
+            {
+              "attr": "param",
+              "valueType": "Function",
+              "name": "数据参数",
+              "extraInfo": {
+                "arguments": [
+                  "data",
+                  "gv"
+                ]
+              },
+              "defaultValue": "__ht__function(data, gv) {return null;}",
+              "description": "自定义传入参数。\n<br>用来点击事件clicked触发时传入。"
+            },
+            {
+              "attr": "path",
+              "valueType": "Image",
+              "defaultValue": "symbols/develop/uiotos/icons/editroToolBar/edit.json",
+              "name": "图标路径",
+              "description": "图标。\n<br>可以设置其他图标地址。\n<br>如果清空，则会自动填充一个纯色矩形，\n<br>并且默认透明度为0.1。可以设置默认、\n<br>划过、点击颜色来调整。",
+              "group": "外观"
+            },
+            {
+              "attr": "default-background",
+              "valueType": "Color",
+              "defaultValue": "rgb(55,125,255)",
+              "name": "默认颜色"
+            },
+            {
+              "attr": "hover-background",
+              "valueType": "Color",
+              "defaultValue": "rgb(51,153,255)",
+              "name": "划过颜色"
+            },
+            {
+              "attr": "click-background",
+              "valueType": "Color",
+              "defaultValue": "#60ACFC",
+              "name": "按下颜色"
+            },
+            {
+              "attr": "bindControlsTag",
+              "valueType": "ObjectArray",
+              "group": "连线",
+              "description": "",
+              "name": "bindControlsTag"
+            },
+            {
+              "attr": "bindControlsAttr",
+              "valueType": "ObjectArray",
+              "description": "",
+              "name": "bindControlsAttr"
+            },
+            {
+              "attr": "bindControlsVal",
+              "valueType": "ObjectArray",
+              "description": "",
+              "name": "bindControlsVal"
+            },
+            {
+              "attr": "paramControlTag",
+              "valueType": "StringArray",
+              "name": "paramControlTag"
+            },
+            {
+              "attr": "paramControlAttr",
+              "valueType": "ObjectArray",
+              "name": "paramControlAttr"
+            },
+            {
+              "attr": "paramsGenerator",
+              "valueType": "Function",
+              "defaultValue": "__ht__function(data, val, index, node,oldVal,form) {//绑定组索引对应的函数处理，用来动态生成复杂的参数变量传入\r\nswitch(index){\r\n    case 0:\r\n        break;\r\n    case 1:\r\n        break;\r\n    case 2:\r\n        break;\r\n    default:\r\n        break;\r\n}\r\n\r\nreturn val;}",
+              "extraInfo": {
+                "arguments": [
+                  "data",
+                  "val",
+                  "index",
+                  "node",
+                  "oldVal",
+                  "form"
+                ]
+              },
+              "name": "paramsGenerator"
+            },
+            {
+              "attr": "useAttrCORS",
+              "valueType": "Boolean",
+              "defaultValue": false,
+              "description": "连线操作和处理回写是否一致。\n                        比如多个文本框连线传值给相同对话框，弹窗修改\n                        后是否限定只能写到最新赋值过来的文本框。详见<a href='https://www.yuque.com/liuhuo-nc809/uiotos/fgi6dd7gado51acm#fFUbp' style=\"color:rgb(96,172,252)\"target=\"_blank\">同源属性操作</a>",
+              "name": "useAttrCORS",
+              "dynamicCreate": true
+            }
+          ],
+          "snapshotURL": "symbols/develop/uiotos/arranged/controls/forms_icon/图片按钮.json",
+          "onDown": "__ht__function(event, data, view, point, width, height) {\n!data.ca('disabled') && data.ca('icon-background',data.ca('click-background'))\n}",
+          "onUp": "__ht__function(event, data, view, point, width, height) {\nif(!data.ca('disabled')){\r\n    data.ca('icon-background',data.ca('hover-background'));\r\n    let cb = new Function('return ' + data.ca('clicked'))(),\r\n        cb2 = new Function('return ' + data.ca('onClick'))();//240523，兼容onClick命名\r\n    typeof(setBindTabviewIndex) != 'undefined' && setBindTabviewIndex(data,data.ca('bindTabview'));\r\n    let paramCb = new Function('return ' + data.ca('param'))();\r\n    let param = paramCb ? paramCb(data,view) : null;\r\n    if(typeof(i) != 'undefined' && typeof(i.updateBindControls) != 'undefined'){\r\n        //240304，需要改成i.formEventBubblingUpper，否则执行操作可能会出问题！比如tab页签索引切换，切换不了！\r\n        // i.updateBindControls(data,param,[],false,'~','clicked');//params是response的位置，所以得是对象类型\\\r\n        //触发事件连线操作\r\n        i.formEventBubblingUpper(\r\n            data,\r\n            data._gv,\r\n            data._cache,\r\n            'clicked',\r\n            null,\r\n            false\r\n        );\r\n    }\r\n    //230819，支持传入url，点击浏览器新窗口打开。\r\n    let urltmp = data.ca('openUrl');\r\n    if(urltmp && urltmp.indexOf('http') == -1) urltmp = 'http://' + urltmp;\r\n    urltmp && window.open(urltmp,'_blank');\r\n    \r\n    if(cb2) return cb2(data,param);\r\n    else return cb && cb(data,param)\r\n}\n}",
+          "onEnter": "__ht__function(event, data, view, point, width, height) {\nif(data.ca('disabled')){\r\n    view.getView().style.cursor = 'not-allowed'\r\n}else{\r\n    data.ca('icon-background',data.ca('hover-background'))\r\n    data.iv();\r\n    view.getView().style.cursor = 'pointer'\r\n}\n}",
+          "onLeave": "__ht__function(event, data, view, point, width, height) {\ndata.ca('icon-background',data.ca('default-background'))\r\nview.getView().style.cursor = 'default'\n}",
+          "renderHTML": "__ht__function(data, gv, cache) {/*240304，所以渲染元素最简，都需要加上这句调用，否则连线赋值时，判断\r\ni.hasInnerSymbolInited()识别渲染元素是否初始化就极可能识别判断失误！\r\n加上了这句，上面的data._gv、data._cache散装调用貌似可以去掉了，暂时\r\n不动，留着也无妨！*/\r\ncache = _i.innerRecoveredDataCache(data, cache,false,'cbtn','图片按钮');\r\n\r\n//对于提示组件，初始没有配置（undefined），那么自动勾选，允许运行时提示可见！\r\nif(data.getName() == 'tip' && data.ca('toolTip') === undefined){\r\n    data.ca('toolTip',true);\r\n    data.s('pixelPerfect',false);\r\n}\r\n\r\n//240518，清空时，给一个矩形，可以配置颜色包括透明的，避免清理不掉默认图标。当清理图标时，自动矩形半透明0.1\r\nif(!data._gv){\r\n    //240622，组件默认form绑定的属性\r\n    i.setAttrsFormBinded(data, [\r\n        'clicked',\r\n        'userData',\r\n        'bindControlsVal'\r\n    ]);\r\n    \r\n    data.ca('iconType',1);//240610，这个属性隐藏掉不对外了\r\n    i.md(data, gv, cache, {\r\n        'a:path': e => {\r\n            if(!e.newValue || e.newValue.trim() == ''){\r\n                data.ca('path','symbols/develop/uiotos/common/pureRect.json');\r\n                data.ca('default-background', rgbaForced(data.ca('default-background'),0.1));\r\n                data.ca('hover-background', rgbaForced(data.ca('hover-background'),0.1));\r\n                data.ca('click-background', rgbaForced(data.ca('click-background'),0.1));\r\n                data.s('image.stretch','fill');\r\n            }\r\n        },\r\n    }, [],null, null, null);\r\n}\r\n\r\n//240304，发现iconButton图片按钮没有渲染元素代码实现，需要这里手动加\r\ndata._gv = gv;\r\ndata._cache = data.__cache = cache;}",
+          "width": 100,
+          "height": 100,
+          "pixelPerfect": false,
+          "comps": [
+            {
+              "type": "image",
+              "color": null,
+              "name": {
+                "func": "__ht__function(data, view) {\nfunction func(data,view){\r\n    if((typeof(runningMode) != 'undefined' && !runningMode()) || view.getView().style.cursor != 'pointer'){//最好不用 == 'default'，因为存在代码初始赋值\r\n        data.ca('icon-background',data.ca('default-background'))\r\n    }\r\n    var typeArr = ['light','light','regular','light'] //枚举下拉选择\r\n    var typetmp = typeArr[data.ca('iconType')] //类型选择\r\n    var path = data.ca('path')                 //图标路径\r\n    if(path != undefined && path.trim() !== ''){\r\n        if(path.indexOf('.') == -1){           //传入图标文件名称时\r\n            path = 'symbols/demo/uiotos/icons/' + typetmp + '/' + path + '.json'\r\n        }else if(path.indexOf(typetmp) == -1){ //图标类型发生变化时\r\n            typeArr.forEach((curType,index)=>{\r\n                if(curType != typetmp){        //路径中先前的类型名称换成新的\r\n                    path = path.replace(curType,typetmp)               \r\n                }\r\n            })\r\n        }\r\n    }\r\n    data.ca('path',path)                      //回写过去\r\n    return path\r\n}\r\n\r\n//整体复制的话需要带上这句，因为属性func外层已经是函数体\r\nreturn func(data,view)\n}",
+                "value": "symbols/demo/uiotos/icons/light/square-full.json"
+              },
+              "displayName": "democrat（democrat1）",
+              "rect": [
+                0,
+                0,
+                100,
+                100
+              ]
+            }
+          ],
+          "uuid": "C557EFAF-E211-4BB1-AE41-4EA965A8602B"
+        },
+        "host": {
+          "__i": 795499
+        },
+        "position": {
+          "x": 406.29091,
+          "y": 236.0921
+        },
+        "width": 412.56338,
+        "height": 414.2558
+      },
+      "s": {
+        "label.opacity": 0,
+        "label.position": 17,
+        "label.color": "rgb(61,61,61)",
+        "interactive": true,
+        "2d.movable": false,
+        "pixelPerfect": false,
+        "layout.h": "leftright",
+        "layout.v": "topbottom"
+      },
+      "a": {
+        "iconType": 1,
+        "symbol": "symbols/develop/uiotos/arranged/controls/forms/01-按钮点击/图片按钮.json",
+        "icon-background": "rgba(59,127,255,0)",
+        "path": "symbols/develop/uiotos/common/pureRect.json",
+        "default-background": "rgba(59,127,255,0)",
+        "hover-background": "rgba(212,212,212,0.10)",
+        "click-background": "rgba(217,217,217,0.3)",
+        "toolTipRaw": "<p style='color:rgb(242,83,75);margin-top:5px;margin-bottom:5px;font-weight:bold;line-height:1.5em;'>已被布局，不允许拖动（shift+回车可解除）</p>"
+      }
+    }
+  ],
+  "modified": "Fri Jul 26 2024 12:41:42 GMT+0800 (中国标准时间)",
+  "contentRect": {
+    "x": 200.00922,
+    "y": 28.9642,
+    "width": 412.56338,
+    "height": 414.2558
+  }
+}

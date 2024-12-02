@@ -1,0 +1,2440 @@
+{
+  "v": "7.7.3",
+  "p": {
+    "autoAdjustIndex": true,
+    "hierarchicalRendering": true
+  },
+  "a": {
+    "rotateAsClock": false,
+    "gridBlockSize": 20,
+    "connectActionType": null,
+    "fitContent": false,
+    "rectSelectable": false,
+    "pannable": false,
+    "zoomable": false,
+    "onPostDeserialize": "__ht__function(json, dm, gv, datas) {// setTimeout(()=>{\r\n//     d(dm,'treeTable-ui1').a('checkSelected',[3,5,6])\r\n// },100)}"
+  },
+  "d": [
+    {
+      "c": "ht.Node",
+      "i": 161142,
+      "p": {
+        "displayName": "n1（n1）",
+        "tag": "n1",
+        "dataBindings": {
+          "s": {
+            "shape.border.width": {
+              "id": "iotos.form",
+              "func": "__ht__function formParser(rawData) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}",
+              "idinfo": "",
+              "isTplBinded": false
+            },
+            "shape.border.color": {
+              "id": "iotos.form",
+              "func": "__ht__function formParser(rawData) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}",
+              "idinfo": "",
+              "isTplBinded": false
+            },
+            "shape.corner.radius": {
+              "id": "iotos.form",
+              "func": "__ht__function formParser(rawData) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}",
+              "idinfo": "",
+              "isTplBinded": false
+            },
+            "shape.background": {
+              "id": "iotos.form",
+              "func": "__ht__function formParser(rawData) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}",
+              "idinfo": "",
+              "isTplBinded": false
+            }
+          }
+        },
+        "position": {
+          "x": -95.56947,
+          "y": 6.02378
+        },
+        "width": 300,
+        "height": 750
+      },
+      "s": {
+        "shape": "roundRect",
+        "shape.background": "rgb(255,255,255)",
+        "shape.border.color": "rgb(213,213,213)",
+        "interactive": true,
+        "image.stretch": "uniform",
+        "fullscreen": "fill",
+        "fullscreen.gap": 1,
+        "shape.corner.radius": 3,
+        "shape.border.width": 1,
+        "shape.border.width.absolute": true,
+        "label.position": 14,
+        "label.offset.x": -10,
+        "label.offset.y": 0,
+        "label.color": "rgb(61,61,61)"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 161143,
+      "p": {
+        "displayName": "treeTable-ui（treeTable-ui1）",
+        "toolTip": "<p style='color:rgb(242,83,75);margin:0px;font-weight:bold'>已被布局，不允许拖动<p>",
+        "tag": "treeTable-ui1",
+        "dataBindings": {
+          "a": {
+            "datas": {
+              "id": "iotos.form",
+              "func": "__ht__function formParser(rawData) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}",
+              "idinfo": "",
+              "isTplBinded": false
+            },
+            "checkSelected": {
+              "id": "iotos.form",
+              "func": "__ht__function formParser(rawData) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}",
+              "idinfo": "",
+              "isTplBinded": false
+            },
+            "onCheck": {
+              "id": "iotos.form",
+              "func": "__ht__function formParser(rawData) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}",
+              "idinfo": "",
+              "isTplBinded": false
+            },
+            "visibleFilterInput": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "__ht__function formParser(rawData) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "queryMatched": {
+              "id": "iotos.form",
+              "func": "__ht__function formParser(rawData) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}",
+              "idinfo": "",
+              "isTplBinded": false
+            },
+            "dataComboType": {
+              "id": "iotos.form",
+              "func": "__ht__function formParser(rawData) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}",
+              "idinfo": "",
+              "isTplBinded": false
+            },
+            "userData": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "dataAdd": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "checkIndexsGet": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "rowsExtraUserInfo": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "onDatasLoaded": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "onClick": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "onDoubleClick": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "onLastButtonClick": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "onLastButtonSelected": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "borderWidth": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "currentClicked": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "checkMode": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            }
+          },
+          "s": {}
+        },
+        "image": {
+          "modified": "Sun Sep 03 2023 13:24:50 GMT+0800 (中国标准时间)",
+          "background": "rgb(32,37,46)",
+          "dataBindings": [
+            {
+              "attr": "symbol",
+              "valueType": "Image",
+              "group": "功能（关键）"
+            },
+            {
+              "attr": "shadowBorder",
+              "valueType": "NumberArray",
+              "defaultValue": [
+                0,
+                0,
+                8
+              ]
+            },
+            {
+              "attr": "shadowColor",
+              "valueType": "Color",
+              "defaultValue": "rgba(102,102,102,0.2)"
+            },
+            {
+              "attr": "shadowEnabled",
+              "valueType": "Boolean",
+              "defaultValue": false
+            },
+            {
+              "attr": "lastItems",
+              "valueType": "StringArray",
+              "defaultValue": [
+                "查看",
+                "添加",
+                "删除"
+              ]
+            },
+            {
+              "attr": "lastRootIgnored",
+              "valueType": "NumberArray",
+              "defaultValue": [
+                2
+              ]
+            },
+            {
+              "attr": "lastNodeIgnored",
+              "valueType": "NumberArray",
+              "defaultValue": [
+                0,
+                2
+              ]
+            },
+            {
+              "attr": "lastChildIgnored",
+              "valueType": "NumberArray",
+              "defaultValue": [
+                1
+              ]
+            },
+            {
+              "attr": "lastSingleIgnored",
+              "valueType": "NumberArray"
+            },
+            {
+              "attr": "singleRootOrChild",
+              "valueType": "Boolean",
+              "defaultValue": false
+            },
+            {
+              "attr": "lastItemRowsText",
+              "valueType": "StringArray"
+            },
+            {
+              "attr": "rowsExtraUserInfo",
+              "valueType": "ObjectArray"
+            },
+            {
+              "attr": "lastColorsDefault",
+              "valueType": "ColorArray",
+              "defaultValue": [
+                "rgb(55,125,255)",
+                "rgb(55,125,255)",
+                "rgb(242,83,75)"
+              ]
+            },
+            {
+              "attr": "lastColorsHover",
+              "valueType": "ColorArray",
+              "defaultValue": [
+                "rgb(48,20,166)",
+                "rgb(48,20,166)",
+                "rgb(255,0,0)"
+              ]
+            },
+            {
+              "attr": "lastColorsActive",
+              "valueType": "ColorArray",
+              "defaultValue": [
+                "rgba(48,20,166,0.8)",
+                "rgba(48,20,166,0.8)",
+                "rgab(255,0,0,0.8)"
+              ]
+            },
+            {
+              "attr": "lastGap",
+              "valueType": "Number",
+              "defaultValue": 10
+            },
+            {
+              "attr": "itemsGap",
+              "valueType": "Number",
+              "defaultValue": 10
+            },
+            {
+              "attr": "columns",
+              "valueType": "ObjectArray",
+              "defaultValue": [
+                {
+                  "displayName": "序号"
+                },
+                {
+                  "displayName": "人员姓名"
+                },
+                {
+                  "displayName": "所属公司",
+                  "editable": false,
+                  "editorClass": "ht.ui.editor.StringEditor"
+                },
+                {
+                  "displayName": "人员类型",
+                  "editable": true,
+                  "editorClass": "ht.ui.editor.StringEditor"
+                },
+                {
+                  "displayName": "连接状态",
+                  "drawCell": {}
+                },
+                {
+                  "displayName": "设备名称",
+                  "drawCell": {
+                    "width": 25,
+                    "height": null
+                  }
+                },
+                {
+                  "displayName": "通行照片",
+                  "editable": true,
+                  "drawCell": {
+                    "width": null,
+                    "height": null
+                  }
+                },
+                {
+                  "displayName": "运行状态",
+                  "editable": true,
+                  "drawCell": {}
+                },
+                {
+                  "displayName": "操作"
+                }
+              ],
+              "description": "表格列定义。\n<br>注意，在编辑器中，支持第一个元素以数组编辑，保存后自动展开\n<br>成数组；可以将长度调整减少成1，此时展开的数组会合并到第一个\n<br>元素以数组方式用于再次编辑调整，保存后继续展开。\n<br>其中数字数组，可以用字符串数组代替，这样数组就逗号间隔的形式\n<br>来合并成一个值在第一个元素中编辑。"
+            },
+            {
+              "attr": "columnWidths",
+              "valueType": "StringArray",
+              "defaultValue": [
+                75,
+                200,
+                -0.2,
+                80,
+                100,
+                -0.65,
+                -0.35,
+                180,
+                200
+              ]
+            },
+            {
+              "attr": "colorFilterFunc",
+              "valueType": "Function",
+              "defaultValue": "__ht__function(node, rObj, cObj, cIndex, value) {//返回null则是配置的默认字体颜色\r\nreturn cIndex == 1 || cObj.getDisplayName() == '人员类型'? \r\n    contain(value,['异常','错误','故障','非法','北']) ? \r\n    'red' : 'green' : null}",
+              "extraInfo": {
+                "arguments": [
+                  "node",
+                  "rObj",
+                  "cObj",
+                  "cIndex",
+                  "value"
+                ]
+              },
+              "description": "指定行列文字的颜色。\n<br>过滤函数提供行列信息，可指定某一列，或者某一行的某一列\n<br>（单元格），根据内容判断返回指定的颜色。\n<br>入参：\n<br>        \"node\"：组件对象\n<br>        \"rObj\",：行数据\n<br>        \"cObj\",：列定义\n<br>        \"cIndex\",：列索引\n<br>        \"value\"：当前值"
+            },
+            {
+              "attr": "dataFilterFunc",
+              "valueType": "Function",
+              "defaultValue": "__ht__function(nodeData, rowObject, columnObject, colunmIndex, value) {return value; //默认不做任何转换}",
+              "description": "转换指定行列的显示内容。\n<br>过滤函数提供行列信息，可指定某一列，或者某一行的某一列\n<br>（单元格），根据内容判断返回指定的转换后的内容。\n<br>入参：\n<br>        \"node\"：组件对象\n<br>        \"rObj\",：行数据\n<br>        \"cObj\",：列定义\n<br>        \"cIndex\",：列索引\n<br>        \"value\"：当前值",
+              "extraInfo": {
+                "arguments": [
+                  "node",
+                  "rObj",
+                  "cObj",
+                  "cIndex",
+                  "value"
+                ]
+              }
+            },
+            {
+              "attr": "showColumnIndex",
+              "valueType": "Boolean",
+              "defaultValue": false
+            },
+            {
+              "attr": "centerAlign",
+              "valueType": "Boolean",
+              "defaultValue": true
+            },
+            {
+              "attr": "datas",
+              "valueType": "Object",
+              "defaultValue": [
+                {
+                  "rowData": [
+                    "23891212",
+                    "南入口出入通道模块",
+                    "南入口通道",
+                    {
+                      "type": "graphView",
+                      "display": "displays/admin/uiotos/editor/widgets/cellGraphView.json"
+                    },
+                    [
+                      {
+                        "type": "image",
+                        "icon": "symbols/demo/uiotos/icons/light/address-book.json"
+                      },
+                      {
+                        "type": "image",
+                        "icon": "symbols/demo/uiotos/icons/light/amp-guitar.json"
+                      }
+                    ],
+                    "正常通行",
+                    {
+                      "type": "graphView",
+                      "display": "displays/admin/uiotos/editor/widgets/cellGraphViewMutiple.json"
+                    }
+                  ],
+                  "children": [
+                    {
+                      "rowData": [
+                        "23891212",
+                        "北入口通道出入模块",
+                        "北入口通道",
+                        {
+                          "type": "graphView",
+                          "display": "displays/admin/uiotos/editor/widgets/cellGraphView.json"
+                        },
+                        [
+                          {
+                            "type": "image",
+                            "icon": "symbols/demo/uiotos/icons/light/ambulance.json"
+                          },
+                          {
+                            "type": "image",
+                            "icon": "symbols/demo/uiotos/icons/light/american-sign-language-interpreting.json"
+                          },
+                          {
+                            "type": "image",
+                            "icon": "symbols/demo/uiotos/icons/light/american-sign-language-interpreting.json"
+                          },
+                          {
+                            "type": "image",
+                            "icon": "symbols/demo/uiotos/icons/light/american-sign-language-interpreting.json"
+                          }
+                        ],
+                        "正常"
+                      ],
+                      "children": [
+                        [
+                          "23891212",
+                          "西门出入口",
+                          "1号门",
+                          {
+                            "type": "graphView",
+                            "display": "displays/admin/uiotos/editor/widgets/cellGraphView.json"
+                          },
+                          {
+                            "type": "image",
+                            "icon": "symbols/demo/uiotos/icons/light/address-book.json"
+                          },
+                          [
+                            {
+                              "type": "image",
+                              "icon": "assets/demo/fcj/403db210783cba7d2720ac2852122342.png"
+                            },
+                            {
+                              "type": "image",
+                              "icon": "symbols/demo/uiotos/icons/light/address-book.json"
+                            }
+                          ],
+                          "测试",
+                          {
+                            "type": "graphView",
+                            "display": "displays/admin/uiotos/editor/widgets/cellGraphViewMutiple.json"
+                          }
+                        ],
+                        [
+                          "23891212",
+                          "北入口通道出入模块",
+                          "北入口通道",
+                          {
+                            "type": "graphView",
+                            "display": "displays/admin/uiotos/editor/widgets/cellGraphView.json"
+                          },
+                          [
+                            {
+                              "type": "image",
+                              "icon": "symbols/demo/uiotos/icons/light/amp-guitar.json"
+                            },
+                            {
+                              "type": "image",
+                              "icon": "symbols/demo/uiotos/icons/light/amp-guitar.json"
+                            },
+                            {
+                              "type": "image",
+                              "icon": "symbols/demo/uiotos/icons/light/amp-guitar.json"
+                            },
+                            {
+                              "type": "image",
+                              "icon": "symbols/demo/uiotos/icons/light/amp-guitar.json"
+                            },
+                            {
+                              "type": "image",
+                              "icon": "symbols/demo/uiotos/icons/light/american-sign-language-interpreting.json"
+                            },
+                            {
+                              "type": "image",
+                              "icon": "symbols/demo/uiotos/icons/light/american-sign-language-interpreting.json"
+                            },
+                            {
+                              "type": "image",
+                              "icon": "symbols/demo/uiotos/icons/light/american-sign-language-interpreting.json"
+                            }
+                          ],
+                          "非法通行",
+                          {
+                            "type": "graphView",
+                            "display": "displays/admin/uiotos/editor/widgets/cellGraphView.json"
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                },
+                [
+                  "23891212",
+                  "西门出入口",
+                  "1号门",
+                  {
+                    "type": "graphView",
+                    "display": "displays/admin/uiotos/editor/widgets/cellGraphView.json"
+                  },
+                  {
+                    "type": "image",
+                    "icon": "symbols/demo/uiotos/icons/light/address-book.json"
+                  },
+                  [
+                    {
+                      "type": "image",
+                      "icon": "assets/demo/fcj/403db210783cba7d2720ac2852122342.png"
+                    },
+                    {
+                      "type": "image",
+                      "icon": "symbols/demo/uiotos/icons/light/address-book.json"
+                    }
+                  ],
+                  "测试",
+                  {
+                    "type": "graphView",
+                    "display": "displays/admin/uiotos/editor/widgets/cellGraphViewMutiple.json"
+                  }
+                ],
+                [
+                  "23891212",
+                  "1门出入口",
+                  "2号门",
+                  {
+                    "type": "graphView",
+                    "display": "displays/admin/uiotos/editor/widgets/cellGraphView.json"
+                  },
+                  {
+                    "type": "image",
+                    "icon": "symbols/demo/uiotos/icons/light/address-book.json"
+                  },
+                  [
+                    {
+                      "type": "image",
+                      "icon": "assets/demo/fcj/403db210783cba7d2720ac2852122342.png"
+                    },
+                    {
+                      "type": "image",
+                      "icon": "symbols/demo/uiotos/icons/light/address-book.json"
+                    }
+                  ],
+                  "测试2",
+                  {
+                    "type": "graphView",
+                    "display": "displays/admin/uiotos/editor/widgets/cellGraphViewMutiple.json"
+                  }
+                ],
+                [
+                  "23891212",
+                  "北入口通道出入模块",
+                  "北入口通道",
+                  {
+                    "type": "graphView",
+                    "display": "displays/admin/uiotos/editor/widgets/cellGraphView.json"
+                  },
+                  [
+                    {
+                      "type": "image",
+                      "icon": "symbols/demo/uiotos/icons/light/amp-guitar.json"
+                    },
+                    {
+                      "type": "image",
+                      "icon": "symbols/demo/uiotos/icons/light/amp-guitar.json"
+                    },
+                    {
+                      "type": "image",
+                      "icon": "symbols/demo/uiotos/icons/light/amp-guitar.json"
+                    },
+                    {
+                      "type": "image",
+                      "icon": "symbols/demo/uiotos/icons/light/amp-guitar.json"
+                    },
+                    {
+                      "type": "image",
+                      "icon": "symbols/demo/uiotos/icons/light/american-sign-language-interpreting.json"
+                    },
+                    {
+                      "type": "image",
+                      "icon": "symbols/demo/uiotos/icons/light/american-sign-language-interpreting.json"
+                    },
+                    {
+                      "type": "image",
+                      "icon": "symbols/demo/uiotos/icons/light/american-sign-language-interpreting.json"
+                    }
+                  ],
+                  "非法通行",
+                  {
+                    "type": "graphView",
+                    "display": "displays/admin/uiotos/editor/widgets/cellGraphView.json"
+                  }
+                ],
+                {
+                  "rowData": [
+                    "23891212",
+                    "南入口出入通道模块",
+                    "南入口通道",
+                    {
+                      "type": "graphView",
+                      "display": "displays/admin/uiotos/editor/widgets/cellGraphView.json"
+                    },
+                    [
+                      {
+                        "type": "image",
+                        "icon": "symbols/demo/uiotos/icons/light/address-book.json"
+                      },
+                      {
+                        "type": "image",
+                        "icon": "symbols/demo/uiotos/icons/light/amp-guitar.json"
+                      }
+                    ],
+                    "正常通行",
+                    {
+                      "type": "graphView",
+                      "display": "displays/admin/uiotos/editor/widgets/cellGraphViewMutiple.json"
+                    }
+                  ],
+                  "children": [
+                    {
+                      "rowData": [
+                        "23891212",
+                        "北入口通道出入模块",
+                        "北入口通道",
+                        {
+                          "type": "graphView",
+                          "display": "displays/admin/uiotos/editor/widgets/cellGraphView.json"
+                        },
+                        [
+                          {
+                            "type": "image",
+                            "icon": "symbols/demo/uiotos/icons/light/ambulance.json"
+                          },
+                          {
+                            "type": "image",
+                            "icon": "symbols/demo/uiotos/icons/light/american-sign-language-interpreting.json"
+                          },
+                          {
+                            "type": "image",
+                            "icon": "symbols/demo/uiotos/icons/light/american-sign-language-interpreting.json"
+                          },
+                          {
+                            "type": "image",
+                            "icon": "symbols/demo/uiotos/icons/light/american-sign-language-interpreting.json"
+                          }
+                        ],
+                        "正常"
+                      ],
+                      "children": []
+                    }
+                  ]
+                },
+                [
+                  "23891212",
+                  "北入口通道出入模块",
+                  "北入口通道",
+                  {
+                    "type": "graphView",
+                    "display": "displays/admin/uiotos/editor/widgets/cellGraphView.json"
+                  },
+                  [
+                    {
+                      "type": "image",
+                      "icon": "symbols/demo/uiotos/icons/light/ambulance.json"
+                    },
+                    {
+                      "type": "image",
+                      "icon": "symbols/demo/uiotos/icons/light/american-sign-language-interpreting.json"
+                    },
+                    {
+                      "type": "image",
+                      "icon": "symbols/demo/uiotos/icons/light/american-sign-language-interpreting.json"
+                    },
+                    {
+                      "type": "image",
+                      "icon": "symbols/demo/uiotos/icons/light/american-sign-language-interpreting.json"
+                    }
+                  ],
+                  "正常"
+                ]
+              ]
+            },
+            {
+              "attr": "dataAdd",
+              "valueType": "Object"
+            },
+            {
+              "attr": "visibleFilterInput",
+              "valueType": "String"
+            },
+            {
+              "attr": "fieldForCombo",
+              "valueType": "String",
+              "description": "树表数据的哪一列对应到下拉框显示，即属性dataComboType的显示字段name采用数表treeTable的那一列。\n值可以是列名称或者列索引。其中数字会被当成索引处理，且列索引是从0开始（第0列属于ID序号列）。",
+              "defaultValue": "1"
+            },
+            {
+              "attr": "dataComboType",
+              "valueType": "Object"
+            },
+            {
+              "attr": "allRowsIdGet",
+              "valueType": "NumberArray"
+            },
+            {
+              "attr": "allRowsIndexGet",
+              "valueType": "NumberArray"
+            },
+            {
+              "attr": "selectAllSet",
+              "valueType": "Boolean",
+              "defaultValue": false
+            },
+            {
+              "attr": "checkMode",
+              "valueType": "Level",
+              "defaultValue": 0
+            },
+            {
+              "attr": "multiSelect",
+              "valueType": "Boolean",
+              "defaultValue": true
+            },
+            {
+              "attr": "currentIdSelect",
+              "valueType": "PositiveNumber"
+            },
+            {
+              "attr": "currentClicked",
+              "valueType": "Object",
+              "description": "当前点击的行。\n<br>对象格式，包含了当前行的所有信息。注意，包括、单击、\n<br>双击、勾选、去勾选，并非单指勾选时。\n<br>对象包含字段kind和rowData，分别是事件类型和行数据对象。"
+            },
+            {
+              "attr": "checkSelected",
+              "valueType": "ObjectArray"
+            },
+            {
+              "attr": "checkIndexsGet",
+              "valueType": "ObjectArray"
+            },
+            {
+              "attr": "fieldQueryRely",
+              "valueType": "String"
+            },
+            {
+              "attr": "queryMatched",
+              "valueType": "StringArray"
+            },
+            {
+              "attr": "dragDropEnable",
+              "valueType": "Boolean",
+              "defaultValue": false
+            },
+            {
+              "attr": "dropLineColor",
+              "valueType": "Color",
+              "defaultValue": "rgb(55,125,255)"
+            },
+            {
+              "attr": "background",
+              "valueType": "Color",
+              "defaultValue": "rgb(255,255,255)"
+            },
+            {
+              "attr": "headerBackground",
+              "valueType": "Color",
+              "defaultValue": "rgb(247,247,247)",
+              "description": "表格标题头背景色。"
+            },
+            {
+              "attr": "rowBackground",
+              "valueType": "ColorArray",
+              "defaultValue": [
+                "rgb(255,255,255)",
+                "rgba(55,125,255,0.05)",
+                "rgba(55,125,255,0.1)"
+              ],
+              "description": "行背景色。\n<br>颜色层叠自下往上为：表格背景色（background） →  行背景\n<br>色（rowBackground） → 行条纹背景色（stripeColors）。\n<br>其中行背景色和条纹背景色不包括无数据行的表格区域，表格背景\n<br>色则包含。\n<br>因此，若想要表格背景色整体透明/半透明，需要将三个上述三个颜\n<br>色都调整为透明或清理掉。若未勾选条纹背景色（rowStriped）\n<br>则无需设置对应的颜色。\n<br>此外，颜色数组通常表示默认、划过等。条纹背景色数组则依次表示\n<br>间隔的两行分别背景颜色。"
+            },
+            {
+              "attr": "rowStriped",
+              "valueType": "Boolean",
+              "defaultValue": true,
+              "description": "是否显示行条纹背景色。\n<br>勾选构，隔行显示不同的背景色，其中颜色配置在属性stripeColors，\n<br>颜色数组两个颜色分别是条纹的两种颜色。"
+            },
+            {
+              "attr": "stripeColors",
+              "valueType": "ColorArray",
+              "defaultValue": [
+                "rgba(245,245,245,1)",
+                "rgba(255,255,255)"
+              ],
+              "description": "条纹颜色数组。\n<br>可以配置两个颜色（索引为0和1），用于条纹的两种颜色，\n<br>这样列表背景色就回有条纹颜色区别。如果没有条纹背景色\n那么显示的是行背景色（rowBackground），如果行背景色也\n没有，那么就显示表格背景色（background）。"
+            },
+            {
+              "attr": "tableTextColor",
+              "valueType": "ColorArray",
+              "defaultValue": [
+                "black",
+                "rgb(64,64,64)"
+              ],
+              "description": "文字颜色数组。\n<br>第一个颜色（索引为0）为标题文字颜色，\n<br>第二个颜色（索引为1）为表格内容颜色。"
+            },
+            {
+              "attr": "rowLineVisible",
+              "valueType": "Boolean",
+              "defaultValue": false,
+              "description": "行之间边界线是否可见。"
+            },
+            {
+              "attr": "columnLineVisible",
+              "valueType": "Boolean",
+              "defaultValue": true,
+              "description": "列之间边界线是否可见。"
+            },
+            {
+              "attr": "linesColor",
+              "valueType": "Color",
+              "defaultValue": "rgb(247,247,247)",
+              "description": "行列线背景色。"
+            },
+            {
+              "attr": "borderColor",
+              "valueType": "Color",
+              "defaultValue": "rgb(235,235,235)"
+            },
+            {
+              "attr": "borderWidth",
+              "valueType": "Number",
+              "defaultValue": 0,
+              "description": "表格边框线宽度。\n<br>值为0时不可见。"
+            },
+            {
+              "attr": "borderRadius",
+              "valueType": "PositiveNumber",
+              "defaultValue": 3
+            },
+            {
+              "attr": "emptyDefaultIcon",
+              "valueType": "Image",
+              "defaultValue": "symbols/develop/uiotos/icons/common/empty2.json"
+            },
+            {
+              "attr": "emptyIconOpacity",
+              "valueType": "Opacity",
+              "defaultValue": 1
+            },
+            {
+              "attr": "emptyIconSizeScale",
+              "valueType": "Percentage",
+              "defaultValue": 0.6
+            },
+            {
+              "attr": "rowHeight",
+              "valueType": "PositiveNumber",
+              "defaultValue": 35
+            },
+            {
+              "attr": "expandAll",
+              "valueType": "Boolean",
+              "defaultValue": true
+            },
+            {
+              "attr": "nodeExpandMode",
+              "valueType": "ExpandMode",
+              "description": "父节点的单击展开模式，分为不响应展开（noExpand）、展开直接下一级（expandFirstLayer）、展开所有下级（expandAll）",
+              "defaultValue": "expandFirstLayer"
+            },
+            {
+              "attr": "headerHeight",
+              "valueType": "PositiveNumber",
+              "defaultValue": 40
+            },
+            {
+              "attr": "idColumnVisible",
+              "valueType": "Boolean",
+              "defaultValue": true
+            },
+            {
+              "attr": "copyTypeTextColor",
+              "valueType": "Color",
+              "defaultValue": "rgb(13,24,97)"
+            },
+            {
+              "attr": "hoverTextIcon",
+              "valueType": "Image",
+              "defaultValue": "symbols/develop/uiotos/icons/common/copy.json"
+            },
+            {
+              "attr": "hoverTextIconText",
+              "valueType": "String",
+              "defaultValue": "复制"
+            },
+            {
+              "attr": "hoverTextScale",
+              "valueType": "Number",
+              "defaultValue": 1
+            },
+            {
+              "attr": "hoverTextIconSize",
+              "valueType": "NumberArray",
+              "defaultValue": [
+                40,
+                18
+              ]
+            },
+            {
+              "attr": "hoverTextIconColor",
+              "valueType": "Color",
+              "defaultValue": "rgb(55,125,255)"
+            },
+            {
+              "attr": "font",
+              "valueType": "Font"
+            },
+            {
+              "attr": "reload",
+              "valueType": "Boolean",
+              "defaultValue": false
+            },
+            {
+              "attr": "rowsIdReset",
+              "valueType": "Boolean",
+              "defaultValue": false
+            },
+            {
+              "attr": "headerVisible",
+              "valueType": "Boolean",
+              "defaultValue": true
+            },
+            {
+              "attr": "pagesBottomVisible",
+              "valueType": "Boolean",
+              "defaultValue": true
+            },
+            {
+              "attr": "pageButtonCount",
+              "valueType": "PositiveNumber",
+              "defaultValue": 3
+            },
+            {
+              "attr": "bindControlsTag",
+              "valueType": "StringArray",
+              "group": "bindControls"
+            },
+            {
+              "attr": "bindControlsAttr",
+              "valueType": "StringArray"
+            },
+            {
+              "attr": "bindControlsVal",
+              "valueType": "ObjectArray",
+              "description": "静态值。也用作数组索引、JSON对象解析提取值用途。\n<br>一、静态值用途：\n<br>对常规类型的属性赋值且没有反向关联属性值，传入为数值时，不\n<br>会作为数组的索引，而会当成常量值对外赋值。此外，存在特殊值：\n<br>~和undefined表示过滤、不触发；null为默认值，表示传递默认表\n<br>单数据。编辑状态下清空后保存与设置null等价。\n<br>二、数组索引用途\n<br>情况1：被操作的组件属性原先值是数组时（包括空数组），会将\n<br>待输出的值作为被操作数组指定索引的值来传入，而不是整体覆盖。\n<br>情况2：如果要被操作的组件属性原先值不是数组，而且待输出的\n<br>值为数组类型并且长度也在索引范围内，那么会按照索引取自身数\n<br>组指定元素再对外输出。（如果想要取待输出索引值，赋值给被操\n<br>纵属性的指定索引，那么需要中间组件属性连线过渡以下，无法直\n<br>接操作）\n<br>情况3：如果要被操作的组件属性是数组，而且待输出的值也是数组\n<br>类型，此时当情况1来处理。\n<br>三、数据解析用途：\n<br>待输出的值为JSON对象时，用x.y.z这种以字符.或者>为间隔的方式\n<br>实现对JSON字段层次逐层定位，当是数组时x.0.y.1这种以数字的方\n<br>式来指定数组的某个索引。以此实现对任意结果JSON对象字段的定\n<br>位，获取结构内指定字段对应的值。"
+            },
+            {
+              "attr": "paramControlTag",
+              "valueType": "StringArray"
+            },
+            {
+              "attr": "paramControlAttr",
+              "valueType": "StringArray"
+            },
+            {
+              "attr": "paramsGenerator",
+              "valueType": "Function",
+              "defaultValue": "__ht__function(data, val, index, node,oldVal,form) {//绑定组索引对应的函数处理，用来动态生成复杂的参数变量传入\r\nswitch(index){\r\n    case 0:\r\n        break;\r\n    case 1:\r\n        break;\r\n    case 2:\r\n        break;\r\n    default:\r\n        break;\r\n}\r\n\r\nreturn val;}",
+              "extraInfo": {
+                "arguments": [
+                  "data",
+                  "val",
+                  "index",
+                  "node",
+                  "oldVal",
+                  "form",
+                  "type"
+                ]
+              }
+            },
+            {
+              "attr": "onClick",
+              "valueType": "Function",
+              "extraInfo": {
+                "arguments": [
+                  "data",
+                  "gv",
+                  "cache",
+                  "rowData",
+                  "button"
+                ]
+              }
+            },
+            {
+              "attr": "onDoubleClick",
+              "valueType": "Function",
+              "extraInfo": {
+                "arguments": [
+                  "data",
+                  "gv",
+                  "cache",
+                  "rowData",
+                  "button"
+                ]
+              }
+            },
+            {
+              "attr": "onCheck",
+              "valueType": "Function",
+              "extraInfo": {
+                "arguments": [
+                  "data",
+                  "gv",
+                  "cache",
+                  "selected"
+                ]
+              }
+            },
+            {
+              "attr": "onDatasLoaded",
+              "valueType": "Function",
+              "extraInfo": {
+                "arguments": [
+                  "data",
+                  "gv",
+                  "cache",
+                  "value",
+                  "extra"
+                ]
+              }
+            },
+            {
+              "attr": "onLastButtonSelected",
+              "valueType": "Function",
+              "extraInfo": {
+                "arguments": [
+                  "data",
+                  "gv",
+                  "cache",
+                  "value",
+                  "extra"
+                ]
+              }
+            },
+            {
+              "attr": "onLastButtonClick",
+              "valueType": "Function",
+              "extraInfo": {
+                "arguments": [
+                  "data",
+                  "gv",
+                  "cache",
+                  "value",
+                  "extra"
+                ]
+              }
+            },
+            {
+              "attr": "userData",
+              "valueType": "ObjectArray"
+            },
+            {
+              "attr": "userDataSelfInit",
+              "valueType": "Boolean"
+            }
+          ],
+          "rotateAsClock": true,
+          "renderHTML": "__ht__function(data, gv, cache) {return __treeTable_ui(data, gv, cache);}",
+          "width": 1200,
+          "height": 400,
+          "fitSize": true,
+          "interactive": true,
+          "pixelPerfect": false,
+          "comps": [],
+          "uuid": "2DD220DE-406E-4338-A80D-B0521619BBE1"
+        },
+        "host": {
+          "__i": 161142
+        },
+        "position": {
+          "x": -95.38895,
+          "y": 32.64368
+        },
+        "width": 296,
+        "height": 694.7602
+      },
+      "s": {
+        "0": {
+          "ensure>0>textArea-ui1>a:value": "确定删除？",
+          "ensure>0>textArea-ui1>a:htmlContent": false,
+          "ensure>0>datas>s:text": 7,
+          "_parentId": null
+        },
+        "1": {
+          "ensure>0>textArea-ui1>a:value": "确定删除？",
+          "ensure>0>textArea-ui1>a:htmlContent": false,
+          "ensure>0>datas>s:text": 7
+        },
+        "2": {
+          "ensure>0>textArea-ui1>a:value": "确定删除？",
+          "ensure>0>textArea-ui1>a:htmlContent": false,
+          "ensure>0>datas>s:text": 7
+        },
+        "3": {
+          "ensure>0>textArea-ui1>a:value": "确定删除？",
+          "ensure>0>textArea-ui1>a:htmlContent": false,
+          "ensure>0>datas>s:text": 7
+        },
+        "6": {
+          "ensure>0>textArea-ui1>a:value": "确定删除？",
+          "ensure>0>textArea-ui1>a:htmlContent": false,
+          "ensure>0>datas>s:text": 7
+        },
+        "7": {
+          "ensure>0>textArea-ui1>a:value": "确定删除？",
+          "ensure>0>textArea-ui1>a:htmlContent": false,
+          "ensure>0>datas>s:text": 7
+        },
+        "interactive": true,
+        "image.stretch": "uniform",
+        "layout.h": "leftright",
+        "layout.v": "topbottom",
+        "datas": [
+          {
+            "rowData": [
+              "菏泽"
+            ],
+            "children": [
+              [
+                "火车站",
+                [
+                  {
+                    "type": "image",
+                    "icon": "http://cfg.aiotos.net/custom/uploads/1.png"
+                  },
+                  {
+                    "type": "image",
+                    "icon": "http://cfg.aiotos.net/custom/uploads/2.png"
+                  }
+                ]
+              ],
+              [
+                "汽车站"
+              ],
+              [
+                "山东临沂"
+              ]
+            ],
+            "id": 1,
+            "_parentId": null
+          },
+          {
+            "rowData": [
+              "青岛高铁"
+            ],
+            "children": [
+              [
+                "东广场",
+                [
+                  {
+                    "type": "image",
+                    "icon": "http://cfg.aiotos.net/custom/uploads/2.png"
+                  },
+                  {
+                    "type": "image",
+                    "icon": "http://cfg.aiotos.net/custom/uploads/1.png"
+                  }
+                ]
+              ]
+            ],
+            "id": 5,
+            "_parentId": null
+          },
+          {
+            "rowData": [
+              "测试"
+            ],
+            "children": [
+              [
+                "测试"
+              ]
+            ],
+            "id": 7,
+            "_parentId": null
+          }
+        ],
+        "rowsIdReset": "1",
+        "show": {
+          "ensure>0>textArea-ui1>a:value": "确定删除？",
+          "ensure>0>textArea-ui1>a:htmlContent": false,
+          "ensure>0>datas>s:text": 7
+        },
+        "label.offset.x": -10,
+        "label.rotation": null,
+        "visibleFilterInput": "",
+        "label.position": 16,
+        "label.offset.y": 0,
+        "label.color": "rgb(61,61,61)",
+        "2d.movable": false
+      },
+      "a": {
+        "0": {
+          "ensure>0>textArea-ui1>a:value": "确定删除？",
+          "ensure>0>textArea-ui1>a:htmlContent": false,
+          "ensure>0>datas>s:text": 7,
+          "_parentId": null
+        },
+        "1": {
+          "ensure>0>textArea-ui1>a:value": "确定删除？",
+          "ensure>0>textArea-ui1>a:htmlContent": false,
+          "ensure>0>datas>s:text": 7
+        },
+        "2": {
+          "ensure>0>textArea-ui1>a:value": "确定删除？",
+          "ensure>0>textArea-ui1>a:htmlContent": false,
+          "ensure>0>datas>s:text": 7
+        },
+        "3": {
+          "ensure>0>textArea-ui1>a:value": "确定删除？",
+          "ensure>0>textArea-ui1>a:htmlContent": false,
+          "ensure>0>datas>s:text": 7
+        },
+        "6": {
+          "ensure>0>textArea-ui1>a:value": "确定删除？",
+          "ensure>0>textArea-ui1>a:htmlContent": false,
+          "ensure>0>datas>s:text": 7
+        },
+        "7": {
+          "ensure>0>textArea-ui1>a:value": "确定删除？",
+          "ensure>0>textArea-ui1>a:htmlContent": false,
+          "ensure>0>datas>s:text": 7
+        },
+        "lastItems": [],
+        "columns": [
+          {
+            "displayName": "序号"
+          },
+          {
+            "displayName": "属性名"
+          }
+        ],
+        "columnWidths": [
+          45,
+          -1,
+          0
+        ],
+        "idColumnVisible": false,
+        "centerAlign": true,
+        "pagesBottomVisible": false,
+        "headerVisible": false,
+        "columnLineVisible": true,
+        "lastIgnoredRoot": [
+          1,
+          2,
+          3
+        ],
+        "lastIgnoredNode": [],
+        "lastIgnoredChild": [
+          0
+        ],
+        "lastColorsDefault": [
+          "rgb(51,153,255)",
+          "rgb(242,83,75)",
+          "rgb(55,125,255)",
+          "#910000"
+        ],
+        "lastColorsHover": [
+          "#60ACFC",
+          "rgb(212,0,0)",
+          "#60ACFC",
+          "rgb(242,83,75)"
+        ],
+        "lastColorsActive": [
+          "rgba(96,172,252,0.8)",
+          "#FF7C7C",
+          "rgba(96,172,252,0.80)",
+          "rgba(242,83,75,0.8)"
+        ],
+        "rowHeight": 35,
+        "headerHeight": 45,
+        "font": "12px arial, sans-serif",
+        "lastGap": 0,
+        "itemsGap": 5,
+        "singleItemAsRoot": false,
+        "bindControlsTag": [],
+        "bindControlsAttr": [],
+        "bindControlsVal": [],
+        "paramControlTag": [],
+        "paramControlAttr": [],
+        "Edge3": "dialog-ui2",
+        "paramsGenerator": "__ht__function(data, val, index, node, oldVal, form) {//图片已经上传了至少两张\r\nlet imagesUpdated = form.rowData[1] && form.rowData[1].length >= 2;\r\n\r\n//绑定组索引对应的函数处理，用来动态生成复杂的参数变量传入\r\nswitch(index){\r\n    case 0:\r\n    case 3:\r\n        return form.button.text\r\n    case 1:\r\n        return form.button.index == 3;\r\n    case 2:\r\n        return form.button.index == 0;\r\n    case 4://存放当前是哪个按钮的点击\r\n        return [form.button.index,form.rowId];\r\n    case 5:\r\n        return form.rowId;\r\n    case 6:\r\n        if(form.button.index == 2){\r\n            i.fileUpload((url)=>{\r\n                console.trace(url);\r\n                let attrtmp = 'ensure>0>textArea-ui1>a:value',\r\n                    databak = 'ensure>0>datas>s:text',\r\n                    urltmp = \"<a href='\" + url + \"'>\" + url + '</a>';\r\n                node.a(attrtmp, form.rowData[0] + ' ' + urltmp + ' ' + '上传完毕！');\r\n                node.a(databak).push(url);\r\n                node.a('show',true);\r\n            })\r\n        }\r\n        return [form.rowId];\r\n    case 7:\r\n        let open = imagesUpdated && form.button.index == 1;\r\n        open && setTimeout(()=>{\r\n            node.a('hide',true);\r\n        },1500);\r\n        return open;\r\n    case 8:\r\n        return !imagesUpdated && form.button.index == 1;\r\n    default:\r\n        break;\r\n}\r\n\r\nreturn val;}",
+        "Edge4": "dialog-ui2",
+        "Edge5": "dialog-ui4",
+        "Edge6": "dialog-ui4",
+        "Edge7": null,
+        "showColumnIndex": false,
+        "Edge10": null,
+        "singleRootOrChild": false,
+        "lastSingleIgnored": [
+          0
+        ],
+        "lastRootIgnored": [
+          1
+        ],
+        "lastNodeIgnored": [],
+        "lastChildIgnored": [
+          0
+        ],
+        "Edge12": null,
+        "rowsIdReset": false,
+        "Edge16": null,
+        "Edge17": null,
+        "Edge18": null,
+        "background": "rgb(255,255,255)",
+        "rowBackground": [
+          "rgb(255,255,255)",
+          "rgba(55,125,255,0.05)",
+          "rgba(55,125,255,0.05)"
+        ],
+        "rowStriped": false,
+        "tableTextColor": [
+          "rgb(0,0,0)",
+          "rgb(0,0,0)"
+        ],
+        "stripeColors": [
+          "rgb(247,247,247)",
+          "rgb(255,255,255)"
+        ],
+        "borderColor": "rgba(51,156,255,0.1)",
+        "borderWidth": -3,
+        "rowLineVisible": false,
+        "Edge1": "treeTable-ui5",
+        "show": {
+          "ensure>0>textArea-ui1>a:value": "确定删除？",
+          "ensure>0>textArea-ui1>a:htmlContent": false,
+          "ensure>0>datas>s:text": 7
+        },
+        "checkMode": 4,
+        "checkSelected": [],
+        "onCheck": null,
+        "visibleFilterInput": "",
+        "treeObject": null,
+        "queryMatched": [],
+        "dataComboType": [
+          {
+            "name": "一级机构",
+            "value": 32,
+            "itemData": {
+              "rowData": [
+                [
+                  "一级机构"
+                ]
+              ],
+              "children": [
+                {
+                  "rowData": [
+                    [
+                      "iotos6"
+                    ]
+                  ],
+                  "children": [],
+                  "id": 72
+                }
+              ],
+              "id": 32
+            },
+            "children": [
+              {
+                "name": "iotos6",
+                "value": 72,
+                "itemData": {
+                  "rowData": [
+                    [
+                      "iotos6"
+                    ]
+                  ],
+                  "children": [],
+                  "id": 72
+                },
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "iotos6222",
+            "value": 125,
+            "itemData": {
+              "rowData": [
+                [
+                  "iotos6222"
+                ]
+              ],
+              "children": [],
+              "id": 125
+            },
+            "children": []
+          },
+          {
+            "name": "33顶级",
+            "value": 182,
+            "itemData": {
+              "rowData": [
+                [
+                  "33顶级"
+                ]
+              ],
+              "children": [
+                {
+                  "rowData": [
+                    [
+                      "333-2"
+                    ]
+                  ],
+                  "children": [],
+                  "id": 183
+                }
+              ],
+              "id": 182
+            },
+            "children": [
+              {
+                "name": "333-2",
+                "value": 183,
+                "itemData": {
+                  "rowData": [
+                    [
+                      "333-2"
+                    ]
+                  ],
+                  "children": [],
+                  "id": 183
+                },
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "aaa",
+            "value": 185,
+            "itemData": {
+              "rowData": [
+                [
+                  "aaa"
+                ]
+              ],
+              "children": [
+                {
+                  "rowData": [
+                    [
+                      "welcome222"
+                    ]
+                  ],
+                  "children": [
+                    {
+                      "rowData": [
+                        [
+                          "hello33"
+                        ]
+                      ],
+                      "children": [
+                        {
+                          "rowData": [
+                            [
+                              "defed"
+                            ]
+                          ],
+                          "children": [
+                            {
+                              "rowData": [
+                                [
+                                  "iotos"
+                                ]
+                              ],
+                              "children": [
+                                {
+                                  "rowData": [
+                                    [
+                                      "world 777-one"
+                                    ]
+                                  ],
+                                  "children": [
+                                    {
+                                      "rowData": [
+                                        [
+                                          "world 777-one3"
+                                        ]
+                                      ],
+                                      "children": [],
+                                      "id": 201
+                                    }
+                                  ],
+                                  "id": 197
+                                }
+                              ],
+                              "id": 178
+                            }
+                          ],
+                          "id": 163
+                        }
+                      ],
+                      "id": 123
+                    }
+                  ],
+                  "id": 177
+                },
+                {
+                  "rowData": [
+                    [
+                      "hhh"
+                    ]
+                  ],
+                  "children": [],
+                  "id": 186
+                }
+              ],
+              "id": 185
+            },
+            "children": [
+              {
+                "name": "welcome222",
+                "value": 177,
+                "itemData": {
+                  "rowData": [
+                    [
+                      "welcome222"
+                    ]
+                  ],
+                  "children": [
+                    {
+                      "rowData": [
+                        [
+                          "hello33"
+                        ]
+                      ],
+                      "children": [
+                        {
+                          "rowData": [
+                            [
+                              "defed"
+                            ]
+                          ],
+                          "children": [
+                            {
+                              "rowData": [
+                                [
+                                  "iotos"
+                                ]
+                              ],
+                              "children": [
+                                {
+                                  "rowData": [
+                                    [
+                                      "world 777-one"
+                                    ]
+                                  ],
+                                  "children": [
+                                    {
+                                      "rowData": [
+                                        [
+                                          "world 777-one3"
+                                        ]
+                                      ],
+                                      "children": [],
+                                      "id": 201
+                                    }
+                                  ],
+                                  "id": 197
+                                }
+                              ],
+                              "id": 178
+                            }
+                          ],
+                          "id": 163
+                        }
+                      ],
+                      "id": 123
+                    }
+                  ],
+                  "id": 177
+                },
+                "children": [
+                  {
+                    "name": "hello33",
+                    "value": 123,
+                    "itemData": {
+                      "rowData": [
+                        [
+                          "hello33"
+                        ]
+                      ],
+                      "children": [
+                        {
+                          "rowData": [
+                            [
+                              "defed"
+                            ]
+                          ],
+                          "children": [
+                            {
+                              "rowData": [
+                                [
+                                  "iotos"
+                                ]
+                              ],
+                              "children": [
+                                {
+                                  "rowData": [
+                                    [
+                                      "world 777-one"
+                                    ]
+                                  ],
+                                  "children": [
+                                    {
+                                      "rowData": [
+                                        [
+                                          "world 777-one3"
+                                        ]
+                                      ],
+                                      "children": [],
+                                      "id": 201
+                                    }
+                                  ],
+                                  "id": 197
+                                }
+                              ],
+                              "id": 178
+                            }
+                          ],
+                          "id": 163
+                        }
+                      ],
+                      "id": 123
+                    },
+                    "children": [
+                      {
+                        "name": "defed",
+                        "value": 163,
+                        "itemData": {
+                          "rowData": [
+                            [
+                              "defed"
+                            ]
+                          ],
+                          "children": [
+                            {
+                              "rowData": [
+                                [
+                                  "iotos"
+                                ]
+                              ],
+                              "children": [
+                                {
+                                  "rowData": [
+                                    [
+                                      "world 777-one"
+                                    ]
+                                  ],
+                                  "children": [
+                                    {
+                                      "rowData": [
+                                        [
+                                          "world 777-one3"
+                                        ]
+                                      ],
+                                      "children": [],
+                                      "id": 201
+                                    }
+                                  ],
+                                  "id": 197
+                                }
+                              ],
+                              "id": 178
+                            }
+                          ],
+                          "id": 163
+                        },
+                        "children": [
+                          {
+                            "name": "iotos",
+                            "value": 178,
+                            "itemData": {
+                              "rowData": [
+                                [
+                                  "iotos"
+                                ]
+                              ],
+                              "children": [
+                                {
+                                  "rowData": [
+                                    [
+                                      "world 777-one"
+                                    ]
+                                  ],
+                                  "children": [
+                                    {
+                                      "rowData": [
+                                        [
+                                          "world 777-one3"
+                                        ]
+                                      ],
+                                      "children": [],
+                                      "id": 201
+                                    }
+                                  ],
+                                  "id": 197
+                                }
+                              ],
+                              "id": 178
+                            },
+                            "children": [
+                              {
+                                "name": "world 777-one",
+                                "value": 197,
+                                "itemData": {
+                                  "rowData": [
+                                    [
+                                      "world 777-one"
+                                    ]
+                                  ],
+                                  "children": [
+                                    {
+                                      "rowData": [
+                                        [
+                                          "world 777-one3"
+                                        ]
+                                      ],
+                                      "children": [],
+                                      "id": 201
+                                    }
+                                  ],
+                                  "id": 197
+                                },
+                                "children": [
+                                  {
+                                    "name": "world 777-one3",
+                                    "value": 201,
+                                    "itemData": {
+                                      "rowData": [
+                                        [
+                                          "world 777-one3"
+                                        ]
+                                      ],
+                                      "children": [],
+                                      "id": 201
+                                    },
+                                    "children": []
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "hhh",
+                "value": 186,
+                "itemData": {
+                  "rowData": [
+                    [
+                      "hhh"
+                    ]
+                  ],
+                  "children": [],
+                  "id": 186
+                },
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "2-16",
+            "value": 188,
+            "itemData": {
+              "rowData": [
+                [
+                  "2-16"
+                ]
+              ],
+              "children": [],
+              "id": 188
+            },
+            "children": []
+          }
+        ],
+        "datas": [
+          {
+            "rowData": [
+              [
+                "一级机构"
+              ]
+            ],
+            "children": [
+              {
+                "rowData": [
+                  [
+                    "iotos6"
+                  ]
+                ],
+                "children": [],
+                "id": 72
+              }
+            ],
+            "id": 32
+          },
+          {
+            "rowData": [
+              [
+                "iotos6222"
+              ]
+            ],
+            "children": [],
+            "id": 125
+          },
+          {
+            "rowData": [
+              [
+                "33顶级"
+              ]
+            ],
+            "children": [
+              {
+                "rowData": [
+                  [
+                    "333-2"
+                  ]
+                ],
+                "children": [],
+                "id": 183
+              }
+            ],
+            "id": 182
+          },
+          {
+            "rowData": [
+              [
+                "aaa"
+              ]
+            ],
+            "children": [
+              {
+                "rowData": [
+                  [
+                    "welcome222"
+                  ]
+                ],
+                "children": [
+                  {
+                    "rowData": [
+                      [
+                        "hello33"
+                      ]
+                    ],
+                    "children": [
+                      {
+                        "rowData": [
+                          [
+                            "defed"
+                          ]
+                        ],
+                        "children": [
+                          {
+                            "rowData": [
+                              [
+                                "iotos"
+                              ]
+                            ],
+                            "children": [
+                              {
+                                "rowData": [
+                                  [
+                                    "world 777-one"
+                                  ]
+                                ],
+                                "children": [
+                                  {
+                                    "rowData": [
+                                      [
+                                        "world 777-one3"
+                                      ]
+                                    ],
+                                    "children": [],
+                                    "id": 201
+                                  }
+                                ],
+                                "id": 197
+                              }
+                            ],
+                            "id": 178
+                          }
+                        ],
+                        "id": 163
+                      }
+                    ],
+                    "id": 123
+                  }
+                ],
+                "id": 177
+              },
+              {
+                "rowData": [
+                  [
+                    "hhh"
+                  ]
+                ],
+                "children": [],
+                "id": 186
+              }
+            ],
+            "id": 185
+          },
+          {
+            "rowData": [
+              [
+                "2-16"
+              ]
+            ],
+            "children": [],
+            "id": 188
+          }
+        ],
+        "allRowsIdGet": [
+          32,
+          72,
+          125,
+          182,
+          183,
+          185,
+          177,
+          123,
+          163,
+          178,
+          197,
+          201,
+          186,
+          188
+        ],
+        "bindEvents": [
+          "*",
+          "onDatasLoaded",
+          "onClick",
+          "onDoubleClick",
+          "onCheck",
+          "onLastButtonClick",
+          "onLastButtonSelected"
+        ],
+        "toolTipRaw": "<p style='color:rgb(242,83,75);margin:0px;font-weight:bold'>已被布局，不允许拖动<p>",
+        "nodeExpandMode": "expandFirstLayer",
+        "symbol": "symbols/develop/uiotos/base/treeTable-ui.json",
+        "oldDynamicAttrs": [
+          {
+            "attr": "_bindEvents_0",
+            "valueType": "MultiComboBox",
+            "defaultValue": "*",
+            "group": "bindEvents",
+            "description": "连线索引[0]的触发事件过滤器，默认全部通过",
+            "dynamicCreate": true
+          },
+          {
+            "attr": "_bindEvents_0",
+            "valueType": "MultiComboBox",
+            "defaultValue": "*",
+            "group": "bindEvents",
+            "description": "连线索引[0]的触发事件过滤器，默认全部通过",
+            "dynamicCreate": true
+          }
+        ],
+        "innerDisplays": [],
+        "treeLinedAttr2Id": {},
+        "checkCountGet": 0,
+        "allRowCountGet": 6
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 161144,
+      "p": {
+        "name": "input",
+        "displayName": "输入框（input2）",
+        "toolTip": "<p style='color:rgb(242,83,75);margin:0px;font-weight:bold'>已被布局，不允许拖动<p>",
+        "tag": "input2",
+        "dataBindings": {
+          "a": {
+            "value": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "instantTrigger": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "onChange": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "onEnter": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "_bindEvents_0": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "readOnly": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            }
+          }
+        },
+        "image": {
+          "modified": "Sun Sep 03 2023 14:31:46 GMT+0800 (中国标准时间)",
+          "background": "rgb(32,37,46)",
+          "dataBindings": [
+            {
+              "attr": "symbol",
+              "valueType": "Image",
+              "group": "功能（关键）"
+            },
+            {
+              "attr": "fixedHeight",
+              "valueType": "PositiveNumber",
+              "defaultValue": 35
+            },
+            {
+              "attr": "activeBorderColor",
+              "valueType": "Color",
+              "defaultValue": "rgb(51,153,255)"
+            },
+            {
+              "attr": "background",
+              "valueType": "Color"
+            },
+            {
+              "attr": "activeReadOnlyBackground",
+              "valueType": "Color"
+            },
+            {
+              "attr": "hoverReadOnlyBackground",
+              "valueType": "Color"
+            },
+            {
+              "attr": "iconPath",
+              "valueType": "Image",
+              "defaultValue": "symbols/demo/uiotos/icons/light/search.json"
+            },
+            {
+              "attr": "iconColor",
+              "valueType": "Color",
+              "defaultValue": "rgb(213,213,213)"
+            },
+            {
+              "attr": "iconType",
+              "valueType": "Level",
+              "defaultValue": 1
+            },
+            {
+              "attr": "iconSize",
+              "valueType": "NumberArray",
+              "defaultValue": [
+                20,
+                15
+              ]
+            },
+            {
+              "attr": "iconTextGap",
+              "valueType": "Number",
+              "defaultValue": 5
+            },
+            {
+              "attr": "hoverIcon",
+              "valueType": "Image"
+            },
+            {
+              "attr": "color",
+              "valueType": "Color",
+              "defaultValue": "rgb(0,0,0)"
+            },
+            {
+              "attr": "borderRadius",
+              "valueType": "Number",
+              "defaultValue": 3
+            },
+            {
+              "attr": "borderWidth",
+              "valueType": "Number",
+              "defaultValue": 1
+            },
+            {
+              "attr": "borderColor",
+              "valueType": "Color",
+              "defaultValue": "rgb(213,213,213)"
+            },
+            {
+              "attr": "font",
+              "valueType": "Font"
+            },
+            {
+              "attr": "readOnly",
+              "valueType": "Boolean"
+            },
+            {
+              "attr": "placeholder",
+              "valueType": "String",
+              "defaultValue": "请输入"
+            },
+            {
+              "attr": "labelColor",
+              "valueType": "Color",
+              "defaultValue": "rgb(0,0,0)"
+            },
+            {
+              "attr": "labelText",
+              "valueType": "String",
+              "defaultValue": "标签"
+            },
+            {
+              "attr": "gap",
+              "valueType": "PositiveNumber",
+              "defaultValue": 0
+            },
+            {
+              "attr": "layoutVertical",
+              "valueType": "Boolean",
+              "defaultValue": false
+            },
+            {
+              "attr": "labelEmbeded",
+              "valueType": "Boolean",
+              "defaultValue": false
+            },
+            {
+              "attr": "type",
+              "valueType": "FormType",
+              "defaultValue": "text"
+            },
+            {
+              "attr": "onChange",
+              "valueType": "Function",
+              "extraInfo": {
+                "arguments": [
+                  "data",
+                  "gv",
+                  "cache",
+                  "value"
+                ]
+              }
+            },
+            {
+              "attr": "onEnter",
+              "valueType": "Function",
+              "description": "回车事件。\n<br>输入完毕后回车触发，并且传入当前值。",
+              "extraInfo": {
+                "arguments": [
+                  "data",
+                  "gv",
+                  "cache",
+                  "value"
+                ]
+              }
+            },
+            {
+              "attr": "instantTrigger",
+              "valueType": "Boolean",
+              "defaultValue": true
+            },
+            {
+              "attr": "value",
+              "valueType": "String"
+            },
+            {
+              "attr": "bindControlsTag",
+              "valueType": "StringArray",
+              "group": "bindControls"
+            },
+            {
+              "attr": "bindControlsAttr",
+              "valueType": "StringArray"
+            },
+            {
+              "attr": "bindControlsVal",
+              "valueType": "ObjectArray",
+              "description": "静态值。也用作数组索引、JSON对象解析提取值用途。\n<br>一、静态值用途：\n<br>对常规类型的属性赋值且没有反向关联属性值，传入为数值时，不\n<br>会作为数组的索引，而会当成常量值对外赋值。此外，存在特殊值：\n<br>~和undefined表示过滤、不触发；null为默认值，表示传递默认表\n<br>单数据。编辑状态下清空后保存与设置null等价。\n<br>二、数组索引用途\n<br>情况1：被操作的组件属性原先值是数组时（包括空数组），会将\n<br>待输出的值作为被操作数组指定索引的值来传入，而不是整体覆盖。\n<br>情况2：如果要被操作的组件属性原先值不是数组，而且待输出的\n<br>值为数组类型并且长度也在索引范围内，那么会按照索引取自身数\n<br>组指定元素再对外输出。（如果想要取待输出索引值，赋值给被操\n<br>纵属性的指定索引，那么需要中间组件属性连线过渡以下，无法直\n<br>接操作）\n<br>情况3：如果要被操作的组件属性是数组，而且待输出的值也是数组\n<br>类型，此时当情况1来处理。\n<br>三、数据解析用途：\n<br>待输出的值为JSON对象时，用x.y.z这种以字符.或者>为间隔的方式\n<br>实现对JSON字段层次逐层定位，当是数组时x.0.y.1这种以数字的方\n<br>式来指定数组的某个索引。以此实现对任意结果JSON对象字段的定\n<br>位，获取结构内指定字段对应的值。"
+            },
+            {
+              "attr": "paramControlTag",
+              "valueType": "StringArray"
+            },
+            {
+              "attr": "paramControlAttr",
+              "valueType": "StringArray"
+            },
+            {
+              "attr": "paramsGenerator",
+              "valueType": "Function",
+              "defaultValue": "__ht__function(data, val, index, node,oldVal,form) {//绑定组索引对应的函数处理，用来动态生成复杂的参数变量传入\r\nswitch(index){\r\n    case 0:\r\n        break;\r\n    case 1:\r\n        break;\r\n    case 2:\r\n        break;\r\n    default:\r\n        break;\r\n}\r\n\r\nreturn val;}",
+              "extraInfo": {
+                "arguments": [
+                  "data",
+                  "val",
+                  "index",
+                  "node",
+                  "oldVal",
+                  "form"
+                ]
+              }
+            },
+            {
+              "attr": "useAttrCORS",
+              "valueType": "Boolean",
+              "defaultValue": false,
+              "description": "属性同源操作。\n                连线操作传递是否限定双方。比如有A/B/C/D/O五个组件，连线操作关系：\n                A→O、B→O、C→O、D→O，以及O→A、O→B、O→C、O→D，总结为\n                A、B、C、D分别与O有往返操作。\n                默认不勾选该属性时，A到D任何一个向O的连线操作，都不会影响到O自身\n                对A到D的下一步操作。勾选了该属性后，那么每次相邻的两次连线交互，\n                则会有同源选择性，比如A→O，下一步则O之会选择到A的操作即O→A。\n                同源操作通常用户多个组件共用一个配置弹窗的情况，比如上述A、B、C、D\n                相当于是四个同类型的组件，而O是公共的属性配置窗口，任何一个比如A点\n                击，可通过O弹窗显示属性，然后修改后将属性值回写到A，且并不会将值给\n                到其他几个组件，即便有连线在。\n                同源操作规则：当连线满足A/B→O.x，且有O.x→A/B时，即前一次组件A连线\n                操作O的x属性，那么，O对外触发且关联x属性值对外时，勾选了本属性同源\n                属性操作的前提下，将只会执行O.x→A，而忽略O.x→B/C等其他非A的图元组\n                件的连线操作。",
+              "dynamicCreate": true
+            },
+            {
+              "attr": "_bindEvents_0",
+              "valueType": "MultiComboBox",
+              "defaultValue": "*",
+              "group": "bindEvents",
+              "description": "连线索引[0]的触发事件过滤器，默认全部通过",
+              "dynamicCreate": true
+            }
+          ],
+          "snapshotURL": "symbols/admin/uiotos/icons/snapshot/input.json",
+          "renderHTML": "__ht__function(data, gv, cache) {return __input_ui(data, gv, cache);}",
+          "width": 180,
+          "height": 35,
+          "fitSize": true,
+          "scrollable": true,
+          "interactive": true,
+          "pixelPerfect": false,
+          "comps": [],
+          "uuid": "39EFBC06-9ECA-40DC-9D05-9A145C99E566"
+        },
+        "host": {
+          "__i": 161142
+        },
+        "position": {
+          "x": -97.61378,
+          "y": -342.47621
+        },
+        "width": 270.55747,
+        "height": 35
+      },
+      "s": {
+        "label.opacity": 0,
+        "label": "标签",
+        "label.position": 14,
+        "label.offset.x": -10,
+        "label.offset.y": 0,
+        "label.color": "rgb(0,0,0)",
+        "layout.h": "leftright",
+        "layout.v": "top",
+        "2d.movable": false
+      },
+      "a": {
+        "bindEvents": [
+          "*",
+          "onChange",
+          "onClear",
+          "onEnter"
+        ],
+        "iconPath": "symbols/demo/uiotos/icons/light/search.json",
+        "labelText": "标签",
+        "gap": 0,
+        "toolTipRaw": "<p style='color:rgb(242,83,75);margin:0px;font-weight:bold'>已被布局，不允许拖动<p>",
+        "paramControlTag": [
+          null
+        ],
+        "paramControlAttr": [
+          "value"
+        ],
+        "bindControlsTag": [
+          "treeTable-ui1"
+        ],
+        "bindControlsAttr": [
+          "visibleFilterInput"
+        ],
+        "bindControlsVal": [
+          null
+        ],
+        "_bindEvents_0-list": [
+          "*",
+          "onChange",
+          "onClear",
+          "onEnter"
+        ],
+        "symbol": "symbols/develop/uiotos/base/input-ui.json",
+        "oldDynamicAttrs": [
+          {
+            "attr": "_bindEvents_0",
+            "valueType": "MultiComboBox",
+            "defaultValue": "*",
+            "group": "bindEvents",
+            "description": "连线索引[0]的触发事件过滤器，默认全部通过",
+            "dynamicCreate": true
+          },
+          {
+            "attr": "_bindEvents_1",
+            "valueType": "MultiComboBox",
+            "defaultValue": "*",
+            "group": "bindEvents",
+            "description": "连线索引[1]的触发事件过滤器，默认全部通过",
+            "dynamicCreate": true
+          }
+        ]
+      }
+    },
+    {
+      "c": "ht.Edge",
+      "i": 161145,
+      "p": {
+        "name": "edge",
+        "displayName": "0（edge2）",
+        "toolTip": "<div id=\"config_tooltip\" style=\"font-size:12px;line-height:1.75em;letter-spacing:1px\">\n                                            关联绑定信息：<br>\n                                            <li style=\"list-style-type:disc;color:rgba(255,255,255,0.5);\">索引序号：0 | 总共1条</li>\n                                            <li style=\"list-style-type:disc;font-weight:bold;\">操作属性：visibleFilterInput@treeTable-ui1</li>\n                                            <li style=\"list-style-type:none;color:rgba(255,255,255,0.5)\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;当前值：[object Object]</li>\n                                            <li style=\"list-style-type:disc;font-weight:bold\">关联属性：value@input2</li>\n                                            <li style=\"list-style-type:none;color:rgba(255,255,255,0.5)\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;关联值：undefined</li>\n                                            </div>",
+        "parent": {
+          "__i": 161144
+        },
+        "tag": "edge2",
+        "source": {
+          "__i": 161144
+        },
+        "target": {
+          "__i": 161143
+        }
+      },
+      "s": {
+        "label": "",
+        "edge.color": "#BD25A7",
+        "edge.type": "flex",
+        "edge.gap": 16,
+        "edge.width.absolute": true,
+        "note.border.width": 0,
+        "note.position": 7,
+        "note.opacity": 0.85,
+        "note.background": "#BD25A7",
+        "note.offset.x": 0,
+        "note.offset.y": 0,
+        "icons": {
+          "symbols/demo/extra/basic/fromArrow2.json": {
+            "position": 15,
+            "keepOrien": true,
+            "names": [
+              "symbols/demo/extra/basic/fromArrow2.json"
+            ]
+          },
+          "symbols/demo/extra/basic/toArrow.json": {
+            "position": 19,
+            "keepOrien": true,
+            "width": 50,
+            "height": 20,
+            "names": [
+              "symbols/demo/extra/basic/toArrow.json"
+            ]
+          }
+        },
+        "note": 0
+      },
+      "a": {
+        "index": 0,
+        "toolTipRaw": "<div id=\"config_tooltip\" style=\"font-size:12px;line-height:1.75em;letter-spacing:1px\">\n                                            关联绑定信息：<br>\n                                            <li style=\"list-style-type:disc;color:rgba(255,255,255,0.5);\">索引序号：0 | 总共1条</li>\n                                            <li style=\"list-style-type:disc;font-weight:bold;\">操作属性：visibleFilterInput@treeTable-ui1</li>\n                                            <li style=\"list-style-type:none;color:rgba(255,255,255,0.5)\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;当前值：[object Object]</li>\n                                            <li style=\"list-style-type:disc;font-weight:bold\">关联属性：value@input2</li>\n                                            <li style=\"list-style-type:none;color:rgba(255,255,255,0.5)\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;关联值：undefined</li>\n                                            </div>"
+      }
+    }
+  ],
+  "modified": "Sun Mar 10 2024 21:51:43 GMT+0800 (中国标准时间)",
+  "contentRect": {
+    "x": -270.89252,
+    "y": -370.47622,
+    "width": 326.82304,
+    "height": 753
+  }
+}

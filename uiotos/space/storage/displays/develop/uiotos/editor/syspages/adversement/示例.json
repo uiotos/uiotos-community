@@ -1,0 +1,810 @@
+{
+  "v": "8.0.2",
+  "p": {
+    "autoAdjustIndex": true,
+    "hierarchicalRendering": true
+  },
+  "a": {
+    "rotateAsClock": false,
+    "gridBlockSize": 20,
+    "connectActionType": null,
+    "fitContent": false,
+    "zoomable": false,
+    "rectSelectable": false,
+    "pannable": false,
+    "_professional": false
+  },
+  "d": [
+    {
+      "c": "ht.Node",
+      "i": 66158,
+      "p": {
+        "name": "base",
+        "displayName": "底板（_base）",
+        "tag": "_base",
+        "position": {
+          "x": 535.65507,
+          "y": 295.74725
+        },
+        "width": 1071.31013,
+        "height": 599.6326
+      },
+      "s": {
+        "label.opacity": 0,
+        "label.position": 17,
+        "label.color": "rgb(61,61,61)",
+        "shape": "rect",
+        "shape.background": "#20252e",
+        "fullscreen": "fill",
+        "fullscreen.gap": 0,
+        "2d.movable": false,
+        "interactive": true
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 66159,
+      "p": {
+        "name": "pal",
+        "displayName": "抽屉面板（pal1）",
+        "toolTip": "<p style='color:rgb(242,83,75);margin-top:5px;margin-bottom:5px;font-weight:bold;line-height:1.5em;'>已被布局，不允许拖动（shift+回车可解除）</p>",
+        "tag": "pal1",
+        "dataBindings": {
+          "a": {
+            "display": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "popDirection": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "popBackground": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "popPadding": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "popWidth": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "popHeight": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "popBorderColor": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "popBorderWidth": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "popBorderRadius": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "popTriggerEvent": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            }
+          }
+        },
+        "image": "symbols/develop/uiotos/base/palette-ui.json",
+        "host": {
+          "__i": 66158
+        },
+        "position": {
+          "x": 537.39112,
+          "y": 316.34004
+        },
+        "width": 1067.83803,
+        "height": 558.44702
+      },
+      "s": {
+        "label.position": 14,
+        "label.offset.x": -10,
+        "label.offset.y": 0,
+        "label.color": "rgb(61,61,61)",
+        "interactive": true,
+        "label.opacity": 0,
+        "2d.movable": false,
+        "layout.h": "leftright",
+        "layout.v": "topbottom"
+      },
+      "a": {
+        "symbol": "symbols/develop/uiotos/base/palette-ui.json",
+        "margin": [],
+        "gap": "10",
+        "padding": [
+          10,
+          0,
+          0,
+          0
+        ],
+        "folderPath": "displays/demo/3-示例",
+        "preferredSize": [
+          200,
+          150
+        ],
+        "datas": [
+          {
+            "title": "01-入门",
+            "children": []
+          },
+          {
+            "title": "02-小示例",
+            "children": [
+              {
+                "icon": "http://localhost:8999/displays/demo/3-示例/02-小示例/01-第一个Hello world.jpg",
+                "toolTip": "http://localhost:8999/displays/demo/3-示例/02-小示例/01-第一个Hello world.jpg",
+                "text": "01-第一个Hello world",
+                "iconDrawable": {
+                  "_image": "http://localhost:8999/displays/demo/3-示例/02-小示例/01-第一个Hello world.jpg",
+                  "_stretch": "uniform",
+                  "_colorTint": "rgb(235,245,255)"
+                }
+              },
+              {
+                "icon": "http://localhost:8999/displays/demo/3-示例/02-小示例/02-典型：取值并传给内嵌页.jpg",
+                "toolTip": "http://localhost:8999/displays/demo/3-示例/02-小示例/02-典型：取值并传给内嵌页.jpg",
+                "text": "02-典型：取值并传给内嵌页",
+                "iconDrawable": {
+                  "_image": "http://localhost:8999/displays/demo/3-示例/02-小示例/02-典型：取值并传给内嵌页.jpg",
+                  "_stretch": "uniform",
+                  "_colorTint": "rgb(235,245,255)"
+                }
+              },
+              {
+                "icon": "http://localhost:8999/displays/demo/3-示例/02-小示例/03-视频选择播放.jpg",
+                "toolTip": "http://localhost:8999/displays/demo/3-示例/02-小示例/03-视频选择播放.jpg",
+                "text": "03-视频选择播放",
+                "iconDrawable": {
+                  "_image": "http://localhost:8999/displays/demo/3-示例/02-小示例/03-视频选择播放.jpg",
+                  "_stretch": "uniform",
+                  "_colorTint": "rgb(235,245,255)"
+                }
+              },
+              {
+                "icon": "http://localhost:8999/displays/demo/3-示例/02-小示例/03A-视频选择播放.jpg",
+                "toolTip": "http://localhost:8999/displays/demo/3-示例/02-小示例/03A-视频选择播放.jpg",
+                "text": "03A-视频选择播放",
+                "iconDrawable": {
+                  "_image": "http://localhost:8999/displays/demo/3-示例/02-小示例/03A-视频选择播放.jpg",
+                  "_stretch": "uniform",
+                  "_colorTint": "rgb(235,245,255)"
+                }
+              },
+              {
+                "icon": "http://localhost:8999/displays/demo/3-示例/02-小示例/03B-视频选择播放暂停.jpg",
+                "toolTip": "http://localhost:8999/displays/demo/3-示例/02-小示例/03B-视频选择播放暂停.jpg",
+                "text": "03B-视频选择播放暂停",
+                "iconDrawable": {
+                  "_image": "http://localhost:8999/displays/demo/3-示例/02-小示例/03B-视频选择播放暂停.jpg",
+                  "_stretch": "uniform",
+                  "_colorTint": "rgb(235,245,255)"
+                }
+              },
+              {
+                "icon": "http://localhost:8999/displays/demo/3-示例/02-小示例/04-监控弹窗播放.jpg",
+                "toolTip": "http://localhost:8999/displays/demo/3-示例/02-小示例/04-监控弹窗播放.jpg",
+                "text": "04-监控弹窗播放",
+                "iconDrawable": {
+                  "_image": "http://localhost:8999/displays/demo/3-示例/02-小示例/04-监控弹窗播放.jpg",
+                  "_stretch": "uniform",
+                  "_colorTint": "rgb(235,245,255)"
+                }
+              },
+              {
+                "icon": "http://localhost:8999/displays/demo/3-示例/02-小示例/05-表单数据操作.jpg",
+                "toolTip": "http://localhost:8999/displays/demo/3-示例/02-小示例/05-表单数据操作.jpg",
+                "text": "05-表单数据操作",
+                "iconDrawable": {
+                  "_image": "http://localhost:8999/displays/demo/3-示例/02-小示例/05-表单数据操作.jpg",
+                  "_stretch": "uniform",
+                  "_colorTint": "rgb(235,245,255)"
+                }
+              },
+              {
+                "icon": "http://localhost:8999/displays/demo/3-示例/02-小示例/06-账号登录.jpg",
+                "toolTip": "http://localhost:8999/displays/demo/3-示例/02-小示例/06-账号登录.jpg",
+                "text": "06-账号登录",
+                "iconDrawable": {
+                  "_image": "http://localhost:8999/displays/demo/3-示例/02-小示例/06-账号登录.jpg",
+                  "_stretch": "uniform",
+                  "_colorTint": "rgb(235,245,255)"
+                }
+              },
+              {
+                "icon": "http://localhost:8999/displays/demo/3-示例/02-小示例/07-多页签模拟数据.jpg",
+                "toolTip": "http://localhost:8999/displays/demo/3-示例/02-小示例/07-多页签模拟数据.jpg",
+                "text": "07-多页签模拟数据",
+                "iconDrawable": {
+                  "_image": "http://localhost:8999/displays/demo/3-示例/02-小示例/07-多页签模拟数据.jpg",
+                  "_stretch": "uniform",
+                  "_colorTint": "rgb(235,245,255)"
+                }
+              },
+              {
+                "icon": "http://localhost:8999/displays/demo/3-示例/02-小示例/08-组件交互联动.jpg",
+                "toolTip": "http://localhost:8999/displays/demo/3-示例/02-小示例/08-组件交互联动.jpg",
+                "text": "08-组件交互联动",
+                "iconDrawable": {
+                  "_image": "http://localhost:8999/displays/demo/3-示例/02-小示例/08-组件交互联动.jpg",
+                  "_stretch": "uniform",
+                  "_colorTint": "rgb(235,245,255)"
+                }
+              },
+              {
+                "icon": "http://localhost:8999/displays/demo/3-示例/02-小示例/09-组件功能无代码扩展.jpg",
+                "toolTip": "http://localhost:8999/displays/demo/3-示例/02-小示例/09-组件功能无代码扩展.jpg",
+                "text": "09-组件功能无代码扩展",
+                "iconDrawable": {
+                  "_image": "http://localhost:8999/displays/demo/3-示例/02-小示例/09-组件功能无代码扩展.jpg",
+                  "_stretch": "uniform",
+                  "_colorTint": "rgb(235,245,255)"
+                }
+              },
+              {
+                "icon": "http://localhost:8999/displays/demo/3-示例/02-小示例/10-内嵌按钮点击上层弹窗.jpg",
+                "toolTip": "http://localhost:8999/displays/demo/3-示例/02-小示例/10-内嵌按钮点击上层弹窗.jpg",
+                "text": "10-内嵌按钮点击上层弹窗",
+                "iconDrawable": {
+                  "_image": "http://localhost:8999/displays/demo/3-示例/02-小示例/10-内嵌按钮点击上层弹窗.jpg",
+                  "_stretch": "uniform",
+                  "_colorTint": "rgb(235,245,255)"
+                }
+              },
+              {
+                "icon": "http://localhost:8999/displays/demo/3-示例/02-小示例/11-自行实现的切换开关.jpg",
+                "toolTip": "http://localhost:8999/displays/demo/3-示例/02-小示例/11-自行实现的切换开关.jpg",
+                "text": "11-自行实现的切换开关",
+                "iconDrawable": {
+                  "_image": "http://localhost:8999/displays/demo/3-示例/02-小示例/11-自行实现的切换开关.jpg",
+                  "_stretch": "uniform",
+                  "_colorTint": "rgb(235,245,255)"
+                }
+              },
+              {
+                "icon": "http://localhost:8999/displays/demo/3-示例/02-小示例/12-注册正则表达式（代码块）.jpg",
+                "toolTip": "http://localhost:8999/displays/demo/3-示例/02-小示例/12-注册正则表达式（代码块）.jpg",
+                "text": "12-注册正则表达式（代码块）",
+                "iconDrawable": {
+                  "_image": "http://localhost:8999/displays/demo/3-示例/02-小示例/12-注册正则表达式（代码块）.jpg",
+                  "_stretch": "uniform",
+                  "_colorTint": "rgb(235,245,255)"
+                }
+              },
+              {
+                "icon": "http://localhost:8999/displays/demo/3-示例/02-小示例/14-接口查询返回下拉级联.jpg",
+                "toolTip": "http://localhost:8999/displays/demo/3-示例/02-小示例/14-接口查询返回下拉级联.jpg",
+                "text": "14-接口查询返回下拉级联",
+                "iconDrawable": {
+                  "_image": "http://localhost:8999/displays/demo/3-示例/02-小示例/14-接口查询返回下拉级联.jpg",
+                  "_stretch": "uniform",
+                  "_colorTint": "rgb(235,245,255)"
+                }
+              },
+              {
+                "icon": "http://localhost:8999/displays/demo/3-示例/02-小示例/15-接口数据给树表.jpg",
+                "toolTip": "http://localhost:8999/displays/demo/3-示例/02-小示例/15-接口数据给树表.jpg",
+                "text": "15-接口数据给树表",
+                "iconDrawable": {
+                  "_image": "http://localhost:8999/displays/demo/3-示例/02-小示例/15-接口数据给树表.jpg",
+                  "_stretch": "uniform",
+                  "_colorTint": "rgb(235,245,255)"
+                }
+              },
+              {
+                "icon": "http://localhost:8999/displays/demo/3-示例/02-小示例/16-接口数据给统计曲线图.jpg",
+                "toolTip": "http://localhost:8999/displays/demo/3-示例/02-小示例/16-接口数据给统计曲线图.jpg",
+                "text": "16-接口数据给统计曲线图",
+                "iconDrawable": {
+                  "_image": "http://localhost:8999/displays/demo/3-示例/02-小示例/16-接口数据给统计曲线图.jpg",
+                  "_stretch": "uniform",
+                  "_colorTint": "rgb(235,245,255)"
+                }
+              },
+              {
+                "icon": "http://localhost:8999/displays/demo/3-示例/02-小示例/19-接口数据给到饼状图.jpg",
+                "toolTip": "http://localhost:8999/displays/demo/3-示例/02-小示例/19-接口数据给到饼状图.jpg",
+                "text": "19-接口数据给到饼状图",
+                "iconDrawable": {
+                  "_image": "http://localhost:8999/displays/demo/3-示例/02-小示例/19-接口数据给到饼状图.jpg",
+                  "_stretch": "uniform",
+                  "_colorTint": "rgb(235,245,255)"
+                }
+              },
+              {
+                "icon": "http://localhost:8999/displays/demo/3-示例/02-小示例/20-JSON数据解析提取.jpg",
+                "toolTip": "http://localhost:8999/displays/demo/3-示例/02-小示例/20-JSON数据解析提取.jpg",
+                "text": "20-JSON数据解析提取",
+                "iconDrawable": {
+                  "_image": "http://localhost:8999/displays/demo/3-示例/02-小示例/20-JSON数据解析提取.jpg",
+                  "_stretch": "uniform",
+                  "_colorTint": "rgb(235,245,255)"
+                }
+              },
+              {
+                "icon": "http://localhost:8999/displays/demo/3-示例/02-小示例/21-表格批量勾选交互.jpg",
+                "toolTip": "http://localhost:8999/displays/demo/3-示例/02-小示例/21-表格批量勾选交互.jpg",
+                "text": "21-表格批量勾选交互",
+                "iconDrawable": {
+                  "_image": "http://localhost:8999/displays/demo/3-示例/02-小示例/21-表格批量勾选交互.jpg",
+                  "_stretch": "uniform",
+                  "_colorTint": "rgb(235,245,255)"
+                }
+              },
+              {
+                "icon": "http://localhost:8999/displays/demo/3-示例/02-小示例/22-矢量图形交互连线.jpg",
+                "toolTip": "http://localhost:8999/displays/demo/3-示例/02-小示例/22-矢量图形交互连线.jpg",
+                "text": "22-矢量图形交互连线",
+                "iconDrawable": {
+                  "_image": "http://localhost:8999/displays/demo/3-示例/02-小示例/22-矢量图形交互连线.jpg",
+                  "_stretch": "uniform",
+                  "_colorTint": "rgb(235,245,255)"
+                }
+              },
+              {
+                "icon": "http://localhost:8999/displays/demo/3-示例/02-小示例/23-表单获取和表单写入.jpg",
+                "toolTip": "http://localhost:8999/displays/demo/3-示例/02-小示例/23-表单获取和表单写入.jpg",
+                "text": "23-表单获取和表单写入",
+                "iconDrawable": {
+                  "_image": "http://localhost:8999/displays/demo/3-示例/02-小示例/23-表单获取和表单写入.jpg",
+                  "_stretch": "uniform",
+                  "_colorTint": "rgb(235,245,255)"
+                }
+              },
+              {
+                "icon": "http://localhost:8999/displays/demo/3-示例/02-小示例/24-表单数据双向读写.jpg",
+                "toolTip": "http://localhost:8999/displays/demo/3-示例/02-小示例/24-表单数据双向读写.jpg",
+                "text": "24-表单数据双向读写",
+                "iconDrawable": {
+                  "_image": "http://localhost:8999/displays/demo/3-示例/02-小示例/24-表单数据双向读写.jpg",
+                  "_stretch": "uniform",
+                  "_colorTint": "rgb(235,245,255)"
+                }
+              },
+              {
+                "icon": "http://localhost:8999/displays/demo/3-示例/02-小示例/26-获取表单数据.jpg",
+                "toolTip": "http://localhost:8999/displays/demo/3-示例/02-小示例/26-获取表单数据.jpg",
+                "text": "26-获取表单数据",
+                "iconDrawable": {
+                  "_image": "http://localhost:8999/displays/demo/3-示例/02-小示例/26-获取表单数据.jpg",
+                  "_stretch": "uniform",
+                  "_colorTint": "rgb(235,245,255)"
+                }
+              },
+              {
+                "icon": "http://localhost:8999/displays/demo/3-示例/02-小示例/初体验：嵌套页面交互.jpg",
+                "toolTip": "http://localhost:8999/displays/demo/3-示例/02-小示例/初体验：嵌套页面交互.jpg",
+                "text": "初体验：嵌套页面交互",
+                "iconDrawable": {
+                  "_image": "http://localhost:8999/displays/demo/3-示例/02-小示例/初体验：嵌套页面交互.jpg",
+                  "_stretch": "uniform",
+                  "_colorTint": "rgb(235,245,255)"
+                }
+              },
+              {
+                "icon": "http://localhost:8999/displays/demo/3-示例/02-小示例/初体验：扇叶图标旋转.jpg",
+                "toolTip": "http://localhost:8999/displays/demo/3-示例/02-小示例/初体验：扇叶图标旋转.jpg",
+                "text": "初体验：扇叶图标旋转",
+                "iconDrawable": {
+                  "_image": "http://localhost:8999/displays/demo/3-示例/02-小示例/初体验：扇叶图标旋转.jpg",
+                  "_stretch": "uniform",
+                  "_colorTint": "rgb(235,245,255)"
+                }
+              },
+              {
+                "icon": "http://localhost:8999/displays/demo/3-示例/02-小示例/初体验：计算器按键.jpg",
+                "toolTip": "http://localhost:8999/displays/demo/3-示例/02-小示例/初体验：计算器按键.jpg",
+                "text": "初体验：计算器按键",
+                "iconDrawable": {
+                  "_image": "http://localhost:8999/displays/demo/3-示例/02-小示例/初体验：计算器按键.jpg",
+                  "_stretch": "uniform",
+                  "_colorTint": "rgb(235,245,255)"
+                }
+              },
+              {
+                "icon": "http://localhost:8999/displays/demo/3-示例/02-小示例/初体验：颜色随机显示.jpg",
+                "toolTip": "http://localhost:8999/displays/demo/3-示例/02-小示例/初体验：颜色随机显示.jpg",
+                "text": "初体验：颜色随机显示",
+                "iconDrawable": {
+                  "_image": "http://localhost:8999/displays/demo/3-示例/02-小示例/初体验：颜色随机显示.jpg",
+                  "_stretch": "uniform",
+                  "_colorTint": "rgb(235,245,255)"
+                }
+              }
+            ]
+          }
+        ],
+        "iconSize": [
+          190,
+          120
+        ],
+        "renderColor": "rgb(235,245,255)",
+        "background": [
+          "rgb(40,46,58)",
+          "rgba(255,255,255,0.1)",
+          "rgba(255,255,255,0.2)"
+        ],
+        "textColor": [
+          "rgb(90,122,138)",
+          "rgba(55,125,255,1)",
+          "rgba(55,125,255,1)"
+        ],
+        "headerBackground": [
+          null,
+          "rgba(255,255,255,0.03)",
+          "rgba(255,255,255,0.02)"
+        ],
+        "borderRadius": 8
+      }
+    },
+    {
+      "c": "ht.UNode",
+      "i": 66160,
+      "p": {
+        "name": "cbtn",
+        "displayName": "图片按钮（cbtn1）",
+        "tag": "cbtn1",
+        "dataBindings": {
+          "a": {
+            "display": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "popDirection": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "popBackground": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "popPadding": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "popWidth": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "popHeight": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "popBorderColor": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "popBorderWidth": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "popBorderRadius": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "popTriggerEvent": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "clicked": {
+              "id": "iotos.form",
+              "alias": "",
+              "func": "__ht__function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        console.error(err);\r\n        return rawData;\r\n    }\r\n}",
+              "idinfo": "",
+              "isTplBinded": false
+            },
+            "userData": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "bindControlsVal": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            }
+          }
+        },
+        "image": {
+          "modified": "Thu Oct 24 2024 20:05:29 GMT+0800 (中国标准时间)",
+          "dataBindings": [
+            {
+              "attr": "symbol",
+              "valueType": "Image",
+              "name": "symbol"
+            },
+            {
+              "attr": "openUrl",
+              "valueType": "String",
+              "description": "链接地址。运行模式下\n<br>点击，会在浏览器新页签打开地址。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#fwbjd\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+              "group": "功能",
+              "name": "openUrl"
+            },
+            {
+              "attr": "toolTip",
+              "valueType": "Boolean",
+              "description": "运行时提示是否可见。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#t0jA8\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+              "defaultValue": true,
+              "name": "toolTip"
+            },
+            {
+              "attr": "disabled",
+              "valueType": "Boolean",
+              "description": "禁用。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#nmCQm\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+              "name": "disabled"
+            },
+            {
+              "attr": "enableMoveEvent",
+              "valueType": "Boolean",
+              "defaultValue": false,
+              "description": "启用鼠标移入、移出事件。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#qM9sv\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+              "name": "移入事件启用"
+            },
+            {
+              "attr": "bindTabview",
+              "valueType": "StringArray",
+              "defaultValue": [
+                "tab1",
+                -1
+              ],
+              "description": "",
+              "name": "bindTabview"
+            },
+            {
+              "attr": "userData",
+              "valueType": "Object",
+              "description": "",
+              "defaultValue": [],
+              "name": "userData"
+            },
+            {
+              "attr": "clicked",
+              "valueType": "Function",
+              "name": "点击事件",
+              "extraInfo": {
+                "arguments": [
+                  "data",
+                  "param"
+                ]
+              },
+              "description": "点击时触发。"
+            },
+            {
+              "attr": "onEnter",
+              "valueType": "Function",
+              "name": "移入事件",
+              "description": "鼠标移入时触发（需勾选“移入事件启用”才生效）。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#MuYaT\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+              "extraInfo": {
+                "arguments": [
+                  "data",
+                  "param"
+                ]
+              }
+            },
+            {
+              "attr": "onLeave",
+              "valueType": "Function",
+              "name": "移出事件",
+              "description": "鼠标移出时触发（需勾选“移入事件启用”才生效）。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#ATdMA\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+              "extraInfo": {
+                "arguments": [
+                  "data",
+                  "param"
+                ]
+              }
+            },
+            {
+              "attr": "param",
+              "valueType": "Function",
+              "name": "数据参数",
+              "extraInfo": {
+                "arguments": [
+                  "data",
+                  "gv"
+                ],
+                "classify": "*"
+              },
+              "defaultValue": "__ht__function(data, gv) {return null;}",
+              "description": "自定义传入参数。\n<br>用来点击事件clicked触发时传入。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#ta2kN\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>"
+            },
+            {
+              "attr": "path",
+              "valueType": "Image",
+              "defaultValue": "symbols/develop/uiotos/icons/editroToolBar/edit.json",
+              "name": "图标路径",
+              "description": "图标/图片地址，可以是绘制的，也能为空。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#sPqOO\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+              "group": "外观"
+            },
+            {
+              "attr": "default-background",
+              "valueType": "Color",
+              "defaultValue": "rgb(55,125,255)",
+              "name": "默认颜色",
+              "description": "默认背景色。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#R3jS0\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>"
+            },
+            {
+              "attr": "hover-background",
+              "valueType": "Color",
+              "defaultValue": "rgb(51,153,255)",
+              "name": "悬停颜色",
+              "description": "悬停颜色。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#Q4Hru\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>"
+            },
+            {
+              "attr": "click-background",
+              "valueType": "Color",
+              "defaultValue": "#60ACFC",
+              "name": "按下颜色",
+              "description": "按下颜色。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#Nselr\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>"
+            },
+            {
+              "attr": "bindControlsTag",
+              "valueType": "ObjectArray",
+              "group": "连线",
+              "description": "",
+              "name": "bindControlsTag"
+            },
+            {
+              "attr": "bindControlsAttr",
+              "valueType": "ObjectArray",
+              "description": "",
+              "name": "bindControlsAttr"
+            },
+            {
+              "attr": "bindControlsVal",
+              "valueType": "ObjectArray",
+              "description": "",
+              "name": "bindControlsVal"
+            },
+            {
+              "attr": "paramControlTag",
+              "valueType": "StringArray",
+              "name": "paramControlTag"
+            },
+            {
+              "attr": "paramControlAttr",
+              "valueType": "ObjectArray",
+              "name": "paramControlAttr"
+            },
+            {
+              "attr": "paramsGenerator",
+              "valueType": "Function",
+              "defaultValue": "__ht__function(data, val, index, node,oldVal,form) {//绑定组索引对应的函数处理，用来动态生成复杂的参数变量传入\r\nswitch(index){\r\n    case 0:\r\n        break;\r\n    case 1:\r\n        break;\r\n    case 2:\r\n        break;\r\n    default:\r\n        break;\r\n}\r\n\r\nreturn val;}",
+              "extraInfo": {
+                "arguments": [
+                  "data",
+                  "val",
+                  "index",
+                  "node",
+                  "oldVal",
+                  "form"
+                ]
+              },
+              "name": "paramsGenerator"
+            },
+            {
+              "attr": "useAttrCORS",
+              "valueType": "Boolean",
+              "extraInfo": "*",
+              "defaultValue": false,
+              "description": "连线操作和处理回写是否一致。\n                        比如多个文本框连线传值给相同对话框，弹窗修改\n                        后是否限定只能写到最新赋值过来的文本框。详见<a href='https://www.yuque.com/liuhuo-nc809/uiotos/fgi6dd7gado51acm#fFUbp' style=\"color:rgb(96,172,252)\"target=\"_blank\">同源属性操作</a>",
+              "bindIgnored": true,
+              "name": "useAttrCORS",
+              "dynamicCreate": true
+            }
+          ],
+          "snapshotURL": "symbols/develop/uiotos/arranged/controls/forms_icon/图片按钮.json",
+          "onDown": "__ht__function(event, data, view, point, width, height) {\n!data.ca('disabled') && data.ca('icon-background',data.ca('click-background'))\n}",
+          "onUp": "__ht__function(event, data, view, point, width, height) {\nif(!data.ca('disabled')){\r\n    data.ca('icon-background',data.ca('hover-background'));\r\n    let cb = new Function('return ' + data.ca('clicked'))(),\r\n        cb2 = new Function('return ' + data.ca('onClick'))();//240523，兼容onClick命名\r\n    typeof(setBindTabviewIndex) != 'undefined' && setBindTabviewIndex(data,data.ca('bindTabview'));\r\n    let paramCb = new Function('return ' + data.ca('param'))();\r\n    let param = paramCb ? paramCb(data,view) : null;\r\n    if(typeof(i) != 'undefined' && typeof(i.updateBindControls) != 'undefined'){\r\n        //240304，需要改成i.formEventBubblingUpper，否则执行操作可能会出问题！比如tab页签索引切换，切换不了！\r\n        // i.updateBindControls(data,param,[],false,'~','clicked');//params是response的位置，所以得是对象类型\\\r\n        //触发事件连线操作\r\n        i.formEventBubblingUpper(\r\n            data,\r\n            data._gv,\r\n            data._cache,\r\n            'clicked',\r\n            null,\r\n            false\r\n        );\r\n    }\r\n    //230819，支持传入url，点击浏览器新窗口打开。\r\n    let urltmp = data.ca('openUrl');\r\n    if(urltmp && urltmp.indexOf('http') == -1) urltmp = 'http://' + urltmp;\r\n    urltmp && window.open(urltmp,'_blank');\r\n    \r\n    if(cb2) return cb2(data,param);\r\n    else return cb && cb(data,param)\r\n}\n}",
+          "onEnter": "__ht__function(event, data, view, point, width, height) {\nif(data.ca('disabled')){\r\n    view.getView().style.cursor = 'not-allowed'\r\n}else{\r\n    data.ca('icon-background',data.ca('hover-background'))\r\n    data.iv();\r\n    view.getView().style.cursor = 'pointer'\r\n    //241023，鼠标移入事件\r\n    if(data.ca('enableMoveEvent')){\r\n        i.formEventBubblingUpper(\r\n            data,\r\n            data._gv,\r\n            data._cache,\r\n            'onEnter',\r\n            null,\r\n            false\r\n        );\r\n    }\r\n}\n}",
+          "onLeave": "__ht__function(event, data, view, point, width, height) {\ndata.ca('icon-background',data.ca('default-background'))\r\nview.getView().style.cursor = 'default'\r\nif(!data.ca('disabled')){\r\n    //241023，鼠标移出事件\r\n    if(data.ca('enableMoveEvent')){\r\n        i.formEventBubblingUpper(\r\n            data,\r\n            data._gv,\r\n            data._cache,\r\n            'onLeave',\r\n            null,\r\n            false\r\n        );\r\n    }\r\n}\n}",
+          "renderHTML": "__ht__function(data, gv, cache) {return __iconClick(data,gv,cache);}",
+          "width": 100,
+          "height": 100,
+          "pixelPerfect": false,
+          "comps": [
+            {
+              "type": "image",
+              "color": null,
+              "name": {
+                "func": "__ht__function(data, view) {\nfunction func(data,view){\r\n    if((typeof(runningMode) != 'undefined' && !runningMode()) || view.getView().style.cursor != 'pointer'){//最好不用 == 'default'，因为存在代码初始赋值\r\n        data.ca('icon-background',data.ca('default-background'))\r\n    }\r\n    var typeArr = ['light','light','regular','light'] //枚举下拉选择\r\n    var typetmp = typeArr[data.ca('iconType')] //类型选择\r\n    var path = data.ca('path')                 //图标路径\r\n    if(path != undefined && path.trim() !== ''){\r\n        if(path.indexOf('.') == -1){           //传入图标文件名称时\r\n            console.error(2222222)\r\n            if(!i.isBase64(path)){\r\n                path = 'symbols/demo/uiotos/icons/' + typetmp + '/' + path + '.json'\r\n            }\r\n        }else if(path.indexOf(typetmp) == -1){ //图标类型发生变化时\r\n            typeArr.forEach((curType,index)=>{\r\n                if(curType != typetmp){        //路径中先前的类型名称换成新的\r\n                    path = path.replace(curType,typetmp)               \r\n                }\r\n            })\r\n        }\r\n    }\r\n    data.ca('path',path)                      //回写过去\r\n    return path\r\n}\r\n\r\n//整体复制的话需要带上这句，因为属性func外层已经是函数体\r\nreturn func(data,view)\n}",
+                "value": "symbols/demo/uiotos/icons/light/square-full.json"
+              },
+              "displayName": "democrat（democrat1）",
+              "rect": [
+                0,
+                0,
+                100,
+                100
+              ]
+            }
+          ],
+          "uuid": "A6BC8015-5BC8-4E24-855E-4F33C19723F6"
+        },
+        "position": {
+          "x": 26.09121,
+          "y": 22.11653
+        },
+        "width": 30,
+        "height": 30
+      },
+      "s": {
+        "label.opacity": 0,
+        "label.position": 14,
+        "label.offset.x": -10,
+        "label.offset.y": 0,
+        "label.color": "rgb(61,61,61)",
+        "interactive": true
+      },
+      "a": {
+        "icon-background": "rgb(51,153,255)",
+        "default-background": "rgb(51,153,255)",
+        "hover-background": "#60ACFC",
+        "click-background": "rgb(0,128,255)",
+        "symbol": "symbols/develop/uiotos/base/iconClick.json",
+        "path": "symbols/develop/uiotos/arranged/icons/方向/reply-176.json",
+        "paramControlTag": [],
+        "paramControlAttr": [],
+        "bindControlsTag": [],
+        "bindControlsAttr": [],
+        "bindControlsVal": [],
+        "iconType": 1
+      }
+    }
+  ],
+  "modified": "Sun Oct 27 2024 09:26:47 GMT+0800 (中国标准时间)",
+  "contentRect": {
+    "x": -26.54157,
+    "y": -4.06905,
+    "width": 1097.8517,
+    "height": 599.6326
+  }
+}

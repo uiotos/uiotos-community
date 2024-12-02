@@ -1,0 +1,333 @@
+{
+    "modified": "Sun Sep 18 2022 17:11:31 GMT+0800 (中国标准时间)",
+    "background": "rgb(61,61,61)",
+    "dataBindings": [{
+            "attr": "bkg.background",
+            "valueType": "Color"
+        },
+        {
+            "attr": "text.text",
+            "valueType": "String"
+        },
+        {
+            "attr": "text.color",
+            "valueType": "Color"
+        },
+        {
+            "attr": "text.font",
+            "valueType": "Font"
+        },
+        {
+            "attr": "scale",
+            "valueType": "PositiveNumber",
+            "defaultValue": 1
+        },
+        {
+            "attr": "border.visible",
+            "valueType": "Boolean",
+            "defaultValue": false
+        },
+        {
+            "attr": "onClick",
+            "valueType": "Function",
+            "defaultValue": "__ht__function onClick(data,text){\r\n    if(data.a('locked')){\r\n        alert('对不起，账号暂无权限')\r\n    }\r\n\r\n    // console.warn(text)\r\n    // function init() {\r\n    //     ht.Default.setImage('roundNormal', {\r\n    //         width: 16,\r\n    //         height: 16,\r\n    //         comps: [\r\n    //             {\r\n    //                 type: 'circle',\r\n    //                 background: '#fdbc40',\r\n    //                 relative: 1,\r\n    //                 rect: [17, 1, 1]\r\n    //             }\r\n    //         ]\r\n    //     });\r\n    //     ht.Default.setImage('roundHover', {\r\n    //         width: 16,\r\n    //         height: 16,\r\n    //         comps: [\r\n    //             {\r\n    //                 type: 'circle',\r\n    //                 background: '#34c84a',\r\n    //                 relative: 1,\r\n    //                 rect: [17, 1, 1]\r\n    //             }\r\n    //         ]\r\n    //     });\r\n    //     ht.Default.setImage('roundActive', {\r\n    //         width: 16,\r\n    //         height: 16,\r\n    //         comps: [\r\n    //             {\r\n    //                 type: 'circle',\r\n    //                 background: '#fc625d',\r\n    //                 relative: 1,\r\n    //                 rect: [17, 1, 1]\r\n    //             }\r\n    //         ]\r\n    //     });\r\n    //     if(!window.stackManager)\r\n    //         window.stackManager = new StackManager();\r\n    //     dialog1 = createDialog(text);\r\n    //     dialog1.addTool({\r\n    //         icon: 'roundNormal',\r\n    //         hoverIcon: 'roundHover',\r\n    //         activeIcon: 'roundActive',\r\n    //         onClick: function(event) {\r\n    //             dialog1.hide()\r\n    //             data.a('htmlUrl') && window.open(data.a('htmlUrl'));  \r\n    //             data.a('displayUrl') && window.open(data.a('previewURL') + '?tag=' + data.a('displayUrl')); \r\n    //             console.log('click tool', event);\r\n    //         }\r\n    //     }, 0);\r\n    //     window.stackManager.addDialog(dialog1);\r\n    //     let wtmp = document.body.clientWidth,\r\n    //         htmp = document.documentElement.clientHeight\r\n    //     let paddingXtmp = 25 * window.stackManager.count() + (wtmp - dialog1.getWidth()) / 2,\r\n    //         paddingYtmp = 25 * window.stackManager.count() + (htmp - dialog1.getHeight()) / 2\r\n    //     dialog1.on('p:visible', (e) => {\r\n    //         if(e.newValue == false)\r\n    //             window.stackManager.removeDialog(dialog1)\r\n    //     })\r\n    //     dialog1.show(paddingXtmp,paddingYtmp);\r\n    // }\r\n\r\n    // function createDialog(title) {\r\n    //     var dialog = new ht.ui.Dialog();\r\n    //     dialog.setTitle(title);\r\n    //     dialog.setWidth(800);\r\n    //     dialog.setHeight(450);\r\n    //     dialog.setModal(false);\r\n\r\n    //     if(data.a('htmlUrl')){\r\n    //         let htmlView = new ht.ui.HtmlView();\r\n    //         htmlView.setScrollBarMode('auto');\r\n    //         htmlView.setPadding([0, 0, 0, 0]);\r\n    //         htmlView.setContent('<iframe border=\"0\" style=\"width: 100%; height: 100%; margin: 0; padding: 0; border: 0;\" src=\"' + data.a('htmlUrl') + '\"></iframe>');\r\n    //         // htmlView.addToDOM(window, { x: 0, y: 0, width: 350, height: 400 });\r\n    //         dialog.setContentView(htmlView);\r\n    //     }\r\n\r\n    //     if(data.a('displayUrl')){\r\n    //     var graphView = new ht.graph.GraphView();\r\n    //         graphView.deserialize(data.a('displayUrl'), (json, dm, gv, datas) => {\r\n    //             // 选中边框为0\r\n    //             gv.getSelectWidth = () => 0;\r\n    //             // 禁止鼠标缩放\r\n    //             gv.handleScroll = () => {};\r\n    //             // 禁止 touch 下双指缩放\r\n    //             gv.handlePinch = () => {};\r\n    //             // 禁止平移\r\n    //             gv.setPannable(false);\r\n    //             // 禁止框选\r\n    //             gv.setRectSelectable(false);\r\n    //             // 隐藏滚动条\r\n    //             gv.setScrollBarVisible(false);\r\n    //             // 禁止图元移动\r\n    //             gv.setMovableFunc(() => false);\r\n\r\n    //             data.a('previewURL',dm.a('previewURL'))\r\n    //         })\r\n    //         let htView = new ht.ui.HTView();\r\n    //         htView.setPadding([0, 0, 0, 0]);\r\n    //         htView.setContent(graphView);\r\n    //         // htView.addToDOM(window, { x: 0, y: 0, width: 350, height: 400 });\r\n    //         dialog.setContentView(htView);\r\n    //     }\r\n    //     return dialog;\r\n    // }\r\n    // init()\r\n\r\n\r\n}"
+        },
+        {
+            "attr": "htmlUrl",
+            "valueType": "String"
+        },
+        {
+            "attr": "displayUrl",
+            "valueType": "String"
+        },
+        {
+            "attr": "previewURL",
+            "valueType": "String"
+        },
+        {
+            "attr": "locked",
+            "valueType": "Boolean"
+        },
+        {
+            "attr": "iconColor",
+            "valueType": "Color",
+            "name": "颜色",
+            "group": "图标"
+        },
+        {
+            "attr": "path",
+            "valueType": "Image",
+            "name": "名称",
+            "group": "图标"
+        },
+        {
+            "attr": "iconHeight",
+            "valueType": "PositiveNumber",
+            "name": "高度",
+            "group": "图标"
+        },
+        {
+            "attr": "iconWidth",
+            "valueType": "PositiveNumber",
+            "name": "宽度",
+            "group": "图标"
+        },
+        {
+            "attr": "iconType",
+            "valueType": "Level",
+            "defaultValue": 1,
+            "group": "图标",
+            "name": "风格"
+        },
+        {
+            "attr": "toolTip",
+            "valueType": "Multiline"
+        }
+    ],
+    "onUp": "__ht__function(event, data, view, point, width, height) {\nlet cb = new Function('return ' + data.a('onClick'))()\r\nreturn cb && cb(data,data.a('text.text'))\n}",
+    "onEnter": "__ht__function(event, data, view, point, width, height) {\ndata.a('back.visible',true)\r\nview.getView().style.cursor = 'pointer'\n}",
+    "onLeave": "__ht__function(event, data, view, point, width, height) {\ndata.a('back.visible',false)\r\nview.getView().style.cursor = 'default'\n}",
+    "renderHTML": "__ht__function(data, gv, cache) {if(!cache.init){\r\n    cache.init = 'done'\r\n    data.setToolTip(data.ca('toolTip'));\r\n}}",
+    "width": 160,
+    "height": 190,
+    "interactive": true,
+    "pixelPerfect": false,
+    "comps": [{
+            "type": "roundRect",
+            "background": "rgba(51,156,255,0.3)",
+            "borderColor": "#979797",
+            "gradient": "radial.center",
+            "gradientColor": "rgba(61,61,61,0)",
+            "visible": {
+                "func": "__ht__function(data, view) {\nlet visible = data.a('visible')\r\n// if(data.a('locked')) visible = true\r\nreturn visible\n}",
+                "value": false
+            },
+            "prefix": "back",
+            "rect": [
+                0,
+                0.25488,
+                160,
+                189.74512
+            ]
+        },
+        {
+            "type": "text",
+            "text": {
+                "func": "attr@text",
+                "value": "系统设置"
+            },
+            "align": "center",
+            "color": {
+                "func": "attr@color",
+                "value": "#ddd"
+            },
+            "font": {
+                "func": "attr@font",
+                "value": "28px Microsoft YaHei"
+            },
+            "layoutH": "leftright",
+            "layoutV": "topbottom",
+            "prefix": "text",
+            "displayName": "text",
+            "scaleX": {
+                "func": "attr@scale",
+                "value": 1
+            },
+            "scaleY": {
+                "func": "attr@scale",
+                "value": 1
+            },
+            "rect": [
+                20,
+                135.19028,
+                120,
+                31.87643
+            ]
+        },
+        {
+            "type": "image",
+            "name": {
+                "func": "__ht__function(data, view) {\nvar color = data.a('iconColor')\r\n    data.a('icon-background',color) //除了背景颜色、图标边框及颜色等可以类似扩展添加\r\n    var path = data.a('path')\r\n    var typeArr = ['light','light','regular','light'] //枚举下拉选择\r\n    var typetmp = typeArr[data.a('iconType')]\r\n    if(path != undefined){\r\n        if(path.indexOf('.') == -1){ //名称模式\r\n            path = 'symbols/demo/uiotos/icons/' + typetmp + '/' + path + '.json'\r\n        }else if(path.indexOf(typetmp) == -1){//类型切换了\r\n            typeArr.forEach((curType,index)=>{\r\n                if(curType != typetmp){\r\n                    path = path.replace(curType,typetmp)\r\n                }\r\n            })\r\n        }\r\n    }\r\n    data.a('path',path) //回写过去\r\n    return path\n}",
+                "value": "assets/demo/extra/desktop/logo_min.jpg"
+            },
+            "displayName": "icon",
+            "scaleX": {
+                "func": "attr@scale",
+                "value": 1
+            },
+            "scaleY": {
+                "func": "attr@scale",
+                "value": 1
+            },
+            "rect": [
+                30,
+                27,
+                100,
+                100
+            ]
+        },
+        {
+            "type": "shape",
+            "background": "rgb(230,220,17)",
+            "gradientColor": "rgb(230,220,17)",
+            "visible": {
+                "func": "__ht__function(data, view) {\nlet locked = data.a('locked')\r\n// data.s('interactive', !locked)\r\n// data.s('2d.selectable', !locked)\r\nreturn locked\n}",
+                "value": true
+            },
+            "pixelPerfect": true,
+            "points": [
+                137.0708,
+                32.5114,
+                133.71219,
+                32.5114,
+                133.71219,
+                25.39066,
+                133.71219,
+                19.42735,
+                128.39624,
+                14.57795,
+                121.85589,
+                14.57795,
+                115.31501,
+                14.57795,
+                109.99299,
+                19.42735,
+                109.99299,
+                25.39108,
+                109.99299,
+                32.5113,
+                106.63797,
+                32.5113,
+                105.02006,
+                32.5113,
+                103.70824,
+                33.70638,
+                103.70824,
+                35.18157,
+                103.70824,
+                54.67726,
+                103.70824,
+                56.15474,
+                105.02006,
+                57.35078,
+                106.63797,
+                57.35078,
+                137.0738,
+                57.35078,
+                138.69171,
+                57.35078,
+                140,
+                56.15484,
+                140,
+                54.67726,
+                140,
+                35.18157,
+                140,
+                33.7063,
+                138.68871,
+                32.5113,
+                137.07027,
+                32.5113,
+                123.5006,
+                45.43758,
+                123.5006,
+                49.69452,
+                123.49979,
+                49.88593,
+                123.32725,
+                50.04348,
+                123.11642,
+                50.04535,
+                120.59815,
+                50.04535,
+                120.38655,
+                50.04434,
+                120.21268,
+                49.88676,
+                120.21123,
+                49.69466,
+                120.21123,
+                45.43763,
+                119.02825,
+                44.88598,
+                118.20892,
+                43.78036,
+                118.20892,
+                42.48446,
+                118.20892,
+                40.65063,
+                119.8415,
+                39.15932,
+                121.85288,
+                39.15932,
+                123.86733,
+                39.15932,
+                125.50043,
+                40.65058,
+                125.50043,
+                42.48397,
+                125.50344,
+                43.78036,
+                124.68411,
+                44.88602,
+                123.50066,
+                45.43715,
+                129.16207,
+                32.5114,
+                114.54881,
+                32.5114,
+                114.54881,
+                25.56725,
+                114.54881,
+                21.8941,
+                117.83012,
+                18.9028,
+                121.85847,
+                18.9028,
+                125.88736,
+                18.9028,
+                129.1626,
+                21.89406,
+                129.1626,
+                25.56725,
+                129.1626,
+                32.5114
+            ],
+            "segments": [
+                1,
+                2,
+                2,
+                4,
+                4,
+                2,
+                2,
+                4,
+                2,
+                4,
+                2,
+                4,
+                2,
+                4,
+                5,
+                1,
+                2,
+                4,
+                2,
+                4,
+                2,
+                4,
+                4,
+                4,
+                4,
+                5,
+                1,
+                2,
+                2,
+                4,
+                4,
+                2,
+                5
+            ]
+        }
+    ]
+}

@@ -1,0 +1,452 @@
+{
+  "v": "7.7.5",
+  "p": {
+    "autoAdjustIndex": true,
+    "hierarchicalRendering": false
+  },
+  "a": {
+    "rotateAsClock": false,
+    "gridAngle": 1.5708,
+    "connectActionType": null,
+    "fitContent": false
+  },
+  "d": [
+    {
+      "c": "ht.Node",
+      "i": 27104,
+      "p": {
+        "name": "autoBase",
+        "displayName": "自动底板（autoBase1）",
+        "tag": "autoBase1",
+        "dataBindings": {
+          "s": {
+            "shape.background": {
+              "id": "iotos.form",
+              "alias": "",
+              "func": "__ht__function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        console.error(err);\r\n        return rawData;\r\n    }\r\n}",
+              "idinfo": "",
+              "isTplBinded": false
+            }
+          }
+        },
+        "image": null,
+        "position": {
+          "x": -5,
+          "y": -5.09301
+        },
+        "width": 341.84715,
+        "height": 373.15183
+      },
+      "s": {
+        "label.position": 14,
+        "label.offset.x": -10,
+        "label.offset.y": 0,
+        "label.color": "rgb(61,61,61)",
+        "2d.movable": false,
+        "interactive": true,
+        "fullscreen": "fill",
+        "fullscreen.gap": 0,
+        "shape": "rect",
+        "shape.background": "rgb(20,24,76)"
+      }
+    },
+    {
+      "c": "ht.Shape",
+      "i": 27105,
+      "p": {
+        "name": "Shape",
+        "displayName": "Shape（Shape1）",
+        "toolTip": "<p style='color:rgb(242,83,75);margin:0px;font-weight:bold'>已被布局，不允许拖动<p>",
+        "tag": "Shape1",
+        "dataBindings": {
+          "s": {
+            "shape.background": {
+              "id": "iotos.form",
+              "alias": "",
+              "func": "__ht__function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        console.error(err);\r\n        return rawData;\r\n    }\r\n}",
+              "idinfo": "",
+              "isTplBinded": false
+            }
+          }
+        },
+        "host": {
+          "__i": 27104
+        },
+        "position": {
+          "x": -161.82566,
+          "y": -178.62521
+        },
+        "width": 19.40451,
+        "height": 17.5233,
+        "segments": {
+          "__a": [
+            1,
+            4,
+            2,
+            2,
+            2,
+            2,
+            2
+          ]
+        },
+        "points": {
+          "__a": [
+            {
+              "x": -152.12341,
+              "y": -187.38686
+            },
+            {
+              "x": -152.34829,
+              "y": -187.38686
+            },
+            {
+              "x": -171.52792,
+              "y": -187.38686
+            },
+            {
+              "x": -171.52792,
+              "y": -187.38686
+            },
+            {
+              "x": -171.52792,
+              "y": -169.86356
+            },
+            {
+              "x": -169.79307,
+              "y": -171.55033
+            },
+            {
+              "x": -169.79307,
+              "y": -186.07427
+            },
+            {
+              "x": -155.59308,
+              "y": -186.07427
+            },
+            {
+              "x": -152.12341,
+              "y": -187.38686
+            }
+          ]
+        }
+      },
+      "s": {
+        "shape.background": "rgb(0,184,255)",
+        "shape.border.color": "#979797",
+        "label.position": 14,
+        "label.offset.x": -10,
+        "label.offset.y": 0,
+        "label.color": "rgb(61,61,61)",
+        "label.opacity": 0,
+        "2d.movable": false,
+        "interactive": true,
+        "layout.h": "left",
+        "layout.v": "top"
+      },
+      "a": {
+        "toolTipRaw": "<p style='color:rgb(242,83,75);margin:0px;font-weight:bold'>已被布局，不允许拖动<p>"
+      }
+    },
+    {
+      "c": "ht.Shape",
+      "i": 27106,
+      "p": {
+        "name": "Shape",
+        "displayName": "Shape（Shape2）",
+        "toolTip": "<p style='color:rgb(242,83,75);margin:0px;font-weight:bold'>已被布局，不允许拖动<p>",
+        "tag": "Shape2",
+        "dataBindings": {
+          "s": {
+            "shape.background": {
+              "id": "iotos.form",
+              "alias": "",
+              "func": "__ht__function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        console.error(err);\r\n        return rawData;\r\n    }\r\n}",
+              "idinfo": "",
+              "isTplBinded": false
+            }
+          }
+        },
+        "host": {
+          "__i": 27104
+        },
+        "rotation": 3.14159,
+        "position": {
+          "x": 152.46495,
+          "y": 168.54635
+        },
+        "width": 19.40451,
+        "height": 17.5233,
+        "segments": {
+          "__a": [
+            1,
+            4,
+            2,
+            2,
+            2,
+            2,
+            2
+          ]
+        },
+        "points": {
+          "__a": [
+            {
+              "x": 162.1672,
+              "y": 159.7847
+            },
+            {
+              "x": 161.94232,
+              "y": 159.7847
+            },
+            {
+              "x": 142.76269,
+              "y": 159.7847
+            },
+            {
+              "x": 142.76269,
+              "y": 159.7847
+            },
+            {
+              "x": 142.76269,
+              "y": 177.308
+            },
+            {
+              "x": 144.49753,
+              "y": 175.62123
+            },
+            {
+              "x": 144.49753,
+              "y": 161.09729
+            },
+            {
+              "x": 158.69753,
+              "y": 161.09729
+            },
+            {
+              "x": 162.1672,
+              "y": 159.7847
+            }
+          ]
+        }
+      },
+      "s": {
+        "shape.background": "rgb(0,184,255)",
+        "shape.border.color": "#979797",
+        "label.position": 14,
+        "label.offset.x": -10,
+        "label.offset.y": 0,
+        "label.color": "rgb(61,61,61)",
+        "label.opacity": 0,
+        "2d.movable": false,
+        "interactive": true,
+        "layout.h": "right",
+        "layout.v": "bottom"
+      },
+      "a": {
+        "toolTipRaw": "<p style='color:rgb(242,83,75);margin:0px;font-weight:bold'>已被布局，不允许拖动<p>"
+      }
+    },
+    {
+      "c": "ht.Shape",
+      "i": 27107,
+      "p": {
+        "name": "Shape",
+        "displayName": "Shape（Shape3）",
+        "toolTip": "<p style='color:rgb(242,83,75);margin:0px;font-weight:bold'>已被布局，不允许拖动<p>",
+        "tag": "Shape3",
+        "dataBindings": {
+          "s": {
+            "shape.background": {
+              "id": "iotos.form",
+              "alias": "",
+              "func": "__ht__function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        console.error(err);\r\n        return rawData;\r\n    }\r\n}",
+              "idinfo": "",
+              "isTplBinded": false
+            }
+          }
+        },
+        "host": {
+          "__i": 27104
+        },
+        "rotation": 4.71239,
+        "position": {
+          "x": -162.40048,
+          "y": 167.99457
+        },
+        "width": 18.62689,
+        "height": 18.25485,
+        "segments": {
+          "__a": [
+            1,
+            4,
+            2,
+            2,
+            2,
+            2,
+            2
+          ]
+        },
+        "points": {
+          "__a": [
+            {
+              "x": -153.08703,
+              "y": 158.86715
+            },
+            {
+              "x": -153.30291,
+              "y": 158.86715
+            },
+            {
+              "x": -171.71393,
+              "y": 158.86715
+            },
+            {
+              "x": -171.71393,
+              "y": 158.86715
+            },
+            {
+              "x": -171.71393,
+              "y": 177.12199
+            },
+            {
+              "x": -170.04861,
+              "y": 175.36481
+            },
+            {
+              "x": -170.04861,
+              "y": 160.23453
+            },
+            {
+              "x": -156.41766,
+              "y": 160.23453
+            },
+            {
+              "x": -153.08703,
+              "y": 158.86715
+            }
+          ]
+        }
+      },
+      "s": {
+        "shape.background": "rgb(0,184,255)",
+        "shape.border.color": "#979797",
+        "label.position": 14,
+        "label.offset.x": -10,
+        "label.offset.y": 0,
+        "label.color": "rgb(61,61,61)",
+        "label.opacity": 0,
+        "2d.movable": false,
+        "interactive": true,
+        "layout.h": "left",
+        "layout.v": "bottom"
+      },
+      "a": {
+        "toolTipRaw": "<p style='color:rgb(242,83,75);margin:0px;font-weight:bold'>已被布局，不允许拖动<p>"
+      }
+    },
+    {
+      "c": "ht.Shape",
+      "i": 27108,
+      "p": {
+        "name": "Shape",
+        "displayName": "Shape（Shape4）",
+        "toolTip": "<p style='color:rgb(242,83,75);margin:0px;font-weight:bold'>已被布局，不允许拖动<p>",
+        "tag": "Shape4",
+        "dataBindings": {
+          "s": {
+            "shape.background": {
+              "id": "iotos.form",
+              "alias": "",
+              "func": "__ht__function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        console.error(err);\r\n        return rawData;\r\n    }\r\n}",
+              "idinfo": "",
+              "isTplBinded": false
+            }
+          }
+        },
+        "host": {
+          "__i": 27104
+        },
+        "rotation": 1.5708,
+        "position": {
+          "x": 153.03977,
+          "y": -178.07338
+        },
+        "width": 18.62689,
+        "height": 18.25485,
+        "segments": {
+          "__a": [
+            1,
+            4,
+            2,
+            2,
+            2,
+            2,
+            2
+          ]
+        },
+        "points": {
+          "__a": [
+            {
+              "x": 162.35321,
+              "y": -187.20081
+            },
+            {
+              "x": 162.13734,
+              "y": -187.20081
+            },
+            {
+              "x": 143.72632,
+              "y": -187.20081
+            },
+            {
+              "x": 143.72632,
+              "y": -187.20081
+            },
+            {
+              "x": 143.72632,
+              "y": -168.94595
+            },
+            {
+              "x": 145.39164,
+              "y": -170.70314
+            },
+            {
+              "x": 145.39164,
+              "y": -185.83342
+            },
+            {
+              "x": 159.02258,
+              "y": -185.83342
+            },
+            {
+              "x": 162.35321,
+              "y": -187.20081
+            }
+          ]
+        }
+      },
+      "s": {
+        "shape.background": "rgb(0,184,255)",
+        "shape.border.color": "#979797",
+        "label.position": 14,
+        "label.offset.x": -10,
+        "label.offset.y": 0,
+        "label.color": "rgb(61,61,61)",
+        "label.opacity": 0,
+        "2d.movable": false,
+        "interactive": true,
+        "layout.h": "right",
+        "layout.v": "top"
+      },
+      "a": {
+        "toolTipRaw": "<p style='color:rgb(242,83,75);margin:0px;font-weight:bold'>已被布局，不允许拖动<p>"
+      }
+    }
+  ],
+  "modified": "Sun Mar 24 2024 09:37:08 GMT+0800 (中国标准时间)",
+  "contentRect": {
+    "x": -240.63061,
+    "y": -191.66893,
+    "width": 406.55418,
+    "height": 373.15183
+  }
+}

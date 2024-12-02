@@ -1,0 +1,39 @@
+{
+  "modified": "Wed Jun 28 2023 15:17:07 GMT+0800 (中国标准时间)",
+  "background": "rgb(32,37,46)",
+  "dataBindings": [
+    {
+      "attr": "background",
+      "valueType": "Color"
+    },
+    {
+      "attr": "radius",
+      "valueType": "PositiveNumber"
+    }
+  ],
+  "renderHTML": "__ht__function(data, gv, cache) {if(!cache.init){\r\n    cache.init = 'done'\r\n    data.dm().md(e => {\r\n        if(e.data == data){\r\n            // //event格式：\r\n            // {\r\n            //     property: 'name',//发生变化的属性\r\n            //     oldValue: 'oldValue',//旧值\r\n            //     newValue: 'newValue',''新值\r\n            //     data: data//发生变化的data\r\n            // }\r\n            switch(e.property){\r\n                case 'a:boxShadow':\r\n                    break;\r\n            }\r\n        }\r\n    })\r\n}}",
+  "width": 100,
+  "height": 100,
+  "fitSize": true,
+  "comps": [
+    {
+      "type": "roundRect",
+      "background": {
+        "func": "attr@background",
+        "value": "rgb(247,247,247)"
+      },
+      "borderColor": "#60ACFC",
+      "cornerRadius": {
+        "func": "attr@radius",
+        "value": 5
+      },
+      "shadowColor": "rgb(61,61,61)",
+      "rect": [
+        0,
+        0,
+        100,
+        100
+      ]
+    }
+  ]
+}

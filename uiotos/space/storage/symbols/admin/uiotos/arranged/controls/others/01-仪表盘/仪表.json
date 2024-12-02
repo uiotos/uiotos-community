@@ -1,0 +1,170 @@
+{
+  "modified": "Sat Aug 24 2024 23:48:45 GMT+0800 (中国标准时间)",
+  "background": "rgb(32,37,46)",
+  "dataBindings": [
+    {
+      "attr": "ht.value",
+      "valueType": "Number",
+      "name": "ChartValue",
+      "group": "功能"
+    },
+    {
+      "attr": "ht.min",
+      "valueType": "Number",
+      "name": "ChartMinValue"
+    },
+    {
+      "attr": "ht.max",
+      "valueType": "Number",
+      "name": "ChartMaxValue"
+    },
+    {
+      "attr": "ht.startAngle",
+      "valueType": "Angle",
+      "name": "ChartStartAngle"
+    },
+    {
+      "attr": "ht.endAngle",
+      "valueType": "Angle",
+      "name": "ChartEndAngle"
+    },
+    {
+      "attr": "ht.PoinertRadius",
+      "valueType": "PositiveNumber",
+      "name": "ChartPointerRadius",
+      "group": "外观"
+    },
+    {
+      "attr": "ht.pointerColor",
+      "valueType": "Color",
+      "name": "ChartPointerColor"
+    },
+    {
+      "attr": "ht.clockwise",
+      "valueType": "Boolean",
+      "name": "ChartClockwise"
+    },
+    {
+      "attr": "ht.showLabel",
+      "valueType": "Boolean",
+      "name": "ChartShowLabel"
+    },
+    {
+      "attr": "ht.labelEvery",
+      "valueType": "PositiveNumber",
+      "name": "ChartLabelEvery"
+    },
+    {
+      "attr": "ht.labelColor",
+      "valueType": "Color",
+      "name": "ChartLabelColor"
+    },
+    {
+      "attr": "ht.showTick",
+      "valueType": "Boolean",
+      "name": "ChartShowTick"
+    },
+    {
+      "attr": "ht.tickEvery",
+      "valueType": "PositiveNumber",
+      "name": "ChartTickEvery"
+    },
+    {
+      "attr": "ht.tickColor",
+      "valueType": "Color",
+      "name": "ChartTickColor"
+    },
+    {
+      "attr": "ht.bigTickEvery",
+      "valueType": "PositiveNumber",
+      "name": "ChartBigTickEvery"
+    },
+    {
+      "attr": "ht.bigTickColor",
+      "valueType": "Color",
+      "name": "ChartBigTickColor"
+    }
+  ],
+  "width": 200,
+  "height": 200,
+  "pixelPerfect": false,
+  "comps": [
+    {
+      "type": "components/demo/canvas/gauge/gauge.json",
+      "shadowColor": "rgb(176,215,255)",
+      "shadowBlur": 15,
+      "displayName": "gauge（gauge1）",
+      "rect": [
+        0,
+        0,
+        200,
+        200
+      ],
+      "startAngle": {
+        "func": "attr@ht.startAngle",
+        "value": -3.66519
+      },
+      "endAngle": {
+        "func": "attr@ht.endAngle",
+        "value": 0.5236
+      },
+      "pointerRadius": {
+        "func": "attr@ht.PoinertRadius",
+        "value": 0.8
+      },
+      "pointerColor": {
+        "func": "attr@ht.pointerColor",
+        "value": "rgb(242,83,75)"
+      },
+      "value": {
+        "func": "attr@ht.value",
+        "value": 0
+      },
+      "min": {
+        "func": "attr@ht.min",
+        "value": 0
+      },
+      "max": {
+        "func": "attr@ht.max",
+        "value": 100
+      },
+      "clockwise": {
+        "func": "attr@ht.clockwise",
+        "value": true
+      },
+      "showLabel": {
+        "func": "attr@ht.showLabel",
+        "value": true
+      },
+      "labelEvery": {
+        "func": "attr@ht.labelEvery",
+        "value": 10
+      },
+      "labelColor": {
+        "func": "attr@ht.labelColor",
+        "value": "#FEB64D"
+      },
+      "showTick": {
+        "func": "attr@ht.showTick",
+        "value": true
+      },
+      "tickEvery": {
+        "func": "attr@ht.tickEvery",
+        "value": 2
+      },
+      "tickColor": {
+        "func": "attr@ht.tickColor",
+        "value": "#32D3EB"
+      },
+      "bigTickEvery": {
+        "func": "attr@ht.bigTickEvery",
+        "value": 20
+      },
+      "bigTickColor": {
+        "func": "attr@ht.bigTickColor",
+        "value": "#60ACFC"
+      },
+      "showShadow": true
+    }
+  ]
+}

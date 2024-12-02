@@ -1,0 +1,334 @@
+{
+  "modified": "Fri Aug 16 2024 12:21:46 GMT+0800 (中国标准时间)",
+  "background": "rgb(32,37,46)",
+  "dataBindings": [
+    {
+      "attr": "symbol",
+      "valueType": "Image",
+      "defaultValue": "symbols/develop/uiotos/arranged/controls/charts/统计曲线.json",
+      "description": "组件地址字符串"
+    },
+    {
+      "valueType": "PositiveNumber",
+      "group": "功能",
+      "attr": "sizeSet",
+      "defaultValue": "3",
+      "description": "动态设置可叠加曲线的数量。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/nxkc9fku1gdkfz5t#Lh2De\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>"
+    },
+    {
+      "attr": "names",
+      "valueType": "Object",
+      "description": "各曲线分别对应的名称。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/nxkc9fku1gdkfz5t#nyzQ9\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+      "name": "名称设置"
+    },
+    {
+      "attr": "xAxis.data",
+      "valueType": "Object",
+      "defaultValue": [
+        "2013",
+        "2014",
+        "2015",
+        "2016",
+        "2017",
+        "2018",
+        "2019",
+        "2020",
+        "2021"
+      ],
+      "description": "所有曲线统一对应的横轴数据。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/nxkc9fku1gdkfz5t#kkd2h\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>"
+    },
+    {
+      "attr": "rollingSize",
+      "valueType": "PositiveNumber",
+      "description": "限定横轴最大的数据个数，超出会滚动。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/nxkc9fku1gdkfz5t#DTlfG\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+      "extraInfo": "★"
+    },
+    {
+      "attr": "widths",
+      "valueType": "Object",
+      "description": "柱状图宽度设置（对平滑曲线无效）。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/nxkc9fku1gdkfz5t#GzeP3\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+      "group": "外观",
+      "extraInfo": "★"
+    },
+    {
+      "attr": "lineDots",
+      "valueType": "Object",
+      "description": "设置曲线的实线或曲线，以及虚线样式。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/nxkc9fku1gdkfz5t#fVOSE\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+      "extraInfo": "★"
+    },
+    {
+      "attr": "itemSize",
+      "valueType": "Object",
+      "description": "设置平滑曲线上数据小圆点的大小。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/nxkc9fku1gdkfz5t#Zx0Lc\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+      "extraInfo": "★"
+    },
+    {
+      "attr": "background",
+      "valueType": "Color",
+      "description": "设置曲线整体背景颜色，默认为透明。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/nxkc9fku1gdkfz5t#Q8N6L\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+      "extraInfo": "*"
+    },
+    {
+      "attr": "axisLine.color",
+      "valueType": "Color",
+      "defaultValue": "rgba(61,61,61,0.5)",
+      "description": "曲线的X轴和Y轴线条颜色。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/nxkc9fku1gdkfz5t#bVoN5\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+      "extraInfo": "*"
+    },
+    {
+      "attr": "axisLabel.color",
+      "valueType": "Color",
+      "defaultValue": "rgb(61,61,61)",
+      "description": "曲线的X轴和Y轴线的文字颜色。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/nxkc9fku1gdkfz5t#jtWuA\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+      "extraInfo": "*"
+    },
+    {
+      "attr": "splitLine.color",
+      "valueType": "Color",
+      "defaultValue": "rgba(128,128,128,0.3)",
+      "description": "曲线水平或垂直分割线颜色。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/nxkc9fku1gdkfz5t#OASQo\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+      "extraInfo": "*"
+    },
+    {
+      "attr": "colors",
+      "valueType": "ColorArray",
+      "description": "各线条颜色，按索引依次对应。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/nxkc9fku1gdkfz5t#AaYxP\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>"
+    },
+    {
+      "attr": "colorItems",
+      "valueType": "ColorArray",
+      "description": "各平滑曲线上数据小圆点的颜色。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/nxkc9fku1gdkfz5t#Dj7GY\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>"
+    },
+    {
+      "attr": "colorStops",
+      "valueType": "ColorArray",
+      "description": "与曲线颜色，组成曲线的渐变色面积阴影。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/nxkc9fku1gdkfz5t#CvszE\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>"
+    },
+    {
+      "attr": "markColors",
+      "valueType": "ColorArray",
+      "defaultValue": [
+        "rgb(255,0,0,1)",
+        "rgb(255,165,0,1)"
+      ],
+      "description": "与曲线颜色，组成曲线的渐变色面积阴影。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/nxkc9fku1gdkfz5t#BUtL6\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+      "extraInfo": "*"
+    },
+    {
+      "attr": "markValues",
+      "valueType": "NumberArray",
+      "defaultValue": [],
+      "description": "设置水平刻度值，用于警戒线。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/nxkc9fku1gdkfz5t#kUddF\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+      "extraInfo": "*"
+    },
+    {
+      "attr": "boundaryGap",
+      "valueType": "Boolean",
+      "defaultValue": false,
+      "description": "坐标轴左右是否留白。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/nxkc9fku1gdkfz5t#Zf1CQ\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+      "extraInfo": "*"
+    },
+    {
+      "attr": "axisTick.show",
+      "valueType": "Boolean",
+      "defaultValue": true,
+      "description": "坐标轴上的刻度标记是否可见。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/nxkc9fku1gdkfz5t#RtY5N\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+      "extraInfo": "*"
+    },
+    {
+      "attr": "splitLineY.show",
+      "valueType": "Boolean",
+      "defaultValue": false,
+      "description": "Y轴在水平方向的分割线是否可见。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/nxkc9fku1gdkfz5t#Yy8yo\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+      "extraInfo": "*"
+    },
+    {
+      "attr": "splitLineX.show",
+      "valueType": "Boolean",
+      "description": "X轴在垂直方向的分割线是否可见。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/nxkc9fku1gdkfz5t#wwYE2\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+      "defaultValue": false,
+      "extraInfo": "*"
+    },
+    {
+      "attr": "barCategoryGap",
+      "valueType": "Number",
+      "defaultValue": 10,
+      "description": "柱状图组之间的间隙，用以区分。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/nxkc9fku1gdkfz5t#dyXlZ\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+      "extraInfo": "★"
+    },
+    {
+      "attr": "tooltipFormat",
+      "valueType": "Function",
+      "extraInfo": {
+        "arguments": [
+          "label",
+          "datas",
+          "info",
+          "node",
+          "view"
+        ],
+        "classify": "*"
+      },
+      "defaultValue": "__ht__function(label, datas, info, node, view) {/*\r\n参数说明：\r\nlabel：提示标题文字，默认为x轴当前值\r\ndatas：按照曲线索引顺序，指定x轴值对应在y轴各曲线的当前值\r\ninfo/node/view：原始显示信息的对象、图元对象、视图对象\r\n返回格式为：\r\n[label,data0,data1,data2]。\r\n示例：\r\n['提示：' + label,datas[0] + '%',datas[1] + '℃',datas[2] + 'mmp']\r\n\r\n注意，返回数组的第一个为label标题文字，剩下的依次是按照索引的曲线值。\r\n*/\r\nreturn [label,...datas]}",
+      "description": ""
+    }
+  ],
+  "snapshotURL": "symbols/develop/uiotos/arranged/controls/charts_icon/统计曲线.json",
+  "renderHTML": "__ht__function(data, gv, cache) {return __chartInterval(data, gv, cache,'chart','统计曲线');}",
+  "width": 420,
+  "height": 280,
+  "boundExtend": 10,
+  "fitSize": true,
+  "interactive": true,
+  "pixelPerfect": false,
+  "attachStyle": "close",
+  "comps": [
+    {
+      "type": "components/develop/uiotos/base/chart.json",
+      "displayName": "chart（chart1）",
+      "rect": [
+        0,
+        0,
+        420,
+        280
+      ],
+      "onClick": "__ht__function(event, data, view, point, width, height) {\nht.vector.chartInteractor.onClick.apply(this, arguments);\n}",
+      "onDown": "__ht__function(event, data, view, point, width, height) {\nht.vector.chartInteractor.onDown.apply(this, arguments);\n}",
+      "onUp": "__ht__function(event, data, view, point, width, height) {\nht.vector.chartInteractor.onUp.apply(this, arguments);\n}",
+      "onMove": "__ht__function(event, data, view, point, width, height) {\nht.vector.chartInteractor.onMove.apply(this, arguments);\n}",
+      "onEnter": "__ht__function(event, data, view, point, width, height) {\nht.vector.chartInteractor.onEnter.apply(this, arguments);\n}",
+      "onLeave": "__ht__function(event, data, view, point, width, height) {\nht.vector.chartInteractor.onLeave.apply(this, arguments);\n}",
+      "onBeginDrag": "__ht__function(event, data, view, point, width, height) {\nht.vector.chartInteractor.onBeginDrag.apply(this, arguments);\n}",
+      "onDrag": "__ht__function(event, data, view, point, width, height) {\nht.vector.chartInteractor.onDrag.apply(this, arguments);\n}",
+      "onEndDrag": "__ht__function(event, data, view, point, width, height) {\nht.vector.chartInteractor.onEndDrag.apply(this, arguments);\n}",
+      "series": {
+        "func": "attr@series",
+        "value": [
+          {
+            "type": "bar",
+            "barWidth": 0.4,
+            "data": [
+              10,
+              14,
+              6,
+              12,
+              19,
+              12,
+              16,
+              8,
+              13
+            ]
+          },
+          {
+            "type": "line",
+            "smooth": true,
+            "lineWidth": 0.4,
+            "data": [
+              10,
+              14,
+              6,
+              12,
+              19,
+              12,
+              16,
+              8,
+              13
+            ]
+          },
+          {
+            "type": "line",
+            "smooth": true,
+            "lineWidth": 0.4,
+            "data": [
+              5,
+              17,
+              20,
+              18,
+              12,
+              25,
+              19,
+              30,
+              6
+            ]
+          }
+        ]
+      },
+      "xAxis": {
+        "func": "__ht__function(data, view) {\nreturn [\r\n    {\r\n        \"axisLabel\": {\r\n            \"color\": data.ca('axisLabel.color')\r\n        },\r\n        \"axisTick\": {\r\n            \"show\": data.ca('axisTick.show'),\r\n            \"color\": data.ca('axisLine.color')\r\n        },\r\n        \"axisLine\": {\r\n            \"show\": true,\r\n            \"color\": data.ca('axisLine.color')\r\n        },\r\n        \"splitLine\": {\r\n            \"show\": data.ca('splitLineX.show'),\r\n            \"color\": data.ca('splitLine.color')\r\n        },\r\n        \"data\": data.ca('xAxis.data')\r\n    }\r\n]\n}",
+        "value": [
+          {
+            "axisLabel": {
+              "color": "rgb(51,153,255)"
+            },
+            "axisTick": {
+              "show": true,
+              "color": "rgba(51,153,255,0.2)"
+            },
+            "axisLine": {
+              "show": true,
+              "color": "rgb(51,153,255)"
+            },
+            "splitLine": {
+              "show": false,
+              "color": "rgba(51,153,255,0.1)"
+            },
+            "data": [
+              "2011",
+              "2012",
+              "2013",
+              "2014",
+              "2015",
+              "2016",
+              "2017",
+              "2018",
+              "2019"
+            ]
+          }
+        ]
+      },
+      "yAxis": {
+        "func": "__ht__function(data, view) {\nlet param = {\r\n    \"axisLabel\": {\r\n        \"color\": data.ca('axisLabel.color')\r\n    },\r\n    \"axisLine\": {\r\n        \"color\": data.ca('axisLine.color')\r\n    },\r\n    \"axisTick\": {\r\n        \"show\": data.ca('axisTick.show'),\r\n        \"color\": data.ca('axisLine.color')\r\n    },\r\n    \"splitLine\": {\r\n        \"show\": data.ca('splitLineY.show'),\r\n        \"color\": data.ca('splitLine.color')\r\n    },\r\n    \"markLines\": [\r\n        {\r\n            \"value\": data.ca('markValues') ? (data.ca('markValues')[0] ? data.ca('markValues')[0] : 0) : 0,\r\n            \"color\": data.ca('markColors') ? (data.ca('markColors')[0] ? data.ca('markColors')[0] : undefined) : undefined,\r\n        },\r\n        {\r\n            \"value\": data.ca('markValues') ? (data.ca('markValues')[1] ? data.ca('markValues')[1] : 0) : 0,\r\n            \"color\": data.ca('markColors') ? (data.ca('markColors')[1] ? data.ca('markColors')[1] : undefined) : undefined,\r\n        },\r\n    ]\r\n}\r\nif(data.ca('markValues') == undefined || data.ca('markValues').length == 0) delete param.markLines;\r\nreturn param;\n}",
+        "value": {
+          "axisLabel": {
+            "color": "rgb(51,153,255)"
+          },
+          "axisLine": {
+            "show": true,
+            "color": "rgb(51,153,255)"
+          },
+          "axisTick": {
+            "show": true,
+            "color": "rgba(51,153,255,0.2)"
+          },
+          "splitLine": {
+            "show": false,
+            "color": "rgba(51,153,255,0.1)"
+          }
+        }
+      },
+      "colors": {
+        "func": "attr@colors",
+        "value": [
+          "rgb(96,172,252)",
+          "rgb(50,211,235)",
+          "rgb(93,217,174)"
+        ]
+      },
+      "background": {
+        "func": "attr@background",
+        "value": null
+      },
+      "boundaryGap": {
+        "func": "attr@boundaryGap",
+        "value": true
+      },
+      "tooltipLineColor": {
+        "func": "attr@tooltipLineColor",
+        "value": "rgb(124,145,155)"
+      },
+      "tooltipFormatter": {
+        "func": "attr@tooltipFormatter"
+      }
+    }
+  ]
+}

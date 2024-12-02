@@ -1,0 +1,204 @@
+{
+    "modified": "Tue Sep 06 2022 00:29:59 GMT+0800 (中国标准时间)",
+    "background": "rgb(32,37,46)",
+    "dataBindings": [{
+            "attr": "ht.content",
+            "valueType": "Object",
+            "defaultValue": [
+                [{
+                    "text": {
+                        "value": "title",
+                        "func": "attr@title"
+                    },
+                    "color": "#60ACFC",
+                    "font": "28px arial"
+                }],
+                [{
+                        "text": "平均温度"
+                    },
+                    {
+                        "text": {
+                            "func": "attr@temp"
+                        },
+                        "color": {
+                            "func": "__ht__function(data, view) {\n                    var temp = data.a('temp');\n                    if (temp < 70) {\n                        return 'rgb(48,242,120)'\n                    }\n                    else if (temp < 90) {\n                        return '#FEB64D'\n                    }\n                    return 'rgb(242,83,75)';\n                }"
+                        },
+                        "font": "24px arial"
+                    },
+                    {
+                        "text": "℃"
+                    }
+                ],
+                [{
+                        "text": "湿度"
+                    },
+                    {
+                        "text": {
+                            "func": "attr@humidity"
+                        },
+                        "color": "rgb(93,217,174)",
+                        "font": "24px arial"
+                    },
+                    {
+                        "text": "%"
+                    }
+                ]
+            ],
+            "name": "UIContent"
+        },
+        {
+            "attr": "ht.showArrow",
+            "valueType": "Boolean",
+            "defaultValue": true,
+            "name": "UIShowArrow"
+        },
+        {
+            "attr": "ht.arrowOrientation",
+            "valueType": "Orientation",
+            "defaultValue": "bottom",
+            "name": "UIArrowOrientation"
+        },
+        {
+            "attr": "ht.arrowPosition",
+            "valueType": "Percentage",
+            "defaultValue": 0.5,
+            "name": "UIArrowPosition"
+        },
+        {
+            "attr": "ht.padding",
+            "valueType": "String",
+            "defaultValue": "10 5",
+            "name": "UIPadding"
+        },
+        {
+            "attr": "ht.vGap",
+            "valueType": "PositiveNumber",
+            "defaultValue": 5,
+            "name": "UIVGap"
+        },
+        {
+            "attr": "ht.hGap",
+            "valueType": "PositiveNumber",
+            "defaultValue": 5,
+            "name": "UIHGap"
+        },
+        {
+            "attr": "ht.borderWidth",
+            "valueType": "PositiveNumber",
+            "defaultValue": 2,
+            "name": "UIBorderWidth"
+        },
+        {
+            "attr": "ht.borderColor",
+            "valueType": "Color",
+            "name": "UIBorderColor"
+        },
+        {
+            "attr": "ht.background",
+            "valueType": "Color",
+            "name": "UIBackground"
+        },
+        {
+            "attr": "ht.font",
+            "valueType": "Font",
+            "defaultValue": "12px sans-serif, Arial",
+            "name": "UIFont"
+        },
+        {
+            "attr": "title",
+            "valueType": "String",
+            "defaultValue": "内容配置里可以用数据绑定",
+            "name": "标题"
+        },
+        {
+            "attr": "title2",
+            "valueType": "String"
+        },
+        {
+            "attr": "temp",
+            "valueType": "String",
+            "defaultValue": "0",
+            "name": "CPU"
+        },
+        {
+            "attr": "humidity",
+            "valueType": "String",
+            "defaultValue": "0",
+            "name": "内存"
+        }
+    ],
+    "width": {
+        "func": "__ht__function(data, view) {\nvar w = ht.vector.caluRichTextPaneSize(data).width;\nif (data._width !== w) {\n    data.setWidth(w);\n}\nreturn w;\n}",
+        "value": 100
+    },
+    "height": {
+        "func": "__ht__function(data, view) {\nvar h = ht.vector.caluRichTextPaneSize(data).height;\nif (data._height !== h) {\n    data.setHeight(h);\n    data.setHeight(h);\n}\nreturn h;\n}",
+        "value": 100
+    },
+    "fitSize": true,
+    "interactive": true,
+    "pixelPerfect": false,
+    "attachStyle": "close",
+    "comps": [{
+        "type": "components/develop/uiotos/base/richTextPane.json",
+        "displayName": "infoPane",
+        "rect": {
+            "func": "__ht__function(data, view) {\nvar size = ht.vector.caluRichTextPaneSize(data);\nreturn [0, 0, size.width, size.height];\n}",
+            "value": [
+                0,
+                0,
+                100,
+                100
+            ]
+        },
+        "onClick": "__ht__function(event, data, view, point, width, height) {\ndata.s('2d.visible',false)\n}",
+        "onEnter": "__ht__function(event, data, view, point, width, height) {\nview.getView().style.cursor = 'pointer'\n}",
+        "onLeave": "__ht__function(event, data, view, point, width, height) {\nview.getView().style.cursor = 'pointer'\n}",
+        "content": {
+            "func": "attr@ht.content",
+            "value": []
+        },
+        "background": {
+            "func": "attr@ht.background",
+            "value": "rgb(247,247,247)"
+        },
+        "bgGradientColor": "rgb(247,247,247)",
+        "showArrow": {
+            "func": "attr@ht.showArrow",
+            "value": true
+        },
+        "arrowOrientation": {
+            "func": "attr@ht.arrowOrientation",
+            "value": "bottom"
+        },
+        "arrowPosition": {
+            "func": "attr@ht.arrowPosition",
+            "value": 0.5
+        },
+        "padding": {
+            "func": "attr@ht.padding",
+            "value": "5"
+        },
+        "vGap": {
+            "func": "attr@ht.vGap",
+            "value": 5
+        },
+        "hGap": {
+            "func": "attr@ht.hGap",
+            "value": 5
+        },
+        "borderWidth": {
+            "func": "attr@ht.borderWidth",
+            "value": 1
+        },
+        "borderColor": {
+            "func": "attr@ht.borderColor",
+            "value": "rgb(0,145,194)"
+        },
+        "font": {
+            "func": "attr@ht.font",
+            "value": "12px sans-serif, Arial"
+        },
+        "vAlign": "bottom"
+    }]
+}

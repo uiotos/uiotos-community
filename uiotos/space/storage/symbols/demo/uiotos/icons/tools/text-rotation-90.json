@@ -1,0 +1,98 @@
+{
+    "width": 512,
+    "height": 512,
+    "modified": "Mon Aug 01 2022 23:33:01 GMT+0800 (中国标准时间)",
+    "background": "rgb(32,37,46)",
+    "dataBindings": [{
+            "attr": "icon-background",
+            "valueType": "Color"
+        },
+        {
+            "attr": "icon-borderWidth",
+            "valueType": "PositiveNumber"
+        },
+        {
+            "attr": "icon-borderColor",
+            "valueType": "Color"
+        }
+    ],
+    "comps": [{
+        "type": "shape",
+        "points": [
+            128,
+            128,
+            128,
+            426.66667,
+            64,
+            426.66667,
+            149.33333,
+            512,
+            234.66667,
+            426.66667,
+            170.66667,
+            426.66667,
+            170.66667,
+            128,
+            128,
+            128,
+            259.41333,
+            234.66667,
+            213.33333,
+            219.73333,
+            213.33333,
+            162.56,
+            448,
+            244.26667,
+            448,
+            309.76,
+            213.33333,
+            384,
+            213.33333,
+            324.26667,
+            260.26667,
+            311.46667,
+            393.81333,
+            276.05333,
+            302.50667,
+            247.46667,
+            302.50667,
+            300.37333
+        ],
+        "segments": [
+            1,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            5,
+            1,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            5,
+            1,
+            2,
+            2,
+            5
+        ],
+        "borderColor": {
+            "func": "attr@icon-borderColor",
+            "value": "#000000"
+        },
+        "borderWidth": {
+            "func": "attr@icon-borderWidth",
+            "value": 0
+        },
+        "background": {
+            "func": "attr@icon-background",
+            "value": "#000000"
+        }
+    }]
+}

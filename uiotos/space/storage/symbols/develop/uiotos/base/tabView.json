@@ -1,0 +1,189 @@
+{
+  "modified": "Thu Jul 25 2024 11:41:10 GMT+0800 (中国标准时间)",
+  "dataBindings": [
+    {
+      "attr": "symbol",
+      "valueType": "Image"
+    },
+    {
+      "attr": "relativePath",
+      "valueType": "URL",
+      "description": "相对路径。默认为./，通常是多个内嵌\n<br>页所在的目录。可简化多页设置。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/uta20ga5uu55wvqw#hOmdi\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+      "group": "功能"
+    },
+    {
+      "attr": "displays",
+      "valueType": "ObjectArray",
+      "description": "结合相对路径，设置多页地址。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/uta20ga5uu55wvqw#NdbDk\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>"
+    },
+    {
+      "attr": "display",
+      "valueType": "URL",
+      "defaultValue": "",
+      "description": "当前显示的内嵌页地址。通常只读，\n<br>也可编辑时连续输入，以设置多页路径。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/uta20ga5uu55wvqw#C5SC9\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>"
+    },
+    {
+      "attr": "index",
+      "valueType": "PositiveNumber",
+      "defaultValue": 0,
+      "description": "切换显示的指定内嵌页索引。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/uta20ga5uu55wvqw#mgZ50\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>"
+    },
+    {
+      "attr": "innerLayoutMode",
+      "valueType": "InnerLayoutMode",
+      "defaultValue": "none",
+      "description": ""
+    },
+    {
+      "attr": "onPostDeserialize",
+      "valueType": "Function",
+      "description": "",
+      "extraInfo": {
+        "arguments": [
+          "json",
+          "dm",
+          "gv",
+          "datas"
+        ],
+        "classify": "*"
+      }
+    },
+    {
+      "attr": "useOriginSize",
+      "valueType": "Boolean",
+      "defaultValue": false,
+      "extraInfo": "★"
+    },
+    {
+      "attr": "useInnerEventsAll",
+      "valueType": "Boolean",
+      "description": "",
+      "extraInfo": "*"
+    },
+    {
+      "attr": "isLoadingGet",
+      "valueType": "Boolean",
+      "defaultValue": true,
+      "description": "",
+      "extraInfo": "★"
+    },
+    {
+      "attr": "enableLoading",
+      "valueType": "Boolean",
+      "defaultValue": false,
+      "extraInfo": "*"
+    },
+    {
+      "attr": "pureFormValues",
+      "valueType": "Boolean"
+    },
+    {
+      "attr": "initialTrigger",
+      "valueType": "Boolean",
+      "defaultValue": false,
+      "extraInfo": "*"
+    },
+    {
+      "attr": "userData",
+      "valueType": "Object",
+      "defaultValue": []
+    },
+    {
+      "attr": "onDisplayLoaded",
+      "valueType": "Function",
+      "description": "",
+      "extraInfo": {
+        "arguments": [
+          "data",
+          "gv",
+          "cache"
+        ]
+      }
+    },
+    {
+      "attr": "onChange",
+      "valueType": "Function",
+      "extraInfo": {
+        "arguments": [
+          "data",
+          "gv",
+          "cache",
+          "value",
+          "extra"
+        ]
+      },
+      "description": "当前索引（index）发生变化时触发，即页面切换时。"
+    },
+    {
+      "attr": "shadowBorder",
+      "valueType": "NumberArray",
+      "defaultValue": [
+        0,
+        0,
+        8
+      ],
+      "group": "外观"
+    },
+    {
+      "attr": "shadowColor",
+      "valueType": "Color",
+      "defaultValue": "rgba(55,125,255,0.50)"
+    },
+    {
+      "attr": "shadowEnabled",
+      "valueType": "Boolean",
+      "defaultValue": true
+    },
+    {
+      "attr": "innerBackground",
+      "valueType": "Color"
+    },
+    {
+      "attr": "bindControlsTag",
+      "valueType": "StringArray",
+      "group": "连线"
+    },
+    {
+      "attr": "bindControlsAttr",
+      "valueType": "ObjectArray"
+    },
+    {
+      "attr": "bindControlsVal",
+      "valueType": "ObjectArray",
+      "description": ""
+    },
+    {
+      "attr": "paramControlTag",
+      "valueType": "StringArray"
+    },
+    {
+      "attr": "paramControlAttr",
+      "valueType": "ObjectArray"
+    },
+    {
+      "attr": "paramsGenerator",
+      "valueType": "Function",
+      "defaultValue": "__ht__function(data, controlVal, index, node,oldVal,form) {//绑定组索引对应的函数处理，用来动态生成复杂的参数变量传入\r\nswitch(index){\r\n    case 0:\r\n        break;\r\n    case 1:\r\n        break;\r\n    case 2:\r\n        break;\r\n    default:\r\n        break;\r\n}\r\n\r\nreturn controlVal;}",
+      "extraInfo": {
+        "arguments": [
+          "data",
+          "val",
+          "index",
+          "node",
+          "oldVal",
+          "form",
+          "type",
+          "inner"
+        ],
+        "classify": "*"
+      }
+    }
+  ],
+  "snapshotURL": "symbols\\develop\\uiotos\\arranged\\controls\\containers_icon\\TAB页签.json",
+  "renderHTML": "__ht__function(data, gv, cache) {return __tabView(data,gv,cache);}",
+  "width": 500,
+  "height": 300,
+  "fitSize": true,
+  "pixelPerfect": false,
+  "comps": []
+}

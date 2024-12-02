@@ -1,0 +1,1396 @@
+{
+    "v": "7.3.3",
+    "p": {
+        "autoAdjustIndex": true,
+        "hierarchicalRendering": true
+    },
+    "a": {
+        "rotateAsClock": true,
+        "gridBlockSize": 20,
+        "gridThickColor": "rgb(73,73,73)",
+        "gridLightColor": "rgb(58,58,58)",
+        "connectActionType": "host",
+        "fitContent": false,
+        "onPostDeserialize": "__ht__function(json, dm, gv, datas) {// // 禁止鼠标缩放\n// gv.handleScroll = function () {};\n// // 禁止 touch 下双指缩放\n// gv.handlePinch = function () {};\n// // 禁止平移\n// gv.setPannable(false);\n// 禁止框选\ngv.setRectSelectable(false);\n// 隐藏滚动条\ngv.setScrollBarVisible(false);\n// 禁止图元移动\ngv.setMovableFunc(function () {\nreturn false;\n});\n// 选中边框为0\ngv.getSelectWidth = function () {\nreturn 0;\n};}",
+        "rectSelectable": false,
+        "zoomable": false,
+        "pannable": false
+    },
+    "d": [{
+            "c": "ht.Node",
+            "i": 46371,
+            "p": {
+                "displayName": "节点",
+                "dataBindings": {
+                    "s": {
+                        "shape.background": {
+                            "id": "iotos.form",
+                            "alias": "",
+                            "func": "__ht__function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        console.error(err);\r\n        return rawData;\r\n    }\r\n}",
+                            "idinfo": "",
+                            "isTplBinded": false
+                        }
+                    }
+                },
+                "position": {
+                    "x": -1230.60632,
+                    "y": -540.2025
+                },
+                "width": 355.79206,
+                "height": 360.5542
+            },
+            "s": {
+                "shape": "rect",
+                "shape.background": null,
+                "shape.border.color": "rgb(19,44,98)",
+                "opacity": 0.75,
+                "label.position": 14,
+                "label.offset.x": -10,
+                "label.offset.y": 0,
+                "label.color": "rgb(61,61,61)",
+                "fullscreen": "fill",
+                "fullscreen.gap": 0,
+                "shape.fill.clip.percentage": 0
+            }
+        },
+        {
+            "c": "ht.Block",
+            "i": 46372,
+            "p": {
+                "displayName": "Login",
+                "toolTip": "已被布局，不允许拖动",
+                "tag": "0",
+                "host": {
+                    "__i": 46371
+                },
+                "position": {
+                    "x": -1652.60793,
+                    "y": -584.52252
+                },
+                "anchor": {
+                    "x": -0.68609,
+                    "y": 0.37708
+                },
+                "width": 355.79206,
+                "height": 360.5542
+            },
+            "s": {
+                "layout.h": "leftright",
+                "layout.v": "scale",
+                "label.opacity": 0,
+                "note.opacity": 0.5,
+                "2d.selectable": false,
+                "label.position": 14,
+                "label.offset.x": -10,
+                "label.offset.y": 0,
+                "label.color": "rgb(61,61,61)",
+                "2d.movable": false
+            }
+        },
+        {
+            "c": "ht.Text",
+            "i": 46373,
+            "p": {
+                "parent": {
+                    "__i": 46372
+                },
+                "position": {
+                    "x": -1230.60632,
+                    "y": -665.69385
+                },
+                "height": 53.717
+            },
+            "s": {
+                "text": "物联应用平台",
+                "text.align": "center",
+                "text.font": "28px arial, sans-serif",
+                "2d.visible": false,
+                "label.position": 14,
+                "label.offset.x": -10,
+                "label.offset.y": 0,
+                "label.color": "rgb(61,61,61)"
+            }
+        },
+        {
+            "c": "ht.Text",
+            "i": 46374,
+            "p": {
+                "parent": {
+                    "__i": 46372
+                },
+                "position": {
+                    "x": -1230.60632,
+                    "y": -700.87519
+                },
+                "width": 355.79206,
+                "height": 39.20882
+            },
+            "s": {
+                "text": "欢迎使用，请登录",
+                "text.font": "14px sans-serif, Arial",
+                "layout.h": "center",
+                "layout.v": "center",
+                "label.position": 14,
+                "label.offset.x": -10,
+                "label.offset.y": 0,
+                "label.color": "rgb(61,61,61)"
+            }
+        },
+        {
+            "c": "ht.Node",
+            "i": 46375,
+            "p": {
+                "displayName": "login",
+                "parent": {
+                    "__i": 46372
+                },
+                "tag": "login",
+                "dataBindings": {
+                    "a": {
+                        "userData": {
+                            "id": "iotos.form",
+                            "idinfo": "",
+                            "isTplBinded": false,
+                            "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+                        },
+                        "onFormClick": {
+                            "id": "iotos.form",
+                            "idinfo": "",
+                            "isTplBinded": false,
+                            "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+                        }
+                    }
+                },
+                "image": "symbols/develop/uiotos/base/button.json",
+                "position": {
+                    "x": -1230.60632,
+                    "y": -513.18714
+                },
+                "width": 355.79206,
+                "height": 40.37292
+            },
+            "s": {
+                "interactive": true,
+                "label.position": 14,
+                "label.offset.x": -10,
+                "label.offset.y": 0,
+                "label.color": "rgb(61,61,61)"
+            },
+            "a": {
+                "ht.text": "登录",
+                "ht.background": "rgb(51,153,255)",
+                "ht.borderRadius": "0",
+                "ht.borderWidth": 0,
+                "ht.iconPosition": "left",
+                "ht.iconHeight": 50,
+                "ht.iconWidth": 58,
+                "ht.font": "14px Microsoft YaHei",
+                "ht.disabled": false,
+                "ht.borderColor": null,
+                "ht.textColor": "rgb(247,247,247)",
+                "ht.onClick": "__ht__function(event, data, view) {let login_pwd = data.dm().getDataByTag('login_pwd')\r\nlet login_user = data.dm().getDataByTag('login_user')\r\ninputErrorHint({\r\n    node:[login_pwd,login_user],\r\n    timeout:500\r\n})}",
+                "bindControlsTag": [],
+                "bindControlsAttr": [],
+                "bindControlsVal": [],
+                "paramControlTag": [],
+                "paramControlAttr": []
+            }
+        },
+        {
+            "c": "ht.Node",
+            "i": 46376,
+            "p": {
+                "displayName": "input",
+                "parent": {
+                    "__i": 46372
+                },
+                "tag": "username",
+                "dataBindings": {
+                    "a": {
+                        "value": {
+                            "id": "iotos.form",
+                            "idinfo": "",
+                            "isTplBinded": false,
+                            "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+                        },
+                        "instantTrigger": {
+                            "id": "iotos.form",
+                            "idinfo": "",
+                            "isTplBinded": false,
+                            "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+                        },
+                        "onChange": {
+                            "id": "iotos.form",
+                            "idinfo": "",
+                            "isTplBinded": false,
+                            "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+                        }
+                    }
+                },
+                "image": "symbols/develop/uiotos/base/input-ui.json",
+                "position": {
+                    "x": -1230.60632,
+                    "y": -655.56301
+                },
+                "width": 354.32424,
+                "height": 35
+            },
+            "s": {
+                "label.position": 14,
+                "label.offset.x": -10,
+                "label.offset.y": 0,
+                "label.color": "rgb(61,61,61)",
+                "label": ""
+            },
+            "a": {
+                "iconPath": "symbols/demo/uiotos/icons/light/user.json",
+                "gap": 0,
+                "value": "hello",
+                "bindControlsTag": [],
+                "bindControlsAttr": [],
+                "bindControlsVal": [],
+                "paramControlTag": [],
+                "paramControlAttr": [],
+                "borderColor": "rgba(51,153,255,0.5)",
+                "background": null,
+                "activeReadOnlyBackground": null,
+                "labelColor": "rgb(247,247,247)",
+                "color": "rgb(247,247,247)",
+                "labelText": ""
+            }
+        },
+        {
+            "c": "ht.Node",
+            "i": 46377,
+            "p": {
+                "displayName": "register",
+                "parent": {
+                    "__i": 46372
+                },
+                "tag": "register",
+                "dataBindings": {
+                    "a": {
+                        "userData": {
+                            "id": "iotos.form",
+                            "idinfo": "",
+                            "isTplBinded": false,
+                            "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+                        },
+                        "onFormClick": {
+                            "id": "iotos.form",
+                            "idinfo": "",
+                            "isTplBinded": false,
+                            "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+                        }
+                    }
+                },
+                "image": "symbols/develop/uiotos/base/button.json",
+                "position": {
+                    "x": -1230.60632,
+                    "y": -441.99922
+                },
+                "width": 354.32424,
+                "height": 40.37292
+            },
+            "s": {
+                "interactive": true,
+                "label.position": 14,
+                "label.offset.x": -10,
+                "label.offset.y": 0,
+                "label.color": "rgb(61,61,61)"
+            },
+            "a": {
+                "ht.text": "注册",
+                "ht.background": "rgba(51,153,255,0)",
+                "ht.borderRadius": "0",
+                "ht.borderWidth": 1,
+                "ht.iconPosition": "left",
+                "ht.iconHeight": 50,
+                "ht.iconWidth": 58,
+                "ht.font": "14px Microsoft YaHei",
+                "ht.disabled": false,
+                "ht.borderColor": "rgb(51,153,255)",
+                "ht.textColor": "rgb(247,247,247)",
+                "ht.onClick": "__ht__function(event, data, view) {window.open('https://sys.aiotos.net/accounts/register/')\r\nreturn\r\ndata.dm().getDataByTag('0').s('2d.visible',false)\r\ndata.dm().getDataByTag('1').s('2d.visible',true)}"
+            }
+        },
+        {
+            "c": "ht.Text",
+            "i": 46378,
+            "p": {
+                "parent": {
+                    "__i": 46372
+                },
+                "position": {
+                    "x": -1126.31279,
+                    "y": -379.52981
+                },
+                "width": 141.17073,
+                "height": 39.20882
+            },
+            "s": {
+                "text": "忘记密码？点击找回",
+                "text.font": "14px sans-serif, Arial",
+                "layout.h": "center",
+                "layout.v": "center",
+                "text.align": "right",
+                "interactive": true,
+                "onEnter": "__ht__function(event, data, view) {\nview.getView().style.cursor = \"pointer\"\n}",
+                "onLeave": "__ht__function(event, data, view) {\nview.getView().style.cursor = \"default\"\n}",
+                "onUp": "__ht__function(event, data, view) {\nwindow.open('https://sys.aiotos.net/accounts/register/')\r\nreturn\r\ndata.dm().getDataByTag('0').s('2d.visible',false)\r\ndata.dm().getDataByTag('2').s('2d.visible',true)\n}",
+                "label.position": 14,
+                "label.offset.x": -10,
+                "label.offset.y": 0,
+                "label.color": "rgb(61,61,61)"
+            }
+        },
+        {
+            "c": "ht.Node",
+            "i": 46379,
+            "p": {
+                "displayName": "input",
+                "icon": "psw",
+                "parent": {
+                    "__i": 46372
+                },
+                "tag": "login_psw",
+                "dataBindings": {
+                    "a": {
+                        "value": {
+                            "id": "iotos.formValue",
+                            "idinfo": "",
+                            "isTplBinded": false,
+                            "func": "__ht__function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        console.error(err);\r\n        return rawData;\r\n    }\r\n}",
+                            "alias": ""
+                        },
+                        "instantTrigger": {
+                            "id": "iotos.form",
+                            "idinfo": "",
+                            "isTplBinded": false,
+                            "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+                        },
+                        "onChange": {
+                            "id": "iotos.form",
+                            "idinfo": "",
+                            "isTplBinded": false,
+                            "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+                        }
+                    }
+                },
+                "image": "symbols/develop/uiotos/base/input-ui.json",
+                "position": {
+                    "x": -1230.60632,
+                    "y": -584.37509
+                },
+                "width": 354.32424,
+                "height": 35
+            },
+            "s": {
+                "interactive": true,
+                "label": ""
+            },
+            "a": {
+                "background": "rgba(226,250,87,0)",
+                "borderWidth": 1,
+                "borderColor": "rgba(51,153,255,0.5)",
+                "radius": 0,
+                "placeholderText": "密码",
+                "color": "rgb(255,255,255)",
+                "password": true,
+                "value": "iotos123456",
+                "iconPath": "symbols/demo/uiotos/icons/light/lock.json",
+                "gap": 0,
+                "labelText": "",
+                "type": "password",
+                "fixedHeight": 35,
+                "bindControlsTag": [],
+                "bindControlsAttr": [],
+                "bindControlsVal": [],
+                "paramControlTag": [],
+                "paramControlAttr": []
+            }
+        },
+        {
+            "c": "ht.Block",
+            "i": 46380,
+            "p": {
+                "displayName": "Register",
+                "tag": "1",
+                "position": {
+                    "x": -453.31203,
+                    "y": -460.56106
+                },
+                "width": 359.28251,
+                "height": 395.85859,
+                "clickThroughEnabled": true
+            },
+            "s": {
+                "layout.h": "center",
+                "layout.v": "center",
+                "2d.visible": false,
+                "label.position": 14,
+                "label.offset.x": -10,
+                "label.offset.y": 0,
+                "label.color": "rgb(61,61,61)"
+            }
+        },
+        {
+            "c": "ht.Block",
+            "i": 46381,
+            "p": {
+                "parent": {
+                    "__i": 46380
+                },
+                "position": {
+                    "x": -465.57248,
+                    "y": -375.34013
+                },
+                "width": 334.76158,
+                "height": 50,
+                "clickThroughEnabled": true
+            },
+            "s": {
+                "2d.selectable": false,
+                "label.position": 14,
+                "label.offset.x": -10,
+                "label.offset.y": 0,
+                "label.color": "rgb(61,61,61)"
+            }
+        },
+        {
+            "c": "ht.Node",
+            "i": 46382,
+            "p": {
+                "displayName": "checkbox-label",
+                "parent": {
+                    "__i": 46381
+                },
+                "image": "symbols/develop/uiotos/base/checkBox-ui.json",
+                "position": {
+                    "x": -574.8005,
+                    "y": -375.34013
+                },
+                "width": 116.30556,
+                "height": 29.9413
+            },
+            "s": {
+                "layout.h": "center",
+                "layout.v": "center",
+                "image.stretch": "centerUniform",
+                "label.position": 14,
+                "label.offset.x": -10,
+                "label.offset.y": 0,
+                "label.color": "rgb(61,61,61)",
+                "label": "请勾选"
+            },
+            "a": {
+                "ht.borderColor": "rgb(51,153,255)",
+                "ht.activeBackground": "rgb(255,255,255)",
+                "ht.iconColor": "rgb(51,153,255)",
+                "ht.label": " ",
+                "ht.group": "ckecked",
+                "ht.value": "accepted"
+            }
+        },
+        {
+            "c": "ht.Block",
+            "i": 46383,
+            "p": {
+                "parent": {
+                    "__i": 46381
+                },
+                "position": {
+                    "x": -451.1069,
+                    "y": -375.34013
+                },
+                "width": 305.83042,
+                "height": 50,
+                "clickThroughEnabled": true
+            },
+            "s": {
+                "label.position": 14,
+                "label.offset.x": -10,
+                "label.offset.y": 0,
+                "label.color": "rgb(61,61,61)"
+            }
+        },
+        {
+            "c": "ht.Text",
+            "i": 46384,
+            "p": {
+                "parent": {
+                    "__i": 46383
+                },
+                "position": {
+                    "x": -554.66179,
+                    "y": -375.34013
+                },
+                "width": 98.72065
+            },
+            "s": {
+                "text": "我已经阅读并同意",
+                "text.font": "14px sans-serif, Arial",
+                "label.position": 14,
+                "label.offset.x": -10,
+                "label.offset.y": 0,
+                "label.color": "rgb(61,61,61)"
+            }
+        },
+        {
+            "c": "ht.Node",
+            "i": 46385,
+            "p": {
+                "displayName": "aText",
+                "parent": {
+                    "__i": 46383
+                },
+                "image": "symbols/develop/uiotos/base/label_ui.json",
+                "position": {
+                    "x": -438.95421,
+                    "y": -375.34013
+                },
+                "width": 100,
+                "height": 20
+            },
+            "s": {
+                "image.stretch": "uniform",
+                "label.position": 14,
+                "label.offset.x": -10,
+                "label.offset.y": 0,
+                "label.color": "rgb(51,153,255)"
+            },
+            "a": {
+                "font": "14px Microsoft YaHei",
+                "text": "服务条款",
+                "lineLength": 60,
+                "color": "rgb(51,153,255)"
+            }
+        },
+        {
+            "c": "ht.Node",
+            "i": 46386,
+            "p": {
+                "displayName": "aText",
+                "parent": {
+                    "__i": 46383
+                },
+                "image": "symbols/develop/uiotos/base/label_ui.json",
+                "position": {
+                    "x": -348.19169,
+                    "y": -375.34013
+                },
+                "width": 100,
+                "height": 20
+            },
+            "s": {
+                "image.stretch": "uniform",
+                "label.position": 14,
+                "label.offset.x": -10,
+                "label.offset.y": 0,
+                "label.color": "rgb(51,153,255)"
+            },
+            "a": {
+                "font": "14px Microsoft YaHei",
+                "text": "法律申明",
+                "lineLength": 60,
+                "color": "rgb(51,153,255)"
+            }
+        },
+        {
+            "c": "ht.Text",
+            "i": 46387,
+            "p": {
+                "parent": {
+                    "__i": 46383
+                },
+                "position": {
+                    "x": -411.30205,
+                    "y": -375.34013
+                },
+                "width": 35.30131
+            },
+            "s": {
+                "text": "以及",
+                "text.font": "14px sans-serif, Arial",
+                "label.position": 14,
+                "label.offset.x": -10,
+                "label.offset.y": 0,
+                "label.color": "rgb(61,61,61)"
+            }
+        },
+        {
+            "c": "ht.Node",
+            "i": 46388,
+            "p": {
+                "displayName": "input",
+                "parent": {
+                    "__i": 46380
+                },
+                "tag": "reg_user",
+                "image": "symbols/develop/uiotos/base/input-ui.json",
+                "position": {
+                    "x": -454.4146,
+                    "y": -591.70058
+                },
+                "width": 357.07738,
+                "height": 30
+            },
+            "s": {
+                "interactive": true,
+                "label": "标签",
+                "label.position": 14,
+                "label.offset.x": -10,
+                "label.offset.y": 0,
+                "label.color": "rgb(255,255,255)"
+            },
+            "a": {
+                "background": "rgba(226,250,87,0)",
+                "borderWidth": 1,
+                "borderColor": "rgba(51,153,255,0.5)",
+                "radius": 0,
+                "placeholderText": "用户名",
+                "color": "rgb(255,255,255)"
+            }
+        },
+        {
+            "c": "ht.Node",
+            "i": 46389,
+            "p": {
+                "displayName": "input",
+                "parent": {
+                    "__i": 46380
+                },
+                "tag": "reg_email",
+                "image": "symbols/develop/uiotos/base/input-ui.json",
+                "position": {
+                    "x": -454.4146,
+                    "y": -535.60998
+                },
+                "width": 357.07738,
+                "height": 30
+            },
+            "s": {
+                "interactive": true,
+                "label": "标签",
+                "label.position": 14,
+                "label.offset.x": -10,
+                "label.offset.y": 0,
+                "label.color": "rgb(255,255,255)"
+            },
+            "a": {
+                "background": "rgba(226,250,87,0)",
+                "borderWidth": 1,
+                "borderColor": "rgba(51,153,255,0.5)",
+                "radius": 0,
+                "placeholderText": "邮箱",
+                "color": "rgb(255,255,255)"
+            }
+        },
+        {
+            "c": "ht.Text",
+            "i": 46390,
+            "p": {
+                "parent": {
+                    "__i": 46380
+                },
+                "position": {
+                    "x": -453.31203,
+                    "y": -639.63954
+                },
+                "width": 359.28251,
+                "height": 37.70164
+            },
+            "s": {
+                "text": "账号注册",
+                "text.font": "14px sans-serif, Arial",
+                "layout.h": "center",
+                "layout.v": "center",
+                "label.position": 14,
+                "label.offset.x": -10,
+                "label.offset.y": 0,
+                "label.color": "rgb(61,61,61)"
+            }
+        },
+        {
+            "c": "ht.Node",
+            "i": 46391,
+            "p": {
+                "displayName": "注册",
+                "parent": {
+                    "__i": 46380
+                },
+                "tag": "register",
+                "dataBindings": {
+                    "a": {
+                        "userData": {
+                            "id": "iotos.form",
+                            "idinfo": "",
+                            "isTplBinded": false,
+                            "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+                        },
+                        "onFormClick": {
+                            "id": "iotos.form",
+                            "idinfo": "",
+                            "isTplBinded": false,
+                            "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+                        }
+                    }
+                },
+                "image": "symbols/develop/uiotos/base/button.json",
+                "position": {
+                    "x": -454.4146,
+                    "y": -328.34013
+                },
+                "width": 357.07738,
+                "height": 30
+            },
+            "s": {
+                "interactive": true,
+                "layout.h": "center",
+                "layout.v": "center",
+                "label.position": 14,
+                "label.offset.x": -10,
+                "label.offset.y": 0,
+                "label.color": "rgb(61,61,61)"
+            },
+            "a": {
+                "ht.text": "注册",
+                "ht.background": "rgb(51,153,255)",
+                "ht.borderRadius": "0",
+                "ht.borderWidth": 0,
+                "ht.iconPosition": "left",
+                "ht.iconHeight": 50,
+                "ht.iconWidth": 58,
+                "ht.font": "14px Microsoft YaHei",
+                "ht.disabled": false,
+                "ht.borderColor": null,
+                "ht.textColor": "rgb(247,247,247)"
+            }
+        },
+        {
+            "c": "ht.Node",
+            "i": 46392,
+            "p": {
+                "displayName": "button",
+                "parent": {
+                    "__i": 46380
+                },
+                "dataBindings": {
+                    "a": {
+                        "userData": {
+                            "id": "iotos.form",
+                            "idinfo": "",
+                            "isTplBinded": false,
+                            "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+                        },
+                        "onFormClick": {
+                            "id": "iotos.form",
+                            "idinfo": "",
+                            "isTplBinded": false,
+                            "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+                        }
+                    }
+                },
+                "image": "symbols/develop/uiotos/base/button.json",
+                "position": {
+                    "x": -454.4146,
+                    "y": -277.63178
+                },
+                "width": 357.07738,
+                "height": 30
+            },
+            "s": {
+                "interactive": true,
+                "layout.h": "center",
+                "layout.v": "center",
+                "label.position": 14,
+                "label.offset.x": -10,
+                "label.offset.y": 0,
+                "label.color": "rgb(61,61,61)"
+            },
+            "a": {
+                "ht.text": "登录",
+                "ht.background": "rgba(51,153,255,0)",
+                "ht.onClick": "__ht__function(event, data, view) {data.dm().getDataByTag('0').s('2d.visible',true)\ndata.dm().getDataByTag('1').s('2d.visible',false)}",
+                "ht.borderRadius": "0",
+                "ht.borderWidth": 1,
+                "ht.iconPosition": "left",
+                "ht.iconHeight": 50,
+                "ht.iconWidth": 58,
+                "ht.font": "14px Microsoft YaHei",
+                "ht.disabled": false,
+                "ht.borderColor": "rgb(51,153,255)",
+                "ht.textColor": "rgb(247,247,247)"
+            }
+        },
+        {
+            "c": "ht.Node",
+            "i": 46393,
+            "p": {
+                "displayName": "input",
+                "parent": {
+                    "__i": 46380
+                },
+                "tag": "reg_psw",
+                "image": "symbols/develop/uiotos/base/input-ui.json",
+                "position": {
+                    "x": -454.4146,
+                    "y": -479.51938
+                },
+                "width": 357.07738,
+                "height": 30
+            },
+            "s": {
+                "interactive": true,
+                "label": "标签",
+                "label.position": 14,
+                "label.offset.x": -10,
+                "label.offset.y": 0,
+                "label.color": "rgb(255,255,255)"
+            },
+            "a": {
+                "background": "rgba(226,250,87,0)",
+                "borderWidth": 1,
+                "borderColor": "rgba(51,153,255,0.5)",
+                "radius": 0,
+                "placeholderText": "密码",
+                "color": "rgb(255,255,255)"
+            }
+        },
+        {
+            "c": "ht.Node",
+            "i": 46394,
+            "p": {
+                "displayName": "input",
+                "parent": {
+                    "__i": 46380
+                },
+                "tag": "reg_psw2",
+                "image": "symbols/develop/uiotos/base/input-ui.json",
+                "position": {
+                    "x": -454.4146,
+                    "y": -423.42879
+                },
+                "width": 357.07738,
+                "height": 30
+            },
+            "s": {
+                "interactive": true,
+                "label": "标签",
+                "label.position": 14,
+                "label.offset.x": -10,
+                "label.offset.y": 0,
+                "label.color": "rgb(255,255,255)"
+            },
+            "a": {
+                "background": "rgba(226,250,87,0)",
+                "borderWidth": 1,
+                "borderColor": "rgba(51,153,255,0.5)",
+                "radius": 0,
+                "placeholderText": "再输一次密码",
+                "color": "rgb(255,255,255)"
+            }
+        },
+        {
+            "c": "ht.Block",
+            "i": 46395,
+            "p": {
+                "displayName": "Forget",
+                "tag": "2",
+                "position": {
+                    "x": -453.67956,
+                    "y": -515.26324
+                },
+                "width": 358.18385,
+                "height": 301.77285,
+                "clickThroughEnabled": true
+            },
+            "s": {
+                "layout.h": "center",
+                "layout.v": "center",
+                "2d.visible": false,
+                "label.position": 14,
+                "label.offset.x": -10,
+                "label.offset.y": 0,
+                "label.color": "rgb(61,61,61)"
+            }
+        },
+        {
+            "c": "ht.Node",
+            "i": 46396,
+            "p": {
+                "displayName": "textBox",
+                "parent": {
+                    "__i": 46395
+                },
+                "image": "symbols/develop/uiotos/base/label_ui.json",
+                "position": {
+                    "x": -452.577,
+                    "y": -622.80315
+                },
+                "width": 355.97873,
+                "height": 86.69304
+            },
+            "s": {
+                "layout.h": "center",
+                "layout.v": "center",
+                "label.position": 14,
+                "label.offset.x": -10,
+                "label.offset.y": 0,
+                "label.color": "rgb(61,61,61)"
+            },
+            "a": {
+                "ht.content": "填写完下面的信息之后，请点击发送按钮。我们会向您的注册邮箱发送一封邮件。邮件里有验证码。如果您不能访问邮箱，请联系我们的客服。",
+                "ht.color": "rgb(247,247,247)",
+                "ht.borderWidth": 0
+            }
+        },
+        {
+            "c": "ht.Node",
+            "i": 46397,
+            "p": {
+                "displayName": "button",
+                "parent": {
+                    "__i": 46395
+                },
+                "image": "symbols/develop/uiotos/base/button.json",
+                "position": {
+                    "x": -453.13024,
+                    "y": -495.57702
+                },
+                "width": 354.87226,
+                "height": 30
+            },
+            "s": {
+                "interactive": true,
+                "layout.h": "center",
+                "layout.v": "center",
+                "label.position": 14,
+                "label.offset.x": -10,
+                "label.offset.y": 0,
+                "label.color": "rgb(61,61,61)"
+            },
+            "a": {
+                "ht.text": "发送",
+                "ht.background": "rgb(51,153,255)",
+                "ht.borderRadius": "0",
+                "ht.borderWidth": 0,
+                "ht.iconPosition": "left",
+                "ht.iconHeight": 50,
+                "ht.iconWidth": 58,
+                "ht.font": "14px Microsoft YaHei",
+                "ht.disabled": false,
+                "ht.borderColor": null,
+                "ht.textColor": "rgb(247,247,247)"
+            }
+        },
+        {
+            "c": "ht.Node",
+            "i": 46398,
+            "p": {
+                "displayName": "button",
+                "parent": {
+                    "__i": 46395
+                },
+                "image": "symbols/develop/uiotos/base/button.json",
+                "position": {
+                    "x": -453.13024,
+                    "y": -437.47692
+                },
+                "width": 354.87226,
+                "height": 30
+            },
+            "s": {
+                "interactive": true,
+                "layout.h": "center",
+                "layout.v": "center",
+                "label.position": 14,
+                "label.offset.x": -10,
+                "label.offset.y": 0,
+                "label.color": "rgb(61,61,61)"
+            },
+            "a": {
+                "ht.text": "更改您的密码",
+                "ht.background": "rgba(51,153,255,0)",
+                "ht.onClick": "__ht__function(event, data, view) {data.dm().getDataByTag('2').s('2d.visible',false)\ndata.dm().getDataByTag('3').s('2d.visible',true)}",
+                "ht.borderRadius": "0",
+                "ht.borderWidth": 1,
+                "ht.iconPosition": "left",
+                "ht.iconHeight": 50,
+                "ht.iconWidth": 58,
+                "ht.font": "14px Microsoft YaHei",
+                "ht.disabled": false,
+                "ht.borderColor": "rgb(51,153,255)",
+                "ht.textColor": "rgb(247,247,247)"
+            }
+        },
+        {
+            "c": "ht.Node",
+            "i": 46399,
+            "p": {
+                "displayName": "input",
+                "parent": {
+                    "__i": 46395
+                },
+                "tag": "forget_email",
+                "image": "symbols/develop/uiotos/base/input-ui.json",
+                "position": {
+                    "x": -454.2328,
+                    "y": -553.6771
+                },
+                "width": 357.07738,
+                "height": 30
+            },
+            "s": {
+                "interactive": true,
+                "label": "标签",
+                "label.position": 14,
+                "label.offset.x": -10,
+                "label.offset.y": 0,
+                "label.color": "rgb(255,255,255)"
+            },
+            "a": {
+                "background": "rgba(226,250,87,0)",
+                "borderWidth": 1,
+                "borderColor": "rgba(51,153,255,0.5)",
+                "radius": 0,
+                "placeholderText": "用户名或邮箱",
+                "color": "rgb(255,255,255)"
+            }
+        },
+        {
+            "c": "ht.Node",
+            "i": 46400,
+            "p": {
+                "displayName": "button",
+                "parent": {
+                    "__i": 46395
+                },
+                "image": "symbols/develop/uiotos/base/button.json",
+                "position": {
+                    "x": -452.577,
+                    "y": -379.37683
+                },
+                "width": 354.87226,
+                "height": 30
+            },
+            "s": {
+                "interactive": true,
+                "layout.h": "center",
+                "layout.v": "center",
+                "label.position": 14,
+                "label.offset.x": -10,
+                "label.offset.y": 0,
+                "label.color": "rgb(61,61,61)"
+            },
+            "a": {
+                "ht.text": "登录",
+                "ht.background": "rgba(51,153,255,0)",
+                "ht.onClick": "__ht__function(event, data, view) {data.dm().getDataByTag('2').s('2d.visible',false)\ndata.dm().getDataByTag('0').s('2d.visible',true)}",
+                "ht.borderRadius": "0",
+                "ht.borderWidth": 1,
+                "ht.iconPosition": "left",
+                "ht.iconHeight": 50,
+                "ht.iconWidth": 58,
+                "ht.font": "14px Microsoft YaHei",
+                "ht.disabled": false,
+                "ht.borderColor": "rgb(51,153,255)",
+                "ht.textColor": "rgb(247,247,247)"
+            }
+        },
+        {
+            "c": "ht.Block",
+            "i": 46401,
+            "p": {
+                "displayName": "Alter",
+                "toolTip": "scenes/3D.json",
+                "tag": "3",
+                "position": {
+                    "x": -453.12827,
+                    "y": -485.61924
+                },
+                "width": 360.38508,
+                "height": 345.74224,
+                "clickThroughEnabled": true
+            },
+            "s": {
+                "layout.h": "center",
+                "layout.v": "center",
+                "2d.visible": false,
+                "label.position": 14,
+                "label.offset.x": -10,
+                "label.offset.y": 0,
+                "label.color": "rgb(61,61,61)"
+            }
+        },
+        {
+            "c": "ht.Node",
+            "i": 46402,
+            "p": {
+                "displayName": "input",
+                "parent": {
+                    "__i": 46401
+                },
+                "tag": "alter_check",
+                "image": "symbols/develop/uiotos/base/input-ui.json",
+                "position": {
+                    "x": -454.78213,
+                    "y": -605.78873
+                },
+                "width": 357.07738,
+                "height": 30
+            },
+            "s": {
+                "interactive": true,
+                "label": "标签",
+                "label.position": 14,
+                "label.offset.x": -10,
+                "label.offset.y": 0,
+                "label.color": "rgb(255,255,255)"
+            },
+            "a": {
+                "background": "rgba(226,250,87,0)",
+                "borderWidth": 1,
+                "borderColor": "rgba(51,153,255,0.5)",
+                "radius": 0,
+                "placeholderText": "输入您的验证码",
+                "color": "rgb(255,255,255)"
+            }
+        },
+        {
+            "c": "ht.Node",
+            "i": 46403,
+            "p": {
+                "displayName": "textBox",
+                "parent": {
+                    "__i": 46401
+                },
+                "image": "symbols/develop/uiotos/base/label_ui.json",
+                "position": {
+                    "x": -454.2289,
+                    "y": -554.84028
+                },
+                "width": 355.97873,
+                "height": 52.38342
+            },
+            "s": {
+                "layout.h": "center",
+                "layout.v": "center",
+                "label.position": 14,
+                "label.offset.x": -10,
+                "label.offset.y": 0,
+                "label.color": "rgb(61,61,61)"
+            },
+            "a": {
+                "ht.content": "为了安全考虑，您需要一个验证码才能更改密码。如果没有验证码， 请点击下方“重新发送验证码”。",
+                "ht.color": "rgb(247,247,247)",
+                "ht.borderWidth": 0
+            }
+        },
+        {
+            "c": "ht.Text",
+            "i": 46404,
+            "p": {
+                "parent": {
+                    "__i": 46401
+                },
+                "position": {
+                    "x": -452.577,
+                    "y": -639.63954
+                },
+                "width": 359.28251,
+                "height": 37.70164
+            },
+            "s": {
+                "text": "修改密码",
+                "text.font": "14px sans-serif, Arial",
+                "layout.h": "center",
+                "layout.v": "center",
+                "label.position": 14,
+                "label.offset.x": -10,
+                "label.offset.y": 0,
+                "label.color": "rgb(61,61,61)"
+            }
+        },
+        {
+            "c": "ht.Node",
+            "i": 46405,
+            "p": {
+                "displayName": "button",
+                "parent": {
+                    "__i": 46401
+                },
+                "tag": "alter",
+                "image": "symbols/develop/uiotos/base/button.json",
+                "position": {
+                    "x": -454.78213,
+                    "y": -385.37183
+                },
+                "width": 354.87226,
+                "height": 30
+            },
+            "s": {
+                "interactive": true,
+                "layout.h": "center",
+                "layout.v": "center",
+                "label.position": 14,
+                "label.offset.x": -10,
+                "label.offset.y": 0,
+                "label.color": "rgb(61,61,61)"
+            },
+            "a": {
+                "ht.text": "更新密码",
+                "ht.background": "rgb(51,153,255)",
+                "ht.borderRadius": "0",
+                "ht.borderWidth": 0,
+                "ht.iconPosition": "left",
+                "ht.iconHeight": 50,
+                "ht.iconWidth": 58,
+                "ht.font": "14px Microsoft YaHei",
+                "ht.disabled": false,
+                "ht.borderColor": null,
+                "ht.textColor": "rgb(247,247,247)"
+            }
+        },
+        {
+            "c": "ht.Node",
+            "i": 46406,
+            "p": {
+                "displayName": "button",
+                "parent": {
+                    "__i": 46401
+                },
+                "image": "symbols/develop/uiotos/base/button.json",
+                "position": {
+                    "x": -454.78213,
+                    "y": -327.74813
+                },
+                "width": 354.87226,
+                "height": 30
+            },
+            "s": {
+                "interactive": true,
+                "layout.h": "center",
+                "layout.v": "center",
+                "label.position": 14,
+                "label.offset.x": -10,
+                "label.offset.y": 0,
+                "label.color": "rgb(61,61,61)"
+            },
+            "a": {
+                "ht.text": "重新发送验证码",
+                "ht.background": "rgba(51,153,255,0)",
+                "ht.onClick": "__ht__function(event, data, view) {data.dm().getDataByTag('2').s('2d.visible',true)\ndata.dm().getDataByTag('3').s('2d.visible',false)}",
+                "ht.borderRadius": "0",
+                "ht.borderWidth": 1,
+                "ht.iconPosition": "left",
+                "ht.iconHeight": 50,
+                "ht.iconWidth": 58,
+                "ht.font": "14px Microsoft YaHei",
+                "ht.disabled": false,
+                "ht.borderColor": "rgb(51,153,255)",
+                "ht.textColor": "rgb(247,247,247)"
+            }
+        },
+        {
+            "c": "ht.Node",
+            "i": 46407,
+            "p": {
+                "displayName": "input",
+                "parent": {
+                    "__i": 46401
+                },
+                "tag": "alter_psw",
+                "image": "symbols/develop/uiotos/base/input-ui.json",
+                "position": {
+                    "x": -454.78211,
+                    "y": -500.61924
+                },
+                "width": 354.87224,
+                "height": 30
+            },
+            "s": {
+                "interactive": true,
+                "label": "标签",
+                "label.position": 14,
+                "label.offset.x": -10,
+                "label.offset.y": 0,
+                "label.color": "rgb(255,255,255)"
+            },
+            "a": {
+                "background": "rgba(226,250,87,0)",
+                "borderWidth": 1,
+                "borderColor": "rgba(51,153,255,0.5)",
+                "radius": 0,
+                "placeholderText": "密码",
+                "color": "rgb(255,255,255)"
+            }
+        },
+        {
+            "c": "ht.Node",
+            "i": 46408,
+            "p": {
+                "displayName": "input",
+                "parent": {
+                    "__i": 46401
+                },
+                "tag": "alter_psw2",
+                "image": "symbols/develop/uiotos/base/input-ui.json",
+                "position": {
+                    "x": -454.78213,
+                    "y": -442.99552
+                },
+                "width": 354.87226,
+                "height": 30
+            },
+            "s": {
+                "interactive": true,
+                "label": "标签",
+                "label.position": 14,
+                "label.offset.x": -10,
+                "label.offset.y": 0,
+                "label.color": "rgb(255,255,255)"
+            },
+            "a": {
+                "background": "rgba(226,250,87,0)",
+                "borderWidth": 1,
+                "borderColor": "rgba(51,153,255,0.5)",
+                "radius": 0,
+                "placeholderText": "请再输入一次密码",
+                "color": "rgb(255,255,255)"
+            }
+        },
+        {
+            "c": "ht.Block",
+            "i": 46409,
+            "p": {
+                "position": {
+                    "x": -1390.57897,
+                    "y": -726.0394
+                },
+                "anchor": {
+                    "x": 0.62798,
+                    "y": -1.79832
+                },
+                "width": 140.04829,
+                "height": 147.55488
+            },
+            "s": {
+                "layout.v": "center",
+                "layout.h": "left",
+                "2d.selectable": false,
+                "label.position": 14,
+                "label.offset.x": -10,
+                "label.offset.y": 0,
+                "label.color": "rgb(61,61,61)"
+            }
+        }
+    ],
+    "modified": "Sat Mar 18 2023 11:24:00 GMT+0800 (中国标准时间)",
+    "contentRect": {
+        "x": -1478.5265,
+        "y": -720.4803,
+        "width": 427.81621,
+        "height": 407.34667
+    }
+}

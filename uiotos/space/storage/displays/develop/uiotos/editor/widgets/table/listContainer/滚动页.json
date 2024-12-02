@@ -1,0 +1,72 @@
+{
+  "v": "7.7.2",
+  "p": {
+    "background": "#20252e",
+    "autoAdjustIndex": true,
+    "hierarchicalRendering": true
+  },
+  "a": {
+    "rotateAsClock": false,
+    "gridBlockSize": 20,
+    "connectActionType": null,
+    "fitContent": false,
+    "zoomable": false,
+    "rectSelectable": false,
+    "pannable": false,
+    "lastBase": {
+      "__i": 1288202
+    }
+  },
+  "d": [
+    {
+      "c": "ht.Node",
+      "i": 1288101,
+      "p": {
+        "name": "gv",
+        "displayName": "嵌套容器（gv1）",
+        "tag": "gv1",
+        "dataBindings": {
+          "a": {
+            "display": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "innerLayoutMode": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            }
+          }
+        },
+        "image": "symbols/develop/uiotos/base/graphView.json",
+        "position": {
+          "x": 1135.05562,
+          "y": 439.72806
+        },
+        "width": 1383.3869,
+        "height": 719.55501
+      },
+      "s": {
+        "label.opacity": 0,
+        "label.position": 14,
+        "label.offset.x": -10,
+        "label.offset.y": 0,
+        "label.color": "rgb(61,61,61)",
+        "interactive": true,
+        "image.stretch": "uniform",
+        "fullscreen": "fill",
+        "fullscreen.gap": 0
+      }
+    }
+  ],
+  "modified": "Wed Nov 08 2023 11:09:29 GMT+0800 (中国标准时间)",
+  "contentRect": {
+    "x": 416.68835,
+    "y": 79.95056,
+    "width": 1410.06073,
+    "height": 719.55501
+  }
+}

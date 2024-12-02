@@ -1,0 +1,48 @@
+{
+  "modified": "Mon Oct 03 2022 12:26:37 GMT+0800 (中国标准时间)",
+  "background": "rgb(32,37,46)",
+  "dataBindings": [
+    {
+      "attr": "displayUrl",
+      "valueType": "String"
+    },
+    {
+      "attr": "outputLog",
+      "valueType": "Multiline"
+    },
+    {
+      "attr": "background",
+      "valueType": "Color"
+    },
+    {
+      "attr": "borderWidth",
+      "valueType": "PositiveNumber"
+    }
+  ],
+  "renderHTML": "__ht__function(data, gv, cache) {if (!cache.obj) {\r\n\r\n    function init(){\r\n        var dataModel = new ht.DataModel();\r\n        var splitView = new ht.widget.SplitView(dataModel);\r\n        return splitView;                \r\n    }\r\n    var obj = cache.obj = init()\r\n\r\n    obj.layoutHTML = function () {\r\n        gv.layoutHTML(data, obj, false);\r\n    }\r\n}\r\n\r\nfunction clear(){\r\n    var graphView = cache.obj\r\n    graphView.dm().clear()\r\n    graphView.reset()\r\n}\r\n\r\nvar urltmp = data.a('displayUrl')\r\nif(urltmp != undefined && urltmp != ''){\r\n    if(!cache.url || cache.url != urltmp){\r\n        clear()\r\n        cache.url = urltmp\r\n        var graphView = cache.obj\r\n        const loadCb = (json) => {\r\n            if (json) {\r\n                graphView.deserialize(\r\n                    urltmp,\r\n                    function(json, dm, gv, datas) {\r\n                \r\n                        //图纸加载完毕！\r\n                        data.a('outputLog',JSON.stringify(json))\r\n                        \r\n                    }\r\n                );\r\n            } else {\r\n                data.a('outputLog','加载失败：' + urltmp)\r\n            }\r\n        };\r\n        ht.Default.xhrLoad(urltmp, loadCb);\r\n    }\r\n}else{\r\n    clear()\r\n    data.a('outputLog','')\r\n}\r\n\r\nreturn cache.obj;}",
+  "width": 100,
+  "height": 100,
+  "fitSize": true,
+  "pixelPerfect": false,
+  "comps": [
+    {
+      "type": "rect",
+      "background": {
+        "func": "attr@background",
+        "value": null
+      },
+      "borderWidth": {
+        "func": "attr@borderWidth",
+        "value": 1
+      },
+      "borderColor": "rgb(55,125,255)",
+      "borderWidthAbsolute": true,
+      "rect": [
+        0,
+        0,
+        100,
+        100
+      ]
+    }
+  ]
+}

@@ -1,0 +1,269 @@
+{
+    "v": "7.3.2",
+    "p": {
+        "background": "#20252e",
+        "autoAdjustIndex": true,
+        "hierarchicalRendering": true
+    },
+    "a": {
+        "rotateAsClock": false,
+        "gridBlockSize": 20,
+        "gridThickColor": "rgba(100,100,100,0.2)",
+        "gridLightColor": "rgba(127,127,127,0.1)",
+        "connectActionType": null,
+        "fitContent": true
+    },
+    "d": [{
+            "c": "ht.Node",
+            "i": 300117,
+            "p": {
+                "displayName": "treeTable-ui",
+                "tag": "treeTable-ui1",
+                "image": "symbols/develop/uiotos/base/treeTable-ui.json",
+                "position": {
+                    "x": 236.20415,
+                    "y": 120.99566
+                },
+                "width": 559.21969,
+                "height": 238.16522
+            },
+            "s": {
+                "interactive": true,
+                "image.stretch": "uniform"
+            },
+            "a": {
+                "lastItems": [],
+                "columns": [{
+                        "displayName": "序号"
+                    },
+                    {
+                        "displayName": "工程名称"
+                    },
+                    {
+                        "displayName": "卫星图",
+                        "drawCell": {
+                            "width": 25,
+                            "height": null
+                        }
+                    }
+                ],
+                "columnWidths": [
+                    75,
+                    200, -1
+                ],
+                "datas": [{
+                        "rowData": [
+                            "济莱高铁", [{
+                                    "type": "image",
+                                    "icon": "symbols/demo/uiotos/icons/light/address-book.json"
+                                },
+                                {
+                                    "type": "image",
+                                    "icon": "symbols/demo/uiotos/icons/light/amp-guitar.json"
+                                }
+                            ]
+                        ],
+                        "children": [{
+                            "rowData": [
+                                "23891212", [{
+                                        "type": "image",
+                                        "icon": "symbols/demo/uiotos/icons/light/ambulance.json"
+                                    },
+                                    {
+                                        "type": "image",
+                                        "icon": "symbols/demo/uiotos/icons/light/american-sign-language-interpreting.json"
+                                    },
+                                    {
+                                        "type": "image",
+                                        "icon": "symbols/demo/uiotos/icons/light/american-sign-language-interpreting.json"
+                                    },
+                                    {
+                                        "type": "image",
+                                        "icon": "symbols/demo/uiotos/icons/light/american-sign-language-interpreting.json"
+                                    }
+                                ]
+                            ],
+                            "children": [
+                                [
+                                    "23891212", [{
+                                            "type": "image",
+                                            "icon": "assets/demo/fcj/403db210783cba7d2720ac2852122342.png"
+                                        },
+                                        {
+                                            "type": "image",
+                                            "icon": "symbols/demo/uiotos/icons/light/address-book.json"
+                                        }
+                                    ]
+                                ],
+                                [
+                                    "23891212", [{
+                                            "type": "image",
+                                            "icon": "symbols/demo/uiotos/icons/light/amp-guitar.json"
+                                        },
+                                        {
+                                            "type": "image",
+                                            "icon": "symbols/demo/uiotos/icons/light/amp-guitar.json"
+                                        },
+                                        {
+                                            "type": "image",
+                                            "icon": "symbols/demo/uiotos/icons/light/amp-guitar.json"
+                                        },
+                                        {
+                                            "type": "image",
+                                            "icon": "symbols/demo/uiotos/icons/light/amp-guitar.json"
+                                        },
+                                        {
+                                            "type": "image",
+                                            "icon": "symbols/demo/uiotos/icons/light/american-sign-language-interpreting.json"
+                                        },
+                                        {
+                                            "type": "image",
+                                            "icon": "symbols/demo/uiotos/icons/light/american-sign-language-interpreting.json"
+                                        },
+                                        {
+                                            "type": "image",
+                                            "icon": "symbols/demo/uiotos/icons/light/american-sign-language-interpreting.json"
+                                        }
+                                    ]
+                                ]
+                            ]
+                        }]
+                    },
+                    [
+                        "石济客专", [{
+                                "type": "image",
+                                "icon": "assets/demo/fcj/403db210783cba7d2720ac2852122342.png"
+                            },
+                            {
+                                "type": "image",
+                                "icon": "symbols/demo/uiotos/icons/light/address-book.json"
+                            }
+                        ]
+                    ]
+                ],
+                "idColumnVisible": false,
+                "centerAlign": true,
+                "pagesBottomVisible": false
+            }
+        },
+        {
+            "c": "ht.Node",
+            "i": 300118,
+            "p": {
+                "displayName": "treeTable-ui",
+                "tag": "treeTable-ui2",
+                "image": "symbols/develop/uiotos/base/treeTable-ui.json",
+                "position": {
+                    "x": 729.88738,
+                    "y": 121.18566
+                },
+                "width": 282.62009,
+                "height": 238.54522
+            },
+            "s": {
+                "interactive": true,
+                "image.stretch": "uniform"
+            },
+            "a": {
+                "lastItems": [],
+                "columns": [{
+                        "displayName": "序号"
+                    },
+                    {
+                        "displayName": "工程名称"
+                    },
+                    {
+                        "displayName": "卫星图",
+                        "drawCell": {
+                            "width": 25,
+                            "height": null
+                        }
+                    }
+                ],
+                "columnWidths": [
+                    75,
+                    100, -1
+                ],
+                "datas": [{
+                        "rowData": [
+                            "济莱高铁"
+                        ],
+                        "children": [
+                            [
+                                "卫星图组1", [{
+                                        "type": "image",
+                                        "icon": "symbols/demo/uiotos/icons/light/ambulance.json"
+                                    },
+                                    {
+                                        "type": "image",
+                                        "icon": "symbols/demo/uiotos/icons/light/american-sign-language-interpreting.json"
+                                    },
+                                    {
+                                        "type": "image",
+                                        "icon": "symbols/demo/uiotos/icons/light/american-sign-language-interpreting.json"
+                                    },
+                                    {
+                                        "type": "image",
+                                        "icon": "symbols/demo/uiotos/icons/light/american-sign-language-interpreting.json"
+                                    }
+                                ]
+                            ],
+                            [
+                                "卫星图组2", [{
+                                        "type": "image",
+                                        "icon": "symbols/demo/uiotos/icons/light/ambulance.json"
+                                    },
+                                    {
+                                        "type": "image",
+                                        "icon": "symbols/demo/uiotos/icons/light/american-sign-language-interpreting.json"
+                                    }
+                                ]
+                            ],
+                            [
+                                "卫星图组3", [{
+                                        "type": "image",
+                                        "icon": "symbols/demo/uiotos/icons/light/american-sign-language-interpreting.json"
+                                    },
+                                    {
+                                        "type": "image",
+                                        "icon": "symbols/demo/uiotos/icons/light/american-sign-language-interpreting.json"
+                                    }
+                                ]
+                            ]
+                        ]
+                    },
+                    {
+                        "rowData": [
+                            "石济客专"
+                        ],
+                        "children": [
+                            [
+                                "卫星图组1", [{
+                                        "type": "image",
+                                        "icon": "assets/demo/fcj/403db210783cba7d2720ac2852122342.png"
+                                    },
+                                    {
+                                        "type": "image",
+                                        "icon": "symbols/demo/uiotos/icons/light/address-book.json"
+                                    }
+                                ]
+                            ]
+                        ]
+                    }
+                ],
+                "idColumnVisible": false,
+                "centerAlign": true,
+                "pagesBottomVisible": false,
+                "headerVisible": false,
+                "columnLineVisible": false
+            }
+        }
+    ],
+    "modified": "Tue Nov 29 2022 14:16:32 GMT+0800 (中国标准时间)",
+    "contentRect": {
+        "x": -43.4057,
+        "y": 1.91305,
+        "width": 914.60312,
+        "height": 238.54522
+    }
+}

@@ -1,0 +1,123 @@
+{
+  "modified": "Tue Jul 18 2023 23:07:13 GMT+0800 (中国标准时间)",
+  "dataBindings": [
+    {
+      "attr": "icon-background",
+      "valueType": "Color"
+    },
+    {
+      "attr": "icon-borderWidth",
+      "valueType": "PositiveNumber"
+    },
+    {
+      "attr": "icon-borderColor",
+      "valueType": "Color"
+    }
+  ],
+  "width": 45,
+  "height": 45,
+  "comps": [
+    {
+      "type": "shape",
+      "background": {
+        "func": "attr@icon-background",
+        "value": "rgb(247,247,247)"
+      },
+      "borderWidth": {
+        "func": "attr@icon-borderWidth",
+        "value": 0
+      },
+      "borderColor": {
+        "func": "attr@icon-borderColor",
+        "value": null
+      },
+      "anchorX": 0,
+      "anchorY": 0,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "points": [
+        0.83313,
+        5,
+        0.83215,
+        7.12904,
+        2.46307,
+        8.93378,
+        4.58134,
+        9.14769,
+        6.69961,
+        9.3616,
+        8.65842,
+        7.91938,
+        9.08313,
+        5.83312,
+        4.16688,
+        5.83312,
+        4.16688,
+        0.91688,
+        2.23412,
+        1.31177,
+        0.83342,
+        3.02732,
+        0.83313,
+        5,
+        5,
+        0,
+        5,
+        5,
+        10,
+        5,
+        10,
+        7.74292,
+        7.74292,
+        10,
+        5,
+        10,
+        2.25708,
+        10,
+        0,
+        7.74292,
+        0,
+        5,
+        0,
+        2.25708,
+        2.25708,
+        0,
+        5,
+        0,
+        9.94937,
+        4.28563,
+        5.71438,
+        4.28563,
+        5.71438,
+        0.05063,
+        7.90209,
+        0.36721,
+        9.63279,
+        2.09791,
+        9.94937,
+        4.28563
+      ],
+      "segments": [
+        1,
+        4,
+        4,
+        2,
+        2,
+        4,
+        5,
+        1,
+        2,
+        2,
+        4,
+        4,
+        4,
+        5,
+        1,
+        2,
+        2,
+        4,
+        5
+      ]
+    }
+  ]
+}

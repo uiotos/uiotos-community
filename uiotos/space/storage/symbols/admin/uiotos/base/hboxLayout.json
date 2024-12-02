@@ -1,0 +1,192 @@
+{
+  "modified": "Fri Jun 02 2023 04:31:16 GMT+0800 (中国标准时间)",
+  "background": "rgb(32,37,46)",
+  "dataBindings": [
+    {
+      "attr": "username",
+      "valueType": "String",
+      "name": "UIFormItemValue"
+    },
+    {
+      "attr": "placeholder",
+      "valueType": "String",
+      "name": "UIPlaceHolder"
+    },
+    {
+      "attr": "placeholderColor",
+      "valueType": "Color"
+    },
+    {
+      "attr": "borderColor",
+      "valueType": "Color",
+      "name": "UIBorderColor",
+      "defaultValue": "rgb(221,221,221)"
+    },
+    {
+      "attr": "focusBorderColor",
+      "valueType": "Color",
+      "name": "UIFocusBorderColor"
+    },
+    {
+      "attr": "borderRadius",
+      "valueType": "String",
+      "name": "UIBorderRadius",
+      "defaultValue": "3"
+    },
+    {
+      "attr": "padding",
+      "valueType": "String",
+      "name": "UIPadding",
+      "defaultValue": "3"
+    },
+    {
+      "attr": "background",
+      "valueType": "Color",
+      "name": "UIBackground",
+      "defaultValue": "rgb(255,255,255)"
+    },
+    {
+      "attr": "focusBackground",
+      "valueType": "Color",
+      "name": "UIFocusBackground"
+    },
+    {
+      "attr": "iconAlign",
+      "valueType": "Align",
+      "name": "UIIcoAlign",
+      "defaultValue": "right"
+    },
+    {
+      "attr": "font",
+      "valueType": "Font",
+      "name": "UIFont"
+    },
+    {
+      "attr": "textAlign",
+      "valueType": "Align",
+      "name": "UITextAlign"
+    },
+    {
+      "attr": "textColor",
+      "valueType": "Color",
+      "name": "UITextColor"
+    },
+    {
+      "attr": "maxLength",
+      "valueType": "PositiveNumber",
+      "name": "UIMaxLength"
+    },
+    {
+      "attr": "inputType",
+      "valueType": "String",
+      "name": "UIInputType",
+      "extraInfo": {
+        "enum": {
+          "values": [
+            "text",
+            "password"
+          ]
+        }
+      }
+    },
+    {
+      "attr": "enterEndInputable",
+      "valueType": "Boolean",
+      "name": "UIEnterEndInputable"
+    },
+    {
+      "attr": "selectTextOnFocus",
+      "valueType": "Boolean",
+      "name": "UISelectTextOnFocus"
+    },
+    {
+      "attr": "formatter",
+      "valueType": "Function",
+      "name": "UIFormat",
+      "extraInfo": {
+        "arguments": [
+          "value",
+          "data",
+          "view"
+        ]
+      }
+    },
+    {
+      "attr": "onKeyDown",
+      "valueType": "Function",
+      "name": "UIOnKeyDown",
+      "extraInfo": {
+        "arguments": [
+          "event",
+          "data",
+          "view"
+        ]
+      }
+    },
+    {
+      "attr": "onKeyUp",
+      "valueType": "Function",
+      "name": "UIOnKeyUp",
+      "extraInfo": {
+        "arguments": [
+          "event",
+          "data",
+          "view"
+        ]
+      }
+    },
+    {
+      "attr": "onChange",
+      "valueType": "Function",
+      "name": "UIOnChange",
+      "extraInfo": {
+        "arguments": [
+          "value",
+          "data",
+          "view"
+        ]
+      }
+    },
+    {
+      "attr": "iconColor",
+      "valueType": "Color",
+      "name": "颜色",
+      "group": "图标",
+      "defaultValue": "rgb(124,145,155)"
+    },
+    {
+      "attr": "path",
+      "valueType": "Image",
+      "name": "名称",
+      "group": "图标",
+      "defaultValue": "search"
+    },
+    {
+      "attr": "iconHeight",
+      "valueType": "PositiveNumber",
+      "name": "高度",
+      "group": "图标"
+    },
+    {
+      "attr": "iconWidth",
+      "valueType": "PositiveNumber",
+      "name": "宽度",
+      "group": "图标"
+    },
+    {
+      "attr": "iconType",
+      "valueType": "Level",
+      "defaultValue": 1,
+      "group": "图标",
+      "name": "风格"
+    }
+  ],
+  "renderHTML": "__ht__function(data, gv, cache) {return __boxlayout_ui(data,gv,cache);}",
+  "width": 250,
+  "height": 150,
+  "fitSize": true,
+  "interactive": true,
+  "pixelPerfect": false,
+  "attachStyle": "close",
+  "comps": []
+}

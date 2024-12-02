@@ -1,0 +1,480 @@
+{
+  "modified": "Tue Aug 20 2024 10:55:08 GMT+0800 (中国标准时间)",
+  "dataBindings": [
+    {
+      "attr": "symbol",
+      "valueType": "Image"
+    },
+    {
+      "attr": "datas",
+      "valueType": "Object",
+      "defaultValue": [
+        {
+          "icon": "symbols/demo/uiotos/icons/light/home.json",
+          "name": "一级菜单1",
+          "display": "displays/develop/uiotos/editor/syspages/samples/colors/a.json",
+          "messages": [
+            {
+              "text": "103"
+            }
+          ],
+          "children": [
+            {
+              "name": "二级菜单1",
+              "display": "displays/develop/uiotos/editor/syspages/samples/colors/b.json"
+            },
+            {
+              "name": "二级菜单2",
+              "display": "displays/develop/uiotos/editor/syspages/samples/colors/c.json",
+              "children": [
+                {
+                  "name": "三级菜单1",
+                  "display": "displays/develop/uiotos/editor/syspages/samples/colors/d.json",
+                  "messages": [
+                    {
+                      "text": "1"
+                    }
+                  ]
+                },
+                {
+                  "name": "三级菜单2",
+                  "display": "displays/develop/uiotos/editor/syspages/samples/colors/e.json"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "icon": "symbols/demo/uiotos/icons/light/home.json",
+          "name": "一级菜单2",
+          "display": "displays/develop/uiotos/editor/syspages/samples/colors/f.json",
+          "children": [
+            {
+              "name": "二级菜单1",
+              "display": "displays/develop/uiotos/editor/syspages/samples/colors/g.json",
+              "messages": [
+                {
+                  "text": "1"
+                },
+                {
+                  "text": "2",
+                  "background": "lightred"
+                }
+              ],
+              "children": [
+                {
+                  "name": "三级菜单1",
+                  "display": "displays/develop/uiotos/editor/syspages/samples/colors/h.json",
+                  "children": [
+                    {
+                      "name": "四级菜单1",
+                      "display": "displays/develop/uiotos/editor/syspages/samples/colors/i.json",
+                      "children": [
+                        {
+                          "name": "五级菜单1",
+                          "display": "displays/develop/uiotos/editor/syspages/samples/colors/j.json"
+                        },
+                        {
+                          "name": "五级菜单2",
+                          "display": "displays/develop/uiotos/editor/syspages/samples/colors/k.json"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "三级菜单2",
+                  "display": "displays/develop/uiotos/editor/syspages/samples/colors/l.json"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "icon": "symbols/demo/uiotos/icons/light/home.json",
+          "name": "一级菜单3",
+          "display": "displays/develop/uiotos/editor/syspages/samples/colors/m.json",
+          "children": [
+            {
+              "name": "二级菜单1",
+              "display": "displays/develop/uiotos/editor/syspages/samples/colors/n.json",
+              "children": [
+                {
+                  "name": "三级菜单1",
+                  "display": "displays/develop/uiotos/editor/syspages/samples/colors/o.json"
+                },
+                {
+                  "name": "三级菜单2",
+                  "display": "displays/develop/uiotos/editor/syspages/samples/colors/p.json"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "description": "菜单树内容设置，包括\n<br>菜单对应的页面路径配置。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/uta20ga5uu55wvqw#dsEr5\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+      "group": "功能"
+    },
+    {
+      "attr": "dataKeys",
+      "valueType": "ObjectArray",
+      "description": "数据内容属性对象值\n<br>扁平化展开后的字段列表。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/uta20ga5uu55wvqw#NoZCS\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+      "extraInfo": "*"
+    },
+    {
+      "attr": "dataValues",
+      "valueType": "ObjectArray",
+      "description": "数据内容属性对象值\n<br>扁平化展开后的值列表。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/uta20ga5uu55wvqw#u3osm\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+      "extraInfo": "*"
+    },
+    {
+      "attr": "display",
+      "valueType": "Image",
+      "description": "当前显示的内嵌页地址。通常\n<br>只读，也用于设置默认菜单项。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/uta20ga5uu55wvqw#ia92M\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>"
+    },
+    {
+      "attr": "innerLayoutMode",
+      "valueType": "InnerLayoutMode",
+      "description": "",
+      "defaultValue": "none"
+    },
+    {
+      "attr": "onPostDeserialize",
+      "valueType": "Function",
+      "extraInfo": {
+        "arguments": [
+          "json",
+          "dm",
+          "gv",
+          "datas"
+        ],
+        "classify": "*"
+      },
+      "description": ""
+    },
+    {
+      "attr": "useOriginSize",
+      "valueType": "String",
+      "extraInfo": "★"
+    },
+    {
+      "attr": "useInnerEventsAll",
+      "valueType": "Boolean",
+      "extraInfo": "*"
+    },
+    {
+      "attr": "isLoadingGet",
+      "valueType": "Boolean",
+      "extraInfo": "★"
+    },
+    {
+      "attr": "enableLoading",
+      "valueType": "Boolean",
+      "extraInfo": "*"
+    },
+    {
+      "attr": "pureFormValues",
+      "valueType": "Boolean"
+    },
+    {
+      "attr": "widthPadding",
+      "valueType": "PositiveNumber",
+      "defaultValue": 10,
+      "description": "菜单树与内容区域的分隔/割线宽度。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/uta20ga5uu55wvqw#sYclC\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+      "extraInfo": "★"
+    },
+    {
+      "attr": "widthCollapsed",
+      "valueType": "PositiveNumber",
+      "defaultValue": 40,
+      "description": "菜单树收起到侧边时的宽度。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/uta20ga5uu55wvqw#OyJ7T\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>"
+    },
+    {
+      "attr": "widthSpreaded",
+      "valueType": "PositiveNumber",
+      "defaultValue": 200,
+      "description": "菜单树从侧边展开时的宽度。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/uta20ga5uu55wvqw#N64mz\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>"
+    },
+    {
+      "attr": "collapsed",
+      "valueType": "Boolean",
+      "defaultValue": false,
+      "description": "勾选时收起菜单树到侧边\n<br>（变窄），不勾选时展开显示。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/uta20ga5uu55wvqw#wvWnB\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+      "name": "侧边收起"
+    },
+    {
+      "attr": "rightSide",
+      "valueType": "Boolean",
+      "defaultValue": false,
+      "description": "勾选时菜单树显示在内容\n<br>右侧，否则在左侧。",
+      "name": "放在右侧",
+      "extraInfo": "★"
+    },
+    {
+      "attr": "expandAll",
+      "valueType": "Boolean",
+      "defaultValue": true,
+      "description": "默认勾选，展开菜单树所有节点。\n<br>不勾选时只展示根节点。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/uta20ga5uu55wvqw#uvUX0\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+      "name": "数据展开"
+    },
+    {
+      "attr": "userData",
+      "valueType": "Object",
+      "defaultValue": []
+    },
+    {
+      "attr": "onDisplayLoaded",
+      "valueType": "Function",
+      "description": "",
+      "extraInfo": {
+        "arguments": [
+          "data",
+          "gv",
+          "cache"
+        ]
+      }
+    },
+    {
+      "attr": "shadowBorder",
+      "valueType": "NumberArray",
+      "defaultValue": [
+        0,
+        0,
+        8
+      ],
+      "group": "外观"
+    },
+    {
+      "attr": "shadowColor",
+      "valueType": "Color",
+      "defaultValue": "rgba(102,102,102,0.2)"
+    },
+    {
+      "attr": "shadowEnabled",
+      "valueType": "Boolean",
+      "defaultValue": false
+    },
+    {
+      "attr": "boxShadowBorder",
+      "valueType": "NumberArray",
+      "defaultValue": [
+        -6,
+        0,
+        10
+      ],
+      "description": "菜单树收到侧边时，悬停展开\n<br>菜单时的边框阴影偏移位置。",
+      "extraInfo": "*"
+    },
+    {
+      "attr": "boxShadowColor",
+      "valueType": "Color",
+      "defaultValue": "rgba(0, 0, 0, 0.3)",
+      "description": "菜单树收到侧边时，悬停\n<br>展开菜单时的边框阴影颜色。",
+      "extraInfo": "*"
+    },
+    {
+      "attr": "innerBackground",
+      "valueType": "Color"
+    },
+    {
+      "attr": "background",
+      "valueType": "ColorArray",
+      "defaultValue": [
+        "#364150",
+        "#364150",
+        "#2c3542",
+        "#2c3542",
+        "#24607d",
+        "#364150",
+        "#3e4b5c",
+        "#3e4b5c",
+        "#3e4b5c"
+      ],
+      "description": "背景相关颜色，索引依次对应\n<br>0：背景颜色\n<br>1：头默认背景色\n<br>2：头悬停背景色\n<br>3：头展开背景色\n<br>4：头选中背景色\n<br>5：行默认背景色\n<br>6：行悬停背景色\n<br>7：行展开背景色\n<br>8：行选中背景色\n<br><a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/uta20ga5uu55wvqw#pIIrf\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>"
+    },
+    {
+      "attr": "colors",
+      "valueType": "ColorArray",
+      "defaultValue": [
+        "#364150",
+        "#abb3bf",
+        "#abb3bf",
+        "#c9cdd2",
+        "rgb(51,153,255)",
+        "#abb3bf",
+        "#abb3bf",
+        "#abb3bf",
+        "rgb(51,153,255)"
+      ],
+      "name": "前景颜色",
+      "description": "前景相关颜色。索引依次对应\n<br>0：头下划线色\n<br>1：头默认文字色\n<br>2：头悬停文字色\n<br>3：头展开文字色\n<br>4：头选中文字色\n<br>5：行默认文字色\n<br>6：行悬停文字色\n<br>7：行展开文字色\n<br>8：行选中文字色\n<br><a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/uta20ga5uu55wvqw#Snqyi\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>"
+    },
+    {
+      "attr": "iconsColor",
+      "valueType": "ColorArray",
+      "defaultValue": [
+        "rgb(124,145,155)",
+        "rgb(255,255,255,0)",
+        "rgb(233,233,233,0)",
+        "rgb(255,255,255)",
+        "#7c919b",
+        "rgba(255,255,255)",
+        "#36c6d3",
+        "#feb64d",
+        "#ed6b75"
+      ],
+      "description": "图标等其他颜色，索引依次对应\n<br>0：滑块图标色\n<br>1：滑块背景色\n<br>2：分割线颜色\n<br>3：边框线颜色\n<br>4：图标默认颜色\n<br>5：图标选中颜色\n<br>6：提示数字角标\n<br>7：警告数字角标\n<br>8：错误数字角标\n<br><a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/uta20ga5uu55wvqw#mQEew\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+      "name": "图标颜色"
+    },
+    {
+      "attr": "borderWidth",
+      "valueType": "Number",
+      "defaultValue": 0,
+      "description": "菜单树的边框宽度。",
+      "extraInfo": "*"
+    },
+    {
+      "attr": "borderRadius",
+      "valueType": "PositiveNumber",
+      "defaultValue": 0,
+      "description": "菜单树的边框圆角。",
+      "extraInfo": "*"
+    },
+    {
+      "attr": "togglePosition",
+      "valueType": "Number",
+      "defaultValue": 0.5,
+      "name": "滑块位置",
+      "extraInfo": "★"
+    },
+    {
+      "attr": "badgeLevel",
+      "valueType": "NumberArray",
+      "defaultValue": [
+        10,
+        60
+      ],
+      "name": "角标范围",
+      "description": "通常长度为2，将范围划分成三段，\n<br>依次对应提示、警告、错误。结合角标\n<br>颜色，为数据角标数字自动设定颜色。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/uta20ga5uu55wvqw#Vrwep\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+      "extraInfo": "*"
+    },
+    {
+      "attr": "expandIconSize",
+      "valueType": "NumberArray",
+      "defaultValue": [
+        13,
+        13
+      ],
+      "name": "展开图标尺寸",
+      "description": "菜单项中图标对应的尺寸，\n<br>索引0和1分别为宽度、高度。",
+      "extraInfo": "*"
+    },
+    {
+      "attr": "font",
+      "valueType": "Font",
+      "defaultValue": "12px Microsoft YaHei",
+      "description": "菜单中文字字体。"
+    },
+    {
+      "attr": "fontHeader",
+      "valueType": "Font",
+      "defaultValue": "bold 12px sans-serif, Arial",
+      "name": "菜单头字体",
+      "extraInfo": "*",
+      "description": "菜单头（一级菜单）的字体设置。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/uta20ga5uu55wvqw#GtIb0\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>"
+    },
+    {
+      "attr": "toggleIcon",
+      "valueType": "String",
+      "defaultValue": "symbols/develop/uiotos/arranged/icons/方向/angle-double-up-202.json",
+      "name": "滑块图标",
+      "extraInfo": "*",
+      "description": "滑块图标设置。"
+    },
+    {
+      "attr": "selectHeaderCollapseIcon",
+      "valueType": "Image",
+      "defaultValue": "sidebar_collapse",
+      "extraInfo": "~"
+    },
+    {
+      "attr": "selectHeaderExpandIcon",
+      "valueType": "Image",
+      "defaultValue": "sidebar_expand",
+      "extraInfo": "~"
+    },
+    {
+      "attr": "selectRowCollapseIcon",
+      "valueType": "Image",
+      "defaultValue": "sidebar_collapse",
+      "extraInfo": "~"
+    },
+    {
+      "attr": "selectRowExpandIcon",
+      "valueType": "Image",
+      "defaultValue": "sidebar_expand",
+      "extraInfo": "~"
+    },
+    {
+      "attr": "useChildSelectState",
+      "valueType": "Boolean",
+      "defaultValue": false,
+      "name": "同步选中状态",
+      "description": "菜单子节点选中状态，是否逐层同步到父节点。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/uta20ga5uu55wvqw#urwAt\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+      "extraInfo": "*"
+    },
+    {
+      "attr": "lightMode",
+      "valueType": "Boolean",
+      "defaultValue": false,
+      "name": "浅色风格",
+      "description": "勾选后，一键切换到浅色主题风格。切换\n<br>后，可以在前景、背景属性数组中再去微调。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/uta20ga5uu55wvqw#GRamJ\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>"
+    },
+    {
+      "attr": "bindControlsTag",
+      "valueType": "StringArray",
+      "group": "连线"
+    },
+    {
+      "attr": "bindControlsAttr",
+      "valueType": "ObjectArray"
+    },
+    {
+      "attr": "bindControlsVal",
+      "valueType": "ObjectArray",
+      "description": ""
+    },
+    {
+      "attr": "paramControlTag",
+      "valueType": "StringArray"
+    },
+    {
+      "attr": "paramControlAttr",
+      "valueType": "ObjectArray"
+    },
+    {
+      "attr": "paramsGenerator",
+      "valueType": "Function",
+      "defaultValue": "__ht__function(data, val, index, node,oldVal,form,type,inner) {//绑定组索引对应的函数处理，用来动态生成复杂的参数变量传入\r\nswitch(index){\r\n    case 0:\r\n        break;\r\n    case 1:\r\n        break;\r\n    case 2:\r\n        break;\r\n    default:\r\n        break;\r\n}\r\n\r\nreturn val;}",
+      "extraInfo": {
+        "arguments": [
+          "data",
+          "val",
+          "index",
+          "node",
+          "oldVal",
+          "form",
+          "type",
+          "inner"
+        ],
+        "classify": "*"
+      }
+    }
+  ],
+  "snapshotURL": "symbols/develop/uiotos/arranged/controls/containers_icon/菜单.json",
+  "renderHTML": "__ht__function(data, gv, cache) {return __menuSidebar_center_ui(data,gv,cache);}",
+  "width": 900,
+  "height": 500,
+  "pixelPerfect": false,
+  "comps": []
+}

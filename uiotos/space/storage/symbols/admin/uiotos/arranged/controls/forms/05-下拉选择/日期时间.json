@@ -1,0 +1,217 @@
+{
+  "modified": "Mon Aug 26 2024 14:50:03 GMT+0800 (中国标准时间)",
+  "dataBindings": [
+    {
+      "attr": "symbol",
+      "valueType": "Image"
+    },
+    {
+      "attr": "open",
+      "valueType": "Boolean",
+      "defaultValue": false,
+      "description": "打开下拉选择。\n<br>只写，触发后自动复位。",
+      "group": "功能",
+      "extraInfo": "★"
+    },
+    {
+      "attr": "mode",
+      "valueType": "String",
+      "defaultValue": "range",
+      "description": "类型选择。\n<br>跨度（range）将允许选择日期时间跨度。\n<br>单值（single）则只输出选择指定某个日期时间。",
+      "extraInfo": {
+        "enum": {
+          "values": [
+            "range",
+            "single"
+          ]
+        }
+      }
+    },
+    {
+      "attr": "valType",
+      "valueType": "String",
+      "defaultValue": "datetime",
+      "description": "值模式。\n<br>分为日期时间（datetime）、\n<br>纯日期（date）和纯时间\n<br>（time）三种。",
+      "extraInfo": {
+        "enum": {
+          "values": [
+            "datetime",
+            "date",
+            "time"
+          ]
+        }
+      }
+    },
+    {
+      "attr": "readOnly",
+      "valueType": "Boolean",
+      "defaultValue": false
+    },
+    {
+      "attr": "disabled",
+      "valueType": "Boolean",
+      "description": "禁止下拉。\n<br>通常作为“只读（readOnly）”属性的补充，勾选后，会自动\n<br>强制设置为只读，并且无法下拉选择。单独只勾选只读属性\n<br>时，用户无法输入编辑，但是可以下拉选择。\n<br>对于表单页面的查看模式下，下拉框通常需要勾选该属性，\n<br>无需手动再勾选只读属性。",
+      "defaultValue": false,
+      "extraInfo": "*"
+    },
+    {
+      "attr": "value",
+      "valueType": "Object",
+      "description": "时间段范围字符串。",
+      "defaultValue": ""
+    },
+    {
+      "attr": "timeFrom",
+      "valueType": "Object",
+      "defaultValue": "",
+      "description": "起始时间字符串。"
+    },
+    {
+      "attr": "timeTo",
+      "valueType": "Object",
+      "description": "结束时间字符串。",
+      "defaultValue": ""
+    },
+    {
+      "attr": "userData",
+      "valueType": "Object",
+      "defaultValue": []
+    },
+    {
+      "attr": "onChange",
+      "valueType": "Function",
+      "extraInfo": {
+        "arguments": [
+          "data",
+          "gv",
+          "cache",
+          "value",
+          "extra"
+        ]
+      }
+    },
+    {
+      "attr": "fixedHeight",
+      "valueType": "PositiveNumber",
+      "defaultValue": 35,
+      "group": "外观",
+      "extraInfo": "★"
+    },
+    {
+      "attr": "placeholder",
+      "valueType": "String",
+      "defaultValue": "请选择",
+      "extraInfo": "★"
+    },
+    {
+      "attr": "background",
+      "valueType": "ColorArray",
+      "description": "背景颜色。\n背景色。\n<br>索引0：默认背景颜色。\n<br>索引1：只读时悬停背景色、禁用时默认背景色。\n<br>索引2：只读或禁用时按下背景色。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#O1qbN\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+      "defaultValue": [
+        "rgb(255,255,255)",
+        "rgb(247,247,247)",
+        "rgb(247,247,247)"
+      ]
+    },
+    {
+      "attr": "borderWidth",
+      "valueType": "Number",
+      "defaultValue": 1
+    },
+    {
+      "attr": "borderRadius",
+      "valueType": "Number",
+      "defaultValue": 3
+    },
+    {
+      "attr": "borderColor",
+      "valueType": "ColorArray",
+      "defaultValue": [
+        "rgb(213,213,213)",
+        "rgb(51,153,255)"
+      ],
+      "description": "边框颜色。\n<br>索引0：默认边框色。\n<br>索引1：输入时边框色。"
+    },
+    {
+      "attr": "font",
+      "valueType": "Font",
+      "extraInfo": "★"
+    },
+    {
+      "attr": "color",
+      "valueType": "ColorArray",
+      "defaultValue": [
+        "rgb(0,0,0)",
+        "rgb(61,61,61)"
+      ],
+      "description": "文字颜色。\n<br>索引0：内容文字颜色。\n<br>索引1：标签文本颜色。",
+      "extraInfo": "★"
+    },
+    {
+      "attr": "labelText",
+      "valueType": "String",
+      "defaultValue": "选择时间段"
+    },
+    {
+      "attr": "labelEmbeded",
+      "valueType": "Boolean"
+    },
+    {
+      "attr": "layoutVertical",
+      "valueType": "Boolean",
+      "defaultValue": false
+    },
+    {
+      "attr": "gap",
+      "valueType": "PositiveNumber",
+      "defaultValue": 15,
+      "extraInfo": "★"
+    },
+    {
+      "attr": "bindControlsTag",
+      "valueType": "StringArray",
+      "group": "连线"
+    },
+    {
+      "attr": "bindControlsAttr",
+      "valueType": "StringArray"
+    },
+    {
+      "attr": "bindControlsVal",
+      "valueType": "ObjectArray"
+    },
+    {
+      "attr": "paramControlTag",
+      "valueType": "StringArray"
+    },
+    {
+      "attr": "paramControlAttr",
+      "valueType": "StringArray"
+    },
+    {
+      "attr": "paramsGenerator",
+      "valueType": "Function",
+      "defaultValue": "__ht__function(data, val, index, node,oldVal,form,type,inner) {//绑定组索引对应的函数处理，用来动态生成复杂的参数变量传入\r\nswitch(index){\r\n    case 0:\r\n        break;\r\n    case 1:\r\n        break;\r\n    case 2:\r\n        break;\r\n    default:\r\n        break;\r\n}\r\n\r\nreturn val;}",
+      "extraInfo": {
+        "arguments": [
+          "data",
+          "val",
+          "index",
+          "node",
+          "oldVal",
+          "form",
+          "type",
+          "inner"
+        ],
+        "classify": "*"
+      }
+    }
+  ],
+  "snapshotURL": "symbols/develop/uiotos/arranged/controls/forms_icon/日期时间选择器.json",
+  "renderHTML": "__ht__function(data, gv, cache) {return __dateRangePicker_ui(data,gv,cache);}",
+  "width": 200,
+  "height": 35,
+  "interactive": true,
+  "pixelPerfect": false,
+  "comps": []
+}

@@ -1,0 +1,72 @@
+{
+  "modified": "Wed Jul 31 2024 18:10:39 GMT+0800 (中国标准时间)",
+  "background": "rgb(32,37,46)",
+  "dataBindings": [
+    {
+      "attr": "background",
+      "valueType": "Color",
+      "defaultValue": "rgb(247,247,247)",
+      "name": "背景色"
+    },
+    {
+      "attr": "borderColor",
+      "valueType": "Color",
+      "defaultValue": "rgb(247,247,247)",
+      "name": "边框色"
+    }
+  ],
+  "width": 100,
+  "height": 60,
+  "comps": [
+    {
+      "type": "shape",
+      "borderWidth": 3,
+      "borderColor": {
+        "func": "attr@borderColor",
+        "value": "rgb(247,247,247)"
+      },
+      "pixelPerfect": true,
+      "displayName": "Shape（Shape1）",
+      "points": [
+        2.85199,
+        53.95533,
+        2.85199,
+        39.36614,
+        11.06973,
+        6.04467,
+        49.67921,
+        6.04467,
+        88.28869,
+        6.04467,
+        97.14801,
+        53.95533,
+        97.14801,
+        53.95533
+      ],
+      "segments": [
+        1,
+        4,
+        4
+      ]
+    },
+    {
+      "type": "shape",
+      "background": {
+        "func": "attr@background",
+        "value": "rgb(247,247,247)"
+      },
+      "borderColor": "#979797",
+      "pixelPerfect": true,
+      "displayName": "Shape（Shape2）",
+      "closePath": true,
+      "points": [
+        33.40419,
+        19.12812,
+        64.42133,
+        49.38783,
+        56.81335,
+        53.95533
+      ]
+    }
+  ]
+}

@@ -1,0 +1,204 @@
+{
+  "modified": "Fri May 03 2024 21:43:36 GMT+0800 (中国标准时间)",
+  "background": "rgb(32,37,46)",
+  "dataBindings": [
+    {
+      "attr": "key",
+      "valueType": "String",
+      "group": "send & recv"
+    },
+    {
+      "attr": "value",
+      "valueType": "String"
+    },
+    {
+      "attr": "type",
+      "valueType": "String"
+    },
+    {
+      "attr": "caller",
+      "valueType": "Object",
+      "group": "recv"
+    },
+    {
+      "attr": "userData",
+      "valueType": "ObjectArray"
+    },
+    {
+      "attr": "recvMsgPost",
+      "valueType": "Boolean",
+      "defaultValue": false
+    },
+    {
+      "attr": "messagPostGet",
+      "valueType": "Object"
+    },
+    {
+      "attr": "triggerSend",
+      "valueType": "Boolean",
+      "group": "operate"
+    },
+    {
+      "attr": "triggerInitial",
+      "valueType": "Boolean",
+      "defaultValue": true
+    },
+    {
+      "attr": "waitingRecv",
+      "valueType": "Boolean",
+      "defaultValue": true
+    },
+    {
+      "attr": "mode",
+      "valueType": "EventBusMode",
+      "defaultValue": "both",
+      "group": "config"
+    },
+    {
+      "attr": "callRecv.icon-background",
+      "valueType": "Color",
+      "defaultValue": "rgb(51,153,255)"
+    },
+    {
+      "attr": "call.icon-background",
+      "valueType": "Color",
+      "defaultValue": "rgb(0,199,7)"
+    },
+    {
+      "attr": "recv.icon-background",
+      "valueType": "Color",
+      "defaultValue": "#FF7C7C"
+    },
+    {
+      "attr": "bindControlsTag",
+      "valueType": "StringArray",
+      "group": "bindControls"
+    },
+    {
+      "attr": "bindControlsAttr",
+      "valueType": "StringArray"
+    },
+    {
+      "attr": "bindControlsVal",
+      "valueType": "ObjectArray",
+      "description": "静态值。也用作数组索引、JSON对象解析提取值用途。\n<br>一、静态值用途：\n<br>对常规类型的属性赋值且没有反向关联属性值，传入为数值时，不\n<br>会作为数组的索引，而会当成常量值对外赋值。此外，存在特殊值：\n<br>~和undefined表示过滤、不触发；null为默认值，表示传递默认表\n<br>单数据。编辑状态下清空后保存与设置null等价。\n<br>二、数组索引用途\n<br>情况1：被操作的组件属性原先值是数组时（包括空数组），会将\n<br>待输出的值作为被操作数组指定索引的值来传入，而不是整体覆盖。\n<br>情况2：如果要被操作的组件属性原先值不是数组，而且待输出的\n<br>值为数组类型并且长度也在索引范围内，那么会按照索引取自身数\n<br>组指定元素再对外输出。（如果想要取待输出索引值，赋值给被操\n<br>纵属性的指定索引，那么需要中间组件属性连线过渡以下，无法直\n<br>接操作）\n<br>情况3：如果要被操作的组件属性是数组，而且待输出的值也是数组\n<br>类型，此时当情况1来处理。\n<br>三、数据解析用途：\n<br>待输出的值为JSON对象时，用x.y.z这种以字符.或者>为间隔的方式\n<br>实现对JSON字段层次逐层定位，当是数组时x.0.y.1这种以数字的方\n<br>式来指定数组的某个索引。以此实现对任意结果JSON对象字段的定\n<br>位，获取结构内指定字段对应的值。"
+    },
+    {
+      "attr": "paramControlTag",
+      "valueType": "StringArray"
+    },
+    {
+      "attr": "paramControlAttr",
+      "valueType": "StringArray"
+    },
+    {
+      "attr": "paramsGenerator",
+      "valueType": "Function",
+      "defaultValue": "__ht__function(data, val, index, node, oldVal, form, type, inner) {//绑定组索引对应的函数处理，用来动态生成复杂的参数变量传入\r\nswitch(index){\r\n    case 0:\r\n        break;\r\n    case 1:\r\n        break;\r\n    case 2:\r\n        break;\r\n    default:\r\n        break;\r\n}\r\n\r\nreturn val;}",
+      "extraInfo": {
+        "arguments": [
+          "data",
+          "val",
+          "index",
+          "node",
+          "oldVal",
+          "form",
+          "type",
+          "inner"
+        ]
+      }
+    },
+    {
+      "attr": "onEvent",
+      "valueType": "Function",
+      "extraInfo": {
+        "arguments": [
+          "data",
+          "gv",
+          "cache",
+          "form",
+          "extra"
+        ]
+      },
+      "defaultValue": "__ht__function(data, gv, cache, param) {}"
+    }
+  ],
+  "renderHTML": "__ht__function(data, gv, cache) {return __eventbus_v2(data,gv,cache);}",
+  "width": 100,
+  "height": 100,
+  "visible": {
+    "func": "attr@visible",
+    "value": true
+  },
+  "comps": [
+    {
+      "type": "rect",
+      "background": "rgba(33,33,33,0.01)",
+      "borderColor": "#979797",
+      "displayName": "矩形",
+      "rect": [
+        0,
+        0,
+        100,
+        100
+      ]
+    },
+    {
+      "type": "image",
+      "color": null,
+      "name": "symbols/demo/uiotos/icons/light/phone-rotary.json",
+      "visible": false,
+      "prefix": "recv",
+      "displayName": "node_image",
+      "rect": [
+        0,
+        0,
+        100,
+        100
+      ]
+    },
+    {
+      "type": "image",
+      "color": null,
+      "name": "symbols/demo/uiotos/icons/light/phone-volume.json",
+      "visible": false,
+      "prefix": "call",
+      "displayName": "node_image",
+      "rect": [
+        0,
+        0,
+        100,
+        100
+      ]
+    },
+    {
+      "type": "image",
+      "color": null,
+      "name": "symbols/develop/uiotos/icons/editroToolBar/phone-rotary.json",
+      "prefix": "callRecv",
+      "shadowColor": "rgb(61,61,61)",
+      "displayName": "node_image",
+      "rect": [
+        0,
+        37.47666,
+        64.0735,
+        66.39302
+      ]
+    },
+    {
+      "type": "image",
+      "color": null,
+      "name": "symbols/develop/uiotos/icons/editroToolBar/phone-volume.json",
+      "prefix": "callRecv",
+      "shadowColor": "rgb(61,61,61)",
+      "displayName": "node_image",
+      "rotation": 5.69426,
+      "rect": [
+        56.75093,
+        4.67922,
+        58.13316,
+        65.5949
+      ]
+    }
+  ]
+}

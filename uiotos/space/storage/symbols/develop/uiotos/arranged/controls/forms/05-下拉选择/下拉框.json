@@ -1,0 +1,379 @@
+{
+  "modified": "Sat Aug 24 2024 17:21:06 GMT+0800 (中国标准时间)",
+  "dataBindings": [
+    {
+      "attr": "symbol",
+      "valueType": "Image"
+    },
+    {
+      "attr": "open",
+      "valueType": "Boolean",
+      "defaultValue": false,
+      "description": "展开下拉。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#git2r\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+      "group": "功能"
+    },
+    {
+      "attr": "readOnly",
+      "valueType": "Boolean",
+      "defaultValue": false,
+      "description": "只读。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#Z94gI\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>"
+    },
+    {
+      "attr": "disabled",
+      "valueType": "Boolean",
+      "defaultValue": false,
+      "description": "禁止下拉。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#mVhBs\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+      "extraInfo": "★"
+    },
+    {
+      "attr": "nodeUsable",
+      "valueType": "Boolean",
+      "defaultValue": false,
+      "description": "树列表节点双击可选中。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#aDFbj\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+      "extraInfo": "*"
+    },
+    {
+      "attr": "datas",
+      "valueType": "Object",
+      "defaultValue": [
+        {
+          "name": "Button",
+          "children": [
+            {
+              "name": "ToggleButton",
+              "children": [
+                {
+                  "name": "CheckBox"
+                },
+                {
+                  "name": "RadioButton"
+                }
+              ]
+            },
+            {
+              "name": "MenuButton"
+            }
+          ]
+        },
+        {
+          "name": "TextField",
+          "children": [
+            {
+              "name": "ComboBox"
+            },
+            {
+              "name": "NumberInput"
+            }
+          ]
+        }
+      ],
+      "description": "数据源。\n<br>下拉列表的数据格式，可以是基本列表比如：\n<br>['星期一' , '星期二' , '星期三' ]这样的结构。\n<br>也可以是对象列表。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#Utg1R\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>"
+    },
+    {
+      "attr": "value",
+      "valueType": "Object",
+      "description": "选择或者设置的值。\n<br>通常结合选中ID和选中名称属性使用。可以是对象、\n<br>ID数字、或者显示字符串，将自动识别匹配格式。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#zqBrs\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情参见文档</a>",
+      "defaultValue": ""
+    },
+    {
+      "attr": "noDatasKeepVal",
+      "valueType": "Boolean",
+      "description": "在数据内容为空时，\n值内容属性值是否保持不被清空。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#hWCkg\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+      "defaultValue": false,
+      "extraInfo": "★"
+    },
+    {
+      "attr": "selectedID",
+      "valueType": "Object",
+      "description": "选则项的ID。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#j7hcP\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+      "defaultValue": -1,
+      "extraInfo": "★"
+    },
+    {
+      "attr": "selectedText",
+      "valueType": "Object",
+      "description": "选择项的文字。\n<br>当前选中的项对应的名称文字。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#vOONX\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+      "defaultValue": ""
+    },
+    {
+      "attr": "defaultIndex",
+      "valueType": "Int",
+      "defaultValue": 0,
+      "description": "下拉列表中的默认项索引。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#dZeee\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+      "extraInfo": "★"
+    },
+    {
+      "attr": "hasNoneItem",
+      "valueType": "Boolean",
+      "defaultValue": false,
+      "description": "有空选项。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#TXdaa\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+      "extraInfo": "★"
+    },
+    {
+      "attr": "noneInfo",
+      "valueType": "ObjectArray",
+      "defaultValue": [
+        "无",
+        -1,
+        ""
+      ],
+      "description": "空选项配置。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#XbamC\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+      "extraInfo": "★"
+    },
+    {
+      "attr": "allowChoosing",
+      "valueType": "Function",
+      "extraInfo": {
+        "arguments": [
+          "data",
+          "gv",
+          "cache",
+          "content",
+          "item"
+        ],
+        "classify": "*"
+      },
+      "description": "可否选中的过滤函数。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#u9WhK\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>"
+    },
+    {
+      "attr": "userData",
+      "valueType": "Object",
+      "defaultValue": []
+    },
+    {
+      "attr": "onOpened",
+      "valueType": "Function",
+      "extraInfo": {
+        "arguments": [
+          "data",
+          "gv",
+          "cache",
+          "value",
+          "extra"
+        ],
+        "classify": "*"
+      },
+      "description": "勾选后，当下拉时就对外触发。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#FjvNI\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>"
+    },
+    {
+      "attr": "onChange",
+      "valueType": "Function",
+      "extraInfo": {
+        "arguments": [
+          "data",
+          "gv",
+          "cache",
+          "value",
+          "extra"
+        ]
+      },
+      "description": ""
+    },
+    {
+      "attr": "fixedHeight",
+      "valueType": "PositiveNumber",
+      "defaultValue": 35,
+      "group": "外观",
+      "extraInfo": "★"
+    },
+    {
+      "attr": "placeholder",
+      "valueType": "String",
+      "defaultValue": "关键词",
+      "extraInfo": "★"
+    },
+    {
+      "attr": "background",
+      "valueType": "ColorArray",
+      "description": "背景色。\n<br>索引0：默认背景颜色。\n<br>索引1：只读时悬停背景色、禁用时默认背景色。\n<br>索引2：只读或禁用时按下背景色。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#O1qbN\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+      "defaultValue": [
+        "rgba(255,255,255)",
+        "rgb(247,247,247)",
+        "rgb(247,247,247)"
+      ]
+    },
+    {
+      "attr": "borderWidth",
+      "valueType": "Number",
+      "defaultValue": 1,
+      "description": "边框宽度。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#tjNoh\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>"
+    },
+    {
+      "attr": "borderRadius",
+      "valueType": "Number",
+      "defaultValue": 3,
+      "description": "圆角半径。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#LloZD\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>"
+    },
+    {
+      "attr": "borderColor",
+      "valueType": "ColorArray",
+      "defaultValue": [
+        "rgb(213,213,213)",
+        "rgb(51,153,255)"
+      ],
+      "description": "边框颜色。\n<br>索引0：默认边框色。\n<br>索引1：输入时边框色。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#c65AG\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>"
+    },
+    {
+      "attr": "font",
+      "valueType": "Font",
+      "description": "字体。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#pGu9R\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+      "extraInfo": "★"
+    },
+    {
+      "attr": "color",
+      "valueType": "ColorArray",
+      "description": "文本颜色。\n<br>索引0：输入文字颜色。\n<br>索引1：标签文本颜色。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#gv8dd\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+      "defaultValue": [
+        "rgb(0,0,0)",
+        "rgb(61,61,61)"
+      ],
+      "extraInfo": "★"
+    },
+    {
+      "attr": "labelText",
+      "valueType": "String",
+      "defaultValue": "下拉框"
+    },
+    {
+      "attr": "labelEmbeded",
+      "valueType": "Boolean"
+    },
+    {
+      "attr": "layoutVertical",
+      "valueType": "Boolean",
+      "defaultValue": false
+    },
+    {
+      "attr": "gap",
+      "valueType": "PositiveNumber",
+      "defaultValue": 15,
+      "extraInfo": "★"
+    },
+    {
+      "attr": "treeBoxShadow",
+      "valueType": "String",
+      "defaultValue": "0px 8px 22px rgba(0,0,0,0.1)",
+      "description": "阴影样式。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#cPxZ2\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+      "extraInfo": "*"
+    },
+    {
+      "attr": "treeBackground",
+      "valueType": "ColorArray",
+      "defaultValue": [
+        "rgb(255,255,255)",
+        null,
+        "rgb(247,247,247)",
+        "rgb(255,255,255)",
+        "rgb(247,247,247)",
+        "rgb(247,247,247)",
+        "rgb(247,247,247)"
+      ],
+      "description": "展开下拉的背景色。\n<br>索引0：默认背景色。\n<br>索引1：边框颜色。\n<br>索引2：行线颜色。\n<br>索引3：行默认背景色。\n<br>索引4：行悬停背景色。\n<br>索引5：行选中背景色。\n<br>索引6：行焦点背景色。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#Ld3ta\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+      "extraInfo": "*"
+    },
+    {
+      "attr": "treeLabelColor",
+      "valueType": "ColorArray",
+      "defaultValue": [
+        "rgb(61,61,61)",
+        "rgb(51,153,255)",
+        "rgb(51,153,255)"
+      ],
+      "description": "展开下拉的文本颜色。\n<br>索引0：默认文字颜色；\n<br>索引1：悬停文字颜色；\n<br>索引2：选中文字颜色。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#HR6MR\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+      "extraInfo": "*"
+    },
+    {
+      "attr": "treeLabelFont",
+      "valueType": "Font",
+      "defaultValue": "12px sans-serif, Arial",
+      "description": "树列表的字体。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#DnITI\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+      "extraInfo": "*"
+    },
+    {
+      "attr": "treeRowHeight",
+      "valueType": "PositiveNumber",
+      "defaultValue": 25,
+      "description": "树列表 行高。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#RAzrA\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+      "extraInfo": "*"
+    },
+    {
+      "attr": "treeBorderWidth",
+      "valueType": "PositiveNumber",
+      "defaultValue": 0,
+      "description": "树列表边框宽度。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#cPt6s\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+      "extraInfo": "*"
+    },
+    {
+      "attr": "treeBorderRadius",
+      "valueType": "NumberArray",
+      "defaultValue": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "description": "树列表边框圆角半径。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#jQKGU\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+      "extraInfo": "*"
+    },
+    {
+      "attr": "treePadding",
+      "valueType": "NumberArray",
+      "defaultValue": [
+        5,
+        0,
+        5,
+        0
+      ],
+      "description": "边距像素。\n<br>索引0到索引3，依次是上、右、下、左。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#fbuU8\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+      "extraInfo": "*"
+    },
+    {
+      "attr": "bindControlsTag",
+      "valueType": "StringArray",
+      "group": "连线"
+    },
+    {
+      "attr": "bindControlsAttr",
+      "valueType": "StringArray"
+    },
+    {
+      "attr": "bindControlsVal",
+      "valueType": "ObjectArray"
+    },
+    {
+      "attr": "paramControlTag",
+      "valueType": "StringArray"
+    },
+    {
+      "attr": "paramControlAttr",
+      "valueType": "StringArray"
+    },
+    {
+      "attr": "paramsGenerator",
+      "valueType": "Function",
+      "defaultValue": "__ht__function(data, val, index, node,oldVal,form,type,inner) {//绑定组索引对应的函数处理，用来动态生成复杂的参数变量传入\r\nswitch(index){\r\n    case 0:\r\n        break;\r\n    case 1:\r\n        break;\r\n    case 2:\r\n        break;\r\n    default:\r\n        break;\r\n}\r\n\r\nreturn val;}",
+      "extraInfo": {
+        "arguments": [
+          "data",
+          "val",
+          "index",
+          "node",
+          "oldVal",
+          "form",
+          "type",
+          "inner"
+        ],
+        "classify": "*"
+      }
+    }
+  ],
+  "snapshotURL": "symbols/develop/uiotos/arranged/controls/forms_icon/下拉框.json",
+  "renderHTML": "__ht__function(data, gv, cache) {return __combobox_ui(data,gv,cache);}",
+  "width": 180,
+  "height": 35,
+  "fitSize": true,
+  "scrollable": true,
+  "interactive": true,
+  "pixelPerfect": false,
+  "comps": []
+}

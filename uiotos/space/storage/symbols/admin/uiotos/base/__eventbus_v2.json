@@ -1,0 +1,135 @@
+{
+  "modified": "Mon Aug 12 2024 21:31:48 GMT+0800 (中国标准时间)",
+  "dataBindings": [
+    {
+      "attr": "symbol",
+      "valueType": "Image"
+    },
+    {
+      "attr": "mode",
+      "valueType": "EventBusMode",
+      "defaultValue": "send",
+      "description": "选择发送器、接收器或者收发器。<a href='https://www.yuque.com/liuhuo-nc809/uiotos/hf6hq3949mqpg32u#M9EcI' style=\"color:rgb(96,172,252)\" target='_blank'>详情</a>",
+      "group": "功能"
+    },
+    {
+      "attr": "bindControlsTag",
+      "valueType": "StringArray",
+      "group": "连线"
+    },
+    {
+      "attr": "bindControlsAttr",
+      "valueType": "StringArray"
+    },
+    {
+      "attr": "bindControlsVal",
+      "valueType": "ObjectArray",
+      "description": ""
+    },
+    {
+      "attr": "paramControlTag",
+      "valueType": "StringArray"
+    },
+    {
+      "attr": "paramControlAttr",
+      "valueType": "StringArray"
+    },
+    {
+      "attr": "paramsGenerator",
+      "valueType": "Function",
+      "defaultValue": "__ht__function(data, val, index, node, oldVal, form, type, inner) {//绑定组索引对应的函数处理，用来动态生成复杂的参数变量传入\r\nswitch(index){\r\n    case 0:\r\n        break;\r\n    case 1:\r\n        break;\r\n    case 2:\r\n        break;\r\n    default:\r\n        break;\r\n}\r\n\r\nreturn val;}",
+      "extraInfo": {
+        "arguments": [
+          "data",
+          "val",
+          "index",
+          "node",
+          "oldVal",
+          "form",
+          "type",
+          "inner"
+        ],
+        "classify": "*"
+      }
+    }
+  ],
+  "snapshotURL": "symbols/develop/uiotos/arranged/controls/interfaces_icon/收发器.json",
+  "renderHTML": "__ht__function(data, gv, cache) {return __eventbus_v2(data,gv,cache);}",
+  "width": 100,
+  "height": 100,
+  "visible": {
+    "func": "attr@visible",
+    "value": true
+  },
+  "comps": [
+    {
+      "type": "rect",
+      "background": "rgba(33,33,33,0.01)",
+      "borderColor": "#979797",
+      "displayName": "矩形（矩形1）",
+      "rect": [
+        0,
+        0,
+        100,
+        100
+      ]
+    },
+    {
+      "type": "image",
+      "color": null,
+      "name": "symbols/demo/uiotos/icons/light/phone-rotary.json",
+      "visible": false,
+      "prefix": "recv",
+      "displayName": "node_image",
+      "rect": [
+        0,
+        0,
+        100,
+        100
+      ]
+    },
+    {
+      "type": "image",
+      "color": null,
+      "name": "symbols/demo/uiotos/icons/light/phone-volume.json",
+      "visible": false,
+      "prefix": "call",
+      "displayName": "node_image",
+      "rect": [
+        0,
+        0,
+        100,
+        100
+      ]
+    },
+    {
+      "type": "image",
+      "color": null,
+      "name": "symbols/develop/uiotos/icons/editroToolBar/phone-rotary.json",
+      "prefix": "callRecv",
+      "shadowColor": "rgb(61,61,61)",
+      "displayName": "node_image",
+      "rect": [
+        0,
+        37.47666,
+        64.0735,
+        66.39302
+      ]
+    },
+    {
+      "type": "image",
+      "color": null,
+      "name": "symbols/develop/uiotos/icons/editroToolBar/phone-volume.json",
+      "prefix": "callRecv",
+      "shadowColor": "rgb(61,61,61)",
+      "displayName": "node_image",
+      "rotation": 5.69426,
+      "rect": [
+        56.75093,
+        4.67922,
+        58.13316,
+        65.5949
+      ]
+    }
+  ]
+}

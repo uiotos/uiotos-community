@@ -1,0 +1,451 @@
+{
+  "modified": "Sat Sep 24 2022 12:06:03 GMT+0800 (中国标准时间)",
+  "background": "rgb(32,37,46)",
+  "dataBindings": [
+    {
+      "attr": "chart.label.visible",
+      "valueType": "Boolean"
+    },
+    {
+      "attr": "chart.label.color",
+      "valueType": "Color"
+    },
+    {
+      "attr": "chart.label.font",
+      "valueType": "Font"
+    },
+    {
+      "attr": "sideTextFont",
+      "valueType": "Font"
+    },
+    {
+      "attr": "chart.hollow",
+      "valueType": "Boolean"
+    },
+    {
+      "attr": "chart.start.angle",
+      "valueType": "String"
+    },
+    {
+      "attr": "chart.values",
+      "valueType": "NumberArray"
+    },
+    {
+      "attr": "chart.colors",
+      "valueType": "ColorArray"
+    },
+    {
+      "attr": "chart.sideColors",
+      "valueType": "Color"
+    },
+    {
+      "attr": "chart.sideVisible",
+      "valueType": "Boolean"
+    },
+    {
+      "attr": "chart.sideTextColor",
+      "valueType": "Color"
+    },
+    {
+      "attr": "chart.sideTexts",
+      "valueType": "StringArray",
+      "defaultValue": [
+        "周一",
+        "周二",
+        "周三",
+        "周四",
+        "周五",
+        "周六",
+        "周日"
+      ]
+    }
+  ],
+  "renderHTML": "__ht__function(data, gv, cache) {if(!cache.init){\r\n    cache.init = 'done'\r\n    function updateSide(attr,values){//通常是属性key-value，如果要显示隐藏，则attr为null,value为数字，显示几个！\r\n        for(var i = 0;i < 7; i++){\r\n            if(attr == null){\r\n                data.ca('pieColor' + i + \".\" + 'chart.sideVisible', i < values);\r\n                data.ca('pieText' + i + \".\" + 'chart.sideVisible', i < values);\r\n            }else{\r\n                data.ca('pieColor' + i + \".\" + attr, isArrayFn(values) ? values[i] : values);\r\n                data.ca('pieText' + i + \".\" + attr, isArrayFn(values) ? values[i] : values);\r\n            }\r\n        }\r\n    }\r\n    data.dm().md(e => {\r\n        if(e.data == data){\r\n            // //event格式：\r\n            // {\r\n            //     property: 'name',//发生变化的属性\r\n            //     oldValue: 'oldValue',//旧值\r\n            //     newValue: 'newValue',''新值\r\n            //     data: data//发生变化的data\r\n            // }\r\n            switch(e.property){\r\n                case 'a:chart.values':\r\n                    updateSide(null, e.newValue.length);\r\n                    break;\r\n                case 'a:chart.colors':\r\n                    updateSide('chart.sideColors',e.newValue);\r\n                    break;\r\n                case 'a:chart.sideTexts':\r\n                    updateSide('text',e.newValue);\r\n                    break; \r\n                case 'a:chart.sideTextColor':\r\n                    updateSide('chart.sideTextColor',e.newValue);\r\n                    break;\r\n                case 'a:sideTextFont':\r\n                    updateSide('sideTextFont',e.newValue);\r\n                    break;\r\n            }\r\n        }\r\n    })\r\n}}",
+  "width": 300,
+  "height": 185,
+  "fitSize": true,
+  "comps": [
+    {
+      "type": "pieChart",
+      "label": {
+        "func": "attr@chart.label.visible",
+        "value": true
+      },
+      "labelColor": {
+        "func": "attr@chart.label.color",
+        "value": "rgb(84,105,125)"
+      },
+      "labelFont": {
+        "func": "attr@chart.label.font",
+        "value": "12px arial, sans-serif"
+      },
+      "hollow": {
+        "func": "attr@chart.hollow",
+        "value": true
+      },
+      "startAngle": {
+        "func": "attr@chart.start.angle",
+        "value": 0
+      },
+      "values": {
+        "func": "attr@chart.values",
+        "value": [
+          10,
+          15,
+          20,
+          2,
+          29,
+          12,
+          32
+        ]
+      },
+      "colors": {
+        "func": "attr@chart.colors",
+        "value": [
+          "rgb(51,153,255)",
+          "#60ACFC",
+          "#32D3EB",
+          "rgb(93,217,174)",
+          "rgb(125,195,125)",
+          "rgb(255,235,195)",
+          "#FEB64D"
+        ]
+      },
+      "rect": [
+        0,
+        0,
+        185,
+        185
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@text",
+        "value": "周一"
+      },
+      "color": {
+        "func": "attr@chart.sideTextColor",
+        "value": "rgb(124,145,155)"
+      },
+      "font": {
+        "func": "attr@sideTextFont",
+        "value": "12px arial, sans-serif"
+      },
+      "visible": {
+        "func": "attr@chart.sideVisible",
+        "value": true
+      },
+      "pixelPerfect": true,
+      "prefix": "pieText0",
+      "rect": [
+        246.07357,
+        9.55351,
+        53.92643,
+        19.36784
+      ]
+    },
+    {
+      "type": "circle",
+      "background": {
+        "func": "attr@chart.sideColors",
+        "value": "rgb(51,153,255)"
+      },
+      "borderColor": "#979797",
+      "visible": {
+        "func": "attr@chart.sideVisible",
+        "value": true
+      },
+      "pixelPerfect": true,
+      "prefix": "pieColor0",
+      "rect": [
+        224.94982,
+        14.23743,
+        10,
+        10
+      ]
+    },
+    {
+      "type": "circle",
+      "background": {
+        "func": "attr@chart.sideColors",
+        "value": "#60ACFC"
+      },
+      "borderColor": "#979797",
+      "visible": {
+        "func": "attr@chart.sideVisible",
+        "value": true
+      },
+      "pixelPerfect": true,
+      "prefix": "pieColor1",
+      "rect": [
+        224.94982,
+        38.65829,
+        10,
+        10
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@text",
+        "value": "周二"
+      },
+      "color": {
+        "func": "attr@chart.sideTextColor",
+        "value": "rgb(124,145,155)"
+      },
+      "font": {
+        "func": "attr@sideTextFont",
+        "value": "12px arial, sans-serif"
+      },
+      "visible": {
+        "func": "attr@chart.sideVisible",
+        "value": true
+      },
+      "pixelPerfect": true,
+      "prefix": "pieText1",
+      "rect": [
+        246.07357,
+        33.97437,
+        53.92643,
+        19.36784
+      ]
+    },
+    {
+      "type": "circle",
+      "background": {
+        "func": "attr@chart.sideColors",
+        "value": "#32D3EB"
+      },
+      "borderColor": "#979797",
+      "visible": {
+        "func": "attr@chart.sideVisible",
+        "value": true
+      },
+      "pixelPerfect": true,
+      "prefix": "pieColor2",
+      "rect": [
+        224.94982,
+        63.07915,
+        10,
+        10
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@text",
+        "value": "周三"
+      },
+      "color": {
+        "func": "attr@chart.sideTextColor",
+        "value": "rgb(124,145,155)"
+      },
+      "font": {
+        "func": "attr@sideTextFont",
+        "value": "12px arial, sans-serif"
+      },
+      "visible": {
+        "func": "attr@chart.sideVisible",
+        "value": true
+      },
+      "pixelPerfect": true,
+      "prefix": "pieText2",
+      "rect": [
+        246.07357,
+        58.39523,
+        53.92643,
+        19.36784
+      ]
+    },
+    {
+      "type": "circle",
+      "background": {
+        "func": "attr@chart.sideColors",
+        "value": "rgb(93,217,174)"
+      },
+      "borderColor": "#979797",
+      "visible": {
+        "func": "attr@chart.sideVisible",
+        "value": true
+      },
+      "pixelPerfect": true,
+      "prefix": "pieColor3",
+      "rect": [
+        224.94982,
+        87.5,
+        10,
+        10
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@text",
+        "value": "周四"
+      },
+      "color": {
+        "func": "attr@chart.sideTextColor",
+        "value": "rgb(124,145,155)"
+      },
+      "font": {
+        "func": "attr@sideTextFont",
+        "value": "12px arial, sans-serif"
+      },
+      "visible": {
+        "func": "attr@chart.sideVisible",
+        "value": true
+      },
+      "pixelPerfect": true,
+      "prefix": "pieText3",
+      "rect": [
+        246.07357,
+        82.81608,
+        53.92643,
+        19.36784
+      ]
+    },
+    {
+      "type": "circle",
+      "background": {
+        "func": "attr@chart.sideColors",
+        "value": "rgb(125,195,125)"
+      },
+      "borderColor": "#979797",
+      "visible": {
+        "func": "attr@chart.sideVisible",
+        "value": true
+      },
+      "pixelPerfect": true,
+      "prefix": "pieColor4",
+      "rect": [
+        224.94982,
+        111.92086,
+        10,
+        10
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@text",
+        "value": "周五"
+      },
+      "color": {
+        "func": "attr@chart.sideTextColor",
+        "value": "rgb(124,145,155)"
+      },
+      "font": {
+        "func": "attr@sideTextFont",
+        "value": "12px arial, sans-serif"
+      },
+      "visible": {
+        "func": "attr@chart.sideVisible",
+        "value": true
+      },
+      "pixelPerfect": true,
+      "prefix": "pieText4",
+      "rect": [
+        246.07357,
+        107.23694,
+        53.92643,
+        19.36784
+      ]
+    },
+    {
+      "type": "circle",
+      "background": {
+        "func": "attr@chart.sideColors",
+        "value": "rgb(255,235,195)"
+      },
+      "borderColor": "#979797",
+      "visible": {
+        "func": "attr@chart.sideVisible",
+        "value": true
+      },
+      "pixelPerfect": true,
+      "prefix": "pieColor5",
+      "rect": [
+        224.94982,
+        136.34171,
+        10,
+        10
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@text",
+        "value": "周六"
+      },
+      "color": {
+        "func": "attr@chart.sideTextColor",
+        "value": "rgb(124,145,155)"
+      },
+      "font": {
+        "func": "attr@sideTextFont",
+        "value": "12px arial, sans-serif"
+      },
+      "visible": {
+        "func": "attr@chart.sideVisible",
+        "value": true
+      },
+      "pixelPerfect": true,
+      "prefix": "pieText5",
+      "rect": [
+        246.07357,
+        131.65779,
+        53.92643,
+        19.36784
+      ]
+    },
+    {
+      "type": "circle",
+      "background": {
+        "func": "attr@chart.sideColors",
+        "value": "#FEB64D"
+      },
+      "borderColor": "#979797",
+      "visible": {
+        "func": "attr@chart.sideVisible",
+        "value": true
+      },
+      "pixelPerfect": true,
+      "prefix": "pieColor6",
+      "rect": [
+        224.94982,
+        160.76257,
+        10,
+        10
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@text",
+        "value": "周日"
+      },
+      "color": {
+        "func": "attr@chart.sideTextColor",
+        "value": "rgb(124,145,155)"
+      },
+      "font": {
+        "func": "attr@sideTextFont",
+        "value": "12px arial, sans-serif"
+      },
+      "visible": {
+        "func": "attr@chart.sideVisible",
+        "value": true
+      },
+      "pixelPerfect": true,
+      "prefix": "pieText6",
+      "rect": [
+        246.07357,
+        156.07865,
+        53.92643,
+        19.36784
+      ]
+    }
+  ]
+}

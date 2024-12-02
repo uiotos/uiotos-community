@@ -1,0 +1,34 @@
+{
+    "modified": "Tue Aug 23 2022 14:10:29 GMT+0800 (中国标准时间)",
+    "background": "rgb(32,37,46)",
+    "dataBindings": [{
+        "attr": "icon0.icon-background",
+        "valueType": "Color"
+    }],
+    "width": 170,
+    "height": 30,
+    "fitSize": true,
+    "comps": [{
+            "type": "text",
+            "text": "设备运行情况数据",
+            "font": "16px arial, sans-serif",
+            "rect": [
+                30, -9,
+                50,
+                50
+            ]
+        },
+        {
+            "type": "image",
+            "color": null,
+            "name": "symbols/demo/uiotos/icons/common/PenSettings-1.json",
+            "prefix": "icon0",
+            "rect": [
+                1.82176,
+                1.68581,
+                26.17824,
+                23.31419
+            ]
+        }
+    ]
+}

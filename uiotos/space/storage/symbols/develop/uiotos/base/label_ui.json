@@ -1,0 +1,133 @@
+{
+  "modified": "Sat Aug 24 2024 15:29:54 GMT+0800 (中国标准时间)",
+  "dataBindings": [
+    {
+      "attr": "symbol",
+      "valueType": "Image"
+    },
+    {
+      "attr": "borderLeft",
+      "valueType": "Boolean",
+      "defaultValue": true,
+      "description": "是否显示左边框。",
+      "group": "功能"
+    },
+    {
+      "attr": "borderTop",
+      "valueType": "Boolean",
+      "description": "是否显示上边框。"
+    },
+    {
+      "attr": "borderRight",
+      "valueType": "Boolean",
+      "description": "是否显示右边框。"
+    },
+    {
+      "attr": "borderDown",
+      "valueType": "Boolean",
+      "description": "是否显示下边框。"
+    },
+    {
+      "attr": "shadowBorder",
+      "valueType": "NumberArray",
+      "defaultValue": [
+        0,
+        0,
+        8
+      ],
+      "group": "外观",
+      "description": "阴影边框。\n<br>数组类型，比如0、0、8，作为边框\n<br>阴影显示的三个参数，可以分别调整。",
+      "extraInfo": "*"
+    },
+    {
+      "attr": "shadowColor",
+      "valueType": "Color",
+      "defaultValue": "rgba(55,125,255,0.50)",
+      "description": "阴影边框色。",
+      "extraInfo": "*"
+    },
+    {
+      "attr": "shadowEnabled",
+      "valueType": "Boolean",
+      "defaultValue": false,
+      "description": "阴影边框是否可见。",
+      "extraInfo": "*"
+    },
+    {
+      "attr": "text",
+      "valueType": "String",
+      "defaultValue": "文字",
+      "description": "标签文字。\n<br>可以为空，当勾选四周任何一边时，则为线条，折线、\n<br>框线，可用于显示在非绘图组件上层。比如文本框、\n<br>容器等组件，始终会遮盖绘图组件包括矩形、连线。"
+    },
+    {
+      "attr": "hAlign",
+      "valueType": "HAlignType",
+      "defaultValue": "left",
+      "description": "文字水平对齐方式。"
+    },
+    {
+      "attr": "vAlign",
+      "valueType": "VAlignType",
+      "defaultValue": "middle",
+      "description": "文字垂直对齐方式。"
+    },
+    {
+      "attr": "font",
+      "valueType": "Font",
+      "description": "文字字体。",
+      "defaultValue": "14px sans-serif, Arial"
+    },
+    {
+      "attr": "labelColor",
+      "valueType": "Color",
+      "defaultValue": "rgb(124,145,155)",
+      "description": "文字颜色。"
+    },
+    {
+      "attr": "background",
+      "valueType": "Color",
+      "defaultValue": null,
+      "description": "背景颜色。"
+    },
+    {
+      "attr": "borderColor",
+      "valueType": "Color",
+      "defaultValue": "rgb(124,145,155)",
+      "description": "边框线颜色。"
+    },
+    {
+      "attr": "borderWidth",
+      "valueType": "PositiveNumber",
+      "defaultValue": 3,
+      "description": "边框线宽度。"
+    },
+    {
+      "attr": "borderRadius",
+      "valueType": "NumberArray",
+      "defaultValue": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "description": "边框圆角半径。"
+    },
+    {
+      "attr": "padding",
+      "valueType": "NumberArray",
+      "defaultValue": [
+        2,
+        2,
+        2,
+        5
+      ],
+      "description": "四周间距。\n<br>数组类型，上、右、下、左，表示文字与\n<br>四周边框的距离。"
+    }
+  ],
+  "snapshotURL": "symbols/develop/uiotos/arranged/controls/forms_icon/标签.json",
+  "renderHTML": "__ht__function(data, gv, cache) {return __label_ui(data,gv,cache);}",
+  "width": 50,
+  "height": 20,
+  "pixelPerfect": false,
+  "comps": []
+}

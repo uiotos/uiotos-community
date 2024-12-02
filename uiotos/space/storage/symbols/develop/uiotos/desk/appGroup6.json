@@ -1,0 +1,442 @@
+{
+  "modified": "Wed Nov 22 2023 17:30:29 GMT+0800 (中国标准时间)",
+  "background": "rgb(32,37,46)",
+  "dataBindings": [
+    {
+      "attr": "bkg.background",
+      "valueType": "Color"
+    },
+    {
+      "attr": "text.text",
+      "valueType": "String",
+      "defaultValue": "应用组"
+    },
+    {
+      "attr": "text.color",
+      "valueType": "Color"
+    },
+    {
+      "attr": "text.font",
+      "valueType": "Font"
+    },
+    {
+      "attr": "desc.visible",
+      "valueType": "Boolean",
+      "defaultValue": false
+    },
+    {
+      "attr": "desc.text",
+      "valueType": "String"
+    },
+    {
+      "attr": "desc.color",
+      "valueType": "Color"
+    },
+    {
+      "attr": "desc.font",
+      "valueType": "Font"
+    },
+    {
+      "attr": "scale",
+      "valueType": "PositiveNumber",
+      "defaultValue": 1
+    },
+    {
+      "attr": "border.visible",
+      "valueType": "Boolean",
+      "defaultValue": false
+    },
+    {
+      "attr": "clicked",
+      "valueType": "Function",
+      "defaultValue": "__ht__function onClick(data,text,gv){\r\n    //单击变双击\r\n    gv.setCurrentSubGraph(data);\r\n    window.appNotifier.fire({\r\n        kind: 'toDesk',\r\n        para: {\r\n            type: 'breadCrumb',\r\n            data: {\r\n                name: text,         \r\n                action: 'add'  \r\n            }\r\n        }\r\n    })\r\n\r\n    if(data.ca('locked')){\r\n        alert('对不起，账号暂无权限')\r\n        return\r\n    }\r\n    //多个图标按钮在同一个node节点下时默认是互斥的tab模式！\r\n    if(data.getParent()){\r\n        let indextmp = null\r\n        data.getParent().getChildren().forEach((child,index)=>{\r\n            if(child.getId() != data.getId()){\r\n                child.a('back.forceVisible',false);\r\n                child.a('back.visible',false);\r\n            }else{\r\n                indextmp = index;\r\n            }\r\n            child.iv()\r\n        })\r\n        \r\n        if(data.a('bindTabview') != undefined){\r\n            let tabViewTag = data.a('bindTabview')[0],     //关联tabView的Tag标签名\r\n                tabIndexAttr = data.a('bindTabview')[1],   //选择当前页index的属性名\r\n                tabViewObj = data.dm().getDataByTag(tabViewTag);\r\n            if(tabViewObj){\r\n                tabViewObj.a(tabIndexAttr,indextmp);\r\n                //只有共同父节点存在、且绑定的tabView对象存在时，才会自动作为tab模式，点击会切换固定状态\r\n                data.a('back.forceVisible',true);\r\n            }\r\n        }\r\n    }\r\n}"
+    },
+    {
+      "attr": "onEnter",
+      "valueType": "Function",
+      "defaultValue": "__ht__function onEnter(data,text,graphView){\r\n    // data._popover.show();\r\n}"
+    },
+    {
+      "attr": "onLeave",
+      "valueType": "Function",
+      "defaultValue": "__ht__function onLeave(data,text,graphView){\r\n    // data._popover.hide();\r\n}"
+    },
+    {
+      "attr": "htmlUrl",
+      "valueType": "String"
+    },
+    {
+      "attr": "displayUrl",
+      "valueType": "String"
+    },
+    {
+      "attr": "previewURL",
+      "valueType": "String"
+    },
+    {
+      "attr": "locked",
+      "valueType": "Boolean"
+    },
+    {
+      "attr": "iconColor",
+      "valueType": "Color",
+      "name": "颜色",
+      "group": "图标"
+    },
+    {
+      "attr": "path",
+      "valueType": "Image",
+      "name": "名称",
+      "group": "图标"
+    },
+    {
+      "attr": "iconHeight",
+      "valueType": "PositiveNumber",
+      "name": "高度",
+      "group": "图标"
+    },
+    {
+      "attr": "iconWidth",
+      "valueType": "PositiveNumber",
+      "name": "宽度",
+      "group": "图标"
+    },
+    {
+      "attr": "iconType",
+      "valueType": "Level",
+      "defaultValue": 1,
+      "group": "图标",
+      "name": "风格"
+    },
+    {
+      "attr": "noEvent",
+      "valueType": "Boolean",
+      "defaultValue": false
+    },
+    {
+      "attr": "back.visible",
+      "valueType": "Boolean",
+      "defaultValue": false
+    },
+    {
+      "attr": "back.forceVisible",
+      "valueType": "Boolean",
+      "defaultValue": false
+    },
+    {
+      "attr": "bindTabview",
+      "valueType": "StringArray",
+      "defaultValue": [
+        "tabView",
+        "index"
+      ]
+    },
+    {
+      "attr": "icon-background",
+      "valueType": "String",
+      "defaultValue": "rgb(55,125,255)"
+    },
+    {
+      "attr": "sizeType",
+      "valueType": "Level",
+      "defaultValue": 0
+    },
+    {
+      "attr": "toolTip",
+      "valueType": "Multiline"
+    }
+  ],
+  "onUp": "__ht__function(event, data, view, point, width, height) {\nif(data.ca('noEvent')) return;\r\nlet cb = new Function('return ' + data.ca('clicked'))()\r\nreturn cb && cb(data,data.ca('text.text'),view)\n}",
+  "onEnter": "__ht__function(event, data, view, point, width, height) {\nif(data.ca('noEvent')) return;\r\ndata.ca('back.visible',true)\r\nview.getView().style.cursor = 'pointer'\r\n\r\nlet cb = new Function('return ' + data.ca('onEnter'))()\r\nreturn cb && cb(data,data.ca('text.text'),view)\n}",
+  "onLeave": "__ht__function(event, data, view, point, width, height) {\nif(data.ca('noEvent')) return;\r\nlet forceVisible = data.ca('back.forceVisible');\r\nif(forceVisible == undefined || forceVisible == false){\r\n    data.ca('back.visible',false)\r\n}\r\nview.getView().style.cursor = 'default'\r\n\r\nlet cb = new Function('return ' + data.ca('onLeave'))()\r\nreturn cb && cb(data,data.ca('text.text'),view)\n}",
+  "renderHTML": "__ht__function(data, gv, cache) {if(!cache.init){\r\n    cache.init = 'done'\r\n    let indextmp = 0;\r\n    data.dm().eachByBreadthFirst((child)=>{\r\n        if(child.getDisplayName() && child.getDisplayName().indexOf('appIcon') != -1){\r\n            indextmp += 1;\r\n            data.ca('icon' + indextmp + '.path',child.a('path'));\r\n            data.ca('icon' + indextmp + '.iconType',child.a('iconType'));\r\n            data.ca('icon' + indextmp + '.iconColor',child.a('iconColor'));\r\n            data.ca('icon' + indextmp + '.subIconVisible', true);\r\n        }\r\n    },data)\r\n    for(let i = indextmp + 1; i <= 6 ; i++){\r\n        data.ca('icon' + i + '.subIconVisible', false);\r\n    }\r\n    data.setToolTip(data.ca('toolTip'));\r\n\r\n    // data.dm().md(e => {\r\n    //     if(e.data == data){\r\n    //         // //event格式：\r\n    //         // {\r\n    //         //     property: 'name',//发生变化的属性\r\n    //         //     oldValue: 'oldValue',//旧值\r\n    //         //     newValue: 'newValue',''新值\r\n    //         //     data: data//发生变化的data\r\n    //         // }\r\n    //         switch(e.property){\r\n    //             case 'a:sizeType':\r\n    //                 for(i = 1;i <= 6; i++){\r\n    //                     if(i < 4){\r\n    //                         let attrtmp = 'icon' + i + '.iconRect';\r\n    //                         let recttmp =  data.ca(attrtmp);\r\n    //                         console.log(recttmp);\r\n    //                         data.ca(attrtmp, [recttmp[0] + newValue == 0 ? 17 : -17, recttmp[1],recttmp[2],recttmp[3]]);\r\n    //                     }else{\r\n    //                         data.ca('icon5.subIconVisible', newValue != 0);\r\n    //                         data.ca('icon6.subIconVisible', newValue != 0);\r\n    //                     }\r\n    //                 }\r\n    //                 break;\r\n    //         }\r\n    //     }\r\n    // })\r\n}}",
+  "width": 160,
+  "height": 190,
+  "interactive": true,
+  "pixelPerfect": false,
+  "comps": [
+    {
+      "type": "roundRect",
+      "background": "rgba(51,156,255,0.3)",
+      "borderColor": "#979797",
+      "gradient": "radial.center",
+      "gradientColor": "rgba(61,61,61,0)",
+      "visible": {
+        "func": "__ht__function(data, view) {\nlet visible = data.ca('visible')\r\n// if(data.a('locked')) visible = true\r\nlet forceVisible = data.ca('forceVisible') == true;\r\nreturn forceVisible ? true : visible\n}",
+        "value": false
+      },
+      "prefix": "back",
+      "rect": [
+        26.06732,
+        29.10189,
+        107.86536,
+        131.79622
+      ]
+    },
+    {
+      "type": "image",
+      "name": {
+        "func": "__ht__function(data, view) {\nvar color = data.ca('iconColor')\r\n    data.ca('icon-background',color) //除了背景颜色、图标边框及颜色等可以类似扩展添加\r\n    var path = data.ca('path')\r\n    var typeArr = ['light','light','regular','light'] //枚举下拉选择\r\n    var typetmp = typeArr[data.ca('iconType')]\r\n    if(path != undefined){\r\n        if(path.indexOf('.') == -1){ //名称模式\r\n            path = 'symbols/demo/uiotos/icons/' + typetmp + '/' + path + '.json'\r\n        }else if(path.indexOf(typetmp) == -1){//类型切换了\r\n            typeArr.forEach((curType,index)=>{\r\n                if(curType != typetmp){\r\n                    path = path.replace(curType,typetmp)\r\n                }\r\n            })\r\n        }\r\n    }\r\n    data.ca('path',path) //回写过去\r\n    return path\n}",
+        "value": "assets/demo/extra/desktop/logo_min.jpg"
+      },
+      "visible": false,
+      "displayName": "icon",
+      "scaleX": {
+        "func": "attr@scale",
+        "value": 1
+      },
+      "scaleY": {
+        "func": "attr@scale",
+        "value": 1
+      },
+      "rect": [
+        56.49765,
+        59.83863,
+        47.0047,
+        49.88901
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@text",
+        "value": "系统设置"
+      },
+      "align": "center",
+      "color": {
+        "func": "attr@color",
+        "value": "#ddd"
+      },
+      "font": {
+        "func": "attr@font",
+        "value": "18px Microsoft YaHei"
+      },
+      "layoutH": "leftright",
+      "layoutV": "topbottom",
+      "prefix": "text",
+      "displayName": "text",
+      "scaleX": {
+        "func": "attr@scale",
+        "value": 1
+      },
+      "scaleY": {
+        "func": "attr@scale",
+        "value": 1
+      },
+      "rect": [
+        45.83536,
+        128.87514,
+        68.32927,
+        19.29532
+      ]
+    },
+    {
+      "type": "image",
+      "name": {
+        "func": "__ht__function(data, view) {\nvar color = data.ca('iconColor')\r\n    data.ca('icon-background',color) //除了背景颜色、图标边框及颜色等可以类似扩展添加\r\n    var path = data.ca('path')\r\n    var typeArr = ['light','light','regular','light'] //枚举下拉选择\r\n    var typetmp = typeArr[data.ca('iconType')]\r\n    if(path != undefined){\r\n        if(path.indexOf('.') == -1){ //名称模式\r\n            path = 'symbols/demo/uiotos/icons/' + typetmp + '/' + path + '.json'\r\n        }else if(path.indexOf(typetmp) == -1){//类型切换了\r\n            typeArr.forEach((curType,index)=>{\r\n                if(curType != typetmp){\r\n                    path = path.replace(curType,typetmp)\r\n                }\r\n            })\r\n        }\r\n    }\r\n    data.ca('path',path) //回写过去\r\n    return path\n}",
+        "value": "symbols/demo/uiotos/icons/system/commodity-operate.json"
+      },
+      "visible": {
+        "func": "attr@subIconVisible",
+        "value": true
+      },
+      "prefix": "icon2",
+      "displayName": "icon",
+      "scaleX": {
+        "func": "attr@scale",
+        "value": 1
+      },
+      "scaleY": {
+        "func": "attr@scale",
+        "value": 1
+      },
+      "rect": {
+        "func": "attr@iconRect",
+        "value": [
+          67,
+          55.13607,
+          26,
+          26
+        ]
+      }
+    },
+    {
+      "type": "image",
+      "name": {
+        "func": "__ht__function(data, view) {\nvar color = data.ca('iconColor')\r\n    data.ca('icon-background',color) //除了背景颜色、图标边框及颜色等可以类似扩展添加\r\n    var path = data.ca('path')\r\n    var typeArr = ['light','light','regular','light'] //枚举下拉选择\r\n    var typetmp = typeArr[data.ca('iconType')]\r\n    if(path != undefined){\r\n        if(path.indexOf('.') == -1){ //名称模式\r\n            path = 'symbols/demo/uiotos/icons/' + typetmp + '/' + path + '.json'\r\n        }else if(path.indexOf(typetmp) == -1){//类型切换了\r\n            typeArr.forEach((curType,index)=>{\r\n                if(curType != typetmp){\r\n                    path = path.replace(curType,typetmp)\r\n                }\r\n            })\r\n        }\r\n    }\r\n    data.ca('path',path) //回写过去\r\n    return path\n}",
+        "value": "symbols/demo/uiotos/icons/system/message-center.json"
+      },
+      "visible": {
+        "func": "attr@subIconVisible",
+        "value": true
+      },
+      "prefix": "icon4",
+      "displayName": "icon",
+      "scaleX": {
+        "func": "attr@scale",
+        "value": 1
+      },
+      "scaleY": {
+        "func": "attr@scale",
+        "value": 1
+      },
+      "rect": {
+        "func": "attr@iconRect",
+        "value": [
+          33,
+          88.97008,
+          26,
+          26
+        ]
+      }
+    },
+    {
+      "type": "image",
+      "name": {
+        "func": "__ht__function(data, view) {\nvar color = data.ca('iconColor')\r\n    data.ca('icon-background',color) //除了背景颜色、图标边框及颜色等可以类似扩展添加\r\n    var path = data.ca('path')\r\n    var typeArr = ['light','light','regular','light'] //枚举下拉选择\r\n    var typetmp = typeArr[data.ca('iconType')]\r\n    if(path != undefined){\r\n        if(path.indexOf('.') == -1){ //名称模式\r\n            path = 'symbols/demo/uiotos/icons/' + typetmp + '/' + path + '.json'\r\n        }else if(path.indexOf(typetmp) == -1){//类型切换了\r\n            typeArr.forEach((curType,index)=>{\r\n                if(curType != typetmp){\r\n                    path = path.replace(curType,typetmp)\r\n                }\r\n            })\r\n        }\r\n    }\r\n    data.ca('path',path) //回写过去\r\n    return path\n}",
+        "value": "symbols/demo/uiotos/icons/system/commodity-operate.json"
+      },
+      "visible": {
+        "func": "attr@subIconVisible",
+        "value": true
+      },
+      "prefix": "icon1",
+      "displayName": "icon",
+      "scaleX": {
+        "func": "attr@scale",
+        "value": 1
+      },
+      "scaleY": {
+        "func": "attr@scale",
+        "value": 1
+      },
+      "rect": {
+        "func": "attr@iconRect",
+        "value": [
+          33,
+          55.13607,
+          26,
+          26
+        ]
+      }
+    },
+    {
+      "type": "image",
+      "name": {
+        "func": "__ht__function(data, view) {\nvar color = data.ca('iconColor')\r\n    data.ca('icon-background',color) //除了背景颜色、图标边框及颜色等可以类似扩展添加\r\n    var path = data.ca('path')\r\n    var typeArr = ['light','light','regular','light'] //枚举下拉选择\r\n    var typetmp = typeArr[data.ca('iconType')]\r\n    if(path != undefined){\r\n        if(path.indexOf('.') == -1){ //名称模式\r\n            path = 'symbols/demo/uiotos/icons/' + typetmp + '/' + path + '.json'\r\n        }else if(path.indexOf(typetmp) == -1){//类型切换了\r\n            typeArr.forEach((curType,index)=>{\r\n                if(curType != typetmp){\r\n                    path = path.replace(curType,typetmp)\r\n                }\r\n            })\r\n        }\r\n    }\r\n    data.ca('path',path) //回写过去\r\n    return path\n}",
+        "value": "symbols/demo/uiotos/icons/system/commodity-operate.json"
+      },
+      "visible": {
+        "func": "attr@subIconVisible",
+        "value": true
+      },
+      "prefix": "icon3",
+      "displayName": "icon",
+      "scaleX": {
+        "func": "attr@scale",
+        "value": 1
+      },
+      "scaleY": {
+        "func": "attr@scale",
+        "value": 1
+      },
+      "rect": {
+        "func": "attr@iconRect",
+        "value": [
+          101.16463,
+          55.13607,
+          26,
+          26
+        ]
+      }
+    },
+    {
+      "type": "image",
+      "name": {
+        "func": "__ht__function(data, view) {\nvar color = data.ca('iconColor')\r\n    data.ca('icon-background',color) //除了背景颜色、图标边框及颜色等可以类似扩展添加\r\n    var path = data.ca('path')\r\n    var typeArr = ['light','light','regular','light'] //枚举下拉选择\r\n    var typetmp = typeArr[data.ca('iconType')]\r\n    if(path != undefined){\r\n        if(path.indexOf('.') == -1){ //名称模式\r\n            path = 'symbols/demo/uiotos/icons/' + typetmp + '/' + path + '.json'\r\n        }else if(path.indexOf(typetmp) == -1){//类型切换了\r\n            typeArr.forEach((curType,index)=>{\r\n                if(curType != typetmp){\r\n                    path = path.replace(curType,typetmp)\r\n                }\r\n            })\r\n        }\r\n    }\r\n    data.ca('path',path) //回写过去\r\n    return path\n}",
+        "value": "symbols/demo/uiotos/icons/system/commodity-operate.json"
+      },
+      "visible": {
+        "func": "attr@subIconVisible",
+        "value": true
+      },
+      "prefix": "icon5",
+      "displayName": "icon",
+      "scaleX": {
+        "func": "attr@scale",
+        "value": 1
+      },
+      "scaleY": {
+        "func": "attr@scale",
+        "value": 1
+      },
+      "rect": [
+        66.99999,
+        88.97008,
+        26,
+        26
+      ]
+    },
+    {
+      "type": "image",
+      "name": {
+        "func": "__ht__function(data, view) {\nvar color = data.ca('iconColor')\r\n    data.ca('icon-background',color) //除了背景颜色、图标边框及颜色等可以类似扩展添加\r\n    var path = data.ca('path')\r\n    var typeArr = ['light','light','regular','light'] //枚举下拉选择\r\n    var typetmp = typeArr[data.ca('iconType')]\r\n    if(path != undefined){\r\n        if(path.indexOf('.') == -1){ //名称模式\r\n            path = 'symbols/demo/uiotos/icons/' + typetmp + '/' + path + '.json'\r\n        }else if(path.indexOf(typetmp) == -1){//类型切换了\r\n            typeArr.forEach((curType,index)=>{\r\n                if(curType != typetmp){\r\n                    path = path.replace(curType,typetmp)\r\n                }\r\n            })\r\n        }\r\n    }\r\n    data.ca('path',path) //回写过去\r\n    return path\n}",
+        "value": "symbols/demo/uiotos/icons/system/message-center.json"
+      },
+      "visible": {
+        "func": "attr@subIconVisible",
+        "value": true
+      },
+      "prefix": "icon6",
+      "displayName": "icon",
+      "scaleX": {
+        "func": "attr@scale",
+        "value": 1
+      },
+      "scaleY": {
+        "func": "attr@scale",
+        "value": 1
+      },
+      "rect": [
+        101,
+        88.97008,
+        26,
+        26
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@text",
+        "value": "描述"
+      },
+      "align": "center",
+      "color": {
+        "func": "attr@color",
+        "value": "#ddd"
+      },
+      "font": {
+        "func": "attr@font",
+        "value": "18px Microsoft YaHei"
+      },
+      "layoutH": "leftright",
+      "layoutV": "topbottom",
+      "prefix": "desc",
+      "displayName": "text",
+      "scaleX": {
+        "func": "attr@scale",
+        "value": 1
+      },
+      "scaleY": {
+        "func": "attr@scale",
+        "value": 1
+      },
+      "rect": [
+        46,
+        163.27977,
+        68.32927,
+        19.29532
+      ]
+    }
+  ]
+}

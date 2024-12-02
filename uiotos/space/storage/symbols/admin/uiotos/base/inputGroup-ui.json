@@ -1,0 +1,201 @@
+{
+  "modified": "Sat Aug 24 2024 15:45:18 GMT+0800 (中国标准时间)",
+  "dataBindings": [
+    {
+      "attr": "symbol",
+      "valueType": "Image",
+      "description": "组件源（备选）。\n<br>当组件源（image）为非字符串格式，显示\n<br>[Object]时，可以通过这里备选地址，双击\n<br>打开组件配置。"
+    },
+    {
+      "attr": "value",
+      "valueType": "String",
+      "description": "当前值。\n<br>组合输入框的值。",
+      "group": "功能"
+    },
+    {
+      "attr": "instantTrigger",
+      "valueType": "Boolean",
+      "defaultValue": true,
+      "description": "是否即时触发。\n<br>勾选后，输入时就会对外触发onChange变化事件。",
+      "extraInfo": "★"
+    },
+    {
+      "attr": "prefixList",
+      "valueType": "StringArray",
+      "defaultValue": [
+        "http://",
+        "https://",
+        "ws://"
+      ],
+      "description": "下拉的前缀只读显示选项，当无下拉内容为空时不可见。"
+    },
+    {
+      "attr": "suffixList",
+      "valueType": "StringArray",
+      "defaultValue": [
+        ".com",
+        ".net",
+        ".cn"
+      ],
+      "description": "下拉的前缀只读显示选项，当无下拉内容为空时不可见。"
+    },
+    {
+      "attr": "userData",
+      "valueType": "Object",
+      "defaultValue": []
+    },
+    {
+      "attr": "onChange",
+      "valueType": "Function",
+      "extraInfo": {
+        "arguments": [
+          "data",
+          "gv",
+          "cache",
+          "value"
+        ]
+      },
+      "description": "变化事件函数。\n<br>默认为内容改变才触发，当勾选即时触发\n<br>（instantTrigger）时，输入时就会触发本\n<br>事件。"
+    },
+    {
+      "attr": "fixedHeight",
+      "valueType": "PositiveNumber",
+      "defaultValue": 35,
+      "group": "外观",
+      "extraInfo": "★"
+    },
+    {
+      "attr": "preSufWidth",
+      "valueType": "NumberArray",
+      "defaultValue": [
+        65,
+        60
+      ],
+      "description": "前缀（索引0）、后缀（索引1）显示的宽度。"
+    },
+    {
+      "attr": "background",
+      "valueType": "Color",
+      "description": "背景颜色。"
+    },
+    {
+      "attr": "iconPath",
+      "valueType": "Image",
+      "defaultValue": "symbols/demo/uiotos/icons/light/search.json",
+      "description": "图标地址。\n<br>输入框默左侧为“搜索”图标。",
+      "extraInfo": "*"
+    },
+    {
+      "attr": "iconColor",
+      "valueType": "Color",
+      "defaultValue": "rgb(213,213,213)",
+      "description": "输入框图标颜色。\n<br>对于内置部件中通过工具转换成的图标，\n<br>为支持动态修改背景颜色的矢量形式。",
+      "extraInfo": "*"
+    },
+    {
+      "attr": "iconSize",
+      "valueType": "NumberArray",
+      "defaultValue": [
+        20,
+        15
+      ],
+      "description": "图标尺寸。\n<br>数组形式，索引依次为宽度、高度值。",
+      "extraInfo": "*"
+    },
+    {
+      "attr": "iconTextGap",
+      "valueType": "Number",
+      "defaultValue": 5,
+      "description": "图标文字间距。",
+      "extraInfo": "*"
+    },
+    {
+      "attr": "hoverIcon",
+      "valueType": "Image",
+      "description": "鼠标滑过时的图标。",
+      "extraInfo": "*"
+    },
+    {
+      "attr": "borderWidth",
+      "valueType": "Number",
+      "defaultValue": 1,
+      "description": "边框宽度。"
+    },
+    {
+      "attr": "borderColor",
+      "valueType": "Color",
+      "defaultValue": "rgb(213,213,213)",
+      "description": "边框颜色。"
+    },
+    {
+      "attr": "borderRadius",
+      "valueType": "Number",
+      "defaultValue": 3,
+      "description": "边框圆角。"
+    },
+    {
+      "attr": "font",
+      "valueType": "Font",
+      "description": "字体。"
+    },
+    {
+      "attr": "color",
+      "valueType": "Color",
+      "defaultValue": "rgb(0,0,0)",
+      "description": "文字颜色。"
+    },
+    {
+      "attr": "placeholder",
+      "valueType": "String",
+      "defaultValue": "请输入",
+      "description": "未输入时默认占位符文字。",
+      "extraInfo": "★"
+    },
+    {
+      "attr": "bindControlsTag",
+      "valueType": "StringArray",
+      "group": "连线"
+    },
+    {
+      "attr": "bindControlsAttr",
+      "valueType": "StringArray"
+    },
+    {
+      "attr": "bindControlsVal",
+      "valueType": "ObjectArray"
+    },
+    {
+      "attr": "paramControlTag",
+      "valueType": "StringArray"
+    },
+    {
+      "attr": "paramControlAttr",
+      "valueType": "StringArray"
+    },
+    {
+      "attr": "paramsGenerator",
+      "valueType": "Function",
+      "defaultValue": "__ht__function(data, val, index, node,oldVal,form) {//绑定组索引对应的函数处理，用来动态生成复杂的参数变量传入\r\nswitch(index){\r\n    case 0:\r\n        break;\r\n    case 1:\r\n        break;\r\n    case 2:\r\n        break;\r\n    default:\r\n        break;\r\n}\r\n\r\nreturn val;}",
+      "extraInfo": {
+        "arguments": [
+          "data",
+          "val",
+          "index",
+          "node",
+          "oldVal",
+          "form"
+        ]
+      },
+      "description": "操作过滤函数。\n<br>所有连线对外操作执行之前，都会经过该函数\n<br>过滤处理，通常无需操作。可以做自定义逻辑。\n<br>其中对相应索引index下直接return返回undefined\n<br>时，将忽略掉指定索引连线的执行触发。"
+    }
+  ],
+  "snapshotURL": "symbols/develop/uiotos/arranged/controls/forms_icon/输入组合框.json",
+  "renderHTML": "__ht__function(data, gv, cache) {return __inputGroup_ui(data, gv, cache);}",
+  "width": 275,
+  "height": 35,
+  "fitSize": true,
+  "scrollable": true,
+  "interactive": true,
+  "pixelPerfect": false,
+  "comps": []
+}

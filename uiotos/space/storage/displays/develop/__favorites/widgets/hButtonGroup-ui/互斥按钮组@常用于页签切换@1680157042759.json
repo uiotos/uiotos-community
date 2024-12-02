@@ -1,0 +1,81 @@
+{
+    "v": "7.3.3",
+    "p": {
+        "autoAdjustIndex": true,
+        "hierarchicalRendering": false
+    },
+    "d": [{
+        "c": "ht.Node",
+        "i": 5210,
+        "p": {
+            "displayName": "hButtonGroup-ui",
+            "toolTip": "常用于页签切换",
+            "tag": "hButtonGroup-ui1",
+            "dataBindings": {
+                "a": {
+                    "select": {
+                        "id": "iotos.form",
+                        "idinfo": "",
+                        "isTplBinded": false,
+                        "func": "function formParser(rawData) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+                    },
+                    "buttons": {
+                        "id": "iotos.form",
+                        "idinfo": "",
+                        "isTplBinded": false,
+                        "func": "function formParser(rawData) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+                    }
+                }
+            },
+            "image": "symbols/develop/uiotos/base/hButtonGroup-ui.json",
+            "position": {
+                "x": -346.80989,
+                "y": 1017.73333
+            },
+            "width": 221.86327,
+            "height": 25
+        },
+        "s": {
+            "interactive": true,
+            "image.stretch": "uniform",
+            "label.position": 14,
+            "label.offset.x": -10,
+            "label.offset.y": 0,
+            "label.color": "rgb(61,61,61)",
+            "2d.movable": false,
+            "layout.h": "left",
+            "layout.v": "top",
+            "fullscreen": "fill",
+            "fullscreen.gap": 0
+        },
+        "a": {
+            "buttons": [
+                "员工",
+                "驻点",
+                "访客",
+                "物管"
+            ],
+            "simpleLineStyle": true,
+            "gap": 38,
+            "radius": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "textColor": [
+                "rgb(61,61,61)",
+                "rgb(51,153,255)"
+            ],
+            "select": 0,
+            "bindControlsTag": [],
+            "bindControlsAttr": [],
+            "bindControlsVal": [],
+            "paramControlTag": [],
+            "paramControlAttr": [],
+            "paramsGenerator": "function paramsGenerator(data, val, index, node, oldVal, form) {\r\n    //绑定组索引对应的函数处理，用来动态生成复杂的参数变量传入\r\n    switch (index) {\r\n        case 0:\r\n            break;\r\n        case 1:\r\n            break;\r\n        case 2:\r\n            break;\r\n        default:\r\n            break;\r\n    }\r\n    return val;\r\n}",
+            "bindTabview": "tabView",
+            "borderWidth": 1
+        }
+    }]
+}

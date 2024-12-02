@@ -1,0 +1,109 @@
+{
+    "modified": "Sun Aug 28 2022 14:18:32 GMT+0800 (中国标准时间)",
+    "background": "rgb(32,37,46)",
+    "dataBindings": [{
+            "attr": "fontNode",
+            "valueType": "Font",
+            "defaultValue": "12px Microsoft YaHei"
+        },
+        {
+            "attr": "fontContent",
+            "valueType": "Font",
+            "defaultValue": "12px Microsoft YaHei"
+        },
+        {
+            "attr": "datas",
+            "valueType": "Object",
+            "defaultValue": [{
+                    "icon": "symbols/demo/uiotos/icons/light/home.json",
+                    "name": "aaa",
+                    "messages": [{
+                        "text": "132.1",
+                        "background": "blue"
+                    }],
+                    "children": [{
+                            "icon": "imgs/home.png",
+                            "name": "aaa.1"
+                        },
+                        {
+                            "icon": "imgs/home.png",
+                            "name": "aaa.2",
+                            "background": "#ed6b75",
+                            "children": [{
+                                    "name": "aaa.1.1",
+                                    "messages": [{
+                                        "text": "1",
+                                        "background": "blue"
+                                    }]
+                                },
+                                {
+                                    "name": "aaa.1.2"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "icon": "symbols/demo/uiotos/icons/light/home.json",
+                    "name": "bbb",
+                    "children": [{
+                        "icon": "imgs/home.png",
+                        "name": "bbb.1",
+                        "messages": [{
+                                "text": "1",
+                                "background": "blue"
+                            },
+                            {
+                                "text": "2",
+                                "background": "blue"
+                            }
+                        ],
+                        "children": [{
+                                "name": "bbb.1.1",
+                                "children": [{
+                                    "icon": "imgs/home.png",
+                                    "name": "bbb.1.1.1",
+                                    "children": [{
+                                            "name": "bbb.1.1.1.1"
+                                        },
+                                        {
+                                            "name": "bbb.1.1.1.2"
+                                        }
+                                    ]
+                                }]
+                            },
+                            {
+                                "name": "bbb.1.2"
+                            }
+                        ]
+                    }]
+                },
+                {
+                    "icon": "symbols/demo/uiotos/icons/light/home.json",
+                    "name": "ccc",
+                    "children": [{
+                        "icon": "imgs/home.png",
+                        "name": "ccc.1",
+                        "children": [{
+                                "name": "ccc.1.1"
+                            },
+                            {
+                                "name": "ccc.1.2"
+                            }
+                        ]
+                    }]
+                }
+            ]
+        },
+        {
+            "attr": "loadStyle",
+            "valueType": "Boolean",
+            "defaultValue": true
+        }
+    ],
+    "renderHTML": "__ht__function(data, gv, cache) {if (!cache.obj) {\r\n    function init() {\r\n        var dataModel = new ht.DataModel(),\r\n            sidebar = new ht.ui.Sidebar(dataModel);\r\n            \r\n        function initStyle(style){\r\n            ht.Default.clearLoadedUIStyles();\r\n            // ht.Default.removeLoadedUIStyle('light');\r\n            if(style){\r\n                ht.Default.loadUIStyle('light','/custom/libs/sidebar.style', function() {\r\n                    ht.Default.loadUIStyle('rightPopupTree', '/custom/libs/sidebar.style', function() {\r\n                        // 样式是异步加载的，需要在加载完成的回调函数里刷新页面中的组件\r\n                        ht.Default.invalidateUIStyles();\r\n                    });\r\n                });\r\n            }else{\r\n                ht.Default.invalidateUIStyles();\r\n            }\r\n        }\r\n\r\n        //递归加载菜单树\r\n        function initData(dataArr,dm,node = null){\r\n            for (var i = 0; i < dataArr.length; i++) {\r\n                var nodetmp = new ht.Node();\r\n                if(node) {\r\n                    nodetmp.setParent(node);\r\n                }\r\n                dataArr[i].name && nodetmp.setName(dataArr[i].name);\r\n                dataArr[i].icon && nodetmp.s('icon', dataArr[i].icon);\r\n                dataArr[i].messages && nodetmp.s('messages',dataArr[i].messages);\r\n                dataArr[i].children && initData(dataArr[i].children,dm,nodetmp);\r\n                dm.add(nodetmp);\r\n            };\r\n        }\r\n\r\n        initData(data.ca('datas'),dataModel);\r\n        initStyle(data.ca('loadStyle'));\r\n        data.dm().md(e => {\r\n            if(e.data == data){\r\n                switch(e.property){\r\n                    case 'a:datas':\r\n                        dataModel.clear();\r\n                        initData(data.ca('datas'),dataModel);\r\n                        break;\r\n                    case 'a:loadStyle':\r\n                        initStyle(data.ca('loadStyle'));\r\n                        break;\r\n                }\r\n            }\r\n        })\r\n        \r\n        sidebar.setStyle('light');\r\n\r\n        return sidebar\r\n    }\r\n\r\n    var obj = cache.obj = init()\r\n    \r\n    obj.layoutHTML = function () {\r\n        gv.layoutHTML(data, obj, runningMode());\r\n    }\r\n}\r\n\r\nreturn cache.obj;}",
+    "width": 200,
+    "height": 500,
+    "pixelPerfect": false,
+    "comps": []
+}

@@ -1,0 +1,287 @@
+{
+  "modified": "Sat Aug 24 2024 13:33:13 GMT+0800 (中国标准时间)",
+  "dataBindings": [
+    {
+      "attr": "symbol",
+      "valueType": "Image"
+    },
+    {
+      "attr": "open",
+      "valueType": "Boolean",
+      "defaultValue": true,
+      "group": "功能",
+      "description": "是否开启。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#zTGOK\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>"
+    },
+    {
+      "attr": "textOpen",
+      "valueType": "String",
+      "defaultValue": "开启",
+      "description": "开启状态下的文本。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#Xug5s\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>"
+    },
+    {
+      "attr": "textClose",
+      "valueType": "String",
+      "defaultValue": "关闭",
+      "description": "关闭状态下的文本。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#soWVP\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>"
+    },
+    {
+      "attr": "textVisible",
+      "valueType": "Boolean",
+      "defaultValue": true,
+      "description": "是否显示文本。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#abjNe\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+      "extraInfo": "★"
+    },
+    {
+      "attr": "userData",
+      "valueType": "Object",
+      "description": "",
+      "defaultValue": []
+    },
+    {
+      "attr": "onOpen",
+      "valueType": "Function",
+      "description": "打开时触发。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#DpmVm\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+      "extraInfo": {
+        "arguments": [
+          "data",
+          "gv",
+          "cache",
+          "value",
+          "extra"
+        ]
+      }
+    },
+    {
+      "attr": "onClose",
+      "valueType": "Function",
+      "description": "关闭时触发。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#zEJsm\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+      "extraInfo": {
+        "arguments": [
+          "data",
+          "gv",
+          "cache",
+          "value",
+          "extra"
+        ],
+        "classify": "★"
+      }
+    },
+    {
+      "attr": "onChange",
+      "valueType": "Function",
+      "extraInfo": {
+        "arguments": [
+          "data",
+          "gv",
+          "cache",
+          "value",
+          "extra"
+        ]
+      },
+      "description": "变化时触发。\n<br>初始加载会发生。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#oybrJ\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>"
+    },
+    {
+      "attr": "background",
+      "valueType": "Color",
+      "defaultValue": "rgb(0,199,7)",
+      "description": "背景颜色。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#Q7vzO\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+      "group": "外观"
+    },
+    {
+      "attr": "closedColor",
+      "valueType": "Color",
+      "defaultValue": null,
+      "description": "关闭状态下的颜色。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#w8HwI\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>"
+    },
+    {
+      "attr": "back.borderWidth",
+      "valueType": "Number",
+      "defaultValue": 1,
+      "description": "边框宽度。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#QnYc9\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+      "extraInfo": "★"
+    },
+    {
+      "attr": "back.radius",
+      "valueType": "Number",
+      "defaultValue": 18,
+      "description": "圆角半径。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#LvorN\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>"
+    },
+    {
+      "attr": "dot.dotScale",
+      "valueType": "Number",
+      "defaultValue": 1,
+      "description": "圆点缩放比例。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#AlwbN\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+      "extraInfo": "★"
+    },
+    {
+      "attr": "textScale",
+      "valueType": "Number",
+      "defaultValue": 1,
+      "description": "文本缩放比例。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#AlwbN\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+      "extraInfo": "★"
+    },
+    {
+      "attr": "font",
+      "valueType": "Font",
+      "defaultValue": "12px sans-serif, Arial",
+      "description": "字体大小设置。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#odwUM\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>"
+    },
+    {
+      "attr": "gapsAdjust",
+      "valueType": "NumberArray",
+      "defaultValue": [
+        0,
+        0
+      ],
+      "description": "间隙调整，数组类型。\n<br>索引0代表文字与圆点之间的间隙。\n<br>索引1功能暂未开放。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#MjEq4\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+      "extraInfo": "★"
+    },
+    {
+      "attr": "bindControlsTag",
+      "valueType": "StringArray",
+      "group": "连线"
+    },
+    {
+      "attr": "bindControlsAttr",
+      "valueType": "StringArray"
+    },
+    {
+      "attr": "bindControlsVal",
+      "valueType": "ObjectArray",
+      "description": ""
+    },
+    {
+      "attr": "paramControlTag",
+      "valueType": "StringArray"
+    },
+    {
+      "attr": "paramControlAttr",
+      "valueType": "StringArray"
+    },
+    {
+      "attr": "paramsGenerator",
+      "valueType": "Function",
+      "defaultValue": "__ht__function(data, val, index, node,oldVal,form,type,inner) {//绑定组索引对应的函数处理，用来动态生成复杂的参数变量传入\r\nswitch(index){\r\n    case 0:\r\n        break;\r\n    case 1:\r\n        break;\r\n    case 2:\r\n        break;\r\n    default:\r\n        break;\r\n}\r\n\r\nreturn val;}",
+      "extraInfo": {
+        "arguments": [
+          "data",
+          "val",
+          "index",
+          "node",
+          "oldVal",
+          "form",
+          "type",
+          "inner"
+        ]
+      }
+    }
+  ],
+  "snapshotURL": "symbols/develop/uiotos/arranged/controls/forms_icon/开关.json",
+  "onUp": "__ht__function(event, data, view, point, width, height) {\ndata.ca('open',!data.ca('open'));\n}",
+  "onEnter": "__ht__function(event, data, view, point, width, height) {\nview.getView().style.cursor = 'pointer'\n}",
+  "onLeave": "__ht__function(event, data, view, point, width, height) {\nview.getView().style.cursor = 'default'\n}",
+  "renderHTML": "__ht__function(data, gv, cache) {__switch_lite(data,gv,cache);}",
+  "width": 82,
+  "height": 35,
+  "pixelPerfect": false,
+  "comps": [
+    {
+      "type": "roundRect",
+      "background": {
+        "func": "attr@background",
+        "value": "rgb(0,199,7)"
+      },
+      "borderWidth": {
+        "func": "attr@borderWidth",
+        "value": 1
+      },
+      "borderColor": {
+        "func": "attr@borderColor",
+        "value": "rgb(0,199,7)"
+      },
+      "borderWidthAbsolute": true,
+      "cornerRadius": {
+        "func": "attr@radius",
+        "value": 18
+      },
+      "layoutH": "center",
+      "layoutV": "center",
+      "prefix": "back",
+      "displayName": "n（n1）",
+      "rect": [
+        2.59922,
+        1,
+        76.80155,
+        33
+      ]
+    },
+    {
+      "type": "oval",
+      "background": {
+        "func": "attr@background",
+        "value": "rgb(255,255,255)"
+      },
+      "borderColor": "#979797",
+      "layoutH": "center",
+      "layoutV": "center",
+      "prefix": "dot",
+      "scaleX": {
+        "func": "attr@dotScale",
+        "value": 1
+      },
+      "scaleY": {
+        "func": "attr@dotScale",
+        "value": 1
+      },
+      "rect": {
+        "func": "attr@rect",
+        "value": [
+          48.5,
+          5,
+          25,
+          25
+        ]
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@text",
+        "value": "开启"
+      },
+      "align": "center",
+      "color": {
+        "func": "attr@textColor",
+        "value": "rgb(255,255,255)"
+      },
+      "font": {
+        "func": "attr@font",
+        "value": "12px arial, sans-serif"
+      },
+      "visible": {
+        "func": "attr@textVisible",
+        "value": true
+      },
+      "layoutH": "center",
+      "layoutV": "center",
+      "displayName": "打开",
+      "scaleX": {
+        "func": "attr@textScale",
+        "value": 1
+      },
+      "scaleY": {
+        "func": "attr@textScale",
+        "value": 1
+      },
+      "rect": {
+        "func": "attr@textRect",
+        "value": [
+          15.44891,
+          9.5,
+          30,
+          18
+        ]
+      }
+    }
+  ]
+}
