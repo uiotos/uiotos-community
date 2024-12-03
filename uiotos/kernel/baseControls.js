@@ -595,7 +595,7 @@ function __combobox_ui(data, gv, cache) {
                     'a:selectedText': nameTextTyped
                 }, true, true, null, false);
             }
-            i.formEventBubblingUpper(data, gv, cache, 'onChange', {
+            !data._i_setValueFiedOnly && i.formEventBubblingUpper(data, gv, cache, 'onChange', {
                 //230220-18:11，增加对list模式下拉的支持，跟tree的处理不一样！且纯列表模式下，如果内容为数字，会被自动转换成字符串！
                 'a:value': valtmp,
                 'a:selectedID': valueIdTyped,
@@ -689,6 +689,7 @@ function __combobox_ui(data, gv, cache) {
             a:open|\
             a:defaultIndex|\
             a:value": (e) => {
+                if(e.property == 'a:value' && data._i_clearValueOnly) return;
                 //3）统一操作
                 //240727，之前为什么限制仅编辑状态？这会导致连线操作下拉，运行状态下不凑效！！
                 /*!runningMode() && */_i.setTimeout(() => {
@@ -710,6 +711,11 @@ function __combobox_ui(data, gv, cache) {
                 i._labelLayout(data, gv, cache, e);
             },
             "a:datas|a:hasNoneItem|a:noneInfo": (e) => {
+                if(e.property == 'a:hasNoneItem' && e.newValue && e.oldValue ==  '__init__'){
+                    data._i_clearValueOnly = true;
+                    data.ca('value','');
+                    data._i_clearValueOnly = undefined;
+                }
                 dropDownPropsInit(true);
             },
             'a:disabled': e => { //230918，禁用，此时无法下拉、无法输入（自动勾选readOnly）
@@ -744,7 +750,7 @@ function __combobox_ui(data, gv, cache) {
                 data.ca('color')[1] = e.newValue;
                 i.update(data,'colors',data.ca('color'));
             }
-        }, ['a:background', 'a:readOnly', 'a:disabled', 'a:defaultIndex', 'a:hasNoneItem'], null, combobox, e => { //240701，最后一个cb，改到导数第二个cb，因为最后一个是children的！
+        }, ['a:hasNoneItem','a:background', 'a:readOnly', 'a:disabled', 'a:defaultIndex'], null, combobox, e => { //240701，最后一个cb，改到导数第二个cb，因为最后一个是children的！
             //label与组件水平、垂直对齐布局
             i._labelLayout(data, gv, cache, e);
         });
@@ -877,7 +883,9 @@ function __combobox_ui(data, gv, cache) {
         }
 
         try {
+            data._i_setValueFiedOnly = true;   //241014，避免初始加载，这里也导致on:value响应，导致连线触发！此时还不是默认的value值！
             cache.combobox.setValueField(hasValueField ? valueFieldtmp : cache.combobox.getDisplayField());
+            data._i_setValueFiedOnly = undefined;
         } catch (error) {
             console.error(error);
         }
@@ -1184,8 +1192,7 @@ function __coordgis_ui(data, gv, cache) {
                 __initMapTile();
             });
 
-            data.dm().md(e => {
-                if (e.data == data) {
+            _i.md(data, gv, cache, {
                     // //event格式：
                     // {
                     //     property: 'name',//发生变化的属性
@@ -1193,30 +1200,26 @@ function __coordgis_ui(data, gv, cache) {
                     //     newValue: 'newValue',''新值
                     //     data: data//发生变化的data
                     // }
-                    switch (e.property) {
-                        case 'a:bindControlsVal': //230909，静态值修改后，配置值能体现在连线的toolTip上。对于i.md()可以省去这里的case，对于dm().md()的需要手动加上！
-                            _i.__bindControlsValUpdate(e);
-                            break;
-                        case 'a:zoom':
+                'a:zoom':e=>{
                             cache.map && cache.map.setZoom(data.ca('zoom'));
-                            break;
-                        case 'a:default': //暂不支持编辑时即使切换选择，需要选择后保存，再加载才行，主要是leaflet的map对象操作和反初始化api没找到！还不熟
-                            break;
-                        case 'a:coord':
+                },
+                'a:default': e=>{//暂不支持编辑时即使切换选择，需要选择后保存，再加载才行，主要是leaflet的map对象操作和反初始化api没找到！还不熟
+                },
+                'a:coord': e=>{
                             let arrtmp = __getCoord();
                             if (!arrtmp) return;
                             arrtmp.reverse();
                             cache.map && cache.map.flyTo(arrtmp); //230315，gis组件支持的是lat维度在前
                             cache.map && updateMarker(arrtmp.join(','));
-                            break;
-                        case 'a:latLonAlign':
+                },
+                'a:latLonAlign': e=>{
                             //2303115，此前地图组件mark标定经纬度的数组数序，跟天地图的经纬度顺序是反着的，属性默认是"维度,经度"，现在加上读写属性，用来动态确定coord属性值的意义，是经度在前还是维度在前！
                             i.fpAttrs(data, ['coord', 'markerSet']);
-                            break;
-                        case 'a:server':
+                },
+                'a:server': e=>{
                             cache.titleLayer.setUrl(data.ca('server'));
-                            break;
-                        case 'a:markerSet':
+                },
+                'a:markerSet': e=>{
                             if (e.newValue) {
                                 /*支持数组或元素以高德地图查询返回格式的字段，示例如下：
                                 {
@@ -1263,9 +1266,8 @@ function __coordgis_ui(data, gv, cache) {
                                 }
 
                             }
-                            break;
-                        case 'a:trigger':
-                        case 'a:search':
+                },
+                'a:trigger|a:trigger|a:search': e=>{
                             // 高德地图查询周边
                             data.ca('results', []); //存放结果的属性先清空
                             data.ca('error', undefined);
@@ -1303,14 +1305,12 @@ function __coordgis_ui(data, gv, cache) {
                             }
                             //230315，data.ca('coord)改成__getCoord().reverse()，只是为了兼容代码，实际上高德地图接受的就是经度在前，下面函数内还是会做调换的！
                             __getCoord() && __aMapSearchNearBy(__getCoord().reverse().join(','), data.ca('radius'), data.ca('search')); //第二个参数城市，可以不传，经纬度已经精准知道位置了
-                            break;
-                    }
                 }
-            });
+            }, [], null, null, null);
             return obj;
         }
 
-        var obj = cache.obj = init()
+        var obj = cache.obj = init();
         obj.style['z-index'] = 0;  
         i.layoutHTML(obj, data, gv, cache);
     }
@@ -1406,8 +1406,9 @@ function __dateRangePicker_ui(data, gv, cache) {
                         values[idx] = val.split(' ')[1]
                     }
                 });
-                valuetmp = values.join(' ~ ');
-                let currentValueShow = data.ca('mode') == 'single' ? values[0].trim() : valuetmp
+                // valuetmp = values.join(' ~ ');
+                valuetmp = values[0].trim() + (values[1] ? (' ~ ' + values[1].trim()) : '');
+                let currentValueShow = data.ca('mode') == 'single' && values[0] ? values[0].trim() : valuetmp
                 i.formEventBubblingUpper(data, gv, cache, null, {
                     'a:value': currentValueShow,
                     'a:timeFrom': data.ca('mode') == 'single' ? currentValueShow : values && values[0] && values[0].trim(),
@@ -1415,7 +1416,7 @@ function __dateRangePicker_ui(data, gv, cache) {
                 }, true);
 
                 //2312009，支持只获取日期或时间
-                if (data.ca('mode') != 'single') data._i_backWriteControlVal = true;
+                // if (data.ca('mode') != 'single') data._i_backWriteControlVal = true;
                 control.setValue(currentValueShow);
             }
         })
@@ -1514,11 +1515,15 @@ function __dateRangePicker_ui(data, gv, cache) {
                 等到顶层加载完毕后再初始化执行一次！*/
                 'a:mode': '__init__'
             },
-            'a:value', 'a:labelText', 'a:background', 'a:readOnly', 'a:disabled'
+            data.ca('periodToNow') ? null : 'a:value', 'a:labelText', 'a:background', 'a:readOnly', 'a:disabled'
         ], null, cache.control, e => {
             //label与组件水平、垂直对齐布局
             i._labelLayout(data, gv, cache, e);
         });
+        if(data.ca('periodToNow')){
+            let periodTmp = i.getTimePeriod(data.ca('periodToNow'));
+            i.update(data,'a:value', periodTmp[0] + ' ~ ' + periodTmp[1]);
+        }
     }
 
     //231006，发现得放到这里，否则切换时，内嵌标签会不显示。
@@ -2443,7 +2448,6 @@ function __input_ui(data, gv, cache) {
         //230806，全部事件注册到bindEvents属性中，新连线操作下拉，会成为统一下拉列表的选项
         data.ca('bindEvents', ['*', 'onChange', 'onClear', 'onEnter']);
         textField.on('p:value', v => {
-            //241110，如果下拉选择类型为数字，运行时输入只能是数字，当然值也要转换成数字。实测发现此时进来还是字符串，因此，强制转换！
             if(data.ca('type') == 'number') v.newValue = Number(v.newValue);
 
             //231126，如果初始值时数字，而输入值是数字的字符串，那么会自动将数字的字符串自动转换成数字，否则不转换！
@@ -2552,7 +2556,7 @@ function __input_ui(data, gv, cache) {
         if (i.hasAttrObjectKey(data, 'activeBorderColor')) {
             activeBorderColor = data.ca('activeBorderColor');
         } else {
-            activeBorderColor = data.ca('borderColor')[1];
+            activeBorderColor = data.ca('borderColor') && data.ca('borderColor')[1];
         }
 
         textField.setBorder(new ht.ui.border.FocusLineBorder(data.ca('borderWidth'), i.valArrCompatiable(data.ca('borderColor')), data.ca('readOnly') ? i.valArrCompatiable(data.ca('borderColor')) : activeBorderColor));
@@ -2647,8 +2651,7 @@ function __linkButton_ui(data, gv, cache) {
             control.setTextFont(data.ca('font'));
         }
 
-        data.dm().md(e => {
-            if (e.data == data) {
+        _i.md(data, gv, cache, {
                 // //event格式：
                 // {
                 //     property: 'name',//发生变化的属性
@@ -2656,17 +2659,10 @@ function __linkButton_ui(data, gv, cache) {
                 //     newValue: 'newValue',''新值
                 //     data: data//发生变化的data
                 // }
-                switch (e.property) {
-                    case 'a:bindControlsVal': //230909，静态值修改后，配置值能体现在连线的toolTip上。对于i.md()可以省去这里的case，对于dm().md()的需要手动加上！
-                        _i.__bindControlsValUpdate(e);
-                        break;
-                    case 'a:text':
-                    case 'a:font':
-                        initProperties();
-                        break;
-                }
+            'a:text|a:font': e=> {
+                initProperties();
             }
-        })
+        }, [], null, null, null);
 
         var control = cache.control = init()
         initProperties();
@@ -3038,6 +3034,10 @@ function __menuSidebar_center_ui(data, gv, cache) {
                 },
                 'a:loadStyle': e => {           // initStyle(data.ca('loadStyle'));
                 },
+                'a:rowHeight': e=>{
+                    cache.sidebar.setRowHeight(e.newValue);
+                    cache.sidebar.setHeaderHeight(e.newValue);
+                },
                 'a:rightSide': e => {          
                     let treeShaddowBorderTmp = data.ca('boxShadowBorder'); //树展开的阴影左右切换时也要有调整
                     treeShaddowBorderTmp[0] = -treeShaddowBorderTmp[0];
@@ -3088,7 +3088,7 @@ function __menuSidebar_center_ui(data, gv, cache) {
                 'a:lightMode': '__init__',
                 'a:datas': '__init__' //240626，将expandAll改成datas，并且将上面的i.md中的两个属性监听之前在一起，现在分开监听！
 
-            }], null, borderLayout, e => {});
+            },'a:rowHeight'], null, borderLayout, e => {});
             
             borderLayout.setStyle('main_split');
             let bordertmp = data.ca("boxShadowBorder"),
@@ -3224,6 +3224,7 @@ function __multiSelect_ui(data, gv, cache) {
             cache.layoutV.setScrollBarMode('off')
             let label = cache.label = new ht.ui.Label();
             control = cache.control = controlInstance;
+            _i.md(data, gv, cache, {}, [], null, controlInstance, null);
         }
 
         //通用属性
@@ -3400,16 +3401,11 @@ function __radioBox_ui(data, gv, cache) {
                 radios.getButtons().forEach(button => {
                     button.setDisabled(e.newValue);
                 });
-            }
-        }, ['a:indexValue'], null, radios, e => {
+            },
             //label与组件水平、垂直对齐布局
-            i._labelLayout(data, gv, cache, e);
-        });
-
+            'a:layoutType': e=>{
         // }, 0);
-    }
-
-    cache.label.setIcon(data.ca('labelIcon'));
+                let layoutType  = e.newValue;
     let layout = layoutType == 0 ? cache.layoutH : cache.layoutV; //全水平布局：0、全垂直布局：1、水平Ratio加垂直Label：2
     if (cache.layoutV && cache.layoutH && cache.radios && cache.label) {
         cache.label.setText(data.ca('labelText'))
@@ -3424,6 +3420,7 @@ function __radioBox_ui(data, gv, cache) {
             cache.layoutType != layoutType
         ) {
             if (layout != cache.layoutModeCache || cache.layoutType != layoutType) {
+                            if(e.oldValue != '__init__'){ //241024，避免调整了尺寸后，加载无法保持，尤其是宽高跟组件宽高不一致的设置时！（存在这种需求）
                 let radioHeight = 35;
                 let height = undefined;
                 switch (layoutType) {
@@ -3438,6 +3435,7 @@ function __radioBox_ui(data, gv, cache) {
                         break;
                 }
                 height != undefined && p(data, 'height', height);
+                            }
                 i.layoutHTML(layout, data, gv, cache);
             }
 
@@ -3492,8 +3490,15 @@ function __radioBox_ui(data, gv, cache) {
             layout.setVAlign(layoutType == 0 ? 'middle' : 'top');
         }
         cache.layoutModeCache = layout;
+                }
+            }
+        }, ['a:layoutType','a:indexValue'], null, radios, e => {
+            i._labelLayout(data, gv, cache, e);
+        });
     }
 
+    cache.label.setIcon(data.ca('labelIcon'));
+    let layout = layoutType == 0 ? cache.layoutH : cache.layoutV; //全水平布局：0、全垂直布局：1、水平Ratio加垂直Label：2
     return layout;
 }
 
@@ -3699,7 +3704,7 @@ function __tabView(data, gv, cache) {
 
                         //240522，切换tab页签时，比如新版UIOTOS登录欢迎页，如果有页签时缩放fitContent模式，需要缩放自适应下，否则初始内容不在tab页签组件窗口区域！
                         let innerDm = i.innerDataModel(data, e.newValue);
-                        if (innerDm && innerDm.a('fitContent')) {
+                        if (innerDm  && !isArrayFn(innerDm) && innerDm.a('fitContent')) {
                             /*240521，如果tab这种有内嵌缩放布局的，如果不处理，发现加载初始显示没法自适应tabView组件的尺寸区域！而且这里实测即便是延时0也不行，加上1反而可以！
                             但是也不稳定！暂时延时10ms，具体什么原因，有待后续进一步完善！目前是用到新版的UIOTOS的首页登录页欢迎介绍中*/
                             _i.setTimeout(() => {
@@ -3890,6 +3895,7 @@ function __textArea_ui(data, gv, cache) {
                         data.fp('a:padding',undefined,data.ca('padding'));
                     }
                 } else {
+                    data.fp('a:padding',undefined,data.ca('padding'));
                     let upperDlg = i.upperData(data);
                     if (upperDlg && _i.isControlTyped(upperDlg, 'dlg') && upperDlg.ca('titleText') && upperDlg.ca('titleText').indexOf('已将JSON对象自动转换成文本') != -1) {
                         console.error('WARN: common debug info dialog will keep object typed value upper and string typed bottom!', upperDlg);
@@ -3931,7 +3937,7 @@ function __textArea_ui(data, gv, cache) {
                 let bdInfoTmp = __borderInfo();
                 cache.control.setBorder && cache.control.setBorder(new ht.ui.border.CSSBorder(bdInfoTmp[0], bdInfoTmp[1]));
             }
-        }, ['a:value', 'a:background', 'a:readOnly'], null, cache.control, e => {
+        }, ['a:value', 'a:background'], null, cache.control, e => {
             //label与组件水平、垂直对齐布局
             i._labelLayout(data, gv, cache, e);
         });
@@ -3958,7 +3964,7 @@ function __textArea_ui(data, gv, cache) {
         control.setInstant && control.setInstant(data.ca('instantTrigger'));
 
         //240701，调整成cssBorder，避免失真！
-        control.setBorder && control.setBorder(new ht.ui.border.CSSBorder(data.ca('borderWidth'), isArrayFn(data.ca('borderColor')) ? data.ca('borderColor')[0] : data.ca('borderColor')));
+        // control.setBorder && control.setBorder(new ht.ui.border.FocusLineBorder(data.ca('borderWidth'), data.ca('borderColor')[0], data.ca('borderColor')[1]));
 
         control.setColor && control.setColor(isArrayFn(data.ca('color')) ? data.ca('color')[0] : data.ca('color'));
         data.s('label.color',data.ca('color')[1]);  //240721，索引1用来设置标签颜色。
@@ -4471,6 +4477,27 @@ function __treeTable_ui(data, gv, cache) {
                 __clicked = null; //全选时，也能触发bindControls
             i.addChildDataModel(nodeData, dataModel, 'tb');
 
+            dataModel.md(e=>{
+                let nametmp = i.np(e.property), //241004，e.property为"a:安装位置"这种，可能是displayName或name字段
+                    colIdx = null,
+                    isEditable = false;
+                data.ca('columns').forEach((col,idx)=>{
+                    if(col.name == nametmp || col.displayName == nametmp){
+                        colIdx = idx;
+                        if(col.editType) isEditable = true;
+                    }
+                });
+                if(!data._i_isReloading && colIdx !== null && isEditable) {
+                    let rowObjTmp = i.getTreeItemsById(data.ca('datas'),e.data.did ? e.data.did : e.data.getId())[0];
+                    if(isArrayFn(rowObjTmp)) rowObjTmp[colIdx - 1] = e.newValue;    //241004，格式：[[]]
+                    else if(rowObjTmp.rowData) rowObjTmp.rowData[colIdx - 1] = e.newValue; //241004，格式：[{rowData:[],children:[]}]
+                    else console.assert(0);
+                    table.fireViewEvent({
+                      kind: "checkData",
+                      data: e.data,
+                  })
+                }
+            });
             //监听树表treeTable勾选事件并获取勾选的列表清单
             _i.addViewListener(table, (e) => {
                 //230327，如果勾选了该属性，那么点击树表的父节点，将不会有任何动作，仅仅展开或合并（如果有子节点）
@@ -4571,23 +4598,22 @@ function __treeTable_ui(data, gv, cache) {
                     if (nodeData._i_lastButtonClicking) nodeData._i_lastButtonClicking = undefined;
 
                     //240219，发现树表格竟然一直没有单独的onClick事件，导致连线关联树表格的行单击点击，竟然不响应事件，这里加上去！有待进一步观察测试，尤其是传入的表单值！
-                    _i.formEventBubblingUpper(data, gv, cache, 'onClick', {
-                        'a:currentClicked': data.ca('currentClicked')
-                    }, false, true);
 
                     //最末列的按钮组按钮点击操作，是要弹出对话框，而不能对当前行的选中/勾选、去选中/去勾选造成影响！
                     if (data._btnGroupMouseup == true) {
                         data._btnGroupMouseup = null;
-                        return;
-                    }
+                    }else{
                     try {
                         if (!table.checkHitTest(e.nativeEvent)) table.checkData(e.data);
                         else { //240214，加上else，因为现在checkData会导致onSelectAll响应，里面也有传入event，并且调用__clicked(event)，避免重复调用性能浪费！！
                             __clicked(e);
                         }
-                    } catch (error) {
+                        } catch (error) {}
 
                     }
+                    _i.formEventBubblingUpper(data, gv, cache, 'onClick', {
+                        'a:currentClicked': data.ca('currentClicked')
+                    }, false, true);
                 } else if (e.kind == 'selectData') { //确定追加勾选项
                     //230901，当前行点击时，更新行信息，带上类型信息
                     i.update(data, 'currentClicked', {
@@ -4870,9 +4896,29 @@ function __treeTable_ui(data, gv, cache) {
                                     column.setName(item.name ? item.name : item.displayName); //固定属性名为name或displayName的内容，免配置，（旧版是'prop' + i，但是这样需严格对应列排序，升级更新插入列会导致兼容问题！）
                                 }
                                 column.setAccessType('attr'); //固定属性方法为a，免配置
-                                item.editable && column.setEditable(item.editable);
-                                item.editorClass && column.setEditorClass(item.editorClass);
-                                item.valueType && column.setValueType(item.valueType);
+                                if(item.editType && item.editType.toLowerCase){
+                                    column.setEditable(true);
+                                    switch(item.editType.toLowerCase()){
+                                        case 'int':
+                                            column.setEditorClass('ht.ui.editor.IntEditor');
+                                            break;
+                                        case 'string':
+                                            column.setEditorClass('ht.ui.editor.StringEditor');
+                                            break;
+                                        case 'number':
+                                            column.setEditorClass('ht.ui.editor.NumberEditor');
+                                            break;
+                                        case 'color':
+                                            column.setEditorClass('ht.ui.editor.ColorEditor');
+                                            column.setValueType('color');
+                                            break;
+                                        default:
+                                            break;
+                                    }
+                                }
+                                // item.editable && column.setEditable(item.editable);
+                                // item.editorClass && column.setEditorClass(item.editorClass);
+                                // item.valueType && column.setValueType(item.valueType);
 
                                 //列有"drawCell"字段，或者有"enableCopy"且true时，该列就转为重绘！
                                 if (item.drawCell || item.enableCopy) {
@@ -5492,7 +5538,9 @@ function __treeTable_ui(data, gv, cache) {
                         data.ca('innerDisplays', []);
 
                     if (e.property == 'a:datas') table.setVisibleFunc(data => { return true }); //设置数据时初始复位显示过滤，否则会导致此前的数据查询导致数据不显示
+                    data._i_isReloading = true; //241009，加上标记，因为这里会触发表格单元格双击输入的监听里，导致初始加载进入！因此加上标记！
                     initRows(e);
+                    data._i_isReloading = undefined;
 
                     //231016，需要通过定时器在下一个循环操作，否则现在恢复展开，但是增加或插入数据后随后又是合起！不过目前这样在动态添加或删除行数据时就有了闪动的现象，暂不处理！
                     _i.setTimeout(() => {
@@ -5740,7 +5788,7 @@ function __treeTable_ui(data, gv, cache) {
                     }
 
                     //240218，加上条件if(e.oldValue != '__checking__')，避免动态点击时尤其是节点，收起时点击结果点击就展开，体验不好！
-                    e.oldValue != '__checking__' && cache.table.expandAll(); //240212，存在初始默认合起的树表，因此一旦搜索，就触发全部展开！
+                    e.oldValue != '__checking__' && e.oldValue != '__init__' && cache.table.expandAll(); //240212，存在初始默认合起的树表，因此一旦搜索，就触发全部展开！
                 },
                 'a:currentIdSelect': e => { //231005，发现很久之前这里竟然就已经是'a:    '，不小心被删除了？？
                     if (e.newValue == undefined) return;
