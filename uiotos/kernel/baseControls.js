@@ -6122,7 +6122,14 @@ function __interface(data, gv, cache) {
                 secondtmp = urltmp && urltmp.split('/')[2]; //对于https://files/list中，判断files，注意对于有http://时，索引1的为空字符串！
             firsttmp = firsttmp && firsttmp.trim().toLowerCase();
             secondtmp = secondtmp && secondtmp && secondtmp.trim().toLowerCase();
-            let hostURL = data.dm()._url == 'displays/develop/uiotos/editor/home.json' && urltmp.slice(-9) == 'api/login' ? iotos_host : (api_host ? api_host : window.top.origin);
+            let isLogin = data.dm()._url == 'displays/develop/uiotos/editor/home.json' && urltmp.slice(-9) == 'api/login';
+                hostURL = isLogin ? iotos_host : (api_host ? api_host : window.top.origin);
+            //241210，比如在iotosconfig.js中修改了api的地址，但是工具本身的接口调用，比如图标点击时，接口请求：displays/develop/uiotos/editor/侧边工具条/_图标.json，还是得用server.js的后端接口啊！！
+            if(!isLogin && data.dm()._url.indexOf('/uiotos/editor/') != -1){
+                console.error('WARN: api in editor system pages, will use window.origin instead of api_host!',data.dm()._url);
+                hostURL = window.top.origin;
+            }
+
             if( 
                 urltmp &&(                                   
                 urltmp.trim().toLowerCase().slice(0,7) == 'http://' || 
@@ -10050,17 +10057,17 @@ function __convertor(data, gv, cache) {
             }, //以下是动态新增的属性
             'a:fields': e => {
                 _i.enableAttrEditByFirstItem(data, e); //230830，代替i.arrExpandByFirst(e.newValue);
+            },
+            'a:exeWhenLoad': e=>{
+                if(e.newValue) data.fp('a:exec', null, true);
             }
         }, [{
             'a:function': '__init__'
-        }, 'a:exec', 'a:inputsArrToObj', 'a:noteTips'], () => {
+        }, 'a:exec', 'a:inputsArrToObj', 'a:noteTips', 'a:exeWhenLoad'], () => {
 
         }, null, e => { //tips 240127，data.fp()赋值操作，可以放到上面那个会掉函数即loadedInit中，但是不能放到下面这里commonCb公共回调函数中，会造成死循环！！
             //tips 240128，发现工具函数的别名显示，下面用data.s('label',newValue)还不行，用data.s('label',null,newValue)反而可以！！！是否类似data.fp的oldValue那种，强制变化赋值响应？？暂未深究！！
             data.s('label', null, i.getValueTypeName('ToolFunction', data.ca('function')));
         });
-
-        //230324，有勾选exeWhenLoad时，加载时便执行
-        if (data.ca('exeWhenLoad')) data.fp('a:exec', null, true);
     }
 } 
