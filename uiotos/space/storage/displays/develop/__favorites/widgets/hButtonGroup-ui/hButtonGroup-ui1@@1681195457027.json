@@ -1,0 +1,96 @@
+{
+    "v": "7.3.3",
+    "p": {
+        "autoAdjustIndex": true,
+        "hierarchicalRendering": false
+    },
+    "d": [{
+        "c": "ht.Node",
+        "i": 24774,
+        "p": {
+            "displayName": "hButtonGroup-ui",
+            "toolTip": "",
+            "tag": "hButtonGroup-ui1",
+            "dataBindings": {
+                "a": {
+                    "select": {
+                        "id": "iotos.form",
+                        "idinfo": "",
+                        "isTplBinded": false,
+                        "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+                    },
+                    "buttons": {
+                        "id": "iotos.form",
+                        "idinfo": "",
+                        "isTplBinded": false,
+                        "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+                    }
+                }
+            },
+            "image": "symbols/develop/uiotos/base/hButtonGroup-ui.json",
+            "position": {
+                "x": 52.05128,
+                "y": -471.47456
+            },
+            "width": 453.13519,
+            "height": 50.21327
+        },
+        "s": {
+            "interactive": true,
+            "image.stretch": "uniform",
+            "layout.v": "top",
+            "layout.h": "center",
+            "fullscreen": "fill",
+            "fullscreen.gap": 0
+        },
+        "a": {
+            "borderWidth": 0,
+            "radius": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "selectBackground": [
+                "rgb(26,75,117)",
+                "rgba(26,75,117,0.9)"
+            ],
+            "selectTextColor": [
+                "rgb(53,144,255)",
+                "rgb(53,144,255,0.9)"
+            ],
+            "textFont": "14px sans-serif, Arial",
+            "buttons": [
+                "仪表盘",
+                "基础服务",
+                "物业服务",
+                "运维服务",
+                "测试"
+            ],
+            "background": [
+                "rgb(0,21,41)",
+                "rgba(26,75,117,0.6)"
+            ],
+            "textColor": [
+                "rgb(255,255,255)",
+                "rgba(255,255,255,0.8)"
+            ],
+            "activeBackground": [
+                "rgb(26,75,117)",
+                "rgb(26,75,117)"
+            ],
+            "activeTextColor": [
+                "rgb(53,144,255)",
+                "rgb(53,144,255)"
+            ],
+            "bindTabview": "tabView",
+            "select": 0,
+            "bindControlsTag": [],
+            "bindControlsAttr": [],
+            "bindControlsVal": [],
+            "paramControlTag": [],
+            "paramControlAttr": [],
+            "paramsGenerator": "function paramsGenerator(data, val, index, node, oldVal, form) {\r\n    //绑定组索引对应的函数处理，用来动态生成复杂的参数变量传入\r\n    switch (index) {\r\n        case 0:\r\n            break;\r\n        case 1:\r\n            break;\r\n        case 2:\r\n            break;\r\n        default:\r\n            break;\r\n    }\r\n    return val;\r\n}"
+        }
+    }]
+}

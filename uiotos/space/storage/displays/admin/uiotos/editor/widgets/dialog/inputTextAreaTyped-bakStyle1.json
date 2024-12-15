@@ -1,0 +1,928 @@
+{
+  "v": "7.7.2",
+  "p": {
+    "background": "#20252e",
+    "autoAdjustIndex": true,
+    "hierarchicalRendering": true
+  },
+  "a": {
+    "rotateAsClock": false,
+    "gridBlockSize": 20,
+    "connectActionType": null,
+    "fitContent": false,
+    "zoomable": false,
+    "rectSelectable": false,
+    "pannable": false
+  },
+  "d": [
+    {
+      "c": "ht.Node",
+      "i": 710741,
+      "p": {
+        "name": "base",
+        "displayName": "底板（_base）",
+        "tag": "_base",
+        "position": {
+          "x": 205.59434,
+          "y": 128.49126
+        },
+        "width": 411.18869,
+        "height": 266.02062
+      },
+      "s": {
+        "shape": "rect",
+        "shape.background": "white",
+        "fullscreen": "fill",
+        "fullscreen.gap": 0,
+        "2d.movable": false,
+        "label.opacity": 0,
+        "label.position": 14,
+        "label.offset.x": -10,
+        "label.offset.y": 0,
+        "label.color": "rgb(61,61,61)"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 710742,
+      "p": {
+        "name": "gv",
+        "displayName": "嵌套容器（gv1）",
+        "toolTip": "<p style='color:rgb(242,83,75);margin:0px;font-weight:bold'>已被布局，不允许拖动<p>",
+        "tag": "gv1",
+        "dataBindings": {
+          "a": {
+            "display": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "innerLayoutMode": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "InputTextArea-formValue>0>dataBackup>s:text": {
+              "id": "iotos.formReset",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "InputTextArea-formValue>0>name>a:value": {
+              "id": "iotos.formValue",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "InputTextArea-formValue>0>name>a:instantTrigger": {
+              "id": "iotos.formReset",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "InputTextArea-formValue>0>name>a:onChange": {
+              "id": "iotos.formReset",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "InputTextArea-formValue>0>name>s:label": {
+              "id": "iotos.formValue",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "InputTextArea-formValue>0>name>p:x": {
+              "id": "iotos.formReset",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "InputTextArea-formValue>0>name>p:scaleX": {
+              "id": "iotos.formReset",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "InputTextArea-formValue>0>desc>a:value": {
+              "id": "iotos.formValue",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "InputTextArea-formValue>0>desc>a:instantTrigger": {
+              "id": "iotos.formReset",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "InputTextArea-formValue>0>desc>a:htmlContent": {
+              "id": "iotos.formReset",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "InputTextArea-formValue>0>desc>a:readOnly": {
+              "id": "iotos.formReset",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "InputTextArea-formValue>0>desc>a:onChange": {
+              "id": "iotos.formReset",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "InputTextArea-formValue>0>desc>s:label": {
+              "id": "iotos.formValue",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "InputTextArea-formValue>0>desc>p:x": {
+              "id": "iotos.formReset",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "InputTextArea-formValue>0>desc>p:scaleX": {
+              "id": "iotos.formReset",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "InputTextArea-formValue>0>name>a:initialTrigger": {
+              "id": "iotos.formReset",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "InputTextArea-formValue>0>name>a:onEnter": {
+              "id": "iotos.formReset",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "InputTextArea-formValue>0>name>a:readOnly": {
+              "id": "iotos.formReset",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "InputTextArea-formValue>0>name>a:labelEmbeded": {
+              "id": "iotos.formReset",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "InputTextArea-formValue>0>name>a:labelText": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "__ht__function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        console.error(err);\r\n        return rawData;\r\n    }\r\n}",
+              "alias": ""
+            },
+            "InputTextArea-formValue>0>desc>a:labelText": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "__ht__function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        console.error(err);\r\n        return rawData;\r\n    }\r\n}",
+              "alias": ""
+            },
+            "InputTextArea-formValue>0>name>a:gap": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "__ht__function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        console.error(err);\r\n        return rawData;\r\n    }\r\n}",
+              "alias": ""
+            },
+            "InputTextArea-formValue>0>desc>a:gap": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "__ht__function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        console.error(err);\r\n        return rawData;\r\n    }\r\n}",
+              "alias": ""
+            }
+          }
+        },
+        "image": {
+          "modified": "Sun Oct 15 2023 22:25:40 GMT+0800 (中国标准时间)",
+          "background": "rgb(32,37,46)",
+          "dataBindings": [
+            {
+              "attr": "symbol",
+              "valueType": "Image",
+              "group": "功能（关键）"
+            },
+            {
+              "attr": "display",
+              "valueType": "URL",
+              "defaultValue": ""
+            },
+            {
+              "attr": "innerLayoutMode",
+              "valueType": "String",
+              "defaultValue": "",
+              "description": "内嵌页面的布局模式。\n<br>页面通常分为适配内容（fitContent）\n<br>和全屏填充（fullScreen）两种模式，\n<br>前者自适应缩放以保证所有内容窗口\n<br>范围内可见，后者则是指定某个图元\n<br>组件作为底板全屏填充，其他组件直\n<br>接或简接对于底板布局。\n<br>模式无（none）表示以上两种模式都\n<br>不是，既不缩放适配也不全屏铺满。\n<br>注意，本属性为读写，可以表示当前\n<br>页面的状态，也可以进行设置。其中\n<br>设置全屏填充时，自动选择最底层图\n<br>元组件作为底板。新建页面默认为基\n<br>于有底板的全屏填充布局，而非缩放。\n",
+              "extraInfo": {
+                "enum": {
+                  "values": [
+                    "fitContent",
+                    "fullScreen",
+                    "none"
+                  ]
+                }
+              }
+            },
+            {
+              "attr": "onDisplayLoaded",
+              "valueType": "Function",
+              "description": "所有内嵌页面逐层加载完毕后回调（注意，作为顶层页面时才会触发）。",
+              "extraInfo": {
+                "arguments": [
+                  "data",
+                  "gv",
+                  "cache"
+                ]
+              }
+            },
+            {
+              "attr": "isLoadingGet",
+              "valueType": "Boolean",
+              "description": "是否正在加载。\n<br>只读，当正在通过display属性逐层加载内嵌页直到完全加载完毕前，\n<br>该属性值为1，加载完毕后，复位为0.",
+              "defaultValue": false
+            },
+            {
+              "attr": "reset",
+              "valueType": "Level2",
+              "defaultValue": 0
+            },
+            {
+              "attr": "shadowBorder",
+              "valueType": "NumberArray",
+              "defaultValue": [
+                0,
+                0,
+                8
+              ]
+            },
+            {
+              "attr": "shadowColor",
+              "valueType": "Color",
+              "defaultValue": "rgba(55,125,255,0.50)"
+            },
+            {
+              "attr": "shadowEnabled",
+              "valueType": "Boolean",
+              "defaultValue": true
+            },
+            {
+              "attr": "innerBackground",
+              "valueType": "Color",
+              "defaultValue": null
+            },
+            {
+              "attr": "displayJson",
+              "valueType": "Multiline"
+            },
+            {
+              "attr": "borderWidth",
+              "valueType": "Number"
+            },
+            {
+              "attr": "onPostDeserialize",
+              "valueType": "Function",
+              "extraInfo": {
+                "arguments": [
+                  "json",
+                  "dm",
+                  "gv",
+                  "datas"
+                ]
+              }
+            },
+            {
+              "attr": "__loadingText",
+              "valueType": "StringArray",
+              "defaultValue": [
+                "加载中",
+                "未加载"
+              ],
+              "group": "loading"
+            },
+            {
+              "attr": "__loadingFont",
+              "valueType": "Font"
+            },
+            {
+              "attr": "__loadingColor",
+              "valueType": "Color",
+              "defaultValue": "rgb(61,61,61)"
+            },
+            {
+              "attr": "__loadingStatus",
+              "valueType": "Boolean",
+              "defaultValue": false
+            },
+            {
+              "attr": "bindControlsTag",
+              "valueType": "StringArray",
+              "group": "bindControls"
+            },
+            {
+              "attr": "bindControlsAttr",
+              "valueType": "StringArray"
+            },
+            {
+              "attr": "bindControlsVal",
+              "valueType": "ObjectArray",
+              "description": "静态值。也用作数组索引、JSON对象解析提取值用途。\n<br>一、静态值用途：\n<br>对常规类型的属性赋值且没有反向关联属性值，传入为数值时，不\n<br>会作为数组的索引，而会当成常量值对外赋值。此外，存在特殊值：\n<br>~和undefined表示过滤、不触发；null为默认值，表示传递默认表\n<br>单数据。编辑状态下清空后保存与设置null等价。\n<br>二、数组索引用途\n<br>情况1：被操作的组件属性原先值是数组时（包括空数组），会将\n<br>待输出的值作为被操作数组指定索引的值来传入，而不是整体覆盖。\n<br>情况2：如果要被操作的组件属性原先值不是数组，而且待输出的\n<br>值为数组类型并且长度也在索引范围内，那么会按照索引取自身数\n<br>组指定元素再对外输出。（如果想要取待输出索引值，赋值给被操\n<br>纵属性的指定索引，那么需要中间组件属性连线过渡以下，无法直\n<br>接操作）\n<br>情况3：如果要被操作的组件属性是数组，而且待输出的值也是数组\n<br>类型，此时当情况1来处理。\n<br>三、数据解析用途：\n<br>待输出的值为JSON对象时，用x.y.z这种以字符.或者>为间隔的方式\n<br>实现对JSON字段层次逐层定位，当是数组时x.0.y.1这种以数字的方\n<br>式来指定数组的某个索引。以此实现对任意结果JSON对象字段的定\n<br>位，获取结构内指定字段对应的值。"
+            },
+            {
+              "attr": "paramControlTag",
+              "valueType": "StringArray"
+            },
+            {
+              "attr": "paramControlAttr",
+              "valueType": "StringArray"
+            },
+            {
+              "attr": "paramsGenerator",
+              "valueType": "Function",
+              "defaultValue": "__ht__function(data, val, index, node,oldVal,form,type,inner) {//绑定组索引对应的函数处理，用来动态生成复杂的参数变量传入\r\nswitch(index){\r\n    case 0:\r\n        break;\r\n    case 1:\r\n        break;\r\n    case 2:\r\n        break;\r\n    default:\r\n        break;\r\n}\r\n\r\nreturn val;}",
+              "extraInfo": {
+                "arguments": [
+                  "data",
+                  "val",
+                  "index",
+                  "node",
+                  "oldVal",
+                  "form",
+                  "type",
+                  "inner"
+                ]
+              }
+            },
+            {
+              "attr": "userData",
+              "valueType": "ObjectArray"
+            },
+            {
+              "attr": "useInnerEventsAll",
+              "valueType": "Boolean",
+              "description": "是否允许内嵌事件通过。\n<br>若勾选，内嵌图元表单类型的事件函数属性，都将派发到上层容器图元对外触发连线操作。\n<br>默认不勾选，上层容器图元对外连线反向关联需要指定内嵌图元的具体事件函数属性才能\n<br>触发，否则忽略内嵌图元的事件触发，不会传递给上层容器图元对外连线操作。"
+            },
+            {
+              "attr": "pureFormValues",
+              "valueType": "Boolean"
+            },
+            {
+              "attr": "InputTextArea-formValue>0>dataBackup>s:text",
+              "valueType": "String",
+              "defaultValue": "文本",
+              "extraInfo": null,
+              "description": null,
+              "group": "InputTextArea-formValue>0>dataBackup"
+            },
+            {
+              "attr": "InputTextArea-formValue>0>name>a:value",
+              "valueType": "Object",
+              "defaultValue": "",
+              "description": "当前值。\n<br>输入框的值。",
+              "group": "InputTextArea-formValue>0>name"
+            },
+            {
+              "attr": "InputTextArea-formValue>0>name>a:onChange",
+              "valueType": "Function",
+              "extraInfo": {
+                "arguments": [
+                  "data",
+                  "gv",
+                  "cache",
+                  "value"
+                ]
+              },
+              "description": "变化事件函数。\n<br>默认为内容改变才触发，当勾选即时触发\n<br>（instantTrigger）时，输入时就会触发本\n<br>事件。",
+              "group": "InputTextArea-formValue>0>name"
+            },
+            {
+              "attr": "InputTextArea-formValue>0>name>a:initialTrigger",
+              "valueType": "Boolean",
+              "defaultValue": false,
+              "description": "初始触发连线操作。\n<br>默认不勾选，勾选后初始加载值时，如果对外有连线，\n<br>并且初始值为非空时，也会触发对外的赋值连线操作。",
+              "group": "InputTextArea-formValue>0>name"
+            },
+            {
+              "attr": "InputTextArea-formValue>0>name>a:onEnter",
+              "valueType": "Function",
+              "extraInfo": {
+                "arguments": [
+                  "data",
+                  "gv",
+                  "cache",
+                  "value"
+                ]
+              },
+              "description": "回车事件。\n<br>输入完毕后回车触发，并且传入当前值。",
+              "group": "InputTextArea-formValue>0>name"
+            },
+            {
+              "attr": "InputTextArea-formValue>0>name>a:readOnly",
+              "valueType": "Boolean",
+              "defaultValue": false,
+              "description": "是否只读。",
+              "group": "InputTextArea-formValue>0>name"
+            },
+            {
+              "attr": "InputTextArea-formValue>0>name>a:labelEmbeded",
+              "valueType": "Boolean",
+              "defaultValue": true,
+              "description": "标签是否内嵌。\n<br>不内嵌时，组件的宽度不包含标签。\n<br>选择内嵌时，组件的宽度包含标签文字宽度。",
+              "group": "InputTextArea-formValue>0>name"
+            },
+            {
+              "attr": "InputTextArea-formValue>0>name>a:instantTrigger",
+              "valueType": "Boolean",
+              "defaultValue": true,
+              "description": "是否即时触发。\n<br>勾选后，输入时就会对外触发onChange变化事件。",
+              "group": "InputTextArea-formValue>0>name"
+            },
+            {
+              "attr": "InputTextArea-formValue>0>name>a:labelText",
+              "valueType": "String",
+              "defaultValue": "名称",
+              "description": "标签文字。",
+              "group": "InputTextArea-formValue>0>name"
+            },
+            {
+              "attr": "InputTextArea-formValue>0>name>a:gap",
+              "valueType": "PositiveNumber",
+              "defaultValue": 10,
+              "description": "标签与组件的间距。\n<br>注意，仅在标签内嵌模式（layoutVertical）下，\n<br>改配置参数才有用。",
+              "group": "InputTextArea-formValue>0>name"
+            },
+            {
+              "attr": "InputTextArea-formValue>0>name>s:label",
+              "valueType": "String",
+              "defaultValue": null,
+              "extraInfo": null,
+              "description": null,
+              "group": "InputTextArea-formValue>0>name"
+            },
+            {
+              "attr": "InputTextArea-formValue>0>name>p:x",
+              "valueType": "Number",
+              "defaultValue": 392.52189,
+              "extraInfo": null,
+              "description": null,
+              "group": "InputTextArea-formValue>0>name"
+            },
+            {
+              "attr": "InputTextArea-formValue>0>name>p:scaleX",
+              "valueType": "Number",
+              "defaultValue": 1,
+              "extraInfo": null,
+              "description": null,
+              "group": "InputTextArea-formValue>0>name"
+            },
+            {
+              "attr": "InputTextArea-formValue>0>desc>a:value",
+              "valueType": "Multiline",
+              "defaultValue": "",
+              "group": "InputTextArea-formValue>0>desc"
+            },
+            {
+              "attr": "InputTextArea-formValue>0>desc>a:instantTrigger",
+              "valueType": "Boolean",
+              "defaultValue": true,
+              "group": "InputTextArea-formValue>0>desc"
+            },
+            {
+              "attr": "InputTextArea-formValue>0>desc>a:htmlContent",
+              "valueType": "Boolean",
+              "defaultValue": false,
+              "group": "InputTextArea-formValue>0>desc"
+            },
+            {
+              "attr": "InputTextArea-formValue>0>desc>a:readOnly",
+              "valueType": "Boolean",
+              "group": "InputTextArea-formValue>0>desc"
+            },
+            {
+              "attr": "InputTextArea-formValue>0>desc>a:onChange",
+              "valueType": "Function",
+              "extraInfo": {
+                "arguments": [
+                  "data",
+                  "gv",
+                  "cache",
+                  "value",
+                  "extra"
+                ]
+              },
+              "group": "InputTextArea-formValue>0>desc"
+            },
+            {
+              "attr": "InputTextArea-formValue>0>desc>a:labelText",
+              "valueType": "String",
+              "defaultValue": "备注",
+              "group": "InputTextArea-formValue>0>desc"
+            },
+            {
+              "attr": "InputTextArea-formValue>0>desc>a:gap",
+              "valueType": "PositiveNumber",
+              "defaultValue": 10,
+              "group": "InputTextArea-formValue>0>desc"
+            },
+            {
+              "attr": "InputTextArea-formValue>0>desc>s:label",
+              "valueType": "String",
+              "defaultValue": null,
+              "extraInfo": null,
+              "description": null,
+              "group": "InputTextArea-formValue>0>desc"
+            },
+            {
+              "attr": "InputTextArea-formValue>0>desc>p:x",
+              "valueType": "Number",
+              "defaultValue": 392.52189,
+              "extraInfo": null,
+              "description": null,
+              "group": "InputTextArea-formValue>0>desc"
+            },
+            {
+              "attr": "InputTextArea-formValue>0>desc>p:scaleX",
+              "valueType": "Number",
+              "defaultValue": 1,
+              "extraInfo": null,
+              "description": null,
+              "group": "InputTextArea-formValue>0>desc"
+            }
+          ],
+          "snapshotURL": "icon.base.graphView",
+          "renderHTML": "__ht__function(data, gv, cache) {return __graphView(data,gv,cache);}",
+          "width": 200,
+          "height": 120,
+          "fitSize": true,
+          "pixelPerfect": false,
+          "comps": [
+            {
+              "type": "text",
+              "text": {
+                "func": "__ht__function(data, view) {\n// return data.ca('__loadingText') && data.ca('__loadingText')[!data.ca('__loadingStatus')]\n}",
+                "value": "…"
+              },
+              "align": "center",
+              "color": {
+                "func": "attr@__loadingColor",
+                "value": "rgb(150,150,150)"
+              },
+              "font": {
+                "func": "attr@__loadingFont",
+                "value": "12px arial, sans-serif"
+              },
+              "visible": {
+                "func": "attr@__loadingVisible",
+                "value": false
+              },
+              "layoutH": "center",
+              "layoutV": "center",
+              "rect": [
+                74.69339,
+                53.1422,
+                50.61322,
+                13.7156
+              ]
+            }
+          ],
+          "uuid": "CCC61247-4A45-4078-BEDD-D4E060979C28"
+        },
+        "host": {
+          "__i": 710741
+        },
+        "position": {
+          "x": 208.60704,
+          "y": 126.11093
+        },
+        "width": 405.16328,
+        "height": 193.65782
+      },
+      "s": {
+        "label.opacity": 0,
+        "label.position": 14,
+        "label.offset.x": -10,
+        "label.offset.y": 0,
+        "label.color": "rgb(61,61,61)",
+        "interactive": true,
+        "image.stretch": "uniform",
+        "2d.movable": false,
+        "layout.h": "leftright",
+        "layout.v": "topbottom"
+      },
+      "a": {
+        "display": "./InputTextArea-formValue.json",
+        "__loadingStatus": false,
+        "isLoadingGet": false,
+        "symbol": "symbols/develop/uiotos/base/graphView.json",
+        "InputTextArea-formValue>0>dataBackup>s:text": "文本",
+        "InputTextArea-formValue>0>name>a:value": "",
+        "InputTextArea-formValue>0>name>a:instantTrigger": true,
+        "InputTextArea-formValue>0>name>a:onChange": null,
+        "InputTextArea-formValue>0>name>s:label": null,
+        "InputTextArea-formValue>0>name>p:x": 392.52189,
+        "InputTextArea-formValue>0>name>p:scaleX": 1,
+        "InputTextArea-formValue>0>desc>a:value": "",
+        "InputTextArea-formValue>0>desc>a:instantTrigger": true,
+        "InputTextArea-formValue>0>desc>a:htmlContent": false,
+        "InputTextArea-formValue>0>desc>a:readOnly": null,
+        "InputTextArea-formValue>0>desc>a:onChange": null,
+        "InputTextArea-formValue>0>desc>p:x": 392.52189,
+        "InputTextArea-formValue>0>desc>p:scaleX": 1,
+        "innerLayoutMode": "fullScreen",
+        "shadowEnabled": false,
+        "InputTextArea-formValue>0>name>a:initialTrigger": false,
+        "InputTextArea-formValue>0>name>a:onEnter": null,
+        "InputTextArea-formValue>0>name>a:readOnly": false,
+        "InputTextArea-formValue>0>name>a:labelEmbeded": true,
+        "InputTextArea-formValue>0>desc>s:label": null,
+        "InputTextArea-formValue>0>name>a:labelText": "收藏名称：",
+        "InputTextArea-formValue>0>desc>a:labelText": "收藏备注：",
+        "InputTextArea-formValue>0>name>a:gap": 5,
+        "InputTextArea-formValue>0>desc>a:gap": 5,
+        "toolTipRaw": "<p style='color:rgb(242,83,75);margin:0px;font-weight:bold'>已被布局，不允许拖动<p>"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 710743,
+      "p": {
+        "name": "radio",
+        "displayName": "单选框（selectType）",
+        "toolTip": "<p style='color:rgb(242,83,75);margin:0px;font-weight:bold'>已被布局，不允许拖动<p>",
+        "tag": "selectType",
+        "dataBindings": {
+          "a": {
+            "indexValue": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "datas": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "onChange": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "disabled": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "textValue": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            }
+          }
+        },
+        "image": "symbols/develop/uiotos/base/radioBox-ui.json",
+        "host": {
+          "__i": 710741
+        },
+        "position": {
+          "x": 213.87927,
+          "y": 16.78202
+        },
+        "width": 394.61884,
+        "height": 25
+      },
+      "s": {
+        "label.opacity": 0,
+        "label.position": 14,
+        "label.offset.x": -10,
+        "label.offset.y": 0,
+        "label.color": "rgb(61,61,61)",
+        "2d.movable": false,
+        "interactive": true,
+        "image.stretch": "uniform",
+        "layout.h": "leftright",
+        "layout.v": "top"
+      },
+      "a": {
+        "textValue": "嵌套容器",
+        "indexValue": 0,
+        "bindEvents": [
+          "*",
+          "onChange"
+        ],
+        "datas": [
+          "嵌套容器",
+          "滚动页",
+          "对话框"
+        ],
+        "labelText": "选择容器：",
+        "gap": 15,
+        "labelEmbeded": true,
+        "radioColor": "rgb(61,61,61)",
+        "labelColor": "rgb(0,0,0)",
+        "fixedHeight": 25,
+        "gapLabel": 5,
+        "gapItem": 10,
+        "toolTipRaw": "<p style='color:rgb(242,83,75);margin:0px;font-weight:bold'>已被布局，不允许拖动<p>"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 710744,
+      "p": {
+        "name": "radio",
+        "displayName": "单选框（layoutMode）",
+        "toolTip": "<p style='color:rgb(242,83,75);margin:0px;font-weight:bold'>已被布局，不允许拖动<p>",
+        "tag": "layoutMode",
+        "dataBindings": {
+          "a": {
+            "indexValue": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "datas": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "onChange": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "disabled": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "textValue": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            }
+          }
+        },
+        "image": "symbols/develop/uiotos/base/radioBox-ui.json",
+        "host": {
+          "__i": 710741
+        },
+        "position": {
+          "x": 104.04089,
+          "y": 240.88601
+        },
+        "width": 171.38041,
+        "height": 25
+      },
+      "s": {
+        "label.opacity": 0,
+        "label.position": 14,
+        "label.offset.x": -10,
+        "label.offset.y": 0,
+        "label.color": "rgb(61,61,61)",
+        "2d.movable": false,
+        "interactive": true,
+        "image.stretch": "uniform",
+        "layout.h": "left",
+        "layout.v": "bottom"
+      },
+      "a": {
+        "textValue": "底板",
+        "indexValue": 0,
+        "bindEvents": [
+          "*",
+          "onChange"
+        ],
+        "datas": [
+          "底板",
+          "缩放"
+        ],
+        "labelText": "内嵌布局：",
+        "gap": 15,
+        "labelEmbeded": true,
+        "radioColor": "rgb(61,61,61)",
+        "labelColor": "rgb(0,0,0)",
+        "fixedHeight": 25,
+        "gapItem": 5,
+        "gapLabel": 0,
+        "toolTipRaw": "<p style='color:rgb(242,83,75);margin:0px;font-weight:bold'>已被布局，不允许拖动<p>"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 710745,
+      "p": {
+        "name": "radio",
+        "displayName": "单选框（changeNode）",
+        "toolTip": "<p style='color:rgb(242,83,75);margin:0px;font-weight:bold'>已被布局，不允许拖动<p>",
+        "tag": "changeNode",
+        "dataBindings": {
+          "a": {
+            "indexValue": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "datas": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "onChange": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "disabled": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "textValue": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            }
+          }
+        },
+        "image": "symbols/develop/uiotos/base/radioBox-ui.json",
+        "host": {
+          "__i": 710741
+        },
+        "position": {
+          "x": 321.15388,
+          "y": 240.88601
+        },
+        "width": 155.41902,
+        "height": 25
+      },
+      "s": {
+        "label.opacity": 0,
+        "label.position": 14,
+        "label.offset.x": -10,
+        "label.offset.y": 0,
+        "label.color": "rgb(61,61,61)",
+        "2d.movable": false,
+        "interactive": true,
+        "image.stretch": "uniform",
+        "layout.h": "right",
+        "layout.v": "bottom"
+      },
+      "a": {
+        "textValue": "是",
+        "indexValue": 0,
+        "bindEvents": [
+          "*",
+          "onChange"
+        ],
+        "datas": [
+          "是",
+          "否"
+        ],
+        "labelText": "立即替换？",
+        "gap": 15,
+        "labelEmbeded": true,
+        "radioColor": "rgb(61,61,61)",
+        "labelColor": "rgb(0,0,0)",
+        "fixedHeight": 25,
+        "gapItem": 5,
+        "gapLabel": 0,
+        "toolTipRaw": "<p style='color:rgb(242,83,75);margin:0px;font-weight:bold'>已被布局，不允许拖动<p>"
+      }
+    }
+  ],
+  "modified": "Sun Nov 19 2023 00:03:25 GMT+0800 (中国标准时间)",
+  "contentRect": {
+    "x": -40.02149,
+    "y": -4.51905,
+    "width": 451.21018,
+    "height": 266.02062
+  }
+}

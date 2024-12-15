@@ -1,0 +1,94 @@
+{
+  "modified": "Fri Aug 16 2019 17:26:50 GMT+0800 (中国标准时间)",
+  "width": 150,
+  "height": 30,
+  "snapshotURL": "",
+  "func": "__ht__function(g, rect, comp, data, view) {\nvar x = rect.x;\r\n    var y = rect.y;\r\n    var width = rect.width;\r\n    var height = rect.height;\r\n\r\n    var borderColor = comp.getColor('borderColor');\r\n    var borderWidth = comp.getValue('borderWidth');\r\n    var background = comp.getColor('backgroundColor');\r\n    var barBGColor = comp.getColor('barBGColor');\r\n    var barColor = comp.getColor('barColor');\r\n    var paddingTop = comp.getValue('paddingTop');\r\n    var paddingBottom = comp.getValue('paddingBottom');\r\n    var paddingLeft = comp.getValue('paddingLeft');\r\n    var paddingRight = comp.getValue('paddingRight');\r\n    var gapCount = comp.getValue('gapCount');\r\n    var gapWidth = comp.getValue('gapWidth');\r\n    var labelText = comp.getValue('labelText');\r\n    var labelColor = comp.getColor('labelColor');\r\n    var fontSize = comp.getValue('fontSize');\r\n    var labelX = comp.getValue('labelX');\r\n    var labelY = comp.getValue('labelY');\r\n    var percentValue = comp.getValue('percentValue');\r\n\r\n    if (paddingLeft > 100) paddingLeft = 100;\r\n    if (paddingTop > 100) paddingTop = 100;\r\n    var barX = paddingLeft * width / 100 + x;\r\n    var barY = paddingTop * height / 100 + y;\r\n    var barW = Math.max((100 - paddingLeft - paddingRight) * width / 100, 0);\r\n    var barH = Math.max((100 - paddingTop - paddingBottom) * height / 100, 0);\r\n\r\n    if (percentValue < 0) percentValue = 0;\r\n    if (percentValue > 1) percentValue = 1;\r\n\r\n    if (background) {\r\n        g.fillStyle = background;\r\n        g.beginPath();\r\n        g.rect(x, y, width, height);\r\n        g.fill();\r\n    }\r\n\r\n    var cellWidth = barW;\r\n    if (gapCount * gapWidth > barW) {\r\n        gapCount = 0;\r\n    }\r\n    else {\r\n        cellWidth = (barW - gapCount * gapWidth) / (gapCount + 1);\r\n    }\r\n    if (gapCount == 0) {\r\n        gapWidth = 0;\r\n    }\r\n\r\n    if (barBGColor && percentValue < 1) {\r\n        for (var i = 0; i < gapCount + 1; i++) {\r\n            g.fillStyle = barBGColor;\r\n            g.beginPath();\r\n            g.rect(barX + i * (cellWidth + gapWidth), barY, cellWidth, barH);\r\n            g.fill();\r\n        }\r\n    }\r\n\r\n    if (barColor && percentValue > 0) {\r\n        var cellCount = Math.floor(barW * percentValue / (cellWidth + gapWidth));\r\n        for (var i = 0; i < cellCount; i++) {\r\n            g.fillStyle = barColor;\r\n            g.beginPath();\r\n            g.rect(barX + i * (cellWidth + gapWidth), barY, cellWidth, barH);\r\n            g.fill();\r\n        }\r\n        var lastCellW = barW * percentValue - (cellWidth + gapWidth) * cellCount;\r\n        if (lastCellW > 0) {\r\n            if (lastCellW > cellWidth) {\r\n                lastCellW = cellWidth;\r\n            }\r\n            g.fillStyle = barColor;\r\n            g.beginPath();\r\n            g.rect(barX + cellCount * (cellWidth + gapWidth), barY, lastCellW, barH);\r\n            g.fill();\r\n        }\r\n    }\r\n\r\n    if (borderWidth && borderColor) {\r\n        ht.Default.drawBorder(g, borderColor, barX, barY, barW, barH, borderWidth);\r\n    }\r\n\r\n    if (labelText) {\r\n        ht.Default.drawText(g, labelText, fontSize + 'px arial, sans-serif', labelColor, x, y, width, height, labelX, labelY);\r\n    }\n}",
+  "properties": {
+    "borderColor": {
+      "valueType": "Color",
+      "defaultValue": null,
+      "name": "进度条边框颜色"
+    },
+    "borderWidth": {
+      "valueType": "PositiveNumber",
+      "defaultValue": 1,
+      "name": "进度条边框宽度"
+    },
+    "backgroundColor": {
+      "valueType": "Color",
+      "defaultValue": null,
+      "name": "控件背景颜色"
+    },
+    "barBGColor": {
+      "valueType": "Color",
+      "defaultValue": "rgba(61,61,61,0.5)",
+      "name": "进度条背景颜色"
+    },
+    "paddingTop": {
+      "valueType": "PositiveNumber",
+      "defaultValue": 3,
+      "name": "上留白(%)"
+    },
+    "paddingBottom": {
+      "valueType": "PositiveNumber",
+      "defaultValue": 3,
+      "name": "下留白(%)"
+    },
+    "paddingLeft": {
+      "valueType": "PositiveNumber",
+      "defaultValue": 3,
+      "name": "左留白(%)"
+    },
+    "paddingRight": {
+      "valueType": "PositiveNumber",
+      "defaultValue": 20,
+      "name": "右留白(%)"
+    },
+    "barColor": {
+      "valueType": "Color",
+      "defaultValue": "rgb(0,199,7)",
+      "name": "进度条颜色"
+    },
+    "gapCount": {
+      "valueType": "PositiveNumber",
+      "defaultValue": 9,
+      "name": "间隔数"
+    },
+    "gapWidth": {
+      "valueType": "PositiveNumber",
+      "defaultValue": 3,
+      "name": "间隔宽度(px)"
+    },
+    "labelText": {
+      "valueType": "String",
+      "defaultValue": "文本",
+      "name": "显示文本"
+    },
+    "labelColor": {
+      "valueType": "Color",
+      "defaultValue": "rgb(61,61,61)",
+      "name": "文本颜色"
+    },
+    "fontSize": {
+      "valueType": "PositiveNumber",
+      "defaultValue": 12,
+      "name": "文本字号"
+    },
+    "labelX": {
+      "valueType": "Align",
+      "defaultValue": "right",
+      "name": "文本横向位置"
+    },
+    "labelY": {
+      "valueType": "VAlign",
+      "defaultValue": "middle",
+      "name": "文本纵向位置"
+    },
+    "percentValue": {
+      "valueType": "Number",
+      "defaultValue": 0.8,
+      "name": "值"
+    }
+  }
+}

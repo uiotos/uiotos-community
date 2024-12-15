@@ -1,0 +1,2758 @@
+{
+  "v": "8.0.1",
+  "p": {
+    "autoAdjustIndex": true,
+    "hierarchicalRendering": true
+  },
+  "a": {
+    "rotateAsClock": false,
+    "gridBlockSize": 20,
+    "gridAngle": 1.5708,
+    "connectActionType": null,
+    "fitContent": false,
+    "zoomable": false,
+    "rectSelectable": false,
+    "pannable": false,
+    "_professional": false
+  },
+  "d": [
+    {
+      "c": "ht.Node",
+      "i": 885177,
+      "p": {
+        "name": "bts",
+        "displayName": "按钮组（按钮组）",
+        "tag": "按钮组",
+        "dataBindings": {
+          "a": {
+            "select": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "__ht__function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}",
+              "alias": ""
+            },
+            "buttons": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "direction": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "bindControlsVal": {
+              "id": "iotos.form",
+              "alias": "",
+              "func": "__ht__function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        console.error(err);\r\n        return rawData;\r\n    }\r\n}",
+              "idinfo": "",
+              "isTplBinded": false
+            },
+            "initialTrigger": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "onChange": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "_bindEvents_0": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "_bindEvents_1": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "userData": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            }
+          }
+        },
+        "image": {
+          "modified": "Sat Aug 24 2024 13:37:12 GMT+0800 (中国标准时间)",
+          "dataBindings": [
+            {
+              "attr": "symbol",
+              "valueType": "Image",
+              "name": "symbol"
+            },
+            {
+              "attr": "bindTabview",
+              "valueType": "String",
+              "defaultValue": "tab1",
+              "description": "默认关联Tab1页签（此时无需连线）。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#x8tmx\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+              "group": "功能",
+              "name": "bindTabview"
+            },
+            {
+              "attr": "direction",
+              "valueType": "HorOrVer",
+              "defaultValue": "horizontal",
+              "description": "水平或垂直模式。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#LH9O3\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+              "extraInfo": "★",
+              "name": "direction"
+            },
+            {
+              "attr": "buttons",
+              "valueType": "ObjectArray",
+              "defaultValue": [
+                "按钮1",
+                "按钮2",
+                "按钮3"
+              ],
+              "description": "按钮显示文字。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#SsNN4\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+              "name": "buttons"
+            },
+            {
+              "attr": "btnDatas",
+              "valueType": "ObjectArray",
+              "description": "各按钮对应的数据项。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#AUaeb\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+              "extraInfo": "*",
+              "name": "btnDatas"
+            },
+            {
+              "attr": "btnData",
+              "valueType": "Object",
+              "description": "当前选中按钮对应的数据。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#MxZ7Z\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+              "extraInfo": "*",
+              "name": "btnData"
+            },
+            {
+              "attr": "select",
+              "valueType": "Number",
+              "defaultValue": 0,
+              "description": "当前选中的索引。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#NMTbe\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+              "name": "select"
+            },
+            {
+              "attr": "hoverTrigger",
+              "valueType": "Boolean",
+              "description": "鼠标悬停即触发点击。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#XvQ1C\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+              "extraInfo": "★",
+              "name": "hoverTrigger"
+            },
+            {
+              "attr": "initialTrigger",
+              "valueType": "Boolean",
+              "defaultValue": false,
+              "description": "加载时就触发连线执行。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#XvQ1C\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+              "extraInfo": "★",
+              "name": "initialTrigger"
+            },
+            {
+              "attr": "userData",
+              "valueType": "Object",
+              "defaultValue": [],
+              "name": "userData"
+            },
+            {
+              "attr": "onChange",
+              "valueType": "Function",
+              "extraInfo": {
+                "arguments": [
+                  "data",
+                  "gv",
+                  "cache",
+                  "param",
+                  "extra"
+                ]
+              },
+              "name": "onChange"
+            },
+            {
+              "attr": "shadowBorder",
+              "valueType": "NumberArray",
+              "defaultValue": [
+                0,
+                0,
+                8
+              ],
+              "group": "外观",
+              "extraInfo": "~",
+              "name": "shadowBorder"
+            },
+            {
+              "attr": "shadowColor",
+              "valueType": "Color",
+              "defaultValue": "rgba(102,102,102,0.2)",
+              "extraInfo": "~",
+              "name": "shadowColor"
+            },
+            {
+              "attr": "shadowEnabled",
+              "valueType": "Boolean",
+              "defaultValue": false,
+              "extraInfo": "~",
+              "name": "shadowEnabled"
+            },
+            {
+              "attr": "gap",
+              "valueType": "Number",
+              "defaultValue": -2,
+              "description": "按钮与按钮之间的间隙。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#eB36g\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+              "extraInfo": "★",
+              "name": "gap"
+            },
+            {
+              "attr": "background",
+              "valueType": "ColorArray",
+              "defaultValue": [
+                "rgb(255,255,255)",
+                "rgba(255,255,255,0.9)",
+                "rgba(255,255,255,0.8)",
+                "rgb(55,125,255)",
+                "rgba(55,125,255,0.9)",
+                "rgba(55,125,255,0.8)"
+              ],
+              "description": "背景颜色。索引依次为：\n<br>0：未选中按钮的默认背景色。\n<br>1：未选中按钮的悬停背景色。\n<br>2：未选中按钮的按下背景色。\n<br>3：选中按钮的默认背景色。\n<br>4：选中按钮的悬停背景色。\n<br>5：选中按钮的按下背景色。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#GLkLa\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+              "name": "background"
+            },
+            {
+              "attr": "textColor",
+              "valueType": "ColorArray",
+              "defaultValue": [
+                "rgb(61,61,61)",
+                "rgb(55,125,255)",
+                "rgb(96,172,252)",
+                "rgb(255,255,255)",
+                "rgb(255,255,255)",
+                "rgb(255,255,255)"
+              ],
+              "description": "文字颜色。索引依次为：\n<br>0：未选中按钮的默认文字色。\n<br>1：未选中按钮的悬停文字色。\n<br>2：未选中按钮的按下文字色。\n<br>3：选中按钮的默认文字色。\n<br>4：选中按钮的悬停文字色。\n<br>5：选中按钮的按下文字色。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#wNfmX\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+              "name": "textColor"
+            },
+            {
+              "attr": "textFont",
+              "valueType": "Font",
+              "defaultValue": "12px sans-serif, Arial",
+              "description": "字体大小设置。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#Ciyrx\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+              "name": "textFont"
+            },
+            {
+              "attr": "radius",
+              "valueType": "NumberArray",
+              "defaultValue": [
+                5,
+                5,
+                5,
+                5
+              ],
+              "description": "圆角半径设置\n<br>索引0、1、2、3的值分别对应按钮组的\n<br>左上角、右上角、右下角、左下角。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#audJR\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+              "name": "radius"
+            },
+            {
+              "attr": "borderColor",
+              "valueType": "Color",
+              "defaultValue": "rgb(213,213,213)",
+              "description": "边框颜色。\n<br>如果不设置，那么边框颜色将自动跟随\n<br>当前选中项目的背景颜色。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#zZHSi\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+              "name": "borderColor"
+            },
+            {
+              "attr": "borderWidth",
+              "valueType": "PositiveNumber",
+              "defaultValue": 1,
+              "description": "边框宽度。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#zZHSi\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+              "name": "borderWidth"
+            },
+            {
+              "attr": "simpleLineStyle",
+              "valueType": "Boolean",
+              "defaultValue": false,
+              "description": "简单线条风格。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#T87VD\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+              "name": "simpleLineStyle"
+            },
+            {
+              "attr": "bindControlsTag",
+              "valueType": "StringArray",
+              "group": "连线",
+              "name": "bindControlsTag"
+            },
+            {
+              "attr": "bindControlsAttr",
+              "valueType": "StringArray",
+              "name": "bindControlsAttr"
+            },
+            {
+              "attr": "bindControlsVal",
+              "valueType": "ObjectArray",
+              "name": "bindControlsVal"
+            },
+            {
+              "attr": "paramControlTag",
+              "valueType": "StringArray",
+              "name": "paramControlTag"
+            },
+            {
+              "attr": "paramControlAttr",
+              "valueType": "StringArray",
+              "name": "paramControlAttr"
+            },
+            {
+              "attr": "paramsGenerator",
+              "valueType": "Function",
+              "defaultValue": "__ht__function(data, val, index, node,oldVal,form) {//绑定组索引对应的函数处理，用来动态生成复杂的参数变量传入\r\nswitch(index){\r\n    case 0:\r\n        break;\r\n    case 1:\r\n        break;\r\n    case 2:\r\n        break;\r\n    default:\r\n        break;\r\n}\r\n\r\nreturn val;}",
+              "extraInfo": {
+                "arguments": [
+                  "data",
+                  "val",
+                  "index",
+                  "node",
+                  "oldVal",
+                  "form"
+                ]
+              },
+              "name": "paramsGenerator"
+            },
+            {
+              "attr": "useAttrCORS",
+              "valueType": "Boolean",
+              "extraInfo": "*",
+              "defaultValue": false,
+              "description": "连线操作和处理回写是否一致。\n                        比如多个文本框连线传值给相同对话框，弹窗修改\n                        后是否限定只能写到最新赋值过来的文本框。详见<a href='https://www.yuque.com/liuhuo-nc809/uiotos/fgi6dd7gado51acm#fFUbp' style=\"color:rgb(96,172,252)\"target=\"_blank\">同源属性操作</a>",
+              "bindIgnored": true,
+              "name": "useAttrCORS",
+              "dynamicCreate": true
+            },
+            {
+              "attr": "display",
+              "valueType": "Image",
+              "defaultValue": "",
+              "description": "自定义页面地址。\n                可以是编辑器中的其他页面，也可以\n                是外部网页链接地址。",
+              "group": "弹出框 *",
+              "bindIgnored": true,
+              "name": "display",
+              "dynamicCreate": true
+            },
+            {
+              "attr": "pureTipText",
+              "valueType": "String",
+              "defaultValue": "",
+              "description": "提示文字。\n                    当专业用户属性中，提供display内嵌页属性，\n                    如果有配置，那么本属性设置无效，将以内嵌\n                    页显示为准。",
+              "group": "弹出框 *",
+              "bindIgnored": true,
+              "name": "pureTipText",
+              "dynamicCreate": true
+            },
+            {
+              "attr": "popDirection",
+              "valueType": "SideDirection",
+              "defaultValue": "right",
+              "description": "提示显示位置。",
+              "group": "弹出框 *",
+              "bindIgnored": true,
+              "name": "popDirection",
+              "dynamicCreate": true
+            },
+            {
+              "attr": "popBackground",
+              "valueType": "Color",
+              "defaultValue": "white",
+              "description": "箭头和背景色。",
+              "group": "弹出框 *",
+              "bindIgnored": true,
+              "name": "popBackground",
+              "dynamicCreate": true
+            },
+            {
+              "attr": "popPadding",
+              "valueType": "NumberArray",
+              "defaultValue": [
+                2,
+                2,
+                2,
+                2
+              ],
+              "description": "内间距。",
+              "group": "弹出框 *",
+              "bindIgnored": true,
+              "name": "popPadding",
+              "dynamicCreate": true
+            },
+            {
+              "attr": "popWidth",
+              "valueType": "Number",
+              "defaultValue": 400,
+              "description": "弹出框宽度。",
+              "group": "弹出框 *",
+              "bindIgnored": true,
+              "name": "popWidth",
+              "dynamicCreate": true
+            },
+            {
+              "attr": "popHeight",
+              "valueType": "Number",
+              "defaultValue": 300,
+              "description": "弹出框高度。",
+              "group": "弹出框 *",
+              "bindIgnored": true,
+              "name": "popHeight",
+              "dynamicCreate": true
+            },
+            {
+              "attr": "popBorderColor",
+              "valueType": "Color",
+              "defaultValue": "rgb(51,51,51)",
+              "description": "边框线颜色。\n                    注意，是设置了边框宽度非0后的边框颜色。\n                    默认边框宽度属性为0时，实际上是白色并\n                    带有箭头指示的边框。本属性不用于修改默\n                    认边框色。",
+              "group": "弹出框 *",
+              "bindIgnored": true,
+              "name": "popBorderColor",
+              "dynamicCreate": true
+            },
+            {
+              "attr": "popBorderWidth",
+              "valueType": "Number",
+              "defaultValue": 0,
+              "description": "边框线宽度。\n                    默认值为0，此时边框默认为白色并且带有\n                    箭头指示。当设置宽度后，颜色将取边框颜\n                    色属性的设置，并且不再有箭头指示。",
+              "group": "弹出框 *",
+              "bindIgnored": true,
+              "name": "popBorderWidth",
+              "dynamicCreate": true
+            },
+            {
+              "attr": "popBorderRadius",
+              "valueType": "Number",
+              "defaultValue": 0,
+              "description": "边框线圆角。\n                    设置圆角线后，如果此前默认是白色边框带有\n                    指示箭头，那么将自动不可见，只对内容区域\n                    产生圆角。",
+              "group": "弹出框 *",
+              "bindIgnored": true,
+              "name": "popBorderRadius",
+              "dynamicCreate": true
+            },
+            {
+              "attr": "popTriggerEvent",
+              "valueType": "MouseEvent",
+              "defaultValue": "hover",
+              "description": "触发方式。\n                支持鼠标移入、点击（按钮时）\n                两种触发提示的方式。",
+              "group": "弹出框 *",
+              "bindIgnored": true,
+              "name": "popTriggerEvent",
+              "dynamicCreate": true
+            }
+          ],
+          "snapshotURL": "symbols/develop/uiotos/arranged/controls/forms_icon/按钮组.json",
+          "renderHTML": "__ht__function(data, gv, cache) {return __hButtonGroup_ui(data,gv,cache);}",
+          "width": 300,
+          "height": 35,
+          "pixelPerfect": false,
+          "comps": [],
+          "uuid": "8C4CCA42-3EC3-401A-9ECC-7B57E5C3A0BE"
+        },
+        "position": {
+          "x": 203.00545,
+          "y": 455.49974
+        },
+        "width": 300,
+        "height": 35
+      },
+      "s": {
+        "label.opacity": 0,
+        "label.position": 14,
+        "label.offset.x": -10,
+        "label.offset.y": 0,
+        "label.color": "rgb(61,61,61)",
+        "interactive": true,
+        "image.stretch": "uniform",
+        "2d.movable": false,
+        "layout.h": "left",
+        "layout.v": "top",
+        "note.font": "22px arial, sans-serif",
+        "note.color": "rgb(212,0,0)",
+        "note.background": "rgb(255,235,195)",
+        "note.position": 3,
+        "note.offset.x": 0,
+        "note.offset.y": -5,
+        "note.border.width": 10,
+        "note.border.color": "rgb(255,235,195)",
+        "note.opacity": 0,
+        "note.align": "left",
+        "note": "[bts1] 组件按钮组（bts1）索引为0的连线，关联自身属\n性select操作目标组件func4的属性inputs，正在操作数 \n组类型的属性，是否忘记在当前连线的静态解析属性（bi\nndControlsVal）中设置要操作的索引值？             ",
+        "fullscreen.gap": 0,
+        "fullscreen": "fill",
+        "2d.selectable": false
+      },
+      "a": {
+        "select": 0,
+        "bindEvents": [
+          "*",
+          "onChange"
+        ],
+        "shadowBorder": [
+          0,
+          0,
+          8
+        ],
+        "buttons": [
+          "本日",
+          "本月",
+          "本年"
+        ],
+        "radius": [
+          3,
+          3,
+          3,
+          3
+        ],
+        "paramControlTag": [
+          null,
+          null
+        ],
+        "paramControlAttr": [
+          "select",
+          null
+        ],
+        "bindControlsTag": [
+          "func1",
+          "输出"
+        ],
+        "bindControlsAttr": [
+          "inputs",
+          "exec"
+        ],
+        "bindControlsVal": [
+          null,
+          null
+        ],
+        "symbol": "symbols/develop/uiotos/base/hButtonGroup-ui.json",
+        "oldDynamicAttrs": [
+          {
+            "attr": "_bindEvents_0",
+            "valueType": "MultiComboBox",
+            "defaultValue": "*",
+            "group": "bindEvents",
+            "description": "连线索引[0]的触发事件过滤器，默认全部通过",
+            "dynamicCreate": true
+          },
+          {
+            "attr": "_bindEvents_0",
+            "valueType": "MultiComboBox",
+            "defaultValue": "*",
+            "group": "bindEvents",
+            "description": "连线索引[0]的触发事件过滤器，默认全部通过",
+            "dynamicCreate": true
+          },
+          {
+            "attr": "_bindEvents_1",
+            "valueType": "MultiComboBox",
+            "defaultValue": "*",
+            "group": "bindEvents",
+            "description": "连线索引[1]的触发事件过滤器，默认全部通过",
+            "dynamicCreate": true
+          }
+        ],
+        "initialTrigger": false,
+        "borderWidth": 1,
+        "paramBindEvent": [],
+        "paramsGenerator": "function paramsGenerator(data, val, index, node, oldVal, form) {\r\n    //绑定组索引对应的函数处理，用来动态生成复杂的参数变量传入\r\n    switch (index) {\r\n        case 0:\r\n            break;\r\n        case 1:\r\n            break;\r\n        case 2:\r\n            break;\r\n        default:\r\n            break;\r\n    }\r\n    return val;\r\n}",
+        "_bindEvents_0-list": [
+          "*",
+          "onChange"
+        ],
+        "_bindEvents_1-list": [
+          "*",
+          "onChange"
+        ],
+        "btnData": "本日"
+      }
+    },
+    {
+      "c": "ht.Edge",
+      "i": 885178,
+      "p": {
+        "name": "edge",
+        "displayName": "0（edge5'）",
+        "toolTip": "<div id=\"config_tooltip\" style=\"font-size:12px;line-height:1.75em;letter-spacing:1px\">\n                                                        关联绑定信息：<br>\n                                                        <li style=\"list-style-type:disc;color:rgba(255,255,255,0.5);\">索引序号：0 | 总共2条</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold;\">操作属性：输入（组）@func1</li>\n                                                        <li style=\"list-style-type:none;color:rgba(255,255,255,0.5)\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;当前值：undefined</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold\">关联属性：当前索引@按钮组</li>\n                                                        <li style=\"list-style-type:none;color:rgba(255,255,255,0.5)\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;关联值：undefined</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold;\">解析赋值：null</li>\n                                                        <li style=\"list-style-type:disc;\">注释：undefined</li>\n                                                    </div>",
+        "parent": {
+          "__i": 885177
+        },
+        "tag": "edge5'",
+        "source": {
+          "__i": 885177
+        },
+        "target": {
+          "__i": 885180
+        }
+      },
+      "s": {
+        "label": "",
+        "edge.color": "rgb(51,153,255)",
+        "edge.width": 4,
+        "edge.type": "h.v",
+        "edge.gap": 16,
+        "note.border.width": 0,
+        "note.position": 7,
+        "note.font": "14px arial, sans-serif",
+        "note.opacity": 0.75,
+        "label.opacity": 0,
+        "note.background": "rgb(51,153,255)",
+        "note.offset.x": 0,
+        "note.offset.y": 0,
+        "icons": {
+          "symbols/demo/extra/basic/fromArrow2.json": {
+            "position": 15,
+            "keepOrien": true,
+            "names": [
+              "symbols/demo/extra/basic/fromArrow2.json"
+            ]
+          },
+          "symbols/demo/extra/basic/toArrow.json": {
+            "position": 19,
+            "keepOrien": true,
+            "width": 50,
+            "height": 20,
+            "names": [
+              "symbols/demo/extra/basic/toArrow.json"
+            ]
+          }
+        },
+        "note": "1）传递当前按钮索引",
+        "label.position": 16,
+        "edge.ripple.size": 2,
+        "edge.ripple.length": 0,
+        "edge.ripple.elevation": 100,
+        "edge.ripple.both": true,
+        "edge.corner.radius": 0
+      },
+      "a": {
+        "index": 0,
+        "toolTipRaw": "<div id=\"config_tooltip\" style=\"font-size:12px;line-height:1.75em;letter-spacing:1px\">\n                                                        关联绑定信息：<br>\n                                                        <li style=\"list-style-type:disc;color:rgba(255,255,255,0.5);\">索引序号：0 | 总共2条</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold;\">操作属性：输入（组）@func1</li>\n                                                        <li style=\"list-style-type:none;color:rgba(255,255,255,0.5)\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;当前值：undefined</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold\">关联属性：当前索引@按钮组</li>\n                                                        <li style=\"list-style-type:none;color:rgba(255,255,255,0.5)\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;关联值：undefined</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold;\">解析赋值：null</li>\n                                                        <li style=\"list-style-type:disc;\">注释：undefined</li>\n                                                    </div>"
+      }
+    },
+    {
+      "c": "ht.Edge",
+      "i": 885179,
+      "p": {
+        "name": "edge",
+        "displayName": "1（edge5）",
+        "toolTip": "<div id=\"config_tooltip\" style=\"font-size:12px;line-height:1.75em;letter-spacing:1px\">\n                                                        关联绑定信息：<br>\n                                                        <li style=\"list-style-type:disc;color:rgba(255,255,255,0.5);\">索引序号：1 | 总共2条</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold;\">操作属性：执行@输出</li>\n                                                        <li style=\"list-style-type:none;color:rgba(255,255,255,0.5)\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;当前值：undefined</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold\">关联属性：</li>\n                                                        <li style=\"list-style-type:none;color:rgba(255,255,255,0.5)\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;关联值：undefined</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold;\">解析赋值：null</li>\n                                                        <li style=\"list-style-type:disc;\">注释：undefined</li>\n                                                    </div>",
+        "parent": {
+          "__i": 885177
+        },
+        "tag": "edge5",
+        "source": {
+          "__i": 885177
+        },
+        "target": {
+          "__i": 885184
+        }
+      },
+      "s": {
+        "label": "",
+        "edge.color": "#FF7C7C",
+        "edge.width": 3,
+        "edge.type": "flex",
+        "edge.gap": 16,
+        "note.border.width": 0,
+        "note.position": 7,
+        "note.font": "14px arial, sans-serif",
+        "note.opacity": 0.75,
+        "label.opacity": 0,
+        "note.background": "#FF7C7C",
+        "note.offset.x": 0,
+        "note.offset.y": 0,
+        "icons": {
+          "symbols/demo/extra/basic/fromArrow2.json": {
+            "position": 15,
+            "keepOrien": true,
+            "names": [
+              "symbols/demo/extra/basic/fromArrow2.json"
+            ]
+          },
+          "symbols/demo/extra/basic/toArrow.json": {
+            "position": 19,
+            "keepOrien": true,
+            "width": 50,
+            "height": 20,
+            "names": [
+              "symbols/demo/extra/basic/toArrow.json"
+            ]
+          }
+        },
+        "note": 1
+      },
+      "a": {
+        "index": 1,
+        "toolTipRaw": "<div id=\"config_tooltip\" style=\"font-size:12px;line-height:1.75em;letter-spacing:1px\">\n                                                        关联绑定信息：<br>\n                                                        <li style=\"list-style-type:disc;color:rgba(255,255,255,0.5);\">索引序号：1 | 总共2条</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold;\">操作属性：执行@输出</li>\n                                                        <li style=\"list-style-type:none;color:rgba(255,255,255,0.5)\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;当前值：undefined</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold\">关联属性：</li>\n                                                        <li style=\"list-style-type:none;color:rgba(255,255,255,0.5)\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;关联值：undefined</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold;\">解析赋值：null</li>\n                                                        <li style=\"list-style-type:disc;\">注释：undefined</li>\n                                                    </div>"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 885180,
+      "p": {
+        "name": "func",
+        "displayName": "工具函数（func1）",
+        "toolTip": "<p style='color:rgb(242,83,75);margin-top:5px;margin-bottom:5px;font-weight:bold;line-height:1.5em;'>已被布局，不允许拖动（shift+回车可解除）</p><span style='font-weight:bold;color:rgb(125,195,125)'>说明：</span><span style='color:rgb(125,195,125);line-height:1.8em;letter-spacing:1px;'>\n<br>将选择索引透明传递\n<br>让按钮组对外连线0\n<br>赋值名称列表，以索\n<br>引取值再给出去。</span>",
+        "tag": "func1",
+        "dataBindings": {
+          "a": {
+            "userData": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "output": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "inputs": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "exec": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "arrExec": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "onOutput": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "outputByEvent": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "inputKeys": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "inputValues": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            }
+          }
+        },
+        "image": {
+          "modified": "Tue Jul 30 2024 16:38:28 GMT+0800 (中国标准时间)",
+          "dataBindings": [
+            {
+              "attr": "symbol",
+              "valueType": "Image",
+              "name": "symbol"
+            },
+            {
+              "attr": "function",
+              "valueType": "ToolFunction",
+              "defaultValue": "transfer",
+              "name": "功能选项",
+              "group": "功能",
+              "extraInfo": "*",
+              "description": "透明传递"
+            },
+            {
+              "attr": "noteTips",
+              "valueType": "Multiline",
+              "name": "别名注释",
+              "bindIgnored": true,
+              "description": "默认为函数名称，可备注修改。<a href='https://www.yuque.com/liuhuo-nc809/uiotos/fgi6dd7gado51acm#Hw6Bw' style=\"color:rgb(96,172,252)\" target='_blank'>详情</a>\n点击查阅<a href=https://www.yuque.com/liuhuo-nc809/uiotos/bb6hr2sdhaz8gz8m#TWkHe style=\"color:rgb(96,172,252)\" target='_blank'>组件文档</a>",
+              "dynamicCreate": true
+            },
+            {
+              "attr": "color",
+              "valueType": "Color",
+              "name": "显示颜色",
+              "defaultValue": "rgb(51,153,255)",
+              "description": "图标和文字颜色。\n点击查阅<a href=https://www.yuque.com/liuhuo-nc809/uiotos/bb6hr2sdhaz8gz8m#TWkHe style=\"color:rgb(96,172,252)\" target='_blank'>组件文档</a>",
+              "bindIgnored": true,
+              "extraInfo": "*",
+              "dynamicCreate": true
+            },
+            {
+              "attr": "exeWhenInput",
+              "valueType": "Boolean",
+              "defaultValue": false,
+              "name": "输入赋值时执行",
+              "bindIgnored": true,
+              "description": "值输入且变化时，自动触发函数执行。\n点击查阅<a href=https://www.yuque.com/liuhuo-nc809/uiotos/bb6hr2sdhaz8gz8m#TWkHe style=\"color:rgb(96,172,252)\" target='_blank'>组件文档</a>",
+              "dynamicCreate": true
+            },
+            {
+              "attr": "resetAfterInput",
+              "valueType": "Boolean",
+              "name": "输入赋值后清空",
+              "description": "值输入并执行后，会自动复位成空\n                对象{}，确保下次任何输入会触发变化。<a href='https://www.yuque.com/liuhuo-nc809/uiotos/fgi6dd7gado51acm#Qo3GX' style=\"color:rgb(96,172,252)\" target='_blank'>详情</a>\n点击查阅<a href=https://www.yuque.com/liuhuo-nc809/uiotos/bb6hr2sdhaz8gz8m#TWkHe style=\"color:rgb(96,172,252)\" target='_blank'>组件文档</a>",
+              "defaultValue": false,
+              "bindIgnored": true,
+              "extraInfo": "★",
+              "dynamicCreate": true
+            },
+            {
+              "attr": "inputsArrToObj",
+              "valueType": "Boolean",
+              "name": "输入数组转对象",
+              "description": "是否切换成对象格式显示和输入。\n                注意：切换方式不会改变值本身。<a href='https://www.yuque.com/liuhuo-nc809/uiotos/fgi6dd7gado51acm#Jij1U' style=\"color:rgb(96,172,252)\" target='_blank'>详情</a>\n点击查阅<a href=https://www.yuque.com/liuhuo-nc809/uiotos/bb6hr2sdhaz8gz8m#TWkHe style=\"color:rgb(96,172,252)\" target='_blank'>组件文档</a>",
+              "defaultValue": true,
+              "bindIgnored": true,
+              "extraInfo": "★",
+              "dynamicCreate": true
+            },
+            {
+              "attr": "stripSingleInput",
+              "valueType": "Boolean",
+              "defaultValue": true,
+              "name": "输入组单个取出",
+              "description": "输入组为数组且只有1个元素时，取出\n                <br>这个元素作为实际输入值，代替原先的输入。默\n                <br>认inputs为数组格式，手动输入时通常会在数组\n                <br>的首元素输入，本属性保持默认勾选时，实际计\n                <br>算会以首元素作为实际输入值。\n                <br>也可以勾选“输入数组转对象”，此时输入组的属\n                <br>性栏由数组切换为对象输入，就可以任意输入非\n                <br>数组类型的值了。\n点击查阅<a href=https://www.yuque.com/liuhuo-nc809/uiotos/bb6hr2sdhaz8gz8m#TWkHe style=\"color:rgb(96,172,252)\" target='_blank'>组件文档</a>",
+              "extraInfo": "~",
+              "bindIgnored": true,
+              "dynamicCreate": true
+            },
+            {
+              "attr": "exeWhenLoad",
+              "valueType": "Boolean",
+              "defaultValue": false,
+              "name": "组件加载时执行",
+              "description": "所在的页面加载时，组件自动触发执行。<a href='https://www.yuque.com/liuhuo-nc809/uiotos/fgi6dd7gado51acm#OAge1' style=\"color:rgb(96,172,252)\" target='_blank'>详情</a>\n点击查阅<a href=https://www.yuque.com/liuhuo-nc809/uiotos/bb6hr2sdhaz8gz8m#TWkHe style=\"color:rgb(96,172,252)\" target='_blank'>组件文档</a>",
+              "extraInfo": "*",
+              "bindIgnored": true,
+              "dynamicCreate": true
+            },
+            {
+              "attr": "oldValueMerge",
+              "valueType": "Boolean",
+              "defaultValue": false,
+              "name": "输出合并非覆盖",
+              "description": "输出与目标属性值合并，非默认覆盖。<a href='https://www.yuque.com/liuhuo-nc809/uiotos/fgi6dd7gado51acm#ACnaO' style=\"color:rgb(96,172,252)\" target='_blank'>详情</a>\n点击查阅<a href=https://www.yuque.com/liuhuo-nc809/uiotos/bb6hr2sdhaz8gz8m#TWkHe style=\"color:rgb(96,172,252)\" target='_blank'>组件文档</a>",
+              "bindIgnored": true,
+              "extraInfo": "★",
+              "dynamicCreate": true
+            },
+            {
+              "attr": "outputByEvent",
+              "valueType": "Boolean",
+              "defaultValue": true,
+              "name": "输出经事件返回",
+              "description": "直接输出属性值，而非默认表单数据。<a href='https://www.yuque.com/liuhuo-nc809/uiotos/fgi6dd7gado51acm#mcfhK' style=\"color:rgb(96,172,252)\" target='_blank'>详情</a>\n点击查阅<a href=https://www.yuque.com/liuhuo-nc809/uiotos/bb6hr2sdhaz8gz8m#TWkHe style=\"color:rgb(96,172,252)\" target='_blank'>组件文档</a>",
+              "bindIgnored": true,
+              "extraInfo": "★",
+              "dynamicCreate": true
+            },
+            {
+              "attr": "parseFailedNull",
+              "valueType": "Boolean",
+              "defaultValue": true,
+              "name": "输出解析默认空",
+              "description": "解析失败未提取到字段值时，返回空。<a href='https://www.yuque.com/liuhuo-nc809/uiotos/fgi6dd7gado51acm#awhIA' style=\"color:rgb(96,172,252)\" target='_blank'>详情</a>\n点击查阅<a href=https://www.yuque.com/liuhuo-nc809/uiotos/bb6hr2sdhaz8gz8m#TWkHe style=\"color:rgb(96,172,252)\" target='_blank'>组件文档</a>",
+              "bindIgnored": true,
+              "extraInfo": "*",
+              "dynamicCreate": true
+            },
+            {
+              "attr": "inputs",
+              "valueType": "Object",
+              "name": "输入（组）",
+              "description": "工具函数的输入。<a href='https://www.yuque.com/liuhuo-nc809/uiotos/fgi6dd7gado51acm#aTR5v' style=\"color:rgb(96,172,252)\" target='_blank'>详情</a>\n点击查阅<a href=https://www.yuque.com/liuhuo-nc809/uiotos/bb6hr2sdhaz8gz8m#TWkHe style=\"color:rgb(96,172,252)\" target='_blank'>组件文档</a>",
+              "dynamicCreate": true
+            },
+            {
+              "attr": "jsonStruct",
+              "valueType": "JsonStruct",
+              "name": "转换方式",
+              "defaultValue": 1,
+              "description": "输入与参数键值组的对应关系选项。<a href='https://www.yuque.com/liuhuo-nc809/uiotos/fgi6dd7gado51acm#pK7XI' style=\"color:rgb(96,172,252)\" target='_blank'>详情</a>",
+              "extraInfo": "*",
+              "bindIgnored": true,
+              "dynamicCreate": true
+            },
+            {
+              "attr": "inputKeys",
+              "valueType": "ObjectArray",
+              "defaultValue": [],
+              "name": "输入键组",
+              "description": "输入组扁平化后的值列表，双向同步。\n                        与输入值组配合使用。<a href='https://www.yuque.com/liuhuo-nc809/uiotos/fgi6dd7gado51acm#CSjM8' style=\"color:rgb(96,172,252)\" target='_blank'>详情</a>",
+              "extraInfo": "*",
+              "dynamicCreate": true
+            },
+            {
+              "attr": "inputValues",
+              "valueType": "ObjectArray",
+              "defaultValue": [],
+              "name": "输入值组",
+              "description": "输入组扁平化后的值列表，双向同步。\n                        与输入键组配合使用。<a href='https://www.yuque.com/liuhuo-nc809/uiotos/fgi6dd7gado51acm#oXg9Q' style=\"color:rgb(96,172,252)\" target='_blank'>详情</a>",
+              "extraInfo": "*",
+              "dynamicCreate": true
+            },
+            {
+              "attr": "delay",
+              "valueType": "PositiveNumber",
+              "defaultValue": 0,
+              "name": "延时执行毫秒",
+              "description": "异步延迟执行时间（ms）。<a href='https://www.yuque.com/liuhuo-nc809/uiotos/fgi6dd7gado51acm#K5Me7' style=\"color:rgb(96,172,252)\" target='_blank'>详情</a>\n点击查阅<a href=https://www.yuque.com/liuhuo-nc809/uiotos/bb6hr2sdhaz8gz8m#TWkHe style=\"color:rgb(96,172,252)\" target='_blank'>组件文档</a>",
+              "bindIgnored": true,
+              "extraInfo": "*",
+              "dynamicCreate": true
+            },
+            {
+              "attr": "exec",
+              "valueType": "Boolean",
+              "defaultValue": false,
+              "name": "执行",
+              "description": "触发工具函数执行。<a href='https://www.yuque.com/liuhuo-nc809/uiotos/fgi6dd7gado51acm#yMMTA' style=\"color:rgb(96,172,252)\" target='_blank'>详情</a>\n点击查阅<a href=https://www.yuque.com/liuhuo-nc809/uiotos/bb6hr2sdhaz8gz8m#TWkHe style=\"color:rgb(96,172,252)\" target='_blank'>组件文档</a>",
+              "dynamicCreate": true
+            },
+            {
+              "attr": "arrExec",
+              "valueType": "Boolean",
+              "defaultValue": false,
+              "name": "遍历执行",
+              "description": "数组遍历执行。当输入为数组时，\n                将拆成逐项单独单独顺次执行。<a href='https://www.yuque.com/liuhuo-nc809/uiotos/fgi6dd7gado51acm#ovTxm' style=\"color:rgb(96,172,252)\" target='_blank'>详情</a>\n点击查阅<a href=https://www.yuque.com/liuhuo-nc809/uiotos/bb6hr2sdhaz8gz8m#TWkHe style=\"color:rgb(96,172,252)\" target='_blank'>组件文档</a>",
+              "extraInfo": "*",
+              "bindIgnored": true,
+              "dynamicCreate": true
+            },
+            {
+              "attr": "whenOutputing",
+              "valueType": "MultiComboBox",
+              "name": "whenOutputing",
+              "extraInfo": "~",
+              "bindIgnored": true,
+              "dynamicCreate": true
+            },
+            {
+              "attr": "changeOutputTo",
+              "valueType": "MultiComboBox",
+              "extraInfo": "~",
+              "defaultValue": "不转换",
+              "name": "changeOutputTo",
+              "bindIgnored": true,
+              "dynamicCreate": true
+            },
+            {
+              "attr": "output",
+              "valueType": "Object",
+              "name": "输出",
+              "description": "函数执行后的结果输出。<a href='https://www.yuque.com/liuhuo-nc809/uiotos/fgi6dd7gado51acm#YPMiQ' style=\"color:rgb(96,172,252)\" target='_blank'>详情</a>\n点击查阅<a href=https://www.yuque.com/liuhuo-nc809/uiotos/bb6hr2sdhaz8gz8m#TWkHe style=\"color:rgb(96,172,252)\" target='_blank'>组件文档</a>",
+              "dynamicCreate": true
+            },
+            {
+              "attr": "userData",
+              "valueType": "Object",
+              "defaultValue": [],
+              "description": "用户数据。\n点击查阅<a href=https://www.yuque.com/liuhuo-nc809/uiotos/bb6hr2sdhaz8gz8m#TWkHe style=\"color:rgb(96,172,252)\" target='_blank'>组件文档</a>",
+              "bindIgnored": true,
+              "name": "userData",
+              "dynamicCreate": true
+            },
+            {
+              "attr": "onOutput",
+              "valueType": "Function",
+              "description": "函数执行完毕输出结果时触发。<a href='https://www.yuque.com/liuhuo-nc809/uiotos/fgi6dd7gado51acm#d7xnO' style=\"color:rgb(96,172,252)\" target='_blank'>详情</a>\n点击查阅<a href=https://www.yuque.com/liuhuo-nc809/uiotos/bb6hr2sdhaz8gz8m#TWkHe style=\"color:rgb(96,172,252)\" target='_blank'>组件文档</a>",
+              "extraInfo": {
+                "arguments": [
+                  "data",
+                  "gv",
+                  "cache",
+                  "value"
+                ]
+              },
+              "name": "onOutput",
+              "dynamicCreate": true
+            },
+            {
+              "attr": "bindControlsTag",
+              "valueType": "ObjectArray",
+              "group": "bindControls",
+              "name": "bindControlsTag"
+            },
+            {
+              "attr": "bindControlsAttr",
+              "valueType": "ObjectArray",
+              "name": "bindControlsAttr"
+            },
+            {
+              "attr": "bindControlsVal",
+              "valueType": "ObjectArray",
+              "description": "",
+              "name": "bindControlsVal"
+            },
+            {
+              "attr": "paramControlTag",
+              "valueType": "ObjectArray",
+              "name": "paramControlTag"
+            },
+            {
+              "attr": "paramControlAttr",
+              "valueType": "ObjectArray",
+              "name": "paramControlAttr"
+            },
+            {
+              "attr": "paramsGenerator",
+              "valueType": "Function",
+              "defaultValue": "__ht__function(data, val, index, node, oldVal, form, type, inner) {//绑定组索引对应的函数处理，用来动态生成复杂的参数变量传入\r\nswitch(index){\r\n    case 0:\r\n        break;\r\n    case 1:\r\n        break;\r\n    case 2:\r\n        break;\r\n    default:\r\n        break;\r\n}\r\n\r\nreturn val;}",
+              "extraInfo": {
+                "arguments": [
+                  "data",
+                  "val",
+                  "index",
+                  "node",
+                  "oldVal",
+                  "form",
+                  "type",
+                  "inner"
+                ],
+                "classify": "*"
+              },
+              "name": "paramsGenerator"
+            },
+            {
+              "attr": "useAttrCORS",
+              "valueType": "Boolean",
+              "extraInfo": "*",
+              "defaultValue": false,
+              "description": "连线操作和处理回写是否一致。\n                        比如多个文本框连线传值给相同对话框，弹窗修改\n                        后是否限定只能写到最新赋值过来的文本框。详见<a href='https://www.yuque.com/liuhuo-nc809/uiotos/fgi6dd7gado51acm#fFUbp' style=\"color:rgb(96,172,252)\"target=\"_blank\">同源属性操作</a>",
+              "bindIgnored": true,
+              "name": "useAttrCORS",
+              "dynamicCreate": true
+            }
+          ],
+          "renderHTML": "__ht__function(data, gv, cache) {return __convertor(data,gv,cache);}",
+          "width": 100,
+          "height": 100,
+          "comps": [
+            {
+              "type": "shape",
+              "background": {
+                "func": "attr@color",
+                "value": "rgb(124,145,155)"
+              },
+              "borderColor": {
+                "func": "attr@color",
+                "value": null
+              },
+              "displayName": "Shape（Shape1）",
+              "points": "__ht__list[\n  {\n    \"x\": 37.99236,\n    \"y\": 23.6093\n  },\n  {\n    \"x\": 36.69569,\n    \"y\": 22.19018\n  },\n  {\n    \"x\": 35.96431,\n    \"y\": 21.38852\n  },\n  {\n    \"x\": 34.89152,\n    \"y\": 21.59925\n  },\n  {\n    \"x\": 34.37387,\n    \"y\": 22.69269\n  },\n  {\n    \"x\": 30.59331,\n    \"y\": 30.69456\n  },\n  {\n    \"x\": 28.52778,\n    \"y\": 40.29829\n  },\n  {\n    \"x\": 28.52778,\n    \"y\": 49.99926\n  },\n  {\n    \"x\": 28.52778,\n    \"y\": 59.70319\n  },\n  {\n    \"x\": 30.59331,\n    \"y\": 69.30691\n  },\n  {\n    \"x\": 34.37387,\n    \"y\": 77.30583\n  },\n  {\n    \"x\": 34.89152,\n    \"y\": 78.40074\n  },\n  {\n    \"x\": 35.96431,\n    \"y\": 78.61\n  },\n  {\n    \"x\": 36.69569,\n    \"y\": 77.80834\n  },\n  {\n    \"x\": 37.99236,\n    \"y\": 76.38922\n  },\n  {\n    \"x\": 38.68524,\n    \"y\": 75.63177\n  },\n  {\n    \"x\": 38.81188,\n    \"y\": 74.24655\n  },\n  {\n    \"x\": 38.32462,\n    \"y\": 73.20763\n  },\n  {\n    \"x\": 35.13261,\n    \"y\": 66.39646\n  },\n  {\n    \"x\": 33.39024,\n    \"y\": 58.23986\n  },\n  {\n    \"x\": 33.39024,\n    \"y\": 49.99926\n  },\n  {\n    \"x\": 33.39024,\n    \"y\": 41.76014\n  },\n  {\n    \"x\": 35.13261,\n    \"y\": 33.60354\n  },\n  {\n    \"x\": 38.32462,\n    \"y\": 26.78942\n  },\n  {\n    \"x\": 38.81086,\n    \"y\": 25.75049\n  },\n  {\n    \"x\": 38.68424,\n    \"y\": 24.36674\n  },\n  {\n    \"x\": 37.99236,\n    \"y\": 23.6093\n  }\n]",
+              "segments": "__ht__list[\n  1,\n  2,\n  4,\n  4,\n  4,\n  4,\n  2,\n  4,\n  4,\n  4,\n  4,\n  5\n]",
+              "unionRect": {
+                "x": 28.52778,
+                "y": 21.38852,
+                "width": 10.2841,
+                "height": 57.22148
+              }
+            },
+            {
+              "type": "shape",
+              "background": {
+                "func": "attr@color",
+                "value": "rgb(124,145,155)"
+              },
+              "borderColor": {
+                "func": "attr@color",
+                "value": null
+              },
+              "points": "__ht__list[\n  {\n    \"x\": 84.55899,\n    \"y\": 22.69269\n  },\n  {\n    \"x\": 84.07581,\n    \"y\": 21.59778\n  },\n  {\n    \"x\": 83.07447,\n    \"y\": 21.38852\n  },\n  {\n    \"x\": 82.39179,\n    \"y\": 22.19018\n  },\n  {\n    \"x\": 81.1815,\n    \"y\": 23.6093\n  },\n  {\n    \"x\": 80.53476,\n    \"y\": 24.36674\n  },\n  {\n    \"x\": 80.41656,\n    \"y\": 25.75197\n  },\n  {\n    \"x\": 80.87136,\n    \"y\": 26.79089\n  },\n  {\n    \"x\": 83.85076,\n    \"y\": 33.60206\n  },\n  {\n    \"x\": 85.4771,\n    \"y\": 41.75866\n  },\n  {\n    \"x\": 85.4771,\n    \"y\": 49.99926\n  },\n  {\n    \"x\": 85.4771,\n    \"y\": 58.23839\n  },\n  {\n    \"x\": 83.85076,\n    \"y\": 66.395\n  },\n  {\n    \"x\": 80.87136,\n    \"y\": 73.20911\n  },\n  {\n    \"x\": 80.4175,\n    \"y\": 74.24803\n  },\n  {\n    \"x\": 80.5357,\n    \"y\": 75.63177\n  },\n  {\n    \"x\": 81.1815,\n    \"y\": 76.3907\n  },\n  {\n    \"x\": 82.39179,\n    \"y\": 77.80982\n  },\n  {\n    \"x\": 83.07447,\n    \"y\": 78.61148\n  },\n  {\n    \"x\": 84.07581,\n    \"y\": 78.40222\n  },\n  {\n    \"x\": 84.55899,\n    \"y\": 77.30731\n  },\n  {\n    \"x\": 88.08774,\n    \"y\": 69.30396\n  },\n  {\n    \"x\": 90.0157,\n    \"y\": 59.70024\n  },\n  {\n    \"x\": 90.0157,\n    \"y\": 49.99926\n  },\n  {\n    \"x\": 90.0157,\n    \"y\": 40.29533\n  },\n  {\n    \"x\": 88.08774,\n    \"y\": 30.69162\n  },\n  {\n    \"x\": 84.55899,\n    \"y\": 22.69269\n  }\n]",
+              "segments": "__ht__list[\n  1,\n  4,\n  2,\n  4,\n  4,\n  4,\n  4,\n  2,\n  4,\n  4,\n  4,\n  5\n]",
+              "unionRect": {
+                "x": 80.41656,
+                "y": 21.38852,
+                "width": 9.59914,
+                "height": 57.22296
+              }
+            },
+            {
+              "type": "shape",
+              "background": {
+                "func": "attr@color",
+                "value": "rgb(124,145,155)"
+              },
+              "borderWidth": 1,
+              "borderColor": {
+                "func": "attr@color",
+                "value": "rgb(124,145,155)"
+              },
+              "displayName": "Shape（Shape1）",
+              "points": "__ht__list[\n  {\n    \"x\": 24.9843,\n    \"y\": 50.96154\n  },\n  {\n    \"x\": 24.9843,\n    \"y\": 50.43029\n  },\n  {\n    \"x\": 24.50484,\n    \"y\": 50\n  },\n  {\n    \"x\": 23.91287,\n    \"y\": 50\n  },\n  {\n    \"x\": 20.69858,\n    \"y\": 50\n  },\n  {\n    \"x\": 17.44412,\n    \"y\": 50\n  },\n  {\n    \"x\": 14.80573,\n    \"y\": 52.36779\n  },\n  {\n    \"x\": 14.80573,\n    \"y\": 55.28846\n  },\n  {\n    \"x\": 14.80573,\n    \"y\": 58.17308\n  },\n  {\n    \"x\": 11.05573,\n    \"y\": 58.17308\n  },\n  {\n    \"x\": 10.46376,\n    \"y\": 58.17308\n  },\n  {\n    \"x\": 9.9843,\n    \"y\": 58.60337\n  },\n  {\n    \"x\": 9.9843,\n    \"y\": 59.13461\n  },\n  {\n    \"x\": 9.9843,\n    \"y\": 60.09616\n  },\n  {\n    \"x\": 9.9843,\n    \"y\": 60.6274\n  },\n  {\n    \"x\": 10.46376,\n    \"y\": 61.05769\n  },\n  {\n    \"x\": 11.05573,\n    \"y\": 61.05769\n  },\n  {\n    \"x\": 14.80573,\n    \"y\": 61.05769\n  },\n  {\n    \"x\": 14.80573,\n    \"y\": 69.71154\n  },\n  {\n    \"x\": 14.80573,\n    \"y\": 71.03906\n  },\n  {\n    \"x\": 13.6064,\n    \"y\": 72.11538\n  },\n  {\n    \"x\": 12.12716,\n    \"y\": 72.11538\n  },\n  {\n    \"x\": 11.05573,\n    \"y\": 72.11538\n  },\n  {\n    \"x\": 10.46376,\n    \"y\": 72.11538\n  },\n  {\n    \"x\": 9.9843,\n    \"y\": 72.54567\n  },\n  {\n    \"x\": 9.9843,\n    \"y\": 73.07693\n  },\n  {\n    \"x\": 9.9843,\n    \"y\": 74.03846\n  },\n  {\n    \"x\": 9.9843,\n    \"y\": 74.56971\n  },\n  {\n    \"x\": 10.46376,\n    \"y\": 75\n  },\n  {\n    \"x\": 11.05573,\n    \"y\": 75\n  },\n  {\n    \"x\": 12.12716,\n    \"y\": 75\n  },\n  {\n    \"x\": 15.38162,\n    \"y\": 75\n  },\n  {\n    \"x\": 18.02001,\n    \"y\": 72.63221\n  },\n  {\n    \"x\": 18.02001,\n    \"y\": 69.71154\n  },\n  {\n    \"x\": 18.02001,\n    \"y\": 61.05769\n  },\n  {\n    \"x\": 21.77002,\n    \"y\": 61.05769\n  },\n  {\n    \"x\": 22.36198,\n    \"y\": 61.05769\n  },\n  {\n    \"x\": 22.84144,\n    \"y\": 60.6274\n  },\n  {\n    \"x\": 22.84144,\n    \"y\": 60.09616\n  },\n  {\n    \"x\": 22.84144,\n    \"y\": 59.13461\n  },\n  {\n    \"x\": 22.84144,\n    \"y\": 58.60337\n  },\n  {\n    \"x\": 22.36198,\n    \"y\": 58.17308\n  },\n  {\n    \"x\": 21.77002,\n    \"y\": 58.17308\n  },\n  {\n    \"x\": 18.02001,\n    \"y\": 58.17308\n  },\n  {\n    \"x\": 18.02001,\n    \"y\": 55.28846\n  },\n  {\n    \"x\": 18.02001,\n    \"y\": 53.96094\n  },\n  {\n    \"x\": 19.21935,\n    \"y\": 52.88462\n  },\n  {\n    \"x\": 20.69858,\n    \"y\": 52.88462\n  },\n  {\n    \"x\": 23.91287,\n    \"y\": 52.88462\n  },\n  {\n    \"x\": 24.50484,\n    \"y\": 52.88462\n  },\n  {\n    \"x\": 24.9843,\n    \"y\": 52.45433\n  },\n  {\n    \"x\": 24.9843,\n    \"y\": 51.92307\n  },\n  {\n    \"x\": 24.9843,\n    \"y\": 50.96154\n  }\n]",
+              "segments": "__ht__list[\n  1,\n  4,\n  2,\n  4,\n  2,\n  2,\n  4,\n  2,\n  4,\n  2,\n  2,\n  4,\n  2,\n  4,\n  2,\n  4,\n  2,\n  4,\n  2,\n  2,\n  4,\n  2,\n  4,\n  2,\n  2,\n  4,\n  2,\n  4,\n  2,\n  5\n]",
+              "unionRect": {
+                "x": 9.9843,
+                "y": 50,
+                "width": 15,
+                "height": 25
+              }
+            },
+            {
+              "type": "rect",
+              "background": {
+                "func": "attr@color",
+                "value": "rgb(124,145,155)"
+              },
+              "borderColor": "#979797",
+              "pixelPerfect": true,
+              "displayName": "n（n1）",
+              "rect": [
+                42.17657,
+                38.89897,
+                33.49621,
+                7.01448
+              ]
+            },
+            {
+              "type": "rect",
+              "background": {
+                "func": "attr@color",
+                "value": "rgb(124,145,155)"
+              },
+              "borderColor": "#979797",
+              "pixelPerfect": true,
+              "displayName": "n（n2）",
+              "rect": [
+                42.17657,
+                55.48552,
+                33.49621,
+                7.01448
+              ]
+            },
+            {
+              "type": "rect",
+              "background": "rgba(0,0,0,0.01)",
+              "borderColor": "#979797",
+              "pixelPerfect": true,
+              "displayName": "n（n1）",
+              "rect": [
+                0,
+                0,
+                100,
+                100
+              ]
+            }
+          ],
+          "uuid": "BAA54F26-173E-4CA5-809D-FA63C401978D"
+        },
+        "host": {
+          "__i": 885177
+        },
+        "position": {
+          "x": -42.09994,
+          "y": 263.58651
+        },
+        "width": 100,
+        "height": 100
+      },
+      "s": {
+        "label.position": 14,
+        "label.offset.y": 0,
+        "interactive": true,
+        "image.stretch": "uniform",
+        "2d.editable": false,
+        "select.width": 0.5,
+        "select.type": "roundRect",
+        "select.color": "rgb(124,145,155)",
+        "label": "透明传递",
+        "label.font": "26px Microsoft YaHei",
+        "label.color": "rgb(51,153,255)",
+        "label.align": "left",
+        "note.font": "22px arial, sans-serif",
+        "note.color": "rgb(212,0,0)",
+        "note.background": "rgb(255,235,195)",
+        "note.position": 3,
+        "note.offset.x": 0,
+        "note.offset.y": -5,
+        "note.border.width": 10,
+        "note.border.color": "rgb(255,235,195)",
+        "note.opacity": 0,
+        "note.align": "left",
+        "note": "[func4] 工具函数输入时执行时，通常需要勾选“赋值后\n清空”，否则会导致组件按钮组（bts1）的关联属性sele\nct，通过索引为0的连线传入相同值（未变化）时不会触 \n发执行。                                          ",
+        "opacity": 1,
+        "2d.movable": false,
+        "layout.h": "left",
+        "layout.v": "top",
+        "label.opacity": 1
+      },
+      "a": {
+        "noteTips": "透明传递",
+        "bindEvents": [
+          "*",
+          "onOutput"
+        ],
+        "输出遇到空值": "全部（*）",
+        "输出遇到空值-list": [
+          "全部（*）",
+          "空对象（null）",
+          "未定义（undefined）",
+          "空字符串（\"\"）",
+          "否（false）",
+          "等于零（0）",
+          "小于零（<0）",
+          "NaN"
+        ],
+        "arrExec": false,
+        "symbol": "symbols/develop/uiotos/arranged/controls/functions/01-常用/透明传递.json",
+        "inputs": 0,
+        "paramControlTag": [
+          null
+        ],
+        "paramControlAttr": [
+          "output"
+        ],
+        "bindControlsTag": [
+          "数据组"
+        ],
+        "bindControlsAttr": [
+          "bindControlsVal"
+        ],
+        "bindControlsVal": [
+          0
+        ],
+        "oldDynamicAttrs": [
+          {
+            "attr": "_bindEvents_0",
+            "valueType": "MultiComboBox",
+            "defaultValue": "*",
+            "group": "bindEvents",
+            "description": "连线索引[0]的触发事件过滤器，默认全部通过",
+            "dynamicCreate": true
+          }
+        ],
+        "exeWhenInput": true,
+        "output": 0,
+        "exec": false,
+        "resetAfterInput": true,
+        "icon": "symbols/develop/uiotos/icons/functions/function.json",
+        "_forbidInherit": true,
+        "toolTipRaw": "<p style='color:rgb(242,83,75);margin-top:5px;margin-bottom:5px;font-weight:bold;line-height:1.5em;'>已被布局，不允许拖动（shift+回车可解除）</p><span style='font-weight:bold;color:rgb(125,195,125)'>说明：</span><span style='color:rgb(125,195,125);line-height:1.8em;letter-spacing:1px;'>\n<br>将选择索引透明传递\n<br>让按钮组对外连线0\n<br>赋值名称列表，以索\n<br>引取值再给出去。</span>",
+        "_bindEvents_0-list": [
+          "*",
+          "onOutput"
+        ],
+        "输出遇到空值 ~": "全部（*）",
+        "输出遇到空值 ~-list": [
+          "全部（*）",
+          "空对象（null）",
+          "未定义（undefined）",
+          "空字符串（\"\"）",
+          "否（false）",
+          "等于零（0）",
+          "小于零（<0）",
+          "NaN"
+        ],
+        "jsonStruct": 1
+      }
+    },
+    {
+      "c": "ht.Edge",
+      "i": 885181,
+      "p": {
+        "name": "edge",
+        "displayName": "0（edge5''）",
+        "toolTip": "<div id=\"config_tooltip\" style=\"font-size:12px;line-height:1.75em;letter-spacing:1px\">\n                                                        关联绑定信息：<br>\n                                                        <li style=\"list-style-type:disc;color:rgba(255,255,255,0.5);\">索引序号：0 | 总共1条</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold;\">操作属性：解析赋值@数据组</li>\n                                                        <li style=\"list-style-type:none;color:rgba(255,255,255,0.5)\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;当前值：undefined</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold\">关联属性：输出@func1</li>\n                                                        <li style=\"list-style-type:none;color:rgba(255,255,255,0.5)\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;关联值：undefined</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold;\">解析赋值：0</li>\n                                                        <li style=\"list-style-type:disc;\">注释：undefined</li>\n                                                    </div>",
+        "parent": {
+          "__i": 885180
+        },
+        "tag": "edge5''",
+        "source": {
+          "__i": 885180
+        },
+        "target": {
+          "__i": 885182
+        }
+      },
+      "s": {
+        "label": "操作下拉框的赋值解析属性（bincControlsVal），\n其中当前连线的赋值解析配置为0，这样指定将\n按钮索引值传递给下拉框第一条连线解析赋值。",
+        "edge.color": "rgb(51,153,255)",
+        "edge.width": 4,
+        "edge.type": "v.h",
+        "edge.gap": 16,
+        "note.border.width": 0,
+        "note.position": 7,
+        "note.font": "14px arial, sans-serif",
+        "note.opacity": 0.75,
+        "label.opacity": 0,
+        "note.background": "rgb(51,153,255)",
+        "note.offset.x": 0,
+        "note.offset.y": 0,
+        "icons": {
+          "symbols/demo/extra/basic/fromArrow2.json": {
+            "position": 15,
+            "keepOrien": true,
+            "names": [
+              "symbols/demo/extra/basic/fromArrow2.json"
+            ]
+          },
+          "symbols/demo/extra/basic/toArrow.json": {
+            "position": 19,
+            "keepOrien": true,
+            "width": 50,
+            "height": 20,
+            "names": [
+              "symbols/demo/extra/basic/toArrow.json"
+            ]
+          }
+        },
+        "note": "2）按钮索引传给下拉框",
+        "label.position": 33,
+        "edge.corner.radius": 0
+      },
+      "a": {
+        "index": 0,
+        "toolTipRaw": "<div id=\"config_tooltip\" style=\"font-size:12px;line-height:1.75em;letter-spacing:1px\">\n                                                        关联绑定信息：<br>\n                                                        <li style=\"list-style-type:disc;color:rgba(255,255,255,0.5);\">索引序号：0 | 总共1条</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold;\">操作属性：解析赋值@数据组</li>\n                                                        <li style=\"list-style-type:none;color:rgba(255,255,255,0.5)\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;当前值：undefined</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold\">关联属性：输出@func1</li>\n                                                        <li style=\"list-style-type:none;color:rgba(255,255,255,0.5)\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;关联值：undefined</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold;\">解析赋值：0</li>\n                                                        <li style=\"list-style-type:disc;\">注释：undefined</li>\n                                                    </div>"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 885182,
+      "p": {
+        "name": "cbox",
+        "displayName": "下拉框（数据组）",
+        "toolTip": "<p style='color:rgb(242,83,75);margin-top:5px;margin-bottom:5px;font-weight:bold;line-height:1.5em;'>已被布局，不允许拖动（shift+回车可解除）</p><span style='font-weight:bold;color:rgb(125,195,125)'>说明：</span><span style='color:rgb(125,195,125);line-height:1.8em;letter-spacing:1px;'>\n<br>下拉框的datas属性用于填入自定义的数组，\n<br>对应按钮组的索引，这样按钮组的显示文字、\n<br>索引，就有了对应的自定义数据选项。</span>",
+        "tag": "数据组",
+        "dataBindings": {
+          "a": {
+            "datas": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "__ht__function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}",
+              "alias": ""
+            },
+            "value": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "onChange": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "onOpened": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "defaultIndex": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "selectedID": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "selectedText": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "open": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "readOnly": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "disabled": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "_bindEvents_0": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "userData": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            }
+          }
+        },
+        "image": {
+          "modified": "Sat Aug 24 2024 17:21:06 GMT+0800 (中国标准时间)",
+          "dataBindings": [
+            {
+              "attr": "symbol",
+              "valueType": "Image",
+              "name": "symbol"
+            },
+            {
+              "attr": "open",
+              "valueType": "Boolean",
+              "defaultValue": false,
+              "description": "展开下拉。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#git2r\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+              "group": "功能",
+              "name": "open"
+            },
+            {
+              "attr": "readOnly",
+              "valueType": "Boolean",
+              "defaultValue": false,
+              "description": "只读。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#Z94gI\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+              "name": "readOnly"
+            },
+            {
+              "attr": "disabled",
+              "valueType": "Boolean",
+              "defaultValue": false,
+              "description": "禁止下拉。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#mVhBs\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+              "extraInfo": "★",
+              "name": "disabled"
+            },
+            {
+              "attr": "nodeUsable",
+              "valueType": "Boolean",
+              "defaultValue": false,
+              "description": "树列表节点双击可选中。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#aDFbj\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+              "extraInfo": "*",
+              "name": "nodeUsable"
+            },
+            {
+              "attr": "datas",
+              "valueType": "Object",
+              "defaultValue": [
+                {
+                  "name": "Button",
+                  "children": [
+                    {
+                      "name": "ToggleButton",
+                      "children": [
+                        {
+                          "name": "CheckBox"
+                        },
+                        {
+                          "name": "RadioButton"
+                        }
+                      ]
+                    },
+                    {
+                      "name": "MenuButton"
+                    }
+                  ]
+                },
+                {
+                  "name": "TextField",
+                  "children": [
+                    {
+                      "name": "ComboBox"
+                    },
+                    {
+                      "name": "NumberInput"
+                    }
+                  ]
+                }
+              ],
+              "description": "数据源。\n<br>下拉列表的数据格式，可以是基本列表比如：\n<br>['星期一' , '星期二' , '星期三' ]这样的结构。\n<br>也可以是对象列表。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#Utg1R\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+              "name": "datas"
+            },
+            {
+              "attr": "value",
+              "valueType": "Object",
+              "description": "选择或者设置的值。\n<br>通常结合选中ID和选中名称属性使用。可以是对象、\n<br>ID数字、或者显示字符串，将自动识别匹配格式。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#zqBrs\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情参见文档</a>",
+              "defaultValue": "",
+              "name": "value"
+            },
+            {
+              "attr": "noDatasKeepVal",
+              "valueType": "Boolean",
+              "description": "在数据内容为空时，\n值内容属性值是否保持不被清空。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#hWCkg\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+              "defaultValue": false,
+              "extraInfo": "★",
+              "name": "noDatasKeepVal"
+            },
+            {
+              "attr": "selectedID",
+              "valueType": "Object",
+              "description": "选则项的ID。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#j7hcP\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+              "defaultValue": -1,
+              "extraInfo": "★",
+              "name": "selectedID"
+            },
+            {
+              "attr": "selectedText",
+              "valueType": "Object",
+              "description": "选择项的文字。\n<br>当前选中的项对应的名称文字。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#vOONX\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+              "defaultValue": "",
+              "name": "selectedText"
+            },
+            {
+              "attr": "defaultIndex",
+              "valueType": "Int",
+              "defaultValue": 0,
+              "description": "下拉列表中的默认项索引。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#dZeee\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+              "extraInfo": "★",
+              "name": "defaultIndex"
+            },
+            {
+              "attr": "hasNoneItem",
+              "valueType": "Boolean",
+              "defaultValue": false,
+              "description": "有空选项。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#TXdaa\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+              "extraInfo": "★",
+              "name": "hasNoneItem"
+            },
+            {
+              "attr": "noneInfo",
+              "valueType": "ObjectArray",
+              "defaultValue": [
+                "无",
+                -1,
+                ""
+              ],
+              "description": "空选项配置。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#XbamC\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+              "extraInfo": "★",
+              "name": "noneInfo"
+            },
+            {
+              "attr": "allowChoosing",
+              "valueType": "Function",
+              "extraInfo": {
+                "arguments": [
+                  "data",
+                  "gv",
+                  "cache",
+                  "content",
+                  "item"
+                ],
+                "classify": "*"
+              },
+              "description": "可否选中的过滤函数。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#u9WhK\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+              "name": "allowChoosing"
+            },
+            {
+              "attr": "userData",
+              "valueType": "Object",
+              "defaultValue": [],
+              "name": "userData"
+            },
+            {
+              "attr": "onOpened",
+              "valueType": "Function",
+              "extraInfo": {
+                "arguments": [
+                  "data",
+                  "gv",
+                  "cache",
+                  "value",
+                  "extra"
+                ],
+                "classify": "*"
+              },
+              "description": "勾选后，当下拉时就对外触发。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#FjvNI\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+              "name": "onOpened"
+            },
+            {
+              "attr": "onChange",
+              "valueType": "Function",
+              "extraInfo": {
+                "arguments": [
+                  "data",
+                  "gv",
+                  "cache",
+                  "value",
+                  "extra"
+                ]
+              },
+              "description": "",
+              "name": "onChange"
+            },
+            {
+              "attr": "fixedHeight",
+              "valueType": "PositiveNumber",
+              "defaultValue": 35,
+              "group": "外观",
+              "extraInfo": "★",
+              "name": "fixedHeight"
+            },
+            {
+              "attr": "placeholder",
+              "valueType": "String",
+              "defaultValue": "关键词",
+              "extraInfo": "★",
+              "name": "placeholder"
+            },
+            {
+              "attr": "background",
+              "valueType": "ColorArray",
+              "description": "背景色。\n<br>索引0：默认背景颜色。\n<br>索引1：只读时悬停背景色、禁用时默认背景色。\n<br>索引2：只读或禁用时按下背景色。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#O1qbN\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+              "defaultValue": [
+                "rgba(255,255,255)",
+                "rgb(247,247,247)",
+                "rgb(247,247,247)"
+              ],
+              "name": "background"
+            },
+            {
+              "attr": "borderWidth",
+              "valueType": "Number",
+              "defaultValue": 1,
+              "description": "边框宽度。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#tjNoh\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+              "name": "borderWidth"
+            },
+            {
+              "attr": "borderRadius",
+              "valueType": "Number",
+              "defaultValue": 3,
+              "description": "圆角半径。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#LloZD\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+              "name": "borderRadius"
+            },
+            {
+              "attr": "borderColor",
+              "valueType": "ColorArray",
+              "defaultValue": [
+                "rgb(213,213,213)",
+                "rgb(51,153,255)"
+              ],
+              "description": "边框颜色。\n<br>索引0：默认边框色。\n<br>索引1：输入时边框色。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#c65AG\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+              "name": "borderColor"
+            },
+            {
+              "attr": "font",
+              "valueType": "Font",
+              "description": "字体。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#pGu9R\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+              "extraInfo": "★",
+              "name": "font"
+            },
+            {
+              "attr": "color",
+              "valueType": "ColorArray",
+              "description": "文本颜色。\n<br>索引0：输入文字颜色。\n<br>索引1：标签文本颜色。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#gv8dd\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+              "defaultValue": [
+                "rgb(0,0,0)",
+                "rgb(61,61,61)"
+              ],
+              "extraInfo": "★",
+              "name": "color"
+            },
+            {
+              "attr": "labelText",
+              "valueType": "String",
+              "defaultValue": "下拉框",
+              "name": "labelText"
+            },
+            {
+              "attr": "labelEmbeded",
+              "valueType": "Boolean",
+              "name": "labelEmbeded"
+            },
+            {
+              "attr": "layoutVertical",
+              "valueType": "Boolean",
+              "defaultValue": false,
+              "name": "layoutVertical"
+            },
+            {
+              "attr": "gap",
+              "valueType": "PositiveNumber",
+              "defaultValue": 15,
+              "extraInfo": "★",
+              "name": "gap"
+            },
+            {
+              "attr": "treeBoxShadow",
+              "valueType": "String",
+              "defaultValue": "0px 8px 22px rgba(0,0,0,0.1)",
+              "description": "阴影样式。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#cPxZ2\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+              "extraInfo": "*",
+              "name": "treeBoxShadow"
+            },
+            {
+              "attr": "treeBackground",
+              "valueType": "ColorArray",
+              "defaultValue": [
+                "rgb(255,255,255)",
+                null,
+                "rgb(247,247,247)",
+                "rgb(255,255,255)",
+                "rgb(247,247,247)",
+                "rgb(247,247,247)",
+                "rgb(247,247,247)"
+              ],
+              "description": "展开下拉的背景色。\n<br>索引0：默认背景色。\n<br>索引1：边框颜色。\n<br>索引2：行线颜色。\n<br>索引3：行默认背景色。\n<br>索引4：行悬停背景色。\n<br>索引5：行选中背景色。\n<br>索引6：行焦点背景色。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#Ld3ta\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+              "extraInfo": "*",
+              "name": "treeBackground"
+            },
+            {
+              "attr": "treeLabelColor",
+              "valueType": "ColorArray",
+              "defaultValue": [
+                "rgb(61,61,61)",
+                "rgb(51,153,255)",
+                "rgb(51,153,255)"
+              ],
+              "description": "展开下拉的文本颜色。\n<br>索引0：默认文字颜色；\n<br>索引1：悬停文字颜色；\n<br>索引2：选中文字颜色。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#HR6MR\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+              "extraInfo": "*",
+              "name": "treeLabelColor"
+            },
+            {
+              "attr": "treeLabelFont",
+              "valueType": "Font",
+              "defaultValue": "12px sans-serif, Arial",
+              "description": "树列表的字体。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#DnITI\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+              "extraInfo": "*",
+              "name": "treeLabelFont"
+            },
+            {
+              "attr": "treeRowHeight",
+              "valueType": "PositiveNumber",
+              "defaultValue": 25,
+              "description": "树列表 行高。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#RAzrA\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+              "extraInfo": "*",
+              "name": "treeRowHeight"
+            },
+            {
+              "attr": "treeBorderWidth",
+              "valueType": "PositiveNumber",
+              "defaultValue": 0,
+              "description": "树列表边框宽度。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#cPt6s\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+              "extraInfo": "*",
+              "name": "treeBorderWidth"
+            },
+            {
+              "attr": "treeBorderRadius",
+              "valueType": "NumberArray",
+              "defaultValue": [
+                0,
+                0,
+                0,
+                0
+              ],
+              "description": "树列表边框圆角半径。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#jQKGU\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+              "extraInfo": "*",
+              "name": "treeBorderRadius"
+            },
+            {
+              "attr": "treePadding",
+              "valueType": "NumberArray",
+              "defaultValue": [
+                5,
+                0,
+                5,
+                0
+              ],
+              "description": "边距像素。\n<br>索引0到索引3，依次是上、右、下、左。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#fbuU8\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+              "extraInfo": "*",
+              "name": "treePadding"
+            },
+            {
+              "attr": "bindControlsTag",
+              "valueType": "StringArray",
+              "group": "连线",
+              "name": "bindControlsTag"
+            },
+            {
+              "attr": "bindControlsAttr",
+              "valueType": "StringArray",
+              "name": "bindControlsAttr"
+            },
+            {
+              "attr": "bindControlsVal",
+              "valueType": "ObjectArray",
+              "name": "bindControlsVal"
+            },
+            {
+              "attr": "paramControlTag",
+              "valueType": "StringArray",
+              "name": "paramControlTag"
+            },
+            {
+              "attr": "paramControlAttr",
+              "valueType": "StringArray",
+              "name": "paramControlAttr"
+            },
+            {
+              "attr": "paramsGenerator",
+              "valueType": "Function",
+              "defaultValue": "__ht__function(data, val, index, node,oldVal,form,type,inner) {//绑定组索引对应的函数处理，用来动态生成复杂的参数变量传入\r\nswitch(index){\r\n    case 0:\r\n        break;\r\n    case 1:\r\n        break;\r\n    case 2:\r\n        break;\r\n    default:\r\n        break;\r\n}\r\n\r\nreturn val;}",
+              "extraInfo": {
+                "arguments": [
+                  "data",
+                  "val",
+                  "index",
+                  "node",
+                  "oldVal",
+                  "form",
+                  "type",
+                  "inner"
+                ],
+                "classify": "*"
+              },
+              "name": "paramsGenerator"
+            },
+            {
+              "attr": "useAttrCORS",
+              "valueType": "Boolean",
+              "extraInfo": "*",
+              "defaultValue": false,
+              "description": "连线操作和处理回写是否一致。\n                        比如多个文本框连线传值给相同对话框，弹窗修改\n                        后是否限定只能写到最新赋值过来的文本框。详见<a href='https://www.yuque.com/liuhuo-nc809/uiotos/fgi6dd7gado51acm#fFUbp' style=\"color:rgb(96,172,252)\"target=\"_blank\">同源属性操作</a>",
+              "bindIgnored": true,
+              "name": "useAttrCORS",
+              "dynamicCreate": true
+            },
+            {
+              "attr": "display",
+              "valueType": "Image",
+              "defaultValue": "",
+              "description": "自定义页面地址。\n                可以是编辑器中的其他页面，也可以\n                是外部网页链接地址。",
+              "group": "弹出框 *",
+              "bindIgnored": true,
+              "name": "display",
+              "dynamicCreate": true
+            },
+            {
+              "attr": "pureTipText",
+              "valueType": "String",
+              "defaultValue": "",
+              "description": "提示文字。\n                    当专业用户属性中，提供display内嵌页属性，\n                    如果有配置，那么本属性设置无效，将以内嵌\n                    页显示为准。",
+              "group": "弹出框 *",
+              "bindIgnored": true,
+              "name": "pureTipText",
+              "dynamicCreate": true
+            },
+            {
+              "attr": "popDirection",
+              "valueType": "SideDirection",
+              "defaultValue": "right",
+              "description": "提示显示位置。",
+              "group": "弹出框 *",
+              "bindIgnored": true,
+              "name": "popDirection",
+              "dynamicCreate": true
+            },
+            {
+              "attr": "popBackground",
+              "valueType": "Color",
+              "defaultValue": "white",
+              "description": "箭头和背景色。",
+              "group": "弹出框 *",
+              "bindIgnored": true,
+              "name": "popBackground",
+              "dynamicCreate": true
+            },
+            {
+              "attr": "popPadding",
+              "valueType": "NumberArray",
+              "defaultValue": [
+                2,
+                2,
+                2,
+                2
+              ],
+              "description": "内间距。",
+              "group": "弹出框 *",
+              "bindIgnored": true,
+              "name": "popPadding",
+              "dynamicCreate": true
+            },
+            {
+              "attr": "popWidth",
+              "valueType": "Number",
+              "defaultValue": 400,
+              "description": "弹出框宽度。",
+              "group": "弹出框 *",
+              "bindIgnored": true,
+              "name": "popWidth",
+              "dynamicCreate": true
+            },
+            {
+              "attr": "popHeight",
+              "valueType": "Number",
+              "defaultValue": 300,
+              "description": "弹出框高度。",
+              "group": "弹出框 *",
+              "bindIgnored": true,
+              "name": "popHeight",
+              "dynamicCreate": true
+            },
+            {
+              "attr": "popBorderColor",
+              "valueType": "Color",
+              "defaultValue": "rgb(51,51,51)",
+              "description": "边框线颜色。\n                    注意，是设置了边框宽度非0后的边框颜色。\n                    默认边框宽度属性为0时，实际上是白色并\n                    带有箭头指示的边框。本属性不用于修改默\n                    认边框色。",
+              "group": "弹出框 *",
+              "bindIgnored": true,
+              "name": "popBorderColor",
+              "dynamicCreate": true
+            },
+            {
+              "attr": "popBorderWidth",
+              "valueType": "Number",
+              "defaultValue": 0,
+              "description": "边框线宽度。\n                    默认值为0，此时边框默认为白色并且带有\n                    箭头指示。当设置宽度后，颜色将取边框颜\n                    色属性的设置，并且不再有箭头指示。",
+              "group": "弹出框 *",
+              "bindIgnored": true,
+              "name": "popBorderWidth",
+              "dynamicCreate": true
+            },
+            {
+              "attr": "popBorderRadius",
+              "valueType": "Number",
+              "defaultValue": 0,
+              "description": "边框线圆角。\n                    设置圆角线后，如果此前默认是白色边框带有\n                    指示箭头，那么将自动不可见，只对内容区域\n                    产生圆角。",
+              "group": "弹出框 *",
+              "bindIgnored": true,
+              "name": "popBorderRadius",
+              "dynamicCreate": true
+            },
+            {
+              "attr": "popTriggerEvent",
+              "valueType": "MouseEvent",
+              "defaultValue": "hover",
+              "description": "触发方式。\n                支持鼠标移入、点击（按钮时）\n                两种触发提示的方式。",
+              "group": "弹出框 *",
+              "bindIgnored": true,
+              "name": "popTriggerEvent",
+              "dynamicCreate": true
+            }
+          ],
+          "snapshotURL": "symbols/develop/uiotos/arranged/controls/forms_icon/下拉框.json",
+          "renderHTML": "__ht__function(data, gv, cache) {return __combobox_ui(data,gv,cache);}",
+          "width": 180,
+          "height": 35,
+          "fitSize": true,
+          "scrollable": true,
+          "interactive": true,
+          "pixelPerfect": false,
+          "comps": [],
+          "uuid": "F672004E-B10A-4BBD-A09A-348382272DFF"
+        },
+        "host": {
+          "__i": 885177
+        },
+        "position": {
+          "x": 203.00545,
+          "y": 86.8176
+        },
+        "width": 180,
+        "height": 35
+      },
+      "s": {
+        "label.opacity": 0,
+        "label.position": 17,
+        "label.offset.x": -10,
+        "label.offset.y": 0,
+        "label.color": "rgb(61,61,61)",
+        "interactive": true,
+        "image.stretch": "uniform",
+        "label": "",
+        "note.font": "22px arial, sans-serif",
+        "note.color": "rgb(212,0,0)",
+        "note.background": "rgb(255,235,195)",
+        "note.position": 3,
+        "note.offset.x": 0,
+        "note.offset.y": -5,
+        "note.border.width": 10,
+        "note.border.color": "rgb(255,235,195)",
+        "note.opacity": 0,
+        "note.align": "left",
+        "note": "[cbox2] 是否忘记对组件下拉框（cbox2）布局？当页面 \n存在底板时为弹性布局模式，通常所有组件都要求做布局\n。当然，如果仅作为编辑时可见时，勾选“运行时不可见\n”属性即可。                                      ",
+        "2d.movable": false,
+        "layout.h": "leftright",
+        "layout.v": "top"
+      },
+      "a": {
+        "bindEvents": [
+          "*",
+          "onClick",
+          "onChange",
+          "onOpened",
+          "onEmpty"
+        ],
+        "value": "day",
+        "selectedID": 0,
+        "selectedText": "day",
+        "datas": [
+          "day",
+          "month",
+          "year"
+        ],
+        "labelEmbeded": false,
+        "gap": 0,
+        "paramControlTag": [
+          null
+        ],
+        "paramControlAttr": [
+          "datas"
+        ],
+        "bindControlsTag": [
+          "输出"
+        ],
+        "bindControlsAttr": [
+          "inputs"
+        ],
+        "bindControlsVal": [
+          0
+        ],
+        "symbol": "symbols/develop/uiotos/arranged/controls/forms/05-下拉选择/下拉框.json",
+        "oldDynamicAttrs": [
+          {
+            "attr": "_bindEvents_0",
+            "valueType": "MultiComboBox",
+            "defaultValue": "*",
+            "group": "bindEvents",
+            "description": "连线索引[0]的触发事件过滤器，默认全部通过",
+            "dynamicCreate": true
+          }
+        ],
+        "_hideWhenRun": false,
+        "labelText": "下拉框",
+        "paramBindEvent": [],
+        "paramsGenerator": "function paramsGenerator(data, val, index, node, oldVal, form) {\r\n    //绑定组索引对应的函数处理，用来动态生成复杂的参数变量传入\r\n    switch (index) {\r\n        case 0:\r\n            break;\r\n        case 1:\r\n            break;\r\n        case 2:\r\n            break;\r\n        default:\r\n            break;\r\n    }\r\n    return val;\r\n}",
+        "toolTipRaw": "<p style='color:rgb(242,83,75);margin-top:5px;margin-bottom:5px;font-weight:bold;line-height:1.5em;'>已被布局，不允许拖动（shift+回车可解除）</p><span style='font-weight:bold;color:rgb(125,195,125)'>说明：</span><span style='color:rgb(125,195,125);line-height:1.8em;letter-spacing:1px;'>\n<br>下拉框的datas属性用于填入自定义的数组，\n<br>对应按钮组的索引，这样按钮组的显示文字、\n<br>索引，就有了对应的自定义数据选项。</span>",
+        "_forbidInherit": false,
+        "_bindEvents_0-list": [
+          "*",
+          "onClick",
+          "onChange",
+          "onOpened",
+          "onEmpty"
+        ],
+        "background": [
+          "rgb(255,255,255)",
+          "rgb(247,247,247)",
+          "rgb(247,247,247)"
+        ],
+        "color": [
+          null,
+          "rgb(61,61,61)"
+        ],
+        "borderColor": [
+          "rgb(213,213,213)",
+          "rgb(51,153,255)"
+        ],
+        "treeLabelColor": [
+          "rgb(61,61,61)",
+          "rgb(51,153,255)",
+          "rgb(51,153,255)"
+        ],
+        "treeBackground": [
+          "rgb(255,255,255)",
+          null,
+          "rgb(247,247,247)",
+          "rgb(255,255,255)",
+          "rgb(247,247,247)",
+          "rgb(247,247,247)",
+          "rgb(247,247,247)"
+        ],
+        "old.label.position": 2
+      }
+    },
+    {
+      "c": "ht.Edge",
+      "i": 885183,
+      "p": {
+        "name": "edge",
+        "displayName": "0（edge5'''）",
+        "toolTip": "<div id=\"config_tooltip\" style=\"font-size:12px;line-height:1.75em;letter-spacing:1px\">\n                                                        关联绑定信息：<br>\n                                                        <li style=\"list-style-type:disc;color:rgba(255,255,255,0.5);\">索引序号：0 | 总共1条</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold;\">操作属性：输入（组）@输出</li>\n                                                        <li style=\"list-style-type:none;color:rgba(255,255,255,0.5)\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;当前值：undefined</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold\">关联属性：数据内容@数据组</li>\n                                                        <li style=\"list-style-type:none;color:rgba(255,255,255,0.5)\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;关联值：undefined</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold;\">解析赋值：0</li>\n                                                        <li style=\"list-style-type:disc;\">注释：undefined</li>\n                                                    </div>",
+        "parent": {
+          "__i": 885182
+        },
+        "tag": "edge5'''",
+        "source": {
+          "__i": 885182
+        },
+        "target": {
+          "__i": 885184
+        }
+      },
+      "s": {
+        "label": "第2）步连线将按钮组的当前索引传入，作为当前连线\n的解析赋值，作为获取下拉框数组内容项的索引。",
+        "edge.color": "rgba(51,153,255,0)",
+        "edge.width": 4,
+        "edge.type": "flex",
+        "edge.gap": 16,
+        "note.border.width": 0,
+        "note.position": 7,
+        "note.font": "14px arial, sans-serif",
+        "note.opacity": 0.75,
+        "label.opacity": 0,
+        "note.background": "rgb(51,153,255)",
+        "note.offset.x": 0,
+        "note.offset.y": 0,
+        "icons": {
+          "symbols/demo/extra/basic/fromArrow2.json": {
+            "position": 15,
+            "keepOrien": true,
+            "names": [
+              "symbols/demo/extra/basic/fromArrow2.json"
+            ]
+          },
+          "symbols/demo/extra/basic/toArrow.json": {
+            "position": 19,
+            "keepOrien": true,
+            "width": 50,
+            "height": 20,
+            "names": [
+              "symbols/demo/extra/basic/toArrow.json"
+            ]
+          }
+        },
+        "note": "3）取下拉框数组的指定项",
+        "edge.dash.color": "rgba(51,153,255,1)",
+        "edge.dash": true,
+        "edge.dash.pattern": [
+          8,
+          8
+        ]
+      },
+      "a": {
+        "index": 0,
+        "toolTipRaw": "<div id=\"config_tooltip\" style=\"font-size:12px;line-height:1.75em;letter-spacing:1px\">\n                                                        关联绑定信息：<br>\n                                                        <li style=\"list-style-type:disc;color:rgba(255,255,255,0.5);\">索引序号：0 | 总共1条</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold;\">操作属性：输入（组）@输出</li>\n                                                        <li style=\"list-style-type:none;color:rgba(255,255,255,0.5)\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;当前值：undefined</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold\">关联属性：数据内容@数据组</li>\n                                                        <li style=\"list-style-type:none;color:rgba(255,255,255,0.5)\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;关联值：undefined</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold;\">解析赋值：0</li>\n                                                        <li style=\"list-style-type:disc;\">注释：undefined</li>\n                                                    </div>"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 885184,
+      "p": {
+        "name": "func",
+        "displayName": "工具函数（输出）",
+        "toolTip": "<p style='color:rgb(242,83,75);margin-top:5px;margin-bottom:5px;font-weight:bold;line-height:1.5em;'>已被布局，不允许拖动（shift+回车可解除）</p><p style=\"color: rgb(242, 83, 75); margin-top: 5px; margin-bottom: -15px; font-weight: bold; line-height: 1.5em;\">已被布局，不允许拖动</p><span style='color:rgb(125,195,125);line-height:2em;letter-spacing:1px;'>\n<br>注意，需要提前勾选“输入组转对象”属性，\n<br>将输入组默认的数组类型改为对象（非数\n<br>组），这样操作过来连线的静态解析赋值，\n<br>就会作为下拉框列表的取值索引，而不是\n<br>对当前数组的操作索引。</span>",
+        "tag": "输出",
+        "dataBindings": {
+          "a": {
+            "userData": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "output": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "inputs": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "__ht__function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}",
+              "alias": ""
+            },
+            "exec": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "__ht__function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}",
+              "alias": ""
+            },
+            "arrExec": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "onOutput": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "_rawForm": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "inputKeys": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "inputValues": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "convertFlatToTree": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "outputByEvent": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "_pureFormValues": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "_bindEvents_0": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            }
+          }
+        },
+        "image": {
+          "modified": "Fri Aug 02 2024 07:16:41 GMT+0800 (中国标准时间)",
+          "dataBindings": [
+            {
+              "attr": "symbol",
+              "valueType": "Image",
+              "name": "symbol"
+            },
+            {
+              "attr": "function",
+              "valueType": "ToolFunction",
+              "defaultValue": "formValues",
+              "name": "功能选项",
+              "group": "功能",
+              "extraInfo": "*",
+              "description": "获取组件属性值。\n                主动获取任意组件的任意属性值，通过连线连入操作自身的输入组（inputs）属性。\n                与常规的连线连出操作不一样，常规是通过组件自身的事件触发连线执行动作，而\n                本函数是主动查取属性值并输出，而连线操作和配置规则都一样，包括连线方向、数\n                据赋值解析等。\n                注意，连入本函数输出入组的线默认为虚线样式。此外，支持多个不同组件的不同属\n                性同时连入当前函数输入组，输出时会自动将这些值进行合并，合并规则如下：\n                1）多条连线分别输入的最终值都是数组时，将数组合并成一个大数组输出，比如三\n                条连线分别传入[1,2],[3],[4,5,6]，那么最终输出[1,2,3,4,5,6]。\n                2）多条连线分别输入的最终值都是对象时，将对象合并成一个大对象输出，比如3\n                条连线分别传入{a:1},{b:2,c:3},{d:4,e:5,f:6}，合并输出为{a:1,b:2,c:3,d:4,\n                e:5,f:6}。\n                3）其他情况下将输出对象，以各自组件的标签tag为key，传入的值为value组成对象。\n                比如4条连线分别传入值为1,{a:2},3,[4,5,6]，分别标签为tag1、tag2、tag3、tag4，\n                那么将输出对象：{tag1:1, tag2:{a:2}, tag3:3, tag4:[4,5,6]}\n                4）如果只有一条连线输入，那么输出就是这条连线的输入值，不会作任何转换处理。\n                同时，还支持对容器组件以表单操作方式连入，关联为空（不选择属性），此时默认获\n                取其formValue表单对象。如果勾选了_rawForm，那么获取完整表单对象作为输入。\n                _rawForm属性的勾选与否，仅对\n                "
+            },
+            {
+              "attr": "noteTips",
+              "valueType": "Multiline",
+              "name": "别名注释",
+              "bindIgnored": true,
+              "description": "默认为函数名称，可备注修改。<a href='https://www.yuque.com/liuhuo-nc809/uiotos/fgi6dd7gado51acm#Hw6Bw' style=\"color:rgb(96,172,252)\" target='_blank'>详情</a>\n点击查阅<a href=https://www.yuque.com/liuhuo-nc809/uiotos/bb6hr2sdhaz8gz8m#wtjRK style=\"color:rgb(96,172,252)\" target='_blank'>组件文档</a>",
+              "dynamicCreate": true
+            },
+            {
+              "attr": "color",
+              "valueType": "Color",
+              "name": "显示颜色",
+              "defaultValue": "rgb(51,153,255)",
+              "description": "图标和文字颜色。\n点击查阅<a href=https://www.yuque.com/liuhuo-nc809/uiotos/bb6hr2sdhaz8gz8m#wtjRK style=\"color:rgb(96,172,252)\" target='_blank'>组件文档</a>",
+              "bindIgnored": true,
+              "extraInfo": "*",
+              "dynamicCreate": true
+            },
+            {
+              "attr": "exeWhenInput",
+              "valueType": "Boolean",
+              "defaultValue": false,
+              "name": "输入赋值时执行",
+              "bindIgnored": true,
+              "description": "值输入且变化时，自动触发函数执行。\n点击查阅<a href=https://www.yuque.com/liuhuo-nc809/uiotos/bb6hr2sdhaz8gz8m#wtjRK style=\"color:rgb(96,172,252)\" target='_blank'>组件文档</a>",
+              "dynamicCreate": true
+            },
+            {
+              "attr": "resetAfterInput",
+              "valueType": "Boolean",
+              "name": "输入赋值后清空",
+              "description": "值输入并执行后，会自动复位成空\n                对象{}，确保下次任何输入会触发变化。<a href='https://www.yuque.com/liuhuo-nc809/uiotos/fgi6dd7gado51acm#Qo3GX' style=\"color:rgb(96,172,252)\" target='_blank'>详情</a>\n点击查阅<a href=https://www.yuque.com/liuhuo-nc809/uiotos/bb6hr2sdhaz8gz8m#wtjRK style=\"color:rgb(96,172,252)\" target='_blank'>组件文档</a>",
+              "defaultValue": false,
+              "bindIgnored": true,
+              "extraInfo": "★",
+              "dynamicCreate": true
+            },
+            {
+              "attr": "inputsArrToObj",
+              "valueType": "Boolean",
+              "name": "输入数组转对象",
+              "description": "是否切换成对象格式显示和输入。\n                注意：切换方式不会改变值本身。<a href='https://www.yuque.com/liuhuo-nc809/uiotos/fgi6dd7gado51acm#Jij1U' style=\"color:rgb(96,172,252)\" target='_blank'>详情</a>\n点击查阅<a href=https://www.yuque.com/liuhuo-nc809/uiotos/bb6hr2sdhaz8gz8m#wtjRK style=\"color:rgb(96,172,252)\" target='_blank'>组件文档</a>",
+              "defaultValue": true,
+              "bindIgnored": true,
+              "extraInfo": "★",
+              "dynamicCreate": true
+            },
+            {
+              "attr": "stripSingleInput",
+              "valueType": "Boolean",
+              "defaultValue": true,
+              "name": "输入组单个取出",
+              "description": "输入组为数组且只有1个元素时，取出\n                <br>这个元素作为实际输入值，代替原先的输入。默\n                <br>认inputs为数组格式，手动输入时通常会在数组\n                <br>的首元素输入，本属性保持默认勾选时，实际计\n                <br>算会以首元素作为实际输入值。\n                <br>也可以勾选“输入数组转对象”，此时输入组的属\n                <br>性栏由数组切换为对象输入，就可以任意输入非\n                <br>数组类型的值了。\n点击查阅<a href=https://www.yuque.com/liuhuo-nc809/uiotos/bb6hr2sdhaz8gz8m#wtjRK style=\"color:rgb(96,172,252)\" target='_blank'>组件文档</a>",
+              "extraInfo": "~",
+              "bindIgnored": true,
+              "dynamicCreate": true
+            },
+            {
+              "attr": "exeWhenLoad",
+              "valueType": "Boolean",
+              "defaultValue": false,
+              "name": "组件加载时执行",
+              "description": "所在的页面加载时，组件自动触发执行。<a href='https://www.yuque.com/liuhuo-nc809/uiotos/fgi6dd7gado51acm#OAge1' style=\"color:rgb(96,172,252)\" target='_blank'>详情</a>\n点击查阅<a href=https://www.yuque.com/liuhuo-nc809/uiotos/bb6hr2sdhaz8gz8m#wtjRK style=\"color:rgb(96,172,252)\" target='_blank'>组件文档</a>",
+              "extraInfo": "*",
+              "bindIgnored": true,
+              "dynamicCreate": true
+            },
+            {
+              "attr": "oldValueMerge",
+              "valueType": "Boolean",
+              "defaultValue": false,
+              "name": "输出合并非覆盖",
+              "description": "输出与目标属性值合并，非默认覆盖。<a href='https://www.yuque.com/liuhuo-nc809/uiotos/fgi6dd7gado51acm#ACnaO' style=\"color:rgb(96,172,252)\" target='_blank'>详情</a>\n点击查阅<a href=https://www.yuque.com/liuhuo-nc809/uiotos/bb6hr2sdhaz8gz8m#wtjRK style=\"color:rgb(96,172,252)\" target='_blank'>组件文档</a>",
+              "bindIgnored": true,
+              "extraInfo": "★",
+              "dynamicCreate": true
+            },
+            {
+              "attr": "outputByEvent",
+              "valueType": "Boolean",
+              "defaultValue": true,
+              "name": "输出经事件返回",
+              "description": "直接输出属性值，而非默认表单数据。<a href='https://www.yuque.com/liuhuo-nc809/uiotos/fgi6dd7gado51acm#mcfhK' style=\"color:rgb(96,172,252)\" target='_blank'>详情</a>\n点击查阅<a href=https://www.yuque.com/liuhuo-nc809/uiotos/bb6hr2sdhaz8gz8m#wtjRK style=\"color:rgb(96,172,252)\" target='_blank'>组件文档</a>",
+              "bindIgnored": true,
+              "extraInfo": "★",
+              "dynamicCreate": true
+            },
+            {
+              "attr": "parseFailedNull",
+              "valueType": "Boolean",
+              "defaultValue": true,
+              "name": "输出解析默认空",
+              "description": "解析失败未提取到字段值时，返回空。<a href='https://www.yuque.com/liuhuo-nc809/uiotos/fgi6dd7gado51acm#awhIA' style=\"color:rgb(96,172,252)\" target='_blank'>详情</a>\n点击查阅<a href=https://www.yuque.com/liuhuo-nc809/uiotos/bb6hr2sdhaz8gz8m#wtjRK style=\"color:rgb(96,172,252)\" target='_blank'>组件文档</a>",
+              "bindIgnored": true,
+              "extraInfo": "*",
+              "dynamicCreate": true
+            },
+            {
+              "attr": "inputs",
+              "valueType": "Object",
+              "name": "输入（组）",
+              "description": "工具函数的输入。<a href='https://www.yuque.com/liuhuo-nc809/uiotos/fgi6dd7gado51acm#aTR5v' style=\"color:rgb(96,172,252)\" target='_blank'>详情</a>\n用于被连线操作。点击查阅<a href=https://www.yuque.com/liuhuo-nc809/uiotos/bb6hr2sdhaz8gz8m#wtjRK style=\"color:rgb(96,172,252)\" target='_blank'>组件文档</a>",
+              "dynamicCreate": true
+            },
+            {
+              "attr": "jsonStruct",
+              "valueType": "JsonStruct",
+              "name": "转换方式",
+              "defaultValue": 1,
+              "description": "输入与参数键值组的对应关系选项。<a href='https://www.yuque.com/liuhuo-nc809/uiotos/fgi6dd7gado51acm#pK7XI' style=\"color:rgb(96,172,252)\" target='_blank'>详情</a>",
+              "extraInfo": "*",
+              "bindIgnored": true,
+              "dynamicCreate": true
+            },
+            {
+              "attr": "inputKeys",
+              "valueType": "ObjectArray",
+              "defaultValue": [],
+              "name": "输入键组",
+              "description": "输入组扁平化后的值列表，双向同步。\n                        与输入值组配合使用。<a href='https://www.yuque.com/liuhuo-nc809/uiotos/fgi6dd7gado51acm#CSjM8' style=\"color:rgb(96,172,252)\" target='_blank'>详情</a>",
+              "extraInfo": "*",
+              "dynamicCreate": true
+            },
+            {
+              "attr": "inputValues",
+              "valueType": "ObjectArray",
+              "defaultValue": [],
+              "name": "输入值组",
+              "description": "输入组扁平化后的值列表，双向同步。\n                        与输入键组配合使用。<a href='https://www.yuque.com/liuhuo-nc809/uiotos/fgi6dd7gado51acm#oXg9Q' style=\"color:rgb(96,172,252)\" target='_blank'>详情</a>",
+              "extraInfo": "*",
+              "dynamicCreate": true
+            },
+            {
+              "attr": "_pureFormValues",
+              "valueType": "Boolean",
+              "name": "纯表单 ☆",
+              "defaultValue": true,
+              "description": "是否仅采用纯表单数据。<a href='https://www.yuque.com/liuhuo-nc809/uiotos/bb6hr2sdhaz8gz8m#QmIFV' style=\"color:rgb(96,172,252)\" target='_blank'>详情</a>",
+              "dynamicCreate": true
+            },
+            {
+              "attr": "_rawForm",
+              "valueType": "Boolean",
+              "defaultValue": false,
+              "description": "原始属性表单。\n                    包含所有做了form、 formReset、 formValue绑定的属性。",
+              "extraInfo": "~",
+              "name": "_rawForm",
+              "dynamicCreate": true
+            },
+            {
+              "attr": "delay",
+              "valueType": "PositiveNumber",
+              "defaultValue": 0,
+              "name": "延时执行毫秒",
+              "description": "异步延迟执行时间（ms）。<a href='https://www.yuque.com/liuhuo-nc809/uiotos/fgi6dd7gado51acm#K5Me7' style=\"color:rgb(96,172,252)\" target='_blank'>详情</a>\n点击查阅<a href=https://www.yuque.com/liuhuo-nc809/uiotos/bb6hr2sdhaz8gz8m#wtjRK style=\"color:rgb(96,172,252)\" target='_blank'>组件文档</a>",
+              "bindIgnored": true,
+              "extraInfo": "*",
+              "dynamicCreate": true
+            },
+            {
+              "attr": "exec",
+              "valueType": "Boolean",
+              "defaultValue": false,
+              "name": "执行",
+              "description": "触发工具函数执行。<a href='https://www.yuque.com/liuhuo-nc809/uiotos/fgi6dd7gado51acm#yMMTA' style=\"color:rgb(96,172,252)\" target='_blank'>详情</a>\n点击查阅<a href=https://www.yuque.com/liuhuo-nc809/uiotos/bb6hr2sdhaz8gz8m#wtjRK style=\"color:rgb(96,172,252)\" target='_blank'>组件文档</a>",
+              "dynamicCreate": true
+            },
+            {
+              "attr": "arrExec",
+              "valueType": "Boolean",
+              "defaultValue": false,
+              "name": "遍历执行",
+              "description": "数组遍历执行。当输入为数组时，\n                将拆成逐项单独单独顺次执行。<a href='https://www.yuque.com/liuhuo-nc809/uiotos/fgi6dd7gado51acm#ovTxm' style=\"color:rgb(96,172,252)\" target='_blank'>详情</a>\n点击查阅<a href=https://www.yuque.com/liuhuo-nc809/uiotos/bb6hr2sdhaz8gz8m#wtjRK style=\"color:rgb(96,172,252)\" target='_blank'>组件文档</a>",
+              "extraInfo": "*",
+              "bindIgnored": true,
+              "dynamicCreate": true
+            },
+            {
+              "attr": "whenOutputing",
+              "valueType": "MultiComboBox",
+              "name": "whenOutputing",
+              "extraInfo": "~",
+              "bindIgnored": true,
+              "dynamicCreate": true
+            },
+            {
+              "attr": "changeOutputTo",
+              "valueType": "MultiComboBox",
+              "extraInfo": "~",
+              "defaultValue": "不转换",
+              "name": "changeOutputTo",
+              "bindIgnored": true,
+              "dynamicCreate": true
+            },
+            {
+              "attr": "output",
+              "valueType": "Object",
+              "name": "输出",
+              "description": "函数执行后的结果输出。<a href='https://www.yuque.com/liuhuo-nc809/uiotos/fgi6dd7gado51acm#YPMiQ' style=\"color:rgb(96,172,252)\" target='_blank'>详情</a>\n点击查阅<a href=https://www.yuque.com/liuhuo-nc809/uiotos/bb6hr2sdhaz8gz8m#wtjRK style=\"color:rgb(96,172,252)\" target='_blank'>组件文档</a>",
+              "dynamicCreate": true
+            },
+            {
+              "attr": "userData",
+              "valueType": "Object",
+              "defaultValue": [],
+              "description": "用户数据。\n点击查阅<a href=https://www.yuque.com/liuhuo-nc809/uiotos/bb6hr2sdhaz8gz8m#wtjRK style=\"color:rgb(96,172,252)\" target='_blank'>组件文档</a>",
+              "bindIgnored": true,
+              "name": "userData",
+              "dynamicCreate": true
+            },
+            {
+              "attr": "onOutput",
+              "valueType": "Function",
+              "description": "函数执行完毕输出结果时触发。<a href='https://www.yuque.com/liuhuo-nc809/uiotos/fgi6dd7gado51acm#d7xnO' style=\"color:rgb(96,172,252)\" target='_blank'>详情</a>\n点击查阅<a href=https://www.yuque.com/liuhuo-nc809/uiotos/bb6hr2sdhaz8gz8m#wtjRK style=\"color:rgb(96,172,252)\" target='_blank'>组件文档</a>",
+              "extraInfo": {
+                "arguments": [
+                  "data",
+                  "gv",
+                  "cache",
+                  "value"
+                ]
+              },
+              "name": "onOutput",
+              "dynamicCreate": true
+            },
+            {
+              "attr": "bindControlsTag",
+              "valueType": "ObjectArray",
+              "group": "bindControls",
+              "name": "bindControlsTag"
+            },
+            {
+              "attr": "bindControlsAttr",
+              "valueType": "ObjectArray",
+              "name": "bindControlsAttr"
+            },
+            {
+              "attr": "bindControlsVal",
+              "valueType": "ObjectArray",
+              "description": "",
+              "name": "bindControlsVal"
+            },
+            {
+              "attr": "paramControlTag",
+              "valueType": "ObjectArray",
+              "name": "paramControlTag"
+            },
+            {
+              "attr": "paramControlAttr",
+              "valueType": "ObjectArray",
+              "name": "paramControlAttr"
+            },
+            {
+              "attr": "paramsGenerator",
+              "valueType": "Function",
+              "defaultValue": "__ht__function(data, val, index, node, oldVal, form, type, inner) {//绑定组索引对应的函数处理，用来动态生成复杂的参数变量传入\r\nswitch(index){\r\n    case 0:\r\n        break;\r\n    case 1:\r\n        break;\r\n    case 2:\r\n        break;\r\n    default:\r\n        break;\r\n}\r\n\r\nreturn val;}",
+              "extraInfo": {
+                "arguments": [
+                  "data",
+                  "val",
+                  "index",
+                  "node",
+                  "oldVal",
+                  "form",
+                  "type",
+                  "inner"
+                ],
+                "classify": "*"
+              },
+              "name": "paramsGenerator"
+            },
+            {
+              "attr": "useAttrCORS",
+              "valueType": "Boolean",
+              "extraInfo": "*",
+              "defaultValue": false,
+              "description": "连线操作和处理回写是否一致。\n                        比如多个文本框连线传值给相同对话框，弹窗修改\n                        后是否限定只能写到最新赋值过来的文本框。详见<a href='https://www.yuque.com/liuhuo-nc809/uiotos/fgi6dd7gado51acm#fFUbp' style=\"color:rgb(96,172,252)\"target=\"_blank\">同源属性操作</a>",
+              "bindIgnored": true,
+              "name": "useAttrCORS",
+              "dynamicCreate": true
+            }
+          ],
+          "renderHTML": "__ht__function(data, gv, cache) {return __convertor(data,gv,cache);}",
+          "width": 100,
+          "height": 100,
+          "comps": [
+            {
+              "type": "shape",
+              "background": {
+                "func": "attr@color",
+                "value": "rgb(124,145,155)"
+              },
+              "borderWidth": {
+                "func": "attr@icon-borderWidth",
+                "value": 0
+              },
+              "borderColor": {
+                "func": "attr@icon-borderColor",
+                "value": null
+              },
+              "displayName": "不规则图形",
+              "anchorX": 0,
+              "anchorY": 0,
+              "scaleX": 4.5,
+              "scaleY": 4.5,
+              "points": "__ht__list[\n  {\n    \"x\": 42.07445,\n    \"y\": 38.70667\n  },\n  {\n    \"x\": 42.07445,\n    \"y\": 37.65618\n  },\n  {\n    \"x\": 42.07445,\n    \"y\": 37.46282\n  },\n  {\n    \"x\": 42.23118,\n    \"y\": 37.30599\n  },\n  {\n    \"x\": 42.42464,\n    \"y\": 37.30599\n  },\n  {\n    \"x\": 42.618,\n    \"y\": 37.30599\n  },\n  {\n    \"x\": 42.77483,\n    \"y\": 37.46273\n  },\n  {\n    \"x\": 42.77483,\n    \"y\": 37.65618\n  },\n  {\n    \"x\": 42.77483,\n    \"y\": 38.70667\n  },\n  {\n    \"x\": 42.77483,\n    \"y\": 38.90003\n  },\n  {\n    \"x\": 42.61809,\n    \"y\": 39.05687\n  },\n  {\n    \"x\": 42.42464,\n    \"y\": 39.05687\n  },\n  {\n    \"x\": 42.23118,\n    \"y\": 39.05677\n  },\n  {\n    \"x\": 42.07445,\n    \"y\": 38.90003\n  },\n  {\n    \"x\": 42.07445,\n    \"y\": 38.70667\n  },\n  {\n    \"x\": 42.07445,\n    \"y\": 35.5553\n  },\n  {\n    \"x\": 42.07445,\n    \"y\": 34.50482\n  },\n  {\n    \"x\": 42.07445,\n    \"y\": 34.31146\n  },\n  {\n    \"x\": 42.23118,\n    \"y\": 34.15462\n  },\n  {\n    \"x\": 42.42464,\n    \"y\": 34.15462\n  },\n  {\n    \"x\": 42.618,\n    \"y\": 34.15462\n  },\n  {\n    \"x\": 42.77483,\n    \"y\": 34.31136\n  },\n  {\n    \"x\": 42.77483,\n    \"y\": 34.50482\n  },\n  {\n    \"x\": 42.77483,\n    \"y\": 35.5553\n  },\n  {\n    \"x\": 42.77483,\n    \"y\": 35.74866\n  },\n  {\n    \"x\": 42.61809,\n    \"y\": 35.9055\n  },\n  {\n    \"x\": 42.42464,\n    \"y\": 35.9055\n  },\n  {\n    \"x\": 42.23118,\n    \"y\": 35.9054\n  },\n  {\n    \"x\": 42.07445,\n    \"y\": 35.74866\n  },\n  {\n    \"x\": 42.07445,\n    \"y\": 35.5553\n  },\n  {\n    \"x\": 42.07445,\n    \"y\": 31.70364\n  },\n  {\n    \"x\": 42.07445,\n    \"y\": 30.65316\n  },\n  {\n    \"x\": 42.07445,\n    \"y\": 30.4598\n  },\n  {\n    \"x\": 42.23118,\n    \"y\": 30.30296\n  },\n  {\n    \"x\": 42.42464,\n    \"y\": 30.30296\n  },\n  {\n    \"x\": 42.618,\n    \"y\": 30.30296\n  },\n  {\n    \"x\": 42.77483,\n    \"y\": 30.4597\n  },\n  {\n    \"x\": 42.77483,\n    \"y\": 30.65316\n  },\n  {\n    \"x\": 42.77483,\n    \"y\": 31.70364\n  },\n  {\n    \"x\": 42.77483,\n    \"y\": 31.897\n  },\n  {\n    \"x\": 42.61809,\n    \"y\": 32.05384\n  },\n  {\n    \"x\": 42.42464,\n    \"y\": 32.05384\n  },\n  {\n    \"x\": 42.23118,\n    \"y\": 32.05374\n  },\n  {\n    \"x\": 42.07445,\n    \"y\": 31.897\n  },\n  {\n    \"x\": 42.07445,\n    \"y\": 31.70364\n  },\n  {\n    \"x\": 43.82523,\n    \"y\": 33.10423\n  },\n  {\n    \"x\": 43.82523,\n    \"y\": 33.87776\n  },\n  {\n    \"x\": 43.19818,\n    \"y\": 34.50482\n  },\n  {\n    \"x\": 42.42464,\n    \"y\": 34.50482\n  },\n  {\n    \"x\": 41.65111,\n    \"y\": 34.50482\n  },\n  {\n    \"x\": 41.02396,\n    \"y\": 33.87776\n  },\n  {\n    \"x\": 41.02396,\n    \"y\": 33.10423\n  },\n  {\n    \"x\": 41.02396,\n    \"y\": 32.33069\n  },\n  {\n    \"x\": 41.65101,\n    \"y\": 31.70364\n  },\n  {\n    \"x\": 42.42455,\n    \"y\": 31.70364\n  },\n  {\n    \"x\": 43.19808,\n    \"y\": 31.70364\n  },\n  {\n    \"x\": 43.82523,\n    \"y\": 32.33069\n  },\n  {\n    \"x\": 43.82523,\n    \"y\": 33.10423\n  },\n  {\n    \"x\": 42.42464,\n    \"y\": 32.40394\n  },\n  {\n    \"x\": 42.03793,\n    \"y\": 32.40394\n  },\n  {\n    \"x\": 41.72435,\n    \"y\": 32.71751\n  },\n  {\n    \"x\": 41.72435,\n    \"y\": 33.10423\n  },\n  {\n    \"x\": 41.72435,\n    \"y\": 33.49095\n  },\n  {\n    \"x\": 42.03793,\n    \"y\": 33.80452\n  },\n  {\n    \"x\": 42.42464,\n    \"y\": 33.80452\n  },\n  {\n    \"x\": 42.81136,\n    \"y\": 33.80452\n  },\n  {\n    \"x\": 43.12494,\n    \"y\": 33.49095\n  },\n  {\n    \"x\": 43.12494,\n    \"y\": 33.10423\n  },\n  {\n    \"x\": 43.12494,\n    \"y\": 32.71751\n  },\n  {\n    \"x\": 42.81136,\n    \"y\": 32.40394\n  },\n  {\n    \"x\": 42.42464,\n    \"y\": 32.40394\n  },\n  {\n    \"x\": 43.82523,\n    \"y\": 36.60569\n  },\n  {\n    \"x\": 43.82523,\n    \"y\": 37.37923\n  },\n  {\n    \"x\": 43.19818,\n    \"y\": 38.00628\n  },\n  {\n    \"x\": 42.42464,\n    \"y\": 38.00628\n  },\n  {\n    \"x\": 41.65111,\n    \"y\": 38.00628\n  },\n  {\n    \"x\": 41.02396,\n    \"y\": 37.37923\n  },\n  {\n    \"x\": 41.02396,\n    \"y\": 36.60569\n  },\n  {\n    \"x\": 41.02396,\n    \"y\": 35.83216\n  },\n  {\n    \"x\": 41.65101,\n    \"y\": 35.20511\n  },\n  {\n    \"x\": 42.42455,\n    \"y\": 35.20511\n  },\n  {\n    \"x\": 43.19808,\n    \"y\": 35.20511\n  },\n  {\n    \"x\": 43.82523,\n    \"y\": 35.83216\n  },\n  {\n    \"x\": 43.82523,\n    \"y\": 36.60569\n  },\n  {\n    \"x\": 42.42464,\n    \"y\": 35.9054\n  },\n  {\n    \"x\": 42.03793,\n    \"y\": 35.9054\n  },\n  {\n    \"x\": 41.72435,\n    \"y\": 36.21898\n  },\n  {\n    \"x\": 41.72435,\n    \"y\": 36.60569\n  },\n  {\n    \"x\": 41.72435,\n    \"y\": 36.99251\n  },\n  {\n    \"x\": 42.03793,\n    \"y\": 37.30599\n  },\n  {\n    \"x\": 42.42464,\n    \"y\": 37.30599\n  },\n  {\n    \"x\": 42.81136,\n    \"y\": 37.30599\n  },\n  {\n    \"x\": 43.12494,\n    \"y\": 36.99241\n  },\n  {\n    \"x\": 43.12494,\n    \"y\": 36.60569\n  },\n  {\n    \"x\": 43.12494,\n    \"y\": 36.21898\n  },\n  {\n    \"x\": 42.81136,\n    \"y\": 35.9054\n  },\n  {\n    \"x\": 42.42464,\n    \"y\": 35.9054\n  },\n  {\n    \"x\": 49.42767,\n    \"y\": 33.10423\n  },\n  {\n    \"x\": 44.52552,\n    \"y\": 33.10423\n  },\n  {\n    \"x\": 44.33216,\n    \"y\": 33.10423\n  },\n  {\n    \"x\": 44.17533,\n    \"y\": 32.94749\n  },\n  {\n    \"x\": 44.17533,\n    \"y\": 32.75403\n  },\n  {\n    \"x\": 44.17533,\n    \"y\": 32.56067\n  },\n  {\n    \"x\": 44.33207,\n    \"y\": 32.40384\n  },\n  {\n    \"x\": 44.52552,\n    \"y\": 32.40384\n  },\n  {\n    \"x\": 49.42767,\n    \"y\": 32.40384\n  },\n  {\n    \"x\": 49.62103,\n    \"y\": 32.40384\n  },\n  {\n    \"x\": 49.77787,\n    \"y\": 32.56058\n  },\n  {\n    \"x\": 49.77787,\n    \"y\": 32.75403\n  },\n  {\n    \"x\": 49.77777,\n    \"y\": 32.94749\n  },\n  {\n    \"x\": 49.62103,\n    \"y\": 33.10423\n  },\n  {\n    \"x\": 49.42767,\n    \"y\": 33.10423\n  },\n  {\n    \"x\": 46.64642,\n    \"y\": 34.15462\n  },\n  {\n    \"x\": 44.50549,\n    \"y\": 34.15462\n  },\n  {\n    \"x\": 44.32318,\n    \"y\": 34.15462\n  },\n  {\n    \"x\": 44.17543,\n    \"y\": 34.00687\n  },\n  {\n    \"x\": 44.17543,\n    \"y\": 33.82454\n  },\n  {\n    \"x\": 44.17543,\n    \"y\": 33.7845\n  },\n  {\n    \"x\": 44.17543,\n    \"y\": 33.60218\n  },\n  {\n    \"x\": 44.32328,\n    \"y\": 33.45442\n  },\n  {\n    \"x\": 44.50549,\n    \"y\": 33.45442\n  },\n  {\n    \"x\": 46.64642,\n    \"y\": 33.45442\n  },\n  {\n    \"x\": 46.82875,\n    \"y\": 33.45442\n  },\n  {\n    \"x\": 46.9765,\n    \"y\": 33.60218\n  },\n  {\n    \"x\": 46.9765,\n    \"y\": 33.7845\n  },\n  {\n    \"x\": 46.9765,\n    \"y\": 33.82454\n  },\n  {\n    \"x\": 46.9766,\n    \"y\": 34.00687\n  },\n  {\n    \"x\": 46.82875,\n    \"y\": 34.15462\n  },\n  {\n    \"x\": 46.64642,\n    \"y\": 34.15462\n  },\n  {\n    \"x\": 49.42767,\n    \"y\": 36.60569\n  },\n  {\n    \"x\": 44.52552,\n    \"y\": 36.60569\n  },\n  {\n    \"x\": 44.33216,\n    \"y\": 36.60569\n  },\n  {\n    \"x\": 44.17533,\n    \"y\": 36.44896\n  },\n  {\n    \"x\": 44.17533,\n    \"y\": 36.2555\n  },\n  {\n    \"x\": 44.17533,\n    \"y\": 36.06214\n  },\n  {\n    \"x\": 44.33207,\n    \"y\": 35.9053\n  },\n  {\n    \"x\": 44.52552,\n    \"y\": 35.9053\n  },\n  {\n    \"x\": 49.42767,\n    \"y\": 35.9053\n  },\n  {\n    \"x\": 49.62103,\n    \"y\": 35.9053\n  },\n  {\n    \"x\": 49.77787,\n    \"y\": 36.06204\n  },\n  {\n    \"x\": 49.77787,\n    \"y\": 36.2555\n  },\n  {\n    \"x\": 49.77777,\n    \"y\": 36.44896\n  },\n  {\n    \"x\": 49.62103,\n    \"y\": 36.60569\n  },\n  {\n    \"x\": 49.42767,\n    \"y\": 36.60569\n  },\n  {\n    \"x\": 46.64642,\n    \"y\": 37.65618\n  },\n  {\n    \"x\": 44.50549,\n    \"y\": 37.65618\n  },\n  {\n    \"x\": 44.32318,\n    \"y\": 37.65618\n  },\n  {\n    \"x\": 44.17543,\n    \"y\": 37.50843\n  },\n  {\n    \"x\": 44.17543,\n    \"y\": 37.3261\n  },\n  {\n    \"x\": 44.17543,\n    \"y\": 37.28607\n  },\n  {\n    \"x\": 44.17543,\n    \"y\": 37.10374\n  },\n  {\n    \"x\": 44.32328,\n    \"y\": 36.95599\n  },\n  {\n    \"x\": 44.50549,\n    \"y\": 36.95599\n  },\n  {\n    \"x\": 46.64642,\n    \"y\": 36.95599\n  },\n  {\n    \"x\": 46.82875,\n    \"y\": 36.95599\n  },\n  {\n    \"x\": 46.9765,\n    \"y\": 37.10384\n  },\n  {\n    \"x\": 46.9765,\n    \"y\": 37.28607\n  },\n  {\n    \"x\": 46.9765,\n    \"y\": 37.3261\n  },\n  {\n    \"x\": 46.9766,\n    \"y\": 37.50843\n  },\n  {\n    \"x\": 46.82875,\n    \"y\": 37.65618\n  },\n  {\n    \"x\": 46.64642,\n    \"y\": 37.65618\n  }\n]",
+              "segments": "__ht__list[\n  1,\n  2,\n  4,\n  4,\n  2,\n  4,\n  4,\n  5,\n  1,\n  2,\n  4,\n  4,\n  2,\n  4,\n  4,\n  5,\n  1,\n  2,\n  4,\n  4,\n  2,\n  4,\n  4,\n  5,\n  1,\n  4,\n  4,\n  4,\n  4,\n  5,\n  1,\n  4,\n  4,\n  4,\n  4,\n  5,\n  1,\n  4,\n  4,\n  4,\n  4,\n  5,\n  1,\n  4,\n  4,\n  4,\n  4,\n  5,\n  1,\n  2,\n  4,\n  4,\n  2,\n  4,\n  4,\n  5,\n  1,\n  2,\n  4,\n  2,\n  4,\n  2,\n  4,\n  2,\n  4,\n  5,\n  1,\n  2,\n  4,\n  4,\n  2,\n  4,\n  4,\n  5,\n  1,\n  2,\n  4,\n  2,\n  4,\n  2,\n  4,\n  2,\n  4,\n  5\n]",
+              "unionRect": {
+                "x": 41.02396,
+                "y": 30.30296,
+                "width": 8.75391,
+                "height": 8.75391
+              }
+            },
+            {
+              "type": "shape",
+              "background": {
+                "func": "attr@color",
+                "value": "rgb(124,145,155)"
+              },
+              "borderColor": {
+                "func": "attr@color",
+                "value": null
+              },
+              "points": "__ht__list[\n  {\n    \"x\": 37.99236,\n    \"y\": 23.6093\n  },\n  {\n    \"x\": 36.69569,\n    \"y\": 22.19018\n  },\n  {\n    \"x\": 35.96431,\n    \"y\": 21.38852\n  },\n  {\n    \"x\": 34.89152,\n    \"y\": 21.59925\n  },\n  {\n    \"x\": 34.37387,\n    \"y\": 22.69269\n  },\n  {\n    \"x\": 30.59331,\n    \"y\": 30.69456\n  },\n  {\n    \"x\": 28.52778,\n    \"y\": 40.29829\n  },\n  {\n    \"x\": 28.52778,\n    \"y\": 49.99926\n  },\n  {\n    \"x\": 28.52778,\n    \"y\": 59.70319\n  },\n  {\n    \"x\": 30.59331,\n    \"y\": 69.30691\n  },\n  {\n    \"x\": 34.37387,\n    \"y\": 77.30583\n  },\n  {\n    \"x\": 34.89152,\n    \"y\": 78.40074\n  },\n  {\n    \"x\": 35.96431,\n    \"y\": 78.61\n  },\n  {\n    \"x\": 36.69569,\n    \"y\": 77.80834\n  },\n  {\n    \"x\": 37.99236,\n    \"y\": 76.38922\n  },\n  {\n    \"x\": 38.68524,\n    \"y\": 75.63177\n  },\n  {\n    \"x\": 38.81188,\n    \"y\": 74.24655\n  },\n  {\n    \"x\": 38.32462,\n    \"y\": 73.20763\n  },\n  {\n    \"x\": 35.13261,\n    \"y\": 66.39646\n  },\n  {\n    \"x\": 33.39024,\n    \"y\": 58.23986\n  },\n  {\n    \"x\": 33.39024,\n    \"y\": 49.99926\n  },\n  {\n    \"x\": 33.39024,\n    \"y\": 41.76014\n  },\n  {\n    \"x\": 35.13261,\n    \"y\": 33.60354\n  },\n  {\n    \"x\": 38.32462,\n    \"y\": 26.78942\n  },\n  {\n    \"x\": 38.81086,\n    \"y\": 25.75049\n  },\n  {\n    \"x\": 38.68424,\n    \"y\": 24.36674\n  },\n  {\n    \"x\": 37.99236,\n    \"y\": 23.6093\n  }\n]",
+              "segments": "__ht__list[\n  1,\n  2,\n  4,\n  4,\n  4,\n  4,\n  2,\n  4,\n  4,\n  4,\n  4,\n  5\n]",
+              "unionRect": {
+                "x": 28.52778,
+                "y": 21.38852,
+                "width": 10.2841,
+                "height": 57.22148
+              }
+            },
+            {
+              "type": "shape",
+              "background": {
+                "func": "attr@color",
+                "value": "rgb(124,145,155)"
+              },
+              "borderColor": {
+                "func": "attr@color",
+                "value": null
+              },
+              "points": "__ht__list[\n  {\n    \"x\": 84.55899,\n    \"y\": 22.69269\n  },\n  {\n    \"x\": 84.07581,\n    \"y\": 21.59778\n  },\n  {\n    \"x\": 83.07447,\n    \"y\": 21.38852\n  },\n  {\n    \"x\": 82.39179,\n    \"y\": 22.19018\n  },\n  {\n    \"x\": 81.1815,\n    \"y\": 23.6093\n  },\n  {\n    \"x\": 80.53476,\n    \"y\": 24.36674\n  },\n  {\n    \"x\": 80.41656,\n    \"y\": 25.75197\n  },\n  {\n    \"x\": 80.87136,\n    \"y\": 26.79089\n  },\n  {\n    \"x\": 83.85076,\n    \"y\": 33.60206\n  },\n  {\n    \"x\": 85.4771,\n    \"y\": 41.75866\n  },\n  {\n    \"x\": 85.4771,\n    \"y\": 49.99926\n  },\n  {\n    \"x\": 85.4771,\n    \"y\": 58.23839\n  },\n  {\n    \"x\": 83.85076,\n    \"y\": 66.395\n  },\n  {\n    \"x\": 80.87136,\n    \"y\": 73.20911\n  },\n  {\n    \"x\": 80.4175,\n    \"y\": 74.24803\n  },\n  {\n    \"x\": 80.5357,\n    \"y\": 75.63177\n  },\n  {\n    \"x\": 81.1815,\n    \"y\": 76.3907\n  },\n  {\n    \"x\": 82.39179,\n    \"y\": 77.80982\n  },\n  {\n    \"x\": 83.07447,\n    \"y\": 78.61148\n  },\n  {\n    \"x\": 84.07581,\n    \"y\": 78.40222\n  },\n  {\n    \"x\": 84.55899,\n    \"y\": 77.30731\n  },\n  {\n    \"x\": 88.08774,\n    \"y\": 69.30396\n  },\n  {\n    \"x\": 90.0157,\n    \"y\": 59.70024\n  },\n  {\n    \"x\": 90.0157,\n    \"y\": 49.99926\n  },\n  {\n    \"x\": 90.0157,\n    \"y\": 40.29533\n  },\n  {\n    \"x\": 88.08774,\n    \"y\": 30.69162\n  },\n  {\n    \"x\": 84.55899,\n    \"y\": 22.69269\n  }\n]",
+              "segments": "__ht__list[\n  1,\n  4,\n  2,\n  4,\n  4,\n  4,\n  4,\n  2,\n  4,\n  4,\n  4,\n  5\n]",
+              "unionRect": {
+                "x": 80.41656,
+                "y": 21.38852,
+                "width": 9.59914,
+                "height": 57.22296
+              }
+            },
+            {
+              "type": "shape",
+              "background": {
+                "func": "attr@color",
+                "value": "rgb(124,145,155)"
+              },
+              "borderWidth": 1,
+              "borderColor": {
+                "func": "attr@color",
+                "value": "rgb(124,145,155)"
+              },
+              "displayName": "Shape（Shape1）",
+              "points": "__ht__list[\n  {\n    \"x\": 24.9843,\n    \"y\": 50.96154\n  },\n  {\n    \"x\": 24.9843,\n    \"y\": 50.43029\n  },\n  {\n    \"x\": 24.50484,\n    \"y\": 50\n  },\n  {\n    \"x\": 23.91287,\n    \"y\": 50\n  },\n  {\n    \"x\": 20.69858,\n    \"y\": 50\n  },\n  {\n    \"x\": 17.44412,\n    \"y\": 50\n  },\n  {\n    \"x\": 14.80573,\n    \"y\": 52.36779\n  },\n  {\n    \"x\": 14.80573,\n    \"y\": 55.28846\n  },\n  {\n    \"x\": 14.80573,\n    \"y\": 58.17308\n  },\n  {\n    \"x\": 11.05573,\n    \"y\": 58.17308\n  },\n  {\n    \"x\": 10.46376,\n    \"y\": 58.17308\n  },\n  {\n    \"x\": 9.9843,\n    \"y\": 58.60337\n  },\n  {\n    \"x\": 9.9843,\n    \"y\": 59.13461\n  },\n  {\n    \"x\": 9.9843,\n    \"y\": 60.09616\n  },\n  {\n    \"x\": 9.9843,\n    \"y\": 60.6274\n  },\n  {\n    \"x\": 10.46376,\n    \"y\": 61.05769\n  },\n  {\n    \"x\": 11.05573,\n    \"y\": 61.05769\n  },\n  {\n    \"x\": 14.80573,\n    \"y\": 61.05769\n  },\n  {\n    \"x\": 14.80573,\n    \"y\": 69.71154\n  },\n  {\n    \"x\": 14.80573,\n    \"y\": 71.03906\n  },\n  {\n    \"x\": 13.6064,\n    \"y\": 72.11538\n  },\n  {\n    \"x\": 12.12716,\n    \"y\": 72.11538\n  },\n  {\n    \"x\": 11.05573,\n    \"y\": 72.11538\n  },\n  {\n    \"x\": 10.46376,\n    \"y\": 72.11538\n  },\n  {\n    \"x\": 9.9843,\n    \"y\": 72.54567\n  },\n  {\n    \"x\": 9.9843,\n    \"y\": 73.07693\n  },\n  {\n    \"x\": 9.9843,\n    \"y\": 74.03846\n  },\n  {\n    \"x\": 9.9843,\n    \"y\": 74.56971\n  },\n  {\n    \"x\": 10.46376,\n    \"y\": 75\n  },\n  {\n    \"x\": 11.05573,\n    \"y\": 75\n  },\n  {\n    \"x\": 12.12716,\n    \"y\": 75\n  },\n  {\n    \"x\": 15.38162,\n    \"y\": 75\n  },\n  {\n    \"x\": 18.02001,\n    \"y\": 72.63221\n  },\n  {\n    \"x\": 18.02001,\n    \"y\": 69.71154\n  },\n  {\n    \"x\": 18.02001,\n    \"y\": 61.05769\n  },\n  {\n    \"x\": 21.77002,\n    \"y\": 61.05769\n  },\n  {\n    \"x\": 22.36198,\n    \"y\": 61.05769\n  },\n  {\n    \"x\": 22.84144,\n    \"y\": 60.6274\n  },\n  {\n    \"x\": 22.84144,\n    \"y\": 60.09616\n  },\n  {\n    \"x\": 22.84144,\n    \"y\": 59.13461\n  },\n  {\n    \"x\": 22.84144,\n    \"y\": 58.60337\n  },\n  {\n    \"x\": 22.36198,\n    \"y\": 58.17308\n  },\n  {\n    \"x\": 21.77002,\n    \"y\": 58.17308\n  },\n  {\n    \"x\": 18.02001,\n    \"y\": 58.17308\n  },\n  {\n    \"x\": 18.02001,\n    \"y\": 55.28846\n  },\n  {\n    \"x\": 18.02001,\n    \"y\": 53.96094\n  },\n  {\n    \"x\": 19.21935,\n    \"y\": 52.88462\n  },\n  {\n    \"x\": 20.69858,\n    \"y\": 52.88462\n  },\n  {\n    \"x\": 23.91287,\n    \"y\": 52.88462\n  },\n  {\n    \"x\": 24.50484,\n    \"y\": 52.88462\n  },\n  {\n    \"x\": 24.9843,\n    \"y\": 52.45433\n  },\n  {\n    \"x\": 24.9843,\n    \"y\": 51.92307\n  },\n  {\n    \"x\": 24.9843,\n    \"y\": 50.96154\n  }\n]",
+              "segments": "__ht__list[\n  1,\n  4,\n  2,\n  4,\n  2,\n  2,\n  4,\n  2,\n  4,\n  2,\n  2,\n  4,\n  2,\n  4,\n  2,\n  4,\n  2,\n  4,\n  2,\n  2,\n  4,\n  2,\n  4,\n  2,\n  2,\n  4,\n  2,\n  4,\n  2,\n  5\n]",
+              "unionRect": {
+                "x": 9.9843,
+                "y": 50,
+                "width": 15,
+                "height": 25
+              }
+            },
+            {
+              "type": "rect",
+              "background": "rgba(0,0,0,0.01)",
+              "borderColor": "#979797",
+              "pixelPerfect": true,
+              "displayName": "n（n1）",
+              "rect": [
+                0,
+                -0.00074,
+                100,
+                100
+              ]
+            }
+          ],
+          "uuid": "14405D76-4F6C-47A1-A71C-0EC34B4FA6C7"
+        },
+        "host": {
+          "__i": 885177
+        },
+        "position": {
+          "x": 203.00545,
+          "y": 263.58651
+        },
+        "width": 100,
+        "height": 100
+      },
+      "s": {
+        "label.position": 20,
+        "label.offset.y": 5,
+        "interactive": true,
+        "image.stretch": "uniform",
+        "2d.editable": false,
+        "select.width": 0.5,
+        "select.type": "roundRect",
+        "select.color": "rgb(124,145,155)",
+        "label": "获取组件属性值",
+        "label.font": "26px Microsoft YaHei",
+        "label.color": "rgb(51,153,255)",
+        "label.align": "left",
+        "2d.movable": false,
+        "layout.h": "leftright",
+        "layout.v": "top",
+        "label.opacity": 1
+      },
+      "a": {
+        "toolTipRaw": "<p style='color:rgb(242,83,75);margin-top:5px;margin-bottom:5px;font-weight:bold;line-height:1.5em;'>已被布局，不允许拖动（shift+回车可解除）</p><p style=\"color: rgb(242, 83, 75); margin-top: 5px; margin-bottom: -15px; font-weight: bold; line-height: 1.5em;\">已被布局，不允许拖动</p><span style='color:rgb(125,195,125);line-height:2em;letter-spacing:1px;'>\n<br>注意，需要提前勾选“输入组转对象”属性，\n<br>将输入组默认的数组类型改为对象（非数\n<br>组），这样操作过来连线的静态解析赋值，\n<br>就会作为下拉框列表的取值索引，而不是\n<br>对当前数组的操作索引。</span>",
+        "noteTips": "获取组件属性值",
+        "bindEvents": [
+          "*",
+          "onOutput"
+        ],
+        "输出遇到空值": "全部（*）",
+        "输出遇到空值-list": [
+          "全部（*）",
+          "空对象（null）",
+          "未定义（undefined）",
+          "空字符串（\"\"）",
+          "否（false）",
+          "等于零（0）",
+          "小于零（<0）",
+          "NaN"
+        ],
+        "arrExec": false,
+        "function": "formValues",
+        "oldDynamicAttrs": [
+          {
+            "attr": "_bindEvents_0",
+            "valueType": "MultiComboBox",
+            "defaultValue": "*",
+            "group": "bindEvents",
+            "description": "连线索引[0]的触发事件过滤器，默认全部通过",
+            "dynamicCreate": true
+          },
+          {
+            "attr": "_bindEvents_0",
+            "valueType": "MultiComboBox",
+            "defaultValue": "*",
+            "group": "bindEvents",
+            "description": "连线索引[0]的触发事件过滤器，默认全部通过",
+            "dynamicCreate": true
+          },
+          {
+            "attr": "_rawForm",
+            "valueType": "Boolean",
+            "defaultValue": false,
+            "description": "原始属性表单。\n                    包含所有做了form、 formReset、 formValue绑定的属性。",
+            "dynamicCreate": true
+          },
+          {
+            "attr": "inputKeys",
+            "valueType": "ObjectArray",
+            "name": "输入键组",
+            "description": "输入组（inputs）扁平化后的键列表。\n<br>与数组值组配合使用，与输入组的数据实时双\n<br>向同步。",
+            "dynamicCreate": true
+          },
+          {
+            "attr": "inputValues",
+            "valueType": "ObjectArray",
+            "name": "输入值组",
+            "description": "输入组（inputs）扁平化后的值列表。\n<br>与输入键组配合使用，与输入组的数据实时双\n<br>向同步。",
+            "dynamicCreate": true
+          }
+        ],
+        "paramControlTag": [],
+        "paramControlAttr": [],
+        "bindControlsTag": [],
+        "bindControlsAttr": [],
+        "bindControlsVal": [],
+        "inputsArrToObj": true,
+        "inputs": "day",
+        "exec": false,
+        "output": "day",
+        "symbol": "symbols/develop/uiotos/arranged/controls/functions/03-数组和组件操作/获取组件属性值.json",
+        "stripSingleInput": false,
+        "icon": "symbols/develop/uiotos/icons/functions/function.json",
+        "_forbidInherit": false,
+        "输出遇到空值 ~": "全部（*）",
+        "输出遇到空值 ~-list": [
+          "全部（*）",
+          "空对象（null）",
+          "未定义（undefined）",
+          "空字符串（\"\"）",
+          "否（false）",
+          "等于零（0）",
+          "小于零（<0）",
+          "NaN"
+        ],
+        "jsonStruct": 1
+      }
+    }
+  ],
+  "modified": "Sun Aug 25 2024 19:17:08 GMT+0800 (中国标准时间)",
+  "contentRect": {
+    "x": -322.82992,
+    "y": -64.56521,
+    "width": 810.83537,
+    "height": 537.56495
+  }
+}

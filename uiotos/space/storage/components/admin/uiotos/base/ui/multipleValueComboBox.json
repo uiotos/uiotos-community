@@ -1,0 +1,219 @@
+{
+  "modified": "Wed Mar 27 2019 10:38:29 GMT+0800 (中国标准时间)",
+  "width": 200,
+  "height": 48,
+  "snapshotURL": "symbols/ht/snapshot/comboBox.json",
+  "func": "__ht__function(g, rect, comp, data, view) {\nht.vector.comp.multipleComboBox.apply(null, arguments);\n}",
+  "properties": {
+    "value": {
+      "valueType": "StringArray",
+      "name": "UIFormItemValue"
+    },
+    "dataSource": {
+      "valueType": "Object",
+      "name": "UIDataSource"
+    },
+    "placeholder": {
+      "valueType": "String",
+      "name": "UIPlaceHolder"
+    },
+    "disabled": {
+      "valueType": "Boolean",
+      "name": "UIDisabled"
+    },
+    "borderWidth": {
+      "valueType": "PositiveNumber",
+      "defaultValue": 1,
+      "name": "UIBorderWidth"
+    },
+    "borderColor": {
+      "valueType": "Color",
+      "defaultValue": "#737373",
+      "name": "UIBorderColor"
+    },
+    "focusBorderColor": {
+      "valueType": "Color",
+      "defaultValue": "rgb(51,153,255)",
+      "name": "UIFocusBorderColor"
+    },
+    "borderRadius": {
+      "valueType": "String",
+      "defaultValue": "0",
+      "name": "UIBorderRadius"
+    },
+    "background": {
+      "valueType": "Color",
+      "name": "UIBackground"
+    },
+    "disabledLayerColor": {
+      "valueType": "Color",
+      "defaultValue": "rgba(255,255,255,0.35)",
+      "name": "UIDisabledLayerColor"
+    },
+    "focusBackground": {
+      "valueType": "Color",
+      "name": "UIFocusBackground"
+    },
+    "closeIconOnLeft": {
+      "valueType": "Boolean",
+      "defaultValue": false,
+      "name": "UICloseIconOnLeft"
+    },
+    "closeIconSize": {
+      "valueType": "PositiveNumber",
+      "defaultValue": 5,
+      "name": "UICloseIconSize"
+    },
+    "closeIconColor": {
+      "valueType": "Color",
+      "defaultValue": "rgb(61,61,61)",
+      "name": "UICloseIconColor"
+    },
+    "padding": {
+      "valueType": "String",
+      "defaultValue": "4",
+      "name": "UIPadding"
+    },
+    "hideSelected": {
+      "valueType": "Boolean",
+      "defaultValue": false,
+      "name": "UIHideSelected"
+    },
+    "maxSelection": {
+      "valueType": "Int",
+      "defaultValue": 0,
+      "name": "UIMaxSelection"
+    },
+    "onChange": {
+      "valueType": "Function",
+      "name": "UIOnChange",
+      "extraInfo": {
+        "arguments": [
+          "oldValue",
+          "newValue",
+          "data",
+          "view"
+        ]
+      }
+    },
+    "itemFont": {
+      "valueType": "Font",
+      "defaultValue": "12px Arial",
+      "name": "UIItemFont",
+      "group": "UISelectedItem"
+    },
+    "itemTextColor": {
+      "valueType": "Color",
+      "defaultValue": "rgb(61,61,61)",
+      "name": "UIItemTextColor"
+    },
+    "itemBorderWidth": {
+      "valueType": "PositiveNumber",
+      "defaultValue": 1,
+      "name": "UIItemBorderWidth"
+    },
+    "itemBorderColor": {
+      "valueType": "Color",
+      "defaultValue": "rgb(61,61,61)",
+      "name": "UIItemBorderColor"
+    },
+    "itemBorderRadius": {
+      "valueType": "String",
+      "defaultValue": "3",
+      "name": "UIItemBorderRadius"
+    },
+    "itemBackground": {
+      "valueType": "Color",
+      "defaultValue": null,
+      "name": "UIItemBackground"
+    },
+    "itemGradient": {
+      "valueType": "Gradient",
+      "defaultValue": null,
+      "name": "UIItemGradient"
+    },
+    "itemGradientColor": {
+      "valueType": "Color",
+      "defaultValue": "rgb(255,255,255)",
+      "name": "UIItemGradientColor"
+    },
+    "itemPadding": {
+      "valueType": "String",
+      "defaultValue": "2 4",
+      "name": "UIItemPadding"
+    },
+    "itemHGap": {
+      "valueType": "PositiveNumber",
+      "defaultValue": 2,
+      "name": "UIItemHGap"
+    },
+    "itemVGap": {
+      "valueType": "PositiveNumber",
+      "defaultValue": 2,
+      "name": "UIItemVGap"
+    },
+    "dropIconWidth": {
+      "valueType": "PositiveNumber",
+      "defaultValue": 20,
+      "name": "UIDropIconWidth",
+      "group": "UIDropDown"
+    },
+    "dropIconHeight": {
+      "valueType": "PositiveNumber",
+      "defaultValue": 20,
+      "name": "UIDropIconHeight"
+    },
+    "dropRowHeight": {
+      "valueType": "PositiveNumber",
+      "defaultValue": 26,
+      "name": "UIDropRowHeight"
+    },
+    "dropWidth": {
+      "valueType": "PositiveNumber",
+      "defaultValue": 200,
+      "name": "UIDropWidth"
+    },
+    "dropBackground": {
+      "valueType": "Color",
+      "defaultValue": "rgb(255,255,255)",
+      "name": "UIDropBackground"
+    },
+    "dropLabelFont": {
+      "valueType": "Font",
+      "defaultValue": "12px arial",
+      "name": "UIDropLabelFont"
+    },
+    "dropLabelColor": {
+      "valueType": "Color",
+      "defaultValue": "#333",
+      "name": "UIDropLabelColor"
+    },
+    "dropActiveLabelColor": {
+      "valueType": "Color",
+      "defaultValue": "rgb(247,247,247)",
+      "name": "UIDropActiveLabelColor"
+    },
+    "dropActiveBackground": {
+      "valueType": "Color",
+      "defaultValue": "rgb(51,153,255)",
+      "name": "UIDropActiveBackground"
+    },
+    "dropHoverBackground": {
+      "valueType": "Color",
+      "defaultValue": "#60ACFC",
+      "name": "UIDropHoverBackground"
+    },
+    "dropMaxHeight": {
+      "valueType": "PositiveNumber",
+      "defaultValue": 280,
+      "name": "UIDropMaxHeight"
+    }
+  },
+  "events": {
+    "onDown": "__ht__function(event, data, view, point, width, height) {\nht.vector.multipleComboBoxInteractor.onDown.apply(this, arguments);\n}",
+    "onUp": "__ht__function(event, data, view, point, width, height) {\nht.vector.multipleComboBoxInteractor.onUp.apply(this, arguments);\n}",
+    "onMove": "__ht__function(event, data, view, point, width, height) {\nht.vector.multipleComboBoxInteractor.onMove.apply(this, arguments);\n}",
+    "onEnter": "__ht__function(event, data, view, point, width, height) {\nht.vector.multipleComboBoxInteractor.onEnter.apply(this, arguments);\n}",
+    "onLeave": "__ht__function(event, data, view, point, width, height) {\nht.vector.multipleComboBoxInteractor.onLeave.apply(this, arguments);\n}"
+  }
+}

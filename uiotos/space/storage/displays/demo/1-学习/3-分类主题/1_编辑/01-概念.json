@@ -1,0 +1,446 @@
+{
+  "v": "8.0.1",
+  "p": {
+    "autoAdjustIndex": true,
+    "hierarchicalRendering": true
+  },
+  "a": {
+    "rotateAsClock": false,
+    "gridBlockSize": 20,
+    "connectActionType": null,
+    "fitContent": false,
+    "zoomable": false,
+    "rectSelectable": false,
+    "pannable": false,
+    "_professional": false
+  },
+  "d": [
+    {
+      "c": "ht.Node",
+      "i": 254526,
+      "p": {
+        "name": "base",
+        "displayName": "底板（_base）",
+        "tag": "_base",
+        "position": {
+          "x": 236.71672,
+          "y": 274.36324
+        },
+        "width": 473.43345,
+        "height": 548.72648
+      },
+      "s": {
+        "label.opacity": 0,
+        "label.position": 17,
+        "label.color": "rgb(61,61,61)",
+        "shape": "rect",
+        "shape.background": "rgb(40,46,58)",
+        "fullscreen": "fill",
+        "fullscreen.gap": 0,
+        "2d.movable": false,
+        "interactive": true
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 254527,
+      "p": {
+        "name": "doc",
+        "displayName": "文档编辑器（doc1）",
+        "toolTip": "<p style='color:rgb(242,83,75);margin-top:5px;margin-bottom:5px;font-weight:bold;line-height:1.5em;'>已被布局，不允许拖动（shift+回车可解除）</p>",
+        "tag": "doc1",
+        "dataBindings": {
+          "a": {
+            "content": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "readOnly": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "onChange": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "preview": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "display": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "pureTipText": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "popDirection": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "popBackground": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "popPadding": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "popWidth": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "popHeight": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "popBorderColor": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "popBorderWidth": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "popBorderRadius": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "popTriggerEvent": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "userData": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            }
+          }
+        },
+        "image": {
+          "modified": "Sat Aug 24 2024 13:17:50 GMT+0800 (中国标准时间)",
+          "dataBindings": [
+            {
+              "attr": "symbol",
+              "valueType": "Image",
+              "name": "symbol"
+            },
+            {
+              "attr": "content",
+              "valueType": "Multiline",
+              "group": "功能",
+              "description": "文本内容 。",
+              "name": "content"
+            },
+            {
+              "attr": "readOnly",
+              "valueType": "Boolean",
+              "defaultValue": false,
+              "description": "整体不可被编辑，可同时包括markdown和预览的html",
+              "extraInfo": "★",
+              "name": "readOnly"
+            },
+            {
+              "attr": "preview",
+              "valueType": "Boolean",
+              "defaultValue": false,
+              "description": "切换开关，预览时只显示html内容（不可被编辑）",
+              "name": "preview"
+            },
+            {
+              "attr": "watch",
+              "valueType": "Boolean",
+              "defaultValue": true,
+              "description": "默认勾选。\n<br>当勾选时，预览时可被编辑也可显示html内容。\n<br>当不勾选时，预览时可被编辑但不可显示html内容。",
+              "name": "watch"
+            },
+            {
+              "attr": "darkMode",
+              "valueType": "Boolean",
+              "defaultValue": false,
+              "description": "预览主题深色模式。\n<br>默认浅色，勾选后为深色模式。",
+              "name": "darkMode"
+            },
+            {
+              "attr": "hideToolbar",
+              "valueType": "Boolean",
+              "description": "是否隐藏工具栏。",
+              "name": "hideToolbar"
+            },
+            {
+              "attr": "useAttrCORS",
+              "valueType": "Boolean",
+              "extraInfo": "*",
+              "defaultValue": false,
+              "description": "连线操作和处理回写是否一致。\n                        比如多个文本框连线传值给相同对话框，弹窗修改\n                        后是否限定只能写到最新赋值过来的文本框。详见<a href='https://www.yuque.com/liuhuo-nc809/uiotos/fgi6dd7gado51acm#fFUbp' style=\"color:rgb(96,172,252)\"target=\"_blank\">同源属性操作</a>",
+              "bindIgnored": true,
+              "name": "useAttrCORS",
+              "dynamicCreate": true
+            },
+            {
+              "attr": "userData",
+              "valueType": "Object",
+              "defaultValue": [],
+              "name": "userData"
+            },
+            {
+              "attr": "onChange",
+              "valueType": "Function",
+              "extraInfo": {
+                "arguments": [
+                  "data",
+                  "gv",
+                  "cache",
+                  "value",
+                  "extra"
+                ]
+              },
+              "name": "onChange"
+            },
+            {
+              "attr": "bindControlsTag",
+              "valueType": "StringArray",
+              "group": "连线",
+              "name": "bindControlsTag"
+            },
+            {
+              "attr": "bindControlsAttr",
+              "valueType": "StringArray",
+              "name": "bindControlsAttr"
+            },
+            {
+              "attr": "bindControlsVal",
+              "valueType": "StringArray",
+              "name": "bindControlsVal"
+            },
+            {
+              "attr": "paramControlTag",
+              "valueType": "StringArray",
+              "name": "paramControlTag"
+            },
+            {
+              "attr": "paramControlAttr",
+              "valueType": "StringArray",
+              "name": "paramControlAttr"
+            },
+            {
+              "attr": "paramsGenerator",
+              "valueType": "Function",
+              "defaultValue": "__ht__function(data, val, index, node,oldVal,form,type,inner) {//绑定组索引对应的函数处理，用来动态生成复杂的参数变量传入\r\nswitch(index){\r\n    case 0:\r\n        break;\r\n    case 1:\r\n        break;\r\n    case 2:\r\n        break;\r\n    default:\r\n        break;\r\n}\r\n\r\nreturn val;}",
+              "extraInfo": {
+                "arguments": [
+                  "data",
+                  "val",
+                  "index",
+                  "node",
+                  "oldVal",
+                  "form",
+                  "type",
+                  "inner"
+                ],
+                "classify": "*"
+              },
+              "name": "paramsGenerator"
+            },
+            {
+              "attr": "display",
+              "valueType": "Image",
+              "defaultValue": "",
+              "description": "自定义页面地址。\n                可以是编辑器中的其他页面，也可以\n                是外部网页链接地址。",
+              "group": "弹出框 *",
+              "bindIgnored": true,
+              "name": "display",
+              "dynamicCreate": true
+            },
+            {
+              "attr": "pureTipText",
+              "valueType": "String",
+              "defaultValue": "",
+              "description": "提示文字。\n                    当专业用户属性中，提供display内嵌页属性，\n                    如果有配置，那么本属性设置无效，将以内嵌\n                    页显示为准。",
+              "group": "弹出框 *",
+              "bindIgnored": true,
+              "name": "pureTipText",
+              "dynamicCreate": true
+            },
+            {
+              "attr": "popDirection",
+              "valueType": "SideDirection",
+              "defaultValue": "right",
+              "description": "提示显示位置。",
+              "group": "弹出框 *",
+              "bindIgnored": true,
+              "name": "popDirection",
+              "dynamicCreate": true
+            },
+            {
+              "attr": "popBackground",
+              "valueType": "Color",
+              "defaultValue": "white",
+              "description": "箭头和背景色。",
+              "group": "弹出框 *",
+              "bindIgnored": true,
+              "name": "popBackground",
+              "dynamicCreate": true
+            },
+            {
+              "attr": "popPadding",
+              "valueType": "NumberArray",
+              "defaultValue": [
+                2,
+                2,
+                2,
+                2
+              ],
+              "description": "内间距。",
+              "group": "弹出框 *",
+              "bindIgnored": true,
+              "name": "popPadding",
+              "dynamicCreate": true
+            },
+            {
+              "attr": "popWidth",
+              "valueType": "Number",
+              "defaultValue": 400,
+              "description": "弹出框宽度。",
+              "group": "弹出框 *",
+              "bindIgnored": true,
+              "name": "popWidth",
+              "dynamicCreate": true
+            },
+            {
+              "attr": "popHeight",
+              "valueType": "Number",
+              "defaultValue": 300,
+              "description": "弹出框高度。",
+              "group": "弹出框 *",
+              "bindIgnored": true,
+              "name": "popHeight",
+              "dynamicCreate": true
+            },
+            {
+              "attr": "popBorderColor",
+              "valueType": "Color",
+              "defaultValue": "rgb(51,51,51)",
+              "description": "边框线颜色。\n                    注意，是设置了边框宽度非0后的边框颜色。\n                    默认边框宽度属性为0时，实际上是白色并\n                    带有箭头指示的边框。本属性不用于修改默\n                    认边框色。",
+              "group": "弹出框 *",
+              "bindIgnored": true,
+              "name": "popBorderColor",
+              "dynamicCreate": true
+            },
+            {
+              "attr": "popBorderWidth",
+              "valueType": "Number",
+              "defaultValue": 0,
+              "description": "边框线宽度。\n                    默认值为0，此时边框默认为白色并且带有\n                    箭头指示。当设置宽度后，颜色将取边框颜\n                    色属性的设置，并且不再有箭头指示。",
+              "group": "弹出框 *",
+              "bindIgnored": true,
+              "name": "popBorderWidth",
+              "dynamicCreate": true
+            },
+            {
+              "attr": "popBorderRadius",
+              "valueType": "Number",
+              "defaultValue": 0,
+              "description": "边框线圆角。\n                    设置圆角线后，如果此前默认是白色边框带有\n                    指示箭头，那么将自动不可见，只对内容区域\n                    产生圆角。",
+              "group": "弹出框 *",
+              "bindIgnored": true,
+              "name": "popBorderRadius",
+              "dynamicCreate": true
+            },
+            {
+              "attr": "popTriggerEvent",
+              "valueType": "MouseEvent",
+              "defaultValue": "hover",
+              "description": "触发方式。\n                支持鼠标移入、点击（按钮时）\n                两种触发提示的方式。",
+              "group": "弹出框 *",
+              "bindIgnored": true,
+              "name": "popTriggerEvent",
+              "dynamicCreate": true
+            }
+          ],
+          "snapshotURL": "symbols/develop/uiotos/arranged/controls/forms_icon/文档编辑器.json",
+          "renderHTML": "__ht__function(data, gv, cache) {return __doc(data,gv,cache);}",
+          "width": 1024,
+          "height": 600,
+          "interactive": true,
+          "pixelPerfect": false,
+          "comps": [],
+          "uuid": "47863368-C04C-476F-A93D-45F2D32609F7"
+        },
+        "host": {
+          "__i": 254526
+        },
+        "position": {
+          "x": 236.71672,
+          "y": 274.36324
+        },
+        "width": 473.43345,
+        "height": 548.72648
+      },
+      "s": {
+        "label": "标签",
+        "label.font": "26px arial, sans-serif",
+        "label.opacity": 0,
+        "label.align": "left",
+        "label.position": 14,
+        "label.offset.x": -10,
+        "label.offset.y": 0,
+        "label.color": "rgb(61,61,61)",
+        "interactive": true,
+        "2d.movable": false,
+        "layout.h": "leftright",
+        "layout.v": "topbottom"
+      },
+      "a": {
+        "symbol": "symbols/develop/uiotos/arranged/controls/forms/02-内容输入/文档编辑器.json",
+        "content": "详见<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/kho0bgt338nb9fgz#plcjs\" target=\"_blank\">UIOTOS帮助手册</a> \n\n- 页面：也叫画布，可直接运行展示。\n\n- 模板：一些带有典型布局的页面，用于快速开始。\n\n- 示例：一些带有完整功能效果的页面。\n\n- 组件：也叫控件，比如输入框、文本框，带有特定功能，拖入页面中使用。\n\n- 图标：纯展示用的小图片，比如网络、告警等，可拖放到页面中的使用，也可以作为组件的属性配置参数。\n\n- 资源：视频、图片、矢量图等，有些可直接拖入页面，有些给图标组件用。\n\n\t\t在页面选项中，当右键菜单展开默认隐藏时，可以看到部件、资源。\n\t\t部件是组件和图标的统称，这类都需要拖放到页面中才能使用，并且跟本地目录结构保持一致，内容完整。\n\t\t资源内容跟素材一样，同样也跟本地文件目录结构保持一致，内容完整。",
+        "bindEvents": [
+          "*",
+          "onChange"
+        ],
+        "preview": true,
+        "darkMode": true,
+        "readOnly": true
+      }
+    }
+  ],
+  "modified": "Sat Aug 24 2024 21:54:19 GMT+0800 (中国标准时间)",
+  "contentRect": {
+    "x": -66,
+    "y": 0,
+    "width": 539.43345,
+    "height": 548.72648
+  }
+}

@@ -1,0 +1,89 @@
+{
+    "modified": "Thu Mar 21 2019 17:25:05 GMT+0800 (中国标准时间)",
+    "width": 100,
+    "height": 100,
+    "snapshotURL": "",
+    "func": "__ht__function(g, rect, comp, data, view) {\nht.vector.comp.multilineText.apply(null, arguments);\n}",
+    "properties": {
+        "content": {
+            "valueType": "Multiline",
+            "defaultValue": "UIOTOS\nIOTOS",
+            "name": "TBContent"
+        },
+        "font": {
+            "valueType": "Font",
+            "defaultValue": "12px sans-serif, arial",
+            "name": "UIFont"
+        },
+        "textAlign": {
+            "valueType": "Align",
+            "defaultValue": "left",
+            "name": "TBTextAlign"
+        },
+        "vAlign": {
+            "valueType": "VAlign",
+            "defaultValue": "middle",
+            "name": "TBVerticalAlign"
+        },
+        "color": {
+            "valueType": "Color",
+            "defaultValue": "rgb(61,61,61)",
+            "name": "TBColor"
+        },
+        "lineHeight": {
+            "valueType": "PositiveNumber",
+            "defaultValue": 18,
+            "name": "TBLineHeight"
+        },
+        "background": {
+            "valueType": "Color",
+            "defaultValue": null,
+            "name": "TBBackground"
+        },
+        "bgGradient": {
+            "valueType": "Gradient",
+            "defaultValue": null,
+            "name": "editor.gradient"
+        },
+        "bgGradientColor": {
+            "valueType": "Color",
+            "defaultValue": "rgb(255,255,255)",
+            "name": "editor.gradientcolor"
+        },
+        "padding": {
+            "valueType": "String",
+            "defaultValue": "0",
+            "name": "TBPadding",
+            "description": "like CSS"
+        },
+        "borderWidth": {
+            "valueType": "PositiveNumber",
+            "defaultValue": 1,
+            "name": "UIBorderWidth",
+            "group": "editor.titleborder"
+        },
+        "borderColor": {
+            "valueType": "Color",
+            "defaultValue": "rgb(51,153,255)",
+            "name": "UIBorderColor"
+        },
+        "borderRadius": {
+            "valueType": "String",
+            "defaultValue": "0",
+            "name": "UIBorderRadius"
+        },
+        "dash": {
+            "valueType": "Boolean",
+            "defaultValue": false,
+            "name": "editor.dash"
+        },
+        "dashPattern": {
+            "valueType": "NumberArray",
+            "defaultValue": [
+                8,
+                8
+            ],
+            "name": "editor.pattern"
+        }
+    }
+}

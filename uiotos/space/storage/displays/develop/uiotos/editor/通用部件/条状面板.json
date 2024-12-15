@@ -1,0 +1,405 @@
+{
+  "v": "7.7.1",
+  "p": {
+    "background": "#20252e",
+    "autoAdjustIndex": true,
+    "hierarchicalRendering": true
+  },
+  "a": {
+    "rotateAsClock": false,
+    "gridBlockSize": 20,
+    "gridThickColor": "rgba(100,100,100,0.2)",
+    "gridLightColor": "rgba(127,127,127,0.1)",
+    "connectActionType": null,
+    "fitContent": false,
+    "zoomable": false,
+    "rectSelectable": false,
+    "pannable": false
+  },
+  "d": [
+    {
+      "c": "ht.Node",
+      "i": 55233,
+      "p": {
+        "name": "阴影边框",
+        "displayName": "阴影边框（阴影边框1）",
+        "tag": "阴影边框1",
+        "image": "symbols/develop/uiotos/common/阴影边框.json",
+        "position": {
+          "x": -29.36154,
+          "y": 163.26617
+        },
+        "width": 734.93522,
+        "height": 458.34461
+      },
+      "s": {
+        "label.position": 14,
+        "label.offset.x": -10,
+        "label.offset.y": 0,
+        "label.color": "rgb(61,61,61)",
+        "label.opacity": 0,
+        "interactive": true,
+        "image.stretch": "uniform",
+        "fullscreen": "fill",
+        "fullscreen.gap": 0
+      },
+      "a": {
+        "background": "rgb(255,255,255)",
+        "radius": 10
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 55234,
+      "p": {
+        "name": "title",
+        "displayName": "标签文字（title1）",
+        "toolTip": "已被布局，不允许拖动",
+        "tag": "title1",
+        "dataBindings": {
+          "a": {
+            "labelColor": {
+              "id": "iotos.form",
+              "alias": "",
+              "func": "__ht__function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        console.error(err);\r\n        return rawData;\r\n    }\r\n}",
+              "idinfo": "",
+              "isTplBinded": false
+            },
+            "borderColor": {
+              "id": "iotos.form",
+              "alias": "",
+              "func": "__ht__function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        console.error(err);\r\n        return rawData;\r\n    }\r\n}",
+              "idinfo": "",
+              "isTplBinded": false
+            },
+            "text": {
+              "id": "iotos.form",
+              "alias": "",
+              "func": "__ht__function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        console.error(err);\r\n        return rawData;\r\n    }\r\n}",
+              "idinfo": "",
+              "isTplBinded": false
+            }
+          }
+        },
+        "image": "symbols/develop/uiotos/base/label_ui.json",
+        "host": {
+          "__i": 55233
+        },
+        "position": {
+          "x": -29.36154,
+          "y": -31.49875
+        },
+        "scale": {
+          "x": 0.95,
+          "y": 0.93
+        },
+        "width": 734.93522,
+        "height": 39.49533
+      },
+      "s": {
+        "label.opacity": 0,
+        "label.position": 14,
+        "label.offset.x": -10,
+        "label.offset.y": 0,
+        "label.color": "rgb(61,61,61)",
+        "interactive": true,
+        "image.stretch": "uniform",
+        "2d.movable": false,
+        "layout.h": "leftright",
+        "layout.v": "top"
+      },
+      "a": {
+        "text": "文字",
+        "borderLeft": false,
+        "borderDown": true,
+        "borderWidth": 1,
+        "labelColor": "rgb(61,61,61)",
+        "borderColor": "rgba(124,146,156,0.5)"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 55235,
+      "p": {
+        "name": "bar",
+        "displayName": "堆叠条（bar2）",
+        "tag": "bar2",
+        "dataBindings": {
+          "a": {
+            "yAxis.datas": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "xAxis.names": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "colors": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "margins": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "legendBase": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "chart.text": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "chart.subtext": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "chart.backgroundColor": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "axisLabel.color": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "axisTick.show": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "axisLine.color": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "splitLine.show": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "splitLine.color": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "_xDatas0.类别0": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "_xDatas1.类别1": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            }
+          }
+        },
+        "image": {
+          "modified": "Sat Jul 22 2023 08:14:29 GMT+0800 (中国标准时间)",
+          "background": "rgb(32,37,46)",
+          "dataBindings": [
+            {
+              "attr": "symbol",
+              "valueType": "Image",
+              "description": "组件地址字符串",
+              "defaultValue": "symbols/develop/uiotos/base/barStack.json"
+            },
+            {
+              "attr": "yAxis.datas",
+              "valueType": "StringArray",
+              "defaultValue": [
+                "类别0",
+                "类别1"
+              ],
+              "group": "功能（关键）",
+              "description": "条状图在纵轴y上的数据，用来分类。注意，动态增减该数组大小，\n会对应自动增加或减少名称为\"_xDatas[index].[类别index]\"的属性，\n该属性为指定类别的数据条。"
+            },
+            {
+              "attr": "_xDatas1.类别1",
+              "valueType": "NumberArray",
+              "defaultValue": [
+                38,
+                97,
+                54
+              ],
+              "description": "条形图（索引1）在横轴x方向，各个段的数值。",
+              "dynamicCreate": true
+            },
+            {
+              "attr": "_xDatas0.类别0",
+              "valueType": "NumberArray",
+              "defaultValue": [
+                34,
+                50,
+                10
+              ],
+              "description": "条形图（索引0）在横轴x方向，各个段的数值。",
+              "dynamicCreate": true
+            },
+            {
+              "attr": "xAxis.names",
+              "valueType": "StringArray",
+              "description": "条形图各类数据在横轴x方向，各个段的数据名称，体现在标签提示上。\n注意，增加或减少数组长度时，会对各条状图的数据以及颜色属性自动\n增加或减少，保持数组相同的长度，保证索引逐一对应。",
+              "defaultValue": [
+                "数据0",
+                "数据1",
+                "数据2"
+              ]
+            },
+            {
+              "attr": "colors",
+              "valueType": "ColorArray",
+              "defaultValue": [
+                "#A9BE6D",
+                "#ABDCD3",
+                "#FAB845"
+              ],
+              "description": "条形图各类数据在横轴x方向，各个段数据的颜色。注意，增加或减少数组长度时，\n会对各条状图的数据以及颜色属性自动增加或减少，保持数组相同的长度，保证索\n引逐一对应。"
+            },
+            {
+              "attr": "margins",
+              "valueType": "StringArray",
+              "defaultValue": [
+                "50",
+                "5%",
+                "40",
+                "60"
+              ],
+              "description": "条状图相对四周的间距，依次是上、右、下、左。值可以是百分比，作为相对间距；\n也可以是大于1的数值，作为绝对像素间距。"
+            },
+            {
+              "attr": "legendBase",
+              "valueType": "NumberArray",
+              "defaultValue": [
+                20,
+                10,
+                20,
+                14
+              ],
+              "description": "默认上方居中的颜色图例，数组索引值依次对应：\n0：图例内边距，单位px，默认各方向内边距为5；\n1：各个item之间的间隔，单位px，默认为10；\n2：图例图形宽度；\n3：图例图形高度。"
+            },
+            {
+              "attr": "chart.text",
+              "valueType": "String",
+              "defaultValue": "堆叠条形图",
+              "description": "主标题文字。"
+            },
+            {
+              "attr": "chart.subtext",
+              "valueType": "String",
+              "defaultValue": "一个简单的堆叠条形图",
+              "description": "副标题文字。"
+            },
+            {
+              "attr": "chart.backgroundColor",
+              "valueType": "Color",
+              "defaultValue": "#fff",
+              "description": "背景颜色。"
+            },
+            {
+              "attr": "axisLabel.color",
+              "valueType": "Color",
+              "defaultValue": "rgb(61,61,61)",
+              "description": "横纵坐标轴上文字的颜色。"
+            },
+            {
+              "attr": "axisTick.show",
+              "valueType": "Boolean",
+              "defaultValue": true,
+              "description": "横纵坐标轴上的刻度标记是否可见。"
+            },
+            {
+              "attr": "axisLine.color",
+              "valueType": "Color",
+              "defaultValue": "rgb(124,145,155)",
+              "description": "横纵坐标轴颜色。"
+            },
+            {
+              "attr": "splitLine.show",
+              "valueType": "Boolean",
+              "description": "条形图坐标轴内线（即横轴刻度对应在垂直方向的竖线）是否可见。",
+              "defaultValue": true
+            },
+            {
+              "attr": "splitLine.color",
+              "valueType": "Color",
+              "defaultValue": "rgba(128,128,128,0.3)",
+              "description": "条形图坐标轴内线的颜色。"
+            }
+          ],
+          "renderHTML": "__ht__function(data, gv, cache) {return __bar_stack(data,gv,cache);}",
+          "width": 400,
+          "height": 200,
+          "pixelPerfect": false,
+          "comps": [],
+          "uuid": "38ABACA9-572E-41B5-9D49-ABF332591FDF"
+        },
+        "host": {
+          "__i": 55233
+        },
+        "position": {
+          "x": -29.36154,
+          "y": 180.58437
+        },
+        "scale": {
+          "x": 0.95,
+          "y": 0.92
+        },
+        "width": 734.93522,
+        "height": 421.12564
+      },
+      "s": {
+        "label.opacity": 0,
+        "label.position": 14,
+        "label.offset.x": -10,
+        "label.offset.y": 0,
+        "label.color": "rgb(61,61,61)",
+        "layout.h": "leftright",
+        "layout.v": "topbottom"
+      },
+      "a": {
+        "symbol": "symbols/develop/uiotos/base/barStack.json",
+        "splitLine.color": "rgba(128,128,128,0.3)",
+        "chart.text": " ",
+        "chart.subtext": " ",
+        "margins": [
+          "50",
+          "5%",
+          "20",
+          "60"
+        ]
+      }
+    }
+  ],
+  "modified": "Sat Jul 22 2023 14:14:22 GMT+0800 (中国标准时间)",
+  "contentRect": {
+    "x": -458.82915,
+    "y": -65.90614,
+    "width": 796.93522,
+    "height": 458.34461
+  }
+}

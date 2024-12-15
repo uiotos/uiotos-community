@@ -1,0 +1,104 @@
+{
+  "v": "7.7.1",
+  "p": {
+    "autoAdjustIndex": true,
+    "hierarchicalRendering": false
+  },
+  "d": [
+    {
+      "c": "ht.UGrid",
+      "i": 102167,
+      "p": {
+        "name": "grid",
+        "displayName": "网格组合（grid1）",
+        "toolTip": "非互斥按钮菜单组",
+        "tag": "grid1",
+        "dataBindings": {
+          "a": {
+            "datas": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "grid.row.count": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "grid.column.count": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "grid.row.percents": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "grid.auto.fill": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "grid.column.percents": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "valueGet": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "itemsGet": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            }
+          }
+        },
+        "image": "symbols/develop/uiotos/base/grid.json",
+        "position": {
+          "x": 154.43028,
+          "y": 42.28012
+        },
+        "width": 248.61773,
+        "height": 42.39026
+      },
+      "s": {
+        "label.opacity": 0,
+        "label.position": 14,
+        "label.offset.x": -10,
+        "label.offset.y": 0,
+        "label.color": "rgb(61,61,61)",
+        "grid.gap": 0,
+        "grid.column.count": 4,
+        "grid.borderRadius": 10,
+        "interactive": true,
+        "grid.border": 0,
+        "fullscreen": "fill",
+        "fullscreen.gap": 0
+      },
+      "a": {
+        "grid.row.count": 1,
+        "grid.column.count": 4,
+        "grid.border": 0,
+        "node.margin.h": 0,
+        "bindControlsTag": [],
+        "bindControlsAttr": [],
+        "bindControlsVal": [],
+        "paramControlTag": [],
+        "paramControlAttr": [],
+        "paramsGenerator": "function paramsGenerator(data, val, index, node, oldVal, form) {\r\n    //绑定组索引对应的函数处理，用来动态生成复杂的参数变量传入\r\n    switch (index) {\r\n        case 0:\r\n            break;\r\n        case 1:\r\n            break;\r\n        case 2:\r\n            break;\r\n        default:\r\n            break;\r\n    }\r\n    return val;\r\n}"
+      }
+    }
+  ]
+}

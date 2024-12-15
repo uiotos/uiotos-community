@@ -1,0 +1,187 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no, width=device-width">
+    <title>侧边滑出弹层插件--mSlider.js</title>
+    <style>
+        button:hover {
+            cursor: pointer;
+        }
+
+        h4 {
+            margin: 30px 0 10px 0;
+        }
+
+        .wrap>div {
+            opacity: 0;
+            padding: 10px;
+        }
+
+        @media screen and (max-width:640px) {
+            button {
+                width: 100%;
+                margin: 2% auto;
+                padding: 10px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <h2>侧边滑出弹层插件--mSlider.js</h2>
+
+        <h4>方向：</h4>
+        <button id="btnLeft">左</button>
+        <button id="btnRight">右</button>
+        <button id="btnTop">上</button>
+        <button id="btnBottom">下</button>
+
+        <h4>关闭：</h4>
+        <button id="btnAutoClose">自动</button>
+        <button id="btnManualClose">手动</button>
+
+        <h4>嵌套：</h4>
+        <button id="btnParent">第1层</button>
+
+    </div>
+
+    <div class="wrap">
+        <div class="layer-left">
+            <h3>左侧弹层内容...</h3>
+        </div>
+        <div class="layer-right">
+            <h3>右侧弹层内容...</h3>
+        </div>
+        <div class="layer-top">
+            <h3>上侧弹层内容...</h3>
+        </div>
+        <div class="layer-bottom">
+            <h3>下侧弹层内容...</h3>
+        </div>
+
+        <div class="layer-selfclose">
+            <h3>1秒自动关闭！</h3>
+        </div>
+
+        <div class="layer-manualclose">
+            <h3>点击右侧进行
+                <button id="btnClose">关闭</button>
+            </h3>
+        </div>
+
+        <div class="layer-parent">
+            <h3>我是第1层
+                <button id="btnChild">调用第2层</button>
+            </h3>
+        </div>
+
+        <div class="layer-child">
+            <h3>我是第2层</h3>
+        </div>
+
+    </div>
+
+    <script src="./mSlider.min.js"></script>
+    <script>
+        window.onload = function () {
+
+            //移动端使用touchend
+            var event = navigator.userAgent.match(/(iPhone|iPod|Android|ios)/i) ? 'touchend' : 'click';
+
+            // 选择器
+            var Q = function (id) {
+                return document.getElementById(id)
+            };
+
+            //方向控制
+            //左
+            var _left = new mSlider({
+                dom: ".layer-left"
+            });
+
+            Q('btnLeft').addEventListener(event, function () {
+                _left.open();
+            })
+
+            //右
+            var _right = new mSlider({
+                dom: ".layer-right",
+                direction: "right"
+            });
+
+            Q("btnRight").addEventListener(event, function (e) {
+                _right.open();
+            })
+
+            //上
+            var _top = new mSlider({
+                dom: ".layer-top",
+                direction: "top"
+            })
+            Q("btnTop").addEventListener(event, function (e) {
+                _top.open();
+            })
+            //下
+            var _bottom = new mSlider({
+                dom: ".layer-bottom",
+                direction: "bottom"
+            })
+            Q("btnBottom").addEventListener(event, function (e) {
+                _bottom.open();
+            })
+
+            //关闭控制
+            //自动
+            var _autoclose = new mSlider({
+                dom: ".layer-selfclose",
+                direction: "top",
+                distance: "10%",
+                time: "1000"
+            })
+            Q("btnAutoClose").addEventListener(event, function (e) {
+                _autoclose.open();
+            })
+
+            //手动
+            var _manualclose = new mSlider({
+                dom: ".layer-manualclose",
+                direction: "top",
+                distance: "auto"
+            })
+            Q("btnManualClose").addEventListener(event, function (e) {
+                _manualclose.open();
+            });
+
+            Q("btnClose").addEventListener(event, function (e) {
+                _manualclose.close();
+            });
+
+            //连环调用
+            var _parent = new mSlider({
+                dom: ".layer-parent",
+                direction: "top",
+                distance: "auto"
+            })
+            var _child = new mSlider({
+                dom: ".layer-child",
+                direction: "bottom"
+            })
+            Q("btnParent").addEventListener(event, function (e) {
+                _parent.open();
+            })
+
+            Q("btnChild").addEventListener(event, function (e) {
+                _parent.close();
+                _child.open();
+            })
+
+        }
+    </script>
+</body>
+
+</html>

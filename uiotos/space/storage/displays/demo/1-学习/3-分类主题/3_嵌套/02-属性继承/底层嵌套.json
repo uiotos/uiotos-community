@@ -1,0 +1,67 @@
+{
+  "v": "8.0.1",
+  "p": {
+    "background": "#20252e",
+    "autoAdjustIndex": true,
+    "hierarchicalRendering": true
+  },
+  "a": {
+    "rotateAsClock": false,
+    "gridBlockSize": 20,
+    "connectActionType": null,
+    "fitContent": false,
+    "zoomable": false,
+    "rectSelectable": false,
+    "pannable": false,
+    "_professional": false
+  },
+  "d": [
+    {
+      "c": "ht.Node",
+      "i": 607610,
+      "p": {
+        "name": "base",
+        "displayName": "底板（_base）",
+        "tag": "_base",
+        "dataBindings": {
+          "s": {
+            "label": {
+              "id": "iotos.form",
+              "alias": "",
+              "func": "__ht__function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        console.error(err);\r\n        return rawData;\r\n    }\r\n}",
+              "idinfo": "",
+              "isTplBinded": false
+            }
+          }
+        },
+        "position": {
+          "x": 1219.52985,
+          "y": 70.57584
+        },
+        "width": 251.644,
+        "height": 141.15167
+      },
+      "s": {
+        "shape": "rect",
+        "shape.background": "white",
+        "fullscreen": "fill",
+        "fullscreen.gap": 0,
+        "2d.movable": false,
+        "label.opacity": 1,
+        "interactive": true,
+        "label.position": 17,
+        "label.offset.y": 0,
+        "label.color": "rgb(61,61,61)",
+        "label.font": "12px arial, sans-serif",
+        "label": "底层页面"
+      }
+    }
+  ],
+  "modified": "Sat Aug 24 2024 23:33:08 GMT+0800 (中国标准时间)",
+  "contentRect": {
+    "x": 1093.70785,
+    "y": 0.00001,
+    "width": 251.644,
+    "height": 141.15167
+  }
+}

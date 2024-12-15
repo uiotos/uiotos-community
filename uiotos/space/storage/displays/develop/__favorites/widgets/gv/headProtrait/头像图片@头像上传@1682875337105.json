@@ -1,0 +1,122 @@
+{
+  "v": "7.3.3",
+  "p": {
+    "autoAdjustIndex": true,
+    "hierarchicalRendering": false
+  },
+  "d": [
+    {
+      "c": "ht.Node",
+      "i": 28590,
+      "p": {
+        "displayName": "gv",
+        "toolTip": "头像上传",
+        "tag": "gv1",
+        "dataBindings": {
+          "a": {
+            "headProtrait>0>func1>a:userData": {
+              "id": "iotos.formReset",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "__ht__function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        console.error(err);\r\n        return rawData;\r\n    }\r\n}",
+              "alias": ""
+            },
+            "headProtrait>0>func1>a:output": {
+              "id": "iotos.formValue",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "__ht__function formParser(rawData, node) { //230218，入参增加图元对象\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        console.error(err);\r\n        return rawData;\r\n    }\r\n}",
+              "alias": "url"
+            },
+            "headProtrait>0>func1>a:inputs": {
+              "id": "iotos.formReset",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "headProtrait>0>func1>a:exec": {
+              "id": "iotos.formReset",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "headProtrait>0>head>a:userData": {
+              "id": "iotos.formReset",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "__ht__function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "headProtrait>0>head>a:onFormClick": {
+              "id": "iotos.formReset",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "headProtrait>0>cbtn1>s:2d.visible": {
+              "id": "iotos.formReset",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "headProtrait>0>cbtn1>a:userData": {
+              "id": "iotos.formReset",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "headProtrait>0>cbtn1>a:default-background": {
+              "id": "iotos.formReset",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            }
+          }
+        },
+        "image": "symbols/develop/uiotos/base/graphView.json",
+        "position": {
+          "x": 361.56866,
+          "y": 703.53778
+        },
+        "width": 104.38182,
+        "height": 133.42725
+      },
+      "s": {
+        "label.position": 30,
+        "label.offset.y": 10,
+        "label.color": "rgb(124,145,155)",
+        "interactive": true,
+        "image.stretch": "uniform",
+        "label": "图片仅支持JPG格式，限制在2M以内",
+        "2d.movable": false,
+        "layout.h": "left",
+        "layout.v": "bottom",
+        "fullscreen": "fill",
+        "fullscreen.gap": 0
+      },
+      "a": {
+        "display": "displays/develop/uiotos/editor/widgets/common/headProtrait.json",
+        "__loadingStatus": false,
+        "symbol": "symbols/develop/uiotos/base/graphView.json",
+        "shadowEnabled": false,
+        "headProtrait>0>func1>a:output": null,
+        "headProtrait>0>func1>a:inputs": [
+          "image/*",
+          0
+        ],
+        "headProtrait>0>func1>a:exec": false,
+        "headProtrait>0>head>a:userData": null,
+        "headProtrait>0>head>a:onFormClick": null,
+        "headProtrait>0>cbtn1>s:2d.visible": true,
+        "headProtrait>0>cbtn1>a:userData": null,
+        "headProtrait>0>func1>a:userData": null,
+        "headProtrait>0>cbtn1>a:default-background": "rgb(226,250,87)",
+        "bindControlsTag": [],
+        "bindControlsAttr": [],
+        "bindControlsVal": [],
+        "paramControlTag": [],
+        "paramControlAttr": [],
+        "paramsGenerator": "function paramsGenerator(data, val, index, node, oldVal, form) {\r\n    //绑定组索引对应的函数处理，用来动态生成复杂的参数变量传入\r\n    switch (index) {\r\n        case 0:\r\n            break;\r\n        case 1:\r\n            break;\r\n        case 2:\r\n            break;\r\n        default:\r\n            break;\r\n    }\r\n    return val;\r\n}"
+      }
+    }
+  ]
+}

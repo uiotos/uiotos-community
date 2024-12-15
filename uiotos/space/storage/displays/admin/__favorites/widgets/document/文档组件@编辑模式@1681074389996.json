@@ -1,0 +1,99 @@
+{
+    "v": "7.3.3",
+    "p": {
+        "autoAdjustIndex": true,
+        "hierarchicalRendering": false
+    },
+    "a": {
+        "rotateAsClock": false,
+        "connectActionType": null
+    },
+    "d": [{
+        "c": "ht.Node",
+        "i": 16430,
+        "p": {
+            "displayName": "document",
+            "toolTip": "编辑模式",
+            "tag": "document1",
+            "dataBindings": {
+                "a": {
+                    "value": {
+                        "id": "iotos.form",
+                        "idinfo": "",
+                        "isTplBinded": false,
+                        "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+                    },
+                    "instantTrigger": {
+                        "id": "iotos.form",
+                        "idinfo": "",
+                        "isTplBinded": false,
+                        "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+                    },
+                    "htmlContent": {
+                        "id": "iotos.form",
+                        "idinfo": "",
+                        "isTplBinded": false,
+                        "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+                    },
+                    "readOnly": {
+                        "id": "iotos.form",
+                        "idinfo": "",
+                        "isTplBinded": false,
+                        "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+                    },
+                    "onChange": {
+                        "id": "iotos.form",
+                        "idinfo": "",
+                        "isTplBinded": false,
+                        "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+                    }
+                }
+            },
+            "image": "symbols/develop/uiotos/base/document.json",
+            "position": {
+                "x": 291.58024,
+                "y": 222.08492
+            },
+            "width": 1920,
+            "height": 1080
+        },
+        "s": {
+            "label.position": 14,
+            "label.offset.x": -10,
+            "label.offset.y": 0,
+            "label.color": "rgb(61,61,61)",
+            "interactive": true,
+            "image.stretch": "uniform",
+            "label": "",
+            "2d.movable": false,
+            "layout.h": "leftright",
+            "layout.v": "topbottom",
+            "fullscreen": "fill",
+            "fullscreen.gap": 0
+        },
+        "a": {
+            "labelText": "",
+            "gap": 0,
+            "darkTheme": false,
+            "hideToolbar": false,
+            "content": "##hello uiotos",
+            "watch": true,
+            "previewing": false,
+            "readOnly": false,
+            "preview": false,
+            "bindControlsTag": [],
+            "bindControlsAttr": [],
+            "bindControlsVal": [],
+            "paramControlTag": [],
+            "paramControlAttr": [],
+            "paramsGenerator": "function paramsGenerator(data, val, index, node, oldVal, form) {\r\n    //绑定组索引对应的函数处理，用来动态生成复杂的参数变量传入\r\n    switch (index) {\r\n        case 0:\r\n            break;\r\n        case 1:\r\n            break;\r\n        case 2:\r\n            break;\r\n        default:\r\n            break;\r\n    }\r\n    return val;\r\n}"
+        }
+    }],
+    "modified": "Mon Apr 10 2023 05:07:02 GMT+0800 (中国标准时间)",
+    "contentRect": {
+        "x": -682.41976,
+        "y": -317.91508,
+        "width": 1934,
+        "height": 1080
+    }
+}

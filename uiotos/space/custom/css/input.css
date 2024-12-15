@@ -1,0 +1,113 @@
+.file {
+
+position: relative;
+
+height: 40px;
+
+line-height: 40px;
+
+}
+
+.file label {
+
+display: inline-block;
+
+}
+
+.userdefined-file {
+
+position: absolute;
+
+top: 0;
+
+left: 60px;
+
+z-index: 2;
+
+width: 300px;
+
+height: 40px;
+
+line-height: 40px;
+
+font-size: 0; /*应对子元素为 inline-block 引起的外边距*/
+
+}
+
+.userdefined-file input[type="text"] {
+
+display: inline-block;
+
+vertical-align: middle;
+
+padding-right: 14px;
+
+padding-left: 14px;
+
+width: 220px;
+
+box-sizing: border-box;
+
+border: 1px solid #ccc;
+
+height: 40px;
+
+line-height: 40px;
+
+font-size: 14px;
+
+overflow: hidden;
+
+text-overflow: ellipsis;
+
+white-space: nowrap;
+
+}
+
+.userdefined-file button {
+
+display: inline-block;
+
+vertical-align: middle;
+
+width: 80px;
+
+text-align: center;
+
+height: 40px;
+
+line-height: 40px;
+
+font-size: 14px;
+
+background-color: #f54;
+
+border: none;
+
+color: #fff;
+
+cursor: pointer;
+
+}
+
+.file input[type="file"] {
+
+position: absolute;
+
+top: 0;
+
+left: 60px;
+
+z-index: 3;
+
+opacity: 0;
+
+width: 300px;
+
+height: 40px;
+
+line-height: 40px;
+
+cursor: pointer;
+
+}

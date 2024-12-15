@@ -1,0 +1,932 @@
+{
+  "v": "7.7.5",
+  "p": {
+    "background": "#20252e",
+    "autoAdjustIndex": true,
+    "hierarchicalRendering": true
+  },
+  "a": {
+    "rotateAsClock": false,
+    "gridBlockSize": 20,
+    "connectActionType": null,
+    "fitContent": false,
+    "zoomable": false,
+    "rectSelectable": false,
+    "pannable": false
+  },
+  "d": [
+    {
+      "c": "ht.Shape",
+      "i": 72270,
+      "p": {
+        "name": "Shape",
+        "displayName": "Shape（Shape1）",
+        "tag": "Shape1",
+        "position": {
+          "x": 909.61553,
+          "y": 595.62289
+        },
+        "width": 445.88754,
+        "height": 592.15402,
+        "segments": null,
+        "points": {
+          "__a": [
+            {
+              "x": 686.67176,
+              "y": 299.54588
+            },
+            {
+              "x": 716.87447,
+              "y": 299.54588
+            },
+            {
+              "x": 1068.13927,
+              "y": 299.54588
+            },
+            {
+              "x": 1132.55929,
+              "y": 368.68499
+            },
+            {
+              "x": 1132.55929,
+              "y": 891.6999
+            },
+            {
+              "x": 708.43021,
+              "y": 891.6999
+            },
+            {
+              "x": 686.67176,
+              "y": 867.85867
+            },
+            {
+              "x": 686.67176,
+              "y": 605.98489
+            },
+            {
+              "x": 694.75904,
+              "y": 596.04027
+            },
+            {
+              "x": 694.75904,
+              "y": 562.68726
+            },
+            {
+              "x": 686.67176,
+              "y": 556.05565
+            }
+          ]
+        }
+      },
+      "s": {
+        "type": "shape",
+        "opacity": 1,
+        "shape.background": "rgba(6,13,36,0.80)",
+        "shape.border.color": "#979797",
+        "shape.dash.pattern": [
+          16,
+          16
+        ],
+        "label.position": 14,
+        "label.offset.x": -10,
+        "label.offset.y": 0,
+        "label.color": "rgb(61,61,61)",
+        "label.opacity": 0,
+        "interactive": true,
+        "image.stretch": "uniform",
+        "fullscreen": "fill",
+        "fullscreen.gap": 0,
+        "2d.selectable": false
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 72271,
+      "p": {
+        "displayName": "Text（Text1）",
+        "toolTip": "已被布局，不允许拖动",
+        "tag": "Text1",
+        "host": {
+          "__i": 72270
+        },
+        "position": {
+          "x": 854.7968,
+          "y": 329.20019
+        },
+        "scale": {
+          "x": 3,
+          "y": 3
+        },
+        "width": 107.26076,
+        "height": 13.24149
+      },
+      "s": {
+        "text": "信息",
+        "type": "text",
+        "text.align": "center",
+        "text.color": "rgb(108,230,190)",
+        "opacity": 1,
+        "label.position": 14,
+        "label.offset.x": -10,
+        "label.offset.y": 0,
+        "label.color": "rgb(61,61,61)",
+        "interactive": true,
+        "image.stretch": "uniform",
+        "2d.movable": false,
+        "layout.h": "left",
+        "layout.v": "top"
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 72272,
+      "p": {
+        "displayName": "Text（Text2）",
+        "toolTip": "已被布局，不允许拖动",
+        "tag": "Text2",
+        "host": {
+          "__i": 72270
+        },
+        "position": {
+          "x": 912.03332,
+          "y": 385.46315
+        },
+        "scale": {
+          "x": 1.5,
+          "y": 1.5
+        },
+        "width": 79.26697,
+        "height": 14.53494
+      },
+      "s": {
+        "text": "徐凤年",
+        "type": "text",
+        "text.color": "rgb(108,230,190)",
+        "opacity": 1,
+        "label.position": 14,
+        "label.offset.x": -10,
+        "label.offset.y": 0,
+        "label.color": "rgb(61,61,61)",
+        "interactive": true,
+        "image.stretch": "uniform",
+        "2d.movable": false,
+        "layout.h": "leftright",
+        "layout.v": "top"
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 72273,
+      "p": {
+        "displayName": "Text（Text3）",
+        "toolTip": "已被布局，不允许拖动",
+        "tag": "Text3",
+        "host": {
+          "__i": 72270
+        },
+        "position": {
+          "x": 768.99258,
+          "y": 385.46315
+        },
+        "scale": {
+          "x": 1.5,
+          "y": 1.5
+        },
+        "width": 57.86169,
+        "height": 14.53494
+      },
+      "s": {
+        "text": "负责人:",
+        "type": "text",
+        "text.color": "rgb(51,153,255)",
+        "opacity": 1,
+        "label.position": 14,
+        "label.offset.x": -10,
+        "label.offset.y": 0,
+        "label.color": "rgb(61,61,61)",
+        "interactive": true,
+        "image.stretch": "uniform",
+        "2d.movable": false,
+        "layout.h": "left",
+        "layout.v": "top"
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 72274,
+      "p": {
+        "displayName": "Text（Text4）",
+        "toolTip": "已被布局，不允许拖动",
+        "tag": "Text4",
+        "host": {
+          "__i": 72270
+        },
+        "position": {
+          "x": 912.03332,
+          "y": 423.15286
+        },
+        "scale": {
+          "x": 1.5,
+          "y": 1.5
+        },
+        "width": 79.26697,
+        "height": 14.53494
+      },
+      "s": {
+        "text": "大凉区事业部",
+        "type": "text",
+        "text.color": "rgb(108,230,190)",
+        "opacity": 1,
+        "label.position": 14,
+        "label.offset.x": -10,
+        "label.offset.y": 0,
+        "label.color": "rgb(61,61,61)",
+        "interactive": true,
+        "image.stretch": "uniform",
+        "2d.movable": false,
+        "layout.h": "leftright",
+        "layout.v": "top"
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 72275,
+      "p": {
+        "displayName": "Text（Text5）",
+        "toolTip": "已被布局，不允许拖动",
+        "tag": "Text5",
+        "host": {
+          "__i": 72270
+        },
+        "position": {
+          "x": 768.99258,
+          "y": 422.85617
+        },
+        "scale": {
+          "x": 1.5,
+          "y": 1.5
+        },
+        "width": 57.86169,
+        "height": 14.53494
+      },
+      "s": {
+        "text": "所属部门:",
+        "type": "text",
+        "text.color": "rgb(51,153,255)",
+        "opacity": 1,
+        "label.position": 14,
+        "label.offset.x": -10,
+        "label.offset.y": 0,
+        "label.color": "rgb(61,61,61)",
+        "interactive": true,
+        "image.stretch": "uniform",
+        "2d.movable": false,
+        "layout.h": "left",
+        "layout.v": "top"
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 72276,
+      "p": {
+        "displayName": "Text（Text6）",
+        "toolTip": "已被布局，不允许拖动",
+        "tag": "Text6",
+        "host": {
+          "__i": 72270
+        },
+        "position": {
+          "x": 912.03332,
+          "y": 460.84256
+        },
+        "scale": {
+          "x": 1.5,
+          "y": 1.5
+        },
+        "width": 79.26697,
+        "height": 14.53494
+      },
+      "s": {
+        "text": "18602155669",
+        "type": "text",
+        "text.color": "rgb(108,230,190)",
+        "opacity": 1,
+        "label.position": 14,
+        "label.offset.x": -10,
+        "label.offset.y": 0,
+        "label.color": "rgb(61,61,61)",
+        "interactive": true,
+        "image.stretch": "uniform",
+        "2d.movable": false,
+        "layout.h": "leftright",
+        "layout.v": "top"
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 72277,
+      "p": {
+        "displayName": "Text（Text7）",
+        "toolTip": "已被布局，不允许拖动",
+        "tag": "Text7",
+        "host": {
+          "__i": 72270
+        },
+        "position": {
+          "x": 768.99258,
+          "y": 460.2492
+        },
+        "scale": {
+          "x": 1.5,
+          "y": 1.5
+        },
+        "width": 57.86169,
+        "height": 14.53494
+      },
+      "s": {
+        "text": "联系方式:",
+        "type": "text",
+        "text.color": "rgb(51,153,255)",
+        "opacity": 1,
+        "label.position": 14,
+        "label.offset.x": -10,
+        "label.offset.y": 0,
+        "label.color": "rgb(61,61,61)",
+        "interactive": true,
+        "image.stretch": "uniform",
+        "2d.movable": false,
+        "layout.h": "left",
+        "layout.v": "top"
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 72278,
+      "p": {
+        "displayName": "Text（Text8）",
+        "toolTip": "已被布局，不允许拖动",
+        "tag": "Text8",
+        "host": {
+          "__i": 72270
+        },
+        "position": {
+          "x": 912.03332,
+          "y": 498.53227
+        },
+        "scale": {
+          "x": 1.5,
+          "y": 1.5
+        },
+        "width": 79.26697,
+        "height": 14.53494
+      },
+      "s": {
+        "text": "2016-04-09",
+        "type": "text",
+        "text.color": "rgb(108,230,190)",
+        "opacity": 1,
+        "label.position": 14,
+        "label.offset.x": -10,
+        "label.offset.y": 0,
+        "label.color": "rgb(61,61,61)",
+        "interactive": true,
+        "image.stretch": "uniform",
+        "2d.movable": false,
+        "layout.h": "leftright",
+        "layout.v": "top"
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 72279,
+      "p": {
+        "displayName": "Text（Text9）",
+        "toolTip": "已被布局，不允许拖动",
+        "tag": "Text9",
+        "host": {
+          "__i": 72270
+        },
+        "position": {
+          "x": 768.99258,
+          "y": 497.64222
+        },
+        "scale": {
+          "x": 1.5,
+          "y": 1.5
+        },
+        "width": 57.86169,
+        "height": 14.53494
+      },
+      "s": {
+        "text": "安装日期:",
+        "type": "text",
+        "text.color": "rgb(51,153,255)",
+        "opacity": 1,
+        "label.position": 14,
+        "label.offset.x": -10,
+        "label.offset.y": 0,
+        "label.color": "rgb(61,61,61)",
+        "interactive": true,
+        "image.stretch": "uniform",
+        "2d.movable": false,
+        "layout.h": "left",
+        "layout.v": "top"
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 72280,
+      "p": {
+        "displayName": "Text（Text10）",
+        "toolTip": "已被布局，不允许拖动",
+        "tag": "Text10",
+        "host": {
+          "__i": 72270
+        },
+        "position": {
+          "x": 794.0897,
+          "y": 535.03525
+        },
+        "scale": {
+          "x": 1.5,
+          "y": 1.5
+        },
+        "width": 91.32452,
+        "height": 14.53494
+      },
+      "s": {
+        "text": "维修记录:",
+        "type": "text",
+        "text.color": "rgb(51,153,255)",
+        "opacity": 1,
+        "label.position": 14,
+        "label.offset.x": -10,
+        "label.offset.y": 0,
+        "label.color": "rgb(61,61,61)",
+        "interactive": true,
+        "image.stretch": "uniform",
+        "2d.movable": false,
+        "layout.h": "left",
+        "layout.v": "bottom"
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 72281,
+      "p": {
+        "displayName": "Text（Text11）",
+        "toolTip": "已被布局，不允许拖动",
+        "tag": "Text11",
+        "host": {
+          "__i": 72270
+        },
+        "position": {
+          "x": 804.34984,
+          "y": 796.78642
+        },
+        "scale": {
+          "x": 1.5,
+          "y": 1.5
+        },
+        "width": 105.00471,
+        "height": 14.53494
+      },
+      "s": {
+        "text": "2017-01-09",
+        "type": "text",
+        "text.color": "rgb(108,230,190)",
+        "opacity": 1,
+        "label.position": 14,
+        "label.offset.x": -10,
+        "label.offset.y": 0,
+        "label.color": "rgb(61,61,61)",
+        "interactive": true,
+        "image.stretch": "uniform",
+        "2d.movable": false,
+        "layout.h": "left",
+        "layout.v": "bottom"
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 72282,
+      "p": {
+        "displayName": "Text（Text12）",
+        "toolTip": "已被布局，不允许拖动",
+        "tag": "Text12",
+        "host": {
+          "__i": 72270
+        },
+        "position": {
+          "x": 786.86568,
+          "y": 834.17944
+        },
+        "scale": {
+          "x": 1.5,
+          "y": 1.5
+        },
+        "width": 81.69249,
+        "height": 14.53494
+      },
+      "s": {
+        "text": "支架螺丝更换",
+        "type": "text",
+        "text.color": "rgb(51,153,255)",
+        "opacity": 1,
+        "label.position": 16,
+        "label.offset.x": -10,
+        "label.offset.y": 0,
+        "label.color": "rgb(61,61,61)",
+        "interactive": true,
+        "image.stretch": "uniform",
+        "2d.movable": false,
+        "layout.h": "left",
+        "layout.v": "bottom"
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 72283,
+      "p": {
+        "displayName": "Text（Text13）",
+        "toolTip": "已被布局，不允许拖动",
+        "tag": "Text13",
+        "host": {
+          "__i": 72270
+        },
+        "position": {
+          "x": 804.34984,
+          "y": 722.00037
+        },
+        "scale": {
+          "x": 1.5,
+          "y": 1.5
+        },
+        "width": 105.00471,
+        "height": 14.53494
+      },
+      "s": {
+        "text": "2017-01-15",
+        "type": "text",
+        "text.color": "rgb(108,230,190)",
+        "opacity": 1,
+        "label.position": 14,
+        "label.offset.x": -10,
+        "label.offset.y": 0,
+        "label.color": "rgb(61,61,61)",
+        "interactive": true,
+        "image.stretch": "uniform",
+        "2d.movable": false,
+        "layout.h": "left",
+        "layout.v": "bottom"
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 72284,
+      "p": {
+        "displayName": "Text（Text14）",
+        "toolTip": "已被布局，不允许拖动",
+        "tag": "Text14",
+        "host": {
+          "__i": 72270
+        },
+        "position": {
+          "x": 786.86568,
+          "y": 759.39339
+        },
+        "scale": {
+          "x": 1.5,
+          "y": 1.5
+        },
+        "width": 81.69249,
+        "height": 14.53494
+      },
+      "s": {
+        "text": "电源维修",
+        "type": "text",
+        "text.color": "rgb(51,153,255)",
+        "opacity": 1,
+        "label.position": 16,
+        "label.offset.x": -10,
+        "label.offset.y": 0,
+        "label.color": "rgb(61,61,61)",
+        "interactive": true,
+        "image.stretch": "uniform",
+        "2d.movable": false,
+        "layout.h": "left",
+        "layout.v": "bottom"
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 72285,
+      "p": {
+        "displayName": "Text（Text15）",
+        "toolTip": "已被布局，不允许拖动",
+        "tag": "Text15",
+        "host": {
+          "__i": 72270
+        },
+        "position": {
+          "x": 804.34984,
+          "y": 647.21432
+        },
+        "scale": {
+          "x": 1.5,
+          "y": 1.5
+        },
+        "width": 105.00471,
+        "height": 14.53494
+      },
+      "s": {
+        "text": "2017-01-29",
+        "type": "text",
+        "text.color": "rgb(108,230,190)",
+        "opacity": 1,
+        "label.position": 14,
+        "label.offset.x": -10,
+        "label.offset.y": 0,
+        "label.color": "rgb(61,61,61)",
+        "interactive": true,
+        "image.stretch": "uniform",
+        "2d.movable": false,
+        "layout.h": "left",
+        "layout.v": "bottom"
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 72286,
+      "p": {
+        "displayName": "Text（Text16）",
+        "toolTip": "<p style='color:rgb(242,83,75);margin-top:5px;margin-bottom:5px;font-weight:bold;line-height:1.5em;'>已被布局，不允许拖动（shift+回车可解除）</p>已被布局，不允许拖动",
+        "tag": "Text16",
+        "host": {
+          "__i": 72270
+        },
+        "position": {
+          "x": 786.86568,
+          "y": 684.60734
+        },
+        "scale": {
+          "x": 1.5,
+          "y": 1.5
+        },
+        "width": 81.69249,
+        "height": 14.53494
+      },
+      "s": {
+        "text": "#2 #7 散热风扇更换",
+        "type": "text",
+        "text.color": "rgb(51,153,255)",
+        "opacity": 1,
+        "label.position": 16,
+        "label.offset.x": -10,
+        "label.offset.y": 0,
+        "label.color": "rgb(61,61,61)",
+        "interactive": true,
+        "image.stretch": "uniform",
+        "2d.movable": false,
+        "layout.h": "left",
+        "layout.v": "bottom"
+      },
+      "a": {
+        "toolTipRaw": "<p style='color:rgb(242,83,75);margin-top:5px;margin-bottom:5px;font-weight:bold;line-height:1.5em;'>已被布局，不允许拖动（shift+回车可解除）</p>已被布局，不允许拖动"
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 72287,
+      "p": {
+        "displayName": "Text（Text17）",
+        "toolTip": "已被布局，不允许拖动",
+        "tag": "Text17",
+        "host": {
+          "__i": 72270
+        },
+        "position": {
+          "x": 804.34984,
+          "y": 572.42827
+        },
+        "scale": {
+          "x": 1.5,
+          "y": 1.5
+        },
+        "width": 105.00471,
+        "height": 14.53494
+      },
+      "s": {
+        "text": "2017-02-12",
+        "type": "text",
+        "text.color": "rgb(108,230,190)",
+        "opacity": 1,
+        "label.position": 14,
+        "label.offset.x": -10,
+        "label.offset.y": 0,
+        "label.color": "rgb(61,61,61)",
+        "interactive": true,
+        "image.stretch": "uniform",
+        "2d.movable": false,
+        "layout.h": "left",
+        "layout.v": "bottom"
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 72288,
+      "p": {
+        "displayName": "Text（Text18）",
+        "toolTip": "<p style='color:rgb(242,83,75);margin-top:5px;margin-bottom:5px;font-weight:bold;line-height:1.5em;'>已被布局，不允许拖动（shift+回车可解除）</p>已被布局，不允许拖动",
+        "tag": "Text18",
+        "host": {
+          "__i": 72270
+        },
+        "position": {
+          "x": 786.86568,
+          "y": 609.8213
+        },
+        "scale": {
+          "x": 1.5,
+          "y": 1.5
+        },
+        "width": 81.69249,
+        "height": 14.53494
+      },
+      "s": {
+        "text": "散热清理",
+        "type": "text",
+        "text.color": "rgb(51,153,255)",
+        "opacity": 1,
+        "label.position": 16,
+        "label.offset.x": -10,
+        "label.offset.y": 0,
+        "label.color": "rgb(61,61,61)",
+        "interactive": true,
+        "image.stretch": "uniform",
+        "2d.movable": false,
+        "layout.h": "left",
+        "layout.v": "bottom"
+      },
+      "a": {
+        "toolTipRaw": "<p style='color:rgb(242,83,75);margin-top:5px;margin-bottom:5px;font-weight:bold;line-height:1.5em;'>已被布局，不允许拖动（shift+回车可解除）</p>已被布局，不允许拖动"
+      }
+    },
+    {
+      "c": "ht.Shape",
+      "i": 72289,
+      "p": {
+        "name": "Shape",
+        "displayName": "Shape（Shape5）",
+        "toolTip": "已被布局，不允许拖动",
+        "tag": "Shape5",
+        "host": {
+          "__i": 72270
+        },
+        "position": {
+          "x": 1042.35869,
+          "y": 855.25989
+        },
+        "width": 132.76128,
+        "height": 33.09102,
+        "segments": null,
+        "points": {
+          "__a": [
+            {
+              "x": 975.97805,
+              "y": 838.71438
+            },
+            {
+              "x": 975.97805,
+              "y": 861.8502
+            },
+            {
+              "x": 987.6979,
+              "y": 871.8054
+            },
+            {
+              "x": 1108.73933,
+              "y": 871.8054
+            },
+            {
+              "x": 1108.73933,
+              "y": 851.82399
+            },
+            {
+              "x": 1093.56176,
+              "y": 838.71438
+            },
+            {
+              "x": 975.97805,
+              "y": 838.71438
+            }
+          ]
+        }
+      },
+      "s": {
+        "type": "shape",
+        "opacity": 1,
+        "shape.background": "rgb(0,0,0)",
+        "shape.border.width": 2,
+        "shape.border.color": "rgb(51,153,255)",
+        "shape.dash.pattern": [
+          16,
+          16
+        ],
+        "label.position": 14,
+        "label.offset.x": -10,
+        "label.offset.y": 0,
+        "label.color": "rgb(61,61,61)",
+        "label.opacity": 0,
+        "interactive": true,
+        "image.stretch": "uniform",
+        "2d.movable": false,
+        "layout.h": "right",
+        "layout.v": "bottom"
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 72290,
+      "p": {
+        "displayName": "Text（Text19）",
+        "toolTip": "已被布局，不允许拖动",
+        "tag": "Text19",
+        "host": {
+          "__i": 72270
+        },
+        "position": {
+          "x": 1037.67273,
+          "y": 855.25989
+        },
+        "scale": {
+          "x": 1.5,
+          "y": 1.5
+        },
+        "width": 41.17733,
+        "height": 14.53494
+      },
+      "s": {
+        "text": "刷新",
+        "type": "text",
+        "text.align": "center",
+        "text.color": "rgb(51,153,255)",
+        "opacity": 1,
+        "label.position": 14,
+        "label.offset.x": -10,
+        "label.offset.y": 0,
+        "label.color": "rgb(61,61,61)",
+        "interactive": true,
+        "image.stretch": "uniform",
+        "2d.movable": false,
+        "layout.h": "right",
+        "layout.v": "bottom"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 72291,
+      "p": {
+        "name": "n",
+        "displayName": "n（n1）",
+        "toolTip": "已被布局，不允许拖动",
+        "tag": "n1",
+        "host": {
+          "__i": 72270
+        },
+        "rotation": 4.71239,
+        "position": {
+          "x": 904.57008,
+          "y": 517.87627
+        },
+        "width": 0.51554,
+        "height": 327.9713
+      },
+      "s": {
+        "shape": "rect",
+        "shape.background": "rgba(247,247,247,0)",
+        "shape.border.color": "#979797",
+        "label.position": 14,
+        "label.offset.x": -10,
+        "label.offset.y": 0,
+        "label.color": "rgb(61,61,61)",
+        "interactive": true,
+        "image.stretch": "uniform",
+        "shape.gradient": "spread.vertical",
+        "shape.gradient.color": "rgb(55,125,255)",
+        "layout.h": "leftright",
+        "layout.v": "center",
+        "fullscreen.gap": 0,
+        "label.opacity": 0,
+        "2d.movable": false
+      }
+    }
+  ],
+  "modified": "Mon May 20 2024 01:07:39 GMT+0800 (中国标准时间)",
+  "contentRect": {
+    "x": 637.97254,
+    "y": 299.54588,
+    "width": 494.58676,
+    "height": 592.15402
+  }
+}

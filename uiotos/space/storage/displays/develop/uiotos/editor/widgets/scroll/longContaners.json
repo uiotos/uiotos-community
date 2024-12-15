@@ -1,0 +1,2237 @@
+{
+  "v": "7.7.2",
+  "p": {
+    "background": "#20252e",
+    "autoAdjustIndex": true,
+    "hierarchicalRendering": true
+  },
+  "a": {
+    "rotateAsClock": false,
+    "gridBlockSize": 20,
+    "connectActionType": null,
+    "fitContent": false,
+    "zoomable": false,
+    "rectSelectable": false,
+    "pannable": false
+  },
+  "d": [
+    {
+      "c": "ht.Node",
+      "i": 282507,
+      "p": {
+        "name": "base",
+        "displayName": "底板（_base）",
+        "tag": "_base",
+        "position": {
+          "x": 112.46587,
+          "y": 184.29281
+        },
+        "width": 224.93175,
+        "height": 368.58564
+      },
+      "s": {
+        "label.position": 14,
+        "label.offset.x": -10,
+        "label.offset.y": 0,
+        "label.color": "rgb(61,61,61)",
+        "label.opacity": 0,
+        "shape": "rect",
+        "shape.background": "white",
+        "fullscreen.gap": 0,
+        "2d.movable": false,
+        "fullscreen": "fill",
+        "2d.selectable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 282508,
+      "p": {
+        "name": "scroll",
+        "displayName": "滚动页（scroll1）",
+        "toolTip": "<p style='color:rgb(242,83,75);margin:0px;font-weight:bold'>已被布局，不允许拖动<p>",
+        "tag": "scroll1",
+        "dataBindings": {
+          "a": {
+            "display": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "autoFillMinWidth": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "onScrollEnded": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "userData": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "innerLayoutMode": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "grids>0>grid1>a:datas": {
+              "id": "iotos.formReset",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "grids>0>grid1>a:grid.row.count": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "__ht__function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        console.error(err);\r\n        return rawData;\r\n    }\r\n}",
+              "alias": ""
+            },
+            "grids>0>grid1>a:grid.column.count": {
+              "id": "iotos.formReset",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "grids>0>grid1>a:rowIndex": {
+              "id": "iotos.formReset",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "grids>0>grid1>a:columnIndex": {
+              "id": "iotos.formReset",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "grids>0>grid1>a:removeOthers": {
+              "id": "iotos.formReset",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "grids>0>grid1>a:grid.row.percents": {
+              "id": "iotos.formReset",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "grids>0>grid1>a:grid.auto.fill": {
+              "id": "iotos.formReset",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "grids>0>grid1>a:grid.column.percents": {
+              "id": "iotos.formReset",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "grids>0>grid1>a:grid.gap": {
+              "id": "iotos.formReset",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "grids>0>grid1>a:valueGet": {
+              "id": "iotos.formReset",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "grids>0>grid1>a:itemsGet": {
+              "id": "iotos.formReset",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "grids>0>gv2>a:display": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "__ht__function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        console.error(err);\r\n        return rawData;\r\n    }\r\n}",
+              "alias": ""
+            },
+            "grids>0>gv2>a:innerLayoutMode": {
+              "id": "iotos.formReset",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "grids>0>gv1>a:display": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "__ht__function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        console.error(err);\r\n        return rawData;\r\n    }\r\n}",
+              "alias": ""
+            },
+            "grids>0>gv1>a:innerLayoutMode": {
+              "id": "iotos.formReset",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "grids>0>gv1>a:统计面板4）>0>投影1>a:background": {
+              "id": "iotos.formReset",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "grids>0>gv1>a:统计面板4）>0>grid3>a:datas": {
+              "id": "iotos.formReset",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "grids>0>gv1>a:统计面板4）>0>grid3>a:grid.row.count": {
+              "id": "iotos.formReset",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "grids>0>gv1>a:统计面板4）>0>grid3>a:grid.column.count": {
+              "id": "iotos.formReset",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "grids>0>gv1>a:统计面板4）>0>grid3>a:rowIndex": {
+              "id": "iotos.formReset",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "grids>0>gv1>a:统计面板4）>0>grid3>a:columnIndex": {
+              "id": "iotos.formReset",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "grids>0>gv1>a:统计面板4）>0>grid3>a:removeOthers": {
+              "id": "iotos.formReset",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "grids>0>gv1>a:统计面板4）>0>grid3>a:grid.row.percents": {
+              "id": "iotos.formReset",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "grids>0>gv1>a:统计面板4）>0>grid3>a:grid.auto.fill": {
+              "id": "iotos.formReset",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "grids>0>gv1>a:统计面板4）>0>grid3>a:grid.column.percents": {
+              "id": "iotos.formReset",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "grids>0>gv1>a:统计面板4）>0>grid3>a:grid.gap": {
+              "id": "iotos.formReset",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "grids>0>gv1>a:统计面板4）>0>grid3>a:valueGet": {
+              "id": "iotos.formReset",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "grids>0>gv1>a:统计面板4）>0>grid3>a:itemsGet": {
+              "id": "iotos.formReset",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "grids>0>gv1>a:统计面板4）>0>grid1>a:datas": {
+              "id": "iotos.formReset",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "grids>0>gv1>a:统计面板4）>0>grid1>a:grid.row.count": {
+              "id": "iotos.formReset",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "grids>0>gv1>a:统计面板4）>0>grid1>a:grid.column.count": {
+              "id": "iotos.formReset",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "grids>0>gv1>a:统计面板4）>0>grid1>a:rowIndex": {
+              "id": "iotos.formReset",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "grids>0>gv1>a:统计面板4）>0>grid1>a:columnIndex": {
+              "id": "iotos.formReset",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "grids>0>gv1>a:统计面板4）>0>grid1>a:removeOthers": {
+              "id": "iotos.formReset",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "grids>0>gv1>a:统计面板4）>0>grid1>a:grid.row.percents": {
+              "id": "iotos.formReset",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "grids>0>gv1>a:统计面板4）>0>grid1>a:grid.auto.fill": {
+              "id": "iotos.formReset",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "grids>0>gv1>a:统计面板4）>0>grid1>a:grid.column.percents": {
+              "id": "iotos.formReset",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "grids>0>gv1>a:统计面板4）>0>grid1>a:grid.gap": {
+              "id": "iotos.formReset",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "grids>0>gv1>a:统计面板4）>0>grid1>a:valueGet": {
+              "id": "iotos.formReset",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "grids>0>gv1>a:统计面板4）>0>grid1>a:itemsGet": {
+              "id": "iotos.formReset",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "grids>0>gv1>a:统计面板4）>0>Text1>s:text": {
+              "id": "iotos.formReset",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "grids>0>gv1>a:统计面板4）>0>grid2>a:datas": {
+              "id": "iotos.formReset",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "grids>0>gv1>a:统计面板4）>0>grid2>a:grid.row.count": {
+              "id": "iotos.formReset",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "grids>0>gv1>a:统计面板4）>0>grid2>a:grid.column.count": {
+              "id": "iotos.formReset",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "grids>0>gv1>a:统计面板4）>0>grid2>a:rowIndex": {
+              "id": "iotos.formReset",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "grids>0>gv1>a:统计面板4）>0>grid2>a:columnIndex": {
+              "id": "iotos.formReset",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "grids>0>gv1>a:统计面板4）>0>grid2>a:removeOthers": {
+              "id": "iotos.formReset",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "grids>0>gv1>a:统计面板4）>0>grid2>a:grid.row.percents": {
+              "id": "iotos.formReset",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "grids>0>gv1>a:统计面板4）>0>grid2>a:grid.auto.fill": {
+              "id": "iotos.formReset",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "grids>0>gv1>a:统计面板4）>0>grid2>a:grid.column.percents": {
+              "id": "iotos.formReset",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "grids>0>gv1>a:统计面板4）>0>grid2>a:grid.gap": {
+              "id": "iotos.formReset",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "grids>0>gv1>a:统计面板4）>0>grid2>a:valueGet": {
+              "id": "iotos.formReset",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "grids>0>gv1>a:统计面板4）>0>grid2>a:itemsGet": {
+              "id": "iotos.formReset",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "grids>0>gv1>a:统计面板4）>0>Text2>s:text": {
+              "id": "iotos.formReset",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "grids>0>gv1>a:统计面板4）>0>Text3>s:text": {
+              "id": "iotos.formReset",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "grids>0>gv2>a:统计面板4）>0>投影1>a:background": {
+              "id": "iotos.formReset",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "grids>0>gv2>a:统计面板4）>0>grid3>a:datas": {
+              "id": "iotos.formReset",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "grids>0>gv2>a:统计面板4）>0>grid3>a:grid.row.count": {
+              "id": "iotos.formReset",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "grids>0>gv2>a:统计面板4）>0>grid3>a:grid.column.count": {
+              "id": "iotos.formReset",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "grids>0>gv2>a:统计面板4）>0>grid3>a:rowIndex": {
+              "id": "iotos.formReset",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "grids>0>gv2>a:统计面板4）>0>grid3>a:columnIndex": {
+              "id": "iotos.formReset",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "grids>0>gv2>a:统计面板4）>0>grid3>a:removeOthers": {
+              "id": "iotos.formReset",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "grids>0>gv2>a:统计面板4）>0>grid3>a:grid.row.percents": {
+              "id": "iotos.formReset",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "grids>0>gv2>a:统计面板4）>0>grid3>a:grid.auto.fill": {
+              "id": "iotos.formReset",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "grids>0>gv2>a:统计面板4）>0>grid3>a:grid.column.percents": {
+              "id": "iotos.formReset",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "grids>0>gv2>a:统计面板4）>0>grid3>a:grid.gap": {
+              "id": "iotos.formReset",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "grids>0>gv2>a:统计面板4）>0>grid3>a:valueGet": {
+              "id": "iotos.formReset",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "grids>0>gv2>a:统计面板4）>0>grid3>a:itemsGet": {
+              "id": "iotos.formReset",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "grids>0>gv2>a:统计面板4）>0>grid1>a:datas": {
+              "id": "iotos.formReset",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "grids>0>gv2>a:统计面板4）>0>grid1>a:grid.row.count": {
+              "id": "iotos.formReset",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "grids>0>gv2>a:统计面板4）>0>grid1>a:grid.column.count": {
+              "id": "iotos.formReset",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "grids>0>gv2>a:统计面板4）>0>grid1>a:rowIndex": {
+              "id": "iotos.formReset",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "grids>0>gv2>a:统计面板4）>0>grid1>a:columnIndex": {
+              "id": "iotos.formReset",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "grids>0>gv2>a:统计面板4）>0>grid1>a:removeOthers": {
+              "id": "iotos.formReset",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "grids>0>gv2>a:统计面板4）>0>grid1>a:grid.row.percents": {
+              "id": "iotos.formReset",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "grids>0>gv2>a:统计面板4）>0>grid1>a:grid.auto.fill": {
+              "id": "iotos.formReset",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "grids>0>gv2>a:统计面板4）>0>grid1>a:grid.column.percents": {
+              "id": "iotos.formReset",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "grids>0>gv2>a:统计面板4）>0>grid1>a:grid.gap": {
+              "id": "iotos.formReset",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "grids>0>gv2>a:统计面板4）>0>grid1>a:valueGet": {
+              "id": "iotos.formReset",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "grids>0>gv2>a:统计面板4）>0>grid1>a:itemsGet": {
+              "id": "iotos.formReset",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "grids>0>gv2>a:统计面板4）>0>Text1>s:text": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "__ht__function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        console.error(err);\r\n        return rawData;\r\n    }\r\n}",
+              "alias": ""
+            },
+            "grids>0>gv2>a:统计面板4）>0>grid2>a:datas": {
+              "id": "iotos.formReset",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "grids>0>gv2>a:统计面板4）>0>grid2>a:grid.row.count": {
+              "id": "iotos.formReset",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "grids>0>gv2>a:统计面板4）>0>grid2>a:grid.column.count": {
+              "id": "iotos.formReset",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "grids>0>gv2>a:统计面板4）>0>grid2>a:rowIndex": {
+              "id": "iotos.formReset",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "grids>0>gv2>a:统计面板4）>0>grid2>a:columnIndex": {
+              "id": "iotos.formReset",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "grids>0>gv2>a:统计面板4）>0>grid2>a:removeOthers": {
+              "id": "iotos.formReset",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "grids>0>gv2>a:统计面板4）>0>grid2>a:grid.row.percents": {
+              "id": "iotos.formReset",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "grids>0>gv2>a:统计面板4）>0>grid2>a:grid.auto.fill": {
+              "id": "iotos.formReset",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "grids>0>gv2>a:统计面板4）>0>grid2>a:grid.column.percents": {
+              "id": "iotos.formReset",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "grids>0>gv2>a:统计面板4）>0>grid2>a:grid.gap": {
+              "id": "iotos.formReset",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "grids>0>gv2>a:统计面板4）>0>grid2>a:valueGet": {
+              "id": "iotos.formReset",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "grids>0>gv2>a:统计面板4）>0>grid2>a:itemsGet": {
+              "id": "iotos.formReset",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "grids>0>gv2>a:统计面板4）>0>Text2>s:text": {
+              "id": "iotos.formReset",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "grids>0>gv2>a:统计面板4）>0>Text3>s:text": {
+              "id": "iotos.formReset",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "grids>0>gv3>a:display": {
+              "id": "iotos.formReset",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}",
+              "dynamicCreate": true
+            },
+            "grids>0>gv3>a:innerLayoutMode": {
+              "id": "iotos.formReset",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}",
+              "dynamicCreate": true
+            },
+            "grids>0>gv3>a:统计面板4）>0>投影1>a:background": {
+              "id": "iotos.formReset",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}",
+              "dynamicCreate": true
+            },
+            "grids>0>gv3>a:统计面板4）>0>grid3>a:datas": {
+              "id": "iotos.formReset",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}",
+              "dynamicCreate": true
+            },
+            "grids>0>gv3>a:统计面板4）>0>grid3>a:grid.row.count": {
+              "id": "iotos.formReset",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}",
+              "dynamicCreate": true
+            },
+            "grids>0>gv3>a:统计面板4）>0>grid3>a:grid.column.count": {
+              "id": "iotos.formReset",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}",
+              "dynamicCreate": true
+            },
+            "grids>0>gv3>a:统计面板4）>0>grid3>a:rowIndex": {
+              "id": "iotos.formReset",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}",
+              "dynamicCreate": true
+            },
+            "grids>0>gv3>a:统计面板4）>0>grid3>a:columnIndex": {
+              "id": "iotos.formReset",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}",
+              "dynamicCreate": true
+            },
+            "grids>0>gv3>a:统计面板4）>0>grid3>a:removeOthers": {
+              "id": "iotos.formReset",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}",
+              "dynamicCreate": true
+            },
+            "grids>0>gv3>a:统计面板4）>0>grid3>a:grid.row.percents": {
+              "id": "iotos.formReset",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}",
+              "dynamicCreate": true
+            },
+            "grids>0>gv3>a:统计面板4）>0>grid3>a:grid.auto.fill": {
+              "id": "iotos.formReset",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}",
+              "dynamicCreate": true
+            },
+            "grids>0>gv3>a:统计面板4）>0>grid3>a:grid.column.percents": {
+              "id": "iotos.formReset",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}",
+              "dynamicCreate": true
+            },
+            "grids>0>gv3>a:统计面板4）>0>grid3>a:grid.gap": {
+              "id": "iotos.formReset",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}",
+              "dynamicCreate": true
+            },
+            "grids>0>gv3>a:统计面板4）>0>grid3>a:valueGet": {
+              "id": "iotos.formReset",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}",
+              "dynamicCreate": true
+            },
+            "grids>0>gv3>a:统计面板4）>0>grid3>a:itemsGet": {
+              "id": "iotos.formReset",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}",
+              "dynamicCreate": true
+            },
+            "grids>0>gv3>a:统计面板4）>0>grid1>a:datas": {
+              "id": "iotos.formReset",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}",
+              "dynamicCreate": true
+            },
+            "grids>0>gv3>a:统计面板4）>0>grid1>a:grid.row.count": {
+              "id": "iotos.formReset",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}",
+              "dynamicCreate": true
+            },
+            "grids>0>gv3>a:统计面板4）>0>grid1>a:grid.column.count": {
+              "id": "iotos.formReset",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}",
+              "dynamicCreate": true
+            },
+            "grids>0>gv3>a:统计面板4）>0>grid1>a:rowIndex": {
+              "id": "iotos.formReset",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}",
+              "dynamicCreate": true
+            },
+            "grids>0>gv3>a:统计面板4）>0>grid1>a:columnIndex": {
+              "id": "iotos.formReset",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}",
+              "dynamicCreate": true
+            },
+            "grids>0>gv3>a:统计面板4）>0>grid1>a:removeOthers": {
+              "id": "iotos.formReset",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}",
+              "dynamicCreate": true
+            },
+            "grids>0>gv3>a:统计面板4）>0>grid1>a:grid.row.percents": {
+              "id": "iotos.formReset",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}",
+              "dynamicCreate": true
+            },
+            "grids>0>gv3>a:统计面板4）>0>grid1>a:grid.auto.fill": {
+              "id": "iotos.formReset",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}",
+              "dynamicCreate": true
+            },
+            "grids>0>gv3>a:统计面板4）>0>grid1>a:grid.column.percents": {
+              "id": "iotos.formReset",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}",
+              "dynamicCreate": true
+            },
+            "grids>0>gv3>a:统计面板4）>0>grid1>a:grid.gap": {
+              "id": "iotos.formReset",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}",
+              "dynamicCreate": true
+            },
+            "grids>0>gv3>a:统计面板4）>0>grid1>a:valueGet": {
+              "id": "iotos.formReset",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}",
+              "dynamicCreate": true
+            },
+            "grids>0>gv3>a:统计面板4）>0>grid1>a:itemsGet": {
+              "id": "iotos.formReset",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}",
+              "dynamicCreate": true
+            },
+            "grids>0>gv3>a:统计面板4）>0>Text1>s:text": {
+              "id": "iotos.formReset",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}",
+              "dynamicCreate": true
+            },
+            "grids>0>gv3>a:统计面板4）>0>grid2>a:datas": {
+              "id": "iotos.formReset",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}",
+              "dynamicCreate": true
+            },
+            "grids>0>gv3>a:统计面板4）>0>grid2>a:grid.row.count": {
+              "id": "iotos.formReset",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}",
+              "dynamicCreate": true
+            },
+            "grids>0>gv3>a:统计面板4）>0>grid2>a:grid.column.count": {
+              "id": "iotos.formReset",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}",
+              "dynamicCreate": true
+            },
+            "grids>0>gv3>a:统计面板4）>0>grid2>a:rowIndex": {
+              "id": "iotos.formReset",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}",
+              "dynamicCreate": true
+            },
+            "grids>0>gv3>a:统计面板4）>0>grid2>a:columnIndex": {
+              "id": "iotos.formReset",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}",
+              "dynamicCreate": true
+            },
+            "grids>0>gv3>a:统计面板4）>0>grid2>a:removeOthers": {
+              "id": "iotos.formReset",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}",
+              "dynamicCreate": true
+            },
+            "grids>0>gv3>a:统计面板4）>0>grid2>a:grid.row.percents": {
+              "id": "iotos.formReset",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}",
+              "dynamicCreate": true
+            },
+            "grids>0>gv3>a:统计面板4）>0>grid2>a:grid.auto.fill": {
+              "id": "iotos.formReset",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}",
+              "dynamicCreate": true
+            },
+            "grids>0>gv3>a:统计面板4）>0>grid2>a:grid.column.percents": {
+              "id": "iotos.formReset",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}",
+              "dynamicCreate": true
+            },
+            "grids>0>gv3>a:统计面板4）>0>grid2>a:grid.gap": {
+              "id": "iotos.formReset",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}",
+              "dynamicCreate": true
+            },
+            "grids>0>gv3>a:统计面板4）>0>grid2>a:valueGet": {
+              "id": "iotos.formReset",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}",
+              "dynamicCreate": true
+            },
+            "grids>0>gv3>a:统计面板4）>0>grid2>a:itemsGet": {
+              "id": "iotos.formReset",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}",
+              "dynamicCreate": true
+            },
+            "grids>0>gv3>a:统计面板4）>0>Text2>s:text": {
+              "id": "iotos.formReset",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}",
+              "dynamicCreate": true
+            },
+            "grids>0>gv3>a:统计面板4）>0>Text3>s:text": {
+              "id": "iotos.formReset",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}",
+              "dynamicCreate": true
+            }
+          }
+        },
+        "image": {
+          "modified": "Sun Oct 15 2023 21:56:03 GMT+0800 (中国标准时间)",
+          "background": "rgb(32,37,46)",
+          "dataBindings": [
+            {
+              "attr": "symbol",
+              "valueType": "Image",
+              "group": "功能（关键）"
+            },
+            {
+              "attr": "display",
+              "valueType": "URL",
+              "defaultValue": ""
+            },
+            {
+              "attr": "innerLayoutMode",
+              "valueType": "String",
+              "description": "内嵌页面的布局模式。\n<br>页面通常分为适配内容（fitContent）\n<br>和全屏填充（fullScreen）两种模式，\n<br>前者自适应缩放以保证所有内容窗口\n<br>范围内可见，后者则是指定某个图元\n<br>组件作为底板全屏填充，其他组件直\n<br>接或简接对于底板布局。\n<br>模式无（none）表示以上两种模式都\n<br>不是，既不缩放适配也不全屏铺满。\n<br>注意，本属性为读写，可以表示当前\n<br>页面的状态，也可以进行设置。其中\n<br>设置全屏填充时，自动选择最底层图\n<br>元组件作为底板。新建页面默认为基\n<br>于有底板的全屏填充布局，而非缩放。\n",
+              "extraInfo": {
+                "enum": {
+                  "values": [
+                    "fitContent",
+                    "fullScreen",
+                    "none"
+                  ]
+                }
+              }
+            },
+            {
+              "attr": "onDisplayLoaded",
+              "valueType": "Function",
+              "description": "所有内嵌页面逐层加载完毕后回调（注意，作为顶层页面时才会触发）。",
+              "extraInfo": {
+                "arguments": [
+                  "data",
+                  "gv",
+                  "cache"
+                ]
+              }
+            },
+            {
+              "attr": "reset",
+              "valueType": "Level2",
+              "defaultValue": 0
+            },
+            {
+              "attr": "enableLoading",
+              "valueType": "Boolean",
+              "defaultValue": false,
+              "description": "是否启动加载过渡动画。注意，勾选后，如果资源不存在，可能会导致卡死，过渡动画一直存在。"
+            },
+            {
+              "attr": "shadowBorder",
+              "valueType": "NumberArray",
+              "defaultValue": [
+                0,
+                0,
+                8
+              ]
+            },
+            {
+              "attr": "shadowColor",
+              "valueType": "Color",
+              "defaultValue": "rgba(55,125,255,0.50)"
+            },
+            {
+              "attr": "shadowEnabled",
+              "valueType": "Boolean",
+              "defaultValue": true
+            },
+            {
+              "attr": "contentMinWidth",
+              "valueType": "PositiveNumber",
+              "defaultValue": 0
+            },
+            {
+              "attr": "autoFillMinWidth",
+              "valueType": "Boolean",
+              "defaultValue": true
+            },
+            {
+              "attr": "bindControlsTag",
+              "valueType": "StringArray",
+              "group": "bindControls"
+            },
+            {
+              "attr": "bindControlsAttr",
+              "valueType": "StringArray"
+            },
+            {
+              "attr": "bindControlsVal",
+              "valueType": "ObjectArray",
+              "description": "静态值。也用作数组索引、JSON对象解析提取值用途。\n<br>一、静态值用途：\n<br>对常规类型的属性赋值且没有反向关联属性值，传入为数值时，不\n<br>会作为数组的索引，而会当成常量值对外赋值。此外，存在特殊值：\n<br>~和undefined表示过滤、不触发；null为默认值，表示传递默认表\n<br>单数据。编辑状态下清空后保存与设置null等价。\n<br>二、数组索引用途\n<br>情况1：被操作的组件属性原先值是数组时（包括空数组），会将\n<br>待输出的值作为被操作数组指定索引的值来传入，而不是整体覆盖。\n<br>情况2：如果要被操作的组件属性原先值不是数组，而且待输出的\n<br>值为数组类型并且长度也在索引范围内，那么会按照索引取自身数\n<br>组指定元素再对外输出。（如果想要取待输出索引值，赋值给被操\n<br>纵属性的指定索引，那么需要中间组件属性连线过渡以下，无法直\n<br>接操作）\n<br>情况3：如果要被操作的组件属性是数组，而且待输出的值也是数组\n<br>类型，此时当情况1来处理。\n<br>三、数据解析用途：\n<br>待输出的值为JSON对象时，用x.y.z这种以字符.或者>为间隔的方式\n<br>实现对JSON字段层次逐层定位，当是数组时x.0.y.1这种以数字的方\n<br>式来指定数组的某个索引。以此实现对任意结果JSON对象字段的定\n<br>位，获取结构内指定字段对应的值。"
+            },
+            {
+              "attr": "paramControlTag",
+              "valueType": "StringArray"
+            },
+            {
+              "attr": "paramControlAttr",
+              "valueType": "StringArray"
+            },
+            {
+              "attr": "paramsGenerator",
+              "valueType": "Function",
+              "defaultValue": "__ht__function(data, val, index, node, oldVal, form, type, inner) {//绑定组索引对应的函数处理，用来动态生成复杂的参数变量传入\r\nswitch(index){\r\n    case 0:\r\n        break;\r\n    case 1:\r\n        break;\r\n    case 2:\r\n        break;\r\n    default:\r\n        break;\r\n}\r\n\r\nreturn val;}",
+              "extraInfo": {
+                "arguments": [
+                  "data",
+                  "val",
+                  "index",
+                  "node",
+                  "oldVal",
+                  "form",
+                  "type",
+                  "inner"
+                ]
+              }
+            },
+            {
+              "attr": "useInnerEventsAll",
+              "valueType": "Boolean",
+              "description": "是否放行内嵌页面的全部事件。\n<br>若勾选，内嵌图元表单类型的事件函数属性，都将派发到\n<br>上层容器图元对外触发连线操作。默认不勾选，上层容器\n<br>图元对外连线反向关联需要指定内嵌图元的具体事件函数\n<br>属性才能触发，否则忽略内嵌图元的事件触发，不会传递\n<br>给上层容器图元对外连线操作。"
+            },
+            {
+              "attr": "onScrollEnded",
+              "valueType": "Function",
+              "extraInfo": {
+                "arguments": [
+                  "data",
+                  "gv",
+                  "cache",
+                  "value",
+                  "extra"
+                ]
+              }
+            },
+            {
+              "attr": "userData",
+              "valueType": "ObjectArray"
+            },
+            {
+              "attr": "grids>0>grid1>a:datas",
+              "valueType": "ObjectArray",
+              "defaultValue": [],
+              "description": "用于接收存放多条数据记录集，通常为数据库返回结果，数组每个对象的字段名称和数量通常一致，仅数据不同。",
+              "group": "grids>0>grid1"
+            },
+            {
+              "attr": "grids>0>grid1>a:grid.row.count",
+              "valueType": "PositiveNumber",
+              "defaultValue": 3,
+              "description": "网格行数",
+              "group": "grids>0>grid1"
+            },
+            {
+              "attr": "grids>0>grid1>a:grid.column.count",
+              "valueType": "PositiveNumber",
+              "defaultValue": 1,
+              "description": "网格列数",
+              "group": "grids>0>grid1"
+            },
+            {
+              "attr": "grids>0>grid1>a:rowIndex",
+              "valueType": "Number",
+              "defaultValue": -1,
+              "description": "指定行索引。\n<br>网格内的组件，选择指定行（rowIndex）、\n<br>列（columnIndex）的用于显示， 其他\n<br>的移除掉。默认值-1相当于未选定。",
+              "group": "grids>0>grid1"
+            },
+            {
+              "attr": "grids>0>grid1>a:columnIndex",
+              "valueType": "Number",
+              "defaultValue": -1,
+              "description": "指定列索引。\n<br>网格内的组件，选择指定行（rowIndex）、\n<br>列（columnIndex）的用于显示，其他\n<br>的移除掉。默认值-1相当于未选定。",
+              "group": "grids>0>grid1"
+            },
+            {
+              "attr": "grids>0>grid1>a:removeOthers",
+              "valueType": "Boolean",
+              "defaultValue": false,
+              "description": "是否移出非指定项。\n<br>与指定行（rowIndex）、指定列（columnIndex）配合使用，\n<br>当指定某个行列的项后，是否移除网格内的所有其他项。默\n<br>认不勾选。",
+              "group": "grids>0>grid1"
+            },
+            {
+              "attr": "grids>0>grid1>a:grid.row.percents",
+              "valueType": "NumberArray",
+              "description": "参见列宽百分比属性grid.column.percents，宽度换成高度，列换成行即可，值意义可完全参考。注意，网格的子组件才能被网格布局。\n\n",
+              "group": "grids>0>grid1"
+            },
+            {
+              "attr": "grids>0>grid1>a:grid.auto.fill",
+              "valueType": "Boolean",
+              "defaultValue": true,
+              "description": "增大行或列时，多出的格子是否自动（按照最后一个子组件）进行填充。",
+              "group": "grids>0>grid1"
+            },
+            {
+              "attr": "grids>0>grid1>a:grid.column.percents",
+              "valueType": "NumberArray",
+              "description": "设置布局的组件中，从左到右每列的宽度。具体数值意义如下：\n<br>● 大于1时，表明绝对像素宽度。比如200，表示当前列宽为200px\n<br>● 等于1时，除去所有设置了绝对宽度以及相应列间距之外，网格组件\n<br>   剩余的总宽度作为当前列宽。\n<br>● 大于0且小于1时，除了绝对像素宽度外和行间距外，剩余总宽度以\n<br>   当前值作为比例对应为当前列宽。比如0.2，剩余宽度总和为100时，\n<br>   当前列宽为20。通常值小数的列，数值相加要为1。\n<br>● 等于0或者undefined未设置值时，默认与其他同样设置了0或未设置\n<br>   参数的列，平分剩余总宽度。比如有4列，当前网格组件总宽度100px，\n<br>   属性设置为[0,40,0,0]时，表明第二列固定宽度为40px，第一、三、四\n<br>   列宽度相同，分别为20（间距、边距相关属性均为0时）。\n<br>● 等于-1时，隐藏当前列（不显示）。注意，如果有多列设置了-1，那么\n<br>   从左到右第一个设置了-1的列才会生效。",
+              "group": "grids>0>grid1"
+            },
+            {
+              "attr": "grids>0>grid1>a:grid.gap",
+              "valueType": "Number",
+              "defaultValue": 0,
+              "description": "网格布局中各行与各列统一的间距，注意，不包括边距（由grid.border属性决定）。更多可参见node.margin.h",
+              "group": "grids>0>grid1"
+            },
+            {
+              "attr": "grids>0>grid1>a:valueGet",
+              "valueType": "Object",
+              "defaultValue": null,
+              "description": "当前值。值为被布局的这行组合框各自按照对应的字段名称和值构成的json对象。对于原数据（datas属性值）中有，但是组合框没有对应的字段，将不会在值中体现。",
+              "group": "grids>0>grid1"
+            },
+            {
+              "attr": "grids>0>grid1>a:itemsGet",
+              "valueType": "Object",
+              "defaultValue": null,
+              "description": "当前值（列表），类似valueGet，不过包含了原数据中的所有字段（即便有些字段没有对应到组合框），以及满足这些字段值的所有数据集。\n相当于以这一行组合框选定的值作为查询条件，得到满足条件的所有数据记录。从这个角度说，valueGet相当于是查询条件本身（字段和值组成的对象），itemsGet是查询结果（原始数据满足条件的列表集合）。",
+              "group": "grids>0>grid1"
+            },
+            {
+              "attr": "grids>0>gv2>a:display",
+              "valueType": "URL",
+              "defaultValue": "displays/develop/uiotos/editor/通用部件/统计面板/统计面板4）.json",
+              "group": "grids>0>gv2"
+            },
+            {
+              "attr": "grids>0>gv2>a:innerLayoutMode",
+              "valueType": "String",
+              "defaultValue": "",
+              "extraInfo": {
+                "enum": {
+                  "values": [
+                    "fitContent",
+                    "fullScreen",
+                    "none"
+                  ]
+                }
+              },
+              "description": "内嵌页面的布局模式。\n<br>页面通常分为适配内容（fitContent）\n<br>和全屏填充（fullScreen）两种模式，\n<br>前者自适应缩放以保证所有内容窗口\n<br>范围内可见，后者则是指定某个图元\n<br>组件作为底板全屏填充，其他组件直\n<br>接或简接对于底板布局。\n<br>模式无（none）表示以上两种模式都\n<br>不是，既不缩放适配也不全屏铺满。\n<br>注意，本属性为读写，可以表示当前\n<br>页面的状态，也可以进行设置。其中\n<br>设置全屏填充时，自动选择最底层图\n<br>元组件作为底板。新建页面默认为基\n<br>于有底板的全屏填充布局，而非缩放。\n",
+              "group": "grids>0>gv2"
+            },
+            {
+              "attr": "grids>0>gv2>a:统计面板4）>0>投影1>a:background",
+              "valueType": "Color",
+              "defaultValue": "rgb(247,247,247)",
+              "group": "grids>0>gv2"
+            },
+            {
+              "attr": "grids>0>gv2>a:统计面板4）>0>grid3>a:datas",
+              "valueType": "ObjectArray",
+              "defaultValue": [],
+              "description": "用于接收存放多条数据记录集，通常为数据库返回结果，数组每个对象的字段名称和数量通常一致，仅数据不同。",
+              "group": "grids>0>gv2"
+            },
+            {
+              "attr": "grids>0>gv2>a:统计面板4）>0>grid3>a:grid.row.count",
+              "valueType": "PositiveNumber",
+              "defaultValue": 2,
+              "description": "网格行数",
+              "group": "grids>0>gv2"
+            },
+            {
+              "attr": "grids>0>gv2>a:统计面板4）>0>grid3>a:grid.column.count",
+              "valueType": "PositiveNumber",
+              "defaultValue": 1,
+              "description": "网格列数",
+              "group": "grids>0>gv2"
+            },
+            {
+              "attr": "grids>0>gv2>a:统计面板4）>0>grid3>a:rowIndex",
+              "valueType": "Number",
+              "defaultValue": -1,
+              "description": "指定行索引。\n<br>网格内的组件，选择指定行（rowIndex）、\n<br>列（columnIndex）的用于显示， 其他\n<br>的移除掉。默认值-1相当于未选定。",
+              "group": "grids>0>gv2"
+            },
+            {
+              "attr": "grids>0>gv2>a:统计面板4）>0>grid3>a:columnIndex",
+              "valueType": "Number",
+              "defaultValue": -1,
+              "description": "指定列索引。\n<br>网格内的组件，选择指定行（rowIndex）、\n<br>列（columnIndex）的用于显示，其他\n<br>的移除掉。默认值-1相当于未选定。",
+              "group": "grids>0>gv2"
+            },
+            {
+              "attr": "grids>0>gv2>a:统计面板4）>0>grid3>a:removeOthers",
+              "valueType": "Boolean",
+              "defaultValue": false,
+              "description": "是否移出非指定项。\n<br>与指定行（rowIndex）、指定列（columnIndex）配合使用，\n<br>当指定某个行列的项后，是否移除网格内的所有其他项。默\n<br>认不勾选。",
+              "group": "grids>0>gv2"
+            },
+            {
+              "attr": "grids>0>gv2>a:统计面板4）>0>grid3>a:grid.row.percents",
+              "valueType": "NumberArray",
+              "description": "参见列宽百分比属性grid.column.percents，宽度换成高度，列换成行即可，值意义可完全参考。注意，网格的子组件才能被网格布局。\n\n",
+              "group": "grids>0>gv2"
+            },
+            {
+              "attr": "grids>0>gv2>a:统计面板4）>0>grid3>a:grid.auto.fill",
+              "valueType": "Boolean",
+              "defaultValue": true,
+              "description": "增大行或列时，多出的格子是否自动（按照最后一个子组件）进行填充。",
+              "group": "grids>0>gv2"
+            },
+            {
+              "attr": "grids>0>gv2>a:统计面板4）>0>grid3>a:grid.column.percents",
+              "valueType": "NumberArray",
+              "description": "设置布局的组件中，从左到右每列的宽度。具体数值意义如下：\n<br>● 大于1时，表明绝对像素宽度。比如200，表示当前列宽为200px\n<br>● 等于1时，除去所有设置了绝对宽度以及相应列间距之外，网格组件\n<br>   剩余的总宽度作为当前列宽。\n<br>● 大于0且小于1时，除了绝对像素宽度外和行间距外，剩余总宽度以\n<br>   当前值作为比例对应为当前列宽。比如0.2，剩余宽度总和为100时，\n<br>   当前列宽为20。通常值小数的列，数值相加要为1。\n<br>● 等于0或者undefined未设置值时，默认与其他同样设置了0或未设置\n<br>   参数的列，平分剩余总宽度。比如有4列，当前网格组件总宽度100px，\n<br>   属性设置为[0,40,0,0]时，表明第二列固定宽度为40px，第一、三、四\n<br>   列宽度相同，分别为20（间距、边距相关属性均为0时）。\n<br>● 等于-1时，隐藏当前列（不显示）。注意，如果有多列设置了-1，那么\n<br>   从左到右第一个设置了-1的列才会生效。",
+              "group": "grids>0>gv2"
+            },
+            {
+              "attr": "grids>0>gv2>a:统计面板4）>0>grid3>a:grid.gap",
+              "valueType": "Number",
+              "defaultValue": 0,
+              "description": "网格布局中各行与各列统一的间距，注意，不包括边距（由grid.border属性决定）。更多可参见node.margin.h",
+              "group": "grids>0>gv2"
+            },
+            {
+              "attr": "grids>0>gv2>a:统计面板4）>0>grid3>a:valueGet",
+              "valueType": "Object",
+              "defaultValue": null,
+              "description": "当前值。值为被布局的这行组合框各自按照对应的字段名称和值构成的json对象。对于原数据（datas属性值）中有，但是组合框没有对应的字段，将不会在值中体现。",
+              "group": "grids>0>gv2"
+            },
+            {
+              "attr": "grids>0>gv2>a:统计面板4）>0>grid3>a:itemsGet",
+              "valueType": "Object",
+              "defaultValue": null,
+              "description": "当前值（列表），类似valueGet，不过包含了原数据中的所有字段（即便有些字段没有对应到组合框），以及满足这些字段值的所有数据集。\n相当于以这一行组合框选定的值作为查询条件，得到满足条件的所有数据记录。从这个角度说，valueGet相当于是查询条件本身（字段和值组成的对象），itemsGet是查询结果（原始数据满足条件的列表集合）。",
+              "group": "grids>0>gv2"
+            },
+            {
+              "attr": "grids>0>gv2>a:统计面板4）>0>grid1>a:datas",
+              "valueType": "ObjectArray",
+              "defaultValue": [],
+              "description": "用于接收存放多条数据记录集，通常为数据库返回结果，数组每个对象的字段名称和数量通常一致，仅数据不同。",
+              "group": "grids>0>gv2"
+            },
+            {
+              "attr": "grids>0>gv2>a:统计面板4）>0>grid1>a:grid.row.count",
+              "valueType": "PositiveNumber",
+              "defaultValue": 1,
+              "description": "网格行数",
+              "group": "grids>0>gv2"
+            },
+            {
+              "attr": "grids>0>gv2>a:统计面板4）>0>grid1>a:grid.column.count",
+              "valueType": "PositiveNumber",
+              "defaultValue": 2,
+              "description": "网格列数",
+              "group": "grids>0>gv2"
+            },
+            {
+              "attr": "grids>0>gv2>a:统计面板4）>0>grid1>a:rowIndex",
+              "valueType": "Number",
+              "defaultValue": -1,
+              "description": "指定行索引。\n<br>网格内的组件，选择指定行（rowIndex）、\n<br>列（columnIndex）的用于显示， 其他\n<br>的移除掉。默认值-1相当于未选定。",
+              "group": "grids>0>gv2"
+            },
+            {
+              "attr": "grids>0>gv2>a:统计面板4）>0>grid1>a:columnIndex",
+              "valueType": "Number",
+              "defaultValue": -1,
+              "description": "指定列索引。\n<br>网格内的组件，选择指定行（rowIndex）、\n<br>列（columnIndex）的用于显示，其他\n<br>的移除掉。默认值-1相当于未选定。",
+              "group": "grids>0>gv2"
+            },
+            {
+              "attr": "grids>0>gv2>a:统计面板4）>0>grid1>a:removeOthers",
+              "valueType": "Boolean",
+              "defaultValue": false,
+              "description": "是否移出非指定项。\n<br>与指定行（rowIndex）、指定列（columnIndex）配合使用，\n<br>当指定某个行列的项后，是否移除网格内的所有其他项。默\n<br>认不勾选。",
+              "group": "grids>0>gv2"
+            },
+            {
+              "attr": "grids>0>gv2>a:统计面板4）>0>grid1>a:grid.row.percents",
+              "valueType": "NumberArray",
+              "description": "参见列宽百分比属性grid.column.percents，宽度换成高度，列换成行即可，值意义可完全参考。注意，网格的子组件才能被网格布局。\n\n",
+              "group": "grids>0>gv2"
+            },
+            {
+              "attr": "grids>0>gv2>a:统计面板4）>0>grid1>a:grid.auto.fill",
+              "valueType": "Boolean",
+              "defaultValue": true,
+              "description": "增大行或列时，多出的格子是否自动（按照最后一个子组件）进行填充。",
+              "group": "grids>0>gv2"
+            },
+            {
+              "attr": "grids>0>gv2>a:统计面板4）>0>grid1>a:grid.column.percents",
+              "valueType": "NumberArray",
+              "defaultValue": [
+                25,
+                0
+              ],
+              "description": "设置布局的组件中，从左到右每列的宽度。具体数值意义如下：\n<br>● 大于1时，表明绝对像素宽度。比如200，表示当前列宽为200px\n<br>● 等于1时，除去所有设置了绝对宽度以及相应列间距之外，网格组件\n<br>   剩余的总宽度作为当前列宽。\n<br>● 大于0且小于1时，除了绝对像素宽度外和行间距外，剩余总宽度以\n<br>   当前值作为比例对应为当前列宽。比如0.2，剩余宽度总和为100时，\n<br>   当前列宽为20。通常值小数的列，数值相加要为1。\n<br>● 等于0或者undefined未设置值时，默认与其他同样设置了0或未设置\n<br>   参数的列，平分剩余总宽度。比如有4列，当前网格组件总宽度100px，\n<br>   属性设置为[0,40,0,0]时，表明第二列固定宽度为40px，第一、三、四\n<br>   列宽度相同，分别为20（间距、边距相关属性均为0时）。\n<br>● 等于-1时，隐藏当前列（不显示）。注意，如果有多列设置了-1，那么\n<br>   从左到右第一个设置了-1的列才会生效。",
+              "group": "grids>0>gv2"
+            },
+            {
+              "attr": "grids>0>gv2>a:统计面板4）>0>grid1>a:grid.gap",
+              "valueType": "Number",
+              "defaultValue": 20,
+              "description": "网格布局中各行与各列统一的间距，注意，不包括边距（由grid.border属性决定）。更多可参见node.margin.h",
+              "group": "grids>0>gv2"
+            },
+            {
+              "attr": "grids>0>gv2>a:统计面板4）>0>grid1>a:valueGet",
+              "valueType": "Object",
+              "defaultValue": null,
+              "description": "当前值。值为被布局的这行组合框各自按照对应的字段名称和值构成的json对象。对于原数据（datas属性值）中有，但是组合框没有对应的字段，将不会在值中体现。",
+              "group": "grids>0>gv2"
+            },
+            {
+              "attr": "grids>0>gv2>a:统计面板4）>0>grid1>a:itemsGet",
+              "valueType": "Object",
+              "defaultValue": null,
+              "description": "当前值（列表），类似valueGet，不过包含了原数据中的所有字段（即便有些字段没有对应到组合框），以及满足这些字段值的所有数据集。\n相当于以这一行组合框选定的值作为查询条件，得到满足条件的所有数据记录。从这个角度说，valueGet相当于是查询条件本身（字段和值组成的对象），itemsGet是查询结果（原始数据满足条件的列表集合）。",
+              "group": "grids>0>gv2"
+            },
+            {
+              "attr": "grids>0>gv2>a:统计面板4）>0>Text1>s:text",
+              "valueType": "String",
+              "defaultValue": "停车场",
+              "extraInfo": null,
+              "description": null,
+              "group": "grids>0>gv2"
+            },
+            {
+              "attr": "grids>0>gv2>a:统计面板4）>0>grid2>a:datas",
+              "valueType": "ObjectArray",
+              "defaultValue": [],
+              "description": "用于接收存放多条数据记录集，通常为数据库返回结果，数组每个对象的字段名称和数量通常一致，仅数据不同。",
+              "group": "grids>0>gv2"
+            },
+            {
+              "attr": "grids>0>gv2>a:统计面板4）>0>grid2>a:grid.row.count",
+              "valueType": "PositiveNumber",
+              "defaultValue": 2,
+              "description": "网格行数",
+              "group": "grids>0>gv2"
+            },
+            {
+              "attr": "grids>0>gv2>a:统计面板4）>0>grid2>a:grid.column.count",
+              "valueType": "PositiveNumber",
+              "defaultValue": 1,
+              "description": "网格列数",
+              "group": "grids>0>gv2"
+            },
+            {
+              "attr": "grids>0>gv2>a:统计面板4）>0>grid2>a:rowIndex",
+              "valueType": "Number",
+              "defaultValue": -1,
+              "description": "指定行索引。\n<br>网格内的组件，选择指定行（rowIndex）、\n<br>列（columnIndex）的用于显示， 其他\n<br>的移除掉。默认值-1相当于未选定。",
+              "group": "grids>0>gv2"
+            },
+            {
+              "attr": "grids>0>gv2>a:统计面板4）>0>grid2>a:columnIndex",
+              "valueType": "Number",
+              "defaultValue": -1,
+              "description": "指定列索引。\n<br>网格内的组件，选择指定行（rowIndex）、\n<br>列（columnIndex）的用于显示，其他\n<br>的移除掉。默认值-1相当于未选定。",
+              "group": "grids>0>gv2"
+            },
+            {
+              "attr": "grids>0>gv2>a:统计面板4）>0>grid2>a:removeOthers",
+              "valueType": "Boolean",
+              "defaultValue": false,
+              "description": "是否移出非指定项。\n<br>与指定行（rowIndex）、指定列（columnIndex）配合使用，\n<br>当指定某个行列的项后，是否移除网格内的所有其他项。默\n<br>认不勾选。",
+              "group": "grids>0>gv2"
+            },
+            {
+              "attr": "grids>0>gv2>a:统计面板4）>0>grid2>a:grid.row.percents",
+              "valueType": "NumberArray",
+              "description": "参见列宽百分比属性grid.column.percents，宽度换成高度，列换成行即可，值意义可完全参考。注意，网格的子组件才能被网格布局。\n\n",
+              "group": "grids>0>gv2"
+            },
+            {
+              "attr": "grids>0>gv2>a:统计面板4）>0>grid2>a:grid.auto.fill",
+              "valueType": "Boolean",
+              "defaultValue": true,
+              "description": "增大行或列时，多出的格子是否自动（按照最后一个子组件）进行填充。",
+              "group": "grids>0>gv2"
+            },
+            {
+              "attr": "grids>0>gv2>a:统计面板4）>0>grid2>a:grid.column.percents",
+              "valueType": "NumberArray",
+              "description": "设置布局的组件中，从左到右每列的宽度。具体数值意义如下：\n<br>● 大于1时，表明绝对像素宽度。比如200，表示当前列宽为200px\n<br>● 等于1时，除去所有设置了绝对宽度以及相应列间距之外，网格组件\n<br>   剩余的总宽度作为当前列宽。\n<br>● 大于0且小于1时，除了绝对像素宽度外和行间距外，剩余总宽度以\n<br>   当前值作为比例对应为当前列宽。比如0.2，剩余宽度总和为100时，\n<br>   当前列宽为20。通常值小数的列，数值相加要为1。\n<br>● 等于0或者undefined未设置值时，默认与其他同样设置了0或未设置\n<br>   参数的列，平分剩余总宽度。比如有4列，当前网格组件总宽度100px，\n<br>   属性设置为[0,40,0,0]时，表明第二列固定宽度为40px，第一、三、四\n<br>   列宽度相同，分别为20（间距、边距相关属性均为0时）。\n<br>● 等于-1时，隐藏当前列（不显示）。注意，如果有多列设置了-1，那么\n<br>   从左到右第一个设置了-1的列才会生效。",
+              "group": "grids>0>gv2"
+            },
+            {
+              "attr": "grids>0>gv2>a:统计面板4）>0>grid2>a:grid.gap",
+              "valueType": "Number",
+              "defaultValue": 0,
+              "description": "网格布局中各行与各列统一的间距，注意，不包括边距（由grid.border属性决定）。更多可参见node.margin.h",
+              "group": "grids>0>gv2"
+            },
+            {
+              "attr": "grids>0>gv2>a:统计面板4）>0>grid2>a:valueGet",
+              "valueType": "Object",
+              "defaultValue": null,
+              "description": "当前值。值为被布局的这行组合框各自按照对应的字段名称和值构成的json对象。对于原数据（datas属性值）中有，但是组合框没有对应的字段，将不会在值中体现。",
+              "group": "grids>0>gv2"
+            },
+            {
+              "attr": "grids>0>gv2>a:统计面板4）>0>grid2>a:itemsGet",
+              "valueType": "Object",
+              "defaultValue": null,
+              "description": "当前值（列表），类似valueGet，不过包含了原数据中的所有字段（即便有些字段没有对应到组合框），以及满足这些字段值的所有数据集。\n相当于以这一行组合框选定的值作为查询条件，得到满足条件的所有数据记录。从这个角度说，valueGet相当于是查询条件本身（字段和值组成的对象），itemsGet是查询结果（原始数据满足条件的列表集合）。",
+              "group": "grids>0>gv2"
+            },
+            {
+              "attr": "grids>0>gv2>a:统计面板4）>0>Text2>s:text",
+              "valueType": "String",
+              "defaultValue": "总车位数",
+              "extraInfo": null,
+              "description": null,
+              "group": "grids>0>gv2"
+            },
+            {
+              "attr": "grids>0>gv2>a:统计面板4）>0>Text3>s:text",
+              "valueType": "String",
+              "defaultValue": "---",
+              "extraInfo": null,
+              "description": null,
+              "group": "grids>0>gv2"
+            },
+            {
+              "attr": "grids>0>gv1>a:display",
+              "valueType": "URL",
+              "defaultValue": "displays/develop/uiotos/editor/通用部件/统计面板/统计面板4）.json",
+              "group": "grids>0>gv1"
+            },
+            {
+              "attr": "grids>0>gv1>a:innerLayoutMode",
+              "valueType": "String",
+              "defaultValue": "",
+              "extraInfo": {
+                "enum": {
+                  "values": [
+                    "fitContent",
+                    "fullScreen",
+                    "none"
+                  ]
+                }
+              },
+              "description": "内嵌页面的布局模式。\n<br>页面通常分为适配内容（fitContent）\n<br>和全屏填充（fullScreen）两种模式，\n<br>前者自适应缩放以保证所有内容窗口\n<br>范围内可见，后者则是指定某个图元\n<br>组件作为底板全屏填充，其他组件直\n<br>接或简接对于底板布局。\n<br>模式无（none）表示以上两种模式都\n<br>不是，既不缩放适配也不全屏铺满。\n<br>注意，本属性为读写，可以表示当前\n<br>页面的状态，也可以进行设置。其中\n<br>设置全屏填充时，自动选择最底层图\n<br>元组件作为底板。新建页面默认为基\n<br>于有底板的全屏填充布局，而非缩放。\n",
+              "group": "grids>0>gv1"
+            },
+            {
+              "attr": "grids>0>gv1>a:统计面板4）>0>投影1>a:background",
+              "valueType": "Color",
+              "defaultValue": "rgb(247,247,247)",
+              "group": "grids>0>gv1"
+            },
+            {
+              "attr": "grids>0>gv1>a:统计面板4）>0>grid3>a:datas",
+              "valueType": "ObjectArray",
+              "defaultValue": [],
+              "description": "用于接收存放多条数据记录集，通常为数据库返回结果，数组每个对象的字段名称和数量通常一致，仅数据不同。",
+              "group": "grids>0>gv1"
+            },
+            {
+              "attr": "grids>0>gv1>a:统计面板4）>0>grid3>a:grid.row.count",
+              "valueType": "PositiveNumber",
+              "defaultValue": 2,
+              "description": "网格行数",
+              "group": "grids>0>gv1"
+            },
+            {
+              "attr": "grids>0>gv1>a:统计面板4）>0>grid3>a:grid.column.count",
+              "valueType": "PositiveNumber",
+              "defaultValue": 1,
+              "description": "网格列数",
+              "group": "grids>0>gv1"
+            },
+            {
+              "attr": "grids>0>gv1>a:统计面板4）>0>grid3>a:rowIndex",
+              "valueType": "Number",
+              "defaultValue": -1,
+              "description": "指定行索引。\n<br>网格内的组件，选择指定行（rowIndex）、\n<br>列（columnIndex）的用于显示， 其他\n<br>的移除掉。默认值-1相当于未选定。",
+              "group": "grids>0>gv1"
+            },
+            {
+              "attr": "grids>0>gv1>a:统计面板4）>0>grid3>a:columnIndex",
+              "valueType": "Number",
+              "defaultValue": -1,
+              "description": "指定列索引。\n<br>网格内的组件，选择指定行（rowIndex）、\n<br>列（columnIndex）的用于显示，其他\n<br>的移除掉。默认值-1相当于未选定。",
+              "group": "grids>0>gv1"
+            },
+            {
+              "attr": "grids>0>gv1>a:统计面板4）>0>grid3>a:removeOthers",
+              "valueType": "Boolean",
+              "defaultValue": false,
+              "description": "是否移出非指定项。\n<br>与指定行（rowIndex）、指定列（columnIndex）配合使用，\n<br>当指定某个行列的项后，是否移除网格内的所有其他项。默\n<br>认不勾选。",
+              "group": "grids>0>gv1"
+            },
+            {
+              "attr": "grids>0>gv1>a:统计面板4）>0>grid3>a:grid.row.percents",
+              "valueType": "NumberArray",
+              "description": "参见列宽百分比属性grid.column.percents，宽度换成高度，列换成行即可，值意义可完全参考。注意，网格的子组件才能被网格布局。\n\n",
+              "group": "grids>0>gv1"
+            },
+            {
+              "attr": "grids>0>gv1>a:统计面板4）>0>grid3>a:grid.auto.fill",
+              "valueType": "Boolean",
+              "defaultValue": true,
+              "description": "增大行或列时，多出的格子是否自动（按照最后一个子组件）进行填充。",
+              "group": "grids>0>gv1"
+            },
+            {
+              "attr": "grids>0>gv1>a:统计面板4）>0>grid3>a:grid.column.percents",
+              "valueType": "NumberArray",
+              "description": "设置布局的组件中，从左到右每列的宽度。具体数值意义如下：\n<br>● 大于1时，表明绝对像素宽度。比如200，表示当前列宽为200px\n<br>● 等于1时，除去所有设置了绝对宽度以及相应列间距之外，网格组件\n<br>   剩余的总宽度作为当前列宽。\n<br>● 大于0且小于1时，除了绝对像素宽度外和行间距外，剩余总宽度以\n<br>   当前值作为比例对应为当前列宽。比如0.2，剩余宽度总和为100时，\n<br>   当前列宽为20。通常值小数的列，数值相加要为1。\n<br>● 等于0或者undefined未设置值时，默认与其他同样设置了0或未设置\n<br>   参数的列，平分剩余总宽度。比如有4列，当前网格组件总宽度100px，\n<br>   属性设置为[0,40,0,0]时，表明第二列固定宽度为40px，第一、三、四\n<br>   列宽度相同，分别为20（间距、边距相关属性均为0时）。\n<br>● 等于-1时，隐藏当前列（不显示）。注意，如果有多列设置了-1，那么\n<br>   从左到右第一个设置了-1的列才会生效。",
+              "group": "grids>0>gv1"
+            },
+            {
+              "attr": "grids>0>gv1>a:统计面板4）>0>grid3>a:grid.gap",
+              "valueType": "Number",
+              "defaultValue": 0,
+              "description": "网格布局中各行与各列统一的间距，注意，不包括边距（由grid.border属性决定）。更多可参见node.margin.h",
+              "group": "grids>0>gv1"
+            },
+            {
+              "attr": "grids>0>gv1>a:统计面板4）>0>grid3>a:valueGet",
+              "valueType": "Object",
+              "defaultValue": null,
+              "description": "当前值。值为被布局的这行组合框各自按照对应的字段名称和值构成的json对象。对于原数据（datas属性值）中有，但是组合框没有对应的字段，将不会在值中体现。",
+              "group": "grids>0>gv1"
+            },
+            {
+              "attr": "grids>0>gv1>a:统计面板4）>0>grid3>a:itemsGet",
+              "valueType": "Object",
+              "defaultValue": null,
+              "description": "当前值（列表），类似valueGet，不过包含了原数据中的所有字段（即便有些字段没有对应到组合框），以及满足这些字段值的所有数据集。\n相当于以这一行组合框选定的值作为查询条件，得到满足条件的所有数据记录。从这个角度说，valueGet相当于是查询条件本身（字段和值组成的对象），itemsGet是查询结果（原始数据满足条件的列表集合）。",
+              "group": "grids>0>gv1"
+            },
+            {
+              "attr": "grids>0>gv1>a:统计面板4）>0>grid1>a:datas",
+              "valueType": "ObjectArray",
+              "defaultValue": [],
+              "description": "用于接收存放多条数据记录集，通常为数据库返回结果，数组每个对象的字段名称和数量通常一致，仅数据不同。",
+              "group": "grids>0>gv1"
+            },
+            {
+              "attr": "grids>0>gv1>a:统计面板4）>0>grid1>a:grid.row.count",
+              "valueType": "PositiveNumber",
+              "defaultValue": 1,
+              "description": "网格行数",
+              "group": "grids>0>gv1"
+            },
+            {
+              "attr": "grids>0>gv1>a:统计面板4）>0>grid1>a:grid.column.count",
+              "valueType": "PositiveNumber",
+              "defaultValue": 2,
+              "description": "网格列数",
+              "group": "grids>0>gv1"
+            },
+            {
+              "attr": "grids>0>gv1>a:统计面板4）>0>grid1>a:rowIndex",
+              "valueType": "Number",
+              "defaultValue": -1,
+              "description": "指定行索引。\n<br>网格内的组件，选择指定行（rowIndex）、\n<br>列（columnIndex）的用于显示， 其他\n<br>的移除掉。默认值-1相当于未选定。",
+              "group": "grids>0>gv1"
+            },
+            {
+              "attr": "grids>0>gv1>a:统计面板4）>0>grid1>a:columnIndex",
+              "valueType": "Number",
+              "defaultValue": -1,
+              "description": "指定列索引。\n<br>网格内的组件，选择指定行（rowIndex）、\n<br>列（columnIndex）的用于显示，其他\n<br>的移除掉。默认值-1相当于未选定。",
+              "group": "grids>0>gv1"
+            },
+            {
+              "attr": "grids>0>gv1>a:统计面板4）>0>grid1>a:removeOthers",
+              "valueType": "Boolean",
+              "defaultValue": false,
+              "description": "是否移出非指定项。\n<br>与指定行（rowIndex）、指定列（columnIndex）配合使用，\n<br>当指定某个行列的项后，是否移除网格内的所有其他项。默\n<br>认不勾选。",
+              "group": "grids>0>gv1"
+            },
+            {
+              "attr": "grids>0>gv1>a:统计面板4）>0>grid1>a:grid.row.percents",
+              "valueType": "NumberArray",
+              "description": "参见列宽百分比属性grid.column.percents，宽度换成高度，列换成行即可，值意义可完全参考。注意，网格的子组件才能被网格布局。\n\n",
+              "group": "grids>0>gv1"
+            },
+            {
+              "attr": "grids>0>gv1>a:统计面板4）>0>grid1>a:grid.auto.fill",
+              "valueType": "Boolean",
+              "defaultValue": true,
+              "description": "增大行或列时，多出的格子是否自动（按照最后一个子组件）进行填充。",
+              "group": "grids>0>gv1"
+            },
+            {
+              "attr": "grids>0>gv1>a:统计面板4）>0>grid1>a:grid.column.percents",
+              "valueType": "NumberArray",
+              "defaultValue": [
+                25,
+                0
+              ],
+              "description": "设置布局的组件中，从左到右每列的宽度。具体数值意义如下：\n<br>● 大于1时，表明绝对像素宽度。比如200，表示当前列宽为200px\n<br>● 等于1时，除去所有设置了绝对宽度以及相应列间距之外，网格组件\n<br>   剩余的总宽度作为当前列宽。\n<br>● 大于0且小于1时，除了绝对像素宽度外和行间距外，剩余总宽度以\n<br>   当前值作为比例对应为当前列宽。比如0.2，剩余宽度总和为100时，\n<br>   当前列宽为20。通常值小数的列，数值相加要为1。\n<br>● 等于0或者undefined未设置值时，默认与其他同样设置了0或未设置\n<br>   参数的列，平分剩余总宽度。比如有4列，当前网格组件总宽度100px，\n<br>   属性设置为[0,40,0,0]时，表明第二列固定宽度为40px，第一、三、四\n<br>   列宽度相同，分别为20（间距、边距相关属性均为0时）。\n<br>● 等于-1时，隐藏当前列（不显示）。注意，如果有多列设置了-1，那么\n<br>   从左到右第一个设置了-1的列才会生效。",
+              "group": "grids>0>gv1"
+            },
+            {
+              "attr": "grids>0>gv1>a:统计面板4）>0>grid1>a:grid.gap",
+              "valueType": "Number",
+              "defaultValue": 20,
+              "description": "网格布局中各行与各列统一的间距，注意，不包括边距（由grid.border属性决定）。更多可参见node.margin.h",
+              "group": "grids>0>gv1"
+            },
+            {
+              "attr": "grids>0>gv1>a:统计面板4）>0>grid1>a:valueGet",
+              "valueType": "Object",
+              "defaultValue": null,
+              "description": "当前值。值为被布局的这行组合框各自按照对应的字段名称和值构成的json对象。对于原数据（datas属性值）中有，但是组合框没有对应的字段，将不会在值中体现。",
+              "group": "grids>0>gv1"
+            },
+            {
+              "attr": "grids>0>gv1>a:统计面板4）>0>grid1>a:itemsGet",
+              "valueType": "Object",
+              "defaultValue": null,
+              "description": "当前值（列表），类似valueGet，不过包含了原数据中的所有字段（即便有些字段没有对应到组合框），以及满足这些字段值的所有数据集。\n相当于以这一行组合框选定的值作为查询条件，得到满足条件的所有数据记录。从这个角度说，valueGet相当于是查询条件本身（字段和值组成的对象），itemsGet是查询结果（原始数据满足条件的列表集合）。",
+              "group": "grids>0>gv1"
+            },
+            {
+              "attr": "grids>0>gv1>a:统计面板4）>0>Text1>s:text",
+              "valueType": "String",
+              "defaultValue": "停车场",
+              "extraInfo": null,
+              "description": null,
+              "group": "grids>0>gv1"
+            },
+            {
+              "attr": "grids>0>gv1>a:统计面板4）>0>grid2>a:datas",
+              "valueType": "ObjectArray",
+              "defaultValue": [],
+              "description": "用于接收存放多条数据记录集，通常为数据库返回结果，数组每个对象的字段名称和数量通常一致，仅数据不同。",
+              "group": "grids>0>gv1"
+            },
+            {
+              "attr": "grids>0>gv1>a:统计面板4）>0>grid2>a:grid.row.count",
+              "valueType": "PositiveNumber",
+              "defaultValue": 2,
+              "description": "网格行数",
+              "group": "grids>0>gv1"
+            },
+            {
+              "attr": "grids>0>gv1>a:统计面板4）>0>grid2>a:grid.column.count",
+              "valueType": "PositiveNumber",
+              "defaultValue": 1,
+              "description": "网格列数",
+              "group": "grids>0>gv1"
+            },
+            {
+              "attr": "grids>0>gv1>a:统计面板4）>0>grid2>a:rowIndex",
+              "valueType": "Number",
+              "defaultValue": -1,
+              "description": "指定行索引。\n<br>网格内的组件，选择指定行（rowIndex）、\n<br>列（columnIndex）的用于显示， 其他\n<br>的移除掉。默认值-1相当于未选定。",
+              "group": "grids>0>gv1"
+            },
+            {
+              "attr": "grids>0>gv1>a:统计面板4）>0>grid2>a:columnIndex",
+              "valueType": "Number",
+              "defaultValue": -1,
+              "description": "指定列索引。\n<br>网格内的组件，选择指定行（rowIndex）、\n<br>列（columnIndex）的用于显示，其他\n<br>的移除掉。默认值-1相当于未选定。",
+              "group": "grids>0>gv1"
+            },
+            {
+              "attr": "grids>0>gv1>a:统计面板4）>0>grid2>a:removeOthers",
+              "valueType": "Boolean",
+              "defaultValue": false,
+              "description": "是否移出非指定项。\n<br>与指定行（rowIndex）、指定列（columnIndex）配合使用，\n<br>当指定某个行列的项后，是否移除网格内的所有其他项。默\n<br>认不勾选。",
+              "group": "grids>0>gv1"
+            },
+            {
+              "attr": "grids>0>gv1>a:统计面板4）>0>grid2>a:grid.row.percents",
+              "valueType": "NumberArray",
+              "description": "参见列宽百分比属性grid.column.percents，宽度换成高度，列换成行即可，值意义可完全参考。注意，网格的子组件才能被网格布局。\n\n",
+              "group": "grids>0>gv1"
+            },
+            {
+              "attr": "grids>0>gv1>a:统计面板4）>0>grid2>a:grid.auto.fill",
+              "valueType": "Boolean",
+              "defaultValue": true,
+              "description": "增大行或列时，多出的格子是否自动（按照最后一个子组件）进行填充。",
+              "group": "grids>0>gv1"
+            },
+            {
+              "attr": "grids>0>gv1>a:统计面板4）>0>grid2>a:grid.column.percents",
+              "valueType": "NumberArray",
+              "description": "设置布局的组件中，从左到右每列的宽度。具体数值意义如下：\n<br>● 大于1时，表明绝对像素宽度。比如200，表示当前列宽为200px\n<br>● 等于1时，除去所有设置了绝对宽度以及相应列间距之外，网格组件\n<br>   剩余的总宽度作为当前列宽。\n<br>● 大于0且小于1时，除了绝对像素宽度外和行间距外，剩余总宽度以\n<br>   当前值作为比例对应为当前列宽。比如0.2，剩余宽度总和为100时，\n<br>   当前列宽为20。通常值小数的列，数值相加要为1。\n<br>● 等于0或者undefined未设置值时，默认与其他同样设置了0或未设置\n<br>   参数的列，平分剩余总宽度。比如有4列，当前网格组件总宽度100px，\n<br>   属性设置为[0,40,0,0]时，表明第二列固定宽度为40px，第一、三、四\n<br>   列宽度相同，分别为20（间距、边距相关属性均为0时）。\n<br>● 等于-1时，隐藏当前列（不显示）。注意，如果有多列设置了-1，那么\n<br>   从左到右第一个设置了-1的列才会生效。",
+              "group": "grids>0>gv1"
+            },
+            {
+              "attr": "grids>0>gv1>a:统计面板4）>0>grid2>a:grid.gap",
+              "valueType": "Number",
+              "defaultValue": 0,
+              "description": "网格布局中各行与各列统一的间距，注意，不包括边距（由grid.border属性决定）。更多可参见node.margin.h",
+              "group": "grids>0>gv1"
+            },
+            {
+              "attr": "grids>0>gv1>a:统计面板4）>0>grid2>a:valueGet",
+              "valueType": "Object",
+              "defaultValue": null,
+              "description": "当前值。值为被布局的这行组合框各自按照对应的字段名称和值构成的json对象。对于原数据（datas属性值）中有，但是组合框没有对应的字段，将不会在值中体现。",
+              "group": "grids>0>gv1"
+            },
+            {
+              "attr": "grids>0>gv1>a:统计面板4）>0>grid2>a:itemsGet",
+              "valueType": "Object",
+              "defaultValue": null,
+              "description": "当前值（列表），类似valueGet，不过包含了原数据中的所有字段（即便有些字段没有对应到组合框），以及满足这些字段值的所有数据集。\n相当于以这一行组合框选定的值作为查询条件，得到满足条件的所有数据记录。从这个角度说，valueGet相当于是查询条件本身（字段和值组成的对象），itemsGet是查询结果（原始数据满足条件的列表集合）。",
+              "group": "grids>0>gv1"
+            },
+            {
+              "attr": "grids>0>gv1>a:统计面板4）>0>Text2>s:text",
+              "valueType": "String",
+              "defaultValue": "总车位数",
+              "extraInfo": null,
+              "description": null,
+              "group": "grids>0>gv1"
+            },
+            {
+              "attr": "grids>0>gv1>a:统计面板4）>0>Text3>s:text",
+              "valueType": "String",
+              "defaultValue": "---",
+              "extraInfo": null,
+              "description": null,
+              "group": "grids>0>gv1"
+            },
+            {
+              "attr": "grids>0>gv3>a:display",
+              "valueType": "URL",
+              "defaultValue": "displays/develop/uiotos/editor/通用部件/统计面板/统计面板4）.json",
+              "group": "grids>0>gv3"
+            },
+            {
+              "attr": "grids>0>gv3>a:innerLayoutMode",
+              "valueType": "String",
+              "defaultValue": "",
+              "extraInfo": {
+                "enum": {
+                  "values": [
+                    "fitContent",
+                    "fullScreen",
+                    "none"
+                  ]
+                }
+              },
+              "description": "内嵌页面的布局模式。\n<br>页面通常分为适配内容（fitContent）\n<br>和全屏填充（fullScreen）两种模式，\n<br>前者自适应缩放以保证所有内容窗口\n<br>范围内可见，后者则是指定某个图元\n<br>组件作为底板全屏填充，其他组件直\n<br>接或简接对于底板布局。\n<br>模式无（none）表示以上两种模式都\n<br>不是，既不缩放适配也不全屏铺满。\n<br>注意，本属性为读写，可以表示当前\n<br>页面的状态，也可以进行设置。其中\n<br>设置全屏填充时，自动选择最底层图\n<br>元组件作为底板。新建页面默认为基\n<br>于有底板的全屏填充布局，而非缩放。\n",
+              "group": "grids>0>gv3"
+            },
+            {
+              "attr": "grids>0>gv3>a:统计面板4）>0>投影1>a:background",
+              "valueType": "Color",
+              "defaultValue": "rgb(247,247,247)",
+              "group": "grids>0>gv3"
+            },
+            {
+              "attr": "grids>0>gv3>a:统计面板4）>0>grid3>a:datas",
+              "valueType": "ObjectArray",
+              "defaultValue": [],
+              "description": "用于接收存放多条数据记录集，通常为数据库返回结果，数组每个对象的字段名称和数量通常一致，仅数据不同。",
+              "group": "grids>0>gv3"
+            },
+            {
+              "attr": "grids>0>gv3>a:统计面板4）>0>grid3>a:grid.row.count",
+              "valueType": "PositiveNumber",
+              "defaultValue": 2,
+              "description": "网格行数",
+              "group": "grids>0>gv3"
+            },
+            {
+              "attr": "grids>0>gv3>a:统计面板4）>0>grid3>a:grid.column.count",
+              "valueType": "PositiveNumber",
+              "defaultValue": 1,
+              "description": "网格列数",
+              "group": "grids>0>gv3"
+            },
+            {
+              "attr": "grids>0>gv3>a:统计面板4）>0>grid3>a:rowIndex",
+              "valueType": "Number",
+              "defaultValue": -1,
+              "description": "指定行索引。\n<br>网格内的组件，选择指定行（rowIndex）、\n<br>列（columnIndex）的用于显示， 其他\n<br>的移除掉。默认值-1相当于未选定。",
+              "group": "grids>0>gv3"
+            },
+            {
+              "attr": "grids>0>gv3>a:统计面板4）>0>grid3>a:columnIndex",
+              "valueType": "Number",
+              "defaultValue": -1,
+              "description": "指定列索引。\n<br>网格内的组件，选择指定行（rowIndex）、\n<br>列（columnIndex）的用于显示，其他\n<br>的移除掉。默认值-1相当于未选定。",
+              "group": "grids>0>gv3"
+            },
+            {
+              "attr": "grids>0>gv3>a:统计面板4）>0>grid3>a:removeOthers",
+              "valueType": "Boolean",
+              "defaultValue": false,
+              "description": "是否移出非指定项。\n<br>与指定行（rowIndex）、指定列（columnIndex）配合使用，\n<br>当指定某个行列的项后，是否移除网格内的所有其他项。默\n<br>认不勾选。",
+              "group": "grids>0>gv3"
+            },
+            {
+              "attr": "grids>0>gv3>a:统计面板4）>0>grid3>a:grid.row.percents",
+              "valueType": "NumberArray",
+              "description": "参见列宽百分比属性grid.column.percents，宽度换成高度，列换成行即可，值意义可完全参考。注意，网格的子组件才能被网格布局。\n\n",
+              "group": "grids>0>gv3"
+            },
+            {
+              "attr": "grids>0>gv3>a:统计面板4）>0>grid3>a:grid.auto.fill",
+              "valueType": "Boolean",
+              "defaultValue": true,
+              "description": "增大行或列时，多出的格子是否自动（按照最后一个子组件）进行填充。",
+              "group": "grids>0>gv3"
+            },
+            {
+              "attr": "grids>0>gv3>a:统计面板4）>0>grid3>a:grid.column.percents",
+              "valueType": "NumberArray",
+              "description": "设置布局的组件中，从左到右每列的宽度。具体数值意义如下：\n<br>● 大于1时，表明绝对像素宽度。比如200，表示当前列宽为200px\n<br>● 等于1时，除去所有设置了绝对宽度以及相应列间距之外，网格组件\n<br>   剩余的总宽度作为当前列宽。\n<br>● 大于0且小于1时，除了绝对像素宽度外和行间距外，剩余总宽度以\n<br>   当前值作为比例对应为当前列宽。比如0.2，剩余宽度总和为100时，\n<br>   当前列宽为20。通常值小数的列，数值相加要为1。\n<br>● 等于0或者undefined未设置值时，默认与其他同样设置了0或未设置\n<br>   参数的列，平分剩余总宽度。比如有4列，当前网格组件总宽度100px，\n<br>   属性设置为[0,40,0,0]时，表明第二列固定宽度为40px，第一、三、四\n<br>   列宽度相同，分别为20（间距、边距相关属性均为0时）。\n<br>● 等于-1时，隐藏当前列（不显示）。注意，如果有多列设置了-1，那么\n<br>   从左到右第一个设置了-1的列才会生效。",
+              "group": "grids>0>gv3"
+            },
+            {
+              "attr": "grids>0>gv3>a:统计面板4）>0>grid3>a:grid.gap",
+              "valueType": "Number",
+              "defaultValue": 0,
+              "description": "网格布局中各行与各列统一的间距，注意，不包括边距（由grid.border属性决定）。更多可参见node.margin.h",
+              "group": "grids>0>gv3"
+            },
+            {
+              "attr": "grids>0>gv3>a:统计面板4）>0>grid3>a:valueGet",
+              "valueType": "Object",
+              "defaultValue": null,
+              "description": "当前值。值为被布局的这行组合框各自按照对应的字段名称和值构成的json对象。对于原数据（datas属性值）中有，但是组合框没有对应的字段，将不会在值中体现。",
+              "group": "grids>0>gv3"
+            },
+            {
+              "attr": "grids>0>gv3>a:统计面板4）>0>grid3>a:itemsGet",
+              "valueType": "Object",
+              "defaultValue": null,
+              "description": "当前值（列表），类似valueGet，不过包含了原数据中的所有字段（即便有些字段没有对应到组合框），以及满足这些字段值的所有数据集。\n相当于以这一行组合框选定的值作为查询条件，得到满足条件的所有数据记录。从这个角度说，valueGet相当于是查询条件本身（字段和值组成的对象），itemsGet是查询结果（原始数据满足条件的列表集合）。",
+              "group": "grids>0>gv3"
+            },
+            {
+              "attr": "grids>0>gv3>a:统计面板4）>0>grid1>a:datas",
+              "valueType": "ObjectArray",
+              "defaultValue": [],
+              "description": "用于接收存放多条数据记录集，通常为数据库返回结果，数组每个对象的字段名称和数量通常一致，仅数据不同。",
+              "group": "grids>0>gv3"
+            },
+            {
+              "attr": "grids>0>gv3>a:统计面板4）>0>grid1>a:grid.row.count",
+              "valueType": "PositiveNumber",
+              "defaultValue": 1,
+              "description": "网格行数",
+              "group": "grids>0>gv3"
+            },
+            {
+              "attr": "grids>0>gv3>a:统计面板4）>0>grid1>a:grid.column.count",
+              "valueType": "PositiveNumber",
+              "defaultValue": 2,
+              "description": "网格列数",
+              "group": "grids>0>gv3"
+            },
+            {
+              "attr": "grids>0>gv3>a:统计面板4）>0>grid1>a:rowIndex",
+              "valueType": "Number",
+              "defaultValue": -1,
+              "description": "指定行索引。\n<br>网格内的组件，选择指定行（rowIndex）、\n<br>列（columnIndex）的用于显示， 其他\n<br>的移除掉。默认值-1相当于未选定。",
+              "group": "grids>0>gv3"
+            },
+            {
+              "attr": "grids>0>gv3>a:统计面板4）>0>grid1>a:columnIndex",
+              "valueType": "Number",
+              "defaultValue": -1,
+              "description": "指定列索引。\n<br>网格内的组件，选择指定行（rowIndex）、\n<br>列（columnIndex）的用于显示，其他\n<br>的移除掉。默认值-1相当于未选定。",
+              "group": "grids>0>gv3"
+            },
+            {
+              "attr": "grids>0>gv3>a:统计面板4）>0>grid1>a:removeOthers",
+              "valueType": "Boolean",
+              "defaultValue": false,
+              "description": "是否移出非指定项。\n<br>与指定行（rowIndex）、指定列（columnIndex）配合使用，\n<br>当指定某个行列的项后，是否移除网格内的所有其他项。默\n<br>认不勾选。",
+              "group": "grids>0>gv3"
+            },
+            {
+              "attr": "grids>0>gv3>a:统计面板4）>0>grid1>a:grid.row.percents",
+              "valueType": "NumberArray",
+              "description": "参见列宽百分比属性grid.column.percents，宽度换成高度，列换成行即可，值意义可完全参考。注意，网格的子组件才能被网格布局。\n\n",
+              "group": "grids>0>gv3"
+            },
+            {
+              "attr": "grids>0>gv3>a:统计面板4）>0>grid1>a:grid.auto.fill",
+              "valueType": "Boolean",
+              "defaultValue": true,
+              "description": "增大行或列时，多出的格子是否自动（按照最后一个子组件）进行填充。",
+              "group": "grids>0>gv3"
+            },
+            {
+              "attr": "grids>0>gv3>a:统计面板4）>0>grid1>a:grid.column.percents",
+              "valueType": "NumberArray",
+              "defaultValue": [
+                25,
+                0
+              ],
+              "description": "设置布局的组件中，从左到右每列的宽度。具体数值意义如下：\n<br>● 大于1时，表明绝对像素宽度。比如200，表示当前列宽为200px\n<br>● 等于1时，除去所有设置了绝对宽度以及相应列间距之外，网格组件\n<br>   剩余的总宽度作为当前列宽。\n<br>● 大于0且小于1时，除了绝对像素宽度外和行间距外，剩余总宽度以\n<br>   当前值作为比例对应为当前列宽。比如0.2，剩余宽度总和为100时，\n<br>   当前列宽为20。通常值小数的列，数值相加要为1。\n<br>● 等于0或者undefined未设置值时，默认与其他同样设置了0或未设置\n<br>   参数的列，平分剩余总宽度。比如有4列，当前网格组件总宽度100px，\n<br>   属性设置为[0,40,0,0]时，表明第二列固定宽度为40px，第一、三、四\n<br>   列宽度相同，分别为20（间距、边距相关属性均为0时）。\n<br>● 等于-1时，隐藏当前列（不显示）。注意，如果有多列设置了-1，那么\n<br>   从左到右第一个设置了-1的列才会生效。",
+              "group": "grids>0>gv3"
+            },
+            {
+              "attr": "grids>0>gv3>a:统计面板4）>0>grid1>a:grid.gap",
+              "valueType": "Number",
+              "defaultValue": 20,
+              "description": "网格布局中各行与各列统一的间距，注意，不包括边距（由grid.border属性决定）。更多可参见node.margin.h",
+              "group": "grids>0>gv3"
+            },
+            {
+              "attr": "grids>0>gv3>a:统计面板4）>0>grid1>a:valueGet",
+              "valueType": "Object",
+              "defaultValue": null,
+              "description": "当前值。值为被布局的这行组合框各自按照对应的字段名称和值构成的json对象。对于原数据（datas属性值）中有，但是组合框没有对应的字段，将不会在值中体现。",
+              "group": "grids>0>gv3"
+            },
+            {
+              "attr": "grids>0>gv3>a:统计面板4）>0>grid1>a:itemsGet",
+              "valueType": "Object",
+              "defaultValue": null,
+              "description": "当前值（列表），类似valueGet，不过包含了原数据中的所有字段（即便有些字段没有对应到组合框），以及满足这些字段值的所有数据集。\n相当于以这一行组合框选定的值作为查询条件，得到满足条件的所有数据记录。从这个角度说，valueGet相当于是查询条件本身（字段和值组成的对象），itemsGet是查询结果（原始数据满足条件的列表集合）。",
+              "group": "grids>0>gv3"
+            },
+            {
+              "attr": "grids>0>gv3>a:统计面板4）>0>Text1>s:text",
+              "valueType": "String",
+              "defaultValue": "停车场",
+              "extraInfo": null,
+              "description": null,
+              "group": "grids>0>gv3"
+            },
+            {
+              "attr": "grids>0>gv3>a:统计面板4）>0>grid2>a:datas",
+              "valueType": "ObjectArray",
+              "defaultValue": [],
+              "description": "用于接收存放多条数据记录集，通常为数据库返回结果，数组每个对象的字段名称和数量通常一致，仅数据不同。",
+              "group": "grids>0>gv3"
+            },
+            {
+              "attr": "grids>0>gv3>a:统计面板4）>0>grid2>a:grid.row.count",
+              "valueType": "PositiveNumber",
+              "defaultValue": 2,
+              "description": "网格行数",
+              "group": "grids>0>gv3"
+            },
+            {
+              "attr": "grids>0>gv3>a:统计面板4）>0>grid2>a:grid.column.count",
+              "valueType": "PositiveNumber",
+              "defaultValue": 1,
+              "description": "网格列数",
+              "group": "grids>0>gv3"
+            },
+            {
+              "attr": "grids>0>gv3>a:统计面板4）>0>grid2>a:rowIndex",
+              "valueType": "Number",
+              "defaultValue": -1,
+              "description": "指定行索引。\n<br>网格内的组件，选择指定行（rowIndex）、\n<br>列（columnIndex）的用于显示， 其他\n<br>的移除掉。默认值-1相当于未选定。",
+              "group": "grids>0>gv3"
+            },
+            {
+              "attr": "grids>0>gv3>a:统计面板4）>0>grid2>a:columnIndex",
+              "valueType": "Number",
+              "defaultValue": -1,
+              "description": "指定列索引。\n<br>网格内的组件，选择指定行（rowIndex）、\n<br>列（columnIndex）的用于显示，其他\n<br>的移除掉。默认值-1相当于未选定。",
+              "group": "grids>0>gv3"
+            },
+            {
+              "attr": "grids>0>gv3>a:统计面板4）>0>grid2>a:removeOthers",
+              "valueType": "Boolean",
+              "defaultValue": false,
+              "description": "是否移出非指定项。\n<br>与指定行（rowIndex）、指定列（columnIndex）配合使用，\n<br>当指定某个行列的项后，是否移除网格内的所有其他项。默\n<br>认不勾选。",
+              "group": "grids>0>gv3"
+            },
+            {
+              "attr": "grids>0>gv3>a:统计面板4）>0>grid2>a:grid.row.percents",
+              "valueType": "NumberArray",
+              "description": "参见列宽百分比属性grid.column.percents，宽度换成高度，列换成行即可，值意义可完全参考。注意，网格的子组件才能被网格布局。\n\n",
+              "group": "grids>0>gv3"
+            },
+            {
+              "attr": "grids>0>gv3>a:统计面板4）>0>grid2>a:grid.auto.fill",
+              "valueType": "Boolean",
+              "defaultValue": true,
+              "description": "增大行或列时，多出的格子是否自动（按照最后一个子组件）进行填充。",
+              "group": "grids>0>gv3"
+            },
+            {
+              "attr": "grids>0>gv3>a:统计面板4）>0>grid2>a:grid.column.percents",
+              "valueType": "NumberArray",
+              "description": "设置布局的组件中，从左到右每列的宽度。具体数值意义如下：\n<br>● 大于1时，表明绝对像素宽度。比如200，表示当前列宽为200px\n<br>● 等于1时，除去所有设置了绝对宽度以及相应列间距之外，网格组件\n<br>   剩余的总宽度作为当前列宽。\n<br>● 大于0且小于1时，除了绝对像素宽度外和行间距外，剩余总宽度以\n<br>   当前值作为比例对应为当前列宽。比如0.2，剩余宽度总和为100时，\n<br>   当前列宽为20。通常值小数的列，数值相加要为1。\n<br>● 等于0或者undefined未设置值时，默认与其他同样设置了0或未设置\n<br>   参数的列，平分剩余总宽度。比如有4列，当前网格组件总宽度100px，\n<br>   属性设置为[0,40,0,0]时，表明第二列固定宽度为40px，第一、三、四\n<br>   列宽度相同，分别为20（间距、边距相关属性均为0时）。\n<br>● 等于-1时，隐藏当前列（不显示）。注意，如果有多列设置了-1，那么\n<br>   从左到右第一个设置了-1的列才会生效。",
+              "group": "grids>0>gv3"
+            },
+            {
+              "attr": "grids>0>gv3>a:统计面板4）>0>grid2>a:grid.gap",
+              "valueType": "Number",
+              "defaultValue": 0,
+              "description": "网格布局中各行与各列统一的间距，注意，不包括边距（由grid.border属性决定）。更多可参见node.margin.h",
+              "group": "grids>0>gv3"
+            },
+            {
+              "attr": "grids>0>gv3>a:统计面板4）>0>grid2>a:valueGet",
+              "valueType": "Object",
+              "defaultValue": null,
+              "description": "当前值。值为被布局的这行组合框各自按照对应的字段名称和值构成的json对象。对于原数据（datas属性值）中有，但是组合框没有对应的字段，将不会在值中体现。",
+              "group": "grids>0>gv3"
+            },
+            {
+              "attr": "grids>0>gv3>a:统计面板4）>0>grid2>a:itemsGet",
+              "valueType": "Object",
+              "defaultValue": null,
+              "description": "当前值（列表），类似valueGet，不过包含了原数据中的所有字段（即便有些字段没有对应到组合框），以及满足这些字段值的所有数据集。\n相当于以这一行组合框选定的值作为查询条件，得到满足条件的所有数据记录。从这个角度说，valueGet相当于是查询条件本身（字段和值组成的对象），itemsGet是查询结果（原始数据满足条件的列表集合）。",
+              "group": "grids>0>gv3"
+            },
+            {
+              "attr": "grids>0>gv3>a:统计面板4）>0>Text2>s:text",
+              "valueType": "String",
+              "defaultValue": "总车位数",
+              "extraInfo": null,
+              "description": null,
+              "group": "grids>0>gv3"
+            },
+            {
+              "attr": "grids>0>gv3>a:统计面板4）>0>Text3>s:text",
+              "valueType": "String",
+              "defaultValue": "---",
+              "extraInfo": null,
+              "description": null,
+              "group": "grids>0>gv3"
+            }
+          ],
+          "renderHTML": "__ht__function(data, gv, cache) {return __scrollAreaView_ui(data,gv,cache);}",
+          "width": 819,
+          "height": 600,
+          "pixelPerfect": false,
+          "comps": [],
+          "uuid": "5502E438-BDD7-4D72-87A7-E3A9D9DBDF37"
+        },
+        "host": {
+          "__i": 282507
+        },
+        "position": {
+          "x": 112.46587,
+          "y": 184.29281
+        },
+        "width": 224.93175,
+        "height": 368.58564
+      },
+      "s": {
+        "label.opacity": 0,
+        "label.position": 14,
+        "label.offset.x": -10,
+        "label.offset.y": 0,
+        "label.color": "rgb(61,61,61)",
+        "2d.movable": false,
+        "interactive": true,
+        "image.stretch": "uniform",
+        "layout.h": "leftright",
+        "layout.v": "topbottom"
+      },
+      "a": {
+        "display": "./longContaners/grids.json",
+        "toolTipRaw": "<p style='color:rgb(242,83,75);margin:0px;font-weight:bold'>已被布局，不允许拖动<p>",
+        "__loadingStatus": false,
+        "isLoadingGet": false,
+        "symbol": "symbols/develop/uiotos/base/scrollAreaView-ui.json",
+        "grids>0>gv2>a:display": "displays/develop/uiotos/editor/通用部件/统计面板/统计面板4）.json",
+        "grids>0>gv2>a:innerLayoutMode": "",
+        "grids>0>gv1>a:display": "displays/develop/uiotos/editor/通用部件/统计面板/统计面板4）.json",
+        "grids>0>gv1>a:innerLayoutMode": "",
+        "innerLayoutMode": "fullScreen",
+        "contentMinWidth": 208.10548,
+        "grids>0>gv1>a:统计面板4）>0>投影1>a:background": "rgb(247,247,247)",
+        "grids>0>gv1>a:统计面板4）>0>Text1>s:text": "停车场",
+        "grids>0>gv1>a:统计面板4）>0>Text2>s:text": "总车位数",
+        "grids>0>gv1>a:统计面板4）>0>Text3>s:text": "---",
+        "grids>0>gv2>a:统计面板4）>0>投影1>a:background": "rgb(247,247,247)",
+        "grids>0>gv2>a:统计面板4）>0>Text1>s:text": "ssss",
+        "grids>0>gv2>a:统计面板4）>0>Text2>s:text": "总车位数",
+        "grids>0>gv2>a:统计面板4）>0>Text3>s:text": "---",
+        "grids>0>grid1>a:grid.row.count": 3,
+        "grids>0>gv1>a:统计面板4）>0>grid3>a:datas": [],
+        "grids>0>gv1>a:统计面板4）>0>grid3>a:grid.row.count": 2,
+        "grids>0>gv1>a:统计面板4）>0>grid3>a:grid.column.count": 1,
+        "grids>0>gv1>a:统计面板4）>0>grid3>a:rowIndex": -1,
+        "grids>0>gv1>a:统计面板4）>0>grid3>a:columnIndex": -1,
+        "grids>0>gv1>a:统计面板4）>0>grid3>a:removeOthers": false,
+        "grids>0>gv1>a:统计面板4）>0>grid3>a:grid.row.percents": null,
+        "grids>0>gv1>a:统计面板4）>0>grid3>a:grid.auto.fill": true,
+        "grids>0>gv1>a:统计面板4）>0>grid3>a:grid.column.percents": null,
+        "grids>0>gv1>a:统计面板4）>0>grid3>a:grid.gap": 0,
+        "grids>0>gv1>a:统计面板4）>0>grid3>a:valueGet": null,
+        "grids>0>gv1>a:统计面板4）>0>grid3>a:itemsGet": null,
+        "grids>0>gv1>a:统计面板4）>0>grid1>a:datas": [],
+        "grids>0>gv1>a:统计面板4）>0>grid1>a:grid.row.count": 1,
+        "grids>0>gv1>a:统计面板4）>0>grid1>a:grid.column.count": 2,
+        "grids>0>gv1>a:统计面板4）>0>grid1>a:rowIndex": -1,
+        "grids>0>gv1>a:统计面板4）>0>grid1>a:columnIndex": -1,
+        "grids>0>gv1>a:统计面板4）>0>grid1>a:removeOthers": false,
+        "grids>0>gv1>a:统计面板4）>0>grid1>a:grid.row.percents": null,
+        "grids>0>gv1>a:统计面板4）>0>grid1>a:grid.auto.fill": true,
+        "grids>0>gv1>a:统计面板4）>0>grid1>a:grid.column.percents": [
+          25,
+          0
+        ],
+        "grids>0>gv1>a:统计面板4）>0>grid1>a:grid.gap": 20,
+        "grids>0>gv1>a:统计面板4）>0>grid1>a:valueGet": null,
+        "grids>0>gv1>a:统计面板4）>0>grid1>a:itemsGet": null,
+        "grids>0>gv1>a:统计面板4）>0>grid2>a:datas": [],
+        "grids>0>gv1>a:统计面板4）>0>grid2>a:grid.row.count": 2,
+        "grids>0>gv1>a:统计面板4）>0>grid2>a:grid.column.count": 1,
+        "grids>0>gv1>a:统计面板4）>0>grid2>a:rowIndex": -1,
+        "grids>0>gv1>a:统计面板4）>0>grid2>a:columnIndex": -1,
+        "grids>0>gv1>a:统计面板4）>0>grid2>a:removeOthers": false,
+        "grids>0>gv1>a:统计面板4）>0>grid2>a:grid.row.percents": null,
+        "grids>0>gv1>a:统计面板4）>0>grid2>a:grid.auto.fill": true,
+        "grids>0>gv1>a:统计面板4）>0>grid2>a:grid.column.percents": null,
+        "grids>0>gv1>a:统计面板4）>0>grid2>a:grid.gap": 0,
+        "grids>0>gv1>a:统计面板4）>0>grid2>a:valueGet": null,
+        "grids>0>gv1>a:统计面板4）>0>grid2>a:itemsGet": null,
+        "grids>0>gv2>a:统计面板4）>0>grid3>a:datas": [],
+        "grids>0>gv2>a:统计面板4）>0>grid3>a:grid.row.count": 2,
+        "grids>0>gv2>a:统计面板4）>0>grid3>a:grid.column.count": 1,
+        "grids>0>gv2>a:统计面板4）>0>grid3>a:rowIndex": -1,
+        "grids>0>gv2>a:统计面板4）>0>grid3>a:columnIndex": -1,
+        "grids>0>gv2>a:统计面板4）>0>grid3>a:removeOthers": false,
+        "grids>0>gv2>a:统计面板4）>0>grid3>a:grid.row.percents": null,
+        "grids>0>gv2>a:统计面板4）>0>grid3>a:grid.auto.fill": true,
+        "grids>0>gv2>a:统计面板4）>0>grid3>a:grid.column.percents": null,
+        "grids>0>gv2>a:统计面板4）>0>grid3>a:grid.gap": 0,
+        "grids>0>gv2>a:统计面板4）>0>grid3>a:valueGet": null,
+        "grids>0>gv2>a:统计面板4）>0>grid3>a:itemsGet": null,
+        "grids>0>gv2>a:统计面板4）>0>grid1>a:datas": [],
+        "grids>0>gv2>a:统计面板4）>0>grid1>a:grid.row.count": 1,
+        "grids>0>gv2>a:统计面板4）>0>grid1>a:grid.column.count": 2,
+        "grids>0>gv2>a:统计面板4）>0>grid1>a:rowIndex": -1,
+        "grids>0>gv2>a:统计面板4）>0>grid1>a:columnIndex": -1,
+        "grids>0>gv2>a:统计面板4）>0>grid1>a:removeOthers": false,
+        "grids>0>gv2>a:统计面板4）>0>grid1>a:grid.row.percents": null,
+        "grids>0>gv2>a:统计面板4）>0>grid1>a:grid.auto.fill": true,
+        "grids>0>gv2>a:统计面板4）>0>grid1>a:grid.column.percents": [
+          25,
+          0
+        ],
+        "grids>0>gv2>a:统计面板4）>0>grid1>a:grid.gap": 20,
+        "grids>0>gv2>a:统计面板4）>0>grid1>a:valueGet": null,
+        "grids>0>gv2>a:统计面板4）>0>grid1>a:itemsGet": null,
+        "grids>0>gv2>a:统计面板4）>0>grid2>a:datas": [],
+        "grids>0>gv2>a:统计面板4）>0>grid2>a:grid.row.count": 2,
+        "grids>0>gv2>a:统计面板4）>0>grid2>a:grid.column.count": 1,
+        "grids>0>gv2>a:统计面板4）>0>grid2>a:rowIndex": -1,
+        "grids>0>gv2>a:统计面板4）>0>grid2>a:columnIndex": -1,
+        "grids>0>gv2>a:统计面板4）>0>grid2>a:removeOthers": false,
+        "grids>0>gv2>a:统计面板4）>0>grid2>a:grid.row.percents": null,
+        "grids>0>gv2>a:统计面板4）>0>grid2>a:grid.auto.fill": true,
+        "grids>0>gv2>a:统计面板4）>0>grid2>a:grid.column.percents": null,
+        "grids>0>gv2>a:统计面板4）>0>grid2>a:grid.gap": 0,
+        "grids>0>gv2>a:统计面板4）>0>grid2>a:valueGet": null,
+        "grids>0>gv2>a:统计面板4）>0>grid2>a:itemsGet": null,
+        "grids>0>gv3>a:display": "displays/develop/uiotos/editor/通用部件/统计面板/统计面板4）.json",
+        "grids>0>gv3>a:innerLayoutMode": "",
+        "grids>0>gv3>a:统计面板4）>0>投影1>a:background": "rgb(247,247,247)",
+        "grids>0>gv3>a:统计面板4）>0>Text1>s:text": "停车场",
+        "grids>0>gv3>a:统计面板4）>0>Text2>s:text": "总车位数",
+        "grids>0>gv3>a:统计面板4）>0>Text3>s:text": "---",
+        "shadowEnabled": false
+      }
+    }
+  ],
+  "modified": "Wed Nov 08 2023 23:20:26 GMT+0800 (中国标准时间)",
+  "contentRect": {
+    "x": -42.00196,
+    "y": -0.00001,
+    "width": 266.9337,
+    "height": 368.58564
+  }
+}

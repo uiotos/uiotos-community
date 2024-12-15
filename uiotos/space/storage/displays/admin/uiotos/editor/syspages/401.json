@@ -1,0 +1,117 @@
+{
+  "v": "7.7.2",
+  "p": {
+    "autoAdjustIndex": true,
+    "hierarchicalRendering": true
+  },
+  "a": {
+    "rotateAsClock": false,
+    "gridBlockSize": 20,
+    "gridThickColor": "rgb(73,73,73)",
+    "gridLightColor": "rgb(58,58,58)",
+    "connectActionType": null,
+    "fitContent": false,
+    "onPostDeserialize": "__ht__function(json, dm, gv, datas) {}"
+  },
+  "d": [
+    {
+      "c": "ht.Node",
+      "i": 295463,
+      "p": {
+        "position": {
+          "x": -584.75635,
+          "y": -212.913
+        },
+        "width": 1920,
+        "height": 1080
+      },
+      "s": {
+        "shape": "rect",
+        "shape.background": "rgb(4,22,70)",
+        "shape.border.color": "#979797",
+        "fullscreen": "fill",
+        "fullscreen.gap": 0,
+        "opacity": 1,
+        "shape.gradient.color": "rgb(14,4,23)",
+        "shape.gradient": "linear.south"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 295464,
+      "p": {
+        "displayName": "错误",
+        "image": "symbols/demo/extra/ui//错误.json",
+        "host": {
+          "__i": 295463
+        },
+        "position": {
+          "x": -763.3255,
+          "y": -298.65971
+        },
+        "width": 44.19478,
+        "height": 36.41973
+      },
+      "s": {
+        "layout.v": "center",
+        "layout.h": "center",
+        "image.stretch": "uniform"
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 295465,
+      "p": {
+        "host": {
+          "__i": 295463
+        },
+        "position": {
+          "x": -628.94252,
+          "y": -298.65971
+        },
+        "width": 203.84413,
+        "height": 67.53685
+      },
+      "s": {
+        "text": "权限不足，无法访问！",
+        "layout.v": "center",
+        "layout.h": "center",
+        "text.font": "16px arial, sans-serif"
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 295466,
+      "p": {
+        "toolTip": "<p style='color:rgb(242,83,75);margin:0px;font-weight:bold'>已被布局，不允许拖动<p>",
+        "host": {
+          "__i": 295463
+        },
+        "position": {
+          "x": -413.90792,
+          "y": -246.68143
+        },
+        "width": 633.91333,
+        "height": 67.53685
+      },
+      "s": {
+        "text": "如果要查看，请联系发布者分享链接",
+        "layout.v": "center",
+        "layout.h": "center",
+        "text.font": "16px arial, sans-serif",
+        "text.color": "rgba(222,222,222,0.5)",
+        "2d.movable": false
+      },
+      "a": {
+        "toolTipRaw": "<p style='color:rgb(242,83,75);margin:0px;font-weight:bold'>已被布局，不允许拖动<p>"
+      }
+    }
+  ],
+  "modified": "Tue Nov 21 2023 15:41:59 GMT+0800 (中国标准时间)",
+  "contentRect": {
+    "x": -1544.75635,
+    "y": -752.913,
+    "width": 1920,
+    "height": 1080
+  }
+}

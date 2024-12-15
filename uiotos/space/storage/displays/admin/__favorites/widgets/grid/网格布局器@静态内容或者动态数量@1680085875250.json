@@ -1,0 +1,487 @@
+{
+    "v": "7.3.3",
+    "p": {
+        "autoAdjustIndex": true,
+        "hierarchicalRendering": false
+    },
+    "d": [{
+        "c": "ht.Grid",
+        "i": 18374,
+        "p": {
+            "displayName": "grid",
+            "toolTip": "静态内容或者动态数量",
+            "tag": "grid1",
+            "dataBindings": {
+                "a": {
+                    "datas": {
+                        "id": "iotos.form",
+                        "idinfo": "",
+                        "isTplBinded": false,
+                        "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+                    },
+                    "grid.row.count": {
+                        "id": "iotos.form",
+                        "idinfo": "",
+                        "isTplBinded": false,
+                        "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+                    },
+                    "grid.column.count": {
+                        "id": "iotos.form",
+                        "idinfo": "",
+                        "isTplBinded": false,
+                        "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+                    },
+                    "valueGet": {
+                        "id": "iotos.form",
+                        "idinfo": "",
+                        "isTplBinded": false,
+                        "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+                    },
+                    "_field_0": {
+                        "id": "iotos.form",
+                        "idinfo": "",
+                        "isTplBinded": false,
+                        "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+                    },
+                    "_field_1": {
+                        "id": "iotos.form",
+                        "idinfo": "",
+                        "isTplBinded": false,
+                        "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+                    },
+                    "_field_2": {
+                        "id": "iotos.form",
+                        "idinfo": "",
+                        "isTplBinded": false,
+                        "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+                    },
+                    "_field_3": {
+                        "id": "iotos.form",
+                        "idinfo": "",
+                        "isTplBinded": false,
+                        "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+                    },
+                    "itemsGet": {
+                        "id": "iotos.form",
+                        "idinfo": "",
+                        "isTplBinded": false,
+                        "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+                    }
+                }
+            },
+            "image": {
+                "modified": "Sat Feb 25 2023 06:35:01 GMT+0800 (中国标准时间)",
+                "background": "rgb(32,37,46)",
+                "dataBindings": [{
+                        "attr": "symbol",
+                        "valueType": "Image",
+                        "group": "Grid"
+                    },
+                    {
+                        "attr": "grid.row.count",
+                        "valueType": "PositiveNumber",
+                        "defaultValue": 1
+                    },
+                    {
+                        "attr": "grid.column.count",
+                        "valueType": "PositiveNumber",
+                        "defaultValue": 4
+                    },
+                    {
+                        "attr": "grid.border",
+                        "valueType": "NumberArray",
+                        "defaultValue": [
+                            0,
+                            0,
+                            0,
+                            0
+                        ]
+                    },
+                    {
+                        "attr": "grid.gap",
+                        "valueType": "Number",
+                        "defaultValue": 0
+                    },
+                    {
+                        "attr": "grid.depth",
+                        "valueType": "Int"
+                    },
+                    {
+                        "attr": "grid.cell.depth",
+                        "valueType": "Int"
+                    },
+                    {
+                        "attr": "grid.cell.border.color",
+                        "valueType": "Color"
+                    },
+                    {
+                        "attr": "grid.background",
+                        "valueType": "Color"
+                    },
+                    {
+                        "attr": "grid.select.width",
+                        "valueType": "Number"
+                    },
+                    {
+                        "attr": "grid.column.percents",
+                        "valueType": "NumberArray"
+                    },
+                    {
+                        "attr": "grid.row.percents",
+                        "valueType": "NumberArray"
+                    },
+                    {
+                        "attr": "node.margin.h",
+                        "valueType": "Number",
+                        "defaultValue": 15
+                    },
+                    {
+                        "attr": "node.margin.v",
+                        "valueType": "Number",
+                        "defaultValue": 0
+                    },
+                    {
+                        "attr": "attach.margin.gapMode",
+                        "valueType": "Boolean",
+                        "defaultValue": true
+                    },
+                    {
+                        "attr": "node.select.width",
+                        "valueType": "Int"
+                    },
+                    {
+                        "attr": "borderColor",
+                        "valueType": "Color",
+                        "defaultValue": "rgba(55,125,255,0.20)"
+                    },
+                    {
+                        "attr": "borderWidth",
+                        "valueType": "Number",
+                        "defaultValue": 3
+                    },
+                    {
+                        "attr": "background",
+                        "valueType": "Color"
+                    },
+                    {
+                        "attr": "enbleAutoCount",
+                        "valueType": "Boolean",
+                        "defaultValue": false
+                    },
+                    {
+                        "attr": "enable",
+                        "valueType": "Boolean",
+                        "defaultValue": false,
+                        "group": "dataSheet"
+                    },
+                    {
+                        "attr": "datas",
+                        "valueType": "ObjectArray"
+                    },
+                    {
+                        "attr": "sizeSet",
+                        "valueType": "PositiveNumber",
+                        "defaultValue": 0
+                    },
+                    {
+                        "attr": "_field_3",
+                        "valueType": "String",
+                        "defaultValue": ""
+                    },
+                    {
+                        "attr": "_field_2",
+                        "valueType": "String",
+                        "defaultValue": ""
+                    },
+                    {
+                        "attr": "_field_1",
+                        "valueType": "String",
+                        "defaultValue": ""
+                    },
+                    {
+                        "attr": "_field_0",
+                        "valueType": "String",
+                        "defaultValue": ""
+                    },
+                    {
+                        "attr": "valueGet",
+                        "valueType": "Object"
+                    },
+                    {
+                        "attr": "bindControlsTag",
+                        "valueType": "StringArray",
+                        "group": "bindControls"
+                    },
+                    {
+                        "attr": "bindControlsAttr",
+                        "valueType": "StringArray"
+                    },
+                    {
+                        "attr": "bindControlsVal",
+                        "valueType": "StringArray"
+                    },
+                    {
+                        "attr": "paramControlTag",
+                        "valueType": "StringArray"
+                    },
+                    {
+                        "attr": "paramControlAttr",
+                        "valueType": "StringArray"
+                    },
+                    {
+                        "attr": "paramsGenerator",
+                        "valueType": "Function",
+                        "defaultValue": "__ht__function(data, val, index, node,oldVal,form,type,inner) {//绑定组索引对应的函数处理，用来动态生成复杂的参数变量传入\r\nswitch(index){\r\n    case 0:\r\n        break;\r\n    case 1:\r\n        break;\r\n    case 2:\r\n        break;\r\n    default:\r\n        break;\r\n}\r\n\r\nreturn val;}",
+                        "extraInfo": {
+                            "arguments": [
+                                "data",
+                                "val",
+                                "index",
+                                "node",
+                                "oldVal",
+                                "form",
+                                "type",
+                                "inner"
+                            ]
+                        }
+                    },
+                    {
+                        "attr": "userData",
+                        "valueType": "ObjectArray"
+                    },
+                    {
+                        "attr": "onChange",
+                        "valueType": "Function",
+                        "extraInfo": {
+                            "arguments": [
+                                "data",
+                                "gv",
+                                "cache",
+                                "value",
+                                "extra"
+                            ]
+                        },
+                        "defaultValue": "__ht__function(data, gv, cache, value, extra) {}"
+                    }
+                ],
+                "renderHTML": "__ht__function(data, gv, cache) {return __grid(data,gv,cache);}",
+                "width": 100,
+                "height": 100,
+                "fitSize": true,
+                "scrollable": true,
+                "pixelPerfect": false,
+                "comps": [{
+                    "type": "rect",
+                    "background": {
+                        "func": "attr@background",
+                        "value": null
+                    },
+                    "borderWidth": {
+                        "func": "attr@borderWidth",
+                        "value": 0
+                    },
+                    "borderColor": {
+                        "func": "attr@borderColor",
+                        "value": "rgb(55,125,255)"
+                    },
+                    "borderWidthAbsolute": true,
+                    "rect": [
+                        0,
+                        0,
+                        100,
+                        100
+                    ]
+                }],
+                "uuid": "E3968D7D-22CD-4A80-AE5D-7F4ACB850C2F"
+            },
+            "position": {
+                "x": 444.09428,
+                "y": 1252.03026
+            },
+            "width": 900.94575,
+            "height": 51.56695
+        },
+        "s": {
+            "label.position": 14,
+            "label.offset.x": -10,
+            "label.offset.y": 0,
+            "label.color": "rgb(61,61,61)",
+            "layout.h": "leftright",
+            "layout.v": "top",
+            "grid.gap": 0,
+            "grid.column.count": 4,
+            "grid.borderRadius": 10,
+            "grid.border.right": -15,
+            "grid.border.left": -15,
+            "datas": [{
+                    "id": 1,
+                    "is_delete": 0,
+                    "datetime": "2023-02-25T07:28:45",
+                    "name": "人脸机车库001",
+                    "type": "消防设备",
+                    "device_id": "AF001",
+                    "position": "地下室停车场东南角",
+                    "floor": "B1"
+                },
+                {
+                    "id": 2,
+                    "is_delete": 0,
+                    "datetime": "2023-02-19T11:31:14",
+                    "name": "人脸机设备002",
+                    "type": "安防设备",
+                    "device_id": "AF002",
+                    "position": "2楼东门",
+                    "floor": "2"
+                },
+                {
+                    "id": 3,
+                    "is_delete": 0,
+                    "datetime": "2023-02-19T11:31:58",
+                    "name": "人脸机设备003",
+                    "type": "安防设备",
+                    "device_id": "AF003",
+                    "position": "2楼东门",
+                    "floor": "2"
+                },
+                {
+                    "id": 4,
+                    "is_delete": 0,
+                    "datetime": "2023-02-19T11:32:15",
+                    "name": "人脸机设备004",
+                    "type": "安防设备",
+                    "device_id": "AF004",
+                    "position": "3楼",
+                    "floor": "3"
+                },
+                {
+                    "id": 5,
+                    "is_delete": 0,
+                    "datetime": "2023-02-24T21:31:03",
+                    "name": "人脸机设备005",
+                    "type": "安防设备",
+                    "device_id": "AF005",
+                    "position": "3楼正门",
+                    "floor": "3"
+                },
+                {
+                    "id": 6,
+                    "is_delete": 0,
+                    "datetime": "2023-02-24T21:31:16",
+                    "name": "人脸机设备006",
+                    "type": "消防设备",
+                    "device_id": "XF001",
+                    "position": "4楼东北角",
+                    "floor": "4"
+                }
+            ],
+            "fullscreen": "fill",
+            "fullscreen.gap": 0
+        },
+        "a": {
+            "enable": true,
+            "sizeSet": 4,
+            "grid.column.count": 4,
+            "grid.row.count": 1,
+            "symbol": "symbols/develop/uiotos/base/grid.json",
+            "_field_0": "type",
+            "_field_1": "floor",
+            "_field_2": "position",
+            "_field_3": "name",
+            "datas": [{
+                    "id": 1,
+                    "is_delete": 0,
+                    "datetime": "2023-02-25T07:28:45",
+                    "name": "人脸机车库001",
+                    "type": "消防设备",
+                    "device_id": "AF001",
+                    "position": "地下室停车场东南角",
+                    "floor": "B1"
+                },
+                {
+                    "id": 2,
+                    "is_delete": 0,
+                    "datetime": "2023-02-19T11:31:14",
+                    "name": "人脸机设备002",
+                    "type": "安防设备",
+                    "device_id": "AF002",
+                    "position": "2楼东门",
+                    "floor": "2"
+                },
+                {
+                    "id": 3,
+                    "is_delete": 0,
+                    "datetime": "2023-02-19T11:31:58",
+                    "name": "人脸机设备003",
+                    "type": "安防设备",
+                    "device_id": "AF003",
+                    "position": "2楼东门",
+                    "floor": "2"
+                },
+                {
+                    "id": 4,
+                    "is_delete": 0,
+                    "datetime": "2023-02-19T11:32:15",
+                    "name": "人脸机设备004",
+                    "type": "安防设备",
+                    "device_id": "AF004",
+                    "position": "3楼",
+                    "floor": "3"
+                },
+                {
+                    "id": 5,
+                    "is_delete": 0,
+                    "datetime": "2023-02-24T21:31:03",
+                    "name": "人脸机设备005",
+                    "type": "安防设备",
+                    "device_id": "AF005",
+                    "position": "3楼正门",
+                    "floor": "3"
+                },
+                {
+                    "id": 6,
+                    "is_delete": 0,
+                    "datetime": "2023-02-24T21:31:16",
+                    "name": "人脸机设备006",
+                    "type": "消防设备",
+                    "device_id": "XF001",
+                    "position": "4楼东北角",
+                    "floor": "4"
+                }
+            ],
+            "valueGet": {
+                "type": "消防设备",
+                "floor": "B1",
+                "position": "地下室停车场东南角",
+                "name": "人脸机车库001"
+            },
+            "bindControlsTag": [
+                "button3"
+            ],
+            "bindControlsAttr": [
+                "userData"
+            ],
+            "bindControlsVal": [
+                null
+            ],
+            "paramControlTag": [
+                null
+            ],
+            "paramControlAttr": [
+                "itemsGet"
+            ],
+            "itemsGet": [{
+                "id": 1,
+                "is_delete": 0,
+                "datetime": "2023-02-25T07:28:45",
+                "name": "人脸机车库001",
+                "type": "消防设备",
+                "device_id": "AF001",
+                "position": "地下室停车场东南角",
+                "floor": "B1"
+            }],
+            "userData": {
+                "__i": 18374
+            }
+        }
+    }]
+}

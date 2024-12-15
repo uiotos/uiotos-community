@@ -1,0 +1,157 @@
+{
+  "v": "7.7.1",
+  "p": {
+    "background": "#20252e",
+    "autoAdjustIndex": true,
+    "hierarchicalRendering": true
+  },
+  "a": {
+    "rotateAsClock": false,
+    "gridBlockSize": 20,
+    "gridThickColor": "rgba(100,100,100,0.2)",
+    "gridLightColor": "rgba(127,127,127,0.1)",
+    "connectActionType": null,
+    "fitContent": false,
+    "zoomable": false,
+    "rectSelectable": false,
+    "pannable": false
+  },
+  "d": [
+    {
+      "c": "ht.Node",
+      "i": 55385,
+      "p": {
+        "name": "投影",
+        "displayName": "投影（投影1）",
+        "tag": "投影1",
+        "dataBindings": {
+          "a": {
+            "background": {
+              "id": "iotos.form",
+              "alias": "",
+              "func": "__ht__function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        console.error(err);\r\n        return rawData;\r\n    }\r\n}",
+              "idinfo": "",
+              "isTplBinded": false
+            }
+          }
+        },
+        "image": "symbols/admin/uiotos/icons/common/投影.json",
+        "position": {
+          "x": 105.45045,
+          "y": 65.82219
+        },
+        "width": 230,
+        "height": 123.13173
+      },
+      "s": {
+        "interactive": true,
+        "image.stretch": "uniform",
+        "label.position": 14,
+        "label.offset.x": -10,
+        "label.offset.y": 0,
+        "label.color": "rgb(61,61,61)",
+        "label.opacity": 0,
+        "fullscreen": "fill",
+        "fullscreen.gap": 0
+      },
+      "a": {
+        "shadowblur": 5,
+        "scale": 0.98,
+        "shadowOffsetYs": 5,
+        "shadowColor": "rgba(0,0,0,0.10)",
+        "background": "#32D3EB"
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 55386,
+      "p": {
+        "displayName": "Text（Text1）",
+        "toolTip": "已被布局，不允许拖动",
+        "tag": "Text1",
+        "dataBindings": {
+          "s": {
+            "text": {
+              "id": "iotos.form",
+              "alias": "",
+              "func": "__ht__function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        console.error(err);\r\n        return rawData;\r\n    }\r\n}",
+              "idinfo": "",
+              "isTplBinded": false
+            }
+          }
+        },
+        "host": {
+          "__i": 55385
+        },
+        "position": {
+          "x": 112.98119,
+          "y": 36.05143
+        },
+        "width": 188.37531,
+        "height": 28.56229
+      },
+      "s": {
+        "text": "当日报警次数",
+        "label.position": 14,
+        "label.offset.x": -10,
+        "label.offset.y": 0,
+        "label.color": "rgb(61,61,61)",
+        "2d.movable": false,
+        "interactive": true,
+        "image.stretch": "uniform",
+        "text.color": "rgb(61,61,61)",
+        "layout.h": "leftright",
+        "layout.v": "top"
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 55387,
+      "p": {
+        "displayName": "Text（Text2）",
+        "toolTip": "已被布局，不允许拖动",
+        "tag": "Text2",
+        "dataBindings": {
+          "s": {
+            "text": {
+              "id": "iotos.form",
+              "alias": "",
+              "func": "__ht__function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        console.error(err);\r\n        return rawData;\r\n    }\r\n}",
+              "idinfo": "",
+              "isTplBinded": false
+            }
+          }
+        },
+        "host": {
+          "__i": 55385
+        },
+        "position": {
+          "x": 112.98119,
+          "y": 83.00459
+        },
+        "width": 188.37531
+      },
+      "s": {
+        "text": "4,345",
+        "label.position": 14,
+        "label.offset.x": -10,
+        "label.offset.y": 0,
+        "label.color": "rgb(61,61,61)",
+        "2d.movable": false,
+        "interactive": true,
+        "image.stretch": "uniform",
+        "text.font": "32px arial, sans-serif",
+        "text.color": "rgb(61,61,61)",
+        "layout.h": "leftright",
+        "layout.v": "topbottom"
+      }
+    }
+  ],
+  "modified": "Fri Jul 28 2023 09:11:30 GMT+0800 (中国标准时间)",
+  "contentRect": {
+    "x": -47.54955,
+    "y": 4.25633,
+    "width": 268,
+    "height": 123.13173
+  }
+}

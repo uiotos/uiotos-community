@@ -1,0 +1,140 @@
+{
+  "v": "7.7.2",
+  "p": {
+    "autoAdjustIndex": true,
+    "hierarchicalRendering": false
+  },
+  "a": {
+    "rotateAsClock": false,
+    "gridAngle": 1.5708,
+    "connectActionType": null,
+    "fitContent": false
+  },
+  "d": [
+    {
+      "c": "ht.Node",
+      "i": 46167,
+      "p": {
+        "name": "sw",
+        "displayName": "开关（sw1）",
+        "tag": "sw1",
+        "dataBindings": {
+          "a": {
+            "open": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "onChange": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "textOpen": {
+              "id": "iotos.form",
+              "alias": "",
+              "func": "__ht__function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        console.error(err);\r\n        return rawData;\r\n    }\r\n}",
+              "idinfo": "",
+              "isTplBinded": false
+            },
+            "textClose": {
+              "id": "iotos.form",
+              "alias": "",
+              "func": "__ht__function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        console.error(err);\r\n        return rawData;\r\n    }\r\n}",
+              "idinfo": "",
+              "isTplBinded": false
+            },
+            "font": {
+              "id": "iotos.form",
+              "alias": "",
+              "func": "__ht__function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        console.error(err);\r\n        return rawData;\r\n    }\r\n}",
+              "idinfo": "",
+              "isTplBinded": false
+            },
+            "gapsAdjust": {
+              "id": "iotos.form",
+              "alias": "",
+              "func": "__ht__function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        console.error(err);\r\n        return rawData;\r\n    }\r\n}",
+              "idinfo": "",
+              "isTplBinded": false
+            }
+          },
+          "s": {
+            "image.stretch": {
+              "id": "iotos.form",
+              "alias": "",
+              "func": "__ht__function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        console.error(err);\r\n        return rawData;\r\n    }\r\n}",
+              "idinfo": "",
+              "isTplBinded": false
+            }
+          }
+        },
+        "image": "symbols/develop/uiotos/base/switch-lite.json",
+        "position": {
+          "x": 215.02376,
+          "y": -42.08416
+        },
+        "width": 77.70951,
+        "height": 30.43312
+      },
+      "s": {
+        "label.opacity": 0,
+        "label.position": 14,
+        "label.offset.x": -10,
+        "label.offset.y": 0,
+        "label.color": "rgb(61,61,61)",
+        "2d.movable": false,
+        "interactive": true,
+        "image.stretch": "uniform",
+        "fullscreen": "fill",
+        "fullscreen.gap": 10,
+        "note.font": "22px arial, sans-serif",
+        "note.color": "rgb(212,0,0)",
+        "note.background": "rgb(255,235,195)",
+        "note.position": 3,
+        "note.offset.x": 0,
+        "note.offset.y": -5,
+        "note.border.width": 10,
+        "note.border.color": "rgb(255,235,195)",
+        "note.opacity": 0,
+        "note.align": "left"
+      },
+      "a": {
+        "back.background": "rgb(0,199,7)",
+        "dot.background": "white",
+        "text": "打开",
+        "textColor": "white",
+        "textRect": [
+          15,
+          8.5,
+          30,
+          18
+        ],
+        "back.borderColor": "rgb(0,199,7)",
+        "dot.rect": [
+          47.5,
+          5,
+          25,
+          25
+        ],
+        "open": true,
+        "bindEvents": [
+          "*",
+          "onChange"
+        ],
+        "textOpen": "打开",
+        "visible": true,
+        "textClose": "关闭"
+      }
+    }
+  ],
+  "modified": "Mon Nov 20 2023 13:05:03 GMT+0800 (中国标准时间)",
+  "contentRect": {
+    "x": 147.50299,
+    "y": -57.30072,
+    "width": 106.37553,
+    "height": 30.43312
+  }
+}

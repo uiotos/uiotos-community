@@ -1,0 +1,317 @@
+{
+  "v": "7.7.5",
+  "p": {
+    "background": "#20252e",
+    "autoAdjustIndex": true,
+    "hierarchicalRendering": true
+  },
+  "a": {
+    "rotateAsClock": false,
+    "gridBlockSize": 20,
+    "connectActionType": null,
+    "fitContent": false,
+    "zoomable": false,
+    "rectSelectable": false,
+    "pannable": false
+  },
+  "d": [
+    {
+      "c": "ht.Node",
+      "i": 68752,
+      "p": {
+        "name": "阴影边框",
+        "displayName": "阴影边框（阴影边框1）",
+        "toolTip": "矩形区域的阴影边框",
+        "tag": "阴影边框1",
+        "dataBindings": {
+          "a": {
+            "radius": {
+              "id": "iotos.form",
+              "alias": "",
+              "func": "__ht__function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        console.error(err);\r\n        return rawData;\r\n    }\r\n}",
+              "idinfo": "",
+              "isTplBinded": false
+            }
+          }
+        },
+        "image": "symbols/develop/uiotos/common/阴影边框.json",
+        "position": {
+          "x": 850.55648,
+          "y": 398.84668
+        },
+        "width": 55.01219,
+        "height": 40.19338
+      },
+      "s": {
+        "label.position": 14,
+        "label.offset.x": -10,
+        "label.offset.y": 0,
+        "label.color": "rgb(61,61,61)",
+        "label.opacity": 0,
+        "interactive": true,
+        "image.stretch": "uniform",
+        "fullscreen.gap": 0,
+        "2d.movable": false,
+        "fullscreen": "fill",
+        "2d.selectable": false
+      },
+      "a": {
+        "background": "rgb(255,255,255)",
+        "radius": 8
+      }
+    },
+    {
+      "c": "ht.UNode",
+      "i": 68792,
+      "p": {
+        "name": "gv",
+        "displayName": "嵌套容器（gv1）",
+        "tag": "gv1",
+        "dataBindings": {
+          "a": {
+            "display": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "innerLayoutMode": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            }
+          }
+        },
+        "image": {
+          "modified": "Fri Apr 26 2024 10:57:07 GMT+0800 (中国标准时间)",
+          "background": "rgb(32,37,46)",
+          "dataBindings": [
+            {
+              "attr": "symbol",
+              "valueType": "Image"
+            },
+            {
+              "attr": "display",
+              "valueType": "URL",
+              "group": "功能（关键）"
+            },
+            {
+              "attr": "innerLayoutMode",
+              "valueType": "String",
+              "defaultValue": "",
+              "description": "内嵌页面的布局模式。\n<br>页面通常分为适配内容（fitContent）\n<br>和全屏填充（fullScreen）两种模式，\n<br>前者自适应缩放以保证所有内容窗口\n<br>范围内可见，后者则是指定某个图元\n<br>组件作为底板全屏填充，其他组件直\n<br>接或简接对于底板布局。\n<br>模式无（none）表示以上两种模式都\n<br>不是，既不缩放适配也不全屏铺满。\n<br>注意，本属性为读写，可以表示当前\n<br>页面的状态，也可以进行设置。其中\n<br>设置全屏填充时，自动选择最底层图\n<br>元组件作为底板。新建页面默认为基\n<br>于有底板的全屏填充布局，而非缩放。\n",
+              "extraInfo": {
+                "enum": {
+                  "values": [
+                    "fitContent",
+                    "fullScreen",
+                    "none"
+                  ]
+                }
+              }
+            },
+            {
+              "attr": "useOriginSize",
+              "valueType": "Boolean",
+              "defaultValue": false
+            },
+            {
+              "attr": "onDisplayLoaded",
+              "valueType": "Function",
+              "description": "所有内嵌页面逐层加载完毕后回调（注意，作为顶层页面时才会触发）。",
+              "extraInfo": {
+                "arguments": [
+                  "data",
+                  "gv",
+                  "cache"
+                ]
+              }
+            },
+            {
+              "attr": "isLoadingGet",
+              "valueType": "Boolean",
+              "description": "是否正在加载。\n<br>只读，当正在通过display属性逐层加载内嵌页直到完全加载完毕前，\n<br>该属性值为1，加载完毕后，复位为0.",
+              "defaultValue": false
+            },
+            {
+              "attr": "reset",
+              "valueType": "Level2",
+              "defaultValue": 0
+            },
+            {
+              "attr": "shadowBorder",
+              "valueType": "NumberArray",
+              "defaultValue": [
+                0,
+                0,
+                8
+              ]
+            },
+            {
+              "attr": "shadowColor",
+              "valueType": "Color",
+              "defaultValue": "rgba(55,125,255,0.50)"
+            },
+            {
+              "attr": "shadowEnabled",
+              "valueType": "Boolean",
+              "defaultValue": true
+            },
+            {
+              "attr": "innerBackground",
+              "valueType": "Color",
+              "defaultValue": null
+            },
+            {
+              "attr": "displayJson",
+              "valueType": "Multiline"
+            },
+            {
+              "attr": "borderWidth",
+              "valueType": "Number"
+            },
+            {
+              "attr": "onPostDeserialize",
+              "valueType": "Function",
+              "extraInfo": {
+                "arguments": [
+                  "json",
+                  "dm",
+                  "gv",
+                  "datas"
+                ]
+              }
+            },
+            {
+              "attr": "bindControlsTag",
+              "valueType": "StringArray",
+              "group": "bindControls"
+            },
+            {
+              "attr": "bindControlsAttr",
+              "valueType": "ObjectArray"
+            },
+            {
+              "attr": "bindControlsVal",
+              "valueType": "ObjectArray",
+              "description": "静态值。也用作数组索引、JSON对象解析提取值用途。\n<br>一、静态值用途：\n<br>对常规类型的属性赋值且没有反向关联属性值，传入为数值时，不\n<br>会作为数组的索引，而会当成常量值对外赋值。此外，存在特殊值：\n<br>~和undefined表示过滤、不触发；null为默认值，表示传递默认表\n<br>单数据。编辑状态下清空后保存与设置null等价。\n<br>二、数组索引用途\n<br>情况1：被操作的组件属性原先值是数组时（包括空数组），会将\n<br>待输出的值作为被操作数组指定索引的值来传入，而不是整体覆盖。\n<br>情况2：如果要被操作的组件属性原先值不是数组，而且待输出的\n<br>值为数组类型并且长度也在索引范围内，那么会按照索引取自身数\n<br>组指定元素再对外输出。（如果想要取待输出索引值，赋值给被操\n<br>纵属性的指定索引，那么需要中间组件属性连线过渡以下，无法直\n<br>接操作）\n<br>情况3：如果要被操作的组件属性是数组，而且待输出的值也是数组\n<br>类型，此时当情况1来处理。\n<br>三、数据解析用途：\n<br>待输出的值为JSON对象时，用x.y.z这种以字符.或者>为间隔的方式\n<br>实现对JSON字段层次逐层定位，当是数组时x.0.y.1这种以数字的方\n<br>式来指定数组的某个索引。以此实现对任意结果JSON对象字段的定\n<br>位，获取结构内指定字段对应的值。"
+            },
+            {
+              "attr": "paramControlTag",
+              "valueType": "StringArray"
+            },
+            {
+              "attr": "paramControlAttr",
+              "valueType": "ObjectArray"
+            },
+            {
+              "attr": "paramsGenerator",
+              "valueType": "Function",
+              "defaultValue": "__ht__function(data, val, index, node,oldVal,form,type,inner) {//绑定组索引对应的函数处理，用来动态生成复杂的参数变量传入\r\nswitch(index){\r\n    case 0:\r\n        break;\r\n    case 1:\r\n        break;\r\n    case 2:\r\n        break;\r\n    default:\r\n        break;\r\n}\r\n\r\nreturn val;}",
+              "extraInfo": {
+                "arguments": [
+                  "data",
+                  "val",
+                  "index",
+                  "node",
+                  "oldVal",
+                  "form",
+                  "type",
+                  "inner"
+                ]
+              }
+            },
+            {
+              "attr": "useAttrCORS",
+              "valueType": "Boolean",
+              "defaultValue": false,
+              "description": "属性同源操作。\n                连线操作传递是否限定双方。比如有A/B/C/D/O五个组件，连线操作关系：\n                A→O、B→O、C→O、D→O，以及O→A、O→B、O→C、O→D，总结为\n                A、B、C、D分别与O有往返操作。\n                默认不勾选该属性时，A到D任何一个向O的连线操作，都不会影响到O自身\n                对A到D的下一步操作。勾选了该属性后，那么每次相邻的两次连线交互，\n                则会有同源选择性，比如A→O，下一步则O之会选择到A的操作即O→A。\n                同源操作通常用户多个组件共用一个配置弹窗的情况，比如上述A、B、C、D\n                相当于是四个同类型的组件，而O是公共的属性配置窗口，任何一个比如A点\n                击，可通过O弹窗显示属性，然后修改后将属性值回写到A，且并不会将值给\n                到其他几个组件，即便有连线在。\n                同源操作规则：当连线满足A/B→O.x，且有O.x→A/B时，即前一次组件A连线\n                操作O的x属性，那么，O对外触发且关联x属性值对外时，勾选了本属性同源\n                属性操作的前提下，将只会执行O.x→A，而忽略O.x→B/C等其他非A的图元组\n                件的连线操作。",
+              "dynamicCreate": true
+            },
+            {
+              "attr": "userData",
+              "valueType": "ObjectArray"
+            },
+            {
+              "attr": "useInnerEventsAll",
+              "valueType": "Boolean",
+              "description": "是否允许内嵌事件通过。\n<br>若勾选，内嵌图元表单类型的事件函数属性，都将派发到上层容器图元对外触发连线操作。\n<br>默认不勾选，上层容器图元对外连线反向关联需要指定内嵌图元的具体事件函数属性才能\n<br>触发，否则忽略内嵌图元的事件触发，不会传递给上层容器图元对外连线操作。"
+            },
+            {
+              "attr": "pureFormValues",
+              "valueType": "Boolean"
+            }
+          ],
+          "snapshotURL": "icon.base.graphView",
+          "renderHTML": "__ht__function(data, gv, cache) {return __graphView(data,gv,cache);}",
+          "width": 200,
+          "height": 120,
+          "fitSize": true,
+          "pixelPerfect": false,
+          "comps": [
+            {
+              "type": "text",
+              "text": {
+                "func": "__ht__function(data, view) {\n// return data.ca('__loadingText') && data.ca('__loadingText')[!data.ca('__loadingStatus')]\n}",
+                "value": "…"
+              },
+              "align": "center",
+              "color": {
+                "func": "attr@__loadingColor",
+                "value": "rgb(150,150,150)"
+              },
+              "font": {
+                "func": "attr@__loadingFont",
+                "value": "12px arial, sans-serif"
+              },
+              "visible": {
+                "func": "attr@__loadingVisible",
+                "value": false
+              },
+              "layoutH": "center",
+              "layoutV": "center",
+              "rect": [
+                74.69339,
+                53.1422,
+                50.61322,
+                13.7156
+              ]
+            }
+          ],
+          "uuid": "5976582D-7F06-4676-935F-25D2791D4418"
+        },
+        "host": {
+          "__i": 68752
+        },
+        "position": {
+          "x": 851.25927,
+          "y": 400.34511
+        },
+        "width": 18.93929,
+        "height": 10.89719
+      },
+      "s": {
+        "label.position": 14,
+        "label.offset.x": -10,
+        "label.offset.y": 0,
+        "label.color": "rgb(61,61,61)",
+        "interactive": true,
+        "layout.h": "leftright",
+        "layout.v": "topbottom",
+        "label.opacity": 0
+      },
+      "a": {
+        "symbol": "symbols/develop/uiotos/base/graphView.json",
+        "shadowEnabled": false
+      }
+    }
+  ],
+  "modified": "Sat May 18 2024 00:00:03 GMT+0800 (中国标准时间)",
+  "contentRect": {
+    "x": 761.05039,
+    "y": 378.74999,
+    "width": 117.01219,
+    "height": 40.19338
+  }
+}

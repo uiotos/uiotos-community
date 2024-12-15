@@ -1,0 +1,2726 @@
+{
+  "v": "8.0.1",
+  "p": {
+    "autoAdjustIndex": true,
+    "hierarchicalRendering": true
+  },
+  "a": {
+    "rotateAsClock": false,
+    "gridBlockSize": 20,
+    "connectActionType": null,
+    "fitContent": false,
+    "zoomable": false,
+    "rectSelectable": false,
+    "pannable": false,
+    "_professional": false
+  },
+  "d": [
+    {
+      "c": "ht.Node",
+      "i": 303961,
+      "p": {
+        "name": "base",
+        "displayName": "底板（_base）",
+        "tag": "_base",
+        "position": {
+          "x": -290.414,
+          "y": -158.68318
+        },
+        "width": 1024,
+        "height": 600
+      },
+      "s": {
+        "shape": "rect",
+        "shape.background": "rgb(247,246,251)",
+        "fullscreen": "fill",
+        "fullscreen.gap": 0,
+        "2d.movable": false,
+        "label.opacity": 0,
+        "interactive": true,
+        "label.position": 17,
+        "label.color": "rgb(61,61,61)"
+      }
+    },
+    {
+      "c": "ht.UGrid",
+      "i": 303962,
+      "p": {
+        "name": "grid",
+        "displayName": "网格组合（grid3）",
+        "toolTip": "<p style='color:rgb(242,83,75);margin-top:5px;margin-bottom:5px;font-weight:bold;line-height:1.5em;'>已被布局，不允许拖动（shift+回车可解除）</p>",
+        "tag": "grid3",
+        "dataBindings": {
+          "a": {
+            "datas": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "grid.row.count": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "grid.column.count": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "rowIndex": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "columnIndex": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "removeOthers": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "grid.row.percents": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "grid.auto.fill": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "grid.column.percents": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "grid.gap": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "valueGet": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "itemsGet": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "display": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "popDirection": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "popBackground": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "popPadding": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "popWidth": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "popHeight": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "popBorderColor": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "popBorderWidth": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "popBorderRadius": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "popTriggerEvent": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "userData": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            }
+          }
+        },
+        "image": "symbols/develop/uiotos/arranged/controls/forms/07-其他/网格.json",
+        "host": {
+          "__i": 303961
+        },
+        "position": {
+          "x": -290.414,
+          "y": -158.68318
+        },
+        "width": 994.97572,
+        "height": 556.38828
+      },
+      "s": {
+        "label.opacity": 0,
+        "label.position": 16,
+        "label.offset.x": -10,
+        "label.offset.y": 0,
+        "label.color": "rgb(61,61,61)",
+        "grid.gap": 0,
+        "grid.row.count": 2,
+        "grid.borderRadius": 10,
+        "interactive": true,
+        "grid.border": 0,
+        "2d.movable": false,
+        "layout.h": "leftright",
+        "layout.v": "topbottom",
+        "grid.column.percents": [],
+        "grid.row.percents": []
+      },
+      "a": {
+        "grid.row.count": 2,
+        "grid.column.count": 1,
+        "grid.border": 0,
+        "symbol": "symbols/develop/uiotos/arranged/controls/forms/07-其他/网格.json",
+        "node.margin.h": 0,
+        "node.margin.v": 3,
+        "borderWidth": 0,
+        "rowIndex": -1,
+        "grid.row.percents": [],
+        "grid.column.percents": []
+      }
+    },
+    {
+      "c": "ht.UGrid",
+      "i": 303963,
+      "p": {
+        "name": "grid",
+        "displayName": "网格组合（grid2）",
+        "toolTip": "<span style='font-weight:bold;color:rgb(125,195,125)'>说明：</span><span style='color:rgb(125,195,125);line-height:1.8em;letter-spacing:1px;'>\n<br>网格内布局的图元不允许拖动</span>",
+        "parent": {
+          "__i": 303962
+        },
+        "tag": "grid2",
+        "dataBindings": {
+          "a": {
+            "datas": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "grid.row.count": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "grid.column.count": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "rowIndex": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "columnIndex": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "removeOthers": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "grid.row.percents": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "grid.auto.fill": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "grid.column.percents": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "grid.gap": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "valueGet": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "itemsGet": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "display": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "popDirection": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "popBackground": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "popPadding": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "popWidth": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "popHeight": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "popBorderColor": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "popBorderWidth": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "popBorderRadius": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "popTriggerEvent": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "userData": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            }
+          }
+        },
+        "image": "symbols/develop/uiotos/arranged/controls/forms/07-其他/网格.json",
+        "host": {
+          "__i": 303962
+        },
+        "position": {
+          "x": -290.414,
+          "y": -297.78025
+        },
+        "width": 994.97572,
+        "height": 272.19414
+      },
+      "s": {
+        "label.opacity": 0,
+        "label.position": 16,
+        "label.offset.x": -10,
+        "label.offset.y": 0,
+        "label.color": "rgb(61,61,61)",
+        "grid.gap": 0,
+        "grid.column.count": 3,
+        "grid.borderRadius": 10,
+        "interactive": true,
+        "grid.border": 0,
+        "grid.column.percents": [
+          0.249,
+          0,
+          0.249
+        ],
+        "attach.padding.top": -3,
+        "attach.padding.bottom": -3,
+        "2d.movable": false
+      },
+      "a": {
+        "grid.row.count": 1,
+        "grid.column.count": 3,
+        "grid.border": 0,
+        "symbol": "symbols/develop/uiotos/arranged/controls/forms/07-其他/网格.json",
+        "node.margin.h": 3,
+        "grid.column.percents": [
+          0.249,
+          0,
+          0.249
+        ],
+        "borderWidth": 0,
+        "origin_width": 929.02294,
+        "origin_height": 280.14338,
+        "toolTipRaw": "<span style='font-weight:bold;color:rgb(125,195,125)'>说明：</span><span style='color:rgb(125,195,125);line-height:1.8em;letter-spacing:1px;'>\n<br>网格内布局的图元不允许拖动</span>"
+      }
+    },
+    {
+      "c": "ht.UNode",
+      "i": 303964,
+      "p": {
+        "name": "gv",
+        "displayName": "嵌套容器（gv1）",
+        "toolTip": "<span style='font-weight:bold;color:rgb(125,195,125)'>说明：</span><span style='color:rgb(125,195,125);line-height:1.8em;letter-spacing:1px;'>\n<br>网格内布局的图元不允许拖动</span>",
+        "parent": {
+          "__i": 303963
+        },
+        "tag": "gv1",
+        "dataBindings": {
+          "a": {
+            "display": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "innerLayoutMode": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "userData": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            }
+          }
+        },
+        "image": {
+          "modified": "Wed Jul 24 2024 21:32:02 GMT+0800 (中国标准时间)",
+          "dataBindings": [
+            {
+              "attr": "symbol",
+              "valueType": "Image",
+              "name": "symbol"
+            },
+            {
+              "attr": "display",
+              "valueType": "URL",
+              "group": "功能",
+              "name": "display"
+            },
+            {
+              "attr": "displayJson",
+              "valueType": "Multiline",
+              "description": "",
+              "extraInfo": "*",
+              "name": "displayJson"
+            },
+            {
+              "attr": "innerLayoutMode",
+              "valueType": "InnerLayoutMode",
+              "defaultValue": "none",
+              "description": "",
+              "name": "innerLayoutMode"
+            },
+            {
+              "attr": "onPostDeserialize",
+              "valueType": "Function",
+              "extraInfo": {
+                "arguments": [
+                  "json",
+                  "dm",
+                  "gv",
+                  "datas"
+                ],
+                "classify": "*"
+              },
+              "description": "",
+              "name": "onPostDeserialize"
+            },
+            {
+              "attr": "useOriginSize",
+              "valueType": "Boolean",
+              "defaultValue": false,
+              "extraInfo": "★",
+              "description": "",
+              "name": "useOriginSize"
+            },
+            {
+              "attr": "useInnerEventsAll",
+              "valueType": "Boolean",
+              "description": "",
+              "extraInfo": "*",
+              "name": "useInnerEventsAll"
+            },
+            {
+              "attr": "isLoadingGet",
+              "valueType": "Boolean",
+              "description": "",
+              "defaultValue": false,
+              "extraInfo": "★",
+              "name": "isLoadingGet"
+            },
+            {
+              "attr": "enableLoading",
+              "valueType": "Boolean",
+              "extraInfo": "*",
+              "name": "enableLoading"
+            },
+            {
+              "attr": "pureFormValues",
+              "valueType": "Boolean",
+              "description": "",
+              "name": "pureFormValues"
+            },
+            {
+              "attr": "userData",
+              "valueType": "Object",
+              "defaultValue": [],
+              "name": "userData"
+            },
+            {
+              "attr": "onDisplayLoaded",
+              "valueType": "Function",
+              "description": "",
+              "extraInfo": {
+                "arguments": [
+                  "data",
+                  "gv",
+                  "cache"
+                ]
+              },
+              "name": "onDisplayLoaded"
+            },
+            {
+              "attr": "shadowBorder",
+              "valueType": "NumberArray",
+              "defaultValue": [
+                0,
+                0,
+                8
+              ],
+              "group": "外观",
+              "extraInfo": "*",
+              "name": "shadowBorder"
+            },
+            {
+              "attr": "shadowColor",
+              "valueType": "Color",
+              "defaultValue": "rgba(55,125,255,0.50)",
+              "extraInfo": "*",
+              "name": "shadowColor"
+            },
+            {
+              "attr": "shadowEnabled",
+              "valueType": "Boolean",
+              "defaultValue": true,
+              "name": "shadowEnabled"
+            },
+            {
+              "attr": "borderWidth",
+              "valueType": "Number",
+              "name": "borderWidth"
+            },
+            {
+              "attr": "innerBackground",
+              "valueType": "Color",
+              "defaultValue": null,
+              "description": "",
+              "name": "innerBackground"
+            },
+            {
+              "attr": "bindControlsTag",
+              "valueType": "StringArray",
+              "group": "连线",
+              "name": "bindControlsTag"
+            },
+            {
+              "attr": "bindControlsAttr",
+              "valueType": "ObjectArray",
+              "name": "bindControlsAttr"
+            },
+            {
+              "attr": "bindControlsVal",
+              "valueType": "ObjectArray",
+              "description": "",
+              "name": "bindControlsVal"
+            },
+            {
+              "attr": "paramControlTag",
+              "valueType": "StringArray",
+              "name": "paramControlTag"
+            },
+            {
+              "attr": "paramControlAttr",
+              "valueType": "ObjectArray",
+              "name": "paramControlAttr"
+            },
+            {
+              "attr": "paramsGenerator",
+              "valueType": "Function",
+              "defaultValue": "__ht__function(data, val, index, node,oldVal,form,type,inner) {//绑定组索引对应的函数处理，用来动态生成复杂的参数变量传入\r\nswitch(index){\r\n    case 0:\r\n        break;\r\n    case 1:\r\n        break;\r\n    case 2:\r\n        break;\r\n    default:\r\n        break;\r\n}\r\n\r\nreturn val;}",
+              "extraInfo": {
+                "arguments": [
+                  "data",
+                  "val",
+                  "index",
+                  "node",
+                  "oldVal",
+                  "form",
+                  "type",
+                  "inner"
+                ],
+                "classify": "*"
+              },
+              "name": "paramsGenerator"
+            },
+            {
+              "attr": "useAttrCORS",
+              "valueType": "Boolean",
+              "extraInfo": "*",
+              "defaultValue": false,
+              "description": "连线操作和处理回写是否一致。\n                        比如多个文本框连线传值给相同对话框，弹窗修改\n                        后是否限定只能写到最新赋值过来的文本框。详见<a href='https://www.yuque.com/liuhuo-nc809/uiotos/fgi6dd7gado51acm#fFUbp' style=\"color:rgb(96,172,252)\"target=\"_blank\">同源属性操作</a>",
+              "bindIgnored": true,
+              "name": "useAttrCORS",
+              "dynamicCreate": true
+            }
+          ],
+          "snapshotURL": "symbols/develop/uiotos/arranged/controls/containers_icon/嵌套容器.json",
+          "renderHTML": "__ht__function(data, gv, cache) {return __graphView(data,gv,cache);}",
+          "width": 500,
+          "height": 300,
+          "fitSize": true,
+          "pixelPerfect": false,
+          "comps": [
+            {
+              "type": "text",
+              "text": {
+                "func": "__ht__function(data, view) {\n// return data.ca('__loadingText') && data.ca('__loadingText')[!data.ca('__loadingStatus')]\n}",
+                "value": "…"
+              },
+              "align": "center",
+              "color": {
+                "func": "attr@__loadingColor",
+                "value": "rgb(150,150,150)"
+              },
+              "font": {
+                "func": "attr@__loadingFont",
+                "value": "12px arial, sans-serif"
+              },
+              "visible": {
+                "func": "attr@__loadingVisible",
+                "value": false
+              },
+              "layoutH": "center",
+              "layoutV": "center",
+              "displayName": "Text（Text1）",
+              "rect": [
+                74.69339,
+                53.1422,
+                50.61322,
+                13.7156
+              ]
+            }
+          ],
+          "uuid": "FFA96CB4-F272-4AB8-AA49-03F9B825A29D"
+        },
+        "host": {
+          "__i": 303963
+        },
+        "position": {
+          "x": -663.26838,
+          "y": -297.78025
+        },
+        "width": 243.26695,
+        "height": 272.19414
+      },
+      "s": {
+        "label.position": 14,
+        "label.offset.x": -10,
+        "label.offset.y": 0,
+        "label.color": "rgb(61,61,61)",
+        "interactive": true,
+        "2d.movable": false,
+        "attach.padding.left": -3,
+        "attach.padding.right": -3,
+        "label.opacity": 0,
+        "2d.selectable": false
+      },
+      "a": {
+        "origin_width": 249.26695,
+        "origin_height": 272.19414,
+        "toolTipRaw": "<span style='font-weight:bold;color:rgb(125,195,125)'>说明：</span><span style='color:rgb(125,195,125);line-height:1.8em;letter-spacing:1px;'>\n<br>网格内布局的图元不允许拖动</span>",
+        "symbol": "symbols/develop/uiotos/arranged/controls/containers/嵌套容器.json",
+        "shadowEnabled": false,
+        "display": "./03-仪表盘卡片/卡片1.json",
+        "__loadingStatus": false,
+        "isLoadingGet": false,
+        "innerLayoutMode": "fullScreen",
+        "innerBackground": "white"
+      }
+    },
+    {
+      "c": "ht.UNode",
+      "i": 303965,
+      "p": {
+        "name": "gv",
+        "displayName": "嵌套容器（gv2）",
+        "toolTip": "<span style='font-weight:bold;color:rgb(125,195,125)'>说明：</span><span style='color:rgb(125,195,125);line-height:1.8em;letter-spacing:1px;'>\n<br>网格内布局的图元不允许拖动</span>",
+        "parent": {
+          "__i": 303963
+        },
+        "tag": "gv2",
+        "dataBindings": {
+          "a": {
+            "display": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "innerLayoutMode": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "userData": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            }
+          }
+        },
+        "image": {
+          "modified": "Wed Jul 24 2024 21:32:02 GMT+0800 (中国标准时间)",
+          "dataBindings": [
+            {
+              "attr": "symbol",
+              "valueType": "Image",
+              "name": "symbol"
+            },
+            {
+              "attr": "display",
+              "valueType": "URL",
+              "group": "功能",
+              "name": "display"
+            },
+            {
+              "attr": "displayJson",
+              "valueType": "Multiline",
+              "description": "",
+              "extraInfo": "*",
+              "name": "displayJson"
+            },
+            {
+              "attr": "innerLayoutMode",
+              "valueType": "InnerLayoutMode",
+              "defaultValue": "none",
+              "description": "",
+              "name": "innerLayoutMode"
+            },
+            {
+              "attr": "onPostDeserialize",
+              "valueType": "Function",
+              "extraInfo": {
+                "arguments": [
+                  "json",
+                  "dm",
+                  "gv",
+                  "datas"
+                ],
+                "classify": "*"
+              },
+              "description": "",
+              "name": "onPostDeserialize"
+            },
+            {
+              "attr": "useOriginSize",
+              "valueType": "Boolean",
+              "defaultValue": false,
+              "extraInfo": "★",
+              "description": "",
+              "name": "useOriginSize"
+            },
+            {
+              "attr": "useInnerEventsAll",
+              "valueType": "Boolean",
+              "description": "",
+              "extraInfo": "*",
+              "name": "useInnerEventsAll"
+            },
+            {
+              "attr": "isLoadingGet",
+              "valueType": "Boolean",
+              "description": "",
+              "defaultValue": false,
+              "extraInfo": "★",
+              "name": "isLoadingGet"
+            },
+            {
+              "attr": "enableLoading",
+              "valueType": "Boolean",
+              "extraInfo": "*",
+              "name": "enableLoading"
+            },
+            {
+              "attr": "pureFormValues",
+              "valueType": "Boolean",
+              "description": "",
+              "name": "pureFormValues"
+            },
+            {
+              "attr": "userData",
+              "valueType": "Object",
+              "defaultValue": [],
+              "name": "userData"
+            },
+            {
+              "attr": "onDisplayLoaded",
+              "valueType": "Function",
+              "description": "",
+              "extraInfo": {
+                "arguments": [
+                  "data",
+                  "gv",
+                  "cache"
+                ]
+              },
+              "name": "onDisplayLoaded"
+            },
+            {
+              "attr": "shadowBorder",
+              "valueType": "NumberArray",
+              "defaultValue": [
+                0,
+                0,
+                8
+              ],
+              "group": "外观",
+              "extraInfo": "*",
+              "name": "shadowBorder"
+            },
+            {
+              "attr": "shadowColor",
+              "valueType": "Color",
+              "defaultValue": "rgba(55,125,255,0.50)",
+              "extraInfo": "*",
+              "name": "shadowColor"
+            },
+            {
+              "attr": "shadowEnabled",
+              "valueType": "Boolean",
+              "defaultValue": true,
+              "name": "shadowEnabled"
+            },
+            {
+              "attr": "borderWidth",
+              "valueType": "Number",
+              "name": "borderWidth"
+            },
+            {
+              "attr": "innerBackground",
+              "valueType": "Color",
+              "defaultValue": null,
+              "description": "",
+              "name": "innerBackground"
+            },
+            {
+              "attr": "bindControlsTag",
+              "valueType": "StringArray",
+              "group": "连线",
+              "name": "bindControlsTag"
+            },
+            {
+              "attr": "bindControlsAttr",
+              "valueType": "ObjectArray",
+              "name": "bindControlsAttr"
+            },
+            {
+              "attr": "bindControlsVal",
+              "valueType": "ObjectArray",
+              "description": "",
+              "name": "bindControlsVal"
+            },
+            {
+              "attr": "paramControlTag",
+              "valueType": "StringArray",
+              "name": "paramControlTag"
+            },
+            {
+              "attr": "paramControlAttr",
+              "valueType": "ObjectArray",
+              "name": "paramControlAttr"
+            },
+            {
+              "attr": "paramsGenerator",
+              "valueType": "Function",
+              "defaultValue": "__ht__function(data, val, index, node,oldVal,form,type,inner) {//绑定组索引对应的函数处理，用来动态生成复杂的参数变量传入\r\nswitch(index){\r\n    case 0:\r\n        break;\r\n    case 1:\r\n        break;\r\n    case 2:\r\n        break;\r\n    default:\r\n        break;\r\n}\r\n\r\nreturn val;}",
+              "extraInfo": {
+                "arguments": [
+                  "data",
+                  "val",
+                  "index",
+                  "node",
+                  "oldVal",
+                  "form",
+                  "type",
+                  "inner"
+                ],
+                "classify": "*"
+              },
+              "name": "paramsGenerator"
+            },
+            {
+              "attr": "useAttrCORS",
+              "valueType": "Boolean",
+              "extraInfo": "*",
+              "defaultValue": false,
+              "description": "连线操作和处理回写是否一致。\n                        比如多个文本框连线传值给相同对话框，弹窗修改\n                        后是否限定只能写到最新赋值过来的文本框。详见<a href='https://www.yuque.com/liuhuo-nc809/uiotos/fgi6dd7gado51acm#fFUbp' style=\"color:rgb(96,172,252)\"target=\"_blank\">同源属性操作</a>",
+              "bindIgnored": true,
+              "name": "useAttrCORS",
+              "dynamicCreate": true
+            }
+          ],
+          "snapshotURL": "symbols/develop/uiotos/arranged/controls/containers_icon/嵌套容器.json",
+          "renderHTML": "__ht__function(data, gv, cache) {return __graphView(data,gv,cache);}",
+          "width": 500,
+          "height": 300,
+          "fitSize": true,
+          "pixelPerfect": false,
+          "comps": [
+            {
+              "type": "text",
+              "text": {
+                "func": "__ht__function(data, view) {\n// return data.ca('__loadingText') && data.ca('__loadingText')[!data.ca('__loadingStatus')]\n}",
+                "value": "…"
+              },
+              "align": "center",
+              "color": {
+                "func": "attr@__loadingColor",
+                "value": "rgb(150,150,150)"
+              },
+              "font": {
+                "func": "attr@__loadingFont",
+                "value": "12px arial, sans-serif"
+              },
+              "visible": {
+                "func": "attr@__loadingVisible",
+                "value": false
+              },
+              "layoutH": "center",
+              "layoutV": "center",
+              "displayName": "Text（Text1）",
+              "rect": [
+                74.69339,
+                53.1422,
+                50.61322,
+                13.7156
+              ]
+            }
+          ],
+          "uuid": "FFA96CB4-F272-4AB8-AA49-03F9B825A29D"
+        },
+        "host": {
+          "__i": 303963
+        },
+        "position": {
+          "x": -290.414,
+          "y": -297.78025
+        },
+        "width": 490.44181,
+        "height": 272.19414
+      },
+      "s": {
+        "label.position": 14,
+        "label.offset.x": -10,
+        "label.offset.y": 0,
+        "label.color": "rgb(61,61,61)",
+        "interactive": true,
+        "2d.movable": false,
+        "attach.column.index": 1,
+        "attach.padding.left": -3,
+        "attach.padding.right": -3,
+        "label.opacity": 0
+      },
+      "a": {
+        "origin_width": 249.26695,
+        "origin_height": 272.19414,
+        "toolTipRaw": "<span style='font-weight:bold;color:rgb(125,195,125)'>说明：</span><span style='color:rgb(125,195,125);line-height:1.8em;letter-spacing:1px;'>\n<br>网格内布局的图元不允许拖动</span>",
+        "symbol": "symbols/develop/uiotos/arranged/controls/containers/嵌套容器.json",
+        "shadowEnabled": false,
+        "display": "./03-仪表盘卡片/卡片2.json",
+        "__loadingStatus": false,
+        "isLoadingGet": false,
+        "innerLayoutMode": "fullScreen",
+        "innerBackground": "white"
+      }
+    },
+    {
+      "c": "ht.UNode",
+      "i": 303966,
+      "p": {
+        "name": "gv",
+        "displayName": "嵌套容器（gv3）",
+        "toolTip": "<span style='font-weight:bold;color:rgb(125,195,125)'>说明：</span><span style='color:rgb(125,195,125);line-height:1.8em;letter-spacing:1px;'>\n<br>网格内布局的图元不允许拖动</span>",
+        "parent": {
+          "__i": 303963
+        },
+        "tag": "gv3",
+        "dataBindings": {
+          "a": {
+            "display": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "innerLayoutMode": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "userData": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            }
+          }
+        },
+        "image": {
+          "modified": "Wed Jul 24 2024 21:32:02 GMT+0800 (中国标准时间)",
+          "dataBindings": [
+            {
+              "attr": "symbol",
+              "valueType": "Image",
+              "name": "symbol"
+            },
+            {
+              "attr": "display",
+              "valueType": "URL",
+              "group": "功能",
+              "name": "display"
+            },
+            {
+              "attr": "displayJson",
+              "valueType": "Multiline",
+              "description": "",
+              "extraInfo": "*",
+              "name": "displayJson"
+            },
+            {
+              "attr": "innerLayoutMode",
+              "valueType": "InnerLayoutMode",
+              "defaultValue": "none",
+              "description": "",
+              "name": "innerLayoutMode"
+            },
+            {
+              "attr": "onPostDeserialize",
+              "valueType": "Function",
+              "extraInfo": {
+                "arguments": [
+                  "json",
+                  "dm",
+                  "gv",
+                  "datas"
+                ],
+                "classify": "*"
+              },
+              "description": "",
+              "name": "onPostDeserialize"
+            },
+            {
+              "attr": "useOriginSize",
+              "valueType": "Boolean",
+              "defaultValue": false,
+              "extraInfo": "★",
+              "description": "",
+              "name": "useOriginSize"
+            },
+            {
+              "attr": "useInnerEventsAll",
+              "valueType": "Boolean",
+              "description": "",
+              "extraInfo": "*",
+              "name": "useInnerEventsAll"
+            },
+            {
+              "attr": "isLoadingGet",
+              "valueType": "Boolean",
+              "description": "",
+              "defaultValue": false,
+              "extraInfo": "★",
+              "name": "isLoadingGet"
+            },
+            {
+              "attr": "enableLoading",
+              "valueType": "Boolean",
+              "extraInfo": "*",
+              "name": "enableLoading"
+            },
+            {
+              "attr": "pureFormValues",
+              "valueType": "Boolean",
+              "description": "",
+              "name": "pureFormValues"
+            },
+            {
+              "attr": "userData",
+              "valueType": "Object",
+              "defaultValue": [],
+              "name": "userData"
+            },
+            {
+              "attr": "onDisplayLoaded",
+              "valueType": "Function",
+              "description": "",
+              "extraInfo": {
+                "arguments": [
+                  "data",
+                  "gv",
+                  "cache"
+                ]
+              },
+              "name": "onDisplayLoaded"
+            },
+            {
+              "attr": "shadowBorder",
+              "valueType": "NumberArray",
+              "defaultValue": [
+                0,
+                0,
+                8
+              ],
+              "group": "外观",
+              "extraInfo": "*",
+              "name": "shadowBorder"
+            },
+            {
+              "attr": "shadowColor",
+              "valueType": "Color",
+              "defaultValue": "rgba(55,125,255,0.50)",
+              "extraInfo": "*",
+              "name": "shadowColor"
+            },
+            {
+              "attr": "shadowEnabled",
+              "valueType": "Boolean",
+              "defaultValue": true,
+              "name": "shadowEnabled"
+            },
+            {
+              "attr": "borderWidth",
+              "valueType": "Number",
+              "name": "borderWidth"
+            },
+            {
+              "attr": "innerBackground",
+              "valueType": "Color",
+              "defaultValue": null,
+              "description": "",
+              "name": "innerBackground"
+            },
+            {
+              "attr": "bindControlsTag",
+              "valueType": "StringArray",
+              "group": "连线",
+              "name": "bindControlsTag"
+            },
+            {
+              "attr": "bindControlsAttr",
+              "valueType": "ObjectArray",
+              "name": "bindControlsAttr"
+            },
+            {
+              "attr": "bindControlsVal",
+              "valueType": "ObjectArray",
+              "description": "",
+              "name": "bindControlsVal"
+            },
+            {
+              "attr": "paramControlTag",
+              "valueType": "StringArray",
+              "name": "paramControlTag"
+            },
+            {
+              "attr": "paramControlAttr",
+              "valueType": "ObjectArray",
+              "name": "paramControlAttr"
+            },
+            {
+              "attr": "paramsGenerator",
+              "valueType": "Function",
+              "defaultValue": "__ht__function(data, val, index, node,oldVal,form,type,inner) {//绑定组索引对应的函数处理，用来动态生成复杂的参数变量传入\r\nswitch(index){\r\n    case 0:\r\n        break;\r\n    case 1:\r\n        break;\r\n    case 2:\r\n        break;\r\n    default:\r\n        break;\r\n}\r\n\r\nreturn val;}",
+              "extraInfo": {
+                "arguments": [
+                  "data",
+                  "val",
+                  "index",
+                  "node",
+                  "oldVal",
+                  "form",
+                  "type",
+                  "inner"
+                ],
+                "classify": "*"
+              },
+              "name": "paramsGenerator"
+            },
+            {
+              "attr": "useAttrCORS",
+              "valueType": "Boolean",
+              "extraInfo": "*",
+              "defaultValue": false,
+              "description": "连线操作和处理回写是否一致。\n                        比如多个文本框连线传值给相同对话框，弹窗修改\n                        后是否限定只能写到最新赋值过来的文本框。详见<a href='https://www.yuque.com/liuhuo-nc809/uiotos/fgi6dd7gado51acm#fFUbp' style=\"color:rgb(96,172,252)\"target=\"_blank\">同源属性操作</a>",
+              "bindIgnored": true,
+              "name": "useAttrCORS",
+              "dynamicCreate": true
+            }
+          ],
+          "snapshotURL": "symbols/develop/uiotos/arranged/controls/containers_icon/嵌套容器.json",
+          "renderHTML": "__ht__function(data, gv, cache) {return __graphView(data,gv,cache);}",
+          "width": 500,
+          "height": 300,
+          "fitSize": true,
+          "pixelPerfect": false,
+          "comps": [
+            {
+              "type": "text",
+              "text": {
+                "func": "__ht__function(data, view) {\n// return data.ca('__loadingText') && data.ca('__loadingText')[!data.ca('__loadingStatus')]\n}",
+                "value": "…"
+              },
+              "align": "center",
+              "color": {
+                "func": "attr@__loadingColor",
+                "value": "rgb(150,150,150)"
+              },
+              "font": {
+                "func": "attr@__loadingFont",
+                "value": "12px arial, sans-serif"
+              },
+              "visible": {
+                "func": "attr@__loadingVisible",
+                "value": false
+              },
+              "layoutH": "center",
+              "layoutV": "center",
+              "displayName": "Text（Text1）",
+              "rect": [
+                74.69339,
+                53.1422,
+                50.61322,
+                13.7156
+              ]
+            }
+          ],
+          "uuid": "FFA96CB4-F272-4AB8-AA49-03F9B825A29D"
+        },
+        "host": {
+          "__i": 303963
+        },
+        "position": {
+          "x": 82.44038,
+          "y": -297.78025
+        },
+        "width": 243.26695,
+        "height": 272.19414
+      },
+      "s": {
+        "label.position": 14,
+        "label.offset.x": -10,
+        "label.offset.y": 0,
+        "label.color": "rgb(61,61,61)",
+        "interactive": true,
+        "2d.movable": false,
+        "attach.column.index": 2,
+        "attach.padding.left": -3,
+        "attach.padding.right": -3,
+        "label.opacity": 0,
+        "2d.selectable": false
+      },
+      "a": {
+        "origin_width": 249.26695,
+        "origin_height": 272.19414,
+        "toolTipRaw": "<span style='font-weight:bold;color:rgb(125,195,125)'>说明：</span><span style='color:rgb(125,195,125);line-height:1.8em;letter-spacing:1px;'>\n<br>网格内布局的图元不允许拖动</span>",
+        "symbol": "symbols/develop/uiotos/arranged/controls/containers/嵌套容器.json",
+        "shadowEnabled": false,
+        "display": "./03-仪表盘卡片/卡片3.json",
+        "__loadingStatus": false,
+        "isLoadingGet": false,
+        "innerLayoutMode": "fullScreen",
+        "innerBackground": "white"
+      }
+    },
+    {
+      "c": "ht.UGrid",
+      "i": 303967,
+      "p": {
+        "name": "grid",
+        "displayName": "网格组合（grid1）",
+        "toolTip": "<span style='font-weight:bold;color:rgb(125,195,125)'>说明：</span><span style='color:rgb(125,195,125);line-height:1.8em;letter-spacing:1px;'>\n<br>网格内布局的图元不允许拖动</span>",
+        "parent": {
+          "__i": 303962
+        },
+        "tag": "grid1",
+        "dataBindings": {
+          "a": {
+            "datas": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "grid.row.count": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "grid.column.count": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "rowIndex": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "columnIndex": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "removeOthers": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "grid.row.percents": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "grid.auto.fill": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "grid.column.percents": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "grid.gap": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "valueGet": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "itemsGet": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "display": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "popDirection": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "popBackground": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "popPadding": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "popWidth": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "popHeight": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "popBorderColor": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "popBorderWidth": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "popBorderRadius": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "popTriggerEvent": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "userData": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            }
+          }
+        },
+        "image": "symbols/develop/uiotos/arranged/controls/forms/07-其他/网格.json",
+        "host": {
+          "__i": 303962
+        },
+        "position": {
+          "x": -290.414,
+          "y": -19.58611
+        },
+        "width": 994.97572,
+        "height": 272.19414
+      },
+      "s": {
+        "label.opacity": 0,
+        "label.position": 16,
+        "label.offset.x": -10,
+        "label.offset.y": 0,
+        "label.color": "rgb(61,61,61)",
+        "grid.gap": 0,
+        "grid.column.count": 4,
+        "grid.borderRadius": 10,
+        "interactive": true,
+        "grid.border": 0,
+        "attach.row.index": 1,
+        "attach.padding.top": -3,
+        "attach.padding.bottom": -3,
+        "2d.movable": false
+      },
+      "a": {
+        "grid.row.count": 1,
+        "grid.column.count": 4,
+        "grid.border": 0,
+        "symbol": "symbols/develop/uiotos/arranged/controls/forms/07-其他/网格.json",
+        "node.margin.h": 3,
+        "borderWidth": 0,
+        "origin_width": 100,
+        "origin_height": 280.14338,
+        "toolTipRaw": "<span style='font-weight:bold;color:rgb(125,195,125)'>说明：</span><span style='color:rgb(125,195,125);line-height:1.8em;letter-spacing:1px;'>\n<br>网格内布局的图元不允许拖动</span>"
+      }
+    },
+    {
+      "c": "ht.UNode",
+      "i": 303968,
+      "p": {
+        "name": "gv",
+        "displayName": "嵌套容器（gv4）",
+        "toolTip": "<span style='font-weight:bold;color:rgb(125,195,125)'>说明：</span><span style='color:rgb(125,195,125);line-height:1.8em;letter-spacing:1px;'>\n<br>网格内布局的图元不允许拖动</span>",
+        "parent": {
+          "__i": 303967
+        },
+        "tag": "gv4",
+        "dataBindings": {
+          "a": {
+            "display": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "innerLayoutMode": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "userData": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            }
+          }
+        },
+        "image": {
+          "modified": "Wed Jul 24 2024 21:32:02 GMT+0800 (中国标准时间)",
+          "dataBindings": [
+            {
+              "attr": "symbol",
+              "valueType": "Image",
+              "name": "symbol"
+            },
+            {
+              "attr": "display",
+              "valueType": "URL",
+              "group": "功能",
+              "name": "display"
+            },
+            {
+              "attr": "displayJson",
+              "valueType": "Multiline",
+              "description": "",
+              "extraInfo": "*",
+              "name": "displayJson"
+            },
+            {
+              "attr": "innerLayoutMode",
+              "valueType": "InnerLayoutMode",
+              "defaultValue": "none",
+              "description": "",
+              "name": "innerLayoutMode"
+            },
+            {
+              "attr": "onPostDeserialize",
+              "valueType": "Function",
+              "extraInfo": {
+                "arguments": [
+                  "json",
+                  "dm",
+                  "gv",
+                  "datas"
+                ],
+                "classify": "*"
+              },
+              "description": "",
+              "name": "onPostDeserialize"
+            },
+            {
+              "attr": "useOriginSize",
+              "valueType": "Boolean",
+              "defaultValue": false,
+              "extraInfo": "★",
+              "description": "",
+              "name": "useOriginSize"
+            },
+            {
+              "attr": "useInnerEventsAll",
+              "valueType": "Boolean",
+              "description": "",
+              "extraInfo": "*",
+              "name": "useInnerEventsAll"
+            },
+            {
+              "attr": "isLoadingGet",
+              "valueType": "Boolean",
+              "description": "",
+              "defaultValue": false,
+              "extraInfo": "★",
+              "name": "isLoadingGet"
+            },
+            {
+              "attr": "enableLoading",
+              "valueType": "Boolean",
+              "extraInfo": "*",
+              "name": "enableLoading"
+            },
+            {
+              "attr": "pureFormValues",
+              "valueType": "Boolean",
+              "description": "",
+              "name": "pureFormValues"
+            },
+            {
+              "attr": "userData",
+              "valueType": "Object",
+              "defaultValue": [],
+              "name": "userData"
+            },
+            {
+              "attr": "onDisplayLoaded",
+              "valueType": "Function",
+              "description": "",
+              "extraInfo": {
+                "arguments": [
+                  "data",
+                  "gv",
+                  "cache"
+                ]
+              },
+              "name": "onDisplayLoaded"
+            },
+            {
+              "attr": "shadowBorder",
+              "valueType": "NumberArray",
+              "defaultValue": [
+                0,
+                0,
+                8
+              ],
+              "group": "外观",
+              "extraInfo": "*",
+              "name": "shadowBorder"
+            },
+            {
+              "attr": "shadowColor",
+              "valueType": "Color",
+              "defaultValue": "rgba(55,125,255,0.50)",
+              "extraInfo": "*",
+              "name": "shadowColor"
+            },
+            {
+              "attr": "shadowEnabled",
+              "valueType": "Boolean",
+              "defaultValue": true,
+              "name": "shadowEnabled"
+            },
+            {
+              "attr": "borderWidth",
+              "valueType": "Number",
+              "name": "borderWidth"
+            },
+            {
+              "attr": "innerBackground",
+              "valueType": "Color",
+              "defaultValue": null,
+              "description": "",
+              "name": "innerBackground"
+            },
+            {
+              "attr": "bindControlsTag",
+              "valueType": "StringArray",
+              "group": "连线",
+              "name": "bindControlsTag"
+            },
+            {
+              "attr": "bindControlsAttr",
+              "valueType": "ObjectArray",
+              "name": "bindControlsAttr"
+            },
+            {
+              "attr": "bindControlsVal",
+              "valueType": "ObjectArray",
+              "description": "",
+              "name": "bindControlsVal"
+            },
+            {
+              "attr": "paramControlTag",
+              "valueType": "StringArray",
+              "name": "paramControlTag"
+            },
+            {
+              "attr": "paramControlAttr",
+              "valueType": "ObjectArray",
+              "name": "paramControlAttr"
+            },
+            {
+              "attr": "paramsGenerator",
+              "valueType": "Function",
+              "defaultValue": "__ht__function(data, val, index, node,oldVal,form,type,inner) {//绑定组索引对应的函数处理，用来动态生成复杂的参数变量传入\r\nswitch(index){\r\n    case 0:\r\n        break;\r\n    case 1:\r\n        break;\r\n    case 2:\r\n        break;\r\n    default:\r\n        break;\r\n}\r\n\r\nreturn val;}",
+              "extraInfo": {
+                "arguments": [
+                  "data",
+                  "val",
+                  "index",
+                  "node",
+                  "oldVal",
+                  "form",
+                  "type",
+                  "inner"
+                ],
+                "classify": "*"
+              },
+              "name": "paramsGenerator"
+            },
+            {
+              "attr": "useAttrCORS",
+              "valueType": "Boolean",
+              "extraInfo": "*",
+              "defaultValue": false,
+              "description": "连线操作和处理回写是否一致。\n                        比如多个文本框连线传值给相同对话框，弹窗修改\n                        后是否限定只能写到最新赋值过来的文本框。详见<a href='https://www.yuque.com/liuhuo-nc809/uiotos/fgi6dd7gado51acm#fFUbp' style=\"color:rgb(96,172,252)\"target=\"_blank\">同源属性操作</a>",
+              "bindIgnored": true,
+              "name": "useAttrCORS",
+              "dynamicCreate": true
+            }
+          ],
+          "snapshotURL": "symbols/develop/uiotos/arranged/controls/containers_icon/嵌套容器.json",
+          "renderHTML": "__ht__function(data, gv, cache) {return __graphView(data,gv,cache);}",
+          "width": 500,
+          "height": 300,
+          "fitSize": true,
+          "pixelPerfect": false,
+          "comps": [
+            {
+              "type": "text",
+              "text": {
+                "func": "__ht__function(data, view) {\n// return data.ca('__loadingText') && data.ca('__loadingText')[!data.ca('__loadingStatus')]\n}",
+                "value": "…"
+              },
+              "align": "center",
+              "color": {
+                "func": "attr@__loadingColor",
+                "value": "rgb(150,150,150)"
+              },
+              "font": {
+                "func": "attr@__loadingFont",
+                "value": "12px arial, sans-serif"
+              },
+              "visible": {
+                "func": "attr@__loadingVisible",
+                "value": false
+              },
+              "layoutH": "center",
+              "layoutV": "center",
+              "displayName": "Text（Text1）",
+              "rect": [
+                74.69339,
+                53.1422,
+                50.61322,
+                13.7156
+              ]
+            }
+          ],
+          "uuid": "FFA96CB4-F272-4AB8-AA49-03F9B825A29D"
+        },
+        "host": {
+          "__i": 303967
+        },
+        "position": {
+          "x": -663.52989,
+          "y": -19.58611
+        },
+        "width": 242.74393,
+        "height": 272.19414
+      },
+      "s": {
+        "label.position": 14,
+        "label.offset.x": -10,
+        "label.offset.y": 0,
+        "label.color": "rgb(61,61,61)",
+        "interactive": true,
+        "2d.movable": false,
+        "attach.padding.left": -3,
+        "attach.padding.right": -3,
+        "label.opacity": 0,
+        "2d.selectable": false
+      },
+      "a": {
+        "origin_width": 248.74393,
+        "origin_height": 272.19414,
+        "toolTipRaw": "<span style='font-weight:bold;color:rgb(125,195,125)'>说明：</span><span style='color:rgb(125,195,125);line-height:1.8em;letter-spacing:1px;'>\n<br>网格内布局的图元不允许拖动</span>",
+        "symbol": "symbols/develop/uiotos/arranged/controls/containers/嵌套容器.json",
+        "shadowEnabled": false,
+        "display": "./03-仪表盘卡片/卡片4.json",
+        "__loadingStatus": false,
+        "isLoadingGet": false,
+        "innerLayoutMode": "fullScreen",
+        "innerBackground": "white"
+      }
+    },
+    {
+      "c": "ht.UNode",
+      "i": 303969,
+      "p": {
+        "name": "gv",
+        "displayName": "嵌套容器（gv5）",
+        "toolTip": "<span style='font-weight:bold;color:rgb(125,195,125)'>说明：</span><span style='color:rgb(125,195,125);line-height:1.8em;letter-spacing:1px;'>\n<br>网格内布局的图元不允许拖动</span>",
+        "parent": {
+          "__i": 303967
+        },
+        "tag": "gv5",
+        "dataBindings": {
+          "a": {
+            "display": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "innerLayoutMode": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "userData": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            }
+          }
+        },
+        "image": {
+          "modified": "Wed Jul 24 2024 21:32:02 GMT+0800 (中国标准时间)",
+          "dataBindings": [
+            {
+              "attr": "symbol",
+              "valueType": "Image",
+              "name": "symbol"
+            },
+            {
+              "attr": "display",
+              "valueType": "URL",
+              "group": "功能",
+              "name": "display"
+            },
+            {
+              "attr": "displayJson",
+              "valueType": "Multiline",
+              "description": "",
+              "extraInfo": "*",
+              "name": "displayJson"
+            },
+            {
+              "attr": "innerLayoutMode",
+              "valueType": "InnerLayoutMode",
+              "defaultValue": "none",
+              "description": "",
+              "name": "innerLayoutMode"
+            },
+            {
+              "attr": "onPostDeserialize",
+              "valueType": "Function",
+              "extraInfo": {
+                "arguments": [
+                  "json",
+                  "dm",
+                  "gv",
+                  "datas"
+                ],
+                "classify": "*"
+              },
+              "description": "",
+              "name": "onPostDeserialize"
+            },
+            {
+              "attr": "useOriginSize",
+              "valueType": "Boolean",
+              "defaultValue": false,
+              "extraInfo": "★",
+              "description": "",
+              "name": "useOriginSize"
+            },
+            {
+              "attr": "useInnerEventsAll",
+              "valueType": "Boolean",
+              "description": "",
+              "extraInfo": "*",
+              "name": "useInnerEventsAll"
+            },
+            {
+              "attr": "isLoadingGet",
+              "valueType": "Boolean",
+              "description": "",
+              "defaultValue": false,
+              "extraInfo": "★",
+              "name": "isLoadingGet"
+            },
+            {
+              "attr": "enableLoading",
+              "valueType": "Boolean",
+              "extraInfo": "*",
+              "name": "enableLoading"
+            },
+            {
+              "attr": "pureFormValues",
+              "valueType": "Boolean",
+              "description": "",
+              "name": "pureFormValues"
+            },
+            {
+              "attr": "userData",
+              "valueType": "Object",
+              "defaultValue": [],
+              "name": "userData"
+            },
+            {
+              "attr": "onDisplayLoaded",
+              "valueType": "Function",
+              "description": "",
+              "extraInfo": {
+                "arguments": [
+                  "data",
+                  "gv",
+                  "cache"
+                ]
+              },
+              "name": "onDisplayLoaded"
+            },
+            {
+              "attr": "shadowBorder",
+              "valueType": "NumberArray",
+              "defaultValue": [
+                0,
+                0,
+                8
+              ],
+              "group": "外观",
+              "extraInfo": "*",
+              "name": "shadowBorder"
+            },
+            {
+              "attr": "shadowColor",
+              "valueType": "Color",
+              "defaultValue": "rgba(55,125,255,0.50)",
+              "extraInfo": "*",
+              "name": "shadowColor"
+            },
+            {
+              "attr": "shadowEnabled",
+              "valueType": "Boolean",
+              "defaultValue": true,
+              "name": "shadowEnabled"
+            },
+            {
+              "attr": "borderWidth",
+              "valueType": "Number",
+              "name": "borderWidth"
+            },
+            {
+              "attr": "innerBackground",
+              "valueType": "Color",
+              "defaultValue": null,
+              "description": "",
+              "name": "innerBackground"
+            },
+            {
+              "attr": "bindControlsTag",
+              "valueType": "StringArray",
+              "group": "连线",
+              "name": "bindControlsTag"
+            },
+            {
+              "attr": "bindControlsAttr",
+              "valueType": "ObjectArray",
+              "name": "bindControlsAttr"
+            },
+            {
+              "attr": "bindControlsVal",
+              "valueType": "ObjectArray",
+              "description": "",
+              "name": "bindControlsVal"
+            },
+            {
+              "attr": "paramControlTag",
+              "valueType": "StringArray",
+              "name": "paramControlTag"
+            },
+            {
+              "attr": "paramControlAttr",
+              "valueType": "ObjectArray",
+              "name": "paramControlAttr"
+            },
+            {
+              "attr": "paramsGenerator",
+              "valueType": "Function",
+              "defaultValue": "__ht__function(data, val, index, node,oldVal,form,type,inner) {//绑定组索引对应的函数处理，用来动态生成复杂的参数变量传入\r\nswitch(index){\r\n    case 0:\r\n        break;\r\n    case 1:\r\n        break;\r\n    case 2:\r\n        break;\r\n    default:\r\n        break;\r\n}\r\n\r\nreturn val;}",
+              "extraInfo": {
+                "arguments": [
+                  "data",
+                  "val",
+                  "index",
+                  "node",
+                  "oldVal",
+                  "form",
+                  "type",
+                  "inner"
+                ],
+                "classify": "*"
+              },
+              "name": "paramsGenerator"
+            },
+            {
+              "attr": "useAttrCORS",
+              "valueType": "Boolean",
+              "extraInfo": "*",
+              "defaultValue": false,
+              "description": "连线操作和处理回写是否一致。\n                        比如多个文本框连线传值给相同对话框，弹窗修改\n                        后是否限定只能写到最新赋值过来的文本框。详见<a href='https://www.yuque.com/liuhuo-nc809/uiotos/fgi6dd7gado51acm#fFUbp' style=\"color:rgb(96,172,252)\"target=\"_blank\">同源属性操作</a>",
+              "bindIgnored": true,
+              "name": "useAttrCORS",
+              "dynamicCreate": true
+            }
+          ],
+          "snapshotURL": "symbols/develop/uiotos/arranged/controls/containers_icon/嵌套容器.json",
+          "renderHTML": "__ht__function(data, gv, cache) {return __graphView(data,gv,cache);}",
+          "width": 500,
+          "height": 300,
+          "fitSize": true,
+          "pixelPerfect": false,
+          "comps": [
+            {
+              "type": "text",
+              "text": {
+                "func": "__ht__function(data, view) {\n// return data.ca('__loadingText') && data.ca('__loadingText')[!data.ca('__loadingStatus')]\n}",
+                "value": "…"
+              },
+              "align": "center",
+              "color": {
+                "func": "attr@__loadingColor",
+                "value": "rgb(150,150,150)"
+              },
+              "font": {
+                "func": "attr@__loadingFont",
+                "value": "12px arial, sans-serif"
+              },
+              "visible": {
+                "func": "attr@__loadingVisible",
+                "value": false
+              },
+              "layoutH": "center",
+              "layoutV": "center",
+              "displayName": "Text（Text1）",
+              "rect": [
+                74.69339,
+                53.1422,
+                50.61322,
+                13.7156
+              ]
+            }
+          ],
+          "uuid": "FFA96CB4-F272-4AB8-AA49-03F9B825A29D"
+        },
+        "host": {
+          "__i": 303967
+        },
+        "position": {
+          "x": -414.78596,
+          "y": -19.58611
+        },
+        "width": 242.74393,
+        "height": 272.19414
+      },
+      "s": {
+        "label.position": 14,
+        "label.offset.x": -10,
+        "label.offset.y": 0,
+        "label.color": "rgb(61,61,61)",
+        "interactive": true,
+        "2d.movable": false,
+        "attach.column.index": 1,
+        "attach.padding.left": -3,
+        "attach.padding.right": -3,
+        "label.opacity": 0,
+        "2d.selectable": false
+      },
+      "a": {
+        "origin_width": 248.74393,
+        "origin_height": 272.19414,
+        "toolTipRaw": "<span style='font-weight:bold;color:rgb(125,195,125)'>说明：</span><span style='color:rgb(125,195,125);line-height:1.8em;letter-spacing:1px;'>\n<br>网格内布局的图元不允许拖动</span>",
+        "symbol": "symbols/develop/uiotos/arranged/controls/containers/嵌套容器.json",
+        "shadowEnabled": false,
+        "display": "./03-仪表盘卡片/卡片5.json",
+        "__loadingStatus": false,
+        "isLoadingGet": false,
+        "innerLayoutMode": "fullScreen",
+        "innerBackground": "white"
+      }
+    },
+    {
+      "c": "ht.UNode",
+      "i": 303970,
+      "p": {
+        "name": "gv",
+        "displayName": "嵌套容器（gv6）",
+        "toolTip": "<span style='font-weight:bold;color:rgb(125,195,125)'>说明：</span><span style='color:rgb(125,195,125);line-height:1.8em;letter-spacing:1px;'>\n<br>网格内布局的图元不允许拖动</span>",
+        "parent": {
+          "__i": 303967
+        },
+        "tag": "gv6",
+        "dataBindings": {
+          "a": {
+            "display": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "innerLayoutMode": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "userData": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            }
+          }
+        },
+        "image": {
+          "modified": "Wed Jul 24 2024 21:32:02 GMT+0800 (中国标准时间)",
+          "dataBindings": [
+            {
+              "attr": "symbol",
+              "valueType": "Image",
+              "name": "symbol"
+            },
+            {
+              "attr": "display",
+              "valueType": "URL",
+              "group": "功能",
+              "name": "display"
+            },
+            {
+              "attr": "displayJson",
+              "valueType": "Multiline",
+              "description": "",
+              "extraInfo": "*",
+              "name": "displayJson"
+            },
+            {
+              "attr": "innerLayoutMode",
+              "valueType": "InnerLayoutMode",
+              "defaultValue": "none",
+              "description": "",
+              "name": "innerLayoutMode"
+            },
+            {
+              "attr": "onPostDeserialize",
+              "valueType": "Function",
+              "extraInfo": {
+                "arguments": [
+                  "json",
+                  "dm",
+                  "gv",
+                  "datas"
+                ],
+                "classify": "*"
+              },
+              "description": "",
+              "name": "onPostDeserialize"
+            },
+            {
+              "attr": "useOriginSize",
+              "valueType": "Boolean",
+              "defaultValue": false,
+              "extraInfo": "★",
+              "description": "",
+              "name": "useOriginSize"
+            },
+            {
+              "attr": "useInnerEventsAll",
+              "valueType": "Boolean",
+              "description": "",
+              "extraInfo": "*",
+              "name": "useInnerEventsAll"
+            },
+            {
+              "attr": "isLoadingGet",
+              "valueType": "Boolean",
+              "description": "",
+              "defaultValue": false,
+              "extraInfo": "★",
+              "name": "isLoadingGet"
+            },
+            {
+              "attr": "enableLoading",
+              "valueType": "Boolean",
+              "extraInfo": "*",
+              "name": "enableLoading"
+            },
+            {
+              "attr": "pureFormValues",
+              "valueType": "Boolean",
+              "description": "",
+              "name": "pureFormValues"
+            },
+            {
+              "attr": "userData",
+              "valueType": "Object",
+              "defaultValue": [],
+              "name": "userData"
+            },
+            {
+              "attr": "onDisplayLoaded",
+              "valueType": "Function",
+              "description": "",
+              "extraInfo": {
+                "arguments": [
+                  "data",
+                  "gv",
+                  "cache"
+                ]
+              },
+              "name": "onDisplayLoaded"
+            },
+            {
+              "attr": "shadowBorder",
+              "valueType": "NumberArray",
+              "defaultValue": [
+                0,
+                0,
+                8
+              ],
+              "group": "外观",
+              "extraInfo": "*",
+              "name": "shadowBorder"
+            },
+            {
+              "attr": "shadowColor",
+              "valueType": "Color",
+              "defaultValue": "rgba(55,125,255,0.50)",
+              "extraInfo": "*",
+              "name": "shadowColor"
+            },
+            {
+              "attr": "shadowEnabled",
+              "valueType": "Boolean",
+              "defaultValue": true,
+              "name": "shadowEnabled"
+            },
+            {
+              "attr": "borderWidth",
+              "valueType": "Number",
+              "name": "borderWidth"
+            },
+            {
+              "attr": "innerBackground",
+              "valueType": "Color",
+              "defaultValue": null,
+              "description": "",
+              "name": "innerBackground"
+            },
+            {
+              "attr": "bindControlsTag",
+              "valueType": "StringArray",
+              "group": "连线",
+              "name": "bindControlsTag"
+            },
+            {
+              "attr": "bindControlsAttr",
+              "valueType": "ObjectArray",
+              "name": "bindControlsAttr"
+            },
+            {
+              "attr": "bindControlsVal",
+              "valueType": "ObjectArray",
+              "description": "",
+              "name": "bindControlsVal"
+            },
+            {
+              "attr": "paramControlTag",
+              "valueType": "StringArray",
+              "name": "paramControlTag"
+            },
+            {
+              "attr": "paramControlAttr",
+              "valueType": "ObjectArray",
+              "name": "paramControlAttr"
+            },
+            {
+              "attr": "paramsGenerator",
+              "valueType": "Function",
+              "defaultValue": "__ht__function(data, val, index, node,oldVal,form,type,inner) {//绑定组索引对应的函数处理，用来动态生成复杂的参数变量传入\r\nswitch(index){\r\n    case 0:\r\n        break;\r\n    case 1:\r\n        break;\r\n    case 2:\r\n        break;\r\n    default:\r\n        break;\r\n}\r\n\r\nreturn val;}",
+              "extraInfo": {
+                "arguments": [
+                  "data",
+                  "val",
+                  "index",
+                  "node",
+                  "oldVal",
+                  "form",
+                  "type",
+                  "inner"
+                ],
+                "classify": "*"
+              },
+              "name": "paramsGenerator"
+            },
+            {
+              "attr": "useAttrCORS",
+              "valueType": "Boolean",
+              "extraInfo": "*",
+              "defaultValue": false,
+              "description": "连线操作和处理回写是否一致。\n                        比如多个文本框连线传值给相同对话框，弹窗修改\n                        后是否限定只能写到最新赋值过来的文本框。详见<a href='https://www.yuque.com/liuhuo-nc809/uiotos/fgi6dd7gado51acm#fFUbp' style=\"color:rgb(96,172,252)\"target=\"_blank\">同源属性操作</a>",
+              "bindIgnored": true,
+              "name": "useAttrCORS",
+              "dynamicCreate": true
+            }
+          ],
+          "snapshotURL": "symbols/develop/uiotos/arranged/controls/containers_icon/嵌套容器.json",
+          "renderHTML": "__ht__function(data, gv, cache) {return __graphView(data,gv,cache);}",
+          "width": 500,
+          "height": 300,
+          "fitSize": true,
+          "pixelPerfect": false,
+          "comps": [
+            {
+              "type": "text",
+              "text": {
+                "func": "__ht__function(data, view) {\n// return data.ca('__loadingText') && data.ca('__loadingText')[!data.ca('__loadingStatus')]\n}",
+                "value": "…"
+              },
+              "align": "center",
+              "color": {
+                "func": "attr@__loadingColor",
+                "value": "rgb(150,150,150)"
+              },
+              "font": {
+                "func": "attr@__loadingFont",
+                "value": "12px arial, sans-serif"
+              },
+              "visible": {
+                "func": "attr@__loadingVisible",
+                "value": false
+              },
+              "layoutH": "center",
+              "layoutV": "center",
+              "displayName": "Text（Text1）",
+              "rect": [
+                74.69339,
+                53.1422,
+                50.61322,
+                13.7156
+              ]
+            }
+          ],
+          "uuid": "FFA96CB4-F272-4AB8-AA49-03F9B825A29D"
+        },
+        "host": {
+          "__i": 303967
+        },
+        "position": {
+          "x": -166.04203,
+          "y": -19.58611
+        },
+        "width": 242.74393,
+        "height": 272.19414
+      },
+      "s": {
+        "label.position": 14,
+        "label.offset.x": -10,
+        "label.offset.y": 0,
+        "label.color": "rgb(61,61,61)",
+        "interactive": true,
+        "2d.movable": false,
+        "2d.selectable": false,
+        "attach.column.index": 2,
+        "attach.padding.left": -3,
+        "attach.padding.right": -3,
+        "label.opacity": 0
+      },
+      "a": {
+        "origin_width": 248.74393,
+        "origin_height": 272.19414,
+        "toolTipRaw": "<span style='font-weight:bold;color:rgb(125,195,125)'>说明：</span><span style='color:rgb(125,195,125);line-height:1.8em;letter-spacing:1px;'>\n<br>网格内布局的图元不允许拖动</span>",
+        "symbol": "symbols/develop/uiotos/arranged/controls/containers/嵌套容器.json",
+        "shadowEnabled": false,
+        "display": "./03-仪表盘卡片/卡片6.json",
+        "__loadingStatus": false,
+        "isLoadingGet": false,
+        "innerLayoutMode": "fullScreen",
+        "innerBackground": "white"
+      }
+    },
+    {
+      "c": "ht.UNode",
+      "i": 303971,
+      "p": {
+        "name": "gv",
+        "displayName": "嵌套容器（gv7）",
+        "toolTip": "<span style='font-weight:bold;color:rgb(125,195,125)'>说明：</span><span style='color:rgb(125,195,125);line-height:1.8em;letter-spacing:1px;'>\n<br>网格内布局的图元不允许拖动</span>",
+        "parent": {
+          "__i": 303967
+        },
+        "tag": "gv7",
+        "dataBindings": {
+          "a": {
+            "display": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "innerLayoutMode": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "userData": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            }
+          }
+        },
+        "image": {
+          "modified": "Wed Jul 24 2024 21:32:02 GMT+0800 (中国标准时间)",
+          "dataBindings": [
+            {
+              "attr": "symbol",
+              "valueType": "Image",
+              "name": "symbol"
+            },
+            {
+              "attr": "display",
+              "valueType": "URL",
+              "group": "功能",
+              "name": "display"
+            },
+            {
+              "attr": "displayJson",
+              "valueType": "Multiline",
+              "description": "",
+              "extraInfo": "*",
+              "name": "displayJson"
+            },
+            {
+              "attr": "innerLayoutMode",
+              "valueType": "InnerLayoutMode",
+              "defaultValue": "none",
+              "description": "",
+              "name": "innerLayoutMode"
+            },
+            {
+              "attr": "onPostDeserialize",
+              "valueType": "Function",
+              "extraInfo": {
+                "arguments": [
+                  "json",
+                  "dm",
+                  "gv",
+                  "datas"
+                ],
+                "classify": "*"
+              },
+              "description": "",
+              "name": "onPostDeserialize"
+            },
+            {
+              "attr": "useOriginSize",
+              "valueType": "Boolean",
+              "defaultValue": false,
+              "extraInfo": "★",
+              "description": "",
+              "name": "useOriginSize"
+            },
+            {
+              "attr": "useInnerEventsAll",
+              "valueType": "Boolean",
+              "description": "",
+              "extraInfo": "*",
+              "name": "useInnerEventsAll"
+            },
+            {
+              "attr": "isLoadingGet",
+              "valueType": "Boolean",
+              "description": "",
+              "defaultValue": false,
+              "extraInfo": "★",
+              "name": "isLoadingGet"
+            },
+            {
+              "attr": "enableLoading",
+              "valueType": "Boolean",
+              "extraInfo": "*",
+              "name": "enableLoading"
+            },
+            {
+              "attr": "pureFormValues",
+              "valueType": "Boolean",
+              "description": "",
+              "name": "pureFormValues"
+            },
+            {
+              "attr": "userData",
+              "valueType": "Object",
+              "defaultValue": [],
+              "name": "userData"
+            },
+            {
+              "attr": "onDisplayLoaded",
+              "valueType": "Function",
+              "description": "",
+              "extraInfo": {
+                "arguments": [
+                  "data",
+                  "gv",
+                  "cache"
+                ]
+              },
+              "name": "onDisplayLoaded"
+            },
+            {
+              "attr": "shadowBorder",
+              "valueType": "NumberArray",
+              "defaultValue": [
+                0,
+                0,
+                8
+              ],
+              "group": "外观",
+              "extraInfo": "*",
+              "name": "shadowBorder"
+            },
+            {
+              "attr": "shadowColor",
+              "valueType": "Color",
+              "defaultValue": "rgba(55,125,255,0.50)",
+              "extraInfo": "*",
+              "name": "shadowColor"
+            },
+            {
+              "attr": "shadowEnabled",
+              "valueType": "Boolean",
+              "defaultValue": true,
+              "name": "shadowEnabled"
+            },
+            {
+              "attr": "borderWidth",
+              "valueType": "Number",
+              "name": "borderWidth"
+            },
+            {
+              "attr": "innerBackground",
+              "valueType": "Color",
+              "defaultValue": null,
+              "description": "",
+              "name": "innerBackground"
+            },
+            {
+              "attr": "bindControlsTag",
+              "valueType": "StringArray",
+              "group": "连线",
+              "name": "bindControlsTag"
+            },
+            {
+              "attr": "bindControlsAttr",
+              "valueType": "ObjectArray",
+              "name": "bindControlsAttr"
+            },
+            {
+              "attr": "bindControlsVal",
+              "valueType": "ObjectArray",
+              "description": "",
+              "name": "bindControlsVal"
+            },
+            {
+              "attr": "paramControlTag",
+              "valueType": "StringArray",
+              "name": "paramControlTag"
+            },
+            {
+              "attr": "paramControlAttr",
+              "valueType": "ObjectArray",
+              "name": "paramControlAttr"
+            },
+            {
+              "attr": "paramsGenerator",
+              "valueType": "Function",
+              "defaultValue": "__ht__function(data, val, index, node,oldVal,form,type,inner) {//绑定组索引对应的函数处理，用来动态生成复杂的参数变量传入\r\nswitch(index){\r\n    case 0:\r\n        break;\r\n    case 1:\r\n        break;\r\n    case 2:\r\n        break;\r\n    default:\r\n        break;\r\n}\r\n\r\nreturn val;}",
+              "extraInfo": {
+                "arguments": [
+                  "data",
+                  "val",
+                  "index",
+                  "node",
+                  "oldVal",
+                  "form",
+                  "type",
+                  "inner"
+                ],
+                "classify": "*"
+              },
+              "name": "paramsGenerator"
+            },
+            {
+              "attr": "useAttrCORS",
+              "valueType": "Boolean",
+              "extraInfo": "*",
+              "defaultValue": false,
+              "description": "连线操作和处理回写是否一致。\n                        比如多个文本框连线传值给相同对话框，弹窗修改\n                        后是否限定只能写到最新赋值过来的文本框。详见<a href='https://www.yuque.com/liuhuo-nc809/uiotos/fgi6dd7gado51acm#fFUbp' style=\"color:rgb(96,172,252)\"target=\"_blank\">同源属性操作</a>",
+              "bindIgnored": true,
+              "name": "useAttrCORS",
+              "dynamicCreate": true
+            }
+          ],
+          "snapshotURL": "symbols/develop/uiotos/arranged/controls/containers_icon/嵌套容器.json",
+          "renderHTML": "__ht__function(data, gv, cache) {return __graphView(data,gv,cache);}",
+          "width": 500,
+          "height": 300,
+          "fitSize": true,
+          "pixelPerfect": false,
+          "comps": [
+            {
+              "type": "text",
+              "text": {
+                "func": "__ht__function(data, view) {\n// return data.ca('__loadingText') && data.ca('__loadingText')[!data.ca('__loadingStatus')]\n}",
+                "value": "…"
+              },
+              "align": "center",
+              "color": {
+                "func": "attr@__loadingColor",
+                "value": "rgb(150,150,150)"
+              },
+              "font": {
+                "func": "attr@__loadingFont",
+                "value": "12px arial, sans-serif"
+              },
+              "visible": {
+                "func": "attr@__loadingVisible",
+                "value": false
+              },
+              "layoutH": "center",
+              "layoutV": "center",
+              "displayName": "Text（Text1）",
+              "rect": [
+                74.69339,
+                53.1422,
+                50.61322,
+                13.7156
+              ]
+            }
+          ],
+          "uuid": "FFA96CB4-F272-4AB8-AA49-03F9B825A29D"
+        },
+        "host": {
+          "__i": 303967
+        },
+        "position": {
+          "x": 82.70189,
+          "y": -19.58611
+        },
+        "width": 242.74393,
+        "height": 272.19414
+      },
+      "s": {
+        "label.position": 14,
+        "label.offset.x": -10,
+        "label.offset.y": 0,
+        "label.color": "rgb(61,61,61)",
+        "interactive": true,
+        "2d.movable": false,
+        "attach.column.index": 3,
+        "attach.padding.left": -3,
+        "attach.padding.right": -3,
+        "label.opacity": 0,
+        "2d.selectable": false
+      },
+      "a": {
+        "origin_width": 248.74393,
+        "origin_height": 272.19414,
+        "toolTipRaw": "<span style='font-weight:bold;color:rgb(125,195,125)'>说明：</span><span style='color:rgb(125,195,125);line-height:1.8em;letter-spacing:1px;'>\n<br>网格内布局的图元不允许拖动</span>",
+        "symbol": "symbols/develop/uiotos/arranged/controls/containers/嵌套容器.json",
+        "shadowEnabled": false,
+        "display": "./03-仪表盘卡片/卡片7.json",
+        "__loadingStatus": false,
+        "isLoadingGet": false,
+        "innerLayoutMode": "fullScreen",
+        "innerBackground": "white"
+      }
+    }
+  ],
+  "modified": "Mon Aug 26 2024 17:34:28 GMT+0800 (中国标准时间)",
+  "contentRect": {
+    "x": -811.57569,
+    "y": -458.68318,
+    "width": 1033.16169,
+    "height": 600
+  }
+}

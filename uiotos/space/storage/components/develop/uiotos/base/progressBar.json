@@ -1,0 +1,63 @@
+{
+  "modified": "Mon Aug 12 2019 23:03:20 GMT+0800 (中国标准时间)",
+  "width": 100,
+  "height": 30,
+  "snapshotURL": "",
+  "func": "__ht__function(g, rect, comp, data, view) {\nvar x = rect.x;\nvar y = rect.y;\nvar width = rect.width;\nvar height = rect.height;\n\nvar borderColor = comp.getColor('borderColor');\nvar borderWidth = comp.getValue('borderWidth');\nvar background = comp.getColor('background');\nvar value = comp.getValue('value');\nvar foreColor = comp.getColor('foreColor');\nvar valueVisible = comp.getValue('valueVisible');\nvar valueColor = comp.getColor('valueColor');\nvar valueFont = comp.getValue('valueFont');\nvar gradientColor = comp.getColor('gradientColor');\nvar direction = comp.getValue('direction');\n\nif (value < 0) value = 0;\nif (value > 1) value = 1;\n\n// draw background\nif (background) {\n    g.fillStyle = background;\n    g.beginPath();\n    g.rect(x, y, width, height);\n    g.fill();\n}\n\nif (gradientColor) {\n    if (direction === 'v') {\n        var t = g.createLinearGradient(x, y, x+width, y);\n    }\n    else {\n        var t = g.createLinearGradient(x, y, x, y+height);\n    }    \n    t.addColorStop(0, foreColor);\n    t.addColorStop(0.5, gradientColor);\n    t.addColorStop(1, foreColor);\n    g.fillStyle = t;\n}\nelse {\n    g.fillStyle = foreColor;\n}\n\ng.beginPath();\nif (direction === 'v') {\n    g.rect(x, y+height * (1 - value), width, height * value);\n }\nelse {\n    g.rect(x, y, width * value, height);\n}  \ng.fill();\n\n// draw border\nif (borderWidth && borderColor) {\n    ht.Default.drawBorder(g, borderColor, x, y, width, height, borderWidth);\n}\n\nif (valueVisible) {\n    ht.Default.drawText(g, parseInt(value * 100) + '%', valueFont, valueColor, x, y, width, height, 'center', 'middle');\n}\n}",
+  "properties": {
+    "direction": {
+      "valueType": "Direction",
+      "defaultValue": "v",
+      "name": "PBDirection"
+    },
+    "value": {
+      "valueType": "Percentage",
+      "defaultValue": 0.7,
+      "name": "PBValue",
+      "group": "数值"
+    },
+    "valueVisible": {
+      "valueType": "Boolean",
+      "defaultValue": true,
+      "name": "PBValueVisible"
+    },
+    "valueColor": {
+      "valueType": "Color",
+      "defaultValue": "#88CFFF",
+      "name": "PBValueColor"
+    },
+    "valueFont": {
+      "valueType": "String",
+      "defaultValue": "12px arial",
+      "name": "PBValueFont"
+    },
+    "foreColor": {
+      "valueType": "Color",
+      "defaultValue": "#6EFE9F",
+      "name": "PBForeColor",
+      "group": "前景",
+      "description": "进度条渐进色描述"
+    },
+    "gradientColor": {
+      "valueType": "Color",
+      "defaultValue": null,
+      "name": "PBGradientColor"
+    },
+    "background": {
+      "valueType": "Color",
+      "defaultValue": "#20384A",
+      "name": "PBBackground",
+      "group": "背景"
+    },
+    "borderColor": {
+      "valueType": "Color",
+      "defaultValue": "rgb(255,255,255)",
+      "name": "PBBorderColor"
+    },
+    "borderWidth": {
+      "valueType": "Number",
+      "defaultValue": 0,
+      "name": "PBBorderWidth"
+    }
+  }
+}

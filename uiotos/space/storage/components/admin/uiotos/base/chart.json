@@ -1,0 +1,87 @@
+{
+  "modified": "Thu Jul 13 2023 08:24:50 GMT+0800 (中国标准时间)",
+  "width": 100,
+  "height": 100,
+  "snapshotURL": "",
+  "func": "__ht__function(g, rect, comp, data, view) {\nht.vector.comp.chart.apply(null, arguments);\n}",
+  "properties": {
+    "series": {
+      "valueType": "Object"
+    },
+    "xAxis": {
+      "valueType": "Object"
+    },
+    "yAxis": {
+      "valueType": "Object"
+    },
+    "colors": {
+      "valueType": "ColorArray",
+      "defaultValue": [
+        "rgb(51,153,255)",
+        "rgb(93,217,174)",
+        "#FEB64D",
+        "rgb(241,125,164)",
+        "rgb(135,144,204)",
+        "rgb(124,145,155)",
+        "rgb(48,242,120)",
+        "rgb(212,0,0)",
+        "#32D3EB",
+        "#c4ccd3"
+      ]
+    },
+    "background": {
+      "valueType": "Color"
+    },
+    "boundaryGap": {
+      "valueType": "Boolean",
+      "defaultValue": true
+    },
+    "rectSelectable": {
+      "valueType": "Boolean",
+      "defaultValue": true,
+      "group": "框选"
+    },
+    "rectSelectBorderColor": {
+      "valueType": "Color",
+      "defaultValue": "rgb(61,61,61)"
+    },
+    "rectSelectBackground": {
+      "valueType": "Color",
+      "defaultValue": "rgba(61,61,61,0.30)"
+    },
+    "onRectSelected": {
+      "valueType": "Function"
+    },
+    "tooltip": {
+      "valueType": "Boolean",
+      "defaultValue": true,
+      "name": "提示",
+      "group": "提示"
+    },
+    "tooltipLineColor": {
+      "valueType": "Color",
+      "defaultValue": "rgb(124,145,155)",
+      "name": "线颜色"
+    },
+    "tooltipLineWidth": {
+      "valueType": "PositiveNumber",
+      "defaultValue": 1,
+      "name": "线宽"
+    },
+    "tooltipLinePattern": {
+      "valueType": "NumberArray",
+      "name": "虚线样式"
+    },
+    "tooltipFormatter": {
+      "valueType": "Function",
+      "name": "提示类型",
+      "extraInfo": {
+        "arguments": [
+          "info",
+          "data",
+          "view"
+        ]
+      }
+    }
+  }
+}

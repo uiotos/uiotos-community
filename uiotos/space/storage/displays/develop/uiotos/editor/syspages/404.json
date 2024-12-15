@@ -1,0 +1,140 @@
+{
+  "v": "7.7.2",
+  "p": {
+    "autoAdjustIndex": true,
+    "hierarchicalRendering": true
+  },
+  "a": {
+    "rotateAsClock": false,
+    "gridBlockSize": 20,
+    "gridThickColor": "rgb(73,73,73)",
+    "gridLightColor": "rgb(58,58,58)",
+    "connectActionType": null,
+    "fitContent": false,
+    "onPostDeserialize": "__ht__function(json, dm, gv, datas) {}"
+  },
+  "d": [
+    {
+      "c": "ht.Node",
+      "i": 306170,
+      "p": {
+        "position": {
+          "x": -584.75635,
+          "y": -212.913
+        },
+        "width": 1920,
+        "height": 1080
+      },
+      "s": {
+        "shape": "rect",
+        "shape.background": "rgb(4,22,70)",
+        "shape.border.color": "#979797",
+        "fullscreen": "fill",
+        "fullscreen.gap": 0,
+        "opacity": 1,
+        "shape.gradient.color": "rgb(14,4,23)",
+        "shape.gradient": "linear.south"
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 306171,
+      "p": {
+        "toolTip": "<p style='color:rgb(242,83,75);margin:0px;font-weight:bold'>已被布局，不允许拖动<p>",
+        "host": {
+          "__i": 306170
+        },
+        "position": {
+          "x": -790.11777,
+          "y": -271.60034
+        },
+        "anchor": {
+          "x": 0.03486,
+          "y": 0.28255
+        },
+        "width": 441.50329,
+        "height": 81.79935
+      },
+      "s": {
+        "layout.v": "center",
+        "layout.h": "center",
+        "2d.movable": false
+      },
+      "a": {
+        "toolTipRaw": "<p style='color:rgb(242,83,75);margin:0px;font-weight:bold'>已被布局，不允许拖动<p>"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 306172,
+      "p": {
+        "displayName": "错误",
+        "parent": {
+          "__i": 306171
+        },
+        "image": "symbols/demo/extra/ui//错误.json",
+        "position": {
+          "x": -790.11777,
+          "y": -271.60034
+        },
+        "width": 30.78046,
+        "height": 24.92664
+      },
+      "s": {
+        "layout.v": "center",
+        "layout.h": "center",
+        "image.stretch": "uniform"
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 306173,
+      "p": {
+        "parent": {
+          "__i": 306171
+        },
+        "position": {
+          "x": -696.5237,
+          "y": -271.60034
+        },
+        "width": 141.97186,
+        "height": 46.22402
+      },
+      "s": {
+        "text": "未发现该应用界面文件！",
+        "layout.v": "center",
+        "layout.h": "center",
+        "text.font": "16px arial, sans-serif"
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 306174,
+      "p": {
+        "parent": {
+          "__i": 306171
+        },
+        "position": {
+          "x": -584.75635,
+          "y": -236.02501
+        },
+        "width": 441.50329,
+        "height": 46.22402
+      },
+      "s": {
+        "text": "请确保apps目录中进行名称与应用名称一致的界面文件存在，若不存在，请创建相应图纸",
+        "layout.v": "center",
+        "layout.h": "center",
+        "text.font": "16px arial, sans-serif",
+        "text.color": "rgba(222,222,222,0.5)"
+      }
+    }
+  ],
+  "modified": "Tue Nov 21 2023 15:42:34 GMT+0800 (中国标准时间)",
+  "contentRect": {
+    "x": -1544.75635,
+    "y": -752.913,
+    "width": 1920,
+    "height": 1080
+  }
+}

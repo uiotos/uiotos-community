@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Preview Symbol</title>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="assets/demo/extra/logo/logo.png" />
+    <style>
+        html,
+        body {
+            padding: 0px;
+            margin: 0px;
+        }
+    </style>
+    <script src="custom/libs/handlebars.js"></script>
+    <script src="libs/htiotos.js"></script>
+    <script src="kernel/iotosCommon.js"></script>
+    <script src="kernel/baseControls.js"></script>
+
+    <script>
+        function init() {
+            dataModel = new ht.DataModel();
+            graphView = new ht.graph.GraphView(dataModel);
+            graphView.addToDOM();
+            graphView.setEditable(true);
+
+            ht.Default.xhrLoad('previews/symbol.json', function(text) {
+                var json = ht.Default.parse(text);
+                if (json.title) document.title = json.title;
+                dataModel.setBackground(json.background);
+                node = new ht.Node();
+                node.setImage(json);
+                node.setPosition(graphView.getWidth() / 2, graphView.getHeight() / 2);
+                dataModel.add(node);
+            });
+        }
+    </script>
+</head>
+
+<body onload='setTimeout(init, 300)'>
+</body>
+
+</html>

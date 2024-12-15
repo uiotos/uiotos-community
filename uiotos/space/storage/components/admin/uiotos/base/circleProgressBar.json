@@ -1,0 +1,75 @@
+{
+  "modified": "Fri Aug 26 2022 17:40:07 GMT+0800 (中国标准时间)",
+  "width": 100,
+  "height": 100,
+  "snapshotURL": "",
+  "func": "__ht__function(g, rect, comp, data, view) {\n// * 创建渐变背景色\r\nfunction addCreateLinear(colorsArr) {\r\n    var linear = rectWidth < rectHeight\r\n        ? g.createLinearGradient(0, posY - width / 2, width, posY + width / 2)\r\n        : g.createLinearGradient(posX - width / 2, 0, posX + width / 2, width);\r\n    var len = colorsArr.length;\r\n    for (var key in colorsArr) {\r\n        linear.addColorStop((+key + 1) / len, colorsArr[key]);\r\n    }\r\n    return linear;\r\n}\r\n\r\n// * 获取属性值\r\nvar rectWidth = rect.width;\r\nvar rectHeight = rect.height;\r\nvar width = rectWidth < rectHeight ? rectWidth : rectHeight;\r\nvar progressPercentage = parseFloat((comp.getValue('progressPercentage') * 100).toFixed(10));\r\nvar fontScale = comp.getValue('fontScale');\r\nvar showOrigin = comp.getValue('showOrigin');\r\nvar progressLineCap = comp.getValue('progressLineCap');\r\nvar fontSize = comp.getValue('fontSize');\r\n\r\n// * 定义属性值\r\nvar posX = rectWidth / 2;\r\nvar posY = rectHeight / 2;\r\nvar circleLineWidth = width / 10;\r\nvar circleRadius = (width - circleLineWidth) / 2;\r\nvar circleAngle = {\r\n    sAngle: 0,\r\n    eAngle: 2 * Math.PI\r\n};\r\nvar proStartAngel = -Math.PI / 2; //原先是Math.PI,发现是左边水平开始旋转，改成从上顶部开始旋转，不过始终还没解决如果是两个渐变色，如何100%的时候才刚好实现渐变完成，这样油表颜色一样阶段变化？\r\nvar proEndAngel = proStartAngel + ((Math.PI * 2) / 100) * progressPercentage;\r\n\r\n// * 创建渐变填充颜色\r\nvar linearOuter = addCreateLinear(comp.getValue('linearOuter'));\r\nvar linearInner = addCreateLinear(comp.getValue('linearInner'));\r\n\r\n// * 0.保存绘制前状态\r\ng.save();\r\n\r\n// * 1.背景圆\r\ng.beginPath();\r\ng.arc(posX, posY, circleRadius, circleAngle.sAngle, circleAngle.eAngle);\r\ng.closePath();\r\ng.fillStyle = comp.getValue('innerBackground');\r\ng.fill();\r\ng.lineWidth = circleLineWidth;\r\ng.strokeStyle = comp.getValue('outerDefaultColor');\r\ng.stroke();\r\n\r\n// * 2.进度环\r\ng.beginPath();\r\ng.arc(posX, posY, circleRadius, proStartAngel, proEndAngel);\r\ng.strokeStyle = linearOuter;\r\ng.lineCap = progressLineCap;\r\nif (progressPercentage !== 0) g.stroke();\r\n\r\n// * 3.绘制中心圆\r\ng.beginPath();\r\ng.fillStyle = linearInner;\r\ng.arc(\r\n    posX,\r\n    posY,\r\n    circleRadius - circleLineWidth / 2,\r\n    0,\r\n    Math.PI * 2,\r\n    false\r\n);\r\ng.strokeStyle = comp.getValue('innerGapColor');\r\ng.fill();\r\nlet gapwidth = comp.getValue('innerGapWidth'); \r\ng.lineWidth = gapwidth == 0 ? 0 : gapwidth\r\nif(gapwidth > 0){\r\n    g.stroke();\r\n}\r\n\r\n// * 4.绘制文字\r\ng.fillStyle = comp.getValue('textColor');\r\ng.textAlign = 'center';\r\ng.font = fontSize + 'px Arial';\r\ng.translate(posX * (1 - fontScale), posY * (1 - fontScale));\r\ng.scale(fontScale, fontScale);\r\nshowOrigin\r\n    ? g.fillText(progressPercentage / 100, posX, posY + fontSize / 3)\r\n    : g.fillText(progressPercentage + '%', posX, posY + fontSize / 3);\r\n\r\n// * 5.恢复绘制前状态\r\ng.restore();\n}",
+  "properties": {
+    "progressPercentage": {
+      "valueType": "Percentage",
+      "defaultValue": 0.9,
+      "name": "进度百分比",
+      "description": "进度"
+    },
+    "linearOuter": {
+      "valueType": "ColorArray",
+      "defaultValue": [
+        "#26a67b",
+        "#0474d6"
+      ],
+      "name": "圆环渐变色",
+      "description": "圆环渐变色"
+    },
+    "linearInner": {
+      "valueType": "ColorArray",
+      "defaultValue": [
+        "#004e92",
+        "#000000"
+      ],
+      "name": "内圆渐变色",
+      "description": "内圆渐变色"
+    },
+    "fontScale": {
+      "valueType": "Number",
+      "defaultValue": 1,
+      "name": "字体缩放比例",
+      "description": "默认为1倍"
+    },
+    "showOrigin": {
+      "valueType": "Boolean",
+      "defaultValue": false,
+      "name": "显示原始值",
+      "description": "false为百分比显示，true为原始值显示"
+    },
+    "progressLineCap": {
+      "valueType": "CapStyle",
+      "defaultValue": "round",
+      "name": "进度条样式",
+      "description": "分为平直/圆形/方形"
+    },
+    "innerBackground": {
+      "valueType": "Color",
+      "defaultValue": "#3d3d3d"
+    },
+    "outerDefaultColor": {
+      "valueType": "Color",
+      "defaultValue": "rgb(61,61,61)"
+    },
+    "innerGapWidth": {
+      "valueType": "Number",
+      "defaultValue": 2
+    },
+    "innerGapColor": {
+      "valueType": "Color",
+      "defaultValue": "#0A2E44"
+    },
+    "textColor": {
+      "valueType": "Color",
+      "defaultValue": "#32D3EB"
+    },
+    "fontSize": {
+      "valueType": "PositiveNumber",
+      "defaultValue": 16
+    }
+  }
+}

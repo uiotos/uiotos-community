@@ -1,0 +1,233 @@
+{
+    "v": "7.3.3",
+    "p": {
+        "autoAdjustIndex": true,
+        "hierarchicalRendering": true
+    },
+    "a": {
+        "rotateAsClock": false,
+        "gridBlockSize": 20,
+        "gridThickColor": "rgba(100,100,100,0.2)",
+        "gridLightColor": "rgba(127,127,127,0.1)",
+        "connectActionType": null,
+        "fitContent": false,
+        "zoomable": false,
+        "pannable": false,
+        "rectSelectable": false,
+        "onPostDeserialize": "__ht__function(json, dm, gv, datas) {}"
+    },
+    "d": [{
+            "c": "ht.Node",
+            "i": 24769,
+            "p": {
+                "position": {
+                    "x": 399.60945,
+                    "y": 247.15559
+                },
+                "width": 360.89596,
+                "height": 209.80274
+            },
+            "s": {
+                "shape": "rect",
+                "shape.background": "rgb(247,247,247)",
+                "shape.border.color": "#979797",
+                "interactive": true,
+                "image.stretch": "uniform",
+                "fullscreen": "fill",
+                "fullscreen.gap": 0,
+                "shape.gradient.color": "rgb(247,247,247)",
+                "label.position": 14,
+                "label.offset.x": -10,
+                "label.offset.y": 0,
+                "label.color": "rgb(61,61,61)"
+            }
+        },
+        {
+            "c": "ht.Text",
+            "i": 24770,
+            "p": {
+                "displayName": "dataBackup",
+                "tag": "dataBackup",
+                "dataBindings": {
+                    "s": {
+                        "text": {
+                            "id": "iotos.form",
+                            "func": "__ht__function formParser(rawData) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}",
+                            "idinfo": "",
+                            "isTplBinded": false
+                        }
+                    }
+                },
+                "position": {
+                    "x": 296.05695,
+                    "y": 179.02203
+                },
+                "width": 3.59318,
+                "height": 0.001
+            },
+            "s": {
+                "text": "文本",
+                "interactive": true,
+                "2d.visible": false,
+                "image.stretch": "uniform",
+                "label.position": 14,
+                "label.offset.x": -10,
+                "label.offset.y": 0,
+                "label.color": "rgb(61,61,61)"
+            }
+        },
+        {
+            "c": "ht.Node",
+            "i": 24771,
+            "p": {
+                "displayName": "input",
+                "toolTip": "已被布局，不允许拖动",
+                "tag": "input1",
+                "dataBindings": {
+                    "a": {
+                        "value": {
+                            "id": "iotos.form",
+                            "idinfo": "",
+                            "isTplBinded": false,
+                            "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+                        },
+                        "instantTrigger": {
+                            "id": "iotos.form",
+                            "idinfo": "",
+                            "isTplBinded": false,
+                            "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+                        },
+                        "onChange": {
+                            "id": "iotos.form",
+                            "idinfo": "",
+                            "isTplBinded": false,
+                            "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+                        }
+                    },
+                    "s": {
+                        "label": {
+                            "id": "iotos.form",
+                            "alias": "",
+                            "func": "__ht__function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        console.error(err);\r\n        return rawData;\r\n    }\r\n}",
+                            "idinfo": "",
+                            "isTplBinded": false
+                        }
+                    }
+                },
+                "image": "symbols/develop/uiotos/base/input-ui.json",
+                "host": {
+                    "__i": 24769
+                },
+                "position": {
+                    "x": 414.50122,
+                    "y": 177.86735
+                },
+                "width": 283.82288,
+                "height": 35
+            },
+            "s": {
+                "label.position": 14,
+                "label.offset.x": -10,
+                "label.offset.y": 0,
+                "label.color": "rgb(61,61,61)",
+                "label": "名称",
+                "2d.movable": false,
+                "layout.h": "leftright",
+                "layout.v": "top"
+            },
+            "a": {
+                "iconPath": "symbols/demo/uiotos/icons/light/search.json",
+                "labelText": "名称",
+                "gap": 0
+            }
+        },
+        {
+            "c": "ht.Node",
+            "i": 24772,
+            "p": {
+                "displayName": "txt",
+                "toolTip": "已被布局，不允许拖动",
+                "tag": "txt1",
+                "dataBindings": {
+                    "a": {
+                        "value": {
+                            "id": "iotos.form",
+                            "idinfo": "",
+                            "isTplBinded": false,
+                            "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+                        },
+                        "instantTrigger": {
+                            "id": "iotos.form",
+                            "idinfo": "",
+                            "isTplBinded": false,
+                            "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+                        },
+                        "htmlContent": {
+                            "id": "iotos.form",
+                            "idinfo": "",
+                            "isTplBinded": false,
+                            "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+                        },
+                        "readOnly": {
+                            "id": "iotos.form",
+                            "idinfo": "",
+                            "isTplBinded": false,
+                            "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+                        },
+                        "onChange": {
+                            "id": "iotos.form",
+                            "idinfo": "",
+                            "isTplBinded": false,
+                            "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+                        }
+                    },
+                    "s": {
+                        "label": {
+                            "id": "iotos.form",
+                            "alias": "",
+                            "func": "__ht__function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        console.error(err);\r\n        return rawData;\r\n    }\r\n}",
+                            "idinfo": "",
+                            "isTplBinded": false
+                        }
+                    }
+                },
+                "image": "symbols/develop/uiotos/base/textArea-ui.json",
+                "host": {
+                    "__i": 24769
+                },
+                "position": {
+                    "x": 414.50122,
+                    "y": 282.29172
+                },
+                "width": 283.82288,
+                "height": 128.70912
+            },
+            "s": {
+                "label.position": 9,
+                "label.offset.x": -10,
+                "label.offset.y": 0,
+                "label.color": "rgb(61,61,61)",
+                "2d.movable": false,
+                "interactive": true,
+                "image.stretch": "uniform",
+                "label": "备注",
+                "layout.h": "leftright",
+                "layout.v": "topbottom"
+            },
+            "a": {
+                "value": "",
+                "labelText": "备注",
+                "gap": 0,
+                "layoutVertical": false,
+                "labelEmbeded": false
+            }
+        }
+    ],
+    "modified": "Sat Apr 01 2023 19:57:42 GMT+0800 (中国标准时间)",
+    "contentRect": {
+        "x": 219.16147,
+        "y": 142.25422,
+        "width": 360.89596,
+        "height": 209.80274
+    }
+}

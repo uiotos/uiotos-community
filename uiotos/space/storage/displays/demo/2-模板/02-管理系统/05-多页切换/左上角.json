@@ -1,0 +1,144 @@
+{
+  "v": "8.0.1",
+  "p": {
+    "autoAdjustIndex": true,
+    "hierarchicalRendering": true
+  },
+  "a": {
+    "rotateAsClock": false,
+    "gridBlockSize": 20,
+    "connectActionType": null,
+    "fitContent": false,
+    "zoomable": false,
+    "rectSelectable": false,
+    "pannable": false
+  },
+  "d": [
+    {
+      "c": "ht.Node",
+      "i": 682168,
+      "p": {
+        "name": "base",
+        "displayName": "底板（_base）",
+        "tag": "_base",
+        "dataBindings": {
+          "s": {
+            "label": {
+              "id": "iotos.form",
+              "alias": "",
+              "func": "__ht__function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        console.error(err);\r\n        return rawData;\r\n    }\r\n}",
+              "idinfo": "",
+              "isTplBinded": false
+            }
+          }
+        },
+        "position": {
+          "x": 1520.13802,
+          "y": 17.73983
+        },
+        "width": 107.92999,
+        "height": 35.47966
+      },
+      "s": {
+        "shape": "rect",
+        "shape.background": "rgb(0,33,64)",
+        "fullscreen": "fill",
+        "fullscreen.gap": -2,
+        "2d.movable": false,
+        "label.opacity": 1,
+        "interactive": true,
+        "label.position": 17,
+        "label.offset.y": 0,
+        "label.color": "rgb(247,247,247)",
+        "label.font": "bold 14px sans-serif, Arial",
+        "label": "LOGO区域",
+        "shape.border.color": "rgb(213,213,213)"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 682169,
+      "p": {
+        "name": "gv",
+        "displayName": "嵌套容器（gv1）",
+        "toolTip": "<p style='color:rgb(242,83,75);margin-top:5px;margin-bottom:5px;font-weight:bold;line-height:1.5em;'>已被布局，不允许拖动（shift+回车可解除）</p>",
+        "tag": "gv1",
+        "dataBindings": {
+          "a": {
+            "display": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "innerLayoutMode": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "透明图片按钮_@autoBase2@1715965594247>0>func1>a:inputs": {
+              "id": "iotos.formReset",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "userData": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            }
+          }
+        },
+        "image": "symbols/develop/uiotos/arranged/controls/containers/嵌套容器.json",
+        "host": {
+          "__i": 682168
+        },
+        "position": {
+          "x": 1520.13802,
+          "y": 17.73983
+        },
+        "width": 107.92999,
+        "height": 35.47966
+      },
+      "s": {
+        "label.position": 14,
+        "label.offset.x": -10,
+        "label.offset.y": 0,
+        "label.color": "rgb(61,61,61)",
+        "interactive": true,
+        "image.stretch": "uniform",
+        "label.opacity": 0,
+        "2d.movable": false,
+        "layout.h": "leftright",
+        "layout.v": "topbottom",
+        "fullscreen.gap": 0
+      },
+      "a": {
+        "symbol": "symbols/develop/uiotos/arranged/controls/containers/嵌套容器.json",
+        "display": "displays/develop/__favorites/widgets/嵌套容器/__封装/透明图片按钮_@autoBase2@1715965594247.json",
+        "__loadingStatus": false,
+        "isLoadingGet": false,
+        "innerLayoutMode": "fullScreen",
+        "shadowEnabled": false,
+        "透明图片按钮_@autoBase2@1715965594247>0>func1>a:inputs": "已点击LOGO区域！",
+        "toolTipRaw": "<p style='color:rgb(242,83,75);margin-top:5px;margin-bottom:5px;font-weight:bold;line-height:1.5em;'>已被布局，不允许拖动（shift+回车可解除）</p>",
+        "bindControlsTag": [],
+        "bindControlsAttr": [],
+        "bindControlsVal": [],
+        "paramControlTag": [],
+        "paramControlAttr": [],
+        "paramBindEvent": [],
+        "paramsGenerator": "function paramsGenerator(data, val, index, node, oldVal, form) {\r\n    //绑定组索引对应的函数处理，用来动态生成复杂的参数变量传入\r\n    switch (index) {\r\n        case 0:\r\n            break;\r\n        case 1:\r\n            break;\r\n        case 2:\r\n            break;\r\n        default:\r\n            break;\r\n    }\r\n    return val;\r\n}"
+      }
+    }
+  ],
+  "modified": "Mon Aug 26 2024 17:48:23 GMT+0800 (中国标准时间)",
+  "contentRect": {
+    "x": 1439.4992,
+    "y": 0,
+    "width": 134.60382,
+    "height": 35.47966
+  }
+}

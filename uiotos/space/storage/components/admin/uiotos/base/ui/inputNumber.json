@@ -1,0 +1,172 @@
+{
+  "modified": "Thu Jan 02 2020 11:17:12 GMT+0800 (中国标准时间)",
+  "width": 180,
+  "height": 38,
+  "snapshotURL": "symbols/ht/snapshot/inputNumber.json",
+  "func": "__ht__function(g, rect, comp, data, view) {\nht.vector.comp.inputNumber.apply(this, arguments);\n}",
+  "properties": {
+    "value": {
+      "valueType": "String",
+      "name": "UIFormItemValue"
+    },
+    "placeholder": {
+      "valueType": "String",
+      "name": "UIPlaceHolder"
+    },
+    "placeholderColor": {
+      "valueType": "Color",
+      "defaultValue": "#737373",
+      "name": "UIPlaceHolderColor"
+    },
+    "min": {
+      "valueType": "PositiveNumber",
+      "name": "ChartMinValue"
+    },
+    "max": {
+      "valueType": "PositiveNumber",
+      "name": "ChartMaxValue"
+    },
+    "step": {
+      "valueType": "PositiveNumber",
+      "defaultValue": 1,
+      "name": "SliderStep"
+    },
+    "disabled": {
+      "valueType": "Boolean",
+      "defaultValue": false,
+      "name": "UIDisabled"
+    },
+    "disabledLayerColor": {
+      "valueType": "Color",
+      "defaultValue": "rgba(255,255,255,0.35)",
+      "name": "UIDisabledLayerColor"
+    },
+    "borderWidth": {
+      "valueType": "PositiveNumber",
+      "defaultValue": 1,
+      "name": "UIBorderWidth"
+    },
+    "borderColor": {
+      "valueType": "Color",
+      "defaultValue": "#737373",
+      "name": "UIBorderColor"
+    },
+    "focusBorderColor": {
+      "valueType": "Color",
+      "defaultValue": null,
+      "name": "UIFocusBorderColor"
+    },
+    "borderRadius": {
+      "valueType": "String",
+      "defaultValue": "0",
+      "name": "UIBorderRadius"
+    },
+    "padding": {
+      "valueType": "String",
+      "defaultValue": "0",
+      "name": "UIPadding"
+    },
+    "background": {
+      "valueType": "Color",
+      "name": "UIBackground"
+    },
+    "focusBackground": {
+      "valueType": "Color",
+      "name": "UIFocusBackground"
+    },
+    "icon": {
+      "valueType": "String",
+      "name": "UIIcon"
+    },
+    "iconWidth": {
+      "valueType": "PositiveNumber",
+      "defaultValue": 20,
+      "name": "UIIconWidth"
+    },
+    "iconHeight": {
+      "valueType": "PositiveNumber",
+      "defaultValue": "20",
+      "name": "UIIconHeight"
+    },
+    "iconAlign": {
+      "valueType": "Align",
+      "defaultValue": "left",
+      "name": "UIIcoAlign"
+    },
+    "font": {
+      "valueType": "Font",
+      "defaultValue": "12px arial, sans-serif",
+      "name": "UIFont"
+    },
+    "textAlign": {
+      "valueType": "Align",
+      "defaultValue": "left",
+      "name": "UITextAlign"
+    },
+    "textColor": {
+      "valueType": "Color",
+      "defaultValue": "#737373",
+      "name": "UITextColor"
+    },
+    "maxLength": {
+      "valueType": "PositiveNumber",
+      "name": "UIMaxLength"
+    },
+    "enterEndInputable": {
+      "valueType": "Boolean",
+      "defaultValue": true,
+      "name": "UIEnterEndInputable"
+    },
+    "buttonVisible": {
+      "valueType": "Boolean",
+      "defaultValue": true,
+      "name": "UIButtonVisible"
+    },
+    "selectTextOnFocus": {
+      "valueType": "Boolean",
+      "defaultValue": false,
+      "name": "UISelectTextOnFocus"
+    },
+    "onKeyDown": {
+      "valueType": "Function",
+      "name": "UIOnKeyDown",
+      "extraInfo": {
+        "arguments": [
+          "event",
+          "data",
+          "view"
+        ]
+      }
+    },
+    "onKeyUp": {
+      "valueType": "Function",
+      "name": "UIOnKeyUp",
+      "extraInfo": {
+        "arguments": [
+          "event",
+          "data",
+          "view"
+        ]
+      }
+    },
+    "onChange": {
+      "valueType": "Function",
+      "name": "UIOnChange",
+      "extraInfo": {
+        "arguments": [
+          "value",
+          "data",
+          "view"
+        ]
+      }
+    }
+  },
+  "events": {
+    "onDown": "__ht__function(event, data, view, point, width, height) {\nht.vector.inputNumberInteractor.onDown.apply(this, arguments);\n}",
+    "onUp": "__ht__function(event, data, view, point, width, height) {\nht.vector.inputNumberInteractor.onUp.apply(this, arguments);\n}",
+    "onMove": "__ht__function(event, data, view, point, width, height) {\nht.vector.inputNumberInteractor.onMove.apply(this, arguments);\n}",
+    "onEnter": "__ht__function(event, data, view, point, width, height) {\nht.vector.inputNumberInteractor.onEnter.apply(this, arguments);\n}",
+    "onLeave": "__ht__function(event, data, view, point, width, height) {\nht.vector.inputNumberInteractor.onLeave.apply(this, arguments);\n}",
+    "onDrag": "__ht__function(event, data, view, point, width, height) {\nht.vector.inputNumberInteractor.onDrag.apply(this, arguments);\n}"
+  }
+}

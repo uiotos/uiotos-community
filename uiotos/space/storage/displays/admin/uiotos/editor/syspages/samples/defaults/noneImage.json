@@ -1,0 +1,87 @@
+{
+  "v": "8.0.1",
+  "p": {
+    "background": "#20252e",
+    "autoAdjustIndex": true,
+    "hierarchicalRendering": true
+  },
+  "a": {
+    "rotateAsClock": false,
+    "gridBlockSize": 20,
+    "connectActionType": null,
+    "fitContent": false,
+    "zoomable": false,
+    "rectSelectable": false,
+    "pannable": false,
+    "_professional": false
+  },
+  "d": [
+    {
+      "c": "ht.Node",
+      "i": 26944,
+      "p": {
+        "name": "base",
+        "displayName": "底板（_base）",
+        "tag": "_base",
+        "position": {
+          "x": 699.4359,
+          "y": 377.19579
+        },
+        "width": 1398.87181,
+        "height": 754.39158
+      },
+      "s": {
+        "shape": "rect",
+        "shape.background": "white",
+        "fullscreen": "fill",
+        "fullscreen.gap": 0,
+        "2d.movable": false,
+        "label.opacity": 0,
+        "label.position": 17,
+        "interactive": true,
+        "2d.selectable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 26945,
+      "p": {
+        "name": "图片-37",
+        "displayName": "图片-37（图片-371）",
+        "toolTip": "<p style='color:rgb(242,83,75);margin-top:5px;margin-bottom:5px;font-weight:bold;line-height:1.5em;'>已被布局，不允许拖动（shift+回车可解除）</p>",
+        "tag": "图片-371",
+        "image": "symbols/develop/uiotos/arranged/icons/文件/图片-37.json",
+        "host": {
+          "__i": 26944
+        },
+        "position": {
+          "x": 727.99096,
+          "y": 395.33341
+        },
+        "width": 968.54775,
+        "height": 552.98263
+      },
+      "s": {
+        "label.position": 14,
+        "label.offset.x": -10,
+        "label.offset.y": 0,
+        "2d.movable": false,
+        "interactive": true,
+        "image.stretch": "uniform",
+        "label.opacity": 0,
+        "layout.h": "leftright",
+        "layout.v": "topbottom"
+      },
+      "a": {
+        "icon-background": "rgba(124,146,156,0.2)"
+      }
+    }
+  ],
+  "modified": "Wed Aug 07 2024 20:08:55 GMT+0800 (中国标准时间)",
+  "contentRect": {
+    "x": -0.00001,
+    "y": 0,
+    "width": 1398.87181,
+    "height": 754.39158
+  }
+}

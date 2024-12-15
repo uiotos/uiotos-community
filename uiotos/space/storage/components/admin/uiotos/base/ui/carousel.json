@@ -1,0 +1,113 @@
+{
+  "modified": "Thu Aug 08 2019 15:23:56 GMT+0800 (中国标准时间)",
+  "width": 100,
+  "height": 100,
+  "snapshotURL": "",
+  "func": "__ht__function(g, rect, comp, data, view) {\nht.vector.comp.carousel.apply(this, arguments);\n}",
+  "properties": {
+    "dataSource": {
+      "valueType": "Object",
+      "defaultValue": [
+        "",
+      ],
+      "name": "UIDataSource"
+    },
+    "minScale": {
+      "valueType": "Percentage",
+      "defaultValue": 0.7,
+      "name": "UIMinScale"
+    },
+    "minOpacity": {
+      "valueType": "Opacity",
+      "defaultValue": 0.5,
+      "name": "UIMinOpacity"
+    },
+    "vertical": {
+      "valueType": "Boolean",
+      "defaultValue": true,
+      "name": "editor.vertical"
+    },
+    "itemWidth": {
+      "valueType": "Number",
+      "defaultValue": 100,
+      "name": "UIItemWidth"
+    },
+    "itemHeight": {
+      "valueType": "Number",
+      "defaultValue": 30,
+      "name": "UIItemHeigth"
+    },
+    "itemBackground": {
+      "valueType": "Color",
+      "defaultValue": "#32D3EB",
+      "name": "UIItemBackground"
+    },
+    "itemColor": {
+      "valueType": "Color",
+      "defaultValue": "rgb(247,247,247)",
+      "name": "UIItemTextColor"
+    },
+    "font": {
+      "valueType": "Font",
+      "defaultValue": "12px sans-serif, Arial",
+      "name": "UIFont"
+    },
+    "index": {
+      "valueType": "PositiveNumber",
+      "defaultValue": 0,
+      "name": "UISelectIndex"
+    },
+    "gap": {
+      "valueType": "Number",
+      "defaultValue": 8,
+      "name": "UIItemGap"
+    },
+    "background": {
+      "valueType": "Color",
+      "defaultValue": null,
+      "name": "UIBackground"
+    },
+    "drawItem": {
+      "valueType": "Function",
+      "name": "UIDrawItem",
+      "extraInfo": {
+        "arguments": [
+          "g",
+          "item",
+          "rect",
+          "data",
+          "view"
+        ]
+      }
+    },
+    "animation": {
+      "valueType": "Boolean",
+      "defaultValue": true,
+      "name": "UIAnimation"
+    },
+    "scrollable": {
+      "valueType": "Boolean",
+      "defaultValue": true,
+      "name": "editor.scrollable"
+    },
+    "onClickItem": {
+      "valueType": "Function",
+      "name": "UIOnClick",
+      "extraInfo": {
+        "arguments": [
+          "item",
+          "index",
+          "data",
+          "view"
+        ]
+      }
+    }
+  },
+  "events": {
+    "onDown": "__ht__function(event, data, view, point, width, height) {\nht.vector.carouselInteractor.onDown.apply(this, arguments);\n}",
+    "onMove": "__ht__function(event, data, view, point, width, height) {\nht.vector.carouselInteractor.onMove.apply(this, arguments);\n}",
+    "onEnter": "__ht__function(event, data, view, point, width, height) {\nht.vector.carouselInteractor.onEnter.apply(this, arguments);\n}",
+    "onLeave": "__ht__function(event, data, view, point, width, height) {\nht.vector.carouselInteractor.onLeave.apply(this, arguments);\n}",
+    "onScroll": "__ht__function(event, data, view, point, width, height) {\nht.vector.carouselInteractor.onScroll.apply(this, arguments);\n}"
+  }
+}

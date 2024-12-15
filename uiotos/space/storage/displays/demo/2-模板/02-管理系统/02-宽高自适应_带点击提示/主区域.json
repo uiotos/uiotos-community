@@ -1,0 +1,981 @@
+{
+  "v": "8.0.1",
+  "p": {
+    "autoAdjustIndex": true,
+    "hierarchicalRendering": true
+  },
+  "a": {
+    "rotateAsClock": false,
+    "gridBlockSize": 20,
+    "connectActionType": null,
+    "fitContent": false,
+    "zoomable": false,
+    "rectSelectable": false,
+    "pannable": false,
+    "_professional": false
+  },
+  "d": [
+    {
+      "c": "ht.Node",
+      "i": 508560,
+      "p": {
+        "name": "base",
+        "displayName": "底板（_base）",
+        "tag": "_base",
+        "dataBindings": {
+          "s": {
+            "shape.border.width": {
+              "id": "iotos.form",
+              "alias": "",
+              "func": "__ht__function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        console.error(err);\r\n        return rawData;\r\n    }\r\n}",
+              "idinfo": "",
+              "isTplBinded": false
+            },
+            "shape.border.color": {
+              "id": "iotos.form",
+              "alias": "",
+              "func": "__ht__function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        console.error(err);\r\n        return rawData;\r\n    }\r\n}",
+              "idinfo": "",
+              "isTplBinded": false
+            },
+            "shape.background": {
+              "id": "iotos.form",
+              "alias": "",
+              "func": "__ht__function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        console.error(err);\r\n        return rawData;\r\n    }\r\n}",
+              "idinfo": "",
+              "isTplBinded": false
+            }
+          }
+        },
+        "position": {
+          "x": 1091.34902,
+          "y": 103.85049
+        },
+        "width": 209.77915,
+        "height": 640.23601
+      },
+      "s": {
+        "shape": "rect",
+        "shape.background": "rgb(247,247,247)",
+        "fullscreen": "fill",
+        "fullscreen.gap": 0,
+        "2d.movable": false,
+        "label.opacity": 1,
+        "interactive": true,
+        "label.position": 17,
+        "label.offset.y": 0,
+        "label.color": "rgb(61,61,61)",
+        "label.font": "bold 14px sans-serif, Arial",
+        "label": "主区域",
+        "shape.border.color": "rgb(55,125,255)"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 508561,
+      "p": {
+        "name": "txt",
+        "displayName": "文本框（txt1）",
+        "toolTip": "<p style='color:rgb(242,83,75);margin-top:5px;margin-bottom:5px;font-weight:bold;line-height:1.5em;'>已被布局，不允许拖动（shift+回车可解除）</p>",
+        "tag": "txt1",
+        "dataBindings": {
+          "a": {
+            "value": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "instantTrigger": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "htmlContent": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "readOnly": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "onChange": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "display": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "popDirection": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "popBackground": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "popPadding": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "popWidth": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "popHeight": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "popBorderColor": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "popBorderWidth": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "popBorderRadius": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "popTriggerEvent": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "userData": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            }
+          }
+        },
+        "image": "symbols/develop/uiotos/arranged/controls/forms/02-内容输入/文本框.json",
+        "host": {
+          "__i": 508560
+        },
+        "position": {
+          "x": 1091.34902,
+          "y": -62.279
+        },
+        "width": 156.593,
+        "height": 259.24836
+      },
+      "s": {
+        "label.position": 14,
+        "label.offset.x": -10,
+        "label.offset.y": 0,
+        "label.color": "rgb(61,61,61)",
+        "interactive": true,
+        "label.opacity": 1,
+        "label": "",
+        "2d.movable": false,
+        "layout.h": "leftright",
+        "layout.v": "top"
+      },
+      "a": {
+        "symbol": "symbols/develop/uiotos/arranged/controls/forms/02-内容输入/文本框.json",
+        "gap": 0,
+        "labelText": "",
+        "borderWidth": 0,
+        "value": "当浏览器窗口尺寸任意变化时：\n\n1）顶部高度固定，宽度自适应；\n\n2）左侧宽度固定，高度自适应；\n\n3）内容区宽高自适应。\n\n4）左上角和右上角宽高固定不变。\n\n注意：编辑状态下，双击各模块，可进入内嵌页设计。",
+        "bindEvents": [
+          "*",
+          "onChange"
+        ],
+        "readOnly": true
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 508562,
+      "p": {
+        "name": "gv",
+        "displayName": "嵌套容器（gv1）",
+        "toolTip": "<p style='color:rgb(242,83,75);margin-top:5px;margin-bottom:5px;font-weight:bold;line-height:1.5em;'>已被布局，不允许拖动（shift+回车可解除）</p>",
+        "tag": "gv1",
+        "dataBindings": {
+          "a": {
+            "display": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "innerLayoutMode": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "透明图片按钮_@autoBase2@1715965594247>0>func1>a:inputs": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "__ht__function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        console.error(err);\r\n        return rawData;\r\n    }\r\n}",
+              "alias": ""
+            },
+            "透明图片按钮_@autoBase2@1715965594247>0>cbtn1>a:default-background": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "__ht__function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        console.error(err);\r\n        return rawData;\r\n    }\r\n}",
+              "alias": ""
+            },
+            "userData": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "value": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "instantTrigger": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "htmlContent": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "readOnly": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "onChange": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "透明图片按钮_@autoBase2@1715965594247>0>cbtn1>a:display": {
+              "id": "iotos.formReset",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "透明图片按钮_@autoBase2@1715965594247>0>cbtn1>a:popDirection": {
+              "id": "iotos.formReset",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "透明图片按钮_@autoBase2@1715965594247>0>cbtn1>a:popBackground": {
+              "id": "iotos.formReset",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "透明图片按钮_@autoBase2@1715965594247>0>cbtn1>a:popPadding": {
+              "id": "iotos.formReset",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "透明图片按钮_@autoBase2@1715965594247>0>cbtn1>a:popWidth": {
+              "id": "iotos.formReset",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "透明图片按钮_@autoBase2@1715965594247>0>cbtn1>a:popHeight": {
+              "id": "iotos.formReset",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "透明图片按钮_@autoBase2@1715965594247>0>cbtn1>a:popBorderColor": {
+              "id": "iotos.formReset",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "透明图片按钮_@autoBase2@1715965594247>0>cbtn1>a:popBorderWidth": {
+              "id": "iotos.formReset",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "透明图片按钮_@autoBase2@1715965594247>0>cbtn1>a:popBorderRadius": {
+              "id": "iotos.formReset",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "透明图片按钮_@autoBase2@1715965594247>0>cbtn1>a:popTriggerEvent": {
+              "id": "iotos.formReset",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "透明图片按钮_@autoBase2@1715965594247>0>func1>a:userData": {
+              "id": "iotos.formReset",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "透明图片按钮_@autoBase2@1715965594247>0>func1>a:output": {
+              "id": "iotos.formReset",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "透明图片按钮_@autoBase2@1715965594247>0>func1>a:outputByEvent": {
+              "id": "iotos.formReset",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "透明图片按钮_@autoBase2@1715965594247>0>func1>a:exec": {
+              "id": "iotos.formReset",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "透明图片按钮_@autoBase2@1715965594247>0>func1>a:arrExec": {
+              "id": "iotos.formReset",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "透明图片按钮_@autoBase2@1715965594247>0>func1>a:onOutput": {
+              "id": "iotos.formReset",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "透明图片按钮_@autoBase2@1715965594247>0>func1>a:_type": {
+              "id": "iotos.formReset",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "透明图片按钮_@autoBase2@1715965594247>0>func1>a:_title": {
+              "id": "iotos.formReset",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "透明图片按钮_@autoBase2@1715965594247>0>func1>a:_region": {
+              "id": "iotos.formReset",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "透明图片按钮_@autoBase2@1715965594247>0>func1>a:_duration": {
+              "id": "iotos.formReset",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "透明图片按钮_@autoBase2@1715965594247>0>func1>a:_fixedWidth": {
+              "id": "iotos.formReset",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "透明图片按钮_@autoBase2@1715965594247>0>func1>a:_fixedHeight": {
+              "id": "iotos.formReset",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "透明图片按钮_@autoBase2@1715965594247>0>func1>a:convertFlatToTree": {
+              "id": "iotos.formReset",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "透明图片按钮_@autoBase2@1715965594247>0>func1>a:inputKeys": {
+              "id": "iotos.formReset",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "透明图片按钮_@autoBase2@1715965594247>0>func1>a:inputValues": {
+              "id": "iotos.formReset",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            }
+          }
+        },
+        "image": {
+          "modified": "Wed Jul 24 2024 21:32:02 GMT+0800 (中国标准时间)",
+          "dataBindings": [
+            {
+              "attr": "symbol",
+              "valueType": "Image",
+              "name": "symbol"
+            },
+            {
+              "attr": "display",
+              "valueType": "URL",
+              "group": "功能",
+              "name": "display"
+            },
+            {
+              "attr": "displayJson",
+              "valueType": "Multiline",
+              "description": "",
+              "extraInfo": "*",
+              "name": "displayJson"
+            },
+            {
+              "attr": "innerLayoutMode",
+              "valueType": "InnerLayoutMode",
+              "defaultValue": "none",
+              "description": "",
+              "name": "innerLayoutMode"
+            },
+            {
+              "attr": "onPostDeserialize",
+              "valueType": "Function",
+              "extraInfo": {
+                "arguments": [
+                  "json",
+                  "dm",
+                  "gv",
+                  "datas"
+                ],
+                "classify": "*"
+              },
+              "description": "",
+              "name": "onPostDeserialize"
+            },
+            {
+              "attr": "useOriginSize",
+              "valueType": "Boolean",
+              "defaultValue": false,
+              "extraInfo": "★",
+              "description": "",
+              "name": "useOriginSize"
+            },
+            {
+              "attr": "useInnerEventsAll",
+              "valueType": "Boolean",
+              "description": "",
+              "extraInfo": "*",
+              "name": "useInnerEventsAll"
+            },
+            {
+              "attr": "isLoadingGet",
+              "valueType": "Boolean",
+              "description": "",
+              "defaultValue": false,
+              "extraInfo": "★",
+              "name": "isLoadingGet"
+            },
+            {
+              "attr": "enableLoading",
+              "valueType": "Boolean",
+              "extraInfo": "*",
+              "name": "enableLoading"
+            },
+            {
+              "attr": "pureFormValues",
+              "valueType": "Boolean",
+              "description": "",
+              "name": "pureFormValues"
+            },
+            {
+              "attr": "userData",
+              "valueType": "Object",
+              "defaultValue": [],
+              "name": "userData"
+            },
+            {
+              "attr": "onDisplayLoaded",
+              "valueType": "Function",
+              "description": "",
+              "extraInfo": {
+                "arguments": [
+                  "data",
+                  "gv",
+                  "cache"
+                ]
+              },
+              "name": "onDisplayLoaded"
+            },
+            {
+              "attr": "shadowBorder",
+              "valueType": "NumberArray",
+              "defaultValue": [
+                0,
+                0,
+                8
+              ],
+              "group": "外观",
+              "extraInfo": "*",
+              "name": "shadowBorder"
+            },
+            {
+              "attr": "shadowColor",
+              "valueType": "Color",
+              "defaultValue": "rgba(55,125,255,0.50)",
+              "extraInfo": "*",
+              "name": "shadowColor"
+            },
+            {
+              "attr": "shadowEnabled",
+              "valueType": "Boolean",
+              "defaultValue": true,
+              "name": "shadowEnabled"
+            },
+            {
+              "attr": "borderWidth",
+              "valueType": "Number",
+              "name": "borderWidth"
+            },
+            {
+              "attr": "innerBackground",
+              "valueType": "Color",
+              "defaultValue": null,
+              "description": "",
+              "name": "innerBackground"
+            },
+            {
+              "attr": "bindControlsTag",
+              "valueType": "StringArray",
+              "group": "连线",
+              "name": "bindControlsTag"
+            },
+            {
+              "attr": "bindControlsAttr",
+              "valueType": "ObjectArray",
+              "name": "bindControlsAttr"
+            },
+            {
+              "attr": "bindControlsVal",
+              "valueType": "ObjectArray",
+              "description": "",
+              "name": "bindControlsVal"
+            },
+            {
+              "attr": "paramControlTag",
+              "valueType": "StringArray",
+              "name": "paramControlTag"
+            },
+            {
+              "attr": "paramControlAttr",
+              "valueType": "ObjectArray",
+              "name": "paramControlAttr"
+            },
+            {
+              "attr": "paramsGenerator",
+              "valueType": "Function",
+              "defaultValue": "__ht__function(data, val, index, node,oldVal,form,type,inner) {//绑定组索引对应的函数处理，用来动态生成复杂的参数变量传入\r\nswitch(index){\r\n    case 0:\r\n        break;\r\n    case 1:\r\n        break;\r\n    case 2:\r\n        break;\r\n    default:\r\n        break;\r\n}\r\n\r\nreturn val;}",
+              "extraInfo": {
+                "arguments": [
+                  "data",
+                  "val",
+                  "index",
+                  "node",
+                  "oldVal",
+                  "form",
+                  "type",
+                  "inner"
+                ],
+                "classify": "*"
+              },
+              "name": "paramsGenerator"
+            },
+            {
+              "attr": "useAttrCORS",
+              "valueType": "Boolean",
+              "extraInfo": "*",
+              "defaultValue": false,
+              "description": "连线操作和处理回写是否一致。\n                        比如多个文本框连线传值给相同对话框，弹窗修改\n                        后是否限定只能写到最新赋值过来的文本框。详见<a href='https://www.yuque.com/liuhuo-nc809/uiotos/fgi6dd7gado51acm#fFUbp' style=\"color:rgb(96,172,252)\"target=\"_blank\">同源属性操作</a>",
+              "bindIgnored": true,
+              "name": "useAttrCORS",
+              "dynamicCreate": true
+            },
+            {
+              "attr": "透明图片按钮_@autoBase2@1715965594247>0>cbtn1>a:display",
+              "name": ".页面路径",
+              "valueType": "Image",
+              "defaultValue": "",
+              "description": "自定义页面地址。\n                可以是编辑器中的其他页面，也可以\n                是外部网页链接地址。",
+              "group": "透明图片按钮_@autoBase2@1715965594247>0>cbtn1"
+            },
+            {
+              "attr": "透明图片按钮_@autoBase2@1715965594247>0>cbtn1>a:popDirection",
+              "name": ".提示方向",
+              "valueType": "SideDirection",
+              "defaultValue": "right",
+              "description": "提示显示位置。",
+              "group": "透明图片按钮_@autoBase2@1715965594247>0>cbtn1"
+            },
+            {
+              "attr": "透明图片按钮_@autoBase2@1715965594247>0>cbtn1>a:popBackground",
+              "name": ".提示背景色",
+              "valueType": "Color",
+              "defaultValue": "white",
+              "description": "箭头和背景色。",
+              "group": "透明图片按钮_@autoBase2@1715965594247>0>cbtn1"
+            },
+            {
+              "attr": "透明图片按钮_@autoBase2@1715965594247>0>cbtn1>a:popPadding",
+              "name": ".四周边距",
+              "valueType": "NumberArray",
+              "defaultValue": [
+                2,
+                2,
+                2,
+                2
+              ],
+              "description": "内间距。",
+              "group": "透明图片按钮_@autoBase2@1715965594247>0>cbtn1"
+            },
+            {
+              "attr": "透明图片按钮_@autoBase2@1715965594247>0>cbtn1>a:popWidth",
+              "name": ".提示区宽度",
+              "valueType": "Number",
+              "defaultValue": 400,
+              "description": "弹出框宽度。",
+              "group": "透明图片按钮_@autoBase2@1715965594247>0>cbtn1"
+            },
+            {
+              "attr": "透明图片按钮_@autoBase2@1715965594247>0>cbtn1>a:popHeight",
+              "name": ".提示区高度",
+              "valueType": "Number",
+              "defaultValue": 300,
+              "description": "弹出框高度。",
+              "group": "透明图片按钮_@autoBase2@1715965594247>0>cbtn1"
+            },
+            {
+              "attr": "透明图片按钮_@autoBase2@1715965594247>0>cbtn1>a:popBorderColor",
+              "name": ".提示边框色",
+              "valueType": "Color",
+              "defaultValue": "rgb(51,51,51)",
+              "description": "边框线颜色。\n                    注意，是设置了边框宽度非0后的边框颜色。\n                    默认边框宽度属性为0时，实际上是白色并\n                    带有箭头指示的边框。本属性不用于修改默\n                    认边框色。",
+              "group": "透明图片按钮_@autoBase2@1715965594247>0>cbtn1"
+            },
+            {
+              "attr": "透明图片按钮_@autoBase2@1715965594247>0>cbtn1>a:popBorderWidth",
+              "name": ".提示边框宽",
+              "valueType": "Number",
+              "defaultValue": 0,
+              "description": "边框线宽度。\n                    默认值为0，此时边框默认为白色并且带有\n                    箭头指示。当设置宽度后，颜色将取边框颜\n                    色属性的设置，并且不再有箭头指示。",
+              "group": "透明图片按钮_@autoBase2@1715965594247>0>cbtn1"
+            },
+            {
+              "attr": "透明图片按钮_@autoBase2@1715965594247>0>cbtn1>a:popBorderRadius",
+              "name": ".提示圆角",
+              "valueType": "Number",
+              "defaultValue": 0,
+              "description": "边框线圆角。\n                    设置圆角线后，如果此前默认是白色边框带有\n                    指示箭头，那么将自动不可见，只对内容区域\n                    产生圆角。",
+              "group": "透明图片按钮_@autoBase2@1715965594247>0>cbtn1"
+            },
+            {
+              "attr": "透明图片按钮_@autoBase2@1715965594247>0>cbtn1>a:popTriggerEvent",
+              "name": ".提示触发事件",
+              "valueType": "MouseEvent",
+              "defaultValue": "hover",
+              "description": "触发方式。\n                支持鼠标移入、点击（按钮时）\n                两种触发提示的方式。",
+              "group": "透明图片按钮_@autoBase2@1715965594247>0>cbtn1"
+            },
+            {
+              "attr": "透明图片按钮_@autoBase2@1715965594247>0>cbtn1>a:default-background",
+              "name": ".默认颜色",
+              "valueType": "Color",
+              "defaultValue": "rgba(59,127,255,0.01)",
+              "group": "透明图片按钮_@autoBase2@1715965594247>0>cbtn1"
+            },
+            {
+              "attr": "透明图片按钮_@autoBase2@1715965594247>0>func1>a:userData",
+              "name": ".用户数据",
+              "valueType": "Object",
+              "defaultValue": [],
+              "description": "用户数据。\n点击查阅<a href=https://www.yuque.com/liuhuo-nc809/uiotos/bb6hr2sdhaz8gz8m#iehe9 style=\"color:rgb(96,172,252)\" target='_blank'>组件文档</a>",
+              "group": "透明图片按钮_@autoBase2@1715965594247>0>func1"
+            },
+            {
+              "attr": "透明图片按钮_@autoBase2@1715965594247>0>func1>a:output",
+              "name": ".输出",
+              "valueType": "Object",
+              "description": "函数执行后的结果输出。<a href='https://www.yuque.com/liuhuo-nc809/uiotos/fgi6dd7gado51acm#YPMiQ' style=\"color:rgb(96,172,252)\" target='_blank'>详情</a>\n点击查阅<a href=https://www.yuque.com/liuhuo-nc809/uiotos/bb6hr2sdhaz8gz8m#iehe9 style=\"color:rgb(96,172,252)\" target='_blank'>组件文档</a>",
+              "group": "透明图片按钮_@autoBase2@1715965594247>0>func1"
+            },
+            {
+              "attr": "透明图片按钮_@autoBase2@1715965594247>0>func1>a:outputByEvent",
+              "name": ".输出经事件返回",
+              "valueType": "Boolean",
+              "defaultValue": true,
+              "extraInfo": "★",
+              "description": "直接输出属性值，而非默认表单数据。<a href='https://www.yuque.com/liuhuo-nc809/uiotos/fgi6dd7gado51acm#mcfhK' style=\"color:rgb(96,172,252)\" target='_blank'>详情</a>\n点击查阅<a href=https://www.yuque.com/liuhuo-nc809/uiotos/bb6hr2sdhaz8gz8m#iehe9 style=\"color:rgb(96,172,252)\" target='_blank'>组件文档</a>",
+              "group": "透明图片按钮_@autoBase2@1715965594247>0>func1"
+            },
+            {
+              "attr": "透明图片按钮_@autoBase2@1715965594247>0>func1>a:inputs",
+              "name": ".输入（组）",
+              "valueType": "Object",
+              "defaultValue": "已点击LOGO区域！",
+              "description": "工具函数的输入。<a href='https://www.yuque.com/liuhuo-nc809/uiotos/fgi6dd7gado51acm#aTR5v' style=\"color:rgb(96,172,252)\" target='_blank'>详情</a>\n用于设置信息内容。点击查阅<a href=https://www.yuque.com/liuhuo-nc809/uiotos/bb6hr2sdhaz8gz8m#iehe9 style=\"color:rgb(96,172,252)\" target='_blank'>组件文档</a>",
+              "group": "透明图片按钮_@autoBase2@1715965594247>0>func1"
+            },
+            {
+              "attr": "透明图片按钮_@autoBase2@1715965594247>0>func1>a:exec",
+              "name": ".执行",
+              "valueType": "Boolean",
+              "defaultValue": false,
+              "description": "触发工具函数执行。<a href='https://www.yuque.com/liuhuo-nc809/uiotos/fgi6dd7gado51acm#yMMTA' style=\"color:rgb(96,172,252)\" target='_blank'>详情</a>\n点击查阅<a href=https://www.yuque.com/liuhuo-nc809/uiotos/bb6hr2sdhaz8gz8m#iehe9 style=\"color:rgb(96,172,252)\" target='_blank'>组件文档</a>",
+              "group": "透明图片按钮_@autoBase2@1715965594247>0>func1"
+            },
+            {
+              "attr": "透明图片按钮_@autoBase2@1715965594247>0>func1>a:arrExec",
+              "name": ".遍历执行",
+              "valueType": "Boolean",
+              "defaultValue": false,
+              "extraInfo": "*",
+              "description": "数组遍历执行。当输入为数组时，\n                将拆成逐项单独单独顺次执行。<a href='https://www.yuque.com/liuhuo-nc809/uiotos/fgi6dd7gado51acm#ovTxm' style=\"color:rgb(96,172,252)\" target='_blank'>详情</a>\n点击查阅<a href=https://www.yuque.com/liuhuo-nc809/uiotos/bb6hr2sdhaz8gz8m#iehe9 style=\"color:rgb(96,172,252)\" target='_blank'>组件文档</a>",
+              "group": "透明图片按钮_@autoBase2@1715965594247>0>func1"
+            },
+            {
+              "attr": "透明图片按钮_@autoBase2@1715965594247>0>func1>a:onOutput",
+              "name": ".输出事件",
+              "valueType": "Function",
+              "extraInfo": {
+                "arguments": [
+                  "data",
+                  "gv",
+                  "cache",
+                  "value"
+                ]
+              },
+              "description": "函数执行完毕输出结果时触发。<a href='https://www.yuque.com/liuhuo-nc809/uiotos/fgi6dd7gado51acm#d7xnO' style=\"color:rgb(96,172,252)\" target='_blank'>详情</a>\n点击查阅<a href=https://www.yuque.com/liuhuo-nc809/uiotos/bb6hr2sdhaz8gz8m#iehe9 style=\"color:rgb(96,172,252)\" target='_blank'>组件文档</a>",
+              "group": "透明图片按钮_@autoBase2@1715965594247>0>func1"
+            },
+            {
+              "attr": "透明图片按钮_@autoBase2@1715965594247>0>func1>a:_type",
+              "name": ".提示类型 ☆",
+              "valueType": "MessageType",
+              "defaultValue": "warn",
+              "description": "选择提示的类型，包括错误、警告等。<a href='https://www.yuque.com/liuhuo-nc809/uiotos/bb6hr2sdhaz8gz8m#xjFTO' style=\"color:rgb(96,172,252)\" target='_blank'>详情</a>",
+              "group": "透明图片按钮_@autoBase2@1715965594247>0>func1"
+            },
+            {
+              "attr": "透明图片按钮_@autoBase2@1715965594247>0>func1>a:_title",
+              "name": ".标题文字 ☆",
+              "valueType": "String",
+              "description": "显示标题。<a href='https://www.yuque.com/liuhuo-nc809/uiotos/bb6hr2sdhaz8gz8m#RZSQ9' style=\"color:rgb(96,172,252)\" target='_blank'>详情</a>",
+              "group": "透明图片按钮_@autoBase2@1715965594247>0>func1"
+            },
+            {
+              "attr": "透明图片按钮_@autoBase2@1715965594247>0>func1>a:_region",
+              "name": ".显示位置 ☆",
+              "valueType": "Region",
+              "defaultValue": "top",
+              "description": "信息显示在屏幕的相对位置。<a href='https://www.yuque.com/liuhuo-nc809/uiotos/bb6hr2sdhaz8gz8m#jtgSW' style=\"color:rgb(96,172,252)\" target='_blank'>详情</a>",
+              "group": "透明图片按钮_@autoBase2@1715965594247>0>func1"
+            },
+            {
+              "attr": "透明图片按钮_@autoBase2@1715965594247>0>func1>a:_duration",
+              "name": ".持续时间 ☆",
+              "valueType": "PositiveNumber",
+              "defaultValue": 1000,
+              "description": "信息停留的时长，0为不自动消失。<a href='https://www.yuque.com/liuhuo-nc809/uiotos/bb6hr2sdhaz8gz8m#BdQHk' style=\"color:rgb(96,172,252)\" target='_blank'>详情</a>",
+              "group": "透明图片按钮_@autoBase2@1715965594247>0>func1"
+            },
+            {
+              "attr": "透明图片按钮_@autoBase2@1715965594247>0>func1>a:_fixedWidth",
+              "name": ".固定宽度 ☆",
+              "valueType": "PositiveNumber",
+              "defaultValue": 300,
+              "description": "提示区域宽度（提示条或对话框）。<a href='https://www.yuque.com/liuhuo-nc809/uiotos/bb6hr2sdhaz8gz8m#lVQFA' style=\"color:rgb(96,172,252)\" target='_blank'>详情</a>",
+              "group": "透明图片按钮_@autoBase2@1715965594247>0>func1"
+            },
+            {
+              "attr": "透明图片按钮_@autoBase2@1715965594247>0>func1>a:_fixedHeight",
+              "name": ".固定高度 ☆",
+              "valueType": "PositiveNumber",
+              "defaultValue": 160,
+              "description": "固定高度（仅对弹窗确认选项有效）。<a href='https://www.yuque.com/liuhuo-nc809/uiotos/bb6hr2sdhaz8gz8m#ZJQFE' style=\"color:rgb(96,172,252)\" target='_blank'>详情</a>",
+              "group": "透明图片按钮_@autoBase2@1715965594247>0>func1"
+            },
+            {
+              "attr": "透明图片按钮_@autoBase2@1715965594247>0>func1>a:convertFlatToTree",
+              "name": ".输入扁平结构化",
+              "valueType": "Boolean",
+              "defaultValue": false,
+              "description": "JSON扁平化与结构化的对应通常如\n                        {a.b.0.c:10}与{a:{b:[{c:10}]}}。\n                        勾选后，如果输入键值组是扁平化形式，那么会将\n                        输入组数据转成结构化。\n                        注意，在输入键组（inputKeys）字段固定，试图\n                        在输入值组（inputValues）指定索引插入对象或\n                        数组结构时，一定要去掉本属性勾选，否则会自动\n                        将对象或数组扁平化展开，整个输入键值组都会被\n                        扁平化。",
+              "group": "透明图片按钮_@autoBase2@1715965594247>0>func1"
+            },
+            {
+              "attr": "透明图片按钮_@autoBase2@1715965594247>0>func1>a:inputKeys",
+              "name": ".输入键组",
+              "valueType": "ObjectArray",
+              "defaultValue": [],
+              "extraInfo": "*",
+              "description": "输入组扁平化后的值列表，双向同步。\n                        与输入值组配合使用。<a href='https://www.yuque.com/liuhuo-nc809/uiotos/fgi6dd7gado51acm#CSjM8' style=\"color:rgb(96,172,252)\" target='_blank'>详情</a>",
+              "group": "透明图片按钮_@autoBase2@1715965594247>0>func1"
+            },
+            {
+              "attr": "透明图片按钮_@autoBase2@1715965594247>0>func1>a:inputValues",
+              "name": ".输入值组",
+              "valueType": "ObjectArray",
+              "defaultValue": [],
+              "extraInfo": "*",
+              "description": "输入组扁平化后的值列表，双向同步。\n                        与输入键组配合使用。<a href='https://www.yuque.com/liuhuo-nc809/uiotos/fgi6dd7gado51acm#oXg9Q' style=\"color:rgb(96,172,252)\" target='_blank'>详情</a>",
+              "group": "透明图片按钮_@autoBase2@1715965594247>0>func1"
+            }
+          ],
+          "snapshotURL": "symbols/develop/uiotos/arranged/controls/containers_icon/嵌套容器.json",
+          "renderHTML": "__ht__function(data, gv, cache) {return __graphView(data,gv,cache);}",
+          "width": 500,
+          "height": 300,
+          "fitSize": true,
+          "pixelPerfect": false,
+          "comps": [
+            {
+              "type": "text",
+              "text": {
+                "func": "__ht__function(data, view) {\n// return data.ca('__loadingText') && data.ca('__loadingText')[!data.ca('__loadingStatus')]\n}",
+                "value": "…"
+              },
+              "align": "center",
+              "color": {
+                "func": "attr@__loadingColor",
+                "value": "rgb(150,150,150)"
+              },
+              "font": {
+                "func": "attr@__loadingFont",
+                "value": "12px arial, sans-serif"
+              },
+              "visible": {
+                "func": "attr@__loadingVisible",
+                "value": false
+              },
+              "layoutH": "center",
+              "layoutV": "center",
+              "displayName": "Text（Text1）",
+              "rect": [
+                74.69339,
+                53.1422,
+                50.61322,
+                13.7156
+              ]
+            }
+          ],
+          "uuid": "FFA96CB4-F272-4AB8-AA49-03F9B825A29D"
+        },
+        "host": {
+          "__i": 508560
+        },
+        "position": {
+          "x": 1091.34902,
+          "y": 103.85049
+        },
+        "width": 209.77915,
+        "height": 640.23601
+      },
+      "s": {
+        "label.position": 14,
+        "label.offset.x": -10,
+        "label.offset.y": 0,
+        "label.color": "rgb(61,61,61)",
+        "interactive": true,
+        "image.stretch": "uniform",
+        "label.opacity": 1,
+        "2d.movable": false,
+        "layout.h": "leftright",
+        "layout.v": "topbottom",
+        "fullscreen.gap": 0,
+        "label": "标签"
+      },
+      "a": {
+        "symbol": "symbols/develop/uiotos/arranged/controls/containers/嵌套容器.json",
+        "display": "displays/develop/__favorites/widgets/嵌套容器/__封装/透明图片按钮_@autoBase2@1715965594247.json",
+        "__loadingStatus": false,
+        "isLoadingGet": false,
+        "innerLayoutMode": "fullScreen",
+        "shadowEnabled": false,
+        "透明图片按钮_@autoBase2@1715965594247>0>func1>a:inputs": "已点击内容区域！",
+        "toolTipRaw": "<p style='color:rgb(242,83,75);margin-top:5px;margin-bottom:5px;font-weight:bold;line-height:1.5em;'>已被布局，不允许拖动（shift+回车可解除）</p>",
+        "bindControlsTag": [],
+        "bindControlsAttr": [],
+        "bindControlsVal": [],
+        "paramControlTag": [],
+        "paramControlAttr": [],
+        "paramBindEvent": [],
+        "paramsGenerator": "function paramsGenerator(data, val, index, node, oldVal, form) {\r\n    //绑定组索引对应的函数处理，用来动态生成复杂的参数变量传入\r\n    switch (index) {\r\n        case 0:\r\n            break;\r\n        case 1:\r\n            break;\r\n        case 2:\r\n            break;\r\n        default:\r\n            break;\r\n    }\r\n    return val;\r\n}",
+        "透明图片按钮_@autoBase2@1715965594247>0>cbtn1>a:default-background": "",
+        "labelText": "标签",
+        "gap": 0,
+        "padding": "__init__",
+        "透明图片按钮_@autoBase2@1715965594247>0>cbtn1>a:display": "",
+        "透明图片按钮_@autoBase2@1715965594247>0>cbtn1>a:popDirection": "right",
+        "透明图片按钮_@autoBase2@1715965594247>0>cbtn1>a:popBackground": "white",
+        "透明图片按钮_@autoBase2@1715965594247>0>cbtn1>a:popPadding": [
+          2,
+          2,
+          2,
+          2
+        ],
+        "透明图片按钮_@autoBase2@1715965594247>0>cbtn1>a:popWidth": 400,
+        "透明图片按钮_@autoBase2@1715965594247>0>cbtn1>a:popHeight": 300,
+        "透明图片按钮_@autoBase2@1715965594247>0>cbtn1>a:popBorderColor": "rgb(51,51,51)",
+        "透明图片按钮_@autoBase2@1715965594247>0>cbtn1>a:popBorderWidth": 0,
+        "透明图片按钮_@autoBase2@1715965594247>0>cbtn1>a:popBorderRadius": 0,
+        "透明图片按钮_@autoBase2@1715965594247>0>cbtn1>a:popTriggerEvent": "hover",
+        "透明图片按钮_@autoBase2@1715965594247>0>func1>a:userData": [],
+        "透明图片按钮_@autoBase2@1715965594247>0>func1>a:outputByEvent": true,
+        "透明图片按钮_@autoBase2@1715965594247>0>func1>a:exec": false,
+        "透明图片按钮_@autoBase2@1715965594247>0>func1>a:arrExec": false,
+        "透明图片按钮_@autoBase2@1715965594247>0>func1>a:_type": "warn",
+        "透明图片按钮_@autoBase2@1715965594247>0>func1>a:_region": "top",
+        "透明图片按钮_@autoBase2@1715965594247>0>func1>a:_duration": 1000,
+        "透明图片按钮_@autoBase2@1715965594247>0>func1>a:_fixedWidth": 300,
+        "透明图片按钮_@autoBase2@1715965594247>0>func1>a:_fixedHeight": 160,
+        "透明图片按钮_@autoBase2@1715965594247>0>func1>a:convertFlatToTree": false,
+        "透明图片按钮_@autoBase2@1715965594247>0>func1>a:inputKeys": [],
+        "透明图片按钮_@autoBase2@1715965594247>0>func1>a:inputValues": []
+      }
+    }
+  ],
+  "modified": "Mon Aug 26 2024 17:44:56 GMT+0800 (中国标准时间)",
+  "contentRect": {
+    "x": 948.45945,
+    "y": -216.26752,
+    "width": 247.77915,
+    "height": 640.23601
+  }
+}

@@ -1,0 +1,1255 @@
+{
+  "v": "8.0.1",
+  "p": {
+    "autoAdjustIndex": true,
+    "hierarchicalRendering": true
+  },
+  "a": {
+    "rotateAsClock": false,
+    "gridBlockSize": 20,
+    "connectActionType": null,
+    "fitContent": false,
+    "zoomable": false,
+    "rectSelectable": false,
+    "pannable": false,
+    "_professional": false
+  },
+  "d": [
+    {
+      "c": "ht.Node",
+      "i": 4769,
+      "p": {
+        "name": "base",
+        "displayName": "底板（_base）",
+        "tag": "_base",
+        "position": {
+          "x": 535.65507,
+          "y": 295.74725
+        },
+        "width": 1071.31013,
+        "height": 599.6326
+      },
+      "s": {
+        "label.opacity": 0,
+        "label.position": 17,
+        "label.color": "rgb(61,61,61)",
+        "shape": "rect",
+        "shape.background": "#20252e",
+        "fullscreen": "fill",
+        "fullscreen.gap": 0,
+        "2d.movable": false,
+        "interactive": true,
+        "2d.selectable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 4770,
+      "p": {
+        "name": "pal",
+        "displayName": "抽屉面板（pal1）",
+        "toolTip": "<p style='color:rgb(242,83,75);margin-top:5px;margin-bottom:5px;font-weight:bold;line-height:1.5em;'>已被布局，不允许拖动（shift+回车可解除）</p>",
+        "tag": "pal1",
+        "dataBindings": {
+          "a": {
+            "display": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "popDirection": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "popBackground": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "popPadding": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "popWidth": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "popHeight": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "popBorderColor": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "popBorderWidth": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "popBorderRadius": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "popTriggerEvent": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            }
+          }
+        },
+        "image": {
+          "modified": "Thu May 23 2024 07:01:53 GMT+0800 (中国标准时间)",
+          "dataBindings": [
+            {
+              "attr": "symbol",
+              "valueType": "Image",
+              "name": "symbol"
+            },
+            {
+              "attr": "datas",
+              "valueType": "Object",
+              "defaultValue": [
+                {
+                  "title": "海陆空交通",
+                  "children": [
+                    {
+                      "icon": "symbols/develop/uiotos/arranged/icons/设备设施/轮船-77.json",
+                      "text": "轮船"
+                    },
+                    {
+                      "icon": "symbols/develop/uiotos/arranged/icons/设备设施/轿车 汽车-76.json",
+                      "text": "汽车"
+                    },
+                    {
+                      "icon": "symbols/develop/uiotos/arranged/icons/设备设施/飞行 旅游 出差 飞机 800-73.json",
+                      "text": "飞机"
+                    }
+                  ]
+                },
+                {
+                  "title": "其它",
+                  "children": [
+                    {
+                      "icon": "symbols/develop/uiotos/arranged/icons/设备设施/高铁 动车-74.json",
+                      "text": "高铁"
+                    },
+                    {
+                      "icon": "symbols/develop/uiotos/arranged/icons/设备设施/公交 客车-75.json",
+                      "text": "公交车"
+                    }
+                  ]
+                }
+              ],
+              "description": "数据源。\n<br>数组格式，数组中对象元素字段和说明如下：\n<br>icon: 显示图标\n<br>iconDrawable: 拖放后实际创建的图标\n<br>text: 图标文字",
+              "group": "功能（关键）",
+              "name": "datas"
+            },
+            {
+              "attr": "folderPath",
+              "valueType": "Image",
+              "name": "folderPath"
+            },
+            {
+              "attr": "titleFont",
+              "valueType": "Font",
+              "defaultValue": "12px sans-serif, Arial",
+              "description": "抽屉标题字体。",
+              "name": "titleFont"
+            },
+            {
+              "attr": "titleColor",
+              "valueType": "ColorArray",
+              "defaultValue": [
+                "rgb(55,125,255)",
+                "rgba(55,125,255)",
+                "rgba(55,125,255)"
+              ],
+              "description": "标题文字颜色组。\n<br>3个颜色，索引0、1、2分别为\n<br>默认、划过、按下，三种情况\n<br>下的标题文字颜色。",
+              "name": "titleColor"
+            },
+            {
+              "attr": "textFont",
+              "valueType": "Font",
+              "defaultValue": "12px sans-serif, Arial",
+              "description": "图标文字字体。",
+              "name": "textFont"
+            },
+            {
+              "attr": "textColor",
+              "valueType": "ColorArray",
+              "defaultValue": [
+                "rgb(90,122,138)",
+                "rgba(55,125,255,1)",
+                "rgba(55,125,255,1)"
+              ],
+              "description": "图标文字颜色组。\n<br>3个颜色，索引0、1、2分别为\n<br>默认、划过、按下，三种情况\n<br>下的图标文字颜色。",
+              "name": "textColor"
+            },
+            {
+              "attr": "renderColor",
+              "valueType": "Color",
+              "defaultValue": "rgba(240,245,255)",
+              "description": "图标染色。\n<br>可以让整体图片/图标带有统一的色调。",
+              "name": "renderColor"
+            },
+            {
+              "attr": "headerBackground",
+              "valueType": "ColorArray",
+              "defaultValue": [
+                "rgba(47,55,70,0)",
+                "rgba(255,255,255,0.1)",
+                "rgba(255,255,255,0.1)"
+              ],
+              "description": "标题背景颜色组。\n<br>3个颜色，索引0、1、2分别为\n<br>默认、划过、按下，三种情况\n<br>下的标题背景颜色。",
+              "name": "headerBackground"
+            },
+            {
+              "attr": "background",
+              "valueType": "ColorArray",
+              "defaultValue": [
+                "rgba(0,0,0,0)",
+                "rgba(255,255,255,0.1)",
+                "rgba(255,255,255,0.2)"
+              ],
+              "description": "图标背景颜色组。\n<br>3个颜色，索引0、1、2分别为\n<br>默认、划过、按下，三种情况\n<br>下的图标背景颜色。",
+              "name": "background"
+            },
+            {
+              "attr": "selectBackground",
+              "valueType": "ColorArray",
+              "defaultValue": [
+                "rgba(55,125,255,0.1)",
+                "rgba(55,125,255,0.1)",
+                "rgba(55,125,255,0.1)"
+              ],
+              "description": "选中图标的背景颜色组。\n<br>3个颜色，索引0、1、2分别为\n<br>默认、划过、按下，三种情况\n<br>下的选中图标背景颜色。",
+              "name": "selectBackground"
+            },
+            {
+              "attr": "borderRadius",
+              "valueType": "PositiveNumber",
+              "defaultValue": 8,
+              "description": "图标边框圆角。",
+              "name": "borderRadius"
+            },
+            {
+              "attr": "preferredSize",
+              "valueType": "NumberArray",
+              "defaultValue": [
+                65,
+                80
+              ],
+              "description": "图标按钮的宽高。\n<br>数组索引0为宽度、1为高度。",
+              "name": "preferredSize"
+            },
+            {
+              "attr": "iconSize",
+              "valueType": "NumberArray",
+              "defaultValue": [
+                50,
+                50
+              ],
+              "description": "图标宽高。\n<br>索引0为宽度，索引1为高度。",
+              "name": "iconSize"
+            },
+            {
+              "attr": "gap",
+              "valueType": "String",
+              "defaultValue": "10",
+              "description": "面板抽屉间距。",
+              "name": "gap"
+            },
+            {
+              "attr": "padding",
+              "valueType": "NumberArray",
+              "defaultValue": [
+                0,
+                0,
+                0,
+                0
+              ],
+              "description": "面板整体离四周边距。\n<br>索引0、1、2、3分别表示\n<br>上、右、下、左边距！",
+              "name": "padding"
+            },
+            {
+              "attr": "margin",
+              "valueType": "NumberArray",
+              "defaultValue": [
+                0,
+                0,
+                0,
+                0
+              ],
+              "description": "图标面板四周间距。\n<br>数组长度为4，分别为上、右\n<br>下、左边距。",
+              "name": "margin"
+            },
+            {
+              "attr": "bindControlsTag",
+              "valueType": "StringArray",
+              "group": "bindControls",
+              "name": "bindControlsTag"
+            },
+            {
+              "attr": "bindControlsAttr",
+              "valueType": "StringArray",
+              "name": "bindControlsAttr"
+            },
+            {
+              "attr": "bindControlsVal",
+              "valueType": "ObjectArray",
+              "description": "静态值。也用作数组索引、JSON对象解析提取值用途。\n<br>一、静态值用途：\n<br>对常规类型的属性赋值且没有反向关联属性值，传入为数值时，不\n<br>会作为数组的索引，而会当成常量值对外赋值。此外，存在特殊值：\n<br>~和undefined表示过滤、不触发；null为默认值，表示传递默认表\n<br>单数据。编辑状态下清空后保存与设置null等价。\n<br>二、数组索引用途\n<br>情况1：被操作的组件属性原先值是数组时（包括空数组），会将\n<br>待输出的值作为被操作数组指定索引的值来传入，而不是整体覆盖。\n<br>情况2：如果要被操作的组件属性原先值不是数组，而且待输出的\n<br>值为数组类型并且长度也在索引范围内，那么会按照索引取自身数\n<br>组指定元素再对外输出。（如果想要取待输出索引值，赋值给被操\n<br>纵属性的指定索引，那么需要中间组件属性连线过渡以下，无法直\n<br>接操作）\n<br>情况3：如果要被操作的组件属性是数组，而且待输出的值也是数组\n<br>类型，此时当情况1来处理。\n<br>三、数据解析用途：\n<br>待输出的值为JSON对象时，用x.y.z这种以字符.或者>为间隔的方式\n<br>实现对JSON字段层次逐层定位，当是数组时x.0.y.1这种以数字的方\n<br>式来指定数组的某个索引。以此实现对任意结果JSON对象字段的定\n<br>位，获取结构内指定字段对应的值。",
+              "name": "bindControlsVal"
+            },
+            {
+              "attr": "paramControlTag",
+              "valueType": "StringArray",
+              "name": "paramControlTag"
+            },
+            {
+              "attr": "paramControlAttr",
+              "valueType": "StringArray",
+              "name": "paramControlAttr"
+            },
+            {
+              "attr": "paramsGenerator",
+              "valueType": "Function",
+              "defaultValue": "__ht__function(data, val, index, node,oldVal,form,type,inner) {//绑定组索引对应的函数处理，用来动态生成复杂的参数变量传入\r\nswitch(index){\r\n    case 0:\r\n        break;\r\n    case 1:\r\n        break;\r\n    case 2:\r\n        break;\r\n    default:\r\n        break;\r\n}\r\n\r\nreturn val;}",
+              "extraInfo": {
+                "arguments": [
+                  "data",
+                  "val",
+                  "index",
+                  "node",
+                  "oldVal",
+                  "form",
+                  "type",
+                  "inner"
+                ]
+              },
+              "name": "paramsGenerator"
+            },
+            {
+              "attr": "useAttrCORS",
+              "valueType": "Boolean",
+              "extraInfo": "*",
+              "defaultValue": false,
+              "description": "连线操作和处理回写是否一致。\n                        比如多个文本框连线传值给相同对话框，弹窗修改\n                        后是否限定只能写到最新赋值过来的文本框。详见<a href='https://www.yuque.com/liuhuo-nc809/uiotos/fgi6dd7gado51acm#fFUbp' style=\"color:rgb(96,172,252)\"target=\"_blank\">同源属性操作</a>",
+              "bindIgnored": true,
+              "name": "useAttrCORS",
+              "dynamicCreate": true
+            },
+            {
+              "attr": "onChange",
+              "valueType": "Function",
+              "extraInfo": {
+                "arguments": [
+                  "data",
+                  "gv",
+                  "cache",
+                  "value",
+                  "extra"
+                ]
+              },
+              "name": "onChange"
+            },
+            {
+              "attr": "userData",
+              "valueType": "ObjectArray",
+              "name": "userData"
+            },
+            {
+              "attr": "display",
+              "name": "display",
+              "valueType": "Image",
+              "defaultValue": "",
+              "description": "自定义页面地址。\n                可以是编辑器中的其他页面，也可以\n                是外部网页链接地址。",
+              "group": "弹出框",
+              "dynamicCreate": true
+            },
+            {
+              "attr": "popDirection",
+              "name": "popDirection",
+              "valueType": "SideDirection",
+              "defaultValue": "right",
+              "description": "提示显示位置。",
+              "dynamicCreate": true
+            },
+            {
+              "attr": "popBackground",
+              "name": "popBackground",
+              "valueType": "Color",
+              "defaultValue": "white",
+              "description": "箭头和背景色。",
+              "dynamicCreate": true
+            },
+            {
+              "attr": "popPadding",
+              "name": "padding",
+              "valueType": "NumberArray",
+              "defaultValue": [
+                2,
+                2,
+                2,
+                2
+              ],
+              "description": "内间距。",
+              "dynamicCreate": true
+            },
+            {
+              "attr": "popWidth",
+              "name": "popWidth",
+              "valueType": "Number",
+              "defaultValue": 400,
+              "description": "弹出框宽度。",
+              "dynamicCreate": true
+            },
+            {
+              "attr": "popHeight",
+              "name": "popHeight",
+              "valueType": "Number",
+              "defaultValue": 300,
+              "description": "弹出框高度。",
+              "dynamicCreate": true
+            },
+            {
+              "attr": "popBorderColor",
+              "name": "popBorderColor",
+              "valueType": "Color",
+              "defaultValue": "rgb(51,51,51)",
+              "description": "边框线颜色。\n                    注意，是设置了边框宽度非0后的边框颜色。\n                    默认边框宽度属性为0时，实际上是白色并\n                    带有箭头指示的边框。本属性不用于修改默\n                    认边框色。",
+              "dynamicCreate": true
+            },
+            {
+              "attr": "popBorderWidth",
+              "name": "popBorderWidth",
+              "valueType": "Number",
+              "defaultValue": 0,
+              "description": "边框线宽度。\n                    默认值为0，此时边框默认为白色并且带有\n                    箭头指示。当设置宽度后，颜色将取边框颜\n                    色属性的设置，并且不再有箭头指示。",
+              "dynamicCreate": true
+            },
+            {
+              "attr": "popBorderRadius",
+              "name": "popBorderRadius",
+              "valueType": "Number",
+              "defaultValue": 0,
+              "description": "边框线圆角。\n                    设置圆角线后，如果此前默认是白色边框带有\n                    指示箭头，那么将自动不可见，只对内容区域\n                    产生圆角。",
+              "dynamicCreate": true
+            },
+            {
+              "attr": "popTriggerEvent",
+              "name": "popTriggerEvent",
+              "valueType": "MouseEvent",
+              "defaultValue": "hover",
+              "description": "触发方式。\n                支持鼠标移入、点击（按钮时）\n                两种触发提示的方式。",
+              "dynamicCreate": true
+            }
+          ],
+          "snapshotURL": "symbols/develop/uiotos/arranged/controls/forms_icon/面板列表-17.json",
+          "renderHTML": "__ht__function(data, gv, cache) {return __palette_ui(data,gv,cache);}",
+          "width": 200,
+          "height": 400,
+          "pixelPerfect": false,
+          "comps": [],
+          "uuid": "04134CF1-CE93-4544-A9DC-8881D6C1942E"
+        },
+        "host": {
+          "__i": 4769
+        },
+        "position": {
+          "x": 537.39112,
+          "y": 316.34004
+        },
+        "width": 1067.83803,
+        "height": 558.44702
+      },
+      "s": {
+        "label.position": 14,
+        "label.offset.x": -10,
+        "label.offset.y": 0,
+        "label.color": "rgb(61,61,61)",
+        "interactive": true,
+        "label.opacity": 0,
+        "2d.movable": false,
+        "layout.h": "leftright",
+        "layout.v": "topbottom"
+      },
+      "a": {
+        "symbol": "symbols/develop/uiotos/base/palette-ui.json",
+        "margin": [],
+        "gap": "10",
+        "padding": [
+          10,
+          0,
+          0,
+          0
+        ],
+        "folderPath": "displays/demo/3-示例",
+        "preferredSize": [
+          200,
+          150
+        ],
+        "datas": [
+          {
+            "title": "01-界面应用",
+            "children": [
+              {
+                "icon": "http://localhost:8999/displays/demo/3-示例/01-界面应用/01-园区招商租赁.jpg",
+                "toolTip": "http://localhost:8999/displays/demo/3-示例/01-界面应用/01-园区招商租赁.jpg",
+                "text": "01-园区招商租赁",
+                "iconDrawable": {
+                  "_image": "http://localhost:8999/displays/demo/3-示例/01-界面应用/01-园区招商租赁.jpg",
+                  "_stretch": "uniform",
+                  "_colorTint": "rgb(235,245,255)"
+                }
+              },
+              {
+                "icon": "http://localhost:8999/displays/demo/3-示例/01-界面应用/02-AI视频监控.jpg",
+                "toolTip": "http://localhost:8999/displays/demo/3-示例/01-界面应用/02-AI视频监控.jpg",
+                "text": "02-AI视频监控",
+                "iconDrawable": {
+                  "_image": "http://localhost:8999/displays/demo/3-示例/01-界面应用/02-AI视频监控.jpg",
+                  "_stretch": "uniform",
+                  "_colorTint": "rgb(235,245,255)"
+                }
+              },
+              {
+                "icon": "http://localhost:8999/displays/demo/3-示例/01-界面应用/03-生态智慧养殖.jpg",
+                "toolTip": "http://localhost:8999/displays/demo/3-示例/01-界面应用/03-生态智慧养殖.jpg",
+                "text": "03-生态智慧养殖",
+                "iconDrawable": {
+                  "_image": "http://localhost:8999/displays/demo/3-示例/01-界面应用/03-生态智慧养殖.jpg",
+                  "_stretch": "uniform",
+                  "_colorTint": "rgb(235,245,255)"
+                }
+              },
+              {
+                "icon": "http://localhost:8999/displays/demo/3-示例/01-界面应用/05-上位机串口通信.jpg",
+                "toolTip": "http://localhost:8999/displays/demo/3-示例/01-界面应用/05-上位机串口通信.jpg",
+                "text": "05-上位机串口通信",
+                "iconDrawable": {
+                  "_image": "http://localhost:8999/displays/demo/3-示例/01-界面应用/05-上位机串口通信.jpg",
+                  "_stretch": "uniform",
+                  "_colorTint": "rgb(235,245,255)"
+                }
+              },
+              {
+                "icon": "http://localhost:8999/displays/demo/3-示例/01-界面应用/06-生产制造大屏.jpg",
+                "toolTip": "http://localhost:8999/displays/demo/3-示例/01-界面应用/06-生产制造大屏.jpg",
+                "text": "06-生产制造大屏",
+                "iconDrawable": {
+                  "_image": "http://localhost:8999/displays/demo/3-示例/01-界面应用/06-生产制造大屏.jpg",
+                  "_stretch": "uniform",
+                  "_colorTint": "rgb(235,245,255)"
+                }
+              },
+              {
+                "icon": "http://localhost:8999/displays/demo/3-示例/01-界面应用/07-智能作业系统.jpg",
+                "toolTip": "http://localhost:8999/displays/demo/3-示例/01-界面应用/07-智能作业系统.jpg",
+                "text": "07-智能作业系统",
+                "iconDrawable": {
+                  "_image": "http://localhost:8999/displays/demo/3-示例/01-界面应用/07-智能作业系统.jpg",
+                  "_stretch": "uniform",
+                  "_colorTint": "rgb(235,245,255)"
+                }
+              },
+              {
+                "icon": "http://localhost:8999/displays/demo/3-示例/01-界面应用/09-水务管控平台.jpg",
+                "toolTip": "http://localhost:8999/displays/demo/3-示例/01-界面应用/09-水务管控平台.jpg",
+                "text": "09-水务管控平台",
+                "iconDrawable": {
+                  "_image": "http://localhost:8999/displays/demo/3-示例/01-界面应用/09-水务管控平台.jpg",
+                  "_stretch": "uniform",
+                  "_colorTint": "rgb(235,245,255)"
+                }
+              }
+            ]
+          },
+          {
+            "title": "02-小示例",
+            "children": [
+              {
+                "icon": "http://localhost:8999/displays/demo/3-示例/02-小示例/01-第一个Hello world.jpg",
+                "toolTip": "http://localhost:8999/displays/demo/3-示例/02-小示例/01-第一个Hello world.jpg",
+                "text": "01-第一个Hello world",
+                "iconDrawable": {
+                  "_image": "http://localhost:8999/displays/demo/3-示例/02-小示例/01-第一个Hello world.jpg",
+                  "_stretch": "uniform",
+                  "_colorTint": "rgb(235,245,255)"
+                }
+              },
+              {
+                "icon": "http://localhost:8999/displays/demo/3-示例/02-小示例/02-典型：取值并传给内嵌页.jpg",
+                "toolTip": "http://localhost:8999/displays/demo/3-示例/02-小示例/02-典型：取值并传给内嵌页.jpg",
+                "text": "02-典型：取值并传给内嵌页",
+                "iconDrawable": {
+                  "_image": "http://localhost:8999/displays/demo/3-示例/02-小示例/02-典型：取值并传给内嵌页.jpg",
+                  "_stretch": "uniform",
+                  "_colorTint": "rgb(235,245,255)"
+                }
+              },
+              {
+                "icon": "http://localhost:8999/displays/demo/3-示例/02-小示例/03-视频选择播放.jpg",
+                "toolTip": "http://localhost:8999/displays/demo/3-示例/02-小示例/03-视频选择播放.jpg",
+                "text": "03-视频选择播放",
+                "iconDrawable": {
+                  "_image": "http://localhost:8999/displays/demo/3-示例/02-小示例/03-视频选择播放.jpg",
+                  "_stretch": "uniform",
+                  "_colorTint": "rgb(235,245,255)"
+                }
+              },
+              {
+                "icon": "http://localhost:8999/displays/demo/3-示例/02-小示例/03A-视频选择播放.jpg",
+                "toolTip": "http://localhost:8999/displays/demo/3-示例/02-小示例/03A-视频选择播放.jpg",
+                "text": "03A-视频选择播放",
+                "iconDrawable": {
+                  "_image": "http://localhost:8999/displays/demo/3-示例/02-小示例/03A-视频选择播放.jpg",
+                  "_stretch": "uniform",
+                  "_colorTint": "rgb(235,245,255)"
+                }
+              },
+              {
+                "icon": "http://localhost:8999/displays/demo/3-示例/02-小示例/03B-视频选择播放暂停.jpg",
+                "toolTip": "http://localhost:8999/displays/demo/3-示例/02-小示例/03B-视频选择播放暂停.jpg",
+                "text": "03B-视频选择播放暂停",
+                "iconDrawable": {
+                  "_image": "http://localhost:8999/displays/demo/3-示例/02-小示例/03B-视频选择播放暂停.jpg",
+                  "_stretch": "uniform",
+                  "_colorTint": "rgb(235,245,255)"
+                }
+              },
+              {
+                "icon": "http://localhost:8999/displays/demo/3-示例/02-小示例/04-监控弹窗播放.jpg",
+                "toolTip": "http://localhost:8999/displays/demo/3-示例/02-小示例/04-监控弹窗播放.jpg",
+                "text": "04-监控弹窗播放",
+                "iconDrawable": {
+                  "_image": "http://localhost:8999/displays/demo/3-示例/02-小示例/04-监控弹窗播放.jpg",
+                  "_stretch": "uniform",
+                  "_colorTint": "rgb(235,245,255)"
+                }
+              },
+              {
+                "icon": "http://localhost:8999/displays/demo/3-示例/02-小示例/05-表单数据操作.jpg",
+                "toolTip": "http://localhost:8999/displays/demo/3-示例/02-小示例/05-表单数据操作.jpg",
+                "text": "05-表单数据操作",
+                "iconDrawable": {
+                  "_image": "http://localhost:8999/displays/demo/3-示例/02-小示例/05-表单数据操作.jpg",
+                  "_stretch": "uniform",
+                  "_colorTint": "rgb(235,245,255)"
+                }
+              },
+              {
+                "icon": "http://localhost:8999/displays/demo/3-示例/02-小示例/06-账号登录.jpg",
+                "toolTip": "http://localhost:8999/displays/demo/3-示例/02-小示例/06-账号登录.jpg",
+                "text": "06-账号登录",
+                "iconDrawable": {
+                  "_image": "http://localhost:8999/displays/demo/3-示例/02-小示例/06-账号登录.jpg",
+                  "_stretch": "uniform",
+                  "_colorTint": "rgb(235,245,255)"
+                }
+              },
+              {
+                "icon": "http://localhost:8999/displays/demo/3-示例/02-小示例/07-多页签模拟数据.jpg",
+                "toolTip": "http://localhost:8999/displays/demo/3-示例/02-小示例/07-多页签模拟数据.jpg",
+                "text": "07-多页签模拟数据",
+                "iconDrawable": {
+                  "_image": "http://localhost:8999/displays/demo/3-示例/02-小示例/07-多页签模拟数据.jpg",
+                  "_stretch": "uniform",
+                  "_colorTint": "rgb(235,245,255)"
+                }
+              },
+              {
+                "icon": "http://localhost:8999/displays/demo/3-示例/02-小示例/08-组件交互联动.jpg",
+                "toolTip": "http://localhost:8999/displays/demo/3-示例/02-小示例/08-组件交互联动.jpg",
+                "text": "08-组件交互联动",
+                "iconDrawable": {
+                  "_image": "http://localhost:8999/displays/demo/3-示例/02-小示例/08-组件交互联动.jpg",
+                  "_stretch": "uniform",
+                  "_colorTint": "rgb(235,245,255)"
+                }
+              },
+              {
+                "icon": "http://localhost:8999/displays/demo/3-示例/02-小示例/09-组件功能无代码扩展.jpg",
+                "toolTip": "http://localhost:8999/displays/demo/3-示例/02-小示例/09-组件功能无代码扩展.jpg",
+                "text": "09-组件功能无代码扩展",
+                "iconDrawable": {
+                  "_image": "http://localhost:8999/displays/demo/3-示例/02-小示例/09-组件功能无代码扩展.jpg",
+                  "_stretch": "uniform",
+                  "_colorTint": "rgb(235,245,255)"
+                }
+              },
+              {
+                "icon": "http://localhost:8999/displays/demo/3-示例/02-小示例/10-内嵌按钮点击上层弹窗.jpg",
+                "toolTip": "http://localhost:8999/displays/demo/3-示例/02-小示例/10-内嵌按钮点击上层弹窗.jpg",
+                "text": "10-内嵌按钮点击上层弹窗",
+                "iconDrawable": {
+                  "_image": "http://localhost:8999/displays/demo/3-示例/02-小示例/10-内嵌按钮点击上层弹窗.jpg",
+                  "_stretch": "uniform",
+                  "_colorTint": "rgb(235,245,255)"
+                }
+              },
+              {
+                "icon": "http://localhost:8999/displays/demo/3-示例/02-小示例/11-自行实现的切换开关.jpg",
+                "toolTip": "http://localhost:8999/displays/demo/3-示例/02-小示例/11-自行实现的切换开关.jpg",
+                "text": "11-自行实现的切换开关",
+                "iconDrawable": {
+                  "_image": "http://localhost:8999/displays/demo/3-示例/02-小示例/11-自行实现的切换开关.jpg",
+                  "_stretch": "uniform",
+                  "_colorTint": "rgb(235,245,255)"
+                }
+              },
+              {
+                "icon": "http://localhost:8999/displays/demo/3-示例/02-小示例/12-注册正则表达式（代码块）.jpg",
+                "toolTip": "http://localhost:8999/displays/demo/3-示例/02-小示例/12-注册正则表达式（代码块）.jpg",
+                "text": "12-注册正则表达式（代码块）",
+                "iconDrawable": {
+                  "_image": "http://localhost:8999/displays/demo/3-示例/02-小示例/12-注册正则表达式（代码块）.jpg",
+                  "_stretch": "uniform",
+                  "_colorTint": "rgb(235,245,255)"
+                }
+              },
+              {
+                "icon": "http://localhost:8999/displays/demo/3-示例/02-小示例/13A-面板动态显示隐藏.jpg",
+                "toolTip": "http://localhost:8999/displays/demo/3-示例/02-小示例/13A-面板动态显示隐藏.jpg",
+                "text": "13A-面板动态显示隐藏",
+                "iconDrawable": {
+                  "_image": "http://localhost:8999/displays/demo/3-示例/02-小示例/13A-面板动态显示隐藏.jpg",
+                  "_stretch": "uniform",
+                  "_colorTint": "rgb(235,245,255)"
+                }
+              },
+              {
+                "icon": "http://localhost:8999/displays/demo/3-示例/02-小示例/13B-面板动态显示隐藏（无连线）.jpg",
+                "toolTip": "http://localhost:8999/displays/demo/3-示例/02-小示例/13B-面板动态显示隐藏（无连线）.jpg",
+                "text": "13B-面板动态显示隐藏（无连线）",
+                "iconDrawable": {
+                  "_image": "http://localhost:8999/displays/demo/3-示例/02-小示例/13B-面板动态显示隐藏（无连线）.jpg",
+                  "_stretch": "uniform",
+                  "_colorTint": "rgb(235,245,255)"
+                }
+              },
+              {
+                "icon": "http://localhost:8999/displays/demo/3-示例/02-小示例/14-接口查询返回下拉级联.jpg",
+                "toolTip": "http://localhost:8999/displays/demo/3-示例/02-小示例/14-接口查询返回下拉级联.jpg",
+                "text": "14-接口查询返回下拉级联",
+                "iconDrawable": {
+                  "_image": "http://localhost:8999/displays/demo/3-示例/02-小示例/14-接口查询返回下拉级联.jpg",
+                  "_stretch": "uniform",
+                  "_colorTint": "rgb(235,245,255)"
+                }
+              },
+              {
+                "icon": "http://localhost:8999/displays/demo/3-示例/02-小示例/15-接口数据给树表.jpg",
+                "toolTip": "http://localhost:8999/displays/demo/3-示例/02-小示例/15-接口数据给树表.jpg",
+                "text": "15-接口数据给树表",
+                "iconDrawable": {
+                  "_image": "http://localhost:8999/displays/demo/3-示例/02-小示例/15-接口数据给树表.jpg",
+                  "_stretch": "uniform",
+                  "_colorTint": "rgb(235,245,255)"
+                }
+              },
+              {
+                "icon": "http://localhost:8999/displays/demo/3-示例/02-小示例/16-接口数据给统计曲线图.jpg",
+                "toolTip": "http://localhost:8999/displays/demo/3-示例/02-小示例/16-接口数据给统计曲线图.jpg",
+                "text": "16-接口数据给统计曲线图",
+                "iconDrawable": {
+                  "_image": "http://localhost:8999/displays/demo/3-示例/02-小示例/16-接口数据给统计曲线图.jpg",
+                  "_stretch": "uniform",
+                  "_colorTint": "rgb(235,245,255)"
+                }
+              },
+              {
+                "icon": "http://localhost:8999/displays/demo/3-示例/02-小示例/19-接口数据给到饼状图.jpg",
+                "toolTip": "http://localhost:8999/displays/demo/3-示例/02-小示例/19-接口数据给到饼状图.jpg",
+                "text": "19-接口数据给到饼状图",
+                "iconDrawable": {
+                  "_image": "http://localhost:8999/displays/demo/3-示例/02-小示例/19-接口数据给到饼状图.jpg",
+                  "_stretch": "uniform",
+                  "_colorTint": "rgb(235,245,255)"
+                }
+              },
+              {
+                "icon": "http://localhost:8999/displays/demo/3-示例/02-小示例/20-JSON数据解析提取.jpg",
+                "toolTip": "http://localhost:8999/displays/demo/3-示例/02-小示例/20-JSON数据解析提取.jpg",
+                "text": "20-JSON数据解析提取",
+                "iconDrawable": {
+                  "_image": "http://localhost:8999/displays/demo/3-示例/02-小示例/20-JSON数据解析提取.jpg",
+                  "_stretch": "uniform",
+                  "_colorTint": "rgb(235,245,255)"
+                }
+              },
+              {
+                "icon": "http://localhost:8999/displays/demo/3-示例/02-小示例/21-表格批量勾选交互.jpg",
+                "toolTip": "http://localhost:8999/displays/demo/3-示例/02-小示例/21-表格批量勾选交互.jpg",
+                "text": "21-表格批量勾选交互",
+                "iconDrawable": {
+                  "_image": "http://localhost:8999/displays/demo/3-示例/02-小示例/21-表格批量勾选交互.jpg",
+                  "_stretch": "uniform",
+                  "_colorTint": "rgb(235,245,255)"
+                }
+              },
+              {
+                "icon": "http://localhost:8999/displays/demo/3-示例/02-小示例/22-矢量图形交互连线.jpg",
+                "toolTip": "http://localhost:8999/displays/demo/3-示例/02-小示例/22-矢量图形交互连线.jpg",
+                "text": "22-矢量图形交互连线",
+                "iconDrawable": {
+                  "_image": "http://localhost:8999/displays/demo/3-示例/02-小示例/22-矢量图形交互连线.jpg",
+                  "_stretch": "uniform",
+                  "_colorTint": "rgb(235,245,255)"
+                }
+              },
+              {
+                "icon": "http://localhost:8999/displays/demo/3-示例/02-小示例/23-表单获取和表单写入.jpg",
+                "toolTip": "http://localhost:8999/displays/demo/3-示例/02-小示例/23-表单获取和表单写入.jpg",
+                "text": "23-表单获取和表单写入",
+                "iconDrawable": {
+                  "_image": "http://localhost:8999/displays/demo/3-示例/02-小示例/23-表单获取和表单写入.jpg",
+                  "_stretch": "uniform",
+                  "_colorTint": "rgb(235,245,255)"
+                }
+              }
+            ]
+          },
+          {
+            "title": "03-其他：组态大屏",
+            "children": [
+              {
+                "icon": "http://localhost:8999/displays/demo/3-示例/03-其他：组态大屏/06-水质监测.jpg",
+                "toolTip": "http://localhost:8999/displays/demo/3-示例/03-其他：组态大屏/06-水质监测.jpg",
+                "text": "06-水质监测",
+                "iconDrawable": {
+                  "_image": "http://localhost:8999/displays/demo/3-示例/03-其他：组态大屏/06-水质监测.jpg",
+                  "_stretch": "uniform",
+                  "_colorTint": "rgb(235,245,255)"
+                }
+              },
+              {
+                "icon": "http://localhost:8999/displays/demo/3-示例/03-其他：组态大屏/08-翻车机监控.jpg",
+                "toolTip": "http://localhost:8999/displays/demo/3-示例/03-其他：组态大屏/08-翻车机监控.jpg",
+                "text": "08-翻车机监控",
+                "iconDrawable": {
+                  "_image": "http://localhost:8999/displays/demo/3-示例/03-其他：组态大屏/08-翻车机监控.jpg",
+                  "_stretch": "uniform",
+                  "_colorTint": "rgb(235,245,255)"
+                }
+              }
+            ]
+          }
+        ],
+        "iconSize": [
+          190,
+          120
+        ],
+        "renderColor": "rgb(235,245,255)",
+        "background": [
+          "rgb(40,46,58)",
+          "rgba(255,255,255,0.1)",
+          "rgba(255,255,255,0.2)"
+        ],
+        "textColor": [
+          "rgb(90,122,138)",
+          "rgba(55,125,255,1)",
+          "rgba(55,125,255,1)"
+        ],
+        "headerBackground": [
+          null,
+          "rgba(255,255,255,0.03)",
+          "rgba(255,255,255,0.02)"
+        ],
+        "borderRadius": 8
+      }
+    },
+    {
+      "c": "ht.UNode",
+      "i": 4771,
+      "p": {
+        "name": "cbtn",
+        "displayName": "图片按钮（cbtn1）",
+        "tag": "cbtn1",
+        "dataBindings": {
+          "a": {
+            "display": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "popDirection": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "popBackground": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "popPadding": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "popWidth": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "popHeight": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "popBorderColor": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "popBorderWidth": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "popBorderRadius": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "popTriggerEvent": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "clicked": {
+              "id": "iotos.form",
+              "alias": "",
+              "func": "__ht__function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        console.error(err);\r\n        return rawData;\r\n    }\r\n}",
+              "idinfo": "",
+              "isTplBinded": false
+            }
+          }
+        },
+        "image": {
+          "modified": "Thu May 23 2024 08:41:04 GMT+0800 (中国标准时间)",
+          "dataBindings": [
+            {
+              "attr": "symbol",
+              "valueType": "Image",
+              "name": "symbol"
+            },
+            {
+              "attr": "toolTip",
+              "valueType": "Boolean",
+              "description": "运行时提示是否可见。\n<br>默认编辑状态下非空内容的提示鼠标放在上面都可见，\n<br>需要勾选该属性运行模式下才可见。",
+              "group": "功能（关键）",
+              "name": "toolTip"
+            },
+            {
+              "attr": "path",
+              "valueType": "Image",
+              "defaultValue": "symbols/develop/uiotos/icons/editroToolBar/edit.json",
+              "name": "名称",
+              "description": "图标。\n<br>可以设置其他图标地址。\n<br>如果清空，则会自动填充一个纯色矩形，\n<br>并且默认透明度为0.1。可以设置默认、\n<br>划过、点击颜色来调整。"
+            },
+            {
+              "attr": "openUrl",
+              "valueType": "String",
+              "description": "浏览器地址。\n<br>运行模式下点击，会在浏览器新页签打开地址。",
+              "name": "openUrl"
+            },
+            {
+              "attr": "hover-background",
+              "valueType": "Color",
+              "defaultValue": "rgb(51,153,255)",
+              "name": "划过颜色"
+            },
+            {
+              "attr": "iconType",
+              "valueType": "Level",
+              "defaultValue": 1,
+              "name": "类型"
+            },
+            {
+              "attr": "default-background",
+              "valueType": "Color",
+              "defaultValue": "rgb(55,125,255)",
+              "name": "默认颜色"
+            },
+            {
+              "attr": "param",
+              "valueType": "Function",
+              "name": "数据参数",
+              "extraInfo": {
+                "arguments": [
+                  "data",
+                  "gv"
+                ]
+              },
+              "defaultValue": "__ht__function(data, gv) {return null;}"
+            },
+            {
+              "attr": "disabled",
+              "valueType": "Boolean",
+              "name": "disabled"
+            },
+            {
+              "attr": "click-background",
+              "valueType": "Color",
+              "defaultValue": "#60ACFC",
+              "name": "按下颜色"
+            },
+            {
+              "attr": "bindTabview",
+              "valueType": "StringArray",
+              "defaultValue": [
+                "tab1",
+                -1
+              ],
+              "group": "bindControls",
+              "name": "bindTabview"
+            },
+            {
+              "attr": "bindControlsTag",
+              "valueType": "ObjectArray",
+              "name": "bindControlsTag"
+            },
+            {
+              "attr": "bindControlsAttr",
+              "valueType": "ObjectArray",
+              "description": "静态值。也用作数组索引、JSON对象解析提取值用途。\n<br>一、静态值用途：\n<br>对常规类型的属性赋值且没有反向关联属性值，传入为数值时，不\n<br>会作为数组的索引，而会当成常量值对外赋值。此外，存在特殊值：\n<br>~和undefined表示过滤、不触发；null为默认值，表示传递默认表\n<br>单数据。编辑状态下清空后保存与设置null等价。\n<br>二、数组索引用途\n<br>情况1：被操作的组件属性原先值是数组时（包括空数组），会将\n<br>待输出的值作为被操作数组指定索引的值来传入，而不是整体覆盖。\n<br>情况2：如果要被操作的组件属性原先值不是数组，而且待输出的\n<br>值为数组类型并且长度也在索引范围内，那么会按照索引取自身数\n<br>组指定元素再对外输出。（如果想要取待输出索引值，赋值给被操\n<br>纵属性的指定索引，那么需要中间组件属性连线过渡以下，无法直\n<br>接操作）\n<br>情况3：如果要被操作的组件属性是数组，而且待输出的值也是数组\n<br>类型，此时当情况1来处理。\n<br>三、数据解析用途：\n<br>待输出的值为JSON对象时，用x.y.z这种以字符.或者>为间隔的方式\n<br>实现对JSON字段层次逐层定位，当是数组时x.0.y.1这种以数字的方\n<br>式来指定数组的某个索引。以此实现对任意结果JSON对象字段的定\n<br>位，获取结构内指定字段对应的值。",
+              "name": "bindControlsAttr"
+            },
+            {
+              "attr": "bindControlsVal",
+              "valueType": "ObjectArray",
+              "name": "bindControlsVal"
+            },
+            {
+              "attr": "paramControlTag",
+              "valueType": "StringArray",
+              "name": "paramControlTag"
+            },
+            {
+              "attr": "paramControlAttr",
+              "valueType": "ObjectArray",
+              "name": "paramControlAttr"
+            },
+            {
+              "attr": "paramsGenerator",
+              "valueType": "Function",
+              "defaultValue": "__ht__function(data, val, index, node,oldVal,form) {//绑定组索引对应的函数处理，用来动态生成复杂的参数变量传入\r\nswitch(index){\r\n    case 0:\r\n        break;\r\n    case 1:\r\n        break;\r\n    case 2:\r\n        break;\r\n    default:\r\n        break;\r\n}\r\n\r\nreturn val;}",
+              "extraInfo": {
+                "arguments": [
+                  "data",
+                  "val",
+                  "index",
+                  "node",
+                  "oldVal",
+                  "form"
+                ]
+              },
+              "name": "paramsGenerator"
+            },
+            {
+              "attr": "useAttrCORS",
+              "valueType": "Boolean",
+              "extraInfo": "*",
+              "defaultValue": false,
+              "description": "连线操作和处理回写是否一致。\n                        比如多个文本框连线传值给相同对话框，弹窗修改\n                        后是否限定只能写到最新赋值过来的文本框。详见<a href='https://www.yuque.com/liuhuo-nc809/uiotos/fgi6dd7gado51acm#fFUbp' style=\"color:rgb(96,172,252)\"target=\"_blank\">同源属性操作</a>",
+              "bindIgnored": true,
+              "name": "useAttrCORS",
+              "dynamicCreate": true
+            },
+            {
+              "attr": "clicked",
+              "valueType": "Function",
+              "name": "点击事件",
+              "extraInfo": {
+                "arguments": [
+                  "data",
+                  "param"
+                ]
+              }
+            },
+            {
+              "attr": "userData",
+              "valueType": "ObjectArray",
+              "name": "userData"
+            },
+            {
+              "attr": "display",
+              "name": "display",
+              "valueType": "Image",
+              "defaultValue": "",
+              "description": "自定义页面地址。\n                可以是编辑器中的其他页面，也可以\n                是外部网页链接地址。",
+              "group": "弹出框",
+              "dynamicCreate": true
+            },
+            {
+              "attr": "popDirection",
+              "name": "popDirection",
+              "valueType": "SideDirection",
+              "defaultValue": "right",
+              "description": "提示显示位置。",
+              "dynamicCreate": true
+            },
+            {
+              "attr": "popBackground",
+              "name": "popBackground",
+              "valueType": "Color",
+              "defaultValue": "white",
+              "description": "箭头和背景色。",
+              "dynamicCreate": true
+            },
+            {
+              "attr": "popPadding",
+              "name": "padding",
+              "valueType": "NumberArray",
+              "defaultValue": [
+                2,
+                2,
+                2,
+                2
+              ],
+              "description": "内间距。",
+              "dynamicCreate": true
+            },
+            {
+              "attr": "popWidth",
+              "name": "popWidth",
+              "valueType": "Number",
+              "defaultValue": 400,
+              "description": "弹出框宽度。",
+              "dynamicCreate": true
+            },
+            {
+              "attr": "popHeight",
+              "name": "popHeight",
+              "valueType": "Number",
+              "defaultValue": 300,
+              "description": "弹出框高度。",
+              "dynamicCreate": true
+            },
+            {
+              "attr": "popBorderColor",
+              "name": "popBorderColor",
+              "valueType": "Color",
+              "defaultValue": "rgb(51,51,51)",
+              "description": "边框线颜色。\n                    注意，是设置了边框宽度非0后的边框颜色。\n                    默认边框宽度属性为0时，实际上是白色并\n                    带有箭头指示的边框。本属性不用于修改默\n                    认边框色。",
+              "dynamicCreate": true
+            },
+            {
+              "attr": "popBorderWidth",
+              "name": "popBorderWidth",
+              "valueType": "Number",
+              "defaultValue": 0,
+              "description": "边框线宽度。\n                    默认值为0，此时边框默认为白色并且带有\n                    箭头指示。当设置宽度后，颜色将取边框颜\n                    色属性的设置，并且不再有箭头指示。",
+              "dynamicCreate": true
+            },
+            {
+              "attr": "popBorderRadius",
+              "name": "popBorderRadius",
+              "valueType": "Number",
+              "defaultValue": 0,
+              "description": "边框线圆角。\n                    设置圆角线后，如果此前默认是白色边框带有\n                    指示箭头，那么将自动不可见，只对内容区域\n                    产生圆角。",
+              "dynamicCreate": true
+            },
+            {
+              "attr": "popTriggerEvent",
+              "name": "popTriggerEvent",
+              "valueType": "MouseEvent",
+              "defaultValue": "hover",
+              "description": "触发方式。\n                支持鼠标移入、点击（按钮时）\n                两种触发提示的方式。",
+              "dynamicCreate": true
+            }
+          ],
+          "snapshotURL": "symbols/develop/uiotos/arranged/controls/forms_icon/图片按钮.json",
+          "onDown": "__ht__function(event, data, view, point, width, height) {\n!data.ca('disabled') && data.ca('icon-background',data.ca('click-background'))\n}",
+          "onUp": "__ht__function(event, data, view, point, width, height) {\nif(!data.ca('disabled')){\r\n    data.ca('icon-background',data.ca('hover-background'));\r\n    let cb = new Function('return ' + data.ca('clicked'))(),\r\n        cb2 = new Function('return ' + data.ca('onClick'))();//240523，兼容onClick命名\r\n    typeof(setBindTabviewIndex) != 'undefined' && setBindTabviewIndex(data,data.ca('bindTabview'));\r\n    let paramCb = new Function('return ' + data.ca('param'))();\r\n    let param = paramCb ? paramCb(data,view) : null;\r\n    if(typeof(i) != 'undefined' && typeof(i.updateBindControls) != 'undefined'){\r\n        //240304，需要改成i.formEventBubblingUpper，否则执行操作可能会出问题！比如tab页签索引切换，切换不了！\r\n        // i.updateBindControls(data,param,[],false,'~','clicked');//params是response的位置，所以得是对象类型\\\r\n        //触发事件连线操作\r\n        i.formEventBubblingUpper(\r\n            data,\r\n            data._gv,\r\n            data._cache,\r\n            'clicked',\r\n            null,\r\n            false\r\n        );\r\n    }\r\n    //230819，支持传入url，点击浏览器新窗口打开。\r\n    let urltmp = data.ca('openUrl');\r\n    if(urltmp && urltmp.indexOf('http') == -1) urltmp = 'http://' + urltmp;\r\n    urltmp && window.open(urltmp,'_blank');\r\n    \r\n    if(cb2) return cb2(data,param);\r\n    else return cb && cb(data,param)\r\n}\n}",
+          "onEnter": "__ht__function(event, data, view, point, width, height) {\nif(data.ca('disabled')){\r\n    view.getView().style.cursor = 'not-allowed'\r\n}else{\r\n    data.ca('icon-background',data.ca('hover-background'))\r\n    data.iv();\r\n    view.getView().style.cursor = 'pointer'\r\n}\n}",
+          "onLeave": "__ht__function(event, data, view, point, width, height) {\ndata.ca('icon-background',data.ca('default-background'))\r\nview.getView().style.cursor = 'default'\n}",
+          "renderHTML": "__ht__function(data, gv, cache) {/*240304，所以渲染元素最简，都需要加上这句调用，否则连线赋值时，判断\r\ni.hasInnerSymbolInited()识别渲染元素是否初始化就极可能识别判断失误！\r\n加上了这句，上面的data._gv、data._cache散装调用貌似可以去掉了，暂时\r\n不动，留着也无妨！*/\r\ncache = _i.innerRecoveredDataCache(data, cache,false,'cbtn','图片按钮');\r\n\r\n//对于提示组件，初始没有配置（undefined），那么自动勾选，允许运行时提示可见！\r\nif(data.getName() == 'tip' && data.ca('toolTip') === undefined){\r\n    data.ca('toolTip',true);\r\n    data.s('pixelPerfect',false);\r\n}\r\n\r\n//240518，清空时，给一个矩形，可以配置颜色包括透明的，避免清理不掉默认图标。当清理图标时，自动矩形半透明0.1\r\nif(!data._gv){\r\n    i.md(data, gv, cache, {\r\n        'a:path': e => {\r\n            if(!e.newValue || e.newValue.trim() == ''){\r\n                data.ca('path','symbols/develop/uiotos/common/pureRect.json');\r\n                data.ca('default-background', rgbaForced(data.ca('default-background'),0.1));\r\n                data.ca('hover-background', rgbaForced(data.ca('hover-background'),0.1));\r\n                data.ca('click-background', rgbaForced(data.ca('click-background'),0.1));\r\n                data.s('image.stretch','fill');\r\n            }\r\n        },\r\n    }, [], null, null, null);\r\n}\r\n\r\n//240304，发现iconButton图片按钮没有渲染元素代码实现，需要这里手动加\r\ndata._gv = gv;\r\ndata._cache = data.__cache = cache;}",
+          "width": 100,
+          "height": 100,
+          "pixelPerfect": false,
+          "comps": [
+            {
+              "type": "image",
+              "color": null,
+              "name": {
+                "func": "__ht__function(data, view) {\nfunction func(data,view){\r\n    if((typeof(runningMode) != 'undefined' && !runningMode()) || view.getView().style.cursor != 'pointer'){//最好不用 == 'default'，因为存在代码初始赋值\r\n        data.ca('icon-background',data.ca('default-background'))\r\n    }\r\n    var typeArr = ['light','light','regular','light'] //枚举下拉选择\r\n    var typetmp = typeArr[data.ca('iconType')] //类型选择\r\n    var path = data.ca('path')                 //图标路径\r\n    if(path != undefined && path.trim() !== ''){\r\n        if(path.indexOf('.') == -1){           //传入图标文件名称时\r\n            path = 'symbols/demo/uiotos/icons/' + typetmp + '/' + path + '.json'\r\n        }else if(path.indexOf(typetmp) == -1){ //图标类型发生变化时\r\n            typeArr.forEach((curType,index)=>{\r\n                if(curType != typetmp){        //路径中先前的类型名称换成新的\r\n                    path = path.replace(curType,typetmp)               \r\n                }\r\n            })\r\n        }\r\n    }\r\n    data.ca('path',path)                      //回写过去\r\n    return path\r\n}\r\n\r\n//整体复制的话需要带上这句，因为属性func外层已经是函数体\r\nreturn func(data,view)\n}",
+                "value": "symbols/demo/uiotos/icons/light/square-full.json"
+              },
+              "displayName": "democrat（democrat1）",
+              "rect": [
+                0,
+                0,
+                100,
+                100
+              ]
+            }
+          ],
+          "uuid": "886CA35E-DAAD-4A27-9B4B-6D94701BD70B"
+        },
+        "position": {
+          "x": 26.09121,
+          "y": 22.11653
+        },
+        "width": 30,
+        "height": 30
+      },
+      "s": {
+        "label.opacity": 0,
+        "label.position": 14,
+        "label.offset.x": -10,
+        "label.offset.y": 0,
+        "label.color": "rgb(61,61,61)",
+        "interactive": true
+      },
+      "a": {
+        "icon-background": "rgb(51,153,255)",
+        "default-background": "rgb(51,153,255)",
+        "hover-background": "#60ACFC",
+        "click-background": "rgb(0,128,255)",
+        "symbol": "symbols/develop/uiotos/base/iconClick.json",
+        "path": "symbols/develop/uiotos/arranged/icons/方向/reply-176.json",
+        "paramControlTag": [],
+        "paramControlAttr": [],
+        "bindControlsTag": [],
+        "bindControlsAttr": [],
+        "bindControlsVal": []
+      }
+    }
+  ],
+  "modified": "Thu Aug 22 2024 17:39:19 GMT+0800 (中国标准时间)",
+  "contentRect": {
+    "x": -26.54157,
+    "y": -4.06905,
+    "width": 1097.8517,
+    "height": 599.6326
+  }
+}

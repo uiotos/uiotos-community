@@ -1,0 +1,108 @@
+{
+    "v": "7.3.3",
+    "p": {
+        "autoAdjustIndex": true,
+        "hierarchicalRendering": true
+    },
+    "a": {
+        "rotateAsClock": false,
+        "gridBlockSize": 20,
+        "gridThickColor": "rgba(100,100,100,0.2)",
+        "gridLightColor": "rgba(127,127,127,0.1)",
+        "connectActionType": null,
+        "fitContent": false,
+        "rectSelectable": false,
+        "zoomable": false,
+        "pannable": false
+    },
+    "d": [{
+            "c": "ht.Block",
+            "i": 309571,
+            "p": {
+                "position": {
+                    "x": 290.78344,
+                    "y": 291
+                },
+                "anchor": {
+                    "x": 0.22864,
+                    "y": 0.5
+                },
+                "width": 174.94517,
+                "height": 35
+            },
+            "s": {
+                "2d.selectable": false,
+                "interactive": true,
+                "image.stretch": "uniform",
+                "fullscreen": "fill",
+                "fullscreen.gap": 0
+            }
+        },
+        {
+            "c": "ht.Node",
+            "i": 309572,
+            "p": {
+                "displayName": "switch-lite",
+                "parent": {
+                    "__i": 309571
+                },
+                "image": "symbols/admin/uiotos/base/switch-lite.json",
+                "position": {
+                    "x": 290.78344,
+                    "y": 291
+                },
+                "width": 80,
+                "height": 35
+            },
+            "s": {
+                "interactive": true,
+                "image.stretch": "uniform",
+                "fullscreen.gap": 0
+            }
+        },
+        {
+            "c": "ht.Node",
+            "i": 309573,
+            "p": {
+                "displayName": "switch-lite",
+                "parent": {
+                    "__i": 309571
+                },
+                "image": "symbols/admin/uiotos/base/switch-lite.json",
+                "position": {
+                    "x": 385.72861,
+                    "y": 291
+                },
+                "width": 80,
+                "height": 35
+            },
+            "s": {
+                "interactive": true,
+                "image.stretch": "uniform",
+                "fullscreen.gap": 0
+            },
+            "a": {
+                "closedColor": "rgb(124,145,155)",
+                "visible": true,
+                "back.background": "rgb(124,145,155)",
+                "dot.background": "white",
+                "text": "关闭",
+                "textColor": "white",
+                "textRect": [
+                    35,
+                    8.5,
+                    30,
+                    18
+                ],
+                "back.borderColor": "rgb(124,145,155)",
+                "dot.rect": [
+                    7.49996,
+                    5,
+                    25,
+                    25
+                ],
+                "open": false
+            }
+        }
+    ]
+}

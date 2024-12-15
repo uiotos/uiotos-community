@@ -1,0 +1,87 @@
+{
+  "modified": "Tue Mar 05 2019 14:51:24 GMT+0800 (中国标准时间)",
+  "width": 20,
+  "height": 20,
+  "snapshotURL": "symbols/ht/snapshot/checkbox.json",
+  "func": "__ht__function(g, rect, comp, data, view) {\nht.vector.comp.checkbox.apply(this, arguments);\n}",
+  "properties": {
+    "checked": {
+      "valueType": "Boolean",
+      "name": "UIChecked"
+    },
+    "group": {
+      "valueType": "String",
+      "name": "UIFormItemGroup"
+    },
+    "value": {
+      "valueType": "String",
+      "name": "UIFormItemValue"
+    },
+    "disabled": {
+      "valueType": "Boolean",
+      "name": "UIDisabled"
+    },
+    "borderColor": {
+      "valueType": "Color",
+      "defaultValue": "#737373",
+      "name": "UIBorderColor"
+    },
+    "activeBorderColor": {
+      "valueType": "Color",
+      "defaultValue": "rgb(51,153,255)",
+      "name": "UIActiveBorderColor"
+    },
+    "disabledBorderColor": {
+      "valueType": "Color",
+      "defaultValue": "#ebebeb",
+      "name": "UIDisabledBorderColor"
+    },
+    "background": {
+      "valueType": "Color",
+      "defaultValue": null,
+      "name": "UIBackground"
+    },
+    "activeBackground": {
+      "valueType": "Color",
+      "defaultValue": "rgb(51,153,255)",
+      "name": "UIActiveBackground"
+    },
+    "disabledBackground": {
+      "valueType": "Color",
+      "defaultValue": "#fafafa",
+      "name": "UIDisabledBackground"
+    },
+    "borderRadius": {
+      "valueType": "PositiveNumber",
+      "defaultValue": 2,
+      "name": "UIBorderRadius"
+    },
+    "iconColor": {
+      "valueType": "Color",
+      "defaultValue": "rgb(255,255,255)",
+      "name": "UIIconColor"
+    },
+    "disabledIconColor": {
+      "valueType": "Color",
+      "defaultValue": "#ebebeb",
+      "name": "UIDisabledIconColor"
+    },
+    "onChange": {
+      "valueType": "Function",
+      "name": "UIOnChange",
+      "extraInfo": {
+        "arguments": [
+          "value",
+          "data",
+          "view"
+        ]
+      }
+    }
+  },
+  "events": {
+    "onDown": "__ht__function(event, data, view, point, width, height) {\nht.vector.checkboxInteractor.onDown.apply(this, arguments);\n}",
+    "onUp": "__ht__function(event, data, view, point, width, height) {\nht.vector.checkboxInteractor.onUp.apply(this, arguments);\n}",
+    "onEnter": "__ht__function(event, data, view, point, width, height) {\nht.vector.checkboxInteractor.onEnter.apply(this, arguments);\n}",
+    "onLeave": "__ht__function(event, data, view, point, width, height) {\nht.vector.checkboxInteractor.onLeave.apply(this, arguments);\n}"
+  }
+}

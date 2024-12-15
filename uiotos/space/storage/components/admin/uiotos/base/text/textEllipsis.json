@@ -1,0 +1,83 @@
+{
+  "modified": "Tue Jul 09 2019 11:32:11 GMT+0800 (中国标准时间)",
+  "width": 100,
+  "height": 100,
+  "snapshotURL": "",
+  "func": "__ht__function(g, rect, comp, data, view) {\nht.vector.comp.textEllipsis.apply(this, arguments);\n}",
+  "properties": {
+    "content": {
+      "valueType": "String",
+      "defaultValue": "HT Vector HT Vector",
+      "name": "editor.content"
+    },
+    "font": {
+      "valueType": "Font",
+      "defaultValue": "14px sans-serif, Arial",
+      "name": "UIFont"
+    },
+    "align": {
+      "valueType": "Align",
+      "defaultValue": "left",
+      "name": "editor.valuetype.align"
+    },
+    "vAlign": {
+      "valueType": "VAlign",
+      "defaultValue": "middle",
+      "name": "editor.valuetype.valign"
+    },
+    "color": {
+      "valueType": "Color",
+      "defaultValue": "rgb(0,0,0)",
+      "name": "editor.color"
+    },
+    "background": {
+      "valueType": "Color",
+      "defaultValue": null,
+      "name": "UIBackground"
+    },
+    "bgGradient": {
+      "valueType": "Gradient",
+      "defaultValue": null,
+      "name": "editor.gradient"
+    },
+    "bgGradientColor": {
+      "valueType": "Color",
+      "defaultValue": "rgb(255,255,255)",
+      "name": "editor.gradientcolor"
+    },
+    "padding": {
+      "valueType": "String",
+      "defaultValue": "0",
+      "name": "UIPadding"
+    },
+    "borderWidth": {
+      "valueType": "PositiveNumber",
+      "defaultValue": 0,
+      "name": "UIBorderWidth",
+      "group": "editor.titleborder"
+    },
+    "borderColor": {
+      "valueType": "Color",
+      "defaultValue": "rgb(61,61,61)",
+      "name": "UIBorderColor"
+    },
+    "borderRadius": {
+      "valueType": "String",
+      "defaultValue": "0",
+      "name": "UIBorderRadius"
+    },
+    "dash": {
+      "valueType": "Boolean",
+      "defaultValue": false,
+      "name": "editor.dash"
+    },
+    "dashPattern": {
+      "valueType": "NumberArray",
+      "defaultValue": [
+        8,
+        8
+      ],
+      "name": "editor.pattern"
+    }
+  }
+}

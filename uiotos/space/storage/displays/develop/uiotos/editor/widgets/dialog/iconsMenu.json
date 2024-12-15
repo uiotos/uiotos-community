@@ -1,0 +1,282 @@
+{
+    "v": "7.3.3",
+    "p": {
+        "autoAdjustIndex": true,
+        "hierarchicalRendering": true
+    },
+    "a": {
+        "rotateAsClock": false,
+        "gridBlockSize": 20,
+        "gridThickColor": "rgba(100,100,100,0.2)",
+        "gridLightColor": "rgba(127,127,127,0.1)",
+        "connectActionType": null,
+        "fitContent": false,
+        "rectSelectable": false,
+        "pannable": false,
+        "zoomable": false
+    },
+    "d": [{
+            "c": "ht.Node",
+            "i": 4834,
+            "p": {
+                "position": {
+                    "x": -28.93043,
+                    "y": -280.23507
+                },
+                "width": 417.77226,
+                "height": 101.12185
+            },
+            "s": {
+                "shape": "rect",
+                "shape.background": "rgb(255,255,255)",
+                "shape.border.color": "#979797",
+                "interactive": true,
+                "image.stretch": "uniform",
+                "fullscreen": "fill",
+                "fullscreen.gap": 0
+            }
+        },
+        {
+            "c": "ht.Node",
+            "i": 4835,
+            "p": {
+                "displayName": "cbtn",
+                "tag": "cbtn1",
+                "dataBindings": {
+                    "a": {
+                        "path": {
+                            "id": "iotos.form",
+                            "func": "__ht__function formParser(rawData) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}",
+                            "idinfo": "",
+                            "isTplBinded": false
+                        },
+                        "clicked": {
+                            "id": "iotos.form",
+                            "func": "__ht__function formParser(rawData) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}",
+                            "idinfo": "",
+                            "isTplBinded": false
+                        }
+                    },
+                    "s": {
+                        "label": {
+                            "id": "iotos.form",
+                            "func": "__ht__function formParser(rawData) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}",
+                            "idinfo": "",
+                            "isTplBinded": false
+                        }
+                    }
+                },
+                "image": "symbols/develop/uiotos/base/iconClick.json",
+                "host": {
+                    "__i": 4834
+                },
+                "position": {
+                    "x": -160.81037,
+                    "y": -290.02707
+                },
+                "width": 58.5134,
+                "height": 51.95356
+            },
+            "s": {
+                "interactive": true,
+                "image.stretch": "uniform",
+                "label": "ICON1",
+                "label.color": "rgb(61,61,61)",
+                "layout.h": "left",
+                "layout.v": "top",
+                "pixelPerfect": false,
+                "label.offset.y": 5
+            },
+            "a": {
+                "icon-background": "rgb(55,125,255)",
+                "path": "symbols/develop/uiotos/icons/editroToolBar/edit.json",
+                "param": "__ht__function(data, gv) {return data.s('label');}",
+                "clicked": null
+            }
+        },
+        {
+            "c": "ht.Node",
+            "i": 4836,
+            "p": {
+                "displayName": "cbtn",
+                "tag": "cbtn2",
+                "dataBindings": {
+                    "a": {
+                        "path": {
+                            "id": "iotos.form",
+                            "func": "__ht__function formParser(rawData) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}",
+                            "idinfo": "",
+                            "isTplBinded": false
+                        },
+                        "clicked": {
+                            "id": "iotos.form",
+                            "func": "__ht__function formParser(rawData) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}",
+                            "idinfo": "",
+                            "isTplBinded": false
+                        }
+                    },
+                    "s": {
+                        "label": {
+                            "id": "iotos.form",
+                            "func": "__ht__function formParser(rawData) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}",
+                            "idinfo": "",
+                            "isTplBinded": false
+                        }
+                    }
+                },
+                "image": "symbols/develop/uiotos/base/iconClick.json",
+                "host": {
+                    "__i": 4834
+                },
+                "position": {
+                    "x": -67.11318,
+                    "y": -290.02707
+                },
+                "width": 58.5134,
+                "height": 51.95356
+            },
+            "s": {
+                "interactive": true,
+                "image.stretch": "uniform",
+                "label": "ICON2",
+                "label.color": "rgb(61,61,61)",
+                "layout.h": "left",
+                "layout.v": "top",
+                "pixelPerfect": false,
+                "label.offset.y": 5,
+                "label.font": "12px arial, sans-serif"
+            },
+            "a": {
+                "icon-background": "rgb(55,125,255)",
+                "path": "symbols/develop/uiotos/icons/editroToolBar/edit.json",
+                "param": "__ht__function(data, gv) {return data.s('label');}",
+                "clicked": null
+            }
+        },
+        {
+            "c": "ht.Node",
+            "i": 4837,
+            "p": {
+                "displayName": "cbtn",
+                "tag": "cbtn3",
+                "dataBindings": {
+                    "a": {
+                        "path": {
+                            "id": "iotos.form",
+                            "func": "__ht__function formParser(rawData) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}",
+                            "idinfo": "",
+                            "isTplBinded": false
+                        },
+                        "clicked": {
+                            "id": "iotos.form",
+                            "func": "__ht__function formParser(rawData) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}",
+                            "idinfo": "",
+                            "isTplBinded": false
+                        }
+                    },
+                    "s": {
+                        "label": {
+                            "id": "iotos.form",
+                            "func": "__ht__function formParser(rawData) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}",
+                            "idinfo": "",
+                            "isTplBinded": false
+                        }
+                    }
+                },
+                "image": "symbols/develop/uiotos/base/iconClick.json",
+                "host": {
+                    "__i": 4834
+                },
+                "position": {
+                    "x": 26.58402,
+                    "y": -290.02707
+                },
+                "width": 58.5134,
+                "height": 51.95356
+            },
+            "s": {
+                "interactive": true,
+                "image.stretch": "uniform",
+                "label": "ICON3",
+                "label.color": "rgb(61,61,61)",
+                "layout.h": "left",
+                "layout.v": "top",
+                "pixelPerfect": false,
+                "label.offset.y": 5,
+                "label.font": "12px arial, sans-serif"
+            },
+            "a": {
+                "icon-background": "rgb(55,125,255)",
+                "path": "symbols/develop/uiotos/icons/editroToolBar/edit.json",
+                "param": "__ht__function(data, gv) {return data.s('label');}",
+                "clicked": null
+            }
+        },
+        {
+            "c": "ht.Node",
+            "i": 4838,
+            "p": {
+                "displayName": "cbtn",
+                "tag": "cbtn4",
+                "dataBindings": {
+                    "a": {
+                        "path": {
+                            "id": "iotos.form",
+                            "func": "__ht__function formParser(rawData) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}",
+                            "idinfo": "",
+                            "isTplBinded": false
+                        },
+                        "clicked": {
+                            "id": "iotos.form",
+                            "func": "__ht__function formParser(rawData) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}",
+                            "idinfo": "",
+                            "isTplBinded": false
+                        }
+                    },
+                    "s": {
+                        "label": {
+                            "id": "iotos.form",
+                            "func": "__ht__function formParser(rawData) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}",
+                            "idinfo": "",
+                            "isTplBinded": false
+                        }
+                    }
+                },
+                "image": "symbols/develop/uiotos/base/iconClick.json",
+                "host": {
+                    "__i": 4834
+                },
+                "position": {
+                    "x": 120.28121,
+                    "y": -290.02707
+                },
+                "width": 58.5134,
+                "height": 51.95356
+            },
+            "s": {
+                "interactive": true,
+                "image.stretch": "uniform",
+                "label": "ICON4",
+                "label.color": "rgb(61,61,61)",
+                "layout.h": "left",
+                "layout.v": "top",
+                "pixelPerfect": false,
+                "label.offset.y": 5,
+                "label.font": "12px arial, sans-serif"
+            },
+            "a": {
+                "icon-background": "rgb(55,125,255)",
+                "path": "symbols/develop/uiotos/icons/editroToolBar/edit.json",
+                "param": "__ht__function(data, gv) {return data.s('label');}",
+                "clicked": null
+            }
+        }
+    ],
+    "modified": "Thu Mar 30 2023 19:21:41 GMT+0800 (中国标准时间)",
+    "contentRect": {
+        "x": -237.81656,
+        "y": -330.796,
+        "width": 417.77226,
+        "height": 101.12185
+    }
+}

@@ -1,0 +1,335 @@
+{
+  "v": "8.0.2",
+  "p": {
+    "background": "rgb(32,37,46)",
+    "autoAdjustIndex": true,
+    "hierarchicalRendering": true
+  },
+  "a": {
+    "rotateAsClock": false,
+    "gridBlockSize": 20,
+    "connectActionType": null,
+    "fitContent": true,
+    "zoomable": true,
+    "rectSelectable": false,
+    "pannable": true,
+    "_professional": false
+  },
+  "d": [
+    {
+      "c": "ht.Text",
+      "i": 28039,
+      "p": {
+        "displayName": "Text（Text1）",
+        "tag": "Text1",
+        "position": {
+          "x": -1162.54782,
+          "y": -417.01567
+        },
+        "width": 259.82986,
+        "height": 35.61639
+      },
+      "s": {
+        "text": "无代码开发IoT应用",
+        "label.position": 17,
+        "label.color": "rgb(61,61,61)",
+        "interactive": true,
+        "image.stretch": "uniform",
+        "text.align": "center",
+        "text.shadow": true,
+        "text.shadow.color": "rgba(51,156,255,0.25)",
+        "text.color": "rgb(55,125,255)",
+        "text.font": "bold 26px sans-serif, Arial"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 28040,
+      "p": {
+        "name": "n",
+        "displayName": "n（n1）",
+        "toolTip": "<span style='font-weight:bold;color:rgb(125,195,125)'>说明：</span><span style='color:rgb(125,195,125);line-height:1.8em;letter-spacing:1px;'>\n<br>矢量矩形版本</span>",
+        "tag": "n1",
+        "rotation": 1.5708,
+        "position": {
+          "x": -1167.41342,
+          "y": -382.99061
+        },
+        "width": 0.5,
+        "height": 161.81691
+      },
+      "s": {
+        "shape": "rect",
+        "shape.background": "rgba(247,247,247,0)",
+        "shape.border.color": "#979797",
+        "label.position": 17,
+        "label.color": "rgb(61,61,61)",
+        "interactive": true,
+        "image.stretch": "uniform",
+        "shape.gradient": "spread.vertical",
+        "shape.gradient.color": "rgba(59,127,255,0.5)",
+        "fullscreen.gap": 0,
+        "label.opacity": 0,
+        "shape.fill.clip.percentage": 1
+      },
+      "a": {
+        "toolTipRaw": "<span style='font-weight:bold;color:rgb(125,195,125)'>说明：</span><span style='color:rgb(125,195,125);line-height:1.8em;letter-spacing:1px;'>\n<br>矢量矩形版本</span>",
+        "bindControlsTag": [],
+        "bindControlsAttr": [],
+        "bindControlsVal": [],
+        "paramControlTag": [],
+        "paramControlAttr": [],
+        "paramBindEvent": [],
+        "paramsGenerator": "function paramsGenerator(data, val, index, node, oldVal, form) {\r\n    //绑定组索引对应的函数处理，用来动态生成复杂的参数变量传入\r\n    switch (index) {\r\n        case 0:\r\n            break;\r\n        case 1:\r\n            break;\r\n        case 2:\r\n            break;\r\n        default:\r\n            break;\r\n    }\r\n    return val;\r\n}"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 28041,
+      "p": {
+        "name": "文字",
+        "displayName": "文字（文字1）",
+        "tag": "文字1",
+        "image": "symbols/develop/uiotos/arranged/controls/draws/2-规则图形/文字.json",
+        "position": {
+          "x": -1224.04763,
+          "y": -338.26141
+        }
+      },
+      "s": {
+        "2d.visible": false,
+        "label.position": 14,
+        "label.offset.x": -10,
+        "label.offset.y": 0,
+        "label.color": "rgb(61,61,61)"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 28042,
+      "p": {
+        "name": "文字",
+        "displayName": "文字（文字2）",
+        "tag": "文字2",
+        "image": "symbols/develop/uiotos/arranged/controls/draws/2-规则图形/文字.json",
+        "position": {
+          "x": -1198.65836,
+          "y": -352.80949
+        }
+      },
+      "s": {
+        "2d.visible": false,
+        "label.position": 14,
+        "label.offset.x": -10,
+        "label.offset.y": 0,
+        "label.color": "rgb(61,61,61)"
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 28043,
+      "p": {
+        "displayName": "Text（Text5）",
+        "tag": "Text5",
+        "position": {
+          "x": -1162.54782,
+          "y": -465.37709
+        },
+        "width": 107.26749,
+        "height": 8.38027
+      },
+      "s": {
+        "text": "UIOTOS",
+        "label.position": 17,
+        "label.color": "rgb(61,61,61)",
+        "interactive": true,
+        "image.stretch": "uniform",
+        "text.color": "#fe6800",
+        "text.font": "bold 20px Microsoft YaHei",
+        "text.align": "center"
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 28044,
+      "p": {
+        "displayName": "Text（Text4'）",
+        "tag": "Text4'",
+        "position": {
+          "x": -1162.54782,
+          "y": -361.50112
+        },
+        "width": 107.26749,
+        "height": 8.38027
+      },
+      "s": {
+        "text": "后台管理、上位机HMI、大屏组态",
+        "label.position": 17,
+        "label.color": "rgb(61,61,61)",
+        "interactive": true,
+        "image.stretch": "uniform",
+        "text.color": "rgb(124,145,155)",
+        "text.font": "10px Microsoft YaHei",
+        "text.align": "center"
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 28045,
+      "p": {
+        "displayName": "Text（Text5'）",
+        "tag": "Text5'",
+        "position": {
+          "x": -1161.81722,
+          "y": -333.99903
+        },
+        "anchor": {
+          "x": 0.44905,
+          "y": 0.85025
+        },
+        "width": 52.55474,
+        "height": 22.93298
+      },
+      "s": {
+        "text": "CRUD、GUI、HMI、SCADA",
+        "label.position": 17,
+        "label.color": "rgb(61,61,61)",
+        "interactive": true,
+        "image.stretch": "uniform",
+        "text.font": "10px arial, sans-serif",
+        "text.color": "rgba(189,199,219,0.5)",
+        "text.align": "center"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 28046,
+      "p": {
+        "name": "n",
+        "displayName": "n（n2）",
+        "toolTip": "<span style='font-weight:bold;color:rgb(125,195,125)'>说明：</span><span style='color:rgb(125,195,125);line-height:1.8em;letter-spacing:1px;'>\n<br>矢量矩形版本</span>",
+        "tag": "n2",
+        "rotation": 1.5708,
+        "position": {
+          "x": -1189.61836,
+          "y": -456.46095
+        },
+        "width": 0.5,
+        "height": 19.90302
+      },
+      "s": {
+        "shape": "rect",
+        "shape.background": "rgba(247,247,247,0)",
+        "shape.border.color": "#979797",
+        "label.position": 17,
+        "label.color": "rgb(61,61,61)",
+        "interactive": true,
+        "image.stretch": "uniform",
+        "shape.gradient": "spread.vertical",
+        "shape.gradient.color": "rgba(59,127,255,0.5)",
+        "fullscreen.gap": 0,
+        "label.opacity": 0,
+        "shape.fill.clip.percentage": 1
+      },
+      "a": {
+        "toolTipRaw": "<span style='font-weight:bold;color:rgb(125,195,125)'>说明：</span><span style='color:rgb(125,195,125);line-height:1.8em;letter-spacing:1px;'>\n<br>矢量矩形版本</span>",
+        "bindControlsTag": [],
+        "bindControlsAttr": [],
+        "bindControlsVal": [],
+        "paramControlTag": [],
+        "paramControlAttr": [],
+        "paramBindEvent": [],
+        "paramsGenerator": "function paramsGenerator(data, val, index, node, oldVal, form) {\r\n    //绑定组索引对应的函数处理，用来动态生成复杂的参数变量传入\r\n    switch (index) {\r\n        case 0:\r\n            break;\r\n        case 1:\r\n            break;\r\n        case 2:\r\n            break;\r\n        default:\r\n            break;\r\n    }\r\n    return val;\r\n}"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 28047,
+      "p": {
+        "name": "n",
+        "displayName": "n（n3）",
+        "toolTip": "<span style='font-weight:bold;color:rgb(125,195,125)'>说明：</span><span style='color:rgb(125,195,125);line-height:1.8em;letter-spacing:1px;'>\n<br>矢量矩形版本</span>",
+        "tag": "n3",
+        "rotation": 1.5708,
+        "position": {
+          "x": -1167.41342,
+          "y": -452.9877
+        },
+        "width": 0.5,
+        "height": 36.007
+      },
+      "s": {
+        "shape": "rect",
+        "shape.background": "rgba(247,247,247,0)",
+        "shape.border.color": "#979797",
+        "label.position": 18,
+        "label.color": "rgb(61,61,61)",
+        "interactive": true,
+        "image.stretch": "uniform",
+        "shape.gradient": "spread.vertical",
+        "shape.gradient.color": "rgba(59,127,255,0.5)",
+        "fullscreen.gap": 0,
+        "label.opacity": 0,
+        "shape.fill.clip.percentage": 1
+      },
+      "a": {
+        "toolTipRaw": "<span style='font-weight:bold;color:rgb(125,195,125)'>说明：</span><span style='color:rgb(125,195,125);line-height:1.8em;letter-spacing:1px;'>\n<br>矢量矩形版本</span>",
+        "bindControlsTag": [],
+        "bindControlsAttr": [],
+        "bindControlsVal": [],
+        "paramControlTag": [],
+        "paramControlAttr": [],
+        "paramBindEvent": [],
+        "paramsGenerator": "function paramsGenerator(data, val, index, node, oldVal, form) {\r\n    //绑定组索引对应的函数处理，用来动态生成复杂的参数变量传入\r\n    switch (index) {\r\n        case 0:\r\n            break;\r\n        case 1:\r\n            break;\r\n        case 2:\r\n            break;\r\n        default:\r\n            break;\r\n    }\r\n    return val;\r\n}"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 28048,
+      "p": {
+        "name": "n",
+        "displayName": "n（n4）",
+        "toolTip": "<span style='font-weight:bold;color:rgb(125,195,125)'>说明：</span><span style='color:rgb(125,195,125);line-height:1.8em;letter-spacing:1px;'>\n<br>矢量矩形版本</span>",
+        "tag": "n4",
+        "rotation": 1.5708,
+        "position": {
+          "x": -1137.00334,
+          "y": -456.46088
+        },
+        "width": 0.50004,
+        "height": 24.81317
+      },
+      "s": {
+        "shape": "rect",
+        "shape.background": "rgba(247,247,247,0)",
+        "shape.border.color": "#979797",
+        "label.position": 17,
+        "label.color": "rgb(61,61,61)",
+        "interactive": true,
+        "image.stretch": "uniform",
+        "shape.gradient": "spread.vertical",
+        "shape.gradient.color": "rgba(59,127,255,0.5)",
+        "fullscreen.gap": 0,
+        "label.opacity": 0,
+        "shape.fill.clip.percentage": 1
+      },
+      "a": {
+        "toolTipRaw": "<span style='font-weight:bold;color:rgb(125,195,125)'>说明：</span><span style='color:rgb(125,195,125);line-height:1.8em;letter-spacing:1px;'>\n<br>矢量矩形版本</span>",
+        "bindControlsTag": [],
+        "bindControlsAttr": [],
+        "bindControlsVal": [],
+        "paramControlTag": [],
+        "paramControlAttr": [],
+        "paramBindEvent": [],
+        "paramsGenerator": "function paramsGenerator(data, val, index, node, oldVal, form) {\r\n    //绑定组索引对应的函数处理，用来动态生成复杂的参数变量传入\r\n    switch (index) {\r\n        case 0:\r\n            break;\r\n        case 1:\r\n            break;\r\n        case 2:\r\n            break;\r\n        default:\r\n            break;\r\n    }\r\n    return val;\r\n}"
+      }
+    }
+  ],
+  "modified": "Mon Oct 28 2024 21:30:59 GMT+0800 (中国标准时间)",
+  "contentRect": {
+    "x": -1295.46275,
+    "y": -479.01772,
+    "width": 271.82986,
+    "height": 148.4529
+  }
+}

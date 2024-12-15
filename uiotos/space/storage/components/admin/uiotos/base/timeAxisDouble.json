@@ -1,0 +1,213 @@
+{
+  "modified": "Wed Dec 04 2019 11:32:50 GMT+0800 (中国标准时间)",
+  "width": 300,
+  "height": 200,
+  "snapshotURL": "",
+  "func": "__ht__function(g, rect, comp, data, view) {\nht.vector.comp.timeAxisChart.apply(null, arguments);\n}",
+  "properties": {
+    "series": {
+      "valueType": "Object",
+      "defaultValue": [
+        {
+          "type": "line",
+          "name": "流量",
+          "itemStyle": {
+            "size": 3
+          },
+          "data": [
+            [
+              1566291297491,
+              466
+            ],
+            [
+              1566291657491,
+              443
+            ],
+            [
+              1566292017491,
+              439
+            ],
+            [
+              1566292377491,
+              346
+            ],
+            [
+              1566292737491,
+              260
+            ],
+            [
+              1566293097491,
+              216
+            ],
+            [
+              1566293457491,
+              202
+            ],
+            [
+              1566293817491,
+              148
+            ],
+            [
+              1566294177491,
+              81
+            ],
+            [
+              1566294537491,
+              2
+            ]
+          ]
+        },
+        {
+          "type": "line",
+          "name": "温度",
+          "itemStyle": {
+            "size": 3
+          },
+          "data": [
+            [
+              1566291297491,
+              46
+            ],
+            [
+              1566291657491,
+              43
+            ],
+            [
+              1566292017491,
+              239
+            ],
+            [
+              1566292377491,
+              356
+            ],
+            [
+              1566292737491,
+              280
+            ],
+            [
+              1566293097491,
+              276
+            ],
+            [
+              1566293457491,
+              202
+            ],
+            [
+              1566293817491,
+              248
+            ],
+            [
+              1566294177491,
+              181
+            ],
+            [
+              1566294537491,
+              245
+            ]
+          ]
+        }
+      ],
+      "name": "ChartSeries"
+    },
+    "xAxis": {
+      "valueType": "Object",
+      "name": "ChartXAxis"
+    },
+    "yAxis": {
+      "valueType": "Object",
+      "name": "ChartYAxis"
+    },
+    "colors": {
+      "valueType": "ColorArray",
+      "defaultValue": [
+        "rgb(51,153,255)",
+        "rgb(93,217,174)",
+        "#FEB64D",
+        "rgb(241,125,164)",
+        "rgb(135,144,204)",
+        "rgb(124,145,155)",
+        "rgb(48,242,120)",
+        "rgb(212,0,0)",
+        "#32D3EB",
+        "#c4ccd3"
+      ],
+      "name": "ChartColors"
+    },
+    "background": {
+      "valueType": "Color",
+      "name": "UIBackground"
+    },
+    "xAxisRange": {
+      "valueType": "NumberArray",
+      "name": "ChartXAxisRange"
+    },
+    "maxVisiblePoint": {
+      "valueType": "PositiveNumber",
+      "defaultValue": 500,
+      "name": "ChartMaxVisiblePoint"
+    },
+    "endProtectPoint": {
+      "valueType": "PositiveNumber",
+      "defaultValue": 50,
+      "name": "ChartEndProtectPoint"
+    },
+    "rectSelectBorderColor": {
+      "valueType": "Color",
+      "defaultValue": "rgba(61,61,61,0.50)",
+      "name": "ChartRectSelectBorderColor",
+      "group": "UISelect"
+    },
+    "rectSelectBackground": {
+      "valueType": "Color",
+      "defaultValue": "rgba(61,61,61,0.30)",
+      "name": "ChartRectSelectBackground"
+    },
+    "onRectSelected": {
+      "valueType": "Function",
+      "name": "ChartOnRectSelected",
+      "extraInfo": {
+        "arguments": [
+          "ranges",
+          "data",
+          "view"
+        ]
+      }
+    },
+    "tooltip": {
+      "valueType": "Boolean",
+      "defaultValue": true,
+      "name": "editor.tooltip",
+      "group": "editor.tooltip"
+    },
+    "tooltipLineColor": {
+      "valueType": "Color",
+      "defaultValue": "rgb(124,145,155)",
+      "name": "ChartTooltiLineColor"
+    },
+    "tooltipLineWidth": {
+      "valueType": "PositiveNumber",
+      "defaultValue": 1,
+      "name": "ChartTooltiLineWidth"
+    },
+    "tooltipLinePattern": {
+      "valueType": "NumberArray",
+      "name": "ChartTooltiLinePattern"
+    },
+    "tooltipPointerType": {
+      "valueType": "String",
+      "defaultValue": "line",
+      "name": "ChartTooltipPointerType"
+    }
+  },
+  "events": {
+    "onClick": "__ht__function(event, data, view, point, width, height) {\nht.vector.timeAxisChartInteractor.onClick.apply(this, arguments);\n}",
+    "onDown": "__ht__function(event, data, view, point, width, height) {\nht.vector.timeAxisChartInteractor.onDown.apply(this, arguments);\n}",
+    "onUp": "__ht__function(event, data, view, point, width, height) {\nht.vector.timeAxisChartInteractor.onUp.apply(this, arguments);\n}",
+    "onMove": "__ht__function(event, data, view, point, width, height) {\nht.vector.timeAxisChartInteractor.onMove.apply(this, arguments);\n}",
+    "onEnter": "__ht__function(event, data, view, point, width, height) {\nht.vector.timeAxisChartInteractor.onEnter.apply(this, arguments);\n}",
+    "onLeave": "__ht__function(event, data, view, point, width, height) {\nht.vector.timeAxisChartInteractor.onLeave.apply(this, arguments);\n}",
+    "onBeginDrag": "__ht__function(event, data, view, point, width, height) {\nht.vector.timeAxisChartInteractor.onBeginDrag.apply(this, arguments);\n}",
+    "onDrag": "__ht__function(event, data, view, point, width, height) {\nht.vector.timeAxisChartInteractor.onDrag.apply(this, arguments);\n}",
+    "onEndDrag": "__ht__function(event, data, view, point, width, height) {\nht.vector.timeAxisChartInteractor.onEndDrag.apply(this, arguments);\n}"
+  }
+}

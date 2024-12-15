@@ -1,0 +1,2783 @@
+{
+  "v": "7.7.2",
+  "p": {
+    "background": "#20252e",
+    "autoAdjustIndex": true,
+    "hierarchicalRendering": true
+  },
+  "a": {
+    "rotateAsClock": false,
+    "gridBlockSize": 20,
+    "connectActionType": null,
+    "fitContent": false,
+    "zoomable": false,
+    "rectSelectable": false,
+    "pannable": false
+  },
+  "d": [
+    {
+      "c": "ht.Node",
+      "i": 1387402,
+      "p": {
+        "name": "base",
+        "displayName": "底板（_base）",
+        "tag": "_base",
+        "position": {
+          "x": 960,
+          "y": 540
+        },
+        "width": 1920,
+        "height": 1080
+      },
+      "s": {
+        "label.position": 14,
+        "label.offset.x": -10,
+        "label.offset.y": 0,
+        "label.color": "rgb(61,61,61)",
+        "label.opacity": 0,
+        "shape": "rect",
+        "shape.background": "white",
+        "fullscreen": "fill",
+        "fullscreen.gap": 0,
+        "2d.movable": false,
+        "note.font": "22px arial, sans-serif",
+        "note.color": "rgb(212,0,0)",
+        "note.background": "rgb(255,235,195)",
+        "note.position": 3,
+        "note.offset.x": 0,
+        "note.offset.y": -5,
+        "note.border.width": 10,
+        "note.border.color": "rgb(255,235,195)",
+        "note.opacity": 0,
+        "note.align": "left"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1387403,
+      "p": {
+        "name": "func",
+        "displayName": "工具函数（func1）",
+        "toolTip": "透明传递<br>transfer",
+        "tag": "func1",
+        "dataBindings": {
+          "a": {
+            "userData": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "output": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "inputs": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "exec": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "arrExec": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            }
+          }
+        },
+        "image": "symbols/develop/uiotos/base/__convertor.json",
+        "position": {
+          "x": 858.1421,
+          "y": 385.74769
+        }
+      },
+      "s": {
+        "label.position": 25,
+        "label.offset.y": 0,
+        "interactive": true,
+        "image.stretch": "uniform",
+        "2d.editable": false,
+        "select.width": 0.5,
+        "select.type": "roundRect",
+        "select.color": "rgb(124,145,155)",
+        "label": "透明传递",
+        "label.font": "26px Microsoft YaHei",
+        "label.color": "rgb(51,153,255)",
+        "label.align": "left",
+        "note.font": "22px arial, sans-serif",
+        "note.color": "rgb(212,0,0)",
+        "note.background": "rgb(255,235,195)",
+        "note.position": 3,
+        "note.offset.x": 0,
+        "note.offset.y": -5,
+        "note.border.width": 10,
+        "note.border.color": "rgb(255,235,195)",
+        "note.opacity": 0,
+        "note.align": "left"
+      },
+      "a": {
+        "toolTipRaw": "透明传递<br>transfer",
+        "noteTips": "透明传递",
+        "输出遇到空值": "全部（*）",
+        "输出遇到空值-list": [
+          "全部（*）",
+          "空对象（null）",
+          "未定义（undefined）",
+          "空字符串（\"\"）",
+          "否（false）",
+          "等于零（0）",
+          "小于零（<0）",
+          "NaN"
+        ],
+        "arrExec": false
+      }
+    },
+    {
+      "c": "ht.UGrid",
+      "i": 1387404,
+      "p": {
+        "name": "grid",
+        "displayName": "网格组合（grid1）",
+        "tag": "grid1",
+        "dataBindings": {
+          "a": {
+            "datas": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "grid.row.count": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "grid.column.count": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "rowIndex": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "columnIndex": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "removeOthers": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "grid.row.percents": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "grid.auto.fill": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "grid.column.percents": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "grid.gap": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "valueGet": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "itemsGet": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            }
+          }
+        },
+        "image": "symbols/develop/uiotos/base/grid.json",
+        "position": {
+          "x": 1150.65088,
+          "y": 591.65265
+        },
+        "width": 227.57709,
+        "height": 337.64022
+      },
+      "s": {
+        "label.opacity": 0,
+        "label.position": 14,
+        "label.offset.x": -10,
+        "label.offset.y": 0,
+        "label.color": "rgb(61,61,61)",
+        "grid.gap": 0,
+        "grid.borderRadius": 10,
+        "interactive": true,
+        "grid.border": 0,
+        "2d.selectable": false,
+        "grid.row.count": 5,
+        "note.font": "22px arial, sans-serif",
+        "note.color": "rgb(212,0,0)",
+        "note.background": "rgb(226,250,87)",
+        "note.position": 3,
+        "note.offset.x": 0,
+        "note.offset.y": -5,
+        "note.border.width": 10,
+        "note.border.color": "rgb(226,250,87)",
+        "note.opacity": 0,
+        "note.align": "left",
+        "note": "[grid1] 是否忘记对组件网格组合（grid1）布局？当页 \n面存在底板时为弹性布局模式，通常所有组件都要求做布\n局。当然，如果仅作为编辑时可见时，勾选“运行时不可\n见”属性即可。                                    "
+      },
+      "a": {
+        "grid.row.count": 5,
+        "grid.column.count": 1,
+        "grid.border": 0
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1387405,
+      "p": {
+        "name": "input",
+        "displayName": "输入框（input2）",
+        "toolTip": "网格内布局的图元不允许拖动",
+        "parent": {
+          "__i": 1387404
+        },
+        "tag": "input2",
+        "dataBindings": {
+          "a": {
+            "value": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "instantTrigger": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "initialTrigger": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "onChange": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "onClear": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "onEnter": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "readOnly": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "_bindEvents_0": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            }
+          }
+        },
+        "image": {
+          "modified": "Sat Sep 30 2023 12:23:44 GMT+0800 (中国标准时间)",
+          "background": "rgb(32,37,46)",
+          "dataBindings": [
+            {
+              "attr": "symbol",
+              "valueType": "Image",
+              "group": "功能（关键）"
+            },
+            {
+              "attr": "fixedHeight",
+              "valueType": "PositiveNumber",
+              "defaultValue": 35
+            },
+            {
+              "attr": "activeBorderColor",
+              "valueType": "Color",
+              "defaultValue": "rgb(51,153,255)"
+            },
+            {
+              "attr": "background",
+              "valueType": "Color"
+            },
+            {
+              "attr": "readOnlyBackground",
+              "valueType": "Color",
+              "defaultValue": "rgb(247,247,247)",
+              "description": "只读时的背景颜色。\n<br>注意，区别于禁用（暂未开放配置）。"
+            },
+            {
+              "attr": "iconPath",
+              "valueType": "Image",
+              "defaultValue": "symbols/demo/uiotos/icons/light/search.json"
+            },
+            {
+              "attr": "iconColor",
+              "valueType": "Color",
+              "defaultValue": "rgb(213,213,213)"
+            },
+            {
+              "attr": "iconType",
+              "valueType": "Level",
+              "defaultValue": 1
+            },
+            {
+              "attr": "iconSize",
+              "valueType": "NumberArray",
+              "defaultValue": [
+                20,
+                15
+              ]
+            },
+            {
+              "attr": "iconTextGap",
+              "valueType": "Number",
+              "defaultValue": 5
+            },
+            {
+              "attr": "hoverIcon",
+              "valueType": "Image"
+            },
+            {
+              "attr": "color",
+              "valueType": "Color",
+              "defaultValue": "rgb(0,0,0)"
+            },
+            {
+              "attr": "borderRadius",
+              "valueType": "Number",
+              "defaultValue": 3
+            },
+            {
+              "attr": "borderWidth",
+              "valueType": "Number",
+              "defaultValue": 1
+            },
+            {
+              "attr": "borderColor",
+              "valueType": "Color",
+              "defaultValue": "rgb(213,213,213)"
+            },
+            {
+              "attr": "font",
+              "valueType": "Font"
+            },
+            {
+              "attr": "readOnly",
+              "valueType": "Boolean",
+              "defaultValue": false
+            },
+            {
+              "attr": "placeholder",
+              "valueType": "String",
+              "defaultValue": "请输入"
+            },
+            {
+              "attr": "labelColor",
+              "valueType": "Color",
+              "defaultValue": "rgb(0,0,0)"
+            },
+            {
+              "attr": "labelText",
+              "valueType": "String",
+              "defaultValue": "标签"
+            },
+            {
+              "attr": "gap",
+              "valueType": "PositiveNumber",
+              "defaultValue": 0
+            },
+            {
+              "attr": "layoutVertical",
+              "valueType": "Boolean",
+              "defaultValue": false
+            },
+            {
+              "attr": "labelEmbeded",
+              "valueType": "Boolean",
+              "defaultValue": false
+            },
+            {
+              "attr": "type",
+              "valueType": "FormType",
+              "defaultValue": "text"
+            },
+            {
+              "attr": "onChange",
+              "valueType": "Function",
+              "extraInfo": {
+                "arguments": [
+                  "data",
+                  "gv",
+                  "cache",
+                  "value"
+                ]
+              }
+            },
+            {
+              "attr": "onEnter",
+              "valueType": "Function",
+              "description": "回车事件。\n<br>输入完毕后回车触发，并且传入当前值。",
+              "extraInfo": {
+                "arguments": [
+                  "data",
+                  "gv",
+                  "cache",
+                  "value"
+                ]
+              }
+            },
+            {
+              "attr": "instantTrigger",
+              "valueType": "Boolean",
+              "defaultValue": true
+            },
+            {
+              "attr": "initialTrigger",
+              "valueType": "Boolean",
+              "defaultValue": false,
+              "description": "初始触发连线操作。\n<br>默认不勾选，勾选后初始加载值时，如果对外有连线，\n<br>并且初始值为非空时，也会触发对外的赋值连线操作。"
+            },
+            {
+              "attr": "value",
+              "valueType": "Object",
+              "defaultValue": ""
+            },
+            {
+              "attr": "bindControlsTag",
+              "valueType": "StringArray",
+              "group": "bindControls"
+            },
+            {
+              "attr": "bindControlsAttr",
+              "valueType": "StringArray"
+            },
+            {
+              "attr": "bindControlsVal",
+              "valueType": "ObjectArray",
+              "description": "静态值。也用作数组索引、JSON对象解析提取值用途。\n<br>一、静态值用途：\n<br>对常规类型的属性赋值且没有反向关联属性值，传入为数值时，不\n<br>会作为数组的索引，而会当成常量值对外赋值。此外，存在特殊值：\n<br>~和undefined表示过滤、不触发；null为默认值，表示传递默认表\n<br>单数据。编辑状态下清空后保存与设置null等价。\n<br>二、数组索引用途\n<br>情况1：被操作的组件属性原先值是数组时（包括空数组），会将\n<br>待输出的值作为被操作数组指定索引的值来传入，而不是整体覆盖。\n<br>情况2：如果要被操作的组件属性原先值不是数组，而且待输出的\n<br>值为数组类型并且长度也在索引范围内，那么会按照索引取自身数\n<br>组指定元素再对外输出。（如果想要取待输出索引值，赋值给被操\n<br>纵属性的指定索引，那么需要中间组件属性连线过渡以下，无法直\n<br>接操作）\n<br>情况3：如果要被操作的组件属性是数组，而且待输出的值也是数组\n<br>类型，此时当情况1来处理。\n<br>三、数据解析用途：\n<br>待输出的值为JSON对象时，用x.y.z这种以字符.或者>为间隔的方式\n<br>实现对JSON字段层次逐层定位，当是数组时x.0.y.1这种以数字的方\n<br>式来指定数组的某个索引。以此实现对任意结果JSON对象字段的定\n<br>位，获取结构内指定字段对应的值。"
+            },
+            {
+              "attr": "paramControlTag",
+              "valueType": "StringArray"
+            },
+            {
+              "attr": "paramControlAttr",
+              "valueType": "StringArray"
+            },
+            {
+              "attr": "paramsGenerator",
+              "valueType": "Function",
+              "defaultValue": "__ht__function(data, val, index, node,oldVal,form) {//绑定组索引对应的函数处理，用来动态生成复杂的参数变量传入\r\nswitch(index){\r\n    case 0:\r\n        break;\r\n    case 1:\r\n        break;\r\n    case 2:\r\n        break;\r\n    default:\r\n        break;\r\n}\r\n\r\nreturn val;}",
+              "extraInfo": {
+                "arguments": [
+                  "data",
+                  "val",
+                  "index",
+                  "node",
+                  "oldVal",
+                  "form"
+                ]
+              }
+            },
+            {
+              "attr": "_bindEvents_0",
+              "valueType": "MultiComboBox",
+              "defaultValue": "*",
+              "group": "bindEvents",
+              "description": "连线索引[0]的触发事件过滤器，默认全部通过",
+              "dynamicCreate": true
+            }
+          ],
+          "snapshotURL": "symbols/admin/uiotos/icons/snapshot/input.json",
+          "renderHTML": "__ht__function(data, gv, cache) {return __input_ui(data, gv, cache);}",
+          "width": 180,
+          "height": 35,
+          "fitSize": true,
+          "scrollable": true,
+          "interactive": true,
+          "pixelPerfect": false,
+          "comps": [],
+          "uuid": "AAD50657-D773-4532-9DA3-2CEADAC858B5"
+        },
+        "host": {
+          "__i": 1387404
+        },
+        "position": {
+          "x": 1150.65088,
+          "y": 456.59656
+        },
+        "width": 197.57709,
+        "height": 35
+      },
+      "s": {
+        "label.opacity": 0,
+        "label": "标签",
+        "label.position": 14,
+        "label.offset.x": -10,
+        "label.offset.y": 0,
+        "label.color": "rgb(0,0,0)",
+        "2d.movable": false,
+        "interactive": true,
+        "image.stretch": "uniform",
+        "attach.padding.left": -15,
+        "attach.padding.right": -15,
+        "note.font": "22px arial, sans-serif",
+        "note.color": "rgb(212,0,0)",
+        "note.background": "rgb(255,235,195)",
+        "note.position": 3,
+        "note.offset.x": 0,
+        "note.offset.y": -5,
+        "note.border.width": 10,
+        "note.border.color": "rgb(255,235,195)",
+        "note.opacity": 0,
+        "note.align": "left"
+      },
+      "a": {
+        "bindEvents": [
+          "*",
+          "onChange",
+          "onClear",
+          "onEnter"
+        ],
+        "value": "",
+        "iconPath": "symbols/demo/uiotos/icons/light/search.json",
+        "labelText": "标签",
+        "gap": 0,
+        "origin_width": 173.78855,
+        "origin_height": 35,
+        "toolTipRaw": "网格内布局的图元不允许拖动",
+        "paramControlTag": [
+          null
+        ],
+        "paramControlAttr": [
+          null
+        ],
+        "bindControlsTag": [
+          "tab1"
+        ],
+        "bindControlsAttr": [
+          "display"
+        ],
+        "bindControlsVal": [
+          null
+        ],
+        "_bindEvents_0-list": [
+          "*",
+          "onChange",
+          "onClear",
+          "onEnter"
+        ],
+        "symbol": "symbols/develop/uiotos/base/input-ui.json",
+        "oldDynamicAttrs": [
+          {
+            "attr": "_bindEvents_0",
+            "valueType": "MultiComboBox",
+            "defaultValue": "*",
+            "group": "bindEvents",
+            "description": "连线索引[0]的触发事件过滤器，默认全部通过",
+            "dynamicCreate": true
+          }
+        ]
+      }
+    },
+    {
+      "c": "ht.Edge",
+      "i": 1387406,
+      "p": {
+        "name": "edge",
+        "displayName": "0（edge2）",
+        "toolTip": "<div id=\"config_tooltip\" style=\"font-size:12px;line-height:1.75em;letter-spacing:1px\">\n                                                        关联绑定信息：<br>\n                                                        <li style=\"list-style-type:disc;color:rgba(255,255,255,0.5);\">索引序号：0 | 总共1条</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold;\">操作属性：display@tab1</li>\n                                                        <li style=\"list-style-type:none;color:rgba(255,255,255,0.5)\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;当前值：undefined</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold\">关联属性：</li>\n                                                        <li style=\"list-style-type:none;color:rgba(255,255,255,0.5)\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;关联值：</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold;\">解析赋值：null</li>\n                                                    </div>",
+        "parent": {
+          "__i": 1387405
+        },
+        "tag": "edge2",
+        "source": {
+          "__i": 1387405
+        },
+        "target": {
+          "__i": 1387412
+        }
+      },
+      "s": {
+        "label": "",
+        "edge.color": "#C42EAB",
+        "edge.type": "flex",
+        "edge.gap": 16,
+        "edge.width.absolute": true,
+        "note.border.width": 0,
+        "note.position": 7,
+        "note.opacity": 0.85,
+        "note.background": "#C42EAB",
+        "note.offset.x": 0,
+        "note.offset.y": 0,
+        "icons": {
+          "symbols/demo/extra/basic/fromArrow2.json": {
+            "position": 15,
+            "keepOrien": true,
+            "names": [
+              "symbols/demo/extra/basic/fromArrow2.json"
+            ]
+          },
+          "symbols/demo/extra/basic/toArrow.json": {
+            "position": 19,
+            "keepOrien": true,
+            "width": 50,
+            "height": 20,
+            "names": [
+              "symbols/demo/extra/basic/toArrow.json"
+            ]
+          }
+        },
+        "note": 0
+      },
+      "a": {
+        "index": 0,
+        "toolTipRaw": "<div id=\"config_tooltip\" style=\"font-size:12px;line-height:1.75em;letter-spacing:1px\">\n                                                        关联绑定信息：<br>\n                                                        <li style=\"list-style-type:disc;color:rgba(255,255,255,0.5);\">索引序号：0 | 总共1条</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold;\">操作属性：display@tab1</li>\n                                                        <li style=\"list-style-type:none;color:rgba(255,255,255,0.5)\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;当前值：undefined</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold\">关联属性：</li>\n                                                        <li style=\"list-style-type:none;color:rgba(255,255,255,0.5)\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;关联值：</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold;\">解析赋值：null</li>\n                                                    </div>"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1387407,
+      "p": {
+        "name": "input",
+        "displayName": "输入框（input1）",
+        "toolTip": "网格内布局的图元不允许拖动",
+        "parent": {
+          "__i": 1387404
+        },
+        "tag": "input1",
+        "dataBindings": {
+          "a": {
+            "value": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "instantTrigger": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "initialTrigger": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "onChange": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "onClear": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "onEnter": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "readOnly": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "_bindEvents_0": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            }
+          }
+        },
+        "image": {
+          "modified": "Sat Sep 30 2023 12:23:44 GMT+0800 (中国标准时间)",
+          "background": "rgb(32,37,46)",
+          "dataBindings": [
+            {
+              "attr": "symbol",
+              "valueType": "Image",
+              "group": "功能（关键）"
+            },
+            {
+              "attr": "fixedHeight",
+              "valueType": "PositiveNumber",
+              "defaultValue": 35
+            },
+            {
+              "attr": "activeBorderColor",
+              "valueType": "Color",
+              "defaultValue": "rgb(51,153,255)"
+            },
+            {
+              "attr": "background",
+              "valueType": "Color"
+            },
+            {
+              "attr": "readOnlyBackground",
+              "valueType": "Color",
+              "defaultValue": "rgb(247,247,247)",
+              "description": "只读时的背景颜色。\n<br>注意，区别于禁用（暂未开放配置）。"
+            },
+            {
+              "attr": "iconPath",
+              "valueType": "Image",
+              "defaultValue": "symbols/demo/uiotos/icons/light/search.json"
+            },
+            {
+              "attr": "iconColor",
+              "valueType": "Color",
+              "defaultValue": "rgb(213,213,213)"
+            },
+            {
+              "attr": "iconType",
+              "valueType": "Level",
+              "defaultValue": 1
+            },
+            {
+              "attr": "iconSize",
+              "valueType": "NumberArray",
+              "defaultValue": [
+                20,
+                15
+              ]
+            },
+            {
+              "attr": "iconTextGap",
+              "valueType": "Number",
+              "defaultValue": 5
+            },
+            {
+              "attr": "hoverIcon",
+              "valueType": "Image"
+            },
+            {
+              "attr": "color",
+              "valueType": "Color",
+              "defaultValue": "rgb(0,0,0)"
+            },
+            {
+              "attr": "borderRadius",
+              "valueType": "Number",
+              "defaultValue": 3
+            },
+            {
+              "attr": "borderWidth",
+              "valueType": "Number",
+              "defaultValue": 1
+            },
+            {
+              "attr": "borderColor",
+              "valueType": "Color",
+              "defaultValue": "rgb(213,213,213)"
+            },
+            {
+              "attr": "font",
+              "valueType": "Font"
+            },
+            {
+              "attr": "readOnly",
+              "valueType": "Boolean",
+              "defaultValue": false
+            },
+            {
+              "attr": "placeholder",
+              "valueType": "String",
+              "defaultValue": "请输入"
+            },
+            {
+              "attr": "labelColor",
+              "valueType": "Color",
+              "defaultValue": "rgb(0,0,0)"
+            },
+            {
+              "attr": "labelText",
+              "valueType": "String",
+              "defaultValue": "标签"
+            },
+            {
+              "attr": "gap",
+              "valueType": "PositiveNumber",
+              "defaultValue": 0
+            },
+            {
+              "attr": "layoutVertical",
+              "valueType": "Boolean",
+              "defaultValue": false
+            },
+            {
+              "attr": "labelEmbeded",
+              "valueType": "Boolean",
+              "defaultValue": false
+            },
+            {
+              "attr": "type",
+              "valueType": "FormType",
+              "defaultValue": "text"
+            },
+            {
+              "attr": "onChange",
+              "valueType": "Function",
+              "extraInfo": {
+                "arguments": [
+                  "data",
+                  "gv",
+                  "cache",
+                  "value"
+                ]
+              }
+            },
+            {
+              "attr": "onEnter",
+              "valueType": "Function",
+              "description": "回车事件。\n<br>输入完毕后回车触发，并且传入当前值。",
+              "extraInfo": {
+                "arguments": [
+                  "data",
+                  "gv",
+                  "cache",
+                  "value"
+                ]
+              }
+            },
+            {
+              "attr": "instantTrigger",
+              "valueType": "Boolean",
+              "defaultValue": true
+            },
+            {
+              "attr": "initialTrigger",
+              "valueType": "Boolean",
+              "defaultValue": false,
+              "description": "初始触发连线操作。\n<br>默认不勾选，勾选后初始加载值时，如果对外有连线，\n<br>并且初始值为非空时，也会触发对外的赋值连线操作。"
+            },
+            {
+              "attr": "value",
+              "valueType": "Object",
+              "defaultValue": ""
+            },
+            {
+              "attr": "bindControlsTag",
+              "valueType": "StringArray",
+              "group": "bindControls"
+            },
+            {
+              "attr": "bindControlsAttr",
+              "valueType": "StringArray"
+            },
+            {
+              "attr": "bindControlsVal",
+              "valueType": "ObjectArray",
+              "description": "静态值。也用作数组索引、JSON对象解析提取值用途。\n<br>一、静态值用途：\n<br>对常规类型的属性赋值且没有反向关联属性值，传入为数值时，不\n<br>会作为数组的索引，而会当成常量值对外赋值。此外，存在特殊值：\n<br>~和undefined表示过滤、不触发；null为默认值，表示传递默认表\n<br>单数据。编辑状态下清空后保存与设置null等价。\n<br>二、数组索引用途\n<br>情况1：被操作的组件属性原先值是数组时（包括空数组），会将\n<br>待输出的值作为被操作数组指定索引的值来传入，而不是整体覆盖。\n<br>情况2：如果要被操作的组件属性原先值不是数组，而且待输出的\n<br>值为数组类型并且长度也在索引范围内，那么会按照索引取自身数\n<br>组指定元素再对外输出。（如果想要取待输出索引值，赋值给被操\n<br>纵属性的指定索引，那么需要中间组件属性连线过渡以下，无法直\n<br>接操作）\n<br>情况3：如果要被操作的组件属性是数组，而且待输出的值也是数组\n<br>类型，此时当情况1来处理。\n<br>三、数据解析用途：\n<br>待输出的值为JSON对象时，用x.y.z这种以字符.或者>为间隔的方式\n<br>实现对JSON字段层次逐层定位，当是数组时x.0.y.1这种以数字的方\n<br>式来指定数组的某个索引。以此实现对任意结果JSON对象字段的定\n<br>位，获取结构内指定字段对应的值。"
+            },
+            {
+              "attr": "paramControlTag",
+              "valueType": "StringArray"
+            },
+            {
+              "attr": "paramControlAttr",
+              "valueType": "StringArray"
+            },
+            {
+              "attr": "paramsGenerator",
+              "valueType": "Function",
+              "defaultValue": "__ht__function(data, val, index, node,oldVal,form) {//绑定组索引对应的函数处理，用来动态生成复杂的参数变量传入\r\nswitch(index){\r\n    case 0:\r\n        break;\r\n    case 1:\r\n        break;\r\n    case 2:\r\n        break;\r\n    default:\r\n        break;\r\n}\r\n\r\nreturn val;}",
+              "extraInfo": {
+                "arguments": [
+                  "data",
+                  "val",
+                  "index",
+                  "node",
+                  "oldVal",
+                  "form"
+                ]
+              }
+            },
+            {
+              "attr": "_bindEvents_0",
+              "valueType": "MultiComboBox",
+              "defaultValue": "*",
+              "group": "bindEvents",
+              "description": "连线索引[0]的触发事件过滤器，默认全部通过",
+              "dynamicCreate": true
+            }
+          ],
+          "snapshotURL": "symbols/admin/uiotos/icons/snapshot/input.json",
+          "renderHTML": "__ht__function(data, gv, cache) {return __input_ui(data, gv, cache);}",
+          "width": 180,
+          "height": 35,
+          "fitSize": true,
+          "scrollable": true,
+          "interactive": true,
+          "pixelPerfect": false,
+          "comps": [],
+          "uuid": "AAD50657-D773-4532-9DA3-2CEADAC858B5"
+        },
+        "host": {
+          "__i": 1387404
+        },
+        "position": {
+          "x": 1150.65088,
+          "y": 524.1246
+        },
+        "width": 197.57709,
+        "height": 35
+      },
+      "s": {
+        "label.opacity": 0,
+        "label": "标签",
+        "label.position": 14,
+        "label.offset.x": -10,
+        "label.offset.y": 0,
+        "label.color": "rgb(0,0,0)",
+        "2d.movable": false,
+        "interactive": true,
+        "image.stretch": "uniform",
+        "attach.padding.left": -15,
+        "attach.padding.right": -15,
+        "attach.row.index": 1,
+        "note.font": "22px arial, sans-serif",
+        "note.color": "rgb(212,0,0)",
+        "note.background": "rgb(226,250,87)",
+        "note.position": 3,
+        "note.offset.x": 0,
+        "note.offset.y": -5,
+        "note.border.width": 10,
+        "note.border.color": "rgb(226,250,87)",
+        "note.opacity": 0,
+        "note.align": "left",
+        "note": "[input1] 索引为0的连线操作组件tab2，属性不存在：sy\nmbol                                              "
+      },
+      "a": {
+        "bindEvents": [
+          "*",
+          "onChange",
+          "onClear",
+          "onEnter"
+        ],
+        "value": "",
+        "iconPath": "symbols/demo/uiotos/icons/light/search.json",
+        "labelText": "标签",
+        "gap": 0,
+        "origin_width": 173.78855,
+        "origin_height": 35,
+        "toolTipRaw": "网格内布局的图元不允许拖动",
+        "paramControlTag": [
+          null
+        ],
+        "paramControlAttr": [
+          null
+        ],
+        "bindControlsTag": [
+          "tab2"
+        ],
+        "bindControlsAttr": [
+          "symbol"
+        ],
+        "bindControlsVal": [
+          null
+        ],
+        "_bindEvents_0-list": [
+          "*",
+          "onChange",
+          "onClear",
+          "onEnter"
+        ],
+        "symbol": "symbols/develop/uiotos/base/input-ui.json",
+        "oldDynamicAttrs": [
+          {
+            "attr": "_bindEvents_0",
+            "valueType": "MultiComboBox",
+            "defaultValue": "*",
+            "group": "bindEvents",
+            "description": "连线索引[0]的触发事件过滤器，默认全部通过",
+            "dynamicCreate": true
+          }
+        ]
+      }
+    },
+    {
+      "c": "ht.Edge",
+      "i": 1387408,
+      "p": {
+        "name": "edge",
+        "displayName": "0（edge3）",
+        "toolTip": "<div id=\"config_tooltip\" style=\"font-size:12px;line-height:1.75em;letter-spacing:1px\">\n                                                        关联绑定信息：<br>\n                                                        <li style=\"list-style-type:disc;color:rgba(255,255,255,0.5);\">索引序号：0 | 总共1条</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold;\">操作属性：symbol@tab2</li>\n                                                        <li style=\"list-style-type:none;color:rgba(255,255,255,0.5)\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;当前值：undefined</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold\">关联属性：</li>\n                                                        <li style=\"list-style-type:none;color:rgba(255,255,255,0.5)\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;关联值：</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold;\">解析赋值：null</li>\n                                                    </div>",
+        "parent": {
+          "__i": 1387407
+        },
+        "tag": "edge3",
+        "source": {
+          "__i": 1387407
+        },
+        "target": {
+          "__i": 1387413
+        }
+      },
+      "s": {
+        "label": "",
+        "edge.color": "#98DC31",
+        "edge.type": "flex",
+        "edge.gap": 16,
+        "edge.width.absolute": true,
+        "note.border.width": 0,
+        "note.position": 7,
+        "note.opacity": 0.85,
+        "note.background": "#98DC31",
+        "note.offset.x": 0,
+        "note.offset.y": 0,
+        "icons": {
+          "symbols/demo/extra/basic/fromArrow2.json": {
+            "position": 15,
+            "keepOrien": true,
+            "names": [
+              "symbols/demo/extra/basic/fromArrow2.json"
+            ]
+          },
+          "symbols/demo/extra/basic/toArrow.json": {
+            "position": 19,
+            "keepOrien": true,
+            "width": 50,
+            "height": 20,
+            "names": [
+              "symbols/demo/extra/basic/toArrow.json"
+            ]
+          }
+        },
+        "note": 0
+      },
+      "a": {
+        "index": 0,
+        "toolTipRaw": "<div id=\"config_tooltip\" style=\"font-size:12px;line-height:1.75em;letter-spacing:1px\">\n                                                        关联绑定信息：<br>\n                                                        <li style=\"list-style-type:disc;color:rgba(255,255,255,0.5);\">索引序号：0 | 总共1条</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold;\">操作属性：symbol@tab2</li>\n                                                        <li style=\"list-style-type:none;color:rgba(255,255,255,0.5)\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;当前值：undefined</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold\">关联属性：</li>\n                                                        <li style=\"list-style-type:none;color:rgba(255,255,255,0.5)\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;关联值：</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold;\">解析赋值：null</li>\n                                                    </div>"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1387409,
+      "p": {
+        "name": "input",
+        "displayName": "输入框（input3）",
+        "toolTip": "网格内布局的图元不允许拖动",
+        "parent": {
+          "__i": 1387404
+        },
+        "tag": "input3",
+        "dataBindings": {
+          "a": {
+            "value": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "instantTrigger": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "initialTrigger": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "onChange": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "onClear": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "onEnter": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "readOnly": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "_bindEvents_0": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            }
+          }
+        },
+        "image": {
+          "modified": "Sat Sep 30 2023 12:23:44 GMT+0800 (中国标准时间)",
+          "background": "rgb(32,37,46)",
+          "dataBindings": [
+            {
+              "attr": "symbol",
+              "valueType": "Image",
+              "group": "功能（关键）"
+            },
+            {
+              "attr": "fixedHeight",
+              "valueType": "PositiveNumber",
+              "defaultValue": 35
+            },
+            {
+              "attr": "activeBorderColor",
+              "valueType": "Color",
+              "defaultValue": "rgb(51,153,255)"
+            },
+            {
+              "attr": "background",
+              "valueType": "Color"
+            },
+            {
+              "attr": "readOnlyBackground",
+              "valueType": "Color",
+              "defaultValue": "rgb(247,247,247)",
+              "description": "只读时的背景颜色。\n<br>注意，区别于禁用（暂未开放配置）。"
+            },
+            {
+              "attr": "iconPath",
+              "valueType": "Image",
+              "defaultValue": "symbols/demo/uiotos/icons/light/search.json"
+            },
+            {
+              "attr": "iconColor",
+              "valueType": "Color",
+              "defaultValue": "rgb(213,213,213)"
+            },
+            {
+              "attr": "iconType",
+              "valueType": "Level",
+              "defaultValue": 1
+            },
+            {
+              "attr": "iconSize",
+              "valueType": "NumberArray",
+              "defaultValue": [
+                20,
+                15
+              ]
+            },
+            {
+              "attr": "iconTextGap",
+              "valueType": "Number",
+              "defaultValue": 5
+            },
+            {
+              "attr": "hoverIcon",
+              "valueType": "Image"
+            },
+            {
+              "attr": "color",
+              "valueType": "Color",
+              "defaultValue": "rgb(0,0,0)"
+            },
+            {
+              "attr": "borderRadius",
+              "valueType": "Number",
+              "defaultValue": 3
+            },
+            {
+              "attr": "borderWidth",
+              "valueType": "Number",
+              "defaultValue": 1
+            },
+            {
+              "attr": "borderColor",
+              "valueType": "Color",
+              "defaultValue": "rgb(213,213,213)"
+            },
+            {
+              "attr": "font",
+              "valueType": "Font"
+            },
+            {
+              "attr": "readOnly",
+              "valueType": "Boolean",
+              "defaultValue": false
+            },
+            {
+              "attr": "placeholder",
+              "valueType": "String",
+              "defaultValue": "请输入"
+            },
+            {
+              "attr": "labelColor",
+              "valueType": "Color",
+              "defaultValue": "rgb(0,0,0)"
+            },
+            {
+              "attr": "labelText",
+              "valueType": "String",
+              "defaultValue": "标签"
+            },
+            {
+              "attr": "gap",
+              "valueType": "PositiveNumber",
+              "defaultValue": 0
+            },
+            {
+              "attr": "layoutVertical",
+              "valueType": "Boolean",
+              "defaultValue": false
+            },
+            {
+              "attr": "labelEmbeded",
+              "valueType": "Boolean",
+              "defaultValue": false
+            },
+            {
+              "attr": "type",
+              "valueType": "FormType",
+              "defaultValue": "text"
+            },
+            {
+              "attr": "onChange",
+              "valueType": "Function",
+              "extraInfo": {
+                "arguments": [
+                  "data",
+                  "gv",
+                  "cache",
+                  "value"
+                ]
+              }
+            },
+            {
+              "attr": "onEnter",
+              "valueType": "Function",
+              "description": "回车事件。\n<br>输入完毕后回车触发，并且传入当前值。",
+              "extraInfo": {
+                "arguments": [
+                  "data",
+                  "gv",
+                  "cache",
+                  "value"
+                ]
+              }
+            },
+            {
+              "attr": "instantTrigger",
+              "valueType": "Boolean",
+              "defaultValue": true
+            },
+            {
+              "attr": "initialTrigger",
+              "valueType": "Boolean",
+              "defaultValue": false,
+              "description": "初始触发连线操作。\n<br>默认不勾选，勾选后初始加载值时，如果对外有连线，\n<br>并且初始值为非空时，也会触发对外的赋值连线操作。"
+            },
+            {
+              "attr": "value",
+              "valueType": "Object",
+              "defaultValue": ""
+            },
+            {
+              "attr": "bindControlsTag",
+              "valueType": "StringArray",
+              "group": "bindControls"
+            },
+            {
+              "attr": "bindControlsAttr",
+              "valueType": "StringArray"
+            },
+            {
+              "attr": "bindControlsVal",
+              "valueType": "ObjectArray",
+              "description": "静态值。也用作数组索引、JSON对象解析提取值用途。\n<br>一、静态值用途：\n<br>对常规类型的属性赋值且没有反向关联属性值，传入为数值时，不\n<br>会作为数组的索引，而会当成常量值对外赋值。此外，存在特殊值：\n<br>~和undefined表示过滤、不触发；null为默认值，表示传递默认表\n<br>单数据。编辑状态下清空后保存与设置null等价。\n<br>二、数组索引用途\n<br>情况1：被操作的组件属性原先值是数组时（包括空数组），会将\n<br>待输出的值作为被操作数组指定索引的值来传入，而不是整体覆盖。\n<br>情况2：如果要被操作的组件属性原先值不是数组，而且待输出的\n<br>值为数组类型并且长度也在索引范围内，那么会按照索引取自身数\n<br>组指定元素再对外输出。（如果想要取待输出索引值，赋值给被操\n<br>纵属性的指定索引，那么需要中间组件属性连线过渡以下，无法直\n<br>接操作）\n<br>情况3：如果要被操作的组件属性是数组，而且待输出的值也是数组\n<br>类型，此时当情况1来处理。\n<br>三、数据解析用途：\n<br>待输出的值为JSON对象时，用x.y.z这种以字符.或者>为间隔的方式\n<br>实现对JSON字段层次逐层定位，当是数组时x.0.y.1这种以数字的方\n<br>式来指定数组的某个索引。以此实现对任意结果JSON对象字段的定\n<br>位，获取结构内指定字段对应的值。"
+            },
+            {
+              "attr": "paramControlTag",
+              "valueType": "StringArray"
+            },
+            {
+              "attr": "paramControlAttr",
+              "valueType": "StringArray"
+            },
+            {
+              "attr": "paramsGenerator",
+              "valueType": "Function",
+              "defaultValue": "__ht__function(data, val, index, node,oldVal,form) {//绑定组索引对应的函数处理，用来动态生成复杂的参数变量传入\r\nswitch(index){\r\n    case 0:\r\n        break;\r\n    case 1:\r\n        break;\r\n    case 2:\r\n        break;\r\n    default:\r\n        break;\r\n}\r\n\r\nreturn val;}",
+              "extraInfo": {
+                "arguments": [
+                  "data",
+                  "val",
+                  "index",
+                  "node",
+                  "oldVal",
+                  "form"
+                ]
+              }
+            },
+            {
+              "attr": "_bindEvents_0",
+              "valueType": "MultiComboBox",
+              "defaultValue": "*",
+              "group": "bindEvents",
+              "description": "连线索引[0]的触发事件过滤器，默认全部通过",
+              "dynamicCreate": true
+            }
+          ],
+          "snapshotURL": "symbols/admin/uiotos/icons/snapshot/input.json",
+          "renderHTML": "__ht__function(data, gv, cache) {return __input_ui(data, gv, cache);}",
+          "width": 180,
+          "height": 35,
+          "fitSize": true,
+          "scrollable": true,
+          "interactive": true,
+          "pixelPerfect": false,
+          "comps": [],
+          "uuid": "AAD50657-D773-4532-9DA3-2CEADAC858B5"
+        },
+        "host": {
+          "__i": 1387404
+        },
+        "position": {
+          "x": 1150.65088,
+          "y": 591.65265
+        },
+        "width": 197.57709,
+        "height": 35
+      },
+      "s": {
+        "label.opacity": 0,
+        "label": "标签",
+        "label.position": 14,
+        "label.offset.x": -10,
+        "label.offset.y": 0,
+        "label.color": "rgb(0,0,0)",
+        "2d.movable": false,
+        "interactive": true,
+        "image.stretch": "uniform",
+        "attach.padding.left": -15,
+        "attach.padding.right": -15,
+        "attach.row.index": 2,
+        "note.font": "22px arial, sans-serif",
+        "note.color": "rgb(212,0,0)",
+        "note.background": "rgb(226,250,87)",
+        "note.position": 3,
+        "note.offset.x": 0,
+        "note.offset.y": -5,
+        "note.border.width": 10,
+        "note.border.color": "rgb(226,250,87)",
+        "note.opacity": 0,
+        "note.align": "left",
+        "note": "[input3] 索引为0的连线操作组件tab3，属性不存在：on\nDisplayLoaded                                     "
+      },
+      "a": {
+        "bindEvents": [
+          "*",
+          "onChange",
+          "onClear",
+          "onEnter"
+        ],
+        "value": "",
+        "iconPath": "symbols/demo/uiotos/icons/light/search.json",
+        "labelText": "标签",
+        "gap": 0,
+        "origin_width": 173.78855,
+        "origin_height": 35,
+        "toolTipRaw": "网格内布局的图元不允许拖动",
+        "paramControlTag": [
+          null
+        ],
+        "paramControlAttr": [
+          null
+        ],
+        "bindControlsTag": [
+          "tab3"
+        ],
+        "bindControlsAttr": [
+          "onDisplayLoaded"
+        ],
+        "bindControlsVal": [
+          null
+        ],
+        "_bindEvents_0-list": [
+          "*",
+          "onChange",
+          "onClear",
+          "onEnter"
+        ],
+        "symbol": "symbols/develop/uiotos/base/input-ui.json",
+        "oldDynamicAttrs": [
+          {
+            "attr": "_bindEvents_0",
+            "valueType": "MultiComboBox",
+            "defaultValue": "*",
+            "group": "bindEvents",
+            "description": "连线索引[0]的触发事件过滤器，默认全部通过",
+            "dynamicCreate": true
+          }
+        ]
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1387410,
+      "p": {
+        "name": "input",
+        "displayName": "输入框（input4）",
+        "toolTip": "网格内布局的图元不允许拖动",
+        "parent": {
+          "__i": 1387404
+        },
+        "tag": "input4",
+        "dataBindings": {
+          "a": {
+            "value": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "instantTrigger": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "initialTrigger": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "onChange": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "onClear": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "onEnter": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "readOnly": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "_bindEvents_0": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            }
+          }
+        },
+        "image": "symbols/develop/uiotos/base/input-ui.json",
+        "host": {
+          "__i": 1387404
+        },
+        "position": {
+          "x": 1150.65088,
+          "y": 659.18069
+        },
+        "width": 197.57709,
+        "height": 35
+      },
+      "s": {
+        "label.opacity": 0,
+        "label": "标签",
+        "label.position": 14,
+        "label.offset.x": -10,
+        "label.offset.y": 0,
+        "label.color": "rgb(0,0,0)",
+        "2d.movable": false,
+        "interactive": true,
+        "image.stretch": "uniform",
+        "attach.padding.left": -15,
+        "attach.padding.right": -15,
+        "attach.row.index": 3,
+        "note.font": "22px arial, sans-serif",
+        "note.color": "rgb(212,0,0)",
+        "note.background": "rgb(226,250,87)",
+        "note.position": 3,
+        "note.offset.x": 0,
+        "note.offset.y": -5,
+        "note.border.width": 10,
+        "note.border.color": "rgb(226,250,87)",
+        "note.opacity": 0,
+        "note.align": "left",
+        "note": "[input3] 索引为0的连线操作组件tab3，属性不存在：on\nDisplayLoaded                                     "
+      },
+      "a": {
+        "bindEvents": [
+          "*",
+          "onChange",
+          "onClear",
+          "onEnter"
+        ],
+        "value": "",
+        "iconPath": "symbols/demo/uiotos/icons/light/search.json",
+        "labelText": "标签",
+        "gap": 0,
+        "origin_width": 173.78855,
+        "origin_height": 35,
+        "toolTipRaw": "网格内布局的图元不允许拖动",
+        "paramControlTag": [
+          null
+        ],
+        "paramControlAttr": [
+          null
+        ],
+        "bindControlsTag": [
+          "tab3"
+        ],
+        "bindControlsAttr": [
+          "onDisplayLoaded"
+        ],
+        "bindControlsVal": [
+          null
+        ],
+        "_bindEvents_0-list": [
+          "*",
+          "onChange",
+          "onClear",
+          "onEnter"
+        ],
+        "symbol": "symbols/develop/uiotos/base/input-ui.json",
+        "oldDynamicAttrs": [
+          {
+            "attr": "_bindEvents_0",
+            "valueType": "MultiComboBox",
+            "defaultValue": "*",
+            "group": "bindEvents",
+            "description": "连线索引[0]的触发事件过滤器，默认全部通过",
+            "dynamicCreate": true
+          }
+        ]
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1387417,
+      "p": {
+        "name": "input",
+        "displayName": "输入框（input5）",
+        "toolTip": "网格内布局的图元不允许拖动",
+        "parent": {
+          "__i": 1387404
+        },
+        "tag": "input5",
+        "dataBindings": {
+          "a": {
+            "value": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "instantTrigger": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "initialTrigger": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "onChange": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "onClear": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "onEnter": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "readOnly": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "_bindEvents_0": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            }
+          }
+        },
+        "image": "symbols/develop/uiotos/base/input-ui.json",
+        "host": {
+          "__i": 1387404
+        },
+        "position": {
+          "x": 1150.65088,
+          "y": 726.70873
+        },
+        "width": 197.57709,
+        "height": 35
+      },
+      "s": {
+        "label.opacity": 0,
+        "label": "标签",
+        "label.position": 14,
+        "label.offset.x": -10,
+        "label.offset.y": 0,
+        "label.color": "rgb(0,0,0)",
+        "2d.movable": false,
+        "interactive": true,
+        "image.stretch": "uniform",
+        "attach.padding.left": -15,
+        "attach.padding.right": -15,
+        "attach.row.index": 4,
+        "note.font": "22px arial, sans-serif",
+        "note.color": "rgb(212,0,0)",
+        "note.background": "rgb(226,250,87)",
+        "note.position": 3,
+        "note.offset.x": 0,
+        "note.offset.y": -5,
+        "note.border.width": 10,
+        "note.border.color": "rgb(226,250,87)",
+        "note.opacity": 0,
+        "note.align": "left",
+        "note": "[input3] 索引为0的连线操作组件tab3，属性不存在：on\nDisplayLoaded                                     "
+      },
+      "a": {
+        "bindEvents": [
+          "*",
+          "onChange",
+          "onClear",
+          "onEnter"
+        ],
+        "value": "",
+        "iconPath": "symbols/demo/uiotos/icons/light/search.json",
+        "labelText": "标签",
+        "gap": 0,
+        "origin_width": 173.78855,
+        "origin_height": 35,
+        "toolTipRaw": "网格内布局的图元不允许拖动",
+        "paramControlTag": [
+          null
+        ],
+        "paramControlAttr": [
+          null
+        ],
+        "bindControlsTag": [
+          "tab3"
+        ],
+        "bindControlsAttr": [
+          "onDisplayLoaded"
+        ],
+        "bindControlsVal": [
+          null
+        ],
+        "_bindEvents_0-list": [
+          "*",
+          "onChange",
+          "onClear",
+          "onEnter"
+        ],
+        "symbol": "symbols/develop/uiotos/base/input-ui.json",
+        "oldDynamicAttrs": [
+          {
+            "attr": "_bindEvents_0",
+            "valueType": "MultiComboBox",
+            "defaultValue": "*",
+            "group": "bindEvents",
+            "description": "连线索引[0]的触发事件过滤器，默认全部通过",
+            "dynamicCreate": true
+          }
+        ]
+      }
+    },
+    {
+      "c": "ht.Edge",
+      "i": 1387411,
+      "p": {
+        "name": "edge",
+        "displayName": "0（edge4）",
+        "toolTip": "<div id=\"config_tooltip\" style=\"font-size:12px;line-height:1.75em;letter-spacing:1px\">\n                                                        关联绑定信息：<br>\n                                                        <li style=\"list-style-type:disc;color:rgba(255,255,255,0.5);\">索引序号：0 | 总共1条</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold;\">操作属性：onDisplayLoaded@tab3</li>\n                                                        <li style=\"list-style-type:none;color:rgba(255,255,255,0.5)\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;当前值：undefined</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold\">关联属性：</li>\n                                                        <li style=\"list-style-type:none;color:rgba(255,255,255,0.5)\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;关联值：</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold;\">解析赋值：null</li>\n                                                    </div>",
+        "parent": {
+          "__i": 1387417
+        },
+        "tag": "edge4",
+        "source": {
+          "__i": 1387417
+        },
+        "target": {
+          "__i": 1387414
+        }
+      },
+      "s": {
+        "label": "",
+        "edge.color": "#91C6CC",
+        "edge.type": "flex",
+        "edge.gap": 16,
+        "edge.width.absolute": true,
+        "note.border.width": 0,
+        "note.position": 7,
+        "note.opacity": 0.85,
+        "note.background": "#91C6CC",
+        "note.offset.x": 0,
+        "note.offset.y": 0,
+        "icons": {
+          "symbols/demo/extra/basic/fromArrow2.json": {
+            "position": 15,
+            "keepOrien": true,
+            "names": [
+              "symbols/demo/extra/basic/fromArrow2.json"
+            ]
+          },
+          "symbols/demo/extra/basic/toArrow.json": {
+            "position": 19,
+            "keepOrien": true,
+            "width": 50,
+            "height": 20,
+            "names": [
+              "symbols/demo/extra/basic/toArrow.json"
+            ]
+          }
+        },
+        "note": 0
+      },
+      "a": {
+        "index": 0,
+        "toolTipRaw": "<div id=\"config_tooltip\" style=\"font-size:12px;line-height:1.75em;letter-spacing:1px\">\n                                                        关联绑定信息：<br>\n                                                        <li style=\"list-style-type:disc;color:rgba(255,255,255,0.5);\">索引序号：0 | 总共1条</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold;\">操作属性：onDisplayLoaded@tab3</li>\n                                                        <li style=\"list-style-type:none;color:rgba(255,255,255,0.5)\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;当前值：undefined</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold\">关联属性：</li>\n                                                        <li style=\"list-style-type:none;color:rgba(255,255,255,0.5)\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;关联值：</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold;\">解析赋值：null</li>\n                                                    </div>"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1387412,
+      "p": {
+        "name": "tab",
+        "displayName": "TAB页签（tab1）",
+        "tag": "tab1",
+        "dataBindings": {
+          "a": {
+            "index": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "displays": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "display": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "relativePath": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            }
+          }
+        },
+        "image": "symbols/develop/uiotos/base/tabView.json",
+        "position": {
+          "x": 685.6421,
+          "y": 285.74769
+        }
+      },
+      "s": {
+        "label.opacity": 0,
+        "pixelPerfect": false,
+        "label.position": 14,
+        "label.offset.x": -10,
+        "label.offset.y": 0,
+        "label.color": "rgb(61,61,61)",
+        "interactive": true,
+        "image.stretch": "uniform",
+        "note.font": "22px arial, sans-serif",
+        "note.color": "rgb(212,0,0)",
+        "note.background": "rgb(226,250,87)",
+        "note.position": 3,
+        "note.offset.x": 0,
+        "note.offset.y": -5,
+        "note.border.width": 10,
+        "note.border.color": "rgb(226,250,87)",
+        "note.opacity": 0,
+        "note.align": "left",
+        "note": "[tab1] 是否忘记对组件TAB页签（tab1）布局？当页面存\n在底板时为弹性布局模式，通常所有组件都要求做布局。\n当然，如果仅作为编辑时可见时，勾选“运行时不可见”\n属性即可。                                        "
+      },
+      "a": {
+        "relativePath": "./"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1387413,
+      "p": {
+        "name": "tab",
+        "displayName": "TAB页签（tab2）",
+        "tag": "tab2",
+        "dataBindings": {
+          "a": {
+            "index": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "displays": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "display": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "relativePath": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            }
+          }
+        },
+        "image": "symbols/develop/uiotos/base/tabView.json",
+        "position": {
+          "x": 620.1239,
+          "y": 577.96295
+        }
+      },
+      "s": {
+        "label.opacity": 0,
+        "pixelPerfect": false,
+        "label.position": 14,
+        "label.offset.x": -10,
+        "label.offset.y": 0,
+        "label.color": "rgb(61,61,61)",
+        "interactive": true,
+        "image.stretch": "uniform",
+        "note.font": "22px arial, sans-serif",
+        "note.color": "rgb(212,0,0)",
+        "note.background": "rgb(226,250,87)",
+        "note.position": 3,
+        "note.offset.x": 0,
+        "note.offset.y": -5,
+        "note.border.width": 10,
+        "note.border.color": "rgb(226,250,87)",
+        "note.opacity": 0,
+        "note.align": "left",
+        "note": "[tab2] 是否忘记对组件TAB页签（tab2）布局？当页面存\n在底板时为弹性布局模式，通常所有组件都要求做布局。\n当然，如果仅作为编辑时可见时，勾选“运行时不可见”\n属性即可。                                        "
+      },
+      "a": {
+        "relativePath": "./"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1387414,
+      "p": {
+        "name": "tab",
+        "displayName": "TAB页签（tab3）",
+        "tag": "tab3",
+        "dataBindings": {
+          "a": {
+            "index": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "displays": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "display": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "relativePath": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            }
+          }
+        },
+        "image": "symbols/develop/uiotos/base/tabView.json",
+        "position": {
+          "x": 620.1239,
+          "y": 860.47276
+        }
+      },
+      "s": {
+        "label.opacity": 0,
+        "pixelPerfect": false,
+        "label.position": 14,
+        "label.offset.x": -10,
+        "label.offset.y": 0,
+        "label.color": "rgb(61,61,61)",
+        "interactive": true,
+        "image.stretch": "uniform",
+        "note.font": "22px arial, sans-serif",
+        "note.color": "rgb(212,0,0)",
+        "note.background": "rgb(226,250,87)",
+        "note.position": 3,
+        "note.offset.x": 0,
+        "note.offset.y": -5,
+        "note.border.width": 10,
+        "note.border.color": "rgb(226,250,87)",
+        "note.opacity": 0,
+        "note.align": "left",
+        "note": "[tab3] 是否忘记对组件TAB页签（tab3）布局？当页面存\n在底板时为弹性布局模式，通常所有组件都要求做布局。\n当然，如果仅作为编辑时可见时，勾选“运行时不可见”\n属性即可。                                        "
+      },
+      "a": {
+        "relativePath": "./"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1387415,
+      "p": {
+        "name": "dlg",
+        "displayName": "对话框（dlg1）",
+        "tag": "dlg1",
+        "dataBindings": {
+          "a": {
+            "show": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "userData": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "titleText": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "display": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "onPageBinded": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "onOk": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "onCancel": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "onFinally": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "textArea>0>datas>s:text": {
+              "id": "iotos.formReset",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "textArea>0>textArea-ui1>a:value": {
+              "id": "iotos.formReset",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "textArea>0>textArea-ui1>a:placeholder": {
+              "id": "iotos.formReset",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "textArea>0>textArea-ui1>a:onChange": {
+              "id": "iotos.formReset",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "textArea>0>textArea-ui1>a:instantTrigger": {
+              "id": "iotos.formReset",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "textArea>0>textArea-ui1>a:htmlContent": {
+              "id": "iotos.formReset",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "textArea>0>textArea-ui1>a:readOnly": {
+              "id": "iotos.formReset",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "textArea>0>textArea-ui1>a:color": {
+              "id": "iotos.formReset",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "textArea>0>textArea-ui1>a:background": {
+              "id": "iotos.formReset",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "_bindEvents_0": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            }
+          }
+        },
+        "image": {
+          "modified": "Fri Sep 29 2023 22:57:43 GMT+0800 (中国标准时间)",
+          "background": "rgb(32,37,46)",
+          "dataBindings": [
+            {
+              "attr": "symbol",
+              "valueType": "Image",
+              "group": "功能（关键）"
+            },
+            {
+              "attr": "display",
+              "valueType": "URL"
+            },
+            {
+              "attr": "reset",
+              "valueType": "Level2",
+              "defaultValue": 0
+            },
+            {
+              "attr": "titleText",
+              "valueType": "String",
+              "defaultValue": "对话框"
+            },
+            {
+              "attr": "titleColor",
+              "valueType": "Color"
+            },
+            {
+              "attr": "titleFont",
+              "valueType": "Font",
+              "defaultValue": "12px sans-serif, Arial"
+            },
+            {
+              "attr": "footerBackground",
+              "valueType": "Color"
+            },
+            {
+              "attr": "backgroundImage",
+              "valueType": "Image",
+              "defaultValue": "symbols/develop/uiotos/icons/common/borderRectange.json"
+            },
+            {
+              "attr": "backgroundColor",
+              "valueType": "Color",
+              "defaultValue": "rgb(255,255,255)",
+              "description": "对话框整体背景色。\n<br>包括对话框默认的标题头和底部。注意，该颜色在内容背景色（innerBackground）\n<br>的下层，因此会被遮盖掉，要显示的话首先需要设置内容背景色透明度为0或清掉。"
+            },
+            {
+              "attr": "innerBackground",
+              "valueType": "Color",
+              "defaultValue": "rgb(255,255,255)",
+              "description": "对话框内容页背景色。\n<br>不包括对话框默认的标题头和底部。注意，如果要设置对话框统一背景色，\n<br>或者设置透明、半透明，需要先将该属性设置透明度为0或者删除设定值，\n<br>随后设置对话框背景色属性（backgoundColor）。"
+            },
+            {
+              "attr": "maskBackground",
+              "valueType": "Color",
+              "defaultValue": "rgba(0,0,0,0.30)",
+              "description": "遮盖层背景色。\n<br>模态对话框弹出时，通常出现在页面上半透明阴影的遮盖颜色。注意，如果需要\n<br>设置对话框全透明，除了对话框整体背景色（backgroundColor）和内容区域背景\n<br>色（innerBackground）颜色为透明或清理掉，也需要将当前的遮盖曾颜色设置为\n<br>透明或者清理掉。"
+            },
+            {
+              "attr": "modal",
+              "valueType": "Boolean",
+              "defaultValue": true
+            },
+            {
+              "attr": "borderRadius",
+              "valueType": "PositiveNumber",
+              "defaultValue": 10
+            },
+            {
+              "attr": "boxShadow",
+              "valueType": "String",
+              "defaultValue": "0px 8px 22px rgba(0,0,0,0.1)"
+            },
+            {
+              "attr": "padding",
+              "valueType": "PositiveNumber",
+              "defaultValue": 0
+            },
+            {
+              "attr": "useOriginSize",
+              "valueType": "Boolean",
+              "defaultValue": false
+            },
+            {
+              "attr": "embedded",
+              "valueType": "Boolean",
+              "defaultValue": false,
+              "description": "勾选后，对话框弹窗显示位置不再是屏幕居中，\n而是按照布局设置动态确定的位置上显示。注意，\n拖放将对话框拖放到页面区域（底板矩形）外，\n并且设置了自动布局，那么运行时会自动靠边对其\n显示，避免编辑时覆盖页面内容区域。"
+            },
+            {
+              "attr": "show",
+              "valueType": "Boolean",
+              "defaultValue": false
+            },
+            {
+              "attr": "hide",
+              "valueType": "Boolean",
+              "defaultValue": false
+            },
+            {
+              "attr": "debugOccupied",
+              "valueType": "Boolean",
+              "defaultValue": false
+            },
+            {
+              "attr": "displaySaving",
+              "valueType": "Boolean",
+              "defaultValue": false
+            },
+            {
+              "attr": "enableLoading",
+              "valueType": "Boolean",
+              "defaultValue": true
+            },
+            {
+              "attr": "isLoadingGet",
+              "valueType": "Boolean",
+              "defaultValue": false,
+              "description": "是否正在加载。\n<br>只读，当正在通过display属性逐层加载内嵌页直到完全加载完毕前，\n<br>该属性值为1，加载完毕后，复位为0."
+            },
+            {
+              "attr": "reloadWhenOpen",
+              "valueType": "Boolean",
+              "defaultValue": false,
+              "description": "该属性不要默认勾选，会导致编辑器属性弹窗初始化内容被清空"
+            },
+            {
+              "attr": "onDisplayLoaded",
+              "valueType": "Function",
+              "extraInfo": {
+                "arguments": [
+                  "data",
+                  "gv",
+                  "cache"
+                ]
+              }
+            },
+            {
+              "attr": "onOk",
+              "valueType": "Function",
+              "extraInfo": {
+                "arguments": [
+                  "data",
+                  "gv",
+                  "cache",
+                  "form"
+                ]
+              }
+            },
+            {
+              "attr": "onCancel",
+              "valueType": "Function",
+              "extraInfo": {
+                "arguments": [
+                  "data",
+                  "gv",
+                  "cache",
+                  "form"
+                ]
+              }
+            },
+            {
+              "attr": "onFinally",
+              "valueType": "Function",
+              "extraInfo": {
+                "arguments": [
+                  "data",
+                  "gv",
+                  "cache",
+                  "form",
+                  "isOk"
+                ]
+              }
+            },
+            {
+              "attr": "onPageBinded",
+              "valueType": "Object"
+            },
+            {
+              "attr": "headerHeight",
+              "valueType": "PositiveNumber",
+              "defaultValue": 35
+            },
+            {
+              "attr": "footerHeight",
+              "valueType": "PositiveNumber",
+              "defaultValue": 60,
+              "group": "footer&header"
+            },
+            {
+              "attr": "headerVisible",
+              "valueType": "Boolean",
+              "defaultValue": true
+            },
+            {
+              "attr": "footerVisible",
+              "valueType": "Boolean",
+              "defaultValue": true
+            },
+            {
+              "attr": "closeButtonOnly",
+              "valueType": "Boolean",
+              "defaultValue": false
+            },
+            {
+              "attr": "footerButtonGap",
+              "valueType": "PositiveNumber",
+              "defaultValue": 20
+            },
+            {
+              "attr": "oneButton",
+              "valueType": "Boolean",
+              "defaultValue": false
+            },
+            {
+              "attr": "cancelDefault",
+              "valueType": "Boolean",
+              "defaultValue": false
+            },
+            {
+              "attr": "footerButtonsText",
+              "valueType": "StringArray",
+              "defaultValue": [
+                "取消",
+                "确定"
+              ]
+            },
+            {
+              "attr": "bt0-backgrounds",
+              "valueType": "ColorArray",
+              "defaultValue": [
+                "rgb(55,125,255)",
+                "rgb(51,153,255)"
+              ]
+            },
+            {
+              "attr": "bt0-selectBackgrounds",
+              "valueType": "ColorArray",
+              "defaultValue": [
+                "rgb(55,125,255)",
+                "rgb(51,153,255)"
+              ]
+            },
+            {
+              "attr": "bt0-activeBackgrounds",
+              "valueType": "ColorArray",
+              "defaultValue": [
+                "rgb(55,125,255)",
+                "rgb(51,153,255)"
+              ]
+            },
+            {
+              "attr": "bt0-textColors",
+              "valueType": "ColorArray",
+              "defaultValue": [
+                "rgb(255,255,255)",
+                "rgb(255,255,255)"
+              ]
+            },
+            {
+              "attr": "bt0-selectTextColors",
+              "valueType": "ColorArray",
+              "defaultValue": [
+                "rgb(255,255,255)",
+                "rgb(255,255,255)"
+              ]
+            },
+            {
+              "attr": "bt0-activeTextColors",
+              "valueType": "ColorArray",
+              "defaultValue": [
+                "rgb(255,255,255)",
+                "rgb(255,255,255)"
+              ]
+            },
+            {
+              "attr": "bt0-borderWidths",
+              "valueType": "NumberArray",
+              "defaultValue": [
+                1,
+                0,
+                0
+              ]
+            },
+            {
+              "attr": "bt0-borderColors",
+              "valueType": "ColorArray",
+              "defaultValue": [
+                "rgb(55,125,255)",
+                "rgb(55,125,255)",
+                "rgb(55,125,255)"
+              ]
+            },
+            {
+              "attr": "bt0-borderRadius",
+              "valueType": "PositiveNumber",
+              "defaultValue": 3
+            },
+            {
+              "attr": "bt1-backgrounds",
+              "valueType": "ColorArray",
+              "defaultValue": [
+                "rgb(255,255,255)",
+                "rgb(247,247,247)"
+              ]
+            },
+            {
+              "attr": "bt1-selectBackgrounds",
+              "valueType": "ColorArray",
+              "defaultValue": [
+                "rgb(255,255,255)",
+                "rgb(247,247,247)"
+              ]
+            },
+            {
+              "attr": "bt1-activeBackgrounds",
+              "valueType": "ColorArray",
+              "defaultValue": [
+                "rgb(255,255,255)",
+                "rgb(247,247,247)"
+              ]
+            },
+            {
+              "attr": "bt1-textColors",
+              "valueType": "ColorArray",
+              "defaultValue": [
+                "rgb(55,125,255)",
+                "rgb(51,153,255)"
+              ]
+            },
+            {
+              "attr": "bt1-selectTextColors",
+              "valueType": "ColorArray",
+              "defaultValue": [
+                "rgb(55,125,255)",
+                "rgb(51,153,255)"
+              ]
+            },
+            {
+              "attr": "bt1-activeTextColors",
+              "valueType": "ColorArray",
+              "defaultValue": [
+                "rgb(55,125,255)",
+                "rgb(51,153,255)"
+              ]
+            },
+            {
+              "attr": "bt1-borderWidths",
+              "valueType": "NumberArray",
+              "defaultValue": [
+                1,
+                0,
+                0
+              ]
+            },
+            {
+              "attr": "bt1-borderColors",
+              "valueType": "ColorArray",
+              "defaultValue": [
+                "rgb(55,125,255)",
+                "rgb(51,153,255)",
+                "rgb(51,153,255)"
+              ]
+            },
+            {
+              "attr": "bt1-borderRadius",
+              "valueType": "PositiveNumber",
+              "defaultValue": 3
+            },
+            {
+              "attr": "footerButtonSize",
+              "valueType": "NumberArray",
+              "defaultValue": [
+                75,
+                35
+              ]
+            },
+            {
+              "attr": "titleFont",
+              "valueType": "Font"
+            },
+            {
+              "attr": "bindControlsTag",
+              "valueType": "StringArray",
+              "group": "bindControls"
+            },
+            {
+              "attr": "bindControlsAttr",
+              "valueType": "StringArray"
+            },
+            {
+              "attr": "bindControlsVal",
+              "valueType": "ObjectArray",
+              "description": "静态值。也用作数组索引、JSON对象解析提取值用途。\n<br>一、静态值用途：\n<br>对常规类型的属性赋值且没有反向关联属性值，传入为数值时，不\n<br>会作为数组的索引，而会当成常量值对外赋值。此外，存在特殊值：\n<br>~和undefined表示过滤、不触发；null为默认值，表示传递默认表\n<br>单数据。编辑状态下清空后保存与设置null等价。\n<br>二、数组索引用途\n<br>情况1：被操作的组件属性原先值是数组时（包括空数组），会将\n<br>待输出的值作为被操作数组指定索引的值来传入，而不是整体覆盖。\n<br>情况2：如果要被操作的组件属性原先值不是数组，而且待输出的\n<br>值为数组类型并且长度也在索引范围内，那么会按照索引取自身数\n<br>组指定元素再对外输出。（如果想要取待输出索引值，赋值给被操\n<br>纵属性的指定索引，那么需要中间组件属性连线过渡以下，无法直\n<br>接操作）\n<br>情况3：如果要被操作的组件属性是数组，而且待输出的值也是数组\n<br>类型，此时当情况1来处理。\n<br>三、数据解析用途：\n<br>待输出的值为JSON对象时，用x.y.z这种以字符.或者>为间隔的方式\n<br>实现对JSON字段层次逐层定位，当是数组时x.0.y.1这种以数字的方\n<br>式来指定数组的某个索引。以此实现对任意结果JSON对象字段的定\n<br>位，获取结构内指定字段对应的值。"
+            },
+            {
+              "attr": "paramControlTag",
+              "valueType": "StringArray"
+            },
+            {
+              "attr": "paramControlAttr",
+              "valueType": "StringArray"
+            },
+            {
+              "attr": "paramsGenerator",
+              "valueType": "Function",
+              "defaultValue": "__ht__function(data, val, index, node,oldVal,form) {//绑定组索引对应的函数处理，用来动态生成复杂的参数变量传入\r\nswitch(index){\r\n    case 0:\r\n        break;\r\n    case 1:\r\n        break;\r\n    case 2:\r\n        break;\r\n    default:\r\n        break;\r\n}\r\n\r\nreturn val;}",
+              "extraInfo": {
+                "arguments": [
+                  "data",
+                  "val",
+                  "index",
+                  "node",
+                  "oldVal",
+                  "form",
+                  "type"
+                ]
+              }
+            },
+            {
+              "attr": "useInnerEventsAll",
+              "valueType": "Boolean",
+              "description": "是否允许内嵌事件通过。\n<br>若勾选，内嵌图元表单类型的事件函数属性，都将派发到上层容器图元对外触发连线操作。\n<br>默认不勾选，上层容器图元对外连线反向关联需要指定内嵌图元的具体事件函数属性才能\n<br>触发，否则忽略内嵌图元的事件触发，不会传递给上层容器图元对外连线操作。"
+            },
+            {
+              "attr": "pureFormValues",
+              "valueType": "Boolean",
+              "defaultValue": false,
+              "description": "纯表单数据。\n<br>限定iotos.formValue类型的绑定，不包括form/formReset。"
+            },
+            {
+              "attr": "userData",
+              "valueType": "ObjectArray"
+            },
+            {
+              "attr": "textArea>0>datas>s:text",
+              "valueType": "String",
+              "defaultValue": "datas",
+              "extraInfo": null,
+              "group": "textArea>0>datas"
+            },
+            {
+              "attr": "textArea>0>textArea-ui1>a:value",
+              "valueType": "Multiline",
+              "defaultValue": "",
+              "group": "textArea>0>textArea-ui1"
+            },
+            {
+              "attr": "textArea>0>textArea-ui1>a:placeholder",
+              "valueType": "String",
+              "defaultValue": "请输入",
+              "group": "textArea>0>textArea-ui1"
+            },
+            {
+              "attr": "textArea>0>textArea-ui1>a:onChange",
+              "valueType": "Function",
+              "extraInfo": {
+                "arguments": [
+                  "data",
+                  "gv",
+                  "cache",
+                  "value",
+                  "extra"
+                ]
+              },
+              "group": "textArea>0>textArea-ui1"
+            },
+            {
+              "attr": "textArea>0>textArea-ui1>a:instantTrigger",
+              "valueType": "Boolean",
+              "defaultValue": true,
+              "group": "textArea>0>textArea-ui1"
+            },
+            {
+              "attr": "textArea>0>textArea-ui1>a:htmlContent",
+              "valueType": "Boolean",
+              "defaultValue": false,
+              "group": "textArea>0>textArea-ui1"
+            },
+            {
+              "attr": "textArea>0>textArea-ui1>a:readOnly",
+              "valueType": "Boolean",
+              "defaultValue": false,
+              "group": "textArea>0>textArea-ui1"
+            },
+            {
+              "attr": "textArea>0>textArea-ui1>a:color",
+              "valueType": "Color",
+              "defaultValue": "rgb(61,61,61)",
+              "group": "textArea>0>textArea-ui1"
+            },
+            {
+              "attr": "textArea>0>textArea-ui1>a:background",
+              "valueType": "Color",
+              "defaultValue": "rgb(255,255,255)",
+              "group": "textArea>0>textArea-ui1"
+            }
+          ],
+          "snapshotURL": "icon.base.dialog-ui",
+          "renderHTML": "__ht__function(data, gv, cache) {return __dialog_ui(data,gv,cache);}",
+          "width": 600,
+          "height": 400,
+          "interactive": true,
+          "pixelPerfect": false,
+          "comps": [],
+          "uuid": "CA131549-8C63-45B1-A517-54F17A82AC15"
+        },
+        "position": {
+          "x": 1690.73529,
+          "y": 585.74769
+        }
+      },
+      "s": {
+        "label.opacity": 0,
+        "label.position": 14,
+        "label.offset.x": -10,
+        "label.offset.y": 0,
+        "label.color": "rgb(61,61,61)",
+        "interactive": true,
+        "image.stretch": "uniform",
+        "note.font": "22px arial, sans-serif",
+        "note.color": "rgb(212,0,0)",
+        "note.background": "rgb(255,235,195)",
+        "note.position": 3,
+        "note.offset.x": 0,
+        "note.offset.y": -5,
+        "note.border.width": 10,
+        "note.border.color": "rgb(255,235,195)",
+        "note.opacity": 0,
+        "note.align": "left"
+      },
+      "a": {
+        "display": "displays/develop/uiotos/editor/widgets/dialog/textArea.json",
+        "__loadingStatus": false,
+        "isLoadingGet": false,
+        "show": false,
+        "symbol": "symbols/develop/uiotos/base/dialog-ui.json",
+        "textArea>0>datas>s:text": "datas",
+        "textArea>0>textArea-ui1>a:value": "",
+        "textArea>0>textArea-ui1>a:placeholder": "请输入",
+        "textArea>0>textArea-ui1>a:onChange": null,
+        "textArea>0>textArea-ui1>a:instantTrigger": true,
+        "textArea>0>textArea-ui1>a:htmlContent": false,
+        "textArea>0>textArea-ui1>a:readOnly": false,
+        "textArea>0>textArea-ui1>a:color": "rgb(61,61,61)",
+        "textArea>0>textArea-ui1>a:background": "rgb(255,255,255)",
+        "bindControlsTag": [
+          "grid1"
+        ],
+        "paramControlTag": [
+          null
+        ],
+        "paramControlAttr": [
+          "onOk"
+        ],
+        "bindControlsAttr": [
+          null
+        ],
+        "bindControlsVal": [
+          null
+        ],
+        "oldDynamicAttrs": [
+          {
+            "attr": "_bindEvents_0",
+            "valueType": "MultiComboBox",
+            "defaultValue": "*",
+            "group": "bindEvents",
+            "description": "连线索引[0]的触发事件过滤器，默认全部通过",
+            "dynamicCreate": true
+          }
+        ]
+      }
+    },
+    {
+      "c": "ht.Edge",
+      "i": 1387416,
+      "p": {
+        "name": "edge",
+        "displayName": "0（edge4'）",
+        "toolTip": "<div id=\"config_tooltip\" style=\"font-size:12px;line-height:1.75em;letter-spacing:1px\">\n                                                        关联绑定信息：<br>\n                                                        <li style=\"list-style-type:disc;color:rgba(255,255,255,0.5);\">索引序号：0 | 总共1条</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold;\">操作属性：null@grid1</li>\n                                                        <li style=\"list-style-type:none;color:rgba(255,255,255,0.5)\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;当前值：null</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold\">关联属性：onOk@dlg1</li>\n                                                        <li style=\"list-style-type:none;color:rgba(255,255,255,0.5)\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;关联值：undefined</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold;\">解析赋值：null</li>\n                                                    </div>",
+        "parent": {
+          "__i": 1387415
+        },
+        "tag": "edge4'",
+        "source": {
+          "__i": 1387415
+        },
+        "target": {
+          "__i": 1387404
+        }
+      },
+      "s": {
+        "label": "",
+        "edge.color": "#FFA498",
+        "edge.type": "flex",
+        "edge.gap": 16,
+        "edge.width.absolute": true,
+        "note.border.width": 0,
+        "note.position": 7,
+        "note.opacity": 0.85,
+        "note.background": "#FFA498",
+        "note.offset.x": 0,
+        "note.offset.y": 0,
+        "icons": {
+          "symbols/demo/extra/basic/fromArrow2.json": {
+            "position": 15,
+            "keepOrien": true,
+            "names": [
+              "symbols/demo/extra/basic/fromArrow2.json"
+            ]
+          },
+          "symbols/demo/extra/basic/toArrow.json": {
+            "position": 19,
+            "keepOrien": true,
+            "width": 50,
+            "height": 20,
+            "names": [
+              "symbols/demo/extra/basic/toArrow.json"
+            ]
+          }
+        },
+        "note": 0
+      },
+      "a": {
+        "index": 0,
+        "toolTipRaw": "<div id=\"config_tooltip\" style=\"font-size:12px;line-height:1.75em;letter-spacing:1px\">\n                                                        关联绑定信息：<br>\n                                                        <li style=\"list-style-type:disc;color:rgba(255,255,255,0.5);\">索引序号：0 | 总共1条</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold;\">操作属性：null@grid1</li>\n                                                        <li style=\"list-style-type:none;color:rgba(255,255,255,0.5)\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;当前值：null</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold\">关联属性：onOk@dlg1</li>\n                                                        <li style=\"list-style-type:none;color:rgba(255,255,255,0.5)\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;关联值：undefined</li>\n                                                        <li style=\"list-style-type:disc;font-weight:bold;\">解析赋值：null</li>\n                                                    </div>"
+      }
+    }
+  ],
+  "modified": "Wed Oct 04 2023 00:29:41 GMT+0800 (中国标准时间)",
+  "contentRect": {
+    "x": -40.02148,
+    "y": 0,
+    "width": 2030.75677,
+    "height": 1080
+  }
+}

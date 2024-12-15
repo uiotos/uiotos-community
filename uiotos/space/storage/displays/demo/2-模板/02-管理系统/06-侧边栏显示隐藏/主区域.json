@@ -1,0 +1,89 @@
+{
+  "v": "8.0.1",
+  "p": {
+    "background": "#20252e",
+    "autoAdjustIndex": true,
+    "hierarchicalRendering": true
+  },
+  "a": {
+    "rotateAsClock": false,
+    "gridBlockSize": 20,
+    "connectActionType": null,
+    "fitContent": false,
+    "zoomable": false,
+    "rectSelectable": false,
+    "pannable": false,
+    "_professional": false
+  },
+  "d": [
+    {
+      "c": "ht.Node",
+      "i": 6974714,
+      "p": {
+        "name": "base",
+        "displayName": "底板（_base）",
+        "tag": "_base",
+        "position": {
+          "x": 1577.40866,
+          "y": 126.09574
+        },
+        "width": 364.24501,
+        "height": 252.19147
+      },
+      "s": {
+        "shape": "rect",
+        "shape.background": "white",
+        "fullscreen": "fill",
+        "fullscreen.gap": 0,
+        "2d.movable": false,
+        "label.opacity": 1,
+        "interactive": true,
+        "label.position": 17,
+        "label.offset.y": 0,
+        "label.color": "rgb(61,61,61)",
+        "label.font": "12px arial, sans-serif",
+        "label": "主区域",
+        "shape.border.width": 1,
+        "shape.border.color": "rgb(213,213,213)",
+        "2d.selectable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 6974715,
+      "p": {
+        "name": "BW3",
+        "displayName": "BW3（BW31）",
+        "toolTip": "<p style='color:rgb(242,83,75);margin-top:5px;margin-bottom:5px;font-weight:bold;line-height:1.5em;'>已被布局，不允许拖动（shift+回车可解除）</p>",
+        "tag": "BW31",
+        "image": "assets/develop/uiotos/arranged/assets/光伏/BW3.png",
+        "host": {
+          "__i": 6974714
+        },
+        "position": {
+          "x": 1577.40866,
+          "y": 82.0527
+        },
+        "width": 107.73545,
+        "height": 137.41255
+      },
+      "s": {
+        "label.opacity": 0,
+        "label.position": 17,
+        "label.color": "rgb(61,61,61)",
+        "2d.movable": false,
+        "interactive": true,
+        "image.stretch": "uniform",
+        "layout.h": "center",
+        "layout.v": "top"
+      }
+    }
+  ],
+  "modified": "Mon Aug 26 2024 13:25:15 GMT+0800 (中国标准时间)",
+  "contentRect": {
+    "x": 1393.78616,
+    "y": -1.49999,
+    "width": 367.24501,
+    "height": 255.19147
+  }
+}

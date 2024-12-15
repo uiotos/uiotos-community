@@ -1,0 +1,54 @@
+{
+  "v": "7.7.5",
+  "p": {
+    "autoAdjustIndex": true,
+    "hierarchicalRendering": true
+  },
+  "a": {
+    "rotateAsClock": false,
+    "gridThickColor": "rgb(46,44,44)",
+    "gridLightColor": "rgba(66,65,65,0.40)",
+    "connectActionType": null,
+    "onPostDeserialize": "__ht__function(json, dm, gv, datas) {// // 禁止鼠标缩放\n//       gv.handleScroll = function () {};\n//       // 禁止 touch 下双指缩放\n//       gv.handlePinch = function () {};\n//       // 禁止平移\n//       gv.setPannable(false);\n//       // 禁止框选\n//       gv.setRectSelectable(false);\n//       // 隐藏滚动条\n//       gv.setScrollBarVisible(false);\n//       // 禁止图元移动\n//       gv.setMovableFunc(function () {\n//         return false;\n//       })\n//       gv.getSelectWidth = function() {return 0};}",
+    "fitContent": true,
+    "zoomable": true
+  },
+  "d": [
+    {
+      "c": "ht.Node",
+      "i": 35401,
+      "p": {
+        "displayName": "n1（n1）",
+        "tag": "n1",
+        "position": {
+          "x": 1415.23102,
+          "y": 246.95388
+        },
+        "width": 1916.72978,
+        "height": 1274.86553
+      },
+      "s": {
+        "shape": "rect",
+        "shape.background": "rgb(32,37,46)",
+        "shape.border.color": "rgb(13,2,2)",
+        "shape.border.width.absolute": true,
+        "opacity": 1,
+        "shape.gradient.color": "rgb(75,75,75)",
+        "fullscreen": "fill",
+        "fullscreen.gap": 0,
+        "shape.gradient": "radial.center",
+        "label.position": 14,
+        "label.offset.x": -10,
+        "label.offset.y": 0,
+        "label.color": "rgb(61,61,61)"
+      }
+    }
+  ],
+  "modified": "Sun Mar 31 2024 10:07:02 GMT+0800 (中国标准时间)",
+  "contentRect": {
+    "x": 456.86613,
+    "y": -390.47888,
+    "width": 1916.72978,
+    "height": 1274.86553
+  }
+}

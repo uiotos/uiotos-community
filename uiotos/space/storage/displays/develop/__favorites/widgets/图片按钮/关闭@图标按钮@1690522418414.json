@@ -1,0 +1,49 @@
+{
+  "v": "7.7.1",
+  "p": {
+    "autoAdjustIndex": true,
+    "hierarchicalRendering": false
+  },
+  "d": [
+    {
+      "c": "ht.Node",
+      "i": 178803,
+      "p": {
+        "name": "cbtn",
+        "displayName": "图片按钮（cbtn2）",
+        "toolTip": "图标按钮",
+        "tag": "cbtn2",
+        "image": "symbols/develop/uiotos/base/iconClick.json",
+        "position": {
+          "x": 257.91052,
+          "y": 36.75289
+        },
+        "width": 24.25731,
+        "height": 21.74862
+      },
+      "s": {
+        "label.opacity": 0,
+        "label.position": 14,
+        "label.offset.x": -10,
+        "label.offset.y": 0,
+        "label.color": "rgb(61,61,61)",
+        "interactive": true,
+        "image.stretch": "uniform",
+        "fullscreen": "fill",
+        "fullscreen.gap": 0
+      },
+      "a": {
+        "icon-background": "rgb(124,145,155)",
+        "path": "symbols/demo/uiotos/工具软件类/times-171.json",
+        "hover-background": "rgb(242,83,75)",
+        "default-background": "rgb(124,145,155)",
+        "bindControlsTag": [],
+        "bindControlsAttr": [],
+        "bindControlsVal": [],
+        "paramControlTag": [],
+        "paramControlAttr": [],
+        "paramsGenerator": "function paramsGenerator(data, val, index, node, oldVal, form) {\r\n    //绑定组索引对应的函数处理，用来动态生成复杂的参数变量传入\r\n    switch (index) {\r\n        case 0:\r\n            break;\r\n        case 1:\r\n            break;\r\n        case 2:\r\n            break;\r\n        default:\r\n            break;\r\n    }\r\n    return val;\r\n}"
+      }
+    }
+  ]
+}

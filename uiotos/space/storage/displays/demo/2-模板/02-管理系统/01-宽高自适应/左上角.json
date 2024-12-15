@@ -1,0 +1,67 @@
+{
+  "v": "8.0.1",
+  "p": {
+    "autoAdjustIndex": true,
+    "hierarchicalRendering": true
+  },
+  "a": {
+    "rotateAsClock": false,
+    "gridBlockSize": 20,
+    "connectActionType": null,
+    "fitContent": false,
+    "zoomable": false,
+    "rectSelectable": false,
+    "pannable": false,
+    "_professional": false
+  },
+  "d": [
+    {
+      "c": "ht.Node",
+      "i": 499029,
+      "p": {
+        "name": "base",
+        "displayName": "底板（_base）",
+        "tag": "_base",
+        "dataBindings": {
+          "s": {
+            "label": {
+              "id": "iotos.form",
+              "alias": "",
+              "func": "__ht__function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        console.error(err);\r\n        return rawData;\r\n    }\r\n}",
+              "idinfo": "",
+              "isTplBinded": false
+            }
+          }
+        },
+        "position": {
+          "x": 1520.13802,
+          "y": 17.73983
+        },
+        "width": 107.92999,
+        "height": 35.47966
+      },
+      "s": {
+        "shape": "rect",
+        "shape.background": "rgb(0,33,64)",
+        "fullscreen": "fill",
+        "fullscreen.gap": -2,
+        "2d.movable": false,
+        "label.opacity": 1,
+        "interactive": true,
+        "label.position": 17,
+        "label.offset.y": 0,
+        "label.color": "rgb(247,247,247)",
+        "label.font": "bold 14px sans-serif, Arial",
+        "label": "LOGO区域",
+        "shape.border.color": "rgb(213,213,213)"
+      }
+    }
+  ],
+  "modified": "Mon Aug 26 2024 17:40:28 GMT+0800 (中国标准时间)",
+  "contentRect": {
+    "x": 1466.17303,
+    "y": 0,
+    "width": 107.92999,
+    "height": 35.47966
+  }
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Video</title>
+    <script src="/custom/libs/video/jessibuca.js"></script>
+    <link href="/custom/libs/video/index.css" rel="stylesheet">
+    <style>
+        html,
+        body {
+            width: 100%;
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container-shell">
+        <div id="container"></div>
+    </div>
+</body>
+<script src="/custom/libs/video/index.js"></script>
+<script type="text/javascript">
+    function GetRequest() {
+        var url = location.search; //获取当前页面url
+        var theRequest = new Object();
+        if (url.indexOf("?") != -1) {
+            var str = url.substr(1);
+            strs = str.split("&");
+            for (var i = 0; i < strs.length; i++) {
+                theRequest[strs[i].split("=")[0]] = unescape(strs[i].split("=")[1]);
+            }
+        }
+        return theRequest;
+    }
+    var Request = GetRequest();
+    var one = Request['url'];
+    if (one) jessibuca.play(one);
+</script>
+
+</html>

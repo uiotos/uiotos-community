@@ -1,0 +1,138 @@
+{
+  "modified": "Wed Nov 28 2018 09:45:47 GMT+0800 (中国标准时间)",
+  "width": 200,
+  "height": 30,
+  "snapshotURL": "",
+  "func": "__ht__function(g, rect, comp, data, view) {\nht.vector.comp.ruler.apply(this, arguments);\n}",
+  "properties": {
+    "min": {
+      "valueType": "Number",
+      "defaultValue": 0,
+      "name": "ChartMinValue"
+    },
+    "max": {
+      "valueType": "Number",
+      "defaultValue": "100",
+      "name": "ChartMaxValue"
+    },
+    "paddingBefore": {
+      "valueType": "PositiveNumber",
+      "defaultValue": 12,
+      "name": "RulerPaddingBefore"
+    },
+    "paddingAfter": {
+      "valueType": "PositiveNumber",
+      "defaultValue": 12,
+      "name": "RulerPaddingAfter"
+    },
+    "direction": {
+      "valueType": "Orientation",
+      "defaultValue": "top",
+      "name": "RulerDirection"
+    },
+    "reverse": {
+      "valueType": "Boolean",
+      "defaultValue": false,
+      "name": "RulerReverse"
+    },
+    "labelEvery": {
+      "valueType": "PositiveNumber",
+      "defaultValue": 10,
+      "name": "RulerLabelEvery"
+    },
+    "labelColor": {
+      "valueType": "Color",
+      "defaultValue": "rgb(61,61,61)",
+      "name": "RulerLabelColor"
+    },
+    "labelAlign": {
+      "valueType": "Align",
+      "defaultValue": "center",
+      "name": "RulerLabelAlign"
+    },
+    "labelFont": {
+      "valueType": "Font",
+      "defaultValue": "12px arial, sans-serif",
+      "name": "RulerLabelFont"
+    },
+    "labelDistance": {
+      "valueType": "PositiveNumber",
+      "defaultValue": 0.6,
+      "name": "RulerLabelDistance"
+    },
+    "labelOffsetX": {
+      "valueType": "Number",
+      "defaultValue": 0,
+      "name": "RulerLabelOffsetX"
+    },
+    "labelOffsetY": {
+      "valueType": "Number",
+      "defaultValue": 0,
+      "name": "RulerLabelOffsetY"
+    },
+    "background": {
+      "valueType": "Color",
+      "name": "UIBackground"
+    },
+    "smallTickEvery": {
+      "valueType": "PositiveNumber",
+      "defaultValue": 1,
+      "name": "RulerSmallTickEvery"
+    },
+    "smallTickColor": {
+      "valueType": "Color",
+      "defaultValue": "rgb(61,61,61)",
+      "name": "RulerSmallTickColor"
+    },
+    "smallTickWidth": {
+      "valueType": "PositiveNumber",
+      "defaultValue": 1,
+      "name": "RulerSmallTickWidth"
+    },
+    "smallTickLongness": {
+      "valueType": "PositiveNumber",
+      "defaultValue": 0.2,
+      "name": "RulerSmallTickLongness"
+    },
+    "mediumTickEvery": {
+      "valueType": "PositiveNumber",
+      "defaultValue": 5,
+      "name": "RulerMediumTickEvery"
+    },
+    "mediumTickColor": {
+      "valueType": "Color",
+      "defaultValue": "rgb(61,61,61)",
+      "name": "RulerMediumTickColor"
+    },
+    "mediumTickWidth": {
+      "valueType": "PositiveNumber",
+      "defaultValue": 1,
+      "name": "RulerMediumTickWidth"
+    },
+    "mediumTickLongness": {
+      "valueType": "PositiveNumber",
+      "defaultValue": 0.35,
+      "name": "RulerMediumTickLongness"
+    },
+    "largeTickEvery": {
+      "valueType": "PositiveNumber",
+      "defaultValue": 10,
+      "name": "RulerLargeTickEvery"
+    },
+    "largeTickColor": {
+      "valueType": "Color",
+      "defaultValue": "rgb(61,61,61)",
+      "name": "RulerLargeTickColor"
+    },
+    "largeTickWidth": {
+      "valueType": "PositiveNumber",
+      "defaultValue": 1,
+      "name": "RulerLargeTickWidth"
+    },
+    "largeTickLongness": {
+      "valueType": "PositiveNumber",
+      "defaultValue": 0.6,
+      "name": "RulerLargeTickLongness"
+    }
+  }
+}

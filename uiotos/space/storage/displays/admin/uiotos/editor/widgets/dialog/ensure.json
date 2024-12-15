@@ -1,0 +1,139 @@
+{
+  "v": "7.7.2",
+  "p": {
+    "autoAdjustIndex": true,
+    "hierarchicalRendering": true
+  },
+  "a": {
+    "rotateAsClock": false,
+    "gridBlockSize": 20,
+    "connectActionType": null,
+    "fitContent": false,
+    "rectSelectable": false,
+    "pannable": false,
+    "zoomable": false
+  },
+  "d": [
+    {
+      "c": "ht.Node",
+      "i": 71888,
+      "p": {
+        "displayName": "textArea-ui（textArea-ui1）",
+        "tag": "textArea-ui1",
+        "dataBindings": {
+          "a": {
+            "value": {
+              "id": "iotos.form",
+              "func": "__ht__function formParser(rawData) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}",
+              "idinfo": "",
+              "isTplBinded": false
+            },
+            "instantTrigger": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "htmlContent": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "readOnly": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "onChange": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            }
+          }
+        },
+        "image": "symbols/develop/uiotos/base/textArea-ui.json",
+        "position": {
+          "x": 399,
+          "y": 362
+        },
+        "width": 262,
+        "height": 46
+      },
+      "s": {
+        "interactive": true,
+        "image.stretch": "uniform",
+        "fullscreen": "fill",
+        "fullscreen.gap": 0,
+        "label.position": 14,
+        "label.offset.x": -10,
+        "label.offset.y": 0,
+        "label.color": "rgb(61,61,61)"
+      },
+      "a": {
+        "labelVisible": false,
+        "readOnly": true,
+        "placeholder": "请输入",
+        "value": "确定删除？",
+        "color": "rgb(61,61,61)",
+        "gap": 0,
+        "borderWidth": 10,
+        "borderColor": "rgba(0,0,0,0)",
+        "activeBorderColor": "rgba(51,153,255,0)",
+        "font": "12px arial, sans-serif",
+        "labelEmbeded": true,
+        "layoutVertical": false,
+        "labelText": "",
+        "readOnlyBackground": "rgb(255,255,255)"
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 71889,
+      "p": {
+        "displayName": "datas",
+        "tag": "datas",
+        "dataBindings": {
+          "s": {
+            "text": {
+              "id": "iotos.form",
+              "func": "__ht__function formParser(rawData) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}",
+              "idinfo": "",
+              "isTplBinded": false
+            }
+          }
+        },
+        "host": {
+          "__i": 71888
+        },
+        "position": {
+          "x": 486,
+          "y": 364.5
+        },
+        "width": 28,
+        "height": 5
+      },
+      "s": {
+        "text": "datas",
+        "interactive": true,
+        "image.stretch": "uniform",
+        "2d.visible": false,
+        "layout.h": "right",
+        "layout.v": "center",
+        "label.position": 14,
+        "label.offset.x": -10,
+        "label.offset.y": 0,
+        "label.color": "rgb(61,61,61)"
+      }
+    }
+  ],
+  "modified": "Mon Nov 20 2023 17:28:07 GMT+0800 (中国标准时间)",
+  "contentRect": {
+    "x": 268,
+    "y": 339,
+    "width": 262,
+    "height": 46
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "v": "7.7.2",
+  "p": {
+    "autoAdjustIndex": true,
+    "hierarchicalRendering": false
+  },
+  "d": [
+    {
+      "c": "ht.Node",
+      "i": 120919,
+      "p": {
+        "name": "gv",
+        "displayName": "嵌套容器（gv10）",
+        "toolTip": "支持增加上层节点字段",
+        "tag": "gv10",
+        "image": "symbols/develop/uiotos/base/graphView.json",
+        "position": {
+          "x": 2341.41494,
+          "y": 703.92719
+        },
+        "width": 476.62518,
+        "height": 1119.73444
+      },
+      "s": {
+        "label.opacity": 0,
+        "label.position": 14,
+        "label.offset.x": -10,
+        "label.offset.y": 0,
+        "label.color": "rgb(61,61,61)",
+        "fullscreen": "fill",
+        "fullscreen.gap": 0
+      },
+      "a": {
+        "display": "displays/develop/__favorites/widgets/嵌套容器/__封装/_内嵌表单查询@支持增加上层节点字段@1702224031596.json",
+        "shadowEnabled": false,
+        "bindControlsTag": [],
+        "bindControlsAttr": [],
+        "bindControlsVal": [],
+        "paramControlTag": [],
+        "paramControlAttr": [],
+        "paramBindEvent": [],
+        "paramsGenerator": "function paramsGenerator(data, val, index, node, oldVal, form) {\r\n    //绑定组索引对应的函数处理，用来动态生成复杂的参数变量传入\r\n    switch (index) {\r\n        case 0:\r\n            break;\r\n        case 1:\r\n            break;\r\n        case 2:\r\n            break;\r\n        default:\r\n            break;\r\n    }\r\n    return val;\r\n}"
+      }
+    }
+  ]
+}

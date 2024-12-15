@@ -1,0 +1,13 @@
+{
+  "modified": "Sun Oct 20 2019 19:30:11 GMT+0800 (中国标准时间)",
+  "width": 100,
+  "height": 100,
+  "snapshotURL": "",
+  "func": "__ht__function(g, rect, comp, data, view) {\nvar x = rect.x;\r\nvar y = rect.y;\r\nvar width = rect.width;\r\nvar height = rect.height;\r\n\r\nvar background = comp.getColor('background');\r\nvar rowCount = comp.getValue('rowCount');\r\nvar columnCount = comp.getValue('columnCount');\r\nvar rowLineColor = comp.getColor('rowLineColor');\r\nvar columnLineColor = comp.getColor('columnLineColor');\r\nvar rowLineWidth = comp.getValue('rowLineWidth');\r\nvar columnLineWidth = comp.getValue('columnLineWidth');\r\n\r\n// draw background\r\nif (background) {\r\n    g.fillStyle = background;\r\n    g.beginPath();\r\n    g.rect(x, y, width, height);\r\n    g.fill();\r\n}\r\n\r\n// // draw column lines\r\n// if (columnLineWidth && columnCount > 1) {\r\n//     g.beginPath();\r\n//     for (var i = 1; i < columnCount ; i++) {\r\n//         g.moveTo(x + columnWidth * i, y);\r\n//         g.lineTo(x + columnWidth * i, y + height);\r\n//     }\r\n//     g.strokeStyle = columnLineColor;\r\n//     g.lineWidth = columnLineWidth;\r\n//     g.stroke();\r\n// }\n}",
+  "properties": {
+    "background": {
+      "valueType": "Color",
+      "defaultValue": "rgb(0,187,255)"
+    }
+  }
+}
