@@ -1,0 +1,1159 @@
+{
+    "modified": "Sun Apr 16 2023 07:30:41 GMT+0800 (中国标准时间)",
+    "background": "rgb(32,37,46)",
+    "dataBindings": [{
+            "attr": "bg.background",
+            "valueType": "Color",
+            "defaultValue": "rgb(33,33,60)",
+            "group": "TitleBar"
+        },
+        {
+            "attr": "title",
+            "valueType": "String"
+        },
+        {
+            "attr": "align",
+            "valueType": "Align"
+        },
+        {
+            "attr": "color",
+            "valueType": "Color"
+        },
+        {
+            "attr": "font",
+            "valueType": "Font"
+        },
+        {
+            "attr": "time",
+            "valueType": "String"
+        },
+        {
+            "attr": "week",
+            "valueType": "String"
+        },
+        {
+            "attr": "date",
+            "valueType": "String"
+        },
+        {
+            "attr": "opacity",
+            "valueType": "Opacity"
+        },
+        {
+            "attr": "gradient",
+            "valueType": "String"
+        },
+        {
+            "attr": "visible",
+            "valueType": "Boolean",
+            "defaultValue": true
+        },
+        {
+            "attr": "返回.clicked",
+            "valueType": "Function",
+            "group": "返回",
+            "defaultValue": "__ht__function onClick(event,data,view){      }"
+        },
+        {
+            "attr": "返回.ht.disabled",
+            "valueType": "Boolean",
+            "group": "返回",
+            "defaultValue": true
+        },
+        {
+            "attr": "返回.ht.hoverBackground",
+            "valueType": "Color",
+            "group": "返回",
+            "name": "UIHoverBackground"
+        },
+        {
+            "attr": "返回.ht.disabledBackground",
+            "valueType": "Color",
+            "group": "返回",
+            "name": "UIDisabledBackground"
+        },
+        {
+            "attr": "返回.ht.borderWidth",
+            "valueType": "Number",
+            "group": "返回",
+            "name": "UIBorderWidth"
+        },
+        {
+            "attr": "返回.ht.borderRadius",
+            "valueType": "PositiveNumber",
+            "group": "返回",
+            "name": "UIBorderRadius"
+        },
+        {
+            "attr": "返回.ht.background",
+            "valueType": "Color",
+            "group": "返回",
+            "name": "UIBackground"
+        },
+        {
+            "attr": "返回.ht.text",
+            "valueType": "String"
+        },
+        {
+            "attr": "color",
+            "valueType": "Color",
+            "defaultValue": "rgb(255,255,255)"
+        },
+        {
+            "attr": "search.value",
+            "valueType": "String",
+            "name": "UIFormItemValue",
+            "group": "搜索"
+        },
+        {
+            "attr": "search.visible",
+            "valueType": "Boolean"
+        },
+        {
+            "attr": "search.placeholder",
+            "valueType": "String",
+            "name": "UIPlaceHolder",
+            "group": "搜索"
+        },
+        {
+            "attr": "search.placeholderColor",
+            "valueType": "Color",
+            "group": "搜索"
+        },
+        {
+            "attr": "search.borderColor",
+            "valueType": "Color",
+            "name": "UIBorderColor",
+            "defaultValue": "rgb(221,221,221)",
+            "group": "搜索"
+        },
+        {
+            "attr": "search.focusBorderColor",
+            "valueType": "Color",
+            "name": "UIFocusBorderColor",
+            "group": "搜索"
+        },
+        {
+            "attr": "search.borderRadius",
+            "valueType": "String",
+            "name": "UIBorderRadius",
+            "defaultValue": "3",
+            "group": "搜索"
+        },
+        {
+            "attr": "search.padding",
+            "valueType": "String",
+            "name": "UIPadding",
+            "defaultValue": "3",
+            "group": "搜索"
+        },
+        {
+            "attr": "search.background",
+            "valueType": "Color",
+            "name": "UIBackground",
+            "defaultValue": "rgb(255,255,255)",
+            "group": "搜索"
+        },
+        {
+            "attr": "focusBackground",
+            "valueType": "Color",
+            "name": "UIFocusBackground"
+        },
+        {
+            "attr": "search.iconAlign",
+            "valueType": "Align",
+            "name": "UIIcoAlign",
+            "defaultValue": "right",
+            "group": "搜索"
+        },
+        {
+            "attr": "search.font",
+            "valueType": "Font",
+            "name": "UIFont",
+            "group": "搜索"
+        },
+        {
+            "attr": "textAlign",
+            "valueType": "Align",
+            "name": "UITextAlign",
+            "defaultValue": "right",
+            "group": "搜索"
+        },
+        {
+            "attr": "textColor",
+            "valueType": "Color",
+            "name": "UITextColor",
+            "group": "搜索"
+        },
+        {
+            "attr": "maxLength",
+            "valueType": "PositiveNumber",
+            "name": "UIMaxLength",
+            "group": "搜索"
+        },
+        {
+            "attr": "inputType",
+            "valueType": "String",
+            "name": "UIInputType",
+            "extraInfo": {
+                "enum": {
+                    "values": [
+                        "text",
+                        "password"
+                    ]
+                }
+            },
+            "group": "搜索"
+        },
+        {
+            "attr": "enterEndInputable",
+            "valueType": "Boolean",
+            "name": "UIEnterEndInputable",
+            "group": "搜索"
+        },
+        {
+            "attr": "selectTextOnFocus",
+            "valueType": "Boolean",
+            "name": "UISelectTextOnFocus",
+            "group": "搜索"
+        },
+        {
+            "attr": "formatter",
+            "valueType": "Function",
+            "name": "UIFormat",
+            "extraInfo": {
+                "arguments": [
+                    "value",
+                    "data",
+                    "view"
+                ]
+            },
+            "group": "搜索"
+        },
+        {
+            "attr": "search.onKeyDown",
+            "valueType": "Function",
+            "name": "UIOnKeyDown",
+            "extraInfo": {
+                "arguments": [
+                    "event",
+                    "data",
+                    "view"
+                ]
+            },
+            "group": "搜索"
+        },
+        {
+            "attr": "search.onKeyUp",
+            "valueType": "Function",
+            "name": "UIOnKeyUp",
+            "extraInfo": {
+                "arguments": [
+                    "event",
+                    "data",
+                    "view"
+                ]
+            },
+            "group": "搜索"
+        },
+        {
+            "attr": "search.onChange",
+            "valueType": "Function",
+            "name": "UIOnChange",
+            "extraInfo": {
+                "arguments": [
+                    "value",
+                    "data",
+                    "view"
+                ]
+            },
+            "group": "搜索"
+        },
+        {
+            "attr": "search.iconColor",
+            "valueType": "Color",
+            "name": "颜色",
+            "group": "搜索图标",
+            "defaultValue": "rgb(226,250,87)"
+        },
+        {
+            "attr": "search.path",
+            "valueType": "Image",
+            "name": "名称",
+            "group": "搜索图标",
+            "defaultValue": "search"
+        },
+        {
+            "attr": "search.iconHeight",
+            "valueType": "PositiveNumber",
+            "name": "高度",
+            "group": "搜索图标"
+        },
+        {
+            "attr": "search.iconWidth",
+            "valueType": "PositiveNumber",
+            "name": "宽度",
+            "group": "搜索图标"
+        },
+        {
+            "attr": "search.iconType",
+            "valueType": "Level",
+            "defaultValue": 1,
+            "group": "搜索图标",
+            "name": "风格"
+        },
+        {
+            "attr": "ht.text",
+            "valueType": "String",
+            "name": "UIText"
+        },
+        {
+            "attr": "ht.disabled",
+            "valueType": "Boolean",
+            "name": "UIDisabled"
+        },
+        {
+            "attr": "ht.font",
+            "valueType": "Font",
+            "name": "UIFont"
+        },
+        {
+            "attr": "iconPosition",
+            "valueType": "Orientation",
+            "name": "UIIconPosition",
+            "defaultValue": "right"
+        },
+        {
+            "attr": "ht.textColor",
+            "valueType": "Color",
+            "name": "UITextColor"
+        },
+        {
+            "attr": "ht.borderWidth",
+            "valueType": "PositiveNumber",
+            "defaultValue": 0,
+            "name": "UIBorderWidth"
+        },
+        {
+            "attr": "ht.borderColor",
+            "valueType": "Color",
+            "defaultValue": "rgba(61,61,61,0)",
+            "name": "UIBorderColor"
+        },
+        {
+            "attr": "ht.background",
+            "valueType": "Color",
+            "defaultValue": null,
+            "name": "UIBackground"
+        },
+        {
+            "attr": "ht.hoverBackground",
+            "valueType": "Color",
+            "name": "UIHoverBackground"
+        },
+        {
+            "attr": "ht.disabledBackground",
+            "valueType": "Color",
+            "name": "UIDisabledBackground"
+        },
+        {
+            "attr": "ht.borderRadius",
+            "valueType": "String",
+            "name": "UIBorderRadius"
+        },
+        {
+            "attr": "ht.onClick",
+            "valueType": "Function",
+            "name": "UIOnClick",
+            "extraInfo": {
+                "arguments": [
+                    "event",
+                    "data",
+                    "view"
+                ]
+            }
+        },
+        {
+            "attr": "iconClick.path",
+            "valueType": "Image",
+            "defaultValue": "symbols/demo/uiotos/icons/light/square-full.json",
+            "name": "名称",
+            "group": "运行管理"
+        },
+        {
+            "attr": "iconClick.iconType",
+            "valueType": "Level",
+            "defaultValue": 3,
+            "name": "类型",
+            "group": "运行管理"
+        },
+        {
+            "attr": "iconClick.default-background",
+            "valueType": "Color",
+            "defaultValue": "rgb(0,0,0)",
+            "name": "默认颜色",
+            "group": "运行管理"
+        },
+        {
+            "attr": "iconClick.hover-background",
+            "valueType": "Color",
+            "defaultValue": "rgb(124,145,155)",
+            "name": "划过颜色",
+            "group": "运行管理"
+        },
+        {
+            "attr": "iconClick.click-background",
+            "valueType": "Color",
+            "defaultValue": "rgb(100,100,100)",
+            "name": "按下颜色",
+            "group": "运行管理"
+        },
+        {
+            "attr": "iconClick.clicked",
+            "valueType": "Function",
+            "defaultValue": "__ht__function onClick(param){\r\n    \r\n}",
+            "name": "点击响应",
+            "group": "运行管理"
+        },
+        {
+            "attr": "iconClick.param",
+            "valueType": "String",
+            "name": "参数",
+            "group": "运行管理"
+        },
+        {
+            "attr": "iconClick.disabled",
+            "valueType": "Boolean"
+        },
+        {
+            "attr": "bindControlsTag",
+            "valueType": "StringArray",
+            "group": "bindControls"
+        },
+        {
+            "attr": "bindControlsAttr",
+            "valueType": "StringArray"
+        },
+        {
+            "attr": "bindControlsVal",
+            "valueType": "StringArray"
+        },
+        {
+            "attr": "paramControlTag",
+            "valueType": "StringArray"
+        },
+        {
+            "attr": "paramControlAttr",
+            "valueType": "StringArray"
+        },
+        {
+            "attr": "paramsGenerator",
+            "valueType": "Function",
+            "defaultValue": "__ht__function(data, val, index, node,oldVal,form,type,inner) {//绑定组索引对应的函数处理，用来动态生成复杂的参数变量传入\r\nswitch(index){\r\n    case 0:\r\n        break;\r\n    case 1:\r\n        break;\r\n    case 2:\r\n        break;\r\n    default:\r\n        break;\r\n}\r\n\r\nreturn val;}",
+            "extraInfo": {
+                "arguments": [
+                    "data",
+                    "val",
+                    "index",
+                    "node",
+                    "oldVal",
+                    "form",
+                    "type",
+                    "inner"
+                ]
+            }
+        },
+        {
+            "attr": "userData",
+            "valueType": "ObjectArray"
+        }
+    ],
+    "width": 1860,
+    "height": 80,
+    "fitSize": true,
+    "interactive": true,
+    "disableSelectedBorder": true,
+    "comps": [{
+            "type": "rect",
+            "background": {
+                "func": "attr@background",
+                "value": "rgb(33,33,60)"
+            },
+            "borderColor": "#979797",
+            "prefix": "bg",
+            "rect": [
+                0, -1.5,
+                1859.99999,
+                81.5
+            ]
+        },
+        {
+            "type": "shape",
+            "background": "rgba(39,33,71,0.00)",
+            "gradient": "radial.north",
+            "gradientColor": "rgba(13,146,255,1)",
+            "pixelPerfect": true,
+            "opacity": {
+                "func": "attr@opacity",
+                "value": 1
+            },
+            "layoutH": "right",
+            "layoutV": "top",
+            "rotation": 4.71239,
+            "points": [
+                1757.55392,
+                46.39065,
+                1817.55392,
+                46.39065,
+                1764.1827,
+                46.39065,
+                1817.55392,
+                46.39065,
+                1817.55392,
+                47.39065,
+                1764.1827,
+                47.39065,
+                1757.55392,
+                47.39065,
+                1757.55392,
+                47.39065,
+                1757.55392,
+                46.39065,
+                1757.55392,
+                46.39065,
+                1757.55392,
+                46.39065
+            ]
+        },
+        {
+            "type": "shape",
+            "background": "rgba(13,146,255,0.64)",
+            "pixelPerfect": true,
+            "layoutH": "right",
+            "layoutV": "top",
+            "points": [
+                1797.36996,
+                11.03883,
+                1839.49645,
+                11.03883,
+                1846.48632,
+                5.04083,
+                1803.6319,
+                5.04083,
+                1797.36996,
+                11.03883,
+                1797.36996,
+                11.03883
+            ],
+            "segments": [
+                1,
+                2,
+                2,
+                2,
+                2,
+                2,
+                5
+            ]
+        },
+        {
+            "type": "shape",
+            "background": "rgba(235,75,75,0)",
+            "borderCap": "round",
+            "gradient": "spread.horizontal",
+            "gradientColor": "rgba(95,170,250,0.85)",
+            "pixelPerfect": true,
+            "layoutH": "leftright",
+            "layoutV": "top",
+            "points": [
+                333.83613,
+                77,
+                0.00001,
+                77,
+                0.00001,
+                75.15327,
+                333.32047,
+                75.15327,
+                377.72939,
+                14.20503,
+                999.32867,
+                14.20503,
+                1860,
+                14.20503,
+                1860,
+                16.05176,
+                378.24918,
+                16.05176,
+                333.83613,
+                77,
+                333.83613,
+                77,
+                333.83613,
+                77
+            ]
+        },
+        {
+            "type": "shape",
+            "background": "rgb(55,125,255)",
+            "borderColor": "rgb(23,128,232)",
+            "gradient": "linear.east",
+            "gradientColor": "rgb(55,125,255)",
+            "pixelPerfect": true,
+            "layoutH": "left",
+            "layoutV": "top",
+            "displayName": "不规则图形",
+            "closePath": true,
+            "points": [
+                16.76954,
+                31.21301,
+                35.49382,
+                31.21301,
+                35.49382,
+                47.28698,
+                32.08833,
+                47.28698,
+                16.76954,
+                36.50064
+            ]
+        },
+        {
+            "type": "rect",
+            "background": "rgb(55,125,255)",
+            "borderColor": "#979797",
+            "pixelPerfect": true,
+            "layoutH": "left",
+            "layoutV": "top",
+            "rect": [
+                38.36072,
+                31.21302,
+                3.30539,
+                16.07396
+            ]
+        },
+        {
+            "type": "rect",
+            "background": "rgb(55,125,255)",
+            "borderColor": "#979797",
+            "pixelPerfect": true,
+            "layoutH": "left",
+            "layoutV": "top",
+            "rect": [
+                43.3916,
+                31.21302,
+                1.95621,
+                16.07396
+            ]
+        },
+        {
+            "type": "shape",
+            "background": "rgba(13,146,255,0.64)",
+            "pixelPerfect": true,
+            "layoutH": "right",
+            "layoutV": "top",
+            "points": [
+                1737.93754,
+                11.03883,
+                1780.06404,
+                11.03883,
+                1787.05389,
+                5.04083,
+                1744.19947,
+                5.04083,
+                1737.93754,
+                11.03883,
+                1737.93754,
+                11.03883
+            ],
+            "segments": [
+                1,
+                2,
+                2,
+                2,
+                2,
+                2,
+                5
+            ]
+        },
+        {
+            "type": "shape",
+            "background": "rgba(13,146,255,0.64)",
+            "pixelPerfect": true,
+            "layoutH": "right",
+            "layoutV": "top",
+            "points": [
+                1679.55304,
+                11.03883,
+                1721.67955,
+                11.03883,
+                1728.6694,
+                5.04083,
+                1685.81497,
+                5.04083,
+                1679.55304,
+                11.03883,
+                1679.55304,
+                11.03883
+            ],
+            "segments": [
+                1,
+                2,
+                2,
+                2,
+                2,
+                2,
+                5
+            ]
+        },
+        {
+            "type": "image",
+            "stretch": "uniform",
+            "name": "symbols/admin/uiotos/desk/dateTime.json",
+            "clipDirection": "right",
+            "layoutH": "right",
+            "layoutV": "top",
+            "shadowColor": "rgb(200,200,200)",
+            "shadowBlur": 5,
+            "shadowOffsetX": 0,
+            "shadowOffsetY": 0,
+            "displayName": "时间",
+            "rect": [
+                1547.14716,
+                16.89065,
+                228.27785,
+                63.10935
+            ]
+        },
+        {
+            "type": "text",
+            "text": "iotOS",
+            "align": "center",
+            "color": "#ffffff",
+            "font": "bold 28px Arial Black",
+            "visible": {
+                "func": "__ht__function(data, view) {\nreturn data.a('visible')\n}",
+                "value": true
+            },
+            "pixelPerfect": true,
+            "layoutH": "left",
+            "layoutV": "top",
+            "rect": [
+                92.41869,
+                26.5512,
+                98.03618,
+                28.92773
+            ]
+        },
+        {
+            "type": "text",
+            "text": "A",
+            "align": "center",
+            "color": "#FEB64D",
+            "font": "bold 28px Arial Black",
+            "visible": {
+                "func": "__ht__function(data, view) {\nreturn data.a('visible')\n}",
+                "value": true
+            },
+            "pixelPerfect": true,
+            "layoutH": "left",
+            "layoutV": "top",
+            "rect": [
+                77.35256,
+                26.66843,
+                22.06613,
+                28.92773
+            ]
+        },
+        {
+            "type": "text",
+            "text": "D",
+            "align": "center",
+            "color": "#FEB64D",
+            "font": "bold 28px Arial Black",
+            "visible": {
+                "func": "__ht__function(data, view) {\nreturn data.a('visible')\n}",
+                "value": true
+            },
+            "pixelPerfect": true,
+            "layoutH": "left",
+            "layoutV": "top",
+            "rect": [
+                203.82382,
+                26.5512,
+                18.21726,
+                28.92773
+            ]
+        },
+        {
+            "type": "text",
+            "text": "esktop",
+            "align": "center",
+            "color": "#ffffff",
+            "font": "bold 28px Arial Black",
+            "visible": {
+                "func": "__ht__function(data, view) {\nreturn data.a('visible')\n}",
+                "value": true
+            },
+            "pixelPerfect": true,
+            "layoutH": "left",
+            "layoutV": "top",
+            "rect": [
+                225.89927,
+                24.8846,
+                101.83022,
+                28.92773
+            ]
+        },
+        {
+            "type": "shape",
+            "background": "rgba(39,33,71,0.00)",
+            "gradient": "radial.north",
+            "gradientColor": "rgba(13,146,255,1)",
+            "pixelPerfect": true,
+            "opacity": {
+                "func": "attr@opacity",
+                "value": 1
+            },
+            "layoutH": "right",
+            "layoutV": "top",
+            "rotation": 4.71239,
+            "points": [
+                1504.93797,
+                48.74496,
+                1564.93797,
+                48.74496,
+                1511.56675,
+                48.74496,
+                1564.93797,
+                48.74496,
+                1564.93797,
+                49.74496,
+                1511.56675,
+                49.74496,
+                1504.93797,
+                49.74496,
+                1504.93797,
+                49.74496,
+                1504.93797,
+                48.74496,
+                1504.93797,
+                48.74496,
+                1504.93797,
+                48.74496
+            ]
+        },
+        {
+            "type": "image",
+            "name": "symbols/develop/uiotos/base/button.json",
+            "pixelPerfect": true,
+            "layoutH": "right",
+            "layoutV": "center",
+            "prefix": "返回",
+            "rect": [
+                1480.36468,
+                28.86141,
+                40.38394,
+                42.68084
+            ],
+            "onClick": "__ht__function(event, data, view, point, width, height) {\nsetBindTabviewIndex(data,data.ca('bindTabview'));\r\ni.formEventBubblingUpper(\r\n    data,\r\n    view,\r\n    null,\r\n    'onFormClick',\r\n    null,\r\n    false\r\n);\n}"
+        },
+        {
+            "type": "shape",
+            "background": "rgb(255,255,255)",
+            "pixelPerfect": true,
+            "layoutH": "right",
+            "layoutV": "center",
+            "displayName": "不规则图形",
+            "anchorX": -6.81661,
+            "anchorY": 0.47498,
+            "points": [
+                1484.04372,
+                40.72362,
+                1487.16097,
+                36.94682,
+                1487.23403,
+                36.88799,
+                1490.28626,
+                33.19947,
+                1490.76521,
+                32.61086,
+                1491.55263,
+                32.61086,
+                1492.03971,
+                33.19947,
+                1492.26699,
+                33.49368,
+                1492.38872,
+                33.86657,
+                1492.38872,
+                34.25887,
+                1492.38872,
+                40.27239,
+                1505.49072,
+                40.27239,
+                1508.25073,
+                40.27239,
+                1510.76722,
+                41.65563,
+                1512.60176,
+                43.84326,
+                1512.60176,
+                43.85309,
+                1512.60176,
+                43.85309,
+                1512.60176,
+                43.85309,
+                1514.42826,
+                46.06025,
+                1515.55665,
+                49.10133,
+                1515.55665,
+                52.43672,
+                1515.55665,
+                55.7721,
+                1514.42826,
+                58.82301,
+                1512.60176,
+                61.04008,
+                1512.60176,
+                61.04008,
+                1512.60176,
+                61.04008,
+                1510.77527,
+                63.23752,
+                1508.25879,
+                64.61087,
+                1505.49072,
+                64.61087,
+                1488.19998,
+                64.61087,
+                1487.50999,
+                64.61087,
+                1486.95798,
+                63.9438,
+                1486.95798,
+                63.11978,
+                1486.95798,
+                62.28596,
+                1487.50999,
+                61.60906,
+                1488.19998,
+                61.60906,
+                1505.49072,
+                61.60906,
+                1507.5688,
+                61.60906,
+                1509.45209,
+                60.58884,
+                1510.82402,
+                58.93092,
+                1510.85644,
+                58.91129,
+                1510.85644,
+                58.91129,
+                1512.22838,
+                57.25346,
+                1513.07259,
+                54.96775,
+                1513.07259,
+                52.43672,
+                1513.07259,
+                49.91559,
+                1512.22838,
+                47.63971,
+                1510.87271,
+                45.98178,
+                1510.85644,
+                45.96213,
+                1510.85644,
+                45.96213,
+                1509.46834,
+                44.29451,
+                1507.57692,
+                43.26445,
+                1505.49072,
+                43.26445,
+                1492.38872,
+                43.26445,
+                1492.38872,
+                49.29753,
+                1492.38872,
+                50.11181,
+                1491.84484,
+                50.78871,
+                1491.15486,
+                50.78871,
+                1490.82201,
+                50.78871,
+                1490.4973,
+                50.62185,
+                1490.27814,
+                50.36684,
+                1487.16902,
+                46.59004,
+                1487.10409,
+                46.51158,
+                1484.05185,
+                42.82296,
+                1483.55665,
+                42.25399,
+                1483.55665,
+                41.30241,
+                1484.04372,
+                40.72362,
+                1484.04372,
+                40.72362,
+                1484.04372,
+                40.72362,
+                1489.90474,
+                41.8224,
+                1489.90474,
+                41.8224,
+                1489.90474,
+                41.77329,
+                1489.90474,
+                41.72429,
+                1489.90474,
+                37.87875,
+                1488.97122,
+                39.00688,
+                1488.91433,
+                39.09526,
+                1486.6739,
+                41.78311,
+                1488.84942,
+                44.41224,
+                1488.92247,
+                44.50052,
+                1489.90474,
+                45.68748,
+                1489.90474,
+                41.8224,
+                1489.90474,
+                41.8224,
+                1489.90474,
+                41.8224
+            ],
+            "segments": [
+                1,
+                2,
+                2,
+                2,
+                4,
+                4,
+                2,
+                2,
+                4,
+                2,
+                2,
+                2,
+                4,
+                4,
+                2,
+                2,
+                4,
+                2,
+                4,
+                4,
+                2,
+                4,
+                2,
+                2,
+                4,
+                4,
+                2,
+                2,
+                4,
+                2,
+                2,
+                4,
+                4,
+                2,
+                2,
+                2,
+                4,
+                2,
+                2,
+                1,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2
+            ]
+        },
+        {
+            "type": "text",
+            "text": {
+                "func": "attr@title",
+                "value": "AIOTOS"
+            },
+            "align": {
+                "func": "attr@align",
+                "value": "center"
+            },
+            "color": {
+                "func": "attr@color",
+                "value": "rgb(255,255,255)"
+            },
+            "font": {
+                "func": "attr@font",
+                "value": "28px Arial"
+            },
+            "shadowColor": "rgb(200,200,200)",
+            "shadowBlur": 5,
+            "shadowOffsetX": 0,
+            "shadowOffsetY": 0,
+            "visible": {
+                "func": "__ht__function(data, view) {\nreturn !data.a('visible')\n}",
+                "value": true
+            },
+            "layoutH": "scale",
+            "layoutV": "topbottom",
+            "rect": [
+                142.00804,
+                28.22068,
+                114.89367,
+                30.47694
+            ]
+        },
+        {
+            "type": "image",
+            "name": "symbols/develop/uiotos/base/input.json",
+            "visible": {
+                "func": "attr@visible",
+                "value": true
+            },
+            "pixelPerfect": true,
+            "layoutH": "right",
+            "layoutV": "center",
+            "prefix": "search",
+            "rect": [
+                987.634,
+                28.86141,
+                450.74887,
+                42.68084
+            ]
+        },
+        {
+            "type": "image",
+            "name": "symbols/admin/uiotos/base/iconClick.json",
+            "layoutH": "right",
+            "layoutV": "top",
+            "prefix": "iconClick",
+            "displayName": "iconClick",
+            "rect": [
+                1806.10238,
+                27.58418,
+                40.38394,
+                43.32157
+            ]
+        }
+    ]
+}

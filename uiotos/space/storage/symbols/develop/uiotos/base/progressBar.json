@@ -1,0 +1,120 @@
+{
+  "modified": "Fri Jun 07 2024 11:09:03 GMT+0800 (中国标准时间)",
+  "dataBindings": [
+    {
+      "attr": "symbol",
+      "valueType": "Image",
+      "defaultValue": "symbols/develop/uiotos/arranged/controls/charts/进度条.json"
+    },
+    {
+      "attr": "pb.direction",
+      "valueType": "Direction",
+      "name": "方向",
+      "group": "功能"
+    },
+    {
+      "attr": "pb.value",
+      "valueType": "Percentage",
+      "name": "进度值"
+    },
+    {
+      "attr": "pb.value.visible",
+      "valueType": "Boolean",
+      "name": "值可见"
+    },
+    {
+      "attr": "pb.value.color",
+      "valueType": "Color",
+      "name": "值颜色"
+    },
+    {
+      "attr": "pb.value.font",
+      "valueType": "String",
+      "name": "值字体"
+    },
+    {
+      "attr": "pb.fore.color",
+      "valueType": "Color",
+      "name": "前景色",
+      "description": "进度条渐进色描述"
+    },
+    {
+      "attr": "pb.gradient.color",
+      "valueType": "Color",
+      "name": "渐进色"
+    },
+    {
+      "attr": "pb.background",
+      "valueType": "Color",
+      "name": "背景色"
+    },
+    {
+      "attr": "pb.border.color",
+      "valueType": "Color",
+      "name": "边框颜色"
+    },
+    {
+      "attr": "pb.border.width",
+      "valueType": "Number",
+      "name": "边框宽度"
+    }
+  ],
+  "snapshotURL": "symbols/develop/uiotos/arranged/controls/charts_icon/进度条.json",
+  "renderHTML": "__ht__function(data, gv, cache) {cache = _i.innerRecoveredDataCache(data, cache, false, 'prog', '进度条',()=>{\r\n    data.a({\r\n        'pb.value.visible': false,\r\n        'pb.fore.color': \"#3399FF\",\r\n        'pb.background': \"#38373B\"\r\n    });\r\n});}",
+  "width": 100,
+  "height": 30,
+  "fitSize": true,
+  "attachStyle": "close",
+  "comps": [
+    {
+      "type": "components/develop/uiotos/base/progressBar.json",
+      "displayName": "n（n1）",
+      "rect": [
+        0,
+        0,
+        100,
+        30
+      ],
+      "direction": {
+        "func": "attr@pb.direction",
+        "value": "h"
+      },
+      "value": {
+        "func": "attr@pb.value",
+        "value": 0.7
+      },
+      "valueVisible": {
+        "func": "attr@pb.value.visible",
+        "value": true
+      },
+      "valueColor": {
+        "func": "attr@pb.value.color",
+        "value": "#88CFFF"
+      },
+      "valueFont": {
+        "func": "attr@pb.value.font",
+        "value": "12px arial"
+      },
+      "foreColor": {
+        "func": "attr@pb.fore.color",
+        "value": "#6EFE9F"
+      },
+      "gradientColor": {
+        "func": "attr@pb.gradient.color",
+        "value": null
+      },
+      "background": {
+        "func": "attr@pb.background",
+        "value": "#20384A"
+      },
+      "borderColor": {
+        "func": "attr@pb.border.color",
+        "value": "rgb(255,255,255)"
+      },
+      "borderWidth": {
+        "func": "attr@pb.border.width",
+        "value": 0
+      }
+    }
+  ]
+}

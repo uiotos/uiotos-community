@@ -1,0 +1,134 @@
+{
+    "modified": "Mon Aug 15 2022 22:57:37 GMT+0800 (中国标准时间)",
+    "background": "rgb(32,37,46)",
+    "dataBindings": [{
+            "attr": "img",
+            "valueType": "String"
+        },
+        {
+            "attr": "borderColor-hover",
+            "valueType": "Color",
+            "defaultValue": "rgb(51,153,255)"
+        },
+        {
+            "attr": "borderColor-default",
+            "valueType": "Color",
+            "defaultValue": "rgb(247,247,247)"
+        },
+        {
+            "attr": "icon.show",
+            "valueType": "Boolean",
+            "defaultValue": false
+        },
+        {
+            "attr": "icon.locked",
+            "valueType": "Boolean",
+            "defaultValue": false
+        },
+        {
+            "attr": "icon.noEvent",
+            "valueType": "Boolean",
+            "defaultValue": true
+        },
+        {
+            "attr": "icon.text.text",
+            "valueType": "String"
+        },
+        {
+            "attr": "icon.path",
+            "valueType": "Image"
+        },
+        {
+            "attr": "icon.iconColor",
+            "valueType": "Color"
+        },
+        {
+            "attr": "icon.back.visible",
+            "valueType": "Boolean",
+            "defaultValue": false
+        },
+        {
+            "attr": "icon.iconType",
+            "valueType": "Level"
+        },
+        {
+            "attr": "clicked",
+            "valueType": "Function",
+            "defaultValue": "__ht__function clicked(data,menuIndex,appName){\r\n    let menuModeTmp = menuIndex == undefined\r\n    window.appNotifier.fire({\r\n        kind: 'appInvoke', //APP应用唤起事件\r\n        para: {\r\n            type: menuModeTmp ? 'clickData' : 'menuIndex', //模拟事件\r\n            data: menuModeTmp ? appName : menuIndex //应用名称\r\n        }\r\n    });\r\n}"
+        }
+    ],
+    "onUp": "__ht__function(event, data, view, point, width, height) {\nlet cb = new Function('return ' + data.ca('clicked'))();\r\nlet menuIndex = data.a('icon.menuIndex')\r\ncb && cb(data,menuIndex, data.ca('icon.text.text'))\n}",
+    "onEnter": "__ht__function(event, data, view, point, width, height) {\nif(data.ca('img')){\r\n    data.ca('borderColor',data.ca('borderColor-hover'))\r\n    data.ca('icon.show',true)\r\n    view.getView().style.cursor = 'pointer'\r\n}\n}",
+    "onLeave": "__ht__function(event, data, view, point, width, height) {\ndata.ca('borderColor',data.ca('borderColor-default'))\r\ndata.ca('icon.show',false)\r\nview.getView().style.cursor = 'default'\n}",
+    "width": 200,
+    "height": 120,
+    "fitSize": true,
+    "comps": [{
+            "type": "rect",
+            "borderWidth": 1,
+            "borderColor": {
+                "func": "attr@borderColor",
+                "value": "rgb(247,247,247)"
+            },
+            "borderWidthAbsolute": true,
+            "visible": false,
+            "layoutH": "leftright",
+            "layoutV": "topbottom",
+            "rect": [
+                0,
+                0,
+                200,
+                120
+            ]
+        },
+        {
+            "type": "image",
+            "name": {
+                "func": "attr@img",
+                "value": "symbols/admin/uiotos/desk/none.json"
+            },
+            "layoutH": "leftright",
+            "layoutV": "topbottom",
+            "displayName": "image",
+            "rect": [
+                1,
+                1,
+                198,
+                118
+            ]
+        },
+        {
+            "type": "rect",
+            "background": "rgb(1,36,86)",
+            "borderColor": "rgb(61,61,61)",
+            "visible": {
+                "func": "attr@show",
+                "value": true
+            },
+            "prefix": "icon",
+            "displayName": "shade",
+            "rect": [
+                1,
+                1,
+                198,
+                118
+            ]
+        },
+        {
+            "type": "image",
+            "name": "symbols/admin/uiotos/desk/icon.json",
+            "visible": {
+                "func": "attr@show",
+                "value": true
+            },
+            "prefix": "icon",
+            "displayName": "icon",
+            "rect": [
+                59.66431,
+                12.60183,
+                80.67138,
+                94.79633
+            ]
+        }
+    ]
+}

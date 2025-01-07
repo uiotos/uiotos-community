@@ -1,0 +1,61 @@
+{
+    "modified": "Wed Sep 07 2022 14:25:42 GMT+0800 (中国标准时间)",
+    "background": "rgb(32,37,46)",
+    "dataBindings": [{
+        "attr": "icon.icon-back-ground",
+        "valueType": "Color"
+    }],
+    "width": 250,
+    "height": 150,
+    "fitSize": true,
+    "comps": [{
+            "type": "rect",
+            "background": "rgb(255,255,255)",
+            "borderWidth": 1,
+            "borderColor": "rgb(213,229,245)",
+            "shadowColor": null,
+            "rect": [
+                0, -0.49164,
+                250,
+                150
+            ]
+        },
+        {
+            "type": "image",
+            "color": "rgb(53,94,171)",
+            "name": "symbols/demo/uiotos/icons/common/AlertUrgent-1.json",
+            "prefix": "icon",
+            "shadowColor": null,
+            "rect": [
+                19.61498,
+                7.79251,
+                31.52965,
+                32.22343
+            ]
+        },
+        {
+            "type": "text",
+            "text": "能耗异常总数",
+            "color": "rgb(0,0,0)",
+            "font": "14px arial, sans-serif",
+            "rect": [
+                58.69016,
+                2.06636,
+                50,
+                50
+            ]
+        },
+        {
+            "type": "text",
+            "text": "342564",
+            "color": "rgb(0,0,0)",
+            "font": "24px arial, sans-serif",
+            "rect": [
+                19.61498,
+                74.50836,
+                71.04694,
+                61.01672
+            ]
+        }
+    ]
+}

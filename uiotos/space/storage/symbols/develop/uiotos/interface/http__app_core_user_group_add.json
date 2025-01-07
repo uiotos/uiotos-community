@@ -1,0 +1,155 @@
+{
+    "modified": "Fri Jan 06 2023 23:16:56 GMT+0800 (中国标准时间)",
+    "background": "rgb(32,37,46)",
+    "dataBindings": [{
+            "attr": "type",
+            "valueType": "String",
+            "defaultValue": "HTTP"
+        },
+        {
+            "attr": "post",
+            "valueType": "Boolean",
+            "defaultValue": true
+        },
+        {
+            "attr": "url",
+            "valueType": "StringArray",
+            "defaultValue": [
+                "http://",
+                "localhost",
+                ":9088/",
+                "post"
+            ]
+        },
+        {
+            "attr": "paramKeys",
+            "valueType": "StringArray",
+            "defaultValue": [
+                "CoreUserGroup.name",
+                "CoreUserGroup.groupTypeId",
+                "CoreUserGroup.parent",
+                "@role",
+                "tag"
+            ]
+        },
+        {
+            "attr": "paramValues",
+            "valueType": "StringArray",
+            "defaultValue": [
+                "",
+                1,
+                "",
+                "OWNER",
+                "CoreUserGroup"
+            ]
+        },
+        {
+            "attr": "convertFlatToTree",
+            "valueType": "Boolean",
+            "defaultValue": true
+        },
+        {
+            "attr": "dataIsJsonString",
+            "valueType": "Boolean",
+            "defaultValue": true
+        },
+        {
+            "attr": "contentType",
+            "valueType": "ContentType",
+            "defaultValue": "application/json"
+        },
+        {
+            "attr": "callback",
+            "valueType": "Function",
+            "extraInfo": {
+                "arguments": [
+                    "data",
+                    "gv",
+                    "cache",
+                    "params",
+                    "res"
+                ]
+            },
+            "defaultValue": "__ht__function(data, gv, cache, params, res) {console.log('[response]' + JSON.stringify(res,undefined,2));\r\nconsole.warn('[for bindControlsVal]' + JSON.stringify(convertToFlatJson(res,'.'),undefined,2))}"
+        },
+        {
+            "attr": "response",
+            "valueType": "StringArray",
+            "defaultValue": [
+                "200",
+                ""
+            ]
+        },
+        {
+            "attr": "echoAppend",
+            "valueType": "Boolean",
+            "defaultValue": true
+        },
+        {
+            "attr": "repeatInterval",
+            "valueType": "PositiveNumber",
+            "defaultValue": 1500
+        },
+        {
+            "attr": "enableRepeat",
+            "valueType": "Boolean",
+            "defaultValue": false
+        },
+        {
+            "attr": "requesting",
+            "valueType": "Boolean",
+            "defaultValue": false
+        },
+        {
+            "attr": "defaultOpen",
+            "valueType": "Boolean",
+            "defaultValue": true
+        },
+        {
+            "attr": "bindControlsTag",
+            "valueType": "StringArray"
+        },
+        {
+            "attr": "bindControlsAttr",
+            "valueType": "StringArray"
+        },
+        {
+            "attr": "bindControlsVal",
+            "valueType": "StringArray"
+        },
+        {
+            "attr": "waitingHint",
+            "valueType": "String",
+            "defaultValue": "○"
+        },
+        {
+            "attr": "waitingAnim",
+            "valueType": "NumberArray",
+            "defaultValue": [
+                0.75,
+                500
+            ]
+        },
+        {
+            "attr": "animDuration",
+            "valueType": "PositiveNumber",
+            "defaultValue": 300
+        },
+        {
+            "attr": "noAnim",
+            "valueType": "Boolean",
+            "defaultValue": false
+        },
+        {
+            "attr": "comment",
+            "valueType": "String",
+            "defaultValue": "API数据接口"
+        }
+    ],
+    "renderHTML": "__ht__function(data, gv, cache) {return __http(data,gv,cache);}",
+    "width": 200,
+    "height": 150,
+    "fitSize": true,
+    "pixelPerfect": false,
+    "comps": []
+}

@@ -1,0 +1,36 @@
+{
+  "modified": "Fri Jun 07 2024 11:06:03 GMT+0800 (中国标准时间)",
+  "dataBindings": [
+    {
+      "attr": "symbol",
+      "valueType": "Image"
+    },
+    {
+      "attr": "fan.rotation",
+      "valueType": "Number",
+      "defaultValue": 3,
+      "name": "扇叶旋转"
+    }
+  ],
+  "snapshotURL": "symbols\\develop\\uiotos\\arranged\\controls\\charts_icon\\扇叶.json",
+  "renderHTML": "__ht__function(data, gv, cache) {cache = _i.innerRecoveredDataCache(data, cache, false, 'fan', '扇叶');}",
+  "width": 100,
+  "height": 100,
+  "comps": [
+    {
+      "type": "components/demo/fan/扇叶组.json",
+      "displayName": "扇叶组（扇叶组1）",
+      "rect": [
+        0,
+        0,
+        100,
+        100
+      ],
+      "fan.rotation": {
+        "func": "attr@fan.rotation",
+        "value": 3
+      },
+      "fan.icon": "symbols/demo/大屏部件/其他/Fan leaf.json"
+    }
+  ]
+}

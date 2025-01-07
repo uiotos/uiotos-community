@@ -1,0 +1,337 @@
+{
+  "modified": "Fri Jun 07 2024 11:05:45 GMT+0800 (中国标准时间)",
+  "background": "rgb(32,37,46)",
+  "dataBindings": [
+    {
+      "attr": "symbol",
+      "valueType": "Image"
+    },
+    {
+      "attr": "dataPoint0",
+      "valueType": "Object",
+      "group": "数据",
+      "description": "点0 数据。"
+    },
+    {
+      "attr": "dataPoint1",
+      "valueType": "Object",
+      "description": "点1 数据。"
+    },
+    {
+      "attr": "dataPoint2",
+      "valueType": "Object",
+      "description": "点2 数据。"
+    },
+    {
+      "attr": "dataPoint3",
+      "valueType": "Object",
+      "description": "点3 数据。"
+    },
+    {
+      "attr": "dataPoint4",
+      "valueType": "Object",
+      "description": "点4 数据。"
+    },
+    {
+      "attr": "dataPoint5",
+      "valueType": "Object",
+      "description": "点5数据。"
+    },
+    {
+      "attr": "initData0",
+      "valueType": "ObjectArray",
+      "defaultValue": [
+        [
+          1669018890232,
+          466
+        ],
+        [
+          1669018891232,
+          443
+        ],
+        [
+          1669018892232,
+          439
+        ],
+        [
+          1669018893232,
+          346
+        ],
+        [
+          1669018894232,
+          260
+        ],
+        [
+          1669018895232,
+          216
+        ],
+        [
+          1669018896232,
+          202
+        ],
+        [
+          1669018897232,
+          148
+        ],
+        [
+          1669018898232,
+          81
+        ],
+        [
+          1669018899232,
+          2
+        ]
+      ],
+      "description": "曲线0数据。"
+    },
+    {
+      "attr": "initData1",
+      "valueType": "ObjectArray",
+      "defaultValue": [
+        [
+          1669018890232,
+          46
+        ],
+        [
+          1669018891232,
+          43
+        ],
+        [
+          1669018892232,
+          239
+        ],
+        [
+          1669018893232,
+          356
+        ],
+        [
+          1669018894232,
+          280
+        ],
+        [
+          1669018895232,
+          276
+        ],
+        [
+          1669018896232,
+          202
+        ],
+        [
+          1669018897232,
+          248
+        ],
+        [
+          1669018898232,
+          181
+        ],
+        [
+          1669018899232,
+          245
+        ]
+      ],
+      "description": "曲线1数据。"
+    },
+    {
+      "attr": "initData2",
+      "valueType": "ObjectArray",
+      "defaultValue": [
+        [
+          1669018890232,
+          146
+        ],
+        [
+          1669018891232,
+          143
+        ],
+        [
+          1669018892232,
+          259
+        ],
+        [
+          1669018893232,
+          156
+        ],
+        [
+          1669018894232,
+          80
+        ],
+        [
+          1669018895232,
+          176
+        ],
+        [
+          1669018896232,
+          102
+        ],
+        [
+          1669018897232,
+          148
+        ],
+        [
+          1669018898232,
+          81
+        ],
+        [
+          1669018899232,
+          145
+        ]
+      ],
+      "description": "曲线2数据。"
+    },
+    {
+      "attr": "initData3",
+      "valueType": "ObjectArray",
+      "description": "曲线3数据。"
+    },
+    {
+      "attr": "initData4",
+      "valueType": "ObjectArray",
+      "description": "曲线4数据。"
+    },
+    {
+      "attr": "initData5",
+      "valueType": "ObjectArray",
+      "description": "曲线5数据。"
+    },
+    {
+      "attr": "count",
+      "valueType": "PositiveNumber",
+      "name": "ChartMaxVisiblePoint",
+      "group": "外观",
+      "defaultValue": 10,
+      "description": "最大可见点数。"
+    },
+    {
+      "attr": "lineSmooth",
+      "valueType": "Boolean",
+      "name": "平滑",
+      "defaultValue": true,
+      "description": "平滑。"
+    },
+    {
+      "attr": "itemSize",
+      "valueType": "PositiveNumber",
+      "defaultValue": 1,
+      "description": "圆点大小。"
+    },
+    {
+      "attr": "tooltip",
+      "valueType": "Boolean",
+      "defaultValue": true,
+      "description": "工具提示。"
+    },
+    {
+      "attr": "vsplitLine.show",
+      "valueType": "Boolean",
+      "defaultValue": true,
+      "description": "显示垂直线。"
+    },
+    {
+      "attr": "hsplitLine.show",
+      "valueType": "Boolean",
+      "description": "显示水平线。"
+    },
+    {
+      "attr": "areaColorStart",
+      "valueType": "Color",
+      "defaultValue": "rgba(61,61,61,0.1)",
+      "name": "面积渐变起始色",
+      "description": "面积渐变起始色。"
+    },
+    {
+      "attr": "names",
+      "valueType": "StringArray",
+      "name": "名称",
+      "defaultValue": [
+        "曲线0",
+        "曲线1",
+        "曲线2",
+        "曲线3",
+        "曲线4",
+        "曲线5"
+      ],
+      "description": "曲线名称。"
+    },
+    {
+      "attr": "ht.colors",
+      "valueType": "ColorArray",
+      "name": "ChartColors",
+      "defaultValue": [
+        "rgb(96,172,252)",
+        "rgb(50,211,235)",
+        "rgb(93,217,174)",
+        "rgb(125,195,125)",
+        "rgb(255,235,195)",
+        "rgb(226,250,87)"
+      ],
+      "description": "曲线颜色。"
+    },
+    {
+      "attr": "ht.background",
+      "valueType": "Color",
+      "name": "UIBackground",
+      "description": "背景色。"
+    },
+    {
+      "attr": "axisLabel.color",
+      "valueType": "Color",
+      "defaultValue": "rgb(51,153,255)",
+      "description": "轴标签颜色。"
+    },
+    {
+      "attr": "axisLine.color",
+      "valueType": "Color",
+      "defaultValue": "rgb(51,153,255)",
+      "description": "轴线颜色。"
+    },
+    {
+      "attr": "areaColors",
+      "valueType": "ColorArray",
+      "name": "面积",
+      "defaultValue": [
+        "rgb(33,33,33,0)",
+        "rgb(33,33,33,0)",
+        "rgb(33,33,33,0)",
+        "rgb(33,33,33,0)",
+        "rgb(33,33,33,0)",
+        "rgb(33,33,33,0)"
+      ],
+      "description": "区域颜色。"
+    },
+    {
+      "attr": "areaColorAlpha",
+      "valueType": "Percentage",
+      "defaultValue": 0.8
+    }
+  ],
+  "snapshotURL": "symbols/develop/uiotos/arranged/controls/charts_icon/实时曲线.json",
+  "renderHTML": "__ht__function(data, gv, cache) {cache = _i.innerRecoveredDataCache(data, cache, false, 'mchart', '实时曲线');}",
+  "width": 300,
+  "height": 200,
+  "fitSize": true,
+  "scrollable": true,
+  "interactive": true,
+  "disableSelectedBorder": true,
+  "pixelPerfect": false,
+  "comps": [
+    {
+      "type": "components/develop/uiotos/base/timeAxisDouble.json",
+      "displayName": "timeAxisChart（timeAxisChart1）",
+      "rect": [
+        0,
+        0,
+        300,
+        200
+      ],
+      "onClick": "__ht__function(event, data, view, point, width, height) {\nht.vector.timeAxisChartInteractor.onClick.apply(this, arguments);\n}",
+      "onDown": "__ht__function(event, data, view, point, width, height) {\nht.vector.timeAxisChartInteractor.onDown.apply(this, arguments);\n}",
+      "onUp": "__ht__function(event, data, view, point, width, height) {\nht.vector.timeAxisChartInteractor.onUp.apply(this, arguments);\n}",
+      "onMove": "__ht__function(event, data, view, point, width, height) {\nht.vector.timeAxisChartInteractor.onMove.apply(this, arguments);\n}",
+      "onEnter": "__ht__function(event, data, view, point, width, height) {\nht.vector.timeAxisChartInteractor.onEnter.apply(this, arguments);\n}",
+      "onLeave": "__ht__function(event, data, view, point, width, height) {\nht.vector.timeAxisChartInteractor.onLeave.apply(this, arguments);\n}",
+      "onBeginDrag": "__ht__function(event, data, view, point, width, height) {\nht.vector.timeAxisChartInteractor.onBeginDrag.apply(this, arguments);\n}",
+      "onDrag": "__ht__function(event, data, view, point, width, height) {\nht.vector.timeAxisChartInteractor.onDrag.apply(this, arguments);\n}",
+      "onEndDrag": "__ht__function(event, data, view, point, width, height) {\nht.vector.timeAxisChartInteractor.onEndDrag.apply(this, arguments);\n}"
+    }
+  ]
+}

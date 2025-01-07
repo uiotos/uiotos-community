@@ -1,0 +1,175 @@
+{
+  "modified": "Sat Aug 24 2024 16:13:48 GMT+0800 (中国标准时间)",
+  "dataBindings": [
+    {
+      "attr": "symbol",
+      "valueType": "Image"
+    },
+    {
+      "attr": "disabled",
+      "valueType": "Boolean",
+      "description": "是否禁用。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#mxigU\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+      "defaultValue": false,
+      "group": "功能",
+      "extraInfo": "★"
+    },
+    {
+      "attr": "selected",
+      "valueType": "Boolean",
+      "description": "第一个勾选框是否选中。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#pZj2E\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+      "defaultValue": false,
+      "extraInfo": "*"
+    },
+    {
+      "attr": "datas",
+      "valueType": "ObjectArray",
+      "defaultValue": [
+        "aaa",
+        "bbb",
+        "ccc"
+      ],
+      "description": "勾选框组的数据。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#dP1lW\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>"
+    },
+    {
+      "attr": "indexValues",
+      "valueType": "ObjectArray",
+      "defaultValue": [
+        false,
+        false,
+        false
+      ],
+      "description": "勾选项对应的索引序号。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#gZqUb\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+      "extraInfo": "★"
+    },
+    {
+      "attr": "idValues",
+      "valueType": "StringArray",
+      "description": "名称对应的数据ID。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#An0RA\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>\n",
+      "defaultValue": [],
+      "extraInfo": "★"
+    },
+    {
+      "attr": "textValues",
+      "valueType": "StringArray",
+      "description": "勾选项对应的文本。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#hTGgr\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>"
+    },
+    {
+      "attr": "userData",
+      "valueType": "Object",
+      "defaultValue": []
+    },
+    {
+      "attr": "onChange",
+      "valueType": "Function",
+      "extraInfo": {
+        "arguments": [
+          "data",
+          "gv",
+          "cache",
+          "param"
+        ]
+      }
+    },
+    {
+      "attr": "labelText",
+      "valueType": "String",
+      "defaultValue": "请勾选",
+      "description": "标签文本。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#AGAtf\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+      "group": "外观"
+    },
+    {
+      "attr": "labelFont",
+      "valueType": "Font",
+      "description": "标签字体。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#bR0YY\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+      "extraInfo": "★"
+    },
+    {
+      "attr": "labelColor",
+      "valueType": "Color",
+      "defaultValue": "rgb(0,0,0)",
+      "description": "标签颜色。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#kowSk\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>"
+    },
+    {
+      "attr": "checkboxFont",
+      "valueType": "Font",
+      "description": "勾选框字体。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#dWnvi\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+      "extraInfo": "★"
+    },
+    {
+      "attr": "checkboxColor",
+      "valueType": "Color",
+      "defaultValue": "rgb(124,145,155)",
+      "description": "勾选框颜色。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#UMp0m\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+      "extraInfo": "★"
+    },
+    {
+      "attr": "layoutType",
+      "valueType": "LableLayout",
+      "defaultValue": 0,
+      "description": "布局类型。"
+    },
+    {
+      "attr": "gapLabel",
+      "valueType": "PositiveNumber",
+      "defaultValue": 10,
+      "description": "标签与组件之间的间隙。",
+      "extraInfo": "★"
+    },
+    {
+      "attr": "gapItem",
+      "valueType": "PositiveNumber",
+      "defaultValue": "5",
+      "description": "勾选框之间的间隙。",
+      "extraInfo": "★"
+    },
+    {
+      "attr": "labelEmbeded",
+      "valueType": "Boolean",
+      "defaultValue": true
+    },
+    {
+      "attr": "bindControlsTag",
+      "valueType": "StringArray",
+      "group": "连线"
+    },
+    {
+      "attr": "bindControlsAttr",
+      "valueType": "StringArray"
+    },
+    {
+      "attr": "bindControlsVal",
+      "valueType": "ObjectArray"
+    },
+    {
+      "attr": "paramControlTag",
+      "valueType": "StringArray"
+    },
+    {
+      "attr": "paramControlAttr",
+      "valueType": "StringArray"
+    },
+    {
+      "attr": "paramsGenerator",
+      "valueType": "Function",
+      "defaultValue": "__ht__function(data, val, index, node,oldVal,form) {//绑定组索引对应的函数处理，用来动态生成复杂的参数变量传入\r\nswitch(index){\r\n    case 0:\r\n        break;\r\n    case 1:\r\n        break;\r\n    case 2:\r\n        break;\r\n    default:\r\n        break;\r\n}\r\n\r\nreturn val;}",
+      "extraInfo": {
+        "arguments": [
+          "data",
+          "val",
+          "index",
+          "node",
+          "oldVal",
+          "form"
+        ]
+      }
+    }
+  ],
+  "snapshotURL": "symbols/develop/uiotos/arranged/controls/forms_icon/勾选框.json",
+  "renderHTML": "__ht__function(data, gv, cache) {return __checkBox_ui(data,gv,cache);}",
+  "width": 200,
+  "height": 35,
+  "scrollable": true,
+  "interactive": true,
+  "pixelPerfect": false,
+  "comps": []
+}

@@ -1,0 +1,848 @@
+{
+  "v": "7.7.3",
+  "p": {
+    "autoAdjustIndex": true,
+    "hierarchicalRendering": false
+  },
+  "a": {
+    "rotateAsClock": false,
+    "gridBlockSize": 40,
+    "gridThickLinesEvery": 10,
+    "gridThickColor": "rgba(100,100,100,0.2)",
+    "gridLightColor": "rgba(127,127,127,0.1)",
+    "gridAngle": 1.5708,
+    "gridRotation": 0,
+    "gridZoomThreshold": 0.25,
+    "connectActionType": null,
+    "fitContent": false
+  },
+  "d": [
+    {
+      "c": "ht.Node",
+      "i": 297099,
+      "p": {
+        "name": "autoBase",
+        "displayName": "自动底板（autoBase1）",
+        "tag": "autoBase1",
+        "image": null,
+        "position": {
+          "x": -5,
+          "y": -5
+        },
+        "width": 296.52033,
+        "height": 318.30462
+      },
+      "s": {
+        "label.position": 14,
+        "label.offset.x": -10,
+        "label.offset.y": 0,
+        "label.color": "rgb(61,61,61)",
+        "2d.movable": false,
+        "interactive": true,
+        "fullscreen": "fill"
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 297100,
+      "p": {
+        "displayName": "Text（Text1）",
+        "toolTip": "<p style='color:rgb(242,83,75);margin-top:5px;margin-bottom:5px;font-weight:bold;line-height:1.5em;'>已被布局，不允许拖动</p>",
+        "tag": "Text1",
+        "host": {
+          "__i": 297099
+        },
+        "position": {
+          "x": -5,
+          "y": -143.57867
+        },
+        "width": 292.52033,
+        "height": 37.14729
+      },
+      "s": {
+        "text": "账号注册",
+        "text.font": "14px sans-serif, Arial",
+        "label.position": 14,
+        "label.offset.x": -10,
+        "label.offset.y": 0,
+        "label.color": "rgb(61,61,61)",
+        "2d.movable": false,
+        "interactive": true,
+        "layout.h": "leftright",
+        "layout.v": "scale"
+      },
+      "a": {
+        "toolTipRaw": "<p style='color:rgb(242,83,75);margin:0px;font-weight:bold'>已被布局，不允许拖动<p>"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 297101,
+      "p": {
+        "name": "注册",
+        "displayName": "注册（注册1）",
+        "toolTip": "<p style='color:rgb(242,83,75);margin-top:5px;margin-bottom:5px;font-weight:bold;line-height:1.5em;'>已被布局，不允许拖动</p>",
+        "tag": "注册1",
+        "dataBindings": {
+          "a": {
+            "userData": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "onFormClick": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            }
+          }
+        },
+        "image": "symbols/develop/uiotos/base/button.json",
+        "host": {
+          "__i": 297099
+        },
+        "position": {
+          "x": -5,
+          "y": 76.88341
+        },
+        "width": 292.52033,
+        "height": 35
+      },
+      "s": {
+        "interactive": true,
+        "label.position": 14,
+        "label.offset.x": -10,
+        "label.offset.y": 0,
+        "label.color": "rgb(61,61,61)",
+        "2d.movable": false,
+        "label.opacity": 0,
+        "layout.h": "leftright",
+        "layout.v": "scale"
+      },
+      "a": {
+        "ht.text": "注册",
+        "ht.background": "rgb(51,153,255)",
+        "ht.borderRadius": "0",
+        "ht.borderWidth": 0,
+        "ht.iconPosition": "left",
+        "ht.iconHeight": 50,
+        "ht.iconWidth": 58,
+        "ht.font": "14px Microsoft YaHei",
+        "ht.disabled": false,
+        "ht.borderColor": null,
+        "ht.textColor": "rgb(247,247,247)",
+        "fixedHeight": 35,
+        "toolTipRaw": "<p style='color:rgb(242,83,75);margin:0px;font-weight:bold'>已被布局，不允许拖动<p>",
+        "bindControlsTag": [],
+        "bindControlsAttr": [],
+        "bindControlsVal": []
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 297102,
+      "p": {
+        "name": "button",
+        "displayName": "button（button1）",
+        "toolTip": "<p style='color:rgb(242,83,75);margin-top:5px;margin-bottom:5px;font-weight:bold;line-height:1.5em;'>已被布局，不允许拖动</p>",
+        "tag": "button1",
+        "dataBindings": {
+          "a": {
+            "userData": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "onFormClick": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "_bindEvents_0": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "_bindEvents_1": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            }
+          }
+        },
+        "image": {
+          "modified": "Sun Nov 26 2023 15:17:37 GMT+0800 (中国标准时间)",
+          "background": "rgba(32,37,46,0)",
+          "dataBindings": [
+            {
+              "attr": "symbol",
+              "valueType": "Image",
+              "group": "功能（关键）"
+            },
+            {
+              "attr": "fixedHeight",
+              "valueType": "PositiveNumber"
+            },
+            {
+              "attr": "ht.text",
+              "valueType": "Multiline",
+              "name": "UIText",
+              "defaultValue": "BUTTON"
+            },
+            {
+              "attr": "ht.textColor",
+              "valueType": "Color",
+              "defaultValue": "rgb(255,255,255)"
+            },
+            {
+              "attr": "ht.disabled",
+              "valueType": "Boolean",
+              "name": "UIDisabled",
+              "defaultValue": false
+            },
+            {
+              "attr": "ht.font",
+              "valueType": "Font",
+              "name": "UIFont"
+            },
+            {
+              "attr": "ht.iconPosition",
+              "valueType": "Orientation",
+              "name": "UIIconPosition"
+            },
+            {
+              "attr": "ht.iconWidth",
+              "valueType": "PositiveNumber",
+              "name": "UIIconWidth"
+            },
+            {
+              "attr": "ht.iconHeight",
+              "valueType": "PositiveNumber",
+              "name": "UIIconHeight"
+            },
+            {
+              "attr": "ht.borderWidth",
+              "valueType": "PositiveNumber",
+              "defaultValue": 1,
+              "name": "UIBorderWidth"
+            },
+            {
+              "attr": "ht.borderColor",
+              "valueType": "Color",
+              "defaultValue": "rgb(255,255,255)",
+              "name": "UIBorderColor"
+            },
+            {
+              "attr": "ht.background",
+              "valueType": "Color",
+              "defaultValue": "rgb(55,125,255)",
+              "name": "UIBackground"
+            },
+            {
+              "attr": "ht.hoverBackground",
+              "valueType": "Color",
+              "name": "UIHoverBackground"
+            },
+            {
+              "attr": "ht.disabledBackground",
+              "valueType": "Color",
+              "name": "UIDisabledBackground"
+            },
+            {
+              "attr": "ht.borderRadius",
+              "valueType": "Number",
+              "name": "UIBorderRadius",
+              "defaultValue": 3
+            },
+            {
+              "attr": "clicked",
+              "valueType": "Function",
+              "name": "UIOnClick",
+              "extraInfo": {
+                "arguments": [
+                  "event",
+                  "data",
+                  "view"
+                ]
+              },
+              "defaultValue": "__ht__function(event, data, view) {setBindTabviewIndex(data,data.ca('bindTabview'));\r\ni.formEventBubblingUpper(\r\n    data,\r\n    view,\r\n    null,\r\n    'onFormClick',\r\n    null,\r\n    false\r\n);}"
+            },
+            {
+              "attr": "onFormClick",
+              "valueType": "Function",
+              "extraInfo": {
+                "arguments": [
+                  "data",
+                  "gv",
+                  "cache",
+                  "value",
+                  "extra"
+                ]
+              }
+            },
+            {
+              "attr": "icon-background",
+              "valueType": "Color",
+              "defaultValue": "rgb(255,255,255)"
+            },
+            {
+              "attr": "iconPath",
+              "valueType": "Image",
+              "description": "按钮图标。\n<br>默认为空，用于按钮图标文字一起显示。"
+            },
+            {
+              "attr": "iconGap",
+              "valueType": "PositiveNumber",
+              "defaultValue": 5,
+              "description": "按钮与文字间距 。"
+            },
+            {
+              "attr": "iconType",
+              "valueType": "Level",
+              "defaultValue": 1,
+              "description": "图标类型（备用，暂无效）。"
+            },
+            {
+              "attr": "darkStyle",
+              "valueType": "Boolean",
+              "defaultValue": true
+            },
+            {
+              "attr": "bindTabview",
+              "valueType": "StringArray",
+              "defaultValue": [
+                "tabview",
+                "0"
+              ],
+              "group": "bindControls"
+            },
+            {
+              "attr": "bindControlsTag",
+              "valueType": "StringArray",
+              "defaultValue": [
+                "bus1",
+                "bus1",
+                "bus2",
+                "bus2"
+              ]
+            },
+            {
+              "attr": "bindControlsAttr",
+              "valueType": "StringArray",
+              "defaultValue": [
+                "contentSend",
+                "triggerSend",
+                "contentSend",
+                "triggerSend"
+              ]
+            },
+            {
+              "attr": "bindControlsVal",
+              "valueType": "ObjectArray",
+              "defaultValue": [
+                null,
+                null,
+                null,
+                null
+              ],
+              "description": "静态值。也用作数组索引、JSON对象解析提取值用途。\n<br>一、静态值用途：\n<br>对常规类型的属性赋值且没有反向关联属性值，传入为数值时，不\n<br>会作为数组的索引，而会当成常量值对外赋值。此外，存在特殊值：\n<br>~和undefined表示过滤、不触发；null为默认值，表示传递默认表\n<br>单数据。编辑状态下清空后保存与设置null等价。\n<br>二、数组索引用途\n<br>情况1：被操作的组件属性原先值是数组时（包括空数组），会将\n<br>待输出的值作为被操作数组指定索引的值来传入，而不是整体覆盖。\n<br>情况2：如果要被操作的组件属性原先值不是数组，而且待输出的\n<br>值为数组类型并且长度也在索引范围内，那么会按照索引取自身数\n<br>组指定元素再对外输出。（如果想要取待输出索引值，赋值给被操\n<br>纵属性的指定索引，那么需要中间组件属性连线过渡以下，无法直\n<br>接操作）\n<br>情况3：如果要被操作的组件属性是数组，而且待输出的值也是数组\n<br>类型，此时当情况1来处理。\n<br>三、数据解析用途：\n<br>待输出的值为JSON对象时，用x.y.z这种以字符.或者>为间隔的方式\n<br>实现对JSON字段层次逐层定位，当是数组时x.0.y.1这种以数字的方\n<br>式来指定数组的某个索引。以此实现对任意结果JSON对象字段的定\n<br>位，获取结构内指定字段对应的值。"
+            },
+            {
+              "attr": "paramControlTag",
+              "valueType": "StringArray"
+            },
+            {
+              "attr": "paramControlAttr",
+              "valueType": "StringArray"
+            },
+            {
+              "attr": "paramsGenerator",
+              "valueType": "Function",
+              "defaultValue": "__ht__function(data, val, index, node,oldVal,form) {//绑定组索引对应的函数处理，用来动态生成复杂的参数变量传入\r\nswitch(index){\r\n    case 0:\r\n        break;\r\n    case 1:\r\n        break;\r\n    case 2:\r\n        break;\r\n    default:\r\n        break;\r\n}\r\n\r\nreturn val;}",
+              "extraInfo": {
+                "arguments": [
+                  "data",
+                  "val",
+                  "index",
+                  "node",
+                  "oldVal",
+                  "form",
+                  "type"
+                ]
+              }
+            },
+            {
+              "attr": "userData",
+              "valueType": "ObjectArray"
+            },
+            {
+              "attr": "_bindEvents_0",
+              "valueType": "MultiComboBox",
+              "defaultValue": "*",
+              "group": "bindEvents",
+              "description": "连线索引[0]的触发事件过滤器，默认全部通过",
+              "dynamicCreate": true
+            },
+            {
+              "attr": "_bindEvents_1",
+              "valueType": "MultiComboBox",
+              "defaultValue": "*",
+              "group": "bindEvents",
+              "description": "连线索引[1]的触发事件过滤器，默认全部通过",
+              "dynamicCreate": true
+            }
+          ],
+          "renderHTML": "__ht__function(data, gv, cache) {return __button(data,gv,cache);}",
+          "width": 80,
+          "height": 42,
+          "boundExtend": 2,
+          "fitSize": true,
+          "interactive": true,
+          "disableSelectedBorder": true,
+          "pixelPerfect": false,
+          "attachStyle": "close",
+          "comps": [
+            {
+              "type": "components/develop/uiotos/base/button.json",
+              "displayName": "button",
+              "rect": [
+                0,
+                0,
+                80,
+                42
+              ],
+              "onDown": "__ht__function(event, data, view, point, width, height) {\nht.vector.buttonInteractor.onDown.apply(this, arguments);\n}",
+              "onUp": "__ht__function(event, data, view, point, width, height) {\nht.vector.buttonInteractor.onUp.apply(this, arguments);\n}",
+              "onEnter": "__ht__function(event, data, view, point, width, height) {\nht.vector.buttonInteractor.onEnter.apply(this, arguments);\n}",
+              "onLeave": "__ht__function(event, data, view, point, width, height) {\nht.vector.buttonInteractor.onLeave.apply(this, arguments);\n}",
+              "text": {
+                "func": "attr@ht.text",
+                "value": "BUTTON"
+              },
+              "disabled": {
+                "func": "attr@ht.disabled",
+                "value": false
+              },
+              "font": {
+                "func": "attr@ht.font",
+                "value": "12px arial, sans-serif"
+              },
+              "icon": {
+                "func": "attr@iconPath"
+              },
+              "iconPosition": {
+                "func": "attr@ht.iconPosition",
+                "value": "left"
+              },
+              "iconWidth": {
+                "func": "attr@ht.iconWidth",
+                "value": 20
+              },
+              "iconHeight": {
+                "func": "attr@ht.iconHeight",
+                "value": 20
+              },
+              "iconGap": {
+                "func": "attr@iconGap",
+                "value": 5
+              },
+              "textColor": {
+                "func": "attr@ht.textColor",
+                "value": "rgb(255,255,255)"
+              },
+              "borderWidth": {
+                "func": "attr@ht.borderWidth",
+                "value": 0
+              },
+              "borderColor": {
+                "func": "attr@ht.borderColor",
+                "value": null
+              },
+              "disabledBorderColor": "rgba(235,235,235,0)",
+              "background": {
+                "func": "attr@ht.background",
+                "value": "rgb(55,125,255)"
+              },
+              "disabledBackground": {
+                "func": "attr@ht.disabledBackground",
+                "value": "#fafafa"
+              },
+              "borderRadius": {
+                "func": "attr@ht.borderRadius",
+                "value": "0"
+              },
+              "handleClick": {
+                "func": "attr@clicked"
+              },
+              "getValue": "__ht__function(l){var I=n(Q,l);return I===Ez&&V.properties&&(l=V.properties[l])?l.defaultValue:I}",
+              "getColor": "__ht__function(l,I){return ae(!0===I?l:Q.getValue(l))}"
+            }
+          ],
+          "uuid": "6227001F-8CEC-461A-A470-0957B3F49114"
+        },
+        "host": {
+          "__i": 297099
+        },
+        "position": {
+          "x": -5,
+          "y": 134.65231
+        },
+        "width": 292.52033,
+        "height": 35
+      },
+      "s": {
+        "interactive": true,
+        "label.position": 14,
+        "label.offset.x": -10,
+        "label.offset.y": 0,
+        "label.color": "rgb(61,61,61)",
+        "label.opacity": 0,
+        "2d.movable": false,
+        "layout.h": "leftright",
+        "layout.v": "scale"
+      },
+      "a": {
+        "ht.text": "登录",
+        "ht.background": "rgba(51,153,255,0)",
+        "ht.onClick": "__ht__function(event, data, view) {data.dm().getDataByTag('0').s('2d.visible',true)\ndata.dm().getDataByTag('1').s('2d.visible',false)}",
+        "ht.borderRadius": "0",
+        "ht.borderWidth": 1,
+        "ht.iconPosition": "left",
+        "ht.iconHeight": 50,
+        "ht.iconWidth": 58,
+        "ht.font": "14px Microsoft YaHei",
+        "ht.disabled": false,
+        "ht.borderColor": "rgb(51,153,255)",
+        "ht.textColor": "rgb(247,247,247)",
+        "fixedHeight": 35,
+        "toolTipRaw": "<p style='color:rgb(242,83,75);margin:0px;font-weight:bold'>已被布局，不允许拖动<p>",
+        "bindControlsTag": [],
+        "bindControlsAttr": [],
+        "bindControlsVal": [],
+        "paramControlTag": [],
+        "paramControlAttr": [],
+        "symbol": "symbols/develop/uiotos/base/button.json",
+        "oldDynamicAttrs": [
+          {
+            "attr": "_bindEvents_0",
+            "valueType": "MultiComboBox",
+            "defaultValue": "*",
+            "group": "bindEvents",
+            "description": "连线索引[0]的触发事件过滤器，默认全部通过",
+            "dynamicCreate": true
+          },
+          {
+            "attr": "_bindEvents_1",
+            "valueType": "MultiComboBox",
+            "defaultValue": "*",
+            "group": "bindEvents",
+            "description": "连线索引[1]的触发事件过滤器，默认全部通过",
+            "dynamicCreate": true
+          }
+        ],
+        "paramBindEvent": [],
+        "paramsGenerator": "function paramsGenerator(data, val, index, node, oldVal, form) {\r\n    //绑定组索引对应的函数处理，用来动态生成复杂的参数变量传入\r\n    switch (index) {\r\n        case 0:\r\n            break;\r\n        case 1:\r\n            break;\r\n        case 2:\r\n            break;\r\n        default:\r\n            break;\r\n    }\r\n    return val;\r\n}"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 297103,
+      "p": {
+        "name": "input",
+        "displayName": "input（input1）",
+        "toolTip": "<p style='color:rgb(242,83,75);margin-top:5px;margin-bottom:5px;font-weight:bold;line-height:1.5em;'>已被布局，不允许拖动</p>",
+        "tag": "input1",
+        "dataBindings": {
+          "a": {
+            "value": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "instantTrigger": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "initialTrigger": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "onChange": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "onClear": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "onEnter": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "readOnly": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            }
+          }
+        },
+        "image": "symbols/develop/uiotos/base/input-ui.json",
+        "host": {
+          "__i": 297099
+        },
+        "position": {
+          "x": -5,
+          "y": 19.11451
+        },
+        "width": 292.52033,
+        "height": 35
+      },
+      "s": {
+        "interactive": true,
+        "label": "",
+        "label.position": 14,
+        "label.offset.x": -10,
+        "label.offset.y": 0,
+        "label.color": "rgb(255,255,255)",
+        "label.opacity": 0,
+        "2d.movable": false,
+        "layout.h": "leftright",
+        "layout.v": "scale"
+      },
+      "a": {
+        "background": "rgba(226,250,87,0)",
+        "borderWidth": 1,
+        "borderColor": "rgba(51,153,255,0.5)",
+        "radius": 0,
+        "placeholderText": "密码",
+        "color": "rgb(255,255,255)",
+        "bindEvents": [
+          "*",
+          "onChange",
+          "onClear",
+          "onEnter"
+        ],
+        "value": "",
+        "iconPath": "symbols/demo/uiotos/icons/light/search.json",
+        "gap": 0,
+        "labelText": "",
+        "placeholder": "重新输入密码",
+        "toolTipRaw": "<p style='color:rgb(242,83,75);margin:0px;font-weight:bold'>已被布局，不允许拖动<p>"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 297104,
+      "p": {
+        "name": "input",
+        "displayName": "input（input2）",
+        "toolTip": "<p style='color:rgb(242,83,75);margin-top:5px;margin-bottom:5px;font-weight:bold;line-height:1.5em;'>已被布局，不允许拖动</p>",
+        "tag": "input2",
+        "dataBindings": {
+          "a": {
+            "value": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "instantTrigger": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "initialTrigger": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "onChange": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "onClear": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "onEnter": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "readOnly": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            }
+          }
+        },
+        "image": "symbols/develop/uiotos/base/input-ui.json",
+        "host": {
+          "__i": 297099
+        },
+        "position": {
+          "x": -5,
+          "y": -38.65438
+        },
+        "width": 292.52033,
+        "height": 35
+      },
+      "s": {
+        "interactive": true,
+        "label": "",
+        "label.position": 14,
+        "label.offset.x": -10,
+        "label.offset.y": 0,
+        "label.color": "rgb(255,255,255)",
+        "label.opacity": 0,
+        "2d.movable": false,
+        "layout.h": "leftright",
+        "layout.v": "scale"
+      },
+      "a": {
+        "background": "rgba(226,250,87,0)",
+        "borderWidth": 1,
+        "borderColor": "rgba(51,153,255,0.5)",
+        "radius": 0,
+        "placeholderText": "邮箱",
+        "color": "rgb(255,255,255)",
+        "bindEvents": [
+          "*",
+          "onChange",
+          "onClear",
+          "onEnter"
+        ],
+        "value": "",
+        "iconPath": "symbols/demo/uiotos/icons/light/search.json",
+        "gap": 0,
+        "labelText": "",
+        "placeholder": "设置密码",
+        "toolTipRaw": "<p style='color:rgb(242,83,75);margin:0px;font-weight:bold'>已被布局，不允许拖动<p>"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 297105,
+      "p": {
+        "name": "input",
+        "displayName": "input（input3）",
+        "toolTip": "<p style='color:rgb(242,83,75);margin-top:5px;margin-bottom:5px;font-weight:bold;line-height:1.5em;'>已被布局，不允许拖动</p>",
+        "tag": "input3",
+        "dataBindings": {
+          "a": {
+            "value": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "instantTrigger": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "initialTrigger": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "onChange": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "onClear": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "onEnter": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            },
+            "readOnly": {
+              "id": "iotos.form",
+              "idinfo": "",
+              "isTplBinded": false,
+              "func": "function formParser(rawData, node) {\r\n    try {\r\n        /********* TODO **********/\r\n\r\n\r\n        /************************/\r\n        return rawData;\r\n    } catch (err) {\r\n        return rawData;\r\n    }\r\n}"
+            }
+          }
+        },
+        "image": "symbols/develop/uiotos/base/input-ui.json",
+        "host": {
+          "__i": 297099
+        },
+        "position": {
+          "x": -5,
+          "y": -96.42328
+        },
+        "width": 292.52033,
+        "height": 35
+      },
+      "s": {
+        "interactive": true,
+        "label": "",
+        "label.position": 14,
+        "label.offset.x": -10,
+        "label.offset.y": 0,
+        "label.color": "rgb(255,255,255)",
+        "label.opacity": 0,
+        "2d.movable": false,
+        "layout.h": "leftright",
+        "layout.v": "scale"
+      },
+      "a": {
+        "background": "rgba(226,250,87,0)",
+        "borderWidth": 1,
+        "borderColor": "rgba(51,153,255,0.5)",
+        "radius": 0,
+        "placeholderText": "用户名",
+        "color": "rgb(255,255,255)",
+        "bindEvents": [
+          "*",
+          "onChange",
+          "onClear",
+          "onEnter"
+        ],
+        "value": "",
+        "iconPath": "symbols/demo/uiotos/icons/light/search.json",
+        "gap": 0,
+        "labelText": "",
+        "placeholder": "设置用户名",
+        "toolTipRaw": "<p style='color:rgb(242,83,75);margin:0px;font-weight:bold'>已被布局，不允许拖动<p>"
+      }
+    }
+  ]
+}

@@ -1,0 +1,244 @@
+{
+  "modified": "Mon Oct 16 2023 10:16:48 GMT+0800 (中国标准时间)",
+  "background": "rgb(32,37,46)",
+  "dataBindings": [
+    {
+      "attr": "symbol",
+      "valueType": "Image"
+    },
+    {
+      "attr": "name",
+      "valueType": "String",
+      "name": "UIFormItemName",
+      "group": "功能（关键）"
+    },
+    {
+      "attr": "value",
+      "valueType": "String",
+      "name": "UIFormItemValue",
+      "defaultValue": ""
+    },
+    {
+      "attr": "placeholder",
+      "valueType": "String",
+      "name": "UIPlaceHolder"
+    },
+    {
+      "attr": "ht.disabled",
+      "valueType": "Boolean",
+      "defaultValue": false,
+      "name": "UIDisabled"
+    },
+    {
+      "attr": "ht.format",
+      "valueType": "String",
+      "defaultValue": "YYYY-MM-DD HH:mm:ss",
+      "name": "UIFormat"
+    },
+    {
+      "attr": "ht.dateType",
+      "valueType": "String",
+      "defaultValue": "datetime",
+      "name": "UIDateType",
+      "extraInfo": {
+        "enum": {
+          "values": [
+            "date",
+            "datetime",
+            "month",
+            "year",
+            "time"
+          ]
+        }
+      }
+    },
+    {
+      "attr": "textColor",
+      "valueType": "Color",
+      "name": "UITextColor"
+    },
+    {
+      "attr": "ht.font",
+      "valueType": "Font",
+      "name": "UIFont"
+    },
+    {
+      "attr": "ht.padding",
+      "valueType": "String",
+      "name": "UIPadding"
+    },
+    {
+      "attr": "ht.borderRadius",
+      "valueType": "String",
+      "name": "UIBorderRadius"
+    },
+    {
+      "attr": "ht.borderColor",
+      "valueType": "Color",
+      "name": "UIBorderColor"
+    },
+    {
+      "attr": "ht.focusBorderColor",
+      "valueType": "Color",
+      "name": "UIFocusBorderColor"
+    },
+    {
+      "attr": "ht.borderWidth",
+      "valueType": "PositiveNumber",
+      "name": "UIBorderWidth"
+    },
+    {
+      "attr": "ht.background",
+      "valueType": "Color",
+      "name": "UIBackground"
+    },
+    {
+      "attr": "ht.focusBackground",
+      "valueType": "Color",
+      "name": "UIFocusBackground"
+    },
+    {
+      "attr": "ht.selectableFunc",
+      "valueType": "Function",
+      "name": "可选过滤",
+      "extraInfo": {
+        "arguments": [
+          "date"
+        ]
+      }
+    },
+    {
+      "attr": "ht.dropDownProperty",
+      "valueType": "Object",
+      "name": "下拉参数"
+    },
+    {
+      "attr": "bindControlsTag",
+      "valueType": "StringArray",
+      "group": "bindControls"
+    },
+    {
+      "attr": "bindControlsAttr",
+      "valueType": "StringArray"
+    },
+    {
+      "attr": "bindControlsVal",
+      "valueType": "ObjectArray",
+      "description": "静态值。也用作数组索引、JSON对象解析提取值用途。\n<br>一、静态值用途：\n<br>对常规类型的属性赋值且没有反向关联属性值，传入为数值时，不\n<br>会作为数组的索引，而会当成常量值对外赋值。此外，存在特殊值：\n<br>~和undefined表示过滤、不触发；null为默认值，表示传递默认表\n<br>单数据。编辑状态下清空后保存与设置null等价。\n<br>二、数组索引用途\n<br>情况1：被操作的组件属性原先值是数组时（包括空数组），会将\n<br>待输出的值作为被操作数组指定索引的值来传入，而不是整体覆盖。\n<br>情况2：如果要被操作的组件属性原先值不是数组，而且待输出的\n<br>值为数组类型并且长度也在索引范围内，那么会按照索引取自身数\n<br>组指定元素再对外输出。（如果想要取待输出索引值，赋值给被操\n<br>纵属性的指定索引，那么需要中间组件属性连线过渡以下，无法直\n<br>接操作）\n<br>情况3：如果要被操作的组件属性是数组，而且待输出的值也是数组\n<br>类型，此时当情况1来处理。\n<br>三、数据解析用途：\n<br>待输出的值为JSON对象时，用x.y.z这种以字符.或者>为间隔的方式\n<br>实现对JSON字段层次逐层定位，当是数组时x.0.y.1这种以数字的方\n<br>式来指定数组的某个索引。以此实现对任意结果JSON对象字段的定\n<br>位，获取结构内指定字段对应的值。"
+    },
+    {
+      "attr": "paramControlTag",
+      "valueType": "StringArray"
+    },
+    {
+      "attr": "paramControlAttr",
+      "valueType": "StringArray"
+    },
+    {
+      "attr": "paramsGenerator",
+      "valueType": "Function",
+      "defaultValue": "__ht__function(data, val, index, node,oldVal,form,type,inner) {//绑定组索引对应的函数处理，用来动态生成复杂的参数变量传入\r\nswitch(index){\r\n    case 0:\r\n        break;\r\n    case 1:\r\n        break;\r\n    case 2:\r\n        break;\r\n    default:\r\n        break;\r\n}\r\n\r\nreturn val;}",
+      "extraInfo": {
+        "arguments": [
+          "data",
+          "val",
+          "index",
+          "node",
+          "oldVal",
+          "form",
+          "type",
+          "inner"
+        ]
+      }
+    },
+    {
+      "attr": "onChange",
+      "valueType": "Function",
+      "extraInfo": {
+        "arguments": [
+          "data",
+          "gv",
+          "cache",
+          "value",
+          "extra"
+        ]
+      },
+      "defaultValue": "__ht__function(data, gv, cache, value, extra) {i.formEventBubblingUpper(\r\n    data,\r\n    gv,\r\n    null,\r\n    'onChange',\r\n    {\r\n        'a:value':value\r\n    }\r\n);}"
+    },
+    {
+      "attr": "userData",
+      "valueType": "ObjectArray"
+    }
+  ],
+  "snapshotURL": "icon.base.time",
+  "renderHTML": "__ht__function(data, gv, cache) {if(!cache.init){\r\n    cache.init = true;\r\n    i.setAttrsFormBinded(data, ['value', 'onChange']);\r\n}}",
+  "width": 200,
+  "height": 35,
+  "fitSize": true,
+  "interactive": true,
+  "disableSelectedBorder": true,
+  "pixelPerfect": false,
+  "attachStyle": "close",
+  "comps": [
+    {
+      "type": "components/develop/uiotos/base/comboBox.json",
+      "displayName": "comboBox",
+      "rect": [
+        0,
+        0,
+        200,
+        35
+      ],
+      "onDown": "__ht__function(event, data, view, point, width, height) {\nht.vector.dateTimePickerInteractor.onDown.apply(this, arguments);\n}",
+      "onUp": "__ht__function(event, data, view, point, width, height) {\nht.vector.dateTimePickerInteractor.onUp.apply(this, arguments);\n}",
+      "onEnter": "__ht__function(event, data, view, point, width, height) {\nht.vector.dateTimePickerInteractor.onEnter.apply(this, arguments);\n}",
+      "onLeave": "__ht__function(event, data, view, point, width, height) {\nht.vector.dateTimePickerInteractor.onLeave.apply(this, arguments);\n}",
+      "value": {
+        "func": "attr@value",
+        "value": "请选择"
+      },
+      "placeholder": {
+        "func": "attr@placeholder",
+        "value": "请选择"
+      },
+      "borderWidth": {
+        "func": "attr@ht.borderWidth",
+        "value": 1
+      },
+      "borderColor": {
+        "func": "attr@ht.borderColor",
+        "value": "rgb(213,213,213)"
+      },
+      "focusBorderColor": {
+        "func": "attr@ht.focusBorderColor",
+        "value": "rgb(55,125,255)"
+      },
+      "borderRadius": {
+        "func": "attr@ht.borderRadius",
+        "value": "3"
+      },
+      "padding": {
+        "func": "attr@ht.padding",
+        "value": "8"
+      },
+      "background": {
+        "func": "attr@ht.background",
+        "value": "rgb(255,255,255)"
+      },
+      "font": {
+        "func": "attr@ht.font",
+        "value": "12px arial, sans-serif"
+      },
+      "textColor": {
+        "func": "attr@textColor",
+        "value": "rgb(124,145,155)"
+      },
+      "dropDownIcon": "ht.vector.date",
+      "dropDownIconColor": "rgb(150,150,150)",
+      "drawUnMatchValue": true,
+      "onChange": {
+        "func": "attr@onChange"
+      }
+    }
+  ]
+}

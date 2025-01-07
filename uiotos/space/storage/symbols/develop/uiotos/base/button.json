@@ -1,0 +1,322 @@
+{
+  "modified": "Sat Aug 24 2024 10:40:19 GMT+0800 (中国标准时间)",
+  "dataBindings": [
+    {
+      "attr": "symbol",
+      "valueType": "Image"
+    },
+    {
+      "attr": "ht.disabled",
+      "valueType": "Boolean",
+      "name": "禁用",
+      "defaultValue": false,
+      "description": "禁用。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#qa1D8\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+      "group": "功能",
+      "extraInfo": "★"
+    },
+    {
+      "attr": "bindTabview",
+      "valueType": "StringArray",
+      "defaultValue": [
+        "tab1",
+        "0"
+      ],
+      "description": "指定关联Tab页签索引。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#KU5sZ\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+      "extraInfo": "★"
+    },
+    {
+      "attr": "userData",
+      "valueType": "Object",
+      "defaultValue": []
+    },
+    {
+      "attr": "onFormClick",
+      "valueType": "Function",
+      "extraInfo": {
+        "arguments": [
+          "data",
+          "gv",
+          "cache",
+          "value",
+          "extra"
+        ]
+      },
+      "description": "当点击时对外触发。"
+    },
+    {
+      "attr": "clicked",
+      "valueType": "Function",
+      "extraInfo": {
+        "arguments": [
+          "event",
+          "data",
+          "view"
+        ],
+        "classify": "*"
+      },
+      "defaultValue": "__ht__function(event, data, view) {setBindTabviewIndex(data,data.ca('bindTabview'));\r\ni.formEventBubblingUpper(\r\n    data,\r\n    view,\r\n    null,\r\n    'onFormClick',\r\n    null,\r\n    false\r\n);}",
+      "description": "鼠标点击时触发。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#KU5sZ\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>"
+    },
+    {
+      "attr": "fixedHeight",
+      "valueType": "PositiveNumber",
+      "group": "外观"
+    },
+    {
+      "attr": "ht.text",
+      "valueType": "Multiline",
+      "defaultValue": "按钮",
+      "description": "按钮上的显示文字。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#pYHyV\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>"
+    },
+    {
+      "attr": "ht.font",
+      "valueType": "Font",
+      "name": "字体",
+      "description": "字体。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#xWX1e\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>"
+    },
+    {
+      "attr": "ht.textColor",
+      "valueType": "ColorArray",
+      "defaultValue": [
+        "rgb(255,255,255)",
+        "rgb(255,255,255)",
+        "rgb(255,255,255)",
+        "rgb(127,127,127)"
+      ],
+      "description": "文本颜色。\n<br>索引0、1、2、3分别对应默认、\n<br>悬停/按下/禁用时文字颜色。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#OrIaC\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>"
+    },
+    {
+      "attr": "ht.borderWidth",
+      "valueType": "PositiveNumber",
+      "defaultValue": 1,
+      "name": "边框宽度",
+      "description": "边框宽度。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#qKwAO\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>"
+    },
+    {
+      "attr": "ht.borderRadius",
+      "valueType": "Number",
+      "name": "边框圆角",
+      "defaultValue": 3,
+      "description": "圆角半径。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#qKwAO\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>"
+    },
+    {
+      "attr": "ht.borderColor",
+      "valueType": "ColorArray",
+      "defaultValue": [
+        "rgb(255,255,255)",
+        "rgb(255,255,255)",
+        "rgb(255,255,255)",
+        "rgb(200,200,200)"
+      ],
+      "name": "边框颜色",
+      "description": "边框颜色。\n<br>索引0、1、2、3分别对应默认、悬停、\n<br>按下、禁用时边框颜色。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#c9qog\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>"
+    },
+    {
+      "attr": "background",
+      "valueType": "ColorArray",
+      "defaultValue": [
+        "rgb(55,125,255)",
+        "rgba(55,125,255,0.9)",
+        "rgba(55,125,255,0.8)",
+        "rgb(200,200,200)"
+      ],
+      "description": "背景颜色。\n<br>索引与背景色对应如下：\n<br>0：默认背景色\n<br>1：悬停/划过背景色\n<br>2：按下背景色\n<br>3：禁用背景色。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#D0Nw8\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>"
+    },
+    {
+      "attr": "darkStyle",
+      "valueType": "Boolean",
+      "defaultValue": true,
+      "description": "深色风格。"
+    },
+    {
+      "attr": "iconPath",
+      "valueType": "Image",
+      "description": "图标路径。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#ZZUHF\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+      "name": "图标路径",
+      "extraInfo": "*"
+    },
+    {
+      "attr": "ht.iconPosition",
+      "valueType": "Orientation",
+      "name": "图标位置",
+      "description": "图标位置。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#mo7nq\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+      "extraInfo": "*"
+    },
+    {
+      "attr": "iconSize",
+      "valueType": "NumberArray",
+      "defaultValue": [
+        20,
+        20
+      ],
+      "name": "图标尺寸",
+      "description": "图标尺寸。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#VwPX7\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+      "extraInfo": "*"
+    },
+    {
+      "attr": "iconGap",
+      "valueType": "PositiveNumber",
+      "defaultValue": 5,
+      "description": "图标与文字间隙。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#fWm2z\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+      "extraInfo": "*"
+    },
+    {
+      "attr": "icon-background",
+      "valueType": "Color",
+      "defaultValue": "rgb(255,255,255)",
+      "name": "图标背景",
+      "description": "图标背景色。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#FgPJe\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+      "extraInfo": "*"
+    },
+    {
+      "attr": "bindControlsTag",
+      "valueType": "ObjectArray",
+      "defaultValue": [],
+      "group": "连线"
+    },
+    {
+      "attr": "bindControlsAttr",
+      "valueType": "ObjectArray",
+      "defaultValue": []
+    },
+    {
+      "attr": "bindControlsVal",
+      "valueType": "ObjectArray",
+      "defaultValue": [],
+      "description": ""
+    },
+    {
+      "attr": "paramControlTag",
+      "valueType": "ObjectArray"
+    },
+    {
+      "attr": "paramControlAttr",
+      "valueType": "ObjectArray"
+    },
+    {
+      "attr": "paramsGenerator",
+      "valueType": "Function",
+      "defaultValue": "__ht__function(data, val, index, node,oldVal,form) {//绑定组索引对应的函数处理，用来动态生成复杂的参数变量传入\r\nswitch(index){\r\n    case 0:\r\n        break;\r\n    case 1:\r\n        break;\r\n    case 2:\r\n        break;\r\n    default:\r\n        break;\r\n}\r\n\r\nreturn val;}",
+      "extraInfo": {
+        "arguments": [
+          "data",
+          "val",
+          "index",
+          "node",
+          "oldVal",
+          "form",
+          "type"
+        ]
+      }
+    }
+  ],
+  "snapshotURL": "symbols/develop/uiotos/arranged/controls/forms_icon/普通按钮.json",
+  "renderHTML": "__ht__function(data, gv, cache) {return __button(data,gv,cache);}",
+  "width": 80,
+  "height": 42,
+  "boundExtend": 2,
+  "fitSize": true,
+  "interactive": true,
+  "pixelPerfect": false,
+  "attachStyle": "close",
+  "comps": [
+    {
+      "type": "components/develop/uiotos/base/button.json",
+      "displayName": "button（button1）",
+      "rect": [
+        0,
+        0,
+        80,
+        42
+      ],
+      "onDown": "__ht__function(event, data, view, point, width, height) {\nht.vector.buttonInteractor.onDown.apply(this, arguments);\n}",
+      "onUp": "__ht__function(event, data, view, point, width, height) {\nht.vector.buttonInteractor.onUp.apply(this, arguments);\n}",
+      "onEnter": "__ht__function(event, data, view, point, width, height) {\nht.vector.buttonInteractor.onEnter.apply(this, arguments);\n}",
+      "onLeave": "__ht__function(event, data, view, point, width, height) {\nht.vector.buttonInteractor.onLeave.apply(this, arguments);\n}",
+      "text": {
+        "func": "attr@ht.text",
+        "value": "BUTTON"
+      },
+      "disabled": {
+        "func": "attr@ht.disabled",
+        "value": false
+      },
+      "font": {
+        "func": "attr@ht.font",
+        "value": "12px arial, sans-serif"
+      },
+      "icon": {
+        "func": "attr@iconPath"
+      },
+      "iconPosition": {
+        "func": "attr@ht.iconPosition",
+        "value": "left"
+      },
+      "iconWidth": {
+        "func": "__ht__function(data, view) {\nlet wtmp = data.ca('ht.iconWidth'),\r\n    stmp = data.ca('iconSize');\r\nreturn wtmp ? wtmp : (stmp && stmp[0] ? stmp[0] : 20);\n}",
+        "value": 20
+      },
+      "iconHeight": {
+        "func": "__ht__function(data, view) {\nlet wtmp = data.ca('ht.iconHeight'),\r\nstmp = data.ca('iconSize');\r\nreturn wtmp ? wtmp : (stmp && stmp[1] ? stmp[1] : 20);\n}",
+        "value": 20
+      },
+      "iconGap": {
+        "func": "attr@iconGap",
+        "value": 5
+      },
+      "textColor": {
+        "func": "__ht__function(data, view) {\nlet color = data.ca('ht.textColor')\r\nif(!color) color = [];\r\nelse if(!isArrayFn(color)) color = [color];\r\nreturn color[0];\n}",
+        "value": "rgb(255,255,255)"
+      },
+      "hoverTextColor": {
+        "func": "__ht__function(data, view) {\nlet color = data.ca('ht.textColor')\r\nif(!color) color = [];\r\nelse if(!isArrayFn(color)) color = [color];\r\nreturn color[1];\n}"
+      },
+      "activeTextColor": {
+        "func": "__ht__function(data, view) {\nlet color = data.ca('ht.textColor')\r\nif(!color) color = [];\r\nelse if(!isArrayFn(color)) color = [color];\r\nreturn color[2];\n}"
+      },
+      "disabledTextColor": {
+        "func": "__ht__function(data, view) {\nlet color = data.ca('ht.textColor')\r\nif(!color) color = [];\r\nelse if(!isArrayFn(color)) color = [color];\r\nreturn color[3];\n}",
+        "value": "#ebebeb"
+      },
+      "borderWidth": {
+        "func": "attr@ht.borderWidth",
+        "value": 0
+      },
+      "borderColor": {
+        "func": "__ht__function(data, view) {\nlet color = data.ca('ht.borderColor')\r\nif(!color) color = [];\r\nelse if(!isArrayFn(color)) color = [color];\r\nreturn color[0];\n}",
+        "value": null
+      },
+      "hoverBorderColor": {
+        "func": "__ht__function(data, view) {\nlet color = data.ca('ht.borderColor')\r\nif(!color) color = [];\r\nelse if(!isArrayFn(color)) color = [color];\r\nreturn color[1];\n}"
+      },
+      "activeBorderColor": {
+        "func": "__ht__function(data, view) {\nlet color = data.ca('ht.borderColor')\r\nif(!color) color = [];\r\nelse if(!isArrayFn(color)) color = [color];\r\nreturn color[2];\n}"
+      },
+      "disabledBorderColor": {
+        "func": "__ht__function(data, view) {\nlet color = data.ca('ht.borderColor')\r\nif(!color) color = [];\r\nelse if(!isArrayFn(color)) color = [color];\r\nreturn color[3];\n}",
+        "value": "rgba(235,235,235,0)"
+      },
+      "background": {
+        "func": "__ht__function(data, view) {\nlet bkg = data.ca('ht.background'),\r\n    bkgs = data.ca('background');\r\n    ret = bkg ? bkg : bkgs && bkgs[0];\r\n//240804，null，undefined设置无效，会显示默认蓝色！\r\nreturn ret ? ret : 'rgba(0,0,0,0)'\n}",
+        "value": "rgb(55,125,255)"
+      },
+      "hoverBackground": {
+        "func": "__ht__function(data, view) {\nlet bkg = data.ca('ht.hoverBackground'),\r\n    bkgs = data.ca('background');\r\nreturn bkg ? bkg : bkgs && bkgs[1];\n}"
+      },
+      "activeBackground": {
+        "func": "__ht__function(data, view) {\nlet bkg = data.ca('ht.activeBackground'),\r\n    bkgs = data.ca('background');\r\nreturn bkg ? bkg : bkgs && bkgs[2];\n}"
+      },
+      "disabledBackground": {
+        "func": "__ht__function(data, view) {\nlet bkg = data.ca('ht.disabledBackground'),\r\n    bkgs = data.ca('background');\r\nreturn bkg ? bkg : bkgs && bkgs[3];\n}",
+        "value": "#fafafa"
+      },
+      "borderRadius": {
+        "func": "attr@ht.borderRadius",
+        "value": "0"
+      },
+      "handleClick": {
+        "func": "attr@clicked"
+      }
+    }
+  ]
+}

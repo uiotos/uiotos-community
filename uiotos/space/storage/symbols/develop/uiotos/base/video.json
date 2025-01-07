@@ -1,0 +1,29 @@
+{
+  "modified": "Thu Aug 15 2024 11:50:23 GMT+0800 (中国标准时间)",
+  "dataBindings": [
+    {
+      "attr": "symbol",
+      "valueType": "Image"
+    },
+    {
+      "attr": "videoURL",
+      "valueType": "URL",
+      "defaultValue": "assets/develop/uiotos/arranged/assets/音视频/示例.mp4",
+      "name": "视频地址",
+      "group": "功能",
+      "description": "视频文件URL播放地址。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/fbc4htdr4eowgxaq#Lh2De\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>"
+    },
+    {
+      "attr": "autoplay",
+      "valueType": "Boolean",
+      "name": "自动播放",
+      "description": "播放视频或暂停播放。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/fbc4htdr4eowgxaq#ERqat\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>"
+    }
+  ],
+  "snapshotURL": "symbols/develop/uiotos/arranged/controls/videos_icon/视频.json",
+  "renderHTML": "__ht__function(data, gv, cache) {return __video(data,gv,cache);}",
+  "width": 360,
+  "height": 220,
+  "pixelPerfect": false,
+  "comps": []
+}

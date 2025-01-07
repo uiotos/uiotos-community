@@ -1,0 +1,304 @@
+{
+  "modified": "Sun Aug 11 2024 23:24:45 GMT+0800 (中国标准时间)",
+  "dataBindings": [
+    {
+      "attr": "symbol",
+      "valueType": "Image"
+    },
+    {
+      "attr": "type",
+      "valueType": "InterfaceType",
+      "defaultValue": "http",
+      "description": "接口类型选项。\n<br>选择HTTP、MQTT或WebSocket。<a href='https://www.yuque.com/liuhuo-nc809/uiotos/hf6hq3949mqpg32u#wKQSX' style=\"color:rgb(96,172,252)\" target='_blank'>详情</a>",
+      "group": "功能",
+      "name": "接口类型"
+    },
+    {
+      "attr": "comment",
+      "valueType": "Multiline",
+      "defaultValue": "API数据接口",
+      "description": "接口名称和用途备注。<a href='https://www.yuque.com/liuhuo-nc809/uiotos/hf6hq3949mqpg32u#FBsQy' style=\"color:rgb(96,172,252)\" target='_blank'>详情</a>",
+      "name": "接口注释"
+    },
+    {
+      "attr": "url",
+      "valueType": "ObjectArray",
+      "description": "服务器接口请求地址URL。<a href='https://www.yuque.com/liuhuo-nc809/uiotos/hf6hq3949mqpg32u#dBRGh' style=\"color:rgb(96,172,252)\" target='_blank'>详情</a>"
+    },
+    {
+      "attr": "enableRepeat",
+      "valueType": "Boolean",
+      "defaultValue": false,
+      "description": "周期性执行接口请求。<a href='https://www.yuque.com/liuhuo-nc809/uiotos/hf6hq3949mqpg32u#RXg33' style=\"color:rgb(96,172,252)\" target='_blank'>详情</a>",
+      "name": "周期请求",
+      "extraInfo": "*"
+    },
+    {
+      "attr": "repeatInterval",
+      "valueType": "PositiveNumber",
+      "defaultValue": 1500,
+      "description": "周期请求的时间间隔。<a href='https://www.yuque.com/liuhuo-nc809/uiotos/hf6hq3949mqpg32u#KoBt3' style=\"color:rgb(96,172,252)\" target='_blank'>详情</a>",
+      "extraInfo": "*"
+    },
+    {
+      "attr": "callback",
+      "valueType": "Function",
+      "extraInfo": {
+        "arguments": [
+          "data",
+          "gv",
+          "cache",
+          "params",
+          "res",
+          "span"
+        ],
+        "classify": "*"
+      },
+      "description": "接口返回数据回调函数。<a href='https://www.yuque.com/liuhuo-nc809/uiotos/hf6hq3949mqpg32u#P97bV' style=\"color:rgb(96,172,252)\" target='_blank'>详情</a>"
+    },
+    {
+      "attr": "userData",
+      "valueType": "Object",
+      "defaultValue": []
+    },
+    {
+      "attr": "onReceived",
+      "valueType": "Function",
+      "extraInfo": {
+        "arguments": [
+          "data",
+          "gv",
+          "cache",
+          "value",
+          "extra"
+        ]
+      }
+    },
+    {
+      "attr": "start",
+      "valueType": "Boolean",
+      "defaultValue": false,
+      "group": "滚动 *",
+      "description": "开始。"
+    },
+    {
+      "attr": "defaultStart",
+      "valueType": "Boolean",
+      "defaultValue": false,
+      "description": "默认开始。"
+    },
+    {
+      "attr": "toCurrent",
+      "valueType": "Boolean",
+      "defaultValue": true,
+      "description": "当前。"
+    },
+    {
+      "attr": "timeFreq",
+      "valueType": "PositiveNumber",
+      "defaultValue": 3,
+      "description": "时间频率。"
+    },
+    {
+      "attr": "timeSpan",
+      "valueType": "PositiveNumber",
+      "defaultValue": 30,
+      "description": "时间跨度。"
+    },
+    {
+      "attr": "timeType",
+      "valueType": "TimeType",
+      "defaultValue": "s",
+      "description": "时间类型。"
+    },
+    {
+      "attr": "timeTo",
+      "valueType": "String"
+    },
+    {
+      "attr": "msCicleDelay",
+      "valueType": "PositiveNumber",
+      "defaultValue": 200,
+      "description": "毫秒周期延迟。"
+    },
+    {
+      "attr": "beforeRequest",
+      "valueType": "Function",
+      "extraInfo": {
+        "arguments": [
+          "data",
+          "gv",
+          "cache",
+          "period",
+          "index"
+        ]
+      }
+    },
+    {
+      "attr": "fakeDatas",
+      "valueType": "ObjectArray",
+      "defaultValue": [
+        9.35679,
+        6.10576,
+        8.26694,
+        6.5345,
+        1.50893,
+        5.0947,
+        0.5196,
+        6.24415,
+        6.71604,
+        1.53714,
+        6.01866,
+        0.38029,
+        9.06919,
+        7.44079,
+        5.33475,
+        8.5739,
+        5.52103,
+        8.58823,
+        6.24023,
+        8.45178,
+        7.14736,
+        1.10788,
+        8.21665,
+        3.28782
+      ],
+      "description": "模拟数据。"
+    },
+    {
+      "attr": "forceToStringSet",
+      "valueType": "Boolean",
+      "defaultValue": false
+    },
+    {
+      "attr": "fakeEnable",
+      "valueType": "Boolean",
+      "defaultValue": true,
+      "description": "启用飞行模式。"
+    },
+    {
+      "attr": "shadowBorder",
+      "valueType": "NumberArray",
+      "defaultValue": [
+        0,
+        0,
+        8
+      ],
+      "group": "外观"
+    },
+    {
+      "attr": "shadowColor",
+      "valueType": "Color",
+      "defaultValue": "rgba(55,125,255,0.50)"
+    },
+    {
+      "attr": "shadowEnabled",
+      "valueType": "Boolean",
+      "defaultValue": true
+    },
+    {
+      "attr": "enableErrDlg",
+      "valueType": "Boolean",
+      "defaultValue": false,
+      "description": "是否启用默认的错误弹窗。<a href='https://www.yuque.com/liuhuo-nc809/uiotos/hf6hq3949mqpg32u#ZaV16' style=\"color:rgb(96,172,252)\" target='_blank'>详情</a>",
+      "extraInfo": "*"
+    },
+    {
+      "attr": "resMsgField",
+      "valueType": "String",
+      "defaultValue": "message",
+      "description": "是否启用默认的错误弹窗。<a href='https://www.yuque.com/liuhuo-nc809/uiotos/hf6hq3949mqpg32u#eQjHz' style=\"color:rgb(96,172,252)\" target='_blank'>详情</a>",
+      "extraInfo": "*"
+    },
+    {
+      "attr": "echoAppend",
+      "valueType": "Boolean",
+      "defaultValue": true,
+      "description": "界面日志滚动显示不覆盖。<a href='https://www.yuque.com/liuhuo-nc809/uiotos/hf6hq3949mqpg32u#VKA7J' style=\"color:rgb(96,172,252)\" target='_blank'>详情</a>"
+    },
+    {
+      "attr": "echoClear",
+      "valueType": "Boolean",
+      "defaultValue": false,
+      "description": "清空界面回显的所有日志。<a href='https://www.yuque.com/liuhuo-nc809/uiotos/hf6hq3949mqpg32u#llbxO' style=\"color:rgb(96,172,252)\" target='_blank'>详情</a>"
+    },
+    {
+      "attr": "responseLog",
+      "valueType": "Boolean",
+      "defaultValue": false,
+      "description": "浏览器控制台输出接口日志。<a href='https://www.yuque.com/liuhuo-nc809/uiotos/hf6hq3949mqpg32u#BlMIs' style=\"color:rgb(96,172,252)\" target='_blank'>详情</a>"
+    },
+    {
+      "attr": "noAnim",
+      "valueType": "Boolean",
+      "defaultValue": true,
+      "extraInfo": "~"
+    },
+    {
+      "attr": "waitingHint",
+      "valueType": "String",
+      "description": "等待提示。",
+      "extraInfo": "~"
+    },
+    {
+      "attr": "waitingAnim",
+      "valueType": "NumberArray",
+      "defaultValue": [
+        0.75,
+        500
+      ],
+      "extraInfo": "~"
+    },
+    {
+      "attr": "animDuration",
+      "valueType": "PositiveNumber",
+      "defaultValue": 300,
+      "description": "动画时间。",
+      "extraInfo": "~"
+    },
+    {
+      "attr": "bindControlsTag",
+      "valueType": "StringArray",
+      "group": "连线"
+    },
+    {
+      "attr": "bindControlsAttr",
+      "valueType": "StringArray"
+    },
+    {
+      "attr": "bindControlsVal",
+      "valueType": "ObjectArray"
+    },
+    {
+      "attr": "paramControlTag",
+      "valueType": "StringArray"
+    },
+    {
+      "attr": "paramControlAttr",
+      "valueType": "StringArray"
+    },
+    {
+      "attr": "paramsGenerator",
+      "valueType": "Function",
+      "defaultValue": "__ht__function(data, val, index, node,oldVal,form) {//绑定组索引对应的函数处理，用来动态生成复杂的参数变量传入\r\nswitch(index){\r\n    case 0:\r\n        break;\r\n    case 1:\r\n        break;\r\n    case 2:\r\n        break;\r\n    default:\r\n        break;\r\n}\r\n\r\nreturn val;}",
+      "extraInfo": {
+        "arguments": [
+          "data",
+          "val",
+          "index",
+          "node",
+          "oldVal",
+          "form"
+        ],
+        "classify": "*"
+      }
+    }
+  ],
+  "snapshotURL": "symbols/develop/uiotos/arranged/controls/interfaces_icon/api.json",
+  "renderHTML": "__ht__function(data, gv, cache) {return __interface(data,gv,cache);}",
+  "width": 370,
+  "height": 550,
+  "fitSize": true,
+  "pixelPerfect": false,
+  "comps": []
+}

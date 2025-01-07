@@ -1,0 +1,170 @@
+{
+  "modified": "Fri Jun 07 2024 10:17:58 GMT+0800 (中国标准时间)",
+  "dataBindings": [
+    {
+      "attr": "symbol",
+      "valueType": "Image"
+    },
+    {
+      "attr": "toolTip",
+      "valueType": "Boolean",
+      "defaultValue": false,
+      "group": "功能",
+      "description": "是否启动鼠标提示。\n<br>勾选时鼠标放在上面会出现提示文字。"
+    },
+    {
+      "attr": "disabled",
+      "valueType": "Boolean",
+      "description": "是否禁用。\n<br>勾选后用户无法操作，相当于只读。",
+      "defaultValue": false
+    },
+    {
+      "attr": "selected",
+      "valueType": "Boolean",
+      "description": "第一个勾选框是否选中。对于只有一个勾选框的情况下，获取和设置值更为简便。",
+      "defaultValue": true
+    },
+    {
+      "attr": "datas",
+      "valueType": "ObjectArray",
+      "defaultValue": [
+        "aaa",
+        "bbb",
+        "ccc"
+      ],
+      "description": "勾选框组的数据，可以是单纯的列表比如['张三','李四','王五']，\n即列表的每个元素就是字符串，对应勾选框的显示文字。\n列表每个元素也可以是带有text、id字段的json对象，比如\n[{\"text\":\"张三\",\"id\":124},{\"text\":\"李四\",\"id\":53}]。text字段对应显示\n文字，id字段对应数据ID。勾选时，分别生成textValues、\nidsValues。\n注意，除了text、id字段组合，也支持name、value字段组合，\n此时将name当做text字段，value当做id字段来处理。",
+      "group": "数据"
+    },
+    {
+      "attr": "indexValues",
+      "valueType": "ObjectArray",
+      "defaultValue": [
+        false,
+        false,
+        false
+      ],
+      "description": "勾选项对应的索引序号。"
+    },
+    {
+      "attr": "idValues",
+      "valueType": "StringArray",
+      "description": "名称对应的数据ID，通常由数据库查询返回。与indexValues、textValues用途类似，都是用来\n记录勾选的项，只是idValues记录的是数据ID（通常对应数据库中的主键），而另两个分别是\n显示的索引序号和显示的文字。\n",
+      "defaultValue": []
+    },
+    {
+      "attr": "textValues",
+      "valueType": "StringArray",
+      "description": "勾选项对应的文本。"
+    },
+    {
+      "attr": "gapLabel",
+      "valueType": "PositiveNumber",
+      "defaultValue": 10,
+      "description": "标签与组件之间的间隙。",
+      "group": "外观"
+    },
+    {
+      "attr": "gapItem",
+      "valueType": "PositiveNumber",
+      "defaultValue": "5",
+      "description": "勾选框之间的间隙。"
+    },
+    {
+      "attr": "labelText",
+      "valueType": "String",
+      "defaultValue": "请勾选",
+      "description": "标签文本。"
+    },
+    {
+      "attr": "labelFont",
+      "valueType": "Font",
+      "description": "标签字体。"
+    },
+    {
+      "attr": "labelColor",
+      "valueType": "Color",
+      "defaultValue": "rgb(0,0,0)",
+      "description": "标签颜色。"
+    },
+    {
+      "attr": "checkboxFont",
+      "valueType": "Font",
+      "description": "勾选框字体。"
+    },
+    {
+      "attr": "checkboxColor",
+      "valueType": "Color",
+      "defaultValue": "rgb(124,145,155)",
+      "description": "勾选框颜色"
+    },
+    {
+      "attr": "layoutType",
+      "valueType": "Level",
+      "defaultValue": 0,
+      "description": "布局类型。"
+    },
+    {
+      "attr": "labelEmbeded",
+      "valueType": "Boolean"
+    },
+    {
+      "attr": "onChange",
+      "valueType": "Function",
+      "extraInfo": {
+        "arguments": [
+          "data",
+          "gv",
+          "cache",
+          "param"
+        ]
+      },
+      "defaultValue": "__ht__function(data, gv, cache, param) {}",
+      "group": "事件"
+    },
+    {
+      "attr": "bindControlsTag",
+      "valueType": "StringArray",
+      "group": "连线"
+    },
+    {
+      "attr": "bindControlsAttr",
+      "valueType": "StringArray"
+    },
+    {
+      "attr": "bindControlsVal",
+      "valueType": "ObjectArray",
+      "description": "静态值。也用作数组索引、JSON对象解析提取值用途。\n<br>一、静态值用途：\n<br>对常规类型的属性赋值且没有反向关联属性值，传入为数值时，不\n<br>会作为数组的索引，而会当成常量值对外赋值。此外，存在特殊值：\n<br>~和undefined表示过滤、不触发；null为默认值，表示传递默认表\n<br>单数据。编辑状态下清空后保存与设置null等价。\n<br>二、数组索引用途\n<br>情况1：被操作的组件属性原先值是数组时（包括空数组），会将\n<br>待输出的值作为被操作数组指定索引的值来传入，而不是整体覆盖。\n<br>情况2：如果要被操作的组件属性原先值不是数组，而且待输出的\n<br>值为数组类型并且长度也在索引范围内，那么会按照索引取自身数\n<br>组指定元素再对外输出。（如果想要取待输出索引值，赋值给被操\n<br>纵属性的指定索引，那么需要中间组件属性连线过渡以下，无法直\n<br>接操作）\n<br>情况3：如果要被操作的组件属性是数组，而且待输出的值也是数组\n<br>类型，此时当情况1来处理。\n<br>三、数据解析用途：\n<br>待输出的值为JSON对象时，用x.y.z这种以字符.或者>为间隔的方式\n<br>实现对JSON字段层次逐层定位，当是数组时x.0.y.1这种以数字的方\n<br>式来指定数组的某个索引。以此实现对任意结果JSON对象字段的定\n<br>位，获取结构内指定字段对应的值。"
+    },
+    {
+      "attr": "paramControlTag",
+      "valueType": "StringArray"
+    },
+    {
+      "attr": "paramControlAttr",
+      "valueType": "StringArray"
+    },
+    {
+      "attr": "paramsGenerator",
+      "valueType": "Function",
+      "defaultValue": "__ht__function(data, val, index, node,oldVal,form) {//绑定组索引对应的函数处理，用来动态生成复杂的参数变量传入\r\nswitch(index){\r\n    case 0:\r\n        break;\r\n    case 1:\r\n        break;\r\n    case 2:\r\n        break;\r\n    default:\r\n        break;\r\n}\r\n\r\nreturn val;}",
+      "extraInfo": {
+        "arguments": [
+          "data",
+          "val",
+          "index",
+          "node",
+          "oldVal",
+          "form"
+        ]
+      }
+    }
+  ],
+  "snapshotURL": "symbols/develop/uiotos/arranged/controls/forms_icon/勾选框.json",
+  "renderHTML": "__ht__function(data, gv, cache) {return __checkBox_ui(data,gv,cache);}",
+  "width": 200,
+  "height": 35,
+  "scrollable": true,
+  "interactive": true,
+  "pixelPerfect": false,
+  "comps": []
+}

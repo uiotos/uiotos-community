@@ -1,0 +1,508 @@
+{
+  "modified": "Fri Jun 07 2024 11:09:23 GMT+0800 (中国标准时间)",
+  "dataBindings": [
+    {
+      "attr": "symbol",
+      "valueType": "Image",
+      "defaultValue": "symbols/develop/uiotos/arranged/controls/charts/饼图.json",
+      "description": "组件地址字符串"
+    },
+    {
+      "valueType": "PositiveNumber",
+      "group": "数据",
+      "attr": "sizeSet",
+      "defaultValue": 3,
+      "description": "设置当前饼状图中扇区的数量。支持动态增加或减少，\n相应的_pie_border_[索引]也会动态增加或减少，其中索引\n从0开始，最大值为sizeSet设定的值减去1。"
+    },
+    {
+      "attr": "names",
+      "valueType": "StringArray",
+      "description": "多个扇区分别对应的名称。"
+    },
+    {
+      "attr": "widths",
+      "valueType": "NumberArray",
+      "description": "各个扇区的边框线宽度。"
+    },
+    {
+      "attr": "values",
+      "valueType": "NumberArray",
+      "defaultValue": [],
+      "description": "各个扇区分别对应的数值，数组形式，比如[19,34,12,50]。"
+    },
+    {
+      "attr": "radius",
+      "valueType": "NumberArray",
+      "description": "各扇区半径"
+    },
+    {
+      "attr": "center",
+      "valueType": "NumberArray",
+      "description": "各扇区圆心"
+    },
+    {
+      "attr": "startAngle",
+      "valueType": "PositiveNumber",
+      "description": "起始角度"
+    },
+    {
+      "attr": "endAngle",
+      "valueType": "PositiveNumber",
+      "description": "结束角度"
+    },
+    {
+      "attr": "minAngle",
+      "valueType": "PositiveNumber",
+      "description": "最小扇区角度"
+    },
+    {
+      "attr": "hoverOffset",
+      "valueType": "PositiveNumber",
+      "description": "高亮扇区偏移距离"
+    },
+    {
+      "attr": "colors",
+      "valueType": "ColorArray",
+      "description": "数组中相应索引的颜色，对应相应索引扇区的背景颜色。",
+      "group": "外观"
+    },
+    {
+      "attr": "borderColors",
+      "valueType": "ColorArray",
+      "description": "数组中相应索引的颜色，对应相应索引扇区的边框颜色。注意，不是背景色。"
+    },
+    {
+      "attr": "roseType",
+      "valueType": "Boolean",
+      "description": "设置为南丁格尔图",
+      "defaultValue": true
+    },
+    {
+      "attr": "minRoseRadius",
+      "valueType": "PositiveNumber",
+      "description": "南丁格尔图最小半径"
+    },
+    {
+      "attr": "seriesName",
+      "valueType": "String",
+      "description": "系列名"
+    },
+    {
+      "attr": "avoidLabelOverlap",
+      "valueType": "Boolean",
+      "description": "标签防重叠"
+    },
+    {
+      "attr": "tooltip.show",
+      "valueType": "Boolean",
+      "description": "是否显示鼠标提示",
+      "group": "鼠标提示"
+    },
+    {
+      "attr": "tooltip.formatter",
+      "valueType": "String",
+      "name": "格式"
+    },
+    {
+      "attr": "tooltipFormat",
+      "valueType": "Function",
+      "extraInfo": {
+        "arguments": [
+          "label",
+          "datas",
+          "info",
+          "node",
+          "view"
+        ]
+      },
+      "defaultValue": "__ht__function(label, datas, info, node, view) {/*\r\n参数说明：\r\nlabel：提示标题文字，默认为x轴当前值\r\ndatas：按照曲线索引顺序，指定x轴值对应在y轴各曲线的当前值\r\ninfo/node/view：原始显示信息的对象、图元对象、视图对象\r\n返回格式为：\r\n[label,data0,data1,data2]。\r\n示例：\r\n['提示：' + label,datas[0] + '%',datas[1] + '℃',datas[2] + 'mmp']\r\n\r\n注意，返回数组的第一个为label标题文字，剩下的依次是按照索引的曲线值。\r\n*/\r\nreturn [label,...datas]}",
+      "description": "该属性暂不起作用！属于曲线图表的提示属性，仅用于当前饼状图的参考。\n\n参数说明：\nlabel：提示标题文字，默认为x轴当前值\ndatas：按照曲线索引顺序，指定x轴值对应在y轴各曲线的当前值\ninfo/node/view：原始显示信息的对象、图元对象、视图对象\n返回格式为：\n[label,data0,data1,data2]。\n\n| 注意，返回数组的第一个为label标题文字，剩下的依次是按照索引的曲线值。"
+    },
+    {
+      "attr": "label.normal.show",
+      "valueType": "Boolean",
+      "name": "是否显示",
+      "group": "文本-全局-正常态",
+      "defaultValue": false
+    },
+    {
+      "attr": "label.normal.position",
+      "valueType": "String",
+      "extraInfo": {
+        "enum": {
+          "values": [
+            "center",
+            "inside"
+          ]
+        }
+      },
+      "description": "位置",
+      "defaultValue": "inside"
+    },
+    {
+      "attr": "label.normal.formatter",
+      "valueType": "String",
+      "description": "格式"
+    },
+    {
+      "attr": "label.normal.color",
+      "valueType": "Color",
+      "description": "颜色"
+    },
+    {
+      "attr": "label.normal.font",
+      "valueType": "Font",
+      "description": "字体"
+    },
+    {
+      "attr": "label.emphasis.show",
+      "valueType": "Boolean",
+      "name": "是否显示",
+      "group": "文本-全局-高亮态"
+    },
+    {
+      "attr": "label.emphasis.position",
+      "valueType": "String",
+      "extraInfo": {
+        "enum": {
+          "values": [
+            "center",
+            "inside"
+          ]
+        }
+      },
+      "description": "位置",
+      "defaultValue": "inside"
+    },
+    {
+      "attr": "label.emphasis.formatter",
+      "valueType": "String",
+      "description": "格式"
+    },
+    {
+      "attr": "label.emphasis.color",
+      "valueType": "Color",
+      "description": "颜色"
+    },
+    {
+      "attr": "label.emphasis.font",
+      "valueType": "Font",
+      "description": "字体"
+    },
+    {
+      "attr": "labelLine.normal.show",
+      "valueType": "Boolean",
+      "group": "引导线-全局-正常态",
+      "description": "是否显示"
+    },
+    {
+      "attr": "labelLine.normal.length",
+      "valueType": "PositiveNumber",
+      "description": "第一段长度"
+    },
+    {
+      "attr": "labelLine.normal.length2",
+      "valueType": "PositiveNumber",
+      "description": "第二段长度"
+    },
+    {
+      "attr": "labelLine.normal.formatter",
+      "valueType": "String",
+      "description": "格式"
+    },
+    {
+      "attr": "labelLine.normal.width",
+      "valueType": "PositiveNumber",
+      "description": "线宽度"
+    },
+    {
+      "attr": "labelLine.normal.type",
+      "valueType": "测点",
+      "extraInfo": {
+        "enum": {
+          "values": [
+            "dashed",
+            "solid"
+          ]
+        }
+      },
+      "description": "线类型"
+    },
+    {
+      "attr": "labelLine.normal.font",
+      "valueType": "Font",
+      "description": "字体"
+    },
+    {
+      "attr": "labelLine.normal.lineColor",
+      "valueType": "Color",
+      "description": "线颜色"
+    },
+    {
+      "attr": "labelLine.normal.textColor",
+      "valueType": "Color",
+      "description": "文本颜色"
+    },
+    {
+      "attr": "labelLine.emphasis.show",
+      "valueType": "Boolean",
+      "group": "引导线-全局-高亮态",
+      "description": "是否显示"
+    },
+    {
+      "attr": "labelLine.emphasis.length",
+      "valueType": "PositiveNumber",
+      "description": "第一段长度"
+    },
+    {
+      "attr": "labelLine.emphasis.length2",
+      "valueType": "PositiveNumber",
+      "description": "第二段长度"
+    },
+    {
+      "attr": "labelLine.emphasis.formatter",
+      "valueType": "String",
+      "description": "格式"
+    },
+    {
+      "attr": "labelLine.emphasis.width",
+      "valueType": "PositiveNumber",
+      "description": "线宽度"
+    },
+    {
+      "attr": "labelLine.emphasis.type",
+      "valueType": "String",
+      "extraInfo": {
+        "enum": {
+          "values": [
+            "dashed",
+            "solid"
+          ]
+        }
+      },
+      "description": "线类型"
+    },
+    {
+      "attr": "labelLine.emphasis.font",
+      "valueType": "Font",
+      "description": "字体"
+    },
+    {
+      "attr": "labelLine.emphasis.lineColor",
+      "valueType": "Color",
+      "description": "线颜色"
+    },
+    {
+      "attr": "labelLine.emphasis.textColor",
+      "valueType": "Color",
+      "description": "文本颜色"
+    }
+  ],
+  "snapshotURL": "symbols/develop/uiotos/arranged/controls/charts_icon/饼图.json",
+  "renderHTML": "__ht__function(data, gv, cache) {return __pie(data,gv,cache);}",
+  "width": 100,
+  "height": 100,
+  "boundExtend": 10,
+  "fitSize": true,
+  "interactive": true,
+  "pixelPerfect": false,
+  "attachStyle": "close",
+  "comps": [
+    {
+      "type": "components/demo/canvas/chart/pie.json",
+      "displayName": "pie（pie1）",
+      "rect": [
+        0,
+        0,
+        100,
+        100
+      ],
+      "onUp": "__ht__function(event, data, view, point, width, height) {\nht.vector.pieInteractor.onUp.apply(this, arguments);\n}",
+      "onMove": "__ht__function(event, data, view, point, width, height) {\nht.vector.pieInteractor.onMove.apply(this, arguments);\n}",
+      "onLeave": "__ht__function(event, data, view, point, width, height) {\nht.vector.pieInteractor.onLeave.apply(this, arguments);\n}",
+      "dataSource": {
+        "func": "attr@dataSource",
+        "value": [
+          {
+            "name": "pie",
+            "value": 1
+          }
+        ]
+      },
+      "radius": {
+        "func": "attr@radius",
+        "value": [
+          0,
+          0.85
+        ]
+      },
+      "center": {
+        "func": "attr@center",
+        "value": [
+          0.5,
+          0.5
+        ]
+      },
+      "color": {
+        "func": "attr@colors",
+        "value": [
+          "rgb(51, 153, 255)",
+          "rgb(96, 172, 252)",
+          "rgb(49, 210, 235)",
+          "rgb(93, 217, 174)",
+          "rgb(125, 195, 125)",
+          "rgb(255, 235, 195)",
+          "rgb(226, 250, 87)",
+          "rgb(255, 184, 77)",
+          "rgb(255, 125, 125)",
+          "rgb(241, 125, 164)",
+          "rgb(204, 104, 166)",
+          "rgb(135, 144, 204)",
+          "rgb(145, 115, 205)",
+          "rgb(124, 145, 155)",
+          "rgb(48, 242, 120)",
+          "rgb(0, 199, 7)",
+          "rgb(242, 83, 75)",
+          "rgb(212, 0, 0)",
+          "rgb(240, 225, 19)",
+          "rgb(61, 61, 61)"
+        ]
+      },
+      "startAngle": {
+        "func": "attr@startAngle",
+        "value": 0
+      },
+      "endAngle": {
+        "func": "attr@endAngle",
+        "value": 360
+      },
+      "minAngle": {
+        "func": "attr@minAngle",
+        "value": 0
+      },
+      "gapAngle": {
+        "func": "attr@gapAngle",
+        "value": 0
+      },
+      "hoverOffset": {
+        "func": "attr@hoverOffset",
+        "value": 4
+      },
+      "minRoseRadius": {
+        "func": "attr@minRoseRadius",
+        "value": 0
+      },
+      "roseType": {
+        "func": "attr@roseType",
+        "value": "false"
+      },
+      "avoidLabelOverlap": {
+        "func": "attr@avoidLabelOverlap",
+        "value": false
+      },
+      "tooltip.show": {
+        "func": "attr@tooltip.show",
+        "value": {
+          "show": true,
+          "formatter": ""
+        }
+      },
+      "label.normal.show": {
+        "func": "attr@label.normal.show",
+        "value": true
+      },
+      "label.normal.position": {
+        "func": "attr@label.normal.position",
+        "value": "center"
+      },
+      "label.normal.color": {
+        "func": "attr@label.normal.color",
+        "value": null
+      },
+      "label.normal.font": {
+        "func": "attr@label.normal.font",
+        "value": "12px serif"
+      },
+      "label.emphasis.show": {
+        "func": "attr@label.emphasis.show",
+        "value": true
+      },
+      "label.emphasis.position": {
+        "func": "attr@label.emphasis.position",
+        "value": "center"
+      },
+      "label.emphasis.color": {
+        "func": "attr@label.emphasis.color",
+        "value": null
+      },
+      "label.emphasis.font": {
+        "func": "attr@label.emphasis.font",
+        "value": "13px serif"
+      },
+      "labelLine.normal.show": {
+        "func": "attr@labelLine.normal.show",
+        "value": true
+      },
+      "labelLine.normal.length": {
+        "func": "attr@labelLine.normal.length",
+        "value": 15
+      },
+      "labelLine.normal.length2": {
+        "func": "attr@labelLine.normal.length2",
+        "value": 10
+      },
+      "labelLine.normal.width": {
+        "func": "attr@labelLine.normal.width",
+        "value": 1
+      },
+      "labelLine.normal.type": {
+        "func": "attr@labelLine.normal.type",
+        "value": "dashed"
+      },
+      "labelLine.normal.font": {
+        "func": "attr@labelLine.normal.font",
+        "value": "12px serif"
+      },
+      "labelLine.normal.lineColor": {
+        "func": "attr@labelLine.normal.lineColor",
+        "value": null
+      },
+      "labelLine.normal.textColor": {
+        "func": "attr@labelLine.normal.textColor",
+        "value": null
+      },
+      "labelLine.emphasis.show": {
+        "func": "attr@labelLine.emphasis.show",
+        "value": true
+      },
+      "labelLine.emphasis.length": {
+        "func": "attr@labelLine.emphasis.length",
+        "value": 15
+      },
+      "labelLine.emphasis.length2": {
+        "func": "attr@labelLine.emphasis.length2",
+        "value": 10
+      },
+      "labelLine.emphasis.width": {
+        "func": "attr@labelLine.emphasis.width",
+        "value": 2
+      },
+      "labelLine.emphasis.type": {
+        "func": "attr@labelLine.emphasis.type",
+        "value": "dashed"
+      },
+      "labelLine.emphasis.font": {
+        "func": "attr@labelLine.emphasis.font",
+        "value": "13px serif"
+      },
+      "labelLine.emphasis.lineColor": {
+        "func": "attr@labelLine.emphasis.lineColor",
+        "value": null
+      },
+      "labelLine.emphasis.textColor": {
+        "func": "attr@labelLine.emphasis.textColor",
+        "value": null
+      }
+    }
+  ]
+}

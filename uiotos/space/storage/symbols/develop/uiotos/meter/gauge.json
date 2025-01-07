@@ -1,0 +1,104 @@
+{
+  "modified": "Wed Mar 29 2023 09:49:18 GMT+0800 (中国标准时间)",
+  "background": "rgb(32,37,46)",
+  "dataBindings": [
+    {
+      "attr": "ht.startAngle",
+      "valueType": "Angle",
+      "name": "ChartStartAngle"
+    },
+    {
+      "attr": "ht.endAngle",
+      "valueType": "Angle",
+      "name": "ChartEndAngle"
+    },
+    {
+      "attr": "ht.PoinertRadius",
+      "valueType": "PositiveNumber",
+      "name": "ChartPointerRadius"
+    },
+    {
+      "attr": "ht.pointerColor",
+      "valueType": "Color",
+      "name": "ChartPointerColor"
+    },
+    {
+      "attr": "ht.value",
+      "valueType": "Number",
+      "name": "ChartValue"
+    },
+    {
+      "attr": "ht.min",
+      "valueType": "Number",
+      "name": "ChartMinValue"
+    },
+    {
+      "attr": "ht.max",
+      "valueType": "Number",
+      "name": "ChartMaxValue"
+    },
+    {
+      "attr": "ht.clockwise",
+      "valueType": "Boolean",
+      "name": "ChartClockwise"
+    },
+    {
+      "attr": "ht.showLabel",
+      "valueType": "Boolean",
+      "name": "ChartShowLabel"
+    },
+    {
+      "attr": "ht.labelEvery",
+      "valueType": "PositiveNumber",
+      "name": "ChartLabelEvery"
+    },
+    {
+      "attr": "ht.labelColor",
+      "valueType": "Color",
+      "name": "ChartLabelColor"
+    },
+    {
+      "attr": "ht.showTick",
+      "valueType": "Boolean",
+      "name": "ChartShowTick"
+    },
+    {
+      "attr": "ht.tickEvery",
+      "valueType": "PositiveNumber",
+      "name": "ChartTickEvery"
+    },
+    {
+      "attr": "ht.tickColor",
+      "valueType": "Color",
+      "name": "ChartTickColor"
+    },
+    {
+      "attr": "ht.bigTickEvery",
+      "valueType": "PositiveNumber",
+      "name": "ChartBigTickEvery"
+    },
+    {
+      "attr": "ht.bigTickColor",
+      "valueType": "Color",
+      "name": "ChartBigTickColor"
+    }
+  ],
+  "cacheRule": true,
+  "width": 200,
+  "height": 200,
+  "fitSize": true,
+  "comps": [
+    {
+      "type": "components\\demo\\extra\\gauge\\gauge.json",
+      "shadowColor": "rgb(176,215,255)",
+      "shadowBlur": 15,
+      "displayName": "gauge",
+      "rect": [
+        0,
+        0,
+        200,
+        200
+      ]
+    }
+  ]
+}

@@ -1,0 +1,365 @@
+{
+  "modified": "Fri Aug 19 2022 08:28:14 GMT+0800 (中国标准时间)",
+  "background": "rgb(32,37,46)",
+  "dataBindings": [
+    {
+      "attr": "table.columns",
+      "valueType": "Object",
+      "name": "TableColumnDef",
+      "group": "表格"
+    },
+    {
+      "attr": "table.dataSource",
+      "valueType": "Object",
+      "name": "TableDataSource",
+      "group": "表格"
+    },
+    {
+      "attr": "table.head.background",
+      "valueType": "Color",
+      "name": "TableHeadBackground",
+      "group": "表格"
+    },
+    {
+      "attr": "table.body.background",
+      "valueType": "Color",
+      "name": "TableBodyBackground",
+      "group": "表格"
+    },
+    {
+      "attr": "table.border.width",
+      "valueType": "PositiveNumber",
+      "name": "TableBorderWidth",
+      "group": "表格"
+    },
+    {
+      "attr": "table.border.color",
+      "valueType": "Color",
+      "name": "TableBorderColor",
+      "group": "表格"
+    },
+    {
+      "attr": "table.column.line.color",
+      "valueType": "Color",
+      "name": "TableColumnLineColor",
+      "group": "表格"
+    },
+    {
+      "attr": "table.column.line.width",
+      "valueType": "PositiveNumber",
+      "name": "TableColumnLineWidth",
+      "group": "表格"
+    },
+    {
+      "attr": "table.row.line.color",
+      "valueType": "Color",
+      "name": "TableRowLineColor",
+      "group": "表格"
+    },
+    {
+      "attr": "table.row.line.width",
+      "valueType": "PositiveNumber",
+      "name": "TableRowLineWidth",
+      "group": "表格"
+    },
+    {
+      "attr": "table.head.font.size",
+      "valueType": "PositiveNumber",
+      "name": "TableHeadFontSize",
+      "group": "表格"
+    },
+    {
+      "attr": "table.body.font.size",
+      "valueType": "PositiveNumber",
+      "name": "TableBodyFontSize",
+      "group": "表格"
+    },
+    {
+      "attr": "table.head.height",
+      "valueType": "PositiveNumber",
+      "name": "TableHeadHeight",
+      "group": "表格"
+    },
+    {
+      "attr": "table.body.height",
+      "valueType": "PositiveNumber",
+      "name": "TableBodyHeight",
+      "group": "表格"
+    },
+    {
+      "attr": "table.head.color",
+      "valueType": "Color",
+      "name": "TableHeadColor",
+      "group": "表格"
+    },
+    {
+      "attr": "table.body.color",
+      "valueType": "Color",
+      "name": "TableBodyColor",
+      "group": "表格"
+    },
+    {
+      "attr": "table.cell.padding",
+      "valueType": "PositiveNumber",
+      "name": "TableCellPadding",
+      "group": "表格"
+    },
+    {
+      "attr": "table.head.font.family",
+      "valueType": "String",
+      "name": "TableHeadFontFamily",
+      "group": "表格"
+    },
+    {
+      "attr": "table.body.font.family",
+      "valueType": "String",
+      "name": "TableBodyFontFamily",
+      "group": "表格"
+    },
+    {
+      "attr": "table.rowPush",
+      "valueType": "Object",
+      "name": "TableRowPush",
+      "group": "表格"
+    }
+  ],
+  "width": 500,
+  "height": 510,
+  "fitSize": true,
+  "disableSelectedBorder": true,
+  "clip": true,
+  "comps": [
+    {
+      "type": "components/demo/table/table.json",
+      "displayName": "tableComp",
+      "rotation": 6.28319,
+      "rect": [
+        0,
+        0,
+        500,
+        510
+      ],
+      "columns": {
+        "func": "attr@table.columns",
+        "value": [
+          {
+            "displayName": " ",
+            "key": "distributionName",
+            "width": 120
+          },
+          {
+            "displayName": "配电柜1",
+            "align": "center",
+            "key": "dist1",
+            "width": 0.1
+          },
+          {
+            "displayName": "配电柜2",
+            "align": "center",
+            "key": "dist2",
+            "width": 0.1
+          },
+          {
+            "displayName": "配电柜3",
+            "align": "center",
+            "key": "dist3",
+            "width": 0.1
+          },
+          {
+            "displayName": "配电柜4",
+            "align": "center",
+            "key": "dist4",
+            "width": 0.1
+          }
+        ]
+      },
+      "dataSource": {
+        "func": "attr@table.dataSource",
+        "value": [
+          {
+            "distributionName": "A相电压",
+            "dist1": "380 V",
+            "dist2": "380 V",
+            "dist3": "380 V",
+            "dist4": "380 V"
+          },
+          {
+            "distributionName": "B相电压",
+            "dist1": "381 V",
+            "dist2": "381 V",
+            "dist3": "381 V",
+            "dist4": "381 V"
+          },
+          {
+            "distributionName": "C相电流",
+            "dist1": "382 V",
+            "dist2": "382 V",
+            "dist3": "382 V",
+            "dist4": "382 V"
+          },
+          {
+            "distributionName": "A相电压",
+            "dist1": "30.5 A",
+            "dist2": "30.5 A",
+            "dist3": "30.5 A",
+            "dist4": "30.5 A"
+          },
+          {
+            "distributionName": "B相电压",
+            "dist1": "30.8 A",
+            "dist2": "30.8 A",
+            "dist3": "30.8 A",
+            "dist4": "30.8 A"
+          },
+          {
+            "distributionName": "C相电压",
+            "dist1": "30.6A ",
+            "dist2": "30.6A ",
+            "dist3": "30.6A ",
+            "dist4": "30.6A "
+          },
+          {
+            "distributionName": "A相有功功率",
+            "dist1": "11.59 kW",
+            "dist2": "11.59 kW",
+            "dist3": "11.59 kW",
+            "dist4": "11.59 kW"
+          },
+          {
+            "distributionName": "B相有功功率",
+            "dist1": "11.59 kW",
+            "dist2": "11.59 kW",
+            "dist3": "11.59 kW",
+            "dist4": "11.59 kW"
+          },
+          {
+            "distributionName": "C相有功功率",
+            "dist1": "11.59 kW",
+            "dist2": "11.59 kW",
+            "dist3": "11.59 kW",
+            "dist4": "11.59 kW"
+          },
+          {
+            "distributionName": "A相无功功率",
+            "dist1": "12.00 kVar",
+            "dist2": "12.00 kVar",
+            "dist3": "12.00 kVar",
+            "dist4": "12.00 kVar"
+          },
+          {
+            "distributionName": "B相无功功率",
+            "dist1": "12.00 kVar",
+            "dist2": "12.00 kVar",
+            "dist3": "12.00 kVar",
+            "dist4": "12.00 kVar"
+          },
+          {
+            "distributionName": "C相无功功率",
+            "dist1": "12.00 kVar",
+            "dist2": "12.00 kVar",
+            "dist3": "12.00 kVar",
+            "dist4": "12.00 kVar"
+          },
+          {
+            "distributionName": "A相无功电度",
+            "dist1": "12,055,550.00 kWH",
+            "dist2": "22,055,550.00 kWH",
+            "dist3": "32,055,550.00 kWH",
+            "dist4": "42,055,550.00 kWH"
+          },
+          {
+            "distributionName": "B相无功电度",
+            "dist1": "2,055,550.00 kWH",
+            "dist2": "32,055,550.00 kWH",
+            "dist3": "42,055,550.00 kWH",
+            "dist4": "522,055,550.00 kWH"
+          },
+          {
+            "distributionName": "C相无功电度",
+            "dist1": "2,055,550.00 kWH",
+            "dist2": "12,055,550.00 kWH",
+            "dist3": "22,055,550.00 kWH",
+            "dist4": "32,055,550.00 kWH"
+          },
+          {
+            "distributionName": "功率因素",
+            "dist1": "0.85",
+            "dist2": "0.85",
+            "dist3": "0.85",
+            "dist4": "0.85"
+          }
+        ]
+      },
+      "thBackground": {
+        "func": "attr@table.head.background",
+        "value": "rgb(235,235,235)"
+      },
+      "tdBackground": {
+        "func": "attr@table.body.background",
+        "value": "rgb(255,255,255)"
+      },
+      "borderWidth": {
+        "func": "attr@table.border.width",
+        "value": 0
+      },
+      "borderColor": {
+        "func": "attr@table.border.color",
+        "value": null
+      },
+      "columnLineColor": {
+        "func": "attr@table.column.line.color",
+        "value": "rgba(235,235,235,0.00)"
+      },
+      "columnLineWidth": {
+        "func": "attr@table.column.line.width",
+        "value": 1
+      },
+      "rowLineColor": {
+        "func": "attr@table.row.line.color",
+        "value": "rgb(235,235,235)"
+      },
+      "rowLineWidth": {
+        "func": "attr@table.row.line.width",
+        "value": 1
+      },
+      "thFontSize": {
+        "func": "attr@table.head.font.size",
+        "value": 16
+      },
+      "tdFontSize": {
+        "func": "attr@table.body.font.size",
+        "value": 14
+      },
+      "thHeight": {
+        "func": "attr@table.head.height",
+        "value": 42
+      },
+      "tdHeight": {
+        "func": "attr@table.body.height",
+        "value": 30
+      },
+      "thColor": {
+        "func": "attr@table.head.color",
+        "value": "rgb(86,108,117)"
+      },
+      "tdColor": {
+        "func": "attr@table.body.color",
+        "value": "rgb(124,145,155)"
+      },
+      "cellPadding": {
+        "func": "attr@table.cell.padding",
+        "value": 18
+      },
+      "thFontFamily": {
+        "func": "attr@table.head.font.family",
+        "value": "sans-serif, arial"
+      },
+      "tdFontFamily": {
+        "func": "attr@table.body.font.family",
+        "value": "sans-serif, arial"
+      },
+      "showHead": false,
+      "translateY": 10
+    }
+  ]
+}

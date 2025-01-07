@@ -1,0 +1,44 @@
+{
+  "modified": "Sat May 18 2024 08:21:11 GMT+0800 (中国标准时间)",
+  "dataBindings": [
+    {
+      "attr": "icon-background",
+      "valueType": "Color"
+    },
+    {
+      "attr": "icon-borderWidth",
+      "valueType": "Color"
+    },
+    {
+      "attr": "icon-borderColor",
+      "valueType": "Color"
+    }
+  ],
+  "width": 100,
+  "height": 100,
+  "comps": [
+    {
+      "type": "roundRect",
+      "background": {
+        "func": "attr@icon-background",
+        "value": "rgb(247,247,247)"
+      },
+      "borderWidth": {
+        "func": "attr@icon-borderWidth",
+        "value": 0
+      },
+      "borderColor": {
+        "func": "attr@icon-borderColor",
+        "value": "#979797"
+      },
+      "cornerRadius": 0,
+      "displayName": "n（Node1）",
+      "rect": [
+        0,
+        0,
+        100,
+        100
+      ]
+    }
+  ]
+}

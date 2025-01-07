@@ -1,0 +1,29 @@
+{
+  "modified": "Tue Aug 23 2022 14:22:54 GMT+0800 (中国标准时间)",
+  "background": "rgb(32,37,46)",
+  "dataBindings": [
+    {
+      "attr": "icon-background",
+      "valueType": "Color"
+    }
+  ],
+  "width": 700,
+  "height": 80,
+  "fitSize": true,
+  "comps": [
+    {
+      "type": "rect",
+      "background": {
+        "func": "attr@icon-background",
+        "value": "rgb(0,21,41)"
+      },
+      "borderColor": "#979797",
+      "rect": [
+        0,
+        -1.82625,
+        701.27936,
+        82.18117
+      ]
+    }
+  ]
+}

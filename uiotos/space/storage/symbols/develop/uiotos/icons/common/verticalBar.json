@@ -1,0 +1,28 @@
+{
+  "modified": "Fri Aug 26 2022 09:09:01 GMT+0800 (中国标准时间)",
+  "background": "rgb(32,37,46)",
+  "dataBindings": [
+    {
+      "attr": "background",
+      "valueType": "Color"
+    }
+  ],
+  "width": 20,
+  "height": 100,
+  "comps": [
+    {
+      "type": "rect",
+      "background": {
+        "func": "attr@background",
+        "value": "rgb(55,125,255)"
+      },
+      "borderColor": "#979797",
+      "rect": [
+        0,
+        -19.23423,
+        20,
+        119.23423
+      ]
+    }
+  ]
+}

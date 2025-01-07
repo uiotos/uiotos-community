@@ -1,5 +1,5 @@
 {
-  "v": "8.0.2",
+  "v": "8.0.3",
   "p": {
     "autoAdjustIndex": true,
     "hierarchicalRendering": true
@@ -12,12 +12,12 @@
     "zoomable": false,
     "rectSelectable": false,
     "pannable": false,
-    "_professional": false
+    "_professional": true
   },
   "d": [
     {
       "c": "ht.Node",
-      "i": 66158,
+      "i": 71136,
       "p": {
         "name": "base",
         "displayName": "底板（_base）",
@@ -43,7 +43,7 @@
     },
     {
       "c": "ht.Node",
-      "i": 66159,
+      "i": 71137,
       "p": {
         "name": "pal",
         "displayName": "抽屉面板（pal1）",
@@ -113,9 +113,394 @@
             }
           }
         },
-        "image": "symbols/develop/uiotos/base/palette-ui.json",
+        "image": {
+          "modified": "Thu Jul 11 2024 13:31:28 GMT+0800 (中国标准时间)",
+          "dataBindings": [
+            {
+              "attr": "symbol",
+              "valueType": "Image",
+              "name": "symbol"
+            },
+            {
+              "attr": "datas",
+              "valueType": "Object",
+              "defaultValue": [
+                {
+                  "title": "海陆空交通",
+                  "children": [
+                    {
+                      "icon": "symbols/develop/uiotos/arranged/icons/设备设施/轮船-77.json",
+                      "text": "轮船"
+                    },
+                    {
+                      "icon": "symbols/develop/uiotos/arranged/icons/设备设施/轿车 汽车-76.json",
+                      "text": "汽车"
+                    },
+                    {
+                      "icon": "symbols/develop/uiotos/arranged/icons/设备设施/飞行 旅游 出差 飞机 800-73.json",
+                      "text": "飞机"
+                    }
+                  ]
+                },
+                {
+                  "title": "其它",
+                  "children": [
+                    {
+                      "icon": "symbols/develop/uiotos/arranged/icons/设备设施/高铁 动车-74.json",
+                      "text": "高铁"
+                    },
+                    {
+                      "icon": "symbols/develop/uiotos/arranged/icons/设备设施/公交 客车-75.json",
+                      "text": "公交车"
+                    }
+                  ]
+                }
+              ],
+              "description": "数据源。\n<br>数组格式，数组中对象元素字段和说明如下：\n<br>icon: 显示图标\n<br>iconDrawable: 拖放后实际创建的图标\n<br>text: 图标文字",
+              "group": "功能",
+              "name": "datas"
+            },
+            {
+              "attr": "folderPath",
+              "valueType": "Image",
+              "description": "文件目录URL。\n<br>比如'displays/demo/3-示例''\n<br>如果有配置这个服务器地址，将自动从这里获取，\n<br>将覆盖datas中手动固定配置（如果有）！\n<br>给定目录遍历子目录作为分组标题，目录内的jpg\n<br>文件作为图标。",
+              "name": "folderPath"
+            },
+            {
+              "attr": "userData",
+              "valueType": "Object",
+              "defaultValue": [],
+              "name": "userData"
+            },
+            {
+              "attr": "onChange",
+              "valueType": "Function",
+              "extraInfo": {
+                "arguments": [
+                  "data",
+                  "gv",
+                  "cache",
+                  "value",
+                  "extra"
+                ]
+              },
+              "name": "onChange"
+            },
+            {
+              "attr": "titleFont",
+              "valueType": "Font",
+              "defaultValue": "12px sans-serif, Arial",
+              "description": "抽屉标题字体。",
+              "group": "外观",
+              "name": "titleFont"
+            },
+            {
+              "attr": "titleColor",
+              "valueType": "ColorArray",
+              "defaultValue": [
+                "rgb(55,125,255)",
+                "rgba(55,125,255)",
+                "rgba(55,125,255)"
+              ],
+              "description": "标题文字颜色组。\n<br>3个颜色，索引0、1、2分别为\n<br>默认、划过、按下，三种情况\n<br>下的标题文字颜色。",
+              "name": "titleColor"
+            },
+            {
+              "attr": "textFont",
+              "valueType": "Font",
+              "defaultValue": "12px sans-serif, Arial",
+              "description": "图标文字字体。",
+              "name": "textFont"
+            },
+            {
+              "attr": "textColor",
+              "valueType": "ColorArray",
+              "defaultValue": [
+                "rgb(90,122,138)",
+                "rgba(55,125,255,1)",
+                "rgba(55,125,255,1)"
+              ],
+              "description": "图标文字颜色组。\n<br>3个颜色，索引0、1、2分别为\n<br>默认、划过、按下，三种情况\n<br>下的图标文字颜色。",
+              "name": "textColor"
+            },
+            {
+              "attr": "renderColor",
+              "valueType": "Color",
+              "defaultValue": "rgba(240,245,255)",
+              "description": "图标染色。\n<br>可以让整体图片/图标带有统一的色调。",
+              "name": "renderColor"
+            },
+            {
+              "attr": "headerBackground",
+              "valueType": "ColorArray",
+              "defaultValue": [
+                "rgba(47,55,70,0)",
+                "rgba(255,255,255,0.1)",
+                "rgba(255,255,255,0.1)"
+              ],
+              "description": "标题背景颜色组。\n<br>3个颜色，索引0、1、2分别为\n<br>默认、划过、按下，三种情况\n<br>下的标题背景颜色。",
+              "name": "headerBackground"
+            },
+            {
+              "attr": "background",
+              "valueType": "ColorArray",
+              "defaultValue": [
+                "rgba(47,55,70)",
+                "rgba(255,255,255,0.1)",
+                "rgba(255,255,255,0.2)"
+              ],
+              "description": "图标背景颜色组。\n<br>3个颜色，索引0、1、2分别为\n<br>默认、划过、按下，三种情况\n<br>下的图标背景颜色。",
+              "name": "background"
+            },
+            {
+              "attr": "selectBackground",
+              "valueType": "ColorArray",
+              "defaultValue": [
+                "rgba(55,125,255,0.1)",
+                "rgba(55,125,255,0.1)",
+                "rgba(55,125,255,0.1)"
+              ],
+              "description": "选中图标的背景颜色组。\n<br>3个颜色，索引0、1、2分别为\n<br>默认、划过、按下，三种情况\n<br>下的选中图标背景颜色。",
+              "name": "selectBackground"
+            },
+            {
+              "attr": "borderRadius",
+              "valueType": "PositiveNumber",
+              "defaultValue": 8,
+              "description": "图标边框圆角。",
+              "name": "borderRadius"
+            },
+            {
+              "attr": "preferredSize",
+              "valueType": "NumberArray",
+              "defaultValue": [
+                65,
+                80
+              ],
+              "description": "图标按钮的宽高。\n<br>数组索引0为宽度、1为高度。",
+              "name": "preferredSize"
+            },
+            {
+              "attr": "iconSize",
+              "valueType": "NumberArray",
+              "defaultValue": [
+                50,
+                50
+              ],
+              "description": "图标宽高。\n<br>索引0为宽度，索引1为高度。",
+              "name": "iconSize"
+            },
+            {
+              "attr": "gap",
+              "valueType": "String",
+              "defaultValue": "10",
+              "description": "面板抽屉间距。",
+              "name": "gap"
+            },
+            {
+              "attr": "padding",
+              "valueType": "NumberArray",
+              "defaultValue": [
+                0,
+                0,
+                0,
+                0
+              ],
+              "description": "面板整体离四周边距。\n<br>索引0、1、2、3分别表示\n<br>上、右、下、左边距！",
+              "name": "padding"
+            },
+            {
+              "attr": "margin",
+              "valueType": "NumberArray",
+              "defaultValue": [
+                0,
+                0,
+                0,
+                0
+              ],
+              "description": "图标面板四周间距。\n<br>数组长度为4，分别为上、右\n<br>下、左边距。",
+              "name": "margin"
+            },
+            {
+              "attr": "bindControlsTag",
+              "valueType": "StringArray",
+              "group": "连线",
+              "name": "bindControlsTag"
+            },
+            {
+              "attr": "bindControlsAttr",
+              "valueType": "StringArray",
+              "name": "bindControlsAttr"
+            },
+            {
+              "attr": "bindControlsVal",
+              "valueType": "ObjectArray",
+              "name": "bindControlsVal"
+            },
+            {
+              "attr": "paramControlTag",
+              "valueType": "StringArray",
+              "name": "paramControlTag"
+            },
+            {
+              "attr": "paramControlAttr",
+              "valueType": "StringArray",
+              "name": "paramControlAttr"
+            },
+            {
+              "attr": "paramsGenerator",
+              "valueType": "Function",
+              "defaultValue": "__ht__function(data, val, index, node,oldVal,form,type,inner) {//绑定组索引对应的函数处理，用来动态生成复杂的参数变量传入\r\nswitch(index){\r\n    case 0:\r\n        break;\r\n    case 1:\r\n        break;\r\n    case 2:\r\n        break;\r\n    default:\r\n        break;\r\n}\r\n\r\nreturn val;}",
+              "extraInfo": {
+                "arguments": [
+                  "data",
+                  "val",
+                  "index",
+                  "node",
+                  "oldVal",
+                  "form",
+                  "type",
+                  "inner"
+                ]
+              },
+              "name": "paramsGenerator"
+            },
+            {
+              "attr": "useAttrCORS",
+              "valueType": "Boolean",
+              "extraInfo": "*",
+              "defaultValue": false,
+              "description": "连线操作和处理回写是否一致。\n                        比如多个文本框连线传值给相同对话框，弹窗修改\n                        后是否限定只能写到最新赋值过来的文本框。详见<a href='https://www.yuque.com/liuhuo-nc809/uiotos/fgi6dd7gado51acm#fFUbp' style=\"color:rgb(96,172,252)\"target=\"_blank\">同源属性操作</a>",
+              "bindIgnored": true,
+              "name": "useAttrCORS",
+              "dynamicCreate": true
+            },
+            {
+              "attr": "display",
+              "valueType": "Image",
+              "defaultValue": "",
+              "description": "自定义页面地址。\n                可以是编辑器中的其他页面，也可以\n                是外部网页链接地址。",
+              "group": "弹出框 *",
+              "bindIgnored": true,
+              "name": "display",
+              "dynamicCreate": true
+            },
+            {
+              "attr": "pureTipText",
+              "valueType": "String",
+              "defaultValue": "",
+              "description": "提示文字。\n                    当专业用户属性中，提供display内嵌页属性，\n                    如果有配置，那么本属性设置无效，将以内嵌\n                    页显示为准。",
+              "group": "弹出框 *",
+              "bindIgnored": true,
+              "name": "pureTipText",
+              "dynamicCreate": true
+            },
+            {
+              "attr": "popDirection",
+              "valueType": "SideDirection",
+              "defaultValue": "right",
+              "description": "提示显示位置。",
+              "group": "弹出框 *",
+              "bindIgnored": true,
+              "name": "popDirection",
+              "dynamicCreate": true
+            },
+            {
+              "attr": "popBackground",
+              "valueType": "Color",
+              "defaultValue": "white",
+              "description": "箭头和背景色。",
+              "group": "弹出框 *",
+              "bindIgnored": true,
+              "name": "popBackground",
+              "dynamicCreate": true
+            },
+            {
+              "attr": "popPadding",
+              "valueType": "NumberArray",
+              "defaultValue": [
+                2,
+                2,
+                2,
+                2
+              ],
+              "description": "内间距。",
+              "group": "弹出框 *",
+              "bindIgnored": true,
+              "name": "popPadding",
+              "dynamicCreate": true
+            },
+            {
+              "attr": "popWidth",
+              "valueType": "Number",
+              "defaultValue": 400,
+              "description": "弹出框宽度。",
+              "group": "弹出框 *",
+              "bindIgnored": true,
+              "name": "popWidth",
+              "dynamicCreate": true
+            },
+            {
+              "attr": "popHeight",
+              "valueType": "Number",
+              "defaultValue": 300,
+              "description": "弹出框高度。",
+              "group": "弹出框 *",
+              "bindIgnored": true,
+              "name": "popHeight",
+              "dynamicCreate": true
+            },
+            {
+              "attr": "popBorderColor",
+              "valueType": "Color",
+              "defaultValue": "rgb(51,51,51)",
+              "description": "边框线颜色。\n                    注意，是设置了边框宽度非0后的边框颜色。\n                    默认边框宽度属性为0时，实际上是白色并\n                    带有箭头指示的边框。本属性不用于修改默\n                    认边框色。",
+              "group": "弹出框 *",
+              "bindIgnored": true,
+              "name": "popBorderColor",
+              "dynamicCreate": true
+            },
+            {
+              "attr": "popBorderWidth",
+              "valueType": "Number",
+              "defaultValue": 0,
+              "description": "边框线宽度。\n                    默认值为0，此时边框默认为白色并且带有\n                    箭头指示。当设置宽度后，颜色将取边框颜\n                    色属性的设置，并且不再有箭头指示。",
+              "group": "弹出框 *",
+              "bindIgnored": true,
+              "name": "popBorderWidth",
+              "dynamicCreate": true
+            },
+            {
+              "attr": "popBorderRadius",
+              "valueType": "Number",
+              "defaultValue": 0,
+              "description": "边框线圆角。\n                    设置圆角线后，如果此前默认是白色边框带有\n                    指示箭头，那么将自动不可见，只对内容区域\n                    产生圆角。",
+              "group": "弹出框 *",
+              "bindIgnored": true,
+              "name": "popBorderRadius",
+              "dynamicCreate": true
+            },
+            {
+              "attr": "popTriggerEvent",
+              "valueType": "MouseEvent",
+              "defaultValue": "hover",
+              "description": "触发方式。\n                支持鼠标移入、点击（按钮时）\n                两种触发提示的方式。",
+              "group": "弹出框 *",
+              "bindIgnored": true,
+              "name": "popTriggerEvent",
+              "dynamicCreate": true
+            }
+          ],
+          "snapshotURL": "symbols/develop/uiotos/arranged/controls/forms_icon/面板列表-17.json",
+          "renderHTML": "__ht__function(data, gv, cache) {return __palette_ui(data,gv,cache);}",
+          "width": 200,
+          "height": 400,
+          "pixelPerfect": false,
+          "comps": [],
+          "uuid": "2480408C-0CBE-4923-9C06-B9C1D3A0DA8B"
+        },
         "host": {
-          "__i": 66158
+          "__i": 71136
         },
         "position": {
           "x": 537.39112,
@@ -151,295 +536,297 @@
           150
         ],
         "datas": [
-          {
-            "title": "01-入门",
-            "children": []
-          },
-          {
-            "title": "02-小示例",
-            "children": [
-              {
-                "icon": "http://localhost:8999/displays/demo/3-示例/02-小示例/01-第一个Hello world.jpg",
-                "toolTip": "http://localhost:8999/displays/demo/3-示例/02-小示例/01-第一个Hello world.jpg",
-                "text": "01-第一个Hello world",
-                "iconDrawable": {
-                  "_image": "http://localhost:8999/displays/demo/3-示例/02-小示例/01-第一个Hello world.jpg",
-                  "_stretch": "uniform",
-                  "_colorTint": "rgb(235,245,255)"
+          [
+            {
+              "title": "01-入门",
+              "children": []
+            },
+            {
+              "title": "02-小示例",
+              "children": [
+                {
+                  "icon": "http://localhost:8999/displays/demo/3-示例/02-小示例/01-第一个Hello world.jpg",
+                  "toolTip": "http://localhost:8999/displays/demo/3-示例/02-小示例/01-第一个Hello world.jpg",
+                  "text": "01-第一个Hello world",
+                  "iconDrawable": {
+                    "_image": "http://localhost:8999/displays/demo/3-示例/02-小示例/01-第一个Hello world.jpg",
+                    "_stretch": "uniform",
+                    "_colorTint": "rgb(235,245,255)"
+                  }
+                },
+                {
+                  "icon": "http://localhost:8999/displays/demo/3-示例/02-小示例/02-典型：取值并传给内嵌页.jpg",
+                  "toolTip": "http://localhost:8999/displays/demo/3-示例/02-小示例/02-典型：取值并传给内嵌页.jpg",
+                  "text": "02-典型：取值并传给内嵌页",
+                  "iconDrawable": {
+                    "_image": "http://localhost:8999/displays/demo/3-示例/02-小示例/02-典型：取值并传给内嵌页.jpg",
+                    "_stretch": "uniform",
+                    "_colorTint": "rgb(235,245,255)"
+                  }
+                },
+                {
+                  "icon": "http://localhost:8999/displays/demo/3-示例/02-小示例/03-视频选择播放.jpg",
+                  "toolTip": "http://localhost:8999/displays/demo/3-示例/02-小示例/03-视频选择播放.jpg",
+                  "text": "03-视频选择播放",
+                  "iconDrawable": {
+                    "_image": "http://localhost:8999/displays/demo/3-示例/02-小示例/03-视频选择播放.jpg",
+                    "_stretch": "uniform",
+                    "_colorTint": "rgb(235,245,255)"
+                  }
+                },
+                {
+                  "icon": "http://localhost:8999/displays/demo/3-示例/02-小示例/03A-视频选择播放.jpg",
+                  "toolTip": "http://localhost:8999/displays/demo/3-示例/02-小示例/03A-视频选择播放.jpg",
+                  "text": "03A-视频选择播放",
+                  "iconDrawable": {
+                    "_image": "http://localhost:8999/displays/demo/3-示例/02-小示例/03A-视频选择播放.jpg",
+                    "_stretch": "uniform",
+                    "_colorTint": "rgb(235,245,255)"
+                  }
+                },
+                {
+                  "icon": "http://localhost:8999/displays/demo/3-示例/02-小示例/03B-视频选择播放暂停.jpg",
+                  "toolTip": "http://localhost:8999/displays/demo/3-示例/02-小示例/03B-视频选择播放暂停.jpg",
+                  "text": "03B-视频选择播放暂停",
+                  "iconDrawable": {
+                    "_image": "http://localhost:8999/displays/demo/3-示例/02-小示例/03B-视频选择播放暂停.jpg",
+                    "_stretch": "uniform",
+                    "_colorTint": "rgb(235,245,255)"
+                  }
+                },
+                {
+                  "icon": "http://localhost:8999/displays/demo/3-示例/02-小示例/04-监控弹窗播放.jpg",
+                  "toolTip": "http://localhost:8999/displays/demo/3-示例/02-小示例/04-监控弹窗播放.jpg",
+                  "text": "04-监控弹窗播放",
+                  "iconDrawable": {
+                    "_image": "http://localhost:8999/displays/demo/3-示例/02-小示例/04-监控弹窗播放.jpg",
+                    "_stretch": "uniform",
+                    "_colorTint": "rgb(235,245,255)"
+                  }
+                },
+                {
+                  "icon": "http://localhost:8999/displays/demo/3-示例/02-小示例/05-表单数据操作.jpg",
+                  "toolTip": "http://localhost:8999/displays/demo/3-示例/02-小示例/05-表单数据操作.jpg",
+                  "text": "05-表单数据操作",
+                  "iconDrawable": {
+                    "_image": "http://localhost:8999/displays/demo/3-示例/02-小示例/05-表单数据操作.jpg",
+                    "_stretch": "uniform",
+                    "_colorTint": "rgb(235,245,255)"
+                  }
+                },
+                {
+                  "icon": "http://localhost:8999/displays/demo/3-示例/02-小示例/06-账号登录.jpg",
+                  "toolTip": "http://localhost:8999/displays/demo/3-示例/02-小示例/06-账号登录.jpg",
+                  "text": "06-账号登录",
+                  "iconDrawable": {
+                    "_image": "http://localhost:8999/displays/demo/3-示例/02-小示例/06-账号登录.jpg",
+                    "_stretch": "uniform",
+                    "_colorTint": "rgb(235,245,255)"
+                  }
+                },
+                {
+                  "icon": "http://localhost:8999/displays/demo/3-示例/02-小示例/07-多页签模拟数据.jpg",
+                  "toolTip": "http://localhost:8999/displays/demo/3-示例/02-小示例/07-多页签模拟数据.jpg",
+                  "text": "07-多页签模拟数据",
+                  "iconDrawable": {
+                    "_image": "http://localhost:8999/displays/demo/3-示例/02-小示例/07-多页签模拟数据.jpg",
+                    "_stretch": "uniform",
+                    "_colorTint": "rgb(235,245,255)"
+                  }
+                },
+                {
+                  "icon": "http://localhost:8999/displays/demo/3-示例/02-小示例/08-组件交互联动.jpg",
+                  "toolTip": "http://localhost:8999/displays/demo/3-示例/02-小示例/08-组件交互联动.jpg",
+                  "text": "08-组件交互联动",
+                  "iconDrawable": {
+                    "_image": "http://localhost:8999/displays/demo/3-示例/02-小示例/08-组件交互联动.jpg",
+                    "_stretch": "uniform",
+                    "_colorTint": "rgb(235,245,255)"
+                  }
+                },
+                {
+                  "icon": "http://localhost:8999/displays/demo/3-示例/02-小示例/09-组件功能无代码扩展.jpg",
+                  "toolTip": "http://localhost:8999/displays/demo/3-示例/02-小示例/09-组件功能无代码扩展.jpg",
+                  "text": "09-组件功能无代码扩展",
+                  "iconDrawable": {
+                    "_image": "http://localhost:8999/displays/demo/3-示例/02-小示例/09-组件功能无代码扩展.jpg",
+                    "_stretch": "uniform",
+                    "_colorTint": "rgb(235,245,255)"
+                  }
+                },
+                {
+                  "icon": "http://localhost:8999/displays/demo/3-示例/02-小示例/10-内嵌按钮点击上层弹窗.jpg",
+                  "toolTip": "http://localhost:8999/displays/demo/3-示例/02-小示例/10-内嵌按钮点击上层弹窗.jpg",
+                  "text": "10-内嵌按钮点击上层弹窗",
+                  "iconDrawable": {
+                    "_image": "http://localhost:8999/displays/demo/3-示例/02-小示例/10-内嵌按钮点击上层弹窗.jpg",
+                    "_stretch": "uniform",
+                    "_colorTint": "rgb(235,245,255)"
+                  }
+                },
+                {
+                  "icon": "http://localhost:8999/displays/demo/3-示例/02-小示例/11-自行实现的切换开关.jpg",
+                  "toolTip": "http://localhost:8999/displays/demo/3-示例/02-小示例/11-自行实现的切换开关.jpg",
+                  "text": "11-自行实现的切换开关",
+                  "iconDrawable": {
+                    "_image": "http://localhost:8999/displays/demo/3-示例/02-小示例/11-自行实现的切换开关.jpg",
+                    "_stretch": "uniform",
+                    "_colorTint": "rgb(235,245,255)"
+                  }
+                },
+                {
+                  "icon": "http://localhost:8999/displays/demo/3-示例/02-小示例/12-注册正则表达式（代码块）.jpg",
+                  "toolTip": "http://localhost:8999/displays/demo/3-示例/02-小示例/12-注册正则表达式（代码块）.jpg",
+                  "text": "12-注册正则表达式（代码块）",
+                  "iconDrawable": {
+                    "_image": "http://localhost:8999/displays/demo/3-示例/02-小示例/12-注册正则表达式（代码块）.jpg",
+                    "_stretch": "uniform",
+                    "_colorTint": "rgb(235,245,255)"
+                  }
+                },
+                {
+                  "icon": "http://localhost:8999/displays/demo/3-示例/02-小示例/14-接口查询返回下拉级联.jpg",
+                  "toolTip": "http://localhost:8999/displays/demo/3-示例/02-小示例/14-接口查询返回下拉级联.jpg",
+                  "text": "14-接口查询返回下拉级联",
+                  "iconDrawable": {
+                    "_image": "http://localhost:8999/displays/demo/3-示例/02-小示例/14-接口查询返回下拉级联.jpg",
+                    "_stretch": "uniform",
+                    "_colorTint": "rgb(235,245,255)"
+                  }
+                },
+                {
+                  "icon": "http://localhost:8999/displays/demo/3-示例/02-小示例/15-接口数据给树表.jpg",
+                  "toolTip": "http://localhost:8999/displays/demo/3-示例/02-小示例/15-接口数据给树表.jpg",
+                  "text": "15-接口数据给树表",
+                  "iconDrawable": {
+                    "_image": "http://localhost:8999/displays/demo/3-示例/02-小示例/15-接口数据给树表.jpg",
+                    "_stretch": "uniform",
+                    "_colorTint": "rgb(235,245,255)"
+                  }
+                },
+                {
+                  "icon": "http://localhost:8999/displays/demo/3-示例/02-小示例/16-接口数据给统计曲线图.jpg",
+                  "toolTip": "http://localhost:8999/displays/demo/3-示例/02-小示例/16-接口数据给统计曲线图.jpg",
+                  "text": "16-接口数据给统计曲线图",
+                  "iconDrawable": {
+                    "_image": "http://localhost:8999/displays/demo/3-示例/02-小示例/16-接口数据给统计曲线图.jpg",
+                    "_stretch": "uniform",
+                    "_colorTint": "rgb(235,245,255)"
+                  }
+                },
+                {
+                  "icon": "http://localhost:8999/displays/demo/3-示例/02-小示例/19-接口数据给到饼状图.jpg",
+                  "toolTip": "http://localhost:8999/displays/demo/3-示例/02-小示例/19-接口数据给到饼状图.jpg",
+                  "text": "19-接口数据给到饼状图",
+                  "iconDrawable": {
+                    "_image": "http://localhost:8999/displays/demo/3-示例/02-小示例/19-接口数据给到饼状图.jpg",
+                    "_stretch": "uniform",
+                    "_colorTint": "rgb(235,245,255)"
+                  }
+                },
+                {
+                  "icon": "http://localhost:8999/displays/demo/3-示例/02-小示例/20-JSON数据解析提取.jpg",
+                  "toolTip": "http://localhost:8999/displays/demo/3-示例/02-小示例/20-JSON数据解析提取.jpg",
+                  "text": "20-JSON数据解析提取",
+                  "iconDrawable": {
+                    "_image": "http://localhost:8999/displays/demo/3-示例/02-小示例/20-JSON数据解析提取.jpg",
+                    "_stretch": "uniform",
+                    "_colorTint": "rgb(235,245,255)"
+                  }
+                },
+                {
+                  "icon": "http://localhost:8999/displays/demo/3-示例/02-小示例/21-表格批量勾选交互.jpg",
+                  "toolTip": "http://localhost:8999/displays/demo/3-示例/02-小示例/21-表格批量勾选交互.jpg",
+                  "text": "21-表格批量勾选交互",
+                  "iconDrawable": {
+                    "_image": "http://localhost:8999/displays/demo/3-示例/02-小示例/21-表格批量勾选交互.jpg",
+                    "_stretch": "uniform",
+                    "_colorTint": "rgb(235,245,255)"
+                  }
+                },
+                {
+                  "icon": "http://localhost:8999/displays/demo/3-示例/02-小示例/22-矢量图形交互连线.jpg",
+                  "toolTip": "http://localhost:8999/displays/demo/3-示例/02-小示例/22-矢量图形交互连线.jpg",
+                  "text": "22-矢量图形交互连线",
+                  "iconDrawable": {
+                    "_image": "http://localhost:8999/displays/demo/3-示例/02-小示例/22-矢量图形交互连线.jpg",
+                    "_stretch": "uniform",
+                    "_colorTint": "rgb(235,245,255)"
+                  }
+                },
+                {
+                  "icon": "http://localhost:8999/displays/demo/3-示例/02-小示例/23-表单获取和表单写入.jpg",
+                  "toolTip": "http://localhost:8999/displays/demo/3-示例/02-小示例/23-表单获取和表单写入.jpg",
+                  "text": "23-表单获取和表单写入",
+                  "iconDrawable": {
+                    "_image": "http://localhost:8999/displays/demo/3-示例/02-小示例/23-表单获取和表单写入.jpg",
+                    "_stretch": "uniform",
+                    "_colorTint": "rgb(235,245,255)"
+                  }
+                },
+                {
+                  "icon": "http://localhost:8999/displays/demo/3-示例/02-小示例/24-表单数据双向读写.jpg",
+                  "toolTip": "http://localhost:8999/displays/demo/3-示例/02-小示例/24-表单数据双向读写.jpg",
+                  "text": "24-表单数据双向读写",
+                  "iconDrawable": {
+                    "_image": "http://localhost:8999/displays/demo/3-示例/02-小示例/24-表单数据双向读写.jpg",
+                    "_stretch": "uniform",
+                    "_colorTint": "rgb(235,245,255)"
+                  }
+                },
+                {
+                  "icon": "http://localhost:8999/displays/demo/3-示例/02-小示例/26-获取表单数据.jpg",
+                  "toolTip": "http://localhost:8999/displays/demo/3-示例/02-小示例/26-获取表单数据.jpg",
+                  "text": "26-获取表单数据",
+                  "iconDrawable": {
+                    "_image": "http://localhost:8999/displays/demo/3-示例/02-小示例/26-获取表单数据.jpg",
+                    "_stretch": "uniform",
+                    "_colorTint": "rgb(235,245,255)"
+                  }
+                },
+                {
+                  "icon": "http://localhost:8999/displays/demo/3-示例/02-小示例/初体验：嵌套页面交互.jpg",
+                  "toolTip": "http://localhost:8999/displays/demo/3-示例/02-小示例/初体验：嵌套页面交互.jpg",
+                  "text": "初体验：嵌套页面交互",
+                  "iconDrawable": {
+                    "_image": "http://localhost:8999/displays/demo/3-示例/02-小示例/初体验：嵌套页面交互.jpg",
+                    "_stretch": "uniform",
+                    "_colorTint": "rgb(235,245,255)"
+                  }
+                },
+                {
+                  "icon": "http://localhost:8999/displays/demo/3-示例/02-小示例/初体验：扇叶图标旋转.jpg",
+                  "toolTip": "http://localhost:8999/displays/demo/3-示例/02-小示例/初体验：扇叶图标旋转.jpg",
+                  "text": "初体验：扇叶图标旋转",
+                  "iconDrawable": {
+                    "_image": "http://localhost:8999/displays/demo/3-示例/02-小示例/初体验：扇叶图标旋转.jpg",
+                    "_stretch": "uniform",
+                    "_colorTint": "rgb(235,245,255)"
+                  }
+                },
+                {
+                  "icon": "http://localhost:8999/displays/demo/3-示例/02-小示例/初体验：计算器按键.jpg",
+                  "toolTip": "http://localhost:8999/displays/demo/3-示例/02-小示例/初体验：计算器按键.jpg",
+                  "text": "初体验：计算器按键",
+                  "iconDrawable": {
+                    "_image": "http://localhost:8999/displays/demo/3-示例/02-小示例/初体验：计算器按键.jpg",
+                    "_stretch": "uniform",
+                    "_colorTint": "rgb(235,245,255)"
+                  }
+                },
+                {
+                  "icon": "http://localhost:8999/displays/demo/3-示例/02-小示例/初体验：颜色随机显示.jpg",
+                  "toolTip": "http://localhost:8999/displays/demo/3-示例/02-小示例/初体验：颜色随机显示.jpg",
+                  "text": "初体验：颜色随机显示",
+                  "iconDrawable": {
+                    "_image": "http://localhost:8999/displays/demo/3-示例/02-小示例/初体验：颜色随机显示.jpg",
+                    "_stretch": "uniform",
+                    "_colorTint": "rgb(235,245,255)"
+                  }
                 }
-              },
-              {
-                "icon": "http://localhost:8999/displays/demo/3-示例/02-小示例/02-典型：取值并传给内嵌页.jpg",
-                "toolTip": "http://localhost:8999/displays/demo/3-示例/02-小示例/02-典型：取值并传给内嵌页.jpg",
-                "text": "02-典型：取值并传给内嵌页",
-                "iconDrawable": {
-                  "_image": "http://localhost:8999/displays/demo/3-示例/02-小示例/02-典型：取值并传给内嵌页.jpg",
-                  "_stretch": "uniform",
-                  "_colorTint": "rgb(235,245,255)"
-                }
-              },
-              {
-                "icon": "http://localhost:8999/displays/demo/3-示例/02-小示例/03-视频选择播放.jpg",
-                "toolTip": "http://localhost:8999/displays/demo/3-示例/02-小示例/03-视频选择播放.jpg",
-                "text": "03-视频选择播放",
-                "iconDrawable": {
-                  "_image": "http://localhost:8999/displays/demo/3-示例/02-小示例/03-视频选择播放.jpg",
-                  "_stretch": "uniform",
-                  "_colorTint": "rgb(235,245,255)"
-                }
-              },
-              {
-                "icon": "http://localhost:8999/displays/demo/3-示例/02-小示例/03A-视频选择播放.jpg",
-                "toolTip": "http://localhost:8999/displays/demo/3-示例/02-小示例/03A-视频选择播放.jpg",
-                "text": "03A-视频选择播放",
-                "iconDrawable": {
-                  "_image": "http://localhost:8999/displays/demo/3-示例/02-小示例/03A-视频选择播放.jpg",
-                  "_stretch": "uniform",
-                  "_colorTint": "rgb(235,245,255)"
-                }
-              },
-              {
-                "icon": "http://localhost:8999/displays/demo/3-示例/02-小示例/03B-视频选择播放暂停.jpg",
-                "toolTip": "http://localhost:8999/displays/demo/3-示例/02-小示例/03B-视频选择播放暂停.jpg",
-                "text": "03B-视频选择播放暂停",
-                "iconDrawable": {
-                  "_image": "http://localhost:8999/displays/demo/3-示例/02-小示例/03B-视频选择播放暂停.jpg",
-                  "_stretch": "uniform",
-                  "_colorTint": "rgb(235,245,255)"
-                }
-              },
-              {
-                "icon": "http://localhost:8999/displays/demo/3-示例/02-小示例/04-监控弹窗播放.jpg",
-                "toolTip": "http://localhost:8999/displays/demo/3-示例/02-小示例/04-监控弹窗播放.jpg",
-                "text": "04-监控弹窗播放",
-                "iconDrawable": {
-                  "_image": "http://localhost:8999/displays/demo/3-示例/02-小示例/04-监控弹窗播放.jpg",
-                  "_stretch": "uniform",
-                  "_colorTint": "rgb(235,245,255)"
-                }
-              },
-              {
-                "icon": "http://localhost:8999/displays/demo/3-示例/02-小示例/05-表单数据操作.jpg",
-                "toolTip": "http://localhost:8999/displays/demo/3-示例/02-小示例/05-表单数据操作.jpg",
-                "text": "05-表单数据操作",
-                "iconDrawable": {
-                  "_image": "http://localhost:8999/displays/demo/3-示例/02-小示例/05-表单数据操作.jpg",
-                  "_stretch": "uniform",
-                  "_colorTint": "rgb(235,245,255)"
-                }
-              },
-              {
-                "icon": "http://localhost:8999/displays/demo/3-示例/02-小示例/06-账号登录.jpg",
-                "toolTip": "http://localhost:8999/displays/demo/3-示例/02-小示例/06-账号登录.jpg",
-                "text": "06-账号登录",
-                "iconDrawable": {
-                  "_image": "http://localhost:8999/displays/demo/3-示例/02-小示例/06-账号登录.jpg",
-                  "_stretch": "uniform",
-                  "_colorTint": "rgb(235,245,255)"
-                }
-              },
-              {
-                "icon": "http://localhost:8999/displays/demo/3-示例/02-小示例/07-多页签模拟数据.jpg",
-                "toolTip": "http://localhost:8999/displays/demo/3-示例/02-小示例/07-多页签模拟数据.jpg",
-                "text": "07-多页签模拟数据",
-                "iconDrawable": {
-                  "_image": "http://localhost:8999/displays/demo/3-示例/02-小示例/07-多页签模拟数据.jpg",
-                  "_stretch": "uniform",
-                  "_colorTint": "rgb(235,245,255)"
-                }
-              },
-              {
-                "icon": "http://localhost:8999/displays/demo/3-示例/02-小示例/08-组件交互联动.jpg",
-                "toolTip": "http://localhost:8999/displays/demo/3-示例/02-小示例/08-组件交互联动.jpg",
-                "text": "08-组件交互联动",
-                "iconDrawable": {
-                  "_image": "http://localhost:8999/displays/demo/3-示例/02-小示例/08-组件交互联动.jpg",
-                  "_stretch": "uniform",
-                  "_colorTint": "rgb(235,245,255)"
-                }
-              },
-              {
-                "icon": "http://localhost:8999/displays/demo/3-示例/02-小示例/09-组件功能无代码扩展.jpg",
-                "toolTip": "http://localhost:8999/displays/demo/3-示例/02-小示例/09-组件功能无代码扩展.jpg",
-                "text": "09-组件功能无代码扩展",
-                "iconDrawable": {
-                  "_image": "http://localhost:8999/displays/demo/3-示例/02-小示例/09-组件功能无代码扩展.jpg",
-                  "_stretch": "uniform",
-                  "_colorTint": "rgb(235,245,255)"
-                }
-              },
-              {
-                "icon": "http://localhost:8999/displays/demo/3-示例/02-小示例/10-内嵌按钮点击上层弹窗.jpg",
-                "toolTip": "http://localhost:8999/displays/demo/3-示例/02-小示例/10-内嵌按钮点击上层弹窗.jpg",
-                "text": "10-内嵌按钮点击上层弹窗",
-                "iconDrawable": {
-                  "_image": "http://localhost:8999/displays/demo/3-示例/02-小示例/10-内嵌按钮点击上层弹窗.jpg",
-                  "_stretch": "uniform",
-                  "_colorTint": "rgb(235,245,255)"
-                }
-              },
-              {
-                "icon": "http://localhost:8999/displays/demo/3-示例/02-小示例/11-自行实现的切换开关.jpg",
-                "toolTip": "http://localhost:8999/displays/demo/3-示例/02-小示例/11-自行实现的切换开关.jpg",
-                "text": "11-自行实现的切换开关",
-                "iconDrawable": {
-                  "_image": "http://localhost:8999/displays/demo/3-示例/02-小示例/11-自行实现的切换开关.jpg",
-                  "_stretch": "uniform",
-                  "_colorTint": "rgb(235,245,255)"
-                }
-              },
-              {
-                "icon": "http://localhost:8999/displays/demo/3-示例/02-小示例/12-注册正则表达式（代码块）.jpg",
-                "toolTip": "http://localhost:8999/displays/demo/3-示例/02-小示例/12-注册正则表达式（代码块）.jpg",
-                "text": "12-注册正则表达式（代码块）",
-                "iconDrawable": {
-                  "_image": "http://localhost:8999/displays/demo/3-示例/02-小示例/12-注册正则表达式（代码块）.jpg",
-                  "_stretch": "uniform",
-                  "_colorTint": "rgb(235,245,255)"
-                }
-              },
-              {
-                "icon": "http://localhost:8999/displays/demo/3-示例/02-小示例/14-接口查询返回下拉级联.jpg",
-                "toolTip": "http://localhost:8999/displays/demo/3-示例/02-小示例/14-接口查询返回下拉级联.jpg",
-                "text": "14-接口查询返回下拉级联",
-                "iconDrawable": {
-                  "_image": "http://localhost:8999/displays/demo/3-示例/02-小示例/14-接口查询返回下拉级联.jpg",
-                  "_stretch": "uniform",
-                  "_colorTint": "rgb(235,245,255)"
-                }
-              },
-              {
-                "icon": "http://localhost:8999/displays/demo/3-示例/02-小示例/15-接口数据给树表.jpg",
-                "toolTip": "http://localhost:8999/displays/demo/3-示例/02-小示例/15-接口数据给树表.jpg",
-                "text": "15-接口数据给树表",
-                "iconDrawable": {
-                  "_image": "http://localhost:8999/displays/demo/3-示例/02-小示例/15-接口数据给树表.jpg",
-                  "_stretch": "uniform",
-                  "_colorTint": "rgb(235,245,255)"
-                }
-              },
-              {
-                "icon": "http://localhost:8999/displays/demo/3-示例/02-小示例/16-接口数据给统计曲线图.jpg",
-                "toolTip": "http://localhost:8999/displays/demo/3-示例/02-小示例/16-接口数据给统计曲线图.jpg",
-                "text": "16-接口数据给统计曲线图",
-                "iconDrawable": {
-                  "_image": "http://localhost:8999/displays/demo/3-示例/02-小示例/16-接口数据给统计曲线图.jpg",
-                  "_stretch": "uniform",
-                  "_colorTint": "rgb(235,245,255)"
-                }
-              },
-              {
-                "icon": "http://localhost:8999/displays/demo/3-示例/02-小示例/19-接口数据给到饼状图.jpg",
-                "toolTip": "http://localhost:8999/displays/demo/3-示例/02-小示例/19-接口数据给到饼状图.jpg",
-                "text": "19-接口数据给到饼状图",
-                "iconDrawable": {
-                  "_image": "http://localhost:8999/displays/demo/3-示例/02-小示例/19-接口数据给到饼状图.jpg",
-                  "_stretch": "uniform",
-                  "_colorTint": "rgb(235,245,255)"
-                }
-              },
-              {
-                "icon": "http://localhost:8999/displays/demo/3-示例/02-小示例/20-JSON数据解析提取.jpg",
-                "toolTip": "http://localhost:8999/displays/demo/3-示例/02-小示例/20-JSON数据解析提取.jpg",
-                "text": "20-JSON数据解析提取",
-                "iconDrawable": {
-                  "_image": "http://localhost:8999/displays/demo/3-示例/02-小示例/20-JSON数据解析提取.jpg",
-                  "_stretch": "uniform",
-                  "_colorTint": "rgb(235,245,255)"
-                }
-              },
-              {
-                "icon": "http://localhost:8999/displays/demo/3-示例/02-小示例/21-表格批量勾选交互.jpg",
-                "toolTip": "http://localhost:8999/displays/demo/3-示例/02-小示例/21-表格批量勾选交互.jpg",
-                "text": "21-表格批量勾选交互",
-                "iconDrawable": {
-                  "_image": "http://localhost:8999/displays/demo/3-示例/02-小示例/21-表格批量勾选交互.jpg",
-                  "_stretch": "uniform",
-                  "_colorTint": "rgb(235,245,255)"
-                }
-              },
-              {
-                "icon": "http://localhost:8999/displays/demo/3-示例/02-小示例/22-矢量图形交互连线.jpg",
-                "toolTip": "http://localhost:8999/displays/demo/3-示例/02-小示例/22-矢量图形交互连线.jpg",
-                "text": "22-矢量图形交互连线",
-                "iconDrawable": {
-                  "_image": "http://localhost:8999/displays/demo/3-示例/02-小示例/22-矢量图形交互连线.jpg",
-                  "_stretch": "uniform",
-                  "_colorTint": "rgb(235,245,255)"
-                }
-              },
-              {
-                "icon": "http://localhost:8999/displays/demo/3-示例/02-小示例/23-表单获取和表单写入.jpg",
-                "toolTip": "http://localhost:8999/displays/demo/3-示例/02-小示例/23-表单获取和表单写入.jpg",
-                "text": "23-表单获取和表单写入",
-                "iconDrawable": {
-                  "_image": "http://localhost:8999/displays/demo/3-示例/02-小示例/23-表单获取和表单写入.jpg",
-                  "_stretch": "uniform",
-                  "_colorTint": "rgb(235,245,255)"
-                }
-              },
-              {
-                "icon": "http://localhost:8999/displays/demo/3-示例/02-小示例/24-表单数据双向读写.jpg",
-                "toolTip": "http://localhost:8999/displays/demo/3-示例/02-小示例/24-表单数据双向读写.jpg",
-                "text": "24-表单数据双向读写",
-                "iconDrawable": {
-                  "_image": "http://localhost:8999/displays/demo/3-示例/02-小示例/24-表单数据双向读写.jpg",
-                  "_stretch": "uniform",
-                  "_colorTint": "rgb(235,245,255)"
-                }
-              },
-              {
-                "icon": "http://localhost:8999/displays/demo/3-示例/02-小示例/26-获取表单数据.jpg",
-                "toolTip": "http://localhost:8999/displays/demo/3-示例/02-小示例/26-获取表单数据.jpg",
-                "text": "26-获取表单数据",
-                "iconDrawable": {
-                  "_image": "http://localhost:8999/displays/demo/3-示例/02-小示例/26-获取表单数据.jpg",
-                  "_stretch": "uniform",
-                  "_colorTint": "rgb(235,245,255)"
-                }
-              },
-              {
-                "icon": "http://localhost:8999/displays/demo/3-示例/02-小示例/初体验：嵌套页面交互.jpg",
-                "toolTip": "http://localhost:8999/displays/demo/3-示例/02-小示例/初体验：嵌套页面交互.jpg",
-                "text": "初体验：嵌套页面交互",
-                "iconDrawable": {
-                  "_image": "http://localhost:8999/displays/demo/3-示例/02-小示例/初体验：嵌套页面交互.jpg",
-                  "_stretch": "uniform",
-                  "_colorTint": "rgb(235,245,255)"
-                }
-              },
-              {
-                "icon": "http://localhost:8999/displays/demo/3-示例/02-小示例/初体验：扇叶图标旋转.jpg",
-                "toolTip": "http://localhost:8999/displays/demo/3-示例/02-小示例/初体验：扇叶图标旋转.jpg",
-                "text": "初体验：扇叶图标旋转",
-                "iconDrawable": {
-                  "_image": "http://localhost:8999/displays/demo/3-示例/02-小示例/初体验：扇叶图标旋转.jpg",
-                  "_stretch": "uniform",
-                  "_colorTint": "rgb(235,245,255)"
-                }
-              },
-              {
-                "icon": "http://localhost:8999/displays/demo/3-示例/02-小示例/初体验：计算器按键.jpg",
-                "toolTip": "http://localhost:8999/displays/demo/3-示例/02-小示例/初体验：计算器按键.jpg",
-                "text": "初体验：计算器按键",
-                "iconDrawable": {
-                  "_image": "http://localhost:8999/displays/demo/3-示例/02-小示例/初体验：计算器按键.jpg",
-                  "_stretch": "uniform",
-                  "_colorTint": "rgb(235,245,255)"
-                }
-              },
-              {
-                "icon": "http://localhost:8999/displays/demo/3-示例/02-小示例/初体验：颜色随机显示.jpg",
-                "toolTip": "http://localhost:8999/displays/demo/3-示例/02-小示例/初体验：颜色随机显示.jpg",
-                "text": "初体验：颜色随机显示",
-                "iconDrawable": {
-                  "_image": "http://localhost:8999/displays/demo/3-示例/02-小示例/初体验：颜色随机显示.jpg",
-                  "_stretch": "uniform",
-                  "_colorTint": "rgb(235,245,255)"
-                }
-              }
-            ]
-          }
+              ]
+            }
+          ]
         ],
         "iconSize": [
           190,
@@ -466,10 +853,11 @@
     },
     {
       "c": "ht.UNode",
-      "i": 66160,
+      "i": 71138,
       "p": {
         "name": "cbtn",
         "displayName": "图片按钮（cbtn1）",
+        "toolTip": "<p style='color:rgb(242,83,75);margin-top:5px;margin-bottom:5px;font-weight:bold;line-height:1.5em;'>已被布局，不允许拖动（shift+回车可解除）</p>",
         "tag": "cbtn1",
         "dataBindings": {
           "a": {
@@ -769,6 +1157,9 @@
           ],
           "uuid": "A6BC8015-5BC8-4E24-855E-4F33C19723F6"
         },
+        "host": {
+          "__i": 71136
+        },
         "position": {
           "x": 26.09121,
           "y": 22.11653
@@ -782,7 +1173,10 @@
         "label.offset.x": -10,
         "label.offset.y": 0,
         "label.color": "rgb(61,61,61)",
-        "interactive": true
+        "interactive": true,
+        "2d.movable": false,
+        "layout.h": "left",
+        "layout.v": "top"
       },
       "a": {
         "icon-background": "rgb(51,153,255)",
@@ -800,7 +1194,7 @@
       }
     }
   ],
-  "modified": "Sun Oct 27 2024 09:26:47 GMT+0800 (中国标准时间)",
+  "modified": "Wed Jan 01 2025 16:41:05 GMT+0800 (中国标准时间)",
   "contentRect": {
     "x": -26.54157,
     "y": -4.06905,

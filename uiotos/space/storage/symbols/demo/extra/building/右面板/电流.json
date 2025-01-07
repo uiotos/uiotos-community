@@ -1,0 +1,44 @@
+{
+  "modified": "Wed Jul 31 2024 18:09:57 GMT+0800 (中国标准时间)",
+  "background": "rgb(32,37,46)",
+  "dataBindings": [
+    {
+      "attr": "borderColor",
+      "valueType": "Color",
+      "defaultValue": "rgb(255,255,255)",
+      "name": "颜色"
+    }
+  ],
+  "width": 100,
+  "height": 60,
+  "comps": [
+    {
+      "type": "shape",
+      "borderWidth": 3,
+      "borderColor": {
+        "func": "attr@borderColor",
+        "value": "rgb(255,255,255)"
+      },
+      "pixelPerfect": true,
+      "displayName": "Shape（Shape2）",
+      "points": [
+        9.3261,
+        28.72894,
+        27.16627,
+        28.72894,
+        32.20517,
+        45.25271,
+        42.37364,
+        3.30776,
+        55.08424,
+        56.69224,
+        65.25271,
+        14.74729,
+        71.60801,
+        31.27106,
+        90.6739,
+        31.27106
+      ]
+    }
+  ]
+}

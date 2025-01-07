@@ -1,0 +1,185 @@
+{
+    "modified": "Fri Oct 14 2022 23:02:28 GMT+0800 (中国标准时间)",
+    "background": "rgb(32,37,46)",
+    "dataBindings": [{
+            "attr": "value",
+            "valueType": "String"
+        },
+        {
+            "attr": "activeBorderColor",
+            "valueType": "Color",
+            "defaultValue": "rgb(51,153,255)"
+        },
+        {
+            "attr": "background",
+            "valueType": "Color"
+        },
+        {
+            "attr": "activeReadOnlyBackground",
+            "valueType": "Color"
+        },
+        {
+            "attr": "hoverReadOnlyBackground",
+            "valueType": "Color"
+        },
+        {
+            "attr": "hoverIcon",
+            "valueType": "Color"
+        },
+        {
+            "attr": "color",
+            "valueType": "Color"
+        },
+        {
+            "attr": "borderRadius",
+            "valueType": "Number",
+            "defaultValue": 3
+        },
+        {
+            "attr": "borderWidth",
+            "valueType": "Number",
+            "defaultValue": 1
+        },
+        {
+            "attr": "borderColor",
+            "valueType": "Color",
+            "defaultValue": "rgb(213,213,213)"
+        },
+        {
+            "attr": "font",
+            "valueType": "Font"
+        },
+        {
+            "attr": "dataTreeSource",
+            "valueType": "Object",
+            "defaultValue": [{
+                    "id": "Button",
+                    "name": "Button",
+                    "children": [{
+                            "id": "ToggleButton",
+                            "name": "ToggleButton",
+                            "children": [{
+                                    "id": "CheckBox",
+                                    "name": "CheckBox"
+                                },
+                                {
+                                    "id": "RadioButton",
+                                    "name": "RadioButton"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "MenuButton",
+                            "name": "MenuButton"
+                        }
+                    ]
+                },
+                {
+                    "id": "TextField",
+                    "name": "TextField",
+                    "children": [{
+                            "id": "ComboBox",
+                            "name": "ComboBox"
+                        },
+                        {
+                            "id": "NumberInput",
+                            "name": "NumberInput"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "attr": "dataListSource",
+            "valueType": "Object",
+            "defaultValue": [{
+                    "id": 0,
+                    "icon": "assets/demo/extra/desktop/我的设备.png",
+                    "label": "首页"
+                },
+                {
+                    "id": 1,
+                    "icon": "assets/demo/extra/desktop/我的设备/显示器.png",
+                    "label": "AIOTOS"
+                },
+                {
+                    "id": 2,
+                    "icon": "assets/demo/extra/desktop/我的设备/云服务器01.png",
+                    "label": "IOTOS"
+                },
+                {
+                    "id": 3,
+                    "icon": "assets/demo/extra/desktop/我的设备/NAT网关.png",
+                    "label": "通信网关"
+                },
+                {
+                    "id": 4,
+                    "icon": "assets/demo/extra/desktop/我的设备/设备2.png",
+                    "label": "设备实例"
+                },
+                {
+                    "id": 5,
+                    "icon": "assets/demo/extra/desktop/我的设备/类型.png",
+                    "label": "设备类型"
+                },
+                {
+                    "id": 6,
+                    "icon": "assets/demo/extra/desktop/我的设备/列表设置.png",
+                    "label": "数据点表"
+                },
+                {
+                    "id": 7,
+                    "icon": "assets/demo/extra/desktop/我的设备/驱动.png",
+                    "label": "设备驱动"
+                }
+            ]
+        },
+        {
+            "attr": "readOnly",
+            "valueType": "Boolean"
+        },
+        {
+            "attr": "onChange",
+            "valueType": "Function",
+            "defaultValue": "__ht__function(data,text){\r\n    window.appNotifier.fire({\r\n        kind: 'viewData',\r\n        para: {\r\n            type: 'ui',\r\n            data: text,\r\n            info:{\r\n                tag:'listHeader'\r\n            }\r\n        }\r\n    })\r\n}"
+        },
+        {
+            "attr": "treeDropDown",
+            "valueType": "Boolean"
+        },
+        {
+            "attr": "placeholder",
+            "valueType": "String",
+            "defaultValue": "关键词"
+        },
+        {
+            "attr": "labelColor",
+            "valueType": "Color",
+            "defaultValue": "rgb(0,0,0)"
+        },
+        {
+            "attr": "labelText",
+            "valueType": "String",
+            "defaultValue": "下拉框"
+        },
+        {
+            "attr": "gap",
+            "valueType": "PositiveNumber",
+            "defaultValue": 15
+        },
+        {
+            "attr": "layoutVertical",
+            "valueType": "Boolean",
+            "defaultValue": false
+        }
+    ],
+    "snapshotURL": "symbols/admin/uiotos/icons/snapshot/combobox.json",
+    "renderHTML": "__ht__function(data, gv, cache) {return __boxlayout_ui(data,gv,cache);}",
+    "width": 600,
+    "height": 400,
+    "fitSize": true,
+    "scrollable": true,
+    "interactive": true,
+    "pixelPerfect": false,
+    "comps": []
+}

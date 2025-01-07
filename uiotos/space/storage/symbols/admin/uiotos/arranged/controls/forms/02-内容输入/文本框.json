@@ -1,0 +1,221 @@
+{
+  "modified": "Sat Aug 24 2024 20:49:51 GMT+0800 (中国标准时间)",
+  "dataBindings": [
+    {
+      "attr": "symbol",
+      "valueType": "Image"
+    },
+    {
+      "attr": "value",
+      "valueType": "Object",
+      "description": "当前值。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#qa1D8\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+      "group": "功能",
+      "defaultValue": ""
+    },
+    {
+      "attr": "htmlContent",
+      "valueType": "Boolean",
+      "defaultValue": false,
+      "description": "值内容输入html文本并加载显示。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#IvTuM\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+      "extraInfo": "*"
+    },
+    {
+      "attr": "readOnly",
+      "valueType": "Boolean",
+      "description": "是否只读。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#IvTuM\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+      "extraInfo": "★"
+    },
+    {
+      "attr": "initialTrigger",
+      "valueType": "Boolean",
+      "defaultValue": false,
+      "description": "加载时触发连线执行。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#md2dN\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+      "extraInfo": "*"
+    },
+    {
+      "attr": "instantTrigger",
+      "valueType": "Boolean",
+      "defaultValue": true,
+      "extraInfo": "★",
+      "description": "输入过程即时触发连线执行。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#V1qLT\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>"
+    },
+    {
+      "attr": "userData",
+      "valueType": "Object",
+      "defaultValue": []
+    },
+    {
+      "attr": "onChange",
+      "valueType": "Function",
+      "extraInfo": {
+        "arguments": [
+          "data",
+          "gv",
+          "cache",
+          "value",
+          "extra"
+        ]
+      },
+      "description": "值改变事件。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#CJ4Rw\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>"
+    },
+    {
+      "attr": "shadowBorder",
+      "valueType": "NumberArray",
+      "defaultValue": [
+        0,
+        0,
+        8
+      ],
+      "description": "",
+      "group": "外观",
+      "extraInfo": "*"
+    },
+    {
+      "attr": "shadowColor",
+      "valueType": "Color",
+      "defaultValue": "rgba(55,125,255,0.50)",
+      "extraInfo": "*"
+    },
+    {
+      "attr": "shadowEnabled",
+      "valueType": "Boolean",
+      "defaultValue": true,
+      "extraInfo": "*"
+    },
+    {
+      "attr": "borderRadius",
+      "valueType": "Number",
+      "defaultValue": 3,
+      "description": "边框圆角半径。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#bMgX5\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>"
+    },
+    {
+      "attr": "borderWidth",
+      "valueType": "Number",
+      "defaultValue": 1,
+      "description": "边框宽度。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#ACuGo\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>"
+    },
+    {
+      "attr": "padding",
+      "valueType": "NumberArray",
+      "defaultValue": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "description": "内容与四周的间距。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#PbK6C\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+      "extraInfo": "★"
+    },
+    {
+      "attr": "borderColor",
+      "valueType": "ColorArray",
+      "defaultValue": [
+        "rgb(213,213,213)",
+        "rgb(55,125,255)"
+      ],
+      "description": "边框线颜色。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#jP6N2\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>\n<br>索引0：默认边框颜色；\n<br>索引1：输入时边框颜色。"
+    },
+    {
+      "attr": "background",
+      "valueType": "ColorArray",
+      "defaultValue": [
+        "rgb(255,255,255)",
+        "rgb(247,247,247)"
+      ],
+      "description": "背景色。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#XvcST\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>\n<br>索引0为默认背景色。索引1为禁用背景色。"
+    },
+    {
+      "attr": "color",
+      "valueType": "ColorArray",
+      "description": "文本颜色。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#X0992\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>\n<br>索引0：输入内容文字颜色。\n<br>索引1：标签文字颜色。",
+      "defaultValue": [
+        "rgb(0,0,0)",
+        "rgb(61,61,61)"
+      ]
+    },
+    {
+      "attr": "font",
+      "valueType": "Font",
+      "description": "字体。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#BaY0c\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>"
+    },
+    {
+      "attr": "placeholder",
+      "valueType": "String",
+      "defaultValue": "请输入",
+      "description": "未输入时默认占位符文字。<a href=\"https://www.yuque.com/liuhuo-nc809/uiotos/mttyppid7d9y7sqk#Cuiq9\" style=\"color:rgb(96,172,252)\" target=\"_blank\">详情</a>",
+      "extraInfo": "★"
+    },
+    {
+      "attr": "labelText",
+      "valueType": "String",
+      "defaultValue": "标签",
+      "description": ""
+    },
+    {
+      "attr": "labelEmbeded",
+      "valueType": "Boolean",
+      "extraInfo": "★"
+    },
+    {
+      "attr": "layoutVertical",
+      "valueType": "Boolean",
+      "defaultValue": false,
+      "description": "",
+      "extraInfo": "★"
+    },
+    {
+      "attr": "gap",
+      "valueType": "PositiveNumber",
+      "defaultValue": 10,
+      "description": "",
+      "extraInfo": "★"
+    },
+    {
+      "attr": "bindControlsTag",
+      "valueType": "StringArray",
+      "group": "连线"
+    },
+    {
+      "attr": "bindControlsAttr",
+      "valueType": "StringArray"
+    },
+    {
+      "attr": "bindControlsVal",
+      "valueType": "ObjectArray"
+    },
+    {
+      "attr": "paramControlTag",
+      "valueType": "StringArray"
+    },
+    {
+      "attr": "paramControlAttr",
+      "valueType": "StringArray"
+    },
+    {
+      "attr": "paramsGenerator",
+      "valueType": "Function",
+      "defaultValue": "__ht__function(data, val, index, node,oldVal,form,type,inner) {//绑定组索引对应的函数处理，用来动态生成复杂的参数变量传入\r\nswitch(index){\r\n    case 0:\r\n        break;\r\n    case 1:\r\n        break;\r\n    case 2:\r\n        break;\r\n    default:\r\n        break;\r\n}\r\n\r\nreturn val;}",
+      "extraInfo": {
+        "arguments": [
+          "data",
+          "val",
+          "index",
+          "node",
+          "oldVal",
+          "form",
+          "type",
+          "inner"
+        ],
+        "classify": "*"
+      }
+    }
+  ],
+  "snapshotURL": "symbols/develop/uiotos/arranged/controls/forms_icon/文本框.json",
+  "renderHTML": "__ht__function(data, gv, cache) {return __textArea_ui(data,gv,cache);}",
+  "width": 300,
+  "height": 100,
+  "scrollable": true,
+  "interactive": true,
+  "pixelPerfect": false,
+  "comps": []
+}

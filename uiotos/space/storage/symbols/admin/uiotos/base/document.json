@@ -1,0 +1,115 @@
+{
+  "modified": "Sat Aug 24 2024 13:17:50 GMT+0800 (中国标准时间)",
+  "dataBindings": [
+    {
+      "attr": "symbol",
+      "valueType": "Image"
+    },
+    {
+      "attr": "content",
+      "valueType": "Multiline",
+      "group": "功能",
+      "description": "文本内容 。"
+    },
+    {
+      "attr": "readOnly",
+      "valueType": "Boolean",
+      "defaultValue": false,
+      "description": "整体不可被编辑，可同时包括markdown和预览的html",
+      "extraInfo": "★"
+    },
+    {
+      "attr": "preview",
+      "valueType": "Boolean",
+      "defaultValue": false,
+      "description": "切换开关，预览时只显示html内容（不可被编辑）"
+    },
+    {
+      "attr": "watch",
+      "valueType": "Boolean",
+      "defaultValue": true,
+      "description": "默认勾选。\n<br>当勾选时，预览时可被编辑也可显示html内容。\n<br>当不勾选时，预览时可被编辑但不可显示html内容。"
+    },
+    {
+      "attr": "darkMode",
+      "valueType": "Boolean",
+      "defaultValue": false,
+      "description": "预览主题深色模式。\n<br>默认浅色，勾选后为深色模式。"
+    },
+    {
+      "attr": "hideToolbar",
+      "valueType": "Boolean",
+      "description": "是否隐藏工具栏。"
+    },
+    {
+      "attr": "useAttrCORS",
+      "valueType": "Boolean",
+      "defaultValue": false,
+      "extraInfo": "*"
+    },
+    {
+      "attr": "userData",
+      "valueType": "Object",
+      "defaultValue": []
+    },
+    {
+      "attr": "onChange",
+      "valueType": "Function",
+      "extraInfo": {
+        "arguments": [
+          "data",
+          "gv",
+          "cache",
+          "value",
+          "extra"
+        ]
+      }
+    },
+    {
+      "attr": "bindControlsTag",
+      "valueType": "StringArray",
+      "group": "连线"
+    },
+    {
+      "attr": "bindControlsAttr",
+      "valueType": "StringArray"
+    },
+    {
+      "attr": "bindControlsVal",
+      "valueType": "StringArray"
+    },
+    {
+      "attr": "paramControlTag",
+      "valueType": "StringArray"
+    },
+    {
+      "attr": "paramControlAttr",
+      "valueType": "StringArray"
+    },
+    {
+      "attr": "paramsGenerator",
+      "valueType": "Function",
+      "defaultValue": "__ht__function(data, val, index, node,oldVal,form,type,inner) {//绑定组索引对应的函数处理，用来动态生成复杂的参数变量传入\r\nswitch(index){\r\n    case 0:\r\n        break;\r\n    case 1:\r\n        break;\r\n    case 2:\r\n        break;\r\n    default:\r\n        break;\r\n}\r\n\r\nreturn val;}",
+      "extraInfo": {
+        "arguments": [
+          "data",
+          "val",
+          "index",
+          "node",
+          "oldVal",
+          "form",
+          "type",
+          "inner"
+        ],
+        "classify": "*"
+      }
+    }
+  ],
+  "snapshotURL": "symbols/develop/uiotos/arranged/controls/forms_icon/文档编辑器.json",
+  "renderHTML": "__ht__function(data, gv, cache) {return __doc(data,gv,cache);}",
+  "width": 1024,
+  "height": 600,
+  "interactive": true,
+  "pixelPerfect": false,
+  "comps": []
+}

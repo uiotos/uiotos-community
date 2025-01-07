@@ -1,0 +1,134 @@
+{
+    "modified": "Fri Dec 13 2019 20:54:14 GMT+0800 (中国标准时间)",
+    "background": "rgb(32,37,46)",
+    "dataBindings": [{
+            "attr": "ht.background",
+            "valueType": "Color",
+            "defaultValue": "rgb(0,0,0)",
+            "name": "UIBackground",
+            "group": "折线"
+        },
+        {
+            "attr": "initData",
+            "valueType": "ObjectArray",
+            "defaultValue": [],
+            "group": "折线"
+        },
+        {
+            "attr": "count",
+            "valueType": "PositiveNumber",
+            "defaultValue": 10,
+            "name": "ChartMaxVisiblePoint",
+            "group": "折线"
+        },
+        {
+            "attr": "dataPoint",
+            "valueType": "Object",
+            "name": "数据绑定",
+            "group": "折线"
+        },
+        {
+            "attr": "lineSmooth",
+            "valueType": "Boolean",
+            "defaultValue": false,
+            "name": "线平滑",
+            "group": "折线"
+        },
+        {
+            "attr": "areaColor",
+            "valueType": "Color",
+            "defaultValue": "rgb(51,153,255)",
+            "name": "区域色",
+            "group": "折线"
+        },
+        {
+            "attr": "name",
+            "valueType": "String",
+            "name": "名称",
+            "group": "折线"
+        }
+    ],
+    "width": 300,
+    "height": 200,
+    "fitSize": true,
+    "scrollable": true,
+    "interactive": true,
+    "disableSelectedBorder": true,
+    "pixelPerfect": false,
+    "comps": [{
+        "type": "components/develop/uiotos/base/timeAxisChart.json",
+        "displayName": "timeAxisChart",
+        "rect": [
+            0,
+            0,
+            300,
+            200
+        ],
+        "onClick": "__ht__function(event, data, view, point, width, height) {\nht.vector.timeAxisChartInteractor.onClick.apply(this, arguments);\n}",
+        "onDown": "__ht__function(event, data, view, point, width, height) {\nht.vector.timeAxisChartInteractor.onDown.apply(this, arguments);\n}",
+        "onUp": "__ht__function(event, data, view, point, width, height) {\nht.vector.timeAxisChartInteractor.onUp.apply(this, arguments);\n}",
+        "onMove": "__ht__function(event, data, view, point, width, height) {\nht.vector.timeAxisChartInteractor.onMove.apply(this, arguments);\n}",
+        "onEnter": "__ht__function(event, data, view, point, width, height) {\nht.vector.timeAxisChartInteractor.onEnter.apply(this, arguments);\n}",
+        "onLeave": "__ht__function(event, data, view, point, width, height) {\nht.vector.timeAxisChartInteractor.onLeave.apply(this, arguments);\n}",
+        "onBeginDrag": "__ht__function(event, data, view, point, width, height) {\nht.vector.timeAxisChartInteractor.onBeginDrag.apply(this, arguments);\n}",
+        "onDrag": "__ht__function(event, data, view, point, width, height) {\nht.vector.timeAxisChartInteractor.onDrag.apply(this, arguments);\n}",
+        "onEndDrag": "__ht__function(event, data, view, point, width, height) {\nht.vector.timeAxisChartInteractor.onEndDrag.apply(this, arguments);\n}",
+        "series": {
+            "func": "__ht__function(data, view) {\nvar newData = data.a(\"dataPoint\")\r\nvar currentData = data.a(\"initData\")\r\n// console.warn(newData)\r\n// console.warn(currentData)\r\nif (newData && newData.hasOwnProperty(\"ts\")) {\r\nvar newObj = [newData.ts, newData.val]\r\n// console.warn(newObj)\r\nvar flagtmp = true\r\nif(currentData.length)\r\n    flagtmp = currentData[currentData.length - 1][0] != newObj[0]\r\n    // console.warn(flagtmp)\r\n// console.warn(flagtmp)\r\nif (flagtmp) {\r\n    if(currentData.length >= data.a('count'))\r\n        currentData.splice(0,1)\r\n    currentData.push(newObj)\r\n    data.a('initData',currentData)\r\n}\r\n}\r\nreturn [{\r\n\"type\": \"line\",\r\n\"name\": data.a('name'),\r\n\"itemStyle\": {\r\n    \"size\": 3\r\n},\r\naxisLine: {\r\n    lineStyle: {\r\n        type: 'solid',\r\n        color: '#fff',//左边线的颜色\r\n        width:'3'//坐标线的宽度\r\n    }\r\n},\r\naxisLabel: {\r\n    textStyle: {\r\n        color: '#fff',//坐标值得具体的颜色\r\n\r\n    }\r\n},\r\n\"smooth\": data.a(\"lineSmooth\"),\r\n\"areaStyle\": {\r\n    \"color\": {\r\n    \"type\": \"linear\",\r\n    \"x\": 0,\r\n    \"y\": 0,\r\n    \"x2\": 0,\r\n    \"y2\": 1,\r\n    \"colorStops\": [{\r\n        \"offset\": 0,\r\n        \"color\": data.a(\"areaColor\")\r\n        },\r\n        {\r\n        \"offset\": 1,\r\n        \"color\": \"rgba(25,41,79,0.10)\"\r\n        }\r\n    ],\r\n    \"opacity\": 0.08,\r\n    \"global\": false\r\n    }\r\n},\r\n\"data\": currentData\r\n}]\n}",
+            "value": [{
+                "type": "line",
+                "name": "温度",
+                "itemStyle": {
+                    "size": 3
+                },
+                "data": [
+                    [
+                        1566291297491,
+                        466
+                    ],
+                    [
+                        1566291657491,
+                        443
+                    ],
+                    [
+                        1566292017491,
+                        439
+                    ],
+                    [
+                        1566292377491,
+                        346
+                    ],
+                    [
+                        1566292737491,
+                        260
+                    ],
+                    [
+                        1566293097491,
+                        216
+                    ],
+                    [
+                        1566293457491,
+                        202
+                    ],
+                    [
+                        1566293817491,
+                        148
+                    ],
+                    [
+                        1566294177491,
+                        81
+                    ],
+                    [
+                        1566294537491,
+                        2
+                    ]
+                ]
+            }]
+        },
+        "xAxisRange": [],
+        "maxVisiblePoint": {
+            "func": "attr@count",
+            "value": 500
+        }
+    }]
+}

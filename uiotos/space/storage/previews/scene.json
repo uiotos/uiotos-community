@@ -1,0 +1,625 @@
+{
+  "v": "7.7.5",
+  "p": {
+    "background": "rgb(255,255,255)",
+    "autoAdjustIndex": true,
+    "hierarchicalRendering": true,
+    "postProcessingData": {
+      "huesaturation": {
+        "hue": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "saturation": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "lightness": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "bloom": {},
+      "glitch": {}
+    }
+  },
+  "a": {
+    "sceneBloom": false,
+    "sceneGlitch": false
+  },
+  "d": [
+    {
+      "c": "ht.Node",
+      "i": 24209,
+      "p": {
+        "position": {
+          "x": 255.10541,
+          "y": 62.98207
+        },
+        "anchorElevation": 0,
+        "width": 587.55095,
+        "height": 349.88989,
+        "tall": 1,
+        "elevation": 400
+      },
+      "s": {
+        "all.color": null,
+        "all.reverse.flip": true,
+        "top.image": "assets/develop/uiotos/拓扑图/1.png",
+        "all.reverse.color": null,
+        "front.transparent": false,
+        "back.transparent": false,
+        "left.transparent": false,
+        "right.transparent": false,
+        "top.transparent": false,
+        "bottom.transparent": false,
+        "wf.color": null,
+        "envmap": 1,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 24210,
+      "p": {
+        "position": {
+          "x": -38.67006,
+          "y": 62.98207
+        },
+        "anchorElevation": 0,
+        "width": 587.55095,
+        "height": 552.57902,
+        "tall": 1,
+        "elevation": 200
+      },
+      "s": {
+        "all.color": null,
+        "all.reverse.flip": true,
+        "top.image": "assets/develop/uiotos/拓扑图/2.png",
+        "all.reverse.color": null,
+        "front.transparent": false,
+        "back.transparent": false,
+        "left.transparent": false,
+        "right.transparent": false,
+        "top.transparent": false,
+        "bottom.transparent": false,
+        "wf.color": null,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 24211,
+      "p": {
+        "position": {
+          "x": -417.81103,
+          "y": 33.8099
+        },
+        "anchorElevation": 0,
+        "width": 121.12541,
+        "height": 181.03387,
+        "tall": 1,
+        "elevation": 72.78095
+      },
+      "s": {
+        "all.color": null,
+        "all.reverse.flip": true,
+        "all.reverse.color": null,
+        "front.transparent": false,
+        "back.transparent": false,
+        "left.transparent": false,
+        "right.transparent": false,
+        "top.transparent": false,
+        "bottom.transparent": false,
+        "wf.color": null,
+        "top.image": "assets/develop/uiotos/拓扑图/3.png",
+        "shadow.receive": false,
+        "shadow.cast": false,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 24212,
+      "p": {
+        "position": {
+          "x": -145.43077,
+          "y": 248.20462
+        },
+        "anchorElevation": 0,
+        "width": 587.55095,
+        "height": 212.70701,
+        "tall": 1,
+        "elevation": 73
+      },
+      "s": {
+        "all.color": null,
+        "all.reverse.flip": true,
+        "top.image": "assets/develop/uiotos/拓扑图/4.png",
+        "all.reverse.color": null,
+        "front.transparent": false,
+        "back.transparent": false,
+        "left.transparent": false,
+        "right.transparent": false,
+        "top.transparent": false,
+        "bottom.transparent": false,
+        "wf.color": null,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Polyline",
+      "i": 24213,
+      "p": {
+        "position": {
+          "x": -145.34763,
+          "y": 66.21906
+        },
+        "width": 494.34997,
+        "height": 55.38256,
+        "tall": 327,
+        "elevation": 236.5,
+        "segments": {
+          "__a": [
+            1,
+            4,
+            4
+          ]
+        },
+        "points": {
+          "__a": [
+            {
+              "x": -392.52262,
+              "y": 93.76178,
+              "e": 73
+            },
+            {
+              "x": -392.13021,
+              "y": 93.91034,
+              "e": 73
+            },
+            {
+              "x": -163.60374,
+              "y": 63.50758,
+              "e": 200.96065
+            },
+            {
+              "x": -146.16725,
+              "y": 63.90052,
+              "e": 200.96065
+            },
+            {
+              "x": -136.75543,
+              "y": 64.11262,
+              "e": 200.96065
+            },
+            {
+              "x": 98.06085,
+              "y": 38.52778,
+              "e": 400
+            },
+            {
+              "x": 101.82735,
+              "y": 38.8768,
+              "e": 400
+            }
+          ]
+        },
+        "thickness": "0.5"
+      },
+      "s": {
+        "shape.border.width": 10,
+        "shape3d": "cylinder",
+        "shape3d.color": "rgb(55,125,255)",
+        "shape3d.top.color": "rgb(55,125,255)",
+        "shape3d.bottom.color": "rgb(55,125,255)",
+        "shape.border.color": "#BFBFBF",
+        "shape3d.side": 100,
+        "repeat.uv.length": 100,
+        "shape3d.transparent": true,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Polyline",
+      "i": 24214,
+      "p": {
+        "position": {
+          "x": 71.72317,
+          "y": 207.38763
+        },
+        "width": 472.37715,
+        "height": 99.61849,
+        "tall": 327,
+        "elevation": 236.5,
+        "segments": {
+          "__a": [
+            1,
+            4,
+            4
+          ]
+        },
+        "points": {
+          "__a": [
+            {
+              "x": -163.0121,
+              "y": 257.19687,
+              "e": 73
+            },
+            {
+              "x": -164.4654,
+              "y": 257.19687,
+              "e": 73
+            },
+            {
+              "x": 62.20726,
+              "y": 173.91505,
+              "e": 200.96065
+            },
+            {
+              "x": 66.59421,
+              "y": 174.01391,
+              "e": 200.96065
+            },
+            {
+              "x": 72.7932,
+              "y": 174.15361,
+              "e": 200.96065
+            },
+            {
+              "x": 307.91175,
+              "y": 157.57838,
+              "e": 400
+            },
+            {
+              "x": 307.91175,
+              "y": 157.57838,
+              "e": 400
+            }
+          ]
+        },
+        "thickness": "0.5"
+      },
+      "s": {
+        "shape.border.width": 10,
+        "shape3d": "cylinder",
+        "shape3d.color": "rgb(55,125,255)",
+        "shape3d.top.color": "rgb(55,125,255)",
+        "shape3d.bottom.color": "rgb(55,125,255)",
+        "shape.border.color": "#BFBFBF",
+        "shape3d.side": 100,
+        "repeat.uv.length": 100,
+        "shape3d.transparent": true,
+        "shape3d.reverse.flip": true,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Polyline",
+      "i": 24215,
+      "p": {
+        "position": {
+          "x": -133.94983,
+          "y": -37.46908
+        },
+        "width": 302.36512,
+        "height": 0.56112,
+        "tall": 201.03935,
+        "elevation": 301.48032,
+        "segments": {
+          "__a": [
+            1,
+            4
+          ]
+        },
+        "points": {
+          "__a": [
+            {
+              "x": -285.13239,
+              "y": -37.40062,
+              "e": 200.96065
+            },
+            {
+              "x": -275.72057,
+              "y": -37.18852,
+              "e": 200.96065
+            },
+            {
+              "x": 13.46623,
+              "y": -37.74964,
+              "e": 402
+            },
+            {
+              "x": 17.23273,
+              "y": -37.40062,
+              "e": 402
+            }
+          ]
+        },
+        "thickness": "0.5"
+      },
+      "s": {
+        "shape.border.width": 10,
+        "shape3d": "cylinder",
+        "shape3d.color": "rgb(55,125,255)",
+        "shape3d.top.color": "rgb(55,125,255)",
+        "shape3d.bottom.color": "rgb(55,125,255)",
+        "shape.border.color": "#BFBFBF",
+        "shape3d.side": 100,
+        "repeat.uv.length": 100,
+        "shape3d.transparent": true,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 24216,
+      "p": {
+        "displayName": "billboard",
+        "rotationX": -1.5708,
+        "rotationMode": "zxy",
+        "position": {
+          "x": 74.4845,
+          "y": 214
+        },
+        "anchorElevation": 0,
+        "width": 178,
+        "height": 1,
+        "tall": 20,
+        "elevation": 402
+      },
+      "s": {
+        "all.color": "#DDDDDD",
+        "shape3d": "billboard",
+        "shape3d.image": "symbols/demo/大屏部件/文本/textEllipsis.json",
+        "shape3d.autorotate": false,
+        "shape3d.vector.dynamic": true,
+        "shape3d.fixSizeOnScreen": false,
+        "shape3d.transparent": true,
+        "shape3d.reverse.flip": true,
+        "2d.movable": false,
+        "3d.movable": false
+      },
+      "a": {
+        "icon-background": "#000000",
+        "icon-borderColor": "#000000",
+        "icon-borderWidth": 0,
+        "ht.vAlign": "middle",
+        "ht.color": "rgb(254,104,0)",
+        "ht.borderColor": "rgb(254,104,0)",
+        "ht.content": "前端开发不求人，项目交付快好省！",
+        "ht.borderWidth": 5,
+        "ht.font": "13px sans-serif, Arial",
+        "ht.background": "rgba(255,106,0,0)",
+        "ht.padding": "5"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 24217,
+      "p": {
+        "rotationX": -1.5708,
+        "rotationMode": "zxy",
+        "position": {
+          "x": -215,
+          "y": 168.48239
+        },
+        "anchorElevation": 0,
+        "width": 118,
+        "height": 1,
+        "tall": 25,
+        "elevation": 202
+      },
+      "s": {
+        "all.color": "#DDDDDD",
+        "shape3d": "billboard",
+        "shape3d.image": "symbols/demo/大屏部件/文本/textEllipsis.json",
+        "shape3d.autorotate": false,
+        "shape3d.vector.dynamic": true,
+        "shape3d.fixSizeOnScreen": false,
+        "shape3d.transparent": true,
+        "shape3d.reverse.flip": true,
+        "2d.movable": false,
+        "3d.movable": false
+      },
+      "a": {
+        "icon-background": "#000000",
+        "icon-borderColor": "#000000",
+        "icon-borderWidth": 0,
+        "ht.vAlign": "middle",
+        "ht.color": "rgb(254,104,0)",
+        "ht.borderColor": "rgba(255,106,0,0.5)",
+        "ht.content": "特性一：页面嵌套",
+        "ht.borderWidth": 5,
+        "ht.font": "13px sans-serif, Arial",
+        "ht.background": "rgba(255,106,0,0)",
+        "ht.padding": "5"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 24218,
+      "p": {
+        "displayName": "billboard",
+        "rotationX": -1.5708,
+        "rotationMode": "zxy",
+        "position": {
+          "x": -215,
+          "y": 191.53538
+        },
+        "anchorElevation": 0,
+        "width": 118,
+        "height": 1,
+        "tall": 25,
+        "elevation": 202
+      },
+      "s": {
+        "all.color": "#DDDDDD",
+        "shape3d": "billboard",
+        "shape3d.image": "symbols/demo/大屏部件/文本/textEllipsis.json",
+        "shape3d.autorotate": false,
+        "shape3d.vector.dynamic": true,
+        "shape3d.fixSizeOnScreen": false,
+        "shape3d.transparent": true,
+        "shape3d.reverse.flip": true,
+        "2d.movable": false,
+        "3d.movable": false
+      },
+      "a": {
+        "icon-background": "#000000",
+        "icon-borderColor": "#000000",
+        "icon-borderWidth": 0,
+        "ht.vAlign": "middle",
+        "ht.color": "rgb(254,104,0)",
+        "ht.borderColor": "rgba(255,106,0,0.5)",
+        "ht.content": "特性二：属性继承",
+        "ht.borderWidth": 5,
+        "ht.font": "13px sans-serif, Arial",
+        "ht.background": "rgba(255,106,0,0)",
+        "ht.padding": "5"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 24219,
+      "p": {
+        "rotationX": -1.5708,
+        "rotationMode": "zxy",
+        "position": {
+          "x": -215,
+          "y": 215.32425
+        },
+        "anchorElevation": 0,
+        "width": 118,
+        "height": 1,
+        "tall": 25,
+        "elevation": 202
+      },
+      "s": {
+        "all.color": "#DDDDDD",
+        "shape3d": "billboard",
+        "shape3d.image": "symbols/demo/大屏部件/文本/textEllipsis.json",
+        "shape3d.autorotate": false,
+        "shape3d.vector.dynamic": true,
+        "shape3d.fixSizeOnScreen": false,
+        "shape3d.transparent": true,
+        "shape3d.reverse.flip": true,
+        "2d.movable": false,
+        "3d.movable": false
+      },
+      "a": {
+        "icon-background": "#000000",
+        "icon-borderColor": "#000000",
+        "icon-borderWidth": 0,
+        "ht.vAlign": "middle",
+        "ht.color": "rgb(254,104,0)",
+        "ht.borderColor": "rgba(255,106,0,0.5)",
+        "ht.content": "特性三：节点连线",
+        "ht.borderWidth": 5,
+        "ht.font": "13px sans-serif, Arial",
+        "ht.background": "rgba(255,106,0,0)",
+        "ht.padding": "5"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 24220,
+      "p": {
+        "rotationX": -1.63449,
+        "rotationMode": "zxy",
+        "position": {
+          "x": 428.76556,
+          "y": 249.8261
+        },
+        "anchorElevation": 0,
+        "width": 250,
+        "height": 1,
+        "tall": 25,
+        "elevation": 290.16124
+      },
+      "s": {
+        "all.color": "#DDDDDD",
+        "shape3d": "billboard",
+        "shape3d.image": "symbols/demo/大屏部件/文本/textEllipsis.json",
+        "shape3d.autorotate": false,
+        "shape3d.vector.dynamic": true,
+        "shape3d.fixSizeOnScreen": false,
+        "shape3d.transparent": true,
+        "shape3d.reverse.flip": true,
+        "2d.movable": false,
+        "3d.movable": false
+      },
+      "a": {
+        "icon-background": "#000000",
+        "icon-borderColor": "#000000",
+        "icon-borderWidth": 0,
+        "ht.vAlign": "middle",
+        "ht.color": "rgb(254,104,0)",
+        "ht.borderColor": "rgb(254,104,0)",
+        "ht.content": "（3D手势/鼠标交互）",
+        "ht.borderWidth": 0,
+        "ht.font": "13px sans-serif, Arial",
+        "ht.background": "rgba(255,106,0,0)",
+        "ht.padding": "5"
+      }
+    }
+  ],
+  "scene": {
+    "eye": [
+      169.29984,
+      857.66515,
+      293.80323
+    ],
+    "center": [
+      166.66006,
+      0.79751,
+      -2.78771
+    ],
+    "near": 10,
+    "far": 10000,
+    "background": "rgb(255,255,255)",
+    "gridVisible": false,
+    "gridSize": 50,
+    "gridGap": 50,
+    "gridColor": [
+      0.4,
+      0.75,
+      0.85,
+      1
+    ],
+    "editHelperDisabled": false,
+    "shadow": false,
+    "shadowParams": {
+      "degreeX": 30,
+      "degreeZ": -10,
+      "intensity": 0.3,
+      "quality": "high",
+      "type": "hard",
+      "radius": 0.1,
+      "bias": -0.005,
+      "bounding": null
+    }
+  }
+}

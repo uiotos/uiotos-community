@@ -1,0 +1,109 @@
+{
+  "modified": "Thu Sep 01 2022 23:24:36 GMT+0800 (中国标准时间)",
+  "background": "rgb(32,37,46)",
+  "dataBindings": [
+    {
+      "attr": "chart.label.visible",
+      "valueType": "Boolean"
+    },
+    {
+      "attr": "chart.label.color",
+      "valueType": "Color"
+    },
+    {
+      "attr": "chart.label.font",
+      "valueType": "String"
+    },
+    {
+      "attr": "chart.hollow",
+      "valueType": "Boolean"
+    },
+    {
+      "attr": "chart.start.angle",
+      "valueType": "String"
+    },
+    {
+      "attr": "chart.values",
+      "valueType": "NumberArray"
+    },
+    {
+      "attr": "chart.colors",
+      "valueType": "ColorArray"
+    },
+    {
+      "attr": "chart.sideColors",
+      "valueType": "Color"
+    },
+    {
+      "attr": "chart.sideVisible",
+      "valueType": "Boolean"
+    },
+    {
+      "attr": "chart.sideTexts",
+      "valueType": "String"
+    },
+    {
+      "attr": "chart.sideTextColor",
+      "valueType": "Color"
+    }
+  ],
+  "renderHTML": "__ht__function(data, gv, cache) {if(!cache.init){\r\n    cache.init = 'done'\r\n    function updateSide(attr,values){//通常是属性key-value，如果要显示隐藏，则attr为null,value为数字，显示几个！\r\n        console.log(attr,values);\r\n        for(var i = 0;i < 7; i++){\r\n            if(attr == null){\r\n                data.ca('pieColor' + i + \".\" + 'chart.sideVisible', i < values);\r\n                data.ca('pieText' + i + \".\" + 'chart.sideVisible', i < values);\r\n            }else{\r\n                data.ca('pieColor' + i + \".\" + attr, values[i]);\r\n                data.ca('pieText' + i + \".\" + attr, values[i]);\r\n            }\r\n        }\r\n    }\r\n    data.dm().md(e => {\r\n        if(e.data == data){\r\n            // //event格式：\r\n            // {\r\n            //     property: 'name',//发生变化的属性\r\n            //     oldValue: 'oldValue',//旧值\r\n            //     newValue: 'newValue',''新值\r\n            //     data: data//发生变化的data\r\n            // }\r\n            switch(e.property){\r\n                case 'a:chart.values':\r\n                    updateSide(null, e.newValue.length);\r\n                    break;\r\n                case 'a:chart.colors':\r\n                    updateSide('chart.sideColors',e.newValue);\r\n                    break;\r\n                case 'a:chart.sideTexts':\r\n                    updateSide('chart.sideTexts',e.newValue);\r\n                    break; \r\n                case 'a:chart.sideTextColor':\r\n                    updateSide('chart.sideTextColor',[\r\n                        chart.sideTextColor,\r\n                        chart.sideTextColor,\r\n                        chart.sideTextColor,\r\n                        chart.sideTextColor,\r\n                        chart.sideTextColor,\r\n                        chart.sideTextColor,\r\n                        chart.sideTextColor\r\n                    ]);\r\n                    break;\r\n            }\r\n        }\r\n    })\r\n}}",
+  "width": 160,
+  "height": 160,
+  "fitSize": true,
+  "comps": [
+    {
+      "type": "pieChart",
+      "label": {
+        "func": "attr@chart.label.visible",
+        "value": true
+      },
+      "labelColor": {
+        "func": "attr@chart.label.color",
+        "value": "rgb(84,105,125)"
+      },
+      "labelFont": {
+        "func": "attr@chart.label.font",
+        "value": "12px arial, sans-serif"
+      },
+      "hollow": {
+        "func": "attr@chart.hollow",
+        "value": true
+      },
+      "startAngle": {
+        "func": "attr@chart.start.angle",
+        "value": 0
+      },
+      "values": {
+        "func": "attr@chart.values",
+        "value": [
+          10,
+          15,
+          20,
+          2,
+          29,
+          12,
+          32
+        ]
+      },
+      "colors": {
+        "func": "attr@chart.colors",
+        "value": [
+          "rgb(51,153,255)",
+          "#60ACFC",
+          "#32D3EB",
+          "rgb(93,217,174)",
+          "rgb(125,195,125)",
+          "rgb(255,235,195)",
+          "#FEB64D"
+        ]
+      },
+      "rect": [
+        0,
+        0,
+        160,
+        160
+      ]
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "modified": "Thu Jul 25 2024 11:30:53 GMT+0800 (中国标准时间)",
+  "background": "rgb(32,37,46)",
+  "dataBindings": [
+    {
+      "attr": "ht.color",
+      "valueType": "Color",
+      "defaultValue": "#32D3EB",
+      "name": "颜色"
+    },
+    {
+      "attr": "value",
+      "valueType": "Number",
+      "defaultValue": 12.5,
+      "name": "文本"
+    }
+  ],
+  "width": 100,
+  "height": 30,
+  "comps": [
+    {
+      "type": "components/demo/textBox/numberPane.json",
+      "displayName": "numberPane（numberPane1）",
+      "rect": [
+        0,
+        0,
+        97.70289,
+        30
+      ],
+      "imgMap": {
+        "45": "symbols/demo/demo/number/-.json",
+        "46": "symbols/demo/demo/number/p.json",
+        "48": "symbols/demo/demo/number/0.json",
+        "49": "symbols/demo/demo/number/1.json",
+        "50": "symbols/demo/demo/number/2.json",
+        "51": "symbols/demo/demo/number/3.json",
+        "52": "symbols/demo/demo/number/4.json",
+        "53": "symbols/demo/demo/number/5.json",
+        "54": "symbols/demo/demo/number/6.json",
+        "55": "symbols/demo/demo/number/7.json",
+        "56": "symbols/demo/demo/number/8.json",
+        "57": "symbols/demo/demo/number/9.json",
+        "58": "symbols/demo/demo/number/colon.json",
+        "8451": "symbols/demo/demo/number/℃.json"
+      },
+      "value": {
+        "func": "attr@value",
+        "value": "12.5"
+      },
+      "textAlign": {
+        "func": "attr@ht.textAlign",
+        "value": "center"
+      },
+      "gap": {
+        "func": "attr@ht.gap",
+        "value": 2
+      },
+      "color": {
+        "func": "attr@ht.color",
+        "value": "rgb(49,210,235)"
+      },
+      "iconHeight": 18,
+      "digitCount": {
+        "func": "attr@ht.digit",
+        "value": 2
+      }
+    }
+  ]
+}

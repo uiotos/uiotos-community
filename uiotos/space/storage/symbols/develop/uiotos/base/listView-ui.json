@@ -1,0 +1,810 @@
+{
+  "modified": "Sun Sep 03 2023 10:40:24 GMT+0800 (中国标准时间)",
+  "background": "rgb(32,37,46)",
+  "dataBindings": [
+    {
+      "attr": "symbol",
+      "valueType": "Image",
+      "group": "TreeTable"
+    },
+    {
+      "attr": "shadowBorder",
+      "valueType": "NumberArray",
+      "defaultValue": [
+        0,
+        0,
+        8
+      ]
+    },
+    {
+      "attr": "shadowColor",
+      "valueType": "Color",
+      "defaultValue": "rgba(102,102,102,0.2)"
+    },
+    {
+      "attr": "shadowEnabled",
+      "valueType": "Boolean",
+      "defaultValue": false
+    },
+    {
+      "attr": "borderWidth",
+      "valueType": "Number",
+      "defaultValue": 0
+    },
+    {
+      "attr": "borderColor",
+      "valueType": "Color",
+      "defaultValue": "rgb(235,235,235)"
+    },
+    {
+      "attr": "borderRadius",
+      "valueType": "PositiveNumber",
+      "defaultValue": 3
+    },
+    {
+      "attr": "lastItems",
+      "valueType": "StringArray",
+      "defaultValue": [
+        "查看",
+        "添加",
+        "删除"
+      ]
+    },
+    {
+      "attr": "lastRootIgnored",
+      "valueType": "NumberArray",
+      "defaultValue": [
+        2
+      ]
+    },
+    {
+      "attr": "lastNodeIgnored",
+      "valueType": "NumberArray",
+      "defaultValue": [
+        0,
+        2
+      ]
+    },
+    {
+      "attr": "lastChildIgnored",
+      "valueType": "NumberArray",
+      "defaultValue": [
+        1
+      ]
+    },
+    {
+      "attr": "lastSingleIgnored",
+      "valueType": "NumberArray"
+    },
+    {
+      "attr": "singleRootOrChild",
+      "valueType": "Boolean",
+      "defaultValue": false
+    },
+    {
+      "attr": "lastItemRowsText",
+      "valueType": "StringArray"
+    },
+    {
+      "attr": "rowsExtraUserInfo",
+      "valueType": "ObjectArray"
+    },
+    {
+      "attr": "lastColorsDefault",
+      "valueType": "ColorArray",
+      "defaultValue": [
+        "rgb(55,125,255)",
+        "rgb(55,125,255)",
+        "rgb(242,83,75)"
+      ]
+    },
+    {
+      "attr": "lastColorsHover",
+      "valueType": "ColorArray",
+      "defaultValue": [
+        "rgb(48,20,166)",
+        "rgb(48,20,166)",
+        "rgb(255,0,0)"
+      ]
+    },
+    {
+      "attr": "lastColorsActive",
+      "valueType": "ColorArray",
+      "defaultValue": [
+        "rgba(48,20,166,0.8)",
+        "rgba(48,20,166,0.8)",
+        "rgab(255,0,0,0.8)"
+      ]
+    },
+    {
+      "attr": "lastGap",
+      "valueType": "Number",
+      "defaultValue": 10
+    },
+    {
+      "attr": "itemsGap",
+      "valueType": "Number",
+      "defaultValue": 10
+    },
+    {
+      "attr": "columns",
+      "valueType": "ObjectArray",
+      "defaultValue": [
+        {
+          "displayName": "序号"
+        },
+        {
+          "displayName": "人员姓名"
+        },
+        {
+          "displayName": "所属公司",
+          "editable": false,
+          "editorClass": "ht.ui.editor.StringEditor"
+        },
+        {
+          "displayName": "人员类型",
+          "editable": true,
+          "editorClass": "ht.ui.editor.StringEditor"
+        },
+        {
+          "displayName": "连接状态",
+          "drawCell": {}
+        },
+        {
+          "displayName": "设备名称",
+          "drawCell": {
+            "width": 25,
+            "height": null
+          }
+        },
+        {
+          "displayName": "通行照片",
+          "editable": true,
+          "drawCell": {
+            "width": null,
+            "height": null
+          }
+        },
+        {
+          "displayName": "运行状态",
+          "editable": true,
+          "drawCell": {}
+        },
+        {
+          "displayName": "操作"
+        }
+      ]
+    },
+    {
+      "attr": "columnWidths",
+      "valueType": "NumberArray",
+      "defaultValue": [
+        75,
+        200,
+        -0.2,
+        80,
+        100,
+        -0.65,
+        -0.35,
+        180,
+        200
+      ]
+    },
+    {
+      "attr": "columnDataFunc",
+      "valueType": "Function",
+      "defaultValue": "__ht__function textColor(nodeData,rowObject, columnObject,colunmIndex, value){\r\n    //返回null则是配置的默认字体颜色\r\n    return colunmIndex == 1 || columnObject.getDisplayName() == '人员类型'? \r\n    contain(value,['异常','错误','故障','非法','北']) ? \r\n    'red' : 'green' : null\r\n}"
+    },
+    {
+      "attr": "showColumnIndex",
+      "valueType": "Boolean",
+      "defaultValue": false
+    },
+    {
+      "attr": "centerAlign",
+      "valueType": "Boolean",
+      "defaultValue": true
+    },
+    {
+      "attr": "datas",
+      "valueType": "Object",
+      "defaultValue": [
+        {
+          "rowData": [
+            "23891212",
+            "南入口出入通道模块",
+            "南入口通道",
+            {
+              "type": "graphView",
+              "display": "displays/admin/uiotos/editor/widgets/cellGraphView.json"
+            },
+            [
+              {
+                "type": "image",
+                "icon": "symbols/demo/uiotos/icons/light/address-book.json"
+              },
+              {
+                "type": "image",
+                "icon": "symbols/demo/uiotos/icons/light/amp-guitar.json"
+              }
+            ],
+            "正常通行",
+            {
+              "type": "graphView",
+              "display": "displays/admin/uiotos/editor/widgets/cellGraphViewMutiple.json"
+            }
+          ],
+          "children": [
+            {
+              "rowData": [
+                "23891212",
+                "北入口通道出入模块",
+                "北入口通道",
+                {
+                  "type": "graphView",
+                  "display": "displays/admin/uiotos/editor/widgets/cellGraphView.json"
+                },
+                [
+                  {
+                    "type": "image",
+                    "icon": "symbols/demo/uiotos/icons/light/ambulance.json"
+                  },
+                  {
+                    "type": "image",
+                    "icon": "symbols/demo/uiotos/icons/light/american-sign-language-interpreting.json"
+                  },
+                  {
+                    "type": "image",
+                    "icon": "symbols/demo/uiotos/icons/light/american-sign-language-interpreting.json"
+                  },
+                  {
+                    "type": "image",
+                    "icon": "symbols/demo/uiotos/icons/light/american-sign-language-interpreting.json"
+                  }
+                ],
+                "正常"
+              ],
+              "children": [
+                [
+                  "23891212",
+                  "西门出入口",
+                  "1号门",
+                  {
+                    "type": "graphView",
+                    "display": "displays/admin/uiotos/editor/widgets/cellGraphView.json"
+                  },
+                  {
+                    "type": "image",
+                    "icon": "symbols/demo/uiotos/icons/light/address-book.json"
+                  },
+                  [
+                    {
+                      "type": "image",
+                      "icon": "assets/demo/fcj/403db210783cba7d2720ac2852122342.png"
+                    },
+                    {
+                      "type": "image",
+                      "icon": "symbols/demo/uiotos/icons/light/address-book.json"
+                    }
+                  ],
+                  "测试",
+                  {
+                    "type": "graphView",
+                    "display": "displays/admin/uiotos/editor/widgets/cellGraphViewMutiple.json"
+                  }
+                ],
+                [
+                  "23891212",
+                  "北入口通道出入模块",
+                  "北入口通道",
+                  {
+                    "type": "graphView",
+                    "display": "displays/admin/uiotos/editor/widgets/cellGraphView.json"
+                  },
+                  [
+                    {
+                      "type": "image",
+                      "icon": "symbols/demo/uiotos/icons/light/amp-guitar.json"
+                    },
+                    {
+                      "type": "image",
+                      "icon": "symbols/demo/uiotos/icons/light/amp-guitar.json"
+                    },
+                    {
+                      "type": "image",
+                      "icon": "symbols/demo/uiotos/icons/light/amp-guitar.json"
+                    },
+                    {
+                      "type": "image",
+                      "icon": "symbols/demo/uiotos/icons/light/amp-guitar.json"
+                    },
+                    {
+                      "type": "image",
+                      "icon": "symbols/demo/uiotos/icons/light/american-sign-language-interpreting.json"
+                    },
+                    {
+                      "type": "image",
+                      "icon": "symbols/demo/uiotos/icons/light/american-sign-language-interpreting.json"
+                    },
+                    {
+                      "type": "image",
+                      "icon": "symbols/demo/uiotos/icons/light/american-sign-language-interpreting.json"
+                    }
+                  ],
+                  "非法通行",
+                  {
+                    "type": "graphView",
+                    "display": "displays/admin/uiotos/editor/widgets/cellGraphView.json"
+                  }
+                ]
+              ]
+            }
+          ]
+        },
+        [
+          "23891212",
+          "西门出入口",
+          "1号门",
+          {
+            "type": "graphView",
+            "display": "displays/admin/uiotos/editor/widgets/cellGraphView.json"
+          },
+          {
+            "type": "image",
+            "icon": "symbols/demo/uiotos/icons/light/address-book.json"
+          },
+          [
+            {
+              "type": "image",
+              "icon": "assets/demo/fcj/403db210783cba7d2720ac2852122342.png"
+            },
+            {
+              "type": "image",
+              "icon": "symbols/demo/uiotos/icons/light/address-book.json"
+            }
+          ],
+          "测试",
+          {
+            "type": "graphView",
+            "display": "displays/admin/uiotos/editor/widgets/cellGraphViewMutiple.json"
+          }
+        ],
+        [
+          "23891212",
+          "1门出入口",
+          "2号门",
+          {
+            "type": "graphView",
+            "display": "displays/admin/uiotos/editor/widgets/cellGraphView.json"
+          },
+          {
+            "type": "image",
+            "icon": "symbols/demo/uiotos/icons/light/address-book.json"
+          },
+          [
+            {
+              "type": "image",
+              "icon": "assets/demo/fcj/403db210783cba7d2720ac2852122342.png"
+            },
+            {
+              "type": "image",
+              "icon": "symbols/demo/uiotos/icons/light/address-book.json"
+            }
+          ],
+          "测试2",
+          {
+            "type": "graphView",
+            "display": "displays/admin/uiotos/editor/widgets/cellGraphViewMutiple.json"
+          }
+        ],
+        [
+          "23891212",
+          "北入口通道出入模块",
+          "北入口通道",
+          {
+            "type": "graphView",
+            "display": "displays/admin/uiotos/editor/widgets/cellGraphView.json"
+          },
+          [
+            {
+              "type": "image",
+              "icon": "symbols/demo/uiotos/icons/light/amp-guitar.json"
+            },
+            {
+              "type": "image",
+              "icon": "symbols/demo/uiotos/icons/light/amp-guitar.json"
+            },
+            {
+              "type": "image",
+              "icon": "symbols/demo/uiotos/icons/light/amp-guitar.json"
+            },
+            {
+              "type": "image",
+              "icon": "symbols/demo/uiotos/icons/light/amp-guitar.json"
+            },
+            {
+              "type": "image",
+              "icon": "symbols/demo/uiotos/icons/light/american-sign-language-interpreting.json"
+            },
+            {
+              "type": "image",
+              "icon": "symbols/demo/uiotos/icons/light/american-sign-language-interpreting.json"
+            },
+            {
+              "type": "image",
+              "icon": "symbols/demo/uiotos/icons/light/american-sign-language-interpreting.json"
+            }
+          ],
+          "非法通行",
+          {
+            "type": "graphView",
+            "display": "displays/admin/uiotos/editor/widgets/cellGraphView.json"
+          }
+        ],
+        {
+          "rowData": [
+            "23891212",
+            "南入口出入通道模块",
+            "南入口通道",
+            {
+              "type": "graphView",
+              "display": "displays/admin/uiotos/editor/widgets/cellGraphView.json"
+            },
+            [
+              {
+                "type": "image",
+                "icon": "symbols/demo/uiotos/icons/light/address-book.json"
+              },
+              {
+                "type": "image",
+                "icon": "symbols/demo/uiotos/icons/light/amp-guitar.json"
+              }
+            ],
+            "正常通行",
+            {
+              "type": "graphView",
+              "display": "displays/admin/uiotos/editor/widgets/cellGraphViewMutiple.json"
+            }
+          ],
+          "children": [
+            {
+              "rowData": [
+                "23891212",
+                "北入口通道出入模块",
+                "北入口通道",
+                {
+                  "type": "graphView",
+                  "display": "displays/admin/uiotos/editor/widgets/cellGraphView.json"
+                },
+                [
+                  {
+                    "type": "image",
+                    "icon": "symbols/demo/uiotos/icons/light/ambulance.json"
+                  },
+                  {
+                    "type": "image",
+                    "icon": "symbols/demo/uiotos/icons/light/american-sign-language-interpreting.json"
+                  },
+                  {
+                    "type": "image",
+                    "icon": "symbols/demo/uiotos/icons/light/american-sign-language-interpreting.json"
+                  },
+                  {
+                    "type": "image",
+                    "icon": "symbols/demo/uiotos/icons/light/american-sign-language-interpreting.json"
+                  }
+                ],
+                "正常"
+              ],
+              "children": []
+            }
+          ]
+        },
+        [
+          "23891212",
+          "北入口通道出入模块",
+          "北入口通道",
+          {
+            "type": "graphView",
+            "display": "displays/admin/uiotos/editor/widgets/cellGraphView.json"
+          },
+          [
+            {
+              "type": "image",
+              "icon": "symbols/demo/uiotos/icons/light/ambulance.json"
+            },
+            {
+              "type": "image",
+              "icon": "symbols/demo/uiotos/icons/light/american-sign-language-interpreting.json"
+            },
+            {
+              "type": "image",
+              "icon": "symbols/demo/uiotos/icons/light/american-sign-language-interpreting.json"
+            },
+            {
+              "type": "image",
+              "icon": "symbols/demo/uiotos/icons/light/american-sign-language-interpreting.json"
+            }
+          ],
+          "正常"
+        ]
+      ]
+    },
+    {
+      "attr": "dataAdd",
+      "valueType": "Object"
+    },
+    {
+      "attr": "visibleFilterInput",
+      "valueType": "String"
+    },
+    {
+      "attr": "dataComboType",
+      "valueType": "Object"
+    },
+    {
+      "attr": "rowLineVisible",
+      "valueType": "Boolean",
+      "defaultValue": false
+    },
+    {
+      "attr": "columnLineVisible",
+      "valueType": "Boolean",
+      "defaultValue": true
+    },
+    {
+      "attr": "background",
+      "valueType": "Color",
+      "defaultValue": "rgb(255,255,255)"
+    },
+    {
+      "attr": "emptyDefaultIcon",
+      "valueType": "Image",
+      "defaultValue": "symbols/develop/uiotos/icons/common/empty2.json"
+    },
+    {
+      "attr": "emptyIconOpacity",
+      "valueType": "Opacity",
+      "defaultValue": 1
+    },
+    {
+      "attr": "emptyIconSizeScale",
+      "valueType": "Percentage",
+      "defaultValue": 0.6
+    },
+    {
+      "attr": "allRowsIdGet",
+      "valueType": "NumberArray"
+    },
+    {
+      "attr": "allRowsIndexGet",
+      "valueType": "NumberArray"
+    },
+    {
+      "attr": "selectAllSet",
+      "valueType": "Boolean",
+      "defaultValue": false
+    },
+    {
+      "attr": "checkMode",
+      "valueType": "Level",
+      "defaultValue": 0
+    },
+    {
+      "attr": "multiSelect",
+      "valueType": "Boolean",
+      "defaultValue": true
+    },
+    {
+      "attr": "currentIdSelect",
+      "valueType": "PositiveNumber"
+    },
+    {
+      "attr": "checkSelected",
+      "valueType": "ObjectArray"
+    },
+    {
+      "attr": "checkIndexsGet",
+      "valueType": "ObjectArray"
+    },
+    {
+      "attr": "fieldQueryRely",
+      "valueType": "String"
+    },
+    {
+      "attr": "queryMatched",
+      "valueType": "StringArray"
+    },
+    {
+      "attr": "dragDropEnable",
+      "valueType": "Boolean",
+      "defaultValue": false
+    },
+    {
+      "attr": "dropLineColor",
+      "valueType": "Color",
+      "defaultValue": "rgb(55,125,255)"
+    },
+    {
+      "attr": "rowBackground",
+      "valueType": "ColorArray",
+      "defaultValue": [
+        "rgb(255,255,255)",
+        "rgba(55,125,255,0.05)",
+        "rgba(55,125,255,0.1)"
+      ]
+    },
+    {
+      "attr": "rowStriped",
+      "valueType": "Boolean",
+      "defaultValue": true
+    },
+    {
+      "attr": "stripeColors",
+      "valueType": "ColorArray",
+      "defaultValue": [
+        "rgba(245,245,245,1)",
+        "rgba(255,255,255)"
+      ]
+    },
+    {
+      "attr": "rowHeight",
+      "valueType": "PositiveNumber",
+      "defaultValue": 35
+    },
+    {
+      "attr": "expandAll",
+      "valueType": "Boolean",
+      "defaultValue": true
+    },
+    {
+      "attr": "headerHeight",
+      "valueType": "PositiveNumber",
+      "defaultValue": 40
+    },
+    {
+      "attr": "idColumnVisible",
+      "valueType": "Boolean",
+      "defaultValue": true
+    },
+    {
+      "attr": "tableTextColor",
+      "valueType": "ColorArray",
+      "defaultValue": [
+        "black",
+        "rgb(64,64,64)"
+      ]
+    },
+    {
+      "attr": "copyTypeTextColor",
+      "valueType": "Color",
+      "defaultValue": "rgb(13,24,97)"
+    },
+    {
+      "attr": "hoverTextIcon",
+      "valueType": "Image"
+    },
+    {
+      "attr": "hoverTextIconText",
+      "valueType": "String",
+      "defaultValue": "复制"
+    },
+    {
+      "attr": "hoverTextScale",
+      "valueType": "Number",
+      "defaultValue": 1
+    },
+    {
+      "attr": "hoverTextIconSize",
+      "valueType": "NumberArray",
+      "defaultValue": [
+        40,
+        18
+      ]
+    },
+    {
+      "attr": "hoverTextIconColor",
+      "valueType": "Color",
+      "defaultValue": "rgb(55,125,255)"
+    },
+    {
+      "attr": "font",
+      "valueType": "Font"
+    },
+    {
+      "attr": "pageButtonCount",
+      "valueType": "PositiveNumber",
+      "defaultValue": 3
+    },
+    {
+      "attr": "reload",
+      "valueType": "Boolean",
+      "defaultValue": false
+    },
+    {
+      "attr": "rowsIdReset",
+      "valueType": "Boolean",
+      "defaultValue": false
+    },
+    {
+      "attr": "pagesBottomVisible",
+      "valueType": "Boolean",
+      "defaultValue": true
+    },
+    {
+      "attr": "headerVisible",
+      "valueType": "Boolean",
+      "defaultValue": true
+    },
+    {
+      "attr": "bindControlsTag",
+      "valueType": "StringArray",
+      "group": "bindControls"
+    },
+    {
+      "attr": "bindControlsAttr",
+      "valueType": "StringArray"
+    },
+    {
+      "attr": "bindControlsVal",
+      "valueType": "ObjectArray",
+      "description": "静态值。也用作数组索引、JSON对象解析提取值用途。\n<br>\n一、静态值用途：\n<br>对常规类型的属性赋值且没有反向关联属性值，传入为数值时，\n<br>不会作为数组的索引，而会当成常量值对外赋值。\n<br>\n二、数组索引用途\n<br>情况1：被操作的组件属性原先值是数组时（包括空数组），会\n<br>将待输出的值作为被操作数组指定索引的值来传入，而不是整体\n<br>覆盖。\n<br>\n情况2：如果要被操作的组件属性原先值不是数组，而且待输出的\n<br>值为数组类型并且长度也在索引范围内，那么会按照索引取自身数\n<br>组指定元素再对外输出。（如果想要取待输出索引值，赋值给被操\n<br>纵属性的指定索引，那么需要中间组件属性连线过渡以下，无法直\n<br>接操作）\n<br>\n情况3：如果要被操作的组件属性是数组，而且待输出的值也是数组\n<br>类型，此时当情况1来处理。\n<br>\n三、数据解析用途：\n<br>待输出的值为JSON对象时，用x.y.z这种以字符.或者>为间隔的方式\n<br>实现对JSON字段层次逐层定位，当是数组时x.0.y.1这种以数字的方\n<br>式来指定数组的某个索引。以此实现对任意结果JSON对象字段的定\n<br>位，获取结构内指定字段对应的值。"
+    },
+    {
+      "attr": "paramControlTag",
+      "valueType": "StringArray"
+    },
+    {
+      "attr": "paramControlAttr",
+      "valueType": "StringArray"
+    },
+    {
+      "attr": "paramsGenerator",
+      "valueType": "Function",
+      "defaultValue": "__ht__function(data, val, index, node,oldVal,form) {//绑定组索引对应的函数处理，用来动态生成复杂的参数变量传入\r\nswitch(index){\r\n    case 0:\r\n        break;\r\n    case 1:\r\n        break;\r\n    case 2:\r\n        break;\r\n    default:\r\n        break;\r\n}\r\n\r\nreturn val;}",
+      "extraInfo": {
+        "arguments": [
+          "data",
+          "val",
+          "index",
+          "node",
+          "oldVal",
+          "form",
+          "type"
+        ]
+      }
+    },
+    {
+      "attr": "onClick",
+      "valueType": "Function",
+      "extraInfo": {
+        "arguments": [
+          "data",
+          "gv",
+          "cache",
+          "rowData",
+          "button"
+        ]
+      }
+    },
+    {
+      "attr": "onCheck",
+      "valueType": "Function",
+      "extraInfo": {
+        "arguments": [
+          "data",
+          "gv",
+          "cache",
+          "selected"
+        ]
+      }
+    }
+  ],
+  "renderHTML": "__ht__function(data, gv, cache) {return __treeTable_ui(data, gv, cache);}",
+  "width": 1200,
+  "height": 400,
+  "fitSize": true,
+  "interactive": true,
+  "pixelPerfect": false,
+  "comps": []
+}

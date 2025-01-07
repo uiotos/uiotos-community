@@ -1,0 +1,73 @@
+{
+  "modified": "Tue Jun 04 2024 16:30:24 GMT+0800 (中国标准时间)",
+  "dataBindings": [
+    {
+      "attr": "symbol",
+      "valueType": "Image"
+    },
+    {
+      "attr": "dataSource",
+      "valueType": "Object",
+      "defaultValue": [
+        {
+          "icon": "icon",
+          "hoverIcon": "hoverIcon",
+          "acctiveIcon": "activeIcon",
+          "text": "首页"
+        },
+        {
+          "icon": "icon",
+          "text": "资产管理"
+        },
+        {
+          "icon": "icon",
+          "text": "资产录入"
+        }
+      ],
+      "group": "数据",
+      "description": "数据源。"
+    },
+    {
+      "attr": "itemGap",
+      "valueType": "PositiveNumber",
+      "defaultValue": 5,
+      "description": "各项之间的间隙。",
+      "group": "外观"
+    },
+    {
+      "attr": "color",
+      "valueType": "Color",
+      "defaultValue": "rgb(0,0,0)"
+    },
+    {
+      "attr": "borderColor",
+      "valueType": "Color",
+      "defaultValue": "rgb(213,213,213)"
+    },
+    {
+      "attr": "borderWidth",
+      "valueType": "PositiveNumber",
+      "defaultValue": 1
+    },
+    {
+      "attr": "itemTextFont",
+      "valueType": "Font",
+      "description": "字体"
+    },
+    {
+      "attr": "selectItemBackground",
+      "valueType": "Color",
+      "defaultValue": "rgb(247,247,247)",
+      "description": "选中项的背景颜色。"
+    }
+  ],
+  "snapshotURL": "symbols\\develop\\uiotos\\arranged\\controls\\forms_icon\\面包屑.json",
+  "onEnter": "__ht__function(event, data, view, point, width, height) {\nview.getView().style.cursor = 'pointer'\n}",
+  "onLeave": "__ht__function(event, data, view, point, width, height) {\nview.getView().style.cursor = 'default'\n}",
+  "renderHTML": "__ht__function(data, gv, cache) {return __breadcrumb_ui(data, gv, cache);}",
+  "width": 300,
+  "height": 20,
+  "interactive": true,
+  "pixelPerfect": false,
+  "comps": []
+}

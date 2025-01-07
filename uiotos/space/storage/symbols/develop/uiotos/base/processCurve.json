@@ -1,0 +1,138 @@
+{
+  "modified": "Sat Aug 27 2022 09:08:18 GMT+0800 (中国标准时间)",
+  "background": "rgb(32,37,46)",
+  "dataBindings": [
+    {
+      "attr": "borderWidth",
+      "valueType": "PositiveNumber"
+    },
+    {
+      "attr": "borderColor",
+      "valueType": "Color"
+    },
+    {
+      "attr": "border3d",
+      "valueType": "Boolean"
+    },
+    {
+      "attr": "border3dColor",
+      "valueType": "Color"
+    },
+    {
+      "attr": "gradientColor",
+      "valueType": "Color"
+    },
+    {
+      "attr": "arcFrom",
+      "valueType": "Number"
+    },
+    {
+      "attr": "arcTo",
+      "valueType": "Number"
+    },
+    {
+      "attr": "shadow",
+      "valueType": "Boolean"
+    },
+    {
+      "attr": "text",
+      "valueType": "String",
+      "defaultValue": "文本"
+    },
+    {
+      "attr": "align",
+      "valueType": "Align"
+    },
+    {
+      "attr": "vAlign",
+      "valueType": "VAlign"
+    },
+    {
+      "attr": "color",
+      "valueType": "Color"
+    },
+    {
+      "attr": "font",
+      "valueType": "String"
+    }
+  ],
+  "width": 200,
+  "height": 200,
+  "fitSize": true,
+  "comps": [
+    {
+      "type": "arc",
+      "borderWidth": {
+        "func": "attr@borderWidth",
+        "value": 12
+      },
+      "borderColor": {
+        "func": "attr@borderColor",
+        "value": "rgba(245,51,51,0.8)"
+      },
+      "border3d": {
+        "func": "attr@border3d",
+        "value": false
+      },
+      "border3dColor": {
+        "func": "attr@border3dColor",
+        "value": "rgb(102,38,38)"
+      },
+      "borderCap": "round",
+      "gradientColor": {
+        "func": "attr@gradientColor",
+        "value": "#FFF"
+      },
+      "arcFrom": {
+        "func": "attr@arcFrom",
+        "value": 0
+      },
+      "arcTo": {
+        "func": "attr@arcTo",
+        "value": 4.10152
+      },
+      "arcClose": false,
+      "shadow": {
+        "func": "attr@shadow",
+        "value": true
+      },
+      "shadowColor": "rgb(17,20,20)",
+      "rotation": 4.71239,
+      "rect": [
+        9.12189,
+        0.51596,
+        180.72449,
+        198.96808
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@text",
+        "value": "文本"
+      },
+      "align": {
+        "func": "attr@align",
+        "value": "center"
+      },
+      "vAlign": {
+        "func": "attr@vAlign",
+        "value": "middle"
+      },
+      "color": {
+        "func": "attr@color",
+        "value": "#ddd"
+      },
+      "font": {
+        "func": "attr@font",
+        "value": "32px arial, sans-serif"
+      },
+      "rect": [
+        59.5221,
+        68.04443,
+        80.95581,
+        63.91113
+      ]
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "modified": "Wed Apr 24 2024 23:54:54 GMT+0800 (中国标准时间)",
+  "dataBindings": [
+    {
+      "attr": "icon-background",
+      "valueType": "Color"
+    },
+    {
+      "attr": "icon-borderWidth",
+      "valueType": "PositiveNumber"
+    },
+    {
+      "attr": "icon-borderColor",
+      "valueType": "Color"
+    }
+  ],
+  "width": 45,
+  "height": 45,
+  "comps": [
+    {
+      "type": "shape",
+      "background": {
+        "func": "attr@icon-background",
+        "value": "rgba(55,125,255)"
+      },
+      "borderWidth": {
+        "func": "attr@icon-borderWidth",
+        "value": 0
+      },
+      "borderColor": {
+        "func": "attr@icon-borderColor",
+        "value": null
+      },
+      "anchorX": 0,
+      "anchorY": 0,
+      "scaleX": 4.5,
+      "scaleY": 4.5,
+      "points": [
+        0,
+        9.16687,
+        10,
+        9.16687,
+        10,
+        10,
+        0,
+        10,
+        0,
+        9.16687,
+        2.5,
+        0,
+        2.5,
+        8.33313,
+        0,
+        8.33313,
+        0,
+        0,
+        2.5,
+        0,
+        10,
+        0,
+        10,
+        8.33313,
+        7.5,
+        8.33313,
+        7.5,
+        0,
+        10,
+        0,
+        6.25,
+        1.66687,
+        6.25,
+        8.33313,
+        3.75,
+        8.33313,
+        3.75,
+        1.66687,
+        6.25,
+        1.66687
+      ],
+      "segments": [
+        1,
+        2,
+        2,
+        2,
+        2,
+        5,
+        1,
+        2,
+        2,
+        2,
+        2,
+        5,
+        1,
+        2,
+        2,
+        2,
+        2,
+        5,
+        1,
+        2,
+        2,
+        2,
+        2,
+        5
+      ]
+    }
+  ]
+}

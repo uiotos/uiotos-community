@@ -1,0 +1,97 @@
+{
+  "modified": "Mon Mar 04 2024 19:19:47 GMT+0800 (中国标准时间)",
+  "background": "rgb(32,37,46)",
+  "dataBindings": [
+    {
+      "attr": "shadowColorDefault",
+      "valueType": "Color",
+      "defaultValue": "rgba(0,0,0,0.10)"
+    },
+    {
+      "attr": "shadowColorHover",
+      "valueType": "Color",
+      "defaultValue": "rgba(55,125,255,0.3)"
+    },
+    {
+      "attr": "shadowblur",
+      "valueType": "PositiveNumber",
+      "defaultValue": 5
+    },
+    {
+      "attr": "shadowOffsetX",
+      "valueType": "PositiveNumber",
+      "defaultValue": 0
+    },
+    {
+      "attr": "shadowOffsetYs",
+      "valueType": "PositiveNumber",
+      "defaultValue": 5
+    },
+    {
+      "attr": "scale",
+      "valueType": "Number",
+      "defaultValue": 1
+    },
+    {
+      "attr": "toolTip",
+      "valueType": "Multiline"
+    },
+    {
+      "attr": "background",
+      "valueType": "Color",
+      "defaultValue": "rgb(255,255,255)"
+    }
+  ],
+  "onEnter": "__ht__function(event, data, view, point, width, height) {\ndata.ca('shadowColor',data.ca('shadowColorHover'))\n}",
+  "onLeave": "__ht__function(event, data, view, point, width, height) {\ndata.ca('shadowColor',data.ca('shadowColorDefault'))\n}",
+  "renderHTML": "__ht__function(data, gv, cache) {if(!cache.init){\r\n    cache.init = 'done'\r\n    \r\n    /*240304，所以渲染元素最简，都需要加上这句调用，否则连线赋值时，判断\r\n    i.hasInnerSymbolInited()识别渲染元素是否初始化就极可能识别判断失误！*/\r\n    cache = _i.innerRecoveredDataCache(data, cache); \r\n    \r\n    data.setToolTip(data.ca('toolTip'));\r\n    data.ca('shadowColor',data.ca('shadowColorDefault'));\r\n    data.dm().md(e => {\r\n        if(e.data == data){\r\n            // //event格式：\r\n            // {\r\n            //     property: 'name',//发生变化的属性\r\n            //     oldValue: 'oldValue',//旧值\r\n            //     newValue: 'newValue',''新值\r\n            //     data: data//发生变化的data\r\n            // }\r\n            switch(e.property){\r\n                case 'a:shadowColorDefault':\r\n                    data.ca('shadowColor',e.newValue);\r\n                    break;\r\n            }\r\n        }\r\n    })\r\n}}",
+  "width": 398,
+  "height": 207,
+  "fitSize": true,
+  "clip": true,
+  "comps": [
+    {
+      "type": "roundRect",
+      "background": {
+        "func": "attr@background",
+        "value": "rgb(255,255,255)"
+      },
+      "borderColor": "rgb(138,138,138)",
+      "cornerRadius": 8,
+      "layoutH": "leftright",
+      "layoutV": "topbottom",
+      "shadow": true,
+      "shadowColor": {
+        "func": "attr@shadowColor",
+        "value": "rgba(0,0,0,0.1)"
+      },
+      "shadowBlur": {
+        "func": "attr@shadowblur",
+        "value": 44
+      },
+      "shadowOffsetX": {
+        "func": "attr@shadowOffsetX",
+        "value": 0
+      },
+      "shadowOffsetY": {
+        "func": "attr@shadowOffsetYs",
+        "value": 16
+      },
+      "displayName": "节点",
+      "scaleX": {
+        "func": "attr@scale",
+        "value": 1
+      },
+      "scaleY": {
+        "func": "attr@scale",
+        "value": 1
+      },
+      "rect": [
+        10.56021,
+        10.20298,
+        376.87958,
+        182.53899
+      ]
+    }
+  ]
+}

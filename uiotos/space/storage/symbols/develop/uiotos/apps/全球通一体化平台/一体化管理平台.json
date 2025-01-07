@@ -1,0 +1,44 @@
+{
+    "modified": "Tue Aug 23 2022 14:13:10 GMT+0800 (中国标准时间)",
+    "background": "rgb(32,37,46)",
+    "dataBindings": [{
+        "attr": "icon.icon-background",
+        "valueType": "Color"
+    }],
+    "width": 200,
+    "height": 60,
+    "fitSize": true,
+    "comps": [{
+            "type": "rect",
+            "background": "rgb(19,34,66)",
+            "borderColor": "rgb(247,247,247)",
+            "rect": [
+                0, -0.55559,
+                200,
+                60.5432
+            ]
+        },
+        {
+            "type": "image",
+            "name": "symbols/demo/uiotos/icons/common/Building-1.json",
+            "prefix": "icon",
+            "rect": [
+                11.3137,
+                12.758,
+                32.4968,
+                29.60819
+            ]
+        },
+        {
+            "type": "text",
+            "text": "一体化管理平台",
+            "font": "18px arial, sans-serif",
+            "rect": [
+                52.40717,
+                4.71601,
+                50,
+                50
+            ]
+        }
+    ]
+}
